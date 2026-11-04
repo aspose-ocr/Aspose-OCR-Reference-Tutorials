@@ -593,6 +593,12 @@ ASP.NET Core projelerinde OCR'ı adım adım uygulayarak metin tanımayı kolayc
 C# kullanarak PNG dosyalarından metin çıkarmayı adım adım öğrenin ve Aspose OCR'ın tüm özelliklerinden faydalanın.
 ### [Korece Dil OCR'ı Aspose ile: Görüntüyü PDF'ye Dönüştür ve C#'ta Metin Çıkar](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 C# kullanarak Aspose OCR ile Korece metni PDF'ye dönüştürüp metni çıkarın. Adım adım kılavuz.
+### [Aspose OCR ile Görüntüden Metin Çıkarma – Kiril](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Aspose OCR kullanarak Kiril alfabesindeki metinleri görüntülerden doğru şekilde çıkarın ve .NET uygulamalarınızda kullanın.
+### [C# ile Görüntüyü ePub'a Dönüştür – Tam Adım Adım Kılavuz](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+C# kullanarak görüntüleri ePub formatına dönüştürmeyi adım adım öğrenin ve uygulamalarınıza dinamik e-kitap desteği ekleyin.
+### [Aspose OCR ile JPG'den Çevrimdışı Metin Çıkarma](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Aspose OCR kullanarak JPG dosyalarından internet bağlantısı olmadan metin çıkarın ve .NET uygulamalarınızda kullanın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

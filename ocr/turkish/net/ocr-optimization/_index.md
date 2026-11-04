@@ -259,6 +259,10 @@ C# kullanarak eğimli görüntüleri düzleştirerek OCR doğruluğunu artırın
 Aspose.OCR for .NET kullanarak C# ile tam bir görüntüde OCR çalıştırma rehberi.
 ### [C# ile Görüntüyü Düzleştirme – Tam OCR Ön İşleme Rehberi](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Aspose.OCR for .NET ile eğriltme hatasını giderin, görüntüyü düzleştirerek OCR doğruluğunu artırın.
+### [C#'da OCR güven puanları – Tam Kılavuz](./ocr-confidence-scores-in-c-complete-guide/)
+C# ile OCR güven puanlarını alıp, tanıma doğruluğunu analiz etmeyi adım adım öğrenin.
+### [C#'da OCR için Görüntü Ön İşleme – Tam Aspose OCR Kılavuzu](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+C# ile görüntüleri ön işleyerek OCR doğruluğunu artırın. Tam kılavuzda adım adım örnekler bulunur.
 
 ## Sıkça Sorulan Sorular
 

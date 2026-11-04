@@ -600,6 +600,12 @@ Pelajari cara melakukan OCR di ASP.NET Core dengan panduan lengkap langkah demi 
 Pelajari cara mengenali teks dari file PNG menggunakan Aspose OCR dalam panduan lengkap C#.
 ### [OCR Bahasa Korea dengan Aspose: Konversi Gambar ke PDF dan Ekstrak Teks di C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Pelajari cara melakukan OCR bahasa Korea, mengonversi gambar ke PDF, dan mengekstrak teks menggunakan Aspose di C#.
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Cyrillic](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Ekstrak teks Cyrillic dari gambar menggunakan Aspose OCR dalam .NET dengan panduan langkah demi langkah.
+### [Mengonversi Gambar ke ePub di C# – Panduan Lengkap Langkah demi Langkah](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Pelajari cara mengubah gambar menjadi file ePub menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Cara Menggunakan Aspose OCR untuk Mengekstrak Teks dari JPG Secara Offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Pelajari cara mengekstrak teks dari file JPG secara offline menggunakan Aspose OCR dalam aplikasi .NET Anda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

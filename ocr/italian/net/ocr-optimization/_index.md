@@ -282,6 +282,10 @@ Scopri come raddrizzare le immagini in C# per migliorare l'accuratezza OCR con A
 Scopri come eseguire OCR su un'immagine con una guida completa in C#, includendo configurazioni avanzate e salvataggio dei risultati.
 ### [Come raddrizzare un'immagine in C# – Guida completa alla pre‑elaborazione OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Scopri come raddrizzare le immagini in C# prima dell'OCR, migliorando la precisione con filtri di correzione dell'inclinazione.
+### [Punteggi di confidenza OCR in C# – Guida completa](./ocr-confidence-scores-in-c-complete-guide/)
+Scopri come ottenere e utilizzare i punteggi di confidenza OCR con Aspose.OCR in C#, per migliorare l'accuratezza e filtrare i risultati.
+### [Preelaborazione immagine per OCR in C# – Guida completa](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Scopri come pre‑elaborare le immagini per migliorare l'OCR con Aspose.OCR in C#, includendo filtri, binarizzazione e correzione inclinazione.
 
 ## Domande Frequenti
 

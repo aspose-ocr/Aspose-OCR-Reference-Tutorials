@@ -89,6 +89,8 @@ Fedezze fel, hogyan csökkentheti a zajt és növelheti az OCR pontosságát egy
 
 ### [Képek kiegyenesítése – Aspose OCR előfeldolgozási útmutató](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
 Ismerje meg, hogyan használhatja a képek kiegyenesítését az Aspose.OCR előfeldolgozásában a pontosság növelése érdekében.
+### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes Aspose OCR útmutató](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Ismerje meg, hogyan készítheti elő a képeket az OCR-hez C#‑ban az Aspose.OCR segítségével a maximális pontosság érdekében.
 
 ### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
 Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.
@@ -210,9 +212,6 @@ Fedezze fel, hogyan ismerje fel a kínai nyelvű szöveget képeken C#‑ban az 
 ### [Képek kiegyenesítése és szöveg kinyerése C#‑ban – Teljes útmutató](./how-to-deskew-image-and-extract-text-in-c-complete-guide/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t képek kiegyenesítésére és szöveg kinyerésére C#‑ban, a legjobb pontosság érdekében.
 
-### [Kötegelt OCR C#‑ban – Teljes programozási útmutató](./how-to-batch-ocr-in-c-complete-programming-guide/)
-Ismerje meg, hogyan hajthat végre kötegelt OCR feldolgozást C#‑ban az Aspose.OCR for .NET segítségével, lépésről‑lépésre útmutatóval.
-
 ### [GPU-val történő OCR futtatása képen – C# Aspose OCR útmutató](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 Ismerje meg, hogyan használhatja a GPU gyorsítást az OCR-hoz C#-ban az Aspose.OCR segítségével.
 
@@ -304,6 +303,11 @@ Fedezze fel, hogyan lehet a képeket egyenesre állítani C#‑ban az Aspose.OCR
 Fedezze fel a teljes C# útmutatót az OCR képen történő futtatásához az Aspose.OCR for .NET segítségével.
 
 ### [Képek kiegyenesítése C#‑ban – Teljes OCR előfeldolgozási útmutató](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+### [OCR bizonyossági pontszámok C#‑ban – Teljes útmutató](./ocr-confidence-scores-in-c-complete-guide/)
+Ismerje meg, hogyan használhatja az OCR biztonsági pontszámokat C#‑ban az Aspose.OCR for .NET segítségével a pontosság nyomon követéséhez és optimalizálásához.
+
+### [Kötegelt OCR C#‑ban – Teljes programozási útmutató](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Fedezze fel, hogyan hajthat végre kötegelt OCR‑t C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutató.
 
 ## Gyakran Ismételt Kérdések
 

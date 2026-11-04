@@ -280,6 +280,10 @@ Lernen Sie, wie Sie schiefe Bilder in C# entzerren und die OCR‑Genauigkeit erh
 Erfahren Sie, wie Sie Bildverzerrungen korrigieren und die OCR‑Genauigkeit mit einer umfassenden C#‑Entzerrungs‑Anleitung steigern.
 ### [OCR auf Bild ausführen – Vollständiger C#‑Leitfaden](./run-ocr-on-image-complete-c-guide/)
 Erfahren Sie, wie Sie OCR in C# vollständig implementieren und Ergebnisse effizient verarbeiten.
+### [OCR‑Vertrauenswerte in C# – Komplett‑Leitfaden](./ocr-confidence-scores-in-c-complete-guide/)
+Erfahren Sie, wie Sie OCR‑Vertrauenswerte in C# auswerten und die Erkennungsgenauigkeit gezielt verbessern.
+### [Bildvorverarbeitung für OCR in C# – Vollständiger Aspose OCR Leitfaden](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie Bilder in C# optimal vorverarbeiten, um die OCR‑Genauigkeit mit Aspose OCR zu maximieren.
 
 ## Häufig gestellte Fragen
 

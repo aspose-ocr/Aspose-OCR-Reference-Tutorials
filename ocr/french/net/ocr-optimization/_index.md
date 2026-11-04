@@ -276,6 +276,10 @@ Apprenez à appliquer tous les filtres de prétraitement pour optimiser la recon
 Apprenez à corriger l’inclinaison des images en C# avec Aspose.OCR pour améliorer la précision de la reconnaissance.
 ### [Exécuter l'OCR sur une image – Guide complet C#](./run-ocr-on-image-complete-c-guide/)
 Guide complet en C# pour exécuter l'OCR sur une image avec Aspose.OCR, incluant le code et les meilleures pratiques.
+### [Scores de confiance OCR en C# – Guide complet](./ocr-confidence-scores-in-c-complete-guide/)
+Apprenez à récupérer et interpréter les scores de confiance OCR avec Aspose.OCR en C#, pour améliorer la précision de vos résultats.
+### [Prétraiter l'image pour l'OCR en C# – Guide complet Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Apprenez à préparer vos images avant l'OCR avec Aspose.OCR en C#, pour maximiser la précision et la qualité des résultats.
 
 ## Questions fréquemment posées
 

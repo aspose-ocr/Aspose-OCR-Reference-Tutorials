@@ -293,6 +293,12 @@ Pełny przewodnik C# pokazujący, jak wykonać OCR na obrazie przy użyciu Aspos
 
 ### [Jak wyrównać obraz w C# – Kompletny przewodnik po przetwarzaniu wstępnym OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Dowiedz się, jak prostować obrazy w C# przed OCR, aby zwiększyć dokładność rozpoznawania znaków.
+### [Oceny pewności OCR w C# – kompletny przewodnik](./ocr-confidence-scores-in-c-complete-guide/)
+Dowiedz się, jak odczytywać i wykorzystywać współczynniki pewności OCR w aplikacjach C#, aby poprawić jakość rozpoznawania tekstu.
+
+### [Przetwarzanie obrazu przed OCR w C# – kompletny przewodnik Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Poznaj pełny proces wstępnego przetwarzania obrazu w C# przy użyciu Aspose OCR, aby zwiększyć dokładność rozpoznawania.
+
 
 ## Często zadawane pytania
 

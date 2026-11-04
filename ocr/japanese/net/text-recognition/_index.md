@@ -606,6 +606,12 @@ Aspose.OCR を使用し、ASP.NET Core アプリで OCR を実装する手順を
 Aspose.OCR を使用して C# で PNG 画像からテキストを抽出する方法をステップバイステップで解説します。
 ### [Aspose を使用した韓国語 OCR – 画像を PDF に変換し C# でテキスト抽出](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Aspose.OCR を使用して C# で画像を PDF に変換し、韓国語テキストを抽出する手順をステップバイステップで解説します。
+### [オフラインで JPG からテキストを抽出するための Aspose OCR の使用方法](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Aspose OCR を使用して、オフライン環境で JPG 画像からテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR を使用して Cyrillic 文字の画像からテキストを抽出する](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Aspose.OCR を使用して、Cyrillic 文字が含まれる画像からテキストを正確に抽出する方法をステップバイステップで解説します。
+### [C# で画像を ePub に変換する – 完全ステップバイステップガイド](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Aspose.OCR と C# を使用して画像を ePub 形式に変換し、電子書籍を作成する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

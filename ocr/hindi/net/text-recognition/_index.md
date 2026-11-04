@@ -590,6 +590,14 @@ ASP.NET Core में OCR लागू करने के लिए पूर�
 Aspose OCR का उपयोग करके PNG इमेज से टेक्स्ट निकालने के लिए विस्तृत C# चरण‑दर‑क्रम मार्गदर्शिका।
 ### [कोरियन भाषा OCR Aspose के साथ: छवि को PDF में बदलें और C# में टेक्स्ट निकालें](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Aspose OCR का उपयोग करके C# में कोरियन भाषा की छवि को PDF में बदलें और टेक्स्ट निकालें। चरण‑दर‑क्रम मार्गदर्शिका।
+### [Aspose OCR के साथ छवि से टेक्स्ट निकालें – सिरिलिक](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Aspose OCR का उपयोग करके सिरिलिक भाषा में छवि से सटीक टेक्स्ट निकालने की चरण-दर-स्टेप मार्गदर्शिका।
+
+### [C# में इमेज को ePub में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+C# का उपयोग करके इमेज को ePub फ़ॉर्मेट में बदलने की पूरी चरण‑दर‑चरण प्रक्रिया सीखें। अपने .NET प्रोजेक्ट में ePub निर्माण को सहज बनाएं।
+
+### [ऑफ़लाइन JPG से टेक्स्ट निकालने के लिए Aspose OCR का उपयोग कैसे करें](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+ऑफ़लाइन JPG फ़ाइलों से तेज़ और सटीक टेक्स्ट निकालने के लिए चरण‑दर‑चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

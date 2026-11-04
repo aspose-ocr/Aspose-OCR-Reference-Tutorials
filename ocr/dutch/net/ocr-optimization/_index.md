@@ -286,6 +286,10 @@ Leer hoe je afbeeldingen kantcorrectie toepast met Aspose.OCR in C# voor optimal
 Leer stap‑voor‑stap hoe je met Aspose.OCR in C# OCR op afbeeldingen uitvoert, van configuratie tot resultaatopslag.
 ### [Hoe een afbeelding kantcorrectie toepassen in C# – Complete OCR-preprocessinggids](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Leer hoe je met Aspose.OCR kantcorrectie uitvoert om scheve afbeeldingen recht te zetten voor betere OCR‑resultaten.
+### [Afbeelding voorbewerken voor OCR in C# – Complete Aspose OCR-gids](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Leer hoe je afbeeldingen optimaliseert voor OCR met Aspose.OCR in C#, inclusief filters en instellingen.
+### [OCR‑vertrouwensscores in C# – Complete gids](./ocr-confidence-scores-in-c-complete-guide/)
+Leer hoe je OCR‑vertrouwensscores kunt analyseren en gebruiken om nauwkeurigheid te verbeteren met Aspose.OCR voor .NET.
 
 ## Veelgestelde vragen
 

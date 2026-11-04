@@ -600,6 +600,12 @@ Kompletní průvodce prováděním OCR v ASP.NET Core pomocí Aspose.OCR, krok z
 Kompletní průvodce, jak v C# pomocí Aspose OCR rozpoznat text z PNG obrázku a integrovat jej do aplikace.
 ### [OCR korejského jazyka s Aspose: převod obrázku na PDF a extrakce textu v C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Naučte se pomocí Aspose OCR v C# rozpoznávat korejský text, převádět obrázky na PDF a extrahovat text.
+### [Extrahovat text z obrázku pomocí Aspose OCR – Cyrilice](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Naučte se extrahovat text v cyrilici z obrázků pomocí Aspose OCR ve vašich .NET aplikacích.
+### [Převod obrázku na ePub v C# – Kompletní průvodce krok za krokem](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Naučte se převést obrázek do formátu ePub pomocí C# a Aspose, krok za krokem s praktickými ukázkami.
+### [Jak použít Aspose OCR k extrakci textu z JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Naučte se, jak offline extrahovat text z JPG souborů pomocí Aspose OCR ve vašich .NET aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

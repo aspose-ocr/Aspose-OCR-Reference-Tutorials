@@ -272,6 +272,10 @@ Learn to correct image skew using Aspose.OCR in C#. Follow our step‑by‑step 
 Step‑by‑step C# guide to run OCR on images using Aspose.OCR, covering setup, preprocessing, and result handling.
 ### [How to Deskew Image in C# – Complete OCR Pre‑Processing Guide](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Learn to correct image skew using Aspose.OCR in C#, improving OCR accuracy with step‑by‑step preprocessing.
+### [Preprocess Image for OCR in C# – Complete Aspose OCR Guide](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Step‑by‑step guide to preprocess images for OCR using Aspose.OCR in C#, improving accuracy with filters and settings.
+### [OCR confidence scores in C# – Complete Guide](./ocr-confidence-scores-in-c-complete-guide/)
+Learn how to retrieve and interpret OCR confidence scores in C# using Aspose.OCR, improving result validation and post‑processing.
 
 ## Frequently Asked Questions
 

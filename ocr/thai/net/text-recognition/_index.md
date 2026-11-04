@@ -545,6 +545,11 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose.OCR ใน ASP.NET Core เพื่อทำ OCR อย่างครบถ้วนและแม่นยำในแอปพลิเคชันของคุณ
 ### [OCR ภาษาเกาหลีด้วย Aspose: แปลงรูปภาพเป็น PDF และสกัดข้อความใน C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อแปลงรูปภาพเป็น PDF และสกัดข้อความภาษาเกาหลีอย่างแม่นยำ
+### [ดึงข้อความจากรูปภาพด้วย Aspose OCR – Cyrillic](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+### [แปลงรูปภาพเป็น ePub ใน C# – คู่มือขั้นตอนเต็ม](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงรูปภาพเป็นไฟล์ ePub ด้วย C# อย่างละเอียดและง่ายต่อการทำตาม
+### [วิธีใช้ Aspose OCR เพื่อดึงข้อความจาก JPG แบบออฟไลน์](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+เรียนรู้วิธีการใช้ Aspose OCR ดึงข้อความจากไฟล์ JPG โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

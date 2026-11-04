@@ -280,6 +280,10 @@ Aspose.OCR for .NET を使用して画像の傾きを補正し、OCR の精度�
 Aspose.OCR for .NET で画像から OCR を実行する完全な C# 手順をステップバイステップで解説します。
 ### [C# で画像をデスキューする方法 – 完全 OCR 前処理ガイド](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Aspose.OCR for .NET を使用し、画像の歪みを補正して OCR 精度を向上させる手順を解説します。
+### [C# で OCR 用画像を前処理する – 完全 Aspose OCR ガイド](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR for .NET を使用して、C# で画像を前処理し、OCR の精度を最大化する手順を詳しく解説します。
+### [C# での OCR 信頼度スコア – 完全ガイド](./ocr-confidence-scores-in-c-complete-guide/)
+OCR の信頼度スコア取得方法と活用法をステップバイステップで解説し、結果の精度評価を容易にします。
 
 ## よくある質問
 

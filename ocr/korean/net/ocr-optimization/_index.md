@@ -239,6 +239,10 @@ Aspose OCR C#를 활용해 이미지 전처리를 완전하게 수행하고 텍�
 Aspose.OCR for .NET를 사용하여 이미지에서 OCR을 수행하는 전체 C# 가이드를 제공합니다. 단계별 예제로 정확한 텍스트 추출을 배워보세요.
 ### [C#에서 이미지 기울기 보정하는 방법 – 완전 OCR 전처리 가이드](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Aspose.OCR for .NET를 사용해 이미지 기울기 보정하는 전체 가이드를 제공합니다. 전처리로 정확도를 높이세요.
+### [C#에서 OCR 신뢰도 점수 – 완전 가이드](./ocr-confidence-scores-in-c-complete-guide/)
+C#을 사용해 OCR 결과의 신뢰도 점수를 추출하고 활용하는 방법을 단계별로 안내합니다.
+### [C#에서 OCR을 위한 이미지 전처리 – 완전 Aspose OCR 가이드](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+C#으로 이미지 전처리 과정을 단계별로 안내하여 OCR 정확도를 극대화하는 완전 가이드입니다.
 
 ## 자주 묻는 질문
 

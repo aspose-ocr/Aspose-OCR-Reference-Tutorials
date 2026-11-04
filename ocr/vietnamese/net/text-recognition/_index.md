@@ -599,6 +599,12 @@ Khám phá cách sử dụng Aspose.OCR trong ASP.NET Core để thực hiện O
 Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản từ tệp PNG một cách nhanh chóng và chính xác.
 ### [OCR Ngôn ngữ Hàn Quốc với Aspose: Chuyển ảnh sang PDF và Trích xuất Văn bản trong C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Khám phá cách sử dụng Aspose.OCR trong C# để thực hiện OCR tiếng Hàn, chuyển ảnh sang PDF và trích xuất văn bản một cách nhanh chóng và chính xác.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR – Cyrillic](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Khám phá cách sử dụng Aspose OCR để trích xuất văn bản Cyrillic từ hình ảnh một cách nhanh chóng và chính xác.
+### [Chuyển đổi hình ảnh sang ePub trong C# – Hướng dẫn chi tiết từng bước](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Hướng dẫn toàn diện cách chuyển đổi hình ảnh thành tài liệu ePub bằng C#, từng bước chi tiết và dễ thực hiện.
+### [Cách sử dụng Aspose OCR để trích xuất văn bản từ JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Nâng cao dự án .NET của bạn với Aspose OCR, trích xuất văn bản từ tệp JPG một cách nhanh chóng mà không cần kết nối internet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

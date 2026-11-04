@@ -221,9 +221,6 @@ C# में Aspose OCR का उपयोग करके स्पेल‑�
 
 ### [चीनी छवियों पर OCR कैसे करें – पूर्ण C# गाइड](./how-to-perform-ocr-on-chinese-images-complete-c-guide/)
 C# में Aspose.OCR का उपयोग करके चीनी भाषा वाली छवियों से सटीक पाठ निकालने के चरण‑दर‑चरण निर्देश।
-### [C# में बैच OCR कैसे लागू करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-batch-ocr-in-c-complete-programming-guide/)
-C# में बैच OCR कैसे लागू करें, चरण‑दर‑चरण पूर्ण प्रोग्रामिंग गाइड।
-
 ### [GPU के साथ छवि पर OCR चलाएँ – C# Aspose OCR गाइड](./run-ocr-on-image-with-gpu-c-aspose-ocr-guide/)
 GPU का उपयोग करके तेज़ OCR निष्पादन के लिए C# में Aspose OCR का गाइड।
 
@@ -311,6 +308,14 @@ C# में Aspose.OCR के साथ GPU मेमोरी उपयोग 
 Aspose.OCR for .NET का उपयोग करके C# में इमेज को डेस्क्यू करने और OCR सटीकता बढ़ाने के चरण‑दर‑चरण मार्गदर्शन।
 ### [छवि पर OCR चलाएँ – पूर्ण C# गाइड](./run-ocr-on-image-complete-c-guide/)
 Aspose.OCR for .NET के साथ C# में छवि पर OCR कैसे चलाएँ, चरण‑दर‑चरण सीखें।
+### [C# में OCR कॉन्फिडेंस स्कोर – पूर्ण गाइड](./ocr-confidence-scores-in-c-complete-guide/)
+Aspose.OCR for .NET में OCR कॉन्फिडेंस स्कोर कैसे प्राप्त करें और परिणाम की सटीकता को बेहतर बनाएं, इस विस्तृत गाइड में जानें।
+
+### [C# में OCR के लिए इमेज प्री‑प्रोसेस – पूर्ण Aspose OCR गाइड](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+C# में इमेज को प्री‑प्रोसेस करके OCR की सटीकता बढ़ाने के लिए पूर्ण मार्गदर्शिका।
+
+### [C# में बैच OCR कैसे करें – पूर्ण प्रोग्रामिंग गाइड](./how-to-batch-ocr-in-c-complete-programming-guide/)
+Aspose.OCR for .NET का उपयोग करके C# में बैच OCR लागू करने के चरण‑दर‑चरण मार्गदर्शन।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

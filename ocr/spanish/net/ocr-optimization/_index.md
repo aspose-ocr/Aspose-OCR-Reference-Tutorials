@@ -293,6 +293,10 @@ Aprende a eliminar la inclinación de imágenes en C# usando Aspose.OCR, mejoran
 Aprende a ejecutar OCR en una imagen usando Aspose.OCR con C#, paso a paso y con ejemplos completos.
 ### [Cómo enderezar una imagen en C# – Guía completa de preprocesamiento OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Aprende a corregir la inclinación de imágenes en C# usando Aspose.OCR, mejorando la precisión del reconocimiento OCR.
+### [Puntuaciones de confianza OCR en C# – Guía completa](./ocr-confidence-scores-in-c-complete-guide/)
+Aprende a obtener y usar los puntajes de confianza del OCR en C# para mejorar la precisión y filtrar resultados.
+### [Preprocesar imagen para OCR en C# – Guía completa de Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Aprende a aplicar filtros y técnicas de preprocesamiento en C# para mejorar la precisión del OCR con Aspose OCR.
 
 ## Preguntas frecuentes
 

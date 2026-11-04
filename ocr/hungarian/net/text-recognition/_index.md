@@ -590,6 +590,12 @@ Ismerje meg, hogyan használja az Aspose OCR-t C#-ban egy részletes, lépésrő
 Ismerje meg, hogyan integrálja az Aspose.OCR-t ASP.NET Core alkalmazásba a teljes körű szövegfelismeréshez.
 ### [Koreai nyelvű OCR az Aspose-szal: kép PDF‑vé konvertálása és szöveg kinyerése C#‑ban](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Tanulja meg, hogyan használja az Aspose OCR-t koreai szöveg felismerésére, képet PDF‑vé alakítva és szöveget kinyerve C#‑ban.
+### [Képről szöveg kinyerése az Aspose OCR segítségével – Cirill](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Ismerje meg, hogyan nyerhet ki cirill karaktereket tartalmazó képekből szöveget az Aspose OCR .NET használatával.
+### [Kép konvertálása ePub formátumba C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan konvertálhat képeket ePub formátumba C#‑ban részletes, lépésről‑lépésre útmutatóval.
+### [Hogyan használja az Aspose OCR-t JPG képek offline szövegkivonásához](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Ismerje meg, hogyan nyerhet ki szöveget JPG képekből offline az Aspose OCR .NET segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

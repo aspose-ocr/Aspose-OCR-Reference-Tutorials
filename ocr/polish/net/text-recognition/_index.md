@@ -598,6 +598,12 @@ Dowiedz się, jak w pełni wykorzystać Aspose.OCR w ASP.NET Core, krok po kroku
 Poznaj, jak w pełni wykorzystać Aspose OCR w C# do rozpoznawania tekstu z obrazów PNG, krok po kroku, z przykładami.
 ### [Rozpoznawanie języka koreańskiego OCR z Aspose: konwersja obrazu do PDF i wyodrębnianie tekstu w C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Dowiedz się, jak przy użyciu Aspose OCR w C# konwertować obrazy na PDF i wyodrębniać tekst w języku koreańskim.
+### [Wyodrębnij tekst z obrazu przy użyciu Aspose OCR – cyrylica](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Dowiedz się, jak używać Aspose OCR do wyodrębniania tekstu cyrylicy z obrazów w aplikacjach .NET.
+### [Konwertuj obraz do ePub w C# – Kompletny przewodnik krok po kroku](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak w C# przekształcić obrazy w pliki ePub przy użyciu Aspose.OCR, krok po kroku.
+### [Jak używać Aspose OCR do wyodrębniania tekstu z JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Dowiedz się, jak offline wyodrębnić tekst z plików JPG przy użyciu Aspose OCR w kilku prostych krokach.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

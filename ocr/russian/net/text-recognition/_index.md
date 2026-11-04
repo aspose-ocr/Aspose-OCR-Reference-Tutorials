@@ -576,6 +576,12 @@ url: /ru/net/text-recognition/
 Полное пошаговое руководство по распознаванию текста из PNG‑изображений с помощью Aspose OCR в C#.
 ### [OCR корейского языка с Aspose: преобразовать изображение в PDF и извлечь текст в C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Полное руководство по использованию Aspose OCR для распознавания корейского текста, конвертации изображений в PDF и извлечения текста в C#.
+### [Извлечь текст из изображения с Aspose OCR – кириллица](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Научитесь извлекать текст из изображений, содержащих кириллические символы, с помощью Aspose OCR в .NET.
+### [Конвертировать изображение в ePub на C# – Полное пошаговое руководство](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Научитесь преобразовывать изображения в ePub‑книги с помощью C#, следуя подробному пошаговому руководству.
+### [Как использовать Aspose OCR для извлечения текста из JPG офлайн](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Научитесь извлекать текст из JPG‑изображений без подключения к сети, используя Aspose OCR в .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

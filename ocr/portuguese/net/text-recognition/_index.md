@@ -604,6 +604,12 @@ Aprenda a reconhecer texto em arquivos PNG usando Aspose OCR com um guia complet
 
 ### [OCR de idioma coreano com Aspose: Converter imagem em PDF e extrair texto em C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Aprenda a usar Aspose OCR para reconhecer texto em coreano, converter imagens em PDF e extrair o texto usando C#.
+### [Extrair Texto de Imagem com Aspose OCR – Cirílico](./extract-text-from-image-with-aspose-ocr-cyrillic/)
+Aprenda a extrair texto em cirílico de imagens usando Aspose OCR no .NET, garantindo precisão e suporte a múltiplos idiomas.
+### [Converter imagem para ePub em C# – Guia completo passo a passo](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
+Aprenda a converter imagens em arquivos ePub usando C# e Aspose.OCR com este guia passo a passo completo.
+### [Como usar o Aspose OCR para extrair texto de JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
+Aprenda a extrair texto de arquivos JPG sem conexão à internet usando Aspose OCR em .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

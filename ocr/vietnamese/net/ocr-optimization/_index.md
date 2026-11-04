@@ -239,6 +239,10 @@ Hướng dẫn chi tiết cách loại bỏ nghiêng của ảnh trước khi OC
 ### [Chạy OCR trên hình ảnh – Hướng dẫn C# đầy đủ](./run-ocr-on-image-complete-c-guide/)
 Hướng dẫn chi tiết cách thực hiện OCR trên hình ảnh bằng C# với Aspose.OCR, bao gồm cài đặt và ví dụ thực tế.
 ### [Cách chỉnh nghiêng hình ảnh trong C# – Hướng dẫn tiền xử lý OCR đầy đủ](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+### [Điểm tin cậy OCR trong C# – Hướng dẫn đầy đủ](./ocr-confidence-scores-in-c-complete-guide/)
+Tìm hiểu cách lấy và sử dụng điểm tin cậy OCR trong Aspose.OCR cho .NET để cải thiện độ chính xác và xử lý kết quả.
+### [Tiền xử lý hình ảnh cho OCR trong C# – Hướng dẫn đầy đủ Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Hướng dẫn chi tiết cách tiền xử lý ảnh trước khi OCR bằng Aspose OCR trong C#, nâng cao độ chính xác và hiệu suất.
 
 ## Câu hỏi thường gặp
 

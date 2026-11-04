@@ -285,6 +285,10 @@ Pelajari cara memperbaiki kemiringan gambar dengan Aspose.OCR di C# untuk mening
 Panduan lengkap C# untuk menjalankan OCR pada gambar menggunakan Aspose.OCR, mencakup contoh kode dan langkah-langkah implementasi.
 ### [Cara Mengoreksi Kemiringan Gambar di C# – Panduan Lengkap Pre‑Processing OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Pelajari cara mengoreksi kemiringan gambar dengan Aspose.OCR di C#, meningkatkan akurasi OCR melalui preprocessing yang efektif.
+### [Skor Kepercayaan OCR dalam C# – Panduan Lengkap](./ocr-confidence-scores-in-c-complete-guide/)
+Pelajari cara menampilkan dan menggunakan skor kepercayaan OCR di C# untuk meningkatkan akurasi dan validasi hasil pengenalan teks.
+### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan sebelum OCR menggunakan Aspose.OCR di C# untuk hasil yang akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

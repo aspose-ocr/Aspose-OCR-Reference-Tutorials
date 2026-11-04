@@ -275,6 +275,10 @@ Lär dig hur du räta upp bilder i C# för förbättrad OCR‑noggrannhet med en
 ### [Kör OCR på bild – Komplett C#‑guide](./run-ocr-on-image-complete-c-guide/)
 Lär dig steg‑för‑steg hur du kör OCR på en bild med en komplett C#‑guide för Aspose.OCR.
 ### [Hur man räta upp en bild i C# – Komplett guide för OCR‑förbehandling](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+### [OCR‑konfidenspoäng i C# – Komplett guide](./ocr-confidence-scores-in-c-complete-guide/)
+Lär dig hur du använder och tolkar OCR‑konfidenspoäng i Aspose.OCR för .NET för att förbättra igenkänningsprecisionen.
+### [Förbehandla bild för OCR i C# – Komplett Aspose OCR‑guide](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR‑igenkänning med Aspose OCR i C#.
 
 ## Vanliga frågor
 
