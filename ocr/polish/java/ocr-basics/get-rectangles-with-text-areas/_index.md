@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obraz na Tekst w Javie – Konwersja obrazu na tekst i pobieranie prostokątów obszarów tekstu
@@ -200,15 +202,15 @@ W tym **aspose ocr java tutorial** nauczyłeś się, jak **konwertować obraz na
 **Testowano z:** Aspose.OCR 23.10 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Wyodrębnianie tekstu z obrazów – Podstawy OCR z Aspose.OCR dla Java](/ocr/java/ocr-basics/)
 - [Wyodrębnianie tekstu z obrazu w Javie przy użyciu trybu wykrywania obszarów Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Konwersja obrazu na tekst w Javie przy użyciu Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

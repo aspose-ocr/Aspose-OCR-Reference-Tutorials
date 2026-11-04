@@ -52,7 +52,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 OCR 圖像識別中辨識表格
@@ -202,10 +204,9 @@ A: 取得 `result.RecognitionText` 後，您可解析行列並使用標準 .NET 
 - [如何透過在 OCR 中準備矩形來提取圖像文字](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [如何 OCR 圖像 – 在 OCR 圖像識別中對圖像執行 OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

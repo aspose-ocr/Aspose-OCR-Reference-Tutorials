@@ -52,7 +52,7 @@ Un environnement sous licence supprime les limites d’évaluation et maximise l
 > **Astuce pro :** Placez le fichier de licence dans le dossier *resources* de votre projet et chargez‑le une seule fois au démarrage de l’application.
 
 ### Comment calculer l’angle d’inclinaison avec Aspose.OCR
-Les scans inclinés peuvent réduire considérablement la qualité de l’OCR. Utilisez la méthode intégrée de calcul d’inclinaison pour détecter l’angle et faire pivoter l’image avant la reconnaissance :
+Les scans inclinés peuvent réduire considérablement la qualité de l'OCR. Utilisez la méthode intégrée de calcul d’inclinaison pour détecter l’angle et faire pivoter l’image avant la reconnaissance :
 
 [Calcul de l’angle dclinaison dans Aspose.OCR pour Java](./calculate-skew-angle/)
 
@@ -88,7 +88,7 @@ R : Pré‑traitez l’image (binarisation, suppression du bruit) et exécutez
 R : Convertissez d’abord les pages PDF en images (à l’aide d’Aspose.PDF ou de tout outil de conversion PDF‑vers‑image), puis exécutez Aspose.OCR sur les images obtenues.
 
 **Q : Quelles langues sont prises en charge dès l’installation ?**  
-R : Plus de 30 langues, dont l’anglais, l’espagnol, le chinois, l’arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
+R : Plus de 30 langues, dont l’anglais, l'espagnol, le chinois, l'arabe, etc. Changez de langue via `ocrEngine.setLanguage(Language.English)`.
 
 ## Conclusion
 
@@ -104,7 +104,48 @@ Débloquez le potentiel d’Aspose.OCR pour Java avec ce guide pas à pas. Confi
 Améliorez la précision de l’OCR avec Aspose.OCR pour Java. Apprenez à calculer les angles d’inclinaison étape par étape. Optimisez le traitement de documents sans difficulté.
 
 ### [Obtention de rectangles avec des zones de texte dans Aspose.OCR](./get-rectangles-with-text-areas/)
-Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire du texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
+Débloquez la puissance d’Aspose.OCR pour Java. Apprenez à extraire le texte à partir d’images de manière fluide dans ce guide pas à pas. Téléchargez maintenant pour une reconnaissance de texte efficace.
+
+### [Exemple Java OCR – Charger une image et reconnaître le texte avec Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Apprenez à charger une image et extraire le texte avec Aspose.OCR en Java grâce à ce guide pratique.
+
+### [Effectuer l'OCR sur une image en Java – Guide complet étape par étape](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Apprenez à réaliser l’OCR d’une image en Java avec un guide détaillé, du chargement à l’extraction du texte.
+
+### [Reconnaître du texte à partir d'un PNG en Java – Tutoriel Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Apprenez à extraire du texte d’un fichier PNG en Java avec Aspose OCR grâce à ce guide détaillé.
+
+### [extraire du texte d'une image – convertir PNG en texte en Java](./extract-text-from-image-convert-png-to-text-in-java/)
+Apprenez à convertir une image PNG en texte brut avec Aspose.OCR pour Java grâce à ce guide pas à pas.
+
+### [Lire du texte à partir d'une image en Java – Guide complet Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Apprenez à lire du texte depuis une image en Java avec Aspose OCR grâce à ce guide complet pas à pas.
+### [Obtenir du texte OCR en Java – Exemple complet Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+Apprenez à extraire du texte OCR en Java avec un exemple complet, étape par étape, pour maîtriser Aspose OCR.
+### [Comment activer l’OCR en Java – Guide étape par étape](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Activez facilement l’OCR dans vos applications Java grâce à ce guide complet pas à pas.
+### [Tutoriel Image vers texte – Extraire le texte tamoul avec Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Apprenez à extraire du texte tamoul à partir d’images en utilisant Aspose OCR. Suivez ce guide pas à pas pour une reconnaissance précise.
+### [Extraire du texte d'une image en Java – Exemple complet d'OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Apprenez à extraire du texte d’une image en Java avec un exemple complet d’OCR.
+
+### [Extraire du texte d’une image avec Aspose OCR – Guide rapide Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Apprenez à extraire rapidement du texte d’une image en Java avec Aspose OCR grâce à ce guide concis.
+### [Extraire du texte d'une image en Java – Tutoriel OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
+Apprenez à extraire du texte d'images en Java avec Aspose.OCR grâce à ce tutoriel complet.
+### [Effectuer une OCR sur une image en Java – Extraire le texte d’un JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+Apprenez à exécuter l’OCR sur un fichier JPG avec Aspose.OCR pour Java et à récupérer le texte en quelques lignes de code.
+### [Reconnaître du texte à partir d’une image en Java – Tutoriel OCR complet](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Apprenez à extraire du texte d’une image en Java avec un guide complet couvrant la configuration, le pré‑traitement et la reconnaissance OCR.
+### [Extraire du texte d’une image en Java – Obtenir du texte via OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Apprenez à extraire du texte d’une image en Java en utilisant Aspose.OCR, avec un guide étape par étape pour récupérer le texte OCR.
+### [Extraire du texte d'une image avec Aspose OCR – Tutoriel complet Java](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Apprenez à extraire du texte d’une image avec Aspose OCR dans un tutoriel complet Java, étape par étape.
+
+### [Convertir une image en texte Java – Exemple complet Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Suivez ce guide complet pour convertir des images en texte avec Aspose OCR en Java, étape par étape, avec code d’exemple.
+### [Comment effectuer l’OCR en Java – Guide complet pour extraire du texte à partir d’images](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Apprenez à réaliser l’OCR en Java de bout en bout, en extrayant du texte précis depuis n’importe quelle image.
 
 ---
 

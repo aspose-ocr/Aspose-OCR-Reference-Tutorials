@@ -67,7 +67,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java में Aspose.OCR का उपयोग करके स्कैन किए गए दस्तावेज़ को घुमाने और स्क्यू एंगल की गणना कैसे करें
@@ -195,18 +197,11 @@ Java 2D में, `BufferedImage` मेमोरी में इमेज �
 **परीक्षित संस्करण:** Aspose.OCR for Java 24.12 (लेखन के समय नवीनतम)  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Java में Aspose.OCR लाइसेंस सेट करने और सत्यापित करने का तरीका](/ocr/java/ocr-basics/set-license/)
 - [Aspose.OCR for Java के साथ OCR बेसिक्स – टेक्स्ट इमेज निकालना](/ocr/java/ocr-basics/)
 - [Aspose.OCR Detect Areas Mode के साथ Java में इमेज से टेक्स्ट निकालना](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -237,3 +232,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Erkennen von Tabellen in der OCR-Bilderkennung
@@ -203,10 +205,9 @@ A: Nachdem Sie `result.RecognitionText` erhalten haben, können Sie die Zeilen u
 - [Wie man Text aus einem Bild durch Vorbereiten von Rechtecken in OCR extrahiert](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Wie man ein Bild OCR‑t – OCR auf Bild in OCR‑Bilderkennung durchführen](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

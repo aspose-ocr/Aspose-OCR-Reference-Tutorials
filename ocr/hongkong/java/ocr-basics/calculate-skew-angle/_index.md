@@ -64,7 +64,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何在 Java 中使用 Aspose.OCR 旋轉掃描文件並計算傾斜角度
@@ -192,18 +194,11 @@ weight: 11
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [如何在 Java 中設定授權並驗證 Aspose.OCR 授權](/ocr/java/ocr-basics/set-license/)
 - [擷取文字影像 – 使用 Aspose.OCR for Java 的 OCR 基礎](/ocr/java/ocr-basics/)
 - [使用 Aspose.OCR 偵測區域模式從影像擷取文字（Java）](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -234,3 +229,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

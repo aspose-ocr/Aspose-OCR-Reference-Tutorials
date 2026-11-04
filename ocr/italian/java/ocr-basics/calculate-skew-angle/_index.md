@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Come ruotare un documento scansionato e calcolare l'angolo di inclinazione in Java usando Aspose.OCR
@@ -196,18 +198,11 @@ Ora disponi di una ricetta completa, pronta per la produzione, su **come ruotare
 **Testato con:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial correlati
 
 - [Come impostare la licenza e verificare la licenza Aspose.OCR in Java](/ocr/java/ocr-basics/set-license/)
 - [Estrai testo da immagini – Nozioni di base OCR con Aspose.OCR per Java](/ocr/java/ocr-basics/)
 - [Estrai testo da immagine Java con Aspose.OCR modalità Rileva Aree](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -59,7 +59,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 이미지에서 텍스트 추출 Java – 이미지에서 텍스트 변환 및 텍스트 영역 사각형 가져오기
@@ -202,8 +204,6 @@ A: 예, 이 라이브러리는 스레드 안전(thread‑safe)하며 더 나은 
 **테스트 환경:** Aspose.OCR 23.10 for Java  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [텍스트 이미지 추출 – Aspose.OCR for Java OCR 기본](/ocr/java/ocr-basics/)
@@ -211,5 +211,8 @@ A: 예, 이 라이브러리는 스레드 안전(thread‑safe)하며 더 나은 
 - [Aspose.OCR BufferedImage를 사용한 Java 이미지 텍스트 변환](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

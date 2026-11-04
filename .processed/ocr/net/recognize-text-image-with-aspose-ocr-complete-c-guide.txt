@@ -1,0 +1,7 @@
+Title: recognize text image with Aspose OCR – Complete C# Guide
+Slug: recognize-text-image-with-aspose-ocr-complete-c-guide
+Category: text-recognition
+ProcessedDate: 2026-06-22T18:56:00.466386
+SourceRepo: AI Search API
+Keywords: recognize text image, extract text image, high resolution ocr, process invoice ocr, set ocr language
+PRNumber: 152

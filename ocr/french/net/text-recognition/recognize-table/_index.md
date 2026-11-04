@@ -53,8 +53,10 @@ url: /fr/net/text-recognition/recognize-table/
 weight: 15
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconnaître le tableau dans la reconnaissance d'images OCR
@@ -204,10 +206,9 @@ R : Après avoir obtenu `result.RecognitionText`, vous pouvez analyser les lig
 - [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/pf/main-wrap-class >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

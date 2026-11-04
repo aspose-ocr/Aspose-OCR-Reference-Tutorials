@@ -61,7 +61,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # इमेज को टेक्स्ट में बदलें जावा – इमेज को टेक्स्ट में बदलें और टेक्स्ट एरिया रेक्टेंगल प्राप्त करें
@@ -199,15 +201,15 @@ CODE_BLOCK_PLACEHOLDER_5_END
 **परीक्षित संस्करण:** Aspose.OCR 23.10 for Java  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [इमेज से टेक्स्ट निकालें – Aspose.OCR for Java के साथ OCR बुनियादी](/ocr/java/ocr-basics/)
 - [इमेज जावा से टेक्स्ट निकालें Aspose.OCR डिटेक्ट एरिया मोड के साथ](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [जावा में इमेज को टेक्स्ट में बदलें Aspose.OCR BufferedImage का उपयोग करके](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

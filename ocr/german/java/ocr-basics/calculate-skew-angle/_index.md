@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wie man gescannte Dokumente dreht und den Schrägwinkel in Java mit Aspose.OCR berechnet
@@ -196,18 +198,11 @@ Sie haben nun ein vollständiges, produktionsreifes Rezept für **how to rotate 
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [Wie man Lizenz festlegt und Aspose.OCR‑Lizenz in Java überprüft](/ocr/java/ocr-basics/set-license/)
 - [Text aus Bildern extrahieren – OCR‑Grundlagen mit Aspose.OCR für Java](/ocr/java/ocr-basics/)
 - [Text aus Bild Java mit Aspose.OCR Detect Areas Mode extrahieren](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

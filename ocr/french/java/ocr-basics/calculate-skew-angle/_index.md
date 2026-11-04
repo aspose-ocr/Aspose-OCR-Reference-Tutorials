@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comment faire pivoter un document numérisé et calculer l'angle d'inclinaison en Java avec Aspose.OCR
@@ -196,18 +198,11 @@ Vous disposez maintenant d'une recette complète, prête pour la production, pou
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriels associés
 
 - [Comment définir la licence et vérifier la licence Aspose.OCR en Java](/ocr/java/ocr-basics/set-license/)
 - [Extraire du texte d'images – Notions de base OCR avec Aspose.OCR pour Java](/ocr/java/ocr-basics/)
 - [Extraire du texte d'une image Java avec le mode Détection de zones d'Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

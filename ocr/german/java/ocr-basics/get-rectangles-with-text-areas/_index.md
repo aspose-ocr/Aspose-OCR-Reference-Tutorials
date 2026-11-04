@@ -60,7 +60,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bild zu Text Java – Bild in Text konvertieren und Textbereich‑Rechtecke ermitteln
@@ -198,15 +200,15 @@ In diesem **aspose ocr java tutorial** haben Sie gelernt, wie man **Bild in Text
 **Getestet mit:** Aspose.OCR 23.10 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [Text aus Bildern extrahieren – OCR‑Grundlagen mit Aspose.OCR für Java](/ocr/java/ocr-basics/)
 - [Text aus Bild in Java extrahieren mit Aspose.OCR Detect Areas‑Modus](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Bild in Text konvertieren in Java mit Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

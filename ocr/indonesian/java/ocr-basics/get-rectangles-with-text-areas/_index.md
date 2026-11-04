@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Gambar ke Teks Java – Mengonversi Gambar ke Teks dan Mengambil Persegi Panjang Area Teks
@@ -201,15 +203,15 @@ Dalam **aspose ocr java tutorial** ini Anda belajar cara **convert image to text
 **Diuji Dengan:** Aspose.OCR 23.10 untuk Java  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Ekstrak Gambar Teks – Dasar OCR dengan Aspose.OCR untuk Java](/ocr/java/ocr-basics/)
 - [Ekstrak Teks dari Gambar Java dengan Mode Deteksi Area Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Konversi Gambar ke Teks di Java menggunakan Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

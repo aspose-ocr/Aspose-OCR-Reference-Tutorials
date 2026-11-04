@@ -54,7 +54,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Herken Tabel in OCR Beeldherkenning
@@ -204,10 +206,9 @@ A: Na het verkrijgen van `result.RecognitionText` kun je de rijen en kolommen pa
 - [Hoe tekst uit afbeelding te extraheren door rechthoeken voor te bereiden in OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Hoe een afbeelding te OCR‑en – OCR uitvoeren op afbeelding in OCR Beeldherkenning](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

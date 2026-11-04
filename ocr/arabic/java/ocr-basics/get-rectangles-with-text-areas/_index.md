@@ -60,7 +60,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحويل الصورة إلى نص جافا – تحويل الصورة إلى نص واسترجاع مستطيلات مناطق النص
@@ -198,15 +200,15 @@ CODE_BLOCK_PLACEHOLDER_5_END
 **تم الاختبار مع:** Aspose.OCR 23.10 for Java  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [استخراج نص الصور – أساسيات OCR مع Aspose.OCR for Java](/ocr/java/ocr-basics/)
 - [استخراج النص من صورة Java باستخدام وضع اكتشاف المناطق في Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [تحويل الصورة إلى نص في Java باستخدام Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

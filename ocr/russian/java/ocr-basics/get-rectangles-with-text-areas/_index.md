@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Изображение в Текст Java – Преобразование изображения в текст и получение прямоугольников областей текста
@@ -200,15 +202,15 @@ CODE_BLOCK_PLACEHOLDER_5_END
 **Тестировано с:** Aspose.OCR 23.10 for Java  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные руководства
 
 - [Извлечение текста из изображений – Основы OCR с Aspose.OCR for Java](/ocr/java/ocr-basics/)
 - [Извлечение текста из изображения Java с Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Преобразование изображения в текст в Java с использованием Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

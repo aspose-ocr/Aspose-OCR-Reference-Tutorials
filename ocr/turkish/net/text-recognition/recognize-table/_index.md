@@ -54,7 +54,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Görüntü Tanıma'da Tablo Tanıma
@@ -204,10 +206,9 @@ C: `result.RecognitionText` elde edildikten sonra satır ve sütunları ayrışt
 - [OCR’da Dikdörtgenler Hazırlayarak Görüntüden Metin Çıkarma](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [OCR Görüntüsü – OCR Görüntü Tanıma’da Görüntü Üzerinde OCR Gerçekleştirme](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Känna igen tabell i OCR-bildigenkänning
@@ -201,10 +203,9 @@ A: Efter att ha fått `result.RecognitionText` kan du parsra rader och kolumner 
 - [Hur man extraherar text från bild genom att förbereda rektanglar i OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Hur man OCR‑ar bild – Utför OCR på bild i OCR-bildigenkänning](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

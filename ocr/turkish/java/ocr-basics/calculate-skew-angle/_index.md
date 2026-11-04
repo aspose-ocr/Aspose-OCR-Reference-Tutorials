@@ -67,7 +67,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java'da Aspose.OCR Kullanarak Tarama Belgesini Döndürme ve Çarpıklık Açısını Hesaplama
@@ -195,17 +197,11 @@ Artık Java'da **how to rotate scanned document** dosyaları için eksiksiz, ür
 **Test Edilen:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Java'da Lisans Ayarlama ve Aspose.OCR Lisansını Doğrulama](/ocr/java/ocr-basics/set-license/)
 - [Metin Görüntülerini Çıkarma – Aspose.OCR for Java ile OCR Temelleri](/ocr/java/ocr-basics/)
 - [Aspose.OCR Detect Areas Modu ile Java'da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -236,3 +232,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

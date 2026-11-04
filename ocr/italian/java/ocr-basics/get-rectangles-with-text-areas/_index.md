@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Immagine a Testo Java – Converti Immagine in Testo e Recupera i Rettangoli delle Aree di Testo
@@ -205,8 +207,6 @@ In this **aspose ocr java tutorial** you learned how to **convert image to text*
 **Testato Con:** Aspose.OCR 23.10 for Java  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Correlati
 
 - [Estrai Testo da Immagini – Nozioni di Base OCR con Aspose.OCR per Java](/ocr/java/ocr-basics/)
@@ -214,5 +214,8 @@ In this **aspose ocr java tutorial** you learned how to **convert image to text*
 - [Converti Immagine in Testo in Java usando Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

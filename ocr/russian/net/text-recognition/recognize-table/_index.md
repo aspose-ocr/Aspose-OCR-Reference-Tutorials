@@ -54,7 +54,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Распознавание таблицы в OCR распознавании изображений
@@ -199,10 +201,9 @@ A: После получения `result.RecognitionText` вы можете ра
 - [Как извлечь текст из изображения, подготавливая прямоугольники в OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Как выполнить OCR изображения – Выполнить OCR на изображении в OCR распознавании изображений](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

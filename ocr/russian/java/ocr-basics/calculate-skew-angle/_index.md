@@ -67,7 +67,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Как повернуть отсканированный документ и вычислить угол наклона в Java с использованием Aspose.OCR
@@ -195,18 +197,11 @@ weight: 11
 **Тестировано с:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные руководства
 
 - [Как установить лицензию и проверить лицензию Aspose.OCR в Java](/ocr/java/ocr-basics/set-license/)
 - [Извлечение текста из изображений – основы OCR с Aspose.OCR для Java](/ocr/java/ocr-basics/)
 - [Извлечение текста из изображения Java с режимом Detect Areas Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -237,3 +232,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

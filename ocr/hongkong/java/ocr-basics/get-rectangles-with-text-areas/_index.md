@@ -58,7 +58,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java 圖像文字轉換 – 將圖像轉為文字並取得文字區域矩形
@@ -196,15 +198,15 @@ A: 是的，該函式庫具備執行緒安全性，可在並行環境中使用�
 **測試版本：** Aspose.OCR 23.10 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [擷取文字圖像 – Aspose.OCR for Java OCR 基礎](/ocr/java/ocr-basics/)
 - [使用 Aspose.OCR 偵測區域模式從圖像擷取文字 (Java)](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [使用 Aspose.OCR BufferedImage 在 Java 中將圖像轉為文字](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

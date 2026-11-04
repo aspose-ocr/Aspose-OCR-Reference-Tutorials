@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cara memutar dokumen yang dipindai dan menghitung sudut kemiringan dalam Java menggunakan Aspose.OCR
@@ -196,18 +198,11 @@ Anda kini memiliki resep lengkap siap produksi untuk **cara memutar dokumen yang
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Cara Mengatur Lisensi dan Memverifikasi Lisensi Aspose.OCR di Java](/ocr/java/ocr-basics/set-license/)
 - [Ekstrak Teks Gambar – Dasar-dasar OCR dengan Aspose.OCR untuk Java](/ocr/java/ocr-basics/)
 - [Ekstrak Teks dari Gambar Java dengan Mode Deteksi Area Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

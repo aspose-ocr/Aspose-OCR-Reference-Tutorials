@@ -65,7 +65,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java と Aspose.OCR を使用してスキャンしたドキュメントを回転させ、傾き角度を計算する方法
@@ -193,18 +195,11 @@ Java 2D では、`BufferedImage` がメモリ上の画像を表し、`AffineTr
 **テスト環境:** Aspose.OCR for Java 24.12 (執筆時点での最新バージョン)  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Java で Aspose.OCR ライセンスを設定および検証する方法](/ocr/java/ocr-basics/set-license/)
 - [テキスト画像の抽出 – Aspose.OCR for Java の OCR 基礎](/ocr/java/ocr-basics/)
 - [Aspose.OCR Detect Areas モードで Java から画像のテキストを抽出する方法](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -235,3 +230,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

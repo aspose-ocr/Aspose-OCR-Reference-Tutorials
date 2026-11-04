@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak obrócić zeskanowany dokument i obliczyć kąt pochylenia w Javie przy użyciu Aspose.OCR
@@ -189,18 +191,11 @@ Masz teraz kompletny, gotowy do produkcji przepis na **jak obrócić zeskanowany
 **Testowano z:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Jak ustawić licencję i zweryfikować licencję Aspose.OCR w Javie](/ocr/java/ocr-basics/set-license/)
 - [Wyodrębnianie tekstu z obrazów – Podstawy OCR z Aspose.OCR dla Javy](/ocr/java/ocr-basics/)
 - [Wyodrębnianie tekstu z obrazu w Javie przy użyciu trybu wykrywania obszarów Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -231,3 +226,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

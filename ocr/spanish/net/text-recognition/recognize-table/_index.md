@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconocer tabla en reconocimiento de imágenes OCR
@@ -203,10 +205,9 @@ R: Después de obtener `result.RecognitionText`, puedes analizar filas y columna
 - [Cómo extraer texto de una imagen preparando rectángulos en OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Cómo hacer OCR a una imagen – Realizar OCR en una imagen en reconocimiento de imágenes OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

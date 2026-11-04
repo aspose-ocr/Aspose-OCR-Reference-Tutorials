@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozpoznání tabulky v OCR rozpoznávání obrazu
@@ -195,10 +197,9 @@ A: Po získání `result.RecognitionText` můžete řádky a sloupce parsovat a 
 - [Jak extrahovat text z obrázku přípravou obdélníků v OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Jak OCR obrázek – provést OCR na obrázku v OCR rozpoznávání obrazu](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

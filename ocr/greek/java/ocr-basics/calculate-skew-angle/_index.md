@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πώς να περιστρέψετε σαρωμένο έγγραφο και να υπολογίσετε τη γωνία κλίσης σε Java χρησιμοποιώντας το Aspose.OCR
@@ -196,18 +198,11 @@ weight: 11
 **Δοκιμή Με:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Πώς να ορίσετε άδεια και να επαληθεύσετε την άδεια Aspose.OCR σε Java](/ocr/java/ocr-basics/set-license/)
 - [Εξαγωγή κειμένου από εικόνες – Βασικά OCR με Aspose.OCR για Java](/ocr/java/ocr-basics/)
 - [Εξαγωγή κειμένου από εικόνα Java με Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

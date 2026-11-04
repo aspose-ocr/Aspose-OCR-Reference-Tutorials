@@ -66,7 +66,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak otočit naskenovaný dokument a vypočítat úhel zkosení v Javě pomocí Aspose.OCR
@@ -194,18 +196,11 @@ Nyní máte kompletní, připravený recept pro **otočení naskenovaného dokum
 **Testováno s:** Aspose.OCR pro Javu 24.12 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [How to Set License and Verify Aspose.OCR License in Java](/ocr/java/ocr-basics/set-license/)
 - [Extract Text Images – OCR Basics with Aspose.OCR for Java](/ocr/java/ocr-basics/)
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -236,3 +231,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozpoznawanie tabeli w rozpoznawaniu obrazu OCR
@@ -196,10 +198,9 @@ A: Po uzyskaniu `result.RecognitionText` możesz sparsować wiersze i kolumny or
 - [Jak wyodrębnić tekst z obrazu przygotowując prostokąty w OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Jak wykonać OCR obrazu – Przeprowadzić OCR na obrazie w rozpoznawaniu obrazu OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

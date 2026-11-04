@@ -58,7 +58,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 画像からテキストへの変換 Java – 画像をテキストに変換しテキスト領域の矩形を取得
@@ -197,8 +199,6 @@ A: はい、ライブラリはスレッドセーフで、同時実行環境で�
 **テスト環境:** Aspose.OCR 23.10 for Java  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [画像からテキスト抽出 – Aspose.OCR for Java の OCR 基礎](/ocr/java/ocr-basics/)
@@ -206,5 +206,8 @@ A: はい、ライブラリはスレッドセーフで、同時実行環境で�
 - [Aspose.OCR BufferedImage を使用した Java での画像からテキストへの変換](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

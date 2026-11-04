@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR 이미지 인식에서 표 인식
@@ -203,10 +205,9 @@ A: `result.RecognitionText`를 얻은 후 행과 열을 파싱하여 표준 .NET
 - [OCR에서 사각형을 준비하여 이미지에서 텍스트 추출하기](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [이미지 OCR – OCR 이미지 인식에서 이미지에 OCR 수행하기](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

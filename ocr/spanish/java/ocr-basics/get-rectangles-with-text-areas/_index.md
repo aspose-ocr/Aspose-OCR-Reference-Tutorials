@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Imagen a Texto Java – Convertir Imagen a Texto y Recuperar Rectángulos de Área de Texto
@@ -200,15 +202,15 @@ En este **aspose ocr java tutorial** aprendió cómo **convertir imagen a texto*
 **Probado con:** Aspose.OCR 23.10 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriales Relacionados
 
 - [Extraer Imágenes de Texto – Conceptos Básicos de OCR con Aspose.OCR para Java](/ocr/java/ocr-basics/)
 - [Extraer Texto de Imagen Java con Aspose.OCR Modo Detectar Áreas](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Convertir Imagen a Texto en Java usando Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

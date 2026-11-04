@@ -66,7 +66,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Como girar documento digitalizado e calcular o ângulo de inclinação em Java usando Aspose.OCR
@@ -194,18 +196,11 @@ Agora você tem uma receita completa e pronta para produção de **como girar do
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriais Relacionados
 
 - [Como Definir Licença e Verificar Licença Aspose.OCR em Java](/ocr/java/ocr-basics/set-license/)
 - [Extrair Texto de Imagens – Noções Básicas de OCR com Aspose.OCR para Java](/ocr/java/ocr-basics/)
 - [Extrair Texto de Imagem Java com Aspose.OCR Modo Detectar Áreas](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -236,3 +231,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

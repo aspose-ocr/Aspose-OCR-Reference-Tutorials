@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # التعرف على الجدول في التعرف الضوئي على الأحرف (OCR) من الصور
@@ -203,10 +205,9 @@ Console.WriteLine(result.RecognitionText);
 - [كيفية استخراج النص من صورة عن طريق إعداد المستطيلات في OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [كيفية تنفيذ OCR على صورة – إجراء OCR على صورة في التعرف الضوئي على الأحرف من الصور](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

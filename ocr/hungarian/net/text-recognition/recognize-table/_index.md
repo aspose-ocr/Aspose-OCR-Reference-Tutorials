@@ -54,7 +54,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Táblázat felismerése OCR képfelismerésben
@@ -202,10 +204,9 @@ V: A `result.RecognitionText` megszerzése után feldolgozhatja a sorokat és os
 - [Hogyan nyerjünk ki szöveget képből téglalapok előkészítésével az OCR-ban](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Hogyan OCR-eljünk képet – OCR végrehajtása képen OCR képfelismerésben](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

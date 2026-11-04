@@ -59,7 +59,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntüden Metin Java – Görüntüyü Metne Dönüştür ve Metin Alanı Dikdörtgenlerini Al
@@ -197,15 +199,15 @@ Bu **aspose ocr java tutorial**'da Aspose.OCR for Java kullanarak **görüntüy�
 **Tested With:** Aspose.OCR 23.10 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Eğitimler
 
 - [Metin Görüntülerini Çıkar – Aspose.OCR for Java ile OCR Temelleri](/ocr/java/ocr-basics/)
 - [Aspose.OCR Detect Areas Mode ile Java’da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR BufferedImage Kullanarak Java’da Görüntüyü Metne Dönüştür](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

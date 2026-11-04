@@ -60,7 +60,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bild till Text Java – Konvertera Bild till Text och Hämta Textområdesrektanglar
@@ -198,15 +200,15 @@ I den här **aspose ocr java tutorial** lärde du dig hur du **convert image to 
 **Testad med:** Aspose.OCR 23.10 for Java  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Extrahera Textbilder – OCR-grunder med Aspose.OCR för Java](/ocr/java/ocr-basics/)
 - [Extrahera Text från Bild Java med Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Konvertera Bild till Text i Java med Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

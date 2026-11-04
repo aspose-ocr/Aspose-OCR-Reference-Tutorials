@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # จดจำตารางใน OCR การจดจำภาพ
@@ -203,10 +205,9 @@ A: After obtaining `result.RecognitionText`, you can parse the rows and columns 
 - [วิธีการดึงข้อความจากภาพโดยการเตรียมสี่เหลี่ยมใน OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [วิธีการ OCR ภาพ – ทำ OCR บนภาพใน OCR การจดจำภาพ](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

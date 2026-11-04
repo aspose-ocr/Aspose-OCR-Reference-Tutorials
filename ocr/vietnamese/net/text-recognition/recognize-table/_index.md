@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nhận dạng Bảng trong Nhận dạng Hình ảnh OCR
@@ -203,10 +205,9 @@ A5: Có, bạn có thể truy cập bản dùng thử miễn phí [tại đây](
 - [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

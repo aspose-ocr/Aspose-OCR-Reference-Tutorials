@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cómo rotar documentos escaneados y calcular el ángulo de sesgo en Java usando Aspose.OCR
@@ -196,18 +198,11 @@ Ahora tienes una receta completa y lista para producción sobre **cómo rotar do
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriales relacionados
 
 - [Cómo establecer la licencia y verificar la licencia de Aspose.OCR en Java](/ocr/java/ocr-basics/set-license/)
 - [Extraer texto de imágenes – Conceptos básicos de OCR con Aspose.OCR para Java](/ocr/java/ocr-basics/)
 - [Extraer texto de una imagen Java con Aspose.OCR modo Detectar áreas](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

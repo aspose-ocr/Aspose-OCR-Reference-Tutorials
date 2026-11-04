@@ -64,7 +64,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何在 Java 中使用 Aspose.OCR 旋转扫描文档并计算倾斜角度
@@ -192,18 +194,11 @@ weight: 11
 **测试环境：** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [如何在 Java 中设置并验证 Aspose.OCR 许可证](/ocr/java/ocr-basics/set-license/)
 - [提取文本图像 – Aspose.OCR for Java OCR 基础](/ocr/java/ocr-basics/)
 - [使用 Aspose.OCR 检测区域模式在 Java 中从图像提取文本](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -234,3 +229,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

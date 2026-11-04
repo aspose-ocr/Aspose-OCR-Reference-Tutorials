@@ -59,7 +59,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java 图像转文本 – 将图像转换为文本并检索文本区域矩形
@@ -197,15 +199,15 @@ CODE_BLOCK_PLACEHOLDER_5_END
 **测试环境：** Aspose.OCR 23.10 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [提取文本图像 – 使用 Aspose.OCR for Java 的 OCR 基础](/ocr/java/ocr-basics/)
 - [使用 Aspose.OCR 检测区域模式的 Java 图像提取文本](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [使用 Aspose.OCR BufferedImage 在 Java 中将图像转换为文本](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

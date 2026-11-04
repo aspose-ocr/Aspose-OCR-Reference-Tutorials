@@ -65,7 +65,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hur man roterar skannad dokument och beräknar snedvinkeln i Java med Aspose.OCR
@@ -193,18 +195,11 @@ Du har nu ett komplett, produktionsklart recept för **hur man roterar skannade 
 **Testad med:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Hur man ställer in licens och verifierar Aspose.OCR‑licens i Java](/ocr/java/ocr-basics/set-license/)
 - [Extrahera textbilder – OCR‑grunder med Aspose.OCR för Java](/ocr/java/ocr-basics/)
 - [Extrahera text från bild Java med Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -235,3 +230,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

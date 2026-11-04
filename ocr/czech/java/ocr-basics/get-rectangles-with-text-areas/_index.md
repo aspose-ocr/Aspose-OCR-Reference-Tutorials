@@ -59,7 +59,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Obrázek na text v Javě – Převod obrazu na text a získání obdélníků oblastí textu
@@ -195,8 +197,6 @@ V tomto **aspose ocr java tutoriálu** jste se naučili, jak **převést obráze
 **Testováno s:** Aspose.OCR 23.10 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Extrahovat text z obrázků – Základy OCR s Aspose.OCR pro Java](/ocr/java/ocr-basics/)
@@ -204,5 +204,8 @@ V tomto **aspose ocr java tutoriálu** jste se naučili, jak **převést obráze
 - [Převést obrázek na text v Javě pomocí Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

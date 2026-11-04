@@ -65,7 +65,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 스캔한 문서를 회전하고 Java에서 Aspose.OCR을 사용하여 기울기 각도를 계산하는 방법
@@ -193,18 +195,11 @@ Java 2D에서 `BufferedImage`는 메모리 내 이미지를 나타내고, `Aff
 **테스트 환경:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [Java에서 Aspose.OCR 라이선스 설정 및 확인 방법](/ocr/java/ocr-basics/set-license/)
 - [텍스트 이미지 추출 – Java용 Aspose.OCR OCR 기본](/ocr/java/ocr-basics/)
 - [Aspose.OCR 감지 영역 모드로 Java에서 이미지에서 텍스트 추출](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -235,3 +230,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

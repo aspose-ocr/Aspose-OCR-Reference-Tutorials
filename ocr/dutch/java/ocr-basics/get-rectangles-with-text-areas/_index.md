@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Afbeelding naar Tekst Java – Converteer Afbeelding naar Tekst en Haal Tekstgebied Rechthoeken Op
@@ -200,15 +202,15 @@ In deze **aspose ocr java tutorial** leerde u hoe u **convert image to text** ku
 **Getest met:** Aspose.OCR 23.10 for Java  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde Tutorials
 
 - [Tekst uit Afbeeldingen Extraheren – OCR Basics met Aspose.OCR voor Java](/ocr/java/ocr-basics/)
 - [Tekst uit Afbeelding Java Extraheren met Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Afbeelding naar Tekst Converteren in Java met Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

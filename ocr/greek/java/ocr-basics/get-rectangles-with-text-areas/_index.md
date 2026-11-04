@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εικόνα σε Κείμενο Java – Μετατροπή Εικόνας σε Κείμενο και Ανάκτηση Ορθογωνίων Περιοχών Κειμένου
@@ -200,15 +202,15 @@ A: Ναι, η βιβλιοθήκη είναι thread‑safe και μπορεί 
 **Δοκιμάστηκε Με:** Aspose.OCR 23.10 for Java  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Εξαγωγή Κειμένου από Εικόνες – Βασικά OCR με Aspose.OCR για Java](/ocr/java/ocr-basics/)
 - [Εξαγωγή Κειμένου από Εικόνα Java με Aspose.OCR Λειτουργία Ανίχνευσης Περιοχών](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Μετατροπή Εικόνας σε Κείμενο σε Java χρησιμοποιώντας Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

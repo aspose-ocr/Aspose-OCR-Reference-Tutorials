@@ -54,7 +54,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Αναγνώριση Πίνακα στην OCR Αναγνώριση Εικόνας
@@ -197,10 +199,9 @@ A5: Ναι, μπορείτε να αποκτήσετε δωρεάν δοκιμή
 - [Πώς να Εξάγετε Κείμενο από Εικόνα Προετοιμάζοντας Ορθογώνια στην OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Πώς να Κάνετε OCR Εικόνας – Εκτέλεση OCR σε Εικόνα στην OCR Αναγνώριση Εικόνας](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

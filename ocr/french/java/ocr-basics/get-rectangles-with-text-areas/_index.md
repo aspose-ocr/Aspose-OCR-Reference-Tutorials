@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image en texte Java – Convertir une image en texte et récupérer les rectangles des zones de texte
@@ -200,8 +202,6 @@ Dans ce **tutoriel Aspose OCR Java** vous avez appris comment **convertir une im
 **Testé avec :** Aspose.OCR 23.10 for Java  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriels associés
 
 - [Extraire du texte d’images – Bases de l’OCR avec Aspose.OCR pour Java](/ocr/java/ocr-basics/)
@@ -209,5 +209,8 @@ Dans ce **tutoriel Aspose OCR Java** vous avez appris comment **convertir une im
 - [Convertir une image en texte en Java en utilisant Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

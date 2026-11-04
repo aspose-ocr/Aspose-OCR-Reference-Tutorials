@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kép szöveggé Java – Kép konvertálása szöveggé és szövegterület téglalapjainak lekérése
@@ -200,15 +202,15 @@ Ebben a **aspose ocr java tutorial**‑ban megtanulta, hogyan **convert image to
 **Tesztelve ezzel:** Aspose.OCR 23.10 for Java  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó bemutatók
 
 - [Képek szövegének kinyerése – OCR alapok Aspose.OCR for Java‑val](/ocr/java/ocr-basics/)
 - [Szöveg kinyerése képből Java‑val Aspose.OCR Detect Areas mód használatával](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Kép konvertálása szöveggé Java‑ban Aspose.OCR BufferedImage használatával](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

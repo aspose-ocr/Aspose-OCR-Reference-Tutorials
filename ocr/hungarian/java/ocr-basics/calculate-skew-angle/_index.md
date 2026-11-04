@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hogyan forgassuk el a beolvasott dokumentumot és számítsuk ki a ferdeségi szöget Java-ban az Aspose.OCR segítségével
@@ -196,18 +198,11 @@ Most már rendelkezik egy teljes, termelés‑kész recepttel a **how to rotate 
 **Tested With:** Aspose.OCR for Java 24.12 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [How to Set License and Verify Aspose.OCR License in Java](/ocr/java/ocr-basics/set-license/)
 - [Extract Text Images – OCR Basics with Aspose.OCR for Java](/ocr/java/ocr-basics/)
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -238,3 +233,10 @@ try {
     e1.printStackTrace();
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

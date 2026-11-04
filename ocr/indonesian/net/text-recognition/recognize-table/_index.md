@@ -54,7 +54,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mengenali Tabel dalam Pengenalan Gambar OCR
@@ -204,10 +206,9 @@ J: Setelah memperoleh `result.RecognitionText`, Anda dapat mem‑parse baris dan
 - [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

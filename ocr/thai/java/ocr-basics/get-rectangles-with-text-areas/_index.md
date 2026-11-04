@@ -59,7 +59,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ภาพเป็นข้อความใน Java – แปลงภาพเป็นข้อความและดึงสี่เหลี่ยมพื้นที่ข้อความ
@@ -197,15 +199,15 @@ A: รองรับ, ไลบรารีนี้ปลอดภัยต่
 **Tested With:** Aspose.OCR 23.10 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [Extract Text Images – OCR Basics with Aspose.OCR for Java](/ocr/java/ocr-basics/)
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Convert Image to Text in Java using Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

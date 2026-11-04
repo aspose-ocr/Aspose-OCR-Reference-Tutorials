@@ -53,7 +53,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconhecer Tabela em Reconhecimento de Imagem OCR
@@ -201,10 +203,9 @@ A: Após obter `result.RecognitionText`, você pode analisar as linhas e colunas
 - [Como Extrair Texto de Imagem Preparando Retângulos em OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [Como Realizar OCR em Imagem – Executar OCR em Imagem no Reconhecimento de Imagem OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

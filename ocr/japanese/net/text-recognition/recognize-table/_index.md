@@ -52,7 +52,9 @@ weight: 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR画像認識でテーブルを認識する
@@ -198,10 +200,9 @@ A: `result.RecognitionText` を取得した後、行と列をパースし、標�
 - [OCR で矩形を準備して画像からテキストを抽出する方法](/ocr/net/ocr-optimization/prepare-rectangles/)
 - [画像の OCR – OCR画像認識で画像に OCR を実行する方法](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

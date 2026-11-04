@@ -62,7 +62,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Image to Text Java – Chuyển Hình Ảnh Thành Văn Bản và Lấy Các Hình Chữ Nhật Vùng Văn Bản
@@ -201,8 +203,6 @@ Trong **aspose ocr java tutorial** này, bạn đã học cách **convert image 
 **Kiểm tra với:** Aspose.OCR 23.10 for Java  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Trích xuất Văn bản từ Hình ảnh – Cơ bản OCR với Aspose.OCR cho Java](/ocr/java/ocr-basics/)
@@ -210,5 +210,8 @@ Trong **aspose ocr java tutorial** này, bạn đã học cách **convert image 
 - [Chuyển Hình ảnh thành Văn bản trong Java bằng Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
