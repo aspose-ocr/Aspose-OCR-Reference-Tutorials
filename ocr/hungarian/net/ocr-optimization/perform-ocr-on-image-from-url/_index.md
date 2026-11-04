@@ -9,9 +9,8 @@ url: /hu/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
 
-codes at start and end.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

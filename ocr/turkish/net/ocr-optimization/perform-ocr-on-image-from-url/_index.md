@@ -9,13 +9,10 @@ url: /tr/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
 
-Now produce final content with all translations.
 
-Check for any missed items: The bullet list under Quick Answers: need to keep dash and spaces.
 
-Also ensure markdown formatting preserved.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
