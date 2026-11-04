@@ -99,6 +99,19 @@ weight: 24
 เรียนรู้วิธีปิดการทำงานของ OCR ในโค้ด C# เพื่อใช้ Aspose OCR แบบออฟไลน์โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต
 ### [โหลดภาพสำหรับ OCR ใน C# – คู่มือเต็ม Aspose OCR & ตรวจสอบการสะกด](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 
+### [สร้างเครื่องมือ OCR ใน C# – คู่มือฉบับสมบูรณ์](./create-ocr-engine-in-c-complete-guide/)
+
+### [ตั้งค่าขีดจำกัดหน่วยความจำ GPU ด้วย Aspose OCR – คู่มือ C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+เรียนรู้วิธีจำกัดการใช้หน่วยความจำ GPU ใน Aspose OCR ด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผลภาพ
+
+### [สกัดข้อความจากภาพด้วย Aspose OCR GPU – คู่มือเต็ม C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+เรียนรู้วิธีใช้ Aspose OCR GPU เพื่อสกัดข้อความจากภาพด้วย C# อย่างละเอียดและประสิทธิภาพสูง
+
+### [วิธีตั้งค่าใบอนุญาตใน Aspose OCR – คู่มือเต็ม C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีตั้งค่าใบอนุญาต Aspose OCR ใน C# อย่างละเอียดเพื่อเปิดใช้งานฟีเจอร์เต็ม
+
+### [วิธีทำ OCR ใน C# – คู่มือหลายภาษา](./how-to-perform-ocr-in-c-multi-language-guide/)
+
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  
 - ทำดัชนีอาร์ไคฟ์เอกสารขนาดใหญ่เพื่อเป็นคลังข้อมูลที่ค้นหาได้.  

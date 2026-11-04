@@ -43,13 +43,13 @@ url: /el/java/advanced-ocr-techniques/
 
 ## [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
 
-Εξάγετε εύκολα κείμενο από εικόνες καθορίζοντας επιτρεπόμενους χαρακτήρες με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση, διασφαλίζοντας μια απρόσκοπτη εμπειρία αναγνώρισης κειμένου. Βελτιώστε τις εφαρμογές σας Java με τις δυνατότητες Aspose.OCR.
+## [Πώς να χρησιμοποιήσετε το Aspose OCR για εικόνες μικτής γλώσσας](./how-to-use-aspose-ocr-for-mixed-language-images/)
 
-## [Πώς να χρησιμοποιήσετε OCR με επιτάχυνση GPU σε Java – Οδηγός βήμα‑βήμα](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
+Μάθετε πώς να επεξεργάζεστε εικόνες που περιέχουν κείμενο σε πολλαπλές γλώσσες με το Aspose OCR, εξασφαλίζοντας ακριβή εξαγωγή κειμένου.
 
-Εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη και ακριβή OCR σε Java με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα.
+## [Οδηγός Aspose OCR GPU: Επιτάχυνση Εξαγωγής Κειμένου από PNG Εικόνες](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Επιταχύνετε την εξαγωγή κειμένου από PNG εικόνες με το Aspose.OCR GPU, εξασφαλίζοντας υψηλή απόδοση και ακρίβεια.
 
-## Προηγμένα σεμινάρια Τεχνικών OCR
 ### [Εκτέλεση OCR στο BufferedImage στο Aspose.OCR για Java](./perform-ocr-buffered-image/)
 Εκτελέστε OCR στο BufferedImage χωρίς κόπο με το Aspose.OCR για Java. Εξαγωγή κειμένου από εικόνες απρόσκοπτα. Κάντε λήψη τώρα για μια ευέλικτη εμπειρία αναγνώρισης κειμένου.
 ### [Εκτέλεση OCR σε Εικόνα από διεύθυνση URL στο Aspose.OCR για Java](./perform-ocr-image-from-url/)
@@ -145,6 +145,29 @@ url: /el/java/advanced-ocr-techniques/
 Μάθετε πώς να δημιουργήσετε μια σταθερή πισίνα νημάτων για να εκτελείτε OCR παράλληλα σε Java, βελτιώνοντας την απόδοση.
 ### [Βελτιώστε την ακρίβεια OCR σε Java – Πλήρης Οδηγός Aspose OCR](./improve-ocr-accuracy-in-java-complete-aspose-ocr-guide/)
 Μάθετε πώς να αυξήσετε την ακρίβεια του OCR σε Java με το Aspose OCR, εφαρμόζοντας βέλτιστες πρακτικές και ρυθμίσεις.
+### [Ορισμός περιοχής ενδιαφέροντος σε Java OCR – Πλήρης οδηγός](./define-region-of-interest-in-java-ocr-complete-guide/)
+Μάθετε πώς να ορίσετε περιοχές ενδιαφέροντος για OCR σε Java, βελτιώνοντας την ακρίβεια και την απόδοση.
+
+## [Αναγνώριση κειμένου εικόνας με Java OCR – Παράδειγμα με επιτάχυνση GPU](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR για Java με επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες.
+
+## [Εκτέλεση OCR σε εικόνα με Java – Αναγνώριση κειμένου από PNG](./perform-ocr-on-image-with-java-recognize-text-from-png/)
+Αναγνωρίστε κείμενο από αρχεία PNG με το Aspose.OCR για Java. Απλή ενσωμάτωση για γρήγορη και ακριβή εξαγωγή κειμένου.
+
+## [Προεπεξεργασία εικόνας για OCR – Βελτιώστε την ακρίβεια εξαγωγής κειμένου σε Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+Μάθετε πώς να προετοιμάσετε εικόνες για OCR, βελτιώνοντας την ακρίβεια της εξαγωγής κειμένου στις εφαρμογές Java.
+### [Πώς να εκτελέσετε OCR σε Java – Αυτόματη ανίχνευση γλώσσας και εξαγωγή κειμένου](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Μάθετε πώς να εκτελείτε OCR σε Java με αυτόματη ανίχνευση γλώσσας και εξαγωγή κειμένου, βελτιώνοντας την ακρίβεια και την απόδοση.
+### [Πώς να εκτελέσετε μαζικό OCR σε Java με παράλληλη επεξεργασία](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Μάθετε πώς να επεξεργάζεστε μεγάλες ποσότητες εικόνων OCR ταυτόχρονα σε Java, αξιοποιώντας την παράλληλη επεξεργασία για υψηλή απόδοση.
+### [Αναγνώριση κειμένου από εικόνα με GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες με το Aspose OCR σε Java.
+### [Πώς να βελτιώσετε το OCR με προηγμένη προεπεξεργασία σε Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Μάθετε πώς να βελτιώσετε το OCR με προηγμένη προεπεξεργασία εικόνας σε Java, αυξάνοντας την ακρίβεια και την απόδοση.
+### [Αναγνώριση κειμένου από εικόνα με Java OCR – Οδηγός Παράλληλης Επεξεργασίας](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Επιταχύνετε την OCR σε εικόνες με Java χρησιμοποιώντας παράλληλη επεξεργασία για υψηλή απόδοση και ακρίβεια.
+
+## [Πώς να βελτιώσετε την αντίθεση στο OCR – Πλήρης οδηγός προεπεξεργασίας Java](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

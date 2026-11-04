@@ -9,7 +9,9 @@ date: 2025-12-10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Recognize PDF Text with Aspose.OCR for Java
@@ -83,17 +85,8 @@ Say goodbye to manual text extraction from TIFF images. Let Aspose.OCR handle it
 In conclusion, with our Aspose.OCR for Java Tutorials Listing, you have the keys to unlock the full potential of OCR operations. Dive into each tutorial, explore the features, and elevate your text extraction capabilities. Say goodbye to manual efforts and embrace the precision and efficiency offered by Aspose.OCR for Java!
 
 ## OCR operations tutorials
-### [Performing OCR with Detect Areas Mode in Aspose.OCR]({{< relref "perform-ocr-detect-areas-mode" >}})
-Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
 
-### [Performing OCR with Language Selection in Aspose.OCR]({{< relref "perform-ocr-language-selection" >}})
-Unlock precise text extraction from images with Aspose.OCR for Java. Follow our step‑by‑step guide for accurate OCR with language selection.
-
-### [OCR Recognizing PDF Documents in Aspose.OCR for Java]({{< relref "recognize-pdf" >}})
-Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
 ### [Create searchable pdf in Java – Step‑by‑Step Guide]({{< relref "create-searchable-pdf-in-java-step-by-step-guide" >}})
-### [OCR Recognizing TIFF Images in Aspose.OCR for Java]({{< relref "recognize-tiff" >}})
-Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 ### [How to Batch OCR in Java – Complete Guide to Extract Text from Images]({{< relref "how-to-batch-ocr-in-java-complete-guide-to-extract-text-from" >}})
 Learn how to batch process images with Aspose.OCR for Java, extracting text efficiently from multiple files in a single workflow.
 ### [Run OCR on Image with Java – Complete Aspose OCR Guide]({{< relref "run-ocr-on-image-with-java-complete-aspose-ocr-guide" >}})
@@ -158,6 +151,22 @@ Learn how to load an image and extract its text using Aspose.OCR for Java in a s
 Learn how to extract text from a defined region in images using Aspose OCR Java example.
 ### [Extract text from HEIC – complete java guide]({{< relref "extract-text-from-heic-complete-java-guide" >}})
 Comprehensive Java guide for extracting text from HEIC images with Aspose.OCR, covering setup, processing, and optimization.
+### [Create Searchable PDF from Image with Java – Step‑by‑Step Guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+Step‑by‑step guide to convert images into searchable PDFs using Aspose.OCR for Java.
+### [recognize pdf text with Aspose OCR in Java – Complete Guide](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+Comprehensive guide to recognizing PDF text with Aspose OCR in Java, covering setup, processing, and optimization.
+### [recognize text from png with Aspose OCR – Full Java Guide](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+Full Java guide for recognizing text from PNG images using Aspose OCR, covering setup, processing, and optimization.
+### [Run OCR on Image with Java – Extract Thai Text from PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+Extract Thai text from PNG images using Aspose.OCR for Java. Step‑by‑step guide to run OCR on images with Thai language support.
+### [Create searchable PDF from image with Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Learn how to generate a searchable PDF from an image using Aspose.OCR for Java, covering image processing and PDF creation steps.
+### [How to Enable OCR in Java with Aspose – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Step‑by‑step guide to enable OCR in Java using Aspose, covering setup, configuration, and basic usage.
+### [Create Searchable PDF from Image – Step‑by‑Step Java Guide](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Step‑by‑step guide to convert images into searchable PDFs using Aspose.OCR for Java.
+### [How to Use OCR in Java – Extract Text from Image with Spell Correction](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Learn to extract text from images in Java using Aspose.OCR with built‑in spell correction for cleaner results.
 ### [perform ocr on pdf with Aspose OCR in Java – Complete Guide]({{< relref "perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide" >}})
 Complete guide to performing OCR on PDF files using Aspose OCR for Java, covering setup, processing, and optimization.
 ### [Create searchable PDF with Aspose OCR Java – Complete Guide]({{< relref "create-searchable-pdf-with-aspose-ocr-java-complete-guide" >}})
@@ -188,9 +197,6 @@ A: Process TIFF images in chunks or use multi‑threading to keep memory usage o
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR]({{< relref "perform-ocr-detect-areas-mode" >}})
 Unlock the power of text extraction from images with Aspose.OCR for Java. A comprehensive tutorial on OCR with Detect Areas Mode.
 ### [Convert images to text in java – batch OCR processing guide]({{< relref "convert-images-to-text-in-java-batch-ocr-processing-guide" >}})
@@ -214,6 +220,10 @@ Convert PNG images into searchable PDFs with Aspose.OCR for Java in a few simple
 
 ### [Create searchable PDF from image with OCR – java tutorial]({{< relref "create-searchable-pdf-from-image-with-ocr-java-tutorial" >}})
 Convert images into searchable PDFs using Aspose.OCR for Java in a few simple steps.
-{{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

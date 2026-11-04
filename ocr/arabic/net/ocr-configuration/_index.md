@@ -77,6 +77,16 @@ weight: 24
 تعلم كيفية إيقاف تشغيل OCR في تطبيقات C# باستخدام Aspose OCR دون اتصال بالإنترنت.
 ### [تحميل صورة للتعرف الضوئي على الأحرف في C# – دليل كامل لـ Aspose OCR وتدقيق الإملاء](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 تعلم كيفية تحميل صورة وإجراء OCR مع تدقيق إملائي باستخدام Aspose OCR في C# خطوة بخطوة.
+### [إنشاء محرك OCR في C# – دليل كامل](./create-ocr-engine-in-c-complete-guide/)
+دليل شامل لإنشاء محرك OCR باستخدام C# مع Aspose.OCR، يغطي الإعداد، التكوين، واستخدامه في التطبيقات.
+### [تحديد حد ذاكرة GPU باستخدام Aspose OCR – دليل C# للـ GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+تعلم كيفية ضبط حد الذاكرة للـ GPU في Aspose OCR باستخدام C# لتحسين الأداء.
+### [كيفية تعيين الترخيص في Aspose OCR – دليل كامل بلغة C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية إعداد ترخيص Aspose OCR في تطبيقات C# لضمان تشغيل المكتبة دون قيود.
+### [استخراج النص من الصورة باستخدام Aspose OCR GPU – دليل كامل بلغة C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+دليل شامل يوضح كيفية استخدام Aspose OCR مع وحدة معالجة الرسوميات لاستخراج النص من الصور باستخدام C#.
+### [كيفية تنفيذ OCR في C# – دليل متعدد اللغات](./how-to-perform-ocr-in-c-multi-language-guide/)
+تعلم كيفية استخدام Aspose.OCR لمعالجة نصوص متعددة اللغات في تطبيقات C# بسهولة.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

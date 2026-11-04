@@ -140,6 +140,20 @@ weight: 21
 
 ### [Extract Text from HEIC – Complete Java Guide](./extract-text-from-heic-complete-java-guide/)
 เรียนรู้วิธีสกัดข้อความจากไฟล์ HEIC ด้วย Aspose.OCR for Java อย่างละเอียดและครบถ้วน
+### [จดจำข้อความจาก PNG ด้วย Aspose OCR – คู่มือเต็มสำหรับ Java](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java อย่างแม่นยำและง่ายดาย  
+### [Create Searchable PDF from Image with Java – Step‑by‑Step Guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
+### [จดจำข้อความ PDF ด้วย Aspose OCR ใน Java – คู่มือเต็ม](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+### [รัน OCR บนภาพด้วย Java – ดึงข้อความภาษาไทยจาก PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อสกัดข้อความภาษาไทยจากไฟล์ PNG อย่างแม่นยำและง่ายดาย
+### [วิธีเปิดใช้งาน OCR ใน Java ด้วย Aspose – คู่มือขั้นตอนโดยละเอียด](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้โดยใช้ Aspose.OCR สำหรับ Java
+### [Create Searchable PDF from Image – Step‑by‑Step Java Guide](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java อย่างละเอียดและง่ายต่อการทำตาม  
+### [วิธีใช้ OCR ใน Java – ดึงข้อความจากภาพพร้อมการแก้ไขการสะกด](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+เรียนรู้วิธีดึงข้อความจากภาพด้วย Aspose.OCR ใน Java พร้อมการแก้ไขการสะดเพื่อผลลัพธ์ที่แม่นยำ  
 ### [จดจำข้อความจากภาพด้วย Java – คู่มือ Aspose OCR ฉบับเต็ม](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Java โดยใช้ Aspose OCR อย่างละเอียดและแม่นยำ  
 ### [ทำ OCR บน PDF ด้วย Aspose OCR ใน Java – คู่มือเต็ม](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)

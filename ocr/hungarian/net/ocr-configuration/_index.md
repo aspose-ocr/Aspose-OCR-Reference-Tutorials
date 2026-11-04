@@ -132,6 +132,16 @@ Lépésről‑lépésre bemutatja, hogyan telepíthető és használható az oro
 Ismerje meg, hogyan kapcsolhatja ki az OCR funkciót C# alkalmazásban offline környezetben az Aspose OCR használatával.  
 ### [Kép betöltése OCR-hez C#-ban – Teljes Aspose OCR és helyesírás-ellenőrző útmutató](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Ismerje meg, hogyan töltsön be képet C#-ban, és alkalmazzon teljes körű OCR- és helyesírás-ellenőrző funkciókat az Aspose OCR segítségével.  
+### [OCR motor létrehozása C#‑ban – Teljes útmutató](./create-ocr-engine-in-c-complete-guide/)
+Ismerje meg, hogyan hozhat létre saját OCR motort C#‑ban az Aspose.OCR segítségével, lépésről lépésre.  
+### [GPU memória korlát beállítása az Aspose OCR‑val – C# GPU útmutató](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Tanulja meg, hogyan állíthatja be a GPU memória korlátot az Aspose OCR használatával C#‑ban.  
+### [Kép szövegének kinyerése Aspose OCR GPU-val – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Ismerje meg, hogyan használhatja az Aspose OCR GPU-t C#-ban képek szövegének gyors kinyerésére.  
+### [Hogyan állítsuk be a licencet az Aspose OCR-ban – Teljes C# útmutató](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan konfigurálja a licencet az Aspose OCR könyvtárban C#-ban a zökkenőmentes használathoz.  
+### [Hogyan végezzünk OCR-t C#‑ban – Többnyelvű útmutató](./how-to-perform-ocr-in-c-multi-language-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#‑ban több nyelv felismerésére, lépésről lépésre útmutatóval.  
 
 
 

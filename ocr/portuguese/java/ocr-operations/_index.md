@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reconhecer Texto PDF com Aspose.OCR para Java
@@ -142,6 +144,22 @@ Aprenda a carregar imagens em Java e extrair texto usando Aspose.OCR, passo a pa
 Aprenda a usar Aspose OCR para Java e extrair texto de áreas específicas de uma imagem com este exemplo prático.
 ### [Extrair Texto de HEIC – Guia Completo em Java](./extract-text-from-heic-complete-java-guide/)
 Desbloqueie a extração de texto de arquivos HEIC com Aspose.OCR para Java. Guia completo passo a passo para reconhecer texto em imagens HEIC.
+### [Reconhecer texto PDF com Aspose OCR em Java – Guia Completo](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+Aprenda a reconhecer texto em PDFs usando Aspose OCR em Java com um guia completo, cobrindo configuração, melhores práticas e otimizações.
+### [Reconhecer texto de PNG com Aspose OCR – Guia Completo em Java](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+Aprenda a reconhecer texto em arquivos PNG usando Aspose OCR com um guia completo em Java, abordando configuração e melhores práticas.
+### [Criar PDF pesquisável a partir de imagem com Java – Guia passo a passo](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+Aprenda a converter imagens em PDFs pesquisáveis usando Aspose.OCR para Java com instruções detalhadas passo a passo.
+### [Executar OCR em Imagem com Java – Extrair Texto Tailandês de PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+Aprenda a extrair texto em tailandês de arquivos PNG usando Aspose OCR com Java, passo a passo.
+### [Como habilitar OCR em Java com Aspose – Guia passo a passo](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aprenda a ativar o OCR em aplicações Java usando Aspose, com instruções detalhadas passo a passo.
+### [Criar PDF pesquisável a partir de imagem com Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens usando Aspose.OCR para Java, com passo a passo completo.
+### [Como usar OCR em Java – Extrair texto de imagem com correção ortográfica](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Aprenda a extrair texto de imagens em Java usando OCR e aplicar correção ortográfica para melhorar a precisão.
+### [Criar PDF pesquisável a partir de imagem – Guia passo a passo em Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Aprenda a transformar imagens em PDFs pesquisáveis usando Aspose.OCR para Java com instruções detalhadas passo a passo.
 ### [Realizar OCR em PDF com Aspose OCR em Java – Guia Completo](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
 Desbloqueie o poder da extração de texto de PDFs com Aspose OCR em Java. Guia completo passo a passo.
 ### [Criar PDF pesquisável com Aspose OCR Java – Guia Completo](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
@@ -172,12 +190,6 @@ A: Processar imagens TIFF em blocos ou usar multithreading para manter o uso de 
 **Testado com:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Reconhecer texto em imagem com Aspose OCR – Tutorial completo de OCR em Java](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Aprenda a reconhecer texto em imagens usando Aspose OCR com um tutorial completo em Java, cobrindo configuração e melhores práticas.
 ### [Criar PDF pesquisável a partir de PNG – Guia Java completo](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -189,3 +201,9 @@ Aprenda a processar múltiplas imagens em lote usando Aspose.OCR para Java e con
 ### [Criar PDF pesquisável com Aspose OCR – Guia passo a passo](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aprenda a criar PDFs pesquisáveis usando Aspose OCR com um guia passo a passo detalhado.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

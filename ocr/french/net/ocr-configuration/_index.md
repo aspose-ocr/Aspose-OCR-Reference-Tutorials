@@ -95,6 +95,12 @@ Apprenez à extraire du texte en Kannada à partir d'images en C# avec Aspose OC
 Apprenez à créer un processeur de correction orthographique basé sur l'IA d'Aspose OCR pour améliorer la précision du texte extrait.
 ### [Vérifier le drapeau de licence dans Aspose OCR – Guide rapide pour valider la licence](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
 Apprenez à vérifier le statut de licence d'Aspose OCR via le drapeau de licence pour garantir le bon fonctionnement.
+### [Créer un moteur OCR en C# – Guide complet](./create-ocr-engine-in-c-complete-guide/)
+Apprenez à créer et configurer un moteur OCR en C# avec Aspose.OCR, du code initial aux options avancées.
+### [Extraire du texte d'une image avec Aspose OCR GPU – Guide complet C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Apprenez à exploiter le GPU d'Aspose OCR pour extraire rapidement du texte d'images avec un guide complet en C#.
+### [Comment définir la licence dans Aspose OCR – Guide complet C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Apprenez à configurer la licence Aspose OCR dans votre projet C# pour activer toutes les fonctionnalités.
 
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 ### [Comment activer le GPU pour l'OCR en C# – Guide étape par étape](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
@@ -109,6 +115,11 @@ Apprenez à charger des images et à effectuer la vérification orthographique a
 
 ### [Comment désactiver l'OCR en C# – Guide hors ligne Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Apprenez à désactiver la reconnaissance OCR dans vos applications C# en mode hors ligne avec Aspose OCR.
+
+### [Définir la limite de mémoire GPU avec Aspose OCR – Guide GPU C#](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Apprenez à limiter l'utilisation de la mémoire GPU lors de l'exécution d'Aspose OCR en C# pour optimiser les performances.
+### [Comment effectuer l'OCR en C# – Guide multilingue](./how-to-perform-ocr-in-c-multi-language-guide/)
+Apprenez à extraire du texte d'images en plusieurs langues avec Aspose.OCR en C#.
 
 ### Cas d'utilisation courants
 

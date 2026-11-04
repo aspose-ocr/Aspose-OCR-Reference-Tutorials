@@ -76,6 +76,14 @@ Aspose OCR AI を活用し、スペルチェックプロセッサを作成して
 ### [C# で OCR を無効にする方法 – オフライン Aspose OCR ガイド](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 ### [C# で OCR 用に画像をロード – 完全な Aspose OCR とスペルチェック ガイド](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 C# で画像をロードし、Aspose OCR とスペルチェック機能を組み合わせてテキスト抽出と校正を行う完全ガイドです。
+### [C# で OCR エンジンを作成する – 完全ガイド](./create-ocr-engine-in-c-complete-guide/)
+### [Aspose OCR で GPU メモリ制限を設定 – C# GPU ガイド](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+### [Aspose OCR GPU を使用した画像からのテキスト抽出 – 完全 C# ガイド](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+GPU 加速を活用し、Aspose OCR で画像テキストを高速に抽出する C# 完全ガイドです。
+### [Aspose OCR のライセンス設定方法 – 完全 C# ガイド](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR のライセンスを設定し、C# アプリで正しく使用する手順を詳しく解説します。
+### [C# で OCR を実行する方法 – 多言語ガイド](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR を使用して C# アプリで複数言語の画像テキストを抽出する手順を解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

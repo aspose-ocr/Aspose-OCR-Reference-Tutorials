@@ -1,27 +1,47 @@
 ---
 category: general
-date: 2026-02-19
-description: Hogyan engedélyezzük a GPU-t a gyors OCR feldolgozáshoz. Tanulja meg,
-  hogyan töltsön be nagy felbontású képet, ismerje fel a szöveges képet, és vonja
-  ki a szöveget az Aspose OCR segítségével.
+date: 2026-10-08
+description: Hogyan aktiváljuk a GPU-t a gyors OCR feldolgozáshoz. Tanulja meg, hogyan
+  töltsön be nagy felbontású képet, ismerje fel a szöveges képet, és vonja ki a szöveget
+  az Aspose OCR használatával.
 draft: false
 keywords:
 - how to enable gpu
 - load high resolution image
 - recognize text image
-- how to extract text
-- enable gpu processing
-language: hu
-og_description: Hogyan engedélyezzük a GPU-t a gyors OCR feldolgozáshoz. Ez az útmutató
-  megmutatja, hogyan töltsünk be nagy felbontású képet, ismerjük fel a szöveges képet,
-  és vonjuk ki a szöveget az Aspose OCR-rel.
-og_title: Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Teljes útmutató
+- extract text OCR
+- GPU accelerated OCR
+lastmod: 2026-10-08
+og_description: Hogyan aktiváljuk a GPU-t a gyors OCR feldolgozáshoz. Ez az útmutató
+  megmutatja, hogyan töltsön be nagy felbontású képet, ismerje fel a szöveges képet,
+  és vonja ki a szöveget az Aspose OCR segítségével.
+og_image_alt: Diagram showing GPU-accelerated OCR workflow in Java
+og_title: Hogyan aktiváljuk a GPU-t az OCR-hez Java-ban – teljes útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: How to enable GPU for fast OCR processing. Learn to load high resolution
+    image, recognize text image, and extract text using Aspose OCR.
+  headline: How to enable GPU for OCR in Java – complete guide
+  type: TechArticle
+- questions:
+  - answer: Java 17 or newer (older JDKs work with minor tweaks).
+    question: What is the minimum Java version?
+  - answer: Any NVIDIA GPU that supports CUDA 12+ will work.
+    question: Do I need a specific GPU?
+  - answer: Aspose OCR for Java 23.10 or later.
+    question: Which Aspose version is required?
+  - answer: Yes, the GPU driver works without a display.
+    question: Can I run this on a headless server?
+  - answer: Yes, a valid Aspose OCR license is required for non‑trial use.
+    question: Is a license mandatory for production?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - GPU
 - Aspose
-title: Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Teljes útmutató
+title: Hogyan aktiváljuk a GPU-t az OCR-hez Java-ban – teljes útmutató
 url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete-guide/
 ---
 
@@ -29,50 +49,71 @@ url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Teljes útmutató
+# Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – teljes útmutató
 
-Gondolkodtál már azon, **hogyan engedélyezzük a GPU-t** az OCR-pipelined, és hogyan csökkentsd a feldolgozási időt másodpercekben? Nem vagy egyedül. Sok képekkel dolgozó projektben a szűk keresztmetszet a CPU‑alapú szövegkinyerési lépés, és a GPU-ra váltás igazi játék‑változtató lehet.
+Ha **hogyan engedélyezzük a GPU-t** szeretnéd az OCR csővezetékedhez, és drámaian csökkenteni a feldolgozási időt, a megfelelő helyen jársz. A GPU gyorsítás a szövegkinyerés nehéz feladatait a CPU-ról a grafikus kártyára helyezi át, ami különösen értékes, ha nagy felbontású szkennelésekkel dolgozol vagy ezrek oldalait dolgozod fel kötegelt módon.
 
-Ebben az útmutatóban végigvezetünk a **magas felbontású kép** betöltésén, az Aspose OCR GPU-n való futtatásának beállításán, és végül a **szövegkép felismerésén** és a **szöveg kinyerésén** néhány Java sorral. A végére egy kész‑a‑futtatás programot kapsz, amely bemutatja a **GPU feldolgozás engedélyezését** vég‑től‑végig.
+Ebben az útmutatóban végigvezetünk egy **magas felbontású kép** betöltésén, az Aspose OCR GPU-n való futtatásának beállításán, és végül a **szövegkép felismerésén** és a **szöveg kinyerésén** néhány Java sorral. A végére egy kész‑futás programod lesz, amely bemutatja a **GPU feldolgozás engedélyezését** végponttól végpontig.
+
+## Gyors válaszok
+- **Mi a minimális Java verzió?** Java 17 vagy újabb (régebbi JDK-k kisebb módosításokkal működnek).  
+- **Szükségem van egy specifikus GPU-ra?** Bármely NVIDIA GPU, amely támogatja a CUDA 12+ verziót, működik.  
+- **Melyik Aspose verzió szükséges?** Aspose OCR for Java 23.10 vagy újabb.  
+- **Futtatható ez egy headless szerveren?** Igen, a GPU driver működik kijelző nélkül.  
+- **Kötelező licenc a termeléshez?** Igen, egy érvényes Aspose OCR licenc szükséges nem‑próba használathoz.
 
 ## Amire szükséged lesz
 
-- Java 17 vagy újabb (a kód a modulrendszert használja, de kisebb módosításokkal működik régebbi JDK-kkal is)  
+A következő elemekre lesz szükséged a kezdés előtt:
+
+- Java 17 vagy újabb (a kód a modulrendszert használja, de régebbi JDK-kkal kisebb módosításokkal működik)  
 - Aspose OCR for Java 23.10 (vagy a legújabb verzió) – a Maven koordinátákat az Aspose weboldaláról szerezheted meg  
-- NVIDIA GPU CUDA 12+ illesztőprogramokkal (különben a könyvtár nem indul el)  
+- NVIDIA GPU CUDA 12+ driverrel telepítve (különben a könyvtár nem indul el)  
 - Magas felbontású mintakép (PNG vagy JPEG), amelyből szöveget szeretnél olvasni  
 
-Ennyi. Nincs külső szolgáltatás, nincs felhő kredit, csak a géped és a megfelelő driver stack.
+Ennyi. Nincs külső szolgáltatás, nincs felhő kreditet, csak a géped és a megfelelő driver stack.
 
-![GPU OCR munkafolyamat – hogyan engedélyezzük a GPU feldolgozást](gpu-ocr-workflow.png)
+![GPU OCR workflow – hogyan engedélyezzük a GPU feldolgozást](gpu-ocr-workflow.png)
 
-*Kép alternatív szöveg: diagram, amely bemutatja, hogyan engedélyezhető a GPU az OCR feldolgozásban Java-ban.*
+[GPU OCR workflow – hogyan engedélyezzük a GPU feldolgozást](gpu-ocr-workflow.png)
+
+*Kép alternatív szöveg: diagram, amely bemutatja, hogyan engedélyezzük a GPU-t az OCR feldolgozáshoz Java-ban.*
+
+## Mi az a GPU‑gyorsított OCR?
+
+A GPU‑gyorsított OCR a neurális hálózat inferenciáját a CPU-ról a grafikus kártyára helyezi át, akár 10‑ször gyorsabb feldolgozást biztosítva a 2 MP-nél nagyobb képeknél. Az Aspose OCR CUDA kernelt használ, amelyek előre le vannak fordítva Windows, Linux és macOS rendszerekhez, lehetővé téve, hogy ugyanazt a Java API-t tartsd meg, miközben a sebességnyereséget élvezed.
+
+## Miért használjunk GPU gyorsítást OCR-hez?
+
+Az Aspose OCR **50+ bemeneti és kimeneti formátumot** támogat, és több száz oldalas dokumentumokat tud feldolgozni anélkül, hogy az egész fájlt a memóriába töltené. GPU‑engedélyezés esetén egy 3000 × 2000 pixeles szken, amely a CPU-n 4 másodpercet vesz igénybe, kevesebb mint 0,5 másodpercre csökken, így a teljes kötegelt idő több mint 80 %-kal csökken.
 
 ## Lépésről‑lépésre megvalósítás
 
-Az alábbiakban a megoldást logikai blokkokra bontjuk. Minden szakasz tartalmaz egy tömör kódrészletet, egy magyarázatot arra, hogy **miért** fontos a lépés, és néhány gyakorlati tippet, amelyet később biztosan értékelni fogsz.
+Alább a megoldást logikai egységekre bontjuk. Minden szakasz tartalmaz egy tömör kódrészletet, egy magyarázatot arra, hogy **miért** fontos a lépés, és néhány gyakorlati tippet, amelyet később biztosan értékelni fogsz.
 
-### Hogyan engedélyezzük a GPU-t az OCR-hez – 1. lépés: Függőségek telepítése és a CUDA ellenőrzése
+### Hogyan engedélyezzük a GPU-t az OCR-hez – 1. lépés: függőségek telepítése és a CUDA ellenőrzése
 
-Mielőtt bármilyen Java kód futna, a natív CUDA runtime-nak elérhetőnek kell lennie. Windows rendszeren ellenőrizheted a következővel:
+Az 1. lépéshez meg kell erősítened, hogy a CUDA futtatókörnyezet könyvtárai láthatóak az operációs rendszer számára, és a GPU driver helyesen van telepítve. Ellenőrizd a telepítést a fordító verzióparancsának vagy a NVIDIA System Management Interface-nek a futtatásával, amelynek meg kell jelenítenie a driver és a GPU részleteit.
+
+On Windows you can verify with:
 
 ```bat
 nvcc --version
 ```
 
-Linux rendszeren:
+On Linux:
 
 ```bash
 nvidia-smi
 ```
 
-Ha a parancs kiírja a driver verziót és a GPU részleteit, minden rendben van. Ellenkező esetben látogass el az NVIDIA weboldalára, töltsd le a megfelelő drivert, és telepítsd a CUDA eszközkészletet (győződj meg róla, hogy a verzió megfelel az Aspose OCR követelményeinek – jelenleg 12.x).
-
-**Tipp:** Tartsd naprakészen a GPU drivered, de kerüld a „legújabb‑beta” kiadásokat; ezek néha megszeghetik a bináris kompatibilitást az Aspose natív könyvtárakkal.
+**Tipp:** Tartsd naprakészen a GPU drivered, de kerüld a „legújabb‑beta” kiadásokat; ezek néha megszakítják a bináris kompatibilitást az Aspose natív könyvtárakkal.
 
 ### Hogyan engedélyezzük a GPU-t az OCR-hez – 2. lépés: Aspose OCR Maven függőség hozzáadása
 
-Add hozzá a következőt a `pom.xml`-hez. Ez behozza a fő OCR motor és a natív GPU binárisok Windows, Linux és macOS számára.
+A 2. lépésben hozzáadod az Aspose OCR-t a build rendszeredhez, hogy a Java fordító megtalálja az OCR motor és a natív GPU binárisok helyét. A Maven koordináták megadása biztosítja, hogy a fő könyvtár és a platform‑specifikus natív fájlok automatikusan letöltődjenek a projekt frissítésekor.
+
+Add the following to your `pom.xml`. This pulls in the core OCR engine and the native GPU binaries for Windows, Linux, and macOS.
 
 ```xml
 <dependency>
@@ -82,7 +123,7 @@ Add hozzá a következőt a `pom.xml`-hez. Ez behozza a fő OCR motor és a nat�
 </dependency>
 ```
 
-Ha Gradle-t részesíted előnyben, az ekvivalens:
+If you prefer Gradle, the equivalent is:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.10'
@@ -92,7 +133,9 @@ A projekt frissítése után a `OcrEngine`, `OcrDeviceType` és `ImageStream` os
 
 ### Hogyan engedélyezzük a GPU-t az OCR-hez – 3. lépés: OCR motor létrehozása és a GPU engedélyezése
 
-Most ténylegesen azt mondjuk az Aspose-nak, hogy a GPU-n fusson. Az `OcrEngine` egy `Device` objektumot exponál, ahol átállíthatjuk a feldolgozó eszköz típusát.
+Az `OcrEngine` osztály az Aspose OCR központi objektuma, amely kezeli a kép betöltését, előfeldolgozását és az inferenciát. Az `OcrDeviceType` egy felsorolás, amely megmondja a motornak, hogy CPU-n vagy GPU-n fusson. Az `ImageStream` a memóriában lévő képadatokat képviseli, amelyet a motor felhasznál. Ez a konfiguráció lehetővé teszi a motor számára, hogy a neurális hálózat inferenciáját a GPU-ra terhelje, drámai módon csökkentve a késleltetést.
+
+Most ténylegesen azt mondjuk az Aspose-nak, hogy a GPU-n fusson. Az `OcrEngine` egy `Device` objektumot tesz elérhetővé, ahol átállíthatjuk a feldolgozó eszköz típusát.
 
 ```java
 import com.aspose.ocr.*;
@@ -122,24 +165,24 @@ public class GpuOcrExample {
 }
 ```
 
-**Miért fontos:** Az `OcrDeviceType.GPU` beállítása a háttérben lévő inferencia motort CPU‑csak megvalósításról CUDA‑gyorsítottra cseréli. A opcionális `setStreamCount` hívás lehetővé teszi a párhuzamosság szabályozását; két stream a legtöbb fogyasztói kártyán biztonságos alapértelmezett.
+**Miért fontos:** Az `OcrDeviceType.GPU` beállítása az alapvető inferencia motort egy CPU‑csak megvalósításról egy CUDA‑gyorsított változatra cseréli. A opcionális `setStreamCount` hívás lehetővé teszi a párhuzamosság szabályozását; két stream a legtöbb fogyasztói kártyán biztonságos alapértelmezett.
 
-### Hogyan engedélyezzük a GPU-t az OCR-hez – 4. lépés: Magas felbontású kép betöltése
+### Hogyan engedélyezzük a GPU-t az OCR-hez – 4. lépés: magas felbontású kép betöltése
 
-A magas felbontású források több vizuális részletet adnak az OCR modellnek, ami nagyobb pontosságot eredményez, különösen kis betűméretek vagy összetett írásrendszerek esetén. A `ImageStream.fromFile` segédfüggvény beolvassa a fájlt a motor által elvárt formátumba.
+Az `ImageStream` egy könnyű csomagoló, amely a képfájlokat egy a OCR motorral kompatibilis bájtpufferbe olvassa. Egy magas felbontású forrás betöltése több vizuális részletet ad a modellnek, ami magasabb pontosságot eredményez kis betűk vagy összetett írásrendszerek esetén. A csomagoló továbbá normalizálja a natív réteg által igényelt képadatformát, biztosítva a zökkenőmentes feldolgozást.
 
-Ha **magas felbontású képet** kell betölteni egy URL‑ről vagy egy memóriában lévő byte‑tömbből, használhatod a következőt:
+Ha **magas felbontású kép betöltésére** van szükséged URL‑ről vagy egy memóriában lévő bájt tömbből, használhatod:
 
 ```java
 byte[] imageBytes = java.nio.file.Files.readAllBytes(Paths.get("remote-image.png"));
 ocrEngine.setImage(ImageStream.fromBytes(imageBytes));
 ```
 
-**Különleges eset:** Egyes GPU-knak maximális textúra mérete van (gyakran 16384 × 16384). Ha a képed ezt meghaladja, fontold meg a lecsökkentést egy olyan méretre, amely még olvasható (pl. 3000 × 2000). Az OCR motor automatikusan átméretezi, ha a betöltés előtt meghívod a `ocrEngine.setResizeFactor(0.5)`-t.
+**Szélsőséges eset:** Néhány GPU-nak maximális textúra mérete van (gyakran 16384 × 16384). Ha a képed ezt meghaladja, fontold meg a méretcsökkentést egy olyan méretre, amely még megőrzi az olvashatóságot (pl. 3000 × 2000). Az OCR motor automatikusan átméretezi, ha a betöltés előtt meghívod a `ocrEngine.setResizeFactor(0.5)`-t.
 
-### Hogyan engedélyezzük a GPU-t az OCR-hez – 5. lépés: Szövegkép felismerése és szöveg kinyerése
+### Hogyan engedélyezzük a GPU-t az OCR-hez – 5. lépés: szövegkép felismerése és szöveg kinyerése
 
-Az `ocrEngine.recognize()` hívás elindítja a neurális hálózat inferenciáját a GPU-n. A metódus egy `OcrResult` objektumot ad vissza; a `getText()` kinyeri az egyszerű szöveget. Emellett lekérheted a körülhatároló dobozokat, a biztonsági pontszámokat, vagy a nyers JSON-t, ha részletesebb adatokra van szükséged.
+Az `OcrResult` a `ocrEngine.recognize()` által visszaadott tároló. Tartalmazza a sima szöveget, a megbízhatósági pontszámokat, a határoló dobozokat és opcionális JSON terhet. A felismerés után meghívhatod a `getText()`-et a kinyert karakterlánc lekéréséhez, vagy megvizsgálhatod a részletes elrendezési információkat további feldolgozáshoz, például validáláshoz vagy utófeldolgozáshoz.
 
 ```java
 OcrResult result = ocrEngine.recognize();
@@ -155,21 +198,21 @@ result.getPages().forEach(page -> {
 });
 ```
 
-**Miért lehet ez hasznos:** A `recognize text image` lépés az, ahol a GPU ragyog — nagy képek, amelyek a CPU-n másodpercekig tartanának, egy töredékébe kerülnek feldolgozni. A biztonsági pontszámok lehetővé teszik az alacsony minőségű eredmények szűrését, ami hasznos trükk, amikor később **szöveget szeretnél kinyerni** a downstream elemzésekhez.
+**Miért lehet ez hasznos:** A `recognize text image` lépés az, ahol a GPU ragyog—nagy képek, amelyek a CPU-n másodpercekig tartanának, egy töredékébe kerülnek feldolgozni. A megbízhatósági pontszámok lehetővé teszik az alacsony minőségű eredmények szűrését, ami hasznos trükk, ha később **hogyan kell szöveget kinyerni** az adatfolyamatokhoz.
 
 ### Pro tippek és gyakori buktatók
 
 | Helyzet | Mit kell tenni |
 |-----------|------------|
-| **Out‑of‑memory hibák** a GPU-n | Csökkentsd a `setStreamCount` értékét 1-re, vagy csökkentsd a képet, mielőtt betáplálnád a motorba. |
-| **Unrecognized characters** magas felbontás ellenére | Győződj meg róla, hogy a nyelvi modell (`ocrEngine.setLanguage(OcrLanguage.ENGLISH)`) megegyezik a szöveg nyelvével. |
-| **CUDA verzió eltérés** | Igazítsd a CUDA eszközkészlet verzióját az Aspose OCR-ben szereplő verzióhoz (ellenőrizd a kiadási megjegyzéseket). |
+| **Memória‑hiány hibák** a GPU-n | Csökkentsd a `setStreamCount` értékét 1-re, vagy méretezd le a képet, mielőtt a motorba adod. |
+| **Felismerhetetlen karakterek** magas felbontás ellenére | Győződj meg róla, hogy a nyelvi modell (`ocrEngine.setLanguage(OcrLanguage.ENGLISH)`) egyezik a szöveg nyelvével. |
+| **CUDA verzió eltérés** | Igazítsd a CUDA eszközkészlet verzióját az Aspose OCR-ben csomagolt verzióhoz (ellenőrizd a kiadási jegyzeteket). |
 | **Több GPU** | Használd a `ocrEngine.getDevice().setDeviceId(1)`-et a második GPU kiválasztásához, ha az első foglalt. |
-| **Headless szerveren futtatás** | Nincs szükség extra lépésekre; a GPU driver működik kijelző nélkül is. |
+| **Futtatás headless szerveren** | Nincs további lépés szükséges; a GPU driver kijelző nélkül is működik. |
 
-## Hogyan nyerjünk ki szöveget – a kimenet ellenőrzése
+## Hogyan kell szöveget kinyerni – a kimenet ellenőrzése
 
-Ha futtatod a fenti osztályt, valami ilyesmit kell látnod:
+Amikor futtatod a fenti osztályt, valami hasonlót kell látnod:
 
 ```
 === OCR RESULT ===
@@ -177,29 +220,34 @@ Welcome to the Aspose OCR demo!
 Your GPU is now accelerating text extraction.
 ```
 
-Ha a kimenet összezavarodottnak tűnik, ellenőrizd újra, hogy a kép valóban magas felbontású-e, és hogy a GPU driver megfelelően telepítve van-e. Emellett engedélyezheted a részletes naplózást:
+Ha a kimenet összezavartnak tűnik, ellenőrizd újra, hogy a kép valóban magas felbontású-e, és a GPU driver helyesen van-e telepítve. Emellett engedélyezheted a részletes naplózást:
 
 ```java
 ocrEngine.setLogLevel(OcrLogLevel.DEBUG);
 ```
 
-A naplók megmutatják, hogy a natív CUDA kernelfájlok sikeresen betöltődtek-e.
+A naplók megmutatják, hogy a natív CUDA kernelek sikeresen betöltődtek-e.
 
 ## Következő lépések és kapcsolódó témák
 
-- **Kötegelt feldolgozás:** Tegyük a `OcrEngine`-t egy ciklusba, és adjunk át egy képfájl útvonalak listáját. Ne feledd, hogy ugyanazt a motor példányt újrahasználva elkerülheted a GPU újrainicializálásának töltését.  
-- **Nyelvfelismerés:** Az Aspose OCR több mint 30 nyelvet támogat. Válthatsz a `ocrEngine.setLanguage(OcrLanguage.FRENCH)` használatával.  
-- **Utófeldolgozás:** Használj reguláris kifejezéseket a kinyert karakterlánc tisztításához, vagy add tovább egy downstream NLP folyamatnak.  
-- **Alternatív eszközök:** Ha nincs CUDA‑kompatibilis GPU-d, visszatérhetsz a `OcrDeviceType.CPU`-ra. Ugyanaz a kód működik; csak cseréld ki az eszköz típust.  
-- **Teljesítmény mérés:** Mérd a időbeli különbséget a `System.nanoTime()`-mal a `recognize()` előtt és után, hogy kvantifikáld a **GPU feldolgozás engedélyezésének** előnyét.
+- **Kötegelt feldolgozás:** A `OcrEngine`-t egy ciklusba csomagold, és adj meg egy képfájl útvonalak listáját. Ne feledd, hogy ugyanazt a motor példányt újrahasználd, hogy elkerüld a GPU újrainicializálásának többletterhelését.  
+- **Nyelvfelismerés:** Az Aspose OCR több mint 30 nyelvet támogat. Válts a `ocrEngine.setLanguage(OcrLanguage.FRENCH)`-vel.  
+- **Utófeldolgozás:** Használj reguláris kifejezéseket a kinyert karakterlánc tisztításához, vagy add tovább egy downstream NLP csővezetéknek.  
+- **Alternatív eszközök:** Ha nincs CUDA‑képes GPU-d, visszatérhetsz a `OcrDeviceType.CPU`-ra. Ugyanaz a kód működik; csak változtasd meg az eszköz típust.  
+- **Teljesítmény mérés:** Mérd a időbeli különbséget a `System.nanoTime()`-mal a `recognize()` előtt és után, hogy kvantifikáld a **GPU feldolgozás engedélyezéséből** származó nyereséget.
 
-### Összegzés
+---
 
-Áttekintettük, **hogyan engedélyezzük a GPU-t** az Aspose OCR-hez Java-ban, a megfelelő driverek telepítésétől a **magas felbontású kép** betöltéséig, a **szövegkép felismeréséig**, és végül **hogyan nyerjünk ki szöveget** az eredményből. A fenti teljes, futtatható példa bármely modern NVIDIA GPU-n azonnal működnie kell.
+**Legutóbb frissítve:** 2026-10-08  
+**Tesztelve a következővel:** Aspose OCR for Java 23.10  
+**Szerző:** Aspose
 
-Próbáld ki, kísérletezz különböző képméretekkel, és nézd, ahogy az OCR áteresztőképessége szárnyra kap. Ha bármilyen problémába ütközöl, nézd át újra a tippek szekciót vagy ellenőrizd az Aspose kiadási megjegyzéseit a legújabb **GPU feldolgozás engedélyezésének** ajánlásaiért.
+## Kapcsolódó oktatóanyagok
 
-Boldog kódolást, és legyen a GPU-d hűvös, miközben a szöveget dolgozza fel!
+- [Szövegkép felismerése Aspose OCR GPU Java használatával](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
+- [Szöveg kinyerése képből Aspose OCR Java gyors útmutatóval](/ocr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+- [Kötegelt képes OCR Java-ban – Szöveg kinyerése PNG fájlokból gyorsan](/ocr/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

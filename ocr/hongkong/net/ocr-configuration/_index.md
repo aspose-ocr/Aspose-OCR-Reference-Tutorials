@@ -91,6 +91,18 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 說明如何在 C# 應用程式中關閉 OCR 功能，使用離線 Aspose OCR 方案。
 ### [在 C# 中載入影像進行 OCR – 完整的 Aspose OCR 與拼寫檢查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 說明如何在 C# 中載入影像並使用 Aspose OCR 進行文字辨識與拼寫檢查的完整步驟。
+### [在 C# 中建立 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
+一步步教您在 C# 中建立完整的 OCR 引擎，涵蓋設定、語言選擇與最佳化技巧。
+### [使用 Aspose OCR 設定 GPU 記憶體限制 – C# GPU 指南](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+說明如何在 C# 中使用 Aspose OCR 設定 GPU 記憶體上限，以提升辨識效能。
+
+### [使用 Aspose OCR GPU 從影像提取文字 – 完整 C# 教程](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+說明如何使用 Aspose OCR GPU 加速影像文字辨識，完整的 C# 程式碼示例與步驟說明。
+
+### [如何在 Aspose OCR 中設定授權 – 完整 C# 教程](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+說明如何在 .NET 應用程式中設定 Aspose OCR 授權，完整的 C# 程式碼示例與步驟指引。
+### [如何在 C# 中執行 OCR – 多語言指南](./how-to-perform-ocr-in-c-multi-language-guide/)
+在 .NET C# 應用程式中使用 Aspose.OCR，示範如何同時處理多種語言的文字辨識與提取。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

@@ -134,6 +134,16 @@ Hướng dẫn chi tiết cách tải và cài đặt gói ngôn ngữ OCR cho t
 Hướng dẫn tắt chức năng OCR trong ứng dụng C# khi làm việc offline với Aspose OCR.
 ### [Tải hình ảnh cho OCR trong C# – Hướng dẫn đầy đủ Aspose OCR & Kiểm tra chính tả](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 Hướng dẫn chi tiết cách tải hình ảnh và sử dụng Aspose OCR kết hợp kiểm tra chính tả trong C#.
+### [Tạo Engine OCR trong C# – Hướng Dẫn Đầy Đủ](./create-ocr-engine-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tạo engine OCR trong C# sử dụng Aspose.OCR, bao gồm cấu hình và ví dụ thực tế.
+### [Cài đặt giới hạn bộ nhớ GPU với Aspose OCR – Hướng dẫn C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Cài đặt giới hạn bộ nhớ GPU cho Aspose OCR trong C#. Hướng dẫn tối ưu hiệu suất GPU khi thực hiện nhận dạng hình ảnh.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR GPU – Hướng dẫn đầy đủ C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Khám phá cách sử dụng Aspose OCR GPU để trích xuất văn bản từ hình ảnh nhanh chóng với C#.
+### [Cách thiết lập giấy phép trong Aspose OCR – Hướng dẫn đầy đủ C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách áp dụng giấy phép Aspose OCR trong dự án C# để kích hoạt đầy đủ tính năng.
+### [Cách thực hiện OCR trong C# – Hướng dẫn đa ngôn ngữ](./how-to-perform-ocr-in-c-multi-language-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản đa ngôn ngữ từ hình ảnh.
 
 
 
