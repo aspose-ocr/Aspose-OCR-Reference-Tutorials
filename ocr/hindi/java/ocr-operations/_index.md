@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR for Java के साथ PDF टेक्स्ट को पहचानें
@@ -150,6 +152,24 @@ Java में Aspose OCR का उपयोग करके PNG इमेज �
 इमेज को PDF में बदलें और OCR लागू करके सर्चेबल बनाएं। Java कोड उदाहरणों के साथ सरल चरण‑बद्ध मार्गदर्शन।
 ### [Java के साथ इमेज पर OCR चलाएँ – PNG से थाई टेक्स्ट निकालें](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Java में Aspose.OCR का उपयोग करके PNG इमेज से थाई भाषा का टेक्स्ट निकालें। कोड उदाहरणों के साथ।
+### [Aspose के साथ Java में OCR सक्षम करने की चरण‑दर‑चरण गाइड](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aspose OCR को Java एप्लिकेशन में इंटीग्रेट करने और सेटअप करने के सभी चरणों को सरलता से समझें।
+### [Java OCR के साथ इमेज से सर्चेबल PDF बनाएं](./create-searchable-pdf-from-image-with-java-ocr/)
+Java OCR का उपयोग करके इमेज को सर्चेबल PDF में बदलें। तेज़ और सटीक परिणाम प्राप्त करें।
+### [Java में OCR का उपयोग – इमेज से टेक्स्ट निकालें और स्पेल करेक्शन](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Java में OCR का उपयोग करके इमेज से टेक्स्ट निकालें और स्पेल‑करेक्शन के साथ सटीकता बढ़ाएँ।
+### [इमेज से सर्चेबल PDF बनाएं – चरण‑दर‑चरण जावा गाइड](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+इमेज को सर्चेबल PDF में बदलने की पूरी प्रक्रिया, जावा कोड उदाहरणों के साथ।
+### [Java के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों के साथ।
+### [Aspose OCR के साथ PDF पर OCR – पूर्ण गाइड (Java)](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Java में Aspose OCR का उपयोग करके PDF फ़ाइलों पर पूर्ण OCR प्रक्रिया सीखें, कोड उदाहरणों सहित।
+### [Aspose OCR Java के साथ खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java का उपयोग करके PDF को सर्चेबल बनाना सीखें, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
+### [Aspose OCR के साथ ROI में टेक्स्ट पहचानें – Java ट्यूटोरियल](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Aspose OCR का उपयोग करके ROI (Region of Interest) में टेक्स्ट पहचानें, Java कोड के साथ चरण‑बद्ध गाइड।
+### [Aspose OCR Java के साथ OCR के लिए इमेज लोड करें – पूर्ण गाइड](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java के साथ इमेज लोड करके OCR करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 
 ## अक्सर पूछे जाने वाले सवाल
 
@@ -174,12 +194,6 @@ A: बड़े TIFF इमेजेज को चंक्स में प्�
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR के साथ सर्चेबल PDF बनाएं – चरण‑दर‑चरण गाइड](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR का उपयोग करके PDF को सर्चेबल बनाना सीखें, चरण‑दर‑चरण निर्देशों के साथ।
 ### [Aspose OCR के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Java OCR ट्यूटोरियल](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
@@ -194,3 +208,9 @@ PNG इमेज को सर्चेबल PDF में बदलने क�
 ### [Java में इमेज को टेक्स्ट में बदलें – बैच OCR प्रोसेसिंग गाइड](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Java में बैच OCR के साथ इमेज को टेक्स्ट में बदलें। बड़े पैमाने पर इमेज प्रोसेसिंग के लिए गाइड।
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

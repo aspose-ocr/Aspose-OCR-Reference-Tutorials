@@ -46,7 +46,7 @@ Stärken Sie Ihre Java-Anwendungen mit Aspose.OCR für eine präzise Texterkennu
 
 ## [Angeben zulässiger Zeichen in Aspose.OCR](./specify-allowed-characters/)
 
-Extrahieren Sie mühelos Text aus Bildern, indem Sie mit Aspose.OCR für Java zulässige Zeichen angeben. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration und sorgen Sie für ein nahtloses Texterkennungserlebnis. Erweitern Sie Ihre Java-Anwendungen mit Aspose.OCR-Funktionen.
+Nutzen Sie die nahtlose Textextraktion aus Bildern mit Aspose.OCR für Java. Befolgen Sie unsere Schritt-für-Schritt-Anleitung für eine effiziente Integration.
 
 ## [Wie man OCR mit GPU-Beschleunigung in Java verwendet – Schritt‑für‑Schritt‑Anleitung](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 
@@ -174,6 +174,44 @@ Nutzen Sie GPU‑Beschleunigung, um Bildtext mit Aspose.OCR für Java schnell un
 ### [Durchführen von OCR für PNG‑Bild in Aspose.OCR für Java](./perform-ocr-on-image-with-java-recognize-text-from-png/)
 Erkennen Sie Text aus PNG‑Bildern mit Aspose.OCR für Java. Schritt‑für‑Schritt‑Anleitung für schnelle und präzise Textextraktion.
 ### [Bild für OCR vorverarbeiten – Genauigkeit der Textextraktion in Java steigern](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
+### [Bild für OCR vorverarbeiten – Genauigkeit mit Vorverarbeitung steigern](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Optimieren Sie Ihre OCR-Ergebnisse, indem Sie Bilder vorverarbeiten – verbessern Sie Genauigkeit und Zuverlässigkeit der Texterkennung.
+
+### [Texterkennung aus Bild mit Java – GPU-OCR-Tutorial](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Nutzen Sie die GPU-Beschleunigung, um Text aus Bildern mit Java und Aspose.OCR schnell und präzise zu erkennen.
+
+### [Texterkennung aus Bildern mit Aspose OCR – Java Parallel-Batch-Anleitung](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Erfahren Sie, wie Sie mit Aspose OCR in Java mehrere Bilder parallel verarbeiten und Text effizient extrahieren.
+
+### [Text aus verschlüsseltem PDF in Java – Komplettanleitung](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Entschlüsseln Sie PDFs in Java und extrahieren Sie Text mithilfe von Aspose.OCR – ein umfassender Leitfaden.
+
+### [Wie man OCR in Java mit fortgeschrittener Vorverarbeitung verbessert](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Erfahren Sie, wie Sie OCR in Java durch fortgeschrittene Vorverarbeitung optimieren und die Erkennungsgenauigkeit steigern.
+### [Wie man OCR in Java durchführt – Sprache automatisch erkennen und Text extrahieren](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Erfahren Sie, wie Sie OCR in Java ausführen, die Sprache automatisch erkennen und Text extrahieren.
+### [Batch-OCR in Java mit Parallelverarbeitung](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Erfahren Sie, wie Sie OCR-Aufgaben in Java stapelweise mit paralleler Verarbeitung ausführen, um die Leistung zu steigern.
+### [Texterkennung aus Bild mit GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Nutzen Sie die GPU-Beschleunigung von Aspose OCR für Java, um Text aus Bildern schnell und präzise zu extrahieren.
+### [Aspose OCR GPU Leitfaden: Beschleunigen der Textextraktion aus PNG-Bildern](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Nutzen Sie die GPU-Beschleunigung von Aspose OCR, um Text aus PNG-Bildern schnell und präzise zu extrahieren.
+### [Texterkennung aus Bild mit Java OCR – Parallelverarbeitungs‑Leitfaden](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Beschleunigen Sie die Texterkennung mit Java OCR durch parallele Verarbeitung für höhere Leistung.
+### [Wie man Aspose OCR für mehrsprachige Bilder verwendet](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Erfahren Sie, wie Sie Aspose OCR einsetzen, um Text aus Bildern mit mehreren Sprachen präzise zu extrahieren.
+### [Wie man den Kontrast bei OCR verbessert – Vollständiger Java‑Vorverarbeitungsleitfaden](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Erfahren Sie, wie Sie den Bildkontrast optimieren, um die OCR‑Genauigkeit in Java zu verbessern.
+### [Texterkennung von Bildern in Java mit GPU-Beschleunigung – Vollständiges Tutorial](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Nutzen Sie die GPU-Beschleunigung, um Text aus Bildern in Java schnell und präzise zu extrahieren. Vollständige Schritt‑für‑Schritt‑Anleitung.
+### [Parallel-OCR-Verarbeitung in Java – Vollständiger Leitfaden](./parallel-ocr-processing-in-java-complete-guide/)
+Nutzen Sie parallele Verarbeitung, um OCR in Java schneller und effizienter durchzuführen. Schritt‑für‑Schritt‑Anleitung inklusive Codebeispielen.
+### [Wie man OCR in Java erhält – Vollständiger Leitfaden zum Extrahieren von Rohtext](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Erfahren Sie, wie Sie OCR in Java implementieren und Rohtext aus Bildern extrahieren – Schritt‑für‑Schritt‑Anleitung.
+### [Text aus Formular mit Aspose OCR Java extrahieren – Vollständiger Leitfaden](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR für Java Text aus Formularen extrahieren – Schritt‑für‑Schritt‑Anleitung für optimale Ergebnisse.
+### [Erstellen von durchsuchbaren PDFs mit Java OCR – Vollständiger Leitfaden](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java durchsuchbare PDFs erstellen – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

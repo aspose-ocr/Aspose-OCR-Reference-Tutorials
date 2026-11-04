@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rozpoznawanie tekstu PDF za pomocą Aspose.OCR dla Javy
@@ -149,6 +151,24 @@ Kompletny przewodnik po rozpoznawaniu tekstu z plików PNG w Javie przy użyciu 
 Kompletny przewodnik, jak przekształcić obraz w przeszukiwalny plik PDF przy użyciu Aspose.OCR w Javie.
 ### [Uruchom OCR na obrazie w Javie – wyodrębnij tajski tekst z PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Odblokuj możliwość wyodrębniania tajskiego tekstu z plików PNG w Javie przy użyciu Aspose.OCR.
+### [Jak włączyć OCR w Javie z Aspose – przewodnik krok po kroku](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Krok po kroku pokażemy, jak włączyć OCR w aplikacji Java przy użyciu Aspose, aby uzyskać szybkie i dokładne wyniki.
+### [Utwórz przeszukiwalny PDF z obrazu przy użyciu OCR w Javie](./create-searchable-pdf-from-image-with-java-ocr/)
+Odblokuj możliwość konwersji obrazu do przeszukiwalnego PDF przy użyciu Aspose.OCR w Javie.
+### [Jak używać OCR w Javie – wyodrębnić tekst z obrazu z korektą pisowni](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Odblokuj możliwość wyodrębniania tekstu z obrazów w Javie z automatyczną korektą pisowni, zwiększając dokładność wyników OCR.
+### [Tworzenie przeszukiwalnego PDF z obrazu – przewodnik krok po kroku w Javie](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Krok po kroku pokażemy, jak przy użyciu Aspose.OCR w Javie przekształcić obraz w przeszukiwalny plik PDF.
+### [Rozpoznawanie tekstu z obrazu w Javie – Pełny przewodnik Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspose OCR, zawierający wszystkie niezbędne kroki.
+### [Wykonywanie OCR na PDF przy użyciu Aspose OCR w Javie – Kompletny przewodnik](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Kompletny przewodnik, jak zastosować OCR do plików PDF w Javie przy użyciu Aspose OCR, krok po kroku.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR Java – Kompletny przewodnik](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, krok po kroku.
+### [Rozpoznawanie tekstu w ROI przy użyciu Aspose OCR – samouczek Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Odblokuj możliwość wyodrębniania tekstu z wybranego obszaru obrazu (ROI) przy użyciu Aspose OCR w Javie.
+### [Ładowanie obrazu do OCR z Aspose OCR Java – Kompletny przewodnik](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Pełny przewodnik po ładowaniu obrazów do OCR przy użyciu Aspose OCR dla Javy, krok po kroku.
 
 ## Najczęściej zadawane pytania
 
@@ -175,12 +195,6 @@ A: Przetwarzaj obrazy TIFF w partiach lub używaj wielowątkowości, aby utrzyma
 **Środowisko testowe:** Aspose.OCR dla Java 24.12
 **Autor:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – Pełny samouczek OCR w Javie](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Kompletny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, obejmujący wszystkie kluczowe kroki.
 ### [Utwórz przeszukiwalny PDF z PNG – Kompletny przewodnik Java](./create-searchable-pdf-from-png-complete-java-guide/)
@@ -192,3 +206,9 @@ Szybki przewodnik po przetwarzaniu wsadowym obrazów na tekst przy użyciu Aspos
 ### [Utwórz przeszukiwalny PDF za pomocą Aspose OCR – przewodnik krok po kroku](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Krok po kroku pokażemy, jak przekształcić skany w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

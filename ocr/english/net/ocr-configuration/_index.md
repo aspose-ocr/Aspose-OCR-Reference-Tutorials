@@ -102,6 +102,15 @@ Step-by-step guide to turn off OCR in C# apps using offline Aspose OCR configura
 ### [load image for ocr in C# – Complete Aspose OCR & Spell‑Check Guide](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [Create OCR Engine in C# – Complete Guide](./create-ocr-engine-in-c-complete-guide/)
 Learn how to build and configure a custom OCR engine in C# using Aspose.OCR, covering setup, language selection, and performance tuning.
+### [set gpu memory limit with Aspose OCR – C# GPU Guide](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Learn how to set GPU memory limits for Aspose OCR in C# to optimize performance and resource usage.
+### [Extract Text from Image with Aspose OCR GPU – Full C# Guide](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Unlock the power of GPU‑accelerated OCR in .NET. Learn to extract text from images with Aspose OCR using C#.
+### [How to Set License in Aspose OCR – Complete C# Guide](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+### [How to Perform OCR in C# – Multi‑Language Guide](./how-to-perform-ocr-in-c-multi-language-guide/)
+Learn to extract text from images in multiple languages using Aspose.OCR in C# applications.
+### [image to text c# – Aspose OCR with disabled download](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Learn how to extract text from images in C# using Aspose OCR while disabling the download feature.
 ### [Get Aspose OCR Version in C# – Complete Guide](./get-aspose-ocr-version-in-c-complete-guide/)
 Learn how to retrieve the Aspose OCR library version in C# with a complete guide.
 

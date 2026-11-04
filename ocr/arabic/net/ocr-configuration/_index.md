@@ -79,6 +79,16 @@ weight: 24
 تعلم كيفية تحميل صورة وإجراء OCR مع تدقيق إملائي باستخدام Aspose OCR في C# خطوة بخطوة.
 ### [إنشاء محرك OCR في C# – دليل كامل](./create-ocr-engine-in-c-complete-guide/)
 دليل شامل لإنشاء محرك OCR باستخدام C# مع Aspose.OCR، يغطي الإعداد، التكوين، واستخدامه في التطبيقات.
+### [تحديد حد ذاكرة GPU باستخدام Aspose OCR – دليل C# للـ GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+تعلم كيفية ضبط حد الذاكرة للـ GPU في Aspose OCR باستخدام C# لتحسين الأداء.
+### [كيفية تعيين الترخيص في Aspose OCR – دليل كامل بلغة C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية إعداد ترخيص Aspose OCR في تطبيقات C# لضمان تشغيل المكتبة دون قيود.
+### [استخراج النص من الصورة باستخدام Aspose OCR GPU – دليل كامل بلغة C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+دليل شامل يوضح كيفية استخدام Aspose OCR مع وحدة معالجة الرسوميات لاستخراج النص من الصور باستخدام C#.
+### [كيفية تنفيذ OCR في C# – دليل متعدد اللغات](./how-to-perform-ocr-in-c-multi-language-guide/)
+تعلم كيفية استخدام Aspose.OCR لمعالجة نصوص متعددة اللغات في تطبيقات C# بسهولة.
+### [تحويل الصورة إلى نص C# – Aspose OCR مع تعطيل التحميل](./image-to-text-c-aspose-ocr-with-disabled-download/)
+تعلم استخراج النص من الصور في C# باستخدام Aspose OCR مع تعطيل خيار التحميل.
 ### [الحصول على إصدار Aspose OCR في C# – دليل كامل](./get-aspose-ocr-version-in-c-complete-guide/)
 دليل شامل يوضح طريقة استخراج رقم إصدار Aspose OCR في تطبيق C# واستخدامه في بيئة .NET.
 

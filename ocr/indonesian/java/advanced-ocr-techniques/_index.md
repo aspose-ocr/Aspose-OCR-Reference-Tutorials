@@ -41,14 +41,39 @@ Siapkan persegi panjang secara efisien untuk OCR dengan Aspose.OCR untuk Java me
 Pelajari cara menentukan wilayah minat untuk OCR di Java secara menyeluruh, meningkatkan akurasi ekstraksi teks.
 
 ## [Mengenali Garis di Aspose.OCR untuk Java](./recognize-lines/)
-
 Berdayakan aplikasi Java Anda dengan Aspose.OCR untuk pengenalan teks yang tepat. Tutorial ini memandu Anda melalui integrasi yang mudah dan akurasi tinggi dalam mengenali garis. Tingkatkan proyek Anda dengan efisiensi dan keandalan Aspose.OCR.
+
+### [Mengenali Teks dari Gambar dengan GPU Aspose OCR (Java)](./recognize-text-from-image-with-gpu-aspose-ocr-java/)
+Lakukan OCR pada gambar menggunakan GPU dengan Aspose OCR untuk Java, meningkatkan kecepatan dan akurasi ekstraksi teks.
 
 ## [Menentukan Karakter yang Diizinkan di Aspose.OCR](./specify-allowed-characters/)
 ### [Buat PDF yang Dapat Dicari dengan Java – Panduan Lengkap](./create-searchable-pdf-with-java-complete-guide/)
 Buat PDF dapat dicari menggunakan Java dengan panduan lengkap kami, memanfaatkan Aspose.OCR untuk ekstraksi teks yang akurat.
 
-## Kesimpulan
+### [Cara Menggunakan Aspose OCR untuk Gambar Campuran Bahasa](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Pelajari cara mengekstrak teks dari gambar yang mengandung beberapa bahasa secara akurat dengan Aspose OCR.
+
+### [Panduan Aspose OCR GPU: Mempercepat Ekstraksi Teks dari Gambar PNG](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Tingkatkan kecepatan ekstraksi teks dari gambar PNG dengan memanfaatkan GPU menggunakan Aspose OCR. Panduan langkah demi langkah untuk integrasi mudah.
+
+### [Mengenali Teks dari Gambar dengan Java OCR – Panduan Pemrosesan Paralel](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Tingkatkan kecepatan OCR dengan memproses gambar secara paralel menggunakan Java. Ikuti panduan langkah demi langkah kami.
+
+### [Cara Meningkatkan Kontras dalam OCR – Panduan Pra‑pemrosesan Java Lengkap](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Panduan lengkap untuk meningkatkan kontras gambar sebelum OCR menggunakan Java, meningkatkan akurasi ekstraksi teks.
+
+## [Mengenali teks dari gambar menggunakan Java – tutorial OCR GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Gunakan GPU untuk mempercepat OCR pada gambar dengan Java. Ikuti tutorial langkah demi langkah kami untuk hasil akurat dan cepat.
+
+## [Mengenali teks dari gambar dengan Aspose OCR – Panduan Batch Paralel Java](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Gunakan Aspose OCR untuk memproses banyak gambar secara paralel dalam batch dengan Java. Panduan langkah demi langkah untuk kinerja optimal.
+
+## [Ekstrak Teks dari PDF terenkripsi di Java – Panduan Lengkap](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Pelajari cara mengekstrak teks dari PDF yang terenkripsi menggunakan Java dengan panduan lengkap ini. Ikuti langkah demi langkah untuk hasil akurat.
+
+## [Pra-pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Pra-pemrosesan](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+
+Pelajari cara pra‑pemrosesan gambar untuk meningkatkan akurasi OCR menggunakan Aspose.OCR pada Java.
 
 Dengan Aspose.OCR untuk Java, menguasai teknik OCR tingkat lanjut tidak pernah semudah ini. Selami tutorial ini, dan buka potensi penuh pengenalan teks dalam proyek Java Anda. Tingkatkan aplikasi Anda dengan integrasi yang lancar, akurasi tinggi, dan kemampuan ekstraksi teks serbaguna. Unduh sekarang dan ambil langkah pertama menuju keunggulan OCR dengan Aspose.OCR untuk Java!
 ## Tutorial Teknik OCR Tingkat Lanjut
@@ -180,6 +205,22 @@ Ekstrak teks gambar dengan kecepatan tinggi menggunakan Java OCR berakselerasi G
 Ekstrak teks dari file PNG dengan cepat menggunakan Aspose.OCR untuk Java. Panduan langkah demi langkah untuk OCR gambar PNG yang akurat.
 ### [Pra-pemrosesan Gambar untuk OCR – Tingkatkan Akurasi Ekstraksi Teks di Java](./preprocess-image-for-ocr-boost-text-extraction-accuracy-in-j/)
 Optimalkan gambar sebelum OCR untuk meningkatkan akurasi ekstraksi teks dalam aplikasi Java Anda.
+### [Cara Batch OCR di Java dengan Pemrosesan Paralel](./how-to-batch-ocr-in-java-with-parallel-processing/)
+Lakukan OCR secara batch di Java menggunakan pemrosesan paralel untuk meningkatkan kecepatan dan efisiensi ekstraksi teks.
+### [Cara Melakukan OCR di Java – Deteksi Bahasa Otomatis dan Ekstrak Teks](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
+Lakukan OCR di Java dengan deteksi bahasa otomatis, mengekstrak teks secara akurat dalam berbagai bahasa.
+### [Cara Meningkatkan OCR dengan Pra-pemrosesan Lanjutan di Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+Terapkan teknik pra-pemrosesan canggih untuk meningkatkan akurasi dan kecepatan OCR di aplikasi Java Anda.
+### [Mengenali Gambar Teks di Java dengan Akselerasi GPU – Tutorial Lengkap](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+Pelajari cara mengenali teks pada gambar menggunakan Java dengan akselerasi GPU untuk performa tinggi. Ikuti tutorial lengkap kami.
+### [Pemrosesan OCR Paralel di Java – Panduan Lengkap](./parallel-ocr-processing-in-java-complete-guide/)
+Pelajari cara memproses OCR secara paralel di Java untuk meningkatkan kecepatan dan efisiensi ekstraksi teks dari gambar.
+### [Cara Mendapatkan OCR di Java – Panduan Lengkap untuk Mengekstrak Teks Mentah](./how-to-get-ocr-in-java-complete-guide-to-extract-raw-text/)
+Pelajari cara mengintegrasikan OCR di Java dan mengekstrak teks mentah secara efisien dengan panduan lengkap kami.
+### [Ekstrak Teks dari Formulir dengan Aspose OCR Java – Panduan Lengkap](./extract-text-from-form-with-aspose-ocr-java-complete-guide/)
+Pelajari cara mengekstrak teks dari formulir menggunakan Aspose OCR untuk Java dalam panduan lengkap ini.
+### [Membuat PDF yang Dapat Dicari dengan OCR Java – Panduan Lengkap](./create-searchable-pdf-with-java-ocr-complete-guide/)
+Pelajari cara membuat PDF yang dapat dicari menggunakan OCR di Java, lengkap dengan contoh kode dan langkah-langkah integrasi.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

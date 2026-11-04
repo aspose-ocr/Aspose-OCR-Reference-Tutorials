@@ -135,6 +135,16 @@ Pelajari cara menonaktifkan fungsi OCR dalam aplikasi C# secara offline mengguna
 Pelajari cara memuat gambar dan melakukan OCR serta pemeriksaan ejaan menggunakan Aspose OCR di C#.
 ### [Buat Mesin OCR di C# – Panduan Lengkap](./create-ocr-engine-in-c-complete-guide/)
 Panduan lengkap membuat mesin OCR di C# menggunakan Aspose.OCR.
+### [Atur Batas Memori GPU dengan Aspose OCR – Panduan GPU C#](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Pelajari cara membatasi penggunaan memori GPU saat menggunakan Aspose OCR dalam aplikasi C# untuk meningkatkan kinerja.
+### [Ekstrak Teks dari Gambar dengan Aspose OCR GPU – Panduan Lengkap C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Pelajari cara menggunakan Aspose OCR GPU untuk mengekstrak teks dari gambar dengan contoh lengkap C#.
+### [Cara Mengatur Lisensi di Aspose OCR – Panduan Lengkap C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Panduan lengkap untuk mengatur lisensi Aspose OCR dalam aplikasi C#, memastikan fungsionalitas penuh tanpa batasan percobaan.
+### [Cara Melakukan OCR di C# – Panduan Multi‑Bahasa](./how-to-perform-ocr-in-c-multi-language-guide/)
+Panduan lengkap melakukan OCR di C# dengan dukungan banyak bahasa secara mudah.
+### [gambar ke teks C# – Aspose OCR dengan unduhan dinonaktifkan](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dengan opsi menonaktifkan unduhan.
 
 ### [Dapatkan Versi Aspose OCR di C# – Panduan Lengkap](./get-aspose-ocr-version-in-c-complete-guide/)
 Pelajari cara mengambil versi Aspose.OCR yang terpasang dalam aplikasi C# Anda dengan contoh kode lengkap.

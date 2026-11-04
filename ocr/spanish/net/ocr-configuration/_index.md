@@ -97,6 +97,16 @@ Desactiva la funcionalidad OCR en tus aplicaciones C# usando Aspose OCR sin cone
 Aprende a cargar imágenes y aplicar OCR con Aspose, incluyendo verificación ortográfica, en aplicaciones C#.
 ### [Crear motor OCR en C# – Guía completa](./create-ocr-engine-in-c-complete-guide/)
 Aprende a crear y configurar un motor OCR en C# paso a paso con Aspose.OCR.
+### [Establecer límite de memoria GPU con Aspose OCR – Guía C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Aprende a limitar la memoria GPU usada por Aspose OCR en aplicaciones C# para optimizar el rendimiento.
+### [Extraer texto de imagen con Aspose OCR GPU – Guía completa en C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Aprende a usar la aceleración GPU de Aspose OCR en C# para extraer texto de imágenes rápidamente.
+### [Cómo establecer la licencia en Aspose OCR – Guía completa en C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aprende a configurar la licencia de Aspose OCR en C# paso a paso para habilitar todas sus funciones.
+### [Cómo realizar OCR en C# – Guía multilingüe](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aprende a ejecutar OCR en C# con soporte para múltiples idiomas, paso a paso, usando Aspose.OCR.
+### [Imagen a texto C# – Aspose OCR con descarga deshabilitada](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aprende a convertir imágenes a texto en C# usando Aspose OCR sin permitir la descarga del archivo.
 ### [Obtener la versión de Aspose OCR en C# – Guía completa](./get-aspose-ocr-version-in-c-complete-guide/)
 Descubre cómo obtener la versión de Aspose OCR en C# con ejemplos claros y paso a paso.
 

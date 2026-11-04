@@ -101,6 +101,19 @@ weight: 24
 
 ### [สร้างเครื่องมือ OCR ใน C# – คู่มือฉบับสมบูรณ์](./create-ocr-engine-in-c-complete-guide/)
 
+### [ตั้งค่าขีดจำกัดหน่วยความจำ GPU ด้วย Aspose OCR – คู่มือ C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+เรียนรู้วิธีจำกัดการใช้หน่วยความจำ GPU ใน Aspose OCR ด้วย C# เพื่อเพิ่มประสิทธิภาพการประมวลผลภาพ
+
+### [สกัดข้อความจากภาพด้วย Aspose OCR GPU – คู่มือเต็ม C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+เรียนรู้วิธีใช้ Aspose OCR GPU เพื่อสกัดข้อความจากภาพด้วย C# อย่างละเอียดและประสิทธิภาพสูง
+
+### [วิธีตั้งค่าใบอนุญาตใน Aspose OCR – คู่มือเต็ม C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีตั้งค่าใบอนุญาต Aspose OCR ใน C# อย่างละเอียดเพื่อเปิดใช้งานฟีเจอร์เต็ม
+
+### [วิธีทำ OCR ใน C# – คู่มือหลายภาษา](./how-to-perform-ocr-in-c-multi-language-guide/)
+
+### [แปลงภาพเป็นข้อความ C# – Aspose OCR พร้อมปิดการดาวน์โหลด](./image-to-text-c-aspose-ocr-with-disabled-download/)
+สาธิตการแปลงภาพเป็นข้อความใน C# ด้วย Aspose OCR พร้อมปิดการดาวน์โหลดไฟล์
 ### [รับเวอร์ชัน Aspose OCR ใน C# – คู่มือฉบับสมบูรณ์](./get-aspose-ocr-version-in-c-complete-guide/)
 เรียนรู้วิธีดึงข้อมูลเวอร์ชันของ Aspose.OCR ในโค้ด C# อย่างละเอียดและง่ายดาย
 

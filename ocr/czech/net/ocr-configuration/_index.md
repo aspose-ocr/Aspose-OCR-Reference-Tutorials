@@ -79,6 +79,16 @@ Naučte se, jak v C# vypnout OCR a pracovat offline s Aspose OCR, včetně nasta
 ### [Načtení obrázku pro OCR v C# – Kompletní průvodce Aspose OCR a kontrolou pravopisu](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [Vytvořte OCR engine v C# – kompletní průvodce](./create-ocr-engine-in-c-complete-guide/)
 Kompletní průvodce vytvořením OCR enginu v C# pomocí Aspose.OCR pro přesné rozpoznávání textu.
+### [Nastavte limit paměti GPU s Aspose OCR – průvodce C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Naučte se, jak omezit využití paměti GPU při používání Aspose OCR v C# aplikacích.
+### [Extrahování textu z obrázku pomocí Aspose OCR GPU – Kompletní průvodce C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Naučte se využít GPU akceleraci v Aspose OCR pro rychlé rozpoznání textu z obrázků v C# aplikacích.
+### [Jak nastavit licenci v Aspose OCR – Kompletní průvodce C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Naučte se, jak nastavit licenci Aspose OCR ve své C# aplikaci.
+### [Jak provést OCR v C# – Vícejazyčný průvodce](./how-to-perform-ocr-in-c-multi-language-guide/)
+Naučte se, jak provádět OCR v C# s podporou více jazyků a zvýšit přesnost rozpoznávání.
+### [Obrázek na text C# – Aspose OCR s vypnutým stahováním](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Ukazuje, jak pomocí Aspose OCR převést obrázek na text v C# a zakázat možnost stažení souboru.
 ### [Získání verze Aspose OCR v C# – Kompletní průvodce](./get-aspose-ocr-version-in-c-complete-guide/)
 Zjistěte, jak získat verzi Aspose.OCR v C# a ověřit kompatibilitu knihovny během vývoje.
 

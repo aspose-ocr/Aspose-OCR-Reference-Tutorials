@@ -254,6 +254,36 @@ GPU を活用し、C# で TIFF 画像から高速にテキストを抽出する�
 ### [Aspose OCR を使用して検索可能な PDF を作成 – 完全プログラミングガイド](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
 ### [OCR 用画像の前処理 – 完全な Aspose C# ガイド](./preprocess-image-for-ocr-complete-aspose-c-guide/)
 Aspose.OCR を使用して画像を前処理し、OCR の精度を最大化する方法をステップバイステップで解説します。
+### [Aspose OCR で画像をデスクューする方法 – 完全 C# ガイド](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+画像の傾きを自動補正し、正確なテキスト抽出を実現する手順を C# で詳しく解説します。
+### [C# でバッチ OCR を実行する方法 – PNG ファイルからテキストを高速抽出](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+多数の PNG 画像を一括で処理し、テキスト抽出を高速化する手順を C# で解説します。
+### [C# OCR で画像コントラストを強化 – 完全ガイド](./boost-image-contrast-in-c-ocr-complete-guide/)
+画像のコントラストを調整し、OCR 精度を向上させる方法をステップバイステップで解説します。
+### [Aspose OCR を使用した画像からテキスト抽出 – 完全 C# ガイド](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR と C# を使って画像からテキストを抽出する手順を詳しく解説します。
+### [GPU を使用したバッチ PDF OCR – 高速テキスト抽出ガイド](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+GPU のパワーを活用して大量の PDF を高速に OCR し、テキスト抽出を効率化する方法をステップバイステップで解説します。
+### [C# で GPU 加速を有効にして OCR を実行 – レシートからテキスト抽出](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+GPU を活用し、C# でレシート画像の OCR を高速化し、正確にテキスト抽出する方法を解説します。
+### [画像のデスキュー方法 – Aspose OCR 前処理ガイド](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aspose OCR の前処理機能を使って画像の傾きを補正し、認識精度を向上させる手順を解説します。
+### [C# でバッチ OCR 画像 – JPG スキャンの並列 OCR](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+C# を使用して多数の JPG スキャン画像を並列に OCR 処理し、バッチでテキスト抽出する方法を解説します。
+### [C# OCR で GPU メモリ使用量を制限する – 完全ガイド](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+GPU メモリ使用量を最適化し、OCR 処理の安定性とパフォーマンスを向上させる方法をステップバイステップで解説します。
+### [Aspose OCR C# でテキスト画像を認識 – 完全前処理ガイド](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aspose OCR C# を使用してテキスト画像を認識し、前処理手順を完全に解説します。精度向上のベストプラクティスを学びましょう。
+### [C# で画像をデスキューする方法 – 完全 OCR ガイド](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Aspose.OCR for .NET を使用して画像の傾きを補正し、OCR の精度を向上させる手順をステップバイステップで解説します。
+### [画像で OCR を実行する – 完全 C# ガイド](./run-ocr-on-image-complete-c-guide/)
+Aspose.OCR for .NET で画像から OCR を実行する完全な C# 手順をステップバイステップで解説します。
+### [C# で画像をデスキューする方法 – 完全 OCR 前処理ガイド](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Aspose.OCR for .NET を使用し、画像の歪みを補正して OCR 精度を向上させる手順を解説します。
+### [C# で OCR 用画像を前処理する – 完全 Aspose OCR ガイド](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR for .NET を使用して、C# で画像を前処理し、OCR の精度を最大化する手順を詳しく解説します。
+### [C# での OCR 信頼度スコア – 完全ガイド](./ocr-confidence-scores-in-c-complete-guide/)
+OCR の信頼度スコア取得方法と活用法をステップバイステップで解説し、結果の精度評価を容易にします。
 ### [Aspose OCR C# サンプル – GPU を有効化し、メモリ制限を設定、TIF 画像を処理](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 GPU を活用しメモリ上限を設定して、TIF 画像の OCR 処理を高速化する C# サンプルです。
 

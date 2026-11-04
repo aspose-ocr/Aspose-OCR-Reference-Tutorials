@@ -128,6 +128,14 @@ weight: 24
 ### [在 C# 中加载图像进行 OCR – 完整的 Aspose OCR 与拼写检查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 ### [在 C# 中创建 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
 一步步教您在 C# 中构建并配置 Aspose.OCR 引擎，实现高效文本识别。  
+### [使用 Aspose OCR 设置 GPU 内存限制 – C# GPU 指南](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+### [使用 Aspose OCR GPU 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+使用 Aspose OCR GPU 加速图像识别，完整 C# 示例展示高效提取文本的方法。  
+### [如何在 Aspose OCR 中设置许可证 – 完整 C# 指南](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+详细步骤演示在 .NET 项目中使用 Aspose OCR 设置许可证的完整 C# 示例。  
+### [在 C# 中执行 OCR – 多语言指南](./how-to-perform-ocr-in-c-multi-language-guide/)
+了解如何在 C# 中使用 Aspose.OCR 进行多语言文本识别，涵盖语言设置、示例代码和最佳实践。  
+### [图像转文本 C# – Aspose OCR（禁用下载）](./image-to-text-c-aspose-ocr-with-disabled-download/)
 ### [在 C# 中获取 Aspose OCR 版本 – 完整指南](./get-aspose-ocr-version-in-c-complete-guide/)
 
 

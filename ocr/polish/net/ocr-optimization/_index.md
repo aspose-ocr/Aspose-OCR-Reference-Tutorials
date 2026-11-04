@@ -264,6 +264,41 @@ Dowiedz się, jak wygenerować przeszukiwalny PDF z użyciem Aspose OCR w pełny
 Dowiedz się, jak zastosować pełne wstępne przetwarzanie obrazu w Aspose OCR przy użyciu C#.
 ### [Jak prostować obraz – Kompletny przewodnik C# dla wstępnego przetwarzania OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 Dowiedz się, jak używać Aspose.OCR w C# do prostowania obrazów przed OCR, zwiększając dokładność rozpoznawania.
+### [Jak prostować obraz przy użyciu Aspose OCR – Kompletny przewodnik C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Dowiedz się, jak automatycznie prostować (deskew) obrazy w C# przy użyciu Aspose OCR, aby poprawić wyniki rozpoznawania tekstu.
+
+### [Jak wykonać batch OCR w C# – szybki sposób na wyodrębnianie tekstu z plików PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+Poznaj metodę przetwarzania wsadowego PNG w C# przy użyciu Aspose.OCR, aby szybko wyodrębnić tekst z wielu plików.
+### [Zwiększ kontrast obrazu w C# OCR – kompletny przewodnik](./boost-image-contrast-in-c-ocr-complete-guide/)
+Dowiedz się, jak zwiększyć kontrast obrazów w C# przy użyciu Aspose.OCR, aby poprawić dokładność rozpoznawania tekstu.
+### [Wsadowe OCR PDF z GPU – Przewodnik szybkiego wyodrębniania tekstu](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Poznaj, jak przyspieszyć przetwarzanie PDF‑ów przy użyciu GPU, aby szybko wyodrębnić tekst przy pomocy Aspose.OCR dla .NET.
+
+### [Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Pełny przewodnik C# pokazujący, jak wyodrębnić tekst z obrazu przy użyciu Aspose OCR, krok po kroku.
+### [Jak wyprostować obraz – przewodnik przetwarzania wstępnego Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Dowiedz się, jak używać funkcji prostowania obrazu w Aspose.OCR, aby poprawić wyniki OCR na nachylonych skanach.
+
+### [Włącz przyspieszenie GPU dla OCR w C# – wyodrębnianie tekstu z paragonów](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Poznaj, jak wykorzystać przyspieszenie GPU w Aspose.OCR dla .NET, aby szybciej i dokładniej wyodrębniać tekst z paragonów.
+
+### [Wsadowkie OCR obrazów w C# – równoległe OCR skanów JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Dowiedz się, jak przetwarzać wiele skanów JPG jednocześnie w C# przy użyciu równoległego OCR w Aspose.OCR.
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR C# – Kompletny przewodnik po przetwarzaniu wstępnym](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Pełny przewodnik po technikach wstępnego przetwarzania obrazu w C# z Aspose OCR, zwiększający dokładność rozpoznawania tekstu.
+### [Jak prostować obraz w C# – Kompletny przewodnik OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Dowiedz się, jak prostować obrazy w C# przed OCR, aby zwiększyć dokładność rozpoznawania tekstu.
+### [Uruchom OCR na obrazie – Kompletny przewodnik C#](./run-ocr-on-image-complete-c-guide/)
+Pełny przewodnik C# pokazujący, jak wykonać OCR na obrazie przy użyciu Aspose.OCR, od konfiguracji po zapis wyników.
+
+### [Jak wyrównać obraz w C# – Kompletny przewodnik po przetwarzaniu wstępnym OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Dowiedz się, jak prostować obrazy w C# przed OCR, aby zwiększyć dokładność rozpoznawania znaków.
+### [Oceny pewności OCR w C# – kompletny przewodnik](./ocr-confidence-scores-in-c-complete-guide/)
+Dowiedz się, jak odczytywać i wykorzystywać współczynniki pewności OCR w aplikacjach C#, aby poprawić jakość rozpoznawania tekstu.
+
+### [Przetwarzanie obrazu przed OCR w C# – kompletny przewodnik Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Poznaj pełny proces wstępnego przetwarzania obrazu w C# przy użyciu Aspose OCR, aby zwiększyć dokładność rozpoznawania.
+
 ### [Przykład Aspose OCR w C# – Włącz GPU, Ustaw Limit Pamięci i Przetwarzaj Obrazy TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Dowiedz się, jak w Aspose OCR w C# włączyć akcelerację GPU, ustawić limit pamięci i przetwarzać obrazy w formacie TIF.
 
