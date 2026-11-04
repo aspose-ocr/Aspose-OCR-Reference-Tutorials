@@ -278,6 +278,8 @@ Execute OCR em múltiplas imagens JPG simultaneamente usando paralelismo em C# p
 Aprenda a controlar o consumo de memória da GPU ao executar OCR com Aspose.OCR em C#, garantindo desempenho estável.
 ### [Reconhecer imagem de texto com Aspose OCR C# – Guia completo de pré‑processamento](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Aprenda a aplicar filtros e técnicas de pré‑processamento para melhorar a precisão do OCR com Aspose OCR em C#.
+### [Como Corrigir Inclinação de Imagem em C# – Guia Completo de OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Aprenda a remover a inclinação de imagens em C# usando Aspose.OCR, melhorando a precisão do reconhecimento de texto.
 
 ## Perguntas Frequentes
 

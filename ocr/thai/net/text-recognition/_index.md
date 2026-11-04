@@ -44,6 +44,8 @@ url: /th/net/text-recognition/
 เรียนรู้ขั้นตอนการสร้าง PDF ที่ค้นหาได้จากรูปภาพด้วย C# และ Aspose.OCR อย่างครบถ้วนในคู่มือฉบับสมบูรณ์
 ### [สร้าง PDF ที่ค้นหาได้จากภาพสแกน – คู่มือ C#](./create-searchable-pdf-from-scanned-image-c-guide/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพสแกนโดยใช้ Aspose.OCR ใน C# เพื่อเพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
+### [ทำ OCR บน PDF ด้วย Aspose OCR – คู่มือครบถ้วน](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+เรียนรู้วิธีทำ OCR บนไฟล์ PDF อย่างละเอียดด้วย Aspose OCR พร้อมขั้นตอนครบถ้วนเพื่อการแยกข้อความที่แม่นยำ
 
 ## จดจำตารางในการจดจำรูปภาพ OCR
 
@@ -519,6 +521,18 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีตรวจจับภาษาของภาพใน C# ด้วย Aspose.OCR พร้อมขั้นตอนการสกัดข้อความและการประมวลผล OCR อย่างละเอียด
 ### [แปลง PDF ให้เป็นแบบค้นหาได้ใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
 เรียนรู้วิธีแปลง PDF ให้เป็นไฟล์ที่ค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียดเพื่อเพิ่มประสิทธิภาพการสืบค้น
+### [สร้าง PDF ที่ค้นหาได้จากรูปภาพ – คู่มือ C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากรูปภาพด้วย C# และ Aspose OCR อย่างละเอียด
+### [ดึงข้อความจากรูปภาพใน C# – บทเรียน OCR ครบถ้วน](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย C# อย่างละเอียดด้วย Aspose.OCR พร้อมขั้นตอนครบถ้วน
+### [ดึงข้อความจากรูปภาพใน C# – คู่มือขั้นตอนต่อขั้นตอน](./extract-text-from-image-in-c-step-by-step-guide/)
+เรียนรู้วิธีดึงข้อความจากรูปภาพด้วย C# อย่างละเอียดด้วย Aspose.OCR พร้อมคำแนะนำทีละขั้นตอน
+### [จดจำข้อความภาษาจีนใน C# – คู่มือ OCR ครบถ้วน](./recognize-chinese-text-in-c-complete-ocr-guide/)
+เรียนรู้วิธีจดจำข้อความภาษาจีนใน C# อย่างละเอียดด้วย Aspose.OCR พร้อมขั้นตอนครบถ้วน
+### [แปลงรูปภาพเป็น JSON ด้วย Aspose OCR – คู่มือ C# ครบถ้วน](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีแปลงรูปภาพเป็น JSON อย่างละเอียดด้วย Aspose OCR ใน C# พร้อมขั้นตอนครบถ้วนเพื่อการประมวลผลที่แม่นยำ
+### [วิธีทำ Batch OCR ใน C# – ดึงข้อความจากการสแกน](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+เรียนรู้วิธีทำ OCR เป็นชุดใน C# เพื่อดึงข้อความจากไฟล์สแกนหลายไฟล์อย่างมีประสิทธิภาพ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

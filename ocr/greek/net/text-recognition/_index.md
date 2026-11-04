@@ -553,6 +553,20 @@ url: /el/net/text-recognition/
 Μετατρέψτε PDF σε αναζητήσιμο αρχείο με το Aspose.OCR για .NET, βήμα-βήμα οδηγός για εύκολη ενσωμάτωση και υψηλή ακρίβεια.
 ### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες και εξαγωγή σε εσοχή JSON](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες με Aspose.OCR σε C# και να το αποθηκεύσετε σε μορφή JSON με εσοχές για εύκολη ανάγνωση.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Πλήρης οδηγός OCR](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας C# και το Aspose.OCR σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Εξαγωγή κειμένου από εικόνα σε C# – Οδηγός βήμα προς βήμα](./extract-text-from-image-in-c-step-by-step-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας C# και Aspose.OCR με οδηγίες βήμα προς βήμα.
+### [Αναγνώριση Κινέζικου κειμένου σε C# – Πλήρης οδηγός OCR](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Μάθετε πώς να αναγνωρίζετε κινέζικο κείμενο σε C# χρησιμοποιώντας το Aspose.OCR με αυτόν τον πλήρη οδηγό βήμα προς βήμα.
+### [Εκτέλεση OCR σε PDF με Aspose OCR – Πλήρης Οδηγός](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Μάθετε πώς να εκτελείτε OCR σε αρχεία PDF χρησιμοποιώντας Aspose OCR σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Δημιουργία αναζητήσιμου PDF από εικόνα – Οδηγός C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Μάθετε πώς να μετατρέπετε εικόνες σε PDF με δυνατότητα αναζήτησης χρησιμοποιώντας C# και Aspose OCR σε βήμα-βήμα οδηγό.
+### [Μετατροπή εικόνας σε JSON με Aspose OCR – Πλήρης οδηγός C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε JSON με Aspose OCR χρησιμοποιώντας C# σε έναν πλήρη οδηγό βήμα προς βήμα.
+### [Πώς να κάνετε Batch OCR σε C# – Εξαγωγή κειμένου από σαρώσεις](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Μάθετε πώς να επεξεργάζεστε μαζικά εικόνες με OCR σε C# για εξαγωγή κειμένου από σαρωμένα έγγραφα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

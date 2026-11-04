@@ -253,6 +253,8 @@ Aspose.OCR for .NET ile birden çok JPG taramasını paralel olarak işleyerek h
 C# ile OCR işlemlerinde GPU bellek tüketimini kontrol etmeyi ve sınırlamayı adım adım gösteren kapsamlı bir rehber.
 ### [Aspose OCR C# ile Metin Görüntüsü Tanıma – Tam Ön İşleme Kılavuzu](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Aspose OCR C# kullanarak görüntülerdeki metni tanıma ve ön işleme adımlarını adım adım öğrenin.
+### [C#'ta Görüntüyü Düzleştirme – Tam OCR Rehberi](./how-to-deskew-image-in-c-complete-ocr-guide/)
+C# kullanarak eğimli görüntüleri düzleştirerek OCR doğruluğunu artırın. Adım adım kılavuz.
 
 ## Sıkça Sorulan Sorular
 

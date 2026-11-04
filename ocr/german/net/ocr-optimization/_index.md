@@ -272,6 +272,8 @@ Verarbeiten Sie mehrere JPG‑Scans parallel in C# mit Aspose.OCR, um die OCR‑
 Erfahren Sie, wie Sie den GPU‑Speicherverbrauch bei der OCR‑Verarbeitung in C# steuern und optimieren.
 ### [Texterkennung Bild mit Aspose OCR C# – Vollständiger Vorverarbeitungs‑Leitfaden](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Erfahren Sie, wie Sie mit Aspose OCR C# Text aus Bildern extrahieren und die Vorverarbeitung vollständig optimieren.
+### [Wie man ein Bild in C# entzerrt – Vollständiger OCR-Leitfaden](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Lernen Sie, wie Sie schiefe Bilder in C# entzerren und die OCR‑Genauigkeit erhöhen.
 
 ## Häufig gestellte Fragen
 

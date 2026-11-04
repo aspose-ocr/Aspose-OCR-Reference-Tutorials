@@ -280,6 +280,8 @@ Verwerk meerdere JPG-scans gelijktijdig met batch‑OCR in C# voor snelle en nau
 Leer hoe je het GPU‑geheugenverbruik van Aspose.OCR in C# kunt beperken voor optimale prestaties en stabiliteit.
 ### [Tekstafbeelding herkennen met Aspose OCR C# – Complete preprocess-gids](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt en preprocessing toepast voor maximale nauwkeurigheid.
+### [Hoe afbeelding kantcorrectie toepassen in C# – Complete OCR-gids](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Leer hoe je afbeeldingen kantcorrectie toepast met Aspose.OCR in C# voor optimale OCR-prestaties.
 
 ## Veelgestelde vragen
 

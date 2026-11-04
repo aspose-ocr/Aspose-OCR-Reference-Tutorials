@@ -562,6 +562,20 @@ Impara a trasformare PDF in documenti ricercabili con Aspose.OCR in C#, seguendo
 Scopri come rilevare automaticamente la lingua di un'immagine in C# usando Aspose.OCR, con esempi pratici di estrazione del testo.
 ### [c# tutorial OCR – Estrai testo dalle immagini ed esporta come JSON indentato](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
 Scopri come estrarre testo da immagini con Aspose.OCR in C# e salvarlo in formato JSON indentato per una facile lettura.
+### [Esegui OCR su PDF con Aspose OCR – Guida completa](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Scopri come eseguire l'OCR su PDF con Aspose OCR, passo passo, per risultati accurati e integrazione semplice.
+### [Estrai testo da immagine in C# – Tutorial OCR completo](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Scopri come estrarre testo da immagini con C# usando Aspose.OCR, passo passo, per risultati accurati e integrazione semplice.
+### [Estrai testo da immagine in C# – Guida passo‑passo](./extract-text-from-image-in-c-step-by-step-guide/)
+Scopri come estrarre testo da immagini con C# usando Aspose.OCR, passo passo, per risultati accurati e integrazione semplice.
+### [Riconosci testo cinese in C# – Guida OCR completa](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Scopri come riconoscere testo cinese in C# con Aspose.OCR, passo passo, per risultati accurati e integrazione semplice.
+### [Crea PDF ricercabile da immagine – Guida C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Scopri come creare PDF ricercabili da immagini usando Aspose OCR in C#, passo passo, per risultati accurati e integrazione semplice.
+### [Converti immagine in JSON con Aspose OCR – Guida completa C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Scopri come convertire un'immagine in JSON usando Aspose OCR in C#, passo passo, per risultati precisi e integrazione semplice.
+### [Come eseguire OCR batch in C# – Estrarre testo da scansioni](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Scopri come eseguire OCR in batch con C# per estrarre testo da più scansioni, ottimizzando le prestazioni della tua applicazione .NET.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

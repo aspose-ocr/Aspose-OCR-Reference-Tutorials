@@ -279,6 +279,8 @@ Pelajari cara memproses banyak gambar JPG secara paralel dengan Aspose.OCR di C#
 Pelajari cara membatasi penggunaan memori GPU saat menjalankan OCR dengan Aspose.OCR di C# untuk meningkatkan kinerja aplikasi.
 ### [Mengenali teks pada gambar dengan Aspose OCR C# – Panduan Preprocess Lengkap](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Panduan lengkap untuk mengoptimalkan preprocessing gambar sebelum OCR menggunakan Aspose OCR C# untuk hasil akurasi tinggi.
+### [Cara Deskew Gambar di C# – Panduan OCR Lengkap](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Pelajari cara memperbaiki kemiringan gambar dengan Aspose.OCR di C# untuk meningkatkan akurasi OCR secara signifikan.
 
 ## Pertanyaan yang Sering Diajukan
 

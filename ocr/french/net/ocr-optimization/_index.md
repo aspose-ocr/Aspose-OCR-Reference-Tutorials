@@ -270,6 +270,8 @@ Apprenez à redresser les images avant OCR avec Aspose.OCR pour améliorer la pr
 Apprenez à restreindre la consommation de mémoire GPU lors de l'exécution d'OCR avec Aspose.OCR en C#.
 ### [Reconnaître le texte d'une image avec Aspose OCR C# – Guide complet de prétraitement](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Apprenez à appliquer tous les filtres de prétraitement pour optimiser la reconnaissance de texte d'images avec Aspose OCR en C#.
+### [Comment redresser une image en C# – Guide complet OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Apprenez à corriger l’inclinaison des images en C# avec Aspose.OCR pour améliorer la précision de la reconnaissance.
 
 ## Questions fréquemment posées
 

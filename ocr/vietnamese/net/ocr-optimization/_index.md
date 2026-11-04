@@ -234,6 +234,8 @@ Thực hiện OCR đồng thời trên nhiều ảnh JPG bằng C#, tăng tốc 
 Hướng dẫn chi tiết cách tiền xử lý ảnh để nhận dạng văn bản chính xác bằng Aspose OCR C#.
 ### [Giới hạn sử dụng bộ nhớ GPU trong OCR C# – Hướng dẫn đầy đủ](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
 Hướng dẫn chi tiết cách giới hạn bộ nhớ GPU khi thực hiện OCR bằng C#, giúp tối ưu hiệu suất và tránh quá tải tài nguyên.
+### [Cách Xoay Nghiêng Hình Ảnh trong C# – Hướng Dẫn OCR Toàn Diện](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Hướng dẫn chi tiết cách loại bỏ nghiêng của ảnh trước khi OCR bằng Aspose.OCR trong C#.
 
 ## Câu hỏi thường gặp
 

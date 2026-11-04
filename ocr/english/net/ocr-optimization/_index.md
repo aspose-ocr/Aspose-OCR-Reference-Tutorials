@@ -266,6 +266,8 @@ Process multiple JPG scans concurrently in C# using Aspose.OCR to boost OCR thro
 Comprehensive guide to preprocessing images for OCR using Aspose OCR in C#, boosting recognition accuracy.
 ### [limit gpu memory usage in C# OCR – Complete Guide](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
 Learn how to limit GPU memory usage in C# OCR applications using Aspose.OCR for .NET for optimal performance.
+### [How to Deskew Image in C# – Complete OCR Guide](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Learn to correct image skew using Aspose.OCR in C#. Follow our step‑by‑step guide to improve OCR accuracy.
 
 ## Frequently Asked Questions
 

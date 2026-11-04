@@ -287,6 +287,8 @@ Procesa múltiples archivos JPG simultáneamente usando OCR en C#, mejorando la 
 Aprende a aplicar filtros y técnicas de preprocesamiento para mejorar la precisión del OCR con Aspose OCR en C#.
 ### [Limitar el uso de memoria GPU en OCR con C# – Guía completa](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
 Aprende a limitar la memoria GPU utilizada por Aspose.OCR en aplicaciones C#, optimizando rendimiento y evitando sobrecargas.
+### [Cómo corregir la inclinación de una imagen en C# – Guía completa de OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Aprende a eliminar la inclinación de imágenes en C# usando Aspose.OCR, mejorando la precisión del reconocimiento de texto.
 
 ## Preguntas frecuentes
 

@@ -553,6 +553,23 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 在 C# 中將 PDF 轉換為可搜尋的檔案，完整步驟指南提升文字提取效率。
 ### [C# OCR 教學 – 從影像提取文字並匯出為縮排 JSON](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
 使用 Aspose.OCR 在 C# 中提取影像文字，並將結果匯出為具縮排的 JSON 格式，提升資料處理便利性。
+### [使用 Aspose OCR 在 PDF 上執行 OCR – 完整指南](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+使用 Aspose OCR 完整教學，示範如何在 PDF 文件中執行文字辨識並取得結果。
+
+### [從圖像建立可搜尋 PDF – C# Aspose OCR 教學](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+使用 Aspose.OCR 在 C# 中將圖像轉換為可搜尋的 PDF，提供完整步驟指南。
+
+### [在 C# 中從圖像提取文字 – 步驟指南](./extract-text-from-image-in-c-step-by-step-guide/)
+使用 Aspose.OCR 步驟教學，示範如何在 C# 中從圖像提取文字並取得結果。
+
+### [在 C# 中從圖像提取文字 – 完整 OCR 教程](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+使用 Aspose.OCR 完整教學，示範如何在 C# 中從圖像提取文字並取得結果。
+
+### [在 C# 中辨識中文文字 – 完整 OCR 教程](./recognize-chinese-text-in-c-complete-ocr-guide/)
+使用 Aspose.OCR 完整教學，示範如何在 C# 中辨識中文文字並取得結果。
+
+### [如何在 C# 中批次 OCR – 從掃描中提取文字](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+使用 Aspose.OCR 在 C# 中批次處理掃描圖像，快速提取文字。請參考我們的逐步指南完成批量 OCR。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

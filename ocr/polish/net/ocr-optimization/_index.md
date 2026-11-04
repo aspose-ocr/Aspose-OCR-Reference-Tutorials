@@ -286,6 +286,8 @@ Poznaj, jak wykorzystać przyspieszenie GPU w Aspose.OCR dla .NET, aby szybciej 
 Dowiedz się, jak przetwarzać wiele skanów JPG jednocześnie w C# przy użyciu równoległego OCR w Aspose.OCR.
 ### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR C# – Kompletny przewodnik po przetwarzaniu wstępnym](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Pełny przewodnik po technikach wstępnego przetwarzania obrazu w C# z Aspose OCR, zwiększający dokładność rozpoznawania tekstu.
+### [Jak prostować obraz w C# – Kompletny przewodnik OCR](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Dowiedz się, jak prostować obrazy w C# przed OCR, aby zwiększyć dokładność rozpoznawania tekstu.
 
 ## Często zadawane pytania
 

@@ -569,6 +569,20 @@ Apprenez à identifier la langue d'une image en C# avec Aspose.OCR et à extrair
 Apprenez à convertir un PDF en PDF recherchable en C# avec Aspose OCR, étape par étape.
 ### [Tutoriel C# OCR – Extraire le texte des images et l'exporter en JSON indenté](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
 Apprenez à extraire du texte d'images avec C# et à le sauvegarder en JSON formaté pour une utilisation facile.
+### [Effectuer l'OCR sur un PDF avec Aspose OCR – Guide complet](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
+Apprenez à réaliser l'OCR sur des fichiers PDF avec Aspose OCR grâce à un guide complet pas à pas.
+### [Extraire du texte d'une image en C# – Tutoriel OCR complet](./extract-text-from-image-in-c-complete-ocr-tutorial/)
+Apprenez à extraire du texte d'images en C# avec Aspose.OCR grâce à un guide complet pas à pas.
+### [Reconnaître le texte chinois en C# – Guide OCR complet](./recognize-chinese-text-in-c-complete-ocr-guide/)
+Apprenez à reconnaître du texte chinois en C# avec Aspose.OCR grâce à un guide complet pas à pas.
+### [Extraire du texte d'une image en C# – Guide étape par étape](./extract-text-from-image-in-c-step-by-step-guide/)
+Apprenez à extraire du texte d'images en C# avec Aspose.OCR grâce à un guide détaillé pas à pas.
+### [Créer un PDF consultable à partir d'une image – Guide C# Aspose OCR](./create-searchable-pdf-from-image-c-aspose-ocr-guide/)
+Apprenez à créer un PDF consultable à partir d'une image en C# avec Aspose OCR grâce à un guide complet pas à pas.
+### [Convertir une image en JSON avec Aspose OCR – Guide complet C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
+Apprenez à convertir des images en JSON avec Aspose OCR en C#. Suivez notre guide complet pas à pas.
+### [Comment effectuer un OCR par lots en C# – Extraire le texte des numérisations](./how-to-batch-ocr-in-c-extract-text-from-scans/)
+Apprenez à réaliser un OCR par lots en C# pour extraire rapidement le texte de multiples numérisations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

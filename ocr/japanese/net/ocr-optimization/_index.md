@@ -274,6 +274,8 @@ C# を使用して多数の JPG スキャン画像を並列に OCR 処理し、�
 GPU メモリ使用量を最適化し、OCR 処理の安定性とパフォーマンスを向上させる方法をステップバイステップで解説します。
 ### [Aspose OCR C# でテキスト画像を認識 – 完全前処理ガイド](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Aspose OCR C# を使用してテキスト画像を認識し、前処理手順を完全に解説します。精度向上のベストプラクティスを学びましょう。
+### [C# で画像をデスキューする方法 – 完全 OCR ガイド](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Aspose.OCR for .NET を使用して画像の傾きを補正し、OCR の精度を向上させる手順をステップバイステップで解説します。
 
 ## よくある質問
 

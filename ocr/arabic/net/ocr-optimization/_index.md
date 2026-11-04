@@ -265,6 +265,7 @@ weight: 25
 دليل شامل لتقليل استهلاك ذاكرة GPU أثناء تشغيل OCR في C# باستخدام Aspose.OCR.
 ### [التعرف على نص الصورة باستخدام Aspose OCR C# – دليل شامل للمعالجة المسبقة](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 دليل شامل يوضح كيفية تحسين دقة OCR عبر خطوات المعالجة المسبقة باستخدام Aspose OCR في C#.
+### [كيفية تصحيح ميل الصورة في C# – دليل OCR كامل](./how-to-deskew-image-in-c-complete-ocr-guide/)
 
 ## الأسئلة المتكررة
 

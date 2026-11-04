@@ -254,6 +254,8 @@ weight: 25
 ### [在 C# OCR 中限制 GPU 記憶體使用 – 完整指南](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
 學習如何在 C# 使用 Aspose.OCR 控制 GPU 記憶體佔用，提升效能並避免資源過度使用的完整步驟指南。
 ### [使用 Aspose OCR C# 識別文字圖像 – 完整前處理指南](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+### [如何在 C# 中校正圖像傾斜 – 完整 OCR 指南](./how-to-deskew-image-in-c-complete-ocr-guide/)
+學習使用 Aspose.OCR for .NET 於 C# 中去除圖像傾斜，提升 OCR 準確度的完整步驟。
 
 ## 常見問題
 

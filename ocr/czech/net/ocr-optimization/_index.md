@@ -271,6 +271,8 @@ Naučte se, jak využít GPU pro zrychlení OCR v C# a extrahovat text z účten
 Naučte se omezit využití GPU paměti při OCR v C# a optimalizovat výkon aplikace.
 ### [Rozpoznání textu z obrázku s Aspose OCR C# – Kompletní průvodce předzpracováním](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 Kompletní průvodce předzpracováním obrazu pro rozpoznání textu pomocí Aspose OCR v C#. Zvyšte přesnost OCR aplikací.
+### [Jak vyrovnat obrázek v C# – Kompletní OCR průvodce](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# odstranit sklon obrázku a zlepšit přesnost rozpoznání textu.
 
 ## Často kladené otázky
 
