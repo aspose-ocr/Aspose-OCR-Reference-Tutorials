@@ -8,7 +8,7 @@ url: /ja/net/ocr-settings/set-threshold-value/
 weight: 12
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

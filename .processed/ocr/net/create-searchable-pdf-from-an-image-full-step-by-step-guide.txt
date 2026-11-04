@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from an Image – Full Step‑by‑Step Guide
+Slug: create-searchable-pdf-from-an-image-full-step-by-step-guide
+Category: ocr-configuration
+ProcessedDate: 2026-06-07T02:47:03.815077
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert image to pdf, how to ocr image, how to add layer, how to set compression
+PRNumber: 140

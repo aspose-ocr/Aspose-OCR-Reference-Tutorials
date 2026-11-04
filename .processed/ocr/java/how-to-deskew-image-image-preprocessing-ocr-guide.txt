@@ -1,0 +1,7 @@
+Title: How to Deskew Image – Image Preprocessing OCR Guide
+Slug: how-to-deskew-image-image-preprocessing-ocr-guide
+Category: ocr-operations
+ProcessedDate: 2026-06-22T19:32:55.204955
+SourceRepo: AI Search API
+Keywords: how to deskew image, image preprocessing ocr, remove salt pepper, preprocess images ocr
+PRNumber: 153

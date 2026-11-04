@@ -1,0 +1,7 @@
+Title: How to create console logger and spell‑check OCR text in C#
+Slug: how-to-create-console-logger-and-spell-check-ocr-text-in-c
+Category: text-recognition
+ProcessedDate: 2026-08-19T06:15:17.649844
+SourceRepo: AI Search API
+Keywords: create console logger, correct ocr text, spell check ocr
+PRNumber: 205

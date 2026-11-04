@@ -1,0 +1,7 @@
+Title: Download all resources in C# – guide to preloading assets
+Slug: download-all-resources-in-c-guide-to-preloading-assets
+Category: ocr-operations
+ProcessedDate: 2026-08-09T14:19:26.787341
+SourceRepo: AI Search API
+Keywords: download all resources, how to preload assets, download ocr model, how to fetch resources, download resource by name
+PRNumber: 197

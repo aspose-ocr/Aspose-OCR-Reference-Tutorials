@@ -1,0 +1,7 @@
+Title: Extract Text from Image in Java – Get Text from OCR
+Slug: extract-text-from-image-in-java-get-text-from-ocr
+Category: ocr-basics
+ProcessedDate: 2026-05-25T13:42:47.008973
+SourceRepo: AI Search API
+Keywords: extract text from image, get text from ocr, recognize text from photo, java image to text, load image for ocr
+PRNumber: 132
