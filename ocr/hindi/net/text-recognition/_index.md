@@ -638,6 +638,18 @@ Aspose OCR के साथ छवि को सर्चेबल PDF में
 
 ### [C# में छवि को टेक्स्ट में बदलें – पूर्ण Aspose OCR गाइड](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
 Aspose OCR का उपयोग करके C# में छवि से टेक्स्ट निकालने की पूरी चरण-दर-चरण गाइड।
+### [C# में छवि से पाठ पहचान – एक पूर्ण OCR उदाहरण](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+C# में Aspose.OCR का उपयोग करके छवि से पाठ निकालने का पूर्ण उदाहरण देखें।
+### [C# में अरबी पाठ को पहचानें – एक पूर्ण Aspose.OCR गाइड](./recognize-arabic-text-in-c-complete-aspose-ocr-guide/)
+C# में Aspose.OCR का उपयोग करके अरबी टेक्स्ट को सटीक रूप से पहचानने की पूरी गाइड देखें।
+### [C# में Aspose OCR का उपयोग कैसे करें – छवियों से पाठ निकालें](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+C# में Aspose OCR का उपयोग करके छवियों से पाठ निकालने की चरण-दर-स्टेप गाइड।
+### [C# में छवि से पाठ निकालें – Aspose OCR के साथ पूर्ण गाइड](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Aspose OCR के साथ C# में छवि से पाठ निकालने की पूरी प्रक्रिया सीखें।
+### [Aspose OCR के साथ टेक्स्ट इमेज पहचान – पूर्ण C# गाइड](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की पूरी गाइड देखें। चरण-दर-स्टेप निर्देशों के साथ अपने OCR को सशक्त बनाएं।
+### [C# में छवि से पाठ पहचान – छवि को टेक्स्ट में बदलें](./recognize-text-from-image-in-c-convert-image-to-text/)
+C# में Aspose OCR का उपयोग करके छवि को टेक्स्ट में परिवर्तित करने की चरण-दर-स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

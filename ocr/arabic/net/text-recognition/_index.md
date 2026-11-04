@@ -631,6 +631,18 @@ url: /ar/net/text-recognition/
 ### [استخراج النص الهندي من الصور باستخدام Aspose OCR – دليل كامل](./extract-hindi-text-from-images-using-aspose-ocr-complete-g/)
 ### [التعرف على النص العربي من الصورة – دليل كامل بلغة C# باستخدام Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
 ### [معالجة دفعة OCR في C# – دليل كامل لاستخراج النص من الصور](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+### [التعرف على النص من صورة في C# – مثال كامل على OCR](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+دليل شامل يوضح كيفية استخدام Aspose.OCR في C# لاستخراج النص من الصور خطوة بخطوة.
+### [التعرف على النص العربي في C# – دليل كامل لـ Aspose.OCR](./recognize-arabic-text-in-c-complete-aspose-ocr/)
+اكتشف كيفية التعرف على النص العربي باستخدام Aspose.OCR في C# خطوة بخطوة مع دليل شامل.
+### [كيفية استخدام Aspose OCR في C# – استخراج النص من الصور](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+دليل خطوة بخطوة لاستخدام Aspose OCR في C# لاستخراج النص من الصور بسهولة.
+### [استخراج النص من صورة في C# باستخدام Aspose OCR – دليل كامل](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+تعلم استخراج النص من الصور باستخدام Aspose OCR في C# عبر دليل مفصل يغطي جميع الخطوات.
+### [التعرف على النص من صورة في C# – تحويل الصورة إلى نص](./recognize-text-from-image-in-c-convert-image-to-text/)
+دليل خطوة بخطوة لتحويل الصور إلى نص باستخدام Aspose.OCR في C# بسهولة.
+### [التعرف على النص من صورة باستخدام Aspose OCR – دليل كامل C#](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+دليل شامل يوضح كيفية استخدام Aspose OCR في C# لاستخراج النص من الصور خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

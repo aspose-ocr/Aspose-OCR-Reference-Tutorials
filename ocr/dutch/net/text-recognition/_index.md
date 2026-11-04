@@ -635,6 +635,18 @@ Leer hoe u Arabische tekst nauwkeurig uit afbeeldingen kunt extraheren met Aspos
 Leer stap voor stap hoe u met Aspose OCR op afbeeldingen in C# toepast in deze volledige programmeergids.
 ### [Afbeelding converteren naar tekst in C# – Complete Aspose OCR-gids](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
 Leer hoe u met Aspose OCR afbeeldingen omzet naar tekst in C# met deze volledige stap‑voor‑stap gids.
+### [Tekst herkennen uit afbeelding in C# – een volledig OCR-voorbeeld](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+Leer hoe u met Aspose.OCR in C# volledige OCR uitvoert om tekst uit afbeeldingen te extraheren.
+### [Arabische tekst herkennen in C# – Complete Aspose.OCR-gids](./recognize-arabic-text-in-c-complete-aspose-ocr-guide/)
+Leer hoe u Arabische tekst nauwkeurig kunt herkennen met Aspose.OCR in C# met deze volledige stap‑voor‑stap gids.
+### [Hoe Aspose OCR in C# te gebruiken – Tekst extraheren uit afbeeldingen](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+Leer stap voor stap hoe u met Aspose OCR in C# tekst uit afbeeldingen kunt extraheren voor uw .NET‑applicaties.
+### [Tekst extraheren uit afbeelding in C# met Aspose OCR – volledige gids](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen haalt met deze uitgebreide stap‑voor‑stap gids.
+### [Tekst herkennen uit afbeelding met Aspose OCR – Volledige C#-gids](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Volledige gids voor het herkennen van tekst in afbeeldingen met Aspose OCR en C#, stap‑voor‑stap instructies voor .NET‑ontwikkelaars.
+### [Tekst herkennen uit afbeelding in C# – afbeelding naar tekst converteren](./recognize-text-from-image-in-c-convert-image-to-text/)
+Leer hoe u met Aspose.OCR in C# afbeeldingen naar tekst converteert voor nauwkeurige OCR-resultaten.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

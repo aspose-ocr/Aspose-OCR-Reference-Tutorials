@@ -251,6 +251,9 @@ Aspose.OCR for .NET에서 GPU 가속을 설정하여 인식 속도와 정확성�
 C#에서 이미지 전처리 방법을 단계별로 안내하여 OCR 정확도를 높이는 완전 가이드입니다.
 ### [C#에서 GPU OCR 활성화 – 빠른 텍스트 추출을 위한 완전 가이드](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
 C#에서 GPU 가속 OCR을 활성화하여 텍스트 추출 속도를 크게 향상시키는 방법을 단계별로 안내합니다.
+### [GPU 가속 OCR 활성화 – 완전 C# 가이드](./enable-gpu-acceleration-ocr-complete-c-guide/)
+GPU 가속을 활용하여 OCR 성능을 극대화하는 방법을 C# 예제로 단계별 안내합니다.
+### [C#에서 OCR 전처리 단계 – Aspose.OCR로 정확도 향상](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 
 ## 자주 묻는 질문
 

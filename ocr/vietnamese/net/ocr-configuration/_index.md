@@ -153,6 +153,8 @@ Hướng dẫn toàn diện cách chuyển đổi hình ảnh thành PDF có th�
 ### [Cách sử dụng OcrEngine trong C# – Hướng dẫn OCR toàn diện](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
 ### [Phát hiện ngôn ngữ từ hình ảnh trong C# – Hướng dẫn lập trình đầy đủ](./detect-language-from-image-in-c-complete-programming-guide/)
 Hướng dẫn toàn diện cách phát hiện ngôn ngữ từ hình ảnh bằng C# sử dụng Aspose.OCR.
+### [Cách sử dụng OcrEngineConfig – Cấu hình Engine OCR trong C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Hướng dẫn cấu hình OcrEngineConfig để tùy chỉnh engine OCR trong ứng dụng C#.
 
 
 

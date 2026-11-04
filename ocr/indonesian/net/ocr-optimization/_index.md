@@ -297,6 +297,10 @@ Pelajari cara mengaktifkan akselerasi GPU pada mesin OCR C# untuk meningkatkan k
 Pelajari cara mengaktifkan akselerasi GPU pada Aspose.OCR di C# untuk meningkatkan kecepatan ekstraksi teks secara signifikan.
 ### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap](./preprocess-image-for-ocr-in-c-complete-guide/)
 Pelajari cara mempersiapkan gambar sebelum OCR di C# dengan panduan lengkap, meningkatkan akurasi dan kecepatan pengenalan.
+### [Langkah-Langkah Preprocessing OCR di C# – Tingkatkan Akurasi dengan Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Pelajari langkah-langkah preprocessing OCR menggunakan C# untuk meningkatkan akurasi dengan Aspose.OCR.
+### [Aktifkan Akselerasi GPU OCR – Panduan Lengkap C#](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Pelajari cara mengaktifkan akselerasi GPU untuk OCR dengan Aspose.OCR menggunakan C#, meningkatkan kecepatan pemrosesan secara signifikan.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -125,6 +125,9 @@ weight: 24
 ### [Detect Language from Image in C# – Complete Programming Guide](./detect-language-from-image-in-c-complete-programming-guide/)
 เรียนรู้วิธีตรวจจับภาษาจากภาพด้วย C# อย่างครบถ้วน ด้วย Aspose.OCR
 
+### [วิธีใช้ OcrEngineConfig – การกำหนดค่า OCR Engine ใน C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+เรียนรู้วิธีกำหนดค่า OcrEngineConfig เพื่อปรับแต่งการทำงานของ OCR ในแอป C# ของคุณ
+
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  
 - ทำดัชนีอาร์ไคฟ์เอกสารขนาดใหญ่เพื่อเป็นคลังข้อมูลที่ค้นหาได้.  

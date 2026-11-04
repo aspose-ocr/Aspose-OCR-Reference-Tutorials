@@ -289,6 +289,10 @@ Naučte se, jak aktivovat GPU akceleraci v OCR enginu C# pro vyšší výkon a p
 Zrychlete OCR pomocí GPU v C#. Naučte se nastavit a využít GPU akceleraci pro rychlejší rozpoznávání textu.
 ### [Předzpracování obrázku pro OCR v C# – Kompletní průvodce](./preprocess-image-for-ocr-in-c-complete-guide/)
 Naučte se, jak předzpracovat obrázky pro OCR v C# a dosáhnout vyšší přesnosti rozpoznávání textu.
+### [Povolení GPU akcelerace OCR – Kompletní průvodce v C#](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Využijte GPU pro zrychlení OCR v Aspose.OCR pomocí kompletního C# návodu.
+### [Kroky předzpracování OCR v C# – Zvyšte přesnost s Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Naučte se, jak pomocí předzpracování v C# zvýšit přesnost OCR s Aspose.OCR. Praktické ukázky a tipy.
 
 ## Často kladené otázky
 

@@ -641,6 +641,18 @@ Pelajari cara mengekstrak teks Arab dari gambar dengan Aspose OCR untuk .NET men
 Panduan lengkap langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose di C#, meningkatkan akurasi dan efisiensi aplikasi Anda.
 ### [Pemrosesan OCR Batch di C# – Panduan Lengkap untuk Mengekstrak Teks dari Gambar](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
 Panduan lengkap untuk memproses banyak gambar secara batch menggunakan Aspose.OCR di C#, mengekstrak teks dengan cepat dan akurat.
+### [Mengenali teks dari gambar dalam C# – contoh OCR lengkap](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+Pelajari contoh lengkap OCR dengan Aspose.OCR di C# untuk mengenali teks dari gambar secara akurat.
+### [Mengenali Teks Arab dalam C# – Panduan Lengkap Aspose.OCR](./recognize-arabic-text-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mengenali teks Arab di C# menggunakan Aspose.OCR dengan panduan lengkap langkah demi langkah.
+### [Cara Menggunakan Aspose OCR di C# – Ekstrak Teks dari Gambar](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+Pelajari cara menggunakan Aspose OCR di C# untuk mengekstrak teks dari gambar secara akurat dengan panduan langkah demi langkah.
+### [Ekstrak Teks dari Gambar di C# dengan Aspose OCR – Panduan Lengkap](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Pelajari cara mengekstrak teks dari gambar secara akurat menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Mengenali Teks Gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dalam panduan lengkap C#.
+### [Mengenali teks dari gambar dalam C# – Mengonversi Gambar ke Teks](./recognize-text-from-image-in-c-convert-image-to-text/)
+Pelajari cara mengonversi gambar menjadi teks menggunakan Aspose OCR di C# dengan panduan langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

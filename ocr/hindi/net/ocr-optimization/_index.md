@@ -72,6 +72,8 @@ Aspose.OCR For .NET ट्यूटोरियल सूची का उपय
 
 ### [Aspose OCR में फ़िल्टर का उपयोग – टेक्स्ट निष्कर्षण को बढ़ाएँ](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 Aspose OCR में फ़िल्टर लागू करके टेक्स्ट निष्कर्षण की सटीकता और गति को बढ़ाने के चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में OCR प्री‑प्रोसेसिंग चरण – Aspose.OCR के साथ सटीकता बढ़ाएँ](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Aspose.OCR के प्री‑प्रोसेसिंग फ़िल्टरों का उपयोग करके OCR सटीकता को कैसे बढ़ाएँ, इस चरण‑दर‑चरण गाइड में जानें।
 
 ### [OCR इमेज रिकग्निशन में मल्टी‑पेज परिणाम को दस्तावेज़ के रूप में सहेजें](./save-multipage-result-as-document/)
 ### [C# में असिंक्रोनस OCR कैसे करें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-async-ocr-in-c-complete-step-by-step-guide/)
@@ -325,6 +327,9 @@ GPU का उपयोग करके तेज़ OCR प्राप्त �
 
 ### [C# में OCR के लिए छवि को प्री‑प्रोसेस करना – पूर्ण गाइड](./preprocess-image-for-ocr-in-c-complete-guide/)
 C# में OCR के लिए छवि को प्री‑प्रोसेस करने के सभी चरणों का विस्तृत मार्गदर्शन।
+
+### [GPU त्वरण सक्षम OCR – पूर्ण C# गाइड](./enable-gpu-acceleration-ocr-complete-c-guide/)
+GPU त्वरण के साथ OCR को तेज़ करें, C# में पूर्ण सेटअप और कोड उदाहरण देखें।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

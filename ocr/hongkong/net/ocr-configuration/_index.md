@@ -113,6 +113,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 教您如何將單張影像轉換為可搜尋的 PDF，涵蓋 Aspose.OCR 與 Aspose.PDF 的完整流程與最佳化技巧。
 ### [在 C# 中從影像偵測語言 – 完整程式設計指南](./detect-language-from-image-in-c-complete-programming-guide/)
 使用 Aspose.OCR 在 C# 中偵測影像語言，提供完整的程式設計步驟與範例。
+### [如何使用 OcrEngineConfig – C# 中的 OCR 引擎設定](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+說明如何在 C# 中使用 OcrEngineConfig 進行 OCR 引擎設定，以提升辨識效果。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  

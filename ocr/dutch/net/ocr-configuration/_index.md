@@ -121,6 +121,8 @@ Leer hoe je een doorzoekbare PDF maakt van een afbeelding met een volledige stap
 
 ### [Detecteer taal van afbeelding in C# – Complete programmeergids](./detect-language-from-image-in-c-complete-programming-guide/)
 Leer hoe je met Aspose.OCR de taal van tekst in afbeeldingen detecteert en verwerkt in C#-toepassingen.
+### [Hoe OcrEngineConfig te gebruiken – OCR-engineconfiguratie in C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Leer hoe je OcrEngineConfig instelt voor geavanceerde OCR‑instellingen in C# met Aspose.OCR.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

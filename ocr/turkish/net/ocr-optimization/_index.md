@@ -271,6 +271,10 @@ Aspose.OCR for .NET ile GPU desteğini etkinleştirerek OCR hızını ve doğrul
 C# uygulamalarında GPU destekli OCR ile metin çıkarma hızını artırın ve performansı maksimize edin.
 ### [C#'ta OCR için Görüntü Ön İşleme – Tam Kılavuz](./preprocess-image-for-ocr-in-c-complete-guide/)
 C# ile OCR öncesi görüntü işleme adımlarını öğrenin, filtreleri uygulayın ve tanıma doğruluğunu artırın.
+### [C#'ta OCR Ön İşleme Adımları – Aspose.OCR ile Doğruluğu Artırın](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Aspose.OCR kullanarak C#'ta OCR ön işleme adımlarını öğrenin ve tanıma doğruluğunu artırın.
+### [GPU Hızlandırmalı OCR – Tam C# Kılavuzu](./enable-gpu-acceleration-ocr-complete-c-guide/)
+GPU hızlandırmalı OCR ile C#'ta tam kılavuz, performansı artırın ve entegrasyonu kolaylaştırın.
 
 ## Sıkça Sorulan Sorular
 

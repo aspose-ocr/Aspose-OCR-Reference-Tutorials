@@ -614,6 +614,18 @@ url: /ru/net/text-recognition/
 Изучите, как выполнять пакетную обработку изображений с помощью Aspose.OCR в C#, извлекая текст из множества файлов эффективно.
 ### [Преобразовать изображение в текст на C# – Полное руководство Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
 Полное пошаговое руководство по преобразованию изображений в текст на C# с использованием Aspose OCR.
+### [Распознать текст с изображения в C# – полный пример OCR](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+Полный пример OCR на C# с использованием Aspose.OCR для распознавания текста с изображений.
+### [Распознать арабский текст в C# – Полное руководство Aspose.OCR](./recognize-arabic-text-in-c-complete-aspose-ocr-guide/)
+Полный пример распознавания арабского текста с помощью Aspose.OCR в C#. Пошаговое руководство для .NET-разработчиков.
+### [Как использовать Aspose OCR в C# – извлекать текст из изображений](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+Полный пример использования Aspose OCR в C# для извлечения текста из изображений.
+### [Извлечь текст из изображения в C# с Aspose OCR – Полное руководство](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Полный пример использования Aspose OCR в C# для извлечения текста из изображений, шаг за шагом.
+### [Распознать текст с изображения с Aspose OCR – Полное руководство C#](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Полный пример на C# с Aspose OCR для распознавания текста с изображений.
+### [Распознать текст с изображения в C# – Конвертировать изображение в текст](./recognize-text-from-image-in-c-convert-image-to-text/)
+Полный пример OCR на C# с использованием Aspose.OCR для конвертации изображения в текст.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -295,6 +295,10 @@ GPU を活用して OCR 処理を高速化し、C# アプリでテキスト抽�
 
 ### [C# で OCR 用画像前処理 – 完全ガイド](./preprocess-image-for-ocr-in-c-complete-guide/)
 C# で画像を前処理し、OCR の精度を最大化する手順をステップバイステップで解説します。
+### [GPU 加速 OCR の有効化 – 完全 C# ガイド](./enable-gpu-acceleration-ocr-complete-c-guide/)
+GPU を活用して OCR 処理を高速化する方法を C# で詳しく解説します。
+### [C# における OCR 前処理手順 – Aspose.OCR で精度向上](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Aspose.OCR を使用した C# の OCR 前処理手順を解説し、認識精度を最大化する方法を紹介します。
 
 ## よくある質問
 

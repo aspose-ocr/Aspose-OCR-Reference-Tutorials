@@ -643,6 +643,18 @@ Naucz się, jak przetwarzać wiele obrazów jednocześnie w C# przy użyciu Aspo
 Naucz się konwertować obrazy na przeszukiwalne pliki PDF w C# przy użyciu Aspose OCR w pełnym przewodniku krok po kroku.
 ### [Konwertuj obraz na tekst w C# – Kompletny przewodnik Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
 Naucz się konwertować obrazy na tekst w C# przy użyciu Aspose OCR w pełnym przewodniku krok po kroku.
+### [Rozpoznaj tekst z obrazu w C# – kompletny przykład OCR](./recognize-text-from-image-in-c-a-complete-ocr-example/)
+Pełny przykład użycia Aspose.OCR w C# do rozpoznawania tekstu z obrazów, krok po kroku.
+### [Rozpoznaj arabski tekst w C# – Kompletny przewodnik Aspose.OCR](./recognize-arabic-text-in-c-complete-aspose-ocr-guide/)
+Poznaj, jak przy użyciu Aspose.OCR w C# rozpoznawać arabski tekst w obrazach, krok po kroku, z pełnym przykładem.
+### [Jak używać Aspose OCR w C# – wyodrębnij tekst z obrazów](./how-to-use-aspose-ocr-in-c-extract-text-from-images/)
+Kompletny przewodnik, jak używać Aspose OCR w C# do wyodrębniania tekstu z obrazów.
+### [Wyodrębnij tekst z obrazu w C# z Aspose OCR – Kompletny przewodnik](./extract-text-from-image-in-c-with-aspose-ocr-complete-guide/)
+Kompletny przewodnik, jak używać Aspose OCR w C# do wyodrębniania tekstu z obrazów, od konfiguracji po uzyskanie wyników.
+### [Rozpoznaj tekst z obrazu przy użyciu Aspose OCR – Pełny przewodnik C#](./recognize-text-image-with-aspose-ocr-full-c-guide/)
+Pełny przykład użycia Aspose OCR w C# do rozpoznawania tekstu z obrazów, krok po kroku.
+### [Rozpoznaj tekst z obrazu w C# – Konwertuj obraz na tekst](./recognize-text-from-image-in-c-convert-image-to-text/)
+Pełny przewodnik, jak w C# przy użyciu Aspose.OCR konwertować obrazy na tekst krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

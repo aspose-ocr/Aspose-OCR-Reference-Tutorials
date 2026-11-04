@@ -72,6 +72,9 @@ Learn how to preprocess images to improve OCR accuracy using Aspose.OCR for .NET
 ### [how to deskew image – Aspose OCR preprocessing guide](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
 Learn how to deskew images using Aspose.OCR preprocessing to improve OCR accuracy.
 
+## OCR Preprocessing Steps in C# – Boost Accuracy with Aspose.OCR
+Discover essential preprocessing techniques in C# to improve OCR accuracy using Aspose.OCR.
+
 ## Result Correction with Spell Checking in OCR Image Recognition
 
 Enhance OCR accuracy with Aspose.OCR for .NET by exploring [preprocessing filters tutorial]({{< relref "preprocessing-filters-for-image/_index.md" >}}). Download now and discover how to fine‑tune your images before recognition. This tutorial ensures seamless integration, boosting accuracy and efficiency.
@@ -116,6 +119,10 @@ Leverage GPU acceleration to boost OCR performance in C# with Aspose.OCR, achiev
 Learn how to preprocess images for OCR using C#. Apply filters, deskew, and binarization to boost recognition accuracy with Aspose.OCR.
 ### [Enable GPU OCR in C# – Complete Guide to Faster Text Extraction](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
 Accelerate OCR processing by enabling GPU support in Aspose.OCR for .NET using C#.
+### [OCR Preprocessing Steps in C# – Boost Accuracy with Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Discover essential preprocessing techniques in C# to improve OCR accuracy using Aspose.OCR.
+### [Enable GPU Acceleration OCR – Complete C# Guide](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Learn how to boost OCR performance with GPU acceleration in Aspose.OCR for .NET using a comprehensive C# guide.
 
 ### [Extract Text from Image – Complete C# OCR Guide with Noise Reduction](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Learn a full C# OCR workflow with Aspose.OCR, including noise reduction techniques for higher accuracy.

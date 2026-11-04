@@ -102,6 +102,8 @@ Domine o uso da classe OcrEngine em C# para reconhecimento avançado de texto co
 Aprenda a converter imagens em PDFs pesquisáveis usando Aspose.OCR, com passo a passo detalhado e código C# completo.
 ### [Detectar idioma a partir de imagem em C# – Guia completo de programação](./detect-language-from-image-in-c-complete-programming-guide/)
 Aprenda a detectar automaticamente o idioma de texto em imagens usando Aspose.OCR com C# em um guia completo.
+### [Como usar OcrEngineConfig – Configuração do motor OCR em C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Aprenda a configurar o motor OCR usando OcrEngineConfig em C# para melhorar a precisão e desempenho.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

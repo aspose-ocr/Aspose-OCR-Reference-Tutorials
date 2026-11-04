@@ -148,6 +148,8 @@ Aspose.OCR의 OcrEngine을 활용해 C#에서 OCR을 구현하는 전체 단계�
 ### [이미지에서 검색 가능한 PDF 만들기 – 전체 단계별 가이드](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 이미지를 PDF로 변환하고 OCR을 적용해 검색 가능한 PDF를 만드는 전체 과정.  
 ### [C#에서 이미지로 언어 감지 – 완전 프로그래밍 가이드](./detect-language-from-image-in-c-complete-programming-guide/)
+### [OcrEngineConfig 사용 방법 – C#에서 OCR 엔진 구성](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Aspose.OCR의 OcrEngineConfig를 활용해 C#에서 OCR 엔진을 구성하고 최적화하는 방법을 안내합니다.  
 
 
 

@@ -281,6 +281,10 @@ weight: 25
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف في C# – دليل كامل](./preprocess-image-for-ocr-in-c-complete-guide/)
 دليل شامل يوضح تطبيق فلاتر ما قبل المعالجة على الصور في C# لتحسين دقة OCR باستخدام Aspose.OCR.
 ### [تمكين OCR باستخدام GPU في C# – دليل كامل لاستخراج النص بسرعة أعلى](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+### [تمكين تسريع GPU في OCR – دليل C# كامل](./enable-gpu-acceleration-ocr-complete-c-guide/)
+تعلم كيفية تسريع عمليات OCR باستخدام وحدة معالجة الرسومات في Aspose.OCR عبر مثال كامل بلغة C#.
+### [خطوات ما قبل معالجة OCR في C# – تعزيز الدقة مع Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+اكتشف خطوات ما قبل معالجة الصور في C# لتحسين دقة OCR باستخدام Aspose.OCR.
 
 ## الأسئلة المتكررة
 

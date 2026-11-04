@@ -150,6 +150,8 @@ weight: 24
 Подробное руководство по преобразованию изображения в PDF с возможностью поиска текста с помощью Aspose.OCR.
 ### [Определение языка на изображении в C# – Полное руководство по программированию](./detect-language-from-image-in-c-complete-programming-guide/)
 Полное руководство по определению языка текста на изображении с помощью Aspose.OCR в C#.
+### [Как использовать OcrEngineConfig – конфигурация OCR‑движка в C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Узнайте, как настроить OcrEngineConfig для управления параметрами OCR‑движка в C# с Aspose.OCR.
 
 
 

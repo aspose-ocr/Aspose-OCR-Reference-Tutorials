@@ -303,6 +303,12 @@ weight: 25
 
 ### [เปิดใช้งาน GPU OCR ใน C# – คู่มือเต็มสำหรับการสกัดข้อความที่เร็วขึ้น](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
 
+### [เปิดใช้งานการเร่งความเร็ว GPU สำหรับ OCR – คู่มือ C# ฉบับสมบูรณ์](./enable-gpu-acceleration-ocr-complete-c-guide/)
+เรียนรู้วิธีเปิดใช้งานการเร่งความเร็วด้วย GPU สำหรับ OCR ด้วย C# อย่างครบถ้วน
+
+### [ขั้นตอนการเตรียมข้อมูล OCR ใน C# – เพิ่มความแม่นยำด้วย Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+เรียนรู้ขั้นตอนการเตรียมข้อมูล OCR ด้วย C# เพื่อเพิ่มความแม่นยำด้วย Aspose.OCR
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

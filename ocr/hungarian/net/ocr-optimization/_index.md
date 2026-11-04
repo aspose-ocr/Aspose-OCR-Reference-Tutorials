@@ -317,6 +317,11 @@ Fedezze fel, hogyan használhatja a GPU gyorsítását az Aspose.OCR .NET-ben a 
 
 ### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes útmutató](./preprocess-image-for-ocr-in-c-complete-guide/)
 Ismerje meg, hogyan előkészítheti a képeket OCR-hez C#‑ban a legjobb pontosság és teljesítmény érdekében.
+### [GPU gyorsítás engedélyezése OCR – Teljes C# útmutató](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Fedezze fel, hogyan használhatja a GPU gyorsítást az OCR-hoz C#-ban az Aspose.OCR for .NET segítségével.
+
+### [OCR előfeldolgozási lépések C#‑ban – Növelje a pontosságot az Aspose.OCR-rel](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Fedezze fel, hogyan javíthatja az OCR pontosságát előfeldolgozási technikákkal C#‑ban az Aspose.OCR segítségével.
 
 ## Gyakran Ismételt Kérdések
 

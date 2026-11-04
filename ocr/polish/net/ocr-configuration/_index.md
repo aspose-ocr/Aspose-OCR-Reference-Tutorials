@@ -117,6 +117,8 @@ Pełny przewodnik po OcrEngine w C#, pokazujący konfigurację i przetwarzanie o
 Kompletny przewodnik, jak przekształcić obraz w przeszukiwalny plik PDF przy użyciu Aspose.OCR.
 ### [Wykrywanie języka z obrazu w C# – Kompletny przewodnik programistyczny](./detect-language-from-image-in-c-complete-programming-guide/)
 Pełny przewodnik, jak wykrywać język obrazu w C# przy użyciu Aspose.OCR.
+### [Jak używać OcrEngineConfig – Konfiguracja silnika OCR w C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Dowiedz się, jak skonfigurować silnik OCR przy użyciu OcrEngineConfig w języku C#.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

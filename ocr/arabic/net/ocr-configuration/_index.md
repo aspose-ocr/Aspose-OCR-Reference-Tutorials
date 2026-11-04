@@ -97,6 +97,8 @@ weight: 24
 دليل شامل لإنشاء ملف PDF قابل للبحث من صورة باستخدام Aspose.OCR خطوة بخطوة.
 ### [اكتشاف اللغة من الصورة في C# – دليل برمجة كامل](./detect-language-from-image-in-c-complete-programming-guide/)
 تعلم كيفية استخراج اللغة من الصور باستخدام Aspose.OCR في C# وإنشاء تطبيق يحدد لغة النص بدقة.
+### [كيفية استخدام OcrEngineConfig – تكوين محرك OCR في C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+تعلم كيفية تكوين محرك OCR باستخدام OcrEngineConfig في C# لتخصيص إعدادات التعرف على النص.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  
