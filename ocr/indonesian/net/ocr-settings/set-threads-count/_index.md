@@ -1,10 +1,14 @@
 ---
-date: 2025-12-25
-description: Buka efisiensi OCR di .NET dan tingkatkan akurasi OCR dengan mengatur
-  jumlah thread menggunakan Aspose.OCR. Tingkatkan kecepatan dan presisi.
-linktitle: Set Threads Count to Improve OCR Accuracy
+date: 2026-04-29
+description: Pelajari cara mengatur thread di Aspose.OCR untuk .NET guna meningkatkan
+  akurasi OCR, mempercepat kecepatan, dan meningkatkan presisi.
+keywords:
+- how to set threads
+- improve ocr accuracy
+- parallel ocr processing
+linktitle: Atur Jumlah Thread untuk Meningkatkan Akurasi OCR
 second_title: Aspose.OCR .NET API
-title: Atur Jumlah Thread untuk Meningkatkan Akurasi OCR di .NET
+title: Cara Mengatur Jumlah Thread untuk Meningkatkan Akurasi OCR di .NET
 url: /id/net/ocr-settings/set-threads-count/
 weight: 11
 ---
@@ -13,35 +17,39 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Setel Jumlah Thread untuk Meningkatkan Akurasi OCR
+# Cara Mengatur Jumlah Thread untuk Meningkatkan Akurasi OCR
 
 ## Pendahuluan
 
-Selamat datang di dunia Aspose.OCR untuk .NET, di mana teknologi Optical Character Recognition (OCR) mutakhir bertemu dengan integrasi mulus ke dalam aplikasi .NET Anda. Dalam tutorial ini Anda akan mempelajari **cara mengatur Threads Count** untuk **meningkatkan akurasi OCR** sambil menjaga proses tetap cepat dan ramah sumber daya.
+Selamat datang di dunia Aspose.OCR untuk .NET, di mana teknologi Optical Character Recognition (OCR) mutakhir bertemu dengan integrasi mulus ke dalam aplikasi .NET Anda. Dalam tutorial ini Anda akan belajar **cara mengatur thread** untuk **meningkatkan akurasi OCR** sambil menjaga proses tetap cepat dan ramah sumber daya.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan ThreadsCount?** Itu memberi tahu Aspose.OCR berapa banyak thread paralel yang akan digunakan selama analisis gambar.  
-- **Mengapa mengaturnya secara manual?** Menyesuaikan jumlah thread dapat **meningkatkan akurasi OCR** pada mesin multi‑core dan menghindari throttling CPU.  
-- **Perilaku default?** Nilai `0` memungkinkan Aspose.OCR menghitung secara otomatis jumlah thread yang optimal.  
-- **Rentang tipikal?** 1 – 8 thread bekerja dengan baik untuk kebanyakan skenario desktop; nilai yang lebih tinggi menguntungkan server dengan banyak core.  
-- **Prasyarat?** .NET (Framework 4.5+ atau .NET Core 3.1+), Aspose.OCR untuk .NET, dan sebuah gambar contoh.
+- **Apa yang dikontrol oleh `ThreadsCount`?** Ini memberi tahu Aspose.OCR berapa banyak thread paralel yang harus dialokasikan selama analisis gambar.  
+- **Mengapa menyesuaikannya secara manual?** Menyetel jumlah thread dapat **meningkatkan akurasi OCR** pada mesin multi‑core dan mencegah throttling CPU.  
+- **Apa perilaku default?** Nilai `0` memungkinkan Aspose.OCR menghitung secara otomatis jumlah thread yang optimal.  
+- **Rentang tipikal untuk hasil terbaik?** 1 – 8 thread bekerja baik untuk kebanyakan skenario desktop; nilai yang lebih tinggi menguntungkan server dengan banyak core.  
+- **Apakah saya memerlukan lisensi?** Ya, lisensi Aspose.OCR yang valid diperlukan untuk penggunaan produksi.
 
-## Apa itu Thread Count dalam OCR?
+## Cara Mengatur Thread di Aspose.OCR
 
-Thread count menentukan berapa banyak unit pemrosesan bersamaan yang akan dialokasikan Aspose.OCR saat mengenali teks. Lebih banyak thread dapat mempercepat batch besar dan, ketika seimbang dengan sumber daya CPU, dapat **meningkatkan akurasi OCR** dengan mengurangi timeout dan tekanan memori.
+Jumlah thread menentukan berapa banyak unit pemrosesan bersamaan yang akan dialokasikan Aspose.OCR saat mengenali teks. Menggunakan jumlah thread yang tepat tidak hanya mempercepat pekerjaan batch tetapi juga membantu **pemrosesan OCR paralel** berjalan lancar, yang dapat menghasilkan kualitas pengenalan yang lebih tinggi.
 
-## Mengapa mengatur Threads Count untuk meningkatkan akurasi OCR?
+## Apa Itu Jumlah Thread dalam OCR?
+
+Jumlah thread adalah jumlah jalur eksekusi simultan yang digunakan mesin OCR. Lebih banyak thread dapat mempercepat batch besar dan, ketika seimbang dengan sumber daya CPU, dapat **meningkatkan akurasi OCR** dengan mengurangi timeout dan tekanan memori.
+
+## Mengapa Menggunakan Pemrosesan OCR Paralel?
 
 - **Pemanfaatan sumber daya yang lebih baik:** Menyesuaikan jumlah thread dengan core CPU Anda mencegah mesin OCR kekurangan atau kelebihan beban.  
-- **Latensi berkurang:** Pemrosesan paralel memperpendek waktu setiap gambar berada dalam pipeline pengenalan, memberi algoritma lebih banyak waktu untuk menerapkan model akurasi penuh.  
-- **Skalabilitas:** Dalam skenario sisi server Anda dapat menyesuaikan thread pool untuk menangani banyak permintaan simultan tanpa mengorbankan presisi.
+- **Latensi berkurang:** Pemrosesan paralel mempersingkat waktu yang dihabiskan setiap gambar dalam pipeline pengenalan, memberi algoritma lebih banyak waktu untuk menerapkan model akurasi penuh.  
+- **Skalabilitas:** Dalam skenario sisi server Anda dapat menyetel pool thread secara halus untuk menangani banyak permintaan simultan tanpa mengorbankan presisi.
 
 ## Prasyarat
 
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 - Aspose.OCR untuk .NET terpasang. Jika Anda belum mengunduhnya, Anda dapat mendapatkannya **[di sini](https://releases.aspose.com/ocr/net/)**.  
-- Sebuah gambar contoh ditempatkan di direktori dokumen Anda (mis., `sample.png`).
+- Sebuah gambar contoh ditempatkan di direktori dokumen Anda (misalnya, `sample.png`).
 
 ## Impor Namespace
 
@@ -65,9 +73,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Langkah 2: Kenali Gambar dengan Thread Count Kustom
+## Langkah 2: Mengenali Gambar dengan Jumlah Thread Kustom
 
-Sekarang beri tahu mesin OCR berapa banyak thread yang akan digunakan. Mengatur `ThreadsCount` ke nilai lebih besar dari 0 memberi Anda kontrol langsung dan dapat **meningkatkan akurasi OCR** untuk beban kerja yang menuntut.
+Sekarang beri tahu mesin OCR berapa banyak thread yang akan digunakan. Menetapkan `ThreadsCount` ke nilai lebih besar dari 0 memberi Anda kontrol langsung dan dapat **meningkatkan akurasi OCR** untuk beban kerja yang menuntut.
 
 ```csharp
 // Recognize image
@@ -88,19 +96,19 @@ Console.WriteLine(result.RecognitionText);
 
 ## Masalah Umum & Tips
 
-| Issue | Why it Happens | Solution |
+| Masalah | Mengapa Terjadi | Solusi |
 |-------|----------------|----------|
 | **Terlalu banyak thread menyebabkan penggunaan CPU tinggi** | Setiap thread bersaing untuk core yang sama. | Mulailah dengan `ThreadsCount = Environment.ProcessorCount / 2` dan sesuaikan berdasarkan pemantauan. |
 | **Pengenalan gagal pada gambar besar** | Tekanan memori akibat banyak thread paralel. | Kurangi `ThreadsCount` atau tingkatkan RAM yang tersedia. |
-| **Akurasi rendah yang tidak terduga** | Thread yang dihitung otomatis mungkin terlalu sedikit untuk perangkat keras Anda. | Atur secara manual `ThreadsCount` yang lebih tinggi dan uji hasilnya. |
+| **Akurasi rendah yang tidak terduga** | Thread yang dihitung otomatis mungkin terlalu sedikit untuk perangkat keras Anda. | Atur `ThreadsCount` secara manual ke nilai yang lebih tinggi dan uji hasilnya. |
 
 ## Pertanyaan yang Sering Diajukan
 
-### Q1: Bisakah saya mengatur thread count menjadi nol untuk perhitungan otomatis?
-**A:** Tentu saja! Mengatur `ThreadsCount` ke `0` memungkinkan Aspose.OCR secara otomatis menentukan jumlah thread yang optimal untuk lingkungan saat ini.
+### Q1: Bisakah saya mengatur jumlah thread menjadi nol untuk perhitungan otomatis?
+**A:** Tentu saja! Menetapkan `ThreadsCount` ke `0` memungkinkan Aspose.OCR secara otomatis menentukan jumlah thread optimal untuk lingkungan saat ini.
 
 ### Q2: Bagaimana saya dapat memperoleh lisensi sementara untuk Aspose.OCR untuk .NET?
-**A:** Kunjungi **[tautan ini](https://purchase.aspose.com/temporary-license/)** untuk mendapatkan lisensi sementara untuk tujuan pengujian.
+**A:** Kunjungi **[tautan ini](https://purchase.aspose.com/temporary-license/)** untuk memperoleh lisensi sementara untuk tujuan pengujian.
 
 ### Q3: Di mana saya dapat menemukan dokumentasi lengkap untuk Aspose.OCR untuk .NET?
 **A:** Lihat **[dokumentasi](https://reference.aspose.com/ocr/net/)** untuk panduan terperinci tentang Aspose.OCR.
@@ -108,7 +116,7 @@ Console.WriteLine(result.RecognitionText);
 ### Q4: Apakah ada percobaan gratis yang tersedia untuk Aspose.OCR untuk .NET?
 **A:** Ya, Anda dapat menjelajahi percobaan gratis **[di sini](https://releases.aspose.com/)**.
 
-### Q5: Butuh bantuan atau ingin terhubung dengan komunitas?
+### Q5: Membutuhkan bantuan atau ingin terhubung dengan komunitas?
 **A:** Kunjungi **[forum Aspose.OCR](https://forum.aspose.com/c/ocr/16)** untuk dukungan dan interaksi komunitas.
 
 ## Kesimpulan
@@ -117,11 +125,9 @@ Mengatur **Threads Count** adalah cara yang sederhana namun kuat untuk **meningk
 
 ---
 
-**Last Updated:** 2025-12-25  
-**Tested With:** Aspose.OCR 24.11 for .NET  
-**Author:** Aspose  
-
----
+**Terakhir Diperbarui:** 2026-04-29  
+**Diuji Dengan:** Aspose.OCR 24.11 for .NET  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
