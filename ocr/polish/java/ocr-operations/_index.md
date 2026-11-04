@@ -165,6 +165,10 @@ Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspos
 Kompletny przewodnik, jak zastosować OCR do plików PDF w Javie przy użyciu Aspose OCR, krok po kroku.
 ### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR Java – Kompletny przewodnik](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 Kompletny przewodnik, jak stworzyć przeszukiwalny PDF w Javie przy użyciu Aspose OCR, krok po kroku.
+### [Rozpoznawanie tekstu w ROI przy użyciu Aspose OCR – samouczek Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Odblokuj możliwość wyodrębniania tekstu z wybranego obszaru obrazu (ROI) przy użyciu Aspose OCR w Javie.
+### [Ładowanie obrazu do OCR z Aspose OCR Java – Kompletny przewodnik](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Pełny przewodnik po ładowaniu obrazów do OCR przy użyciu Aspose OCR dla Javy, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

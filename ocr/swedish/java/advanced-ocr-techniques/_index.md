@@ -183,6 +183,12 @@ Lär dig hur du använder parallell bearbetning i Aspose.OCR för Java för att 
 Lär dig extrahera text från bilder med flera språk med Aspose OCR för Java. En steg‑för‑steg‑guide för flerspråkig OCR.
 ### [Hur du förbättrar kontrast i OCR – Komplett Java-förbehandlingsguide](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 Lär dig förbättra bildkontrast för bättre OCR‑resultat med en komplett Java‑förbehandlingsguide.
+### [Känn igen text från bilder med Aspose OCR – Java parallell batchguide](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Utnyttja parallell batchbehandling för att snabbt känna igen text i flera bilder med Aspose OCR för Java. Följ vår steg‑för‑steg‑guide.
+### [Extrahera text från krypterad PDF i Java – Komplett guide](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Extrahera text från krypterad PDF i Java med Aspose. Följ vår steg‑för‑steg‑guide för enkel och säker textextraktion.
+### [Förbehandla bild för OCR – Öka noggrannheten med förbehandling](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Förbättra OCR‑noggrannheten genom att förbehandla bilder innan igenkänning. Följ vår steg‑för‑steg‑guide för bästa resultat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

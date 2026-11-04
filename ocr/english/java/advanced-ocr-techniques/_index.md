@@ -218,6 +218,14 @@ Complete guide to extract raw text using OCR in Java with Aspose.OCR, covering s
 Learn how to extract text from scanned forms using Aspose.OCR for Java, covering setup, region detection, and form-specific processing.
 ### [Create searchable PDF with java OCR – complete guide](./create-searchable-pdf-with-java-ocr-complete-guide/)
 Learn how to generate searchable PDFs from scanned documents using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
+### [recognize text from image using Java – GPU OCR tutorial](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Leverage GPU acceleration to recognize text from images in Java using Aspose.OCR, achieving faster processing and high accuracy.
+### [recognize text from images with Aspose OCR – Java Parallel Batch Guide](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Learn how to process multiple images concurrently using Aspose.OCR for Java, boosting OCR throughput with parallel batch execution.
+### [Extract Text from Encrypted PDF in Java – Complete Guide](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Learn how to decrypt PDF files and extract text using Aspose.OCR for Java in this comprehensive step‑by‑step guide.
+### [Preprocess Image for OCR – Boost Accuracy with Preprocessing](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Boost OCR accuracy by preprocessing images before recognition with Aspose.OCR for Java.
 
 ## Frequently asked questions
 

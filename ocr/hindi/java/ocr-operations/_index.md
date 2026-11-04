@@ -166,6 +166,10 @@ Java में Aspose OCR का उपयोग करके इमेज स�
 Java में Aspose OCR का उपयोग करके PDF फ़ाइलों पर पूर्ण OCR प्रक्रिया सीखें, कोड उदाहरणों सहित।
 ### [Aspose OCR Java के साथ खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 Aspose OCR Java का उपयोग करके PDF को सर्चेबल बनाना सीखें, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
+### [Aspose OCR के साथ ROI में टेक्स्ट पहचानें – Java ट्यूटोरियल](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Aspose OCR का उपयोग करके ROI (Region of Interest) में टेक्स्ट पहचानें, Java कोड के साथ चरण‑बद्ध गाइड।
+### [Aspose OCR Java के साथ OCR के लिए इमेज लोड करें – पूर्ण गाइड](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java के साथ इमेज लोड करके OCR करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 
 ## अक्सर पूछे जाने वाले सवाल
 

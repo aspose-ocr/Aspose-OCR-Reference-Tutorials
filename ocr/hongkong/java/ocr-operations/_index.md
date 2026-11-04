@@ -164,6 +164,10 @@ weight: 21
 ### [使用 Java 識別圖像文字 – 完整 Aspose OCR 教學](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 ### [在 Java 中使用 Aspose OCR 進行 PDF OCR – 完整指南](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
 ### [使用 Aspose OCR Java 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+### [在 ROI 中使用 Aspose OCR 識別文字 – Java 教學](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+示範如何在指定區域 (ROI) 內使用 Aspose OCR 進行文字辨識，提升精準度與效能。
+### [使用 Aspose OCR Java 載入圖像進行 OCR – 完整指南](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+完整教學示範如何在 Java 中使用 Aspose OCR 載入圖像並執行文字辨識，涵蓋設定與最佳化技巧。
 
 ## 常見問題
 

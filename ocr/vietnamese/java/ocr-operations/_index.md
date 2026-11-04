@@ -165,6 +165,10 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để thực h
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OCR cho Java, bao gồm cấu hình, xử lý và lưu kết quả.
 ### [Nhận dạng văn bản từ hình ảnh với Java – Hướng dẫn Aspose OCR đầy đủ](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 Hướng dẫn chi tiết cách dùng Aspose OCR trong Java để nhận dạng văn bản từ hình ảnh, bao gồm cấu hình và xuất kết quả.
+### [Nhận dạng văn bản trong ROI với Aspose OCR – Hướng dẫn Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Khám phá cách nhận dạng văn bản trong vùng quan tâm (ROI) bằng Aspose OCR trong Java, từ cấu hình đến trích xuất kết quả chính xác.
+### [Tải ảnh cho OCR với Aspose OCR Java – Hướng dẫn đầy đủ](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Hướng dẫn chi tiết cách tải ảnh và thực hiện OCR bằng Aspose OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

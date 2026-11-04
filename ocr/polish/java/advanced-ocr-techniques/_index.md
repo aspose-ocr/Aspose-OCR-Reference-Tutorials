@@ -97,6 +97,9 @@ Dowiedz się, jak efektywnie przetwarzać duże dokumenty przy użyciu Aspose.OC
 ## [Wstępne przetwarzanie obrazu OCR w Javie – zwiększ dokładność i wyodrębnij tekst](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 
 Dowiedz się, jak wstępnie przetwarzać obrazy przed OCR w Javie, aby zwiększyć dokładność rozpoznawania i skutecznie wyodrębniać tekst.
+### [Rozpoznawanie tekstu z obrazu w Javie – samouczek GPU OCR](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+
+## Wniosek
 
 Dzięki Aspose.OCR dla Java opanowanie zaawansowanych technik OCR nigdy nie było łatwiejsze. Zapoznaj się z tymi samouczkami i odblokuj pełny potencjał rozpoznawania tekstu w swoich projektach Java. Ulepsz swoje aplikacje dzięki płynnej integracji, wysokiej dokładności i wszechstronnym możliwościom wyodrębniania tekstu. Pobierz teraz i zrób pierwszy krok w kierunku doskonałości OCR dzięki Aspose.OCR dla Java!
 ### [Jak włączyć GPU dla OCR w Javie – Szybkie rozpoznawanie tekstu z obrazu](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
@@ -210,6 +213,12 @@ Poznaj kompletny przewodnik, jak w Javie uzyskać OCR i wyodrębnić surowy teks
 Dowiedz się, jak wyodrębnić tekst z formularzy przy użyciu Aspose OCR w Javie, zapewniając wysoką dokładność i łatwą integrację.
 ### [Tworzenie przeszukiwalnego PDF w Javie z OCR – Kompletny przewodnik](./create-searchable-pdf-with-java-ocr-complete-guide/)
 Dowiedz się, jak w Javie przy użyciu Aspose.OCR stworzyć przeszukiwalny plik PDF, zapewniając wysoką jakość i szybkie przetwarzanie tekstu.
+### [Rozpoznawanie tekstu z obrazów przy użyciu Aspose OCR – przewodnik równoległego przetwarzania w Javie](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Wykonuj równoległe przetwarzanie wsadowe OCR w Javie, aby szybko wyodrębnić tekst z wielu obrazów przy użyciu Aspose OCR.
+### [Wyodrębnianie tekstu z zaszyfrowanego PDF w Javie – Kompletny przewodnik](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Dowiedz się, jak wyodrębnić tekst z zaszyfrowanych plików PDF w Javie, korzystając z Aspose.OCR, krok po kroku.
+### [Przetwarzanie wstępne obrazu dla OCR – zwiększ dokładność dzięki przetwarzaniu wstępnemu](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Popraw wyniki OCR, przygotowując obrazy przed rozpoznawaniem. Dowiedz się, jak zwiększyć dokładność przy użyciu przetwarzania wstępnego.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

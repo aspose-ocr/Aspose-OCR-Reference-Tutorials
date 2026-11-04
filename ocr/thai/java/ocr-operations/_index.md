@@ -160,6 +160,10 @@ weight: 21
 
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR Java – คู่มือเต็ม](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF ที่ค้นหาได้โดยใช้ Aspose OCR สำหรับ Java อย่างละเอียดและครบถ้วน
+### [จดจำข้อความใน ROI ด้วย Aspose OCR – Java Tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+เรียนรู้วิธีจดจำข้อความในพื้นที่สนใจ (ROI) ด้วย Aspose OCR สำหรับ Java อย่างละเอียด  
+### [โหลดภาพสำหรับ OCR ด้วย Aspose OCR Java – คู่มือเต็ม](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+เรียนรู้วิธีโหลดภาพและเตรียมการสำหรับการทำ OCR ด้วย Aspose OCR Java อย่างละเอียด  
 
 
 

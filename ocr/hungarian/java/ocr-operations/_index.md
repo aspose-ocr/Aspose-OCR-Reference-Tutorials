@@ -143,6 +143,8 @@ Fedezd fel, hogyan hozhatsz létre kereshető PDF-et képekből Java-ban az Aspo
 ### [Képről szöveg felismerése Java-val – Teljes Aspose OCR útmutató](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 ### [PDF OCR végrehajtása Aspose OCR-rel Java-ban – Teljes útmutató](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
 ### [Kereshető PDF létrehozása Aspose OCR Java-val – Teljes útmutató](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+### [Szöveg felismerése ROI-ban az Aspose OCR-rel – Java útmutató](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+### [Kép betöltése OCR-hez az Aspose OCR Java-val – Teljes útmutató](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 
 ## Gyakran Ismételt Kérdések
 

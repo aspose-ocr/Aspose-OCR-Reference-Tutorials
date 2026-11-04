@@ -150,6 +150,9 @@ weight: 21
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR للـ Java خطوة بخطوة.
 ### [التعرف على نص الصورة باستخدام Java – دليل كامل لـ Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 دليل شامل يوضح كيفية التعرف على النص في الصور باستخدام Java مع Aspose OCR خطوة بخطوة.
+### [التعرف على النص في ROI باستخدام Aspose OCR – دليل Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+### [تحميل صورة للتعرف الضوئي على الأحرف باستخدام Aspose OCR Java – دليل كامل](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+دليل شامل يوضح كيفية تحميل صورة وإجراء OCR باستخدام Aspose OCR للـ Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

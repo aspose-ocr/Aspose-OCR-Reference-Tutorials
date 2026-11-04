@@ -167,6 +167,10 @@ Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java
 Steg‑för‑steg‑instruktioner för att extrahera text från bilder med Aspose OCR i Java.
 ### [Utför OCR på PDF med Aspose OCR i Java – Fullständig guide](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
 En komplett guide för att utföra OCR på PDF‑filer med Aspose OCR i Java, steg‑för‑steg och kodexempel.
+### [Känna igen text i ROI med Aspose OCR – Java‑handledning](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Lär dig hur du extraherar text från ett specifikt område (ROI) i en bild med Aspose OCR för Java.
+### [Ladda bild för OCR med Aspose OCR Java – Fullständig guide](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+En komplett guide som visar hur du laddar en bild för OCR med Aspose OCR i Java.
 
 ## Vanliga frågor
 

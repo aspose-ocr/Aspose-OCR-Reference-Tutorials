@@ -161,6 +161,10 @@ Aspose OCR を使用して画像からテキストを認識する完全な Java 
 
 ### [Aspose OCR Java で検索可能な PDF を作成 – 完全ガイド](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 Aspose OCR を使用して Java で検索可能な PDF を作成する手順をステップバイステップで解説します。
+### [Aspose OCR を使用した ROI 内テキスト認識 – Java チュートリアル](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+ROI（関心領域）内の画像テキストを抽出する手順を、Aspose OCR の Java API で詳しく解説します。
+### [Aspose OCR Java で画像をロードして OCR – 完全ガイド](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+画像のロードから OCR 実行まで、完全な手順を詳しく解説します。
 
 ## よくある質問
 

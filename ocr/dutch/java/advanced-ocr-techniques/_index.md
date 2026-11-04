@@ -201,6 +201,17 @@ Leer hoe u tekst uit formulieren kunt extraheren met Aspose OCR voor Java in dez
 ### [Zoekbare PDF maken met Java OCR – Complete gids](./create-searchable-pdf-with-java-ocr-complete-guide/)
 Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt, inclusief stap‑voor‑stap instructies en optimale OCR‑instellingen.
 
+### [Afbeelding voorbewerken voor OCR – Verhoog nauwkeurigheid met voorbewerking](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Verbeter OCR-nauwkeurigheid door afbeeldingen vooraf te verwerken met geoptimaliseerde technieken. Volg onze stapsgewijze gids.
+
+## [Tekst herkennen uit afbeelding met Java – GPU OCR-tutorial](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Gebruik GPU-versnelling voor OCR in Java om tekst uit afbeeldingen snel en nauwkeurig te extraheren. Volg onze stapsgewijze tutorial.
+
+## [Tekst herkennen uit afbeeldingen met Aspose OCR – Java Parallelle Batchgids](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Leer hoe u met Aspose OCR en Java parallelle batchverwerking kunt toepassen om tekst uit meerdere afbeeldingen efficiënt te extraheren.
+
+## [Tekst extraheren uit versleutelde PDF in Java – Complete gids](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Leer hoe u met Aspose.OCR voor Java tekst uit versleutelde PDF-bestanden haalt met volledige stapsgewijze instructies.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -155,6 +155,10 @@ Kompletní průvodce prováděním OCR na PDF souborech pomocí Aspose OCR v Jav
 Kompletní průvodce vytvořením prohledávatelných PDF pomocí Aspose OCR v Javě, včetně nastavení, optimalizace a praktických příkladů.
 ### [Rozpoznání textu z obrázku pomocí Java – Kompletní Aspose OCR průvodce](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 Kompletní průvodce rozpoznáním textu z obrázků v Javě pomocí Aspose.OCR, včetně nastavení, optimalizace a praktických příkladů.
+### [Rozpoznání textu v ROI pomocí Aspose OCR – Java tutoriál](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Naučte se rozpoznávat text v oblasti zájmu (ROI) pomocí Aspose OCR v Javě.
+### [Načtení obrázku pro OCR s Aspose OCR Java – Kompletní průvodce](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Naučte se, jak načíst obrázek a provést OCR pomocí Aspose OCR pro Java v podrobném průvodci krok za krokem.
 
 ## Často kladené otázky
 

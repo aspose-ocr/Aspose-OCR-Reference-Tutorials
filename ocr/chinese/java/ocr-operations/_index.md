@@ -160,6 +160,10 @@ weight: 21
 完整示例展示如何使用 Aspose OCR for Java 将 PDF 转换为可搜索的文档并导出。
 ### [使用 Java 识别图像文本 – 完整 Aspose OCR 指南](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 提供完整的 Java 示例，教您使用 Aspose OCR 识别图像文本并导出 OCR 结果。
+### [使用 Aspose OCR 在 ROI 中识别文本 – Java 教程](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+演示如何使用 Aspose OCR 在 Java 中对感兴趣区域（ROI）进行文本识别的完整教程。
+### [使用 Aspose OCR Java 加载图像进行 OCR – 完整指南](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+完整示例演示如何在 Java 中使用 Aspose OCR 加载图像并执行 OCR，获取文本并导出结果。
 
 ## 常见问题
 

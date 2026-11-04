@@ -165,6 +165,10 @@ Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose OCR dengan J
 Panduan lengkap untuk melakukan OCR pada file PDF menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
 ### [Membuat PDF yang Dapat Dicari dengan Aspose OCR Java – Panduan Lengkap](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil optimal.
+### [Mengenali Teks dalam ROI dengan Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Ekstrak teks dari area ROI pada gambar menggunakan Aspose OCR di Java dengan panduan langkah demi langkah.
+### [Muat Gambar untuk OCR dengan Aspose OCR Java – Panduan Lengkap](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Panduan lengkap memuat gambar untuk OCR menggunakan Aspose OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

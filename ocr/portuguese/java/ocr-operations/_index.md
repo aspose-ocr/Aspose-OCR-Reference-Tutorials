@@ -166,6 +166,10 @@ Desbloqueie o poder da extração de texto de PDFs com Aspose OCR em Java. Guia 
 Desbloqueie o poder de criar PDFs pesquisáveis com Aspose OCR em Java. Guia completo passo a passo.
 ### [Reconhecer texto de imagem com Java – Guia completo Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 Aprenda a reconhecer texto em imagens usando Aspose OCR com Java, passo a passo, incluindo configuração e melhores práticas.
+### [Reconhecer texto em ROI com Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Aprenda a extrair texto de regiões de interesse (ROI) em imagens usando Aspose OCR com Java, passo a passo.
+### [Carregar Imagem para OCR com Aspose OCR Java – Guia Completo](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Aprenda a carregar imagens para OCR usando Aspose OCR para Java, passo a passo, cobrindo configuração e melhores práticas.
 
 ## Perguntas Frequentes
 

@@ -52,7 +52,7 @@ Un environnement sous licence supprime les limites d’évaluation et maximise l
 > **Astuce pro :** Placez le fichier de licence dans le dossier *resources* de votre projet et chargez‑le une seule fois au démarrage de l’application.
 
 ### Comment calculer l’angle d’inclinaison avec Aspose.OCR
-Les scans inclinés peuvent réduire considérablement la qualité de l’OCR. Utilisez la méthode intégrée de calcul d’inclinaison pour détecter l’angle et faire pivoter l’image avant la reconnaissance :
+Les scans inclinés peuvent réduire considérablement la qualité de l'OCR. Utilisez la méthode intégrée de calcul d’inclinaison pour détecter l’angle et faire pivoter l’image avant la reconnaissance :
 
 [Calcul de l’angle dclinaison dans Aspose.OCR pour Java](./calculate-skew-angle/)
 
@@ -133,6 +133,11 @@ Apprenez à exécuter l’OCR sur un fichier JPG avec Aspose.OCR pour Java et à
 Apprenez à extraire du texte d’une image en Java avec un guide complet couvrant la configuration, le pré‑traitement et la reconnaissance OCR.
 ### [Extraire du texte d’une image en Java – Obtenir du texte via OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
 Apprenez à extraire du texte d’une image en Java en utilisant Aspose.OCR, avec un guide étape par étape pour récupérer le texte OCR.
+### [Extraire du texte d'une image avec Aspose OCR – Tutoriel complet Java](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Apprenez à extraire du texte d’une image avec Aspose OCR dans un tutoriel complet Java, étape par étape.
+
+### [Convertir une image en texte Java – Exemple complet Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Suivez ce guide complet pour convertir des images en texte avec Aspose OCR en Java, étape par étape, avec code d’exemple.
 
 ---
 

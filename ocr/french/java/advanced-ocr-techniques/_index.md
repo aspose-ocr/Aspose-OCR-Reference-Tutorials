@@ -193,6 +193,17 @@ Apprenez à accélérer la reconnaissance de texte en traitant plusieurs images 
 Apprenez à extraire du texte de plusieurs langues dans une même image avec Aspose OCR pour Java, en assurant précision et performance.
 ### [Comment améliorer le contraste en OCR – Guide complet de prétraitement Java](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 Apprenez à augmenter le contraste des images pour optimiser l'OCR avec Aspose.OCR en Java, grâce à des techniques de prétraitement efficaces.
+### [Prétraiter l'image pour l'OCR – Améliorer la précision grâce au prétraitement](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+Optimisez la précision de l'OCR en prétraitant vos images avec Aspose.OCR pour Java. Suivez notre guide étape par étape.
+
+## [Reconnaître le texte à partir d'une image avec Java – Tutoriel OCR GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+Exploitez la puissance du GPU pour extraire rapidement du texte d'images en Java avec Aspose.OCR. Suivez notre guide pas à pas.
+
+## [Reconnaître le texte à partir d'images avec Aspose OCR – Guide Java de traitement par lots parallèle](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Exploitez le traitement par lots parallèle en Java avec Aspose OCR pour extraire rapidement le texte de multiples images. Suivez notre guide pas à pas.
+
+## [Extraire du texte d'un PDF chiffré en Java – Guide complet](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Apprenez à extraire rapidement le texte d'un PDF protégé par mot de passe en Java avec Aspose.OCR. Suivez notre guide complet pas à pas.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

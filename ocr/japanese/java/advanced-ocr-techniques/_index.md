@@ -182,6 +182,14 @@ Java で OCR を実装し、生テキストを抽出する手順をステップ�
 Aspose OCR Java でフォーム画像からテキストを正確に抽出する手順をステップバイステップで解説します。簡単に統合できる完全ガイドです。
 ### [Java OCR で検索可能な PDF を作成 – 完全ガイド](./create-searchable-pdf-with-java-ocr-complete-guide/)
 Java と Aspose.OCR を活用し、画像から検索可能な PDF を生成する手順をステップバイステップで解説します。
+### [Java で画像からテキストを認識する – GPU OCR チュートリアル](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+GPU を活用した高速 OCR により、Java アプリで画像テキスト抽出を実現します。
+### [Aspose OCR を使用した画像からのテキスト認識 – Java 並列バッチ ガイド](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+Aspose OCR を活用し、Java で画像を並列バッチ処理しながら高速にテキスト抽出する方法をステップバイステップで解説します。
+### [Java で暗号化された PDF からテキストを抽出する – 完全ガイド](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+Java を使用して暗号化された PDF からテキストを安全に抽出する方法をステップバイステップで解説します。
+### [OCR 用画像前処理 – 前処理で精度を向上](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+画像を前処理して OCR の精度を向上させる方法をステップバイステップで解説します。Java で簡単に実装可能です。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

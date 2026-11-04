@@ -166,6 +166,10 @@ Aprende paso a paso a extraer texto de imágenes usando Aspose OCR en Java, con 
 Aprende paso a paso cómo aplicar OCR a archivos PDF usando Aspose OCR en Java y generar documentos buscables.
 ### [Crear PDF buscable con Aspose OCR Java – Guía completa](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 Aprende paso a paso a generar PDFs buscables usando Aspose OCR en Java, con ejemplos y mejores prácticas.
+### [Reconocer texto en ROI con Aspose OCR – Tutorial Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Desbloquea la extracción de texto en regiones de interés (ROI) usando Aspose OCR en Java. Sigue la guía paso a paso.
+### [Cargar imagen para OCR con Aspose OCR Java – Tutorial completo](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Aprende a cargar imágenes y aplicar OCR con Aspose OCR en Java paso a paso para obtener texto preciso.
 
 ## Preguntas frecuentes
 

@@ -163,6 +163,10 @@ Leer stap‑voor‑stap hoe u met Aspose OCR voor Java een doorzoekbare PDF maak
 ### [Tekst uit afbeelding herkennen met Java – volledige Aspose OCR-gids](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
 ### [OCR op PDF uitvoeren met Aspose OCR in Java – Complete gids](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
 Leer stap‑voor‑stap hoe u PDF‑bestanden OCR‑t met Aspose OCR in Java en een doorzoekbare PDF maakt.
+### [Tekst in ROI herkennen met Aspose OCR – Java‑tutorial](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Leer hoe u tekst binnen een specifiek gebied (ROI) kunt herkennen met Aspose OCR in Java.
+### [Afbeelding laden voor OCR met Aspose OCR Java – volledige gids](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Leer hoe u afbeeldingen kunt laden en voorbereiden voor OCR met Aspose OCR voor Java in een volledige gids.
 
 ## Veelgestelde vragen
 

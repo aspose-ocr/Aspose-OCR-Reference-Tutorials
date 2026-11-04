@@ -163,6 +163,10 @@ Aspose OCR을 활용해 Java에서 이미지 텍스트를 전체적으로 인식
 Aspose OCR을 활용해 Java에서 PDF 파일에 OCR을 적용하고 전체 텍스트를 추출하는 단계별 완전 가이드입니다.
 ### [Aspose OCR Java를 사용하여 검색 가능한 PDF 만들기 – 전체 가이드](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 Aspose OCR Java를 활용해 PDF를 검색 가능하게 변환하고 전체 텍스트를 추출하는 단계별 완전 가이드입니다.
+### [Aspose OCR을 사용한 ROI 영역 텍스트 인식 – Java 튜토리얼](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Aspose OCR을 활용해 ROI(관심 영역)에서 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR Java로 이미지 로드하여 OCR 수행 – 전체 가이드](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+이미지를 로드하고 Aspose OCR Java로 OCR을 적용하는 전체 단계별 가이드를 제공합니다.
 
 ## 자주 묻는 질문
 

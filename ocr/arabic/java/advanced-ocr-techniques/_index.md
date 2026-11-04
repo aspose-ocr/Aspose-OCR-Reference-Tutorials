@@ -161,6 +161,13 @@ url: /ar/java/advanced-ocr-techniques/
 ### [كيفية تحسين التعرف الضوئي على الحروف (OCR) باستخدام المعالجة المسبقة المتقدمة في Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 استخدم تقنيات المعالجة المسبقة المتقدمة لتحسين دقة وسرعة التعرف الضوئي على الحروف في Java مع Aspose.OCR.
 ### [التعرف على نص الصورة في Java مع تسريع GPU – الدرس الكامل](./recognize-text-image-in-java-with-gpu-acceleration-full-tuto/)
+### [التعرف على النص من صورة باستخدام Java – دليل OCR باستخدام GPU](./recognize-text-from-image-using-java-gpu-ocr-tutorial/)
+استخدم GPU لتسريع عملية التعرف الضوئي على الحروف في Java واستخراج النص من الصور بكفاءة عالية.
+### [التعرف على النص من الصور باستخدام Aspose OCR – دليل الدفعة المتوازية لجافا](./recognize-text-from-images-with-aspose-ocr-java-parallel-bat/)
+استخدم الدفعات المتوازية لمعالجة مجموعة من الصور بسرعة باستخدام Aspose OCR في Java واستخراج النص بكفاءة.
+### [استخراج النص من PDF مشفر في جافا – دليل كامل](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
+### [معالجة الصورة مسبقًا للتعرف الضوئي على الحروف – تعزيز الدقة عبر المعالجة المسبقة](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+تعلم كيفية معالجة الصور مسبقًا لتحسين دقة التعرف الضوئي على الحروف باستخدام Aspose.OCR لجافا.
 
 ### [معالجة OCR المتوازية في Java – الدليل الكامل](./parallel-ocr-processing-in-java-complete-guide/)
 تعلم تنفيذ معالجة OCR المتوازية في Java لتسريع استخراج النص من الصور. دليل شامل خطوة بخطوة.
