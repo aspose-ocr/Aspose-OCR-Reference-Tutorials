@@ -136,6 +136,10 @@ Fedezd fel, hogyan nyerheted ki a thai nyelvű szöveget PNG képekből az Aspos
 Ismerd meg, hogyan állíthatod be az OCR-t Java alkalmazásodban az Aspose segítségével, részletes lépésekkel.
 ### [Kereshető PDF létrehozása képből Java OCR-rel](./create-searchable-pdf-from-image-with-java-ocr/)
 Készíts kereshető PDF-et képből Java OCR használatával az Aspose.OCR segítségével.
+### [Hogyan használjuk az OCR-t Java-ban – Szöveg kinyerése képről helyesírási javítással](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Fedezd fel, hogyan lehet képről szöveget kinyerni Java-ban az OCR-rel, és automatikusan javítani a helyesírást.
+### [Kereshető PDF létrehozása képből – Lépésről lépésre Java útmutató](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Fedezd fel, hogyan hozhatsz létre kereshető PDF-et képekből Java-ban az Aspose.OCR segítségével.
 
 ## Gyakran Ismételt Kérdések
 

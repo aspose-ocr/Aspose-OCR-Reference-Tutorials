@@ -170,6 +170,14 @@ Aspose OCR जावा में थ्रेड संख्या बढ़�
 ### [जावा में OCR कैसे निष्पादित करें – भाषा का स्वतः पता लगाएँ और पाठ निकालें](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
 जावा में Aspose.OCR का उपयोग करके भाषा का स्वतः पता लगाकर छवियों से पाठ निकालने की प्रक्रिया सीखें।
 ### [जावा में उन्नत प्रीप्रोसेसिंग के साथ OCR को कैसे सुधारें](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
+### [Aspose OCR GPU गाइड: PNG छवियों से टेक्स्ट निष्कर्षण को तेज़ करें](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+GPU का उपयोग करके PNG छवियों से तेज़ और सटीक टेक्स्ट निकालें। Aspose OCR के साथ उच्च प्रदर्शन प्राप्त करें।
+### [जावा OCR के साथ छवि से टेक्स्ट पहचान – समानांतर प्रोसेसिंग गाइड](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+जावा OCR में समानांतर प्रोसेसिंग का उपयोग करके कई छवियों से तेज़ी से टेक्स्ट निकालें। चरण-दर-चरण मार्गदर्शिका।
+### [मिश्रित‑भाषा छवियों के लिए Aspose OCR का उपयोग कैसे करें](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Aspose OCR के साथ मिश्रित भाषा वाली छवियों से सटीक पाठ निकालें। चरण‑दर‑चरण मार्गदर्शिका।
+### [OCR में कंट्रास्ट बढ़ाने का तरीका – पूर्ण जावा प्री‑प्रोसेसिंग गाइड](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+जावा में OCR की सटीकता बढ़ाने के लिए कंट्रास्ट सुधार के चरण‑दर‑चरण प्री‑प्रोसेसिंग तकनीकें सीखें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

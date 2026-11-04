@@ -155,6 +155,10 @@ Panduan lengkap mengekstrak teks Thai dari gambar PNG menggunakan Aspose.OCR den
 Panduan lengkap untuk mengaktifkan OCR di aplikasi Java menggunakan Aspose, dengan langkah‑langkah praktis dan contoh kode.
 ### [Buat PDF yang dapat dicari dari gambar dengan OCR Java](./create-searchable-pdf-from-image-with-java-ocr/)
 Panduan langkah demi langkah untuk mengonversi gambar menjadi PDF yang dapat dicari menggunakan Aspose.OCR untuk Java.
+### [Cara Menggunakan OCR di Java – Ekstrak Teks dari Gambar dengan Koreksi Ejaan](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Pelajari cara mengekstrak teks dari gambar menggunakan OCR di Java dan memperbaiki ejaan secara otomatis.
+### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Langkah‑per‑Langkah Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Panduan lengkap membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR di Java, langkah demi langkah.
 
 ## Pertanyaan yang Sering Diajukan
 

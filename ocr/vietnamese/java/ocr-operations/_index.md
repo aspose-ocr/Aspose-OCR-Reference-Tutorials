@@ -155,6 +155,10 @@ Khám phá cách trích xuất văn bản Thai từ ảnh PNG bằng Aspose OCR 
 Hướng dẫn chi tiết cách kích hoạt OCR trong Java bằng Aspose, bao gồm cài đặt, cấu hình và thực thi các bước cơ bản.
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh với Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Biến hình ảnh thành PDF có thể tìm kiếm nhanh chóng bằng Aspose.OCR cho Java, nâng cao khả năng truy xuất và chỉnh sửa tài liệu.
+### [Cách sử dụng OCR trong Java – Trích xuất văn bản từ hình ảnh với sửa lỗi chính tả](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Khám phá cách sử dụng OCR trong Java để trích xuất văn bản từ hình ảnh và tự động sửa lỗi chính tả, nâng cao độ chính xác.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh – Hướng dẫn Java từng bước](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Khám phá cách tạo PDF có thể tìm kiếm từ hình ảnh bằng Aspose.OCR cho Java, hướng dẫn chi tiết từng bước.
 
 ## Câu hỏi Thường gặp
 

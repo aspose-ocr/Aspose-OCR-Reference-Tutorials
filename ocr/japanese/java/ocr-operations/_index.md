@@ -148,6 +148,9 @@ Java と Aspose.OCR を使用して PNG 画像からタイ語テキストを抽�
 Aspose を利用し、Java アプリケーションで OCR を有効にする手順をステップバイステップで解説します。
 ### [Java OCR で画像から検索可能な PDF を作成する](./create-searchable-pdf-from-image-with-java-ocr/)
 画像を OCR で解析し、検索可能な PDF に変換する手順をステップバイステップで解説します。
+### [Java で OCR を使用する方法 – スペル補正付き画像からテキスト抽出](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+### [画像から検索可能な PDF を作成 – ステップバイステップ Java ガイド](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+画像を PDF に変換し、検索可能なテキストレイヤーを付与する手順を Java で詳しく解説します。
 
 ## よくある質問
 

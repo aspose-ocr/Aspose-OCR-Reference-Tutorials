@@ -155,6 +155,10 @@ Odblokuj możliwość wyodrębniania tajskiego tekstu z plików PNG w Javie przy
 Krok po kroku pokażemy, jak włączyć OCR w aplikacji Java przy użyciu Aspose, aby uzyskać szybkie i dokładne wyniki.
 ### [Utwórz przeszukiwalny PDF z obrazu przy użyciu OCR w Javie](./create-searchable-pdf-from-image-with-java-ocr/)
 Odblokuj możliwość konwersji obrazu do przeszukiwalnego PDF przy użyciu Aspose.OCR w Javie.
+### [Jak używać OCR w Javie – wyodrębnić tekst z obrazu z korektą pisowni](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Odblokuj możliwość wyodrębniania tekstu z obrazów w Javie z automatyczną korektą pisowni, zwiększając dokładność wyników OCR.
+### [Tworzenie przeszukiwalnego PDF z obrazu – przewodnik krok po kroku w Javie](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Krok po kroku pokażemy, jak przy użyciu Aspose.OCR w Javie przekształcić obraz w przeszukiwalny plik PDF.
 
 ## Najczęściej zadawane pytania
 

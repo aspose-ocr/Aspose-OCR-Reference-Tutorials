@@ -155,6 +155,10 @@ Scopri come utilizzare Aspose.OCR per Java per riconoscere e estrarre testo tail
 Scopri come abilitare l'OCR in Java con Aspose, guida passo‑passo per una configurazione rapida e precisa.
 ### [Crea PDF ricercabile da immagine con Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Crea un PDF ricercabile a partire da un'immagine usando Aspose.OCR per Java, con istruzioni passo‑passo per risultati rapidi.
+### [Come usare OCR in Java – Estrarre testo da immagine con correzione ortografica](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Scopri come estrarre testo da un'immagine in Java con OCR e correggere automaticamente gli errori di ortografia.
+### [Creare PDF Ricercabile da Immagine – Guida Java Passo‑per‑Passo](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Impara a trasformare un'immagine in un PDF ricercabile con Aspose.OCR per Java, passo dopo passo.
 
 ## Domande Frequenti
 

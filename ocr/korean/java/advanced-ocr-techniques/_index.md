@@ -174,6 +174,14 @@ Java OCR에서 관심 영역을 지정하여 텍스트 인식을 최적화하는
 ### [Java에서 OCR 수행 – 자동 언어 감지 및 텍스트 추출](./how-to-perform-ocr-in-java-auto-detect-language-and-extract/)
 ### [Java에서 고급 전처리로 OCR 개선하기](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 
+### [Aspose OCR GPU 가이드: PNG 이미지에서 텍스트 추출 가속화](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+GPU 가속을 활용하여 PNG 이미지에서 텍스트 추출 속도를 크게 향상시키는 방법을 단계별로 안내합니다.
+### [Java OCR로 이미지에서 텍스트 인식 – 병렬 처리 가이드](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Java OCR을 활용해 병렬 처리로 이미지 텍스트 추출 속도를 높이는 방법을 단계별로 안내합니다.
+### [Aspose OCR을 사용한 혼합 언어 이미지 활용 방법](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Aspose OCR을 사용하여 혼합 언어 이미지에서 텍스트를 정확하게 추출하는 방법을 단계별로 안내합니다.
+### [OCR 대비 향상 방법 – 완전한 Java 전처리 가이드](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Java용 Aspose.OCR을 활용해 이미지 대비를 조정하여 OCR 정확도를 높이는 전체 전처리 과정을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -42,6 +42,14 @@ url: /el/java/advanced-ocr-techniques/
 Ενισχύστε τις εφαρμογές σας Java με το Aspose.OCR για ακριβή αναγνώριση κειμένου. Αυτό το σεμινάριο σας καθοδηγεί στην εύκολη ενσωμάτωση και την υψηλή ακρίβεια στην αναγνώριση γραμμών. Αναβαθμίστε τα έργα σας με την αποτελεσματικότητα και την αξιοπιστία του Aspose.OCR.
 
 ## [Καθορισμός επιτρεπόμενων χαρακτήρων στο Aspose.OCR](./specify-allowed-characters/)
+
+## [Πώς να χρησιμοποιήσετε το Aspose OCR για εικόνες μικτής γλώσσας](./how-to-use-aspose-ocr-for-mixed-language-images/)
+
+Μάθετε πώς να επεξεργάζεστε εικόνες που περιέχουν κείμενο σε πολλαπλές γλώσσες με το Aspose OCR, εξασφαλίζοντας ακριβή εξαγωγή κειμένου.
+
+## [Οδηγός Aspose OCR GPU: Επιτάχυνση Εξαγωγής Κειμένου από PNG Εικόνες](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Επιταχύνετε την εξαγωγή κειμένου από PNG εικόνες με το Aspose.OCR GPU, εξασφαλίζοντας υψηλή απόδοση και ακρίβεια.
+
 ### [Εκτέλεση OCR στο BufferedImage στο Aspose.OCR για Java](./perform-ocr-buffered-image/)
 Εκτελέστε OCR στο BufferedImage χωρίς κόπο με το Aspose.OCR για Java. Εξαγωγή κειμένου από εικόνες απρόσκοπτα. Κάντε λήψη τώρα για μια ευέλικτη εμπειρία αναγνώρισης κειμένου.
 ### [Εκτέλεση OCR σε Εικόνα από διεύθυνση URL στο Aspose.OCR για Java](./perform-ocr-image-from-url/)
@@ -156,6 +164,10 @@ url: /el/java/advanced-ocr-techniques/
 Εκμεταλλευτείτε την επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες με το Aspose OCR σε Java.
 ### [Πώς να βελτιώσετε το OCR με προηγμένη προεπεξεργασία σε Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 Μάθετε πώς να βελτιώσετε το OCR με προηγμένη προεπεξεργασία εικόνας σε Java, αυξάνοντας την ακρίβεια και την απόδοση.
+### [Αναγνώριση κειμένου από εικόνα με Java OCR – Οδηγός Παράλληλης Επεξεργασίας](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Επιταχύνετε την OCR σε εικόνες με Java χρησιμοποιώντας παράλληλη επεξεργασία για υψηλή απόδοση και ακρίβεια.
+
+## [Πώς να βελτιώσετε την αντίθεση στο OCR – Πλήρης οδηγός προεπεξεργασίας Java](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

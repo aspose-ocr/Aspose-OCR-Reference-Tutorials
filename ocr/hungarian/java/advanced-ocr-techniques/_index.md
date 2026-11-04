@@ -186,6 +186,14 @@ Használja a GPU gyorsítást az Aspose OCR Java könyvtárban a képek szöveg�
 Tanulja meg, hogyan automatikusan felismerheti a nyelvet és nyerheti ki a szöveget képekről Java-ban az Aspose.OCR segítségével.
 ### [Hogyan javítható az OCR fejlett előfeldolgozással Java-ban](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 Fedezze fel, hogyan növelheti az OCR pontosságát fejlett előfeldolgozási technikákkal Java-ban.
+### [Aspose OCR GPU útmutató: Szövegkinyerés felgyorsítása PNG képekből](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Gyorsítsa fel a PNG képek szövegkinyerését az Aspose OCR GPU technológiával. Javítsa teljesítményét Java alkalmazásában.
+### [Szöveg felismerése képről Java OCR-rel – Párhuzamos feldolgozási útmutató](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Gyorsítsa a szövegkinyerést képről párhuzamos feldolgozással Java OCR használatával.
+### [Hogyan használja az Aspose OCR-t vegyes nyelvű képeken](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Fedezze fel, hogyan végezhet OCR-t vegyes nyelvű képeken az Aspose OCR segítségével, biztosítva a pontos szövegkinyerést több nyelven.
+### [Hogyan növelje a kontrasztot az OCR-ben – Teljes Java előfeldolgozási útmutató](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Fedezze fel, hogyan javíthatja a kontrasztot a képeken az OCR pontosságának növelése érdekében Java előfeldolgozással.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

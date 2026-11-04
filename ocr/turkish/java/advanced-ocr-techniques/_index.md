@@ -51,6 +51,9 @@ Aspose OCR kullanarak Java'da görüntülerden metin tanıma sürecini adım ad�
 ## [Java'da GPU Hızlandırmalı OCR Kullanımı – Adım Adım Kılavuz](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 Java uygulamalarınızda GPU hızlandırmasıyla OCR performansını artırın. Adım adım rehberle kolayca entegre edin.
 
+## [Aspose OCR GPU Kılavuzu: PNG Görüntülerinden Metin Çıkarma Hızlandırma](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+GPU desteğiyle PNG görüntülerinden hızlı ve yüksek doğrulukta metin çıkarın. Aspose OCR ile performansı artırın.
+
 ## Çözüm
 
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
@@ -192,6 +195,12 @@ GPU hızlandırmalı Aspose OCR ile Java’da görüntülerden hızlı ve yükse
 Aspose.OCR for Java ile dil otomatik algılayarak metin çıkarın, yüksek doğruluk ve hızlı OCR deneyimi elde edin.
 ### [Java'da Gelişmiş Ön İşleme ile OCR'ı İyileştirme](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 Java'da gelişmiş ön işleme teknikleriyle OCR doğruluğunu artırın, metin çıkarımını hızlandırın ve kaliteyi yükseltin.
+### [Java OCR ile Görüntüden Metin Tanıma – Paralel İşleme Kılavuzu](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Java OCR kullanarak paralel işleme ile görüntülerden hızlı ve doğru metin çıkarın. Adım adım rehberle performansı artırın.
+### [Aspose OCR'ı Karışık Dil Görüntüleri İçin Nasıl Kullanılır](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Aspose OCR ile birden fazla dili içeren görüntülerden metni doğru bir şekilde çıkarın. Java projelerinizde çok dilli OCR'ı keşfedin.
+### [OCR'da Kontrastı Artırma – Tam Java Ön İşleme Kılavuzu](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Java ile OCR performansını artırmak için görüntü kontrastını nasıl iyileştireceğinizi adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

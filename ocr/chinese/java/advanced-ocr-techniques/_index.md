@@ -63,10 +63,7 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 通过我们在特定页面上执行 OCR 的分步指南来释放 Aspose.OCR for Java 的强大功能。轻松从图像中提取文本并增强您的 Java 项目。
 
 ### [在 Aspose.OCR 中为 OCR 准备矩形](./prepare-rectangles-for-ocr/)
-使用 Aspose.OCR for Java 释放文本识别的强大功能。请按照我们的分步指南进行无缝集成。通过高效的 OCR 功能增强您的 Java 应用程序。
 ### [在 Aspose.OCR for Java 中识别线条](./recognize-lines/)
-使用 Aspose.OCR 为您的 Java 应用程序提供精确的文本识别能力。集成方便，精度高。
-
 ### [在 Aspose.OCR 中指定允许的字符](./specify-allowed-characters/)
 使用 Aspose.OCR for Java 无缝解锁图像中的文本提取。请遵循我们的分步指南以实现高效集成。
 ### [在 Aspose.OCR for Java 中启用 GPU 并从 TIFF 提取文本](./how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/)
@@ -179,6 +176,10 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 使用 Aspose.OCR for Java 自动检测语言并提取文本，实现高效 OCR 处理。
 ### [在 Java 中通过高级预处理提升 OCR 效果](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 学习如何在 Java 中使用高级图像预处理技术，提高 Aspose.OCR 的识别准确率和速度。
+### [Aspose OCR GPU 指南：加速 PNG 图像的文本提取](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+### [使用 Java OCR 从图像识别文本 – 并行处理指南](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+### [在 Aspose.OCR for Java 中使用混合语言图像](./how-to-use-aspose-ocr-for-mixed-language-images/)
+### [如何在 OCR 中增强对比度 – 完整的 Java 预处理指南](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

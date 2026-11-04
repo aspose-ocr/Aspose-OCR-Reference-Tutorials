@@ -167,6 +167,14 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีทำ OCR ใน Java พร้อมการตรวจจับภาษาที่อัตโนมัติและการดึงข้อความจากรูปภาพอย่างแม่นยำ
 ### [วิธีปรับปรุง OCR ด้วยการประมวลผลล่วงหน้าขั้นสูงใน Java](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 เพิ่มประสิทธิภาพการจดจำข้อความด้วยเทคนิคการเตรียมภาพขั้นสูงสำหรับ Java ด้วย Aspose.OCR
+### [คู่มือ Aspose OCR GPU: เร่งการสกัดข้อความจากภาพ PNG](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+ใช้ GPU เพื่อเร่งการดึงข้อความจากไฟล์ PNG ด้วย Aspose OCR เพิ่มความเร็วและประสิทธิภาพของแอปพลิเคชัน
+### [การจดจำข้อความจากภาพด้วย Java OCR – คู่มือการประมวลผลแบบขนาน](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+เรียนรู้วิธีใช้การประมวลผลแบบขนานเพื่อเร่งการจดจำข้อความจากภาพด้วย Aspose.OCR สำหรับ Java
+### [วิธีใช้ Aspose OCR สำหรับภาพหลายภาษา](./how-to-use-aspose-ocr-for-mixed-language-images/)
+เรียนรู้วิธีจดจำข้อความจากภาพหลายภาษาอย่างแม่นยำด้วย Aspose OCR สำหรับ Java
+### [วิธีเพิ่มคอนทราสต์ใน OCR – คู่มือการเตรียมการล่วงหน้าด้วย Java อย่างสมบูรณ์](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+เรียนรู้วิธีปรับคอนทราสต์ภาพเพื่อเพิ่มความแม่นยำของ OCR ด้วยขั้นตอนการเตรียมภาพใน Java อย่างครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -156,6 +156,10 @@ Desbloquea la extracción de texto tailandés de archivos PNG usando Aspose OCR 
 Aprende a activar OCR en Java usando Aspose con una guía paso a paso para integrar reconocimiento de texto rápidamente.
 ### [Crear PDF buscable a partir de una imagen con Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Crea un PDF buscable a partir de imágenes usando Aspose.OCR para Java. Sigue los pasos para generar documentos editables y con texto indexable.
+### [Cómo usar OCR en Java – Extraer texto de imagen con corrección ortográfica](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Desbloquea la extracción de texto de imágenes con corrección ortográfica usando Aspose.OCR en Java. Sigue la guía paso a paso.
+### [Crear PDF buscable a partir de una imagen – Guía paso a paso en Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Desbloquea la creación de PDFs buscables a partir de imágenes usando Aspose.OCR en Java. Sigue esta guía paso a paso.
 
 ## Preguntas frecuentes
 

@@ -192,6 +192,14 @@ Dowiedz się, jak przyspieszyć OCR przy użyciu GPU w Aspose OCR dla Java, uzys
 Dowiedz się, jak automatycznie wykrywać język obrazu i wyodrębniać tekst w Javie przy użyciu Aspose.OCR.
 ### [Jak poprawić OCR przy użyciu zaawansowanego przetwarzania wstępnego w Javie](./how-to-improve-ocr-with-advanced-preprocessing-in-java/)
 Dowiedz się, jak zwiększyć dokładność OCR w Javie dzięki zaawansowanemu przetwarzaniu wstępnemu obrazów.
+### [Przewodnik Aspose OCR GPU: przyspiesz wyodrębnianie tekstu z obrazów PNG](./aspose-ocr-gpu-guide-accelerate-text-extraction-from-png-ima/)
+Przyspiesz OCR na obrazach PNG wykorzystując GPU w Aspose.OCR, zapewniając szybką i dokładną ekstrakcję tekstu.
+### [Rozpoznawanie tekstu z obrazu przy użyciu Java OCR – Przewodnik przetwarzania równoległego](./recognize-text-from-image-with-java-ocr-parallel-processing/)
+Przyspiesz OCR, wykorzystując przetwarzanie równoległe w Java OCR. Szybka i efektywna ekstrakcja tekstu z obrazów.
+### [Jak używać Aspose OCR dla obrazów wielojęzycznych](./how-to-use-aspose-ocr-for-mixed-language-images/)
+Użyj Aspose OCR do rozpoznawania tekstu w obrazach zawierających wiele języków. Zapewnia wysoką dokładność i prostą integrację.
+### [Jak zwiększyć kontrast w OCR – Kompletny przewodnik przetwarzania wstępnego w Javie](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
+Popraw jakość OCR poprzez zwiększenie kontrastu obrazu w Javie. Kompletny przewodnik przetwarzania wstępnego.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

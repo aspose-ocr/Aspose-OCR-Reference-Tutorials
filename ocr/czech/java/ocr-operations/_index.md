@@ -145,6 +145,10 @@ Naučte se pomocí Aspose.OCR v Javě rozpoznat thajský text v PNG obrázcích 
 Naučte se, jak v Javě aktivovat OCR pomocí Aspose, krok po kroku, včetně nastavení a ukázek kódu.
 ### [Vytvořit prohledávatelný PDF z obrázku pomocí Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Naučte se převést obrázek na prohledávatelný PDF pomocí Aspose.OCR v Javě.
+### [Jak používat OCR v Javě – Extrahovat text z obrázku s korekcí pravopisu](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Naučte se, jak pomocí Aspose.OCR v Javě extrahovat text z obrázku a automaticky opravit pravopisné chyby pro vyšší přesnost.
+### [Vytvoření prohledávatelného PDF z obrázku – krok za krokem průvodce pro Javu](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Naučte se, jak pomocí Aspose.OCR převést obrázek na prohledávatelný PDF soubor v Javě, krok po kroku.
 
 ## Často kladené otázky
 

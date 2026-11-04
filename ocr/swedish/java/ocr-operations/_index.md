@@ -155,6 +155,12 @@ En detaljerad guide som visar hur du konverterar en bild till en sökbar PDF med
 Lär dig hur du enkelt aktiverar OCR i Java med Aspose genom en detaljerad steg‑för‑steg‑guide.
 ### [Skapa sökbar PDF från bild med Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java, steg‑för‑steg‑instruktioner för optimal OCR‑resultat.
+### [Känna igen text i bild med Aspose OCR – Fullständig Java OCR‑handledning](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+En komplett guide som visar hur du använder Aspose OCR för att känna igen text i bilder med Java.
+### [Hur du använder OCR i Java – Extrahera text från bild med stavningskorrigering](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Lär dig hur du använder OCR i Java för att extrahera text från bilder och korrigera stavfel automatiskt.
+### [Skapa sökbar PDF från bild – steg‑för‑steg Java‑guide](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java, steg för steg med kodexempel.
 
 ## Vanliga frågor
 
@@ -181,8 +187,6 @@ A: Bearbeta TIFF‑bilder i delar eller använd multi‑threading för att håll
 
 ### [Skapa sökbar PDF med Aspose OCR – Steg‑för‑steg‑guide](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Lär dig hur du skapar en sökbar PDF med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
-### [Känna igen text i bild med Aspose OCR – Fullständig Java OCR-handledning](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-En komplett guide som visar hur du använder Aspose OCR för att känna igen text i bilder med Java.
 ### [Skapa sökbar PDF från PNG – Komplett Java‑guide](./create-searchable-pdf-from-png-complete-java-guide/)
 Lär dig steg‑för‑steg hur du konverterar PNG‑bilder till sökbara PDF‑filer med Aspose.OCR för Java.
 ### [Skapa sökbar PDF från bild med OCR – Java‑guide](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)

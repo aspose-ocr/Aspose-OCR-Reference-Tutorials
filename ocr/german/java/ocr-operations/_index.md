@@ -152,6 +152,10 @@ Erfahren Sie, wie Sie aus einem Bild ein durchsuchbares PDF mit Aspose.OCR für 
 Ermöglicht das Erstellen durchsuchbarer PDFs aus Bildern mit Aspose.OCR für Java.
 ### [Wie OCR in Java mit Aspose aktivieren – Schritt‑für‑Schritt‑Anleitung](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
 Erfahren Sie, wie Sie OCR in Java mit Aspose aktivieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung.
+### [OCR in Java verwenden – Text aus Bild mit Rechtschreibkorrektur extrahieren](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus Bildern extrahieren und dabei eine integrierte Rechtschreibkorrektur anwenden.
+### [Durchsuchbares PDF aus Bild erstellen – Schritt‑für‑Schritt Java‑Leitfaden](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java ein durchsuchbares PDF aus einem Bild erstellen – detaillierte Schritt‑für‑Schritt‑Anleitung.
 
 ## Häufig gestellte Fragen
 

@@ -151,6 +151,9 @@ weight: 21
 本教程提供在 Java 项目中启用 Aspose OCR 的完整步骤，帮助您快速实现文本识别。
 ### [使用 Java OCR 将图像转换为可搜索 PDF](./create-searchable-pdf-from-image-with-java-ocr/)
 演示如何使用 Aspose.OCR for Java 将图像转换为带可搜索文本层的 PDF，实现快速搜索和编辑。
+### [从图像创建可搜索 PDF – 分步 Java 指南](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+### [如何在 Java 中使用 OCR – 从图像提取文本并进行拼写校正](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+演示在 Java 中使用 Aspose.OCR 提取图像文本并进行拼写纠正，提高识别准确性。
 
 ## 常见问题
 
