@@ -95,6 +95,8 @@ Aprenda a configurar a licença do Aspose OCR em C# passo a passo para habilitar
 Desbloqueie o OCR multilíngue em C# com Aspose.OCR, aprendendo a reconhecer texto em vários idiomas de forma eficaz.
 ### [Imagem para texto C# – Aspose OCR com download desativado](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Aprenda a converter imagens em texto usando Aspose OCR em C# com a opção de download desativada.
+### [Obtenha a Versão do Aspose OCR em C# – Guia Completo](./get-aspose-ocr-version-in-c-complete-guide/)
+Aprenda a recuperar a versão da biblioteca Aspose OCR usando C# com este guia passo a passo.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

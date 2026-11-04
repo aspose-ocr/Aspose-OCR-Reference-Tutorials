@@ -111,6 +111,8 @@ Unlock the power of GPU‑accelerated OCR in .NET. Learn to extract text from im
 Learn to extract text from images in multiple languages using Aspose.OCR in C# applications.
 ### [image to text c# – Aspose OCR with disabled download](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Learn how to extract text from images in C# using Aspose OCR while disabling the download feature.
+### [Get Aspose OCR Version in C# – Complete Guide](./get-aspose-ocr-version-in-c-complete-guide/)
+Learn how to retrieve the Aspose OCR library version in C# with a complete guide.
 
 ### Common Use Cases
 - **Extract text images** from scanned invoices for automated accounting.  

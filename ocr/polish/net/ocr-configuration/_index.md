@@ -109,6 +109,8 @@ Kompletny przewodnik C# pokazujący, jak skonfigurować i zastosować licencję 
 Dowiedz się, jak w C# wykorzystać Aspose.OCR do rozpoznawania tekstu w wielu językach.
 ### [Obraz na tekst C# – Aspose OCR z wyłączonym pobieraniem](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Dowiedz się, jak wyłączyć możliwość pobierania przy konwersji obrazu na tekst w C# przy użyciu Aspose OCR.
+### [Uzyskaj wersję Aspose OCR w C# – Kompletny przewodnik](./get-aspose-ocr-version-in-c-complete-guide/)
+Dowiedz się, jak programowo sprawdzić wersję biblioteki Aspose.OCR w aplikacji C#.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

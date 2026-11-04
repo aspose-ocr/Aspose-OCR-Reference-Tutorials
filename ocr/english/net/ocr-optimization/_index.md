@@ -276,6 +276,8 @@ Learn to correct image skew using Aspose.OCR in C#, improving OCR accuracy with 
 Step‑by‑step guide to preprocess images for OCR using Aspose.OCR in C#, improving accuracy with filters and settings.
 ### [OCR confidence scores in C# – Complete Guide](./ocr-confidence-scores-in-c-complete-guide/)
 Learn how to retrieve and interpret OCR confidence scores in C# using Aspose.OCR, improving result validation and post‑processing.
+### [Aspose OCR C# Example – Enable GPU, Set Memory Limit & Process TIF Images](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Learn how to enable GPU acceleration, set memory limits, and process TIF images using Aspose.OCR in C#.
 
 ## Frequently Asked Questions
 

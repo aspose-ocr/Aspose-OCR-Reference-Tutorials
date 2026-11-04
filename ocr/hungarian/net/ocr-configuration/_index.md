@@ -144,6 +144,8 @@ Ismerje meg, hogyan konfigurálja a licencet az Aspose OCR könyvtárban C#-ban 
 Ismerje meg, hogyan használhatja az Aspose.OCR-t C#‑ban több nyelv felismerésére, lépésről lépésre útmutatóval.  
 ### [kép szöveggé C# – Aspose OCR letöltés letiltásával](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Bemutatja, hogyan használja az Aspose OCR-t C#-ban a letöltés letiltásával a képek szöveggé alakításához.  
+### [Az Aspose OCR verzió lekérése C#‑ban – Teljes útmutató](./get-aspose-ocr-version-in-c-complete-guide/)
+Ismerje meg, hogyan kérheti le az Aspose OCR könyvtár verziószámát C#‑ban, egyszerű kóddal.  
 
 
 

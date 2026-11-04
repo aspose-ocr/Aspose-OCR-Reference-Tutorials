@@ -279,6 +279,8 @@ Lär dig steg‑för‑steg hur du kör OCR på en bild med en komplett C#‑gui
 Lär dig hur du använder och tolkar OCR‑konfidenspoäng i Aspose.OCR för .NET för att förbättra igenkänningsprecisionen.
 ### [Förbehandla bild för OCR i C# – Komplett Aspose OCR‑guide](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR‑igenkänning med Aspose OCR i C#.
+### [Aspose OCR C#‑exempel – Aktivera GPU, sätt minnesgräns och bearbeta TIF‑bilder](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Lär dig hur du aktiverar GPU‑acceleration, begränsar minnesanvändning och bearbetar TIF‑bilder med Aspose OCR i C#.
 
 ## Vanliga frågor
 

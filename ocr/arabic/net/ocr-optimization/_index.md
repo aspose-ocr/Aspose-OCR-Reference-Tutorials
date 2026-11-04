@@ -274,6 +274,8 @@ weight: 25
 تعرف على كيفية استخراج وتحليل درجات الثقة لنتائج OCR باستخدام Aspose.OCR في C# لتحسين الدقة واتخاذ قرارات أفضل.
 ### [معالجة مسبقة للصورة لتقنية OCR في C# – دليل كامل لـ Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 اكتشف كيفية تحسين دقة OCR عبر تطبيق فلاتر ما قبل المعالجة على الصور باستخدام Aspose OCR في C#.
+### [مثال Aspose OCR C# – تمكين GPU، ضبط حد الذاكرة ومعالجة صور TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+تعلم كيفية تمكين معالجة GPU، ضبط حد الذاكرة ومعالجة ملفات TIF باستخدام Aspose OCR في C#.
 
 ## الأسئلة المتكررة
 

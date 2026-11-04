@@ -606,6 +606,16 @@ Naučte se extrahovat text v cyrilici z obrázků pomocí Aspose OCR ve vašich 
 Naučte se převést obrázek do formátu ePub pomocí C# a Aspose, krok za krokem s praktickými ukázkami.
 ### [Jak použít Aspose OCR k extrakci textu z JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Naučte se, jak offline extrahovat text z JPG souborů pomocí Aspose OCR ve vašich .NET aplikacích.
+### [Provést OCR na obrázku s Aspose OCR – hindský průvodce](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Naučte se, jak pomocí Aspose OCR provést rozpoznávání textu v hindštině na obrázcích ve vašich .NET aplikacích.
+### [Provést OCR na PDF s Aspose.OCR – Kompletní průvodce C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Naučte se, jak pomocí Aspose.OCR provést kompletní OCR na PDF v C# a integrovat výsledek do vašich aplikací.
+### [Jak použít Aspose: převod obrázku do HTML s OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Naučte se, jak pomocí Aspose.OCR převést obrázek na HTML a zachovat rozpoznaný text.
+### [Provést OCR na obrázku a detekovat překlepy v C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Naučte se, jak pomocí Aspose.OCR provést rozpoznání textu na obrázku a identifikovat překlepy ve vašich C# aplikacích.
+### [OCR titulků videa v C# – Kompletní průvodce](./video-subtitle-ocr-in-c-complete-guide/)
+Naučte se pomocí Aspose.OCR extrahovat a rozpoznávat titulky z videí v C# a integrovat výsledky do vašich aplikací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

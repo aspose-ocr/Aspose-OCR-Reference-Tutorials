@@ -243,6 +243,8 @@ Hướng dẫn chi tiết cách thực hiện OCR trên hình ảnh bằng C# v�
 Tìm hiểu cách lấy và sử dụng điểm tin cậy OCR trong Aspose.OCR cho .NET để cải thiện độ chính xác và xử lý kết quả.
 ### [Tiền xử lý hình ảnh cho OCR trong C# – Hướng dẫn đầy đủ Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Hướng dẫn chi tiết cách tiền xử lý ảnh trước khi OCR bằng Aspose OCR trong C#, nâng cao độ chính xác và hiệu suất.
+### [Ví dụ Aspose OCR C# – Bật GPU, Đặt giới hạn bộ nhớ & Xử lý ảnh TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Hướng dẫn bật GPU, giới hạn bộ nhớ và xử lý ảnh TIF bằng Aspose OCR trong C# để tăng tốc độ và hiệu suất OCR.
 
 ## Câu hỏi thường gặp
 

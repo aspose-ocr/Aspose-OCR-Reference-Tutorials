@@ -596,6 +596,16 @@ Ismerje meg, hogyan nyerhet ki cirill karaktereket tartalmazó képekből szöve
 Ismerje meg, hogyan konvertálhat képeket ePub formátumba C#‑ban részletes, lépésről‑lépésre útmutatóval.
 ### [Hogyan használja az Aspose OCR-t JPG képek offline szövegkivonásához](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Ismerje meg, hogyan nyerhet ki szöveget JPG képekből offline az Aspose OCR .NET segítségével.
+### [OCR végrehajtása képen az Aspose OCR segítségével – Hindi útmutató](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Ismerje meg, hogyan végezhet OCR-t képeken az Aspose OCR .NET használatával, Hindi nyelvű útmutatóval.
+### [PDF-en OCR végrehajtása az Aspose.OCR segítségével – Teljes C# útmutató](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan végezhet teljes körű OCR-t PDF-fájlokon az Aspose.OCR .NET használatával C# nyelven.
+### [Az Aspose használata: Kép konvertálása HTML-re OCR-rel](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Ismerje meg, hogyan konvertálhat képeket HTML formátumba az Aspose OCR segítségével .NET környezetben.
+### [OCR végrehajtása képen és helyesírási hibák felismerése C#-ban](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Ismerje meg, hogyan végezhet OCR-t képeken és azonosíthatja a helytelenül írt szavakat C#-ban az Aspose.OCR segítségével.
+### [Videó felirat OCR C#-ban – Teljes útmutató](./video-subtitle-ocr-in-c-complete-guide/)
+Ismerje meg, hogyan végezhet OCR-t videó feliratokon C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

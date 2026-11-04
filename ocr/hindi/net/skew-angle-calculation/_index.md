@@ -59,6 +59,8 @@ Aspose OCR के साथ C# में इमेज को डेस्क्�
 Aspose OCR का उपयोग करके C# में इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, जिससे आपके OCR परिणाम सटीक हों।
 ### [Aspose OCR के साथ इमेज को डेस्क्यू कैसे करें – पूर्ण C# गाइड](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 .NET के लिए Aspose OCR का उपयोग करके इमेज को डेस्क्यू करने की पूरी प्रक्रिया सीखें, C# कोड उदाहरणों के साथ।
+### [OCR घुमाए गए दस्तावेज़ ट्यूटोरियल – C# में ऑटो स्क्यू और रोटेशन फ़िक्स](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+.NET के लिए Aspose.OCR के साथ घुमाए गए दस्तावेज़ों में स्वचालित स्क्यू सुधार और रोटेशन ठीक करना सीखें।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

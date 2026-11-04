@@ -55,6 +55,8 @@ url: /ru/net/text-recognition/
 Научитесь преобразовывать изображения в JSON‑результаты OCR с помощью Aspose в C#.
 ### [Преобразовать изображение в JSON с Aspose OCR – Полное руководство на C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
 Научитесь преобразовывать изображения в JSON с помощью Aspose OCR в C#. Пошаговое руководство для быстрой интеграции.
+### [Как использовать Aspose: преобразовать изображение в HTML с OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Преобразуйте изображения в HTML с помощью OCR Aspose, получая точный текст и структуру в веб-формате.
 ### [Режим OCR Detect Areas в распознавании изображений OCR](./ocr-detect-areas-mode/)
 Усовершенствуйте свои .NET-приложения с помощью Aspose.OCR для эффективного распознавания текста на изображениях. Изучите режим обнаружения областей OCR для получения точных результатов.
 ### [Распознать PDF в распознавании изображений OCR](./recognize-pdf/)
@@ -582,6 +584,14 @@ url: /ru/net/text-recognition/
 Научитесь преобразовывать изображения в ePub‑книги с помощью C#, следуя подробному пошаговому руководству.
 ### [Как использовать Aspose OCR для извлечения текста из JPG офлайн](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Научитесь извлекать текст из JPG‑изображений без подключения к сети, используя Aspose OCR в .NET.
+### [Выполнить OCR PDF с Aspose OCR – полное руководство на C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Полное пошаговое руководство по выполнению OCR PDF с помощью Aspose OCR на C#.
+### [Выполнить OCR изображения с Aspose OCR – руководство на хинди](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Изучите, как с помощью Aspose OCR выполнить распознавание текста на изображениях с поддержкой хинди.
+### [Выполнить OCR изображения и обнаружить орфографические ошибки в C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Научитесь выполнять OCR изображения и выявлять ошибочно написанные слова с помощью Aspose.OCR в C#.
+### [OCR субтитров видео на C# – Полное руководство](./video-subtitle-ocr-in-c-complete-guide/)
+Полное руководство по использованию Aspose.OCR в C# для распознавания субтитров из видеофайлов.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

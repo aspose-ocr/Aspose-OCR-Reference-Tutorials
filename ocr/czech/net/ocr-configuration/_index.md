@@ -89,6 +89,8 @@ Naučte se, jak nastavit licenci Aspose OCR ve své C# aplikaci.
 Naučte se, jak provádět OCR v C# s podporou více jazyků a zvýšit přesnost rozpoznávání.
 ### [Obrázek na text C# – Aspose OCR s vypnutým stahováním](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Ukazuje, jak pomocí Aspose OCR převést obrázek na text v C# a zakázat možnost stažení souboru.
+### [Získání verze Aspose OCR v C# – Kompletní průvodce](./get-aspose-ocr-version-in-c-complete-guide/)
+Zjistěte, jak získat verzi Aspose.OCR v C# a ověřit kompatibilitu knihovny během vývoje.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

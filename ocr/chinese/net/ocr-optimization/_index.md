@@ -304,6 +304,8 @@ weight: 25
 
 ### [C# 中的批量 OCR – 完整编程指南](./how-to-batch-ocr-in-c-complete-programming-guide/)
 学习如何在 C# 中使用 Aspose.OCR 批量处理图像，实现高效的 OCR 自动化流程。
+### [Aspose OCR C# 示例 – 启用 GPU、设置内存限制并处理 TIF 图像](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+演示如何在 C# 中启用 GPU 加速、限制内存使用并处理 TIF 格式图像的 OCR 操作。
 
 ## 常见问题
 

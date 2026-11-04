@@ -297,6 +297,8 @@ Aprende a corregir la inclinación de imágenes en C# usando Aspose.OCR, mejoran
 Aprende a obtener y usar los puntajes de confianza del OCR en C# para mejorar la precisión y filtrar resultados.
 ### [Preprocesar imagen para OCR en C# – Guía completa de Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Aprende a aplicar filtros y técnicas de preprocesamiento en C# para mejorar la precisión del OCR con Aspose OCR.
+### [Ejemplo de Aspose OCR en C# – Habilitar GPU, Establecer Límite de Memoria y Procesar Imágenes TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Aprende a activar la GPU, limitar la memoria y procesar archivos TIF con Aspose OCR en C# para mejorar el rendimiento.
 
 ## Preguntas frecuentes
 

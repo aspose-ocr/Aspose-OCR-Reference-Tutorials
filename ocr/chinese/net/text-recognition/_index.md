@@ -607,6 +607,16 @@ url: /zh/net/text-recognition/
 使用 Aspose.OCR 在 C# 中将图像转换为 ePub 格式，提供完整的分步操作指南，帮助您轻松生成电子书。
 ### [离线使用 Aspose OCR 从 JPG 提取文本](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 通过 Aspose OCR 离线从 JPG 图像中提取文本的完整指南，帮助您在 .NET 应用中实现高效文字提取。
+### [使用 Aspose OCR 对 PDF 进行 OCR – 完整 C# 指南](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+本指南详细演示如何使用 Aspose.OCR 在 .NET 中通过 C# 对 PDF 文件执行 OCR，提取文本并集成到应用程序。
+### [使用 Aspose OCR 对图像进行 OCR – 印地语指南](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+本教程指导您使用 Aspose OCR 对图像进行 OCR 处理，并提供印地语语言支持的完整步骤。
+### [如何使用 Aspose：将图像转换为带 OCR 的 HTML](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+本教程演示如何使用 Aspose.OCR 将图像转换为 HTML，并在其中嵌入 OCR 识别的文本。
+### [使用 C# 对图像进行 OCR 并检测拼写错误的单词](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+本教程展示如何使用 Aspose.OCR 在 .NET 中对图像进行 OCR，并识别并标记拼写错误的单词。
+### [使用 C# 对视频字幕进行 OCR – 完整指南](./video-subtitle-ocr-in-c-complete-guide/)
+本完整指南展示如何使用 Aspose.OCR 在 C# 中对视频字幕进行 OCR，提取文本并集成到应用程序。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

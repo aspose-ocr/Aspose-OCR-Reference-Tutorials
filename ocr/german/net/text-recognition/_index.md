@@ -61,6 +61,8 @@ Erfahren Sie, wie Sie OCR‑Ergebnisse im JSON‑Format in C# speichern können 
 Nutzen Sie das Potenzial von OCR in .NET mit Aspose.OCR. Extrahieren Sie mühelos Text aus PDFs. Laden Sie es jetzt herunter und genießen Sie eine nahtlose Integration.
 ### [PDF in durchsuchbares PDF konvertieren in C# – Vollständiger Aspose OCR Leitfaden](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
 Lernen Sie, wie Sie mit Aspose.OCR PDFs in durchsuchbare PDFs konvertieren und Text effizient extrahieren.
+### [OCR auf PDF mit Aspose OCR ausführen – Vollständiger C#‑Leitfaden](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR PDFs in C# verarbeiten und Text extrahieren – Schritt‑für‑Schritt‑Anleitung für Entwickler.
 ### [Tabelle in der OCR-Bilderkennung erkennen](./recognize-table/)
 ### [Wie man OCR in C# verwendet – Russischen Text aus PNG extrahieren](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# russischen Text aus PNG‑Bildern extrahieren und in Ihre .NET‑Anwendung integrieren.
@@ -581,6 +583,14 @@ Lernen Sie, wie Sie mit Aspose OCR kyrillischen Text aus Bildern extrahieren und
 Erfahren Sie, wie Sie mit Aspose.OCR Bilder in das ePub-Format konvertieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung für C#.
 ### [Wie man Aspose OCR verwendet, um Text aus JPG offline zu extrahieren](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Erfahren Sie, wie Sie mit Aspose OCR Text aus JPG‑Dateien offline extrahieren und in Ihre .NET‑Anwendungen einbinden.
+### [OCR auf Bild mit Aspose OCR ausführen – Hindi‑Leitfaden](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR Text aus Bildern extrahieren und dabei die Hindi‑Sprache unterstützen.
+### [Wie Sie Aspose verwenden: Bild mit OCR in HTML konvertieren](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Erfahren Sie, wie Sie mit Aspose OCR ein Bild in HTML umwandeln und den Text extrahieren.
+### [OCR auf Bild ausführen und Rechtschreibfehler in C# erkennen](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Erfahren Sie, wie Sie mit Aspose OCR Bilder verarbeiten und dabei falsch geschriebene Wörter in C# erkennen.
+### [Video‑Untertitel‑OCR in C# – Vollständiger Leitfaden](./video-subtitle-ocr-in-c-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR Untertitel aus Videos extrahieren und in C# verarbeiten – Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

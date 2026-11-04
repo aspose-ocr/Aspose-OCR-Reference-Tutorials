@@ -289,6 +289,8 @@ Pelajari cara mengoreksi kemiringan gambar dengan Aspose.OCR di C#, meningkatkan
 Pelajari cara menampilkan dan menggunakan skor kepercayaan OCR di C# untuk meningkatkan akurasi dan validasi hasil pengenalan teks.
 ### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan sebelum OCR menggunakan Aspose.OCR di C# untuk hasil yang akurat.
+### [Contoh Aspose OCR C# – Aktifkan GPU, Atur Batas Memori & Proses Gambar TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Pelajari cara mengaktifkan GPU, mengatur batas memori, dan memproses file TIF dengan Aspose OCR menggunakan C#.
 
 ## Pertanyaan yang Sering Diajukan
 

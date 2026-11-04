@@ -59,6 +59,7 @@ Jelajahi potensi besar Aspose.OCR untuk .NET saat Anda dengan mudah melakukan pe
 
 ### [OCROperation dengan Arsip dalam Pengenalan Gambar OCR](./ocr-operation-with-archive/)
 Buka potensi OCR dalam aplikasi .NET dengan Aspose.OCR. Pelajari cara mengekstrak teks dari gambar arsip langkah demi langkah.
+
 ### [OCROperation dengan Folder dalam Pengenalan Gambar OCR](./ocr-operation-with-folder/)
 Buka kekuatan pengenalan gambar OCR di .NET dengan Aspose.OCR. Ekstrak teks dengan mudah dari gambar.
 ### [Operasi OCRO dengan Pemilihan Bahasa dalam Pengenalan Gambar OCR](./ocr-operation-with-language-selection/)
@@ -145,6 +146,13 @@ Panduan lengkap melakukan OCR di C# dengan dukungan banyak bahasa secara mudah.
 ### [gambar ke teks C# – Aspose OCR dengan unduhan dinonaktifkan](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dengan opsi menonaktifkan unduhan.
 
+### [Dapatkan Versi Aspose OCR di C# – Panduan Lengkap](./get-aspose-ocr-version-in-c-complete-guide/)
+Pelajari cara mengambil versi Aspose.OCR yang terpasang dalam aplikasi C# Anda dengan contoh kode lengkap.
+
+### Kasus Penggunaan Umum
+- **Ekstrak gambar teks** dari faktur yang dipindai untuk akuntansi otomatis.  
+- Mengindeks arsip dokumen besar untuk repositori yang dapat dicari.  
+- Membangun pipeline data multibahasa yang membaca kwitansi dalam bahasa Prancis, Jerman, atau Jepang.  
 
 
 ## Pertanyaan yang Sering Diajukan

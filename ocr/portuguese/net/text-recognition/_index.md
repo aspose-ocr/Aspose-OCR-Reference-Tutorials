@@ -610,6 +610,16 @@ Aprenda a extrair texto em cirílico de imagens usando Aspose OCR no .NET, garan
 Aprenda a converter imagens em arquivos ePub usando C# e Aspose.OCR com este guia passo a passo completo.
 ### [Como usar o Aspose OCR para extrair texto de JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Aprenda a extrair texto de arquivos JPG sem conexão à internet usando Aspose OCR em .NET.
+### [Realizar OCR em PDF com Aspose.OCR – Guia Completo em C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aprenda a executar OCR em PDFs usando Aspose.OCR com um guia completo em C#. Integre facilmente em seus aplicativos .NET.
+### [Realizar OCR em Imagem com Aspose OCR – Guia em Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aprenda a executar OCR em imagens usando Aspose OCR com suporte ao idioma Hindi. Guia passo a passo para integrar OCR em seus aplicativos.
+### [Como usar Aspose: Converter imagem para HTML com OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aprenda a converter imagens em HTML usando Aspose OCR, preservando o texto reconhecido em formato web.
+### [Executar OCR em Imagem e Detectar Palavras Erradas em C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Aprenda a executar OCR em imagens e identificar palavras com erros ortográficos usando Aspose.OCR em C#.
+### [OCR de Legenda de Vídeo em C# – Guia Completo](./video-subtitle-ocr-in-c-complete-guide/)
+Aprenda a extrair legendas de vídeos usando Aspose.OCR em C#, com um guia passo a passo para integrar OCR de legendas em seus aplicativos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

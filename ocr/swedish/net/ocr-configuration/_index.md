@@ -101,6 +101,8 @@ Lär dig hur du konfigurerar licensen för Aspose OCR med en komplett C#‑guide
 ### [Hur man utför OCR i C# – Flerspråkig guide](./how-to-perform-ocr-in-c-multi-language-guide/)
 Lär dig hur du använder Aspose.OCR i C# för att känna igen text på flera språk i en och samma applikation.
 ### [bild till text c# – Aspose OCR med inaktiverad nedladdning](./image-to-text-c-aspose-ocr-with-disabled-download/)
+### [Hämta Aspose OCR-version i C# – Komplett guide](./get-aspose-ocr-version-in-c-complete-guide/)
+Lär dig hur du programatiskt får reda på vilken version av Aspose OCR som används i din C#‑applikation.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

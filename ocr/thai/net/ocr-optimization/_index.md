@@ -292,6 +292,8 @@ weight: 25
 เรียนรู้วิธีการเตรียมภาพก่อน OCR ด้วย Aspose.OCR ใน C# เพื่อเพิ่มความแม่นยำและประสิทธิภาพของการจดจำข้อความ
 
 ### [วิธีทำ Batch OCR ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./how-to-batch-ocr-in-c-complete-programming-guide/)
+### [ตัวอย่าง Aspose OCR C# – เปิดใช้งาน GPU, ตั้งค่าขีดจำกัดหน่วยความจำ & ประมวลผลภาพ TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+เรียนรู้วิธีใช้ GPU, กำหนดขีดจำกัดหน่วยความจำ และประมวลผลไฟล์ TIF ด้วย Aspose OCR ใน C#
 
 ## คำถามที่พบบ่อย
 

@@ -612,6 +612,16 @@ Aspose OCR を使用して、オフライン環境で JPG 画像からテキス�
 Aspose.OCR を使用して、Cyrillic 文字が含まれる画像からテキストを正確に抽出する方法をステップバイステップで解説します。
 ### [C# で画像を ePub に変換する – 完全ステップバイステップガイド](./convert-image-to-epub-in-c-complete-step-by-step-guide/)
 Aspose.OCR と C# を使用して画像を ePub 形式に変換し、電子書籍を作成する方法をステップバイステップで解説します。
+### [Aspose OCRでPDFのOCRを実行する – 完全C#ガイド](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR を使用して PDF からテキストを抽出し、C# で完全なガイドに従って実装方法を学びます。
+### [Aspose OCRで画像のOCRを実行する – ヒンディー語ガイド](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aspose OCR を使用して画像からテキストを抽出し、ヒンディー語のガイドに従って実装方法を学びます。
+### [Aspose の使用方法：OCR で画像を HTML に変換する](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aspose.OCR を利用して画像を HTML に変換し、テキスト抽出結果をウェブページ形式で取得する手順を解説します。
+### [画像の OCR を実行し、C# で誤字単語を検出する](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Aspose.OCR を使用して画像からテキストを抽出し、C# でスペルチェックを行い、誤字を検出する手順を解説します。
+### [C# でのビデオ字幕 OCR – 完全ガイド](./video-subtitle-ocr-in-c-complete-guide/)
+Aspose.OCR を使用して動画の字幕を OCR し、C# で抽出する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

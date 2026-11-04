@@ -284,6 +284,8 @@ Erfahren Sie, wie Sie OCR in C# vollständig implementieren und Ergebnisse effiz
 Erfahren Sie, wie Sie OCR‑Vertrauenswerte in C# auswerten und die Erkennungsgenauigkeit gezielt verbessern.
 ### [Bildvorverarbeitung für OCR in C# – Vollständiger Aspose OCR Leitfaden](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Erfahren Sie, wie Sie Bilder in C# optimal vorverarbeiten, um die OCR‑Genauigkeit mit Aspose OCR zu maximieren.
+### [Aspose OCR C# Beispiel – GPU aktivieren, Speicherlimit festlegen & TIF‑Bilder verarbeiten](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Erfahren Sie, wie Sie mit Aspose OCR GPU‑Beschleunigung aktivieren, das Speicherlimit setzen und TIF‑Bilder effizient verarbeiten.
 
 ## Häufig gestellte Fragen
 

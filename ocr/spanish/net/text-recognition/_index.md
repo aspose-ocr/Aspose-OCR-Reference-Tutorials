@@ -15,7 +15,7 @@ url: /es/net/text-recognition/
 
 ## Introducción
 
-¿Estás listo para llevar tus aplicaciones .NET al siguiente nivel? Sumérgete en el mundo del reconocimiento de texto con Aspose.OCR y mejora tus proyectos con un reconocimiento preciso de caracteres y un procesamiento de imágenes perfecto.
+¿Estás listo para llevar tus aplicaciones .NET al siguiente nivel? Sumérgete en el mundo del reconocimiento de texto con Aspose.OCR y mejore sus proyectos con un reconocimiento preciso de caracteres y un procesamiento de imágenes perfecto.
 
 ## Obtenga opciones para caracteres reconocidos en el reconocimiento de imágenes OCR
 
@@ -626,6 +626,20 @@ Aprenda a extraer texto en alfabeto cirílico de imágenes usando Aspose OCR en 
 Aprenda a convertir imágenes a formato ePub en C# con Aspose, siguiendo una guía paso a paso para crear libros electrónicos fácilmente.
 ### [Cómo usar Aspose OCR para extraer texto de JPG sin conexión](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Aprenda a extraer texto de archivos JPG sin conexión usando Aspose OCR en .NET con esta guía paso a paso.
+### [Realizar OCR en PDF con Aspose.OCR – Guía completa en C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aprenda a ejecutar OCR en archivos PDF usando Aspose.OCR con una guía completa en C#.
+
+### [Realizar OCR en una imagen con Aspose OCR – Guía en hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aprenda a ejecutar OCR en imágenes usando Aspose OCR con una guía paso a paso en hindi.
+
+### [Cómo usar Aspose: Convertir imagen a HTML con OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aprenda a convertir imágenes a HTML usando Aspose OCR, obteniendo texto estructurado fácilmente.
+
+### [Realizar OCR en una imagen y detectar palabras mal escritas en C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Aprenda a ejecutar OCR en una imagen y detectar palabras con errores ortográficos usando Aspose.OCR en C#.
+
+### [OCR de subtítulos de video en C# – Guía completa](./video-subtitle-ocr-in-c-complete-guide/)
+Aprenda a extraer subtítulos de video usando Aspose.OCR en C#. Guía paso a paso para reconocer texto en archivos de video.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -110,6 +110,8 @@ Leer hoe je een licentie configureert voor Aspose OCR in C# voor optimale presta
 Ontgrendel meertalige OCR-mogelijkheden in C# met Aspose.OCR. Leer stap‑voor‑stap tekst uit verschillende talen te extraheren.
 ### [Afbeelding naar tekst C# – Aspose OCR met uitgeschakelde download](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt terwijl je de downloadfunctionaliteit uitschakelt.
+### [Aspose OCR‑versie ophalen in C# – Complete gids](./get-aspose-ocr-version-in-c-complete-guide/)
+Leer hoe je de huidige Aspose OCR‑versie in C# kunt opvragen en gebruiken in je .NET‑applicatie.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

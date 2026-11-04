@@ -308,6 +308,8 @@ Ismerje meg, hogyan használhatja az OCR biztonsági pontszámokat C#‑ban az A
 
 ### [Kötegelt OCR C#‑ban – Teljes programozási útmutató](./how-to-batch-ocr-in-c-complete-programming-guide/)
 Fedezze fel, hogyan hajthat végre kötegelt OCR‑t C#‑ban az Aspose.OCR segítségével, részletes lépésről‑lépésre útmutató.
+### [Aspose OCR C# példa – GPU engedélyezése, memóriahatár beállítása és TIF képek feldolgozása](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Ismerje meg, hogyan használhatja a GPU-t, állíthatja be a memória korlátot és dolgozhat fel TIF képeket az Aspose OCR C# példában.
 
 ## Gyakran Ismételt Kérdések
 

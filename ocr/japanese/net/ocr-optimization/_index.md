@@ -284,6 +284,8 @@ Aspose.OCR for .NET を使用し、画像の歪みを補正して OCR 精度を�
 Aspose.OCR for .NET を使用して、C# で画像を前処理し、OCR の精度を最大化する手順を詳しく解説します。
 ### [C# での OCR 信頼度スコア – 完全ガイド](./ocr-confidence-scores-in-c-complete-guide/)
 OCR の信頼度スコア取得方法と活用法をステップバイステップで解説し、結果の精度評価を容易にします。
+### [Aspose OCR C# サンプル – GPU を有効化し、メモリ制限を設定、TIF 画像を処理](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+GPU を活用しメモリ上限を設定して、TIF 画像の OCR 処理を高速化する C# サンプルです。
 
 ## よくある質問
 

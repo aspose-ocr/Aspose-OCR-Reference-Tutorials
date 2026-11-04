@@ -599,6 +599,15 @@ Aspose OCR kullanarak Kiril alfabesindeki metinleri görüntülerden doğru şek
 C# kullanarak görüntüleri ePub formatına dönüştürmeyi adım adım öğrenin ve uygulamalarınıza dinamik e-kitap desteği ekleyin.
 ### [Aspose OCR ile JPG'den Çevrimdışı Metin Çıkarma](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Aspose OCR kullanarak JPG dosyalarından internet bağlantısı olmadan metin çıkarın ve .NET uygulamalarınızda kullanın.
+### [Aspose.OCR ile PDF'de OCR Yapma – Tam C# Kılavuzu](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR kullanarak PDF dosyalarından metin çıkarmayı adım adım öğrenin ve C# ile tam entegrasyonu keşfedin.
+### [Aspose OCR ile Görüntüde OCR Yapma – Hint Kılavuzu](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aspose OCR kullanarak Hint dilinde görüntüden metin çıkarma adımlarını öğrenin.
+### [Aspose Kullanımı: OCR ile Görüntüyü HTML'ye Dönüştürme](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aspose.OCR kullanarak bir görüntüyü HTML formatına dönüştürmeyi adım adım öğrenin.
+### [C# ile Görüntüde OCR Yapma ve Yanlış Yazılmış Kelimeleri Algılama](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+### [C# ile Video Altyazı OCR – Tam Kılavuz](./video-subtitle-ocr-in-c-complete-guide/)
+C# kullanarak video dosyalarındaki altyazıları OCR ile tanıyın ve metin olarak çıkarın. Adım adım tam rehber.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

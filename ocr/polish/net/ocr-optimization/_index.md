@@ -299,6 +299,8 @@ Dowiedz się, jak odczytywać i wykorzystywać współczynniki pewności OCR w a
 ### [Przetwarzanie obrazu przed OCR w C# – kompletny przewodnik Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Poznaj pełny proces wstępnego przetwarzania obrazu w C# przy użyciu Aspose OCR, aby zwiększyć dokładność rozpoznawania.
 
+### [Przykład Aspose OCR w C# – Włącz GPU, Ustaw Limit Pamięci i Przetwarzaj Obrazy TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Dowiedz się, jak w Aspose OCR w C# włączyć akcelerację GPU, ustawić limit pamięci i przetwarzać obrazy w formacie TIF.
 
 ## Często zadawane pytania
 

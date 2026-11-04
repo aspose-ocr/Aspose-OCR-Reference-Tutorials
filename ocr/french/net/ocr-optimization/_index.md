@@ -280,6 +280,8 @@ Guide complet en C# pour exécuter l'OCR sur une image avec Aspose.OCR, incluant
 Apprenez à récupérer et interpréter les scores de confiance OCR avec Aspose.OCR en C#, pour améliorer la précision de vos résultats.
 ### [Prétraiter l'image pour l'OCR en C# – Guide complet Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Apprenez à préparer vos images avant l'OCR avec Aspose.OCR en C#, pour maximiser la précision et la qualité des résultats.
+### [Exemple Aspose OCR C# – Activer le GPU, définir la limite de mémoire et traiter les images TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Apprenez à activer le GPU, définir une limite de mémoire et traiter les fichiers TIF avec Aspose OCR en C#.
 
 ## Questions fréquemment posées
 

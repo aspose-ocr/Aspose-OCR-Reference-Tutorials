@@ -59,6 +59,8 @@ Verbeter uw .NET-toepassingen met Aspose.OCR voor efficiënte beeldtekstherkenni
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos tekst uit PDF's. Download nu voor een naadloze integratie-ervaring.
 ### [Hoe PDF OCR in C# – Complete Aspose OCR-tutorial](./how-to-ocr-pdf-in-c-complete-aspose-ocr-tutorial/)
 Leer stap‑voor‑stap hoe u PDF‑bestanden OCR't in C# met Aspose, inclusief volledige code‑voorbeelden en integratietips.
+### [Voer OCR uit op PDF met Aspose OCR – Complete C#-gids](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Leer hoe u met Aspose OCR PDF-bestanden kunt verwerken in C#. Volg onze stapsgewijze handleiding voor optimale OCR-resultaten.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
 ### [Hoe OCR te gebruiken in C# – Russische tekst uit PNG extraheren](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
@@ -599,6 +601,14 @@ Leer hoe u Aspose OCR in C# gebruikt met een gedetailleerde stap‑voor‑stap h
 Leer stap voor stap hoe u OCR kunt uitvoeren in een ASP.NET Core‑applicatie met Aspose.OCR, inclusief voorbeeldcode en configuratie.
 ### [Koreaans Taal OCR met Aspose: Afbeelding naar PDF converteren en tekst extraheren in C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 Leer hoe u met Aspose OCR Koreaanse tekst uit afbeeldingen haalt, deze naar PDF converteert en tekst extraheert in C#.
+### [Voer OCR uit op afbeelding met Aspose OCR – Hindi-gids](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Leer hoe u met Aspose OCR Hindi-teksten uit afbeeldingen haalt. Volg onze stapsgewijze handleiding voor optimale resultaten.
+### [Hoe Aspose te gebruiken: afbeelding naar HTML converteren met OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Leer hoe u met Aspose OCR afbeeldingen naar HTML kunt converteren, zodat u gestructureerde tekst kunt weergeven in uw .NET-toepassingen.
+### [Voer OCR uit op afbeelding en detecteer spelfouten in C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Leer hoe u met Aspose OCR afbeeldingen kunt verwerken en spelfouten kunt detecteren in C#. Volg onze stap‑voor‑stap handleiding.
+### [Video-ondertitel OCR in C# – Complete gids](./video-subtitle-ocr-in-c-complete-guide/)
+Leer hoe u met Aspose OCR ondertitels uit video's haalt in C#. Volg onze stapsgewijze handleiding voor volledige OCR-functionaliteit.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

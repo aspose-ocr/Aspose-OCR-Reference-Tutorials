@@ -263,6 +263,8 @@ Aspose.OCR for .NET ile eğriltme hatasını giderin, görüntüyü düzleştire
 C# ile OCR güven puanlarını alıp, tanıma doğruluğunu analiz etmeyi adım adım öğrenin.
 ### [C#'da OCR için Görüntü Ön İşleme – Tam Aspose OCR Kılavuzu](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 C# ile görüntüleri ön işleyerek OCR doğruluğunu artırın. Tam kılavuzda adım adım örnekler bulunur.
+### [Aspose OCR C# Örneği – GPU'yu Etkinleştir, Bellek Sınırını Ayarla ve TIF Görüntülerini İşle](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Aspose.OCR for .NET ile GPU'yu etkinleştirin, bellek sınırı ayarlayın ve TIF görüntülerini işleyin.
 
 ## Sıkça Sorulan Sorular
 

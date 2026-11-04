@@ -605,6 +605,16 @@ Khám phá cách sử dụng Aspose OCR để trích xuất văn bản Cyrillic 
 Hướng dẫn toàn diện cách chuyển đổi hình ảnh thành tài liệu ePub bằng C#, từng bước chi tiết và dễ thực hiện.
 ### [Cách sử dụng Aspose OCR để trích xuất văn bản từ JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Nâng cao dự án .NET của bạn với Aspose OCR, trích xuất văn bản từ tệp JPG một cách nhanh chóng mà không cần kết nối internet.
+### [Thực hiện OCR trên PDF với Aspose.OCR – Hướng dẫn C# đầy đủ](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để thực hiện OCR trên tệp PDF bằng C# một cách hiệu quả.
+### [Thực hiện OCR trên hình ảnh với Aspose OCR – Hướng dẫn tiếng Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Khám phá cách sử dụng Aspose OCR để nhận dạng văn bản trên hình ảnh cho ngôn ngữ Hindi trong hướng dẫn chi tiết này.
+### [Thực hiện OCR trên hình ảnh và phát hiện từ sai chính tả trong C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR trên hình ảnh và phát hiện các từ sai chính tả.
+### [Cách sử dụng Aspose: Chuyển đổi hình ảnh sang HTML với OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành HTML bằng Aspose OCR, giúp bạn nhúng nội dung văn bản đã nhận dạng vào trang web.
+### [OCR phụ đề video trong C# – Hướng dẫn đầy đủ](./video-subtitle-ocr-in-c-complete-guide/)
+Khám phá cách sử dụng Aspose.OCR trong .NET để nhận dạng phụ đề video bằng C# một cách chi tiết và hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

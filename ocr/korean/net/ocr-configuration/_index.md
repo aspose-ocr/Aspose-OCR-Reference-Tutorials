@@ -141,6 +141,8 @@ Aspose OCR 라이선스를 설정하고 C#에서 전체 가이드를 따라 적�
 C#를 사용해 다양한 언어 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.  
 ### [이미지에서 텍스트 변환 C# – 다운로드 비활성화된 Aspose OCR](./image-to-text-c-aspose-ocr-with-disabled-download/)
 다운로드 기능을 비활성화한 상태에서 Aspose OCR을 사용해 이미지를 텍스트로 변환하는 방법을 단계별로 안내합니다.  
+### [C#에서 Aspose OCR 버전 가져오기 – 완전 가이드](./get-aspose-ocr-version-in-c-complete-guide/)
+C# 코드에서 현재 사용 중인 Aspose OCR 라이브러리 버전을 확인하는 방법을 단계별로 안내합니다.  
 
 
 

@@ -598,6 +598,16 @@ C# का उपयोग करके इमेज को ePub फ़ॉर्�
 
 ### [ऑफ़लाइन JPG से टेक्स्ट निकालने के लिए Aspose OCR का उपयोग कैसे करें](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 ऑफ़लाइन JPG फ़ाइलों से तेज़ और सटीक टेक्स्ट निकालने के लिए चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR के साथ PDF पर OCR करें – पूर्ण C# गाइड](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR का उपयोग करके PDF फ़ाइलों से टेक्स्ट निकालें और C# में पूर्ण चरण-दर-स्टेप मार्गदर्शिका प्राप्त करें।
+### [Aspose OCR के साथ छवि पर OCR करें – हिंदी गाइड](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की प्रक्रिया को चरण-दर-स्टेप सीखें।
+### [Aspose का उपयोग कैसे करें: OCR के साथ छवि को HTML में परिवर्तित करें](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Aspose.OCR का उपयोग करके छवि को HTML में बदलें और OCR परिणाम प्राप्त करें। चरण-दर-स्टेप मार्गदर्शिका।
+### [छवि पर OCR करें और C# में गलत वर्तनी वाले शब्दों का पता लगाएँ](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Aspose.OCR का उपयोग करके छवि से टेक्स्ट निकालें और C# में गलत वर्तनी वाले शब्दों की पहचान करने की प्रक्रिया सीखें।
+### [वीडियो सबटाइटल OCR C# में – पूर्ण गाइड](./video-subtitle-ocr-in-c-complete-guide/)
+C# में वीडियो सबटाइटल OCR करने के लिए पूर्ण गाइड, Aspose.OCR का उपयोग करके सबटाइटल से टेक्स्ट निकालें।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

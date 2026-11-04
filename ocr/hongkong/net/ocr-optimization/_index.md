@@ -264,6 +264,8 @@ weight: 25
 深入了解如何在 C# 中取得 OCR 置信度分數，並利用分數提升文字辨識的準確性與後處理。
 ### [C# 中的 OCR 圖像前處理 – 完整 Aspose OCR 指南](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 深入了解如何在 C# 中使用 Aspose OCR 進行圖像前處理，提升辨識精度與效率。
+### [Aspose OCR C# 範例 – 啟用 GPU、設定記憶體限制與處理 TIF 圖像](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+示範如何在 C# 中啟用 GPU 加速、設定記憶體上限，並處理 TIF 圖像以提升 OCR 效能。
 
 ## 常見問題
 

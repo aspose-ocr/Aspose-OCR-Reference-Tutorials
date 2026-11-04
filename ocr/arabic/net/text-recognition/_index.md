@@ -601,6 +601,16 @@ url: /ar/net/text-recognition/
 دليل شامل يوضح كيفية تنفيذ تقنية التعرف الضوئي على الحروف في تطبيقات ASP.NET Core خطوة بخطوة.
 ### [التعرف الضوئي على النص الكوري باستخدام Aspose: تحويل الصورة إلى PDF واستخراج النص في C#](./korean-language-ocr-with-aspose-convert-image-to-pdf-and-ext/)
 تعلم كيفية تحويل صورة إلى PDF واستخدام Aspose OCR لاستخراج النص الكوري في تطبيق C# خطوة بخطوة.
+### [إجراء التعرف الضوئي على الحروف على ملف PDF باستخدام Aspose.OCR – دليل كامل بلغة C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+تعلم كيفية تنفيذ التعرف الضوئي على ملفات PDF باستخدام Aspose.OCR مع دليل شامل بلغة C#.
+### [إجراء التعرف الضوئي على الحروف على صورة باستخدام Aspose OCR – دليل هندي](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+تعلم كيفية تنفيذ التعرف الضوئي على الحروف للصور باستخدام Aspose OCR مع إرشادات باللغة الهندية.
+### [كيفية استخدام Aspose: تحويل الصورة إلى HTML باستخدام OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+تعلم كيفية تحويل الصور إلى ملفات HTML مع تضمين نصوص OCR باستخدام Aspose.OCR في .NET.
+### [إجراء التعرف الضوئي على الحروف على صورة واكتشاف الكلمات المكتوبة خطأ في C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+تعلم كيفية تنفيذ التعرف الضوئي على الصور واكتشاف الأخطاء الإملائية باستخدام Aspose.OCR في C#.
+### [التعرف الضوئي على ترجمات الفيديو في C# – دليل كامل](./video-subtitle-ocr-in-c-complete-guide/)
+اكتشف كيفية استخراج نص ترجمات الفيديو باستخدام Aspose.OCR في C# عبر دليل شامل خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -95,6 +95,8 @@ Aspose OCR için lisans dosyasını nasıl ayarlayacağınızı adım adım gös
 Aspose.OCR ile C# uygulamalarında çok dilli OCR işlemlerini adım adım öğrenin.
 ### [görüntüden metne c# – Aspose OCR ile indirme devre dışı](./image-to-text-c-aspose-ocr-with-disabled-download/)
 Aspose OCR kullanarak indirme özelliği devre dışı bırakılmış bir şekilde C# ile görüntüden metin çıkarma örneği.
+### [C#'ta Aspose OCR Sürümünü Alın – Tam Kılavuz](./get-aspose-ocr-version-in-c-complete-guide/)
+Aspose OCR kütüphanesinin sürüm bilgisini C# kodu ile nasıl alacağınızı adım adım gösterir.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

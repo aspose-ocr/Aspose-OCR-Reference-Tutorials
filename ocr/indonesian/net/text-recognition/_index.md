@@ -606,6 +606,16 @@ Ekstrak teks Cyrillic dari gambar menggunakan Aspose OCR dalam .NET dengan pandu
 Pelajari cara mengubah gambar menjadi file ePub menggunakan C# dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Cara Menggunakan Aspose OCR untuk Mengekstrak Teks dari JPG Secara Offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Pelajari cara mengekstrak teks dari file JPG secara offline menggunakan Aspose OCR dalam aplikasi .NET Anda.
+### [Lakukan OCR pada PDF dengan Aspose.OCR – Panduan Lengkap C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Pelajari cara melakukan OCR pada PDF menggunakan Aspose.OCR dengan panduan lengkap C#.
+### [Lakukan OCR pada Gambar dengan Aspose OCR – Panduan Bahasa Hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Pelajari cara melakukan OCR pada gambar menggunakan Aspose OCR dengan panduan bahasa Hindi.
+### [Cara Menggunakan Aspose: Mengonversi Gambar ke HTML dengan OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Pelajari cara mengonversi gambar menjadi file HTML menggunakan Aspose OCR dalam langkah mudah.
+### [Lakukan OCR pada Gambar dan Deteksi Kata Salah Eja dalam C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Pelajari cara melakukan OCR pada gambar dan mendeteksi kata yang salah eja menggunakan Aspose.OCR dalam C#.
+### [OCR Subtitle Video dalam C# – Panduan Lengkap](./video-subtitle-ocr-in-c-complete-guide/)
+Pelajari cara melakukan OCR pada subtitle video menggunakan Aspose.OCR dengan panduan lengkap C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

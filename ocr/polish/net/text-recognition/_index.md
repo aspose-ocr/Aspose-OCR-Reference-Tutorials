@@ -604,6 +604,16 @@ Dowiedz się, jak używać Aspose OCR do wyodrębniania tekstu cyrylicy z obraz�
 Dowiedz się, jak w C# przekształcić obrazy w pliki ePub przy użyciu Aspose.OCR, krok po kroku.
 ### [Jak używać Aspose OCR do wyodrębniania tekstu z JPG offline](./how-to-use-aspose-ocr-to-extract-text-from-jpg-offline/)
 Dowiedz się, jak offline wyodrębnić tekst z plików JPG przy użyciu Aspose OCR w kilku prostych krokach.
+### [Wykonaj OCR na obrazie przy użyciu Aspose OCR – Przewodnik w języku hindi](./perform-ocr-on-image-with-aspose-ocr-hindi-guide/)
+Dowiedz się, jak wykonać OCR na obrazie przy użyciu Aspose OCR, korzystając z przewodnika w języku hindi.
+### [Wykonaj OCR na pliku PDF przy użyciu Aspose.OCR – Kompletny przewodnik C#](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
+Poznaj kompletny przewodnik C# do wykonywania OCR na plikach PDF przy użyciu Aspose.OCR, krok po kroku.
+### [Jak używać Aspose: konwersja obrazu do HTML z OCR](./how-to-use-aspose-convert-image-to-html-with-ocr/)
+Dowiedz się, jak przy pomocy Aspose.OCR zamienić obrazy na pliki HTML, zachowując rozpoznany tekst.
+### [Wykonaj OCR na obrazie i wykryj błędnie napisane słowa w C#](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
+Dowiedz się, jak przy użyciu Aspose.OCR w C# wykonać OCR na obrazie i wykrywać błędnie napisane słowa, zwiększając jakość tekstu.
+### [OCR napisów wideo w C# – Kompletny przewodnik](./video-subtitle-ocr-in-c-complete-guide/)
+Dowiedz się, jak używać Aspose.OCR w C# do rozpoznawania i konwertowania napisów wideo. Kompletny przewodnik krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

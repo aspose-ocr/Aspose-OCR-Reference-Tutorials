@@ -290,6 +290,8 @@ Leer hoe je met Aspose.OCR kantcorrectie uitvoert om scheve afbeeldingen recht t
 Leer hoe je afbeeldingen optimaliseert voor OCR met Aspose.OCR in C#, inclusief filters en instellingen.
 ### [OCR‑vertrouwensscores in C# – Complete gids](./ocr-confidence-scores-in-c-complete-guide/)
 Leer hoe je OCR‑vertrouwensscores kunt analyseren en gebruiken om nauwkeurigheid te verbeteren met Aspose.OCR voor .NET.
+### [Aspose OCR C#‑voorbeeld – GPU inschakelen, geheugenlimiet instellen & TIF‑afbeeldingen verwerken](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Leer hoe je GPU‑versnelling activeert, geheugenlimiet instelt en TIF‑bestanden verwerkt met Aspose OCR in C#.
 
 ## Veelgestelde vragen
 

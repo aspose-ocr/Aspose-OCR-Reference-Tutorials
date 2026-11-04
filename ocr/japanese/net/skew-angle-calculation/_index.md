@@ -59,6 +59,8 @@ Aspose OCR を活用し、C# で画像の傾きを補正する手順を詳しく
 
 ### [Aspose OCRで画像をデスクューする完全C#ガイド](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCRを使用して画像の傾きを補正し、正確なテキスト抽出を実現する手順を詳しく解説します。
+### [OCR 回転ドキュメント チュートリアル – 自動スキューと回転修正（C#）](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+C# で回転した画像のスキューと回転を自動的に補正し、正確な OCR 認識を実現する方法を学びます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

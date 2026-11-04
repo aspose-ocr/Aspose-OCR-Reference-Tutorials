@@ -281,6 +281,8 @@ Naučte se, jak v C# odstranit sklon obrázku před OCR pomocí Aspose.OCR a zle
 Zjistěte, jak získat a interpretovat skóre důvěry OCR v C# pro lepší kontrolu kvality rozpoznání.
 ### [Předzpracování obrázku pro OCR v C# – Kompletní průvodce Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Kompletní návod, jak předzpracovat obrázky v C# pro zvýšení přesnosti OCR pomocí Aspose.OCR.
+### [Aspose OCR C# příklad – povolení GPU, nastavení limitu paměti a zpracování TIF obrázků](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Naučte se povolit GPU, nastavit limit paměti a zpracovat TIF soubory pomocí Aspose.OCR v C#.
 
 ## Často kladené otázky
 
