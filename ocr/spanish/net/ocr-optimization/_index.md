@@ -59,6 +59,9 @@ Optimiza tus imágenes antes del OCR aplicando filtros y ajustes para lograr may
 ### [Cómo enderezar una imagen en C# – Guía completa de preprocesamiento OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 Aprende a corregir la inclinación de imágenes en C# antes del OCR, mejorando la precisión con técnicas de enderezado.
 
+### [Reconocer texto en imágenes con Aspose OCR C# – Guía completa de preprocesamiento](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aprende a aplicar filtros y técnicas de preprocesamiento para mejorar la precisión del OCR con Aspose OCR en C#.
+
 ## Corrección de resultados con revisión ortográfica en Reconocimiento de Imágenes OCR
 
 Alcanza una precisión sin precedentes en OCR con [Aspose.OCR para .NET](./result-correction-with-spell-checking/). Nuestro tutorial sobre corrección de resultados con revisión ortográfica te permite personalizar diccionarios, corregir errores ortográficos y asegurar un reconocimiento de texto libre de errores sin esfuerzo. Sumérgete en un mundo de precisión con Aspose.OCR.
@@ -280,6 +283,10 @@ Aprende a usar la aceleración GPU en Aspose.OCR para C# y extraer texto de reci
 Aprende a corregir la inclinación de imágenes usando filtros de preprocesamiento en Aspose OCR para mejorar la precisión del reconocimiento.
 ### [OCR por lotes de imágenes en C# – OCR paralelo de escaneos JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Procesa múltiples archivos JPG simultáneamente usando OCR en C#, mejorando la velocidad y eficiencia del reconocimiento.
+### [Reconocer texto en imágenes con Aspose OCR C# – Guía completa de preprocesamiento](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aprende a aplicar filtros y técnicas de preprocesamiento para mejorar la precisión del OCR con Aspose OCR en C#.
+### [Limitar el uso de memoria GPU en OCR con C# – Guía completa](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Aprende a limitar la memoria GPU utilizada por Aspose.OCR en aplicaciones C#, optimizando rendimiento y evitando sobrecargas.
 
 ## Preguntas frecuentes
 

@@ -272,6 +272,10 @@ Scopri come sfruttare la GPU per accelerare l'OCR in C# e estrarre rapidamente i
 Scopri come raddrizzare le immagini con i filtri di pre‑elaborazione di Aspose OCR per migliorare la precisione del riconoscimento.
 ### [OCR batch di immagini in C# – OCR parallelo di scansioni JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Esegui l'OCR su più file JPG contemporaneamente usando il parallelismo in C# per velocizzare l'elaborazione.
+### [Limita l'uso della memoria GPU in OCR C# – Guida completa](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Scopri come limitare la memoria GPU durante l'esecuzione di OCR con Aspose.OCR in C#, ottimizzando le prestazioni.
+### [Riconosci testo immagine con Aspose OCR C# – Guida completa alla pre‑elaborazione](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Scopri come ottimizzare l'OCR con filtri avanzati in C#, migliorando precisione e velocità nella riconoscimento del testo dalle immagini.
 
 ## Domande Frequenti
 

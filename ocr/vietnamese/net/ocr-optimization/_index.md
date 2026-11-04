@@ -230,6 +230,10 @@ Sử dụng GPU để thực hiện OCR trên nhiều tệp PDF đồng thời, 
 Hướng dẫn sử dụng Aspose OCR để loại bỏ độ nghiêng của ảnh, cải thiện độ chính xác nhận dạng ký tự.
 ### [Xử lý hàng loạt ảnh OCR trong C# – OCR song song các tệp JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Thực hiện OCR đồng thời trên nhiều ảnh JPG bằng C#, tăng tốc độ xử lý và hiệu suất dự án.
+### [Nhận dạng hình ảnh văn bản với Aspose OCR C# – Hướng dẫn tiền xử lý đầy đủ](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Hướng dẫn chi tiết cách tiền xử lý ảnh để nhận dạng văn bản chính xác bằng Aspose OCR C#.
+### [Giới hạn sử dụng bộ nhớ GPU trong OCR C# – Hướng dẫn đầy đủ](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Hướng dẫn chi tiết cách giới hạn bộ nhớ GPU khi thực hiện OCR bằng C#, giúp tối ưu hiệu suất và tránh quá tải tài nguyên.
 
 ## Câu hỏi thường gặp
 

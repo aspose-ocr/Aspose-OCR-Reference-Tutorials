@@ -274,6 +274,10 @@ Aprenda a usar a aceleração GPU com Aspose.OCR em C# para extrair texto de rec
 Aprenda a remover a inclinação de imagens usando filtros de pré‑processamento do Aspose.OCR para melhorar a precisão do OCR.
 ### [Processamento em lote de OCR de imagens em C# – OCR paralelo de digitalizações JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Execute OCR em múltiplas imagens JPG simultaneamente usando paralelismo em C# para melhorar desempenho.
+### [Limitar o uso de memória GPU em OCR C# – Guia completo](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Aprenda a controlar o consumo de memória da GPU ao executar OCR com Aspose.OCR em C#, garantindo desempenho estável.
+### [Reconhecer imagem de texto com Aspose OCR C# – Guia completo de pré‑processamento](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aprenda a aplicar filtros e técnicas de pré‑processamento para melhorar a precisão do OCR com Aspose OCR em C#.
 
 ## Perguntas Frequentes
 

@@ -547,6 +547,12 @@ url: /el/net/text-recognition/
 Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνες σε C# χωρίς σύνδεση στο διαδίκτυο, χρησιμοποιώντας το Aspose.OCR.
 ### [Αναγνώριση κειμένου από εικόνα σε C# – Aspose OCR Tutorial](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
 Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR σε C# για αναγνώριση κειμένου από εικόνες, βήμα προς βήμα οδηγός.
+### [Ανίχνευση γλώσσας εικόνας σε C# – Πλήρης Οδηγός για OCR & Εξαγωγή Κειμένου](./detect-image-language-in-c-complete-guide-to-ocr-text-extrac/)
+Μάθετε πώς να εντοπίζετε τη γλώσσα μιας εικόνας σε C# χρησιμοποιώντας το Aspose.OCR για ακριβή OCR και εξαγωγή κειμένου.
+### [Μετατροπή PDF σε αναζητήσιμο σε C# – Πλήρης Οδηγός Aspose OCR](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
+Μετατρέψτε PDF σε αναζητήσιμο αρχείο με το Aspose.OCR για .NET, βήμα-βήμα οδηγός για εύκολη ενσωμάτωση και υψηλή ακρίβεια.
+### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες και εξαγωγή σε εσοχή JSON](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες με Aspose.OCR σε C# και να το αποθηκεύσετε σε μορφή JSON με εσοχές για εύκολη ανάγνωση.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

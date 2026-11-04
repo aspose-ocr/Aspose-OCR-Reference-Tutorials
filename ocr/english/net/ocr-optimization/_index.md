@@ -262,6 +262,10 @@ Step‑by‑step C# guide to extract text from images using Aspose.OCR, covering
 Accelerate OCR processing with GPU support in C#. Learn to extract text from receipts faster using Aspose.OCR.
 ### [Batch OCR Images in C# – Parallel OCR of JPG Scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Process multiple JPG scans concurrently in C# using Aspose.OCR to boost OCR throughput.
+### [recognize text image with Aspose OCR C# – Complete Preprocess Guide](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Comprehensive guide to preprocessing images for OCR using Aspose OCR in C#, boosting recognition accuracy.
+### [limit gpu memory usage in C# OCR – Complete Guide](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Learn how to limit GPU memory usage in C# OCR applications using Aspose.OCR for .NET for optimal performance.
 
 ## Frequently Asked Questions
 

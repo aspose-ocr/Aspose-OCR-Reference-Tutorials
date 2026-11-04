@@ -67,6 +67,8 @@ Aspose.OCR を使用して C# で画像の OCR 結果を JSON 形式で取得す
 Aspose.OCR を使って画像を JSON 形式に変換し、OCR 結果を簡単に取得する手順を解説します。
 ### [C# で画像を OCR して JSON に取得する（Aspose）](./perform-ocr-on-image-to-json-in-c-with-aspose/)
 Aspose OCR を使用して、画像からテキストを認識し、結果を JSON 形式で取得する手順を解説します。
+### [C# OCR チュートリアル – 画像からテキストを抽出し、インデント JSON としてエクスポート](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
+Aspose.OCR を使用して画像からテキストを抽出し、インデントされた JSON 形式でエクスポートする手順を詳しく解説します。
 ### [OCR画像認識のOCR検出領域モード](./ocr-detect-areas-mode/)
 Aspose.OCR を使用して .NET アプリケーションを強化し、画像テキストを効率的に認識します。正確な結果を得るには、OCR 領域検出モードを調べてください。
 
@@ -570,6 +572,10 @@ Aspose.OCR を利用して C# で画像からテキストを高速に抽出す�
 Aspose.OCR を使用して、インターネット接続なしで C# アプリケーションから画像のテキストを認識する方法をステップバイステップで解説します。
 ### [C# で画像からテキストを認識する – Aspose OCR チュートリアル](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
 Aspose.OCR を使用して、C# アプリケーションで画像からテキストを認識する手順をステップバイステップで解説します。
+### [C# で画像の言語を検出 – OCR とテキスト抽出の完全ガイド](./detect-image-language-in-c-complete-guide-to-ocr-text-extrac/)
+Aspose.OCR を使用して C# で画像の言語を検出し、OCR とテキスト抽出を行う手順を詳しく解説します。
+### [C# で検索可能な PDF に変換 – 完全 Aspose OCR ガイド](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR を使用して C# で PDF を検索可能な形式に変換し、テキスト抽出と検索機能を実装する手順を詳しく解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

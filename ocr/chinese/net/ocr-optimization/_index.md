@@ -285,6 +285,12 @@ weight: 25
 ### [批量 OCR 图像（C#）– 并行处理 JPG 扫描](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 本教程演示如何使用 Aspose.OCR for .NET 在 C# 中并行处理多个 JPG 扫描图像，实现批量 OCR 提高效率。
 
+### [使用 Aspose OCR C# 识别文本图像 – 完整预处理指南](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+本指南详细介绍如何在 C# 中使用 Aspose OCR 进行图像预处理，以提升文本识别准确率。
+
+### [在 C# OCR 中限制 GPU 内存使用 – 完整指南](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+了解如何在使用 Aspose.OCR for .NET 时控制 GPU 内存占用，提升性能并防止资源耗尽的完整步骤指南。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

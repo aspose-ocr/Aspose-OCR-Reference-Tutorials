@@ -53,7 +53,6 @@ Aprenda a generar PDFs buscables a partir de archivos TIFF usando Aspose.OCR en 
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Siga nuestra guía paso a paso para recuperar opciones de caracteres reconocidos en el reconocimiento de imágenes.
 
 ### [Obtener el resultado del reconocimiento en el reconocimiento de imágenes OCR](./get-recognition-result/)
-Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto del texto en imágenes.
 ### [Obtenga resultados como JSON en el reconocimiento de imágenes OCR](./get-result-as-json/)
 Libere el poder de Aspose.OCR para .NET. Aprenda a obtener resultados OCR en formato JSON sin esfuerzo. Mejore el reconocimiento de sus imágenes con esta guía paso a paso.
 ### [Cómo realizar OCR en C# – Guía de conversión de imagen a JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
@@ -576,6 +575,14 @@ Aprenda a usar OCR en C# para extraer texto de imágenes de forma rápida y senc
 Aprenda a reconocer texto en imágenes usando C# con OCR sin conexión, paso a paso con Aspose.OCR.
 ### [Reconocer texto de una imagen en C# – Tutorial de Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
 Aprenda a reconocer texto en imágenes usando C# con Aspose OCR, paso a paso.
+### [Convertir PDF a buscable en C# – Guía completa de Aspose OCR](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
+Aprenda a convertir PDFs a documentos buscables en C# usando Aspose.OCR con esta guía paso a paso.
+
+### [Detectar el idioma de la imagen en C# – Guía completa de OCR y extracción de texto](./detect-image-language-in-c-complete-guide-to-ocr-text-extrac/)
+Aprenda a identificar el idioma de una imagen en C# usando Aspose.OCR y extraiga texto de forma precisa.
+
+### [Tutorial OCR en C# – Extraer texto de imágenes y exportar como JSON con sangría](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
+Aprenda a extraer texto de imágenes usando Aspose.OCR en C# y exportarlo como JSON con formato indentado en pocos pasos.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -261,6 +261,10 @@ weight: 25
 ### [كيفية تصحيح ميل الصورة – دليل ما قبل المعالجة لـ Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
 تعلم كيفية تصحيح ميل الصور باستخدام فلاتر ما قبل المعالجة في Aspose OCR لتحسين دقة التعرف.
 ### [معالجة دفعة من صور OCR في C# – OCR متوازي لمسحات JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+### [تقليل استخدام ذاكرة GPU في OCR باستخدام C# – دليل شامل](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+دليل شامل لتقليل استهلاك ذاكرة GPU أثناء تشغيل OCR في C# باستخدام Aspose.OCR.
+### [التعرف على نص الصورة باستخدام Aspose OCR C# – دليل شامل للمعالجة المسبقة](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+دليل شامل يوضح كيفية تحسين دقة OCR عبر خطوات المعالجة المسبقة باستخدام Aspose OCR في C#.
 
 ## الأسئلة المتكررة
 

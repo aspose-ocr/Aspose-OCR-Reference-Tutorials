@@ -59,9 +59,6 @@ Utnyttja GPU‑acceleration för snabb OCR‑igenkänning i C#‑applikationer m
 
 ## Extrahera text från bild – Komplett C# OCR‑guide med brusreducering
 
-Lär dig steg‑för‑steg hur du använder Aspose.OCR i C# för att extrahera text med effektiv brusreducering och förbättrad noggrannhet.
-
-## OCR‑optimeringshandledningar
 ### [Utför OCR på bild från URL i OCR Image Recognition](./perform-ocr-on-image-from-url/)
 Utforska sömlös OCR‑integration med Aspose.OCR för .NET. Identifiera text från bilder med precision.
 ### [Hur man räta upp en bild i C# – Fullständig OCR‑förbehandlingsguide](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
@@ -266,6 +263,10 @@ Utnyttja GPU-acceleration för att snabbt bearbeta PDF‑filer med OCR och extra
 Lär dig hur du använder GPU‑acceleration i Aspose.OCR för C# för att snabbt extrahera text från kvitton.
 ### [Batch OCR av bilder i C# – Parallell OCR av JPG-skanningar](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Lär dig hur du bearbetar stora mängder JPG‑skanningar parallellt med Aspose.OCR i C# för snabb och effektiv OCR.
+### [Känn igen text i bild med Aspose OCR C# – Komplett förbehandlingsguide](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR‑igenkänning med Aspose OCR i C#.
+### [Begränsa GPU‑minnesanvändning i C# OCR – Komplett guide](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Lär dig hur du begränsar GPU‑minnesanvändning i C#‑OCR för att optimera prestanda och undvika minnesproblem.
 
 ## Vanliga frågor
 

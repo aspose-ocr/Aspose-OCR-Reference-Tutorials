@@ -567,6 +567,12 @@ Naučte se, jak pomocí Aspose.OCR v C# rychle převést obrázek na text a zís
 Naučte se offline rozpoznávat text z obrázků v C# pomocí Aspose.OCR, krok za krokem bez nutnosti internetového připojení.
 ### [Rozpoznání textu z obrázku v C# – Aspose OCR tutoriál](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
 Naučte se rozpoznávat text z obrázků v C# pomocí Aspose OCR, krok za krokem s podrobným návodem.
+### [Detekce jazyka obrázku v C# – Kompletní průvodce OCR a extrakcí textu](./detect-image-language-in-c-complete-guide-to-ocr-text-extrac/)
+Naučte se, jak pomocí Aspose.OCR v C# rozpoznat jazyk obrázku a extrahovat text pro vícejazyčné aplikace.
+### [Převod PDF na prohledávatelný v C# – Kompletní průvodce Aspose OCR](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
+Naučte se pomocí Aspose.OCR v C# převést PDF do prohledávatelného formátu a integrovat OCR do vašich aplikací.
+### [c# OCR tutoriál – Extrahujte text z obrázků a exportujte jako odsazený JSON](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
+Naučte se pomocí Aspose.OCR v C# extrahovat text z obrázků a exportovat jej do strukturovaného, odsazeného formátu JSON.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -229,6 +229,10 @@ GPU 가속을 활용해 영수증 이미지에서 빠르고 정확하게 텍스�
 Aspose OCR을 사용해 이미지의 기울기를 보정하고 OCR 정확도를 높이는 단계별 가이드입니다.
 ### [C#에서 배치 OCR 이미지 – JPG 스캔 병렬 OCR](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 C#를 사용해 다수의 JPG 스캔 이미지를 병렬로 OCR 처리하는 방법을 단계별로 안내합니다.
+### [C# OCR에서 GPU 메모리 사용량 제한 – 완전 가이드](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Aspose.OCR for .NET에서 GPU 메모리 사용을 최적화하여 효율적인 OCR 처리를 구현하는 방법을 단계별로 안내합니다.
+### [Aspose OCR C#로 텍스트 이미지 인식 – 완전 전처리 가이드](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aspose OCR C#를 활용해 이미지 전처리를 완전하게 수행하고 텍스트 인식을 최적화하는 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

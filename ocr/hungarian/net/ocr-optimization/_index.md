@@ -291,6 +291,12 @@ Tanulja meg, hogyan használhatja a GPU gyorsítást az OCR-hez C#-ban, hogy hat
 ### [Kötegelt OCR képek C#‑ban – Párhuzamos OCR JPG szkenek](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Tanulja meg, hogyan végezhet párhuzamos OCR-t nagy mennyiségű JPG szkenen C#‑ban, a teljesítmény növelése érdekében.
 
+### [GPU memóriahasználat korlátozása C# OCR‑ban – Teljes útmutató](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Ismerje meg, hogyan korlátozhatja a GPU memóriahasználatot C#‑ban az Aspose.OCR segítségével a hatékonyabb OCR feldolgozáshoz.
+
+### [Szöveg felismerése képről Aspose OCR C#‑vel – Teljes előfeldolgozási útmutató](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Ismerje meg, hogyan alkalmazzon teljes körű előfeldolgozási lépéseket az Aspose OCR C# használatával a szöveg pontos kinyeréséhez.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

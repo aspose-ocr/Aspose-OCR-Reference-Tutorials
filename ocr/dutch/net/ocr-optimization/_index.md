@@ -276,6 +276,10 @@ Leer hoe je GPU-versnelling activeert in Aspose.OCR voor C# om snel tekst uit ka
 Leer hoe je met Aspose.OCR afbeeldingen kunt rechtzetten om OCR‑nauwkeurigheid te verbeteren.
 ### [Batch OCR-afbeeldingen in C# – Parallelle OCR van JPG-scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Verwerk meerdere JPG-scans gelijktijdig met batch‑OCR in C# voor snelle en nauwkeurige tekstextractie.
+### [GPU-geheugengebruik beperken in C# OCR – Complete gids](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Leer hoe je het GPU‑geheugenverbruik van Aspose.OCR in C# kunt beperken voor optimale prestaties en stabiliteit.
+### [Tekstafbeelding herkennen met Aspose OCR C# – Complete preprocess-gids](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt en preprocessing toepast voor maximale nauwkeurigheid.
 
 ## Veelgestelde vragen
 

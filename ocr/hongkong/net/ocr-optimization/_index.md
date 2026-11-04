@@ -251,6 +251,9 @@ weight: 25
 利用 GPU 加速提升 OCR 效能，快速從收據中提取文字。
 ### [在 C# 中批次 OCR 圖像 – 平行處理 JPG 掃描](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 使用 Aspose.OCR for .NET 於 C# 批次處理 JPG 掃描圖像，透過平行化提升辨識效能。
+### [在 C# OCR 中限制 GPU 記憶體使用 – 完整指南](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+學習如何在 C# 使用 Aspose.OCR 控制 GPU 記憶體佔用，提升效能並避免資源過度使用的完整步驟指南。
+### [使用 Aspose OCR C# 識別文字圖像 – 完整前處理指南](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
 
 ## 常見問題
 

@@ -275,6 +275,10 @@ Pelajari cara mempercepat OCR dengan GPU di C# untuk mengekstrak teks dari resi 
 Pelajari cara menghilangkan kemiringan pada gambar menggunakan filter deskew Aspose OCR untuk meningkatkan akurasi OCR.
 ### [Batch OCR Gambar di C# – OCR Paralel untuk Scan JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 Pelajari cara memproses banyak gambar JPG secara paralel dengan Aspose.OCR di C# untuk meningkatkan kecepatan OCR.
+### [Batasi Penggunaan Memori GPU pada OCR C# – Panduan Lengkap](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Pelajari cara membatasi penggunaan memori GPU saat menjalankan OCR dengan Aspose.OCR di C# untuk meningkatkan kinerja aplikasi.
+### [Mengenali teks pada gambar dengan Aspose OCR C# – Panduan Preprocess Lengkap](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Panduan lengkap untuk mengoptimalkan preprocessing gambar sebelum OCR menggunakan Aspose OCR C# untuk hasil akurasi tinggi.
 
 ## Pertanyaan yang Sering Diajukan
 

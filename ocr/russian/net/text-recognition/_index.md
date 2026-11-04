@@ -544,6 +544,12 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по распознаванию текста с изображений в C# без подключения к сети, используя офлайн‑OCR.
 ### [Распознать текст с изображения в C# – руководство Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
 Пошаговое руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
+### [Определение языка изображения в C# – Полное руководство по OCR и извлечению текста](./detect-image-language-in-c-complete-guide-to-ocr-text-extrac/)
+Изучите, как определить язык изображения в C# с помощью Aspose.OCR, получая точные результаты OCR и извлекая текст.
+### [Конвертировать PDF в поисковый в C# – Полное руководство Aspose OCR](./convert-pdf-searchable-in-c-complete-aspose-ocr-guide/)
+Научитесь преобразовывать обычные PDF в поисковые с помощью Aspose.OCR в C#. Пошаговое руководство для быстрой интеграции.
+### [c# OCR руководство – извлечение текста из изображений и экспорт в отступный JSON](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
+Извлеките текст из изображений с помощью Aspose.OCR в C# и экспортируйте результаты в читаемый отступный JSON.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

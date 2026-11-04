@@ -270,6 +270,10 @@ GPU を活用し、C# でレシート画像の OCR を高速化し、正確に�
 Aspose OCR の前処理機能を使って画像の傾きを補正し、認識精度を向上させる手順を解説します。
 ### [C# でバッチ OCR 画像 – JPG スキャンの並列 OCR](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 C# を使用して多数の JPG スキャン画像を並列に OCR 処理し、バッチでテキスト抽出する方法を解説します。
+### [C# OCR で GPU メモリ使用量を制限する – 完全ガイド](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+GPU メモリ使用量を最適化し、OCR 処理の安定性とパフォーマンスを向上させる方法をステップバイステップで解説します。
+### [Aspose OCR C# でテキスト画像を認識 – 完全前処理ガイド](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Aspose OCR C# を使用してテキスト画像を認識し、前処理手順を完全に解説します。精度向上のベストプラクティスを学びましょう。
 
 ## よくある質問
 
