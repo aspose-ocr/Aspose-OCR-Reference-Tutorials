@@ -243,6 +243,12 @@ C# ile Aspose.OCR kullanarak görüntü kontrastını artırarak tanıma doğrul
 GPU desteğiyle toplu PDF dosyalarında hızlı OCR yaparak metinleri anında çıkarın.
 ### [Aspose OCR ile Görüntüden Metin Çıkarma – Tam C# Rehberi](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR kullanarak C# ile görüntüden metin çıkarma sürecini adım adım öğrenin.
+### [C#'ta GPU Hızlandırmasıyla OCR – Makbuzlardan Metin Çıkarma](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Aspose.OCR for .NET ile GPU hızlandırması sayesinde makbuzlardan hızlı ve doğru metin çıkarın.
+### [Görüntüyü Düzleştirme – Aspose OCR Ön İşleme Rehberi](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aspose.OCR ile görüntüleri eğik durumdan düzelterek OCR doğruluğunu artırın.
+### [C#'ta Toplu OCR Görüntüleri – JPG Taramalarının Paralel OCR'u](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Aspose.OCR for .NET ile birden çok JPG taramasını paralel olarak işleyerek hızlı metin çıkarın.
 
 ## Sıkça Sorulan Sorular
 

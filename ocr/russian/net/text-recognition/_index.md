@@ -540,6 +540,10 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по созданию поискового PDF из изображений с помощью Aspose.OCR и C#.
 ### [Как использовать OCR в C# – Быстро извлечь текст из изображения](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Узнайте, как быстро извлекать текст из изображений с помощью OCR в C#.
+### [Распознать текст с изображения в C# – Офлайн OCR руководство](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Пошаговое руководство по распознаванию текста с изображений в C# без подключения к сети, используя офлайн‑OCR.
+### [Распознать текст с изображения в C# – руководство Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Пошаговое руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

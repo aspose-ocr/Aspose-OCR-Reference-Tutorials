@@ -57,6 +57,8 @@ Learn to build a preprocessing pipeline to recognize text from images using Aspo
 Learn to deskew images with Aspose.OCR for .NET, boosting OCR accuracy in C# projects.
 ### [Preprocess Image for OCR – Boost Accuracy with Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 Learn how to preprocess images to improve OCR accuracy using Aspose.OCR for .NET.
+### [how to deskew image – Aspose OCR preprocessing guide](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Learn how to deskew images using Aspose.OCR preprocessing to improve OCR accuracy.
 
 ## Result Correction with Spell Checking in OCR Image Recognition
 
@@ -256,6 +258,10 @@ Learn how to batch process PNG files with Aspose.OCR in C#, extracting text quic
 Accelerate PDF OCR using GPU for rapid, high‑accuracy text extraction with Aspose.OCR for .NET.
 ### [Extract Text from Image with Aspose OCR – Complete C# Guide](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Step‑by‑step C# guide to extract text from images using Aspose.OCR, covering setup, preprocessing, and result handling.
+### [Enable GPU Acceleration for OCR in C# – Extract Text from Receipts](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Accelerate OCR processing with GPU support in C#. Learn to extract text from receipts faster using Aspose.OCR.
+### [Batch OCR Images in C# – Parallel OCR of JPG Scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Process multiple JPG scans concurrently in C# using Aspose.OCR to boost OCR throughput.
 
 ## Frequently Asked Questions
 

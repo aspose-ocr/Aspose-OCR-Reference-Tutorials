@@ -53,6 +53,8 @@ weight: 25
 
 ### [如何校正圖像傾斜 – 完整 C# OCR 前處理指南](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
 了解如何使用 Aspose.OCR for .NET 透過 C# 進行圖像去斜處理，提升 OCR 準確度。
+### [如何校正圖像傾斜 – Aspose OCR 前處理指南](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+學習如何校正圖像傾斜，提高 OCR 識別率，並在 Aspose OCR 前處理流程中應用此技巧。
 
 ## 在 OCR 圖像辨識中使用拼寫檢查進行結果校正
 
@@ -243,6 +245,12 @@ weight: 25
 ### [使用 Aspose OCR 從圖像提取文字 – 完整 C# 教學](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 一步步示範如何在 C# 中使用 Aspose OCR 從圖像提取文字，涵蓋設定、前處理與結果儲存。
 ### [使用 GPU 批次 PDF OCR – 快速文字提取指南](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+### [如何校正圖像傾斜 – Aspose OCR 前處理指南](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+學習如何校正圖像傾斜，提高 OCR 識別率，並在 Aspose OCR 前處理流程中應用此技巧。
+### [在 C# 中啟用 GPU 加速 OCR – 從收據提取文字](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+利用 GPU 加速提升 OCR 效能，快速從收據中提取文字。
+### [在 C# 中批次 OCR 圖像 – 平行處理 JPG 掃描](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+使用 Aspose.OCR for .NET 於 C# 批次處理 JPG 掃描圖像，透過平行化提升辨識效能。
 
 ## 常見問題
 

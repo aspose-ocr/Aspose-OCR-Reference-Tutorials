@@ -268,6 +268,12 @@ Aprenda a melhorar o contraste das imagens antes do OCR usando Aspose.OCR para .
 Aprenda a usar GPU para processar PDFs em lote com OCR, acelerando a extração de texto em suas aplicações .NET.
 ### [Extrair Texto de Imagem com Aspose OCR – Guia Completo em C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Aprenda passo a passo como usar Aspose OCR em C# para extrair texto de imagens com alta precisão.
+### [Habilitar Aceleração GPU para OCR em C# – Extrair Texto de Recibos](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Aprenda a usar a aceleração GPU com Aspose.OCR em C# para extrair texto de recibos de forma rápida e precisa.
+### [Como corrigir inclinação de imagem – Guia de pré‑processamento Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aprenda a remover a inclinação de imagens usando filtros de pré‑processamento do Aspose.OCR para melhorar a precisão do OCR.
+### [Processamento em lote de OCR de imagens em C# – OCR paralelo de digitalizações JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Execute OCR em múltiplas imagens JPG simultaneamente usando paralelismo em C# para melhorar desempenho.
 
 ## Perguntas Frequentes
 

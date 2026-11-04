@@ -564,6 +564,10 @@ Pelajari cara mengubah gambar menjadi PDF yang dapat dicari menggunakan Aspose.O
 Pelajari cara melakukan OCR pada gambar dan mengonversi hasilnya ke format JSON menggunakan Aspose dalam C#.
 ### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar dengan Cepat](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Pelajari cara cepat menggunakan OCR di C# untuk mengekstrak teks dari gambar secara efisien.
+### [Mengenali Teks dari Gambar di C# – Tutorial Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
+### [Mengenali Teks dari Gambar di C# – Tutorial OCR Offline](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Pelajari cara mengenali teks dari gambar secara offline menggunakan Aspose.OCR di C# dengan langkah-langkah praktis.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -558,6 +558,10 @@ url: /ar/net/text-recognition/
 تعلم كيفية إنشاء ملفات PDF قابلة للبحث من الصور باستخدام Aspose.OCR وC# خطوة بخطوة.
 ### [كيفية استخدام OCR في C# – استخراج النص من الصورة بسرعة](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 تعلم كيفية تطبيق OCR في C# لاستخراج النص من الصور بسرعة وكفاءة باستخدام Aspose.OCR.
+### [التعرف على النص من صورة في C# – دليل OCR غير متصل](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+تعلم كيفية استخراج النص من الصور باستخدام C# دون اتصال بالإنترنت باستخدام Aspose.OCR خطوة بخطوة.
+### [التعرف على النص من صورة في C# – دليل Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+تعلم استخراج النص من الصور باستخدام C# و Aspose OCR خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

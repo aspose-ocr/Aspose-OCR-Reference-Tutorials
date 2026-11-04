@@ -551,6 +551,10 @@ Ismerje meg, hogyan ismerheti fel a kínai szöveget JPG képeken az Aspose OCR 
 Ismerje meg, hogyan alakíthatja a képeket kereshető PDF-fé Aspose.OCR .NET segítségével C#-ban.
 ### [Hogyan használjuk az OCR-t C#-ban – Szöveg gyors kinyerése képből](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Ismerje meg, hogyan vonhat ki szöveget képekből C#-ban az Aspose.OCR segítségével gyorsan és egyszerűen.
+### [Képről szöveg felismerése C#-ban – Offline OCR oktatóanyag](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t offline módon C#-ban a képek szövegének felismerésére.
+### [Képről szöveg felismerése C#-ban – Aspose OCR oktatóanyag](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képek szövegének felismerésére.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

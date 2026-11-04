@@ -91,6 +91,8 @@ Aspose OCR’da GPU bellek kullanımını sınırlayarak performansı yönetin v
 Aspose OCR GPU desteğiyle C# kullanarak görüntülerden yüksek hızlı metin çıkarın.
 ### [Aspose OCR'da Lisans Ayarlama – Tam C# Kılavuzu](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Aspose OCR için lisans dosyasını nasıl ayarlayacağınızı adım adım gösteren kapsamlı C# rehberi.
+### [C#'ta OCR Nasıl Yapılır – Çok Dilli Kılavuz](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR ile C# uygulamalarında çok dilli OCR işlemlerini adım adım öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

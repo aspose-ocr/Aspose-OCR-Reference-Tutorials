@@ -556,6 +556,10 @@ Aspose OCR kullanarak Kiril alfabesindeki metinleri görüntülerden çıkarın 
 Aspose OCR kullanarak JPG dosyalarından Çince metni kolayca çıkarın ve uygulamalarınıza entegre edin.
 ### [Aranabilir PDF Oluşturma – Görüntüden PDF'ye Tam C# Kılavuzu](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
 Aspose.OCR ile görüntülerden aranabilir PDF oluşturmayı adım adım öğrenin ve C# projelerinizde uygulayın.
+### [C# ile Görüntüden Metin Tanıma – Çevrimdışı OCR Eğitimi](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+C# kullanarak çevrimdışı OCR ile görüntülerden metin çıkarmayı adım adım öğrenin.
+### [C# ile Görüntüden Metin Tanıma – Aspose OCR Eğitimi](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+C# kullanarak Aspose OCR ile çevrimdışı olmayan OCR yöntemiyle görüntülerden metin çıkarmayı adım adım öğrenin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

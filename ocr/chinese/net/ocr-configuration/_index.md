@@ -133,6 +133,8 @@ weight: 24
 使用 Aspose OCR GPU 加速图像识别，完整 C# 示例展示高效提取文本的方法。  
 ### [如何在 Aspose OCR 中设置许可证 – 完整 C# 指南](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 详细步骤演示在 .NET 项目中使用 Aspose OCR 设置许可证的完整 C# 示例。  
+### [在 C# 中执行 OCR – 多语言指南](./how-to-perform-ocr-in-c-multi-language-guide/)
+了解如何在 C# 中使用 Aspose.OCR 进行多语言文本识别，涵盖语言设置、示例代码和最佳实践。  
 
 
 

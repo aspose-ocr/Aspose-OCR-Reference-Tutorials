@@ -543,6 +543,10 @@ url: /el/net/text-recognition/
 Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνες σε C# και να εξάγετε τα αποτελέσματα σε μορφή JSON με βήμα‑βήμα οδηγίες.
 ### [Εκτελέστε OCR σε εικόνα και μετατρέψτε σε EPUB – Πλήρης οδηγός C#](./perform-ocr-on-image-and-convert-to-epub-full-c-guide/)
 Μάθετε πώς να εκτελείτε OCR σε εικόνες και να μετατρέπετε τα αποτελέσματα σε αρχείο EPUB με πλήρη οδηγό C#.
+### [Αναγνώριση κειμένου από εικόνα σε C# – Offline OCR Tutorial](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνες σε C# χωρίς σύνδεση στο διαδίκτυο, χρησιμοποιώντας το Aspose.OCR.
+### [Αναγνώριση κειμένου από εικόνα σε C# – Aspose OCR Tutorial](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR σε C# για αναγνώριση κειμένου από εικόνες, βήμα προς βήμα οδηγός.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

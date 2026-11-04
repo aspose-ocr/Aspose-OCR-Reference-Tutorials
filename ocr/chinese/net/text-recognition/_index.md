@@ -562,6 +562,10 @@ url: /zh/net/text-recognition/
 ### [如何在 C# 中使用 OCR – 快速提取图像文本](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 使用 Aspose.OCR 在 C# 项目中快速实现图像文字提取，提供简明的分步指南。
 
+### [使用 C# 进行离线 OCR 图像文本识别](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+通过离线 OCR 技术，在 C# 环境下实现图像文本识别的完整步骤指南。
+### [使用 C# 进行图像文本识别 – Aspose OCR 教程](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+通过 Aspose OCR 在 C# 环境中实现图像文本识别的完整步骤指南。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

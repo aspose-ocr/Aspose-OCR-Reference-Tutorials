@@ -559,6 +559,10 @@ Dowiedz się, jak przy użyciu Aspose.OCR i C# przekształcić obrazy w przeszuk
 Użyj Aspose OCR w C#, aby przetworzyć obraz i uzyskać wynik w formacie JSON. Praktyczny przewodnik krok po kroku.
 ### [Jak używać OCR w C# – Szybkie wyodrębnianie tekstu z obrazu](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Dowiedz się, jak w prosty sposób wykorzystać Aspose.OCR w C# do szybkiego wyodrębniania tekstu z obrazów.
+### [Rozpoznaj tekst z obrazu w C# – Samouczek OCR offline](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Dowiedz się, jak w C# rozpoznać tekst z obrazu przy użyciu trybu offline OCR w Aspose.OCR.
+### [Rozpoznaj tekst z obrazu w C# – samouczek Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Dowiedz się, jak w C# rozpoznać tekst z obrazu przy użyciu Aspose OCR w trybie offline.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

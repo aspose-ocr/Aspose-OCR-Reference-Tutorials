@@ -140,6 +140,8 @@ Pelajari cara membatasi penggunaan memori GPU saat menggunakan Aspose OCR dalam 
 Pelajari cara menggunakan Aspose OCR GPU untuk mengekstrak teks dari gambar dengan contoh lengkap C#.
 ### [Cara Mengatur Lisensi di Aspose OCR – Panduan Lengkap C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Panduan lengkap untuk mengatur lisensi Aspose OCR dalam aplikasi C#, memastikan fungsionalitas penuh tanpa batasan percobaan.
+### [Cara Melakukan OCR di C# – Panduan Multi‑Bahasa](./how-to-perform-ocr-in-c-multi-language-guide/)
+Panduan lengkap melakukan OCR di C# dengan dukungan banyak bahasa secara mudah.
 
 
 

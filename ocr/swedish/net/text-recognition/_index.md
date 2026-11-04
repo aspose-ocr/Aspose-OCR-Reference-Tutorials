@@ -562,6 +562,10 @@ Lär dig hur du konverterar en bild till JSON med OCR i C# med Aspose, steg för
 ### [Hur man använder OCR i C# – Extrahera text från bild snabbt](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Lär dig snabbt hur du använder Aspose.OCR i C# för att extrahera text från bilder med några enkla steg.
 
+### [Känn igen text från bild i C# – Offline OCR-handledning](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Lär dig hur du med Aspose.OCR i C# kan känna igen text från bilder offline med en steg-för-steg-guide.
+### [Känn igen text från bild i C# – Aspose OCR-handledning](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Lär dig hur du med Aspose.OCR i C# kan känna igen text från bilder med en enkel steg-för-steg-guide.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

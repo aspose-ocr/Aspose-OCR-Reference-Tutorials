@@ -142,6 +142,8 @@ Cài đặt giới hạn bộ nhớ GPU cho Aspose OCR trong C#. Hướng dẫn 
 Khám phá cách sử dụng Aspose OCR GPU để trích xuất văn bản từ hình ảnh nhanh chóng với C#.
 ### [Cách thiết lập giấy phép trong Aspose OCR – Hướng dẫn đầy đủ C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Hướng dẫn chi tiết cách áp dụng giấy phép Aspose OCR trong dự án C# để kích hoạt đầy đủ tính năng.
+### [Cách thực hiện OCR trong C# – Hướng dẫn đa ngôn ngữ](./how-to-perform-ocr-in-c-multi-language-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản đa ngôn ngữ từ hình ảnh.
 
 
 

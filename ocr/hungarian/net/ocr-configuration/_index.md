@@ -140,6 +140,8 @@ Tanulja meg, hogyan állíthatja be a GPU memória korlátot az Aspose OCR haszn
 Ismerje meg, hogyan használhatja az Aspose OCR GPU-t C#-ban képek szövegének gyors kinyerésére.  
 ### [Hogyan állítsuk be a licencet az Aspose OCR-ban – Teljes C# útmutató](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Ismerje meg, hogyan konfigurálja a licencet az Aspose OCR könyvtárban C#-ban a zökkenőmentes használathoz.  
+### [Hogyan végezzünk OCR-t C#‑ban – Többnyelvű útmutató](./how-to-perform-ocr-in-c-multi-language-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#‑ban több nyelv felismerésére, lépésről lépésre útmutatóval.  
 
 
 

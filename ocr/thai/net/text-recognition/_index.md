@@ -508,6 +508,10 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความภาษาจีนจาก JPG ด้วย Aspose OCR](./recognize-chinese-text-from-jpg-with-aspose-ocr/)
 ### [สร้าง PDF ที่ค้นหาได้ – คู่มือ C# ครบสำหรับแปลงภาพเป็น PDF](./create-searchable-pdf-complete-c-guide-for-image-to-pdf/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพด้วย C# และ Aspose.OCR อย่างละเอียดในขั้นตอนเดียว
+### [จดจำข้อความจากภาพใน C# – คู่มือ OCR แบบออฟไลน์](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากภาพแบบออฟไลน์ด้วยขั้นตอนง่าย ๆ
+### [จดจำข้อความจากภาพใน C# – คู่มือ Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากภาพอย่างง่ายดายและรวดเร็ว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

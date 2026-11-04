@@ -262,6 +262,11 @@ Naučte se, jak pomocí Aspose.OCR v C# zvýšit kontrast obrázku pro lepší r
 Využijte GPU pro hromadné zpracování PDF souborů a dosáhněte rychlého a přesného rozpoznání textu.
 ### [Extrahovat text z obrázku pomocí Aspose OCR – Kompletní průvodce v C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Kompletní C# návod, jak použít Aspose OCR k přesnému extrahování textu z obrázků v .NET aplikacích.
+### [Jak narovnat obrázek – Průvodce předzpracováním Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+### [Dávkové OCR obrázků v C# – Paralelní OCR JPG skenů](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Zpracujte velké množství JPG skenů paralelně v C# pomocí Aspose.OCR a zvyšte rychlost OCR.
+### [Povolit akceleraci GPU pro OCR v C# – Extrahovat text z účtenek](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Naučte se, jak využít GPU pro zrychlení OCR v C# a extrahovat text z účtenek s vysokou rychlostí a přesností.
 
 ## Často kladené otázky
 

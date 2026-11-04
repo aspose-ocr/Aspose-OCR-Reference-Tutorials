@@ -225,6 +225,11 @@ Hướng dẫn chi tiết cách nâng cao độ tương phản ảnh để cải
 ### [OCR PDF hàng loạt với GPU – Hướng dẫn trích xuất văn bản nhanh](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
 Sử dụng GPU để thực hiện OCR trên nhiều tệp PDF đồng thời, tăng tốc độ trích xuất văn bản đáng kể.
 ### [Trích xuất văn bản từ hình ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+### [Enable GPU Acceleration for OCR in C# – Extract Text from Receipts](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+### [Cách chỉnh nghiêng ảnh – Hướng dẫn tiền xử lý Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Hướng dẫn sử dụng Aspose OCR để loại bỏ độ nghiêng của ảnh, cải thiện độ chính xác nhận dạng ký tự.
+### [Xử lý hàng loạt ảnh OCR trong C# – OCR song song các tệp JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Thực hiện OCR đồng thời trên nhiều ảnh JPG bằng C#, tăng tốc độ xử lý và hiệu suất dự án.
 
 ## Câu hỏi thường gặp
 

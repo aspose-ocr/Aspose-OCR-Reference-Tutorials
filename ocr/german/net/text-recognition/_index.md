@@ -538,6 +538,10 @@ Erfahren Sie, wie Sie mit Aspose.OCR in .NET aus Bildern durchsuchbare PDFs gene
 Erfahren Sie, wie Sie mit Aspose.OCR in C# OCR‑Ergebnisse im JSON‑Format aus Bildern erhalten.
 ### [Wie man OCR in C# verwendet – Text schnell aus Bild extrahieren](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern rasch extrahieren und in Ihre Anwendung integrieren.
+### [Text aus Bild in C# erkennen – Offline-OCR-Tutorial](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Lernen Sie, wie Sie mit Aspose.OCR in C# Text offline aus Bildern extrahieren und in Ihre .NET-Anwendung integrieren.
+### [Text aus Bild in C# erkennen – Aspose OCR Tutorial](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Lernen Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern erkennen und in Ihre .NET-Anwendung integrieren.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

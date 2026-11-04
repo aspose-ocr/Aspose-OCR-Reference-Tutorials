@@ -82,6 +82,8 @@ C# で画像をロードし、Aspose OCR とスペルチェック機能を組み
 GPU 加速を活用し、Aspose OCR で画像テキストを高速に抽出する C# 完全ガイドです。
 ### [Aspose OCR のライセンス設定方法 – 完全 C# ガイド](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Aspose OCR のライセンスを設定し、C# アプリで正しく使用する手順を詳しく解説します。
+### [C# で OCR を実行する方法 – 多言語ガイド](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR を使用して C# アプリで複数言語の画像テキストを抽出する手順を解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

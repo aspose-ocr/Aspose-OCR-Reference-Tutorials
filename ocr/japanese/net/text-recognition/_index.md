@@ -566,6 +566,10 @@ Aspose OCR を使用して、JPG 画像内の中国語テキストを正確に�
 Aspose.OCR を使用して画像から検索可能な PDF を作成し、C# での実装手順を詳しく解説します。
 ### [C# で OCR を使用する方法 – 画像からテキストを素早く抽出](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Aspose.OCR を利用して C# で画像からテキストを高速に抽出する手順をステップバイステップで解説します。
+### [C# で画像からテキストを認識する – オフライン OCR チュートリアル](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Aspose.OCR を使用して、インターネット接続なしで C# アプリケーションから画像のテキストを認識する方法をステップバイステップで解説します。
+### [C# で画像からテキストを認識する – Aspose OCR チュートリアル](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Aspose.OCR を使用して、C# アプリケーションで画像からテキストを認識する手順をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

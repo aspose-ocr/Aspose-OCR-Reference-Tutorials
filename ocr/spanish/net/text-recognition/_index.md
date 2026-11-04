@@ -572,6 +572,10 @@ Aprenda a generar PDFs buscables a partir de imágenes usando Aspose.OCR y C# en
 Aprenda a extraer texto de una imagen y obtener los resultados en formato JSON usando Aspose.OCR y C#.
 ### [Cómo usar OCR en C# – Extraer texto de una imagen rápidamente](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Aprenda a usar OCR en C# para extraer texto de imágenes de forma rápida y sencilla.
+### [Reconocer texto de una imagen en C# – Tutorial de OCR sin conexión](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Aprenda a reconocer texto en imágenes usando C# con OCR sin conexión, paso a paso con Aspose.OCR.
+### [Reconocer texto de una imagen en C# – Tutorial de Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Aprenda a reconocer texto en imágenes usando C# con Aspose OCR, paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

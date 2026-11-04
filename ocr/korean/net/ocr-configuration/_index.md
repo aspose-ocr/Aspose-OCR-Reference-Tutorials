@@ -137,6 +137,8 @@ Aspose OCR을 사용해 C#에서 GPU 메모리 사용량을 제한하는 방법�
 GPU 가속을 활용해 C#에서 이미지 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.  
 ### [Aspose OCR 라이선스 설정 – 전체 C# 가이드](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Aspose OCR 라이선스를 설정하고 C#에서 전체 가이드를 따라 적용하는 방법을 단계별로 설명합니다.  
+### [C#에서 OCR 수행 방법 – 다중 언어 가이드](./how-to-perform-ocr-in-c-multi-language-guide/)
+C#를 사용해 다양한 언어 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.  
 
 
 

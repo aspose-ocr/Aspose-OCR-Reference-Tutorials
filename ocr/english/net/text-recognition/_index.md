@@ -572,6 +572,10 @@ Learn how to convert Cyrillic text in images to editable text using Aspose OCR i
 Learn how to extract Chinese text from JPG images using Aspose OCR in .NET applications.
 ### [How to Use OCR in C# – Extract Text from Image Quickly](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Quickly extract text from images using OCR in C# with Aspose.OCR. Follow our concise guide for fast implementation.
+### [recognize text from image in C# – Offline OCR Tutorial](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Learn how to perform offline OCR in C# to recognize text from images using Aspose.OCR, with a clear step-by-step guide.
+### [recognize text from image in C# – Aspose OCR tutorial](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Learn how to recognize text from images in C# using Aspose OCR with a concise step-by-step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -559,6 +559,10 @@ Aprenda a reconhecer texto chinês em arquivos JPG usando Aspose OCR para .NET d
 Aprenda a transformar imagens em PDFs pesquisáveis usando Aspose.OCR com C#, passo a passo.
 ### [Como usar OCR em C# – Extrair texto de imagem rapidamente](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Aprenda a usar OCR em C# para extrair texto de imagens de forma rápida e eficiente.
+### [Reconhecer texto a partir de imagem em C# – Tutorial de OCR Offline](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Aprenda a reconhecer texto em imagens usando C# com OCR offline, passo a passo, sem necessidade de conexão à internet.
+### [Reconhecer texto a partir de imagem em C# – Tutorial Aspose OCR](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Aprenda a reconhecer texto em imagens usando C# com Aspose OCR, passo a passo, integrando recursos avançados de OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

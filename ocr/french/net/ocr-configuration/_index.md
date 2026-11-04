@@ -118,6 +118,8 @@ Apprenez à désactiver la reconnaissance OCR dans vos applications C# en mode h
 
 ### [Définir la limite de mémoire GPU avec Aspose OCR – Guide GPU C#](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Apprenez à limiter l'utilisation de la mémoire GPU lors de l'exécution d'Aspose OCR en C# pour optimiser les performances.
+### [Comment effectuer l'OCR en C# – Guide multilingue](./how-to-perform-ocr-in-c-multi-language-guide/)
+Apprenez à extraire du texte d'images en plusieurs langues avec Aspose.OCR en C#.
 
 ### Cas d'utilisation courants
 

@@ -555,6 +555,10 @@ Aspose.OCR के साथ इमेज को सर्चेबल PDF मे
 Aspose OCR का उपयोग करके C# में इमेज को JSON प्रारूप में परिवर्तित करने की चरण-दर-स्टेज मार्गदर्शिका।
 ### [C# में OCR का उपयोग कैसे करें – छवि से तेज़ी से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Aspose OCR के साथ C# में छवि से तेज़ी से टेक्स्ट निकालने की चरण-दर-स्टेज गाइड।
+### [C# में इमेज से टेक्स्ट पहचानें – ऑफ़लाइन OCR ट्यूटोरियल](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+ऑफ़लाइन OCR के साथ C# में इमेज से टेक्स्ट निकालने की चरण-दर-स्टेप गाइड।
+### [C# में इमेज से टेक्स्ट पहचानें – Aspose OCR ट्यूटोरियल](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Aspose OCR के साथ C# में इमेज से टेक्स्ट निकालने की विस्तृत चरण-दर-स्टेप गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

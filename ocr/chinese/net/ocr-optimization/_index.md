@@ -100,7 +100,7 @@ weight: 25
 通过预处理图像提升 OCR 准确率，使用 Aspose.OCR 实现高效文本识别。
 
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
-使用 Aspose.OCR for .NET 提升 OCR 准确度。纠正拼写、定制词典，轻松实现零错误的文本识别。
+使用 Aspose.OCR for .NET 提升 OCR 精度。纠正拼写、定制词典，轻松实现零错误的文本识别。
 
 
 
@@ -276,6 +276,14 @@ weight: 25
 
 ### [使用 Aspose OCR 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 详细的 C# 示例，演示如何使用 Aspose OCR 从图像中提取文本并处理结果。
+
+### [如何去倾斜图像 – Aspose OCR 预处理指南](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+了解如何使用 Aspose OCR 的预处理功能去除图像倾斜，提高 OCR 准确率的完整指南。
+
+### [在 C# 中启用 GPU 加速进行 OCR – 从收据提取文本](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+
+### [批量 OCR 图像（C#）– 并行处理 JPG 扫描](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+本教程演示如何使用 Aspose.OCR for .NET 在 C# 中并行处理多个 JPG 扫描图像，实现批量 OCR 提高效率。
 
 ## 常见问题
 

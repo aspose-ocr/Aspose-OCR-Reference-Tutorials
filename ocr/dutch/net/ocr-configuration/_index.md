@@ -106,6 +106,8 @@ Leer hoe je de GPU‑geheugenlimiet configureert voor optimale OCR‑prestaties 
 Leer hoe je met Aspose OCR GPU en C# tekst uit afbeeldingen haalt met maximale prestaties.
 ### [Hoe een licentie instellen in Aspose OCR – Complete C#-gids](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
 Leer hoe je een licentie configureert voor Aspose OCR in C# voor optimale prestaties.
+### [Hoe OCR uit te voeren in C# – Meertalige gids](./how-to-perform-ocr-in-c-multi-language-guide/)
+Ontgrendel meertalige OCR-mogelijkheden in C# met Aspose.OCR. Leer stap‑voor‑stap tekst uit verschillende talen te extraheren.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

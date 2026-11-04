@@ -276,6 +276,14 @@ Poznaj, jak przyspieszyć przetwarzanie PDF‑ów przy użyciu GPU, aby szybko w
 
 ### [Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak wyodrębnić tekst z obrazu przy użyciu Aspose OCR, krok po kroku.
+### [Jak wyprostować obraz – przewodnik przetwarzania wstępnego Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Dowiedz się, jak używać funkcji prostowania obrazu w Aspose.OCR, aby poprawić wyniki OCR na nachylonych skanach.
+
+### [Włącz przyspieszenie GPU dla OCR w C# – wyodrębnianie tekstu z paragonów](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Poznaj, jak wykorzystać przyspieszenie GPU w Aspose.OCR dla .NET, aby szybciej i dokładniej wyodrębniać tekst z paragonów.
+
+### [Wsadowkie OCR obrazów w C# – równoległe OCR skanów JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Dowiedz się, jak przetwarzać wiele skanów JPG jednocześnie w C# przy użyciu równoległego OCR w Aspose.OCR.
 
 ## Często zadawane pytania
 

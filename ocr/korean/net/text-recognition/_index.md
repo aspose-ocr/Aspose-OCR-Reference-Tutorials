@@ -554,6 +554,12 @@ Aspose OCR을 활용해 JPG 이미지에서 중국어 텍스트를 정확히 추
 Aspose OCR을 활용해 이미지에서 텍스트를 인식하고 JSON 형식으로 결과를 얻는 단계별 가이드.
 ### [C#에서 OCR 사용하기 – 이미지에서 텍스트 빠르게 추출](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Aspose OCR을 활용해 C#에서 이미지를 빠르게 텍스트로 변환하는 단계별 가이드를 확인하세요.
+### [C#에서 이미지 텍스트 인식 – 오프라인 OCR 튜토리얼](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Aspose.OCR를 사용해 오프라인 환경에서 C#으로 이미지에서 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
+### [C#에서 이미지 텍스트 인식 – Aspose OCR 튜토리얼](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Aspose.OCR를 사용해 C#에서 이미지 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

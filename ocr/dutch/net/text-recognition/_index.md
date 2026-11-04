@@ -556,6 +556,10 @@ Leer hoe u met Aspose.OCR en C# afbeeldingen omzet naar doorzoekbare PDF's met v
 Leer hoe u met Aspose.OCR in C# OCR-resultaten van afbeeldingen direct naar JSON kunt omzetten.
 ### [Hoe OCR te gebruiken in C# – Tekst snel uit afbeelding extraheren](./how-to-use-ocr-in-c-extract-text-from-image-quickly/)
 Leer hoe u met Aspose.OCR in C# snel tekst uit afbeeldingen kunt extraheren met eenvoudige codevoorbeelden.
+### [Tekst herkennen uit afbeelding in C# – Offline OCR-tutorial](./recognize-text-from-image-in-c-offline-ocr-tutorial/)
+Leer hoe u offline OCR gebruikt in C# om tekst uit afbeeldingen te herkennen met Aspose.OCR.
+### [Tekst herkennen uit afbeelding in C# – Aspose OCR-tutorial](./recognize-text-from-image-in-c-aspose-ocr-tutorial/)
+Leer hoe u Aspose OCR gebruikt in C# om tekst uit afbeeldingen te herkennen.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

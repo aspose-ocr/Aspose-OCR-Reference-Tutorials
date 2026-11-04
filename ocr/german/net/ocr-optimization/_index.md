@@ -262,6 +262,12 @@ Steigern Sie die OCR‑Genauigkeit, indem Sie den Bildkontrast in C# erhöhen �
 Nutzen Sie GPU‑Beschleunigung, um mehrere PDFs schnell zu OCR‑verarbeiten und Text effizient zu extrahieren.
 ### [Text aus Bild extrahieren mit Aspose OCR – Vollständiger C#‑Leitfaden](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose OCR und C# Text aus Bildern extrahieren – Schritt‑für‑Schritt‑Leitfaden.
+### [GPU‑Beschleunigung für OCR in C# aktivieren – Text aus Belegen extrahieren](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose.OCR, um Belege effizient zu verarbeiten und Text präzise zu extrahieren.
+### [Bild entzerren – Aspose OCR Vorverarbeitungs‑Leitfaden](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Erfahren Sie, wie Sie Bilder mit Aspose.OCR entzerren, um die OCR‑Genauigkeit zu verbessern.
+### [Batch-OCR von Bildern in C# – Paralleles OCR von JPG-Scans](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Verarbeiten Sie mehrere JPG‑Scans parallel in C# mit Aspose.OCR, um die OCR‑Leistung zu maximieren.
 
 ## Häufig gestellte Fragen
 

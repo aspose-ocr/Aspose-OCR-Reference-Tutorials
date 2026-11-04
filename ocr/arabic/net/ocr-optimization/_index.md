@@ -256,6 +256,11 @@ weight: 25
 استخدم GPU لتسريع عملية OCR على ملفات PDF متعددة دفعات واستخراج النص بسرعة وكفاءة.
 ### [استخراج النص من الصورة باستخدام Aspose OCR – دليل C# كامل](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 دليل شامل يوضح كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# خطوة بخطوة.
+### [تمكين تسريع GPU للتعرف الضوئي على الأحرف في C# – استخراج النص من الإيصالات](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+استفد من تسريع GPU لتحسين أداء OCR واستخراج النص من الإيصالات بسرعة ودقة.
+### [كيفية تصحيح ميل الصورة – دليل ما قبل المعالجة لـ Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+تعلم كيفية تصحيح ميل الصور باستخدام فلاتر ما قبل المعالجة في Aspose OCR لتحسين دقة التعرف.
+### [معالجة دفعة من صور OCR في C# – OCR متوازي لمسحات JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
 
 ## الأسئلة المتكررة
 

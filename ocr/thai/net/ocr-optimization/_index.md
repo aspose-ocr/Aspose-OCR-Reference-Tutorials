@@ -268,6 +268,13 @@ weight: 25
 ### [สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อสกัดข้อความจากภาพอย่างละเอียดและครบถ้วนในขั้นตอนเดียว.
 
+### [เปิดใช้งานการเร่งความเร็ว GPU สำหรับ OCR ใน C# – ดึงข้อความจากใบเสร็จ](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+ใช้ GPU เพื่อเพิ่มความเร็วการจดจำข้อความจากใบเสร็จด้วย Aspose.OCR ใน C#.
+
+### [วิธีแก้ไขการเอียงภาพ – คู่มือการเตรียมข้อมูล Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+
+### [OCR รูปภาพแบบชุดใน C# – OCR ขนานของสแกน JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+
 ## คำถามที่พบบ่อย
 
 **Q:** ฉันสามารถแยกข้อความจากไฟล์ภาพที่มีหลายภาษาได้หรือไม่?  

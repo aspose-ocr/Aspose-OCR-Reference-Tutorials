@@ -264,6 +264,12 @@ Aspose.OCR を使用して画像を前処理し、OCR の精度を最大化す�
 Aspose OCR と C# を使って画像からテキストを抽出する手順を詳しく解説します。
 ### [GPU を使用したバッチ PDF OCR – 高速テキスト抽出ガイド](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
 GPU のパワーを活用して大量の PDF を高速に OCR し、テキスト抽出を効率化する方法をステップバイステップで解説します。
+### [C# で GPU 加速を有効にして OCR を実行 – レシートからテキスト抽出](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+GPU を活用し、C# でレシート画像の OCR を高速化し、正確にテキスト抽出する方法を解説します。
+### [画像のデスキュー方法 – Aspose OCR 前処理ガイド](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Aspose OCR の前処理機能を使って画像の傾きを補正し、認識精度を向上させる手順を解説します。
+### [C# でバッチ OCR 画像 – JPG スキャンの並列 OCR](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+C# を使用して多数の JPG スキャン画像を並列に OCR 処理し、バッチでテキスト抽出する方法を解説します。
 
 ## よくある質問
 
