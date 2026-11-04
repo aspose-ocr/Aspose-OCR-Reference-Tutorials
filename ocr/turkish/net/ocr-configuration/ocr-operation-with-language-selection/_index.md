@@ -9,21 +9,14 @@ url: /tr/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
 
-"
 
-Paragraph.
 
-"Last Updated:" keep date.
 
-"Tested With:" keep.
 
-"Author:" keep.
 
-Backtop button shortcode unchanged.
 
-Make sure to keep markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

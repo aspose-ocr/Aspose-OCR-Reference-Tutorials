@@ -1,0 +1,7 @@
+Title: How to Detect Language from Images with OCR – Complete Python Guide
+Slug: how-to-detect-language-from-images-with-ocr-complete-python
+Category: general
+ProcessedDate: 2026-06-22T20:34:50.120080
+SourceRepo: AI Search API
+Keywords: how to detect language, detect language from image, extract text from image, how to use ocr, how to extract text
+PRNumber: 155
