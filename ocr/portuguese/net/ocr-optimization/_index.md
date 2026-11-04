@@ -290,6 +290,8 @@ Aprenda a obter e interpretar as pontuações de confiança do OCR usando Aspose
 Aprenda a aplicar filtros de pré‑processamento em imagens usando Aspose.OCR para .NET e melhorar a precisão do OCR.
 ### [Exemplo Aspose OCR C# – Ativar GPU, Definir Limite de Memória e Processar Imagens TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Aprenda a habilitar aceleração GPU, limitar uso de memória e processar arquivos TIF com Aspose.OCR em C#.
+### [Como habilitar GPU no motor OCR em C# – Guia de programação completo](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Aprenda a configurar a aceleração GPU no Aspose.OCR para .NET usando C#, melhorando desempenho em reconhecimento de imagens.
 
 ## Perguntas Frequentes
 

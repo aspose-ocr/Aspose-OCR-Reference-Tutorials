@@ -608,6 +608,18 @@ Aspose.OCR का उपयोग करके छवि को HTML में �
 Aspose.OCR का उपयोग करके छवि से टेक्स्ट निकालें और C# में गलत वर्तनी वाले शब्दों की पहचान करने की प्रक्रिया सीखें।
 ### [वीडियो सबटाइटल OCR C# में – पूर्ण गाइड](./video-subtitle-ocr-in-c-complete-guide/)
 C# में वीडियो सबटाइटल OCR करने के लिए पूर्ण गाइड, Aspose.OCR का उपयोग करके सबटाइटल से टेक्स्ट निकालें।
+### [C# में PNG से टेक्स्ट पहचानें – पूर्ण OCR ट्यूटोरियल](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+C# का उपयोग करके PNG छवियों से सटीक OCR के साथ टेक्स्ट निकालने की पूरी मार्गदर्शिका।
+### [C# में हस्तलिखित टेक्स्ट पहचानें – पूर्ण चरण‑दर‑चरण गाइड](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+C# में हस्तलिखित टेक्स्ट को सटीक रूप से पहचानने के लिए चरण‑दर‑चरण मार्गदर्शिका। Aspose.OCR के साथ अपने .NET एप्लिकेशन को उन्नत करें।
+### [C# में इमेज से टेक्स्ट पहचानें – पूर्ण OCR इंजन ट्यूटोरियल](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+C# और Aspose.OCR का उपयोग करके इमेज से सटीक टेक्स्ट निकालने की पूरी गाइड।
+### [C# में .NET OCR के साथ चीनी टेक्स्ट पहचानें – पूर्ण गाइड](./recognize-chinese-text-with-net-ocr-complete-guide/)
+C# और Aspose.OCR का उपयोग करके चीनी भाषा के टेक्स्ट को सटीक रूप से पहचानने की पूरी मार्गदर्शिका। Aspose.OCR के साथ अपने .NET एप्लिकेशन को उन्नत करें।
+### [C# में OCR संरक्षित PDF – टेक्स्ट निकालने के लिए पूर्ण गाइड](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+C# और Aspose.OCR का उपयोग करके संरक्षित PDF से टेक्स्ट निकालने की पूरी मार्गदर्शिका।
+### [C# में टेक्स्ट इमेज पहचान – पूर्ण OCR गाइड](./recognize-text-image-in-c-full-ocr-guide/)
+C# और Aspose.OCR का उपयोग करके इमेज से सटीक टेक्स्ट निकालने की पूरी मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

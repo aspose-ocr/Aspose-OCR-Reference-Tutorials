@@ -245,6 +245,7 @@ Tìm hiểu cách lấy và sử dụng điểm tin cậy OCR trong Aspose.OCR c
 Hướng dẫn chi tiết cách tiền xử lý ảnh trước khi OCR bằng Aspose OCR trong C#, nâng cao độ chính xác và hiệu suất.
 ### [Ví dụ Aspose OCR C# – Bật GPU, Đặt giới hạn bộ nhớ & Xử lý ảnh TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Hướng dẫn bật GPU, giới hạn bộ nhớ và xử lý ảnh TIF bằng Aspose OCR trong C# để tăng tốc độ và hiệu suất OCR.
+### [Cách bật GPU trong Engine OCR C# – Hướng dẫn lập trình đầy đủ](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 
 ## Câu hỏi thường gặp
 

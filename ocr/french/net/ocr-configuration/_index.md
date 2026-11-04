@@ -125,6 +125,10 @@ Apprenez à désactiver la reconnaissance OCR dans vos applications C# en mode h
 Apprenez à limiter l'utilisation de la mémoire GPU lors de l'exécution d'Aspose OCR en C# pour optimiser les performances.
 ### [Comment effectuer l'OCR en C# – Guide multilingue](./how-to-perform-ocr-in-c-multi-language-guide/)
 Apprenez à extraire du texte d'images en plusieurs langues avec Aspose.OCR en C#.
+### [Comment utiliser OcrEngine en C# – Guide complet OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Apprenez à exploiter OcrEngine avec C# pour des solutions OCR complètes, de l'installation à l'extraction avancée de texte.
+### [Créer un PDF recherchable à partir d'une image – Guide complet étape par étape](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Transformez une image en PDF searchable avec Aspose.OCR grâce à un guide détaillé, de l'installation à la génération du PDF.
 
 ### Cas d'utilisation courants
 

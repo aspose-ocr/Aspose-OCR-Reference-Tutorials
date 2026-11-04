@@ -88,6 +88,10 @@ Aspose.OCR を使用して C# アプリで複数言語の画像テキストを�
 C# で Aspose OCR を使用し、ダウンロード機能を無効にした状態で画像からテキストを抽出する方法を解説します。
 ### [C# で Aspose OCR のバージョンを取得する – 完全ガイド](./get-aspose-ocr-version-in-c-complete-guide/)
 C# コードで Aspose OCR の現在バージョン情報を取得し、表示する方法をステップバイステップで解説します。
+### [C# で OcrEngine を使用する方法 – 完全 OCR ガイド](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+C# で OcrEngine クラスを活用し、画像からテキストを抽出する手順を詳しく解説します。
+### [画像から検索可能な PDF を作成 – 完全ステップバイステップガイド](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+画像から検索可能な PDF を作成する手順をステップバイステップで解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

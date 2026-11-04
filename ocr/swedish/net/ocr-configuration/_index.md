@@ -103,6 +103,10 @@ Lär dig hur du använder Aspose.OCR i C# för att känna igen text på flera sp
 ### [bild till text c# – Aspose OCR med inaktiverad nedladdning](./image-to-text-c-aspose-ocr-with-disabled-download/)
 ### [Hämta Aspose OCR-version i C# – Komplett guide](./get-aspose-ocr-version-in-c-complete-guide/)
 Lär dig hur du programatiskt får reda på vilken version av Aspose OCR som används i din C#‑applikation.
+### [Hur man använder OcrEngine i C# – Komplett OCR‑guide](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Lär dig hur du använder OcrEngine i C# för fullständig OCR‑funktionalitet.
+### [Skapa sökbar PDF från en bild – Fullständig steg‑för‑steg‑guide](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Skapa en sökbar PDF från en bild med Aspose.OCR. En komplett steg‑för‑steg‑guide för .NET‑utvecklare.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

@@ -301,6 +301,8 @@ Poznaj pełny proces wstępnego przetwarzania obrazu w C# przy użyciu Aspose OC
 
 ### [Przykład Aspose OCR w C# – Włącz GPU, Ustaw Limit Pamięci i Przetwarzaj Obrazy TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Dowiedz się, jak w Aspose OCR w C# włączyć akcelerację GPU, ustawić limit pamięci i przetwarzać obrazy w formacie TIF.
+### [Jak włączyć GPU w silniku OCR C# – Kompletny przewodnik programistyczny](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Dowiedz się, jak skonfigurować obsługę GPU w Aspose.OCR dla .NET, aby przyspieszyć przetwarzanie obrazów i zwiększyć wydajność OCR.
 
 ## Często zadawane pytania
 

@@ -291,6 +291,8 @@ Pelajari cara menampilkan dan menggunakan skor kepercayaan OCR di C# untuk menin
 Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan sebelum OCR menggunakan Aspose.OCR di C# untuk hasil yang akurat.
 ### [Contoh Aspose OCR C# – Aktifkan GPU, Atur Batas Memori & Proses Gambar TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Pelajari cara mengaktifkan GPU, mengatur batas memori, dan memproses file TIF dengan Aspose OCR menggunakan C#.
+### [Cara Mengaktifkan GPU di Mesin OCR C# – Panduan Pemrograman Lengkap](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Pelajari cara mengaktifkan akselerasi GPU pada mesin OCR C# untuk meningkatkan kecepatan dan akurasi pengenalan teks.
 
 ## Pertanyaan yang Sering Diajukan
 

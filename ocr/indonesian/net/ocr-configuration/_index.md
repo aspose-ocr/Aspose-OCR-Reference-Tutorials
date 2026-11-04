@@ -148,6 +148,10 @@ Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR di C# dengan o
 
 ### [Dapatkan Versi Aspose OCR di C# – Panduan Lengkap](./get-aspose-ocr-version-in-c-complete-guide/)
 Pelajari cara mengambil versi Aspose.OCR yang terpasang dalam aplikasi C# Anda dengan contoh kode lengkap.
+### [Cara Menggunakan OcrEngine di C# – Panduan OCR Lengkap](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Panduan lengkap menggunakan OcrEngine di C# untuk melakukan OCR dengan Aspose.OCR secara efisien.
+### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Langkah‑per‑Langkah Lengkap](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Panduan lengkap membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR dan Aspose.PDF dalam .NET.
 
 ### Kasus Penggunaan Umum
 - **Ekstrak gambar teks** dari faktur yang dipindai untuk akuntansi otomatis.  

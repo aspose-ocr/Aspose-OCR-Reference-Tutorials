@@ -112,6 +112,10 @@ Ontgrendel meertalige OCR-mogelijkheden in C# met Aspose.OCR. Leer stap‑voor�
 Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt terwijl je de downloadfunctionaliteit uitschakelt.
 ### [Aspose OCR‑versie ophalen in C# – Complete gids](./get-aspose-ocr-version-in-c-complete-guide/)
 Leer hoe je de huidige Aspose OCR‑versie in C# kunt opvragen en gebruiken in je .NET‑applicatie.
+### [Hoe OcrEngine te gebruiken in C# – Complete OCR-gids](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Leer stap‑voor‑stap hoe je OcrEngine in C# gebruikt voor volledige OCR‑functionaliteit.
+### [Maak doorzoekbare PDF van een afbeelding – volledige stapsgewijze gids](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Leer hoe je een doorzoekbare PDF maakt van een afbeelding met een volledige stap‑voor‑stap handleiding.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

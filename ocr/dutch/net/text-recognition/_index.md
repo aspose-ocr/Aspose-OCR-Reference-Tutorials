@@ -33,6 +33,9 @@ Benut het volledige potentieel van Aspose.OCR voor .NET door te leren hoe u moei
 
 Efficiëntie is van cruciaal belang bij .NET-toepassingen, en Aspose.OCR is er om u te helpen precies dat te bereiken. Duik in de OCR-detectiegebiedmodus-tutorial om nauwkeurige resultaten te bereiken bij de herkenning van afbeeldingstekst. Verbeter uw projecten met de geavanceerde functies van Aspose.OCR, die nauwkeurigheid en snelheid bij tekstherkenning bieden.
 
+### [Chinese tekst herkennen met .NET OCR – Complete gids](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Leer stap voor stap hoe u met Aspose.OCR Chinese tekst uit afbeeldingen haalt in .NET.
+
 ## Herken PDF in OCR-beeldherkenning
 
 Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer tekst moeiteloos uit PDF's en integreer naadloos in uw applicaties. Deze tutorial biedt een uitgebreide handleiding voor het herkennen van tekst in PDF's, waardoor een naadloze en efficiënte integratie-ervaring wordt gegarandeerd.
@@ -609,6 +612,16 @@ Leer hoe u met Aspose OCR afbeeldingen naar HTML kunt converteren, zodat u gestr
 Leer hoe u met Aspose OCR afbeeldingen kunt verwerken en spelfouten kunt detecteren in C#. Volg onze stap‑voor‑stap handleiding.
 ### [Video-ondertitel OCR in C# – Complete gids](./video-subtitle-ocr-in-c-complete-guide/)
 Leer hoe u met Aspose OCR ondertitels uit video's haalt in C#. Volg onze stapsgewijze handleiding voor volledige OCR-functionaliteit.
+### [OCR-beveiligde PDF in C# – Complete gids voor het extraheren van tekst](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Leer hoe u met Aspose.OCR beveiligde PDF's in C# kunt uitlezen en tekst kunt extraheren.
+### [Tekst herkennen uit PNG in C# – Complete OCR-tutorial](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Leer stap voor stap hoe u met Aspose.OCR tekst uit PNG-afbeeldingen haalt in C#.
+### [Handgeschreven tekst herkennen in C# – Complete stapsgewijze handleiding](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Leer hoe u met Aspose.OCR handgeschreven tekst in C# nauwkeurig kunt herkennen met deze volledige stap‑voor‑stap gids.
+### [Tekst herkennen uit afbeelding in C# – Volledige OCR-engine tutorial](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Leer stap voor stap hoe u met Aspose.OCR een volledige OCR-engine gebruikt om tekst uit afbeeldingen te herkennen in C#.
+### [Tekst herkennen uit afbeelding in C# – Volledige OCR-gids](./recognize-text-image-in-c-full-ocr-guide/)
+Leer stap voor stap hoe u met Aspose.OCR een volledige OCR-gids volgt om tekst uit afbeeldingen te herkennen in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

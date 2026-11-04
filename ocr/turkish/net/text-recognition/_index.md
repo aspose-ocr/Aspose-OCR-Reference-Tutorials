@@ -608,6 +608,18 @@ Aspose.OCR kullanarak bir görüntüyü HTML formatına dönüştürmeyi adım a
 ### [C# ile Görüntüde OCR Yapma ve Yanlış Yazılmış Kelimeleri Algılama](./perform-ocr-on-image-and-detect-misspelled-words-in-c/)
 ### [C# ile Video Altyazı OCR – Tam Kılavuz](./video-subtitle-ocr-in-c-complete-guide/)
 C# kullanarak video dosyalarındaki altyazıları OCR ile tanıyın ve metin olarak çıkarın. Adım adım tam rehber.
+### [C# ile PNG'den Metin Tanıma – Tam OCR Eğitimi](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+C# kullanarak PNG dosyalarından metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile El Yazısı Metni Tanıma – Tam Adım Adım Rehber](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+C# kullanarak el yazısı metinlerini tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile Görüntüden Metin Tanıma – Tam OCR Motoru Eğitimi](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+C# kullanarak görüntülerden metin tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR motorunu uygulayın.
+### [C# ile Çince Metin Tanıma – Tam Kılavuz](./recognize-chinese-text-with-net-ocr-complete-guide/)
+C# kullanarak .NET OCR ile Çince metin tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR çözümünü uygulayın.
+### [C# ile OCR korumalı PDF – Metin Çıkarma Tam Kılavuzu](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+C# kullanarak OCR korumalı PDF dosyalarından metin çıkarma sürecini adım adım öğrenin ve Aspose.OCR ile tam çözüm uygulayın.
+### [C# ile Görüntüden Metin Tanıma – Tam OCR Kılavuzu](./recognize-text-image-in-c-full-ocr-guide/)
+C# kullanarak görüntülerden metin tanıma sürecini adım adım öğrenin ve Aspose.OCR ile tam OCR kılavuzunu uygulayın.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

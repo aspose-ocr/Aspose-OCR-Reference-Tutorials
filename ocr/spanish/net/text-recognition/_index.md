@@ -56,6 +56,7 @@ Aprenda a generar PDFs buscables a partir de archivos TIFF usando Aspose.OCR en 
 Mejore sus aplicaciones .NET con Aspose.OCR para un reconocimiento preciso de caracteres. Siga nuestra guía paso a paso para recuperar opciones de caracteres reconocidos en el reconocimiento de imágenes.
 
 ### [Obtener el resultado del reconocimiento en el reconocimiento de imágenes OCR](./get-recognition-result/)
+Explore Aspose.OCR para .NET, una potente solución de OCR para un reconocimiento perfecto del texto en imágenes.
 ### [Obtenga resultados como JSON en el reconocimiento de imágenes OCR](./get-result-as-json/)
 Libere el poder de Aspose.OCR para .NET. Aprenda a obtener resultados OCR en formato JSON sin esfuerzo. Mejore el reconocimiento de sus imágenes con esta guía paso a paso.
 ### [Cómo realizar OCR en C# – Guía de conversión de imagen a JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
@@ -640,6 +641,18 @@ Aprenda a ejecutar OCR en una imagen y detectar palabras con errores ortográfic
 
 ### [OCR de subtítulos de video en C# – Guía completa](./video-subtitle-ocr-in-c-complete-guide/)
 Aprenda a extraer subtítulos de video usando Aspose.OCR en C#. Guía paso a paso para reconocer texto en archivos de video.
+### [Reconocer texto desde PNG en C# – Tutorial completo de OCR](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Aprenda a extraer texto de imágenes PNG usando Aspose.OCR en C# con este tutorial paso a paso.
+### [Reconocer texto desde imagen en C# – Tutorial completo del motor OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Aprenda a extraer texto de cualquier imagen usando Aspose.OCR en C# con este tutorial completo del motor OCR.
+### [Reconocer texto manuscrito en C# – Guía completa paso a paso](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Aprenda a extraer texto manuscrito de imágenes con Aspose.OCR en C# mediante esta guía paso a paso.
+### [Reconocer texto chino con .NET OCR – Guía completa](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Aprenda a reconocer texto chino en imágenes usando Aspose.OCR para .NET con esta guía paso a paso.
+### [PDF protegido con OCR en C# – Guía completa para extraer texto](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Aprenda a extraer texto de PDFs protegidos usando OCR en C# con esta guía paso a paso.
+### [Reconocer texto de imagen en C# – Guía completa de OCR](./recognize-text-image-in-c-full-ocr-guide/)
+Aprenda a extraer texto de imágenes con Aspose.OCR en C# mediante esta guía completa de OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -597,6 +597,18 @@ url: /zh-hant/net/text-recognition/
 學習如何使用 Aspose.OCR 在影像上執行 OCR，並利用內建功能偵測拼寫錯誤的單詞，示範 C# 實作步驟。
 ### [在 C# 中執行影片字幕 OCR – 完整指南](./video-subtitle-ocr-in-c-complete-guide/)
 學習如何使用 Aspose.OCR 在 C# 中辨識影片字幕，提供完整步驟與範例，提升多媒體文字處理能力。
+### [在 C# 中從 PNG 文字辨識 – 完整 OCR 教學](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+使用 Aspose.OCR 在 C# 中從 PNG 圖像提取文字，完整步驟教學，提升您的 OCR 應用程式。
+### [在 C# 中從圖像辨識文字 – 完整 OCR 引擎教學](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+使用 Aspose.OCR 在 C# 中完整教學，展示如何使用完整的 OCR 引擎從圖像中辨識文字，提升您的應用程式功能。
+### [在 C# 中辨識手寫文字 – 完整步驟教學](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+使用 Aspose.OCR 在 C# 中辨識手寫文字，提供完整的逐步教學，提升您的 OCR 應用能力。
+### [使用 .NET OCR 識別中文文字 – 完整指南](./recognize-chinese-text-with-net-ocr-complete-guide/)
+使用 Aspose.OCR 在 .NET 中完整教學，從圖像中提取中文文字，提升您的 OCR 應用程式。
+### [在 C# 中 OCR 受保護 PDF – 完整文字提取指南](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+使用 Aspose.OCR 在 C# 中處理受保護的 PDF，完整步驟教學，協助您提取文字內容。
+### [在 C# 中辨識文字影像 – 完整 OCR 教學](./recognize-text-image-in-c-full-ocr-guide/)
+使用 Aspose.OCR 在 C# 中完整教學，展示如何從文字影像中辨識文字，提升您的 OCR 應用功能。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

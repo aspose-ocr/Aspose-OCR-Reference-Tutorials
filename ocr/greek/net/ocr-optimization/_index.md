@@ -282,6 +282,7 @@ weight: 25
 Μάθετε πώς να προετοιμάσετε εικόνες για OCR σε C# χρησιμοποιώντας το Aspose.OCR, βήμα‑βήμα οδηγίες για βέλτιστη ακρίβεια.
 ### [Παράδειγμα Aspose OCR C# – Ενεργοποίηση GPU, Ορισμός Ορίου Μνήμης & Επεξεργασία Αρχείων TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Μάθετε πώς να ενεργοποιήσετε την GPU, να ορίσετε όριο μνήμης και να επεξεργαστείτε εικόνες TIF με Aspose OCR σε C#.
+### [How to Enable GPU in C# OCR Engine – Complete Programming Guide](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 
 ## Συχνές Ερωτήσεις
 

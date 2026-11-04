@@ -616,6 +616,18 @@ C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 추출하고, 맞춤�
 ### [C#에서 비디오 자막 OCR – 완전 가이드](./video-subtitle-ocr-in-c-complete-guide/)
 C#와 Aspose.OCR을 활용해 비디오 파일에서 자막을 추출하고 OCR 처리하는 단계별 완전 가이드입니다.
 
+### [C#로 PNG에서 텍스트 인식 – 완전한 OCR 튜토리얼](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+C#와 Aspose.OCR을 사용해 PNG 이미지에서 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 손글씨 텍스트 인식 – 완전한 단계별 가이드](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+C#와 Aspose.OCR을 사용해 손글씨 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 중국어 텍스트 인식 – 완전한 OCR 튜토리얼](./recognize-chinese-text-with-net-ocr-complete-guide/)
+C#와 Aspose.OCR을 사용해 중국어 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 이미지에서 텍스트 인식 – 전체 OCR 엔진 튜토리얼](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 OCR 엔진 과정을 단계별로 안내합니다.
+### [C#에서 보호된 PDF OCR – 텍스트 추출 완전 가이드](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+C#와 Aspose.OCR을 사용해 보호된 PDF에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+### [C#로 텍스트 이미지 인식 – 전체 OCR 가이드](./recognize-text-image-in-c-full-ocr-guide/)
+C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

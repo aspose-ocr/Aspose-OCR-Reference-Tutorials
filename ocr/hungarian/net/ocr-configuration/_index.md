@@ -146,6 +146,11 @@ Ismerje meg, hogyan használhatja az Aspose.OCR-t C#‑ban több nyelv felismer�
 Bemutatja, hogyan használja az Aspose OCR-t C#-ban a letöltés letiltásával a képek szöveggé alakításához.  
 ### [Az Aspose OCR verzió lekérése C#‑ban – Teljes útmutató](./get-aspose-ocr-version-in-c-complete-guide/)
 Ismerje meg, hogyan kérheti le az Aspose OCR könyvtár verziószámát C#‑ban, egyszerű kóddal.  
+### [Hogyan használjuk az OcrEngine-t C#‑ban – Teljes OCR útmutató](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Ismerje meg az OcrEngine osztály teljes használatát C#‑ban, a beállításoktól a szövegkinyerésig.  
+
+### [Kereshető PDF létrehozása képből – Teljes lépésről‑lépésre útmutató](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Ismerje meg, hogyan alakíthatja a képet kereshető PDF-dokumentummá az Aspose.OCR és Aspose.PDF segítségével.  
 
 
 

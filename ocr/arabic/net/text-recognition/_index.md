@@ -611,6 +611,17 @@ url: /ar/net/text-recognition/
 تعلم كيفية تنفيذ التعرف الضوئي على الصور واكتشاف الأخطاء الإملائية باستخدام Aspose.OCR في C#.
 ### [التعرف الضوئي على ترجمات الفيديو في C# – دليل كامل](./video-subtitle-ocr-in-c-complete-guide/)
 اكتشف كيفية استخراج نص ترجمات الفيديو باستخدام Aspose.OCR في C# عبر دليل شامل خطوة بخطوة.
+### [التعرف على النص من PNG في C# – دليل OCR كامل](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+تعلم كيفية استخراج النص من ملفات PNG باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [التعرف على النص المكتوب يدويًا في C# – دليل كامل خطوة بخطوة](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+تعلم استخراج النص المكتوب يدويًا باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [التعرف على النص الصيني باستخدام .NET OCR – دليل كامل](./recognize-chinese-text-with-net-ocr-complete-guide/)
+اكتشف كيفية التعرف على النص الصيني باستخدام Aspose.OCR لـ .NET خطوة بخطوة.
+### [التعرف على النص من صورة في C# – دليل كامل لمحرك OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+اكتشف كيفية التعرف على النص من الصور باستخدام محرك OCR كامل في C# مع Aspose.OCR خطوة بخطوة.
+### [ملف PDF محمي بتقنية OCR في C# – دليل كامل لاستخراج النص](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+تعلم كيفية استخراج النص من ملفات PDF المحمية بتقنية OCR باستخدام C# و Aspose.OCR خطوة بخطوة.
+### [التعرف على نص الصورة في C# – دليل OCR كامل](./recognize-text-image-in-c-full-ocr-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

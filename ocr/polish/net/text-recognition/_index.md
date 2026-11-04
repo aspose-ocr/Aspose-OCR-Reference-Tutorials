@@ -614,6 +614,23 @@ Dowiedz się, jak przy pomocy Aspose.OCR zamienić obrazy na pliki HTML, zachowu
 Dowiedz się, jak przy użyciu Aspose.OCR w C# wykonać OCR na obrazie i wykrywać błędnie napisane słowa, zwiększając jakość tekstu.
 ### [OCR napisów wideo w C# – Kompletny przewodnik](./video-subtitle-ocr-in-c-complete-guide/)
 Dowiedz się, jak używać Aspose.OCR w C# do rozpoznawania i konwertowania napisów wideo. Kompletny przewodnik krok po kroku.
+### [Rozpoznaj tekst z pliku PNG w C# – Kompletny samouczek OCR](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Pełny przewodnik po rozpoznawaniu tekstu z plików PNG w C# przy użyciu Aspose.OCR, krok po kroku.
+
+### [Rozpoznaj odręczny tekst w C# – Kompletny przewodnik krok po kroku](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Pełny przewodnik, jak rozpoznać odręczny tekst w C# przy użyciu Aspose.OCR, krok po kroku.
+
+### [Rozpoznaj chiński tekst w .NET OCR – Kompletny przewodnik](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Pełny przewodnik, jak rozpoznać chiński tekst w aplikacjach .NET przy użyciu Aspose.OCR, krok po kroku.
+
+### [Rozpoznaj tekst z obrazu w C# – Pełny samouczek silnika OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Pełny przewodnik, jak rozpoznać tekst z obrazu w C# przy użyciu silnika OCR, krok po kroku.
+
+### [Chroniony PDF OCR w C# – Kompletny przewodnik po wyodrębnianiu tekstu](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Pełny przewodnik, jak wyodrębnić tekst z chronionego pliku PDF przy użyciu OCR w C#.
+
+### [Rozpoznaj tekst z obrazu w C# – Pełny przewodnik OCR](./recognize-text-image-in-c-full-ocr-guide/)
+Kompletny przewodnik, jak rozpoznać tekst z obrazu w C# przy użyciu Aspose.OCR, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

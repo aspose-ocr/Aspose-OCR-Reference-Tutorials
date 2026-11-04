@@ -91,6 +91,10 @@ Naučte se, jak provádět OCR v C# s podporou více jazyků a zvýšit přesnos
 Ukazuje, jak pomocí Aspose OCR převést obrázek na text v C# a zakázat možnost stažení souboru.
 ### [Získání verze Aspose OCR v C# – Kompletní průvodce](./get-aspose-ocr-version-in-c-complete-guide/)
 Zjistěte, jak získat verzi Aspose.OCR v C# a ověřit kompatibilitu knihovny během vývoje.
+### [Jak používat OcrEngine v C# – Kompletní průvodce OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Kompletní návod, jak využít třídu OcrEngine v C# pro přesné rozpoznávání textu z obrázků.
+### [Vytvořit prohledávatelný PDF z obrázku – Kompletní průvodce krok za krokem](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.OCR a Aspose.PDF převést obrázek na prohledávatelný PDF soubor v několika krocích.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

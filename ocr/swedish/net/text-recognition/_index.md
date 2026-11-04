@@ -40,6 +40,9 @@ Effektivitet är nyckeln i .NET-applikationer, och Aspose.OCR är här för att 
 
 Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-filer utan ansträngning och integrera sömlöst i dina applikationer. Denna handledning ger en omfattande guide för att känna igen text i PDF-filer, vilket säkerställer en sömlös och effektiv integrationsupplevelse.
 
+### [OCR-skyddad PDF i C# – Komplett guide för att extrahera text](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Lär dig steg-för-steg hur du extraherar text från skyddade PDF-filer i C# med Aspose.OCR.
+
 ## Identifiera tabell i OCR-bildigenkänning
 
 Navigera i komplexiteten med att känna igen tabeller i OCR-bildigenkänning med Aspose.OCR för .NET. Vår omfattande guide ger dig möjlighet att låsa upp den fulla potentialen hos Aspose.OCR, vilket säkerställer korrekt och effektiv tabelligenkänning i dina applikationer. Lyft dina projekt med den branschledande OCR-lösningen.
@@ -615,6 +618,18 @@ Lär dig konvertera en bild till HTML med OCR med Aspose i en steg-för-steg-gui
 Lär dig hur du med Aspose.OCR utför OCR på en bild och identifierar felstavade ord i C# för förbättrad textanalys.
 ### [Video Undertext OCR i C# – Komplett guide](./video-subtitle-ocr-in-c-complete-guide/)
 Lär dig hur du använder Aspose.OCR i C# för att extrahera undertexter från video och konvertera dem till text.
+### [OCR-skyddad PDF i C# – Komplett guide för att extrahera text](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Lär dig steg-för-steg hur du extraherar text från skyddade PDF-filer i C# med Aspose.OCR.
+### [Känn igen text från PNG i C# – Komplett OCR-handledning](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Lär dig steg-för-steg hur du extraherar text från PNG-filer i C# med Aspose.OCR för komplett OCR-funktionalitet.
+### [Känn igen handskriven text i C# – Komplett steg‑för‑steg‑guide](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Lär dig steg-för-steg hur du känner igen handskriven text i C# med Aspose.OCR för komplett OCR-funktionalitet.
+### [Känn igen kinesisk text med .NET OCR – Komplett guide](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Lär dig steg-för-steg hur du extraherar kinesisk text från bilder med Aspose.OCR för .NET.
+### [Känn igen text från bild i C# – Fullständig OCR-motorhandledning](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Lär dig steg-för-steg hur du extraherar text från bilder i C# med Aspose.OCR:s fullständiga OCR-motor.
+### [Känn igen text från bild i C# – Fullständig OCR-guide](./recognize-text-image-in-c-full-ocr-guide/)
+Lär dig steg-för-steg hur du extraherar text från bilder i C# med en komplett OCR-guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

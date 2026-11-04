@@ -265,6 +265,8 @@ C# ile OCR güven puanlarını alıp, tanıma doğruluğunu analiz etmeyi adım 
 C# ile görüntüleri ön işleyerek OCR doğruluğunu artırın. Tam kılavuzda adım adım örnekler bulunur.
 ### [Aspose OCR C# Örneği – GPU'yu Etkinleştir, Bellek Sınırını Ayarla ve TIF Görüntülerini İşle](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Aspose.OCR for .NET ile GPU'yu etkinleştirin, bellek sınırı ayarlayın ve TIF görüntülerini işleyin.
+### [C# OCR Motorunda GPU'yu Etkinleştirme – Tam Programlama Kılavuzu](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Aspose.OCR for .NET ile GPU desteğini etkinleştirerek OCR hızını ve doğruluğunu artırın.
 
 ## Sıkça Sorulan Sorular
 

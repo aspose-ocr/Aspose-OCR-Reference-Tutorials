@@ -615,6 +615,18 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hi�
 Hướng dẫn chi tiết cách chuyển đổi hình ảnh thành HTML bằng Aspose OCR, giúp bạn nhúng nội dung văn bản đã nhận dạng vào trang web.
 ### [OCR phụ đề video trong C# – Hướng dẫn đầy đủ](./video-subtitle-ocr-in-c-complete-guide/)
 Khám phá cách sử dụng Aspose.OCR trong .NET để nhận dạng phụ đề video bằng C# một cách chi tiết và hiệu quả.
+### [Nhận dạng văn bản từ PNG trong C# – Hướng dẫn OCR toàn diện](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ tệp PNG một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn đầy đủ về Engine OCR](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh bằng engine OCR đầy đủ, nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Hướng dẫn OCR toàn diện](./recognize-text-image-in-c-full-ocr-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh một cách toàn diện và chính xác.
+### [Nhận dạng văn bản viết tay trong C# – Hướng dẫn toàn diện từng bước](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản viết tay một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản tiếng Trung bằng .NET OCR – Hướng dẫn toàn diện](./recognize-chinese-text-with-net-ocr-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong .NET để nhận dạng văn bản tiếng Trung một cách nhanh chóng và chính xác.
+### [PDF được bảo vệ bằng OCR trong C# – Hướng dẫn toàn diện để trích xuất văn bản](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ PDF được bảo vệ bằng OCR một cách nhanh chóng và chính xác.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

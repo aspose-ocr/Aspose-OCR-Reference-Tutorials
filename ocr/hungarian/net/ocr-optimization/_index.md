@@ -311,6 +311,9 @@ Fedezze fel, hogyan hajthat végre kötegelt OCR‑t C#‑ban az Aspose.OCR seg�
 ### [Aspose OCR C# példa – GPU engedélyezése, memóriahatár beállítása és TIF képek feldolgozása](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Ismerje meg, hogyan használhatja a GPU-t, állíthatja be a memória korlátot és dolgozhat fel TIF képeket az Aspose OCR C# példában.
 
+### [Hogyan engedélyezze a GPU-t C# OCR motorban – Teljes programozási útmutató](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Fedezze fel, hogyan használhatja a GPU-t az Aspose.OCR C# motorban a teljesítmény növeléséhez.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

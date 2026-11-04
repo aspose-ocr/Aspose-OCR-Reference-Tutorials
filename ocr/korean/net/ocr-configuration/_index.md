@@ -143,6 +143,10 @@ C#를 사용해 다양한 언어 이미지에서 텍스트를 추출하는 방�
 다운로드 기능을 비활성화한 상태에서 Aspose OCR을 사용해 이미지를 텍스트로 변환하는 방법을 단계별로 안내합니다.  
 ### [C#에서 Aspose OCR 버전 가져오기 – 완전 가이드](./get-aspose-ocr-version-in-c-complete-guide/)
 C# 코드에서 현재 사용 중인 Aspose OCR 라이브러리 버전을 확인하는 방법을 단계별로 안내합니다.  
+### [C#에서 OcrEngine 사용 방법 – 완전한 OCR 가이드](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Aspose.OCR의 OcrEngine을 활용해 C#에서 OCR을 구현하는 전체 단계별 가이드를 제공합니다.  
+### [이미지에서 검색 가능한 PDF 만들기 – 전체 단계별 가이드](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+이미지를 PDF로 변환하고 OCR을 적용해 검색 가능한 PDF를 만드는 전체 과정.  
 
 
 
@@ -158,7 +162,7 @@ A: 물론입니다. Aspose.OCR은 아랍어, 히브리어 등 RTL 언어를 지�
 A: 먼저 (예: Aspose.PDF 사용) 이미지 페이지를 추출한 뒤 Aspose.OCR에 전달하면 됩니다.
 
 **Q: 아카이브에 이미지가 아닌 파일이 포함되어 있으면 어떻게 되나요?**  
-A: API가 지원되지 않는 파일을 자동으로 건너뛰며, 필요 시 확장자를 기준으로 필터링할 수 있습니다.
+A: API가 지원되지 않은 파일을 자동으로 건너뛰며, 필요 시 확장자를 기준으로 필터링할 수 있습니다.
 
 **Q: 인식된 각 단어에 대한 신뢰도 점수를 얻을 수 있나요?**  
 A: 네, `OcrResult` 객체가 신뢰도 값을 제공하므로 프로그래밍적으로 확인할 수 있습니다.

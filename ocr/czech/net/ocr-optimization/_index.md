@@ -283,6 +283,8 @@ Zjistěte, jak získat a interpretovat skóre důvěry OCR v C# pro lepší kont
 Kompletní návod, jak předzpracovat obrázky v C# pro zvýšení přesnosti OCR pomocí Aspose.OCR.
 ### [Aspose OCR C# příklad – povolení GPU, nastavení limitu paměti a zpracování TIF obrázků](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Naučte se povolit GPU, nastavit limit paměti a zpracovat TIF soubory pomocí Aspose.OCR v C#.
+### [Jak povolit GPU v OCR enginu C# – Kompletní programovací průvodce](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Naučte se, jak aktivovat GPU akceleraci v OCR enginu C# pro vyšší výkon a přesnost rozpoznávání.
 
 ## Často kladené otázky
 

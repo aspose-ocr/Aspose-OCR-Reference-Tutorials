@@ -91,6 +91,10 @@ weight: 24
 تعلم استخراج النص من الصور في C# باستخدام Aspose OCR مع تعطيل خيار التحميل.
 ### [الحصول على إصدار Aspose OCR في C# – دليل كامل](./get-aspose-ocr-version-in-c-complete-guide/)
 دليل شامل يوضح طريقة استخراج رقم إصدار Aspose OCR في تطبيق C# واستخدامه في بيئة .NET.
+### [كيفية استخدام OcrEngine في C# – دليل OCR كامل](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+دليل شامل يشرح كيفية استخدام OcrEngine في C# لإجراء التعرف الضوئي على الأحرف باستخدام Aspose.OCR.
+### [إنشاء PDF قابل للبحث من صورة – دليل خطوة بخطوة كامل](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+دليل شامل لإنشاء ملف PDF قابل للبحث من صورة باستخدام Aspose.OCR خطوة بخطوة.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

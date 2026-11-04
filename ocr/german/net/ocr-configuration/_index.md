@@ -106,6 +106,9 @@ Erfahren Sie, wie Sie mit Aspose.OCR mehrsprachige OCR in C# implementieren und 
 Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln und den Download deaktivieren.
 ### [Aspose OCR-Version in C# abrufen – Komplettanleitung](./get-aspose-ocr-version-in-c-complete-guide/)
 Erfahren Sie, wie Sie die installierte Aspose.OCR-Version in C# ermitteln und prüfen.
+### [Wie man OcrEngine in C# verwendet – Vollständiger OCR-Leitfaden](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Erfahren Sie, wie Sie OcrEngine in C# einsetzen, um OCR‑Prozesse von Grund auf zu implementieren und zu optimieren.
+### [Erstellen einer durchsuchbaren PDF aus einem Bild – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

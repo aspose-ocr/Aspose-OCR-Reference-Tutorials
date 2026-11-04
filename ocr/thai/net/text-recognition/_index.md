@@ -560,6 +560,17 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีทำ OCR บนรูปภาพและตรวจจับคำที่สะกดผิดด้วย C# โดยใช้ Aspose.OCR
 ### [OCR คำบรรยายวิดีโอใน C# – คู่มือฉบับสมบูรณ์](./video-subtitle-ocr-in-c-complete-guide/)
 เรียนรู้วิธีทำ OCR คำบรรยายวิดีโอด้วย C# อย่างละเอียด พร้อมขั้นตอนครบถ้วนเพื่อแปลงคำบรรยายเป็นข้อความ
+### [PDF ที่ป้องกันด้วย OCR ใน C# – คู่มือครบถ้วนเพื่อดึงข้อความ](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
+เรียนรู้วิธีดึงข้อความจาก PDF ที่มีการป้องกันด้วย OCR ใน C# ด้วย Aspose.OCR อย่างละเอียดและง่ายต่อการทำตาม
+
+### [จดจำข้อความจาก PNG ใน C# – บทเรียน OCR ครบถ้วน](./recognize-text-from-png-in-c-complete-ocr-tutorial/)
+เรียนรู้วิธีจดจำข้อความจากไฟล์ PNG ด้วย C# โดยใช้ Aspose.OCR อย่างครบถ้วนและง่ายดาย
+### [จดจำข้อความลายมือใน C# – คู่มือเต็มขั้นตอน](./recognize-handwritten-text-in-c-full-step-by-step-guide/)
+เรียนรู้วิธีจดจำข้อความลายมือด้วย C# และ Aspose.OCR ผ่านขั้นตอนที่ละเอียดและง่ายต่อการทำตาม
+### [จดจำข้อความจากภาพใน C# – บทเรียนเต็มของ OCR Engine](./recognize-text-from-image-in-c-full-ocr-engine-tutorial/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากภาพอย่างเต็มขั้นตอนและละเอียด
+### [จดจำข้อความจากภาพใน C# – คู่มือ OCR เต็มรูปแบบ](./recognize-text-image-in-c-full-ocr-guide/)
+เรียนรู้วิธีจดจำข้อความจากภาพใน C# ด้วย Aspose.OCR อย่างละเอียดและครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

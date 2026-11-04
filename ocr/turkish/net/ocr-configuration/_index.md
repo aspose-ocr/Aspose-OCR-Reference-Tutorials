@@ -97,6 +97,10 @@ Aspose.OCR ile C# uygulamalarında çok dilli OCR işlemlerini adım adım öğr
 Aspose OCR kullanarak indirme özelliği devre dışı bırakılmış bir şekilde C# ile görüntüden metin çıkarma örneği.
 ### [C#'ta Aspose OCR Sürümünü Alın – Tam Kılavuz](./get-aspose-ocr-version-in-c-complete-guide/)
 Aspose OCR kütüphanesinin sürüm bilgisini C# kodu ile nasıl alacağınızı adım adım gösterir.
+### [C#'ta OcrEngine Nasıl Kullanılır – Tam OCR Rehberi](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Aspose.OCR OcrEngine sınıfını C# ile kullanarak tam OCR sürecini adım adım öğrenin.
+### [Görüntüden Arama Yapılabilir PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Aspose.OCR ve Aspose.PDF kullanarak tek bir görüntüden tam metin arama özelliğine sahip PDF dosyası oluşturmayı öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

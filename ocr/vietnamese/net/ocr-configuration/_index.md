@@ -148,6 +148,9 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận d�
 Hướng dẫn sử dụng Aspose OCR trong C# để chuyển hình ảnh thành văn bản mà không cho phép tải xuống kết quả.
 ### [Lấy phiên bản Aspose OCR trong C# – Hướng dẫn đầy đủ](./get-aspose-ocr-version-in-c-complete-guide/)
 Hướng dẫn chi tiết cách lấy phiên bản hiện tại của Aspose.OCR trong dự án C#.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh – Hướng dẫn chi tiết từng bước](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Hướng dẫn toàn diện cách chuyển đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR và Aspose.PDF.
+### [Cách sử dụng OcrEngine trong C# – Hướng dẫn OCR toàn diện](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
 
 
 

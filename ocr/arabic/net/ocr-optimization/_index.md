@@ -276,6 +276,8 @@ weight: 25
 اكتشف كيفية تحسين دقة OCR عبر تطبيق فلاتر ما قبل المعالجة على الصور باستخدام Aspose OCR في C#.
 ### [مثال Aspose OCR C# – تمكين GPU، ضبط حد الذاكرة ومعالجة صور TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 تعلم كيفية تمكين معالجة GPU، ضبط حد الذاكرة ومعالجة ملفات TIF باستخدام Aspose OCR في C#.
+### [كيفية تمكين GPU في محرك OCR بلغة C# – دليل برمجة كامل](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+تعلم كيفية تفعيل وحدة معالجة الرسوميات لتسريع OCR في تطبيقات C# باستخدام Aspose.OCR.
 
 ## الأسئلة المتكررة
 

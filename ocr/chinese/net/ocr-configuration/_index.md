@@ -137,6 +137,10 @@ weight: 24
 了解如何在 C# 中使用 Aspose.OCR 进行多语言文本识别，涵盖语言设置、示例代码和最佳实践。  
 ### [图像转文本 C# – Aspose OCR（禁用下载）](./image-to-text-c-aspose-ocr-with-disabled-download/)
 ### [在 C# 中获取 Aspose OCR 版本 – 完整指南](./get-aspose-ocr-version-in-c-complete-guide/)
+### [如何在 C# 中使用 OcrEngine – 完整 OCR 指南](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+全面讲解在 C# 项目中使用 OcrEngine 进行 OCR 的步骤、配置和最佳实践。  
+### [从图像创建可搜索 PDF – 完整分步指南](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+详细步骤演示如何使用 Aspose.OCR 将图像转换为可搜索的 PDF 文档。  
 
 
 

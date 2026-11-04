@@ -287,6 +287,9 @@ OCR の信頼度スコア取得方法と活用法をステップバイステッ�
 ### [Aspose OCR C# サンプル – GPU を有効化し、メモリ制限を設定、TIF 画像を処理](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 GPU を活用しメモリ上限を設定して、TIF 画像の OCR 処理を高速化する C# サンプルです。
 
+### [C# OCR エンジンで GPU を有効にする方法 – 完全プログラミングガイド](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+GPU を活用して OCR 処理を高速化する手順をステップバイステップで解説します。C# での実装方法を網羅。
+
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  
