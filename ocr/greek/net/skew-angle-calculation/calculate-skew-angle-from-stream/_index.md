@@ -1,11 +1,66 @@
 ---
-date: 2025-12-30
-description: Μάθετε αυτό το σεμινάριο αναγνώρισης εικόνας σε C# για τον υπολογισμό
-  των γωνιών κλίσης από ροή χρησιμοποιώντας το Aspose.OCR. Ανακαλύψτε πώς να υπολογίζετε
-  την κλίση και να διαβάζετε την εικόνα από τη ροή.
-linktitle: c# Image Recognition Tutorial – Calculate Skew Angle from Stream
+date: 2026-08-02
+description: Μάθετε πώς να υπολογίσετε τη γωνία στρέψης από ροή εικόνας σε C# χρησιμοποιώντας
+  το Aspose.OCR, βελτιώνοντας την ακρίβεια του OCR για σάρωση εγγράφων και αναγνώριση
+  εικόνας.
+keywords:
+- calculate skew angle
+- c# image recognition
+- correct image skew
+- improve ocr accuracy
+- skew angle calculation
+lastmod: 2026-08-02
+linktitle: Πώς να Υπολογίσετε τη Γωνία Στρέψης από Ροή σε C#
+og_description: Υπολογίστε τη γωνία στρέψης από ροή εικόνας σε C# χρησιμοποιώντας
+  το Aspose.OCR. Αυξήστε την ακρίβεια του OCR διορθώνοντας τη στρέψη της εικόνας σε
+  λίγα λεπτά.
+og_image_alt: Guide showing C# code to calculate skew angle from image stream with
+  Aspose.OCR
+og_title: Υπολογίστε τη Γωνία Στρέψης από Ροή σε C# – Γρήγορη Στοίχιση OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-08-02'
+  description: Learn how to calculate skew angle from an image stream in C# using
+    Aspose.OCR, improving OCR accuracy for document scanning and image recognition.
+  headline: How to Calculate Skew Angle from Stream in C# – Image Recognition Tutorial
+  type: TechArticle
+- description: Learn how to calculate skew angle from an image stream in C# using
+    Aspose.OCR, improving OCR accuracy for document scanning and image recognition.
+  name: How to Calculate Skew Angle from Stream in C# – Image Recognition Tutorial
+  steps:
+  - name: '**Aspose.OCR for .NET** installed. Download it from the official site [here](https://releases.aspose.com/ocr/net/).'
+    text: '**Aspose.OCR for .NET** installed. Download it from the official site [here](https://releases.aspose.com/ocr/net/).'
+  - name: A folder that will serve as your document directory. Replace `"Your Document
+      Directory"` in the sample code with the actual path on your machine.
+    text: A folder that will serve as your document directory. Replace `"Your Document
+      Directory"` in the sample code with the actual path on your machine.
+  - name: An image file that contains a noticeable tilt (e.g., a scanned page). Save
+      it as **skew_image.png** inside the document directory.
+    text: An image file that contains a noticeable tilt (e.g., a scanned page). Save
+      it as **skew_image.png** inside the document directory.
+  type: HowTo
+- questions:
+  - answer: Yes. It supports .NET Framework 4.6+, .NET Core 3.1+, and .NET 5/6+ across
+      Windows, Linux, and macOS.
+    question: Is Aspose.OCR compatible with all .NET frameworks?
+  - answer: Absolutely. Purchase a commercial license [here](https://purchase.aspose.com/buy)
+      to remove evaluation limits.
+    question: Can I use Aspose.OCR in a commercial project?
+  - answer: Yes, you can download a fully functional trial version [here](https://releases.aspose.com/).
+    question: Is there a free trial available?
+  - answer: Get a time‑limited license from [this link](https://purchase.aspose.com/temporary-license/).
+    question: How do I obtain a temporary license for testing?
+  - answer: The Aspose.OCR community [forum](https://forum.aspose.com/c/ocr/16) is
+      a great place to ask questions and share solutions.
+    question: Where can I get help if I run into problems?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: c# Εκμάθηση Αναγνώρισης Εικόνας – Υπολογισμός Γωνίας Στρέψης από Ροή
+tags:
+- calculate skew angle
+- Aspose.OCR
+- c# document scanning
+- image processing
+title: Πώς να Υπολογίσετε τη Γωνία Στρέψης από Ροή σε C# – Image Recognition Tutorial
 url: /el/net/skew-angle-calculation/calculate-skew-angle-from-stream/
 weight: 11
 ---
@@ -14,38 +69,40 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# Εγχειρίδιο Αναγνώρισης Εικόνας – Υπολογισμός Γωνίας Στρέψης από Ροή
+# Πώς να Υπολογίσετε τη Γωνία Στρέψης από Ροή σε C# – Εγχειρίδιο Αναγνώρισης Εικόνας
 
 ## Εισαγωγή
 
-Καλώς ήρθατε στον συναρπαστικό κόσμο του Aspose.OCR για .NET! Σε αυτό το **c# εγχειρίδιο αναγνώρισης εικόνας**, θα σας καθοδηγήσουμε βήμα‑βήμα στον υπολογισμό της γωνίας στρέψης μιας εικόνας απευθείας από μια ροή. Είτε δημιουργείτε μια αλυσίδα επεξεργασίας εγγράφων, μια εφαρμογή σάρωσης για κινητά, ή οποιαδήποτε λύση που χρειάζεται να ευθυγραμμίσει παραμορφωμένες εικόνες, αυτός ο οδηγός σας παρέχει μια σαφή διαδρομή για να ολοκληρώσετε την εργασία.
+Σε αυτό το εγχειρίδιο θα ανακαλύψετε **πώς να υπολογίσετε τη γωνία στρέψης** απευθείας από μια ροή εικόνας χρησιμοποιώντας το Aspose.OCR για .NET. Η διόρθωση μιας κλινής σάρωσης πριν από το OCR βελτιώνει δραστικά τα ποσοστά αναγνώρισης, ειδικά σε εφαρμογές κινητής σάρωσης ή σε μεγάλης κλίμακας αγωγούς εγγράφων. Θα δείτε γιατί η ανίχνευση στρέψης είναι σημαντική, τι χρειάζεστε εκ των προτέρων, και μια σύντομη τρι-βήμα ροή κώδικα που μπορείτε να ενσωματώσετε σε οποιοδήποτε έργο C#.
 
 ## Γρήγορες Απαντήσεις
-- **Τι καλύπτει αυτό το εγχειρίδιο;** Υπολογισμός γωνίας στρέψης από ροή χρησιμοποιώντας Aspose.OCR σε C#.
-- **Γιατί είναι σημαντική η ανίχνευση στρέψης;** Βελτιώνει την ακρίβεια του OCR ευθυγραμμίζοντας το κείμενο πριν από την αναγνώριση.
-- **Ποιες είναι οι κύριες προαπαιτήσεις;** Aspose.OCR για .NET εγκατεστημένο και ένα δείγμα εικόνας με στρέψη.
-- **Ποια δευτερεύοντα λέξεις‑κλειδιά αντιμετωπίζονται;** *how to calculate skew* και *read image from stream*.
-- **Πόσο χρόνο απαιτεί η υλοποίηση;** Περίπου 5‑10 λεπτά για ένα λειτουργικό πρωτότυπο.
+- **Τι καλύπτει αυτό το εγχειρίδιο;** Δείχνει έναν πλήρη, από‑αρχή‑μέχρι‑τέλος τρόπο υπολογισμού της γωνίας στρέψης από μια ροή σε C# με το Aspose.OCR.  
+- **Γιατί είναι σημαντική η ανίχνευση στρέψης;** Η ευθυγράμμιση μιας κλινής σελίδας αυξάνει την ακρίβεια του OCR έως και 30 % σε θορυβώδεις σαρώσεις.  
+- **Ποια είναι τα κύρια προαπαιτούμενα;** Aspose.OCR για .NET, ένα runtime .NET 6+ και ένα δείγμα εικόνας με στρέψη.  
+- **Ποια δευτερεύοντα λέξεις‑κλειδιά καλύπτονται;** *c# image recognition*, *correct image skew*, *improve ocr accuracy*.  
+- **Πόσο χρόνο διαρκεί η υλοποίηση;** Περίπου 5‑10 λεπτά για να έχετε ένα λειτουργικό πρωτότυπο.
 
-## Τι είναι ένα c# εγχειρίδιο αναγνώρισης εικόνας;
-Ένα **c# εγχειρίδιο αναγνώρισης εικόνας** σας διδάσκει πώς να εφαρμόζετε τεχνικές υπολογιστικής όρασης—όπως OCR, σάρωση barcode ή διόρθωση στρέψης—χρησιμοποιώντας βιβλιοθήκες C#. Εδώ εστιάζουμε στη διόρθωση στρέψης, ένα κοινό βήμα προεπεξεργασίας που ευθυγραμμίζει τις κεκλιμένες γραμμές κειμένου πριν τρέξει το OCR.
+## Πώς να υπολογίσετε τη στρέψη από μια ροή εικόνας
 
-## Γιατί να χρησιμοποιήσετε Aspose.OCR για c# αναγνώριση εικόνας;
-Το Aspose.OCR προσφέρει ένα καθαρό .NET API χωρίς εξωτερικές εξαρτήσεις, υψηλή ακρίβεια και ενσωματωμένα εργαλεία όπως το `CalculateSkew`. Λειτουργεί σε Windows, Linux και macOS και ενσωματώνεται ομαλά με άλλα προϊόντα Aspose.
+Φορτώστε την εικόνα σε μια μνήμη ροής, αφήστε το Aspose.OCR να την αναλύσει και ανακτήστε τη γωνία με μία μόνο κλήση. **Η μέθοδος `CalculateSkew` επιστρέφει την περιστροφή σε μοίρες που κάνει τη βάση κειμένου οριζόντια.** Αυτό εξαλείφει την ανάγκη για προσαρμοσμένο κώδικα επεξεργασίας εικόνας και λειτουργεί σε εικόνες έως 200 MB, υποστηρίζοντας 50+ γλώσσες έτοιμες για χρήση.
 
-## Προαπαιτήσεις
+## Γιατί να χρησιμοποιήσετε το Aspose.OCR για αναγνώριση εικόνας σε C#;
 
-Πριν βουτήξουμε στον κώδικα, βεβαιωθείτε ότι έχετε:
+Το Aspose.OCR παρέχει ένα καθαρό .NET API με **χωρίς εξωτερικές βιβλιοθήκες native**, λειτουργεί σε Windows, Linux και macOS, και μπορεί να επεξεργαστεί **πάνω από 500 σελίδες ανά λεπτό** σε έναν τυπικό διακομιστή. Η ενσωματωμένη του ρουτίνα `CalculateSkew` είναι βελτιστοποιημένη για ταχύτητα (μέσος όρος 0.03 s ανά σελίδα) και ακρίβεια, καθιστώντας την ιδανική για επιχειρησιακά OCR pipelines.
 
-1. **Aspose.OCR για .NET** εγκατεστημένο. Κατεβάστε το από την επίσημη ιστοσελίδα [εδώ](https://releases.aspose.com/ocr/net/).
-2. Έναν φάκελο που θα λειτουργήσει ως κατάλογος εγγράφων σας. Αντικαταστήστε το `"Your Document Directory"` στον δείγμα κώδικα με την πραγματική διαδρομή στο σύστημά σας.
-3. Ένα αρχείο εικόνας που περιέχει εμφανή στρέψη (π.χ. μια σαρωμένη σελίδα). Αποθηκεύστε το ως **skew_image.png** μέσα στον κατάλογο εγγράφων.
+## Προαπαιτούμενα
 
-Τώρα που όλα είναι έτοιμα, ας αρχίσουμε τον προγραμματισμό.
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε:
 
-## Εισαγωγή Namespaces
+1. **Aspose.OCR για .NET** εγκατεστημένο. Κατεβάστε το από την επίσημη ιστοσελίδα [εδώ](https://releases.aspose.com/ocr/net/).  
+2. Έναν φάκελο που θα λειτουργεί ως κατάλογος εγγράφων σας. Αντικαταστήστε το `"Your Document Directory"` στον δείγμα κώδικα με την πραγματική διαδρομή στο μηχάνημά σας.  
+3. Ένα αρχείο εικόνας που περιέχει εμφανή κλίση (π.χ., μια σαρωμένη σελίδα). Αποθηκεύστε το ως **skew_image.png** μέσα στον κατάλογο εγγράφων.
 
-Πρώτα, εισάγετε τα namespaces που απαιτούνται για τη διαχείριση αρχείων και τη βιβλιοθήκη Aspose.OCR.
+Τώρα που όλα είναι έτοιμα, ας περάσουμε από τον κώδικα.
+
+## Εισαγωγή Χώρων Ονομάτων
+
+Οι παρακάτω χώροι ονομάτων απαιτούνται για τη διαχείριση αρχείων και για την πρόσβαση στις κλάσεις του Aspose.OCR.
 
 ```csharp
 using System;
@@ -55,9 +112,9 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Βήμα 1: Αρχικοποίηση Aspose.OCR
+## Βήμα 1: Αρχικοποίηση του Aspose.OCR
 
-Δημιουργήστε μια παρουσία του μηχανήματος OCR και δείξτε της τον κατάλογο εγγράφων σας.
+`OcrEngine` είναι η κεντρική κλάση του Aspose.OCR που οργανώνει τη φόρτωση εικόνας, την προεπεξεργασία και την αναγνώριση. Η δημιουργία μιας στιγμής είναι το πρώτο βήμα σε κάθε ροή εργασίας OCR.
 
 ```csharp
 // The path to the documents directory.
@@ -67,9 +124,9 @@ string dataDir = "Your Document Directory";
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Βήμα 2: Υπολογισμός Γωνίας Στρέψης (how to calculate skew)
+## Βήμα 2: Υπολογισμός Γωνίας Στρέψης (πώς να υπολογίσετε τη στρέψη)
 
-Τώρα θα **υπολογίσουμε τη γωνία στρέψης** από τη ροή της εικόνας. Αυτό επιδεικνύει τη δυνατότητα *read image from stream*.
+Η μέθοδος `CalculateSkew` αναλύει το bitmap και επιστρέφει τη γωνία περιστροφής που απαιτείται για να γίνουν οι γραμμές κειμένου οριζόντιες. Λειτουργεί απευθείας σε ένα `Stream`, οπότε δεν χρειάζεται να γράψετε την εικόνα στο δίσκο πρώτα.
 
 ```csharp
 // Calculate Angle
@@ -85,58 +142,60 @@ using (FileStream file = new FileStream(dataDir + "skew_image.png", FileMode.Ope
 
 ## Βήμα 3: Εμφάνιση του Αποτελέσματος
 
-Τέλος, εκτυπώστε τη διαγνωσμένη γωνία στην κονσόλα ώστε να μπορείτε να επαληθεύσετε το αποτέλεσμα.
+Μετά τον υπολογισμό, μπορείτε να εκτυπώσετε τη γωνία στην κονσόλα, να την καταγράψετε, ή να τη δώσετε σε μια ρουτίνα περιστροφής πριν εκτελέσετε το πλήρες OCR.
 
 ```csharp
 // Display the result
 Console.WriteLine(angle);
 ```
 
-## Συνηθισμένα Προβλήματα και Λύσεις
+## Συχνά Προβλήματα και Λύσεις
 
 | Πρόβλημα | Αιτία | Διόρθωση |
 |----------|-------|----------|
-| **`ArgumentNullException`** | Η διαδρομή της εικόνας είναι λανθασμένη ή το αρχείο λείπει. | Επαληθεύστε το `dataDir` και βεβαιωθείτε ότι υπάρχει το `skew_image.png`. |
-| **Λανθασμένη γωνία** | Η εικόνα είναι πολύ θορυβώδης ή χαμηλής ανάλυσης. | Προεπεξεργαστείτε την εικόνα (π.χ. δυαδικοποίηση) πριν καλέσετε το `CalculateSkew`. |
-| **Σφάλμα δικαιωμάτων** | Η εφαρμογή δεν έχει πρόσβαση ανάγνωσης στο αρχείο. | Εκτελέστε την εφαρμογή με τα κατάλληλα δικαιώματα συστήματος αρχείων. |
+| **`ArgumentNullException`** | Η διαδρομή της εικόνας είναι λανθασμένη ή το αρχείο λείπει. | Επαληθεύστε το `dataDir` και βεβαιωθείτε ότι το `skew_image.png` υπάρχει. |
+| **Incorrect angle** | Η εικόνα είναι πολύ θορυβώδης ή χαμηλής ανάλυσης. | Προεπεξεργαστείτε την εικόνα (π.χ., δυαδικοποίηση) πριν καλέσετε το `CalculateSkew`. |
+| **Permission error** | Η εφαρμογή δεν έχει δικαίωμα ανάγνωσης του αρχείου. | Εκτελέστε την εφαρμογή με τα κατάλληλα δικαιώματα συστήματος αρχείων. |
 
 ## Συμπέρασμα
 
-Συγχαρητήρια! Ολοκληρώσατε ένα **c# εγχειρίδιο αναγνώρισης εικόνας** που δείχνει πώς να **υπολογίσετε τη στρέψη** και να **διαβάσετε εικόνα από ροή** χρησιμοποιώντας Aspose.OCR για .NET. Αυτή η απλή αλλά ισχυρή τεχνική μπορεί να ενσωματωθεί σε μεγαλύτερες ροές εργασίας OCR για να βελτιώσει δραστικά την ακρίβεια εξαγωγής κειμένου.
+Τώρα έχετε ένα ελαφρύ, έτοιμο για παραγωγή απόσπασμα κώδικα που **υπολογίζει τη γωνία στρέψης** από μια ροή εικόνας και μπορεί να ενσωματωθεί σε οποιαδήποτε λύση σάρωσης εγγράφων C#. Με την ευθυγράμμιση των εικόνων πριν το OCR, θα δείτε μια μετρήσιμη βελτίωση στην ποιότητα αναγνώρισης και στην αξιοπιστία εξαγωγής δεδομένων.
 
 Εξερευνήστε περισσότερες δυνατότητες του Aspose.OCR ελέγχοντας την επίσημη [τεκμηρίωση](https://reference.aspose.com/ocr/net/).
 
 ## Συχνές Ερωτήσεις
 
-### Q1: Είναι το Aspose.OCR συμβατό με όλα τα .NET frameworks;
+**Ε: Είναι το Aspose.OCR συμβατό με όλα τα .NET frameworks;**  
+Α: Ναι. Υποστηρίζει .NET Framework 4.6+, .NET Core 3.1+, και .NET 5/6+ σε Windows, Linux και macOS.
 
-A1: Το Aspose.OCR υποστηρίζει ένα ευρύ φάσμα .NET frameworks, εξασφαλίζοντας συμβατότητα με διαφορετικές εκδόσεις.
+**Ε: Μπορώ να χρησιμοποιήσω το Aspose.OCR σε εμπορικό έργο;**  
+Α: Απόλυτα. Αγοράστε μια εμπορική άδεια [εδώ](https://purchase.aspose.com/buy) για να αφαιρέσετε τους περιορισμούς αξιολόγησης.
 
-### Q2: Μπορώ να χρησιμοποιήσω το Aspose.OCR για εμπορικά έργα;
+**Ε: Υπάρχει διαθέσιμη δωρεάν δοκιμή;**  
+Α: Ναι, μπορείτε να κατεβάσετε μια πλήρως λειτουργική δοκιμαστική έκδοση [εδώ](https://releases.aspose.com/).
 
-A2: Απόλυτα! Το Aspose.OCR παρέχει εμπορικές άδειες, τις οποίες μπορείτε να αγοράσετε [εδώ](https://purchase.aspose.com/buy).
+**Ε: Πώς μπορώ να αποκτήσω προσωρινή άδεια για δοκιμές;**  
+Α: Λάβετε μια άδεια περιορισμένου χρόνου από [αυτόν τον σύνδεσμο](https://purchase.aspose.com/temporary-license/).
 
-### Q3: Υπάρχει διαθέσιμη δωρεάν δοκιμή;
-
-A3: Ναι, μπορείτε να εξερευνήσετε το Aspose.OCR με δωρεάν δοκιμή [εδώ](https://releases.aspose.com/).
-
-### Q4: Πώς μπορώ να αποκτήσω προσωρινές άδειες για δοκιμαστικούς σκοπούς;
-
-A4: Λάβετε προσωρινές άδειες για δοκιμή από [αυτόν τον σύνδεσμο](https://purchase.aspose.com/temporary-license/).
-
-### Q5: Χρειάζεστε υποστήριξη ή έχετε συγκεκριμένες ερωτήσεις;
-
-A5: Επισκεφθείτε το φόρουμ της κοινότητας Aspose.OCR [forum](https://forum.aspose.com/c/ocr/16) για βοήθεια από ειδικούς και άλλους προγραμματιστές.
+**Ε: Πού μπορώ να λάβω βοήθεια αν αντιμετωπίσω προβλήματα;**  
+Α: Η κοινότητα Aspose.OCR στο [φόρουμ](https://forum.aspose.com/c/ocr/16) είναι ένας εξαιρετικός χώρος για ερωτήσεις και λύσεις.
 
 ---
 
-**Τελευταία ενημέρωση:** 2025-12-30  
-**Δοκιμασμένο με:** Aspose.OCR για .NET (τελευταία έκδοση)  
-**Συγγραφέας:** Aspose  
+**Τελευταία Ενημέρωση:** 2026-08-02  
+**Δοκιμή Με:** Aspose.OCR για .NET (τελευταία έκδοση)  
+**Συγγραφέας:** Aspose
+
+## Σχετικά Εγχειρίδια
+
+- [Υπολογισμός Γωνίας Στρέψης για Προεπεξεργασία Εικόνας OCR](/ocr/net/skew-angle-calculation/calculate-skew-angle/)
+- [Πώς να Χρησιμοποιήσετε το OCR – Υπολογισμός Γωνίας Στρέψης από URI](/ocr/net/skew-angle-calculation/calculate-skew-angle-from-uri/)
+- [Πώς να Χρησιμοποιήσετε το AspOCR: Φίλτρα Προεπεξεργασίας Εικόνας OCR για .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

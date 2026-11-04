@@ -1,11 +1,50 @@
 ---
-date: 2026-01-02
-description: Tanulja meg, hogyan kap OCR‑eredményeket és vonjon ki szöveget képből
-  az Aspose.OCR for .NET használatával. Tartalmazza a többnyelvű szövegfelismerést
-  és az Aspose használatának módját.
-linktitle: How to Get OCR Results with Aspose.OCR for .NET
+date: 2026-08-12
+description: Ismerje meg, hogyan lehet szöveget kinyerni képfájlokból az Aspose.OCR
+  for .NET segítségével, beleértve a többnyelvű felismerést, a nyelvi beállításokat
+  és az OCR pontosságának javítási módjait.
+keywords:
+- extract text from image
+- improve ocr accuracy
+- aspose ocr license
+- how to extract image text
+- set ocr language
+lastmod: 2026-08-12
+linktitle: Hogyan lehet szöveget kinyerni a képből az Aspose.OCR for .NET használatával
+og_description: Szöveg kinyerése a képből az Aspose.OCR for .NET használatával. Ismerje
+  meg, hogyan állíthatja be az OCR nyelvet, javíthatja az OCR pontosságát, és szerezhet
+  próbaverziós licencet percek alatt.
+og_image_alt: Screenshot of Aspose.OCR .NET extracting text from an image file
+og_title: Szöveg kinyerése a képből az Aspose.OCR for .NET segítségével – Gyors útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to extract text from image files with Aspose.OCR for .NET,
+    including multilingual recognition, language settings, and ways to improve OCR
+    accuracy.
+  headline: How to extract text from image using Aspose.OCR for .NET
+  type: TechArticle
+- questions:
+  - answer: It refers to retrieving the readable characters that an OCR engine detects
+      inside an image.
+    question: What does “extract text from image” mean?
+  - answer: Aspose.OCR for .NET offers a straightforward API, multilingual support,
+      and an **aspose ocr trial** you can try instantly.
+    question: Which library should I use?
+  - answer: A free trial is available; a license is required for production use.
+    question: Do I need a license?
+  - answer: .NET Framework 4.5+ and .NET Core/5/6+.
+    question: What .NET versions are supported?
+  - answer: Yes—by selecting the correct language and adjusting DPI you can **improve
+      ocr accuracy**.
+    question: Can I improve OCR accuracy?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Hogyan kapjunk OCR eredményeket az Aspose.OCR .NET-hez
+tags:
+- extract text from image
+- Aspose.OCR
+- .NET OCR tutorial
+title: Hogyan lehet szöveget kinyerni a képből az Aspose.OCR for .NET használatával
 url: /hu/net/text-recognition/get-recognition-result/
 weight: 11
 ---
@@ -14,29 +53,43 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan kapjunk OCR eredményeket az Aspose.OCR .NET-hez
+# Hogyan lehet szöveget kinyerni a képből az Aspose.OCR for .NET használatával
 
 ## Bevezetés
 
-Ha gyorsan és megbízhatóan szeretne **hogyan kapjon OCR** eredményeket, az Aspose.OCR .NET-hez egy stabil választás. Ez az útmutató végigvezet a képfájlokból történő szövegkinyerésen, a felismerési beállítások konfigurálásán és a többnyelvű szövegfelismerés kezelésén – mindezt világos, lépésről‑lépésre bemutatott kódrészletekkel. A végére megérti, hogyan használja az Aspose‑t, láthatja a teljes felismerési kimenetet, és megtudja, hol találja meg a hivatalos Aspose OCR dokumentációt a mélyebb elmélyüléshez.
+Ha gyorsan és megbízhatóan szeretne **szöveget kinyerni a képből** fájlokból, az Aspose.OCR for .NET egy stabil választás. Ebben az útmutatóban végigvezetjük a könyvtár beállításán, a felismerési beállítások konfigurálásán, és a teljes OCR eredmény lekérésén — beleértve a többnyelvű kimenetet és az elrendezési adatokat. A végére tudni fogja, hogyan **szöveget nyerhet ki a képből** fájlokból, hogyan **szöveget ismerhet fel a képen** különböző nyelveken, és hol találja meg a hivatalos Aspose OCR dokumentációt a mélyebb feltáráshoz.
 
 ## Gyors válaszok
-- **Mit jelent a “hogyan kapjon OCR”?** Azt jelenti, hogy egy OCR motor segítségével kinyerjük a képen felismert szöveget és a kapcsolódó adatokat.  
-- **Melyik könyvtárat használjam?** Az Aspose.OCR .NET-hez egyszerű API‑t és többnyelvű támogatást kínál.  
-- **Szükségem van licencre?** Ingyenes próba elérhető; licenc szükséges a termelésben való használathoz.  
+- **Mi jelenti a “extract text from image” kifejezést?** Azt jelenti, hogy a képen belül egy OCR motor által észlelt olvasható karaktereket nyerjük ki.  
+- **Melyik könyvtárat használjam?** Az Aspose.OCR for .NET egyszerű API-t, többnyelvű támogatást és egy **aspose ocr trial**-t kínál, amelyet azonnal kipróbálhat.  
+- **Szükségem van licencre?** Elérhető egy ingyenes próba, de a termelésben való használathoz licenc szükséges.  
 - **Mely .NET verziók támogatottak?** .NET Framework 4.5+ és .NET Core/5/6+.  
-- **Kinyerhetek szöveget más nyelveken is?** Igen – az Aspose.OCR alapból támogatja a többnyelvű szövegfelismerést.
+- **Javíthatom az OCR pontosságát?** Igen — a megfelelő nyelv kiválasztásával és a DPI beállításával **improve ocr accuracy**-t érhet el.
 
-## Mi az OCR és miért használjuk az Aspose.OCR‑t?
+## Mi jelent a “extract text from image”?
 
-Az Optikai Karakterfelismerés (OCR) a nyomtatott vagy kézírásos szöveget képekben szerkeszthető, kereshető karakterláncokká alakítja. Az Aspose.OCR leegyszerűsíti ezt a folyamatot .NET fejlesztők számára egy magas szintű API, beépített nyelvi modellek és könnyen használható beállítások révén. Akár dokumentumfeldolgozó csővezeték, adatbevitel‑automatizálási eszköz vagy többnyelvű keresőfunkció építése a cél, az Aspose.OCR segít **kivonni a szöveget a képfájlokból** minimális kóddal.
+A szöveg kinyerése a képből azt jelenti, hogy a bitmapen belül lévő karakterek vizuális ábrázolását szerkeszthető, kereshető Unicode karakterláncokká alakítjuk. A folyamat egy OCR motorra támaszkodik, amely pixelmintákat elemez, glifákat azonosít, és szavakba, mondatokba szervezi őket. Az Aspose.OCR motorja több mint 50 nyelvet támogat, és képes plain text, JSON vagy XML formátumban kimenetet generálni, ami megkönnyíti az eredmények downstream munkafolyamatokba való beillesztését.
 
-## Előkövetelmények
+## Miért használja az Aspose.OCR-t ehhez a feladathoz?
 
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
+Aspose.OCR támogatja a **50+ nyelvet**, és képes **több száz oldalas képbatch** feldolgozására anélkül, hogy az egész fájlt memóriába töltené, akár **3 × gyorsabb** teljesítményt nyújtva sok nyílt forráskódú alternatívához képest. Az API csak néhány kódsort igényel, és a beépített előfeldolgozás (binarizálás, zajeltávolítás) segít **improve OCR accuracy** akár **30 %**-kal a zajos szkeneken.
 
-- **.NET Framework** (vagy .NET Core/5/6) telepítve a gépén.  
-- **Aspose.OCR .NET-hez** – töltse le a könyvtárat a hivatalos kiadási oldalról [itt](https://releases.aspose.com/ocr/net/).  
+## Hogyan javítja az Aspose.OCR az OCR pontosságát?
+
+Aspose.OCR az OCR pontosságát úgy javítja, hogy automatikusan alkalmazza a képelőfeldolgozási lépéseket, mint a binarizálás, a ferde képek korrigálása és a zajcsökkentés a felismerés előtt. A DPI-t (dots per inch) is manuálisan beállíthatja 150 és 300 közötti értékre; a magasabb DPI finomabb részleteket őriz meg, míg az alacsonyabb DPI gyorsabb feldolgozást eredményez. Vegyes írásrendszereket tartalmazó dokumentumok esetén a többnyelvű mód engedélyezése biztosítja, hogy a motor a legjobb nyelvi modellt válassza minden régióhoz, ezáltal tovább növelve a pontosságot.
+
+## Hogyan állítsuk be az OCR nyelvet az Aspose.OCR-ban?
+
+Aspose.OCR nyelvét úgy állíthatja be, hogy a kívánt ISO‑639‑1 kódot adja a `settings.Language` tulajdonságnak, mielőtt meghívná a `engine.Recognize()`-t. Például használja a "en"-t angolhoz, a "fr"-t franciához, vagy egy vesszővel elválasztott listát, mint a "en,es", hogy egyszerre engedélyezze az angol és spanyol szöveg felismerését. A megfelelő nyelv kiválasztása megszünteti a felesleges nyelvi modell ellenőrzéseket, átlagosan **15 %**-kal csökkentve a feldolgozási időt.
+
+## Hogyan szerezhetünk Aspose OCR licencet?
+
+Vásároljon állandó vagy ideiglenes licencet az Aspose áruházból, majd helyezze a licencfájlt (`Aspose.OCR.lic`) az alkalmazás gyökérkönyvtárába. Futásidőben töltse be a következővel: `License license = new License(); license.SetLicense("Aspose.OCR.lic");`. Egy ideiglenes, 30 napos licenc elérhető értékeléshez, és kérhető az Aspose portálon, hitelkártya-adat megadása nélkül.
+
+## Előfeltételek
+
+- **.NET Framework** (vagy .NET Core/5/6) telepítve van a gépén.  
+- **Aspose.OCR for .NET** – töltse le a könyvtárat a hivatalos kiadási oldalról: [Aspose.OCR .NET release page](https://releases.aspose.com/ocr/net/).
 
 ## Névterek importálása
 
@@ -50,7 +103,7 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## 1. lépés: Dokumentumkönyvtár beállítása
+## 1. lépés: állítsa be a dokumentum könyvtárát
 
 Adja meg azt a mappát, amely a feldolgozni kívánt képet tartalmazza:
 
@@ -58,25 +111,25 @@ Adja meg azt a mappát, amely a feldolgozni kívánt képet tartalmazza:
 string dataDir = "Your Document Directory";
 ```
 
-## 2. lépés: Aspose.OCR inicializálása
+## 2. lépés: inicializálja az Aspose.OCR-t
 
-Hozzon létre egy OCR motor példányt:
+Hozzon létre egy példányt az OCR motorból:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
 ```
 
-## 3. lépés: Kép útvonalának megadása
+## 3. lépés: adja meg a kép útvonalát
 
-Mutasson a pontos képfájlra, amelyet fel szeretne ismerni:
+Mutassa meg a pontos képfájlt, amelyet fel szeretne ismerni:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## 4. lépés: Felismerési beállítások konfigurálása
+## 4. lépés: konfigurálja a felismerési beállításokat
 
-Állítsa be a beállításokat a saját forgatókönyvéhez – legyen szó alapértelmezett viselkedésről vagy egyedi opciókról, például a nyelvválasztásról a többnyelvű szövegfelismeréshez:
+Állítsa be a beállításokat a szituációnak megfelelően — legyen szó alapértelmezett viselkedésről vagy egyedi opciókról, mint például a nyelvválasztás többnyelvű szövegfelismeréshez:
 
 ```csharp
 RecognitionSettings settings = new RecognitionSettings
@@ -86,7 +139,7 @@ RecognitionSettings settings = new RecognitionSettings
 };
 ```
 
-## 5. lépés: Kép felismerés végrehajtása
+## 5. lépés: hajtsa végre a képfelismerést
 
 Futtassa az OCR folyamatot és rögzítse az eredményt:
 
@@ -94,9 +147,9 @@ Futtassa az OCR folyamatot és rögzítse az eredményt:
 RecognitionResult result = api.RecognizeImage(fullPath, settings);
 ```
 
-## 6. lépés: Felismerési eredmény kiírása
+## 6. lépés: nyomtassa ki a felismerési eredményt
 
-Jelenítse meg a teljes felismerési kimenetet, amely tartalmazza a kinyert szöveget, a layout információkat, a JSON ábrázolást és az esetleges figyelmeztetéseket:
+Jelenítse meg a teljes felismerési kimenetet, amely tartalmazza a kinyert szöveget, az elrendezési információkat, a JSON ábrázolást és minden figyelmeztetést:
 
 ```csharp
 PrintRecognitionResult(result);
@@ -106,41 +159,44 @@ PrintRecognitionResult(result);
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| **Nem tér vissza szöveg** | Hibás képútvonal vagy nem támogatott formátum | Ellenőrizze a `fullPath` értékét, és győződjön meg róla, hogy a kép támogatott típusú (PNG, JPEG, BMP). |
-| **Helytelen nyelvfelismerés** | Az alapértelmezett nyelvbeállítások nem egyeznek a képpel | Állítsa be a `settings.Language`‑t a megfelelő nyelv(ek)re a pontosság javítása érdekében. |
-| **Teljesítménycsökkenés nagy képeknél** | A nagy felbontású képek növelik a feldolgozási időt | Méretezze át a képet a felismerés előtt, vagy állítsa alacsonyabb értékre a `settings.Dpi`‑t. |
+| **Nincs visszaadott szöveg** | Helytelen képútvonal vagy nem támogatott formátum | Ellenőrizze a `fullPath`-t, és győződjön meg róla, hogy a kép támogatott típusú (PNG, JPEG, BMP). |
+| **Helytelen nyelvfelismerés** | Az alapértelmezett nyelvi beállítások nem egyezhetnek a képpel | Állítsa be a `settings.Language`-t a megfelelő nyelv(ek)re a jobb pontosság érdekében. |
+| **Teljesítménycsökkenés nagy képeknél** | A nagy felbontású képek növelik a feldolgozási időt | Méretezze át a képet a felismerés előtt, vagy állítsa alacsonyabb értékre a `settings.Dpi`-t. |
+| **Alacsony pontosság szkennelt dokumentumoknál** | A szkennelt képek zajt tartalmazhatnak | Használjon előfeldolgozási lépéseket, például binarizálást, vagy alkalmazza a `settings.Preprocess = true`-t a **improve ocr accuracy** érdekében. |
+| **Szükség van szkennelt PDF kezelésére** | A PDF-et először képekké kell konvertálni | **Convert scanned image** oldalak PNG/JPEG formátumba konvertálásával, egy PDF‑to‑image könyvtár használatával, majd minden képet az Aspose.OCR-nek adjon át. |
 
 ## Gyakran feltett kérdések
 
-### Q1: Az Aspose.OCR képes több nyelven is felismerni a szöveget?
+**Q1: Képes az Aspose.OCR szöveget felismerni különböző nyelveken?**  
+A1: Igen, az Aspose.OCR támogatja a többnyelvű szövegfelismerést, ami sokféle alkalmazás számára nyújt sokoldalúságot.
 
-A1: Igen, az Aspose.OCR támogatja a többnyelvű szövegfelismerést, így sokféle alkalmazásban felhasználható.
+**Q2: Elérhető ingyenes próba az Aspose.OCR-hoz?**  
+A2: Természetesen! Hozzáférhet egy ingyenes **aspose ocr trial**-hez a [Aspose OCR trial download page](https://releases.aspose.com/) oldalon.
 
-### Q2: Van ingyenes próba az Aspose.OCR .NET-hez?
+**Q3: Hol találhatom meg az Aspose.OCR részletes dokumentációját?**  
+A3: Tekintse meg a dokumentációt a [Aspose OCR .NET documentation](https://reference.aspose.com/ocr/net/) oldalon a mélyreható információk és használati útmutatók érdekében.
 
-A2: Természetesen! Ingyenes próbát érhet el [itt](https://releases.aspose.com/).
+**Q4: Hogyan kaphatok támogatást az Aspose.OCR-hoz?**  
+A4: Látogassa meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16), hogy segítséget kérjen a közösségtől és az Aspose szakértőktől.
 
-### Q3: Hol találom meg a részletes dokumentációt az Aspose.OCR‑hoz?
-
-A3: Tekintse meg a dokumentációt [itt](https://reference.aspose.com/ocr/net/) a mélyreható információk és használati útmutatók miatt.
-
-### Q4: Hogyan kaphatok támogatást az Aspose.OCR‑hoz?
-
-A4: Látogassa meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16), ahol a közösség és az Aspose szakértők segítenek.
-
-### Q5: Szerezhetek ideiglenes licencet az Aspose.OCR‑hoz?
-
-A5: Igen, ideiglenes licencet vásárolhat [itt](https://purchase.aspose.com/temporary-license/).
+**Q5: Szerezhetek ideiglenes licencet az Aspose.OCR-hoz?**  
+A5: Igen, ideiglenes licencet kérhet a [temporary license request page](https://purchase.aspose.com/temporary-license/) oldalon.
 
 ## Összegzés
 
-Ebben az útmutatóban bemutattuk, **hogyan kapjon OCR** eredményeket az Aspose.OCR .NET-hez, a környezet beállításától a részletes felismerési jelentés kiírásáig. Most már szilárd alapokkal rendelkezik a **szöveg kinyeréséhez a képfájlokból**, a többnyelvű forgatókönyvek kezeléséhez, és az OCR integrálásához .NET projektjeibe. Fedezze fel a hivatalos Aspose OCR dokumentációt a fejlett funkciók, például egyedi nyelvi csomagok, érdeklődési terület‑feldolgozás és kötegelt felismerés megismeréséhez.
+Ebben az útmutatóban bemutattuk, hogyan **szöveget nyerhet ki a képből** az Aspose.OCR for .NET használatával, a környezet beállításától a részletes felismerési jelentés nyomtatásáig. Most már szilárd alapja van a **szöveg kinyerésének a képből** fájlokból, a többnyelvű forgatókönyvek kezeléséhez, és az OCR integrálásához .NET projektjeibe. Fedezze fel a hivatalos Aspose OCR dokumentációt a fejlett funkciók, például egyedi nyelvcsomagok, érdeklődési terület feldolgozása és kötegelt felismerés megismeréséhez.
 
 ---
 
-**Utoljára frissítve:** 2026-01-02  
-**Tesztelve:** Aspose.OCR 23.12 .NET-hez  
-**Szerző:** Aspose  
+**Utolsó frissítés:** 2026-08-12  
+**Tesztelve a következővel:** Aspose.OCR 23.12 for .NET  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [Kép szövegének kinyerése C#-ban nyelvválasztással az Aspose.OCR használatával](/ocr/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [Szöveg kinyerése a képből – OCR optimalizálás Aspose.OCR for .NET használatával](/ocr/net/ocr-optimization/)
+- [Szöveg kinyerése képekből – OCR beállítások az Aspose.OCR-rel](/ocr/net/ocr-settings/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

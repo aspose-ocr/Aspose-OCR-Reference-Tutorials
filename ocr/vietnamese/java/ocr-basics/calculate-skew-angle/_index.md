@@ -10,9 +10,7 @@ url: /vi/java/ocr-basics/calculate-skew-angle/
 weight: 11
 ---
 
- keep markdown formatting exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

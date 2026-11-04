@@ -1,0 +1,7 @@
+Title: Perform OCR on PDF with Python – Complete Guide
+Slug: perform-ocr-on-pdf-with-python-complete-guide
+Category: general
+ProcessedDate: 2026-06-25T23:37:46.081906
+SourceRepo: AI Search API
+Keywords: perform ocr on pdf, extract text from pdf pages, load pdf for ocr, how to ocr large pdf, preview recognized text
+PRNumber: 159

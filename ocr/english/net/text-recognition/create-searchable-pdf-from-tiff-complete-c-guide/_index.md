@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-04-29
-description: Create searchable PDF in C# and convert TIFF to PDF with embedded image,
-  set PDF DPI, and handle multi‑page TIFFs—all in one tutorial.
+date: 2025-12-30
+description: Create searchable PDF from an image in C# – learn how to convert TIFF
+  to PDF, extract text from image, and automate PDF creation.
 draft: false
 keywords:
 - create searchable pdf
+- convert image to pdf
 - convert tiff to pdf
-- embed image in pdf
-- set pdf dpi
-- convert multi page tiff
+- extract text from image
+- how to create pdf
 language: en
-og_description: Create searchable PDF from TIFF files using Aspose OCR in C#. Learn
-  how to embed image in PDF, set PDF DPI, and convert multi‑page TIFF.
-og_title: Create Searchable PDF from TIFF – Full C# Walkthrough
+og_description: Create searchable PDF from an image using Aspose OCR in C#. This guide
+  shows how to convert TIFF to PDF, extract text, and ensure PDF/A‑1b compliance.
+og_title: Create searchable PDF from TIFF – Step‑by‑Step C# Tutorial
 tags:
 - Aspose OCR
 - C#
 - PDF generation
-title: Create Searchable PDF from TIFF – Complete C# Guide
+title: Create searchable PDF from TIFF – Complete C# Guide
 url: /net/text-recognition/create-searchable-pdf-from-tiff-complete-c-guide/
 ---
 
@@ -26,175 +26,219 @@ url: /net/text-recognition/create-searchable-pdf-from-tiff-complete-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF from TIFF – Complete C# Guide
+# Create searchable PDF from TIFF – Complete C# Guide
 
-Create searchable PDF files from your TIFF images in just a few lines of C#. Whether you're digitizing invoices or archiving scanned books, a searchable PDF lets you find text instantly without losing the original image quality.
+Ever needed to **create searchable PDF** from a scanned TIFF but weren’t sure where to start? You’re not alone. Many developers hit this roadblock when they need searchable PDFs for archiving or compliance, and the good news is the solution is surprisingly straightforward with Aspose OCR.
 
-Ever wondered how to **convert TIFF to PDF** while keeping the image intact and still being able to search the text? The answer is right here—by leveraging Aspose.OCR’s `RecognizeAndSavePdf` method you get a hidden OCR layer, an embedded image, and full control over DPI.
-
-In this tutorial we’ll walk through every step you need to turn a single‑page or **multi‑page TIFF** into a searchable PDF, embed the original image, and fine‑tune the output resolution. By the end you’ll have a ready‑to‑use console app that you can drop into any .NET project.
+In this tutorial we’ll walk through converting an image to PDF, extracting text from image, and polishing the output so it meets PDF/A‑1b standards. By the end you’ll be able to **convert tiff to pdf**, **extract text from image**, and know exactly **how to create pdf** files that are both searchable and archive‑ready.
 
 ## What You’ll Need
 
-- **.NET 6+** (or .NET Framework 4.6.1+). The code works on any recent .NET runtime.
-- **Aspose.OCR for .NET** – install via NuGet (`Install-Package Aspose.OCR`).
-- A **TIFF file** (single or multi‑page) you want to convert.
-- Visual Studio, VS Code, or any editor you prefer.
+- .NET 6 (or any recent .NET version) – the code works on .NET Core and .NET Framework alike.  
+- Aspose.OCR NuGet package – install it with `dotnet add package Aspose.OCR`.  
+- A sample TIFF file (`input.tif`) you want to turn into a searchable PDF.  
+- A development environment (Visual Studio, VS Code, Rider… any will do).  
 
-No other third‑party libraries are required, and the whole solution fits into a single `.cs` file.
+That’s it. No extra SDKs, no external services, and no hidden configuration steps.
 
-## Step 1: Install Aspose.OCR and Set Up the Project
+![Create searchable PDF example](image-placeholder.png "Create searchable PDF preview")
 
-First, add the Aspose.OCR package to your project. Open a terminal in the project folder and run:
+## Step 1 – Initialize the OCR Engine and Load the English Model
 
-```bash
-dotnet add package Aspose.OCR
-```
-
-> **Pro tip:** If you’re using Visual Studio, you can also add the package via the NuGet Package Manager UI. The library includes both OCR and PDF export capabilities, so you won’t need a separate PDF library.
-
-## Step 2: Initialize the OCR Engine – Choose the Right Language
-
-Creating a searchable PDF starts with configuring the OCR engine. Here we set the language to English, but Aspose supports over 70 languages if you need something else.
+Before we can turn an image into searchable text, the OCR engine needs to know which language to look for. Aspose OCR ships with language packs you can load on demand.
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Pdf;
-using System;
+using Aspose.OCR.Export;
 
-class PdfExportDemo
+// Initialize the OCR engine
+var ocrEngine = new OcrEngine();
+
+// Load the English language model (you can swap this for other languages)
+ocrEngine.LoadLanguage(LanguageModel.English);
+```
+
+**Why this matters:** Loading the correct language model improves recognition accuracy dramatically. If you skip this step the engine falls back to a generic model, which often yields garbled text—especially on low‑resolution TIFFs.
+
+## Step 2 – Recognize Text from the Source Image (Optional but Handy)
+
+Running OCR gives you a `OcrResult` object that you can inspect, log, or even save as plain text. This step is optional if you only care about the final PDF, but it’s great for debugging.
+
+```csharp
+// Perform OCR on the input TIFF
+var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/input.tif");
+
+// Dump the raw text to the console (useful for validation)
+Console.WriteLine("Extracted text:");
+Console.WriteLine(ocrResult.Text);
+```
+
+**Pro tip:** If the extracted text looks off, consider preprocessing the image (deskew, despeckle) before feeding it to the engine. Aspose OCR also offers image‑enhancement utilities you can chain here.
+
+## Step 3 – Set Up the Searchable PDF Exporter
+
+Now we tell Aspose how we want the final PDF to look. The `SearchablePdfExporter` lets you specify output path, PDF/A compliance, and a few other niceties.
+
+```csharp
+var pdfExporter = new SearchablePdfExporter
+{
+    // Where the searchable PDF will be saved
+    OutputPath = "YOUR_DIRECTORY/output.pdf",
+
+    // Enforce PDF/A‑1b compliance – ideal for long‑term archiving
+    PdfACompliance = PdfACompliance.PdfA1b
+};
+```
+
+**Why PDF/A‑1b?** Many industries (legal, medical, finance) require PDFs that conform to archival standards. Setting `PdfACompliance` ensures fonts are embedded, colors are device‑independent, and the file passes validation tools.
+
+## Step 4 – Export the OCR Result Directly to a Searchable PDF
+
+With the engine and exporter ready, the heavy lifting is a single line. The exporter internally builds a PDF page, overlays the recognized text as an invisible layer, and writes the file.
+
+```csharp
+// Export the OCR result to a searchable PDF
+pdfExporter.Export(ocrEngine, "YOUR_DIRECTORY/input.tif");
+
+// Confirmation message
+Console.WriteLine("Searchable PDF created at YOUR_DIRECTORY/output.pdf");
+```
+
+**What’s happening under the hood?**  
+1. The original TIFF is embedded as a raster image.  
+2. The OCR‑derived text is placed on top, hidden but selectable.  
+3. Metadata (like language) is added so PDF readers can index the text.
+
+## Step 5 – Verify the Output (Manual Check + Programmatic Validation)
+
+It’s always good practice to confirm that the PDF is truly searchable.
+
+```csharp
+// Quick sanity check: open the PDF and try to extract its text
+using var pdfReader = new Aspose.Pdf.Facades.PdfConverter();
+pdfReader.BindPdf("YOUR_DIRECTORY/output.pdf");
+var extracted = pdfReader.ExtractText();
+Console.WriteLine("Text extracted from the PDF:");
+Console.WriteLine(extracted);
+```
+
+If you can copy‑paste the text from the PDF viewer or see it in the console output above, you’ve succeeded.
+
+## Edge Cases & Common Variations
+
+### Converting Other Image Formats
+
+The same code works for PNG, JPEG, BMP—just change the file extension in the `Recognize` and `Export` calls. No extra configuration needed.
+
+### Multi‑Page TIFF Files
+
+Aspose OCR automatically processes each page of a multi‑page TIFF and the exporter stacks them into a multi‑page PDF. If you need to skip a page, filter `ocrResult.Pages` before exporting.
+
+### Non‑English Languages
+
+Swap `LanguageModel.English` with `LanguageModel.Spanish`, `LanguageModel.French`, etc., or load a custom language pack. Remember to adjust the PDF metadata if you’re targeting a specific locale.
+
+### Reducing PDF Size
+
+If the TIFFs are high‑resolution, the resulting PDF can be bulky. You can downsample the image before OCR:
+
+```csharp
+ocrEngine.ImageProcessingOptions = new ImageProcessingOptions
+{
+    Dpi = 150 // Lower DPI reduces size, but test for acceptable quality
+};
+```
+
+### Handling Password‑Protected PDFs
+
+If you need to protect the output, wrap the `SearchablePdfExporter` in Aspose.Pdf’s encryption API after export:
+
+```csharp
+var pdfDoc = new Aspose.Pdf.Document("YOUR_DIRECTORY/output.pdf");
+pdfDoc.Encrypt("userPassword", "ownerPassword", 
+    Aspose.Pdf.Permissions.All, Aspose.Pdf.EncryptionAlgorithms.AES256);
+pdfDoc.Save("YOUR_DIRECTORY/output_protected.pdf");
+```
+
+## Full Working Example
+
+Below is the complete, copy‑paste‑ready program that incorporates all steps and optional tweaks discussed above.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Export;
+using Aspose.Pdf.Facades;
+
+class Program
 {
     static void Main()
     {
-        // Initialize the OCR engine with English language
-        var ocrEngine = new OcrEngine
+        // -----------------------------------------------------------------
+        // 1️⃣ Initialize OCR engine and load language model
+        // -----------------------------------------------------------------
+        var ocrEngine = new OcrEngine();
+        ocrEngine.LoadLanguage(LanguageModel.English);
+
+        // Optional: lower DPI to shrink output size (adjust as needed)
+        // ocrEngine.ImageProcessingOptions = new ImageProcessingOptions { Dpi = 150 };
+
+        // -----------------------------------------------------------------
+        // 2️⃣ Recognize text from the source TIFF
+        // -----------------------------------------------------------------
+        const string inputPath = @"YOUR_DIRECTORY/input.tif";
+        var ocrResult = ocrEngine.Recognize(inputPath);
+        Console.WriteLine("Extracted text from image:");
+        Console.WriteLine(ocrResult.Text);
+
+        // -----------------------------------------------------------------
+        // 3️⃣ Configure the searchable PDF exporter
+        // -----------------------------------------------------------------
+        var pdfExporter = new SearchablePdfExporter
         {
-            Config = { Language = OcrLanguage.English }
+            OutputPath = @"YOUR_DIRECTORY/output.pdf",
+            PdfACompliance = PdfACompliance.PdfA1b // archival compliance
         };
-```
 
-**Why this matters:** The `Config.Language` property tells the engine which character set to look for. Picking the correct language improves accuracy dramatically, especially for non‑Latin scripts.
+        // -----------------------------------------------------------------
+        // 4️⃣ Export OCR result to searchable PDF
+        // -----------------------------------------------------------------
+        pdfExporter.Export(ocrEngine, inputPath);
+        Console.WriteLine("Searchable PDF created successfully.");
 
-## Step 3: Load the Source Image – Single or **Convert Multi Page TIFF**
-
-Aspose.OCR can read a multi‑page TIFF as a single `OcrImage` object, automatically handling each frame. Just point it at the file path.
-
-```csharp
-        // Load the source TIFF (single or multi‑page)
-        var sourceImage = OcrEngine.LoadImage(@"YOUR_DIRECTORY/input.tiff");
-```
-
-> **Edge case:** If your TIFF is huge (several hundred MB), consider increasing the process’s memory limit or using `LoadImage` overloads that accept a stream to avoid loading the whole file into memory at once.
-
-## Step 4: Configure PDF Save Options – **Embed Image in PDF** & **Set PDF DPI**
-
-Now we tell Aspose how we want the final PDF to look. The `PdfSaveOptions` class gives us fine‑grained control.
-
-```csharp
-        // Define PDF export settings
-        var pdfSaveOptions = new PdfSaveOptions
-        {
-            // Keep the original raster image inside the PDF
-            EmbedImage = true,
-
-            // Add a hidden, searchable text layer generated by OCR
-            AddSearchableTextLayer = true,
-
-            // Optional: set output resolution – higher DPI yields larger files but sharper images
-            Dpi = 300
-        };
-```
-
-- **EmbedImage:** When `true`, the original TIFF pages are stored as images inside the PDF. This ensures visual fidelity.
-- **AddSearchableTextLayer:** This creates an invisible text layer that matches the OCR output, making the PDF searchable.
-- **Dpi:** Controls the raster resolution of the embedded image. Typical values are 150‑300 DPI; use 300 for high‑quality scans.
-
-## Step 5: Perform OCR and Save the PDF – One‑Line Magic
-
-With everything configured, the OCR engine can now process the image and write a searchable PDF in a single call.
-
-```csharp
-        // Run OCR and directly save as searchable PDF
-        ocrEngine.RecognizeAndSavePdf(sourceImage, @"YOUR_DIRECTORY/result.pdf", pdfSaveOptions);
-
-        Console.WriteLine("Searchable PDF created at YOUR_DIRECTORY/result.pdf");
+        // -----------------------------------------------------------------
+        // 5️⃣ Verify by extracting text from the generated PDF
+        // -----------------------------------------------------------------
+        using var converter = new PdfConverter();
+        converter.BindPdf(@"YOUR_DIRECTORY/output.pdf");
+        var extractedFromPdf = converter.ExtractText();
+        Console.WriteLine("Text extracted from the PDF:");
+        Console.WriteLine(extractedFromPdf);
     }
 }
 ```
 
-**What happens under the hood?**  
-1. Aspose reads each TIFF frame, runs OCR, and builds a text layer.  
-2. It then creates a PDF page, embeds the original image (if `EmbedImage` is true), and overlays the text layer.  
-3. Finally, the PDF is written to disk with the DPI you specified.
+**Expected output:**  
+- Console prints the raw OCR text from the TIFF.  
+- A file `output.pdf` appears in `YOUR_DIRECTORY`.  
+- Opening `output.pdf` in Adobe Reader lets you select and copy the text, confirming it’s searchable.
 
-## Step 6: Verify the Output – Does the PDF Really Search?
+## Recap
 
-Open `result.pdf` in Adobe Reader or any PDF viewer with search capability. Try typing a word that appears in the original scan. If the text is highlighted, you’ve successfully **create searchable PDF**.
+We’ve covered everything you need to **create searchable PDF** files from TIFF images using Aspose OCR in C#. From initializing the OCR engine, extracting text, configuring PDF/A compliance, to verifying the final document, each step is clearly explained. You now also know how to **convert image to pdf**, **convert tiff to pdf**, **extract text from image**, and the broader question of **how to create pdf** with searchable layers.
 
-If the search fails:
+## What to Explore Next
 
-- Check that `AddSearchableTextLayer` is set to `true`.
-- Verify the OCR language matches the document’s language.
-- Ensure the TIFF isn’t corrupted (try opening it in an image viewer).
+- **Batch processing:** Wrap the logic in a loop to handle dozens of images automatically.  
+- **Custom fonts:** Embed corporate fonts for branding consistency.  
+- **Cloud integration:** Store the PDFs directly in Azure Blob Storage or AWS S3 after creation.  
+- **UI front‑end:** Build a simple WinForms/WPF app that lets users drag‑and‑drop images for instant conversion.
 
-## Optional Tweaks and Common Pitfalls
+Feel free to experiment with different language models, DPI settings, and PDF/A levels. The API is flexible enough to adapt to almost any workflow you can imagine.
 
-| Scenario | Adjustment | Code Snippet |
-|----------|------------|--------------|
-| **Skip embedding the image** (smaller file) | Set `EmbedImage = false` | `EmbedImage = false,` |
-| **Different OCR language** (e.g., French) | Change `Language = OcrLanguage.French` | `Config = { Language = OcrLanguage.French }` |
-| **Custom output folder** | Use a variable for the path | `var outputPath = Path.Combine(Environment.CurrentDirectory, "output", "result.pdf");` |
-| **Processing many TIFFs in a loop** | Wrap steps 2‑5 in a `foreach` | `foreach (var file in Directory.GetFiles(@"inputFolder", "*.tiff")) { … }` |
+---
 
-> **Watch out for:** Setting DPI too high (e.g., 600) can balloon file size without noticeable visual benefit. Stick to 300 DPI for most scanned documents.
-
-## Full Working Example (Copy‑Paste Ready)
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Pdf;
-using System;
-
-class PdfExportDemo
-{
-    static void Main()
-    {
-        // 1️⃣ Initialize OCR engine with English language
-        var ocrEngine = new OcrEngine
-        {
-            Config = { Language = OcrLanguage.English }
-        };
-
-        // 2️⃣ Load the source TIFF (supports multi‑page automatically)
-        var sourceImage = OcrEngine.LoadImage(@"YOUR_DIRECTORY/input.tiff");
-
-        // 3️⃣ Set PDF options: embed original image, add searchable text, 300 DPI
-        var pdfSaveOptions = new PdfSaveOptions
-        {
-            EmbedImage = true,
-            AddSearchableTextLayer = true,
-            Dpi = 300
-        };
-
-        // 4️⃣ Run OCR and save as searchable PDF
-        ocrEngine.RecognizeAndSavePdf(sourceImage, @"YOUR_DIRECTORY/result.pdf", pdfSaveOptions);
-
-        Console.WriteLine("Searchable PDF created.");
-    }
-}
-```
-
-Run the program with `dotnet run`. After it finishes, open `result.pdf` and test the search feature. You’ve just **convert tiff to pdf** while preserving the original image and adding a searchable text layer.
-
-## Conclusion
-
-We’ve shown you how to **create searchable PDF** files from TIFF sources using Aspose.OCR in C#. The process covers everything from installing the library, loading single or **convert multi page tiff** files, configuring **embed image in pdf**, setting a custom **pdf dpi**, and finally saving a fully searchable document.  
-
-Feel free to experiment: try different languages, tweak DPI for faster loading, or batch‑process a folder of scans. Next up you might explore **adding bookmarks**, **watermarks**, or **digital signatures** to your PDFs—each one builds on the same foundation we laid out here.
-
-Got questions or a tricky TIFF that won’t convert? Drop a comment, and happy coding!  
-
-![Create searchable PDF example](example.png "Create searchable PDF from TIFF using Aspose OCR")
+*Happy coding, and may your PDFs always be searchable!*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

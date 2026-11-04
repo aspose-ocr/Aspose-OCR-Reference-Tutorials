@@ -1,18 +1,17 @@
 ---
 category: general
-date: 2026-04-29
-description: C#で検索可能なPDFを作成し、TIFFを埋め込み画像付きPDFに変換、PDFのDPIを設定、マルチページTIFFを処理する—すべてを1つのチュートリアルで。
+date: 2025-12-30
+description: C#で画像から検索可能なPDFを作成 – TIFFをPDFに変換し、画像からテキストを抽出し、PDF作成を自動化する方法を学びましょう。
 draft: false
 keywords:
 - create searchable pdf
+- convert image to pdf
 - convert tiff to pdf
-- embed image in pdf
-- set pdf dpi
-- convert multi page tiff
+- extract text from image
+- how to create pdf
 language: ja
-og_description: Aspose OCR を使用して C# で TIFF ファイルから検索可能な PDF を作成します。PDF に画像を埋め込む方法、PDF
-  の DPI を設定する方法、マルチページ TIFF を変換する方法を学びましょう。
-og_title: TIFFから検索可能なPDFを作成 – 完全C#ウォークスルー
+og_description: C#でAspose OCRを使用して画像から検索可能なPDFを作成します。このガイドでは、TIFFをPDFに変換し、テキストを抽出し、PDF/A‑1b準拠を確保する方法を示します。
+og_title: TIFFから検索可能なPDFを作成 – ステップバイステップ C# チュートリアル
 tags:
 - Aspose OCR
 - C#
@@ -25,175 +24,219 @@ url: /ja/net/text-recognition/create-searchable-pdf-from-tiff-complete-c-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Searchable PDF from TIFF – Complete C# Guide
+# TIFFから検索可能なPDFを作成 – 完全なC#ガイド
 
-Create searchable PDF files from your TIFF images in just a few lines of C#. Whether you're digitizing invoices or archiving scanned books, a searchable PDF lets you find text instantly without losing the original image quality.
+スキャンしたTIFFから**検索可能なPDFを作成**したいと思ったことはありませんか？でも、どこから始めればいいか分からないことも多いでしょう。アーカイブやコンプライアンスのために検索可能なPDFが必要な開発者は多く、良いニュースは、Aspose OCR を使えば解決策は驚くほどシンプルです。
 
-Ever wondered how to **convert TIFF to PDF** while keeping the image intact and still being able to search the text? The answer is right here—by leveraging Aspose.OCR’s `RecognizeAndSavePdf` method you get a hidden OCR layer, an embedded image, and full control over DPI.
+このチュートリアルでは、画像をPDFに変換し、画像からテキストを抽出し、PDF/A‑1b 標準に準拠した出力に仕上げる手順を解説します。最後まで読むと、**tiff を pdf に変換**し、**画像からテキストを抽出**し、検索可能でアーカイブ対応の**pdf を作成する方法**が正確に分かります。
 
-In this tutorial we’ll walk through every step you need to turn a single‑page or **multi‑page TIFF** into a searchable PDF, embed the original image, and fine‑tune the output resolution. By the end you’ll have a ready‑to‑use console app that you can drop into any .NET project.
+## 必要なもの
 
-## What You’ll Need
+- .NET 6 (または最近の .NET バージョン) – コードは .NET Core と .NET Framework の両方で動作します。  
+- Aspose.OCR NuGet パッケージ – `dotnet add package Aspose.OCR` でインストールします。  
+- 検索可能な PDF に変換したいサンプル TIFF ファイル (`input.tif`)。  
+- 開発環境 (Visual Studio、VS Code、Rider など、どれでも可)。  
 
-- **.NET 6+** (or .NET Framework 4.6.1+). The code works on any recent .NET runtime.
-- **Aspose.OCR for .NET** – install via NuGet (`Install-Package Aspose.OCR`).
-- A **TIFF file** (single or multi‑page) you want to convert.
-- Visual Studio, VS Code, or any editor you prefer.
+以上です。追加の SDK や外部サービス、隠れた設定手順は不要です。
 
-No other third‑party libraries are required, and the whole solution fits into a single `.cs` file.
+![Create searchable PDF example](image-placeholder.png "Create searchable PDF preview")
 
-## Step 1: Install Aspose.OCR and Set Up the Project
+## ステップ 1 – OCR エンジンの初期化と英語モデルのロード
 
-First, add the Aspose.OCR package to your project. Open a terminal in the project folder and run:
-
-```bash
-dotnet add package Aspose.OCR
-```
-
-> **Pro tip:** If you’re using Visual Studio, you can also add the package via the NuGet Package Manager UI. The library includes both OCR and PDF export capabilities, so you won’t need a separate PDF library.
-
-## Step 2: Initialize the OCR Engine – Choose the Right Language
-
-Creating a searchable PDF starts with configuring the OCR engine. Here we set the language to English, but Aspose supports over 70 languages if you need something else.
+画像を検索可能なテキストに変換する前に、OCR エンジンは対象言語を認識する必要があります。Aspose OCR には必要に応じてロードできる言語パックが同梱されています。
 
 ```csharp
 using Aspose.OCR;
-using Aspose.OCR.Pdf;
-using System;
+using Aspose.OCR.Export;
 
-class PdfExportDemo
+// Initialize the OCR engine
+var ocrEngine = new OcrEngine();
+
+// Load the English language model (you can swap this for other languages)
+ocrEngine.LoadLanguage(LanguageModel.English);
+```
+
+**この重要性:** 正しい言語モデルをロードすることで認識精度が大幅に向上します。このステップを省略するとエンジンは汎用モデルにフォールバックし、特に低解像度の TIFF では文字化けしやすくなります。
+
+## ステップ 2 – ソース画像からテキストを認識 (任意だが便利)
+
+OCR を実行すると `OcrResult` オブジェクトが取得でき、内容を検査したり、ログに記録したり、プレーンテキストとして保存したりできます。最終的な PDF のみが必要な場合はこのステップは任意ですが、デバッグには非常に便利です。
+
+```csharp
+// Perform OCR on the input TIFF
+var ocrResult = ocrEngine.Recognize("YOUR_DIRECTORY/input.tif");
+
+// Dump the raw text to the console (useful for validation)
+Console.WriteLine("Extracted text:");
+Console.WriteLine(ocrResult.Text);
+```
+
+**プロのコツ:** 抽出されたテキストが正しくない場合は、エンジンに渡す前に画像の前処理（デスキュー、デスペックル）を検討してください。Aspose OCR には画像強化ユーティリティもあり、ここでチェーンできます。
+
+## ステップ 3 – 検索可能な PDF エクスポーターの設定
+
+ここで Aspose に最終的な PDF の形を指示します。`SearchablePdfExporter` を使うと出力パスや PDF/A 準拠、その他いくつかのオプションを指定できます。
+
+```csharp
+var pdfExporter = new SearchablePdfExporter
+{
+    // Where the searchable PDF will be saved
+    OutputPath = "YOUR_DIRECTORY/output.pdf",
+
+    // Enforce PDF/A‑1b compliance – ideal for long‑term archiving
+    PdfACompliance = PdfACompliance.PdfA1b
+};
+```
+
+**なぜ PDF/A‑1b?** 法務、医療、金融など多くの業界ではアーカイブ標準に準拠した PDF が求められます。`PdfACompliance` を設定するとフォントが埋め込まれ、色がデバイス非依存となり、検証ツールに合格します。
+
+## ステップ 4 – OCR 結果を直接検索可能な PDF にエクスポート
+
+エンジンとエクスポーターの準備ができたら、実際の処理は1行で完了します。エクスポーターは内部で PDF ページを作成し、認識されたテキストを不可視レイヤーとして重ね合わせ、ファイルを書き出します。
+
+```csharp
+// Export the OCR result to a searchable PDF
+pdfExporter.Export(ocrEngine, "YOUR_DIRECTORY/input.tif");
+
+// Confirmation message
+Console.WriteLine("Searchable PDF created at YOUR_DIRECTORY/output.pdf");
+```
+
+**内部で何が起きているか?**  
+1. 元の TIFF がラスタ画像として埋め込まれます。  
+2. OCR で得られたテキストが上に配置され、非表示ですが選択可能です。  
+3. 言語などのメタデータが追加され、PDF リーダーがテキストをインデックスできるようになります。
+
+## ステップ 5 – 出力の検証 (手動チェック + プログラムによる検証)
+
+PDF が実際に検索可能であることを確認するのは常に良い習慣です。
+
+```csharp
+// Quick sanity check: open the PDF and try to extract its text
+using var pdfReader = new Aspose.Pdf.Facades.PdfConverter();
+pdfReader.BindPdf("YOUR_DIRECTORY/output.pdf");
+var extracted = pdfReader.ExtractText();
+Console.WriteLine("Text extracted from the PDF:");
+Console.WriteLine(extracted);
+```
+
+PDF ビューアでテキストをコピー＆ペーストできる、または上記のコンソール出力にテキストが表示されていれば成功です。
+
+## エッジケースと一般的なバリエーション
+
+### 他の画像フォーマットへの変換
+
+同じコードは PNG、JPEG、BMP でも動作します。`Recognize` と `Export` の呼び出しでファイル拡張子を変更するだけです。追加設定は不要です。
+
+### マルチページ TIFF ファイル
+
+Aspose OCR はマルチページ TIFF の各ページを自動的に処理し、エクスポーターはそれらをマルチページ PDF にまとめます。ページをスキップしたい場合は、エクスポート前に `ocrResult.Pages` をフィルタリングしてください。
+
+### 非英語言語
+
+`LanguageModel.English` を `LanguageModel.Spanish`、`LanguageModel.French` などに置き換えるか、カスタム言語パックをロードします。特定のロケールを対象にする場合は PDF メタデータも調整してください。
+
+### PDF サイズの削減
+
+TIFF が高解像度の場合、生成される PDF が大きくなることがあります。OCR 前に画像をダウンサンプリングできます：
+
+```csharp
+ocrEngine.ImageProcessingOptions = new ImageProcessingOptions
+{
+    Dpi = 150 // Lower DPI reduces size, but test for acceptable quality
+};
+```
+
+### パスワード保護された PDF の取り扱い
+
+出力を保護したい場合は、エクスポート後に `SearchablePdfExporter` を Aspose.Pdf の暗号化 API でラップしてください：
+
+```csharp
+var pdfDoc = new Aspose.Pdf.Document("YOUR_DIRECTORY/output.pdf");
+pdfDoc.Encrypt("userPassword", "ownerPassword", 
+    Aspose.Pdf.Permissions.All, Aspose.Pdf.EncryptionAlgorithms.AES256);
+pdfDoc.Save("YOUR_DIRECTORY/output_protected.pdf");
+```
+
+## 完全な動作例
+
+以下は、上記ですべてのステップとオプションの調整を組み込んだ、完全なコピー＆ペースト可能なプログラムです。
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Export;
+using Aspose.Pdf.Facades;
+
+class Program
 {
     static void Main()
     {
-        // Initialize the OCR engine with English language
-        var ocrEngine = new OcrEngine
+        // -----------------------------------------------------------------
+        // 1️⃣ Initialize OCR engine and load language model
+        // -----------------------------------------------------------------
+        var ocrEngine = new OcrEngine();
+        ocrEngine.LoadLanguage(LanguageModel.English);
+
+        // Optional: lower DPI to shrink output size (adjust as needed)
+        // ocrEngine.ImageProcessingOptions = new ImageProcessingOptions { Dpi = 150 };
+
+        // -----------------------------------------------------------------
+        // 2️⃣ Recognize text from the source TIFF
+        // -----------------------------------------------------------------
+        const string inputPath = @"YOUR_DIRECTORY/input.tif";
+        var ocrResult = ocrEngine.Recognize(inputPath);
+        Console.WriteLine("Extracted text from image:");
+        Console.WriteLine(ocrResult.Text);
+
+        // -----------------------------------------------------------------
+        // 3️⃣ Configure the searchable PDF exporter
+        // -----------------------------------------------------------------
+        var pdfExporter = new SearchablePdfExporter
         {
-            Config = { Language = OcrLanguage.English }
+            OutputPath = @"YOUR_DIRECTORY/output.pdf",
+            PdfACompliance = PdfACompliance.PdfA1b // archival compliance
         };
-```
 
-**Why this matters:** The `Config.Language` property tells the engine which character set to look for. Picking the correct language improves accuracy dramatically, especially for non‑Latin scripts.
+        // -----------------------------------------------------------------
+        // 4️⃣ Export OCR result to searchable PDF
+        // -----------------------------------------------------------------
+        pdfExporter.Export(ocrEngine, inputPath);
+        Console.WriteLine("Searchable PDF created successfully.");
 
-## Step 3: Load the Source Image – Single or **Convert Multi Page TIFF**
-
-Aspose.OCR can read a multi‑page TIFF as a single `OcrImage` object, automatically handling each frame. Just point it at the file path.
-
-```csharp
-        // Load the source TIFF (single or multi‑page)
-        var sourceImage = OcrEngine.LoadImage(@"YOUR_DIRECTORY/input.tiff");
-```
-
-> **Edge case:** If your TIFF is huge (several hundred MB), consider increasing the process’s memory limit or using `LoadImage` overloads that accept a stream to avoid loading the whole file into memory at once.
-
-## Step 4: Configure PDF Save Options – **Embed Image in PDF** & **Set PDF DPI**
-
-Now we tell Aspose how we want the final PDF to look. The `PdfSaveOptions` class gives us fine‑grained control.
-
-```csharp
-        // Define PDF export settings
-        var pdfSaveOptions = new PdfSaveOptions
-        {
-            // Keep the original raster image inside the PDF
-            EmbedImage = true,
-
-            // Add a hidden, searchable text layer generated by OCR
-            AddSearchableTextLayer = true,
-
-            // Optional: set output resolution – higher DPI yields larger files but sharper images
-            Dpi = 300
-        };
-```
-
-- **EmbedImage:** When `true`, the original TIFF pages are stored as images inside the PDF. This ensures visual fidelity.
-- **AddSearchableTextLayer:** This creates an invisible text layer that matches the OCR output, making the PDF searchable.
-- **Dpi:** Controls the raster resolution of the embedded image. Typical values are 150‑300 DPI; use 300 for high‑quality scans.
-
-## Step 5: Perform OCR and Save the PDF – One‑Line Magic
-
-With everything configured, the OCR engine can now process the image and write a searchable PDF in a single call.
-
-```csharp
-        // Run OCR and directly save as searchable PDF
-        ocrEngine.RecognizeAndSavePdf(sourceImage, @"YOUR_DIRECTORY/result.pdf", pdfSaveOptions);
-
-        Console.WriteLine("Searchable PDF created at YOUR_DIRECTORY/result.pdf");
+        // -----------------------------------------------------------------
+        // 5️⃣ Verify by extracting text from the generated PDF
+        // -----------------------------------------------------------------
+        using var converter = new PdfConverter();
+        converter.BindPdf(@"YOUR_DIRECTORY/output.pdf");
+        var extractedFromPdf = converter.ExtractText();
+        Console.WriteLine("Text extracted from the PDF:");
+        Console.WriteLine(extractedFromPdf);
     }
 }
 ```
 
-**What happens under the hood?**  
-1. Aspose reads each TIFF frame, runs OCR, and builds a text layer.  
-2. It then creates a PDF page, embeds the original image (if `EmbedImage` is true), and overlays the text layer.  
-3. Finally, the PDF is written to disk with the DPI you specified.
+**期待される出力:**  
+- コンソールに TIFF からの生 OCR テキストが表示されます。  
+- `output.pdf` ファイルが `YOUR_DIRECTORY` に作成されます。  
+- Adobe Reader で `output.pdf` を開くとテキストを選択・コピーでき、検索可能であることが確認できます。
 
-## Step 6: Verify the Output – Does the PDF Really Search?
+## まとめ
 
-Open `result.pdf` in Adobe Reader or any PDF viewer with search capability. Try typing a word that appears in the original scan. If the text is highlighted, you’ve successfully **create searchable PDF**.
+本稿では、C# で Aspose OCR を使用して TIFF 画像から **検索可能な PDF** を作成するために必要なすべてを網羅しました。OCR エンジンの初期化、テキスト抽出、PDF/A 準拠の設定、最終文書の検証まで、各ステップを明確に解説しました。これで **画像を pdf に変換**、**tiff を pdf に変換**、**画像からテキストを抽出**、そして検索可能なレイヤーを持つ **pdf の作成方法** が分かります。
 
-If the search fails:
+## 次に探求すべきこと
 
-- Check that `AddSearchableTextLayer` is set to `true`.
-- Verify the OCR language matches the document’s language.
-- Ensure the TIFF isn’t corrupted (try opening it in an image viewer).
+- **バッチ処理:** ロジックをループでラップし、数十枚の画像を自動的に処理します。  
+- **カスタムフォント:** ブランド一貫性のために社内フォントを埋め込みます。  
+- **クラウド統合:** 作成後に PDF を Azure Blob Storage や AWS S3 に直接保存します。  
+- **UI フロントエンド:** 画像をドラッグ＆ドロップで即座に変換できるシンプルな WinForms/WPF アプリを構築します。
 
-## Optional Tweaks and Common Pitfalls
+さまざまな言語モデル、DPI 設定、PDF/A レベルを試してみてください。API は非常に柔軟で、想像できるほぼすべてのワークフローに適応できます。
 
-| シナリオ | 調整 | コードスニペット |
-|----------|------------|--------------|
-| **画像を埋め込まない**（ファイルサイズを小さく） | `EmbedImage = false` に設定 | `EmbedImage = false,` |
-| **別の OCR 言語**（例：フランス語） | `Language = OcrLanguage.French` に変更 | `Config = { Language = OcrLanguage.French }` |
-| **出力フォルダーをカスタマイズ** | パス用の変数を使用 | `var outputPath = Path.Combine(Environment.CurrentDirectory, "output", "result.pdf");` |
-| **多数の TIFF をループ処理** | 手順 2‑5 を `foreach` でラップ | `foreach (var file in Directory.GetFiles(@"inputFolder", "*.tiff")) { … }` |
+---
 
-> **Watch out for:** Setting DPI too high (e.g., 600) can balloon file size without noticeable visual benefit. Stick to 300 DPI for most scanned documents.
-
-## Full Working Example (Copy‑Paste Ready)
-
-```csharp
-using Aspose.OCR;
-using Aspose.OCR.Pdf;
-using System;
-
-class PdfExportDemo
-{
-    static void Main()
-    {
-        // 1️⃣ Initialize OCR engine with English language
-        var ocrEngine = new OcrEngine
-        {
-            Config = { Language = OcrLanguage.English }
-        };
-
-        // 2️⃣ Load the source TIFF (supports multi‑page automatically)
-        var sourceImage = OcrEngine.LoadImage(@"YOUR_DIRECTORY/input.tiff");
-
-        // 3️⃣ Set PDF options: embed original image, add searchable text, 300 DPI
-        var pdfSaveOptions = new PdfSaveOptions
-        {
-            EmbedImage = true,
-            AddSearchableTextLayer = true,
-            Dpi = 300
-        };
-
-        // 4️⃣ Run OCR and save as searchable PDF
-        ocrEngine.RecognizeAndSavePdf(sourceImage, @"YOUR_DIRECTORY/result.pdf", pdfSaveOptions);
-
-        Console.WriteLine("Searchable PDF created.");
-    }
-}
-```
-
-Run the program with `dotnet run`. After it finishes, open `result.pdf` and test the search feature. You’ve just **convert tiff to pdf** while preserving the original image and adding a searchable text layer.
-
-## Conclusion
-
-We’ve shown you how to **create searchable PDF** files from TIFF sources using Aspose.OCR in C#. The process covers everything from installing the library, loading single or **convert multi page tiff** files, configuring **embed image in pdf**, setting a custom **pdf dpi**, and finally saving a fully searchable document.  
-
-Feel free to experiment: try different languages, tweak DPI for faster loading, or batch‑process a folder of scans. Next up you might explore **adding bookmarks**, **watermarks**, or **digital signatures** to your PDFs—each one builds on the same foundation we laid out here.
-
-Got questions or a tricky TIFF that won’t convert? Drop a comment, and happy coding!  
-
-![Create searchable PDF example](example.png "Create searchable PDF from TIFF using Aspose OCR")
+*コーディングを楽しんで、PDF が常に検索可能でありますように！*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

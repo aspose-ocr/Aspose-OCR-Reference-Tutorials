@@ -1,0 +1,7 @@
+Title: Create Searchable PDF from Image with OCR in C# – Complete Guide
+Slug: create-searchable-pdf-from-image-with-ocr-in-c-complete-guid
+Category: text-recognition
+ProcessedDate: 2026-05-22T08:28:13.527470
+SourceRepo: AI Search API
+Keywords: create searchable pdf, convert image to pdf, ocr image to pdf, set pdf resolution, pdf with embedded image
+PRNumber: 129
