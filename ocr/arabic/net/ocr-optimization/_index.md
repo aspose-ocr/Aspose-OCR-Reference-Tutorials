@@ -278,6 +278,9 @@ weight: 25
 تعلم كيفية تمكين معالجة GPU، ضبط حد الذاكرة ومعالجة ملفات TIF باستخدام Aspose OCR في C#.
 ### [كيفية تمكين GPU في محرك OCR بلغة C# – دليل برمجة كامل](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 تعلم كيفية تفعيل وحدة معالجة الرسوميات لتسريع OCR في تطبيقات C# باستخدام Aspose.OCR.
+### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف في C# – دليل كامل](./preprocess-image-for-ocr-in-c-complete-guide/)
+دليل شامل يوضح تطبيق فلاتر ما قبل المعالجة على الصور في C# لتحسين دقة OCR باستخدام Aspose.OCR.
+### [تمكين OCR باستخدام GPU في C# – دليل كامل لاستخراج النص بسرعة أعلى](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
 
 ## الأسئلة المتكررة
 

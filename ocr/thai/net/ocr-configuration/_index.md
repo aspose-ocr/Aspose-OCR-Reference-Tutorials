@@ -122,6 +122,9 @@ weight: 24
 ### [สร้าง PDF ที่ค้นหาได้จากภาพ – คู่มือเต็มขั้นตอน](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 เรียนรู้วิธีแปลงภาพเป็น PDF ที่สามารถค้นหาและคัดลอกข้อความได้ด้วย Aspose.PDF ขั้นตอนเต็มรูปแบบ
 
+### [Detect Language from Image in C# – Complete Programming Guide](./detect-language-from-image-in-c-complete-programming-guide/)
+เรียนรู้วิธีตรวจจับภาษาจากภาพด้วย C# อย่างครบถ้วน ด้วย Aspose.OCR
+
 ### การใช้งานทั่วไป
 - **ดึงข้อความจากภาพ** ของใบแจ้งหนี้ที่สแกนเพื่อการบัญชีอัตโนมัติ.  
 - ทำดัชนีอาร์ไคฟ์เอกสารขนาดใหญ่เพื่อเป็นคลังข้อมูลที่ค้นหาได้.  

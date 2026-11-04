@@ -151,6 +151,8 @@ Hướng dẫn chi tiết cách lấy phiên bản hiện tại của Aspose.OCR
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh – Hướng dẫn chi tiết từng bước](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Hướng dẫn toàn diện cách chuyển đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR và Aspose.PDF.
 ### [Cách sử dụng OcrEngine trong C# – Hướng dẫn OCR toàn diện](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+### [Phát hiện ngôn ngữ từ hình ảnh trong C# – Hướng dẫn lập trình đầy đủ](./detect-language-from-image-in-c-complete-programming-guide/)
+Hướng dẫn toàn diện cách phát hiện ngôn ngữ từ hình ảnh bằng C# sử dụng Aspose.OCR.
 
 
 

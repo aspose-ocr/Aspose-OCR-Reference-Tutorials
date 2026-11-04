@@ -100,6 +100,8 @@ Aprenda a recuperar a versão da biblioteca Aspose OCR usando C# com este guia p
 Domine o uso da classe OcrEngine em C# para reconhecimento avançado de texto com Aspose.OCR.
 ### [Criar PDF pesquisável a partir de uma imagem – Guia completo passo a passo](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Aprenda a converter imagens em PDFs pesquisáveis usando Aspose.OCR, com passo a passo detalhado e código C# completo.
+### [Detectar idioma a partir de imagem em C# – Guia completo de programação](./detect-language-from-image-in-c-complete-programming-guide/)
+Aprenda a detectar automaticamente o idioma de texto em imagens usando Aspose.OCR com C# em um guia completo.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

@@ -151,6 +151,8 @@ Ismerje meg az OcrEngine osztály teljes használatát C#‑ban, a beállításo
 
 ### [Kereshető PDF létrehozása képből – Teljes lépésről‑lépésre útmutató](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Ismerje meg, hogyan alakíthatja a képet kereshető PDF-dokumentummá az Aspose.OCR és Aspose.PDF segítségével.  
+### [Kép nyelvének felismerése C#‑ban – Teljes programozási útmutató](./detect-language-from-image-in-c-complete-programming-guide/)
+Ismerje meg, hogyan lehet képről nyelvet felismerni C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.  
 
 
 

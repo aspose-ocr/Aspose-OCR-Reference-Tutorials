@@ -98,6 +98,8 @@ Scopri come ottenere la versione corrente di Aspose.OCR in C# e verificare l'ins
 Scopri come utilizzare OcrEngine in C# per eseguire riconoscimento OCR completo, dalla configurazione all'estrazione avanzata del testo.
 ### [Crea PDF Ricercabile da un'Immagine – Guida Completa Passo‑Passo](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Impara a trasformare un'immagine in un PDF ricercabile con Aspose.OCR, passo dopo passo, includendo configurazione e salvataggio.
+### [Rileva la lingua da un'immagine in C# – Guida completa di programmazione](./detect-language-from-image-in-c-complete-programming-guide/)
+Scopri come rilevare la lingua da un'immagine in C# con una guida completa.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

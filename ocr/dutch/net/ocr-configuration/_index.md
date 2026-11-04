@@ -58,8 +58,10 @@ Ontdek het enorme potentieel van Aspose.OCR voor .NET terwijl je moeiteloos OCR�
 
 ### [OCRO-bewerking met archief in OCR-beeldherkenning](./ocr-operation-with-archive/)
 Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer stap‑voor‑stap tekst uit archief‑afbeeldingen te extraheren.
+
 ### [OCRO-bewerking met map in OCR-beeldherkenning](./ocr-operation-with-folder/)
 Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer gemakkelijke tekst uit afbeeldingen.
+
 ### [OCRO-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-taalselectie/)
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
 ### [Hoe OCR-taalpakket voor Russisch te downloaden – Complete gids](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
@@ -116,6 +118,9 @@ Leer hoe je de huidige Aspose OCR‑versie in C# kunt opvragen en gebruiken in j
 Leer stap‑voor‑stap hoe je OcrEngine in C# gebruikt voor volledige OCR‑functionaliteit.
 ### [Maak doorzoekbare PDF van een afbeelding – volledige stapsgewijze gids](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Leer hoe je een doorzoekbare PDF maakt van een afbeelding met een volledige stap‑voor‑stap handleiding.
+
+### [Detecteer taal van afbeelding in C# – Complete programmeergids](./detect-language-from-image-in-c-complete-programming-guide/)
+Leer hoe je met Aspose.OCR de taal van tekst in afbeeldingen detecteert en verwerkt in C#-toepassingen.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

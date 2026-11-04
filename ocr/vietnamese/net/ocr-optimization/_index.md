@@ -246,6 +246,10 @@ Hướng dẫn chi tiết cách tiền xử lý ảnh trước khi OCR bằng As
 ### [Ví dụ Aspose OCR C# – Bật GPU, Đặt giới hạn bộ nhớ & Xử lý ảnh TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Hướng dẫn bật GPU, giới hạn bộ nhớ và xử lý ảnh TIF bằng Aspose OCR trong C# để tăng tốc độ và hiệu suất OCR.
 ### [Cách bật GPU trong Engine OCR C# – Hướng dẫn lập trình đầy đủ](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+### [Tiền xử lý hình ảnh cho OCR trong C# – Hướng dẫn đầy đủ](./preprocess-image-for-ocr-in-c-complete-guide/)
+Hướng dẫn chi tiết cách tiền xử lý hình ảnh trong C# để cải thiện độ chính xác OCR với Aspose.OCR.
+### [Kích hoạt GPU OCR trong C# – Hướng dẫn đầy đủ để trích xuất văn bản nhanh hơn](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Tận dụng GPU để tăng tốc độ OCR trong C#, giảm thời gian xử lý và cải thiện hiệu suất trích xuất văn bản.
 
 ## Câu hỏi thường gặp
 

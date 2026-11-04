@@ -247,6 +247,10 @@ C#으로 이미지 전처리 과정을 단계별로 안내하여 OCR 정확도�
 GPU를 활용하고 메모리 제한을 설정하여 TIF 이미지를 효율적으로 처리하는 Aspose OCR C# 예제입니다.
 ### [C# OCR 엔진에서 GPU 활성화하는 방법 – 완전 프로그래밍 가이드](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 Aspose.OCR for .NET에서 GPU 가속을 설정하여 인식 속도와 정확성을 높이는 전체 가이드입니다.
+### [C#에서 OCR을 위한 이미지 전처리 – 완전 가이드](./preprocess-image-for-ocr-in-c-complete-guide/)
+C#에서 이미지 전처리 방법을 단계별로 안내하여 OCR 정확도를 높이는 완전 가이드입니다.
+### [C#에서 GPU OCR 활성화 – 빠른 텍스트 추출을 위한 완전 가이드](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+C#에서 GPU 가속 OCR을 활성화하여 텍스트 추출 속도를 크게 향상시키는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

@@ -622,6 +622,15 @@ url: /ar/net/text-recognition/
 ### [ملف PDF محمي بتقنية OCR في C# – دليل كامل لاستخراج النص](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
 تعلم كيفية استخراج النص من ملفات PDF المحمية بتقنية OCR باستخدام C# و Aspose.OCR خطوة بخطوة.
 ### [التعرف على نص الصورة في C# – دليل OCR كامل](./recognize-text-image-in-c-full-ocr-guide/)
+### [إجراء التعرف الضوئي على الأحرف في صورة باستخدام C# مع Aspose – دليل برمجة كامل](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+تعلم كيفية تنفيذ التعرف الضوئي على الأحرف للصور باستخدام C# و Aspose من خلال دليل برمجة شامل خطوة بخطوة.
+### [تحويل الصورة إلى PDF قابل للبحث باستخدام Aspose OCR – دليل كامل بلغة C#](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+تعلم كيفية تحويل الصور إلى ملفات PDF قابلة للبحث باستخدام Aspose OCR في C# خطوة بخطوة.
+### [تحويل الصورة إلى نص في C# – دليل كامل لـ Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+تعلم كيفية تحويل الصور إلى نص باستخدام Aspose OCR في C# خطوة بخطوة.
+### [استخراج النص الهندي من الصور باستخدام Aspose OCR – دليل كامل](./extract-hindi-text-from-images-using-aspose-ocr-complete-g/)
+### [التعرف على النص العربي من الصورة – دليل كامل بلغة C# باستخدام Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+### [معالجة دفعة OCR في C# – دليل كامل لاستخراج النص من الصور](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

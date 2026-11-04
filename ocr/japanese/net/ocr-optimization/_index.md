@@ -290,6 +290,12 @@ GPU を活用しメモリ上限を設定して、TIF 画像の OCR 処理を高�
 ### [C# OCR エンジンで GPU を有効にする方法 – 完全プログラミングガイド](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 GPU を活用して OCR 処理を高速化する手順をステップバイステップで解説します。C# での実装方法を網羅。
 
+### [C# で GPU OCR を有効化 – 高速テキスト抽出の完全ガイド](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+GPU を活用して OCR 処理を高速化し、C# アプリでテキスト抽出を最適化する手順を詳しく解説します。
+
+### [C# で OCR 用画像前処理 – 完全ガイド](./preprocess-image-for-ocr-in-c-complete-guide/)
+C# で画像を前処理し、OCR の精度を最大化する手順をステップバイステップで解説します。
+
 ## よくある質問
 
 **Q: 複数言語が混在した画像ファイルからテキストを抽出できますか？**  

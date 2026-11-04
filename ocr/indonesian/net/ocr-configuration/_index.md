@@ -152,6 +152,8 @@ Pelajari cara mengambil versi Aspose.OCR yang terpasang dalam aplikasi C# Anda d
 Panduan lengkap menggunakan OcrEngine di C# untuk melakukan OCR dengan Aspose.OCR secara efisien.
 ### [Buat PDF yang Dapat Dicari dari Gambar – Panduan Langkah‑per‑Langkah Lengkap](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Panduan lengkap membuat PDF dapat dicari dari gambar menggunakan Aspose.OCR dan Aspose.PDF dalam .NET.
+### [Mendeteksi Bahasa dari Gambar dalam C# – Panduan Pemrograman Lengkap](./detect-language-from-image-in-c-complete-programming-guide/)
+Pelajari cara mendeteksi bahasa teks dalam gambar menggunakan Aspose.OCR di C# dengan contoh lengkap.
 
 ### Kasus Penggunaan Umum
 - **Ekstrak gambar teks** dari faktur yang dipindai untuk akuntansi otomatis.  

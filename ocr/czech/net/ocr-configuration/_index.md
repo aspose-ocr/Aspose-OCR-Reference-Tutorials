@@ -43,6 +43,8 @@ Extrahování OCR znamená předání obrázku (nebo kolekce obrázků) do Aspos
 
 ### [OCROperation s archivem v rozpoznávání OCR obrázků](./ocr-operation-with-archive/)
 Odemkněte potenciál OCR v .NET aplikacích s Aspose.OCR. Naučte se krok za krokem extrahovat text z obrázků v archivech.
+### [Detekce jazyka z obrázku v C# – Kompletní programovací průvodce](./detect-language-from-image-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.OCR detekovat jazyk textu přímo z obrázku v C#.
 ### [OCROperation se seznamem v rozpoznávání OCR obrázků](./ocr-operation-with-list/)
 ### [Načíst soubor obrázku a extrahovat text účtenky pomocí GPU OCR v C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Ukážeme, jak využít GPU akceleraci v Aspose.OCR pro rychlé načtení obrázku a extrakci textu z účtenek v C#.

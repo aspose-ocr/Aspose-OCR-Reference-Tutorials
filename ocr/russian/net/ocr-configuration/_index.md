@@ -148,6 +148,8 @@ weight: 24
 ### [Как использовать OcrEngine в C# – Полное руководство по OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
 ### [Создание поискового PDF из изображения – Полное пошаговое руководство](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 Подробное руководство по преобразованию изображения в PDF с возможностью поиска текста с помощью Aspose.OCR.
+### [Определение языка на изображении в C# – Полное руководство по программированию](./detect-language-from-image-in-c-complete-programming-guide/)
+Полное руководство по определению языка текста на изображении с помощью Aspose.OCR в C#.
 
 
 

@@ -41,6 +41,8 @@ Aspose.OCR을 사용하여 .NET에서 OCR의 잠재력을 활용해 보세요. P
 Aspose OCR을 활용해 PDF 파일에서 텍스트를 정확히 추출하고, .NET 애플리케이션에 손쉽게 통합하는 전체 가이드를 제공합니다.
 ### [Aspose OCR로 PDF에서 OCR 수행 – 완전 C# 가이드](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
 Aspose.OCR와 C#을 활용해 PDF에서 텍스트를 정확히 추출하고 통합하는 단계별 완전 가이드입니다.
+### [Aspose OCR을 사용하여 이미지를 검색 가능한 PDF로 변환 – 완전 C# 가이드](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Aspose OCR을 활용해 이미지를 검색 가능한 PDF로 변환하는 단계별 C# 가이드를 확인하세요.
 
 ## OCR 이미지 인식에서 테이블 인식
 
@@ -628,6 +630,15 @@ C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하�
 C#와 Aspose.OCR을 사용해 보호된 PDF에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
 ### [C#로 텍스트 이미지 인식 – 전체 OCR 가이드](./recognize-text-image-in-c-full-ocr-guide/)
 C#와 Aspose.OCR을 사용해 이미지에서 텍스트를 정확히 추출하는 전체 과정을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 이미지에서 힌디어 텍스트 추출 – 완전 가이드](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Aspose OCR을 활용해 이미지에서 힌디어 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
+### [이미지에서 아랍어 텍스트 인식 – Aspose OCR을 사용한 완전 C# 가이드](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Aspose OCR을 사용하여 이미지에서 아랍어 텍스트를 정확히 추출하는 단계별 C# 가이드입니다.
+### [C#에서 이미지 텍스트 변환 – 완전 Aspose OCR 가이드](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Aspose OCR을 활용해 C#에서 이미지를 텍스트로 변환하는 단계별 완전 가이드를 확인하세요.
+### [Aspose를 사용한 C# 이미지 OCR 수행 – 완전 프로그래밍 가이드](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+### [C# 배치 OCR 처리 – 이미지에서 텍스트 추출 완전 가이드](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

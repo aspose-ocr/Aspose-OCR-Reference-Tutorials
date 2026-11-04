@@ -293,6 +293,10 @@ Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan sebelum OCR me
 Pelajari cara mengaktifkan GPU, mengatur batas memori, dan memproses file TIF dengan Aspose OCR menggunakan C#.
 ### [Cara Mengaktifkan GPU di Mesin OCR C# – Panduan Pemrograman Lengkap](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 Pelajari cara mengaktifkan akselerasi GPU pada mesin OCR C# untuk meningkatkan kecepatan dan akurasi pengenalan teks.
+### [Aktifkan GPU OCR di C# – Panduan Lengkap untuk Ekstraksi Teks Lebih Cepat](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Pelajari cara mengaktifkan akselerasi GPU pada Aspose.OCR di C# untuk meningkatkan kecepatan ekstraksi teks secara signifikan.
+### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap](./preprocess-image-for-ocr-in-c-complete-guide/)
+Pelajari cara mempersiapkan gambar sebelum OCR di C# dengan panduan lengkap, meningkatkan akurasi dan kecepatan pengenalan.
 
 ## Pertanyaan yang Sering Diajukan
 

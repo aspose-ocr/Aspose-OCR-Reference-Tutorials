@@ -604,6 +604,16 @@ url: /ru/net/text-recognition/
 Полное руководство по извлечению текста из защищенных PDF-файлов с помощью OCR в C# и Aspose.OCR.
 ### [Распознать текстовое изображение в C# – Полное руководство по OCR](./recognize-text-image-in-c-full-ocr-guide/)
 Подробное руководство по распознаванию текста на изображениях в C# с помощью Aspose.OCR.
+### [Извлечение текста на хинди из изображений с помощью Aspose OCR – Полное руководство](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Извлеките текст на хинди из изображений с помощью Aspose OCR в .NET, следуя пошаговому полному руководству.
+### [Распознать арабский текст с изображения – Полное руководство C# с Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Извлеките арабский текст из изображений в .NET с помощью Aspose OCR, следуя полному пошаговому руководству на C#.
+### [Выполнить OCR изображения на C# с Aspose – Полное руководство по программированию](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Полное пошаговое руководство по выполнению OCR изображения в C# с использованием Aspose.
+### [Пакетная обработка OCR в C# – Полное руководство по извлечению текста из изображений](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Изучите, как выполнять пакетную обработку изображений с помощью Aspose.OCR в C#, извлекая текст из множества файлов эффективно.
+### [Преобразовать изображение в текст на C# – Полное руководство Aspose OCR](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Полное пошаговое руководство по преобразованию изображений в текст на C# с использованием Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

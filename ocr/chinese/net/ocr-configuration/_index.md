@@ -141,6 +141,8 @@ weight: 24
 全面讲解在 C# 项目中使用 OcrEngine 进行 OCR 的步骤、配置和最佳实践。  
 ### [从图像创建可搜索 PDF – 完整分步指南](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 详细步骤演示如何使用 Aspose.OCR 将图像转换为可搜索的 PDF 文档。  
+### [在 C# 中检测图像语言 – 完整编程指南](./detect-language-from-image-in-c-complete-programming-guide/)
+使用 Aspose.OCR 在 C# 中检测图像中的语言，实现多语言识别的完整示例。  
 
 
 

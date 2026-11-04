@@ -285,6 +285,10 @@ Kompletní návod, jak předzpracovat obrázky v C# pro zvýšení přesnosti OC
 Naučte se povolit GPU, nastavit limit paměti a zpracovat TIF soubory pomocí Aspose.OCR v C#.
 ### [Jak povolit GPU v OCR enginu C# – Kompletní programovací průvodce](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 Naučte se, jak aktivovat GPU akceleraci v OCR enginu C# pro vyšší výkon a přesnost rozpoznávání.
+### [Povolení GPU OCR v C# – Kompletní průvodce rychlejším extrahováním textu](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Zrychlete OCR pomocí GPU v C#. Naučte se nastavit a využít GPU akceleraci pro rychlejší rozpoznávání textu.
+### [Předzpracování obrázku pro OCR v C# – Kompletní průvodce](./preprocess-image-for-ocr-in-c-complete-guide/)
+Naučte se, jak předzpracovat obrázky pro OCR v C# a dosáhnout vyšší přesnosti rozpoznávání textu.
 
 ## Často kladené otázky
 

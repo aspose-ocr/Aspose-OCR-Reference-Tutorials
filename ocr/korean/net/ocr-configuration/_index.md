@@ -147,6 +147,7 @@ C# 코드에서 현재 사용 중인 Aspose OCR 라이브러리 버전을 확인
 Aspose.OCR의 OcrEngine을 활용해 C#에서 OCR을 구현하는 전체 단계별 가이드를 제공합니다.  
 ### [이미지에서 검색 가능한 PDF 만들기 – 전체 단계별 가이드](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
 이미지를 PDF로 변환하고 OCR을 적용해 검색 가능한 PDF를 만드는 전체 과정.  
+### [C#에서 이미지로 언어 감지 – 완전 프로그래밍 가이드](./detect-language-from-image-in-c-complete-programming-guide/)
 
 
 

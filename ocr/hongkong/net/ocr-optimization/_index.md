@@ -268,6 +268,10 @@ weight: 25
 示範如何在 C# 中啟用 GPU 加速、設定記憶體上限，並處理 TIF 圖像以提升 OCR 效能。
 ### [如何在 C# OCR 引擎中啟用 GPU – 完整程式設計指南](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 了解如何在 C# 中啟用 GPU 加速 Aspose.OCR，引導您完成設定與最佳化步驟。
+### [在 C# 中啟用 GPU OCR – 加速文字提取的完整指南](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+了解如何在 C# 使用 GPU 加速 Aspose.OCR，提升文字辨識速度與效能。
+### [在 C# 中預處理圖像以進行 OCR – 完整指南](./preprocess-image-for-ocr-in-c-complete-guide/)
+深入了解如何在 C# 中使用 Aspose.OCR 進行圖像預處理，提升文字辨識的準確度與效能。
 
 ## 常見問題
 

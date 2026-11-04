@@ -283,6 +283,10 @@ Lär dig steg‑för‑steg hur du förbehandlar bilder för optimal OCR‑igenk
 Lär dig hur du aktiverar GPU‑acceleration, begränsar minnesanvändning och bearbetar TIF‑bilder med Aspose OCR i C#.
 ### [Hur du aktiverar GPU i C# OCR-motorn – Komplett programmeringsguide](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
 Lär dig hur du konfigurerar GPU‑acceleration i Aspose.OCR för .NET för snabbare bildigenkänning.
+### [Aktivera GPU-OCR i C# – Komplett guide för snabbare textutdrag](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Lär dig hur du använder GPU-acceleration för OCR i C# för att dramatiskt öka hastigheten på textutdrag.
+### [Förbehandla bild för OCR i C# – Komplett guide](./preprocess-image-for-ocr-in-c-complete-guide/)
+Lär dig steg‑för‑steg hur du förbehandlar bilder för OCR i C# med Aspose.OCR för optimal noggrannhet.
 
 ## Vanliga frågor
 

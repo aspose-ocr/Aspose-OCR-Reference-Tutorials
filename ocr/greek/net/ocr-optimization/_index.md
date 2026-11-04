@@ -283,6 +283,10 @@ weight: 25
 ### [Παράδειγμα Aspose OCR C# – Ενεργοποίηση GPU, Ορισμός Ορίου Μνήμης & Επεξεργασία Αρχείων TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
 Μάθετε πώς να ενεργοποιήσετε την GPU, να ορίσετε όριο μνήμης και να επεξεργαστείτε εικόνες TIF με Aspose OCR σε C#.
 ### [How to Enable GPU in C# OCR Engine – Complete Programming Guide](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+### [Ενεργοποίηση GPU OCR σε C# – Πλήρης Οδηγός για Ταχύτερη Εξαγωγή Κειμένου](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Ενεργοποιήστε την επιτάχυνση GPU στο Aspose.OCR για C# και επιτύχετε ταχύτερη εξαγωγή κειμένου από εικόνες.
+### [Προεπεξεργασία Εικόνας για OCR σε C# – Πλήρης Οδηγός](./preprocess-image-for-ocr-in-c-complete-guide/)
+Μάθετε πώς να προετοιμάσετε εικόνες για OCR σε C# χρησιμοποιώντας Aspose.OCR, βελτιώνοντας την ακρίβεια με φίλτρα και τεχνικές βελτιστοποίησης.
 
 ## Συχνές Ερωτήσεις
 

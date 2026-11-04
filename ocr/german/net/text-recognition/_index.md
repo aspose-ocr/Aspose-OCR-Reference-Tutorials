@@ -603,6 +603,18 @@ Erfahren Sie, wie Sie mit Aspose.OCR chinesischen Text in .NET-Anwendungen erken
 Lernen Sie, wie Sie die komplette OCR-Engine in C# nutzen, um Text aus Bildern zu erkennen – Schritt‑für‑Schritt‑Anleitung.
 ### [Geschütztes PDF in C# mit OCR – Komplett‑Guide zum Extrahieren von Text](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
 Erfahren Sie, wie Sie mit Aspose.OCR geschützte PDF‑Dateien in C# entschlüsseln und Text extrahieren – Schritt‑für‑Schritt‑Anleitung.
+### [Hindi-Text aus Bildern extrahieren mit Aspose OCR – Komplettanleitung](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Lernen Sie, wie Sie mit Aspose OCR Hindi-Text aus Bildern extrahieren und in Ihre .NET-Anwendungen integrieren.
+### [Arabischen Text aus Bild erkennen – Komplettanleitung in C# mit Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Erfahren Sie, wie Sie mit Aspose OCR arabischen Text aus Bildern in C# extrahieren und in Ihre .NET-Anwendungen integrieren.
+### [OCR auf Bild in C# mit Aspose – Komplettprogrammieranleitung](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder verarbeiten – eine umfassende Schritt‑für‑Schritt‑Programmieranleitung.
+### [Batch-OCR-Verarbeitung in C# – Komplettanleitung zum Extrahieren von Text aus Bildern](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# eine Stapelverarbeitung einrichten und Text aus vielen Bildern effizient extrahieren.
+### [Bild in durchsuchbares PDF konvertieren mit Aspose OCR – Komplettanleitung für C#](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Erfahren Sie, wie Sie mit Aspose OCR Bilder in durchsuchbare PDFs konvertieren und in C# implementieren.
+### [Bild in Text konvertieren in C# – Vollständige Aspose OCR Anleitung](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln – eine umfassende Schritt‑für‑Schritt‑Anleitung.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

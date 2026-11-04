@@ -109,6 +109,8 @@ Erfahren Sie, wie Sie die installierte Aspose.OCR-Version in C# ermitteln und pr
 ### [Wie man OcrEngine in C# verwendet – Vollständiger OCR-Leitfaden](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
 Erfahren Sie, wie Sie OcrEngine in C# einsetzen, um OCR‑Prozesse von Grund auf zu implementieren und zu optimieren.
 ### [Erstellen einer durchsuchbaren PDF aus einem Bild – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+### [Sprache aus Bild in C# erkennen – Vollständiger Programmierleitfaden](./detect-language-from-image-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR die Sprache aus Bilddateien in C# automatisch erkennen und verarbeiten.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

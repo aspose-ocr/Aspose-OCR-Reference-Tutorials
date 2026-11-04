@@ -630,6 +630,18 @@ Lär dig steg-för-steg hur du extraherar kinesisk text från bilder med Aspose.
 Lär dig steg-för-steg hur du extraherar text från bilder i C# med Aspose.OCR:s fullständiga OCR-motor.
 ### [Känn igen text från bild i C# – Fullständig OCR-guide](./recognize-text-image-in-c-full-ocr-guide/)
 Lär dig steg-för-steg hur du extraherar text från bilder i C# med en komplett OCR-guide.
+### [Extrahera hindi-text från bilder med Aspose OCR – Komplett guide](./extract-hindi-text-from-images-using-aspose-ocr-complete-gui/)
+Lär dig hur du med Aspose OCR extraherar hindi-text från bilder i en steg-för-steg-guide.
+### [Känn igen arabisk text från bild – Komplett C#-guide med Aspose OCR](./recognize-arabic-text-from-image-complete-c-guide-using-aspo/)
+Lär dig hur du med Aspose OCR extraherar arabisk text från bilder i en komplett C#-guide.
+### [Utför OCR på bild i C# med Aspose – Komplett programmeringsguide](./perform-ocr-on-image-in-c-with-aspose-complete-programming-g/)
+Lär dig steg för steg hur du använder Aspose för att utföra OCR på bilder i C# med en komplett programmeringsguide.
+### [Batch-OCR-behandling i C# – Komplett guide för att extrahera text från bilder](./batch-ocr-processing-in-c-complete-guide-to-extract-text-fro/)
+Lär dig hur du i C# batchbearbetar bilder med Aspose.OCR för att snabbt extrahera text från flera filer.
+### [Konvertera bild till sökbar PDF med Aspose OCR – Komplett C#-guide](./convert-image-to-searchable-pdf-using-aspose-ocr-complete-c/)
+Lär dig steg för steg hur du omvandlar bilder till sökbara PDF-filer med Aspose OCR i C#.
+### [Konvertera bild till text i C# – Komplett Aspose OCR-guide](./convert-image-to-text-in-c-full-aspose-ocr-guide/)
+Lär dig steg för steg hur du använder Aspose OCR i C# för att konvertera bilder till redigerbar text.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
