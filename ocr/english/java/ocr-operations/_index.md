@@ -219,6 +219,9 @@ Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial]({{< relref "recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial" >}})
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
 
+### [Apply Aspose OCR License in Java – Remove OCR Watermark]({{< relref "apply-aspose-ocr-license-in-java-remove-ocr-watermark" >}})
+Learn to apply an Aspose OCR license in Java and eliminate the OCR watermark for clean results.
+
 ### [Create searchable PDF from PNG – complete java guide]({{< relref "create-searchable-pdf-from-png-complete-java-guide" >}})
 Convert PNG images into searchable PDFs with Aspose.OCR for Java in a few simple steps.
 

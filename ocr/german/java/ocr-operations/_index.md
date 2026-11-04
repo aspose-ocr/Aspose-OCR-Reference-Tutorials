@@ -166,6 +166,8 @@ Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern vollständig erken
 Entdecken Sie, wie Sie mit Aspose OCR für Java Text in einem definierten ROI erkennen.
 ### [Bild für OCR mit Aspose OCR Java laden – Vollständige Anleitung](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Lernen Sie, wie Sie Bilder in Java laden und mit Aspose OCR vollständig verarbeiten, um präzise Texterkennung zu erzielen.
+### [Aspose OCR-Lizenz in Java anwenden – OCR-Wasserzeichen entfernen](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Erfahren Sie, wie Sie die Aspose OCR‑Lizenz in Java aktivieren und das Wasserzeichen aus OCR‑Ergebnissen entfernen.
 
 ## Häufig gestellte Fragen
 

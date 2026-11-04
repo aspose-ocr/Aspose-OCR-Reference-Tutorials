@@ -169,6 +169,8 @@ Hướng dẫn chi tiết cách dùng Aspose OCR trong Java để nhận dạng 
 Khám phá cách nhận dạng văn bản trong vùng quan tâm (ROI) bằng Aspose OCR trong Java, từ cấu hình đến trích xuất kết quả chính xác.
 ### [Tải ảnh cho OCR với Aspose OCR Java – Hướng dẫn đầy đủ](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Hướng dẫn chi tiết cách tải ảnh và thực hiện OCR bằng Aspose OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
+### [Áp dụng giấy phép Aspose OCR trong Java – Loại bỏ watermark OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Mở khóa khả năng loại bỏ watermark OCR bằng cách áp dụng giấy phép Aspose OCR trong Java, giúp tài liệu sạch sẽ và chuyên nghiệp.
 
 ## Câu hỏi Thường gặp
 

@@ -195,6 +195,15 @@ Aspose OCR का उपयोग करके जावा में समा�
 ### [जावा में एन्क्रिप्टेड PDF से टेक्स्ट निकालना – पूर्ण गाइड](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
 जावा में एन्क्रिप्टेड PDF फ़ाइलों से सुरक्षित रूप से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। आसान चरणों के साथ अभी डाउनलोड करें।
 ### [OCR के लिए छवि को पूर्व-प्रसंस्करण करें – पूर्व-प्रसंस्करण से सटीकता बढ़ाएँ](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
+### [जावा OCR में GPU सक्षम करने की पूरी चरण‑दर‑चरण गाइड](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+जावा में Aspose.OCR के साथ GPU सक्षम करके तेज़ OCR प्राप्त करें। चरण‑दर‑चरण मार्गदर्शिका के साथ सेटअप आसान।
+### [जावा में स्कैन की गई छवि से टेक्स्ट निकालें – पूर्ण Aspose OCR गाइड](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+जावा में Aspose OCR का उपयोग करके स्कैन की गई छवियों से तेज़ और सटीक टेक्स्ट निकालें। पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
+### [Aspose OCR जावा उदाहरण – छवि लोड, वर्तनी‑सुधार, और OCR प्रक्रिया की पूर्ण गाइड](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+छवि लोड करने, वर्तनी सुधारने और OCR प्रक्रिया करने के लिए Aspose OCR जावा का पूर्ण चरण‑दर‑चरण मार्गदर्शक।
+### [जावा में OCR सटीकता सुधारें – पूर्ण गाइड](./improve-ocr-accuracy-in-java-complete-guide/)
+Aspose.OCR के साथ जावा में OCR की सटीकता बढ़ाने के लिए चरण‑दर‑चरण मार्गदर्शिका। तेज़ और विश्वसनीय पाठ निष्कर्षण प्राप्त करें।
+### [जावा में खोज योग्य PDF बनाना – पूर्ण Aspose OCR गाइड](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

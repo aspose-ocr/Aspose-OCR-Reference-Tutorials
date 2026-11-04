@@ -168,6 +168,7 @@ weight: 21
 示範如何在指定區域 (ROI) 內使用 Aspose OCR 進行文字辨識，提升精準度與效能。
 ### [使用 Aspose OCR Java 載入圖像進行 OCR – 完整指南](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 完整教學示範如何在 Java 中使用 Aspose OCR 載入圖像並執行文字辨識，涵蓋設定與最佳化技巧。
+### [在 Java 中套用 Aspose OCR 授權 – 移除 OCR 水印](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 
 ## 常見問題
 

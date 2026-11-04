@@ -153,6 +153,8 @@ weight: 21
 ### [التعرف على النص في ROI باستخدام Aspose OCR – دليل Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 ### [تحميل صورة للتعرف الضوئي على الأحرف باستخدام Aspose OCR Java – دليل كامل](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 دليل شامل يوضح كيفية تحميل صورة وإجراء OCR باستخدام Aspose OCR للـ Java خطوة بخطوة.
+### [تطبيق ترخيص Aspose OCR في Java – إزالة العلامة المائية للـ OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+دليل خطوة بخطوة لتطبيق ترخيص Aspose OCR في Java وإزالة العلامة المائية من النص المستخرج.
 
 ## الأسئلة المتكررة
 

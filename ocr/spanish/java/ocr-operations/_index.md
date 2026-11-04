@@ -170,6 +170,8 @@ Aprende paso a paso a generar PDFs buscables usando Aspose OCR en Java, con ejem
 Desbloquea la extracción de texto en regiones de interés (ROI) usando Aspose OCR en Java. Sigue la guía paso a paso.
 ### [Cargar imagen para OCR con Aspose OCR Java – Tutorial completo](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Aprende a cargar imágenes y aplicar OCR con Aspose OCR en Java paso a paso para obtener texto preciso.
+### [Aplicar licencia Aspose OCR en Java – Eliminar marca de agua OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Aprende a aplicar la licencia Aspose OCR en Java y eliminar la marca de agua OCR de tus documentos.
 
 ## Preguntas frecuentes
 

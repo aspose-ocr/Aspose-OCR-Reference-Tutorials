@@ -45,7 +45,7 @@ Aspose.OCR for Java を使用して、画像内の関心領域を設定し、特
 
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。このチュートリアルでは、簡単な統合と高精度で線を認識する方法を説明します。 Aspose.OCR の効率性と信頼性でプロジェクトを強化します。
 
-## [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
+## [Aspose OCR で許可される文字を指定する](./specify-allowed-characters/)
 
 ## [OCR でコントラストを強化する方法 – 完全な Java 前処理ガイド](./how-to-enhance-contrast-in-ocr-complete-java-pre-processing/)
 画像のコントラストを最適化し、OCR の精度を向上させるための Java 前処理手順を詳しく解説します。
@@ -143,7 +143,7 @@ Aspose.OCR を使用して、Java でのシームレスな画像テキスト抽�
 Aspose.OCR for Java でテキスト認識の能力を解放します。シームレスな統合については、ステップバイステップのガイドに従ってください。効率的な OCR 機能で Java アプリケーションを強化します。
 ### [Aspose.OCR for Java での行の認識](./recognize-lines/)
 Aspose.OCR を使用して Java アプリケーションを強化し、正確なテキスト認識を実現します。簡単な統合、高精度。
-### [Aspose.OCR で許可される文字を指定する](./specify-allowed-characters/)
+### [Aspose OCR で許可される文字を指定する](./specify-allowed-characters/)
 Aspose.OCR for Java を使用して、画像からのテキスト抽出をシームレスに解除します。効率的に統合するには、ステップバイステップのガイドに従ってください。
 ### [GPU 加速を使用した Aspose.OCR for Java で画像からテキストを認識](./recognize-text-from-image-java-ocr-with-gpu-acceleration/)
 GPU の高速処理を活用し、Aspose.OCR for Java で画像からテキストを高速かつ高精度に抽出する方法を解説します。
@@ -190,6 +190,16 @@ Aspose OCR を活用し、Java で画像を並列バッチ処理しながら高�
 Java を使用して暗号化された PDF からテキストを安全に抽出する方法をステップバイステップで解説します。
 ### [OCR 用画像前処理 – 前処理で精度を向上](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
 画像を前処理して OCR の精度を向上させる方法をステップバイステップで解説します。Java で簡単に実装可能です。
+### [Java OCR で GPU を有効にする方法 – 完全ステップバイステップガイド](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Aspose.OCR for Java で GPU を活用し、OCR 処理を高速化する手順を詳しく解説します。簡単に設定できる完全ガイドです。
+### [Java でスキャン画像からテキストを抽出する – 完全 Aspose OCR ガイド](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Aspose.OCR for Java を使用して、スキャン画像からテキストを正確に抽出する手順を詳しく解説します。簡単に導入できる完全ガイドです。
+### [Aspose OCR Java 例 – 画像の読み込み、スペル補正、OCR 処理の完全ガイド](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Aspose OCR for Java を使用して画像を読み込み、スペル補正を行い、OCR を実行する手順を完全に解説します。
+### [Java で OCR の精度を向上させる – 完全ガイド](./improve-ocr-accuracy-in-java-complete-guide/)
+Aspose.OCR for Java を活用し、OCR の精度を最大化するための詳細な手順とベストプラクティスを解説します。
+### [Java で検索可能な PDF を作成 – 完全 Aspose OCR ガイド](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Aspose.OCR for Java を使用して、検索可能な PDF を作成し、テキスト抽出と保存をシームレスに実現する完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

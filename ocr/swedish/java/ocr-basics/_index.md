@@ -130,6 +130,8 @@ Lär dig hur du använder Aspose.OCR för Java för att extrahera text från bil
 ### [Extrahera text från bild med Aspose OCR – Komplett Java‑handledning](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
 ### [Konvertera bild till text Java – Komplett Aspose OCR‑exempel](./convert-image-to-text-java-complete-aspose-ocr-example/)
 Fullständig guide för att konvertera bilder till text i Java med Aspose OCR, steg‑för‑steg med kodexempel.
+### [Hur man utför OCR i Java – Komplett guide för att extrahera text från bilder](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Lär dig steg‑för‑steg hur du använder Aspose.OCR i Java för att läsa text från bilder och förbättra noggrannheten.
 
 ---
 

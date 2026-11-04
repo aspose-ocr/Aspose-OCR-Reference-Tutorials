@@ -145,6 +145,8 @@ Fedezd fel, hogyan hozhatsz létre kereshető PDF-et képekből Java-ban az Aspo
 ### [Kereshető PDF létrehozása Aspose OCR Java-val – Teljes útmutató](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
 ### [Szöveg felismerése ROI-ban az Aspose OCR-rel – Java útmutató](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 ### [Kép betöltése OCR-hez az Aspose OCR Java-val – Teljes útmutató](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+### [Aspose OCR licenc alkalmazása Java-ban – OCR vízjel eltávolítása](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Tanulja meg, hogyan alkalmazzon licencet az Aspose OCR Java-ban, és távolítsa el a vízjelet a kimeneti képekről.
 
 ## Gyakran Ismételt Kérdések
 

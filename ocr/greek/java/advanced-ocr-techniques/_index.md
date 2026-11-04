@@ -179,6 +179,20 @@ url: /el/java/advanced-ocr-techniques/
 
 ### [Εξαγωγή κειμένου από κρυπτογραφημένο PDF σε Java – Πλήρης Οδηγός](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
 Αποκτήστε πρόσβαση σε κρυπτογραφημένα PDF και εξάγετε κείμενο με Java, χρησιμοποιώντας Aspose.PDF για αξιόπιστη και ασφαλή επεξεργασία.
+### [Εξαγωγή κειμένου από σαρωμένη εικόνα σε Java – Πλήρης οδηγός Aspose OCR](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Μάθετε πώς να εξάγετε κείμενο από σαρωμένες εικόνες σε Java χρησιμοποιώντας το Aspose.OCR με πλήρη βήμα‑βήμα οδηγίες.
+
+### [Πώς να ενεργοποιήσετε την GPU στο Java OCR – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Μάθετε πώς να ενεργοποιήσετε την GPU για επιτάχυνση του OCR σε Java χρησιμοποιώντας το Aspose.OCR, ακολουθώντας βήμα‑βήμα οδηγίες.
+
+### [Παράδειγμα Aspose OCR Java – Πλήρης Οδηγός Φόρτωσης Εικόνας, Διόρθωσης Ορθογραφίας και Επεξεργασίας OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Μάθετε πώς να φορτώσετε εικόνα, να διορθώσετε ορθογραφικά σφάλματα και να εκτελέσετε OCR με το Aspose OCR για Java.
+
+### [Βελτιώστε την ακρίβεια OCR σε Java – Πλήρης οδηγός](./improve-ocr-accuracy-in-java-complete-guide/)
+Μάθετε πώς να βελτιώσετε την ακρίβεια του OCR σε εφαρμογές Java με βήμα‑βήμα οδηγίες.
+
+### [Δημιουργία αναζητήσιμου PDF σε Java – Πλήρης οδηγός Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF σε Java με το Aspose OCR, ακολουθώντας πλήρη βήμα‑βήμα οδηγίες.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -170,6 +170,8 @@ Aprenda a reconhecer texto em imagens usando Aspose OCR com Java, passo a passo,
 Aprenda a extrair texto de regiões de interesse (ROI) em imagens usando Aspose OCR com Java, passo a passo.
 ### [Carregar Imagem para OCR com Aspose OCR Java – Guia Completo](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Aprenda a carregar imagens para OCR usando Aspose OCR para Java, passo a passo, cobrindo configuração e melhores práticas.
+### [Aplicar Licença Aspose OCR em Java – Remover Marca d'Água OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Aprenda a aplicar a licença Aspose OCR em Java para remover a marca d'água de OCR dos documentos.
 
 ## Perguntas Frequentes
 

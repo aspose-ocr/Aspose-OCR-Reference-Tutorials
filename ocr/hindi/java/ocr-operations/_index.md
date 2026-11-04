@@ -170,6 +170,8 @@ Aspose OCR Java का उपयोग करके PDF को सर्चे�
 Aspose OCR का उपयोग करके ROI (Region of Interest) में टेक्स्ट पहचानें, Java कोड के साथ चरण‑बद्ध गाइड।
 ### [Aspose OCR Java के साथ OCR के लिए इमेज लोड करें – पूर्ण गाइड](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Aspose OCR Java के साथ इमेज लोड करके OCR करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java में Aspose OCR लाइसेंस लागू करें – OCR वॉटरमार्क हटाएँ](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Java एप्लिकेशन में Aspose OCR लाइसेंस सेट करके वॉटरमार्क हटाने की प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले सवाल
 

@@ -129,6 +129,8 @@ Ismerje meg, hogyan nyerhet ki szöveget képekből Java használatával az Aspo
 Ismerje meg lépésről‑lépésre, hogyan használja az Aspose OCR-t Java‑ban a képek szövegének teljes körű kinyeréséhez.
 ### [Kép szöveggé konvertálása Java – Teljes Aspose OCR példa](./convert-image-to-text-java-complete-aspose-ocr-example/)
 Teljes útmutató a képek szöveggé konvertálásához Aspose OCR Java-val, lépésről‑lépésre példával.
+### [Hogyan hajtsunk végre OCR-t Java-ban – Teljes útmutató a képek szöveggé alakításához](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Teljes körű útmutató az OCR végrehajtásához Java-ban, a képek szöveggé alakításának minden lépésével.
 
 ---
 

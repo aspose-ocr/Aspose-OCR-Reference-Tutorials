@@ -161,6 +161,8 @@ weight: 21
 Αναγνωρίστε κείμενο σε συγκεκριμένη περιοχή (ROI) με το Aspose OCR για Java, βήμα‑βήμα οδηγός για ακριβή εξαγωγή.
 ### [Φόρτωση εικόνας για OCR με Aspose OCR Java – Πλήρης οδηγός](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Μάθετε πώς να φορτώνετε εικόνες για OCR χρησιμοποιώντας το Aspose OCR Java σε πλήρη οδηγό βήμα‑βήμα.
+### [Εφαρμογή άδειας Aspose OCR σε Java – Αφαίρεση υδατογραφήματος OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Μάθετε πώς να εφαρμόσετε την άδεια Aspose OCR σε Java και να αφαιρέσετε το υδατογράφημα OCR από τα αποτελέσματα.
 
 ## Συχνές Ερωτήσεις
 

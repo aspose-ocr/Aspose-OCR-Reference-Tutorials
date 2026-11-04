@@ -144,6 +144,9 @@ Aspose OCR का उपयोग करके जावा में इमे�
 
 ### [इमेज को टेक्स्ट में बदलें – जावा में Aspose OCR का पूर्ण उदाहरण](./convert-image-to-text-java-complete-aspose-ocr-example/)
 
+### [Java में OCR कैसे करें – इमेज से टेक्स्ट निकालने के लिए पूर्ण गाइड](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+इस व्यापक गाइड में Java में OCR लागू करने, इमेज को प्रोसेस करने और सटीक टेक्स्ट निकालने के सभी चरण सीखें।
+
 ---
 
 **अंतिम अपडेट:** 2025-12-08  

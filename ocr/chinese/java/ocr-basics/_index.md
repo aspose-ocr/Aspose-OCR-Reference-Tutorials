@@ -124,6 +124,8 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 ### [使用 Aspose OCR 从图像提取文本 – 完整 Java 教程](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
 通过本完整教程，学习如何使用 Aspose OCR 在 Java 中从图像中提取文本，涵盖设置、预处理和最佳实践。
 ### [将图像转换为文本 Java – 完整 Aspose OCR 示例](./convert-image-to-text-java-complete-aspose-ocr-example/)
+### [如何在 Java 中执行 OCR – 完整指南，提取图像文本](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+通过本完整指南学习在 Java 中使用 Aspose.OCR 提取图像中的文本，实现高效 OCR 处理。
 
 ---
 

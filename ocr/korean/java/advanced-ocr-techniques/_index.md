@@ -201,6 +201,17 @@ Java에서 Aspose OCR을 활용해 이미지 텍스트를 병렬 배치 방식�
 Java용 Aspose.OCR을 사용해 암호화된 PDF에서 텍스트를 안전하게 추출하는 방법을 단계별로 안내합니다.
 ### [OCR을 위한 이미지 전처리 – 전처리로 정확도 향상](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
 이미지 전처리 기법을 적용해 OCR 정확도를 크게 향상시키는 방법을 단계별로 안내합니다.
+### [Java OCR에서 GPU 활성화 방법 – 완전 단계별 가이드](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Java용 Aspose.OCR에서 GPU를 활성화하여 인식 속도와 정확성을 높이는 방법을 단계별로 안내합니다.
+### [Java에서 스캔된 이미지에서 텍스트 추출 – 완전 Aspose OCR 가이드](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Java용 Aspose OCR을 활용해 스캔된 이미지에서 텍스트를 정확히 추출하는 전체 가이드를 제공합니다.
+### [Aspose OCR Java 예제 – 이미지 로드, 맞춤법 교정 및 OCR 처리 완전 가이드](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Aspose OCR Java를 사용하여 이미지를 로드하고 맞춤법 교정 후 OCR을 수행하는 전체 가이드를 제공합니다.
+### [Java에서 OCR 정확도 향상 – 완전 가이드](./improve-ocr-accuracy-in-java-complete-guide/)
+Java용 OCR의 정확도를 높이는 방법을 단계별로 안내하는 완전 가이드입니다.
+### [Java에서 검색 가능한 PDF 만들기 – 전체 Aspose OCR 가이드](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Aspose OCR을 활용해 Java에서 검색 가능한 PDF를 생성하고 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

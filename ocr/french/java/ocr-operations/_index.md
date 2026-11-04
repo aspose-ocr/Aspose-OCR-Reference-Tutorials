@@ -168,6 +168,8 @@ Guide complet pour extraire du texte d'images en Java avec Aspose OCR, incluant 
 Apprenez à extraire du texte d'une zone d'intérêt (ROI) dans une image en Java avec Aspose OCR grâce à ce guide pratique.
 ### [Charger une image pour l’OCR avec Aspose OCR Java – Guide complet](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Apprenez à charger des images pour l'OCR en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Appliquer la licence Aspose OCR en Java – Supprimer le filigrane OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Apprenez à appliquer votre licence Aspose OCR en Java pour éliminer le filigrane OCR des documents générés.
 
 ## Foire aux questions
 

@@ -199,6 +199,16 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 使用 Aspose.OCR for Java，轻松在 Java 项目中解密 PDF 并提取文本，提供完整步骤指南。
 ### [预处理图像以进行 OCR – 通过预处理提升准确率](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
 通过 Aspose.OCR for Java 对图像进行预处理，提升 OCR 准确率，优化文本提取效果。
+### [Aspose OCR Java 示例 – 完整指南：加载图像、拼写校正与 OCR 处理](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+本完整指南演示如何在 Java 中使用 Aspose OCR 加载图像、进行拼写校正并执行 OCR，帮助您轻松实现高精度文本提取。
+### [在 Aspose.OCR for Java 中启用 GPU – 完整分步指南](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+通过本指南，逐步了解如何在 Aspose.OCR for Java 中启用 GPU 加速，实现高效 OCR 处理。
+### [在 Aspose.OCR for Java 中从扫描图像提取文本 – 完整指南](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+通过本完整指南，学习如何使用 Aspose.OCR for Java 从扫描图像中高精度提取文本，轻松集成到您的项目中。
+### [在 Java 中提升 OCR 准确率 – 完整指南](./improve-ocr-accuracy-in-java-complete-guide/)
+本完整指南展示如何在 Java 中使用 Aspose.OCR 提升 OCR 准确率，提供实用技巧与最佳实践。
+### [在 Java 中创建可搜索 PDF – 完整 Aspose OCR 指南](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+本完整指南展示如何使用 Aspose OCR for Java 将图像或文档转换为可搜索的 PDF，提升文档检索效率。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -207,6 +207,16 @@ Aprenda a procesar OCR en imágenes de forma paralela por lotes usando Aspose OC
 Aprenda a extraer texto de PDFs protegidos con contraseña usando Aspose.OCR para Java. Guía paso a paso para una extracción segura y precisa.
 ### [Preprocesar imagen para OCR – Mejorar precisión con preprocesamiento](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
 Optimice la precisión del OCR preprocesando imágenes antes del reconocimiento. Guía paso a paso para resultados más exactos.
+### [Cómo habilitar GPU en OCR Java – Guía completa paso a paso](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Aprenda a activar la GPU para acelerar el OCR en Java con Aspose.OCR, siguiendo una guía paso a paso fácil de implementar.
+### [Extraer texto de una imagen escaneada en Java – Guía completa de Aspose OCR](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Aprenda a extraer texto de imágenes escaneadas en Java con Aspose OCR mediante una guía paso a paso completa.
+### [Ejemplo de Aspose OCR Java – Guía completa para cargar imagen, corregir ortografía y procesar OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Aprenda a cargar imágenes, corregir texto y ejecutar OCR con Aspose OCR en Java mediante una guía paso a paso.
+### [Mejorar la precisión del OCR en Java – Guía completa](./improve-ocr-accuracy-in-java-complete-guide/)
+Aprenda a mejorar la precisión del OCR en Java con Aspose.OCR mediante una guía paso a paso completa.
+### [Crear PDF buscable en Java – Guía completa de Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Aprenda a generar PDFs buscables en Java con Aspose OCR mediante una guía paso a paso completa.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

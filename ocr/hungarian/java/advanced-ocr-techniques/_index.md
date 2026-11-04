@@ -35,7 +35,7 @@ Fedezze fel az Aspose.OCR for Java erejét az OCR végrehajtásáról szóló ú
 
 ## [Téglalapok előkészítése OCR-hez az Aspose.OCR-ben](./prepare-rectangles-for-ocr/)
 
-Hatékonyan készítsen téglalapokat az OCR-hez az Aspose.OCR for Java segítségével átfogó útmutatónk segítségével. Fejlessze Java-alkalmazásait a szövegfelismerésben rejlő lehetőségek teljes kihasználásával. Kövesse a lépésről lépésre szóló utasításokat a zökkenőmentes integráció és a továbbfejlesztett OCR-képesség érdekében.
+Hatékonyan készítsen téglalapokat az OCR-hez az Aspose.OCR for Java segítségével átfogó útmutatónk segítségével. Fejlessze Java-alkalmazásait a szövegfelismerésben rejlő lehetőségek teljes kihasználásával. Kövesse a lépésről‑lépésre szóló utasításokat a zökkenőmentes integráció és a továbbfejlesztett OCR-képesség érdekében.
 
 ## [Vonalak felismerése az Aspose.OCR for Java-ban](./recognize-lines/)
 
@@ -215,6 +215,15 @@ Használja a párhuzamos kötegfeldolgozást Java-ban az Aspose OCR-rel a gyors 
 ### [Szöveg kinyerése titkosított PDF-ből Java-ban – Teljes útmutató](./extract-text-from-encrypted-pdf-in-java-complete-guide/)
 ### [Kép előfeldolgozása OCR-hez – Pontosság növelése előfeldolgozással](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
 Előfeldolgozza a képet OCR-hez, növelve a felismerési pontosságot az Aspose.OCR for Java használatával. Javítsa alkalmazásai eredményességét.
+### [GPU engedélyezése Java OCR-ben – Teljes lépésről‑lépésre útmutató](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Ismerje meg, hogyan használhatja a GPU-t az Aspose.OCR for Java-ban a teljesítmény növeléséhez, részletes lépésekkel.
+### [Szöveg kinyerése beolvasott képből Java-ban – Teljes Aspose OCR útmutató](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Könnyedén nyerjen ki szöveget beolvasott képekről Java-ban az Aspose.OCR teljes útmutatójával. Javítsa alkalmazásai OCR képességét.
+### [Aspose OCR Java példa – Teljes útmutató a kép betöltéséhez, helyesírás‑javításhoz és OCR feldolgozáshoz](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+### [Az OCR pontosságának javítása Java-ban – Teljes útmutató](./improve-ocr-accuracy-in-java-complete-guide/)
+Fedezze fel, hogyan növelheti az OCR pontosságát Java-ban részletes lépésekkel és tippekkel.
+### [Kereshető PDF létrehozása Java-ban – Teljes Aspose OCR útmutató](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Készítsen kereshető PDF-et Java-val az Aspose OCR segítségével, lépésről‑lépésre útmutató a teljes folyamathoz.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

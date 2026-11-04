@@ -221,6 +221,20 @@ Pelajari cara mengintegrasikan OCR di Java dan mengekstrak teks mentah secara ef
 Pelajari cara mengekstrak teks dari formulir menggunakan Aspose OCR untuk Java dalam panduan lengkap ini.
 ### [Membuat PDF yang Dapat Dicari dengan OCR Java – Panduan Lengkap](./create-searchable-pdf-with-java-ocr-complete-guide/)
 Pelajari cara membuat PDF yang dapat dicari menggunakan OCR di Java, lengkap dengan contoh kode dan langkah-langkah integrasi.
+### [Ekstrak Teks dari Gambar Pindai di Java – Panduan Lengkap Aspose OCR](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Ekstrak teks dari gambar yang dipindai dengan mudah menggunakan Aspose.OCR untuk Java. Ikuti panduan lengkap kami untuk hasil akurat.
+
+### [Cara Mengaktifkan GPU di OCR Java – Panduan Lengkap Langkah demi Langkah](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Aktifkan GPU untuk meningkatkan kinerja OCR di Java dengan panduan langkah demi langkah yang lengkap.
+
+### [Contoh Aspose OCR Java – Panduan Lengkap Memuat Gambar, Memperbaiki Ejaan, dan Memproses OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Pelajari cara memuat gambar, memperbaiki ejaan, dan menjalankan OCR dengan Aspose OCR untuk Java dalam panduan lengkap ini.
+
+### [Meningkatkan Akurasi OCR di Java – Panduan Lengkap](./improve-ocr-accuracy-in-java-complete-guide/)
+Tingkatkan akurasi OCR di Java dengan panduan lengkap kami, mencakup teknik dan pengaturan optimal.
+
+### [Buat PDF yang Dapat Dicari di Java – Panduan Lengkap Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Buat PDF yang dapat dicari dari gambar menggunakan Aspose OCR untuk Java. Ikuti panduan lengkap kami untuk hasil yang akurat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

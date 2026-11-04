@@ -169,6 +169,8 @@ Scopri come trasformare PDF in documenti ricercabili con Aspose OCR per Java, pa
 Scopri come eseguire l'OCR su una regione di interesse (ROI) con Aspose OCR in Java, passo‑passo per risultati precisi.
 ### [Carica immagine per OCR con Aspose OCR Java – Guida completa](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Scopri come caricare un'immagine per l'OCR con Aspose OCR in Java, passo‑passo per risultati accurati e rapidi.
+### [Applicare la licenza Aspose OCR in Java – Rimuovere il watermark OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Scopri come applicare la licenza Aspose OCR in Java per rimuovere il watermark OCR dalle tue immagini.
 
 ## Domande Frequenti
 

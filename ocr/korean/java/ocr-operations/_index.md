@@ -167,6 +167,8 @@ Aspose OCR Java를 활용해 PDF를 검색 가능하게 변환하고 전체 텍�
 Aspose OCR을 활용해 ROI(관심 영역)에서 텍스트를 정확히 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose OCR Java로 이미지 로드하여 OCR 수행 – 전체 가이드](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 이미지를 로드하고 Aspose OCR Java로 OCR을 적용하는 전체 단계별 가이드를 제공합니다.
+### [Java에서 Aspose OCR 라이선스 적용 – OCR 워터마크 제거](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Java 애플리케이션에 Aspose OCR 라이선스를 적용하고 워터마크를 제거하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

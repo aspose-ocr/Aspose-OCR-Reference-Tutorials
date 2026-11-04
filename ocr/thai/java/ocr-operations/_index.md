@@ -164,6 +164,8 @@ weight: 21
 เรียนรู้วิธีจดจำข้อความในพื้นที่สนใจ (ROI) ด้วย Aspose OCR สำหรับ Java อย่างละเอียด  
 ### [โหลดภาพสำหรับ OCR ด้วย Aspose OCR Java – คู่มือเต็ม](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 เรียนรู้วิธีโหลดภาพและเตรียมการสำหรับการทำ OCR ด้วย Aspose OCR Java อย่างละเอียด  
+### [ใช้ใบอนุญาต Aspose OCR ใน Java – ลบลายน้ำ OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+เรียนรู้วิธีตั้งค่าใบอนุญาต Aspose OCR ใน Java เพื่อลบลายน้ำ OCR จากผลลัพธ์
 
 
 

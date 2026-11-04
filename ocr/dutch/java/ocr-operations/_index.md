@@ -167,6 +167,8 @@ Leer stap‑voor‑stap hoe u PDF‑bestanden OCR‑t met Aspose OCR in Java en 
 Leer hoe u tekst binnen een specifiek gebied (ROI) kunt herkennen met Aspose OCR in Java.
 ### [Afbeelding laden voor OCR met Aspose OCR Java – volledige gids](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Leer hoe u afbeeldingen kunt laden en voorbereiden voor OCR met Aspose OCR voor Java in een volledige gids.
+### [Aspose OCR-licentie toepassen in Java – OCR-watermerk verwijderen](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Leer hoe u de Aspose OCR-licentie in Java installeert om het OCR-watermerk te verwijderen en onbeperkte OCR-functionaliteit te krijgen.
 
 ## Veelgestelde vragen
 

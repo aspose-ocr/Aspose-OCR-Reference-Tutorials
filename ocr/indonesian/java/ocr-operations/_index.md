@@ -169,6 +169,8 @@ Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR denga
 Ekstrak teks dari area ROI pada gambar menggunakan Aspose OCR di Java dengan panduan langkah demi langkah.
 ### [Muat Gambar untuk OCR dengan Aspose OCR Java – Panduan Lengkap](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Panduan lengkap memuat gambar untuk OCR menggunakan Aspose OCR Java, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Terapkan Lisensi Aspose OCR di Java – Hapus Watermark OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Cara mengaktifkan lisensi Aspose OCR di Java untuk menghilangkan watermark OCR pada hasil.
 
 ## Pertanyaan yang Sering Diajukan
 

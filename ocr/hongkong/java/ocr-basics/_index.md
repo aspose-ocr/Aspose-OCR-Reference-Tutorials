@@ -132,6 +132,8 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 
 ### [將影像轉換為文字 Java – 完整 Aspose OCR 範例](./convert-image-to-text-java-complete-aspose-ocr-example/)
 從頭到尾示範在 Java 中使用 Aspose OCR 將影像轉為文字，涵蓋授權、前處理與效能最佳化。
+### [如何在 Java 中執行 OCR – 完整指南，從影像提取文字](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+深入了解在 Java 中使用 Aspose.OCR 完整流程，從設定到文字提取，提升影像辨識效果。
 
 ---
 

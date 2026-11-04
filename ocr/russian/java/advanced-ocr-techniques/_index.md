@@ -201,6 +201,15 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Узнайте, как ускорить распознавание изображений в Java с помощью параллельной обработки OCR, используя Aspose.OCR.
 ### [Создание поискового PDF с помощью Java OCR – Полное руководство](./create-searchable-pdf-with-java-ocr-complete-guide/)
 Полное руководство по созданию поискового PDF в Java с использованием Aspose.OCR, включая пошаговые инструкции и оптимизацию качества распознавания.
+### [Как включить GPU в Java OCR – Полное пошаговое руководство](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+Полное пошаговое руководство по включению GPU в Aspose.OCR для Java, повышающее производительность распознавания текста.
+### [Извлечение текста из отсканированного изображения в Java – Полное руководство Aspose OCR](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+Полное пошаговое руководство по извлечению текста из отсканированных изображений в Java с использованием Aspose OCR.
+### [Aspose OCR Java пример — Полное руководство по загрузке изображения, исправлению орфографии и обработке OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+Полное руководство по загрузке изображения, исправлению орфографии и выполнению OCR с помощью Aspose OCR для Java.
+### [Улучшение точности OCR в Java – Полное руководство](./improve-ocr-accuracy-in-java-complete-guide/)
+### [Создание поискового PDF в Java – Полное руководство Aspose OCR](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+Полное руководство по созданию поискового PDF в Java с помощью Aspose OCR, включая загрузку изображений и преобразование в PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

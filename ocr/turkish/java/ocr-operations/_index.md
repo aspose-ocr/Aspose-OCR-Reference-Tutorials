@@ -133,6 +133,8 @@ Java uygulamanızda Aspose OCR kullanarak PDF'leri aranabilir hâle getirmenin a
 Java'da ROI (ilgi alanı) içinde metin tanımayı adım adım gösteren kapsamlı bir öğretici.
 ### [Aspose OCR Java ile Görüntü Yükleme – Tam Kılavuz](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Java uygulamanızda Aspose OCR kullanarak bir görüntüyü nasıl yükleyip OCR işlemi yapacağınızı adım adım öğrenin.
+### [Java'da Aspose OCR Lisansını Uygulama – OCR Filigranını Kaldır](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Java uygulamanızda Aspose OCR lisansını ayarlayarak OCR filigranını kaldırın ve temiz çıktılar elde edin.
 
 ## Sıkça Sorulan Sorular
 

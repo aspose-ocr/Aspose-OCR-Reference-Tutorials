@@ -132,6 +132,8 @@ Trích xuất nhanh văn bản từ hình ảnh trong Java bằng OCR. Học cá
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để trích xuất văn bản từ hình ảnh, bao gồm cài đặt, tiền xử lý và tối ưu độ chính xác.
 ### [Chuyển đổi hình ảnh thành văn bản Java – Ví dụ đầy đủ Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
 Hướng dẫn chi tiết cách dùng Aspose OCR trong Java để chuyển ảnh sang văn bản, bao gồm cài đặt, tiền xử lý và tối ưu kết quả.
+### [Cách thực hiện OCR trong Java – Hướng dẫn đầy đủ để trích xuất văn bản từ hình ảnh](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Hướng dẫn toàn diện cách thực hiện OCR trong Java, trích xuất văn bản từ hình ảnh một cách chi tiết và hiệu quả.
 
 ---
 

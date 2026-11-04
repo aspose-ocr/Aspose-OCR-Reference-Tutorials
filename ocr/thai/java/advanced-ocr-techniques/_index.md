@@ -49,6 +49,24 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 เรียนรู้การใช้ OCR ด้วยการเร่งด้วย GPU ใน Java เพื่อความเร็วและความแม่นยำสูง ดาวน์โหลดตอนนี้เพื่อเพิ่มประสิทธิภาพแอปของคุณ
 
+## [วิธีเปิดใช้งาน GPU ใน Java OCR – คู่มือขั้นตอนเต็ม](./how-to-enable-gpu-in-java-ocr-complete-step-by-step-guide/)
+
+เรียนรู้วิธีเปิดใช้งาน GPU เพื่อเพิ่มความเร็วในการทำ OCR ด้วย Aspose.OCR สำหรับ Java อย่างละเอียดและง่ายต่อการทำตาม
+
+## [การแยกข้อความจากภาพสแกนใน Java – คู่มือ Aspose OCR ครบขั้นตอน](./extract-text-from-scanned-image-in-java-complete-aspose-ocr/)
+
+เรียนรู้วิธีแยกข้อความจากภาพสแกนใน Java ด้วย Aspose OCR อย่างละเอียดและง่ายต่อการทำตาม
+
+## [ตัวอย่าง Aspose OCR สำหรับ Java – คู่มือเต็มขั้นตอนการโหลดภาพ, แก้ไขการสะกด, และประมวลผล OCR](./aspose-ocr-java-example-complete-guide-to-load-image-spell-c/)
+
+เรียนรู้วิธีโหลดภาพ, แก้ไขการสะกด, และทำ OCR อย่างครบถ้วนด้วย Aspose OCR สำหรับ Java ดาวน์โหลดตอนนี้เพื่อเพิ่มประสิทธิภาพแอปของคุณ
+
+## [ปรับปรุงความแม่นยำของ OCR ใน Java – คู่มือเต็มขั้นตอน](./improve-ocr-accuracy-in-java-complete-guide/)
+
+## [สร้าง PDF ที่ค้นหาได้ใน Java – คู่มือ Aspose OCR เต็มรูปแบบ](./create-searchable-pdf-in-java-full-aspose-ocr-guide/)
+
+เรียนรู้วิธีสร้างไฟล์ PDF ที่สามารถค้นหาและคัดลอกข้อความได้ใน Java ด้วย Aspose OCR อย่างละเอียดและง่ายต่อการทำตาม
+
 ## บทช่วยสอนเทคนิค OCR ขั้นสูง
 ### [การแสดง OCR บน BufferedImage ใน Aspose.OCR สำหรับ Java](./perform-ocr-buffered-image/)
 ดำเนินการ OCR บน BufferedImage ได้อย่างง่ายดายด้วย Aspose.OCR สำหรับ Java แยกข้อความจากรูปภาพได้อย่างลงตัว ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์การรู้จำข้อความที่หลากหลาย
