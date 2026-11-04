@@ -10,15 +10,11 @@ url: /id/java/ocr-operations/perform-ocr-detect-areas-mode/
 weight: 10
 ---
 
-/products-backtop-button >}}
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content with translations.
 
-Check for any remaining text: "step-by-step in order - do not skip sections" not needed.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

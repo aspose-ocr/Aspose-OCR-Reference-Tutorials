@@ -1,56 +1,21 @@
 ---
 category: general
-date: 2026-06-16
-description: Extraire du texte à partir de fichiers TIFF avec l'OCR Python. Apprenez
-  à convertir les TIFF en texte pas à pas, en gérant facilement les documents multi‑pages.
+date: 2026-03-28
+description: Extrayez le texte des fichiers TIFF à l'aide d'Aspose OCR en Python.
+  Apprenez comment convertir les TIFF en texte rapidement et de manière fiable.
 draft: false
 keywords:
 - extract text from tiff
 - convert tiff to text
-- Python OCR multi‑page TIFF
-- OCR language settings
-- OCR engine Python
 language: fr
-og_description: Extrayez du texte à partir de fichiers TIFF avec OCR en Python. Suivez
-  ce guide pour convertir les TIFF en texte, gérer les numérisations multipages et
-  obtenir des résultats propres.
+og_description: Extrayez du texte à partir de fichiers TIFF en utilisant Aspose OCR
+  en Python. Ce guide montre comment convertir un TIFF en texte étape par étape.
 og_title: Extraire du texte d’un TIFF – Guide complet Python
-schemas:
-- author: Aspose
-  dateModified: '2026-06-16'
-  description: Extract text from TIFF files using Python OCR. Learn how to convert
-    TIFF to text step‑by‑step, handling multi‑page documents with ease.
-  headline: Extract Text from TIFF – Complete Python Guide
-  type: TechArticle
-- description: Extract text from TIFF files using Python OCR. Learn how to convert
-    TIFF to text step‑by‑step, handling multi‑page documents with ease.
-  name: Extract Text from TIFF – Complete Python Guide
-  steps:
-  - name: '**Batch conversion** – Wrap the whole flow in a function `def ocr_tiff(path):`
-      and iterate over a directory of TIFF files.'
-    text: '**Batch conversion** – Wrap the whole flow in a function `def ocr_tiff(path):`
-      and iterate over a directory of TIFF files.'
-  - name: '**Output to files** – Instead of printing, write each page’s text to `page_{i}.txt`
-      or concatenate everything into a single document.'
-    text: '**Output to files** – Instead of printing, write each page’s text to `page_{i}.txt`
-      or concatenate everything into a single document.'
-  - name: '**Alternative OCR engines** – If you need higher accuracy, swap `ocr.OcrEngine()`
-      for Tesseract (`pytesseract`) or Azure Cognitive Services—just keep the same
-      “extract text from TIFF” logic.'
-    text: '**Alternative OCR engines** – If you need higher accuracy, swap `ocr.OcrEngine()`
-      for Tesseract (`pytesseract`) or Azure Cognitive Services—just keep the same
-      “extract text from TIFF” logic.'
-  - name: '**Post‑processing** – Run spell‑check, language detection, or regex cleanup
-      to tidy up the raw OCR output.'
-    text: '**Post‑processing** – Run spell‑check, language detection, or regex cleanup
-      to tidy up the raw OCR output.'
-  type: HowTo
 tags:
 - OCR
 - Python
-- TIFF
-- Text extraction
-title: Extraire du texte d’un TIFF – Guide complet Python
+- Aspose
+title: Extraire le texte d’un TIFF – Guide complet Python
 url: /fr/python-java/general/extract-text-from-tiff-complete-python-guide/
 ---
 
@@ -58,221 +23,242 @@ url: /fr/python-java/general/extract-text-from-tiff-complete-python-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Extraire du texte d’un TIFF – Guide complet Python
+# Extraire du texte à partir de TIFF – Guide complet Python
 
-Vous avez déjà eu besoin d’**extraire du texte d’un TIFF** mais vous ne saviez pas par où commencer ? Vous n’êtes pas seul — de nombreux développeurs rencontrent ce problème lorsqu’ils traitent des archives numérisées ou des documents anciens. La bonne nouvelle ? En quelques lignes de Python, vous pouvez **convertir un TIFF en texte** en un clin d’œil, même si le fichier contient des dizaines de pages.
+Besoin d'**extraire du texte à partir de TIFF** dans votre projet Python ? Ce guide vous montre comment **convertir TIFF en texte** en utilisant la bibliothèque Aspose OCR, et il le fait d'une manière accessible même aux débutants.  
 
-Dans ce tutoriel, nous allons parcourir un exemple réel : charger un TIFF multi‑pages, définir la langue OCR sur le français, et extraire le texte reconnu de chaque page. À la fin, vous disposerez d’un script prêt à l’emploi, comprendrez pourquoi chaque étape est importante, et saurez comment l’adapter à d’autres langues ou formats d’image.
+Si vous avez déjà contemplé un TIFF multi‑pages en vous demandant comment obtenir les mots sans les taper manuellement, vous êtes au bon endroit. Nous parcourrons l’ensemble du processus — de l’installation du package à la gestion des cas particuliers comme les fichiers chiffrés — pour que vous puissiez vous concentrer sur les fonctionnalités qui comptent.
 
-## Prérequis
+## Ce que vous apprendrez
 
-Avant de commencer, assurez‑vous d’avoir :
+Dans ce tutoriel vous découvrirez :
 
-- Python 3.8 ou une version plus récente installé.
-- Le package `ocr` (ou toute bibliothèque OCR compatible offrant une classe `OcrEngine`). Vous pouvez l’installer avec `pip install ocr-lib` — remplacez‑le par le nom réel du package que vous utilisez.
-- Un fichier TIFF multi‑pages (par ex. `french-scans.tif`) que vous souhaitez traiter.
-- Une connaissance de base du scripting Python.
+* Comment configurer Aspose OCR pour Python.
+* Le code exact nécessaire pour lire chaque page d’un TIFF multi‑pages.
+* Des méthodes pour gérer les pièges courants tels que les polices manquantes ou les pages corrompues.
+* Des astuces pour améliorer la précision et les performances lorsque vous **extrayez du texte à partir de fichiers TIFF** à grande échelle.
 
-Pas de dépendances lourdes, pas de services externes — juste du Python pur et un moteur OCR.
+À la fin, vous disposerez d’un script prêt à l’emploi qui transforme n’importe quel TIFF en texte brut, prêt à être indexé, recherché ou intégré à des pipelines NLP en aval.
+
+### Prérequis
+
+* Python 3.8 ou plus récent (la bibliothèque supporte 3.7+).
+* Une licence Aspose OCR valide — ou vous pouvez commencer avec l’essai gratuit (le code fonctionne en mode évaluation, avec simplement un filigrane sur la sortie).
+* Une connaissance de base des environnements virtuels Python (optionnel mais recommandé).
 
 ---
 
-## Étape 1 : Configurer le moteur OCR pour **extraire du texte d’un TIFF**
+## Étape 1 – Installer le package Aspose OCR
 
-Tout d’abord, nous avons besoin d’une instance du moteur OCR et il faut indiquer la langue à utiliser. Dans notre cas, le matériel source est en français, nous allons donc définir la langue en conséquence.
+Tout d’abord : vous avez besoin du package `aspose-ocr`. Il est hébergé sur PyPI, donc une simple installation avec `pip` suffit.
+
+```bash
+pip install aspose-ocr
+```
+
+> **Astuce pro :** Utilisez un environnement virtuel (`python -m venv venv`) pour isoler les dépendances. Cela évite les conflits de versions avec d’autres projets que vous pourriez gérer.
+
+> **Pourquoi c’est important :** L’installation du package récupère les binaires natifs du moteur OCR qui effectuent réellement le travail lourd. Sans eux, la méthode `recognize_from_tiff` n’existera pas et vous obtiendrez une `ImportError`.
+
+---
+
+## Étape 2 – Importer la bibliothèque et créer un moteur OCR
+
+Maintenant que la bibliothèque est sur votre machine, importez‑la et créez un `OcrEngine`. Cet objet est le cheval de bataille qui traitera les données d’image.
 
 ```python
-import ocr  # Replace with the actual import if your OCR library uses a different name
+# Step 2: Import the Aspose OCR library and create an engine instance
+import aspose.ocr as aocr
 
-# Create the OCR engine
-engine = ocr.OcrEngine()
-
-# Tell the engine to look for French characters
-engine.language = ocr.Language.FRENCH
+# Initialize the OCR engine – you can optionally pass a license file here
+ocr_engine = aocr.OcrEngine()
 ```
 
-**Pourquoi c’est important :**  
-Le réglage de la langue améliore considérablement la précision. Les caractères français comme « é » ou « ç » seraient mal interprétés comme des symboles génériques si le moteur restait sur l’anglais par défaut. En sélectionnant explicitement le français, nous fournissons au moteur la bonne table de caractères.
-
-> **Astuce :** Si vous traitez des documents dans plusieurs langues, vous pouvez modifier `engine.language` à la volée avant chaque appel à `recognize()`.
+*La classe `OcrEngine` regroupe tous les paramètres OCR, comme la langue, la résolution et les options de prétraitement. Nous ajusterons quelques‑unes de ces options plus tard pour améliorer la précision.*
 
 ---
 
-## Étape 2 : Charger le TIFF multi‑pages que vous voulez **convertir en texte**
+## Étape 3 – Pointer vers votre fichier TIFF multi‑pages
 
-Un TIFF peut contenir plusieurs cadres — considérez chaque cadre comme une page distincte. La bibliothèque OCR abstrait cela pour nous, il suffit donc de pointer vers le fichier.
+Vous avez besoin du chemin vers le TIFF que vous souhaitez lire. La bibliothèque accepte les chemins absolus ou relatifs, mais les chemins absolus évitent les surprises lorsque le script s’exécute depuis un répertoire de travail différent.
 
 ```python
-# Path to your multi‑page TIFF
-tiff_path = "YOUR_DIRECTORY/french-scans.tif"
-
-# Load the file; the engine now knows how many pages it contains
-engine.load_from_file(tiff_path)
+# Step 3: Define the path to the TIFF file
+tiff_file_path = "YOUR_DIRECTORY/input.tif"
 ```
 
-**Avertissement sur les cas limites :**  
-Si le chemin du fichier est incorrect ou si le TIFF est corrompu, la méthode `load_from_file` lèvera une exception. Enveloppez‑le dans un bloc `try/except` pour le code de production :
+> **Erreur fréquente :** Oublier d’échapper les barres obliques inverses sous Windows (`C:\\Images\\file.tif`). Utiliser des chaînes brutes (`r"C:\Images\file.tif"`) ou des barres obliques normales évite ce problème.
+
+---
+
+## Étape 4 – Reconnaître le texte de toutes les pages
+
+Voici le cœur du tutoriel : appeler `recognize_from_tiff`. La méthode renvoie une liste d’objets `OcrResult` — un pour chaque page — vous permettant de les parcourir individuellement.
 
 ```python
-try:
-    engine.load_from_file(tiff_path)
-except Exception as e:
-    print(f"Failed to load TIFF: {e}")
-    raise
+# Step 4: Extract text from every page of the TIFF
+ocr_pages = ocr_engine.recognize_from_tiff(tiff_file_path)
+
+# Verify we got results
+if not ocr_pages:
+    raise RuntimeError("No pages were recognized. Check the file path and format.")
 ```
+
+**Pourquoi cela fonctionne :** Aspose OCR découpe en interne le TIFF en ses cadres constituants, exécute le moteur OCR sur chacun, puis regroupe les résultats. C’est bien plus fiable que d’essayer de séparer manuellement les pages avec Pillow ou ImageMagick.
 
 ---
 
-## Étape 3 : Exécuter l’OCR sur le document complet – Le cœur de **l’extraction de texte d’un TIFF**
+## Étape 5 – Parcourir les résultats et afficher le texte
 
-Nous laissons maintenant le moteur faire sa magie. L’appel `recognize()` traite chaque page en une seule fois et renvoie un objet résultat riche.
+Enfin, bouclez sur la liste `OcrResult` et imprimez (ou sauvegardez) le texte extrait. Vous pouvez également écrire chaque page dans son propre fichier `.txt` si cela correspond à votre flux de travail.
 
 ```python
-# Perform OCR on all pages at once
-multi_result = engine.recognize()
+# Step 5: Print or save the extracted text
+for page_index, page_result in enumerate(ocr_pages):
+    print(f"--- TIFF Page {page_index + 1} ---")
+    print(page_result.text)
+    # Optional: write each page to a separate file
+    with open(f"page_{page_index + 1}.txt", "w", encoding="utf-8") as f:
+        f.write(page_result.text)
 ```
 
-**Que se passe‑t‑il en coulisses ?**  
-Le moteur parcourt chaque cadre, applique un pré‑traitement (redressement, binarisation), exécute le réseau neuronal, puis agrège le résultat. Parce que nous n’appelons `recognize()` qu’une seule fois, la bibliothèque peut partager les ressources entre les pages, ce qui est plus rapide qu’une boucle manuelle.
+**Sortie attendue** (troncature pour la brièveté) :
+
+```
+--- TIFF Page 1 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+--- TIFF Page 2 ---
+Sed do eiusmod tempor incididunt ut labore et dolore...
+```
+
+> **Gestion des cas limites :** Si une page ne contient aucun texte reconnaissable, `page_result.text` sera une chaîne vide. Vous voudrez peut‑être consigner ces pages pour une révision manuelle ultérieure.
 
 ---
 
-## Étape 4 : Extraire le texte reconnu du résultat JSON – **convertir le TIFF en texte** page par page
+## Bonus – Ajuster les paramètres OCR pour une meilleure précision
 
-L’objet résultat peut être sérialisé en JSON. Dans ce JSON, vous trouverez un tableau `pages`, chaque élément contenant un champ `text`.
+Parfois la configuration par défaut ne suffit pas, surtout avec des scans basse résolution ou des polices inhabituelles. Voici quelques paramètres que vous pouvez modifier :
 
 ```python
-# Convert the result to a Python dict (JSON-like)
-result_dict = multi_result.to_json()
+# Set language (default is English)
+ocr_engine.language = aocr.Language.English
 
-# Extract the list of pages
-pages = result_dict["pages"]
+# Increase image resolution before OCR (helps with blurry scans)
+ocr_engine.image_preprocessing = aocr.ImagePreprocessingOptions(
+    sharpen=True,
+    contrast=1.2
+)
+
+# Enable deskew to straighten rotated pages
+ocr_engine.deskew = True
 ```
 
-Nous obtenons ainsi une liste Python propre où chaque élément correspond à la sortie OCR d’une page.
+*Ces options sont facultatives, mais elles font souvent la différence entre une sortie illisible et une transcription propre et recherchable.*
 
 ---
 
-## Étape 5 : Afficher ou enregistrer le texte de chaque page – La pièce finale de **l’extraction de texte d’un TIFF**
+## Pièges courants & comment les éviter
 
-Parcourons les pages et affichons le texte extrait. Vous pouvez également écrire chaque page dans un fichier `.txt` séparé si vous le préférez.
+| Symptôme | Cause probable | Solution |
+|----------|----------------|----------|
+| Sortie vide pour toutes les pages | Chemin de fichier incorrect ou compression TIFF non prise en charge | Vérifiez le chemin, assurez‑vous que le TIFF utilise une compression prise en charge (par ex., LZW, PackBits). |
+| Caractères corrompus (p. ex., �) | Paramètre de langue incorrect ou fichiers de polices manquants | Définissez `ocr_engine.language` sur la locale correcte ; installez les polices requises sur le système hôte. |
+| Traitement lent sur de gros TIFF | Mode mono‑thread par défaut | Utilisez `ocr_engine.recognize_from_tiff(..., parallel=True)` si la version de la bibliothèque le supporte. |
+| Avertissement de licence | Utilisation de l'essai sans fichier de licence | Fournissez une clé de licence via `aocr.License().set_license("Aspose.OCR.lic")`. |
+
+---
+
+## Script complet – Prêt à l'exécution
+
+Voici le script complet, autonome, qui intègre toutes les étapes et les ajustements optionnels évoqués ci‑dessus. Copiez‑collez‑le dans un fichier nommé `extract_tiff_text.py` et lancez `python extract_tiff_text.py`.
 
 ```python
-for i, page in enumerate(pages, start=1):
-    print(f"--- Page {i} ---")
-    print(page["text"])
-    print()  # Blank line for readability
-```
+#!/usr/bin/env python3
+"""
+extract_tiff_text.py
 
-### Résultat attendu (exemple)
+A complete example that extracts text from a multi‑page TIFF using Aspose OCR.
+It demonstrates how to:
+- Install and import the library
+- Initialize the OCR engine
+- Configure optional preprocessing
+- Iterate over each page and save the results
 
-```
---- Page 1 ---
-Bonjour, ceci est un exemple de texte extrait d'une image TIFF.
+Author: Your Name
+Date: 2026‑03‑28
+"""
 
---- Page 2 ---
-Le deuxième page contient davantage d'informations en français.
-```
-
-Si l’OCR a réussi, vous verrez un bloc propre de phrases françaises pour chaque page. Si vous remarquez des caractères illisibles, revérifiez le réglage de la langue ou envisagez d’augmenter la résolution de l’image avant l’OCR.
-
----
-
-## Gestion des problèmes courants lors de la **conversion d’un TIFF en texte**
-
-| Problème | Pourquoi cela se produit | Solution rapide |
-|----------|--------------------------|-----------------|
-| **Tableau `pages` vide** | Le TIFF n’a pas été chargé correctement ou ne contient aucun cadre. | Vérifiez le chemin du fichier et assurez‑vous que le TIFF n’est pas un PNG mono‑page déguisé en TIFF. |
-| **Caractères corrompus** | Incohérence de langue ou mauvaise qualité d’image. | Définissez la bonne `engine.language` et pré‑traitez l’image (par ex. augmentez le DPI). |
-| **Consommation mémoire excessive sur de gros TIFF** | Charger toutes les pages d’un coup consomme beaucoup de RAM. | Traitez par lots : chargez un cadre, reconnaissez‑le, puis libérez‑le avant de passer au suivant. |
-| **Erreurs Unicode lors de l’affichage** | Le codage du terminal ne supporte pas les caractères accentués. | Utilisez `print(page["text"].encode('utf-8').decode('utf-8'))` ou configurez votre console en UTF‑8. |
-
----
-
-## Étendre le script : de **l’extraction de texte d’un TIFF** au traitement par lots
-
-Maintenant que vous avez une base solide, pensez aux étapes suivantes :
-
-1. **Conversion par lots** – Encapsulez le flux complet dans une fonction `def ocr_tiff(path):` et itérez sur un répertoire de fichiers TIFF.  
-2. **Exportation vers des fichiers** – Au lieu d’afficher, écrivez le texte de chaque page dans `page_{i}.txt` ou concaténez‑le tout dans un seul document.  
-3. **Moteurs OCR alternatifs** – Si vous avez besoin d’une précision supérieure, remplacez `ocr.OcrEngine()` par Tesseract (`pytesseract`) ou Azure Cognitive Services — tout en conservant la même logique « extraire du texte d’un TIFF ».  
-4. **Post‑traitement** – Appliquez une correction orthographique, une détection de langue ou un nettoyage regex pour affiner la sortie brute de l’OCR.
-
----
-
-## Script complet, prêt à l’exécution
-
-Voici le code complet, prêt à être copié‑collé. Il inclut une gestion d’erreurs basique et la sauvegarde optionnelle du texte de chaque page dans des fichiers séparés.
-
-```python
-import ocr  # Adjust import based on your OCR library
+import aspose.ocr as aocr
 import os
+import sys
 
-def extract_text_from_tiff(tiff_path: str, output_dir: str = None) -> list:
-    """
-    Loads a multi‑page TIFF, runs OCR, and returns a list of strings,
-    one per page. Optionally saves each page to a .txt file.
-    """
-    # Initialize engine and set language
-    engine = ocr.OcrEngine()
-    engine.language = ocr.Language.FRENCH
+def main(tiff_path: str, output_dir: str = "output"):
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
 
-    # Load the TIFF file
+    # Initialize the OCR engine
+    ocr_engine = aocr.OcrEngine()
+
+    # Optional: fine‑tune OCR settings for better accuracy
+    ocr_engine.language = aocr.Language.English
+    ocr_engine.image_preprocessing = aocr.ImagePreprocessingOptions(
+        sharpen=True,
+        contrast=1.2
+    )
+    ocr_engine.deskew = True
+
+    # Perform OCR on the TIFF
     try:
-        engine.load_from_file(tiff_path)
+        ocr_pages = ocr_engine.recognize_from_tiff(tiff_path)
     except Exception as e:
-        raise RuntimeError(f"Unable to load {tiff_path}: {e}")
+        sys.exit(f"Failed to process {tiff_path}: {e}")
 
-    # Run OCR on all pages
-    multi_result = engine.recognize()
+    if not ocr_pages:
+        sys.exit("No pages were recognized. Check the file path and format.")
 
-    # Parse JSON result
-    pages = multi_result.to_json()["pages"]
-    texts = [page["text"] for page in pages]
+    # Iterate over results
+    for idx, result in enumerate(ocr_pages, start=1):
+        page_text = result.text or "[No recognizable text]"
+        print(f"--- TIFF Page {idx} ---")
+        print(page_text[:200] + ("..." if len(page_text) > 200 else ""))  # preview
 
-    # If an output directory is provided, write each page to a file
-    if output_dir:
-        os.makedirs(output_dir, exist_ok=True)
-        for i, text in enumerate(texts, start=1):
-            file_path = os.path.join(output_dir, f"page_{i}.txt")
-            with open(file_path, "w", encoding="utf-8") as f:
-                f.write(text)
+        # Save each page's text
+        out_file = os.path.join(output_dir, f"page_{idx}.txt")
+        with open(out_file, "w", encoding="utf-8") as f:
+            f.write(page_text)
 
-    return texts
+    print(f"\nAll pages processed. Text files saved in '{output_dir}'.")
 
 if __name__ == "__main__":
-    # Example usage – replace with your actual TIFF path
-    tiff_file = "YOUR_DIRECTORY/french-scans.tif"
-    # Optional: where to store per‑page text files
-    out_folder = "extracted_pages"
-
-    page_texts = extract_text_from_tiff(tiff_file, out_folder)
-
-    for i, txt in enumerate(page_texts, start=1):
-        print(f"--- Page {i} ---")
-        print(txt)
-        print()
+    if len(sys.argv) < 2:
+        sys.exit("Usage: python extract_tiff_text.py <path_to_tiff>")
+    tiff_file = sys.argv[1]
+    main(tiff_file)
 ```
 
-Exécutez ce script, pointez `tiff_file` vers votre document, et observez la console se remplir de phrases françaises propres. Si vous avez indiqué `out_folder`, vous trouverez également une série de fichiers `page_#.txt` prêts pour les traitements en aval.
+**Exécution du script**
+
+```bash
+python extract_tiff_text.py /path/to/your/input.tif
+```
+
+Vous verrez un aperçu console de chaque page et un dossier `output` contenant `page_1.txt`, `page_2.txt`, etc.
 
 ---
 
 ## Conclusion
 
-Nous venons d’**extraire du texte d’un TIFF** à l’aide d’un flux OCR Python simple, et vous savez maintenant comment **convertir un TIFF en texte** de façon fiable. De l’initialisation du moteur avec la bonne langue à la boucle sur le résultat JSON de chaque page, chaque étape a été expliquée avec le « pourquoi », afin que vous puissiez adapter le modèle à d’autres langues, formats d’image ou traitements par lots plus importants.
+Nous venons de couvrir tout ce dont vous avez besoin pour **extraire du texte à partir de fichiers TIFF** avec Python et Aspose OCR. De l’installation du package à la gestion des documents multi‑pages, en passant par l’ajustement des paramètres pour la précision et la sauvegarde des résultats, l’ensemble du flux de travail est désormais à votre portée.  
 
-Et après ? Essayez de remplacer le backend OCR par Tesseract, testez différents packs de langues, ou intégrez la sortie dans une base de données consultable. Le ciel est la limite quand vous pouvez transformer des images numérisées en texte recherchable.
+Si vous envisagez de **convertir TIFF en texte** dans une chaîne de production, pensez à regrouper les fichiers, paralléliser les appels OCR et stocker la sortie dans un index searchable comme Elasticsearch. Pour les curieux, expérimentez d’autres langues (`aocr.Language.Spanish`) ou alimentez les résultats bruts d’OCR dans une bibliothèque de correction orthographique pour nettoyer le bruit OCR.
 
-N’hésitez pas à laisser un commentaire si vous rencontrez des difficultés ou avez des idées d’améliorations supplémentaires. Bon codage !
+Des questions sur la mise à l’échelle, la licence ou l’intégration avec le stockage cloud ? Laissez un commentaire ci‑dessous, et bon codage ! 
 
-## Que devriez‑vous apprendre ensuite ?
+---
 
-Les tutoriels suivants couvrent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code fonctionnels complets avec des explications pas à pas pour vous aider à maîtriser d’autres fonctionnalités d’API et explorer des approches d’implémentation alternatives dans vos propres projets.
+![Diagramme montrant le flux OCR du fichier TIFF au texte extrait](https://example.com/placeholder-image.png "Extraire du texte à partir de TIFF avec Python")
 
-- [Extract Text from Image with Aspose OCR – Step‑by‑Step Guide](/ocr/english/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
-- [Extract Text from Images Using OCR Operation on Folders](/ocr/english/net/ocr-configuration/ocr-operation-with-folder/)
-- [Convert Image to Text – Perform OCR on Image from URL](/ocr/english/net/ocr-optimization/perform-ocr-on-image-from-url/)
+*Texte alternatif de l’image : Diagramme montrant le flux OCR du fichier TIFF au texte extrait*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
