@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Állítsa be a küszöbértéket az OCR képfelismerésben
@@ -227,15 +229,15 @@ Gratulálunk a részletes Aspose.OCR for .NET útmutató befejezéséhez! Felold
 **Tested With:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [OCR képfelismerés beállításai – Figyelmen kívül hagyott karakterek megadása](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Kép konvertálása szöveggé – OCR végrehajtása URL-ből származó képen](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [szövegkép felismertetése az Aspose OCR-rel több nyelven](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

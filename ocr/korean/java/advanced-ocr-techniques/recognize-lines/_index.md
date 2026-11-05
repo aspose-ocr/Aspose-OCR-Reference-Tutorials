@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java 예제 – 이미지에서 라인 인식
@@ -203,15 +205,15 @@ A: 예. Aspose 웹사이트 [here](https://releases.aspose.com/)에서 무료 
 **테스트 환경:** Aspose.OCR for Java 24.11 (작성 시 최신 버전)  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [Aspose.OCR 감지 영역 모드로 Java 이미지에서 텍스트 추출](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR 사용하여 이미지에서 텍스트 추출 – 허용 문자](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Aspose.OCR BufferedImage를 사용하여 Java에서 이미지 텍스트 변환](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

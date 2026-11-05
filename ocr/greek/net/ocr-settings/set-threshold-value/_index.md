@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ορισμός Τιμής Κατωφλίου στην Αναγνώριση Εικόνας OCR
@@ -222,15 +224,15 @@ Console.WriteLine("SetThresholdValue executed successfully");
 **Δοκιμή με:** Aspose.OCR for .NET 24.11 (τελευταία έκδοση τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Ρυθμίσεις Αναγνώρισης Εικόνας OCR - Καθορισμός Αγνοημένων Χαρακτήρων](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Μετατροπή Εικόνας σε Κείμενο – Εκτέλεση OCR σε Εικόνα από URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Αναγνώριση κειμένου εικόνας με Aspose OCR για πολλές γλώσσες](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

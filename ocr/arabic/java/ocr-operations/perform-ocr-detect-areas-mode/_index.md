@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحويل صورة جافا إلى نص باستخدام Aspose.OCR وضع اكتشاف المناطق
@@ -216,7 +218,7 @@ A: نعم، يمكنك العثور على الدعم والتفاعل مع ال
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

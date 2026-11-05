@@ -68,7 +68,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在 OCR 图像识别中设置阈值
@@ -205,8 +207,6 @@ A：不一定。阈值过高会抹去淡字符。请针对您的图像集测试�
 **测试环境：** Aspose.OCR for .NET 24.11（撰写时的最新版本）  
 **作者：** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [OCR 图像识别设置 - 指定忽略字符](/ocr/net/ocr-settings/specify-ignored-characters/)
@@ -214,5 +214,8 @@ A：不一定。阈值过高会抹去淡字符。请针对您的图像集测试�
 - [使用 Aspose OCR 识别多语言文本图像](/ocr/net/ocr-settings/working-with-different-languages/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

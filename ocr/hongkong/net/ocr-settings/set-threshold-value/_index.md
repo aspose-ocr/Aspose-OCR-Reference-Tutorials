@@ -68,7 +68,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 設定 OCR 圖像辨識的閾值
@@ -225,15 +227,15 @@ A：未必。過高的數值可能抹除淡薄字元。請針對您的圖像集�
 **測試環境：** Aspose.OCR for .NET 24.11（撰寫時的最新版本）  
 **作者：** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [OCR 圖像辨識設定 - 指定忽略字符](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [將圖像轉換為文字 – 從 URL 執行 OCR 圖像](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [使用 Aspose OCR 辨識多語言文字圖像](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java Příklad – Rozpoznávání řádků na obrázcích
@@ -203,15 +205,15 @@ A: Ano. Stáhněte si bezplatnou zkušební verzi z webu Aspose [here](https:/
 **Testováno s:** Aspose.OCR for Java 24.11 (nejnovější v době psaní)  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Extrahovat text z obrázku v Javě pomocí Aspose.OCR Detekce oblastí](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Extrahovat text z obrázků pomocí Aspose.OCR – Povolené znaky](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Převést obrázek na text v Javě pomocí Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

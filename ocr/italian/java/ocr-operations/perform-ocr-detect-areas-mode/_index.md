@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java immagine a testo usando Aspose.OCR Modalità Rileva Aree
@@ -213,10 +215,9 @@ A: Sì, puoi trovare supporto e interagire con la community sul [Aspose.OCR foru
 - [Come Eseguire OCR su Testo di Immagine con Lingua Usando Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Converti Immagine in Testo – Riconosci Testo da Immagine e Recupera i Rettangoli delle Aree di Testo](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

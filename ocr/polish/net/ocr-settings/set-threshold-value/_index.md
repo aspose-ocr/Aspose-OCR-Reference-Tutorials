@@ -69,7 +69,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ustaw wartość progu w rozpoznawaniu obrazu OCR
@@ -221,8 +223,6 @@ Gratulacje z ukończenia tego obszernego samouczka o Aspose.OCR dla .NET! Odkry�
 **Testowano z:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Autor:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Ustawienia rozpoznawania obrazu OCR – określ ignorowane znaki](/ocr/net/ocr-settings/specify-ignored-characters/)
@@ -230,5 +230,8 @@ Gratulacje z ukończenia tego obszernego samouczka o Aspose.OCR dla .NET! Odkry�
 - [Rozpoznaj tekst obrazu przy użyciu Aspose OCR dla wielu języków](/ocr/net/ocr-settings/working-with-different-languages/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

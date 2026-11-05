@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java Example – Αναγνώριση Γραμμών σε Εικόνες
@@ -196,15 +198,15 @@ System.out.println("Result line: " + result.recognitionText);
 **Δοκιμή Με:** Aspose.OCR for Java 24.11 (τελευταία τη στιγμή της συγγραφής)  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Εξαγωγή Κειμένου από Εικόνα Java με Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Εξαγωγή Κειμένου από Εικόνες Χρησιμοποιώντας Aspose.OCR – Επιτρεπόμενοι Χαρακτήρες](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Μετατροπή Εικόνας σε Κείμενο σε Java χρησιμοποιώντας Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

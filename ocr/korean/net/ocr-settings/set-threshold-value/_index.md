@@ -68,7 +68,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR 이미지 인식에서 임계값 설정
@@ -225,15 +227,15 @@ Aspose.OCR for .NET에 대한 포괄적인 튜토리얼을 마친 것을 축하�
 **Tested With:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [OCR 이미지 인식 설정 - 무시할 문자 지정](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [이미지를 텍스트로 변환 – URL에서 이미지에 OCR 수행](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [다중 언어에 대한 Aspose OCR로 텍스트 이미지 인식](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

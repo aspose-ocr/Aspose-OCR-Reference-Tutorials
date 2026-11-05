@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java Example – 画像内の行を認識する
@@ -194,15 +196,15 @@ A: はい。Aspose のウェブサイトから無料トライアルを [here](ht
 **テスト環境:** Aspose.OCR for Java 24.11 (執筆時点での最新バージョン)  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Aspose.OCR の検出領域モードを使用した Java での画像からテキスト抽出](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR を使用した画像からのテキスト抽出 – 許可文字](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Aspose.OCR BufferedImage を使用した Java での画像からテキストへの変換](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

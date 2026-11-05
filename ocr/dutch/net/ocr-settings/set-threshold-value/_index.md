@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Stel drempelwaarde in OCR-beeldherkenning
@@ -227,15 +229,15 @@ Gefeliciteerd met het voltooien van deze uitgebreide tutorial over Aspose.OCR vo
 **Getest met:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Auteur:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [OCR-beeldherkenningsinstellingen - Specificeer genegeerde tekens](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Afbeelding naar tekst converteren – OCR uitvoeren op afbeelding van URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [tekstafbeelding herkennen met Aspose OCR voor meerdere talen](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

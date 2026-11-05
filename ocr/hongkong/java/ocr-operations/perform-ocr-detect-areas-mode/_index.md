@@ -57,7 +57,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR 偵測區域模式的 Java 圖像轉文字
@@ -208,10 +210,9 @@ A: 有，您可在 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 找到�
 - [如何使用 Aspose.OCR 以語言 OCR 圖像文字](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [圖像轉文字 – 從圖像辨識文字並取得文字區域矩形](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

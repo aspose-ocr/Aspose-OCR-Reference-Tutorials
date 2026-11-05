@@ -69,7 +69,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Nastavte hodnotu prahu v rozpoznávání obrazu OCR
@@ -226,15 +228,15 @@ Gratulujeme k dokončení tohoto komplexního tutoriálu o Aspose.OCR pro .NET! 
 **Testováno s:** Aspose.OCR for .NET 24.11 (nejnovější v době psaní)  
 **Autor:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Nastavení rozpoznávání obrazu OCR – specifikovat ignorované znaky](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Převést obrázek na text – provést OCR na obrázku z URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [rozpoznat textový obrázek s Aspose OCR pro více jazyků](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

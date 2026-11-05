@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java kép szöveggé konvertálása az Aspose.OCR Detect Areas Mode használatával
@@ -216,7 +218,7 @@ A: Igen, támogatást és közösségi részvételt találsz a [Aspose.OCR fóru
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java példa – Sorok felismerése képeken
@@ -203,8 +205,6 @@ A: Igen. Töltse le az ingyenes próbaverziót az Aspose weboldaláról [here]
 **Tesztelve ezzel:** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [Képről szöveg kinyerése Java-val Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -212,5 +212,8 @@ A: Igen. Töltse le az ingyenes próbaverziót az Aspose weboldaláról [here]
 - [Kép szöveggé konvertálása Java-ban Aspose.OCR BufferedImage használatával](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

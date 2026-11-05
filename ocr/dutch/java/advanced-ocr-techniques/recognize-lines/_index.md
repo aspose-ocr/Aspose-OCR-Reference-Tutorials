@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java-voorbeeld – Regels herkennen in afbeeldingen
@@ -201,8 +203,6 @@ A: Ja. Download een gratis proefversie van de Aspose‑website [**hier**](http
 **Getest met:** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Tekst extraheren uit afbeelding Java met Aspose.OCR Detect Areas-modus](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -210,5 +210,8 @@ A: Ja. Download een gratis proefversie van de Aspose‑website [**hier**](http
 - [Afbeelding naar tekst converteren in Java met Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

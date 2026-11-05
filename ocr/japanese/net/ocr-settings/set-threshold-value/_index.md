@@ -68,7 +68,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR画像認識でしきい値を設定する
@@ -226,15 +228,15 @@ A: 必ずしもそうではありません。値が高すぎると薄い文字�
 **テスト環境:** Aspose.OCR for .NET 24.11 (執筆時点での最新)  
 **作者:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [OCR画像認識設定 - 無視する文字の指定](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [画像をテキストに変換 – URLから画像でOCRを実行](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Aspose OCRで複数言語のテキスト画像を認識](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

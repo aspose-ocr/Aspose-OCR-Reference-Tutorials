@@ -69,7 +69,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ställ in tröskelvärde i OCR-bildigenkänning
@@ -226,15 +228,15 @@ Grattis till att du har slutfört denna omfattande handledning om Aspose.OCR fö
 **Testad med:** Aspose.OCR för .NET 24.11 (senaste vid skrivande)  
 **Författare:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [OCR-bildigenkänningsinställningar - Ange ignorerade tecken](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Konvertera bild till text – Utför OCR på bild från URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Känn igen textbild med Aspose OCR för flera språk](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

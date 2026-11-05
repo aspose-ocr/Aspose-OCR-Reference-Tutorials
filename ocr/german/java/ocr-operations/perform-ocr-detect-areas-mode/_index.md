@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java Bild zu Text mit Aspose.OCR Detect Areas Mode
@@ -215,10 +217,9 @@ A: Ja, Sie können Unterstützung finden und sich mit der Community im [Aspose.O
 - [Wie man Bildtext mit Sprache OCR‑t mit Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Bild zu Text konvertieren – Text aus Bild erkennen und Textbereich‑Rechtecke abrufen](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

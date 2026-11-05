@@ -67,7 +67,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Threshold Value in OCR Image Recognition
@@ -224,15 +226,15 @@ Congratulations on completing this comprehensive tutorial on Aspose.OCR for .NET
 **Tested With:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [OCR Image Recognition Settings - Specify Ignored Characters](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Convert Image to Text – Perform OCR on Image from URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [recognize text image with Aspose OCR for multiple languages](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

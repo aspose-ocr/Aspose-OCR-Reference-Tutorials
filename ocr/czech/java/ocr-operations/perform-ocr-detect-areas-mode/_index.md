@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java obrázek na text pomocí Aspose.OCR režimu Detekce oblastí
@@ -214,10 +216,9 @@ A: Ano, podporu a komunitu najdete na [Aspose.OCR forum](https://forum.aspose.co
 - [Jak OCR obrázek s textem pomocí jazyka s Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Převést obrázek na text – Rozpoznat text z obrázku a získat obdélníky oblastí textu](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

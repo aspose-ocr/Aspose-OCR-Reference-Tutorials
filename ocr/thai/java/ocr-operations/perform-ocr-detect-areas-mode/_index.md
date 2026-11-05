@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java image to text โดยใช้ Aspose.OCR Detect Areas Mode
@@ -213,10 +215,9 @@ A: มี, คุณสามารถหาการสนับสนุนแ
 - [วิธี OCR ข้อความภาพด้วยภาษาโดยใช้ Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [แปลงภาพเป็นข้อความ – จดจำข้อความจากภาพและดึงสี่เหลี่ยมพื้นที่ข้อความ](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

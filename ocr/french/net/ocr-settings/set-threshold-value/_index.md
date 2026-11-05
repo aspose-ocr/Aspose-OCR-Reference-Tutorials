@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Définir la valeur du seuil dans la reconnaissance d'images OCR
@@ -227,15 +229,15 @@ Félicitations pour avoir terminé ce tutoriel complet sur Aspose.OCR pour .NET�
 **Testé avec :** Aspose.OCR pour .NET 24.11 (dernière version au moment de la rédaction)  
 **Auteur :** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriels associés
 
 - [Paramètres de reconnaissance d'images OCR - Spécifier les caractères ignorés](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Convertir l'image en texte – Effectuer l'OCR sur une image depuis une URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Reconnaître le texte d'une image avec Aspose OCR pour plusieurs langues](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

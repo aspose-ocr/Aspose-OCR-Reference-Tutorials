@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java image to text usando Aspose.OCR Detect Areas Mode
@@ -211,10 +213,9 @@ R: Sim, você pode encontrar suporte e interagir com a comunidade no [fórum Asp
 - [Como Fazer OCR de Texto em Imagem com Idioma Usando Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Converter Imagem para Texto – Reconhecer Texto de Imagem e Recuperar Retângulos de Áreas de Texto](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

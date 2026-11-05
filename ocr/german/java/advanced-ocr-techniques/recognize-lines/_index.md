@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java Beispiel – Erkennen von Zeilen in Bildern
@@ -202,15 +204,15 @@ A: Ja. Laden Sie eine kostenlose Testversion von der Aspose‑Website [hier](h
 **Getestet mit:** Aspose.OCR für Java 24.11 (neueste zum Zeitpunkt der Erstellung)  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [Text aus Bild Java mit Aspose.OCR Erkennungs‑Bereichs‑Modus extrahieren](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Text aus Bildern mit Aspose.OCR extrahieren – Zulässige Zeichen](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Bild in Text in Java mit Aspose.OCR BufferedImage konvertieren](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java afbeelding naar tekst met Aspose.OCR Detect Areas Mode
@@ -213,10 +215,9 @@ A: Ja, je kunt ondersteuning vinden en met de community communiceren op het [Asp
 - [Hoe OCR‑tekst van afbeelding met taal te gebruiken met Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Afbeelding naar tekst converteren – Tekst uit afbeelding herkennen en tekstgebied‑rechthoeken ophalen](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

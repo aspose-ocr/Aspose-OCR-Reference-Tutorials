@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java Örneği – Görüntülerde Satırları Tanıma
@@ -201,8 +203,6 @@ A: Evet. Aspose web sitesinden ücretsiz bir deneme indirin [burada](https://r
 **Test Edilen:** Aspose.OCR for Java 24.11 (yazım zamanındaki en son sürüm)  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Aspose.OCR Algıla Alanları Modu ile Java'da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -210,5 +210,8 @@ A: Evet. Aspose web sitesinden ücretsiz bir deneme indirin [burada](https://r
 - [Aspose.OCR BufferedImage Kullanarak Java'da Görüntüyü Metne Dönüştür](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

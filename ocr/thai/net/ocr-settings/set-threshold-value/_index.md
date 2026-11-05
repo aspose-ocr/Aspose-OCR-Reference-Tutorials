@@ -69,7 +69,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ตั้งค่าค่าขีดจำกัดในการจดจำภาพ OCR
@@ -219,15 +221,15 @@ A: ไม่จำเป็น ค่าที่สูงเกินไปอ�
 **ทดสอบด้วย:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **ผู้เขียน:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [การตั้งค่า OCR Image Recognition - ระบุอักขระที่ละเว้น](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [แปลงภาพเป็นข้อความ – ทำ OCR บนภาพจาก URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [จดจำภาพข้อความด้วย Aspose OCR สำหรับหลายภาษา](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

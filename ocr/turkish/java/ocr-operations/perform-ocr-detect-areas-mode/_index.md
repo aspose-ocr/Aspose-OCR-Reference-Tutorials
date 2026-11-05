@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java görüntüyü metne dönüştürme Aspose.OCR Detect Areas Mode kullanarak
@@ -213,10 +215,9 @@ C: Evet, [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) üzerinden destek
 - [Aspose.OCR Kullanarak Dil ile Görüntü Metnini OCR Yapma](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Görüntüyü Metne Dönüştür – Görüntüden Metni Tanı ve Metin Alanı Dikdörtgenlerini Al](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

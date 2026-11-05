@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Establecer el valor de umbral en el reconocimiento de imágenes OCR
@@ -227,8 +229,6 @@ R: No necesariamente. Un valor demasiado alto puede borrar caracteres tenues. Pr
 **Probado con:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Autor:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriales relacionados
 
 - [Configuración de reconocimiento de imágenes OCR - Especificar caracteres ignorados](/ocr/net/ocr-settings/specify-ignored-characters/)
@@ -236,5 +236,8 @@ R: No necesariamente. Un valor demasiado alto puede borrar caracteres tenues. Pr
 - [reconocer texto de imagen con Aspose OCR para varios idiomas](/ocr/net/ocr-settings/working-with-different-languages/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

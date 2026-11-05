@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java-exempel – känna igen rader i bilder
@@ -202,15 +204,15 @@ A: Ja. Ladda ner en gratis provversion från Aspose‑webbplatsen [here](https
 **Testad med:** Aspose.OCR för Java 24.11 (senaste vid skrivtillfället)  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Extrahera text från bild Java med Aspose.OCR Detektera områden läge](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Extrahera text från bilder med Aspose.OCR – Tillåtna tecken](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Konvertera bild till text i Java med Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

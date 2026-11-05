@@ -57,7 +57,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR Detect Areas Mode を使用した Java 画像からテキストへの変換
@@ -214,7 +216,7 @@ A: はい、[Aspose.OCR フォーラム](https://forum.aspose.com/c/ocr/16) で�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

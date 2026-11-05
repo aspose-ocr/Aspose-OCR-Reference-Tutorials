@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java उदाहरण – छवियों में पंक्तियों की पहचान
@@ -206,8 +208,6 @@ A: हाँ। Aspose वेबसाइट [here](https://releases.aspose.co
 **परीक्षण किया गया:** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल्स
 
 - [Aspose.OCR डिटेक्ट एरिया मोड के साथ Java में छवि से पाठ निकालें](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -215,5 +215,8 @@ A: हाँ। Aspose वेबसाइट [here](https://releases.aspose.co
 - [Aspose.OCR BufferedImage का उपयोग करके Java में छवि को पाठ में बदलें](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Görüntü Tanıma'da Eşik Değerini Ayarlama
@@ -227,15 +229,15 @@ Aspose.OCR for .NET ile bu kapsamlı öğreticiyi tamamladığınız için tebri
 **Test Edilen:** Aspose.OCR for .NET 24.11 (yazım anındaki en yeni sürüm)  
 **Yazar:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [OCR Görüntü Tanıma Ayarları - Yoksayılan Karakterleri Belirtme](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Görüntüyü Metne Dönüştür – URL'den Görüntü Üzerinde OCR Yapma](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Aspose OCR ile Çoklu Dilde Metin Görüntüsü Tanıma](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

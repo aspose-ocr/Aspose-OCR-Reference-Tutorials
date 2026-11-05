@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # chuyển đổi hình ảnh java sang văn bản bằng Aspose.OCR Detect Areas Mode
@@ -213,10 +215,9 @@ A: Có, bạn có thể tìm hỗ trợ và tham gia cộng đồng tại [Aspos
 - [Cách OCR Văn bản Hình ảnh với Ngôn ngữ bằng Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Chuyển đổi Hình ảnh sang Văn bản – Nhận dạng Văn bản từ Hình ảnh và Lấy các Hình chữ nhật Vùng Văn bản](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

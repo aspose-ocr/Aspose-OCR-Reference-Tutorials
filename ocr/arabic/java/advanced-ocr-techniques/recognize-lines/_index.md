@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # مثال Aspose OCR Java – التعرف على الأسطر في الصور
@@ -205,15 +207,15 @@ System.out.println("Result line: " + result.recognitionText);
 **تم الاختبار مع:** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [استخراج النص من صورة Java باستخدام Aspose.OCR وضع كشف المناطق](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [استخراج النص من الصور باستخدام Aspose.OCR – الأحرف المسموح بها](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [تحويل الصورة إلى نص في Java باستخدام Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

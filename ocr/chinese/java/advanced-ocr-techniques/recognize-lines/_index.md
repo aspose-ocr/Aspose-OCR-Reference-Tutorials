@@ -67,7 +67,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose OCR Java 示例 – 识别图像中的行
@@ -201,15 +203,15 @@ A: 是的。从 Aspose 网站[此处](https://releases.aspose.com/)下载免费�
 **已测试：** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [使用 Aspose.OCR 检测区域模式从 Java 图像中提取文本](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [使用 Aspose.OCR 从图像中提取文本 – 允许的字符](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [使用 Aspose.OCR BufferedImage 将图像转换为 Java 文本](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

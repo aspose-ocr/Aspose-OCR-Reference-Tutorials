@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Schwellenwert festlegen in der OCR-Bilderkennung
@@ -227,15 +229,15 @@ Herzlichen Glückwunsch zum Abschluss dieses umfassenden Tutorials zu Aspose.OCR
 **Getestet mit:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Autor:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [OCR-Bilderkennungs‑Einstellungen – Ignorierte Zeichen angeben](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Bild in Text konvertieren – OCR auf Bild von URL ausführen](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Textbild mit Aspose OCR für mehrere Sprachen erkennen](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

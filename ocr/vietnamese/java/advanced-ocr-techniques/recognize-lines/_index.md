@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ví dụ Aspose OCR Java – Nhận dạng các dòng trong hình ảnh
@@ -202,15 +204,15 @@ Sử dụng **aspose ocr java example** để trích xuất văn bản từ hìn
 **Đã kiểm tra với:** Aspose.OCR cho Java 24.11 (phiên bản mới nhất tại thời điểm viết)  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Các hướng dẫn liên quan
 
 - [Trích xuất văn bản từ hình ảnh Java với Aspose.OCR Chế độ phát hiện vùng](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Trích xuất văn bản từ hình ảnh bằng Aspose.OCR – Ký tự cho phép](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Chuyển đổi hình ảnh thành văn bản trong Java bằng Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

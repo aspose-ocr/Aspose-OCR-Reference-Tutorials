@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Пример Aspose OCR Java – Распознавание строк на изображениях
@@ -203,15 +205,15 @@ A: Да. Скачайте бесплатную пробную версию с с
 **Tested With:** Aspose.OCR for Java 24.11 (latest at time of writing)  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные руководства
 
 - [Извлечение текста из изображения Java с Aspose.OCR в режиме обнаружения областей](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Извлечение текста из изображений с помощью Aspose.OCR — разрешённые символы](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Преобразование изображения в текст в Java с использованием Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

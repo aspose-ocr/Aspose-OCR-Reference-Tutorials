@@ -69,7 +69,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Esempio Aspose OCR Java – Riconoscimento delle linee nelle immagini
@@ -204,15 +206,15 @@ R: Sì. Scarica una prova gratuita dal sito Aspose [qui](https://releases.aspo
 **Testato con:** Aspose.OCR per Java 24.11 (ultima versione al momento della stesura)  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial correlati
 
 - [Estrarre testo da immagine Java con Aspose.OCR modalità rilevamento aree](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Estrarre testo da immagini usando Aspose.OCR – Caratteri consentiti](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 - [Convertire immagine in testo in Java usando Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

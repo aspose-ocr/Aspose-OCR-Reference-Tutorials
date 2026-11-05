@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java image to text menggunakan Aspose.OCR Detect Areas Mode
@@ -213,10 +215,9 @@ J: Ya, Anda dapat menemukan dukungan dan berinteraksi dengan komunitas di [Aspos
 - [Cara OCR Teks Gambar dengan Bahasa Menggunakan Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Konversi Gambar ke Teks – Mengenali Teks dari Gambar dan Mengambil Persegi Panjang Area Teks](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

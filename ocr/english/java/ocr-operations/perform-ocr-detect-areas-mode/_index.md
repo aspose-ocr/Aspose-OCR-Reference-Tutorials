@@ -57,7 +57,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # java image to text using Aspose.OCR Detect Areas Mode
@@ -212,10 +214,9 @@ A: Yes, you can find support and engage with the community on the [Aspose.OCR fo
 - [How to OCR Image Text with Language Using Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
 - [Convert Image to Text – Recognize Text from Image and Retrieve Text Area Rectangles](/ocr/java/ocr-basics/get-rectangles-with-text-areas/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

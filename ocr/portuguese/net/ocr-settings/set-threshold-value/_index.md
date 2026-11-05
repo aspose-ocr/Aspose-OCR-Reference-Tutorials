@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Definir Valor de Limiar no Reconhecimento de Imagem OCR
@@ -227,15 +229,15 @@ Parabéns por concluir este tutorial abrangente sobre Aspose.OCR para .NET! Voc�
 **Testado com:** Aspose.OCR para .NET 24.11 (mais recente no momento da escrita)  
 **Autor:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriais Relacionados
 
 - [Configurações de Reconhecimento de Imagem OCR - Especificar Caracteres Ignorados](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Converter Imagem em Texto – Executar OCR em Imagem a partir de URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [reconhecer imagem de texto com Aspose OCR para vários idiomas](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

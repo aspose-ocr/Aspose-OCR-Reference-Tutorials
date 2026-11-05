@@ -69,7 +69,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تعيين قيمة العتبة في التعرف على الصور باستخدام OCR
@@ -226,15 +228,15 @@ Console.WriteLine("SetThresholdValue executed successfully");
 **تم الاختبار مع:** Aspose.OCR لـ .NET 24.11 (أحدث نسخة وقت الكتابة)  
 **المؤلف:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [إعدادات التعرف على الصور OCR - تحديد الأحرف المتجاهلة](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [تحويل الصورة إلى نص – تنفيذ OCR على صورة من URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [التعرف على نص الصورة باستخدام Aspose OCR لعدة لغات](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

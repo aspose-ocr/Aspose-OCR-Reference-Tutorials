@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Đặt Giá Trị Ngưỡng trong Nhận Diện Hình Ảnh OCR
@@ -227,15 +229,15 @@ Chúc mừng bạn đã hoàn thành hướng dẫn toàn diện về Aspose.OCR
 **Đã Kiểm Tra Với:** Aspose.OCR cho .NET 24.11 (phiên bản mới nhất tại thời điểm viết)  
 **Tác Giả:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng Dẫn Liên Quan
 
 - [Cài Đặt OCR Image Recognition - Chỉ Định Ký Tự Bị Bỏ Qua](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Chuyển Đổi Hình Ảnh Thành Văn Bản – Thực Hiện OCR Trên Hình Ảnh Từ URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [Nhận Dạng Văn Bản Ảnh Với Aspose OCR Cho Nhiều Ngôn Ngữ](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -68,7 +68,9 @@ weight: 14
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Contoh Aspose OCR Java – Mengenali Baris dalam Gambar
@@ -202,8 +204,6 @@ A: Ya. Unduh percobaan gratis dari situs Aspose [here](https://releases.aspose
 **Diuji Dengan:** Aspose.OCR for Java 24.11 (versi terbaru saat penulisan)  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Ekstrak Teks dari Gambar Java dengan Aspose.OCR Mode Deteksi Area](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -211,5 +211,8 @@ A: Ya. Unduh percobaan gratis dari situs Aspose [here](https://releases.aspose
 - [Konversi Gambar ke Teks dalam Java menggunakan Aspose.OCR BufferedImage](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

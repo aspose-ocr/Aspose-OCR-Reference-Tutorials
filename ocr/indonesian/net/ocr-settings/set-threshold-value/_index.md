@@ -70,7 +70,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tetapkan Nilai Ambang pada Pengenalan Gambar OCR
@@ -209,15 +211,15 @@ Selamat atas selesainya tutorial komprehensif ini tentang Aspose.OCR untuk .NET!
 **Diuji Dengan:** Aspose.OCR for .NET 24.11 (latest at time of writing)  
 **Penulis:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Pengaturan Pengenalan Gambar OCR - Tentukan Karakter yang Diabaikan](/ocr/net/ocr-settings/specify-ignored-characters/)
 - [Ubah Gambar menjadi Teks – Lakukan OCR pada Gambar dari URL](/ocr/net/ocr-optimization/perform-ocr-on-image-from-url/)
 - [kenali gambar teks dengan Aspose OCR untuk banyak bahasa](/ocr/net/ocr-settings/working-with-different-languages/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

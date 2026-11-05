@@ -1,0 +1,7 @@
+Title: Read OCR Text in Java – Complete Guide to Parallel Image Processing
+Slug: read-ocr-text-in-java-complete-guide-to-parallel-image-proce
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-06-29T03:19:39.593307
+SourceRepo: AI Search API
+Keywords: read ocr text, extract text from images, convert images to text, parallel ocr processing, process images in parallel
+PRNumber: 162
