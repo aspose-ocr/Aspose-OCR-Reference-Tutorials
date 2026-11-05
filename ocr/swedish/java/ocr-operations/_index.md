@@ -189,6 +189,10 @@ Lär dig hur du automatiskt räta upp bilder med Aspose OCR i Java för förbät
 Lär dig att räta upp snedvridna bilder före OCR för bättre igenkänning med Aspose.OCR för Java.
 ### [Skapa sökbar PDF med OCR – Fullständig guide](./create-searchable-pdf-with-ocr-full-guide/)
 En komplett guide som visar hur du skapar sökbara PDF‑filer med OCR i Java med Aspose.OCR.
+### [Aspose OCR Java‑exempel: känna igen text från bild i Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+En enkel guide som visar hur du med Aspose OCR för Java kan känna igen text i en bild och extrahera den.
+### [Skapa sökbar PDF i Java – Fullständig guide](./create-searchable-pdf-in-java-full-guide/)
+En komplett guide för att skapa sökbara PDF-filer i Java med Aspose.OCR.
 
 ## Vanliga frågor
 

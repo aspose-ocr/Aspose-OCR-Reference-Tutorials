@@ -184,6 +184,10 @@ weight: 21
 本教學說明如何使用 Aspose.OCR 進行圖像去斜處理，提升 OCR 識別準確度。
 ### [使用 OCR 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-with-ocr-full-guide/)
 完整教學示範如何使用 Aspose.OCR for Java 將 PDF 轉換為可搜尋的 PDF。
+### [Aspose OCR Java 範例：從圖像辨識文字](./aspose-ocr-java-example-recognize-text-from-image-java/)
+完整的 Java 範例示範如何使用 Aspose OCR 從圖像中辨識文字。
+### [在 Java 中建立可搜尋 PDF – 完整指南](./create-searchable-pdf-in-java-full-guide/)
+完整教學示範如何使用 Aspose.OCR for Java 建立可搜尋的 PDF，涵蓋設定、執行與最佳化技巧。
 
 ## 常見問題
 

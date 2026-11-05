@@ -258,6 +258,15 @@ Deteksi dan koreksi ejaan teks dalam gambar menggunakan Aspose OCR untuk Java. I
 Panduan lengkap untuk mengaktifkan GPU pada mesin inferensi Java, meningkatkan performa pemrosesan model AI dengan mudah.
 ### [Buat PDF yang Dapat Dicari dari Gambar Pindai – Panduan OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Panduan lengkap untuk mengubah gambar hasil pemindaian menjadi PDF yang dapat dicari menggunakan Aspose.OCR untuk Java.
+### [Akselerasi GPU OCR di Java – Panduan Pemrograman Lengkap](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Manfaatkan akselerasi GPU untuk OCR di Java dengan Aspose.OCR. Panduan lengkap langkah demi langkah untuk meningkatkan kecepatan dan akurasi ekstraksi teks.
+### [Contoh Aspose OCR Java – Ekstrak Teks dari TIFF dengan Pemrosesan Paralel](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Ekstrak teks dari file TIFF secara paralel menggunakan Aspose OCR untuk Java, meningkatkan kecepatan pemrosesan.
+### [Cara Meningkatkan Akurasi OCR dengan Java – Contoh Lengkap Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Pelajari cara meningkatkan akurasi OCR di Java dengan contoh lengkap menggunakan Aspose OCR, langkah demi langkah untuk hasil optimal.
+### [Buat Objek OCRConfig di Java – Panduan Lengkap Pengaturan Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Pelajari cara membuat objek OCRConfig di Java dengan panduan lengkap pengaturan Aspose OCR untuk meningkatkan akurasi dan kinerja OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

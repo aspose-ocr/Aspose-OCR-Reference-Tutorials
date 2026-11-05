@@ -163,6 +163,8 @@ Fedezd fel, hogyan kiegyenesítheted automatikusan a képeket az Aspose OCR seg�
 Fedezd fel, hogyan lehet egyenesíteni a ferde képeket az OCR előfeldolgozás során, javítva a pontosságot.
 ### [Kereshető PDF létrehozása OCR-rel – Teljes útmutató](./create-searchable-pdf-with-ocr-full-guide/)
 Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az Aspose.OCR for Java segítségével.
+### [Aspose OCR Java példa: szöveg felismerése képről Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+### [Kereshető PDF létrehozása Java-ban – Teljes útmutató](./create-searchable-pdf-in-java-full-guide/)
 
 ## Gyakran Ismételt Kérdések
 

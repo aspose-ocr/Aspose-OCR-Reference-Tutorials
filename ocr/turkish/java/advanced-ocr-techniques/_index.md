@@ -251,6 +251,15 @@ Java ve Aspose.OCR kullanarak görüntülerden arama yapılabilir PDF'ler oluşt
 Java çıkarım motorunda GPU desteğini etkinleştirerek performansı artırın. Adım adım rehberle kolayca kurulum yapın.
 ### [Tarama Görüntülerinden Arama Yapılabilir PDF Oluşturma – Java OCR Kılavuzu](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Tarama görüntülerinden arama yapılabilir PDF oluşturun. Aspose.OCR for Java ile metni çıkarın ve PDF'ye dönüştürün.
+### [Java'da OCR GPU Hızlandırması – Tam Programlama Kılavuzu](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Java uygulamalarında GPU desteğiyle OCR performansını artırın. Adım adım rehberle hızlı ve etkili metin tanıma yapın.
+### [Aspose OCR Java Örneği – Paralel İşleme ile TIFF'ten Metin Çıkarma](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Aspose OCR for Java kullanarak paralel işleme sayesinde TIFF dosyalarından hızlı ve etkili şekilde metin çıkarın.
+### [Java ile OCR Doğruluğunu Artırma – Tam Aspose OCR Örneği](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Java’da OCR doğruluğunu artırmak için tam bir Aspose OCR örneğiyle adım adım rehber.
+### [Java'da OCRConfig Nesnesi Oluşturma – Tam Aspose OCR Kurulum Kılavuzu](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Java'da OCRConfig nesnesi oluşturarak Aspose OCR ayarlarını tam olarak yapılandırın ve metin tanımayı optimize edin.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

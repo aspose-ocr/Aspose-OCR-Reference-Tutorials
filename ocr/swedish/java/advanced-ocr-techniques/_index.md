@@ -222,6 +222,14 @@ Lär dig hur du konverterar skannade bilder till sökbara PDF-filer med Aspose.O
 
 ### [Hur du aktiverar GPU i Java Inference Engine – Komplett guide](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
 Lär dig steg för steg hur du aktiverar GPU-stöd i Java Inference Engine för förbättrad prestanda.
+### [OCR GPU-acceleration i Java – Komplett programmeringsguide](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Utnyttja GPU-acceleration för OCR i Java med vår kompletta guide. Snabbare textigenkänning och förbättrad prestanda i dina applikationer.
+### [Aspose OCR Java-exempel – Extrahera text från TIFF med parallell bearbetning](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Extrahera text från TIFF-filer med parallell bearbetning i Aspose OCR för Java. Snabb och effektiv OCR-lösning för hög prestanda.
+### [Hur man förbättrar OCR‑noggrannhet med Java – Fullständigt Aspose OCR‑exempel](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Lär dig förbättra OCR‑noggrannheten i Java med ett komplett Aspose OCR‑exempel. Optimera textigenkänning för bästa resultat.
+### [Skapa OCRConfig-objekt i Java – Fullständig Aspose OCR‑inställningsguide](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Lär dig skapa ett OCRConfig-objekt i Java med vår kompletta guide för Aspose OCR. Konfigurera OCR‑inställningar enkelt och effektivt.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

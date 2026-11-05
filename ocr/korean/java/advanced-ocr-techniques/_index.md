@@ -231,6 +231,16 @@ Java용 Aspose OCR을 활용해 이미지 텍스트의 맞춤법을 자동으로
 Java 추론 엔진에서 GPU를 활성화하는 방법을 단계별로 안내합니다. 고성능 AI 처리와 빠른 응답을 구현하세요.
 ### [스캔한 이미지에서 검색 가능한 PDF 만들기 – Java OCR 가이드](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Java용 Aspose.OCR을 사용해 스캔한 이미지로 검색 가능한 PDF를 생성하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Java용 OCR GPU 가속 – 완전 프로그래밍 가이드](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+
+### [Aspose OCR Java 예제 – 병렬 처리로 TIFF에서 텍스트 추출](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Aspose OCR을 사용해 Java에서 병렬 처리로 TIFF 이미지의 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다. 지금 다운로드하세요.
+
+### [Java로 OCR 정확도 향상 – 전체 Aspose OCR 예제](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Java와 Aspose OCR을 활용해 OCR 정확도를 높이는 전체 예제 가이드를 확인하세요.
+### [Java에서 OCRConfig 객체 생성 – 전체 Aspose OCR 설정 가이드](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Java용 Aspose OCR 설정을 완전하게 안내하는 가이드로, OCRConfig 객체를 생성하고 구성하는 방법을 단계별로 설명합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

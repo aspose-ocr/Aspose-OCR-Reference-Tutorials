@@ -147,6 +147,9 @@ Aspose OCR kullanarak Java'da tam adımlı bir rehberle aranabilir PDF oluşturm
 ### [Görüntüyü Düzeltme – Görüntü Ön İşleme OCR Rehberi](./how-to-deskew-image-image-preprocessing-ocr-guide/)
 Görüntüleri eğik durumdan düzelterek OCR doğruluğunu artırın. Java’da görüntü ön işleme adımlarını öğrenin.
 ### [Aspose OCR ile Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-with-ocr-full-guide/)
+### [Aspose OCR Java Örneği: Görüntüden Metin Tanıma](./aspose-ocr-java-example-recognize-text-from-image-java/)
+### [Java’da Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-in-java-full-guide/)
+Java ile Aspose.OCR kullanarak tam adımlı bir şekilde aranabilir PDF oluşturmayı öğrenin.
 
 ## Sıkça Sorulan Sorular
 

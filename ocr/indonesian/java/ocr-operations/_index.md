@@ -186,6 +186,10 @@ Panduan lengkap untuk secara otomatis mengoreksi kemiringan gambar menggunakan A
 ### [Buat PDF Dapat Dicari dengan OCR – Panduan Lengkap](./create-searchable-pdf-with-ocr-full-guide/)
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan OCR dengan Aspose.OCR untuk Java.
 ### [Cara Memperbaiki Kemiringan Gambar – Panduan Praproses Gambar OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+### [Contoh Aspose OCR Java: Mengenali Teks dari Gambar dengan Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Panduan singkat untuk mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup contoh kode lengkap.
+### [Buat PDF yang Dapat Dicari di Java – Panduan Lengkap](./create-searchable-pdf-in-java-full-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose.OCR di Java, langkah demi langkah dengan contoh kode.
 
 ## Pertanyaan yang Sering Diajukan
 

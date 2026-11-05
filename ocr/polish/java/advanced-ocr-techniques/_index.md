@@ -258,6 +258,13 @@ Dowiedz się, jak w Javie wygenerować przeszukiwalny plik PDF przy użyciu Aspo
 Wykorzystaj moc GPU do szybkiego rozpoznawania tekstu w Javie dzięki Aspose OCR. Uzyskaj wysoką wydajność i dokładność.
 ### [OCR Bounding Box w Javie – Wyodrębnianie tekstu z obrazu](./ocr-bounding-box-in-java-extract-text-from-image/)
 Zidentyfikuj i wyodrębnij tekst z obrazu, wykorzystując ramki ograniczające OCR w Aspose.OCR dla Java. Proste i skuteczne.
+### [Przyspieszenie OCR przy użyciu GPU w Javie – Kompletny przewodnik programistyczny](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Poznaj, jak przyspieszyć OCR w Javie przy użyciu GPU, uzyskując wysoką wydajność i dokładność.
+### [Przykład Aspose OCR Java – Ekstrakcja tekstu z TIFF przy użyciu przetwarzania równoległego](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Wydobądź tekst z plików TIFF równolegle, zwiększając wydajność OCR w Javie dzięki Aspose OCR.
+### [Jak poprawić dokładność OCR w Javie – Pełny przykład Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Dowiedz się, jak zwiększyć precyzję OCR w Javie, korzystając z pełnego przykładu Aspose OCR.
+### [Utwórz obiekt OCRConfig w Javie – Kompletny przewodnik konfiguracji Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

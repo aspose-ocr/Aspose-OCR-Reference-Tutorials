@@ -81,7 +81,6 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เสริมศักยภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความที่แม่นยำ บูรณาการได้ง่าย มีความแม่นยำสูง
 
 ### [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
-ปลดล็อกการแยกข้อความจากรูปภาพได้อย่างราบรื่นด้วย Aspose.OCR สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่มีประสิทธิภาพ
 ### [วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือฉบับสมบูรณ์](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 เรียนรู้วิธีเปิดใช้ GPU เพื่อเพิ่มความเร็วของ OCR ใน Java ด้วย Aspose.OCR อย่างละเอียด
 
@@ -227,6 +226,14 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 เรียนรู้วิธีเปิดใช้งาน GPU ใน Java Inference Engine เพื่อเพิ่มประสิทธิภาพการประมวลผลและความเร็วของการคาดการณ์
 ### [สร้าง PDF ที่ค้นหาได้จากภาพสแกน – คู่มือ OCR สำหรับ Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 แปลงภาพสแกนเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java ทำตามขั้นตอนง่ายๆ เพื่อเพิ่มความสามารถในการค้นหาเอกสารของคุณ
+### [การเร่งความเร็ว OCR ด้วย GPU ใน Java – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+เร่งความเร็ว OCR ด้วย GPU ใน Java เพื่อประสิทธิภาพสูงสุด เรียนรู้ขั้นตอนการทำโปรแกรมอย่างละเอียด ดาวน์โหลดทันที
+### [ตัวอย่าง Aspose OCR สำหรับ Java – แยกข้อความจากไฟล์ TIFF ด้วยการประมวลผลแบบขนาน](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+เรียนรู้วิธีใช้ Aspose.OCR สำหรับ Java เพื่อดึงข้อความจากไฟล์ TIFF อย่างมีประสิทธิภาพด้วยการประมวลผลขนาน ดาวน์โหลดทันที
+### [วิธีปรับปรุงความแม่นยำของ OCR ด้วย Java – ตัวอย่าง Aspose OCR แบบเต็ม](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+เรียนรู้วิธีเพิ่มความแม่นยำของ OCR ใน Java ด้วยตัวอย่างเต็มของ Aspose OCR ที่แสดงขั้นตอนการปรับแต่งและเทคนิคสำคัญ
+### [สร้างวัตถุ OCRConfig ใน Java – คู่มือการตั้งค่า Aspose OCR อย่างเต็มรูปแบบ](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+เรียนรู้วิธีสร้างและกำหนดค่า OCRConfig ใน Java ด้วย Aspose OCR อย่างละเอียดเพื่อเพิ่มประสิทธิภาพการจดจำข้อความ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

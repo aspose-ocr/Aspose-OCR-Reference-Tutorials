@@ -191,6 +191,10 @@ Dowiedz się, jak automatycznie prostować obrazy w Javie przy użyciu Aspose OC
 Dowiedz się, jak prostować obrazy przed OCR, aby zwiększyć dokładność rozpoznawania tekstu.
 ### [Utwórz przeszukiwalny PDF przy użyciu OCR – Pełny przewodnik](./create-searchable-pdf-with-ocr-full-guide/)
 Kompletny przewodnik, jak przy pomocy Aspose.OCR utworzyć przeszukiwalny plik PDF, krok po kroku.
+### [Aspose OCR Java przykład: rozpoznawanie tekstu z obrazu Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Kompletny przykład pokazujący, jak rozpoznać tekst z obrazu w Javie przy użyciu Aspose OCR.
+### [Utwórz przeszukiwalny PDF w Javie – Pełny przewodnik](./create-searchable-pdf-in-java-full-guide/)
+Kompletny przewodnik, jak w Javie stworzyć przeszukiwalny PDF przy użyciu Aspose.OCR, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

@@ -182,6 +182,8 @@ Aspose OCR を使用して Java で画像の傾きを自動的に補正し、正
 画像の傾き補正手順を解説し、OCR 前処理としてのデスクュー方法をステップバイステップで紹介します。
 ### [Aspose OCR で検索可能な PDF を作成 – 完全ガイド](./create-searchable-pdf-with-ocr-full-guide/)
 Aspose.OCR を使用して PDF を検索可能に変換する手順をステップバイステップで解説します。
+### [Aspose OCR Java 例：画像からテキストを認識する](./aspose-ocr-java-example-recognize-text-from-image-java/)
+### [Javaで検索可能なPDFを作成 – 完全ガイド](./create-searchable-pdf-in-java-full-guide/)
 
 ## よくある質問
 

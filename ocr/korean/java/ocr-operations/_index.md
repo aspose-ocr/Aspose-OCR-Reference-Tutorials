@@ -184,6 +184,10 @@ Aspose OCR을 사용해 Java에서 이미지 텍스트를 인식하는 방법을
 OCR을 사용해 검색 가능한 PDF를 만드는 전체 가이드를 단계별로 안내합니다.
 ### [이미지 기울기 보정 방법 – 이미지 전처리 OCR 가이드](./how-to-deskew-image-image-preprocessing-ocr-guide/)
 이미지 기울기를 교정하여 OCR 정확도를 높이는 단계별 전처리 방법을 안내합니다.
+### [Aspose OCR Java 예제: 이미지에서 텍스트 인식](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Java에서 Aspose OCR을 사용해 이미지 파일의 텍스트를 인식하는 기본 예제를 단계별로 안내합니다.
+### [Java에서 검색 가능한 PDF 만들기 – 전체 가이드](./create-searchable-pdf-in-java-full-guide/)
+Aspose.OCR을 사용해 Java에서 검색 가능한 PDF를 만드는 전체 단계별 가이드를 제공합니다.
 
 ## 자주 묻는 질문
 

@@ -258,6 +258,15 @@ Générez facilement un PDF consultable à partir d'images numérisées avec Asp
 
 ### [Comment activer le GPU dans le moteur d'inférence Java – Guide complet](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
 Apprenez à activer le GPU dans le moteur d'inférence Java pour améliorer les performances de vos modèles d'IA.
+### [Accélération GPU de l'OCR en Java – Guide complet de programmation](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Exploitez la puissance du GPU pour accélérer l'OCR en Java avec ce guide complet de programmation.
+### [Exemple Aspose OCR Java – Extraire du texte d'un TIFF avec traitement parallèle](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Apprenez à extraire du texte de fichiers TIFF en utilisant le traitement parallèle avec Aspose OCR pour Java.
+### [Comment améliorer la précision de l'OCR avec Java – Exemple complet Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Apprenez à augmenter la précision de l'OCR en Java avec un exemple complet utilisant Aspose OCR.
+### [Créer un objet OCRConfig en Java – Guide complet de configuration Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Apprenez à créer et configurer un objet OCRConfig en Java avec Aspose OCR pour une reconnaissance précise et personnalisée.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

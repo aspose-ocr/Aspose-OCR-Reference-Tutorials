@@ -184,6 +184,12 @@ Leer hoe u afbeeldingen automatisch kunt kantelen met Aspose OCR in Java voor op
 Leer hoe u scheve afbeeldingen corrigeert met Aspose.OCR voor Java om OCR‑nauwkeurigheid te verbeteren.
 ### [Maak doorzoekbare PDF met OCR – volledige gids](./create-searchable-pdf-with-ocr-full-guide/)
 Leer stap‑voor‑stap hoe u met Aspose.OCR een doorzoekbare PDF maakt en OCR‑nauwkeurigheid optimaliseert.
+### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR‑tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
+### [Aspose OCR Java‑voorbeeld: tekst herkennen uit afbeelding (Java)](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Leer hoe u met Aspose OCR voor Java tekst uit een afbeelding kunt herkennen in een eenvoudige voorbeeldcode.
+### [Maak doorzoekbare PDF in Java – volledige gids](./create-searchable-pdf-in-java-full-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt in Java met een volledige stap‑voor‑stap‑handleiding.
 
 ## Veelgestelde vragen
 
@@ -208,8 +214,6 @@ A: Verwerk TIFF‑afbeeldingen in delen of gebruik multithreading om het geheuge
 **Getest met:** Aspose.OCR for Java 24.12  
 **Auteur:** Aspose  
 
-### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR-tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
 ### [Maak doorzoekbare PDF van PNG – Complete Java-gids](./create-searchable-pdf-from-png-complete-java-guide/)
 Leer stap‑voor‑stap hoe u met Aspose.OCR in Java een doorzoekbare PDF maakt van PNG‑afbeeldingen.
 ### [Maak doorzoekbare PDF van afbeelding met OCR – Java‑tutorial](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)

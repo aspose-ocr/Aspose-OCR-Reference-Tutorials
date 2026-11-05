@@ -248,6 +248,13 @@ Fedezze fel, hogyan végezhet helyesírás-ellenőrzést a képről kinyert szö
 Tanulja meg, hogyan aktiválhatja a GPU-t a Java Inference Engine-ben, és gyorsíthatja a modell futtatását.
 ### [Kereshető PDF létrehozása beolvasott képekből – Java OCR útmutató](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Tanulja meg, hogyan hozhat létre kereshető PDF-et beolvasott képekből az Aspose.OCR for Java segítségével.
+### [Aspose OCR Java példa – Szöveg kinyerése TIFF-ből párhuzamos feldolgozással](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Fedezze fel, hogyan nyerhet ki szöveget TIFF fájlokból párhuzamos feldolgozással az Aspose OCR Java segítségével.
+### [OCR GPU gyorsítás Java-ban – Teljes programozási útmutató](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Fedezze fel, hogyan használhatja a GPU gyorsítást az OCR-hoz Java-ban, részletes lépésekkel és példakóddal.
+### [Hogyan javítsa az OCR pontosságát Java-val – Teljes Aspose OCR példa](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+### [OCRConfig objektum létrehozása Java-ban – Teljes Aspose OCR beállítási útmutató](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Ismerje meg, hogyan hozhat létre OCRConfig objektumot Java-ban az Aspose OCR teljes beállításához.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

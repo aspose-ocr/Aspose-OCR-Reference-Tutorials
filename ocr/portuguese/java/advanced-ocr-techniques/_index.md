@@ -235,6 +235,15 @@ Transforme imagens em PDFs pesquisáveis usando Aspose.OCR para Java, com proces
 Aprenda a gerar PDFs pesquisáveis a partir de imagens escaneadas usando Aspose.OCR para Java, com alta precisão e facilidade de integração.
 ### [Como habilitar GPU no mecanismo de inferência Java – Guia completo](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
 Aprenda a ativar a GPU no mecanismo de inferência Java para acelerar o processamento de IA com passo a passo detalhado.
+### [Aceleração de GPU para OCR em Java – Guia Completo de Programação](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Aproveite a aceleração de GPU para OCR em Java, obtendo desempenho superior e alta precisão. Guia passo a passo completo.
+### [Exemplo Aspose OCR Java – Extrair Texto de TIFF com Processamento Paralelo](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Aprenda a extrair texto de arquivos TIFF usando Aspose.OCR para Java com processamento paralelo para melhorar o desempenho.
+### [Como melhorar a precisão do OCR com Java – Exemplo completo Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Aprenda a otimizar a precisão do OCR em Java usando Aspose OCR com um exemplo completo passo a passo.
+### [Criar objeto OCRConfig em Java – Guia completo de configuração do Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Aprenda a criar e configurar o objeto OCRConfig em Java usando Aspose OCR, passo a passo para uma integração completa.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

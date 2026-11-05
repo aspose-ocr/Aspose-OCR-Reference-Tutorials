@@ -48,6 +48,19 @@ Kompletní průvodce definováním oblasti zájmu pro OCR v Javě s Aspose.OCR, 
 Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání textu. Tento tutoriál vás provede snadnou integrací a vysokou přesností při rozpoznávání čar. Zvyšte své projekty pomocí efektivity a spolehlivosti Aspose.OCR.
 
 ## [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
+
+## [Vytvoření objektu OCRConfig v Javě – Kompletní průvodce nastavením Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Kompletní průvodce vytvořením objektu OCRConfig v Javě pro plné nastavení Aspose OCR.
+
+## [Akcelerace OCR pomocí GPU v Javě – Kompletní programovací průvodce](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Zrychlete OCR v Javě pomocí GPU s naším kompletním programovacím průvodcem.
+
+## [Aspose OCR Java příklad – Extrahování textu z TIFF s paralelním zpracováním](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Zrychlete extrakci textu z TIFF souborů pomocí paralelního zpracování v Aspose OCR pro Java.
+
+## [Jak zlepšit přesnost OCR v Javě – Kompletní příklad Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Kompletní průvodce, jak zvýšit přesnost OCR v Javě pomocí Aspose OCR, s podrobným kódem a tipy.
+
 ### [Jak používat OCR s GPU akcelerací v Javě – krok za krokem průvodce](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 Využijte GPU akceleraci pro rychlé OCR v Javě. Tento podrobný průvodce ukazuje, jak implementovat a optimalizovat rozpoznávání textu s vysokou rychlostí.
 

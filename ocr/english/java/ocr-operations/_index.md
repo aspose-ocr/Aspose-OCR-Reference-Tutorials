@@ -200,6 +200,10 @@ Step-by-step Java guide to extract text from images using Aspose OCR, covering s
 
 ### [Auto Deskew Image in Java – Complete Aspose OCR Guide](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Learn how to automatically correct skewed images in Java using Aspose OCR, improving OCR accuracy with a full step‑by‑step guide.
+### [aspose ocr java example: recognize text from image java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Learn how to recognize text from an image using Aspose.OCR for Java with a simple example.
+### [Create Searchable PDF in Java – Full Guide](./create-searchable-pdf-in-java-full-guide/)
+Full guide to creating searchable PDFs in Java using Aspose.OCR, covering setup, OCR processing, and saving searchable documents.
 
 ## Frequently Asked Questions
 

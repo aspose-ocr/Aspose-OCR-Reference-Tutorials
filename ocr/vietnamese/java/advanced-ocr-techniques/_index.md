@@ -236,6 +236,14 @@ Khám phá cách tích hợp kiểm tra chính tả khi nhận dạng văn bản
 ### [Cách bật GPU trong Java Inference Engine – Hướng dẫn đầy đủ](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
 Hướng dẫn chi tiết cách kích hoạt GPU cho Java Inference Engine để tăng tốc độ xử lý mô hình AI.
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh quét – Hướng dẫn OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+### [Tăng tốc GPU cho OCR trong Java – Hướng dẫn lập trình đầy đủ](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Khám phá cách tăng tốc OCR bằng GPU trong Java, cải thiện hiệu suất và độ chính xác với hướng dẫn lập trình chi tiết.
+### [Ví dụ Aspose OCR Java – Trích xuất văn bản từ TIFF với xử lý song song](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Trích xuất văn bản từ tệp TIFF nhanh chóng bằng Aspose OCR cho Java với xử lý song sang. Tải xuống ngay để tăng hiệu suất dự án của bạn.
+### [Cách cải thiện độ chính xác OCR với Java – Ví dụ đầy đủ Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Tìm hiểu cách nâng cao độ chính xác OCR trong Java bằng ví dụ đầy đủ Aspose OCR, tối ưu hoá việc trích xuất văn bản.
+### [Tạo đối tượng OCRConfig trong Java – Hướng dẫn thiết lập đầy đủ Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Hướng dẫn chi tiết cách tạo đối tượng OCRConfig trong Java để cấu hình Aspose OCR một cách toàn diện.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

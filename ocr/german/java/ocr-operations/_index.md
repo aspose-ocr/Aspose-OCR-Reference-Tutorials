@@ -184,6 +184,10 @@ Erfahren Sie, wie Sie Bildneigungen automatisch korrigieren und OCR mit Aspose O
 Erstellen Sie ein durchsuchbares PDF mit OCR in Java – umfassende Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man ein Bild begradigt – Bildvorverarbeitungs‑OCR‑Leitfaden](./how-to-deskew-image-image-preprocessing-ocr-guide/)
 Erfahren Sie, wie Sie schiefe Bilder mit Aspose.OCR für Java korrigieren, um die OCR‑Genauigkeit zu verbessern.
+### [Erstellen durchsuchbares PDF in Java – Vollständige Anleitung](./create-searchable-pdf-in-java-full-guide/)
+Vollständiger Leitfaden zum Erstellen durchsuchbarer PDFs in Java mit Aspose.OCR.
+### [Aspose OCR Java Beispiel: Text aus Bild erkennen](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Ein einfaches Beispiel, das zeigt, wie man mit Aspose OCR für Java Text aus einem Bild extrahiert.
 
 ## Häufig gestellte Fragen
 

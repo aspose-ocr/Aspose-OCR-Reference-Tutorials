@@ -242,6 +242,14 @@ Gebruik Aspose.OCR in Java om tekst uit afbeeldingen te herkennen en spellingsco
 Leer hoe u GPU-ondersteuning inschakelt in de Java Inference Engine voor snellere AI-prestaties. Volg de stap-voor-stap gids.
 ### [Zoekbare PDF maken van gescande afbeeldingen – Java OCR-gids](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt van gescande afbeeldingen. Volg de eenvoudige stappen voor nauwkeurige tekstextractie.
+### [OCR GPU-versnelling in Java – Complete programmeergids](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Versnel OCR-prestaties met GPU-ondersteuning in Java. Volg onze volledige programmeergids voor optimale tekstherkenning.
+### [Aspose OCR Java-voorbeeld – Tekst extraheren uit TIFF met parallelle verwerking](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Extraheer tekst uit TIFF-bestanden met parallelle verwerking in Aspose OCR voor Java. Volg de stapsgewijze gids voor optimale prestaties.
+### [Hoe OCR-nauwkeurigheid te verbeteren met Java – Volledig Aspose OCR-voorbeeld](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Verbeter de OCR-nauwkeurigheid in Java met een volledige
+### [OCRConfig-object maken in Java – Volledige Aspose OCR-configuratiehandleiding](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Leer hoe u een OCRConfig-object configureert voor optimale OCR-prestaties met Aspose OCR in Java. Volledige stapsgewijze gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

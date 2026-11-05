@@ -168,6 +168,8 @@ weight: 21
 ### [كيفية تصحيح ميل الصورة – دليل معالجة الصورة قبل OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
 ### [إنشاء PDF قابل للبحث باستخدام OCR – دليل كامل](./create-searchable-pdf-with-ocr-full-guide/)
 دليل شامل يشرح كيفية إنشاء ملف PDF قابل للبحث باستخدام OCR خطوة بخطوة.
+### [إنشاء PDF قابل للبحث في Java – دليل كامل](./create-searchable-pdf-in-java-full-guide/)
+### [مثال Aspose OCR للـ Java: التعرف على النص من صورة](./aspose-ocr-java-example-recognize-text-from-image-java/)
 
 ## الأسئلة المتكررة
 

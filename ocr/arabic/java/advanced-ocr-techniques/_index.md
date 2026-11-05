@@ -217,6 +217,13 @@ url: /ar/java/advanced-ocr-techniques/
 ### [كيفية تمكين وحدة معالجة الرسومات (GPU) في محرك الاستدلال Java – دليل كامل](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
 ### [إنشاء PDF قابل للبحث من الصور الممسوحة ضوئياً – دليل OCR لجافا](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 تعلم كيفية تحويل الصور الممسوحة إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR لجافا واستخراج النص بدقة.
+### [تسريع OCR باستخدام GPU في Java – دليل برمجة كامل](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+دليل شامل لتسريع عمليات OCR باستخدام وحدة معالجة الرسوميات (GPU) في Java، يوضح كيفية تحسين الأداء واستخدام Aspose.OCR بفعالية.
+### [مثال Aspose OCR لجافا – استخراج النص من TIFF باستخدام المعالجة المتوازية](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+استخراج النص من ملفات TIFF بسرعة باستخدام المعالجة المتوازية في Aspose OCR لجافا. دليل خطوة بخطوة لتحسين الأداء.
+### [كيفية تحسين دقة OCR باستخدام Java – مثال كامل لـ Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+دليل شامل لتحسين دقة OCR في Java باستخدام Aspose OCR، يتضمن خطوات عملية ونصائح لتحقيق أفضل النتائج.
+### [إنشاء كائن OCRConfig في Java – دليل إعداد كامل لـ Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

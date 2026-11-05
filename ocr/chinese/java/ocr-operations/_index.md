@@ -180,6 +180,9 @@ weight: 21
 学习在 OCR 前对图像进行去倾斜处理，提高识别准确率的完整指南。
 ### [使用 Aspose OCR 创建可搜索 PDF – 完整指南](./create-searchable-pdf-with-ocr-full-guide/)
 完整的 Java 示例，演示如何使用 Aspose OCR 将 PDF 转换为可搜索的文档并导出结果。
+### [使用 Aspose OCR 的 Java 示例：从图像识别文本](./aspose-ocr-java-example-recognize-text-from-image-java/)
+完整的 Java 示例，演示如何使用 Aspose OCR 从图像中识别文本并导出结果。
+### [在 Java 中创建可搜索 PDF – 完整指南](./create-searchable-pdf-in-java-full-guide/)
 
 ## 常见问题
 

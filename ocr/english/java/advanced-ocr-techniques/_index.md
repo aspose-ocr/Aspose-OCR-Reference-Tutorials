@@ -91,9 +91,17 @@ Learn to extract text from images containing multiple languages using Aspose OCR
 ## [how to configure gpu for OCR – recognize text from image](./how-to-configure-gpu-for-ocr-recognize-text-from-image/)
 Enable GPU acceleration in Aspose.OCR for Java to speed up text recognition from images.
 
-## Conclusion
+## [How to Improve OCR Accuracy with Java – Full Aspose OCR Example](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
+Learn a complete Java example to boost OCR accuracy using Aspose.OCR with advanced settings and custom dictionaries.
 
-With Aspose.OCR for Java, mastering advanced OCR techniques has never been easier. Dive into these tutorials, and unlock the full potential of text recognition in your Java projects. Elevate your applications with seamless integration, high accuracy, and versatile text extraction capabilities. Download now and take the first step towards OCR excellence with Aspose.OCR for Java!
+## [OCR GPU Acceleration in Java – Complete Programming Guide](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
+Accelerate OCR processing with GPU support in Aspose.OCR for Java. Learn setup, integration, and performance tuning in this comprehensive guide.
+
+## [Aspose OCR Java Example – Extract Text from TIFF with Parallel Processing](./aspose-ocr-java-example-extract-text-from-tiff-with-parallel/)
+Extract text from multi‑page TIFF files efficiently using Aspose.OCR for Java with parallel processing for faster performance.
+
+## [Create OCRConfig Object in Java – Full Aspose OCR Setup Guide](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+Learn how to create and configure an OCRConfig object in Java for full Aspose OCR setup, covering all essential settings.
 
 ## Advanced OCR techniques tutorials
 ### [Performing OCR on BufferedImage in Aspose.OCR for Java](./perform-ocr-buffered-image/)

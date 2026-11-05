@@ -176,6 +176,10 @@ Naučte se automaticky vyrovnat zkosené obrázky v Javě pomocí Aspose OCR a z
 Naučte se, jak pomocí Aspose.OCR vyrovnat zkosené obrázky před OCR pro lepší přesnost.
 ### [Vytvoření prohledávatelného PDF s OCR – Kompletní průvodce](./create-searchable-pdf-with-ocr-full-guide/)
 Kompletní návod, jak pomocí Aspose.OCR v Javě vytvořit prohledávatelný PDF soubor s OCR.
+### [Aspose OCR Java příklad: rozpoznat text z obrázku v Javě](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Kompletní ukázka, jak pomocí Aspose.OCR pro Java rozpoznat text z obrázku a získat výstup jako řetězec.
+### [Vytvořit prohledávatelný PDF v Javě – Kompletní průvodce](./create-searchable-pdf-in-java-full-guide/)
+Kompletní návod, jak v Javě vytvořit prohledávatelný PDF pomocí Aspose.OCR, včetně kroků a ukázek kódu.
 
 ## Často kladené otázky
 

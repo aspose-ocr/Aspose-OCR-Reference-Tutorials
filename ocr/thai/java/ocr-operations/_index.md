@@ -182,6 +182,10 @@ weight: 21
 เรียนรู้วิธีทำการ Deskew ภาพอัตโนมัติด้วย Aspose OCR ใน Java เพื่อปรับภาพให้ตรงและเพิ่มความแม่นยำของ OCR  
 ### [วิธีจัดแนวภาพ – คู่มือการเตรียมภาพสำหรับ OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
 เรียนรู้วิธีแก้ไขการเอียงของภาพก่อนทำ OCR เพื่อเพิ่มความแม่นยำของการสกัดข้อความ  
+### [Create Searchable PDF in Java – Full Guide](./create-searchable-pdf-in-java-full-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่ค้นหาได้โดยใช้ Aspose.OCR for Java อย่างละเอียดและครบถ้วน  
+### [ตัวอย่าง Aspose OCR Java: จดจำข้อความจากภาพใน Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+ตัวอย่างการใช้ Aspose OCR กับ Java เพื่อจดจำข้อความจากภาพอย่างง่ายดาย  
 
 
 
