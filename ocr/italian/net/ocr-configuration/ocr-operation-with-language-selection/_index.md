@@ -10,21 +10,14 @@ url: /it/net/ocr-configuration/ocr-operation-with-language-selection/
 weight: 12
 ---
 
-ione". Paragraph translate.
 
-Then the metadata lines: "**Last Updated:** 2026-02-25" keep same. "**Tested With:** Aspose.OCR 24.11 for .NET" keep. "**Author:** Aspose" keep.
 
-Then closing shortcodes.
 
-Also there is a line with "---". Keep.
 
-Now produce final content.
 
-Be careful with bold formatting: keep **...**.
 
-Let's translate.
 
-I'll write final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
