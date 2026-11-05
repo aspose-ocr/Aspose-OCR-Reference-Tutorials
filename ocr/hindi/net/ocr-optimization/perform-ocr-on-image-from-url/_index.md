@@ -9,19 +9,13 @@ url: /hi/net/ocr-optimization/perform-ocr-on-image-from-url/
 weight: 10
 ---
 
- -> same.
 
-**Tested With:** Aspose.OCR 24.11 for .NET -> same.
 
-**Author:** Aspose -> same.
 
-Close shortcodes.
 
-Then final button shortcode.
 
-Make sure to keep markdown formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
