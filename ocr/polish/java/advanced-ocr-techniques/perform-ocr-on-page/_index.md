@@ -10,21 +10,13 @@ url: /pl/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
-ać możliwości biblioteki."
 
-Then horizontal line, then metadata.
 
---- keep.
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.OCR 24.12 for Java  
-**Author:** Aspose  
 
-Translate labels maybe keep English? Should translate "Last Updated", "Tested With", "Author". Probably translate to Polish: "Ostatnia aktualizacja:", "Testowano z:", "Autor:". But requirement: translate all text content. So do that.
 
-Then closing shortcodes.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
