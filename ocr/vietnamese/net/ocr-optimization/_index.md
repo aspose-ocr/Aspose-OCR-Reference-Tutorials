@@ -257,6 +257,13 @@ Tìm hiểu các bước tiền xử lý ảnh để cải thiện độ chính 
 Hướng dẫn chi tiết cách tiền tải tài nguyên OCR trong Aspose.OCR để giảm thời gian khởi động và tối ưu hiệu suất.
 ### [Nhận dạng văn bản từ hình ảnh trong C# – Ví dụ OCR đầy đủ](./recognize-text-from-image-in-c-full-ocr-example/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh với ví dụ đầy đủ.
+### [Tiền xử lý hình ảnh cho OCR trong C# – Hướng dẫn lập trình đầy đủ](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Hướng dẫn chi tiết cách áp dụng các bộ lọc tiền xử lý để cải thiện độ chính xác OCR trong C# với Aspose.OCR.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Tận dụng sức mạnh GPU để tăng tốc độ và độ chính xác khi nhận dạng văn bản từ hình ảnh bằng Aspose OCR.
+### [Cách chỉnh nghiêng ảnh trong C# – Hướng dẫn đầy đủ Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trong C# bằng Aspose.OCR, nâng cao độ chính xác nhận dạng ký tự.
+### [Nhận dạng văn bản từ hình ảnh trong ASP.NET Core – tải lên cho OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 
 ## Câu hỏi thường gặp
 

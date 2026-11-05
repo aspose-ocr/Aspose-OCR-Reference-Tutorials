@@ -102,6 +102,9 @@ weight: 25
 ### [C# 中的 OCR 预处理步骤 – 使用 Aspose.OCR 提升准确性](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 本教程展示如何在 C# 中使用 Aspose.OCR 进行图像预处理，以提升 OCR 准确率。
 
+### [在 C# 中对图像进行 OCR 预处理 – 完整编程指南](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+本指南详细讲解如何在 C# 中使用 Aspose.OCR 对图像进行预处理，提高 OCR 准确率。
+
 ### [Result Correction with Spell Checking in OCR Image Recognition](./result-correction-with-spell-checking/)
 使用 Aspose.OCR for .NET 提升 OCR 精度。纠正拼写、定制词典，轻松实现零错误的文本识别。
 
@@ -327,6 +330,13 @@ weight: 25
 
 ### [Recognize Text from Image in C# – Full OCR Example](./recognize-text-from-image-in-c-full-ocr-example/)
 使用 Aspose.OCR for .NET 在 C# 中实现完整图像文字识别示例，提升 OCR 效率。
+
+### [使用 Aspose OCR GPU 进行图像文本识别](./recognize-text-from-image-using-aspose-ocr-gpu/)
+了解如何利用 Aspose OCR 的 GPU 加速功能，从图像中快速高效地提取文本，提升识别性能。
+
+### [如何在 C# 中去倾斜图像 – 完整 Aspose.OCR 指南](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+
+### [在 ASP.NET Core 中识别图像文本 – 上传进行 OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 
 ## 常见问题
 

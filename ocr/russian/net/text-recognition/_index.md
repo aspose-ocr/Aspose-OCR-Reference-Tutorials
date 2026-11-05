@@ -651,6 +651,16 @@ url: /ru/net/text-recognition/
 Полное руководство по распознаванию текста с изображений в C# с использованием Aspose OCR. Пошаговые инструкции для быстрой интеграции.
 ### [Извлечение текста из DjVu с C# – Полное руководство](./extract-text-from-djvu-with-c-complete-guide/)
 Полное руководство по извлечению текста из файлов DjVu с помощью C# и Aspose.OCR.
+### [Распознавание текста из изображения на C# с использованием Aspose OCR – Полное руководство](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+Полное пошаговое руководство по распознаванию текста из изображений в C# с помощью Aspose OCR.
+### [Создание поискового PDF из изображения с OCR – Полное руководство на C#](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+Полное руководство по созданию поискового PDF из изображения с помощью Aspose.OCR в C#.
+### [Создание поискового PDF в C# – Полное руководство с Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+Полное руководство по созданию поискового PDF в C# с использованием Aspose OCR, охватывающее все шаги интеграции и настройки.
+### [Конвертирование изображений в текст с Aspose OCR – Руководство по пакетной обработке](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+Узнайте, как быстро конвертировать множество изображений в текст с помощью Aspose OCR, используя пакетную обработку в .NET.
+### [Выполнение OCR на изображении в C# – Полное руководство Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+Полное пошаговое руководство по выполнению OCR на изображениях в C# с использованием Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

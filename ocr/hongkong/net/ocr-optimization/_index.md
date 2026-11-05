@@ -57,6 +57,8 @@ weight: 25
 學習如何校正圖像傾斜，提高 OCR 識別率，並在 Aspose OCR 前處理流程中應用此技巧。
 ### [C# 中的 OCR 前處理步驟 – 使用 Aspose.OCR 提升準確度](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 了解如何在 C# 中使用 Aspose.OCR 的前處理功能，提升 OCR 識別精度與效能的完整教學。
+### [在 C# 中預處理圖像以進行 OCR – 完整程式設計指南](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+學習如何在 C# 中使用 Aspose.OCR 進行圖像預處理，提升 OCR 準確度的完整步驟指南。
 
 ## 在 OCR 圖像辨識中使用拼寫檢查進行結果校正
 
@@ -281,6 +283,12 @@ weight: 25
 ### [在 Aspose.OCR 中預載 OCR 資源 – 完整設定指南](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
 一步步說明如何預先載入 OCR 資源，提升辨識效能並確保設定完整。
 ### [在 C# 中從圖像識別文字 – 完整 OCR 範例](./recognize-text-from-image-in-c-full-ocr-example/)
+### [使用 Aspose OCR GPU 從圖像辨識文字](./recognize-text-from-image-using-aspose-ocr-gpu/)
+利用 GPU 加速的 Aspose OCR，快速且高精度地從圖像中提取文字。
+### [如何在 C# 中校正圖像傾斜 – 完整 Aspose.OCR 指南](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+學習使用 Aspose.OCR for .NET 在 C# 中校正圖像傾斜，提高 OCR 準確度的完整步驟指南。
+### [在 ASP.NET Core 中從圖像辨識文字 – 上傳以進行 OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+示範如何在 ASP.NET Core 應用程式中上傳圖像並使用 Aspose.OCR 進行文字辨識。
 
 ## 常見問題
 

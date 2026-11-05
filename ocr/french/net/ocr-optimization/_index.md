@@ -2,7 +2,7 @@
 date: 2025-12-22
 description: Apprenez à extraire du texte d’une image à l’aide d’Aspose.OCR pour .NET.
   Suivez nos tutoriels OCR étape par étape pour améliorer la précision, appliquer
-  des filtres et enregistrer les résultats.
+  des filters et enregistrer les résultats.
 linktitle: OCR Optimization
 second_title: Aspose.OCR .NET API
 title: Extraire du texte à partir d’une image – Optimisation OCR avec Aspose.OCR pour
@@ -296,6 +296,13 @@ Découvrez les meilleures pratiques de prétraitement d'images en C# pour augmen
 Apprenez à précharger les ressources OCR d’Aspose.OCR pour améliorer les performances et garantir une configuration optimale.
 ### [Reconnaître du texte à partir d'une image en C# – Exemple complet d'OCR](./recognize-text-from-image-in-c-full-ocr-example/)
 Exemple complet en C# montrant comment extraire du texte d'une image avec Aspose.OCR, incluant le prétraitement et la sauvegarde des résultats.
+### [Reconnaître du texte à partir d'une image avec Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Utilisez le GPU d'Aspose OCR pour accélérer la reconnaissance de texte sur les images, améliorant les performances et la précision.
+### [Comment redresser une image en C# – Guide complet Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Apprenez à redresser les images avec Aspose.OCR en C#, améliorant la précision de l’OCR grâce à la correction d’inclinaison.
+### [Reconnaître du texte à partir d'une image dans ASP.NET Core – téléversement pour OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Apprenez à téléverser des images dans une application ASP.NET Core et à appliquer l'OCR avec Aspose.OCR.
+### [Prétraiter une image pour l'OCR en C# – Guide complet de programmation](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 
 ## Questions fréquemment posées
 

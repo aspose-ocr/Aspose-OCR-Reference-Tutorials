@@ -295,6 +295,10 @@ weight: 25
 Μάθετε πώς να προφορτώνετε τους απαραίτητους πόρους OCR για βέλτιστη απόδοση και γρήγορη εκκίνηση των εφαρμογών σας.
 ### [Αναγνώριση κειμένου από εικόνα σε C# – Πλήρες παράδειγμα OCR](./recognize-text-from-image-in-c-full-ocr-example/)
 Δείτε ένα πλήρες παράδειγμα OCR σε C# για την αναγνώριση κειμένου από εικόνα με Aspose.OCR.
+### [Αναγνώριση κειμένου από εικόνα χρησιμοποιώντας Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+### [Πώς να διορθώσετε την κλίση εικόνας σε C# – Πλήρης οδηγός Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+### [Αναγνώριση κειμένου από εικόνα σε ASP.NET Core – μεταφόρτωση για OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+### [Προεπεξεργασία εικόνας για OCR σε C# – Πλήρης προγραμματιστικός οδηγός](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 
 ## Συχνές Ερωτήσεις
 

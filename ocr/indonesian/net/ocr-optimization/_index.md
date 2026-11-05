@@ -305,6 +305,14 @@ Pelajari cara mengaktifkan akselerasi GPU untuk OCR dengan Aspose.OCR menggunaka
 Panduan lengkap memuat sumber daya OCR di Aspose.OCR untuk meningkatkan kinerja dan akurasi aplikasi Anda.
 ### [Mengenali Teks dari Gambar dengan C# – Contoh OCR Lengkap](./recognize-text-from-image-in-c-full-ocr-example/)
 Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose.OCR di C#, mencakup contoh kode lengkap dan langkah‑langkah implementasi.
+### [Mengenali teks dari gambar menggunakan Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Manfaatkan akselerasi GPU Aspose OCR untuk mengenali teks dari gambar dengan kecepatan dan akurasi tinggi.
+### [Cara Deskew Gambar di C# – Panduan Lengkap Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Pelajari cara menghilangkan kemiringan gambar dengan Aspose.OCR di C#, meningkatkan akurasi OCR secara signifikan.
+### [Mengenali teks dari gambar di ASP.NET Core – unggah untuk OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Panduan mengunggah gambar di ASP.NET Core dan melakukan OCR dengan Aspose.OCR untuk mengekstrak teks secara efisien.
+### [Pra‑pemrosesan Gambar untuk OCR di C# – Panduan Pemrograman Lengkap](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Pelajari cara melakukan pra‑pemrosesan gambar sebelum OCR menggunakan Aspose.OCR di C# untuk meningkatkan akurasi secara signifikan.
 
 ## Pertanyaan yang Sering Diajukan
 

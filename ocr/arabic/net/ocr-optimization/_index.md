@@ -57,6 +57,8 @@ weight: 25
 ### [كيفية استخدام الفلاتر في Aspose OCR – تعزيز استخراج النص](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 تعلم كيفية تطبيق فلاتر ما قبل المعالجة في Aspose OCR لتحسين دقة استخراج النص وزيادة السرعة.
 ### [معالجة الصورة مسبقًا للتعرف الضوئي على الأحرف – تعزيز الدقة باستخدام Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+### [معالجة مسبقة للصورة لتقنية OCR في C# – دليل برمجة كامل](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+دليل شامل يوضح كيفية تطبيق معالجة مسبقة للصور قبل OCR باستخدام C# لتحسين الدقة.
 
 ## تصحيح النتائج باستخدام التدقيق الإملائي في التعرف على الصور باستخدام OCR
 
@@ -289,6 +291,14 @@ weight: 25
 دليل شامل لتحميل موارد OCR مسبقًا في Aspose.OCR لضمان أداء سريع وإعداد سهل.
 ### [التعرف على النص من صورة في C# – مثال OCR كامل](./recognize-text-from-image-in-c-full-ocr-example/)
 دليل شامل يوضح كيفية استخدام Aspose.OCR في C# لاستخراج النص من الصور خطوة بخطوة.
+### [معالجة مسبقة للصورة لتقنية OCR في C# – دليل برمجة كامل](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+دليل شامل يوضح كيفية تطبيق معالجة مسبقة للصور قبل OCR باستخدام C# لتحسين الدقة.
+### [التعرف على النص من الصورة باستخدام Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+استفد من تسريع GPU لتحسين دقة وسرعة التعرف على النص في الصور باستخدام Aspose OCR.
+### [كيفية تصحيح ميل الصورة في C# – دليل Aspose.OCR الكامل](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+اكتشف طريقة تصحيح الميل للصور باستخدام Aspose.OCR في C# لتحسين نتائج OCR.
+### [التعرف على النص من الصورة في ASP.NET Core – رفع للـ OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+اكتشف كيفية رفع الصور في تطبيق ASP.NET Core للمعالجة باستخدام Aspose.OCR.
 
 ## الأسئلة المتكررة
 

@@ -655,6 +655,16 @@ url: /el/net/text-recognition/
 Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose OCR με πλήρη βήμα-βήμα οδηγό.
 ### [Εξαγωγή κειμένου από DjVu με C# – Πλήρης Οδηγός](./extract-text-from-djvu-with-c-complete-guide/)
 Μάθετε πώς να εξάγετε κείμενο από αρχεία DjVu χρησιμοποιώντας C# με τον πλήρη οδηγό μας.
+### [Αναγνώριση κειμένου από εικόνα σε C# με το Aspose OCR – Πλήρης Οδηγός](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+Μάθετε βήμα προς βήμα πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose OCR.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα με OCR – Πλήρης Οδηγός C#](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμα PDF χρησιμοποιανά OCR με C# και Aspose.OCR.
+### [Δημιουργία Αναζητήσιμου PDF σε C# – Πλήρης Οδηγός με Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF σε C# χρησιμοποιώντας το Aspose OCR, βήμα‑βήμα, για ακριβή και γρήγορη εξαγωγή κειμένου.
+### [Μετατροπή εικόνων σε κείμενο με Aspose OCR – Οδηγός μαζικής επεξεργασίας](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+Μάθετε πώς να μετατρέπετε μαζικά εικόνες σε κείμενο με το Aspose OCR, βήμα-βήμα, για γρήγορη και ακριβή εξαγωγή δεδομένων.
+### [Εκτέλεση OCR σε εικόνα με C# – Πλήρης Οδηγός Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+Μάθετε βήμα-βήμα πώς να εφαρμόσετε OCR σε εικόνες χρησιμοποιώντας C# και το Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

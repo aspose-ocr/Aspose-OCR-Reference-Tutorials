@@ -303,6 +303,14 @@ Aspose.OCR を使用した C# の OCR 前処理手順を解説し、認識精度
 OCR のパフォーマンス向上のために必要なリソースを事前にロードし、セットアップ手順を詳しく解説します。
 ### [C# で画像からテキストを認識する – 完全 OCR 例](./recognize-text-from-image-in-c-full-ocr-example/)
 C# で画像からテキストを認識する完全な OCR 実装例をステップバイステップで解説します。
+### [GPU を使用した Aspose OCR で画像からテキストを認識](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Aspose OCR の GPU 加速機能を活用し、画像からテキストを高速かつ高精度に抽出します。
+### [C# で画像のデスキュー方法 – 完全 Aspose.OCR ガイド](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR を使用して C# で画像のデスキュー処理を行い、認識精度を向上させる手順をステップバイステップで解説します。
+### [ASP.NET Core で画像からテキストを認識 – アップロードによる OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+ASP.NET Core アプリで画像をアップロードし、Aspose.OCR を使用してテキストを高速に抽出する方法を解説します。
+### [C# で画像を前処理して OCR を実行する – 完全プログラミングガイド](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Aspose.OCR を使用して C# で画像前処理を行い、OCR の精度を最大化する手順をステップバイステップで解説します。
 
 ## よくある質問
 

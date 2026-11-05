@@ -297,6 +297,14 @@ Naučte se, jak pomocí předzpracování v C# zvýšit přesnost OCR s Aspose.O
 Naučte se, jak přednačíst OCR zdroje pro rychlejší rozpoznávání a optimalizovat nastavení Aspose.OCR ve vaší aplikaci.
 ### [Rozpoznat text z obrázku v C# – Kompletní příklad OCR](./recognize-text-from-image-in-c-full-ocr-example/)
 Kompletní ukázka rozpoznávání textu z obrázku v C# s Aspose.OCR, včetně načtení, nastavení a uložení výsledků.
+### [Předzpracování obrázku pro OCR v C# – Kompletní programovací průvodce](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# předzpracovat obrázky pro vyšší přesnost OCR, včetně filtrů a optimalizací.
+### [Rozpoznat text z obrázku pomocí Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Využijte GPU akceleraci pro rychlé a přesné rozpoznání textu z obrázků s Aspose OCR.
+### [Jak narovnat obrázek v C# – Kompletní průvodce Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Naučte se, jak pomocí Aspose.OCR v C# automaticky odstranit sklon obrázku a zlepšit přesnost rozpoznání textu.
+### [Rozpoznat text z obrázku v ASP.NET Core – nahrání pro OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Naučte se, jak v ASP.NET Core nahrát obrázek a provést OCR pomocí Aspose.OCR.
 
 ## Často kladené otázky
 

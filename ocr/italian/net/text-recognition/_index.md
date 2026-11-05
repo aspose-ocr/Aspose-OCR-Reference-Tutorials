@@ -665,6 +665,16 @@ Scopri come riconoscere testo da immagini in C# usando Aspose OCR con una guida 
 ### [Estrai testo da DjVu con C# – Guida completa](./extract-text-from-djvu-with-c-complete-guide/)
 Scopri come estrarre testo da file DjVu usando C# con Aspose, passo passo, per una conversione rapida e accurata.
 
+### [Riconosci testo da immagine in C# usando Aspose OCR – Guida completa](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+Scopri come riconoscere testo da immagini in C# con Aspose OCR grazie a questa guida completa passo passo.
+### [Crea PDF ricercabile da immagine con OCR – Guida completa C#](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+Impara a trasformare immagini in PDF ricercabili usando Aspose.OCR con C#, passo dopo passo.
+### [Crea PDF ricercabile in C# – Guida completa con Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+Scopri come generare PDF ricercabili con C# e Aspose OCR, passo dopo passo, per migliorare l'accessibilità dei tuoi documenti.
+### [Converti immagini in testo con Aspose OCR – Guida al batch processing](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+Scopri come convertire più immagini in testo simultaneamente usando Aspose OCR con una procedura batch efficiente.
+### [Esegui OCR su immagine in C# – Guida completa Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+Scopri come eseguire l'OCR su un'immagine usando C# e Aspose OCR con questa guida completa passo passo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

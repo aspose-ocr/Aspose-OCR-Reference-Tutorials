@@ -676,6 +676,16 @@ Naučte se, jak v C# pomocí Aspose.OCR provádět dávkové zpracování obráz
 Naučte se, jak v C# pomocí Aspose OCR kompletně rozpoznat text z obrázku a získat přesné výsledky.
 ### [Extrahovat text z DjVu pomocí C# – Kompletní průvodce](./extract-text-from-djvu-with-c-complete-guide/)
 Naučte se, jak v C# pomocí Aspose OCR extrahovat text z DjVu souborů a získat přesné výsledky.
+### [Rozpoznat text z obrázku v C# pomocí Aspose OCR – Kompletní průvodce](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+Kompletní návod, jak v C# pomocí Aspose OCR rozpoznat text z obrázku a získat přesné výsledky.
+### [Provést OCR na obrázku v C# – Kompletní průvodce Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+Kompletní návod, jak v C# pomocí Aspose OCR provést rozpoznání textu z obrázku a získat přesné výsledky.
+### [Vytvořit prohledávatelný PDF z obrázku pomocí OCR – kompletní průvodce v C#](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+Naučte se pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF soubor s OCR technologií.
+### [Převod obrázků na text pomocí Aspose OCR – průvodce dávkovým zpracováním](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+Naučte se, jak hromadně převádět obrázky na text pomocí Aspose OCR a optimalizovat procesy ve vašich .NET aplikacích.
+### [Vytvořit prohledávatelný PDF v C# – kompletní průvodce s Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+Kompletní návod, jak v C# s Aspose OCR vytvořit prohledávatelný PDF soubor s OCR technologií.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

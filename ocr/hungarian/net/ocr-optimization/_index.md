@@ -56,6 +56,8 @@ Fedezze fel, hogyan készítheti elő a képeket az OCR‑hoz C#‑ban, részlet
 Ismerje meg, hogyan használhatja a deskew technikát C#‑ban az OCR előfeldolgozás során a pontosság növeléséhez.
 ### [Képek kiegyenesítése – Aspose OCR előfeldolgozási útmutató](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
 Ismerje meg, hogyan használhatja a képek kiegyenesítését az Aspose.OCR előfeldolgozásában a pontosság növelése érdekében.
+### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes programozási útmutató](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Fedezze fel, hogyan előfeldolgozhatja a képeket OCR-hez C#‑ban, részletes útmutatóval a legjobb pontosságért.
 
 ## Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben
 Érjen el páratlan OCR pontosságot az [Aspose.OCR for .NET](./result-correction-with-spell-checking/) segítségével. Oktatóanyagaink a helyesírás-ellenőrzéssel történő eredménykorrekcióról lehetővé teszi szótárak testreszabását, helyesírási hibák javítását, és a hibamentes szövegfelismerés biztosítását. Merüljön el a pontosság világában az Aspose.OCR-rel.
@@ -89,6 +91,9 @@ Fedezze fel, hogyan csökkentheti a zajt és növelheti az OCR pontosságát egy
 Ismerje meg, hogyan használhatja a képek kiegyenesítését az Aspose.OCR előfeldolgozásában a pontosság növelése érdekében.
 ### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes Aspose OCR útmutató](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
 Ismerje meg, hogyan készítheti elő a képeket az OCR-hez C#‑ban az Aspose.OCR segítségével a maximális pontosság érdekében.
+
+### [Kép előfeldolgozása OCR-hez C#‑ban – Teljes programozási útmutató](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Fedezze fel, hogyan előfeldolgozhatja a képeket OCR-hez C#‑ban, részletes útmutatóval a legjobb pontosságért.
 
 ### [Eredménykorrekció helyesírás-ellenőrzéssel OCR kép felismerésben](./result-correction-with-spell-checking/)
 Növelje az OCR pontosságát az Aspose.OCR for .NET segítségével. Javítsa a helyesírást, testreszabja a szótárakat, és könnyen érjen el hibamentes szövegfelismerést.
@@ -328,6 +333,15 @@ Leírja, hogyan töltheti elő az OCR erőforrásokat az Aspose.OCR használatá
 
 ### [Szöveg felismerése képről C#‑ban – Teljes OCR példa](./recognize-text-from-image-in-c-full-ocr-example/)
 Teljes körű útmutató C#‑ban a szöveg képről történő felismeréséhez az Aspose.OCR for .NET használatával.
+
+### [Szöveg felismerése képről az Aspose OCR GPU használatával](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Fedezze fel, hogyan használhatja az Aspose OCR GPU-t a képek gyors és pontos szövegfelismeréshez.
+
+### [Képek kiegyenesítése C#‑ban – Teljes Aspose.OCR útmutató](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t a képek automatikus kiegyenesítésére C#‑ban, a legjobb pontosság és teljesítmény érdekében.
+
+### [Szöveg felismerése képről ASP.NET Core‑ban – feltöltés OCR‑hez](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Ismerje meg, hogyan tölthet fel képeket ASP.NET Core‑ban, és használhatja az Aspose.OCR-t a szöveg felismerésére.
 
 ## Gyakran Ismételt Kérdések
 

@@ -306,6 +306,14 @@ Leer hoe je GPU-versnelling inschakelt voor OCR in C# met Aspose.OCR, voor snell
 Leer hoe je OCR‑bronnen vooraf laadt voor snellere herkenning en optimale configuratie met Aspose.OCR.
 ### [Tekst herkennen uit afbeelding in C# – Volledig OCR‑voorbeeld](./recognize-text-from-image-in-c-full-ocr-example/)
 Volledige C#‑codevoorbeeld voor het herkennen van tekst uit afbeeldingen met Aspose.OCR, inclusief preprocessing en resultaatopslag.
+### [Preprocess Image for OCR in C# – Complete Programming Guide](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Leer stap‑voor‑stap hoe je afbeeldingen voorbereidt voor OCR in C# met uitgebreide code‑voorbeelden en optimale instellingen.
+### [Tekst herkennen uit afbeelding met Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Gebruik de GPU‑versnelling van Aspose OCR om tekst uit afbeeldingen sneller en nauwkeuriger te extraheren.
+### [Hoe afbeelding rechtzetten in C# – Complete Aspose.OCR-gids](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Leer hoe je afbeeldingen kantcorrigeert met Aspose.OCR in C#, voor nauwkeurige OCR‑resultaten.
+### [Tekst herkennen uit afbeelding in ASP.NET Core – upload voor OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Leer hoe je afbeeldingen uploadt in een ASP.NET Core‑applicatie en OCR toepast met Aspose.OCR.
 
 ## Veelgestelde vragen
 

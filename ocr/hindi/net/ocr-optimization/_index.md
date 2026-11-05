@@ -337,6 +337,18 @@ Aspose.OCR के लिए आवश्यक OCR संसाधनों क�
 ### [C# में छवि से टेक्स्ट पहचानें – पूर्ण OCR उदाहरण](./recognize-text-from-image-in-c-full-ocr-example/)
 C# में Aspose.OCR का उपयोग करके छवि से पूर्ण पाठ निकालने का चरण‑दर‑चरण उदाहरण।
 
+### [Aspose OCR GPU का उपयोग करके छवि से पाठ पहचानें](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Aspose OCR GPU के साथ तेज़ और सटीक छवि पाठ पहचान का अन्वेषण करें।
+
+### [C# में इमेज को डेस्क्यू कैसे करें – पूर्ण Aspose.OCR गाइड](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR का उपयोग करके C# में इमेज को डेस्क्यू करने के चरण‑दर‑चरण मार्गदर्शन।
+
+### [C# में छवि को OCR के लिए प्री‑प्रोसेस करें – पूर्ण प्रोग्रामिंग गाइड](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+C# में Aspose.OCR का उपयोग करके छवि प्री‑प्रोसेसिंग के सभी चरणों को सीखें और OCR सटीकता बढ़ाएँ।
+
+### [ASP.NET Core में इमेज से पाठ पहचानें – OCR के लिए अपलोड](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+ASP.NET Core में इजेज अपलोड करके OCR के साथ पाठ पहचानें।
+
 ## अक्सर पूछे जाने वाले प्रश्न
 
 **Q:** क्या मैं कई भाषाओं वाली छवि फ़ाइलों से पाठ निकाल सकता हूँ?  

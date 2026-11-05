@@ -675,6 +675,16 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để tạo PDF 
 Thực hiện nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR nhanh chóng và hiệu quả.
 ### [Trích xuất văn bản từ DjVu bằng C# – Hướng dẫn đầy đủ](./extract-text-from-djvu-with-c-complete-guide/)
 Khám phá cách trích xuất văn bản từ tệp DjVu bằng C# với hướng dẫn chi tiết, giúp bạn tích hợp nhanh chóng và hiệu quả.
+### [Nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR – Hướng dẫn toàn diện](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+Khám phá cách nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR qua hướng dẫn chi tiết và đầy đủ.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh với OCR – Hướng dẫn đầy đủ C#](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm từ hình ảnh bằng OCR trong C#, sử dụng Aspose.OCR để chuyển đổi và lưu trữ nội dung văn bản.
+### [Chuyển đổi hình ảnh thành văn bản với Aspose OCR – Hướng dẫn xử lý hàng loạt](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+Hướng dẫn chi tiết cách chuyển đổi hàng loạt hình ảnh thành văn bản bằng Aspose OCR trong .NET.
+### [Thực hiện OCR trên hình ảnh trong C# – Hướng dẫn toàn diện Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+Khám phá cách thực hiện OCR trên hình ảnh trong C# với Aspose qua hướng dẫn chi tiết và đầy đủ.
+### [Tạo PDF có thể tìm kiếm trong C# – Hướng dẫn đầy đủ với Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm trong C# bằng Aspose OCR, chuyển đổi và lưu trữ nội dung văn bản.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

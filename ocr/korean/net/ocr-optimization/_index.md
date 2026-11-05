@@ -257,6 +257,13 @@ GPU 가속을 활용하여 OCR 성능을 극대화하는 방법을 C# 예제로 
 ### [Aspose.OCR에서 OCR 리소스 미리 로드 – 완전 설정 가이드](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
 Aspose.OCR 사용 전 OCR 리소스를 사전 로드하고 최적의 성능을 위한 전체 설정 과정을 단계별로 안내합니다.
 ### [C#에서 이미지 텍스트 인식 – 전체 OCR 예제](./recognize-text-from-image-in-c-full-ocr-example/)
+### [Aspose OCR GPU를 사용한 이미지 텍스트 인식](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Aspose OCR GPU를 활용해 이미지에서 텍스트를 빠르고 정확하게 인식하는 방법을 안내합니다.
+### [C#에서 이미지 기울기 보정하기 – 완전한 Aspose.OCR 가이드](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Aspose.OCR를 사용해 C#에서 이미지의 기울기를 자동으로 보정하고 정확한 텍스트 인식을 구현하는 방법을 단계별로 안내합니다.
+### [C#에서 OCR을 위한 이미지 전처리 – 완전한 프로그래밍 가이드](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Aspose.OCR와 함께 C#에서 이미지 전처리 과정을 단계별로 배워 OCR 정확도를 높이세요.
+### [ASP.NET Core에서 이미지 텍스트 인식 – 업로드를 통한 OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 
 ## 자주 묻는 질문
 

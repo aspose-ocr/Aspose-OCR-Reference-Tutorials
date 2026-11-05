@@ -660,6 +660,16 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose OCR 在 C# 中完整辨識圖像文字，提供逐步說明與範例，提升開發效率。
 ### [使用 C# 從 DjVu 提取文字 – 完整指南](./extract-text-from-djvu-with-c-complete-guide/)
 本完整指南說明如何在 C# 中使用 Aspose.OCR 從 DjVu 檔案提取文字，提供步驟與範例代碼。
+### [在 C# 中使用 Aspose OCR 辨識影像文字 – 完整指南](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+完整教學示範如何在 C# 應用程式中使用 Aspose OCR 進行影像文字辨識，涵蓋設定與範例程式碼。
+### [使用 OCR 從影像建立可搜尋 PDF – 完整 C# 教學](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+完整示範如何使用 Aspose.OCR 在 C# 中將影像轉換為可搜尋的 PDF，涵蓋設定與範例程式碼。
+### [使用 Aspose OCR 批次處理將影像轉換為文字 – 完整指南](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+說明如何使用 Aspose OCR 進行批次影像轉文字處理，提升大量檔案的 OCR 效率。
+### [在 C# 中執行影像 OCR – 完整 Aspose 指南](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+本完整指南說明如何在 C# 中使用 Aspose OCR 進行影像文字辨識，包含設定步驟與範例程式碼。
+### [在 C# 中建立可搜尋 PDF – 完整指南與 Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+完整指南示範如何在 C# 中使用 Aspose OCR 建立可搜尋的 PDF，包含設定步驟與範例程式碼。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

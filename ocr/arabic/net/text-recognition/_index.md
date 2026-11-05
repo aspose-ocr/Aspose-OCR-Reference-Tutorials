@@ -667,6 +667,16 @@ url: /ar/net/text-recognition/
 تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام Aspose OCR في C# لتحقيق نتائج دقيقة وسهلة.
 ### [استخراج النص من DjVu باستخدام C# – دليل كامل](./extract-text-from-djvu-with-c-complete-guide/)
 تعلم خطوة بخطوة كيفية استخراج النص من ملفات DjVu باستخدام C# مع Aspose OCR لتحقيق نتائج دقيقة وسهلة.
+### [التعرف على النص من صورة باستخدام C# و Aspose OCR – دليل كامل](./recognize-text-from-image-in-c-using-aspose-ocr-complete-gui/)
+دليل شامل يوضح كيفية التعرف على النص من الصور باستخدام C# و Aspose OCR خطوة بخطوة.
+### [إنشاء ملف PDF قابل للبحث من صورة باستخدام OCR – دليل كامل C#](./create-searchable-pdf-from-image-with-ocr-complete-c-guide/)
+تعلم كيفية تحويل الصور إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR وC# خطوة بخطوة.
+### [إنشاء ملف PDF قابل للبحث باستخدام C# – دليل كامل مع Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
+تعلم كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR وC# خطوة بخطوة.
+### [تحويل الصور إلى نص باستخدام Aspose OCR – دليل المعالجة الدفعية](./convert-images-to-text-with-aspose-ocr-batch-processing-guid/)
+تعلم كيفية تحويل مجموعة من الصور إلى نص باستخدام Aspose OCR في عملية معالجة دفعية فعّالة.
+### [إجراء التعرف الضوئي على الأحرف في صورة باستخدام C# – دليل Aspose كامل](./perform-ocr-on-image-in-c-complete-aspose-guide/)
+دليل شامل يوضح كيفية إجراء التعرف الضوئي على الأحرف في صورة باستخدام C# و Aspose OCR خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

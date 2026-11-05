@@ -301,6 +301,14 @@ Lär dig hur du aktiverar GPU‑acceleration i Aspose.OCR för .NET med en kompl
 Lär dig hur du förladdar OCR‑resurser för snabbare igenkänning och optimal prestanda i Aspose.OCR.
 ### [Känn igen text från bild i C# – Fullständigt OCR‑exempel](./recognize-text-from-image-in-c-full-ocr-example/)
 En komplett guide som visar hur du använder Aspose.OCR för .NET i C# för att känna igen och extrahera text från en bild.
+### [Känn igen text från bild i ASP.NET Core – uppladdning för OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Lär dig hur du laddar upp bilder i en ASP.NET Core‑app och använder Aspose.OCR för att känna igen text.
+### [Känn igen text från bild med Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Utnyttja GPU-acceleration för att snabbt känna igen text i bilder med Aspose OCR.
+### [Hur du räta upp bild i C# – Komplett Aspose.OCR‑guide](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Lär dig att korrigera snedställda bilder med Aspose.OCR i C# för förbättrad OCR‑noggrannhet.
+### [Förbehandla bild för OCR i C# – Komplett programmeringsguide](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Lär dig hur du förbehandlar bilder för OCR i C# med en komplett steg‑för‑steg‑guide.
 
 ## Vanliga frågor
 

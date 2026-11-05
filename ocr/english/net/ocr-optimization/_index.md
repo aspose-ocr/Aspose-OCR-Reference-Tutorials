@@ -75,6 +75,9 @@ Learn how to deskew images using Aspose.OCR preprocessing to improve OCR accurac
 ## OCR Preprocessing Steps in C# – Boost Accuracy with Aspose.OCR
 Discover essential preprocessing techniques in C# to improve OCR accuracy using Aspose.OCR.
 
+### [Preprocess Image for OCR in C# – Complete Programming Guide](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Learn how to preprocess images in C# to boost OCR accuracy using Aspose.OCR, covering filters, deskew, binarization, and best practices.
+
 ## Result Correction with Spell Checking in OCR Image Recognition
 
 Enhance OCR accuracy with Aspose.OCR for .NET by exploring [preprocessing filters tutorial]({{< relref "preprocessing-filters-for-image/_index.md" >}}). Download now and discover how to fine‑tune your images before recognition. This tutorial ensures seamless integration, boosting accuracy and efficiency.
@@ -127,6 +130,12 @@ Learn how to boost OCR performance with GPU acceleration in Aspose.OCR for .NET 
 Complete C# example demonstrating how to recognize text from images using Aspose.OCR for .NET.
 ### [Preload OCR Resources in Aspose.OCR – Complete Setup Guide](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
 Learn how to preload OCR resources in Aspose.OCR for .NET to improve performance and ensure smooth setup.
+### [How to Deskew Image in C# – Complete Aspose.OCR Guide](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Learn to correct image skew using Aspose.OCR in C#. Follow step‑by‑step guide to improve OCR accuracy.
+### [recognize text from image using Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Leverage GPU acceleration with Aspose.OCR to recognize text from images faster and with high accuracy.
+### [recognize text from image in ASP.NET Core – upload for OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Learn how to upload images in ASP.NET Core and perform OCR using Aspose.OCR, extracting text efficiently.
 
 ### [Extract Text from Image – Complete C# OCR Guide with Noise Reduction](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Learn a full C# OCR workflow with Aspose.OCR, including noise reduction techniques for higher accuracy.

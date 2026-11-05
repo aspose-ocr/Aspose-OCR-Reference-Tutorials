@@ -51,6 +51,7 @@ weight: 25
 
 ### [เตรียมภาพสำหรับ OCR ใน C# – คู่มือเต็ม](./preprocess-image-for-ocr-in-c-complete-guide/)
 เรียนรู้วิธีการเตรียมภาพก่อน OCR ด้วยฟิลเตอร์และเทคนิคต่าง ๆ ใน C# เพื่อเพิ่มความแม่นยำของการสกัดข้อความ
+### [เตรียมภาพสำหรับ OCR ด้วย C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 
 ## การแก้ไขผลลัพธ์ด้วยการตรวจสอบการสะกดใน OCR Image Recognition
 บรรลุความแม่นยำของ OCR ที่ไม่มีใครเทียบได้ด้วย [Aspose.OCR for .NET](./result-correction-with-spell-checking/). คำแนะนำของเราที่เกี่ยวกับการแก้ไขผลลัพธ์ด้วยการตรวจสอบการสะกดช่วยให้คุณปรับแต่งพจนานุกรม, แก้ไขการสะกด, และรับประกันการจดจำข้อความที่ปราศจากข้อผิดพลาดอย่างง่ายดาย ดำดิ่งสู่โลกของความแม่นยำกับ Aspose.OCR.
@@ -314,6 +315,15 @@ weight: 25
 
 ### [จดจำข้อความจากภาพใน C# – ตัวอย่าง OCR เต็มรูปแบบ](./recognize-text-from-image-in-c-full-ocr-example/)
 ตัวอย่างเต็มของ OCR ใน C# สำหรับการจดจำข้อความจากภาพ
+
+### [จดจำข้อความจากภาพใน ASP.NET Core – อัปโหลดสำหรับ OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+อัปโหลดภาพใน ASP.NET Core แล้วใช้ Aspose.OCR ทำการจดจำข้อความอย่างมีประสิทธิภาพ
+
+### [จดจำข้อความจากภาพโดยใช้ Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+ใช้ GPU เพื่อเร่งความเร็วการจดจำข้อความจากภาพด้วย Aspose OCR สำหรับ .NET
+
+### [วิธีทำการ Deskew ภาพใน C# – คู่มือ Aspose.OCR ฉบับสมบูรณ์](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+เรียนรู้วิธีการแก้ไขการเอียงของภาพก่อน OCR ด้วย Aspose.OCR ใน C# เพื่อเพิ่มความแม่นยำ
 
 ## คำถามที่พบบ่อย
 

@@ -70,6 +70,9 @@ Dowiedz się, jak włączyć sprawdzanie pisowni i automatycznie korygować bł�
 ### [Przygotowywanie prostokątów w rozpoznawaniu obrazu OCR](./prepare-rectangles/)
 Odblokuj potencjał Aspose.OCR for .NET dzięki naszemu kompleksowemu przewodnikowi. Naucz się krok po kroku, jak przygotować prostokąty do rozpoznawania obrazu. Podnieś swoje aplikacje .NET dzięki płynnej integracji OCR.
 
+### [Przetwarzanie wstępne obrazu dla OCR w C# – Kompletny przewodnik programistyczny](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Poznaj techniki wstępnego przetwarzania obrazów w C# przed OCR, aby zwiększyć dokładność rozpoznawania tekstu.
+
 ### [Korekcja wyników z sprawdzaniem pisowni w rozpoznawaniu obrazu OCR](./result-correction-with-spell-checking/)
 Popraw dokładność OCR przy użyciu Aspose.OCR for .NET. Poprawiaj pisownię, dostosowuj słowniki i osiągaj rozpoznanie tekstu bez błędów bez wysiłku.
 
@@ -318,6 +321,14 @@ Dowiedz się, jak wstępnie załadować zasoby OCR, aby przyspieszyć rozpoznawa
 
 ### [Rozpoznawanie tekstu z obrazu w C# – Pełny przykład OCR](./recognize-text-from-image-in-c-full-ocr-example/)
 Pełny przykład użycia Aspose.OCR w C# do rozpoznawania tekstu z obrazu, pokazujący wszystkie kroki konfiguracji i zapisu wyników.
+### [Rozpoznawanie tekstu z obrazu przy użyciu Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Wykorzystaj GPU do przyspieszenia rozpoznawania tekstu w obrazach przy pomocy Aspose OCR.
+
+### [Jak prostować obraz w C# – Kompletny przewodnik Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Dowiedz się, jak używać Aspose.OCR w C# do prostowania obrazów przed rozpoznawaniem tekstu, zwiększając dokładność OCR.
+
+### [Rozpoznawanie tekstu z obrazu w ASP.NET Core – przesyłanie do OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Dowiedz się, jak w ASP.NET Core przesłać obraz i wykonać OCR przy użyciu Aspose.OCR.
 
 ## Często zadawane pytania
 
