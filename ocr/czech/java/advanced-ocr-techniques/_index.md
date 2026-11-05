@@ -248,6 +248,14 @@ Vytvořte prohledávatelný PDF soubor z obrázků pomocí dávkového OCR v Jav
 Rozpoznávejte text z obrázků v Javě s kontrolou pravopisu pomocí Aspose OCR pro vysokou přesnost a spolehlivost.
 ### [Jak povolit GPU v Java Inference Engine – Kompletní průvodce](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
 Naučte se, jak aktivovat GPU v Java Inference Engine pro zrychlení výpočtů a optimalizaci výkonu vašich aplikací.
+### [Aspose OCR Java příklad – Extrahování textu z obrázku pomocí GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+Využijte GPU pro rychlé OCR v Javě s Aspose OCR a extrahujte text z obrázků s vysokou rychlostí.
+### [Čtení OCR textu v Javě – Kompletní průvodce paralelním zpracováním obrázků](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Zrychlete OCR v Javě pomocí paralelního zpracování obrázků a efektivně extrahujte text.
+### [Aspose OCR Java tutoriál – Rychle opravte pravopis šumivých obrázků](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Zrychlete opravu pravopisu šumivých obrázků pomocí Aspose OCR pro Java a získejte čistý text během okamžiku.
+### [Jak zvýšit kontrast v OCR v Javě pomocí Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Zvyšte kontrast obrázků pro přesnější OCR v Javě s Aspose. Jednoduchý průvodce pro lepší rozpoznávání textu.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

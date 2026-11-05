@@ -153,6 +153,9 @@ Apprenez à extraire du texte d’un fichier JPG en utilisant Aspose OCR avec Ja
 ### [Utiliser tous les cœurs CPU en Java – Définir la taille du pool de threads efficacement](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 Apprenez à exploiter tous les cœurs CPU en Java en configurant correctement la taille du pool de threads pour des performances optimales.
 
+### [Lire du texte à partir d’une image avec Java OCR – Guide complet Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Apprenez à lire du texte depuis une image en Java avec Aspose OCR, du pré‑traitement à l’extraction finale, dans un guide complet.
+
 ---
 
 **Dernière mise à jour :** 2025-12-08  

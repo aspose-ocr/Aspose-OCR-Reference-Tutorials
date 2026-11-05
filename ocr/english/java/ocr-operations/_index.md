@@ -204,6 +204,10 @@ Learn how to automatically correct skewed images in Java using Aspose OCR, impro
 Learn how to recognize text from an image using Aspose.OCR for Java with a simple example.
 ### [Create Searchable PDF in Java – Full Guide](./create-searchable-pdf-in-java-full-guide/)
 Full guide to creating searchable PDFs in Java using Aspose.OCR, covering setup, OCR processing, and saving searchable documents.
+### [Create Searchable PDF from TIFF with Aspose OCR (Java) – Full Guide](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Create searchable PDFs from TIFF images with Aspose OCR for Java. A comprehensive guide covering conversion steps, OCR settings, and best practices.
+### [Load OCR License URL in Java – Remove Trial Watermark](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Learn how to load an OCR license from a URL in Java to eliminate the trial watermark.
 
 ## Frequently Asked Questions
 

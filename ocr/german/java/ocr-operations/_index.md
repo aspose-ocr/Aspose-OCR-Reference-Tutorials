@@ -188,6 +188,10 @@ Erfahren Sie, wie Sie schiefe Bilder mit Aspose.OCR für Java korrigieren, um di
 Vollständiger Leitfaden zum Erstellen durchsuchbarer PDFs in Java mit Aspose.OCR.
 ### [Aspose OCR Java Beispiel: Text aus Bild erkennen](./aspose-ocr-java-example-recognize-text-from-image-java/)
 Ein einfaches Beispiel, das zeigt, wie man mit Aspose OCR für Java Text aus einem Bild extrahiert.
+### [Durchsuchbares PDF aus TIFF mit Aspose OCR (Java) – Vollständiger Leitfaden](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Erfahren Sie, wie Sie aus TIFF‑Dateien durchsuchbare PDFs mit Aspose OCR für Java erstellen.
+### [OCR-Lizenz-URL in Java laden – Testwasserzeichen entfernen](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Laden Sie Ihre OCR‑Lizenz über eine URL in Java und entfernen Sie das Test‑Wasserzeichen.
 
 ## Häufig gestellte Fragen
 

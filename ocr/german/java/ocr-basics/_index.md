@@ -147,6 +147,8 @@ Erfahren Sie, wie Sie JPG‑Bilder mit Aspose OCR in Java verarbeiten und Text z
 
 ### [Alle CPU‑Kerne in Java nutzen – Thread‑Pool‑Größe effizient festlegen](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 Erfahren Sie, wie Sie alle CPU‑Kerne in Java nutzen und die Thread‑Pool‑Größe optimal konfigurieren, um die Leistung zu maximieren.
+### [Text aus Bild mit Java OCR lesen – Vollständiger Aspose OCR Leitfaden](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java Text aus Bildern extrahieren, von der Lizenz bis zur Bildvorverarbeitung, in einem umfassenden Leitfaden.
 
 ---
 

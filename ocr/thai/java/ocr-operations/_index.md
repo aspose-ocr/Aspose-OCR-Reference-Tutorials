@@ -186,6 +186,9 @@ weight: 21
 เรียนรู้วิธีสร้างไฟล์ PDF ที่ค้นหาได้โดยใช้ Aspose.OCR for Java อย่างละเอียดและครบถ้วน  
 ### [ตัวอย่าง Aspose OCR Java: จดจำข้อความจากภาพใน Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
 ตัวอย่างการใช้ Aspose OCR กับ Java เพื่อจดจำข้อความจากภาพอย่างง่ายดาย  
+### [สร้าง PDF ที่ค้นหาได้จากไฟล์ TIFF ด้วย Aspose OCR (Java) – คำแนะนำเต็ม](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+เรียนรู้วิธีแปลงไฟล์ TIFF ให้เป็น PDF ที่ค้นหาได้อย่างละเอียดด้วย Aspose OCR สำหรับ Java  
+### [โหลดใบอนุญาต OCR จาก URL ใน Java – ลบลายน้ำรุ่นทดลอง](./load-ocr-license-url-in-java-remove-trial-watermark/)
 
 
 

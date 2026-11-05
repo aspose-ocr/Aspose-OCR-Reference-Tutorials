@@ -255,6 +255,12 @@ Fedezze fel, hogyan használhatja a GPU gyorsítást az OCR-hoz Java-ban, részl
 ### [Hogyan javítsa az OCR pontosságát Java-val – Teljes Aspose OCR példa](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
 ### [OCRConfig objektum létrehozása Java-ban – Teljes Aspose OCR beállítási útmutató](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Ismerje meg, hogyan hozhat létre OCRConfig objektumot Java-ban az Aspose OCR teljes beállításához.
+### [Aspose OCR Java példa – Szöveg kinyerése képből GPU segítségével](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+Használja a GPU-t az Aspose OCR Java-ban a gyors szövegkivonáshoz képekből. Növelje a teljesítményt és pontosságot.
+### [OCR szöveg olvasása Java-ban – Teljes útmutató a párhuzamos képfeldolgozáshoz](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+### [Aspose OCR Java oktatóanyag – Zajos képek helyesírási javítása gyorsan](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Javítsa a zajos képek szövegét gyors helyesírási korrekcióval az Aspose OCR for Java segítségével.
+### [Hogyan növelje a kontrasztot Java OCR-ben az Aspose segítségével](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

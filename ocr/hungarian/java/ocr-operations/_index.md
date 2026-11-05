@@ -165,6 +165,10 @@ Fedezd fel, hogyan lehet egyenesíteni a ferde képeket az OCR előfeldolgozás 
 Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az Aspose.OCR for Java segítségével.
 ### [Aspose OCR Java példa: szöveg felismerése képről Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
 ### [Kereshető PDF létrehozása Java-ban – Teljes útmutató](./create-searchable-pdf-in-java-full-guide/)
+### [Kereshető PDF létrehozása TIFF-ből Aspose OCR-rel (Java) – Teljes útmutató](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Fedezd fel, hogyan alakíthatod át a TIFF képeket kereshető PDF-fé Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [OCR licenc URL betöltése Java-ban – Próbavízjel eltávolítása](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Töltsd be az Aspose.OCR licencet URL-ről, és távolítsd el a próbaverzió vízjelét a Java alkalmazásodban.
 
 ## Gyakran Ismételt Kérdések
 

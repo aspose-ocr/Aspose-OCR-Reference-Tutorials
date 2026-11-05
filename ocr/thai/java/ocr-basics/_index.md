@@ -135,6 +135,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 เรียนรู้วิธีสกัดข้อความจากไฟล์ JPG ด้วย Aspose OCR for Java อย่างง่ายและแม่นยำ
 ### [ใช้ทุกคอร์ของ CPU ใน Java – ตั้งค่าขนาด Thread Pool อย่างมีประสิทธิภาพ](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 เรียนรู้วิธีใช้คอร์ CPU ทั้งหมดใน Java ด้วยการกำหนดขนาด Thread Pool อย่างเหมาะสมเพื่อเพิ่มประสิทธิภาพการประมวลผล
+### [อ่านข้อความจากภาพด้วย Java OCR – คู่มือ Aspose OCR ฉบับสมบูรณ์](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+เรียนรู้วิธีอ่านข้อความจากภาพด้วย Java OCR อย่างละเอียด พร้อมเทคนิคการปรับปรุงความแม่นยำและการตั้งค่าเต็มรูปแบบ
 
 ---
 

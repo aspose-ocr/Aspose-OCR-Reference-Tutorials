@@ -226,6 +226,14 @@ GPU を活用して OCR 処理を高速化する方法をステップバイス�
 ### [Java で OCR 精度を向上させる方法 – 完全 Aspose OCR 例](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
 ### [Java で OCRConfig オブジェクトを作成 – 完全 Aspose OCR 設定ガイド](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Java で OCRConfig オブジェクトを作成し、Aspose OCR の設定を完全に行う手順をステップバイステップで解説します。
+### [Aspose OCR Java の例 – GPU で画像からテキストを抽出](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+GPU 加速を活用し、Aspose OCR for Java で画像から高速にテキストを抽出する方法を紹介します。
+### [Java で OCR テキストを読み取る – 並列画像処理の完全ガイド](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Java で並列画像処理を活用し、OCR テキストの高速抽出方法をステップバイステップで解説します。
+### [Aspose OCR Java チュートリアル – ノイズ画像を迅速にスペル補正](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Aspose OCR for Java を使用して、ノイズが多い画像の文字を高速にスペル補正し、テキスト抽出精度を向上させる方法を解説します。
+### [Aspose を使用した Java OCR のコントラスト強化方法](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Aspose OCR for Java で画像のコントラストを調整し、文字認識精度を向上させる手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

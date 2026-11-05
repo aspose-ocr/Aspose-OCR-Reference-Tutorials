@@ -192,6 +192,10 @@ Desbloquea la corrección de inclinación de imágenes para mejorar la precisió
 Ejemplo práctico de cómo reconocer texto en una imagen usando Aspose OCR para Java. Sigue los pasos y obtén resultados precisos.
 ### [Crear PDF buscable en Java – Guía completa](./create-searchable-pdf-in-java-full-guide/)
 Desbloquea la creación de PDFs buscables en Java con Aspose.OCR. Sigue esta guía paso a paso para generar documentos editables.
+### [Crear PDF buscable a partir de TIFF con Aspose OCR (Java) – Guía completa](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Convierte archivos TIFF en PDFs buscables usando Aspose OCR para Java. Sigue esta guía paso a paso para lograrlo.
+### [Cargar licencia OCR desde URL en Java – Eliminar marca de agua de prueba](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Aprende a cargar la licencia de Aspose.OCR desde una URL en Java y eliminar la marca de agua de prueba.
 
 ## Preguntas frecuentes
 

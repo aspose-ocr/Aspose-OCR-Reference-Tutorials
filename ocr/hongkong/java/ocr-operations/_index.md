@@ -188,6 +188,10 @@ weight: 21
 完整的 Java 範例示範如何使用 Aspose OCR 從圖像中辨識文字。
 ### [在 Java 中建立可搜尋 PDF – 完整指南](./create-searchable-pdf-in-java-full-guide/)
 完整教學示範如何使用 Aspose.OCR for Java 建立可搜尋的 PDF，涵蓋設定、執行與最佳化技巧。
+### [使用 Aspose OCR (Java) 從 TIFF 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+完整教學示範如何使用 Aspose OCR for Java 將 TIFF 影像轉換為可搜尋的 PDF，提升文件可讀性與搜尋功能。
+### [在 Java 中載入 OCR 授權 URL – 移除試用水印](./load-ocr-license-url-in-java-remove-trial-watermark/)
+說明如何在 Java 程式中使用 URL 載入 Aspose.OCR 授權，並消除試用版水印。
 
 ## 常見問題
 

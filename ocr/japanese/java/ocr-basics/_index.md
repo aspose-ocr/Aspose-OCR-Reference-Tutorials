@@ -159,6 +159,9 @@ Aspose OCR for Java を使って JPG 画像からテキストを抽出する手�
 ### [Java で全 CPU コアを活用する – スレッドプールサイズを効率的に設定](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 Java アプリケーションで利用可能なすべての CPU コアを活用し、最適なスレッドプールサイズの設定方法をステップバイステップで解説します。
 
+### [Java OCR で画像からテキストを読み取る – 完全 Aspose OCR ガイド](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Java と Aspose.OCR を使用して画像からテキストを抽出する完全な手順を解説し、設定から高度な機能まで網羅します。
+
 ---
 
 **Last Updated:** 2025-12-08  

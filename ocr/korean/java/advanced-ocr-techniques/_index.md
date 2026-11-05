@@ -240,6 +240,14 @@ Aspose OCR을 사용해 Java에서 병렬 처리로 TIFF 이미지의 텍스트�
 Java와 Aspose OCR을 활용해 OCR 정확도를 높이는 전체 예제 가이드를 확인하세요.
 ### [Java에서 OCRConfig 객체 생성 – 전체 Aspose OCR 설정 가이드](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Java용 Aspose OCR 설정을 완전하게 안내하는 가이드로, OCRConfig 객체를 생성하고 구성하는 방법을 단계별로 설명합니다.
+### [Aspose OCR Java 예제 – GPU를 사용해 이미지에서 텍스트 추출](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+GPU 가속을 활용해 Java에서 Aspose OCR로 이미지 텍스트를 빠르게 추출하는 방법을 안내합니다.
+### [Java에서 OCR 텍스트 읽기 – 병렬 이미지 처리 완전 가이드](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Java에서 Aspose.OCR을 활용해 병렬 이미지 처리로 OCR 텍스트를 빠르게 추출하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose.OCR 튜토리얼 – 잡음이 많은 이미지 빠르게 맞춤법 교정](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Java용 Aspose.OCR을 활용해 잡음이 많은 이미지의 텍스트를 빠르게 맞춤법 교정하고 정확한 추출을 구현하는 방법을 안내합니다.
+### [Aspose를 사용한 Java OCR 대비 향상 방법](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Aspose OCR을 활용해 Java 이미지에서 대비를 조정하여 텍스트 인식 정확도를 높이는 방법을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

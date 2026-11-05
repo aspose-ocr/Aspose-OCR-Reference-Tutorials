@@ -245,6 +245,14 @@ Extraiga texto de archivos TIFF rápidamente usando procesamiento paralelo con A
 Mejore la precisión del OCR en Java con este ejemplo completo de Aspose OCR, siguiendo pasos claros y optimizando resultados.
 ### [Crear objeto OCRConfig en Java – Guía completa de configuración de Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Aprenda a crear y configurar OCRConfig en Java con Aspose OCR para una extracción de texto óptima y personalizada.
+### [Ejemplo de Aspose OCR para Java – Extraer texto de una imagen con GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+Acelere la extracción de texto de imágenes usando la GPU con Aspose OCR para Java. Siga este ejemplo paso a paso.
+### [Leer texto OCR en Java – Guía completa de procesamiento de imágenes en paralelo](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Aprenda a leer texto OCR en Java utilizando procesamiento paralelo de imágenes para acelerar la extracción de datos.
+### [Tutorial de Aspose OCR para Java – Corrección ortográfica rápida de imágenes ruidosas](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Corrija rápidamente errores ortográficos en imágenes ruidosas usando Aspose OCR para Java y mejore la precisión del reconocimiento.
+### [Cómo mejorar el contraste en OCR Java con Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Aprenda a aumentar el contraste de imágenes para mejorar la precisión del OCR en Java usando Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

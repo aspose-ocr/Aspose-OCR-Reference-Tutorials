@@ -190,6 +190,10 @@ Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige
 Leer hoe u met Aspose OCR voor Java tekst uit een afbeelding kunt herkennen in een eenvoudige voorbeeldcode.
 ### [Maak doorzoekbare PDF in Java – volledige gids](./create-searchable-pdf-in-java-full-guide/)
 Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt in Java met een volledige stap‑voor‑stap‑handleiding.
+### [Maak doorzoekbare PDF van TIFF met Aspose OCR (Java) – Volledige gids](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Leer hoe u een doorzoekbare PDF maakt uit TIFF‑bestanden met Aspose OCR voor Java in deze volledige stap‑voor‑stap‑handleiding.
+### [OCR-licentie-URL laden in Java – proefwatermerk verwijderen](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Leer hoe u een OCR‑licentie‑URL laadt in Java om het proef‑watermerk te verwijderen.
 
 ## Veelgestelde vragen
 

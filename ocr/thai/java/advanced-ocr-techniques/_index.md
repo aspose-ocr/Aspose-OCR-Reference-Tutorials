@@ -41,7 +41,20 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 เสริมศักยภาพแอปพลิเคชัน Java ของคุณด้วย Aspose.OCR เพื่อการจดจำข้อความที่แม่นยำ บูรณาการได้ง่าย มีความแม่นยำสูง
 
-## [การระบุอักขระที่อนุญาตใน Aspose.OCR](./specify-allowed-characters/)
+## [การระบุอักขระที่อนุญาตใน Aspose.OCR สำหรับ Java](./specify-allowed-characters/)
+
+## [ตัวอย่าง Aspose OCR Java – แยกข้อความจากภาพด้วย GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+ใช้ Aspose OCR กับ Java บน GPU เพื่อแยกข้อความจากภาพได้อย่างรวดเร็วและแม่นยำ
+
+## [อ่านข้อความ OCR ใน Java – คู่มือฉบับสมบูรณ์สำหรับการประมวลผลภาพแบบขนาน](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+เรียนรู้วิธีประมวลผลภาพแบบขนานเพื่ออ่านข้อความ OCR ใน Java อย่างครบถ้วนและมีประสิทธิภาพ
+
+## [บทแนะนำ Aspose OCR Java – แก้ไขการสะกดภาพที่มีสัญญาณรบกวนอย่างรวดเร็ว](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+เรียนรู้วิธีใช้ Aspose OCR กับ Java เพื่อแก้ไขการสะกดข้อความในภาพที่มีสัญญาณรบกวนอย่างรวดเร็วและแม่นยำ
+
+## [วิธีเพิ่มคอนทราสต์ใน OCR ของ Java ด้วย Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+
+เรียนรู้วิธีปรับคอนทราสต์ของภาพเพื่อเพิ่มความแม่นยำของ OCR ใน Java ด้วย Aspose OCR อย่างง่ายดาย
 
 ## [ดำเนินการ OCR บน ROI ใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./perform-ocr-on-roi-in-java-full-aspose-ocr-guide/)
 

@@ -45,6 +45,9 @@ url: /el/java/advanced-ocr-techniques/
 
 Εξάγετε εύκολα κείμενο από εικόνες καθορίζοντας επιτρεπόμενους χαρακτήρες με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση, διασφαλίζοντας μια απρόσκοπτη εμπειρία αναγνώρισης κειμένου. Βελτιώστε τις εφαρμογές σας Java με τις δυνατότητες Aspose.OCR.
 
+## [Πώς να βελτιώσετε την αντίθεση στο OCR Java με το Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Μάθετε πώς να αυξήσετε την αντίθεση εικόνας για βελτιωμένη ακρίβεια OCR σε Java χρησιμοποιώντας το Aspose.OCR.
+
 ## [Επιτάχυνση OCR με GPU σε Java – Πλήρης Οδηγός Προγραμματισμού](./ocr-gpu-acceleration-in-java-complete-programming-guide/)
 
 Ανακαλύψτε πώς να επιταχύνετε το OCR με GPU σε Java, βελτιώνοντας την απόδοση και την ακρίβεια με το Aspose.OCR. Κατεβάστε τώρα.
@@ -239,6 +242,14 @@ url: /el/java/advanced-ocr-techniques/
 Μάθετε πώς να ενεργοποιήσετε το GPU στη μηχανή inference Java για βελτιωμένη απόδοση OCR και μηχανικής μάθησης.
 ### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένες Εικόνες – Οδηγός OCR για Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Μάθετε πώς να μετατρέψετε σαρωμένες εικόνες σε αναζητήσιμο PDF χρησιμοποιώντας Aspose.OCR για Java.
+### [Aspose OCR Java σεμινάριο – Διόρθωση ορθογραφίας θορυβωδών εικόνων γρήγορα](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Διορθώστε γρήγορα τα θορυβώδη κείμενα σε εικόνες με το Aspose OCR για Java, βελτιώνοντας την ακρίβεια εξαγωγής κειμένου.
+
+### [Παράδειγμα Aspose OCR Java – Εξαγωγή κειμένου από εικόνα με GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+Εξάγετε κείμενο από εικόνα με επιτάχυνση GPU χρησιμοποιώντας το Aspose OCR για Java. Αποκτήστε υψηλή ταχύτητα και ακρίβεια.
+
+### [Ανάγνωση κειμένου OCR σε Java – Πλήρης οδηγός για παράλληλη επεξεργασία εικόνας](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Μάθετε πώς να επεξεργάζεστε εικόνες παράλληλα για εξαγωγή κειμένου OCR σε Java, βελτιώνοντας την απόδοση και την ακρίβεια.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

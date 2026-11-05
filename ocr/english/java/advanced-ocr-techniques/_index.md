@@ -149,6 +149,14 @@ Create searchable PDFs from image batches in Java using Aspose.OCR. Learn step�
 Learn how to enable GPU acceleration for Java inference engines, boosting AI and ML performance.
 ### [Create Searchable PDF from Scanned Images – Java OCR Guide](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 Convert scanned images into searchable PDFs using Aspose.OCR for Java. Follow step‑by‑step instructions to generate high‑quality PDF documents.
+### [Aspose OCR Java Example – Extract Text from Image with GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+Leverage GPU acceleration to extract text from images quickly using Aspose OCR for Java. Boost performance for large‑scale OCR tasks.
+### [Read OCR Text in Java – Complete Guide to Parallel Image Processing](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Parallel image processing for OCR in Java using Aspose.OCR, delivering faster extraction and high accuracy.
+### [aspose ocr java tutorial – Spell‑Correct Noisy Images Quickly](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Quickly correct spelling errors in noisy OCR images using Aspose.OCR for Java, improving accuracy with minimal code.
+### [How to Enhance Contrast in Java OCR with Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Enhance image contrast before OCR in Java using Aspose.OCR to improve recognition accuracy on low‑quality scans.
 
 ### [How to Use OCR in Java – Parallel Processing with Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
 Accelerate OCR by processing multiple images concurrently with Aspose.OCR in Java for high‑throughput text extraction.

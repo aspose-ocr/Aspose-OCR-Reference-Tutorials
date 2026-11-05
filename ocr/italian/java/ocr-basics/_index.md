@@ -142,6 +142,8 @@ Scopri come eseguire OCR su un'immagine in Java con una guida dettagliata passo�
 Scopri come estrarre testo da file JPG con Aspose OCR per Java in pochi semplici passaggi.
 
 ### [Usa tutti i core CPU in Java – Imposta la dimensione del pool di thread in modo efficiente](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+### [Leggi il testo da un'immagine con Java OCR – Guida completa Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Scopri come leggere il testo da immagini usando Aspose.OCR per Java con questa guida completa passo‑passo.
 
 ---
 

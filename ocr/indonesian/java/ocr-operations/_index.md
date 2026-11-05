@@ -190,6 +190,10 @@ Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan OCR dengan Aspos
 Panduan singkat untuk mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup contoh kode lengkap.
 ### [Buat PDF yang Dapat Dicari di Java – Panduan Lengkap](./create-searchable-pdf-in-java-full-guide/)
 Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose.OCR di Java, langkah demi langkah dengan contoh kode.
+### [Buat PDF yang Dapat Dicari dari TIFF dengan Aspose OCR (Java) – Panduan Lengkap](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Panduan lengkap untuk mengonversi file TIFF menjadi PDF yang dapat dicari menggunakan Aspose OCR untuk Java.
+### [Muat Lisensi OCR URL di Java – Hapus Watermark Percobaan](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Panduan mengatur lisensi OCR melalui URL di Java untuk menghilangkan watermark versi percobaan.
 
 ## Pertanyaan yang Sering Diajukan
 

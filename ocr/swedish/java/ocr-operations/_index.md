@@ -193,6 +193,10 @@ En komplett guide som visar hur du skapar sökbara PDF‑filer med OCR i Java me
 En enkel guide som visar hur du med Aspose OCR för Java kan känna igen text i en bild och extrahera den.
 ### [Skapa sökbar PDF i Java – Fullständig guide](./create-searchable-pdf-in-java-full-guide/)
 En komplett guide för att skapa sökbara PDF-filer i Java med Aspose.OCR.
+### [Skapa sökbar PDF från TIFF med Aspose OCR (Java) – Fullständig guide](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+En komplett guide som visar hur du skapar en sökbar PDF från TIFF-filer med Aspose OCR för Java.
+### [Ladda OCR-licens-URL i Java – Ta bort provvattenstämpel](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Lär dig hur du laddar OCR-licensen via en URL i Java och tar bort provversionens vattenstämpel.
 
 ## Vanliga frågor
 

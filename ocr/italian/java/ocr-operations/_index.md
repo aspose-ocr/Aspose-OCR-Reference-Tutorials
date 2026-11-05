@@ -191,6 +191,10 @@ Scopri come generare PDF ricercabili con OCR in Java, passo‑passo per risultat
 Impara a creare PDF ricercabili in Java con Aspose.OCR, passo‑passo, includendo impostazioni OCR avanzate per risultati ottimali.
 ### [Esempio Aspose OCR per Java: riconoscere testo da immagine](./aspose-ocr-java-example-recognize-text-from-image-java/)
 Scopri come utilizzare Aspose OCR in Java per riconoscere il testo contenuto in un'immagine, passo‑passo con codice di esempio.
+### [Crea PDF Ricercabile da TIFF con Aspose OCR (Java) – Guida Completa](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Crea rapidamente PDF ricercabili da immagini TIFF usando Aspose OCR per Java, con istruzioni passo‑passo per risultati precisi.
+### [Carica URL della licenza OCR in Java – Rimuovi filigrana di prova](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Carica la licenza OCR da URL in Java per eliminare la filigrana di prova e attivare la versione completa.
 
 ## Domande Frequenti
 

@@ -52,6 +52,9 @@ Lär dig att räta upp snedvridna bilder innan OCR med Aspose.OCR för Java. Fö
 
 ## [Ange tillåtna tecken i Aspose.OCR](./specify-allowed-characters/)
 
+## [Aspose OCR Java-exempel – Extrahera text från bild med GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+Utnyttja GPU-acceleration för att snabbt extrahera text från bilder med Aspose OCR för Java. Öka prestanda och noggrannhet i dina projekt.
+
 ## [Känn igen text från bild i Java med GPU‑accelererad OCR](./recognize-text-from-image-in-java-with-gpu-accelerated-ocr/)
 Utnyttja GPU‑acceleration för snabb och exakt textigenkänning i Java med Aspose.OCR. Följ vår steg‑för‑steg‑guide för enkel integration.
 
@@ -230,6 +233,12 @@ Extrahera text från TIFF-filer med parallell bearbetning i Aspose OCR för Java
 Lär dig förbättra OCR‑noggrannheten i Java med ett komplett Aspose OCR‑exempel. Optimera textigenkänning för bästa resultat.
 ### [Skapa OCRConfig-objekt i Java – Fullständig Aspose OCR‑inställningsguide](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Lär dig skapa ett OCRConfig-objekt i Java med vår kompletta guide för Aspose OCR. Konfigurera OCR‑inställningar enkelt och effektivt.
+### [Aspose OCR Java‑handledning – Stavningskorrigera brusiga bilder snabbt](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+Korrigera snabbt stavfel i brusiga bilder med Aspose OCR för Java. Följ vår enkla guide för förbättrad textigenkänning.
+### [Läs OCR-text i Java – Komplett guide till parallell bildbehandling](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Lär dig hur du läser OCR-text i Java med parallell bildbehandling för hög prestanda och noggrannhet.
+### [Hur du förbättrar kontrasten i Java OCR med Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+Lär dig förbättra bildkontrast för bättre OCR-precision i Java med Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

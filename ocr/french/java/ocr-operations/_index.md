@@ -188,6 +188,10 @@ Apprenez à corriger l’inclinaison des images avant l’OCR pour améliorer la
 Apprenez à extraire du texte d’une image en Java avec Aspose OCR grâce à cet exemple complet.
 ### [Créer un PDF consultable en Java – Guide complet](./create-searchable-pdf-in-java-full-guide/)
 Apprenez à créer un PDF consultable en Java avec Aspose OCR grâce à ce guide complet.
+### [Créer un PDF consultable à partir de TIFF avec Aspose OCR (Java) – Guide complet](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Transformez vos fichiers TIFF en PDF consultables grâce à Aspose OCR pour Java. Suivez ce guide complet pas à pas.
+### [Charger l'URL de licence OCR en Java – Supprimer le filigrane d'essai](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Apprenez à charger une licence OCR depuis une URL en Java pour éliminer le filigrane d'évaluation.
 
 ## Foire aux questions
 

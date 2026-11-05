@@ -139,6 +139,8 @@ Fedezze fel, hogyan hajthatja végre az OCR‑t képeken Java‑ban egy részlet
 Tanulja meg, hogyan ismerje fel a szöveget JPG képeken az Aspose OCR for Java használatával.
 ### [Az összes CPU mag használata Java-ban – Szálkészlet méretének hatékony beállítása](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 Tanulja meg, hogyan használhatja ki az összes CPU magot Java-ban, és állítsa be hatékonyan a szálkészlet méretét a teljesítmény optimalizálásához.
+### [Szöveg olvasása képről Java OCR‑rel – Teljes Aspose OCR útmutató](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Fedezze fel, hogyan olvashat szöveget képekből Java OCR‑rel egy átfogó, lépésről‑lépésre útmutatóval.
 
 ---
 

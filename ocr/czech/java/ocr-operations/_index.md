@@ -180,6 +180,10 @@ Kompletní návod, jak pomocí Aspose.OCR v Javě vytvořit prohledávatelný PD
 Kompletní ukázka, jak pomocí Aspose.OCR pro Java rozpoznat text z obrázku a získat výstup jako řetězec.
 ### [Vytvořit prohledávatelný PDF v Javě – Kompletní průvodce](./create-searchable-pdf-in-java-full-guide/)
 Kompletní návod, jak v Javě vytvořit prohledávatelný PDF pomocí Aspose.OCR, včetně kroků a ukázek kódu.
+### [Vytvoření prohledávatelného PDF z TIFF pomocí Aspose OCR (Java) – Kompletní průvodce](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Kompletní návod, jak převést TIFF soubory na prohledávatelná PDF pomocí Aspose OCR v Javě.
+### [Načtení OCR licence z URL v Javě – Odstranění zkušební vodoznaku](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Naučte se, jak načíst licenci OCR z URL v Javě a odstranit zkušební vodoznak pro plnou funkčnost.
 
 ## Často kladené otázky
 

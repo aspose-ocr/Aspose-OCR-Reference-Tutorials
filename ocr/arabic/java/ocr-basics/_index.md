@@ -137,6 +137,8 @@ weight: 20
 تعلم كيفية استخراج النص من ملفات JPG باستخدام Aspose OCR في Java خطوة بخطوة.
 ### [استخدام جميع أنوية وحدة المعالجة المركزية في Java – ضبط حجم مجموعة الخيوط بفعالية](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 تعلم كيفية الاستفادة من جميع أنوية CPU في Java عبر ضبط حجم مجموعة الخيوط لتحقيق أفضل أداء.
+### [قراءة النص من الصورة باستخدام Java OCR – دليل Aspose OCR الكامل](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+دليل شامل يوضح استخراج النص من الصور باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 
 ---
 

@@ -184,6 +184,10 @@ Aspose OCR を使用して Java で画像の傾きを自動的に補正し、正
 Aspose.OCR を使用して PDF を検索可能に変換する手順をステップバイステップで解説します。
 ### [Aspose OCR Java 例：画像からテキストを認識する](./aspose-ocr-java-example-recognize-text-from-image-java/)
 ### [Javaで検索可能なPDFを作成 – 完全ガイド](./create-searchable-pdf-in-java-full-guide/)
+### [Aspose OCR (Java) を使用して TIFF から検索可能 PDF を作成 – 完全ガイド](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Aspose OCR for Java を使い、TIFF 画像から検索可能な PDF を作成する手順を詳細に解説します。
+### [Java で OCR ライセンス URL をロード – 試用版ウォーターマークを削除](./load-ocr-license-url-in-java-remove-trial-watermark/)
+OCR ライセンス URL を Java で読み込み、試用版のウォーターマークを除去する手順を解説します。
 
 ## よくある質問
 

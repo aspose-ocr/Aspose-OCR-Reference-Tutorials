@@ -150,6 +150,10 @@ Görüntüleri eğik durumdan düzelterek OCR doğruluğunu artırın. Java’da
 ### [Aspose OCR Java Örneği: Görüntüden Metin Tanıma](./aspose-ocr-java-example-recognize-text-from-image-java/)
 ### [Java’da Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-in-java-full-guide/)
 Java ile Aspose.OCR kullanarak tam adımlı bir şekilde aranabilir PDF oluşturmayı öğrenin.
+### [Aspose OCR (Java) ile TIFF'den Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Aspose OCR for Java kullanarak TIFF dosyalarından aranabilir PDF oluşturma adımlarını ayrıntılı olarak öğrenin.
+### [Java’da OCR Lisans URL’si Yükleme – Deneme Filigranını Kaldır](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Java uygulamanıza lisans URL’si ekleyerek deneme filigranını kaldırın ve tam sürüm OCR özelliklerini etkinleştirin.
 
 ## Sıkça Sorulan Sorular
 

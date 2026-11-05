@@ -224,6 +224,14 @@ url: /ar/java/advanced-ocr-techniques/
 ### [كيفية تحسين دقة OCR باستخدام Java – مثال كامل لـ Aspose OCR](./how-to-improve-ocr-accuracy-with-java-full-aspose-ocr-exampl/)
 دليل شامل لتحسين دقة OCR في Java باستخدام Aspose OCR، يتضمن خطوات عملية ونصائح لتحقيق أفضل النتائج.
 ### [إنشاء كائن OCRConfig في Java – دليل إعداد كامل لـ Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
+### [مثال Aspose OCR لجافا – استخراج النص من الصورة باستخدام GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+استخراج النص من الصورة باستخدام Aspose OCR لجافا مع تسريع GPU لتجربة سريعة ودقيقة.
+### [دليل Aspose OCR لجافا – تصحيح إملائي سريع للصور الضوضائية](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+تعلم كيفية تحسين جودة النص في الصور الضوضائية باستخدام تصحيح إملائي سريع مع Aspose OCR لجافا.
+### [قراءة نص OCR في جافا – دليل كامل لمعالجة الصور المتوازية](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+اكتشف كيفية قراءة نص OCR في جافا باستخدام معالجة صور متوازية لزيادة السرعة والكفاءة.
+### [تحسين التباين في OCR لجافا باستخدام Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+اكتشف كيفية تحسين تباين الصور للحصول على نتائج OCR دقيقة وسريعة باستخدام Aspose في جافا.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

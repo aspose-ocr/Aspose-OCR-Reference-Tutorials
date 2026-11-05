@@ -197,6 +197,10 @@ Khám phá cách loại bỏ độ nghiêng của ảnh để cải thiện đ�
 Hướng dẫn chi tiết cách sử dụng Aspose OCR cho Java để nhận dạng văn bản trong hình ảnh, bao gồm cấu hình và xuất kết quả.
 ### [Tạo PDF có thể tìm kiếm trong Java – Hướng dẫn đầy đủ](./create-searchable-pdf-in-java-full-guide/)
 Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm trong Java bằng Aspose.OCR, bao gồm cấu hình, xử lý và lưu tài liệu.
+### [Tạo PDF có thể tìm kiếm từ TIFF với Aspose OCR (Java) – Hướng dẫn đầy đủ](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Hướng dẫn chi tiết cách chuyển đổi tệp TIFF thành PDF có thể tìm kiếm bằng Aspose OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
+### [Tải giấy phép OCR từ URL trong Java – Loại bỏ watermark dùng thử](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Hướng dẫn cách tải giấy phép Aspose.OCR từ URL trong Java để loại bỏ watermark dùng thử và kích hoạt đầy đủ tính năng.
 
 ## Câu hỏi Thường gặp
 

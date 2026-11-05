@@ -192,6 +192,10 @@ OCR का उपयोग करके सर्चेबल PDF बनान�
 Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने का सरल उदाहरण देखें।
 ### [Java में खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-in-java-full-guide/)
 Java का उपयोग करके खोज योग्य PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
+### [Aspose OCR (Java) के साथ TIFF से सर्चेबल PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+TIFF इमेज को सर्चेबल PDF में बदलने की पूरी प्रक्रिया, Aspose OCR for Java का उपयोग करके चरण‑बद्ध उदाहरणों के साथ।
+### [Java में OCR लाइसेंस URL लोड करें – ट्रायल वॉटरमार्क हटाएँ](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Java एप्लिकेशन में OCR लाइसेंस URL सेट करके ट्रायल वॉटरमार्क हटाने की प्रक्रिया सीखें।
 
 ## अक्सर पूछे जाने वाले सवाल
 

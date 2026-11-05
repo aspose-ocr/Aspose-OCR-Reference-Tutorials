@@ -170,6 +170,10 @@ weight: 21
 دليل شامل يشرح كيفية إنشاء ملف PDF قابل للبحث باستخدام OCR خطوة بخطوة.
 ### [إنشاء PDF قابل للبحث في Java – دليل كامل](./create-searchable-pdf-in-java-full-guide/)
 ### [مثال Aspose OCR للـ Java: التعرف على النص من صورة](./aspose-ocr-java-example-recognize-text-from-image-java/)
+### [إنشاء PDF قابل للبحث من TIFF باستخدام Aspose OCR (Java) – دليل كامل](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+دليل شامل يوضح كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose OCR للـ Java خطوة بخطوة.
+### [تحميل عنوان URL لترخيص OCR في Java – إزالة علامة التجربة المائية](./load-ocr-license-url-in-java-remove-trial-watermark/)
+تعلم كيفية تحميل ترخيص Aspose.OCR من URL في Java لإزالة علامة التجربة المائية.
 
 ## الأسئلة المتكررة
 

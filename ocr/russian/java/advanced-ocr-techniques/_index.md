@@ -43,6 +43,19 @@ Aspose.OCR для Java меняет правила игры, когда дело
 
 ## [Указание разрешенных символов в Aspose.OCR](./specify-allowed-characters/)
 
+## [Чтение текста OCR в Java – Полное руководство по параллельной обработке изображений](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
+Изучите, как эффективно обрабатывать изображения параллельно в Java для ускоренного извлечения текста OCR с помощью Aspose.OCR.
+
+## [Пример Aspose OCR Java – Извлечение текста из изображения с помощью GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+
+## [Aspose OCR Java руководство – быстрое исправление орфографии шумных изображений](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
+
+Узнайте, как быстро исправлять орфографические ошибки на шумных изображениях с помощью Aspose.OCR для Java.
+
+## [Как улучшить контраст в OCR на Java с Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+
+Узнайте, как повысить контраст изображений для лучшего распознавания текста в Java с помощью Aspose.OCR.
+
 ### [Распознавание рукописного текста – Полное руководство по повышению точности OCR](./recognize-handwritten-text-complete-guide-to-boost-ocr-accur/)
 Узнайте, как распознавать рукописный текст и улучшить точность OCR в Java с Aspose.OCR.
 

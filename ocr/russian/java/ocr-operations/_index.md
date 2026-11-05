@@ -181,6 +181,10 @@ weight: 21
 Полный пошаговый гид по созданию поисковых PDF‑файлов с помощью OCR в Aspose.OCR для Java.
 ### [aspose ocr java пример: распознавание текста с изображения java](./aspose-ocr-java-example-recognize-text-from-image-java/)
 Полный пример кода на Java, демонстрирующий, как с помощью Aspose OCR распознать текст на изображении.
+### [Create Searchable PDF from TIFF with Aspose OCR (Java) – Full Guide](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Пошаговый туториал по преобразованию TIFF‑файлов в поисковые PDF с помощью Aspose OCR для Java.
+### [Загрузка лицензии OCR по URL в Java – Удаление пробного водяного знака](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Узнайте, как загрузить лицензию OCR из URL в Java и избавиться от пробного водяного знака.
 
 ## Часто задаваемые вопросы
 

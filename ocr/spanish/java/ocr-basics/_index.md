@@ -147,6 +147,8 @@ Ejecuta OCR en imágenes con Java usando Aspose.OCR siguiendo esta guía complet
 Aprende a reconocer texto en archivos JPG con Aspose OCR para Java en unos simples pasos.
 ### [Usar todos los núcleos de CPU en Java – Configurar el tamaño del pool de hilos de manera eficiente](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 Aprende a aprovechar todos los núcleos de CPU en Java configurando eficientemente el tamaño del pool de hilos para mejorar el rendimiento.
+### [Leer texto de una imagen con Java OCR – Guía completa de Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Aprende a leer texto de imágenes usando Aspose OCR en Java con esta guía completa paso a paso.
 
 ---
 

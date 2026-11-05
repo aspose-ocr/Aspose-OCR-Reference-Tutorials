@@ -183,6 +183,10 @@ weight: 21
 ### [使用 Aspose OCR 的 Java 示例：从图像识别文本](./aspose-ocr-java-example-recognize-text-from-image-java/)
 完整的 Java 示例，演示如何使用 Aspose OCR 从图像中识别文本并导出结果。
 ### [在 Java 中创建可搜索 PDF – 完整指南](./create-searchable-pdf-in-java-full-guide/)
+### [使用 Aspose OCR 将 TIFF 转换为可搜索 PDF（Java） – 完整指南](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+完整指南，演示如何使用 Aspose OCR for Java 将 TIFF 文件转换为可搜索的 PDF，并导出结果。
+### [在 Java 中加载 OCR 许可证 URL – 移除试用水印](./load-ocr-license-url-in-java-remove-trial-watermark/)
+演示如何在 Java 中通过 URL 加载 Aspose OCR 许可证并去除试用水印。
 
 ## 常见问题
 

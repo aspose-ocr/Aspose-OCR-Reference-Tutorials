@@ -195,6 +195,10 @@ Kompletny przewodnik, jak przy pomocy Aspose.OCR utworzyć przeszukiwalny plik P
 Kompletny przykład pokazujący, jak rozpoznać tekst z obrazu w Javie przy użyciu Aspose OCR.
 ### [Utwórz przeszukiwalny PDF w Javie – Pełny przewodnik](./create-searchable-pdf-in-java-full-guide/)
 Kompletny przewodnik, jak w Javie stworzyć przeszukiwalny PDF przy użyciu Aspose.OCR, krok po kroku.
+### [Utwórz przeszukiwalny PDF z pliku TIFF przy użyciu Aspose OCR (Java) – Pełny przewodnik](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Kompletny przewodnik, jak przekształcić obrazy TIFF w przeszukiwalne pliki PDF przy użyciu Aspose OCR dla Javy.
+### [Załaduj licencję OCR z URL w Javie – usuń znak wodny wersji próbnej](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Dowiedz się, jak wczytać licencję OCR z adresu URL w Javie, aby usunąć znak wodny wersji próbnej.
 
 ## Najczęściej zadawane pytania
 
