@@ -145,6 +145,8 @@ weight: 24
 使用 Aspose.OCR 在 C# 中检测图像中的语言，实现多语言识别的完整示例。  
 ### [使用 Aspose.OCR 执行 OCR – 完整 C# 指南](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 全面指南，演示如何在 .NET 中使用 C# 调用 Aspose.OCR 完成图像文字识别并获取结果。  
+### [创建 AsposeAI 模型配置 – 步骤指南](./create-asposeai-model-config-step-by-step-guide/)
+一步步指导如何创建 AsposeAI 模型配置，实现 AI 功能的快速集成。  
 
 
 

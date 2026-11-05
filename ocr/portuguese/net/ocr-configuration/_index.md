@@ -106,6 +106,8 @@ Aprenda a detectar automaticamente o idioma de texto em imagens usando Aspose.OC
 Aprenda a configurar o motor OCR usando OcrEngineConfig em C# para melhorar a precisão e desempenho.
 ### [Como Realizar OCR com Aspose.OCR – Guia Completo em C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Aprenda passo a passo como usar Aspose.OCR em C# para extrair texto de imagens com alta precisão.
+### [Criar Configuração de Modelo AsposeAI – Guia Passo a Passo](./create-asposeai-model-config-step-by-step-guide/)
+Desbloqueie a criação de modelos AsposeAI com instruções detalhadas passo a passo para configurar e usar modelos personalizados.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

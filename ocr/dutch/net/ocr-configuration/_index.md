@@ -125,6 +125,8 @@ Leer hoe je met Aspose.OCR de taal van tekst in afbeeldingen detecteert en verwe
 Leer hoe je OcrEngineConfig instelt voor geavanceerde OCR‑instellingen in C# met Aspose.OCR.
 ### [Hoe OCR uit te voeren met Aspose.OCR – Complete C#-gids](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Leer stap‑voor‑stap hoe je OCR met Aspose.OCR in C# implementeert, van installatie tot geavanceerde configuratie.
+### [Maak AsposeAI Modelconfiguratie – Stapsgewijze handleiding](./create-asposeai-model-config-step-by-step-guide/)
+Leer stap voor stap hoe je een AsposeAI‑modelconfiguratie maakt en toepast in je .NET‑applicatie.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

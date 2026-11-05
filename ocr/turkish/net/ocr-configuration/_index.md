@@ -107,6 +107,8 @@ Aspose.OCR ile C# kullanarak bir görüntüden dili otomatik olarak tespit edin 
 Aspose.OCR’da OcrEngineConfig ayarlarını kullanarak OCR motorunu özelleştirin ve performansı artırın.
 ### [Aspose.OCR ile OCR Nasıl Yapılır – Tam C# Rehberi](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Aspose.OCR kullanarak C# ile tam OCR iş akışını adım adım öğrenin.
+### [AsposeAI Model Yapılandırması Oluştur – Adım Adım Kılavuz](./create-asposeai-model-config-step-by-step-guide/)
+AsposeAI modeli için yapılandırma dosyası oluşturmayı adım adım öğrenin ve AI çözümlerinizde özelleştirilmiş ayarlar yapın.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

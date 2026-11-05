@@ -97,6 +97,8 @@ C# で OcrEngine クラスを活用し、画像からテキストを抽出する
 ### [Aspose.OCR で OCR を実行する方法 – 完全 C# ガイド](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Aspose.OCR を使用した C# 完全ガイドで、OCR の設定からテキスト抽出までをステップバイステップで学びます。
 
+### [AsposeAI モデル構成の作成 – ステップバイステップ ガイド](./create-asposeai-model-config-step-by-step-guide/)
+
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  
 - 大規模な文書アーカイブをインデックス化し、検索可能なリポジトリを構築。  

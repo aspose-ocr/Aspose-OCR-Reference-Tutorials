@@ -104,6 +104,8 @@ Scopri come rilevare la lingua da un'immagine in C# con una guida completa.
 Scopri come configurare il motore OCR con OcrEngineConfig in C# per ottimizzare il riconoscimento delle immagini.
 ### [Come eseguire OCR con Aspose.OCR – Guida completa C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Scopri passo passo come implementare il riconoscimento OCR in C# usando Aspose.OCR, con esempi completi e best practice.
+### [Crea Configurazione Modello AsposeAI – Guida passo‑passo](./create-asposeai-model-config-step-by-step-guide/)
+Scopri come creare e configurare un modello AsposeAI passo dopo passo per integrare l'intelligenza artificiale nelle tue applicazioni.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

@@ -112,6 +112,9 @@ Apprenez à identifier automatiquement la langue d'une image en C# avec Aspose.O
 ### [Comment utiliser OcrEngineConfig – Configuration du moteur OCR en C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Apprenez à configurer le moteur OCR avec OcrEngineConfig dans vos projets C#.
 
+### [Créer une configuration de modèle AsposeAI – Guide étape par étape](./create-asposeai-model-config-step-by-step-guide/)
+Apprenez à créer et configurer un modèle AsposeAI dans votre application .NET, étape par étape.
+
 Exploitez pleinement le potentiel d'Aspose.OCR pour .NET. Réalisez facilement la reconnaissance d'images OCR avec des listes. Optimisez la productivité et l'extraction de données dans vos applications.
 ### [Comment activer le GPU pour l'OCR en C# – Guide étape par étape](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
 Apprenez à configurer le GPU pour accélérer la reconnaissance OCR avec Aspose.OCR en C#.

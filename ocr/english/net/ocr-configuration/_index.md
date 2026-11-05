@@ -129,6 +129,8 @@ Learn how to detect the language of text within images using Aspose.OCR in C#, w
 Configure OCR engine settings in C# with OcrEngineConfig to customize recognition behavior.
 ### [How to Perform OCR with Aspose.OCR – Complete C# Guide](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Comprehensive C# guide to perform OCR using Aspose.OCR, covering setup, image processing, and extracting accurate text.
+### [Create AsposeAI Model Config – Step‑by‑Step Guide](./create-asposeai-model-config-step-by-step-guide/)
+Learn how to configure AsposeAI models step by step, covering setup, parameters, and deployment in .NET applications.
 
 ### Common use cases
 - **Extract text images** from scanned invoices for automated accounting.  

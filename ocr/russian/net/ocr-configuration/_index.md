@@ -154,6 +154,8 @@ weight: 24
 Узнайте, как настроить OcrEngineConfig для управления параметрами OCR‑движка в C# с Aspose.OCR.
 ### [Как выполнить OCR с Aspose.OCR – Полное руководство на C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Подробное руководство по использованию Aspose.OCR в C# для полного процесса OCR от установки до получения текста.
+### [Создание конфигурации модели AsposeAI – пошаговое руководство](./create-asposeai-model-config-step-by-step-guide/)
+Подробное руководство по созданию и настройке модели AsposeAI шаг за шагом.
 
 
 

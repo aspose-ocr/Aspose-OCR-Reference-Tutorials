@@ -113,6 +113,8 @@ Lär dig hur du identifierar språk i en bild med C# och Aspose.OCR. En komplett
 
 ### [Hur man utför OCR med Aspose.OCR – Komplett C#‑guide](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 En fullständig C#‑guide som visar hur du använder Aspose.OCR för att extrahera text från bilder med hög precision.
+### [Skapa AsposeAI-modellkonfiguration – steg‑för‑steg‑guide](./create-asposeai-model-config-step-by-step-guide/)
+Lär dig hur du konfigurerar en AsposeAI-modell med en detaljerad steg‑för‑steg‑guide.
 
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.

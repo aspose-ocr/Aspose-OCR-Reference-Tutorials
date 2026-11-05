@@ -101,6 +101,8 @@ weight: 24
 تعلم كيفية تكوين محرك OCR باستخدام OcrEngineConfig في C# لتخصيص إعدادات التعرف على النص.
 ### [كيفية تنفيذ OCR باستخدام Aspose.OCR – دليل C# كامل](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 دليل شامل يوضح كيفية تنفيذ OCR في تطبيقات C# باستخدام Aspose.OCR خطوة بخطوة.
+### [إنشاء تكوين نموذج AsposeAI – دليل خطوة بخطوة](./create-asposeai-model-config-step-by-step-guide/)
+دليل شامل لإنشاء وتكوين نموذج AsposeAI في .NET خطوة بخطوة.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

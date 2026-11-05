@@ -120,6 +120,8 @@ Pełny przewodnik, jak wykrywać język obrazu w C# przy użyciu Aspose.OCR.
 Dowiedz się, jak skonfigurować silnik OCR przy użyciu OcrEngineConfig w języku C#.
 ### [Jak wykonać OCR przy użyciu Aspose.OCR – Kompletny przewodnik C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak używać Aspose.OCR do rozpoznawania tekstu w obrazach, od instalacji po zaawansowane opcje konfiguracji.
+### [Utwórz konfigurację modelu AsposeAI – przewodnik krok po kroku](./create-asposeai-model-config-step-by-step-guide/)
+Dowiedz się, jak skonfigurować model AsposeAI w kilku prostych krokach, aby wykorzystać jego możliwości w aplikacjach.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

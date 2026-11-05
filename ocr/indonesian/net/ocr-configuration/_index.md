@@ -157,6 +157,8 @@ Pelajari cara mendeteksi bahasa teks dalam gambar menggunakan Aspose.OCR di C# d
 ### [Cara Menggunakan OcrEngineConfig – Konfigurasi Mesin OCR di C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 ### [Cara Melakukan OCR dengan Aspose.OCR – Panduan Lengkap C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Panduan lengkap untuk melakukan OCR menggunakan Aspose.OCR dengan contoh kode C# yang komprehensif.
+### [Buat Konfigurasi Model AsposeAI – Panduan Langkah demi Langkah](./create-asposeai-model-config-step-by-step-guide/)
+Panduan lengkap untuk membuat konfigurasi model AsposeAI secara terperinci, langkah demi langkah.
 
 ### Kasus Penggunaan Umum
 - **Ekstrak gambar teks** dari faktur yang dipindai untuk akuntansi otomatis.  
