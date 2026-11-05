@@ -1,24 +1,62 @@
 ---
 category: general
-date: 2026-02-22
-description: Aspose OCR Java'yı kullanarak görüntüyü HTML'ye dönüştürmeyi ve görüntüden
-  metin çıkarmayı öğrenin. Bu öğreticide kurulum, kod ve ipuçları ele alınmaktadır.
+date: 2026-11-04
+description: Aspose OCR Java'yı kullanarak image'i HTML'e dönüştürmeyi, image'den
+  metin çıkarmayı ve tek bir adım adım öğreticide image'den HTML üretmeyi öğrenin.
 draft: false
 keywords:
-- aspose ocr java
 - convert image to html
 - extract text from image
+- generate html from image
+- aspose ocr java
 - how to convert image
-language: tr
-og_description: Aspose OCR Java'yı kullanarak bir görüntüyü HTML'ye dönüştürmeyi,
-  görüntüden metin çıkarmayı ve yaygın hatalarla başa çıkmayı tek bir öğreticide keşfedin.
-og_title: aspose ocr java – Görüntüyü HTML'ye Dönüştürme Kılavuzu
+lastmod: 2026-11-04
+og_description: Aspose OCR Java ile image'i HTML'e dönüştürün. Bu öğretici, image'den
+  metin çıkarmayı, image'den HTML üretmeyi ve yaygın hataları tam adım adım bir örnekle
+  nasıl ele alacağınızı gösterir.
+og_image_alt: 'Developer guide: convert image to HTML using Aspose OCR Java'
+og_title: Aspose OCR Java ile image'i HTML'e Dönüştür – Hızlı Kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose OCR Java to convert image to HTML, extract
+    text from image, and generate HTML from image in a single, step‑by‑step tutorial.
+  headline: Convert image to HTML with Aspose OCR Java – full step‑by‑step guide
+  type: TechArticle
+- description: Learn how to use Aspose OCR Java to convert image to HTML, extract
+    text from image, and generate HTML from image in a single, step‑by‑step tutorial.
+  name: Convert image to HTML with Aspose OCR Java – full step‑by‑step guide
+  steps:
+  - name: Download `aspose-ocr-23.12.jar` from the Aspose portal.
+    text: Download `aspose-ocr-23.12.jar` from the Aspose portal.
+  - name: Place the JAR in a `libs/` folder inside your project.
+    text: Place the JAR in a `libs/` folder inside your project.
+  - name: 'Add it to the classpath when you compile:'
+    text: 'Add it to the classpath when you compile:'
+  type: HowTo
+- questions:
+  - answer: No, the 30‑day evaluation license is for testing only; a commercial license
+      is required for production deployments.
+    question: Can I use the evaluation license in production?
+  - answer: Yes, it supports Arabic, Hebrew, and other RTL scripts when you set the
+      appropriate language pack.
+    question: Does Aspose OCR Java support right‑to‑left languages?
+  - answer: The engine can handle images up to 50 MB per page without loading the
+      entire file into memory, thanks to its streaming architecture.
+    question: How large of an image can I process?
+  - answer: You can inject custom CSS after OCR by modifying the `htmlContent` string
+      before writing it to disk.
+    question: Is there a way to style the generated HTML?
+  - answer: Change `ocrEngine.setExportFormat(ExportFormat.PDF)` and the rest of the
+      workflow remains identical.
+    question: What if I need PDF instead of HTML?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-- HTML Export
-title: 'aspose ocr java: Görüntüyü HTML''ye Dönüştür – Tam Adım Adım Kılavuz'
+- HTML export
+title: Aspose OCR Java ile Görüntüyü HTML'e Dönüştür – tam adım adım kılavuz
 url: /tr/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/
 ---
 
@@ -26,24 +64,30 @@ url: /tr/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose ocr java: Görüntüyü HTML'ye Dönüştür – Tam Adım‑Adım Kılavuz
+# Görüntüyü HTML'ye Dönüştürme Aspose OCR Java ile – tam adım adım kılavuz
 
-Hiç **aspose ocr java**'yu taranmış bir resmi temiz HTML'ye dönüştürmek için kullandınız mı? Belki bir belge‑yönetim portalı oluşturuyorsunuz ve taranan düzeni PDF olmadan tarayıcıda göstermek istiyorsunuz. Benim deneyimime göre, oraya ulaşmanın en hızlı yolu Aspose'un OCR motorunun iş yükünü üstlenmesine izin vermek ve ona HTML çıktısı istemektir.
+Hiç **convert image to HTML** yapmanız gerektiğinde, taranmış bir resmin doğrudan bir tarayıcıda görüntülenebilmesini istediniz mi? Belki bir belge‑yönetim portalı oluşturuyorsunuz ve tarayıcının önce bir PDF üretmeden çıkarılan düzeni render etmesini istiyorsunuz. Benim deneyimime göre, en hızlı yol Aspose'un OCR motorunun işi üstlenmesine izin vermek ve ona HTML çıktısı istemektir.  
 
-Bu öğreticide, Java için Aspose OCR kütüphanesini kullanarak **convert image to html** yapmak için ihtiyacınız olan her şeyi adım adım göstereceğiz, düz metne ihtiyacınız olduğunda **extract text from image** nasıl yapılır gösterip, uzun süredir sorulan “**how to convert image**” sorusuna nihai cevabı vereceğiz. Belirsiz “belgelere bakın” linkleri yok—sadece eksiksiz, çalıştırılabilir bir örnek ve hemen kopyalayıp yapıştırabileceğiniz birkaç pratik ipucu.
+Bu öğreticide, Java için Aspose OCR kütüphanesini kullanarak **convert image to HTML** yapmak için ihtiyacınız olan her şeyi adım adım göstereceğiz, düz metne ihtiyacınız olduğunda **extract text from image** nasıl yapılır gösterip, uzun süredir sorulan “**how to convert image**” sorusuna nihai cevabı vereceğiz. Belirsiz “belgelere bak” bağlantıları yok—sadece eksiksiz, çalıştırılabilir bir örnek ve hemen kopyalayıp yapıştırabileceğiniz birkaç pratik ipucu.
+
+## Hızlı cevaplar
+- **Görüntüyü HTML'ye dönüştüren kütüphane hangisidir?** Aspose OCR for Java.
+- **Düz metin de alabilir miyim?** Evet, tanımanın ardından `ocrResult.getText()` çağırın.
+- **Hangi Java sürümü gereklidir?** Java 17 önerilir; Java 8+ çalışır.
+- **Lisans gerekli mi?** 30‑günlük değerlendirme lisansı ücretsizdir; üretim için ticari lisans gerekir.
+- **Kaç tane görüntü formatı destekleniyor?** PNG, JPEG, BMP, TIFF, GIF gibi 10’dan fazla format desteklenir.
 
 ## Gerekenler
-
-- **Java 17** (or any recent JDK) – kütüphane Java 8+ ile çalışır ancak daha yeni JDK'lar daha iyi performans sağlar.
-- **Aspose.OCR for Java** JAR (or Maven/Gradle dependency).  
+- **Java 17** (veya herhangi bir güncel JDK) – kütüphane Java 8+ ile çalışır ancak daha yeni JDK'lar daha iyi performans sağlar.
+- **Aspose.OCR for Java** JAR (veya Maven/Gradle bağımlılığı).  
 - HTML'ye dönüştürmek istediğiniz bir görüntü dosyası (PNG, JPEG, TIFF, vb.).  
-- Sevdiğiniz bir IDE veya basit bir metin editörü—Visual Studio Code, IntelliJ veya Eclipse işinizi görecektir.
+- Favori bir IDE ya da basit bir metin düzenleyici—Visual Studio Code, IntelliJ veya Eclipse işinizi görecektir.
 
-Hepsi bu. Zaten bir Maven projeniz varsa, kurulum adımı çok kolay olacaktır; aksi takdirde size manuel JAR yaklaşımını da göstereceğiz.
+Hepsi bu. Zaten bir Maven projeniz varsa, kurulum adımı çok kolay olacaktır; aksi takdirde manuel JAR yaklaşımını da göstereceğiz.
 
 ---
 
-## Adım 1: Projenize Aspose OCR'yi Ekleyin (Kurulum)
+## 1. Adım: Aspose OCR Java'yı projenize ekleyin (kurulum)
 
 ### Maven / Gradle
 
@@ -63,26 +107,26 @@ Gradle için, bu satırı `build.gradle` dosyanıza ekleyin:
 implementation 'com.aspose:aspose-ocr:23.12'
 ```
 
-> **Pro tip:** **aspose ocr java** kütüphanesi ücretsiz değildir, ancak Aspose'un web sitesinden 30‑günlük bir değerlendirme lisansı talep edebilirsiniz. `Aspose.OCR.lic` dosyasını proje kök dizinine koyun veya programatik olarak ayarlayın.
+> **Pro tip:** **aspose ocr java** kütüphanesi ücretsiz değildir, ancak Aspose'un web sitesinden 30 günlük bir değerlendirme lisansı talep edebilirsiniz. `Aspose.OCR.lic` dosyasını proje kök dizinine koyun veya programatik olarak ayarlayın.
 
 ### Manuel JAR (derleme aracı yok)
 
 1. `aspose-ocr-23.12.jar` dosyasını Aspose portalından indirin.  
 2. JAR dosyasını projenizin içinde bir `libs/` klasörüne yerleştirin.  
-3. Derlerken sınıf yoluna ekleyin:
+3. Derleme sırasında sınıf yoluna ekleyin:
 
 ```bash
 javac -cp "libs/*" src/HtmlExportDemo.java
 java -cp "libs/*:src" HtmlExportDemo
 ```
 
-Şimdi kütüphane hazır, ve gerçek OCR koduna geçebiliriz.
+Artık kütüphane hazır ve gerçek OCR koduna geçebiliriz.
 
----
+## 2. Adım: OCR motorunu başlatın
 
-## Adım 2: OCR Motorunu Başlatın
+`OcrEngine`, dil verilerini, görüntü işleme seçeneklerini ve OCR işlem hattını kontrol eden merkezi nesnedir.
 
-`OcrEngine` örneği oluşturmak, herhangi bir **aspose ocr java** iş akışındaki ilk somut adımdır. Bu nesne yapılandırma, dil verileri ve iç OCR motorunu tutar.
+`OcrEngine` sınıfı, yapılandırma, dil sözlükleri ve sinir ağı modellerini tutan Aspose OCR’nin temel bileşenidir. Aynı örneği birden fazla görüntüde yeniden kullanmak toplu işlem performansını büyük ölçüde artırabilir.
 
 ```java
 import com.aspose.ocr.*;
@@ -95,13 +139,13 @@ public class HtmlExportDemo {
         // ocrEngine.getLanguage().setLanguage(Language.English);
 ```
 
-Neden bir örnek oluşturmamız gerekiyor? Motor sözlükleri ve sinir‑ağ modeli önbellekler; aynı örneği birden çok görüntüde yeniden kullanmak, toplu senaryolarda performansı büyük ölçüde artırabilir.
+Neden bir örnek oluşturmamız gerekiyor? Motor sözlükleri ve sinir ağı modellerini önbelleğe alır; aynı örneği birden fazla görüntüde yeniden kullanmak toplu senaryolarda performansı büyük ölçüde artırabilir.
 
----
+## 3. Adım: Dönüştürmek istediğiniz görüntüyü yükleyin
 
-## Adım 3: Dönüştürmek İstediğiniz Görüntüyü Yükleyin
+Aspose OCR, bir veya birden fazla görüntü tutabilen bir `OcrInput` koleksiyonu ile çalışır.
 
-Aspose OCR, bir veya birden fazla görüntü tutabilen bir `OcrInput` koleksiyonu ile çalışır. Tek‑görüntü dönüşümü için sadece dosya yolunu ekleyin.
+`OcrInput`, OCR motorunun işleyeceği kaynak görüntülerin bir koleksiyonunu temsil eder. Her giriş ayrı bir sayfa olarak ele alınır ve ekstra kod olmadan çok sayfalı dönüşüm sağlar.
 
 ```java
         // Step 3: Load the image to be recognized
@@ -110,13 +154,13 @@ Aspose OCR, bir veya birden fazla görüntü tutabilen bir `OcrInput` koleksiy
         ocrInput.add("YOUR_DIRECTORY/input.png");
 ```
 
-Eğer birden fazla dosya için **convert image to html** yapmanız gerekirse, `ocrInput.add(...)` metodunu tekrarlayarak çağırın. Kütüphane her girişi son HTML'de ayrı bir sayfa olarak ele alacaktır.
+Eğer birden fazla dosya için **convert image to HTML** yapmanız gerekirse, sadece `ocrInput.add(...)` metodunu tekrarlayarak çağırın. Kütüphane her girişi nihai HTML'de ayrı bir sayfa olarak ele alacaktır.
 
----
+## 4. Adım: Görüntüyü tanıyın ve HTML çıktısı isteyin
 
-## Adım 4: Görüntüyü Tanıyın ve HTML Çıktısı İsteyin
+`recognize` metodu OCR işlemini gerçekleştirir ve bir `OcrResult` döndürür. Varsayılan olarak sonuç düz metin içerir, ancak dışa aktarma formatını HTML'ye değiştirebiliriz.
 
-`recognize` metodu OCR işlemini gerçekleştirir ve bir `OcrResult` döndürür. Varsayılan olarak sonuç düz metin içerir, ancak dışa aktarım formatını HTML'ye değiştirebiliriz.
+`OcrResult`, OCR işleminin sonucunu tutar ve taranan içeriğin hem düz metin hem de HTML temsillerini sağlar. Dışa aktarma formatını değiştirmek, tamamen stilize edilmiş işaretlemeyi tek satırda elde etmenizi sağlar.
 
 ```java
         // Step 4: Recognize the image and request HTML output
@@ -125,13 +169,11 @@ Eğer birden fazla dosya için **convert image to html** yapmanız gerekirse, `o
         ocrResult.setExportFormat(OcrResult.ExportFormat.HTML);
 ```
 
-> **Neden HTML?** Ham metinden farklı olarak, HTML orijinal düzeni—paragrafları, tabloları ve hatta temel stillemeyi—korur. Bu, taranmış içeriği doğrudan bir web sayfasında göstermeniz gerektiğinde özellikle kullanışlıdır.
+> **Neden HTML?** Ham metinden farklı olarak, HTML orijinal düzeni—paragrafları, tabloları ve hatta temel stillemeyi—korur. Bu, taranan içeriği doğrudan bir web sayfasında göstermeniz gerektiğinde özellikle kullanışlıdır.
 
-Sadece **extract text from image** kısmına ihtiyacınız varsa, `setExportFormat`'ı atlayıp doğrudan `ocrResult.getText()` çağırabilirsiniz. Aynı `OcrResult` nesnesi her iki formatı da sağlayabilir, böylece birini diğerine tercih etmek zorunda kalmazsınız.
+Eğer sadece **extract text from image** kısmına ihtiyacınız varsa, `setExportFormat`'ı atlayıp doğrudan `ocrResult.getText()` çağırabilirsiniz. Aynı `OcrResult` nesnesi her iki formatı da sağlayabilir, böylece birini diğerine tercih etmek zorunda kalmazsınız.
 
----
-
-## Adım 5: Oluşturulan HTML İşaretlemesini Alın
+## 5. Adım: Oluşturulan HTML işaretlemesini alın
 
 OCR motoru görüntüyü işlediğine göre, işaretlemeyi alın:
 
@@ -147,9 +189,7 @@ OCR motoru görüntüyü işlediğine göre, işaretlemeyi alın:
         System.out.println(htmlContent.substring(0, Math.min(200, htmlContent.length())));
 ```
 
----
-
-## Adım 6: HTML'yi Bir Dosyaya Yazın
+## 6. Adım: HTML'yi bir dosyaya yazın
 
 Sonucu kalıcı hale getirin, böylece tarayıcınız daha sonra render edebilir. Kısalık için modern NIO API'sini kullanacağız.
 
@@ -164,13 +204,11 @@ Sonucu kalıcı hale getirin, böylece tarayıcınız daha sonra render edebilir
 }
 ```
 
-Bu, tek bir, bağımsız sınıfta **how to convert image** iş akışının tamamıdır. Programı çalıştırın, `output.html` dosyasını herhangi bir tarayıcıda açın ve taranan sayfanın orijinal resimdeki aynı satır sonları ve temel biçimlendirme ile render edildiğini görmelisiniz.
+Bu, **how to convert image** iş akışının tek bir, bağımsız sınıfta tamamı. Programı çalıştırın, `output.html` dosyasını herhangi bir tarayıcıda açın ve taranan sayfanın orijinal resimdeki aynı satır sonları ve temel biçimlendirme ile render edildiğini görmelisiniz.
 
----
+## Beklenen HTML çıktısı (örnek)
 
-## Beklenen HTML Çıktısı (Örnek)
-
-Aşağıda, oluşturulan dosyanın nasıl görünebileceğine dair küçük bir alıntı yer alıyor:
+Aşağıda, oluşturulan dosyanın basit bir fatura görüntüsü için nasıl görünebileceğine dair küçük bir alıntı yer almaktadır:
 
 ```html
 <!DOCTYPE html>
@@ -190,7 +228,7 @@ Aşağıda, oluşturulan dosyanın nasıl görünebileceğine dair küçük bir 
 </html>
 ```
 
-Eğer sadece `ocrResult.getText()` **HTML formatı ayarlamadan** çağırdıysanız, aşağıdaki gibi düz metin alırsınız:
+Eğer HTML formatını ayarlamadan sadece `ocrResult.getText()` çağırdıysanız, aşağıdaki gibi düz metin alırsınız:
 
 ```
 Invoice #12345
@@ -199,26 +237,28 @@ Item   Qty   Price
 Widget A 10   $5.00
 ```
 
-Her iki çıktı da faydalıdır; ihtiyacınıza göre düzen (`convert image to html`) ya da sadece ham karakterler (`extract text from image`) gerekir.
+Her iki çıktı da ihtiyacınıza göre faydalıdır; düzen (**convert image to HTML**) mi yoksa sadece ham karakterler (**extract text from image**) mi gerektiğine bağlı.
 
----
+## Aspose OCR Java ile görüntüyü HTML'ye nasıl dönüştürürsünüz?
 
-## Yaygın Kenar Durumlarını Ele Alma
+`OcrEngine` ile görüntünüzü yükleyin, bir `OcrInput`'a ekleyin, `ExportFormat.HTML`'i ayarlayın, `recognize()`'ı çağırın ve dönen HTML dizesini bir dosyaya yazın—bu uçtan uca akış, birkaç Java satırıyla görüntüyü HTML'ye dönüştürür. Aynı süreç, `ocrResult.getText()` çağırırsanız düz metin de verir.
 
-### Çoklu Sayfa / Çoklu Görüntü Girişi
+## Yaygın kenar durumlarını ele alma
 
-Kaynağınız çok sayfalı bir TIFF veya PNG klasörü ise, her dosyayı aynı `OcrInput`'a ekleyin. Oluşan HTML her sayfa için ayrı bir `<div>` içerecek ve sıralamayı koruyacaktır.
+### Çok sayfalı / çoklu görüntü girişi
+
+Kaynağınız çok sayfalı bir TIFF veya PNG'lerin bulunduğu bir klasör ise, her dosyayı aynı `OcrInput`'a ekleyin. Oluşturulan HTML, her sayfa için ayrı bir `<div>` içerir ve sıralamayı korur.
 
 ```java
 ocrInput.add("page1.tiff");
 ocrInput.add("page2.tiff");
 ```
 
-### Desteklenmeyen Formatlar
+### Desteklenmeyen formatlar
 
-Aspose OCR PNG, JPEG, BMP, TIFF ve birkaç diğer formatı destekler. PDF beslemeye çalışmak `UnsupportedFormatException` hatası verir. PDF'leri önce görüntülere dönüştürün (ör. Aspose.PDF veya ImageMagick kullanarak) ve ardından OCR motoruna besleyin.
+Aspose OCR, PNG, JPEG, BMP, TIFF, GIF ve WebP dahil olmak üzere 10'dan fazla görüntü formatını destekler. PDF beslemeye çalışmak `UnsupportedFormatException` hatası verir. PDF'leri önce görüntülere dönüştürün (ör. Aspose.PDF veya ImageMagick kullanarak) ve ardından OCR motoruna besleyin.
 
-### Dil Özelliği
+### Dil özgüllüğü
 
 Görüntünüz Latin dışı karakterler (ör. Kiril veya Çince) içeriyorsa, dili açıkça ayarlayın:
 
@@ -226,32 +266,60 @@ Görüntünüz Latin dışı karakterler (ör. Kiril veya Çince) içeriyorsa, d
 ocrEngine.getLanguage().setLanguage(Language.Russian);
 ```
 
-Bunu yapmamak, daha sonra **extract text from image** yaparken doğruluğu azaltabilir.
+Bunu yapmamak, daha sonra **extract text from image** yaptığınızda doğruluğu azaltabilir.
 
-### Bellek Yönetimi
+### Bellek yönetimi
 
 Büyük toplular için aynı `OcrEngine` örneğini yeniden kullanın ve her yinelemeden sonra dahili tamponları serbest bırakmak için `ocrEngine.clear()` çağırın.
 
----
+## Pro ipuçları ve kaçınılması gereken tuzaklar
 
-## Pro İpuçları & Kaçınılması Gereken Tuzaklar
+- **Pro tip:** Taramalarınız hafifçe döndürülmüşse `ocrEngine.getImageProcessingOptions().setDeskew(true)`'ı etkinleştirin. Bu, hem HTML düzenini hem de düz metin doğruluğunu artırır.
+- **Dikkat:** Görüntü çok karanlık olduğunda `htmlContent` boş olabilir. Tanımadan önce kontrastı `ocrEngine.getImageProcessingOptions().setContrast(1.2)` ile ayarlayın.
+- **İpucu:** Oluşturulan HTML'yi orijinal görüntünün yanına bir veritabanında saklayın; daha sonra OCR'ı yeniden çalıştırmadan doğrudan sunabilirsiniz.
+- **Güvenlik notu:** Kütüphane görüntüden herhangi bir kod çalıştırmaz, ancak kullanıcı yüklemelerini kabul ediyorsanız dosya yollarını her zaman doğrulayın.
 
-- **Pro tip:** Tarama görüntüleriniz hafifçe döndürülmüşse `ocrEngine.getImageProcessingOptions().setDeskew(true)`'ı etkinleştirin. Bu, hem HTML düzenini hem de düz‑metin doğruluğunu artırır.
-- **Watch out for:** Görüntü çok karanlık olduğunda `htmlContent` boş olabilir. Tanıma öncesinde kontrastı `ocrEngine.getImageProcessingOptions().setContrast(1.2)` ile ayarlayın.
-- **Tip:** Oluşturulan HTML'yi orijinal görüntünün yanında bir veritabanında saklayın; böylece OCR'ı tekrar çalıştırmadan doğrudan sunabilirsiniz.
-- **Security note:** Kütüphane görüntüden herhangi bir kod çalıştırmaz, ancak kullanıcı yüklemelerini kabul ediyorsanız dosya yollarını her zaman doğrulayın.
+## Sıkça sorulan sorular
 
----
+**S: Değerlendirme lisansını üretimde kullanabilir miyim?**  
+C: Hayır, 30 günlük değerlendirme lisansı sadece test amaçlıdır; üretim dağıtımları için ticari lisans gereklidir.
+
+**S: Aspose OCR Java sağdan sola (RTL) dilleri destekliyor mu?**  
+C: Evet, uygun dil paketini ayarladığınızda Arapça, İbranice ve diğer RTL betikleri desteklenir.
+
+**S: Ne kadar büyük bir görüntüyü işleyebilirim?**  
+C: Motor, akış mimarisi sayesinde tüm dosyayı belleğe yüklemeden sayfa başına 50 MB'a kadar görüntüyü işleyebilir.
+
+**S: Oluşturulan HTML'yi stilize etmenin bir yolu var mı?**  
+C: OCR'dan sonra `htmlContent` dizesini değiştirerek özel CSS ekleyebilirsiniz.
+
+**S: HTML yerine PDF'e ihtiyacım olursa ne yapmalıyım?**  
+C: `ocrEngine.setExportFormat(ExportFormat.PDF)` olarak değiştirin, iş akışının geri kalanı aynı kalır.
 
 ## Sonuç
 
-Artık **aspose ocr java**'nin **convert image to html** yapan, **extract text from image** yapmanıza izin veren ve herhangi bir Java geliştiricisi için klasik **how to convert image** sorusuna yanıt veren eksiksiz, uçtan uca bir örneğine sahipsiniz. Kod kopyalanmaya, yapıştırılmaya ve çalıştırılmaya hazır—gizli adım yok, dış referans yok.
+Artık **aspose ocr java**'nın **convert image to HTML** yapan, **extract text from image** yapmanıza izin veren ve herhangi bir Java geliştiricisi için klasik **how to convert image** sorusuna yanıt veren eksiksiz, uçtan uca bir örneğine sahipsiniz. Kod kopyalanmaya, yapıştırılmaya ve çalıştırılmaya hazır—gizli adım yok, dış referans yok.
 
-Sırada ne var? `ExportFormat.PDF` ile değiştirerek HTML yerine **PDF** olarak dışa aktarmayı deneyin, oluşturulan işaretlemeyi stilize etmek için özel CSS'lerle deney yapın veya düz‑metin sonucunu hızlı belge geri getirme için bir arama indeksine besleyin. Aspose OCR API'si bu senaryoların hepsini karşılayacak kadar esnektir.
+Sırada ne var? `ExportFormat.PDF` ile değiştirerek **PDF**'e dışa aktarmayı deneyin, oluşturulan işaretlemeyi stilize etmek için özel CSS deneyin veya hızlı belge geri getirme için düz metin sonucunu bir arama indeksine besleyin. Aspose OCR API, bu senaryoların tümünü karşılayacak kadar esnektir.
 
-Herhangi bir sorunla karşılaşırsanız—belki bir dil paketi eksik ya da garip bir düzen—aşağıya yorum bırakmaktan veya Aspose'un resmi forumlarını kontrol etmekten çekinmeyin. İyi kodlamalar, ve görüntüleri aranabilir, web‑hazır içeriğe dönüştürmenin tadını çıkarın!
+Herhangi bir sorunla karşılaşırsanız—belki bir dil paketi eksik ya da garip bir düzen—aşağıya yorum bırakmaktan veya Aspose'un resmi forumlarını kontrol etmekten çekinmeyin. Kodlamaktan keyif alın ve görüntüleri aranabilir, web‑hazır içeriğe dönüştürmenin tadını çıkarın!
+
+---
+
+**Son Güncelleme:** 2026-11-04  
+**Test Edilen Versiyon:** Aspose.OCR 23.12 for Java  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose Ocr Java ile Görüntüyü Metne Dönüştürme Adım Adım Kılavuz](/ocr/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+- [Aspose Ocr Java ile Görüntüden Metin Çıkarma Kılavuzu](/ocr/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/)
+- [Aspose Ocr Java Örneği Görüntüyü Hızlıca Metne Dönüştürme](/ocr/java/ocr-operations/aspose-ocr-java-example-convert-image-to-text-fast/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

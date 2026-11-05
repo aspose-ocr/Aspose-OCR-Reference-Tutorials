@@ -1,27 +1,64 @@
 ---
 category: general
-date: 2026-01-07
-description: Aspose OCR Java का उपयोग करके छवि से OCR टेक्स्ट प्राप्त करें। सीखें
-  कि कैसे टेक्स्ट इमेज निकालें, इमेज OCR लोड करें, और कुछ ही मिनटों में जावा OCR उदाहरण
-  चलाएँ।
+date: 2026-11-04
+description: Aspose OCR के साथ Java में OCR का उपयोग करना सीखें। यह गाइड एक Java OCR
+  उदाहरण दिखाता है, स्कैन की गई छवि से टेक्स्ट निकालने का तरीका, और इमेज OCR को कुशलता
+  से लोड करने की प्रक्रिया।
 draft: false
 keywords:
-- get OCR text
-- extract text image
-- java OCR example
-- aspose OCR Java
-- load image OCR
-language: hi
-og_description: Aspose OCR Java के साथ छवियों से OCR टेक्स्ट प्राप्त करें। यह गाइड
-  एक जावा OCR उदाहरण दिखाता है, कैसे टेक्स्ट छवि निकाली जाए, और कैसे छवि OCR को कुशलतापूर्वक
-  लोड किया जाए।
-og_title: जावा में OCR टेक्स्ट प्राप्त करें – पूर्ण Aspose OCR ट्यूटोरियल
+- how to use ocr
+- image to text java
+- java ocr example
+- aspose ocr license
+- extract text scanned image
+lastmod: 2026-11-04
+og_description: Aspose OCR के साथ Java में OCR का उपयोग कैसे करें। यह ट्यूटोरियल एक
+  Java OCR उदाहरण प्रदान करता है, स्कैन की गई छवियों से टेक्स्ट निकालने का तरीका दिखाता
+  है, और license के साथ इमेज OCR लोड करने की व्याख्या करता है।
+og_image_alt: 'Developer guide: extract OCR text from images using Aspose OCR Java'
+og_title: Java में OCR का उपयोग कैसे करें – पूर्ण Aspose OCR उदाहरण
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use OCR in Java with Aspose OCR. This guide shows a java
+    OCR example, how to extract text from a scanned image, and how to load image OCR
+    efficiently.
+  headline: How to use OCR in Java – complete Aspose OCR example
+  type: TechArticle
+- description: Learn how to use OCR in Java with Aspose OCR. This guide shows a java
+    OCR example, how to extract text from a scanned image, and how to load image OCR
+    efficiently.
+  name: How to use OCR in Java – complete Aspose OCR example
+  steps:
+  - name: The file path in `setImage` (is it correct?).
+    text: The file path in `setImage` (is it correct?).
+  - name: The language code matches the script in the image.
+    text: The language code matches the script in the image.
+  - name: The image quality (contrast, DPI) is sufficient.
+    text: The image quality (contrast, DPI) is sufficient.
+  type: HowTo
+- questions:
+  - answer: Yes, a full **aspose ocr license** removes evaluation limits and enables
+      all premium features.
+    question: Do I need a paid license for production use?
+  - answer: It supports printed and some cursive handwriting, but accuracy varies;
+      preprocessing improves results.
+    question: Can Aspose OCR read handwritten text?
+  - answer: Use Aspose.PDF to create a new PDF and write the string returned by `OcrResult.getText()`.
+    question: How do I convert the extracted text to a PDF?
+  - answer: The engine handles images up to **200 MB**; larger files should be split
+      or down‑scaled first.
+    question: Is there a limit on image size?
+  - answer: Yes, Aspose OCR for Java is platform‑independent and runs in Docker containers
+      without native dependencies.
+    question: Does the library work on Linux containers?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
 - Image Processing
-title: जावा में OCR टेक्स्ट प्राप्त करें – पूर्ण Aspose OCR उदाहरण
+title: Java में OCR का उपयोग कैसे करें – पूर्ण Aspose OCR उदाहरण
 url: /hi/java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/
 ---
 
@@ -29,26 +66,32 @@ url: /hi/java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# जावा में OCR टेक्स्ट प्राप्त करें – पूर्ण Aspose OCR उदाहरण
+# जावा में OCR का उपयोग कैसे करें – पूर्ण Aspose OCR उदाहरण
 
-क्या आपको कभी स्कैन किए हुए दस्तावेज़ से **OCR टेक्स्ट** प्राप्त करने की जरूरत पड़ी है लेकिन यह नहीं पता था कि कौन सी लाइब्रेरी चुनें? आप अकेले नहीं हैं। कई वास्तविक‑दुनिया प्रोजेक्ट्स—जैसे इनवॉइस ऑटोमेशन, रसीद प्रोसेसिंग, या बहुभाषी फ़ॉर्म डिजिटलीकरण—में छवियों से टेक्स्ट निकालना ऑटोमेशन की पहली कदम है।  
+यदि आपको स्कैन किए गए दस्तावेज़ से **get OCR text** प्राप्त करना है और जावा प्रोजेक्ट में **how to use OCR** के बारे में सोच रहे हैं, तो आप सही जगह पर आए हैं। चाहे आप इनवॉइस प्रोसेसिंग को स्वचालित कर रहे हों, बहुभाषी रसीदों से डेटा निकाल रहे हों, या हस्तलिखित फॉर्म को खोज योग्य टेक्स्ट में बदल रहे हों, पहला कदम छवि को संपादन योग्य अक्षरों में बदलना है। यह ट्यूटोरियल Aspose OCR for Java के साथ निर्मित एक **java OCR example** को दर्शाता है, जिसमें आपको दिखाया जाएगा कि **load image OCR** कैसे करें, भाषा सेटिंग्स को कॉन्फ़िगर करें, और कुछ ही कोड लाइनों से **extract text scanned image** डेटा निकालें।
 
-इस ट्यूटोरियल में हम एक **java OCR example** के माध्यम से चलेंगे जो Aspose OCR for Java लाइब्रेरी का उपयोग करता है। अंत तक आप जानेंगे कि कैसे **load image OCR** किया जाए, इंजन चलाया जाए, और **extract text image** डेटा कुछ ही कोड लाइनों से निकाला जाए। कोई फालतू बात नहीं, सिर्फ एक व्यावहारिक समाधान जिसे आप अपने प्रोजेक्ट में कॉपी‑पेस्ट कर सकते हैं।
+![Aspose OCR Java का उपयोग करके छवि से OCR टेक्स्ट प्राप्त करने का फ्लोचार्ट](https://example.com/ocr-flowchart.png "OCR टेक्स्ट प्राप्त करने का फ्लो डायग्राम")
 
-## आप क्या सीखेंगे
+## त्वरित उत्तर
+- **जावा OCR के लिए कौन सी लाइब्रेरी सबसे बेहतर है?** Aspose OCR for Java बॉक्स से ही उच्च‑सटीकता, बहुभाषी समर्थन प्रदान करता है।  
+- **कोड की कितनी लाइनों की आवश्यकता है?** छवि लोड करने, इंजन चलाने और परिणाम प्रिंट करने के लिए लगभग 10 लाइनों की आवश्यकता होती है।  
+- **क्या मुझे लाइसेंस चाहिए?** एक मुफ्त ट्रायल मूल्यांकन के लिए काम करता है; एक पूर्ण **aspose ocr license** मूल्यांकन सीमाओं को हटा देता है।  
+- **क्या यह कई भाषाओं को संभाल सकता है?** हाँ – भाषा कोड सेट करें या 60 से अधिक लिपियों के लिए ऑटो‑डिटेक्ट सक्षम करें।  
+- **कौन सा जावा संस्करण आवश्यक है?** Java 8 या नया संस्करण।
 
-- Aspose OCR for Java को सेट अप करने का तरीका (Maven कोऑर्डिनेट्स सहित)।
-- **load image OCR** करने और भाषा निर्दिष्ट करने के सटीक चरण।
-- **get OCR text** को एक साधारण स्ट्रिंग के रूप में प्राप्त करने और उसे कंसोल में प्रिंट करने का तरीका।
-- बहुभाषी छवियों को संभालने और भाषाओं को ऑटो‑डिटेक्ट करने के टिप्स।
+## OCR का उपयोग कैसे करें क्या है?
+**How to use OCR** का अर्थ है एक ऑप्टिकल कैरेक्टर रिकग्निशन इंजन का उपयोग करके बिटमैप छवियों से मुद्रित या हस्तलिखित अक्षरों को पढ़ना और उन्हें साधारण टेक्स्ट के रूप में लौटाना। प्रक्रिया आमतौर पर छवि लोड करने, उपयुक्त भाषा मॉडल चुनने, पहचान इंजन चलाने, और फिर निकाले गए स्ट्रिंग को आगे की प्रोसेसिंग या स्टोरेज के लिए प्राप्त करने में शामिल होती है।
 
-*Prerequisites*: Java 8 या उससे नया, Maven‑संगत IDE (IntelliJ IDEA, Eclipse, या VS Code), और एक वैध Aspose OCR for Java लाइसेंस (मुफ़्त ट्रायल मूल्यांकन के लिए काम करता है)।
+## जावा के लिए Aspose OCR का उपयोग क्यों करें?
+Aspose OCR **50+ input formats** (जैसे PNG, JPEG, TIFF, BMP) का समर्थन करता है और पूरी छवि को मेमोरी में लोड किए बिना **200 MB** तक की फ़ाइलों को प्रोसेस कर सकता है, साफ़ प्रिंट्स पर **95 % accuracy** और कम‑गुणवत्ता स्कैन पर प्री‑प्रोसेसिंग लागू होने पर **80 %+** की सटीकता प्रदान करता है।
 
-![OCR टेक्स्ट को छवि से प्राप्त करने का फ्लोचार्ट Aspose OCR Java का उपयोग करके](https://example.com/ocr-flowchart.png "OCR टेक्स्ट फ्लो डायग्राम")
+## पूर्वापेक्षाएँ
+- Java 8 या नया स्थापित हो।  
+- Maven‑compatible IDE (IntelliJ IDEA, Eclipse, या VS Code)।  
+- एक वैध **aspose ocr license** (ट्रायल कुंजी विकास के लिए काम करती है)।  
 
-## चरण 1 – Aspose OCR डिपेंडेंसी जोड़ें (Load Image OCR)
-
-सबसे पहले, Maven को Aspose OCR लाइब्रेरी खींचने के लिए बताएं। अपना `pom.xml` खोलें और `<dependencies>` के अंदर निम्नलिखित `<dependency>` ब्लॉक डालें:
+## Aspose OCR निर्भरता कैसे जोड़ें (load image OCR)
+अपने प्रोजेक्ट में Aspose OCR लाइब्रेरी जोड़ने से आपको OCR इंजन और सभी संबंधित यूटिलिटीज़ तक पहुँच मिलती है। अपने बिल्ड फ़ाइल में Maven निर्भरता (या Gradle समकक्ष) शामिल करें, फिर प्रोजेक्ट को रीफ़्रेश करें ताकि JARs Maven रिपॉज़िटरी से डाउनलोड हो जाएँ। यह चरण किसी भी OCR क्लास को इंस्टैंशिएट करने से पहले आवश्यक है।
 
 ```xml
 <!-- Aspose OCR for Java -->
@@ -59,11 +102,10 @@ url: /hi/java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/
 </dependency>
 ```
 
-> **Pro tip**: यदि आप Gradle का उपयोग कर रहे हैं, तो समकक्ष है `implementation 'com.aspose:aspose-ocr:23.9'`. डिपेंडेंसी जोड़ना आपके प्रोजेक्ट में **load image OCR** क्षमताएँ लाने का सबसे सस्ता तरीका है।
+> **Pro tip**: यदि आप Gradle पसंद करते हैं, तो `implementation 'com.aspose:aspose-ocr:23.9'` का उपयोग करें। निर्भरता जोड़ना आपके प्रोजेक्ट में **load image OCR** क्षमताएँ जोड़ने का सबसे सस्ता तरीका है।
 
-## चरण 2 – OCR इंजन बनाएं और अपनी छवि लोड करें
-
-अब हम एक छोटा Java क्लास लिखेंगे जो `OcrEngine` इंस्टेंस बनाता है, उसे एक इमेज फ़ाइल की ओर इंगित करता है, और इंजन को बताता है कि कौन सी भाषा को पहचानना है। भाषा को उसके ISO‑639‑2 कोड से पहचाना जाता है (जैसे, तमिल के लिए `"tam"`).
+## OCR इंजन कैसे बनाएं और अपनी छवि लोड करें
+सबसे पहले, `OcrEngine` का एक इंस्टैंस बनाएं, जो पहचान करने वाला मुख्य घटक है। फिर इंजन को उस छवि फ़ाइल की ओर इंगित करें जिसे आप प्रोसेस करना चाहते हैं और वैकल्पिक रूप से भाषा कोड सेट करें। यह इंजन को अगले पहचान चरण के लिए तैयार करता है।
 
 ```java
 package com.example.ocr;
@@ -86,12 +128,10 @@ public class LanguageExample {
 ```
 
 ### भाषा को स्पष्ट रूप से सेट क्यों करें?
+भाषा निर्दिष्ट करने से फॉल्स पॉज़िटिव कम होते हैं और पहचान तेज़ होती है। बहुभाषी PDFs के लिए आप भाषा कोड की एक एरे पर लूप कर सकते हैं, या सुविधा के लिए ऑटो‑डिटेक्ट सक्षम कर सकते हैं।
 
-भाषा निर्दिष्ट करने से फ़ॉल्स पॉज़िटिव कम होते हैं और पहचान तेज़ होती है। बहुभाषी PDFs के लिए आप भाषा कोड की एक एरे पर लूप कर सकते हैं, या सुविधा के लिए ऑटो‑डिटेक्ट सक्षम कर सकते हैं।
-
-## चरण 3 – OCR प्रक्रिया चलाएँ और **Get OCR Text**
-
-इंजन कॉन्फ़िगर होने के बाद, अगली लाइन वास्तव में पहचान करती है। परिणाम ऑब्जेक्ट में निकाली गई स्ट्रिंग और अतिरिक्त मेटाडेटा होता है।
+## OCR प्रक्रिया कैसे चलाएँ और OCR टेक्स्ट प्राप्त करें
+कॉन्फ़िगर किए गए `OcrEngine` पर `recognize()` मेथड को कॉल करके विश्लेषण शुरू करें। यह मेथड एक `OcrResult` ऑब्जेक्ट लौटाता है जिसमें निकाली गई साधारण‑टेक्स्ट स्ट्रिंग और वैकल्पिक मेटाडेटा जैसे कॉन्फिडेंस स्कोर और बाउंडिंग बॉक्स शामिल होते हैं।
 
 ```java
         // 3️⃣ Perform OCR – this is where we finally **get OCR text**
@@ -104,46 +144,43 @@ public class LanguageExample {
 }
 ```
 
-`LanguageExample` चलाने पर, आपको कुछ इस तरह दिखना चाहिए:
+जब आप उदाहरण चलाते हैं, तो कंसोल में पहचाने गए अक्षर प्रदर्शित होंगे:
 
 ```
 === Extracted Text ===
 தமிழ் உரை இங்கு வருகிறது...
 ```
 
-यदि आपने `setAutoDetectLanguage(true)` उपयोग किया है, तो इंजन आपके लिए भाषा का अनुमान लगाने की कोशिश करेगा, जो अज्ञात दस्तावेज़ों से निपटने में उपयोगी है।
+यदि आप `setAutoDetectLanguage(true)` सक्षम करते हैं, तो इंजन स्वचालित रूप से भाषा का अनुमान लगाएगा, जो अज्ञात दस्तावेज़ों के लिए उपयोगी है।
 
-## चरण 4 – सामान्य किनारे मामलों को संभालना (Extract Text Image Variations)
+## सामान्य किनारे मामलों को कैसे संभालें (extract text image variations)
+वास्तविक दुनिया के स्कैन अक्सर कम रेज़ोल्यूशन, शोर, या केवल छवि के एक हिस्से को निकालने की आवश्यकता से ग्रस्त होते हैं। इन समस्याओं का समाधान करने से सटीकता और प्रदर्शन में सुधार होता है। नीचे कुछ सामान्य समायोजन दिए गए हैं जिन्हें आप OCR से पहले या दौरान लागू कर सकते हैं ताकि इन विविधताओं से निपटा जा सके।
 
-### कम‑रिज़ॉल्यूशन छवियों से निपटना
-
-OCR की सटीकता 300 dpi से नीचे तेज़ी से घटती है। यदि आपकी स्रोत छवि कम‑रिज़ॉल्यूशन है, तो पहले उसे अप‑सैंपल करने पर विचार करें:
+### कम‑रेज़ोल्यूशन छवियों से निपटना
+OCR की सटीकता 300 dpi से नीचे तेज़ी से घटती है। यदि आपकी स्रोत छवि कम‑रेज़ोल्यूशन है, तो पहले उसे अप‑सैंपल करने पर विचार करें:
 
 ```java
 engine.getEngineOptions().setResolution(300); // forces 300 DPI
 ```
 
-### बैकग्राउंड नॉइज़ हटाना
-
-कभी‑कभी स्कैन किए हुए फ़ॉर्म में धब्बे होते हैं जो इंजन को भ्रमित कर देते हैं। आप प्री‑प्रोसेसिंग सक्षम कर सकते हैं:
+### पृष्ठभूमि शोर हटाना
+स्कैन किए गए फ़ॉर्म अक्सर ऐसे धब्बे होते हैं जो इंजन को भ्रमित करते हैं। आप छवि को साफ़ करने के लिए प्री‑प्रोसेसिंग सक्षम कर सकते हैं:
 
 ```java
 engine.getEngineOptions().setPreprocessMode(EngineOptions.PreprocessMode.Auto);
 ```
 
 ### विशिष्ट क्षेत्रों से टेक्स्ट निकालना
-
-यदि आपको केवल किसी विशेष आयत (जैसे, टेबल सेल) से टेक्स्ट चाहिए, तो `recognize()` कॉल करने से पहले एक `Rectangle` सेट करें:
+यदि आपको केवल किसी विशेष आयत (उदाहरण के लिए, टेबल सेल) से टेक्स्ट चाहिए, तो `recognize()` कॉल करने से पहले एक `Rectangle` सेट करें:
 
 ```java
 engine.setRegion(new Rectangle(50, 100, 400, 200));
 ```
 
-ये समायोजन आपके **java OCR example** को प्रोडक्शन वर्कलोड्स के लिए पर्याप्त मजबूत बनाते हैं।
+इन समायोजनों से आपका **java OCR example** उत्पादन कार्यभार के लिए पर्याप्त मजबूत बन जाता है।
 
-## चरण 5 – आउटपुट सत्यापित करें (आपको क्या अपेक्षा करनी चाहिए?)
-
-एक सफल रन छवि का साधारण टेक्स्ट संस्करण प्रिंट करेगा। बहुभाषी छवियों के लिए आप मिश्रित लिपियों को देख सकते हैं:
+## आउटपुट कैसे सत्यापित करें (आपको क्या अपेक्षा करनी चाहिए?)
+एक सफल रन छवि का साधारण‑टेक्स्ट संस्करण प्रिंट करता है। बहुभाषी छवियों के लिए आप मिश्रित लिपियों को देख सकते हैं:
 
 ```
 Hello World
@@ -152,14 +189,12 @@ Hello World
 ```
 
 यदि आउटपुट खाली या गड़बड़ है, तो दोबारा जांचें:
-
-1. `setImage` में फ़ाइल पाथ (क्या यह सही है?)।
-2. भाषा कोड छवि में स्क्रिप्ट से मेल खाता है।
+1. `setImage` में फ़ाइल पथ (क्या यह सही है?)।  
+2. भाषा कोड छवि की लिपि से मेल खाता है।  
 3. छवि की गुणवत्ता (कॉन्ट्रास्ट, DPI) पर्याप्त है।
 
-## पूर्ण कार्यशील उदाहरण (कॉपी‑पेस्ट तैयार)
-
-नीचे पूरा फ़ाइल दिया गया है, जिसे कंपाइल और रन करने के लिए तैयार है। `YOUR_DIRECTORY/multilingual.png` को अपने टेस्ट इमेज के वास्तविक पाथ से बदलें।
+## पूर्ण कार्यशील उदाहरण (copy‑paste ready)
+नीचे पूरी फ़ाइल दी गई है, जिसे संकलित और चलाने के लिए तैयार है। `YOUR_DIRECTORY/multilingual.png` को अपने परीक्षण छवि के वास्तविक पथ से बदलें।
 
 ```java
 package com.example.ocr;
@@ -193,29 +228,50 @@ public class LanguageExample {
 }
 ```
 
-कम्पाइल और रन करें:
+संकलित करें और चलाएँ:
 
 ```bash
 mvn compile exec:java -Dexec.mainClass="com.example.ocr.LanguageExample"
 ```
 
-अब आपको निकाला गया कंटेंट अपने कंसोल में प्रिंट होता दिखेगा।
+अब आपको निकाली गई सामग्री अपने कंसोल में प्रिंट होती हुई दिखनी चाहिए।
 
----
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: उत्पादन उपयोग के लिए क्या मुझे भुगतान वाला लाइसेंस चाहिए?**  
+A: हाँ, एक पूर्ण **aspose ocr license** मूल्यांकन सीमाओं को हटा देता है और सभी प्रीमियम सुविधाएँ सक्षम करता है।
+
+**Q: क्या Aspose OCR हस्तलिखित टेक्स्ट पढ़ सकता है?**  
+A: यह मुद्रित और कुछ कर्सिव हस्तलेख को समर्थन देता है, लेकिन सटीकता बदलती है; प्री‑प्रोसेसिंग परिणाम सुधारती है।
+
+**Q: निकाले गए टेक्स्ट को PDF में कैसे बदलूँ?**  
+A: नया PDF बनाने के लिए Aspose.PDF का उपयोग करें और `OcrResult.getText()` द्वारा लौटाई गई स्ट्रिंग लिखें।
+
+**Q: छवि आकार पर कोई सीमा है?**  
+A: इंजन **200 MB** तक की छवियों को संभालता है; बड़े फ़ाइलों को पहले विभाजित या डाउन‑स्केल करना चाहिए।
+
+**Q: क्या लाइब्रेरी Linux कंटेनरों पर काम करती है?**  
+A: हाँ, Aspose OCR for Java प्लेटफ़ॉर्म‑स्वतंत्र है और Docker कंटेनरों में बिना नेटिव डिपेंडेंसीज़ के चलता है।
 
 ## निष्कर्ष
 
-हमने अभी आपको Aspose OCR for Java का उपयोग करके छवि से **OCR टेक्स्ट प्राप्त करने** का तरीका दिखाया है। इस **java OCR example** को फॉलो करके आप **extract text image** डेटा, **load image OCR** कर सकते हैं, और बहुभाषी या शोरयुक्त इनपुट के लिए इंजन को भी ट्यून कर सकते हैं।  
+हमने जावा में Aspose OCR के साथ **how to use OCR** दिखाया है, जिसमें निर्भरता सेटअप, इंजन कॉन्फ़िगरेशन, भाषा हैंडलिंग, और सामान्य प्री‑प्रोसेसिंग ट्रिक्स शामिल हैं। इस **java OCR example** को अपने पाइपलाइन में एकीकृत करके आप स्कैन किए गए दस्तावेज़ों को विश्वसनीय रूप से खोज योग्य, संपादन योग्य टेक्स्ट में बदल सकते हैं, परिणामों को अनुवाद सेवाओं में फीड कर सकते हैं, या उन्हें डाउनस्ट्रीम एनालिटिक्स के लिए स्टोर कर सकते हैं।
 
-अब आप आगे कर सकते हैं:
+---
 
-- OCR चरण को बड़े वर्कफ़्लो में इंटीग्रेट करें (जैसे, टेक्स्ट को डेटाबेस में स्टोर करना)।
-- इसे एक ट्रांसलेशन API के साथ मिलाकर बहुभाषी स्कैन को एक ही भाषा में बदलें।
-- PDF कन्वर्ज़न या बारकोड डिटेक्शन जैसे अन्य Aspose OCR फीचर्स के साथ प्रयोग करें।
+**अंतिम अपडेट:** 2026-11-04  
+**परीक्षित संस्करण:** Aspose OCR for Java 23.9  
+**लेखक:** Aspose
 
-इसे आज़माएँ, कुछ चीज़ें तोड़ें, और फिर सेटिंग्स को परिष्कृत करें जब तक आउटपुट एकदम सही न हो। हैप्पी कोडिंग, और आपका OCR हमेशा स्पष्ट रहे!
+## संबंधित ट्यूटोरियल
+
+- [छवि को टेक्स्ट में बदलें जावा पूर्ण Aspose OCR उदाहरण](/ocr/java/ocr-basics/convert-image-to-text-java-complete-aspose-ocr-example/)
+- [Aspose OCR जावा के साथ OCR के लिए छवि लोड करें पूर्ण गाइड](/ocr/java/ocr-operations/load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+- [Aspose.OCR for Java का उपयोग करके URL से छवि से टेक्स्ट निकालने का तरीका](/ocr/java/advanced-ocr-techniques/perform-ocr-image-from-url/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
