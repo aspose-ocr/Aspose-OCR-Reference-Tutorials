@@ -72,13 +72,15 @@ weight: 24
 学习如何在 .NET 项目中读取嵌入资源并正确设置 Aspose 许可证，以确保功能正常运行。
 ### [使用 Aspose 下载 OCR 语言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 使用 Aspose 在 C# 中下载 OCR 语言模型的完整步骤指南。
+### [加载图像文件并使用 GPU OCR 在 C# 中提取收据文本](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+演示如何在 C# 中使用 GPU 加速的 Aspose.OCR 加载图像文件并提取收据文本，提高识别速度和准确率。  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何为 Aspose OCR 启用 GPU – 步骤指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 通过本教程，了解在 Aspose OCR 中启用 GPU 加速的完整步骤，提升 OCR 性能。
 ### [C# 中的图像文本识别 – 使用 Aspose 进行阿拉伯语 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -86,21 +88,64 @@ weight: 24
 ### [如何在 C# 中设置 Aspose 许可证 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
 本教程详细演示在 C# 项目中配置 Aspose 许可证的完整步骤，确保功能正常运行。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 Aspose OCR 中应用许可证 – 步骤详解 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 使用 C#，一步步演示在 Aspose OCR 中申请许可证的完整过程。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+### [在 C# 中创建可搜索 PDF – OCR 转换指南](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+### [如何在 C# 中启用 OCR – 轻松将 PDF 转换为文本](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+快速演示如何在 C# 项目中使用 Aspose.OCR 将 PDF 文件转换为可编辑的文本。  
+### [如何在 C# 中保存 OCR JSON – 完整分步指南](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+### [离线识别中文文本 – 完整 C# 指南](./recognize-chinese-text-offline-complete-c-guide/)
+### [如何在 C# 中创建 OCR 引擎 – 离线设置指南](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+离线设置 Aspose.OCR 引擎的完整步骤，帮助在 C# 项目中本地运行 OCR 功能。  
+### [如何在 C# 中检查 OCR 模型可用性 – 步骤指南](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+逐步演示如何在 C# 项目中检查 OCR 模型是否可用，确保引擎准备就绪。  
+### [在 PDF 中嵌入字体 – 将 JPEG 转换为可搜索的 PDF](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+### [从 PNG 读取文本 – 使用 Aspose OCR 提取西里尔文字](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+使用 Aspose OCR 从 PNG 图像中读取并提取西里尔字母文本。  
+### [在 C# 中为 OCR 设置 GPU 设备 – 完整编程指南](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+了解如何在 C# 中使用 Aspose.OCR 设置 GPU 设备以加速 OCR 处理的完整编程指南。  
+### [在 C# 中识别图像文字 – 使用 Aspose OCR 识别卡纳达语](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+使用 Aspose OCR 在 .NET 中轻松识别卡纳达语图像文字，提升多语言 OCR 能力。  
+### [使用 Aspose OCR AI 创建拼写检查处理器 – 完整指南](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+### [检查 Aspose OCR 许可证标志 – 验证许可的快速指南](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+快速了解如何检查 Aspose.OCR 的许可证标志，以确认授权状态并避免未授权错误。
+### [在 C# 中启用 GPU 进行 OCR 的分步指南](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+详细步骤演示如何在 C# 项目中配置 Aspose.OCR 使用 GPU 加速，提高识别性能。  
+
+### [如何下载俄语 OCR 语言包 – 完整指南](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+一步步指导如何下载并安装俄语 OCR 语言包，以在 Aspose.OCR 中实现俄语文本识别。  
+### [如何在 C# 中禁用 OCR – 离线 Aspose OCR 指南](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+### [在 C# 中加载图像进行 OCR – 完整的 Aspose OCR 与拼写检查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+### [在 C# 中创建 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
+一步步教您在 C# 中构建并配置 Aspose.OCR 引擎，实现高效文本识别。  
+### [使用 Aspose OCR 设置 GPU 内存限制 – C# GPU 指南](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+### [使用 Aspose OCR GPU 从图像提取文本 – 完整 C# 指南](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+使用 Aspose OCR GPU 加速图像识别，完整 C# 示例展示高效提取文本的方法。  
+### [如何在 Aspose OCR 中设置许可证 – 完整 C# 指南](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+详细步骤演示在 .NET 项目中使用 Aspose OCR 设置许可证的完整 C# 示例。  
+### [在 C# 中执行 OCR – 多语言指南](./how-to-perform-ocr-in-c-multi-language-guide/)
+了解如何在 C# 中使用 Aspose.OCR 进行多语言文本识别，涵盖语言设置、示例代码和最佳实践。  
+### [图像转文本 C# – Aspose OCR（禁用下载）](./image-to-text-c-aspose-ocr-with-disabled-download/)
+### [在 C# 中获取 Aspose OCR 版本 – 完整指南](./get-aspose-ocr-version-in-c-complete-guide/)
+### [如何在 C# 中使用 OcrEngine – 完整 OCR 指南](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+全面讲解在 C# 项目中使用 OcrEngine 进行 OCR 的步骤、配置和最佳实践。  
+### [从图像创建可搜索 PDF – 完整分步指南](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+详细步骤演示如何使用 Aspose.OCR 将图像转换为可搜索的 PDF 文档。  
+### [在 C# 中检测图像语言 – 完整编程指南](./detect-language-from-image-in-c-complete-programming-guide/)
+使用 Aspose.OCR 在 C# 中检测图像中的语言，实现多语言识别的完整示例。  
+
+
+
 ## 常见问题
 
 **问：我可以在商业 .NET 应用中使用 Aspose.OCR 吗？**  

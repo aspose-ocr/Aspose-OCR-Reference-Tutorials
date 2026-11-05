@@ -25,17 +25,11 @@ title: Extraer texto de imágenes PNG con C# – OCR por lotes usando Aspose OCR
 url: /es/net/ocr-optimization/extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/
 ---
 
-with shortcodes unchanged.
 
-Then heading "# extract text images from PNGs with C# – Batch OCR using Aspose OCR" translate to Spanish: "# extraer imágenes de texto de PNGs con C# – OCR por lotes usando Aspose OCR"
 
-Proceed.
 
-Paragraphs.
 
-Let's translate.
 
-I'll produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

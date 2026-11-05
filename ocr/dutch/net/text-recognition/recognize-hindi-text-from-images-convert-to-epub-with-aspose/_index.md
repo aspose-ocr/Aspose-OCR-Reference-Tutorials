@@ -26,9 +26,8 @@ title: herken Hindi‑tekst van afbeeldingen – converteer naar ePub met Aspose
 url: /nl/net/text-recognition/recognize-hindi-text-from-images-convert-to-epub-with-aspose/
 ---
 
-unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

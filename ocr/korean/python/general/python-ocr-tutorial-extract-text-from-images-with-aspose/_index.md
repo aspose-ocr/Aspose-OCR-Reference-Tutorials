@@ -22,9 +22,7 @@ title: 'Python OCR 튜토리얼: Aspose로 이미지에서 텍스트 추출'
 url: /ko/python/general/python-ocr-tutorial-extract-text-from-images-with-aspose/
 ---
 
-:** translate.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

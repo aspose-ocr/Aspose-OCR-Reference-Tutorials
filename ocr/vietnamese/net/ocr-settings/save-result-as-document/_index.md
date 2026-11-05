@@ -9,7 +9,6 @@ url: /vi/net/ocr-settings/save-result-as-document/
 weight: 10
 ---
 
- final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

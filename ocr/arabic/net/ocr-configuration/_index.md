@@ -43,6 +43,62 @@ weight: 24
 
 ### [OCROperation مع القائمة في التعرف على الصور باستخدام OCR](./ocr-operation-with-list/)
 اكتشف إمكانات Aspose.OCR for .NET. تنفيذ التعرف على الصور باستخدام OCR مع القوائم بسهولة. عزّز الإنتاجية واستخراج البيانات في تطبيقاتك.
+### [تحميل ملف صورة واستخراج نص الفاتورة باستخدام GPU OCR في C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
+تعلم كيفية تحميل صورة فاتورة واستخدام GPU OCR لاستخراج النص بسرعة في تطبيق C#.
+### [إنشاء PDF قابل للبحث باستخدام C# – دليل تحويل OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+تعلم كيفية تحويل ملفات PDF إلى PDF قابل للبحث باستخدام Aspose.OCR في تطبيقات C# خطوة بخطوة.
+### [كيفية تمكين OCR في C# – تحويل PDF إلى نص بسهولة](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+تعلم كيفية استخدام Aspose.OCR لتحويل ملفات PDF إلى نص باستخدام C# بسهولة.
+### [كيفية حفظ JSON من OCR في C# – دليل خطوة بخطوة كامل](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+تعلم كيفية استخراج النص من OCR وحفظه كملف JSON باستخدام C# خطوة بخطوة.
+### [التعرف على النص الصيني دون اتصال – دليل C# كامل](./recognize-chinese-text-offline-complete-c-guide/)
+دليل شامل لاستخدام Aspose.OCR للتعرف على النص الصيني دون اتصال في تطبيقات C# خطوة بخطوة.
+### [كيفية إنشاء محرك OCR في C# – دليل الإعداد غير المتصل](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+تعلم كيفية إعداد محرك OCR محليًا في بيئة C# دون الحاجة إلى اتصال بالإنترنت.
+### [كيفية التحقق من توفر نموذج OCR في C# – دليل خطوة بخطوة](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+تعلم كيفية فحص ما إذا كان نموذج OCR متاحًا في بيئة C# واستخدامه في تطبيقاتك خطوة بخطوة.
+### [إدراج الخطوط في PDF – إنشاء ملفات PDF قابلة للبحث من JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+تعلم كيفية إدراج الخطوط في ملفات PDF وتحويل صور JPEG إلى ملفات PDF قابلة للبحث باستخدام Aspose.PDF.
+### [قراءة النص من PNG – استخراج النص السيريلي باستخدام Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+تعلم كيفية استخراج النص السيريلي من ملفات PNG باستخدام مكتبة Aspose OCR في .NET.
+### [تعيين جهاز GPU لتقنية OCR في C# – دليل برمجة كامل](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+تعلم كيفية تكوين جهاز GPU لتسريع عملية OCR باستخدام Aspose.OCR في تطبيقات C#.
+### [التعرف على النص من صورة في C# – كيفية التعرف على كانادا باستخدام Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+تعلم كيفية استخراج النص من صورة باللغة الكنادية باستخدام Aspose OCR في تطبيقات .NET.
+### [إنشاء معالج تدقيق إملائي باستخدام Aspose OCR AI – دليل كامل](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+تعلم كيفية إنشاء معالج تدقيق إملائي باستخدام تقنية Aspose OCR AI خطوة بخطوة.
+### [التحقق من علامة الترخيص في Aspose OCR – دليل سريع للتحقق من الترخيص](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+تعلم كيفية فحص حالة الترخيص في Aspose OCR بسرعة لضمان تشغيل المكتبة بشكل صحيح.
+### [كيفية تمكين GPU لتقنية OCR في C# – دليل خطوة بخطوة](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+تعلم كيفية تفعيل معالجة GPU في Aspose.OCR باستخدام C# لتحسين سرعة ودقة التعرف على النص.
+### [كيفية تنزيل حزمة لغة OCR للغة الروسية – دليل كامل](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+تعلم خطوة بخطوة كيفية تحميل حزمة اللغة الروسية لاستخدام OCR مع Aspose.OCR.
+### [كيفية تعطيل OCR في C# – دليل Aspose OCR غير المتصل](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+تعلم كيفية إيقاف تشغيل OCR في تطبيقات C# باستخدام Aspose OCR دون اتصال بالإنترنت.
+### [تحميل صورة للتعرف الضوئي على الأحرف في C# – دليل كامل لـ Aspose OCR وتدقيق الإملاء](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+تعلم كيفية تحميل صورة وإجراء OCR مع تدقيق إملائي باستخدام Aspose OCR في C# خطوة بخطوة.
+### [إنشاء محرك OCR في C# – دليل كامل](./create-ocr-engine-in-c-complete-guide/)
+دليل شامل لإنشاء محرك OCR باستخدام C# مع Aspose.OCR، يغطي الإعداد، التكوين، واستخدامه في التطبيقات.
+### [تحديد حد ذاكرة GPU باستخدام Aspose OCR – دليل C# للـ GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+تعلم كيفية ضبط حد الذاكرة للـ GPU في Aspose OCR باستخدام C# لتحسين الأداء.
+### [كيفية تعيين الترخيص في Aspose OCR – دليل كامل بلغة C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية إعداد ترخيص Aspose OCR في تطبيقات C# لضمان تشغيل المكتبة دون قيود.
+### [استخراج النص من الصورة باستخدام Aspose OCR GPU – دليل كامل بلغة C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+دليل شامل يوضح كيفية استخدام Aspose OCR مع وحدة معالجة الرسوميات لاستخراج النص من الصور باستخدام C#.
+### [كيفية تنفيذ OCR في C# – دليل متعدد اللغات](./how-to-perform-ocr-in-c-multi-language-guide/)
+تعلم كيفية استخدام Aspose.OCR لمعالجة نصوص متعددة اللغات في تطبيقات C# بسهولة.
+### [تحويل الصورة إلى نص C# – Aspose OCR مع تعطيل التحميل](./image-to-text-c-aspose-ocr-with-disabled-download/)
+تعلم استخراج النص من الصور في C# باستخدام Aspose OCR مع تعطيل خيار التحميل.
+### [الحصول على إصدار Aspose OCR في C# – دليل كامل](./get-aspose-ocr-version-in-c-complete-guide/)
+دليل شامل يوضح طريقة استخراج رقم إصدار Aspose OCR في تطبيق C# واستخدامه في بيئة .NET.
+### [كيفية استخدام OcrEngine في C# – دليل OCR كامل](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+دليل شامل يشرح كيفية استخدام OcrEngine في C# لإجراء التعرف الضوئي على الأحرف باستخدام Aspose.OCR.
+### [إنشاء PDF قابل للبحث من صورة – دليل خطوة بخطوة كامل](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+دليل شامل لإنشاء ملف PDF قابل للبحث من صورة باستخدام Aspose.OCR خطوة بخطوة.
+### [اكتشاف اللغة من الصورة في C# – دليل برمجة كامل](./detect-language-from-image-in-c-complete-programming-guide/)
+تعلم كيفية استخراج اللغة من الصور باستخدام Aspose.OCR في C# وإنشاء تطبيق يحدد لغة النص بدقة.
+### [كيفية استخدام OcrEngineConfig – تكوين محرك OCR في C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+تعلم كيفية تكوين محرك OCR باستخدام OcrEngineConfig في C# لتخصيص إعدادات التعرف على النص.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  
@@ -71,12 +127,12 @@ weight: 24
 تعلم كيفية قراءة الموارد المضمنة في .NET وتعيين ترخيص Aspose خطوة بخطوة.
 ### [تنزيل نموذج لغة OCR في C# باستخدام Aspose – دليل كامل](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 تعلم كيفية تنزيل نموذج لغة OCR واستخدامه في تطبيقات C# مع Aspose خطوة بخطوة.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [كيفية تمكين وحدة معالجة الرسومات (GPU) لـ Aspose OCR – دليل خطوة بخطوة](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 تعلم كيفية تفعيل GPU لتسريع عمليات التعرف الضوئي على الحروف باستخدام Aspose OCR خطوة بخطوة.
 ### [التعرف على نص الصورة في C# – التعرف الضوئي على الحروف العربية باستخدام Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -84,20 +140,20 @@ weight: 24
 ### [كيفية تعيين ترخيص Aspose في C# – دليل كامل](./how-to-set-aspose-license-in-c-complete-guide/)
 تعلم خطوة بخطوة كيفية إعداد ترخيص Aspose في تطبيقات C# لضمان تشغيل المكتبة بدون قيود.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [كيفية تطبيق الترخيص في Aspose OCR – دليل خطوة بخطوة C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 تعلم كيفية تطبيق الترخيص في Aspose OCR باستخدام C# خطوة بخطوة.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## الأسئلة المتكررة
 
 **س: هل يمكنني استخدام Aspose.OCR في تطبيق .NET تجاري؟**  
@@ -127,6 +183,7 @@ weight: 24
 ## دروس تكوين التعرف الضوئي على الحروف
 ### [كيفية التحقق من دعم لغات OCR في C# – دليل كامل](./how-to-check-ocr-language-support-in-c-complete-guide/)
 تعرف على طريقة فحص اللغات المدعومة في OCR باستخدام C# خطوة بخطوة باستخدام Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
