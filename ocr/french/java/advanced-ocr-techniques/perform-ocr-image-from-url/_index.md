@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extraire du texte depuis une URL avec Aspose.OCR pour Java
@@ -159,17 +161,10 @@ R : Oui, vous pouvez télécharger une version d’essai complète depuis [rel
 **Testé avec :** Aspose.OCR 24.11 pour Java  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriels associés
 - [Extraire du texte d'images – Bases de l'OCR avec Aspose.OCR pour Java](/ocr/java/ocr-basics/)
 - [Extraire du texte d'une image Java avec le mode Détection de zones Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Comment OCR du texte d'image avec sélection de langue en utilisant Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -183,3 +178,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

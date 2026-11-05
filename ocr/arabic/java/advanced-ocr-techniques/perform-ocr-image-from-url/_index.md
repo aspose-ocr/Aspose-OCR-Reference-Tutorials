@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخراج النص من URL باستخدام Aspose.OCR للـ Java
@@ -161,17 +163,10 @@ A: نعم، يمكنك تنزيل نسخة تجريبية كاملة الممي�
 **تم الاختبار مع:** Aspose.OCR 24.11 for Java  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 - [استخراج نص الصور – أساسيات OCR باستخدام Aspose.OCR للـ Java](/ocr/java/ocr-basics/)
 - [استخراج النص من صورة Java باستخدام وضع اكتشاف المناطق في Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [كيفية إجراء OCR لنص الصورة مع اللغة باستخدام Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -185,3 +180,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

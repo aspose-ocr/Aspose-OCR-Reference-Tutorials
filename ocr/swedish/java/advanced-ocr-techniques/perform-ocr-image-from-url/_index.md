@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahera text från URL med Aspose.OCR för Java
@@ -170,18 +172,11 @@ A: Ja, du kan ladda ner en fullt utrustad provversion från [releases.aspose.com
 **Testad med:** Aspose.OCR 24.11 for Java  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Extrahera textbilder – OCR-grunder med Aspose.OCR för Java](/ocr/java/ocr-basics/)
 - [Extrahera text från bild Java med Aspose.OCR Detektera områden‑läge](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Hur man OCR‑läser bildtext med språk med Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -195,3 +190,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

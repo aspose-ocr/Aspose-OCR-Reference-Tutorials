@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Halaman Spesifik Java – Tutorial Pengakuan Karakter Optik Java
@@ -163,15 +165,15 @@ Anda kini telah menguasai **cara melakukan OCR specific page java menggunakan As
 **Diuji Dengan:** Aspose.OCR 24.12 for Java  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Ekstrak Teks dari Gambar Java dengan Aspose.OCR Mode Deteksi Area](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Cara Mengenali Persegi Panjang Halaman untuk Pengenalan Teks OCR di Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Contoh Aspose OCR Java – Mengenali Garis dalam Gambar](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

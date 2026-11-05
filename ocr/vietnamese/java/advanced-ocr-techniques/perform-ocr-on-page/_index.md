@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Trang Cụ Thể Java – Hướng Dẫn Nhận Dạng Ký Tự Quang Học Java
@@ -150,13 +152,14 @@ Bạn đã thành thạo **cách thực hiện OCR specific page java bằng Asp
 **Kiểm tra với:** Aspose.OCR 24.12 for Java  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 - [Trích xuất văn bản từ hình ảnh Java với chế độ Phát hiện khu vực của Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Cách nhận diện hình chữ nhật trang cho nhận dạng văn bản OCR trong Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Ví dụ Aspose OCR Java – Nhận dạng các dòng trong hình ảnh](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR specifikus oldal Java – Java optikai karakterfelismerés útmutató
@@ -163,15 +165,15 @@ Most már elsajátítottad, **hogyan hajtsunk végre OCR specifikus oldal Java-v
 **Tesztelve ezzel:** Aspose.OCR 24.12 for Java  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [Szöveg kinyerése képből Java-val az Aspose.OCR Detect Areas Mode használatával](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Hogyan ismerjünk fel oldal téglalapokat OCR szövegfelismeréshez az Aspose.OCR-ben](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR Java példa – sorok felismerése képeken](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

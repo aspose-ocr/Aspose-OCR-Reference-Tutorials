@@ -40,7 +40,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Pagina Specifica Java – Tutorial di Riconoscimento Ottico dei Caratteri Java
@@ -151,13 +153,14 @@ Ora hai padroneggiato **come eseguire OCR specific page java usando Aspose.OCR**
 **Testato Con:** Aspose.OCR 24.12 for Java  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Correlati
 - [Estrai Testo da Immagine Java con Aspose.OCR Modalità Rileva Aree](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Come Riconoscere i Rettangoli di Pagina per il Riconoscimento Testo OCR in Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Esempio Aspose OCR Java – Riconoscimento delle Linee nelle Immagini](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

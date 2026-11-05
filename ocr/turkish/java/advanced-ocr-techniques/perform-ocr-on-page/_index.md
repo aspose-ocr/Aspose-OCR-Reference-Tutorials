@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Belirli Sayfa Java – Java Optik Karakter Tanıma Eğitimi
@@ -149,13 +151,14 @@ Artık **how to perform OCR specific page java using Aspose.OCR** konusunu ustac
 **Test Edilen:** Aspose.OCR 24.12 for Java  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Eğitimler
 - [Aspose.OCR Detect Areas Mode ile Java'da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR'da OCR Metin Tanıması için Sayfa Dikdörtgenlerini Tanıma](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR Java Örneği – Görüntülerde Satırları Tanıma](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

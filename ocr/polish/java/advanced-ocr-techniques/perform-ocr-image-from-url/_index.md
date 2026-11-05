@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnianie tekstu z adresu URL przy użyciu Aspose.OCR dla Javy
@@ -172,18 +174,11 @@ A: Tak, możesz pobrać w pełni funkcjonalną wersję próbną z [releases.aspo
 **Testowano z:** Aspose.OCR 24.11 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Wyodrębnianie tekstu z obrazów – Podstawy OCR z Aspose.OCR dla Javy](/ocr/java/ocr-basics/)
 - [Wyodrębnianie tekstu z obrazu w Javie przy użyciu trybu wykrywania obszarów Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Jak wykonać OCR tekstu obrazu z językiem przy użyciu Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -197,3 +192,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

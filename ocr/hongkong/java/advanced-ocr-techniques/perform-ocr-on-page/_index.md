@@ -37,7 +37,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR 特定頁面 Java – Java 光學字符識別教學
@@ -161,15 +163,15 @@ try {
 **Tested With:** Aspose.OCR 24.12 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [Extract Text from Image Java with Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [How to Recognize Page Rectangles for OCR Text Recognition in Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR Java Example – Recognizing Lines in Images](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

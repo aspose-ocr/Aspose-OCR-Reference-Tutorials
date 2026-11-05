@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # URL'den Metin Çıkarma Aspose.OCR for Java
@@ -170,18 +172,11 @@ Görsel kaynaklardan aranabilir, indekslenebilir içerik gerektiğinde—örneğ
 **Tested With:** Aspose.OCR 24.11 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Eğitimler
 
 - [Metin Görüntülerini Çıkarma – Aspose.OCR for Java ile OCR Temelleri](/ocr/java/ocr-basics/)
 - [Aspose.OCR Detect Areas Modu ile Java'da Görüntüden Metin Çıkarma](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR Kullanarak Dil ile Görüntü Metnini OCR Yapma](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -195,3 +190,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

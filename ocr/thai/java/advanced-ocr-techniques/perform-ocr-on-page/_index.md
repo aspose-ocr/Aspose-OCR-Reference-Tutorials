@@ -38,7 +38,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Specific Page Java – การสอนการจดจำอักขระด้วยแสง (OCR) ใน Java
@@ -149,13 +151,14 @@ A: API ของ Java ปัจจุบันคืนค่าเป็นข�
 **ทดสอบด้วย:** Aspose.OCR 24.12 for Java  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทเรียนที่เกี่ยวข้อง
 - [สกัดข้อความจากภาพ Java ด้วย Aspose.OCR โหมดตรวจจับพื้นที่](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [วิธีจดจำสี่เหลี่ยมหน้าสำหรับการจดจำข้อความ OCR ใน Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [ตัวอย่าง Aspose OCR Java – การจดจำเส้นในภาพ](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

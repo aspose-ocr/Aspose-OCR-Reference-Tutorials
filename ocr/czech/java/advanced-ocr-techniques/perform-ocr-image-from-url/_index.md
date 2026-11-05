@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahovat text z URL pomocí Aspose.OCR pro Java
@@ -172,18 +174,11 @@ A: Ano, můžete si stáhnout plně vybavenou zkušební verzi z [releases.aspos
 **Testováno s:** Aspose.OCR 24.11 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Extrahovat text z obrázků – Základy OCR s Aspose.OCR pro Java](/ocr/java/ocr-basics/)
 - [Extrahovat text z obrázku v Javě s Aspose.OCR Detekční režim oblastí](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Jak OCR text z obrázku s jazykem pomocí Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -197,3 +192,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

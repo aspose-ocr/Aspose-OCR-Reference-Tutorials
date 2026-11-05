@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR for Java를 사용하여 URL에서 텍스트 추출
@@ -172,18 +174,11 @@ A: 예, [releases.aspose.com](https://releases.aspose.com/)에서 전체 기능�
 **테스트 환경:** Aspose.OCR 24.11 for Java  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [이미지에서 텍스트 추출 – Aspose.OCR for Java OCR 기본](/ocr/java/ocr-basics/)
 - [Aspose.OCR 감지 영역 모드로 Java 이미지에서 텍스트 추출](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR을 사용한 언어별 이미지 텍스트 OCR 방법](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -197,3 +192,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

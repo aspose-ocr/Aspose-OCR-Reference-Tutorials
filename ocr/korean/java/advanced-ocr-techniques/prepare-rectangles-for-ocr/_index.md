@@ -36,7 +36,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR에서 페이지 사각형 인식을 통해 OCR 정확도 향상 방법
@@ -154,8 +156,6 @@ try {
 **테스트 환경:** Aspose.OCR for Java 24.12  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -174,7 +174,9 @@ import java.util.ArrayList;
 - [Aspose OCR Java 예제 – 이미지에서 라인 인식](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java 광학 문자 인식: 특정 페이지 OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

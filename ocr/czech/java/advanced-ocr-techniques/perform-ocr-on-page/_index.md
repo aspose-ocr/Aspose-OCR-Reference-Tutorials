@@ -38,7 +38,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR konkrétní stránka Java – Java Optical Character Recognition tutoriál
@@ -149,14 +151,14 @@ Nyní jste zvládli **jak provádět OCR konkrétní stránka java pomocí Aspos
 **Testováno s:** Aspose.OCR 24.12 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 - [Extrahovat text z obrázku v Javě s Aspose.OCR Detekce oblastí](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Jak rozpoznat obdélníky stránky pro OCR rozpoznávání textu v Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR Java příklad – Rozpoznávání řádků na obrázcích](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

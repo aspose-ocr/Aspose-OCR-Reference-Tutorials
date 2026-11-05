@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tekst extraheren van URL met Aspose.OCR voor Java
@@ -172,18 +174,11 @@ A: Ja, je kunt een volledig uitgeruste proefversie downloaden van [releases.aspo
 **Getest met:** Aspose.OCR 24.11 for Java  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Tekst uit afbeeldingen extraheren – OCR‑basis met Aspose.OCR voor Java](/ocr/java/ocr-basics/)
 - [Tekst extraheren uit afbeelding Java met Aspose.OCR Detect Areas‑modus](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Hoe OCR‑tekst van afbeelding met taal gebruiken met Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -197,3 +192,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

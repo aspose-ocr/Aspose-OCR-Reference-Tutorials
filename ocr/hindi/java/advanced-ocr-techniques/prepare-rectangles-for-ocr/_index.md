@@ -37,7 +37,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR में पेज आयतों को पहचानकर OCR सटीकता कैसे सुधारें
@@ -145,8 +147,6 @@ try {
 **परीक्षित संस्करण:** Aspose.OCR for Java 24.12  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -165,5 +165,8 @@ import java.util.ArrayList;
 - [Java Optical Character Recognition: OCR Specific Page](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -39,7 +39,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hoe de OCR‑nauwkeurigheid te verbeteren door pagina‑rechthoeken te herkennen in Aspose.OCR
@@ -161,8 +163,6 @@ Je hebt nu geleerd hoe je **pagina‑rechthoeken kunt herkennen** met Aspose.OCR
 **Getest met:** Aspose.OCR for Java 24.12  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -181,7 +181,9 @@ import java.util.ArrayList;
 - [Aspose OCR Java‑voorbeeld – Lijnen herkennen in afbeeldingen](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java Optical Character Recognition: OCR specifieke pagina](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

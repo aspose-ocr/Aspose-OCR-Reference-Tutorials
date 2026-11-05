@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR विशिष्ट पृष्ठ जावा – जावा ऑप्टिकल कैरेक्टर रिकग्निशन ट्यूटोरियल
@@ -163,15 +165,15 @@ A: वर्तमान Java API प्लेन टेक्स्ट लौ�
 **परीक्षित संस्करण:** Aspose.OCR 24.12 for Java  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Aspose.OCR डिटेक्ट एरिया मोड के साथ जावा में इमेज से टेक्स्ट निकालें](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR में OCR टेक्स्ट रिकग्निशन के लिए पेज रेक्टैंगल्स को कैसे पहचानें](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR जावा उदाहरण – इमेज में लाइनों को पहचानना](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

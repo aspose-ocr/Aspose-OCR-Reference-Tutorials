@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Specifieke Pagina Java – Java Optical Character Recognition Handleiding
@@ -163,15 +165,15 @@ Je hebt nu beheerst **hoe je OCR specifieke pagina java kunt uitvoeren met Aspos
 **Getest met:** Aspose.OCR 24.12 for Java  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde handleidingen
 
 - [Tekst extraheren uit afbeelding Java met Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Hoe pagina‑rechthoeken te herkennen voor OCR‑tekstherkenning in Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR Java‑voorbeeld – Lijnen herkennen in afbeeldingen](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

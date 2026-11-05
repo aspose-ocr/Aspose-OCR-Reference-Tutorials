@@ -37,7 +37,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR'da Sayfa Dikdörtgenlerini Tanıyarak OCR Doğruluğunu Nasıl Artırabilirsiniz
@@ -159,8 +161,6 @@ Artık Aspose.OCR for Java ile **sayfa dikdörtgenlerini tanıma**, lisans ayarl
 **Test Edilen Versiyon:** Aspose.OCR for Java 24.12  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -179,7 +179,9 @@ import java.util.ArrayList;
 - [Aspose OCR Java Example – Recognizing Lines in Images](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java Optical Character Recognition: OCR Specific Page](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

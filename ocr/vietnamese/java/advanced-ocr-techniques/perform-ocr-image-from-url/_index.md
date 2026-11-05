@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản từ URL bằng Aspose.OCR cho Java
@@ -170,18 +172,11 @@ A: Có, bạn có thể tải bản dùng thử đầy đủ tính năng từ [r
 **Kiểm tra với:** Aspose.OCR 24.11 for Java  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Trích xuất Văn bản từ Hình ảnh – Cơ bản OCR với Aspose.OCR cho Java](/ocr/java/ocr-basics/)
 - [Trích xuất Văn bản từ Hình ảnh Java với Chế độ Phát hiện Vùng của Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Cách OCR Văn bản Hình ảnh với Ngôn ngữ Sử dụng Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -195,3 +190,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

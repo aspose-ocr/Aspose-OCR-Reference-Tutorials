@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR for Java を使用した URL からのテキスト抽出
@@ -172,18 +174,11 @@ A: はい、[releases.aspose.com](https://releases.aspose.com/) からフル機�
 **テスト環境:** Aspose.OCR 24.11 for Java  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [画像からテキスト抽出 – Aspose.OCR for Java の OCR 基礎](/ocr/java/ocr-basics/)
 - [Aspose.OCR の検出領域モードを使用した Java での画像からテキスト抽出](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR を使用した言語別画像テキスト OCR の方法](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -197,3 +192,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

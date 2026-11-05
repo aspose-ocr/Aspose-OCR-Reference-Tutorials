@@ -38,7 +38,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR 특정 페이지 Java – Java 광학 문자 인식 튜토리얼
@@ -160,8 +162,6 @@ You’ve now mastered **how to perform OCR specific page java using Aspose.OCR**
 **테스트 환경:** Aspose.OCR 24.12 for Java  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [Aspose.OCR 감지 영역 모드로 Java 이미지에서 텍스트 추출](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -169,5 +169,8 @@ You’ve now mastered **how to perform OCR specific page java using Aspose.OCR**
 - [Aspose OCR Java 예제 – 이미지에서 라인 인식](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

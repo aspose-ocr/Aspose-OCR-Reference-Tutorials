@@ -40,7 +40,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR for Java 从 URL 提取文本
@@ -171,18 +173,11 @@ A: 是的，您可以从 [releases.aspose.com](https://releases.aspose.com/) 下
 **测试环境：** Aspose.OCR 24.11 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [提取文本图像 – 使用 Aspose.OCR for Java 的 OCR 基础](/ocr/java/ocr-basics/)
 - [使用 Aspose.OCR 检测区域模式的 Java 图像文本提取](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [使用 Aspose.OCR 进行语言选择的图像文本 OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -196,3 +191,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

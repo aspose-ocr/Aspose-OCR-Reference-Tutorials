@@ -36,7 +36,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # كيفية تحسين دقة OCR من خلال التعرف على مستطيلات الصفحة في Aspose.OCR
@@ -156,8 +158,6 @@ try {
 **تم الاختبار مع:** Aspose.OCR for Java 24.12  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -177,5 +177,8 @@ import java.util.ArrayList;
 - [التعرف الضوئي على الأحرف في Java: صفحة OCR محددة](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

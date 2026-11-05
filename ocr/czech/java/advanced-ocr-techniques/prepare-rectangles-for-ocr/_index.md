@@ -37,7 +37,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak zlepšit přesnost OCR rozpoznáváním obdélníků stránky v Aspose.OCR
@@ -157,8 +159,6 @@ Nyní jste se naučili, jak **recognize page rectangles** s Aspose.OCR pro Java,
 **Testováno s:** Aspose.OCR for Java 24.12  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -177,7 +177,9 @@ import java.util.ArrayList;
 - [Aspose OCR Java příklad – Rozpoznávání řádků v obrázcích](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java optické rozpoznávání znaků: Specifická stránka OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

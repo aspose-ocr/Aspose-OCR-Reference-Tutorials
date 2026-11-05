@@ -36,7 +36,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCRでページ矩形を認識してOCR精度を向上させる方法
@@ -158,8 +160,6 @@ try {
 **テスト環境:** Aspose.OCR for Java 24.12  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -179,5 +179,8 @@ import java.util.ArrayList;
 - [Java光学文字認識: OCR特定ページ](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

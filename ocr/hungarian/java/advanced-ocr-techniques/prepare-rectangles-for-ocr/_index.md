@@ -38,7 +38,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hogyan javítható az OCR pontossága az oldalkeretek felismerésével az Aspose.OCR-ban
@@ -158,8 +160,6 @@ Most már megtanulta, hogyan **recognize page rectangles** használja az Aspose.
 **Tesztelve a következővel:** Aspose.OCR for Java 24.12  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -178,7 +178,9 @@ import java.util.ArrayList;
 - [Aspose OCR Java példa – Sorok felismerése képeken](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java optikai karakterfelismerés: OCR specifikus oldal](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

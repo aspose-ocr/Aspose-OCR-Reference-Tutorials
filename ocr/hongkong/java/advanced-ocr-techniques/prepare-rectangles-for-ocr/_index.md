@@ -35,7 +35,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何透過在 Aspose.OCR 中辨識頁面矩形來提升 OCR 準確度
@@ -155,8 +157,6 @@ try {
 **測試環境：** Aspose.OCR for Java 24.12  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -175,7 +175,9 @@ import java.util.ArrayList;
 - [Aspose OCR Java 範例 – 影像中線條辨識](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java 光學字元辨識：特定頁面 OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

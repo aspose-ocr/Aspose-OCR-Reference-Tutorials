@@ -38,7 +38,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR 特定ページ Java – Java 光学文字認識チュートリアル
@@ -162,15 +164,15 @@ A: 現在の Java API はプレーンテキストのみを返します。信頼�
 **テスト環境:** Aspose.OCR 24.12 for Java  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Aspose.OCR Detect Areas Mode を使用した Java での画像からテキスト抽出](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Aspose.OCR で OCR テキスト認識用ページ矩形を認識する方法](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Aspose OCR Java サンプル – 画像内の行を認識](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -38,7 +38,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR 特定页面 Java – Java 光学字符识别教程
@@ -163,8 +165,6 @@ A: 当前的 Java API 只返回纯文本；置信度数据在 .NET API 中可用
 **已测试：** Aspose.OCR 24.12 for Java  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [使用 Aspose.OCR 检测区域模式从 Java 图像中提取文本](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -172,5 +172,8 @@ A: 当前的 Java API 只返回纯文本；置信度数据在 .NET API 中可用
 - [Aspose OCR Java 示例 – 识别图像中的行](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สกัดข้อความจาก URL ด้วย Aspose.OCR สำหรับ Java
@@ -161,17 +163,10 @@ A: มี, คุณสามารถดาวน์โหลดการทด
 **ทดสอบด้วย:** Aspose.OCR 24.11 for Java  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 - [สกัดข้อความจากภาพ – พื้นฐาน OCR ด้วย Aspose.OCR สำหรับ Java](/ocr/java/ocr-basics/)
 - [สกัดข้อความจากภาพ Java ด้วยโหมด Detect Areas ของ Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [วิธี OCR ข้อความภาพด้วยภาษาโดยใช้ Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -185,3 +180,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

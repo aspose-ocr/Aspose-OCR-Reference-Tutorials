@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # URL‑ből szöveg kinyerése az Aspose.OCR for Java segítségével
@@ -172,18 +174,11 @@ V: Igen, letölthet egy teljes funkcionalitású próbát a [releases.aspose.com
 **Tesztelt verzió:** Aspose.OCR 24.11 for Java  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Képek szövegének kinyerése – OCR alapok az Aspose.OCR for Java‑val](/ocr/java/ocr-basics/)
 - [Szöveg kinyerése képből Java‑val az Aspose.OCR Detect Areas mód használatával](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Hogyan OCR‑eljünk képszöveget nyelvvel az Aspose.OCR használatával](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -197,3 +192,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

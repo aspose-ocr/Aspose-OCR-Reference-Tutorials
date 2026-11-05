@@ -37,7 +37,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Как улучшить точность OCR, распознавая прямоугольники страниц в Aspose.OCR
@@ -157,8 +159,6 @@ try {
 **Тестировано с:** Aspose.OCR for Java 24.12  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -177,7 +177,9 @@ import java.util.ArrayList;
 - [Пример Aspose OCR Java – распознавание линий на изображениях](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java OCR: конкретная страница OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

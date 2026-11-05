@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Συγκεκριμένη Σελίδα Java – Java Οπτική Αναγνώριση Χαρακτήρων
@@ -150,13 +152,14 @@ A: Το τρέχον Java API επιστρέφει απλό κείμενο· τ�
 **Δοκιμή Με:** Aspose.OCR 24.12 for Java  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 - [Εξαγωγή Κειμένου από Εικόνα Java με Aspose.OCR Detect Areas Mode](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Πώς να Αναγνωρίσετε Ορθογώνια Σελίδας για OCR Αναγνώριση Κειμένου στο Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Παράδειγμα Aspose OCR Java – Αναγνώριση Γραμμών σε Εικόνες](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

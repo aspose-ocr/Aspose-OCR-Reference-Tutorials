@@ -39,7 +39,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR конкретной страницы Java – Руководство по оптическому распознаванию символов в Java
@@ -163,8 +165,6 @@ A: Текущий Java API возвращает только простой те
 **Tested With:** Aspose.OCR 24.12 for Java  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [Извлечение текста из изображения Java с Aspose.OCR в режиме обнаружения областей](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
@@ -172,5 +172,8 @@ A: Текущий Java API возвращает только простой те
 - [Пример Aspose OCR Java – Распознавание строк на изображениях](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

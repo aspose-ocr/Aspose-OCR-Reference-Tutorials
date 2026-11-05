@@ -36,7 +36,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # วิธีปรับปรุงความแม่นยำของ OCR โดยการรับรู้สี่เหลี่ยมหน้ากระดาษใน Aspose.OCR
@@ -156,8 +158,6 @@ try {
 **ทดสอบด้วย:** Aspose.OCR for Java 24.12  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -176,7 +176,9 @@ import java.util.ArrayList;
 - [ตัวอย่าง Aspose OCR Java – การจดจำบรรทัดในภาพ](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [การจดจำอักขระด้วย Java OCR: หน้าเฉพาะ](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

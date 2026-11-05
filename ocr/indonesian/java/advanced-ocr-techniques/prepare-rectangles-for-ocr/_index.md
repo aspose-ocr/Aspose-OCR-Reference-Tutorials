@@ -38,7 +38,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cara Meningkatkan Akurasi OCR dengan Mengenali Persegi Panjang Halaman di Aspose.OCR
@@ -160,8 +162,6 @@ Anda kini telah mempelajari cara **recognize page rectangles** dengan Aspose.OCR
 **Diuji Dengan:** Aspose.OCR for Java 24.12  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -181,5 +181,8 @@ import java.util.ArrayList;
 - [Pengenalan Karakter Optik Java: Halaman OCR Spesifik](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -39,7 +39,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cách Cải Thiện Độ Chính Xác OCR Bằng Cách Nhận Dạng Các Hình Chữ Nhật Trang Trong Aspose.OCR
@@ -157,8 +159,6 @@ Bạn đã học cách **nhận dạng các hình chữ nhật trang** với Asp
 **Kiểm tra với:** Aspose.OCR for Java 24.12  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -177,7 +177,9 @@ import java.util.ArrayList;
 - [Ví dụ Aspose OCR Java – Nhận dạng các dòng trong hình ảnh](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Nhận dạng ký tự quang học Java: Trang OCR cụ thể](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

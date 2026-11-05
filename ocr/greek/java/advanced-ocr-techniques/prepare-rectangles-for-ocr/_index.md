@@ -39,7 +39,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πώς να βελτιώσετε την ακρίβεια OCR αναγνωρίζοντας τα ορθογώνια σελίδας στο Aspose.OCR
@@ -159,8 +161,6 @@ try {
 **Δοκιμάστηκε με:** Aspose.OCR for Java 24.12  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -179,7 +179,9 @@ import java.util.ArrayList;
 - [Παράδειγμα Aspose OCR Java – Αναγνώριση Γραμμών σε Εικόνες](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Java Optical Character Recognition: OCR Συγκεκριμένη Σελίδα](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

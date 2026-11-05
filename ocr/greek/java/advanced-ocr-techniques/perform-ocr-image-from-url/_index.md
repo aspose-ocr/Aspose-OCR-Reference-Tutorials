@@ -41,7 +41,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ανάκτηση κειμένου από URL χρησιμοποιώντας το Aspose.OCR για Java
@@ -171,18 +173,11 @@ A: Ναι, μπορείτε να κατεβάσετε μια πλήρως εξο
 **Δοκιμάστηκε με:** Aspose.OCR 24.11 for Java  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Εξαγωγή Κειμένου από Εικόνες – Βασικά OCR με Aspose.OCR για Java](/ocr/java/ocr-basics/)
 - [Εξαγωγή Κειμένου από Εικόνα Java με Aspose.OCR Λειτουργία Ανίχνευσης Περιοχών](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Πώς να OCR Κείμενο Εικόνας με Γλώσσα Χρησιμοποιώντας το Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
-
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
 ```java
 System.out.println("Result: \n" + result.recognitionText + "\n\n");
@@ -196,3 +191,10 @@ for (String warning : result.warnings) {
     System.out.println(warning);
 }
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

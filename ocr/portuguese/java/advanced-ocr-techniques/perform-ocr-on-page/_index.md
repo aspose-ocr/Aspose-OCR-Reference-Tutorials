@@ -40,7 +40,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR de Página Específica Java – Tutorial de Reconhecimento Óptico de Caracteres Java
@@ -164,15 +166,15 @@ Agora você dominou **como executar OCR de página específica Java usando Aspos
 **Testado com:** Aspose.OCR 24.12 for Java  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriais Relacionados
 
 - [Extrair Texto de Imagem Java com Aspose.OCR Modo Detectar Áreas](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 - [Como Reconhecer Retângulos de Página para Reconhecimento de Texto OCR no Aspose.OCR](/ocr/java/advanced-ocr-techniques/prepare-rectangles-for-ocr/)
 - [Exemplo Aspose OCR Java – Reconhecendo Linhas em Imagens](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -39,7 +39,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Comment améliorer la précision OCR en reconnaissant les rectangles de page dans Aspose.OCR
@@ -157,8 +159,6 @@ Vous avez maintenant appris comment **reconnaître les rectangles de page** avec
 **Testé avec :** Aspose.OCR for Java 24.12  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
 
@@ -177,7 +177,9 @@ import java.util.ArrayList;
 - [Exemple Aspose OCR Java – Reconnaissance de lignes dans les images](/ocr/java/advanced-ocr-techniques/recognize-lines/)
 - [Reconnaissance optique de caractères Java : page OCR spécifique](/ocr/java/advanced-ocr-techniques/perform-ocr-on-page/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
