@@ -99,6 +99,8 @@ weight: 24
 تعلم كيفية استخراج اللغة من الصور باستخدام Aspose.OCR في C# وإنشاء تطبيق يحدد لغة النص بدقة.
 ### [كيفية استخدام OcrEngineConfig – تكوين محرك OCR في C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 تعلم كيفية تكوين محرك OCR باستخدام OcrEngineConfig في C# لتخصيص إعدادات التعرف على النص.
+### [كيفية تنفيذ OCR باستخدام Aspose.OCR – دليل C# كامل](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية تنفيذ OCR في تطبيقات C# باستخدام Aspose.OCR خطوة بخطوة.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

@@ -102,6 +102,8 @@ Impara a trasformare un'immagine in un PDF ricercabile con Aspose.OCR, passo dop
 Scopri come rilevare la lingua da un'immagine in C# con una guida completa.
 ### [Come usare OcrEngineConfig – Configurazione del motore OCR in C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Scopri come configurare il motore OCR con OcrEngineConfig in C# per ottimizzare il riconoscimento delle immagini.
+### [Come eseguire OCR con Aspose.OCR – Guida completa C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Scopri passo passo come implementare il riconoscimento OCR in C# usando Aspose.OCR, con esempi completi e best practice.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

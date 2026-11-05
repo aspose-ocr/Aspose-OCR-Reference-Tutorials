@@ -152,6 +152,8 @@ weight: 24
 Полное руководство по определению языка текста на изображении с помощью Aspose.OCR в C#.
 ### [Как использовать OcrEngineConfig – конфигурация OCR‑движка в C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Узнайте, как настроить OcrEngineConfig для управления параметрами OCR‑движка в C# с Aspose.OCR.
+### [Как выполнить OCR с Aspose.OCR – Полное руководство на C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Подробное руководство по использованию Aspose.OCR в C# для полного процесса OCR от установки до получения текста.
 
 
 

@@ -264,6 +264,8 @@ Aspose.OCR를 사용해 C#에서 이미지의 기울기를 자동으로 보정�
 ### [C#에서 OCR을 위한 이미지 전처리 – 완전한 프로그래밍 가이드](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 Aspose.OCR와 함께 C#에서 이미지 전처리 과정을 단계별로 배워 OCR 정확도를 높이세요.
 ### [ASP.NET Core에서 이미지 텍스트 인식 – 업로드를 통한 OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+### [Aspose를 사용한 이미지 OCR 수행 – 완전 C# 가이드](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Aspose와 C#을 활용해 이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

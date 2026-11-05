@@ -46,6 +46,8 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้จากภาพสแกนโดยใช้ Aspose.OCR ใน C# เพื่อเพิ่มประสิทธิภาพการจัดการเอกสารของคุณ
 ### [ทำ OCR บน PDF ด้วย Aspose OCR – คู่มือครบถ้วน](./perform-ocr-on-pdf-with-aspose-ocr-complete-guide/)
 เรียนรู้วิธีทำ OCR บนไฟล์ PDF อย่างละเอียดด้วย Aspose OCR พร้อมขั้นตอนครบถ้วนเพื่อการแยกข้อความที่แม่นยำ
+### [สร้าง PDF ที่ค้นหาได้จากไฟล์สแกน – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากไฟล์สแกนด้วย Aspose.OCR และ C# อย่างครบถ้วน
 
 ## จดจำตารางในการจดจำรูปภาพ OCR
 
@@ -624,6 +626,10 @@ url: /th/net/text-recognition/
 
 ### [สร้าง PDF ที่ค้นหาได้ใน C# – คู่มือฉบับสมบูรณ์กับ Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้โดยใช้ C# และ Aspose OCR อย่างละเอียดในขั้นตอนเดียว
+### [วิธีรับรู้ข้อความจากรูปภาพใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+เรียนรู้ขั้นตอนเต็มรูปแบบในการใช้ Aspose OCR กับ C# เพื่อรับรู้ข้อความจากรูปภาพอย่างแม่นยำและง่ายดาย
+### [รับรู้ข้อความจากรูปภาพด้วย C# OCR – ตัวอย่างสมบูรณ์](./recognize-text-from-image-with-c-ocr-complete-example/)
+เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อรับรู้ข้อความจากรูปภาพอย่างครบถ้วนในตัวอย่างขั้นตอนเดียว
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

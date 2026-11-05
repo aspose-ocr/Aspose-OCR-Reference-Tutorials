@@ -303,6 +303,8 @@ Apprenez à redresser les images avec Aspose.OCR en C#, améliorant la précisio
 ### [Reconnaître du texte à partir d'une image dans ASP.NET Core – téléversement pour OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 Apprenez à téléverser des images dans une application ASP.NET Core et à appliquer l'OCR avec Aspose.OCR.
 ### [Prétraiter une image pour l'OCR en C# – Guide complet de programmation](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+### [Effectuer l'OCR sur une image avec Aspose – Guide complet C#](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Guide complet en C# pour réaliser l'OCR d'une image avec Aspose, incluant le code et les meilleures pratiques.
 
 ## Questions fréquemment posées
 

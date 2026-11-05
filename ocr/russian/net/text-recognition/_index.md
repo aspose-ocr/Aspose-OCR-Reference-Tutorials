@@ -662,6 +662,12 @@ url: /ru/net/text-recognition/
 ### [Выполнение OCR на изображении в C# – Полное руководство Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Полное пошаговое руководство по выполнению OCR на изображениях в C# с использованием Aspose OCR.
 
+### [Создание поискового PDF из отсканированных файлов – Полное руководство C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Полное руководство по созданию поискового PDF из отсканированных файлов с помощью Aspose.OCR и C#.
+### [Как распознать текст на изображении в C# – Полное руководство Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Подробное пошаговое руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
+### [Как распознать текст с изображения в C# – Полный пример](./recognize-text-from-image-with-c-ocr-complete-example/)
+Полный пример кода для распознавания текста с изображения в C# с помощью Aspose OCR.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -305,6 +305,8 @@ Využijte GPU akceleraci pro rychlé a přesné rozpoznání textu z obrázků s
 Naučte se, jak pomocí Aspose.OCR v C# automaticky odstranit sklon obrázku a zlepšit přesnost rozpoznání textu.
 ### [Rozpoznat text z obrázku v ASP.NET Core – nahrání pro OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 Naučte se, jak v ASP.NET Core nahrát obrázek a provést OCR pomocí Aspose.OCR.
+### [Provést OCR na obrázku s Aspose – Kompletní průvodce v C#](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Kompletní krok‑za‑krokem návod, jak pomocí Aspose.OCR v C# provést OCR na obrázku a získat přesný text.
 
 ## Často kladené otázky
 

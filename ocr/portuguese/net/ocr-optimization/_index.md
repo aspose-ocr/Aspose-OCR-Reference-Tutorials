@@ -312,6 +312,8 @@ Aprenda a remover a inclinação de imagens usando Aspose.OCR em C#, melhorando 
 Aprenda a fazer upload de imagens em uma aplicação ASP.NET Core e processá‑las com Aspose.OCR para reconhecimento de texto.
 ### [Pré‑processar imagem para OCR em C# – Guia completo de programação](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 Aprenda a aplicar filtros e técnicas de pré‑processamento em imagens usando C# para melhorar a precisão do OCR com Aspose.OCR.
+### [Executar OCR em Imagem com Aspose – Guia Completo em C#](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Explore integração de OCR avançada com Aspose em C#. Reconheça texto de imagens com alta precisão usando este guia completo.
 
 ## Perguntas Frequentes
 

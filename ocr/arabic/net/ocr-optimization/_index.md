@@ -299,6 +299,8 @@ weight: 25
 اكتشف طريقة تصحيح الميل للصور باستخدام Aspose.OCR في C# لتحسين نتائج OCR.
 ### [التعرف على النص من الصورة في ASP.NET Core – رفع للـ OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 اكتشف كيفية رفع الصور في تطبيق ASP.NET Core للمعالجة باستخدام Aspose.OCR.
+### [إجراء OCR على صورة باستخدام Aspose – دليل C# كامل](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+دليل شامل خطوة بخطوة لاستخدام Aspose.OCR في C# لاستخراج النص من الصور بدقة عالية.
 
 ## الأسئلة المتكررة
 

@@ -686,6 +686,12 @@ Naučte se pomocí Aspose.OCR v C# převést obrázek na prohledávatelný PDF s
 Naučte se, jak hromadně převádět obrázky na text pomocí Aspose OCR a optimalizovat procesy ve vašich .NET aplikacích.
 ### [Vytvořit prohledávatelný PDF v C# – kompletní průvodce s Aspose OCR](./create-searchable-pdf-in-c-complete-guide-with-aspose-ocr/)
 Kompletní návod, jak v C# s Aspose OCR vytvořit prohledávatelný PDF soubor s OCR technologií.
+### [Jak rozpoznat text z obrázku v C# – Kompletní průvodce Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Kompletní návod, jak pomocí Aspose.OCR v C# rozpoznat text z obrázku a získat výsledek.
+### [Rozpoznat text z obrázku v C# – Kompletní příklad](./recognize-text-from-image-with-c-ocr-complete-example/)
+Kompletní ukázka, jak pomocí Aspose.OCR v C# rozpoznat text z obrázku a získat výsledek.
+### [Vytvořte prohledávatelný PDF ze skenovaných souborů – Kompletní průvodce C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.OCR v C# vytvořit prohledávatelný PDF dokument ze skenovaných souborů.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

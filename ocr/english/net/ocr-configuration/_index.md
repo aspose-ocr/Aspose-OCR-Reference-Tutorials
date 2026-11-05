@@ -127,6 +127,8 @@ Learn how to retrieve the Aspose OCR library version in C# with a complete guide
 Learn how to detect the language of text within images using Aspose.OCR in C#, with a step‑by‑step programming guide.
 ### [How to Use OcrEngineConfig – OCR Engine Configuration in C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Configure OCR engine settings in C# with OcrEngineConfig to customize recognition behavior.
+### [How to Perform OCR with Aspose.OCR – Complete C# Guide](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Comprehensive C# guide to perform OCR using Aspose.OCR, covering setup, image processing, and extracting accurate text.
 
 ### Common use cases
 - **Extract text images** from scanned invoices for automated accounting.  

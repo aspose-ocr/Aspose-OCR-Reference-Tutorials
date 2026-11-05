@@ -264,6 +264,8 @@ Tận dụng sức mạnh GPU để tăng tốc độ và độ chính xác khi 
 ### [Cách chỉnh nghiêng ảnh trong C# – Hướng dẫn đầy đủ Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
 Hướng dẫn chi tiết cách loại bỏ độ nghiêng của ảnh trong C# bằng Aspose.OCR, nâng cao độ chính xác nhận dạng ký tự.
 ### [Nhận dạng văn bản từ hình ảnh trong ASP.NET Core – tải lên cho OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+### [Thực hiện OCR trên hình ảnh với Aspose – Hướng dẫn C# đầy đủ](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để thực hiện OCR trên hình ảnh, bao gồm cài đặt và ví dụ đầy đủ.
 
 ## Câu hỏi thường gặp
 

@@ -94,6 +94,8 @@ C# で OcrEngine クラスを活用し、画像からテキストを抽出する
 画像から検索可能な PDF を作成する手順をステップバイステップで解説します。
 ### [C# による画像からの言語検出 – 完全プログラミングガイド](./detect-language-from-image-in-c-complete-programming-guide/)
 ### [OcrEngineConfig の使用方法 – C# における OCR エンジン構成](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+### [Aspose.OCR で OCR を実行する方法 – 完全 C# ガイド](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR を使用した C# 完全ガイドで、OCR の設定からテキスト抽出までをステップバイステップで学びます。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

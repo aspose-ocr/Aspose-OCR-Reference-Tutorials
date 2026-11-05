@@ -113,6 +113,8 @@ Erfahren Sie, wie Sie OcrEngine in C# einsetzen, um OCR‑Prozesse von Grund auf
 Erfahren Sie, wie Sie mit Aspose.OCR die Sprache aus Bilddateien in C# automatisch erkennen und verarbeiten.
 ### [Wie man OcrEngineConfig verwendet – OCR-Engine-Konfiguration in C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Erfahren Sie, wie Sie OcrEngineConfig konfigurieren, um die OCR-Engine in C#-Anwendungen anzupassen und zu optimieren.
+### [Wie man OCR mit Aspose.OCR ausführt – Vollständiger C#‑Leitfaden](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# eine komplette OCR‑Lösung implementieren, von der Einrichtung bis zur Textextraktion.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

@@ -692,6 +692,12 @@ Aspose OCR と C# を活用し、検索可能な PDF を作成する手順をス
 Aspose OCR とバッチ処理を活用し、複数画像を一括でテキストに変換する手順をステップバイステップで解説します。
 ### [C# で画像から OCR を実行する – 完全 Aspose ガイド](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Aspose OCR と C# を使用して画像からテキストを抽出する完全ガイドです。ステップバイステップで手順を解説します。
+### [C# で画像からテキストを認識する方法 – 完全 Aspose OCR ガイド](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Aspose.OCR を使用して C# アプリケーションで画像からテキストを正確に抽出する完全ガイドです。ステップバイステップで解説します。
+### [C# OCR で画像からテキストを認識する – 完全例](./recognize-text-from-image-with-c-ocr-complete-example/)
+Aspose.OCR を使用して C# で画像からテキストを抽出する完全なサンプルです。ステップバイステップで解説します。
+### [スキャンしたファイルから検索可能な PDF を作成する – 完全 C# ガイド](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Aspose.OCR を使用してスキャン画像から検索可能な PDF を作成し、C# アプリケーションに統合する完全ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

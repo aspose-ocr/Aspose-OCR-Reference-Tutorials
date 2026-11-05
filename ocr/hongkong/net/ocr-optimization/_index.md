@@ -71,6 +71,8 @@ weight: 25
 透過 Aspose.OCR for .NET 教學清單，您可取得更多資源，並持續關注 OCR 優化的最新進展。深入探索 Aspose.OCR for .NET 教學，體驗精確與效率的結合。
 
 ## OCR 優化教學
+### [使用 Aspose 執行圖像 OCR – 完整 C# 指南](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+一步步教您在 .NET 中使用 Aspose 完整實作圖像 OCR，涵蓋設定、執行與結果處理。
 ### [在 OCR 圖像辨識中的圖像前處理濾鏡](./preprocessing-filters-for-image/)
 探索 Aspose.OCR for .NET，透過前處理濾鏡提升 OCR 精確度，立即下載以實現無縫整合。
 ### [使用 GPU 加速的圖像 OCR – 完整 C# 教學](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)

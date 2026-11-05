@@ -313,6 +313,8 @@ Pelajari cara menghilangkan kemiringan gambar dengan Aspose.OCR di C#, meningkat
 Panduan mengunggah gambar di ASP.NET Core dan melakukan OCR dengan Aspose.OCR untuk mengekstrak teks secara efisien.
 ### [Pra‑pemrosesan Gambar untuk OCR di C# – Panduan Pemrograman Lengkap](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 Pelajari cara melakukan pra‑pemrosesan gambar sebelum OCR menggunakan Aspose.OCR di C# untuk meningkatkan akurasi secara signifikan.
+### [Lakukan OCR pada Gambar dengan Aspose – Panduan Lengkap C#](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Panduan lengkap C# untuk melakukan OCR pada gambar menggunakan Aspose, mencakup contoh kode dan langkah-langkah integrasi.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -676,6 +676,12 @@ Ismerje meg, hogyan hozhat létre kereshető PDF-et C#-ban az Aspose OCR segíts
 Tanulja meg, hogyan konvertálhatja tömegesen a képeket szöveggé az Aspose OCR segítségével .NET környezetben.
 ### [Kép OCR végrehajtása C#-ban – Teljes Aspose útmutató](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Ismerje meg, hogyan hajthat végre OCR-t képeken C#-ban az Aspose segítségével egy részletes, lépésről-lépésre útmutatóval.
+### [Hogyan ismerjen fel szöveget képről C#-ban – Teljes Aspose OCR útmutató](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban képek szövegének pontos felismerésére, lépésről-lépésre útmutatóval.
+### [Képről szöveg felismerése C# OCR-rel – Teljes példa](./recognize-text-from-image-with-c-ocr-complete-example/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képek szövegének teljes körű felismerésére, részletes példakóddal.
+### [Kereshető PDF létrehozása beolvasott fájlokból – Teljes C# útmutató](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Ismerje meg, hogyan hozhat létre kereshető PDF-et beolvasott fájlokból az Aspose.OCR segítségével C#-ban, lépésről-lépésre útmutatóval.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

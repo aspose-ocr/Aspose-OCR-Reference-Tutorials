@@ -348,6 +348,8 @@ C# में Aspose.OCR का उपयोग करके छवि प्र�
 
 ### [ASP.NET Core में इमेज से पाठ पहचानें – OCR के लिए अपलोड](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 ASP.NET Core में इजेज अपलोड करके OCR के साथ पाठ पहचानें।
+### [Aspose के साथ छवि पर OCR निष्पादित करना – पूर्ण C# गाइड](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Aspose OCR का उपयोग करके C# में छवि से पाठ निकालने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका।
 
 ## अक्सर पूछे जाने वाले प्रश्न
 

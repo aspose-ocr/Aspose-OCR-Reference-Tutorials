@@ -687,6 +687,12 @@ Lär dig steg-för-steg hur du skapar en sökbar PDF i C# med Aspose OCR i vår 
 Lär dig hur du batch‑bearbetar bildfiler för att extrahera text med Aspose OCR i .NET.
 ### [Utför OCR på bild i C# – Komplett Aspose‑guide](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Lär dig steg-för-steg hur du använder Aspose OCR i C# för att utföra OCR på bilder med en komplett guide.
+### [Hur man känner igen text från bild i C# – Komplett Aspose OCR-guide](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen text i bilder med hög precision.
+### [Känn igen text från bild med C# OCR – Komplett exempel](./recognize-text-from-image-with-c-ocr-complete-example/)
+Följ ett komplett exempel för att känna igen text i bilder med Aspose.OCR och C#.
+### [Skapa sökbar PDF från skannade filer – Komplett C#-guide](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Lär dig steg-för-steg hur du skapar en sökbar PDF från skannade dokument med Aspose.OCR och C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

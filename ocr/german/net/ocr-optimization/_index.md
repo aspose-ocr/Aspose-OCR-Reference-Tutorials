@@ -308,6 +308,8 @@ Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus Bildern schnelle
 Erfahren Sie, wie Sie Bilder mit Aspose.OCR in C# entzerren und die OCR‑Genauigkeit steigern.
 ### [Texterkennung aus Bild in ASP.NET Core – Upload für OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 Erfahren Sie, wie Sie in ASP.NET Core Bilder hochladen und mit Aspose.OCR Text extrahieren.
+### [OCR auf Bild mit Aspose – Vollständiger C#‑Leitfaden](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# ein Bild vollständig analysieren und Text extrahieren – Schritt für Schritt.
 
 ## Häufig gestellte Fragen
 

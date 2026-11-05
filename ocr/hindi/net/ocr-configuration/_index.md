@@ -99,6 +99,8 @@ C# में OcrEngine का उपयोग करके इमेज से �
 Aspose.OCR का उपयोग करके C# में इमेज से भाषा का पता लगाएं और परिणाम प्राप्त करें।
 ### [OcrEngineConfig का उपयोग कैसे करें – C# में OCR इंजन कॉन्फ़िगरेशन](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Aspose.OCR में OcrEngineConfig सेट करके OCR इंजन को कस्टमाइज़ करें और C# में टेक्स्ट एक्सट्रैक्शन को नियंत्रित करें।
+### [Aspose.OCR के साथ OCR कैसे करें – पूर्ण C# गाइड](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR का उपयोग करके C# में पूर्ण OCR प्रक्रिया को चरण‑बद्ध तरीके से सीखें।
 
 ### कॉमन यूज़ केस
 - **टेक्स्ट इमेज निकालें** स्कैन किए गए इनवॉइस से टेक्स्ट निकालें ताकि ऑटोमेटेड अकाउंटिंग हो सके।

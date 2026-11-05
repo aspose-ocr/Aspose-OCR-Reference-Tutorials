@@ -111,6 +111,9 @@ Skapa en sökbar PDF från en bild med Aspose.OCR. En komplett steg‑för‑ste
 Lär dig hur du identifierar språk i en bild med C# och Aspose.OCR. En komplett guide för programmerare.
 ### [Hur man använder OcrEngineConfig – OCR-motorkonfiguration i C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 
+### [Hur man utför OCR med Aspose.OCR – Komplett C#‑guide](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+En fullständig C#‑guide som visar hur du använder Aspose.OCR för att extrahera text från bilder med hög precision.
+
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.
 - Indexera stora dokumentarkiv för sökbara förråd.

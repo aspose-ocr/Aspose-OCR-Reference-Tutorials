@@ -136,6 +136,8 @@ Learn to correct image skew using Aspose.OCR in C#. Follow step‑by‑step guid
 Leverage GPU acceleration with Aspose.OCR to recognize text from images faster and with high accuracy.
 ### [recognize text from image in ASP.NET Core – upload for OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 Learn how to upload images in ASP.NET Core and perform OCR using Aspose.OCR, extracting text efficiently.
+### [Perform OCR on Image with Aspose – Complete C# Guide](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Step‑by‑step C# guide to perform OCR on images using Aspose.OCR, covering setup, preprocessing, and result handling.
 
 ### [Extract Text from Image – Complete C# OCR Guide with Noise Reduction](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Learn a full C# OCR workflow with Aspose.OCR, including noise reduction techniques for higher accuracy.

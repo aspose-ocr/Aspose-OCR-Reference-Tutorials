@@ -99,6 +99,8 @@ Kompletní návod, jak využít třídu OcrEngine v C# pro přesné rozpoznává
 Naučte se, jak pomocí Aspose.OCR a Aspose.PDF převést obrázek na prohledávatelný PDF soubor v několika krocích.
 ### [Jak použít OcrEngineConfig – konfigurace OCR enginu v C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Naučte se konfigurovat OCR engine pomocí OcrEngineConfig v C# pro přesnější rozpoznávání textu.
+### [Jak provést OCR s Aspose.OCR – Kompletní průvodce v C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Kompletní návod, jak pomocí Aspose.OCR v C# implementovat OCR od instalace po získání výsledků.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

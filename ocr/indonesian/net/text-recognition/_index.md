@@ -688,6 +688,12 @@ Pelajari cara membuat PDF yang dapat dicari dalam C# menggunakan Aspose OCR deng
 Pelajari cara mengonversi banyak gambar menjadi teks secara otomatis menggunakan Aspose OCR dalam panduan pemrosesan batch yang mudah diikuti.
 ### [Lakukan OCR pada Gambar di C# – Panduan Lengkap Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Pelajari cara melakukan OCR pada gambar menggunakan Aspose OCR di C# dengan panduan lengkap langkah demi langkah.
+### [Cara Mengenali Teks dari Gambar di C# – Panduan Lengkap Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose OCR di C#. Ikuti langkah demi langkah untuk integrasi yang mudah.
+### [Mengenali Teks dari Gambar dengan C# OCR – Contoh Lengkap](./recognize-text-from-image-with-c-ocr-complete-example/)
+Contoh lengkap untuk mengenali teks dari gambar menggunakan OCR di C#. Ikuti langkah demi langkah untuk integrasi yang mudah.
+### [Membuat PDF yang Dapat Dicari dari File Pindai – Panduan Lengkap C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari dari file pindai menggunakan Aspose.OCR di C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

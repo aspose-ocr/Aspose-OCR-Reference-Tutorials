@@ -66,6 +66,8 @@ Met de Aspose.OCR voor .NET Tutorials Listing kun je extra bronnen raadplegen en
 ## OCR-optimalisatie tutorials
 ### [Hoe een afbeelding rechtzetten en OCR uitvoeren in C# – Complete gids](./how-to-deskew-image-and-run-ocr-in-c-complete-guide/)
 Leer stap‑voor‑stap hoe je een scheve afbeelding corrigeert en vervolgens OCR toepast met Aspose.OCR in C#.
+### [Perform OCR on Image with Aspose – Complete C# Guide](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Leer stap‑voor‑stap hoe je met Aspose OCR op een afbeelding toepast in C#, van configuratie tot resultaatopslag.
 ### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids. Leer stap‑voor‑stap hoe je rechthoeken voorbereidt voor beeldherkenning. Til je .NET‑applicaties naar een hoger niveau met naadloze OCR‑integratie.
 ### [Hoe OCR te gebruiken in C# – Tekst uit afbeeldingen halen met GPU-versnelling](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu-accele/)

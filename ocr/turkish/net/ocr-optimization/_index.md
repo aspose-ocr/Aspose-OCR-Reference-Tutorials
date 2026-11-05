@@ -287,6 +287,8 @@ Aspose.OCR kullanarak eğimli görüntüleri nasıl düzleştirip doğru metin t
 ASP.NET Core uygulamanıza görüntü yükleyerek OCR entegrasyonu ekleyin ve metni otomatik olarak çıkarın.
 ### [C# ile OCR için Görüntü Ön İşleme – Tam Programlama Rehberi](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 Aspose.OCR kullanarak C# içinde görüntüleri ön işleme adımlarıyla OCR doğruluğunu artırın.
+### [Aspose ile Görüntüde OCR Gerçekleştirme – Tam C# Kılavuzu](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Aspose.OCR for .NET kullanarak C# ile görüntüde OCR nasıl yapılır, adım adım tam rehber.
 
 ## Sıkça Sorulan Sorular
 

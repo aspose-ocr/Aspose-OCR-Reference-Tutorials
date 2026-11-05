@@ -155,6 +155,8 @@ Ismerje meg, hogyan alakíthatja a képet kereshető PDF-dokumentummá az Aspose
 Ismerje meg, hogyan lehet képről nyelvet felismerni C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.  
 ### [Hogyan használjuk az OcrEngineConfig‑t – OCR motor konfiguráció C#‑ban](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Ismerje meg, hogyan állíthatja be az OCR motor konfigurációját C#‑ban az Aspose.OCR segítségével.  
+### [Hogyan hajtsunk végre OCR-t az Aspose.OCR-rel – Teljes C# útmutató](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Lépésről lépésre bemutatja, hogyan használja az Aspose.OCR-t C#-ban a teljes körű OCR feldolgozáshoz.  
 
 
 

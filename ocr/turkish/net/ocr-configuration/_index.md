@@ -105,6 +105,8 @@ Aspose.OCR ve Aspose.PDF kullanarak tek bir görüntüden tam metin arama özell
 Aspose.OCR ile C# kullanarak bir görüntüden dili otomatik olarak tespit edin ve metne dönüştürün.
 ### [OcrEngineConfig Nasıl Kullanılır – C#'ta OCR Motoru Yapılandırması](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 Aspose.OCR’da OcrEngineConfig ayarlarını kullanarak OCR motorunu özelleştirin ve performansı artırın.
+### [Aspose.OCR ile OCR Nasıl Yapılır – Tam C# Rehberi](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR kullanarak C# ile tam OCR iş akışını adım adım öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

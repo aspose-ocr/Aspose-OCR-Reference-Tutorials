@@ -299,6 +299,8 @@ weight: 25
 ### [Πώς να διορθώσετε την κλίση εικόνας σε C# – Πλήρης οδηγός Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
 ### [Αναγνώριση κειμένου από εικόνα σε ASP.NET Core – μεταφόρτωση για OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 ### [Προεπεξεργασία εικόνας για OCR σε C# – Πλήρης προγραμματιστικός οδηγός](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+### [Εκτέλεση OCR σε εικόνα με Aspose – Πλήρης οδηγός C#](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Οδηγός βήμα‑βήμα για την υλοποίηση OCR σε εικόνα με Aspose χρησιμοποιώντας C#.
 
 ## Συχνές Ερωτήσεις
 

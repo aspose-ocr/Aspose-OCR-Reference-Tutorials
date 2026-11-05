@@ -311,6 +311,8 @@ Aspose.OCR を使用して C# で画像のデスキュー処理を行い、認�
 ASP.NET Core アプリで画像をアップロードし、Aspose.OCR を使用してテキストを高速に抽出する方法を解説します。
 ### [C# で画像を前処理して OCR を実行する – 完全プログラミングガイド](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 Aspose.OCR を使用して C# で画像前処理を行い、OCR の精度を最大化する手順をステップバイステップで解説します。
+### [Aspose で画像の OCR を実行 – 完全 C# ガイド](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Aspose.OCR を使用して C# で画像からテキストを抽出する完全ガイドです。ステップバイステップで実装方法を解説します。
 
 ## よくある質問
 

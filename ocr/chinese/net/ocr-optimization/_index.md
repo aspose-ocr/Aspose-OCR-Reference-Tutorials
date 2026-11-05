@@ -59,8 +59,6 @@ weight: 25
 ## OCR 优化教程
 ### [在 OCR 图像识别中对 URL 中的图像执行 OCR](./perform-ocr-on-image-from-url/)
 探索与 Aspose.OCR for .NET 的无缝 OCR 集成。精确识别图像中的文本。
-### [在 OCR 图像识别中准备矩形](./prepare-rectangles/)
-通过我们的综合指南释放 Aspose.OCR for .NET 的潜力。逐步学习如何准备用于图像识别的矩形。通过无缝 OCR 集成提升您的 .NET 应用程序。
 ### [OCR 图像识别中图像的预处理过滤器](./preprocessing-filters-for-image/)
 探索适用于 .NET 的 Aspose.OCR。使用预处理过滤器提高 OCR 准确性。立即下载以实现无缝集成。
 ### [C# 图像 OCR 预处理完整指南（含过滤器）](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
@@ -94,6 +92,11 @@ weight: 25
 ### [使用 Aspose OCR 进行图像文字识别 – GPU 加速 C# 教程](./recognize-text-from-image-with-aspose-ocr-gpu-accelerated-c/)
 利用 GPU 加速的 Aspose OCR，在 C# 中实现高效图像文字识别，提升处理速度和准确性。
 
+### [使用 Aspose 对图像执行 OCR – 完整 C# 指南](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+本完整 C# 指南展示如何使用 Aspose.OCR 对图像进行 OCR，涵盖加载、预处理、识别及结果保存的全部步骤。
+
+### [Prepare Rectangles in OCR Image Recognition](./prepare-rectangles/)
+通过我们的综合指南，释放 Aspose.OCR for .NET 的潜能。一步一步学习如何为图像识别准备矩形。用无缝的 OCR 集成提升您的 .NET 应用程序。
 
 
 ### [预处理图像以进行 OCR – 使用 Aspose.OCR 提升准确性](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)

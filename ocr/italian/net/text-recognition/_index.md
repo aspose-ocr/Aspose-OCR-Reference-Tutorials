@@ -675,6 +675,12 @@ Scopri come generare PDF ricercabili con C# e Aspose OCR, passo dopo passo, per 
 Scopri come convertire più immagini in testo simultaneamente usando Aspose OCR con una procedura batch efficiente.
 ### [Esegui OCR su immagine in C# – Guida completa Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Scopri come eseguire l'OCR su un'immagine usando C# e Aspose OCR con questa guida completa passo passo.
+### [Come riconoscere il testo da un'immagine in C# – Guida completa Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Scopri come estrarre testo da immagini usando C# e Aspose OCR con questa guida completa passo passo.
+### [Riconoscere il testo da un'immagine con C# OCR – Esempio completo](./recognize-text-from-image-with-c-ocr-complete-example/)
+Impara a estrarre testo da un'immagine usando C# e OCR con un esempio completo passo passo.
+### [Crea PDF ricercabile da file scansionati – Guida completa C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Impara a generare PDF ricercabili da documenti scansionati usando Aspose.OCR e C# con questa guida passo passo.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

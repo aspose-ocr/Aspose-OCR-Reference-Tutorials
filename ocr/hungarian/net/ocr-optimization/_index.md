@@ -342,6 +342,8 @@ Ismerje meg, hogyan használhatja az Aspose.OCR-t a képek automatikus kiegyenes
 
 ### [Szöveg felismerése képről ASP.NET Core‑ban – feltöltés OCR‑hez](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 Ismerje meg, hogyan tölthet fel képeket ASP.NET Core‑ban, és használhatja az Aspose.OCR-t a szöveg felismerésére.
+### [OCR végrehajtása képen az Aspose‑szal – Teljes C# útmutató](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Fedezze fel a teljes C# útmutatót az Aspose OCR használatához képeken, a beállításoktól a szöveg kinyeréséig.
 
 ## Gyakran Ismételt Kérdések
 

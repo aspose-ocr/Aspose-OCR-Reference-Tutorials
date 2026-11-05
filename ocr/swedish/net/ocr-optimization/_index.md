@@ -309,6 +309,8 @@ Utnyttja GPU-acceleration för att snabbt känna igen text i bilder med Aspose O
 Lär dig att korrigera snedställda bilder med Aspose.OCR i C# för förbättrad OCR‑noggrannhet.
 ### [Förbehandla bild för OCR i C# – Komplett programmeringsguide](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
 Lär dig hur du förbehandlar bilder för OCR i C# med en komplett steg‑för‑steg‑guide.
+### [Utför OCR på bild med Aspose – Komplett C#‑guide](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Steg‑för‑steg guide för att utföra OCR på en bild med Aspose i C#, inklusive kodexempel och bästa praxis.
 
 ## Vanliga frågor
 

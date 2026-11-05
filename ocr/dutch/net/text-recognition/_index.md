@@ -681,6 +681,12 @@ Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt in C#, met volledige codevo
 Leer hoe u met Aspose OCR meerdere afbeeldingen in één batch naar tekst kunt omzetten, inclusief voorbeeldcode en configuratie.
 ### [Voer OCR uit op afbeelding in C# – Complete Aspose-gids](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Leer stap voor stap hoe u OCR op afbeeldingen toepast in C# met Aspose, inclusief volledige codevoorbeelden en configuratie.
+### [Hoe tekst uit afbeelding te herkennen in C# – Complete Aspose OCR-gids](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Leer stap voor stap hoe u met Aspose.OCR tekst uit afbeeldingen haalt in C#, inclusief volledige codevoorbeelden en configuratie.
+### [Tekst uit afbeelding herkennen met C# OCR – Volledig voorbeeld](./recognize-text-from-image-with-c-ocr-complete-example/)
+Volledige handleiding voor het herkennen van tekst uit afbeeldingen met C# OCR, inclusief voorbeeldcode en configuratie.
+### [Maak doorzoekbare PDF van gescande bestanden – Complete C#-gids](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van gescande bestanden in C#, inclusief voorbeeldcode en stapsgewijze instructies.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

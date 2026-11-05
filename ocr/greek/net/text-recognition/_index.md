@@ -665,6 +665,12 @@ url: /el/net/text-recognition/
 Μάθετε πώς να μετατρέπετε μαζικά εικόνες σε κείμενο με το Aspose OCR, βήμα-βήμα, για γρήγορη και ακριβή εξαγωγή δεδομένων.
 ### [Εκτέλεση OCR σε εικόνα με C# – Πλήρης Οδηγός Aspose](./perform-ocr-on-image-in-c-complete-aspose-guide/)
 Μάθετε βήμα-βήμα πώς να εφαρμόσετε OCR σε εικόνες χρησιμοποιώντας C# και το Aspose OCR.
+### [Πώς να αναγνωρίσετε κείμενο από εικόνα σε C# – Πλήρης οδηγός Aspose OCR](./how-to-recognize-text-from-image-in-c-complete-aspose-ocr-gu/)
+Μάθετε βήμα προς βήμα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
+### [Αναγνώριση κειμένου από εικόνα με C# OCR – Πλήρης Παράδειγμα](./recognize-text-from-image-with-c-ocr-complete-example/)
+Μάθετε βήμα προς βήμα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR σε C#, με πλήρη παράδειγμα κώδικα.
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένα Αρχεία – Πλήρης Οδηγός C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
+Μάθετε πώς να μετατρέψετε σαρωμένα αρχεία σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR σε C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
