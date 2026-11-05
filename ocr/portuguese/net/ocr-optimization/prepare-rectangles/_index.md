@@ -10,17 +10,12 @@ url: /pt/net/ocr-optimization/prepare-rectangles/
 weight: 11
 ---
 
- "Testado com:".
 
-**Author:** Aspose -> "Autor:".
 
-Then closing shortcodes.
 
-Now produce final content.
 
-Be careful to keep markdown formatting exactly.
 
-Let's write.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

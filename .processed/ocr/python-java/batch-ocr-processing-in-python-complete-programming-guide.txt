@@ -1,0 +1,7 @@
+Title: Batch OCR Processing in Python – Complete Programming Guide
+Slug: batch-ocr-processing-in-python-complete-programming-guide
+Category: general
+ProcessedDate: 2026-06-26T00:08:14.835041
+SourceRepo: AI Search API
+Keywords: batch ocr processing, extract text from image batch, batch image text extraction
+PRNumber: 160
