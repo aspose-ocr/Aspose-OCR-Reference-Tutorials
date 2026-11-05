@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Sonucunu Belge Olarak Kaydetme
@@ -164,16 +166,15 @@ C5: Destek ve tartışmalar için **[Aspose Forum](https://forum.aspose.com/c/oc
 **Test Edilen:** Aspose.OCR 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Aspose.OCR .NET Kullanarak Görüntüden Metin Çıkarma](/ocr/net/image-and-drawing-recognition/)
 - [Görüntüleri PDF'ye Dönüştür C# – Çok Sayfalı OCR Sonucunu Kaydet](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Metin Görüntülerini Çıkarma – OCR Ayarları](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

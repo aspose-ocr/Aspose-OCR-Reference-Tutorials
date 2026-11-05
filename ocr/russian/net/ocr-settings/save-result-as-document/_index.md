@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Как сохранить результат OCR в документ
@@ -165,16 +167,15 @@ Console.WriteLine("SaveResultAsDocument executed successfully");
 **Тестировано с:** Aspose.OCR 24.11 для .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Похожие руководства
 
 - [Извлечение текста из изображения с помощью Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Конвертация изображений в PDF C# – Сохранение многостраничного результата OCR](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Извлечение текстовых изображений – Параметры OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

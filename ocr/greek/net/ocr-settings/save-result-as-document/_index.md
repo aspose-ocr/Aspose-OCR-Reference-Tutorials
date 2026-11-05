@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Πώς να αποθηκεύσετε το αποτέλεσμα OCR ως έγγραφο
@@ -166,16 +168,15 @@ A5: Ενταχθείτε στην κοινότητα Aspose.OCR στο **[Aspose
 **Δοκιμή με:** Aspose.OCR 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Εξαγωγή Κειμένου από Εικόνα Χρησιμοποιώντας Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Μετατροπή Εικόνων σε PDF C# – Αποθήκευση Πολυσελιδικού Αποτελέσματος OCR](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Εξαγωγή Κειμένου από Εικόνες – Ρυθμίσεις OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

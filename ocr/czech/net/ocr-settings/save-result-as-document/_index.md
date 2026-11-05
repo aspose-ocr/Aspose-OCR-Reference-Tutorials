@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak uložit výsledek OCR jako dokument
@@ -163,16 +165,15 @@ A5: Připojte se ke komunitě Aspose.OCR na **[Aspose Forum](https://forum.aspos
 **Testováno s:** Aspose.OCR 24.11 pro .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Extrahovat text z obrázku pomocí Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Převést obrázky na PDF C# – Uložit vícestránkový výsledek OCR](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Extrahovat textové obrázky – Nastavení OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

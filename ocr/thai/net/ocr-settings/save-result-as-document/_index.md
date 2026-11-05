@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # วิธีบันทึกผล OCR เป็นเอกสาร
@@ -165,16 +167,15 @@ A5: เข้าร่วมชุมชน Aspose.OCR ที่ **[Aspose Forum
 **ทดสอบด้วย:** Aspose.OCR 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [สกัดข้อความจากภาพโดยใช้ Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [แปลงภาพเป็น PDF C# – บันทึกผล OCR หลายหน้า](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [สกัดข้อความจากภาพ – การตั้งค่า OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

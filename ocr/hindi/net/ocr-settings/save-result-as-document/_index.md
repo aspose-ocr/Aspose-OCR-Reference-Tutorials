@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR परिणाम को दस्तावेज़ के रूप में कैसे सहेजें
@@ -163,16 +165,15 @@ A5: समर्थन और चर्चा के लिए **[Aspose Forum](
 **परीक्षण किया गया:** Aspose.OCR 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Aspose.OCR .NET का उपयोग करके छवि से टेक्स्ट निकालें](/ocr/net/image-and-drawing-recognition/)
 - [छवियों को PDF C# में बदलें – मल्टीपेज OCR परिणाम सहेजें](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [टेक्स्ट छवियों को निकालें – OCR सेटिंग्स](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

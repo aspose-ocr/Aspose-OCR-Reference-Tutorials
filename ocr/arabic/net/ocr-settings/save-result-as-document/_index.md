@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # كيفية حفظ نتيجة OCR كوثيقة
@@ -163,16 +165,15 @@ A5: انضم إلى مجتمع Aspose.OCR على **[Aspose Forum](https://forum.
 **تم الاختبار مع:** Aspose.OCR 24.11 for .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [استخراج النص من صورة باستخدام Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [تحويل الصور إلى PDF C# – حفظ نتيجة OCR متعددة الصفحات](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [استخراج نص الصور – إعدادات OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

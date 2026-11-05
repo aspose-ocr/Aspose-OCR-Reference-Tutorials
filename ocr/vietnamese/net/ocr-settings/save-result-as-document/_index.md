@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cách lưu kết quả OCR dưới dạng tài liệu
@@ -165,16 +167,15 @@ A5: Tham gia cộng đồng Aspose.OCR tại **[Aspose Forum](https://forum.aspo
 **Kiểm tra với:** Aspose.OCR 24.11 cho .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Các hướng dẫn liên quan
 
 - [Trích xuất văn bản từ hình ảnh bằng Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Chuyển đổi hình ảnh sang PDF C# – Lưu kết quả OCR đa trang](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Trích xuất văn bản hình ảnh – Cài đặt OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cara Menyimpan Hasil OCR sebagai Dokumen
@@ -166,16 +168,15 @@ J5: Bergabunglah dengan komunitas Aspose.OCR di **[Aspose Forum](https://forum.a
 **Diuji Dengan:** Aspose.OCR 24.11 untuk .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Extract Text from Image Using Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Convert Images to PDF C# – Save Multipage OCR Result](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Extract Text Images – OCR Settings](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

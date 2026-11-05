@@ -56,7 +56,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Save OCR Result as Document
@@ -163,16 +165,15 @@ A5: Join the Aspose.OCR community at **[Aspose Forum](https://forum.aspose.com/c
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Related Tutorials
 
 - [Extract Text from Image Using Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Convert Images to PDF C# – Save Multipage OCR Result](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Extract Text Images – OCR Settings](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

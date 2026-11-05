@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Jak zapisać wynik OCR jako dokument
@@ -165,16 +167,15 @@ A5: Dołącz do społeczności Aspose.OCR na **[forum Aspose](https://forum.aspo
 **Testowano z:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Wyodrębnij tekst z obrazu przy użyciu Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Konwertuj obrazy do PDF C# – Zapisz wielostronicowy wynik OCR](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Wyodrębnij obrazy tekstowe – Ustawienia OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

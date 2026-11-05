@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # OCR Image Recognition Settings: Specify Ignored Characters
@@ -123,8 +125,6 @@ A: A wide range of languages is supported; consult the official documentation fo
 **Q: Can I purchase a temporary license for short‑term testing?**  
 A: Yes, temporary licenses are available on the **temporary license page**([https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/)) and are perfect for proof‑of‑concept projects.
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Conclusion
 
 Mastering **ignore characters ocr** through the `IgnoredCharacters` option lets you produce cleaner OCR output with far less post‑processing effort. The steps above give you a ready‑to‑run example; from here you can explore additional settings such as language selection, DPI scaling, and custom character whitelists. For deeper exploration, check the full [documentation](https://reference.aspose.com/ocr/net/).
@@ -141,7 +141,9 @@ Mastering **ignore characters ocr** through the `IgnoredCharacters` option lets 
 - [How to Set Threshold Value in OCR Image Recognition](/ocr/net/ocr-settings/set-threshold-value/)
 - [How to OCR Image – Perform OCR on Image in OCR Image Recognition](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

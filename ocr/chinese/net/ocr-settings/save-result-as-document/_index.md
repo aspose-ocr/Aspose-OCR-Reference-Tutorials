@@ -57,7 +57,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 如何将 OCR 结果保存为文档
@@ -164,16 +166,15 @@ A5：加入 Aspose.OCR 社区 **[Aspose Forum](https://forum.aspose.com/c/ocr/16
 **测试环境：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [使用 Aspose.OCR .NET 从图像提取文本](/ocr/net/image-and-drawing-recognition/)
 - [将图像转换为 PDF C# – 保存多页 OCR 结果](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [提取文本图像 – OCR 设置](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

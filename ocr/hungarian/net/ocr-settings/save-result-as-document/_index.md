@@ -59,7 +59,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hogyan mentse el az OCR eredményt dokumentumként
@@ -166,16 +168,15 @@ Csatlakozzon az Aspose.OCR közösséghez a **[Aspose Forum](https://forum.aspos
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó bemutatók
 
 - [Kép szövegének kinyerése Aspose.OCR .NET használatával](/ocr/net/image-and-drawing-recognition/)
 - [Képek konvertálása PDF‑re C# – Többoldalas OCR eredmény mentése](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Szöveges képek kinyerése – OCR beállítások](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

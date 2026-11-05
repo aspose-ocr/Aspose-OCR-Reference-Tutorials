@@ -58,7 +58,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hoe OCR-resultaat opslaan als document
@@ -165,16 +167,15 @@ A5: Word lid van de Aspose.OCR‑community op **[Aspose Forum](https://forum.asp
 **Getest met:** Aspose.OCR 24.11 voor .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Tekst extraheren uit afbeelding met Aspose.OCR .NET](/ocr/net/image-and-drawing-recognition/)
 - [Afbeeldingen naar PDF converteren C# – Meervoudig OCR-resultaat opslaan](/ocr/net/ocr-optimization/save-multipage-result-as-document/)
 - [Tekstafbeeldingen extraheren – OCR-instellingen](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
