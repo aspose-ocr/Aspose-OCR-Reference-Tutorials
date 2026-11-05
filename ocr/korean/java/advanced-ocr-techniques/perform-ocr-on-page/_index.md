@@ -9,15 +9,10 @@ url: /ko/java/advanced-ocr-techniques/perform-ocr-on-page/
 weight: 12
 ---
 
-Now translate all text.
 
-Be careful with code placeholders: keep them unchanged.
 
-Also preserve bold formatting (**text**) and inline code backticks.
 
-Let's translate.
 
-I'll produce final Korean markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
