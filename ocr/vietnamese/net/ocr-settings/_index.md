@@ -97,6 +97,9 @@ Tải gói phù hợp (ví dụ, `ocrEngine.Language = Language.French`) tăng �
 
 ## Hướng dẫn Cài đặt OCR  
 
+### [c# example ocr cyrillic – perform OCR on Cyrillic text](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)
+
+
 ### [Lưu Kết quả dưới dạng Tài liệu trong Nhận dạng Hình ảnh OCR](./save-result-as-document/)  
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng nhận dạng văn bản trong hình ảnh và lưu kết quả ở nhiều định dạng tài liệu.  
 

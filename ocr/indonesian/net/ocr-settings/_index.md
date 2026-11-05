@@ -100,6 +100,8 @@ Manfaatkan OCR yang tepat di .NET dengan Aspose.OCR. Kenali teks dari gambar den
 Jelajahi kemampuan OCR lanjutan dengan Aspose.OCR untuk .NET. Efisien, akurat, dan ramah pengembang.  
 ### [Bekerja dengan Berbagai Bahasa dalam Pengenalan Gambar OCR](./working-with-different-languages/)  
 Manfaatkan keajaiban OCR multibahasa dengan Aspose.OCR untuk .NET. Ekstrak teks dengan mudah dalam berbagai bahasa.  
+### [Contoh C# OCR Cyrillic – Lakukan OCR pada Teks Cyrillic](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Demonstrasi penggunaan Aspose.OCR untuk .NET dalam mengenali teks Cyrillic dengan C#.  
 
 ## Cara mengekstrak teks gambar menggunakan Aspose.OCR – Ikhtisar Pengaturan Umum  
 
@@ -120,13 +122,13 @@ Muat mesin OCR Anda, konfigurasikan pengaturan yang diinginkan, dan panggil `Rec
 **A: Ya, Aspose.OCR untuk .NET sepenuhnya mendukung .NET Core, .NET 5+, dan .NET 6+ dengan antarmuka API yang sama.**  
 
 **Q: Bagaimana cara meningkatkan akurasi OCR pada gambar beresolusi rendah?**  
-**A: Tingkatkan nilai `Threshold`, aktifkan paket `Language` yang sesuai, dan pertimbangkan untuk menentukan `AllowedCharacters` guna membatasi set karakter.**  
+**A: Tingkatkan nilai `Threshold`, aktifkan paket `Language` yang sesuai, dan pertimbangkan untuk menentukan `AllowedCharacters` guna membatasi set karakter.  
 
 **Q: Apakah memungkinkan mengekstrak teks langsung dari PDF?**  
-**A: Meskipun Aspose.OCR berfokus pada file gambar, Anda dapat terlebih dahulu mengonversi halaman PDF menjadi gambar menggunakan Aspose.PDF, kemudian menjalankan OCR pada gambar yang dihasilkan.**  
+**A: Meskipun Aspose.OCR berfokus pada file gambar, Anda dapat terlebih dahulu mengonversi halaman PDF menjadi gambar menggunakan Aspose.PDF, kemudian menjalankan OCR pada gambar yang dihasilkan.  
 
 **Q: Lisensi apa yang diperlukan untuk penggunaan produksi?**  
-**A: Lisensi komersial Aspose.OCR diperlukan untuk deployment; percobaan gratis 30‑hari tersedia untuk evaluasi.**  
+**A: Lisensi komersial Aspose.OCR diperlukan untuk deployment; percobaan gratis 30‑hari tersedia untuk evaluasi.  
 
 **Q: Apakah ada batas ukuran untuk gambar yang dapat saya proses?**  
 **A: Perpustakaan ini dengan nyaman menangani gambar hingga **500 MB**; untuk file yang lebih besar, tingkatkan `ThreadsCount` dan sesuaikan pengaturan memori sesuai kebutuhan.  

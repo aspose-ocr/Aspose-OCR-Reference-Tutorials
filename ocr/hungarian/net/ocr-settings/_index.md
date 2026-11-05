@@ -100,6 +100,8 @@ Szerezzen pontos OCR‑t .NET‑ben az Aspose.OCR‑rel. Ismerje fel a képek sz
 Fedezze fel az Aspose.OCR for .NET fejlett OCR képességeit. Hatékony, pontos és fejlesztőbarát.  
 ### [Munkavégzés különböző nyelvekkel az OCR képfelismerésben](./working-with-different-languages/)  
 Fedezze fel a többnyelvű OCR varázsát az Aspose.OCR for .NET‑tel. Képezze ki a szöveget könnyedén különböző nyelveken.  
+### [c# példa OCR cirill – OCR végrehajtása cirill szövegen](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Fedezze fel, hogyan használhatja a C#-ot az Aspose.OCR-rel cirill szöveg felismerésére.  
 
 ## Hogyan nyerhetünk ki szöveget képekből az Aspose.OCR‑rel – Általános beállítások áttekintése  
 
