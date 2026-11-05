@@ -285,6 +285,10 @@ weight: 25
 تعلم كيفية تسريع عمليات OCR باستخدام وحدة معالجة الرسومات في Aspose.OCR عبر مثال كامل بلغة C#.
 ### [خطوات ما قبل معالجة OCR في C# – تعزيز الدقة مع Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 اكتشف خطوات ما قبل معالجة الصور في C# لتحسين دقة OCR باستخدام Aspose.OCR.
+### [تحميل موارد OCR مسبقًا في Aspose.OCR – دليل الإعداد الكامل](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+دليل شامل لتحميل موارد OCR مسبقًا في Aspose.OCR لضمان أداء سريع وإعداد سهل.
+### [التعرف على النص من صورة في C# – مثال OCR كامل](./recognize-text-from-image-in-c-full-ocr-example/)
+دليل شامل يوضح كيفية استخدام Aspose.OCR في C# لاستخراج النص من الصور خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

@@ -322,6 +322,12 @@ weight: 25
 ### [启用 GPU 加速 OCR – 完整 C# 指南](./enable-gpu-acceleration-ocr-complete-c-guide/)
 本指南展示如何在 Aspose.OCR for .NET 中使用 GPU 加速，实现更快的 OCR 处理。
 
+### [在 Aspose.OCR 中预加载 OCR 资源 – 完整设置指南](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+了解如何在 Aspose.OCR 中预加载资源，提升首次识别速度并确保完整配置。
+
+### [Recognize Text from Image in C# – Full OCR Example](./recognize-text-from-image-in-c-full-ocr-example/)
+使用 Aspose.OCR for .NET 在 C# 中实现完整图像文字识别示例，提升 OCR 效率。
+
 ## 常见问题
 
 **Q: 我可以从包含多种语言的图像文件中提取文本吗？**  

@@ -626,6 +626,18 @@ url: /ru/net/text-recognition/
 Полный пример на C# с Aspose OCR для распознавания текста с изображений.
 ### [Распознать текст с изображения в C# – Конвертировать изображение в текст](./recognize-text-from-image-in-c-convert-image-to-text/)
 Полный пример OCR на C# с использованием Aspose.OCR для конвертации изображения в текст.
+### [Создать поисковый PDF с Aspose OCR в C# – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-in-c-step-by-step-guid/)
+Полное пошаговое руководство по созданию поискового PDF с помощью Aspose OCR в C#.
+### [Выполнить OCR на изображении с Aspose.OCR – Полное руководство на C#](./perform-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Полное пошаговое руководство по выполнению OCR на изображениях с использованием Aspose.OCR в C#.
+### [Распознать текстовое изображение с Aspose OCR – Полное руководство на C#](./recognize-text-image-with-aspose-ocr-complete-c-guide/)
+Полное руководство по распознаванию текста на изображениях с помощью Aspose OCR в C#.
+### [Распознать китайский текст на C# – Полное руководство по программированию](./recognize-chinese-text-in-c-complete-programming-guide/)
+Полное руководство по распознаванию китайского текста в C# с использованием Aspose.OCR. Следуйте пошаговым инструкциям для интеграции OCR в ваши проекты.
+### [OCR изображение в HTML на C# – Полное руководство по программированию](./ocr-image-to-html-in-c-complete-programming-guide/)
+Полное пошаговое руководство по преобразованию изображений в HTML с помощью Aspose.OCR в C#.
+### [Преобразовать изображение в текст C# – Полное руководство с Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
+Полное пошаговое руководство по преобразованию изображений в текст с использованием Aspose OCR в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -296,6 +296,10 @@ Erfahren Sie, wie Sie die GPU‑Beschleunigung in Aspose.OCR für .NET aktiviere
 Erfahren Sie, wie Sie OCR‑Vorverarbeitung in C# implementieren, um die Erkennungsgenauigkeit mit Aspose.OCR zu maximieren.
 ### [GPU‑Beschleunigung für OCR aktivieren – Vollständiger C#‑Leitfaden](./enable-gpu-acceleration-ocr-complete-c-guide/)
 Nutzen Sie die GPU, um OCR‑Leistung in C# zu steigern. Schritt‑für‑Schritt‑Anleitung zur Aktivierung und Optimierung mit Aspose.OCR.
+### [OCR‑Ressourcen in Aspose.OCR vorladen – Vollständige Setup‑Anleitung](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Laden Sie OCR‑Ressourcen vorab, um die Erkennungsleistung zu steigern und die Initialisierung zu beschleunigen.
+### [Text aus Bild in C# erkennen – Vollständiges OCR-Beispiel](./recognize-text-from-image-in-c-full-ocr-example/)
+Ein vollständiges C#‑Beispiel, das zeigt, wie man mit Aspose.OCR Text aus Bildern erkennt und Ergebnisse speichert.
 
 ## Häufig gestellte Fragen
 

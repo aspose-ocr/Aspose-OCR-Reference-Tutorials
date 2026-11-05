@@ -253,6 +253,10 @@ Tận dụng GPU để tăng tốc độ OCR trong C#, giảm thời gian xử l
 ### [Các bước tiền xử lý OCR trong C# – Tăng độ chính xác với Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 Tìm hiểu các bước tiền xử lý ảnh để cải thiện độ chính xác OCR trong C# bằng Aspose.OCR.
 ### [Kích hoạt tăng tốc GPU cho OCR – Hướng dẫn C# đầy đủ](./enable-gpu-acceleration-ocr-complete-c-guide/)
+### [Tiền tải tài nguyên OCR trong Aspose.OCR – Hướng dẫn cài đặt đầy đủ](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Hướng dẫn chi tiết cách tiền tải tài nguyên OCR trong Aspose.OCR để giảm thời gian khởi động và tối ưu hiệu suất.
+### [Nhận dạng văn bản từ hình ảnh trong C# – Ví dụ OCR đầy đủ](./recognize-text-from-image-in-c-full-ocr-example/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản từ hình ảnh với ví dụ đầy đủ.
 
 ## Câu hỏi thường gặp
 

@@ -651,6 +651,18 @@ C#와 Aspose OCR을 활용해 이미지에서 텍스트를 추출하는 전체 �
 C#와 Aspose OCR을 활용해 이미지에서 텍스트를 인식하는 전체 과정을 단계별로 안내합니다.
 ### [C#에서 이미지로부터 텍스트 인식 – 이미지 변환하여 텍스트 추출](./recognize-text-from-image-in-c-convert-image-to-text/)
 C#와 Aspose.OCR을 사용해 이미지를 텍스트로 변환하는 전체 과정을 단계별로 안내합니다.
+### [Aspose OCR을 사용하여 검색 가능한 PDF 만들기 – C# 단계별 가이드](./create-searchable-pdf-with-aspose-ocr-in-c-step-by-step-guid/)
+Aspose OCR을 활용해 C#에서 검색 가능한 PDF를 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.OCR를 사용한 이미지 OCR 수행 – 완전한 C# 가이드](./perform-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+### [Aspose OCR로 텍스트 이미지 인식 – 완전한 C# 가이드](./recognize-text-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR를 활용하여 C#에서 텍스트 이미지 인식을 수행하는 단계별 완전 가이드입니다.
+### [C#에서 OCR 이미지를 HTML로 변환 – 완전한 프로그래밍 가이드](./ocr-image-to-html-in-c-complete-programming-guide/)
+C#와 Aspose.OCR을 사용해 이미지에서 HTML로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 중국어 텍스트 인식 – 완전한 프로그래밍 가이드](./recognize-chinese-text-in-c-complete-programming-guide/)
+Aspose.OCR를 사용하여 C#에서 중국어 텍스트를 정확하게 인식하고 추출하는 단계별 완전 가이드입니다.
+### [이미지에서 텍스트 변환 C# – Aspose OCR 완전 가이드](./image-to-text-c-complete-guide-with-aspose-ocr/)
+Aspose OCR을 활용해 C#에서 이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -313,6 +313,11 @@ Dowiedz się, jak wykorzystać przyspieszenie GPU w Aspose.OCR dla .NET, aby prz
 
 ### [Kroki przetwarzania wstępnego OCR w C# – Zwiększ dokładność z Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 Poznaj kroki przetwarzania wstępnego w OCR przy użyciu C# i Aspose.OCR, aby zwiększyć dokładność rozpoznawania tekstu.
+### [Wstępne ładowanie zasobów OCR w Aspose.OCR – Kompletny przewodnik konfiguracji](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Dowiedz się, jak wstępnie załadować zasoby OCR, aby przyspieszyć rozpoznawanie i zoptymalizować wydajność aplikacji Aspose.OCR.
+
+### [Rozpoznawanie tekstu z obrazu w C# – Pełny przykład OCR](./recognize-text-from-image-in-c-full-ocr-example/)
+Pełny przykład użycia Aspose.OCR w C# do rozpoznawania tekstu z obrazu, pokazujący wszystkie kroki konfiguracji i zapisu wyników.
 
 ## Często zadawane pytania
 

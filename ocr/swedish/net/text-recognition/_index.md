@@ -42,6 +42,8 @@ Lås upp potentialen för OCR i .NET med Aspose.OCR. Extrahera text från PDF-fi
 
 ### [OCR-skyddad PDF i C# – Komplett guide för att extrahera text](./ocr-protected-pdf-in-c-complete-guide-to-extract-text/)
 Lär dig steg-för-steg hur du extraherar text från skyddade PDF-filer i C# med Aspose.OCR.
+### [Skapa sökbar PDF med Aspose OCR i C# – Steg‑för‑steg‑guide](./create-searchable-pdf-with-aspose-ocr-in-c-step-by-step-guid/)
+Lär dig hur du med Aspose OCR i C# skapar sökbara PDF-filer i en tydlig steg‑för‑steg‑guide.
 
 ## Identifiera tabell i OCR-bildigenkänning
 
@@ -654,6 +656,15 @@ Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att extrahera text
 Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen text i en bild med en fullständig guide.
 ### [Känn igen text från bild i C# – konvertera bild till text](./recognize-text-from-image-in-c-convert-image-to-text/)
 Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att konvertera en bild till text.
+### [Utför OCR på bild med Aspose.OCR – Komplett C#-guide](./perform-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att utföra OCR på bilder och få textresultat.
+### [Känn igen textbild med Aspose OCR – Komplett C#-guide](./recognize-text-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen text i bilder och få exakta resultat.
+### [Känn igen kinesisk text i C# – Komplett programmeringsguide](./recognize-chinese-text-in-c-complete-programming-guide/)
+Lär dig steg-för-steg hur du använder Aspose.OCR i C# för att känna igen kinesisk text i bilder med hög precision.
+### [OCR Bild till HTML i C# – Komplett programmeringsguide](./ocr-image-to-html-in-c-complete-programming-guide/)
+Lär dig hur du med Aspose.OCR i C# konverterar OCR‑bilder till HTML i en komplett steg‑för‑steg‑guide.
+### [Bild till text C# – Komplett guide med Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

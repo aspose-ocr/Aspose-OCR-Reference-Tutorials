@@ -301,6 +301,10 @@ Pelajari cara mempersiapkan gambar sebelum OCR di C# dengan panduan lengkap, men
 Pelajari langkah-langkah preprocessing OCR menggunakan C# untuk meningkatkan akurasi dengan Aspose.OCR.
 ### [Aktifkan Akselerasi GPU OCR – Panduan Lengkap C#](./enable-gpu-acceleration-ocr-complete-c-guide/)
 Pelajari cara mengaktifkan akselerasi GPU untuk OCR dengan Aspose.OCR menggunakan C#, meningkatkan kecepatan pemrosesan secara signifikan.
+### [Preload OCR Resources in Aspose.OCR – Complete Setup Guide](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Panduan lengkap memuat sumber daya OCR di Aspose.OCR untuk meningkatkan kinerja dan akurasi aplikasi Anda.
+### [Mengenali Teks dari Gambar dengan C# – Contoh OCR Lengkap](./recognize-text-from-image-in-c-full-ocr-example/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose.OCR di C#, mencakup contoh kode lengkap dan langkah‑langkah implementasi.
 
 ## Pertanyaan yang Sering Diajukan
 

@@ -302,6 +302,10 @@ Leer hoe je afbeeldingen optimaliseert voor OCR in C# met Aspose.OCR, inclusief 
 Leer hoe je preprocessing‑stappen toepast in C# om OCR‑nauwkeurigheid met Aspose.OCR te verhogen.
 ### [GPU-versnelling inschakelen voor OCR – Complete C#-gids](./enable-gpu-acceleration-ocr-complete-c-guide/)
 Leer hoe je GPU-versnelling inschakelt voor OCR in C# met Aspose.OCR, voor snellere en nauwkeurigere herkenning.
+### [Vooraf laden van OCR‑bronnen in Aspose.OCR – Complete installatiewijzer](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Leer hoe je OCR‑bronnen vooraf laadt voor snellere herkenning en optimale configuratie met Aspose.OCR.
+### [Tekst herkennen uit afbeelding in C# – Volledig OCR‑voorbeeld](./recognize-text-from-image-in-c-full-ocr-example/)
+Volledige C#‑codevoorbeeld voor het herkennen van tekst uit afbeeldingen met Aspose.OCR, inclusief preprocessing en resultaatopslag.
 
 ## Veelgestelde vragen
 

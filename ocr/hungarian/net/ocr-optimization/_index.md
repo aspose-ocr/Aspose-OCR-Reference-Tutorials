@@ -323,6 +323,12 @@ Fedezze fel, hogyan használhatja a GPU gyorsítást az OCR-hoz C#-ban az Aspose
 ### [OCR előfeldolgozási lépések C#‑ban – Növelje a pontosságot az Aspose.OCR-rel](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 Fedezze fel, hogyan javíthatja az OCR pontosságát előfeldolgozási technikákkal C#‑ban az Aspose.OCR segítségével.
 
+### [OCR erőforrások előbetöltése az Aspose.OCR‑ban – Teljes beállítási útmutató](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Leírja, hogyan töltheti elő az OCR erőforrásokat az Aspose.OCR használatához, hogy gyorsabb legyen a feldolgozás.
+
+### [Szöveg felismerése képről C#‑ban – Teljes OCR példa](./recognize-text-from-image-in-c-full-ocr-example/)
+Teljes körű útmutató C#‑ban a szöveg képről történő felismeréséhez az Aspose.OCR for .NET használatával.
+
 ## Gyakran Ismételt Kérdések
 
 **Q: Can I extract text from image files that contain multiple languages?**  

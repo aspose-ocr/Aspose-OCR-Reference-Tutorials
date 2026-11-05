@@ -299,6 +299,10 @@ C# で画像を前処理し、OCR の精度を最大化する手順をステッ�
 GPU を活用して OCR 処理を高速化する方法を C# で詳しく解説します。
 ### [C# における OCR 前処理手順 – Aspose.OCR で精度向上](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
 Aspose.OCR を使用した C# の OCR 前処理手順を解説し、認識精度を最大化する方法を紹介します。
+### [Aspose.OCR で OCR リソースを事前ロード – 完全セットアップガイド](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+OCR のパフォーマンス向上のために必要なリソースを事前にロードし、セットアップ手順を詳しく解説します。
+### [C# で画像からテキストを認識する – 完全 OCR 例](./recognize-text-from-image-in-c-full-ocr-example/)
+C# で画像からテキストを認識する完全な OCR 実装例をステップバイステップで解説します。
 
 ## よくある質問
 

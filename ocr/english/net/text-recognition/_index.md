@@ -672,6 +672,18 @@ Learn how to extract text from images using Aspose OCR in C# with a clear step�
 Master extracting text from images in C# using Aspose OCR with this complete, step‑by‑step guide.
 ### [recognize text from image in C# – Convert Image to Text](./recognize-text-from-image-in-c-convert-image-to-text/)
 Learn how to convert images to text using Aspose.OCR in C#, with a clear step‑by‑step guide.
+### [Perform OCR on Image with Aspose.OCR – Complete C# Guide](./perform-ocr-on-image-with-aspose-ocr-complete-c-guide/)
+Learn how to perform OCR on images using Aspose.OCR in C#. Follow this complete guide for step‑by‑step implementation.
+### [Recognize Text Image with Aspose OCR – Complete C# Guide](./recognize-text-image-with-aspose-ocr-complete-c-guide/)
+Learn how to recognize text in images using Aspose OCR with a complete C# guide. Follow step‑by‑step instructions for implementation.
+### [recognize chinese text in C# – Complete Programming Guide](./recognize-chinese-text-in-c-complete-programming-guide/)
+Learn how to recognize Chinese text in C# using Aspose.OCR with a complete programming guide. Follow step‑by‑step instructions for implementation.
+### [Create Searchable PDF with Aspose OCR in C# – Step‑by‑Step Guide](./create-searchable-pdf-with-aspose-ocr-in-c-step-by-step-guid/)
+Learn how to generate searchable PDFs using Aspose OCR in C#. Follow this step‑by‑step guide to integrate PDF creation into your .NET apps.
+### [OCR Image to HTML in C# – Complete Programming Guide](./ocr-image-to-html-in-c-complete-programming-guide/)
+Learn how to convert OCR‑processed images to HTML using Aspose.OCR in C#. Follow this complete programming guide for step‑by‑step implementation.
+### [image to text C# – Complete Guide with Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
+Learn how to extract text from images using Aspose OCR in C#. Follow this complete guide for step‑by‑step implementation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

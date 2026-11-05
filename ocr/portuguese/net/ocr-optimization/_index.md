@@ -300,6 +300,10 @@ Aprenda a configurar OCR acelerado por GPU em C#, aumentando a velocidade de ext
 Descubra como aplicar filtros e ajustes de pré‑processamento em C# para melhorar a acurácia do OCR com Aspose.OCR.
 ### [Ativar Aceleração GPU no OCR – Guia Completo em C#](./enable-gpu-acceleration-ocr-complete-c-guide/)
 Aprenda a usar a aceleração GPU com Aspose.OCR em C# para melhorar o desempenho do reconhecimento de texto.
+### [Pré‑carregar recursos OCR no Aspose.OCR – Guia de configuração completa](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Aprenda a pré‑carregar recursos OCR para melhorar desempenho e garantir reconhecimento preciso em aplicações .NET.
+### [Reconhecer Texto de Imagem em C# – Exemplo Completo de OCR](./recognize-text-from-image-in-c-full-ocr-example/)
+Aprenda a reconhecer texto de imagens usando C# com Aspose.OCR em um exemplo completo passo a passo.
 
 ## Perguntas Frequentes
 

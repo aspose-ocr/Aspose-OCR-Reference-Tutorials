@@ -275,6 +275,10 @@ C# ile OCR öncesi görüntü işleme adımlarını öğrenin, filtreleri uygula
 Aspose.OCR kullanarak C#'ta OCR ön işleme adımlarını öğrenin ve tanıma doğruluğunu artırın.
 ### [GPU Hızlandırmalı OCR – Tam C# Kılavuzu](./enable-gpu-acceleration-ocr-complete-c-guide/)
 GPU hızlandırmalı OCR ile C#'ta tam kılavuz, performansı artırın ve entegrasyonu kolaylaştırın.
+### [Aspose.OCR'de OCR Kaynaklarını Önceden Yükleme – Tam Kurulum Kılavuzu](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Aspose.OCR için gerekli OCR kaynaklarını önceden yükleyerek performansı artırın ve tam kurulum adımlarını izleyin.
+### [C#'ta Görüntüden Metin Tanıma – Tam OCR Örneği](./recognize-text-from-image-in-c-full-ocr-example/)
+Aspose.OCR for .NET kullanarak C# ile bir görüntüden tam metin çıkarma örneği.
 
 ## Sıkça Sorulan Sorular
 
