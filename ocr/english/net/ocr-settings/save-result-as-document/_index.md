@@ -1,5 +1,5 @@
 ---
-title: How to Save OCR Result as Document with Aspose.OCR for .NET
+title: Export OCR Result as Document with Aspose.OCR for .NET
 linktitle: How to Save OCR Result as Document
 second_title: Aspose.OCR .NET API
 description: Learn how to save OCR results with Aspose.OCR for .NET – a step‑by‑step guide on how to save ocr output, convert image to searchable pdf, extract text from png, and export to DOCX, TXT, PDF, or XLSX.

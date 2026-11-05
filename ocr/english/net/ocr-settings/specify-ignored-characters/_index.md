@@ -1,5 +1,5 @@
 ---
-title: 'Configure Ignored Characters in Aspose.OCR – OCR Image Recognition Settings: Specify Ignored Characters'
+title: 'Ignored Characters Setting for OCR Image Recognition'
 linktitle: OCR Image Recognition Settings - Specify Ignored Characters
 second_title: Aspere.OCR .NET API
 description: Learn how to ignore characters ocr using Aspose.OCR for .NET by configuring OCR image recognition settings and specifying ignored characters for cleaner results.
