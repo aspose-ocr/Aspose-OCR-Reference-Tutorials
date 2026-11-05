@@ -194,6 +194,12 @@ Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose.OCR di Ja
 Panduan lengkap untuk mengonversi file TIFF menjadi PDF yang dapat dicari menggunakan Aspose OCR untuk Java.
 ### [Muat Lisensi OCR URL di Java – Hapus Watermark Percobaan](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Panduan mengatur lisensi OCR melalui URL di Java untuk menghilangkan watermark versi percobaan.
+### [Buat PDF yang Dapat Dicari dengan Java – Panduan Lengkap](./create-searchable-pdf-in-java-complete-guide/)
+Panduan lengkap membuat PDF yang dapat dicari dengan Java menggunakan Aspose.OCR, termasuk langkah‑langkah implementasi.
+### [Mengonversi Gambar menjadi Teks di Java Menggunakan Aspose OCR – Panduan Lengkap](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Panduan lengkap mengonversi gambar menjadi teks di Java menggunakan Aspose OCR, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Tutorial Lisensi Aspose OCR – Panduan Penyiapan Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Panduan lengkap mengatur lisensi Aspose OCR di proyek Java Anda untuk mengaktifkan fitur penuh.
 
 ## Pertanyaan yang Sering Diajukan
 

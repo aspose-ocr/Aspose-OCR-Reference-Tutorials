@@ -196,6 +196,12 @@ Aprenda a criar PDFs pesquisáveis em Java usando Aspose.OCR, passo a passo, cob
 Aprenda a converter arquivos TIFF em PDFs pesquisáveis usando Aspose OCR para Java, com passo a passo detalhado.
 ### [Carregar URL da Licença OCR em Java – Remover Marca d'Água de Avaliação](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Aprenda a carregar a licença do Aspose.OCR via URL em Java e eliminar a marca d'água de avaliação dos resultados.
+### [Criar PDF pesquisável em Java – Guia completo](./create-searchable-pdf-in-java-complete-guide/)
+Aprenda a criar PDFs pesquisáveis em Java usando Aspose.OCR, passo a passo, cobrindo configuração e melhores práticas.
+### [Converter Imagem em Texto em Java Usando Aspose OCR – Guia Completo](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Aprenda a converter imagens em texto em Java com Aspose OCR, passo a passo, cobrindo configuração e melhores práticas.
+### [Tutorial de Licença Aspose OCR – Guia de Configuração para Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Aprenda a configurar e aplicar a licença Aspose OCR em projetos Java, garantindo funcionamento completo do OCR.
 
 ## Perguntas Frequentes
 

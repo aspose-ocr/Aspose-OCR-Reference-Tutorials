@@ -208,6 +208,12 @@ Full guide to creating searchable PDFs in Java using Aspose.OCR, covering setup,
 Create searchable PDFs from TIFF images with Aspose OCR for Java. A comprehensive guide covering conversion steps, OCR settings, and best practices.
 ### [Load OCR License URL in Java – Remove Trial Watermark](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Learn how to load an OCR license from a URL in Java to eliminate the trial watermark.
+### [Create Searchable PDF in Java – Complete Guide](./create-searchable-pdf-in-java-complete-guide/)
+Create searchable PDFs in Java with Aspose.OCR. A complete guide covering setup, OCR processing, and saving searchable documents.
+### [Convert Image to Text in Java Using Aspose OCR – Full Guide](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Full guide to converting images to text in Java using Aspose OCR, covering setup, processing, and optimization.
+### [Aspose OCR License Tutorial – Java Setup Guide](./aspose-ocr-license-tutorial-java-setup-guide/)
+Step-by-step guide to set up and configure Aspose OCR license in Java applications.
 
 ## Frequently Asked Questions
 

@@ -201,6 +201,12 @@ Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm trong Java bằn
 Hướng dẫn chi tiết cách chuyển đổi tệp TIFF thành PDF có thể tìm kiếm bằng Aspose OCR cho Java, bao gồm cấu hình và xuất kết quả chính xác.
 ### [Tải giấy phép OCR từ URL trong Java – Loại bỏ watermark dùng thử](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Hướng dẫn cách tải giấy phép Aspose.OCR từ URL trong Java để loại bỏ watermark dùng thử và kích hoạt đầy đủ tính năng.
+### [Tạo PDF có thể tìm kiếm trong Java – Hướng dẫn đầy đủ](./create-searchable-pdf-in-java-complete-guide/)
+Hướng dẫn chi tiết tạo PDF có thể tìm kiếm trong Java bằng Aspose.OCR, bao gồm cấu hình, xử lý và lưu trữ tài liệu.
+### [Chuyển đổi hình ảnh thành văn bản trong Java bằng Aspose OCR – Hướng dẫn đầy đủ](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để chuyển đổi hình ảnh sang văn bản, bao gồm cấu hình, xử lý và xuất kết quả.
+### [Hướng dẫn giấy phép Aspose OCR – Cài đặt Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Hướng dẫn chi tiết cách cấu hình giấy phép Aspose OCR trong môi trường Java để kích hoạt đầy đủ tính năng OCR.
 
 ## Câu hỏi Thường gặp
 

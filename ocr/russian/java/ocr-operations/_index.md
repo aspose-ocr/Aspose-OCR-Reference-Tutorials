@@ -52,15 +52,11 @@ weight: 21
 
 Будь то многоязычные документы или специфические требования к языку, этот туториал даёт возможность извлекать текст с pinpoint accuracy. Попрощайтесь с догадками и приветствуйте точность.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
-
 ## OCR‑распознавание PDF‑документов в Aspose.OCR для Java
 
 Легко откройте возможности OCR в Java с Aspose.OCR. Наш туториал по распознаванию текста в PDF‑документах проведёт вас через бесшовную интеграцию. Повышайте свои приложения с точностью и скоростью, необходимыми для работы с текстом в PDF.
 
 Больше никаких проблем с извлечением текста из PDF. Погрузитесь в туториал и получите знания, позволяющие без усилий распознавать текст в PDF‑документах, обеспечивая гладкий рабочий процесс.
-
-[Get Started with PDF Recognition](./recognize-pdf/)
 
 ## OCR‑распознавание TIFF‑изображений в Aspose.OCR для Java
 
@@ -68,15 +64,15 @@ weight: 21
 
 Попрощайтесь с ручным извлечением текста из TIFF‑изображений. Позвольте Aspose.OCR сделать это за вас. Погрузитесь в туториал и откройте мощное распознавание текста в Java.
 
-[TIFF Recognition Tutorial](./recognize-tiff/)
-
 В заключение, с нашим списком Aspose.OCR для Java Tutorials вы получаете ключи к полному раскрытию потенциала OCR‑операций. Погрузитесь в каждый туториал, изучайте функции и повышайте свои возможности по извлечению текста. Скажите «прощай» ручному труду и примите точность и эффективность, предлагаемые Aspose.OCR для Java!
 
 ## OCR Operations Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Разблокируйте возможности извлечения текста из изображений с Aspose.OCR для Java. Полный туториал по OCR с Detect Areas Mode.
+
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 Точное извлечение текста из изображений с Aspose.OCR для Java. Следуйте нашему пошаговому руководству для точного OCR с выбором языка.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Откройте возможности OCR в Java с Aspose.OCR. Легко распознавайте текст в PDF‑документах. Повышайте свои приложения с точностью и скоростью.
 ### [Создание поискового PDF в Java – пошаговое руководство](./create-searchable-pdf-in-java-step-by-step-guide/)
@@ -120,7 +116,9 @@ weight: 21
 ### [Как включить OCR в Java с Aspose – Полное пошаговое руководство](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
 Подробный гид по включению OCR в Java‑приложениях с использованием Aspose, шаг за шагом.
 ### [Распознавание текста с изображения с помощью Aspose OCR Java – Полное руководство](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
-Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
+### [Create Searchable PDF in Java – Complete Guide](./create-searchable-pdf-in-java-complete-guide/)
+Полный гид по созданию поискового PDF в Java с использованием Aspose.OCR.
+
 ### [Извлечение текста на хинди из изображений – пример OCR на Java](./extract-hindi-text-from-images-java-ocr-example/)
 ### [Как выполнить OCR с Aspose OCR в Java – пошаговое руководство](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 Подробный пошаговый гайд по использованию Aspose OCR в Java для распознавания текста.
@@ -185,6 +183,12 @@ weight: 21
 Пошаговый туториал по преобразованию TIFF‑файлов в поисковые PDF с помощью Aspose OCR для Java.
 ### [Загрузка лицензии OCR по URL в Java – Удаление пробного водяного знака](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Узнайте, как загрузить лицензию OCR из URL в Java и избавиться от пробного водяного знака.
+
+### [Преобразование изображения в текст в Java с помощью Aspose OCR – Полный гид](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Подробный пошаговый гид по конвертации изображений в текст с использованием Aspose OCR в Java.
+
+### [Руководство по лицензированию Aspose OCR – настройка Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Пошаговое руководство по установке и активации лицензии Aspose OCR в Java‑приложениях.
 
 ## Часто задаваемые вопросы
 

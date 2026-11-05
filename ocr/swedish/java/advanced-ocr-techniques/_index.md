@@ -239,6 +239,18 @@ Korrigera snabbt stavfel i brusiga bilder med Aspose OCR för Java. Följ vår e
 Lär dig hur du läser OCR-text i Java med parallell bildbehandling för hög prestanda och noggrannhet.
 ### [Hur du förbättrar kontrasten i Java OCR med Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 Lär dig förbättra bildkontrast för bättre OCR-precision i Java med Aspose.
+### [GPU-accelererad OCR-handledning – Java‑guide för snabb bild‑till‑text](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Utnyttja GPU-acceleration för snabb OCR i Java. Extrahera text från bilder med hög hastighet och precision.
+### [Extrahera text från tiff med Aspose OCR Java – Guide](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Extrahera text från TIFF-filer snabbt med Aspose OCR för Java. Följ vår steg‑för‑steg‑guide för effektiv bild‑till‑text.
+### [Blandad språk‑OCR i Java – Komplett steg‑för‑steg‑guide](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Lär dig hur du utför OCR på blandade språk i Java med en komplett steg‑för‑steg‑guide för hög precision.
+### [Hur man OCR‑tabell i Java – Komplett steg‑för‑steg‑guide](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Lär dig extrahera tabeller från bilder i Java med Aspose.OCR. En komplett steg‑för‑steg‑guide för exakt tabell‑OCR.
+### [Öka bildkontrast i Java OCR – Komplett programmeringsguide](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Lär dig hur du förbättrar OCR-resultat genom att öka bildkontrasten i Java med vår kompletta programmeringsguide.
+### [Komprimera PDF-bilder med Java – Full batch OCR till PDF-guide](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Komprimera PDF-bilder och kör batch-OCR till PDF med Java för snabb och exakt textextraktion.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

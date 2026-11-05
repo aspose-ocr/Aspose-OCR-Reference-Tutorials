@@ -45,6 +45,26 @@ url: /el/java/advanced-ocr-techniques/
 
 Εξάγετε εύκολα κείμενο από εικόνες καθορίζοντας επιτρεπόμενους χαρακτήρες με το Aspose.OCR για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για αποτελεσματική ενσωμάτωση, διασφαλίζοντας μια απρόσκοπτη εμπειρία αναγνώρισης κειμένου. Βελτιώστε τις εφαρμογές σας Java με τις δυνατότητες Aspose.OCR.
 
+## [GPU επιταχυμένο OCR σεμινάριο – Οδηγός Java για γρήγορη μετατροπή εικόνας σε κείμενο](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+
+Εκμεταλλευτείτε την GPU για ταχύτατο OCR σε Java, μετατρέποντας εικόνες σε κείμενο με υψηλή ακρίβεια.
+
+## [Εξαγωγή κειμένου από TIFF με το Aspose OCR για Java – Οδηγός](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+
+Αποκτήστε οδηγίες βήμα προς βήμα για την εξαγωγή κειμένου από αρχεία TIFF με το Aspose OCR για Java, εξασφαλίζοντας υψηλή ακρίβεια.
+
+## [OCR ανάμικτης γλώσσας σε Java – Πλήρης βήμα‑βήμα οδηγός](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+
+Μάθετε πώς να επεξεργάζεστε εικόνες με κείμενο σε πολλαπλές γλώσσες χρησιμοποιώντας Aspose.OCR για Java, βήμα προς βήμα.
+
+## [Πώς να κάνετε OCR πίνακα σε Java – Πλήρης βήμα‑βήμα οδηγός](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+
+## [Αύξηση αντίθεσης εικόνας σε OCR Java – Πλήρης οδηγός προγραμματισμού](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+
+Μάθετε πώς να βελτιώσετε την αντίθεση εικόνας για ακριβέστερο OCR σε Java με βήμα‑βήμα οδηγίες.
+
+## [Συμπίεση εικόνων PDF με Java – Οδηγός πλήρους παρτίδας OCR σε PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+
 ## [Πώς να βελτιώσετε την αντίθεση στο OCR Java με το Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 Μάθετε πώς να αυξήσετε την αντίθεση εικόνας για βελτιωμένη ακρίβεια OCR σε Java χρησιμοποιώντας το Aspose.OCR.
 

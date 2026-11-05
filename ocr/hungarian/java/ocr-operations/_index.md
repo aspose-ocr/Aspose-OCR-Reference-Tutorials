@@ -169,6 +169,12 @@ Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az As
 Fedezd fel, hogyan alakíthatod át a TIFF képeket kereshető PDF-fé Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
 ### [OCR licenc URL betöltése Java-ban – Próbavízjel eltávolítása](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Töltsd be az Aspose.OCR licencet URL-ről, és távolítsd el a próbaverzió vízjelét a Java alkalmazásodban.
+### [Kereshető PDF létrehozása Java-ban – Teljes útmutató](./create-searchable-pdf-in-java-complete-guide/)
+Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et Java és Aspose.OCR segítségével.
+### [Kép szöveggé konvertálása Java-ban az Aspose OCR használatával – Teljes útmutató](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Fedezd fel, hogyan konvertálhatsz képeket szöveggé Java-ban az Aspose OCR segítségével, lépésről lépésre útmutató.
+### [Aspose OCR licenc tutorial – Java beállítási útmutató](./aspose-ocr-license-tutorial-java-setup-guide/)
+Ismerd meg, hogyan állítsd be és aktiváld az Aspose OCR licencet Java környezetben a zökkenőmentes használathoz.
 
 ## Gyakran Ismételt Kérdések
 

@@ -192,6 +192,11 @@ weight: 21
 完整教學示範如何使用 Aspose OCR for Java 將 TIFF 影像轉換為可搜尋的 PDF，提升文件可讀性與搜尋功能。
 ### [在 Java 中載入 OCR 授權 URL – 移除試用水印](./load-ocr-license-url-in-java-remove-trial-watermark/)
 說明如何在 Java 程式中使用 URL 載入 Aspose.OCR 授權，並消除試用版水印。
+### [在 Java 中建立可搜尋 PDF – 完整指南](./create-searchable-pdf-in-java-complete-guide/)
+### [在 Java 中使用 Aspose OCR 將圖像轉換為文字 – 完整指南](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+完整教學示範如何在 Java 使用 Aspose OCR 將圖像檔案轉換為可編輯文字，涵蓋設定與最佳化技巧。
+### [Aspose OCR 授權教學 – Java 設定指南](./aspose-ocr-license-tutorial-java-setup-guide/)
+說明如何在 Java 專案中設定 Aspose OCR 授權，以確保 OCR 功能正常運作。
 
 ## 常見問題
 

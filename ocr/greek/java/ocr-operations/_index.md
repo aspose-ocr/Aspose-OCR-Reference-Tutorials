@@ -187,6 +187,12 @@ weight: 21
 Μάθετε πώς να μετατρέψετε αρχεία TIFF σε αναζητήσιμο PDF χρησιμοποιώντας το Aspose OCR για Java σε πλήρη οδηγό.
 ### [Φόρτωση URL Άδειας OCR σε Java – Αφαίρεση Υδατογράμματος Δοκιμής](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Μάθετε πώς να φορτώνετε την άδεια OCR από URL σε Java και να αφαιρέσετε το υδατογράφημα δοκιμής.
+### [Δημιουργία Αναζητήσιμου PDF σε Java – Πλήρης Οδηγός](./create-searchable-pdf-in-java-complete-guide/)
+Μάθετε πώς να δημιουργήσετε αναζητήσιμο PDF σε Java χρησιμοποιώντας Aspose.OCR, βήμα‑βήμα οδηγίες για πλήρη ενσωμάτωση.
+### [Μετατροπή Εικόνας σε Κείμενο σε Java με Aspose OCR – Πλήρης Οδηγός](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο σε Java με το Aspose OCR – πλήρης οδηγός βήμα‑βήμα.
+### [Οδηγός Άδειας Aspose OCR – Ρύθμιση για Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Μάθετε πώς να εγκαταστήσετε και να ενεργοποιήσετε την άδεια Aspose OCR σε έργα Java.
 
 ## Συχνές Ερωτήσεις
 

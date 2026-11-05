@@ -184,6 +184,12 @@ Kompletní návod, jak v Javě vytvořit prohledávatelný PDF pomocí Aspose.OC
 Kompletní návod, jak převést TIFF soubory na prohledávatelná PDF pomocí Aspose OCR v Javě.
 ### [Načtení OCR licence z URL v Javě – Odstranění zkušební vodoznaku](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Naučte se, jak načíst licenci OCR z URL v Javě a odstranit zkušební vodoznak pro plnou funkčnost.
+### [Vytvoření prohledávatelného PDF v Javě – Kompletní průvodce](./create-searchable-pdf-in-java-complete-guide/)
+Kompletní návod, jak v Javě pomocí Aspose.OCR vytvořit prohledávatelný PDF soubor s vysokou přesností OCR.
+### [Převod obrázku na text v Javě pomocí Aspose OCR – Kompletní průvodce](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Kompletní návod, jak v Javě pomocí Aspose OCR převést obrázek na editovatelný text s vysokou přesností.
+### [Aspose OCR licenční tutoriál – nastavení pro Javu](./aspose-ocr-license-tutorial-java-setup-guide/)
+Naučte se, jak správně nastavit a aktivovat licenci Aspose.OCR v Java aplikacích.
 
 ## Často kladené otázky
 

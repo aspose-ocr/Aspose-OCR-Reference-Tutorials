@@ -74,8 +74,10 @@ weight: 21
 ## دروس عمليات OCR
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 افتح قوة استخراج النص من الصور مع Aspose.OCR للـ Java. دليل شامل حول OCR باستخدام وضع Detect Areas.
+
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
 افتح استخراج نص دقيق من الصور مع Aspose.OCR للـ Java. اتبع دليلنا خطوة بخطوة للحصول على OCR دقيق باختيار اللغة.
+
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 افتح قوة OCR في Java مع Aspose.OCR. تعرف على النص في مستندات PDF بسهولة. عزز تطبيقاتك بالدقة والسرعة.
 ### [كيفية استخدام OCR في Java – استخراج النص من PDF باستخدام Aspose.OCR](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
@@ -174,6 +176,15 @@ weight: 21
 دليل شامل يوضح كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose OCR للـ Java خطوة بخطوة.
 ### [تحميل عنوان URL لترخيص OCR في Java – إزالة علامة التجربة المائية](./load-ocr-license-url-in-java-remove-trial-watermark/)
 تعلم كيفية تحميل ترخيص Aspose.OCR من URL في Java لإزالة علامة التجربة المائية.
+### [إنشاء PDF قابل للبحث في Java – دليل كامل](./create-searchable-pdf-in-java-complete-guide/)
+دليل شامل يوضح كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+
+
+### [تحويل الصورة إلى نص في Java باستخدام Aspose OCR – دليل كامل](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+دليل شامل يوضح كيفية تحويل الصور إلى نص باستخدام Aspose OCR في Java خطوة بخطوة.
+
+### [دليل ترخيص Aspose OCR – إعداد Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+تعلم كيفية تثبيت ترخيص Aspose OCR في بيئة Java خطوة بخطوة لضمان تشغيل المكتبة بدون قيود.
 
 ## الأسئلة المتكررة
 

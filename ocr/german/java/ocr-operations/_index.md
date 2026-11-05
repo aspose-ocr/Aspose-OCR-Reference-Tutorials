@@ -192,6 +192,12 @@ Ein einfaches Beispiel, das zeigt, wie man mit Aspose OCR für Java Text aus ein
 Erfahren Sie, wie Sie aus TIFF‑Dateien durchsuchbare PDFs mit Aspose OCR für Java erstellen.
 ### [OCR-Lizenz-URL in Java laden – Testwasserzeichen entfernen](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Laden Sie Ihre OCR‑Lizenz über eine URL in Java und entfernen Sie das Test‑Wasserzeichen.
+### [Durchsuchbares PDF in Java erstellen – Vollständiger Leitfaden](./create-searchable-pdf-in-java-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR für Java ein durchsuchbares PDF erstellen – Schritt‑für‑Schritt‑Anleitung von der Erkennung bis zum Speichern.
+### [Bild in Text konvertieren – Vollständige Anleitung für Java mit Aspose OCR](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Erfahren Sie, wie Sie Bilder in Java mit Aspose OCR vollständig in editierbaren Text umwandeln – Schritt‑für‑Schritt‑Anleitung.
+### [Aspose OCR Lizenz‑Tutorial – Java‑Einrichtungs‑Guide](./aspose-ocr-license-tutorial-java-setup-guide/)
+Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz in Java einrichten und aktivieren, um OCR‑Funktionen produktiv zu nutzen.
 
 ## Häufig gestellte Fragen
 

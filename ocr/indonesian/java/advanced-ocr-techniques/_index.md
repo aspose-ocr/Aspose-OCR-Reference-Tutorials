@@ -275,6 +275,24 @@ Perbaiki teks pada gambar berisik secara cepat dengan Aspose OCR untuk Java. Tin
 ### [Cara Meningkatkan Kontras dalam OCR Java dengan Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 Tingkatkan kontras gambar untuk hasil OCR yang lebih akurat dengan Aspose OCR untuk Java. Pelajari cara mudahnya di sini.
 
+### [OCR Bahasa Campuran di Java – Panduan Lengkap Langkah demi Langkah](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Pelajari cara melakukan OCR pada teks berbahasa campuran menggunakan Java dengan panduan langkah demi langkah yang lengkap.
+
+### [Tutorial OCR Berbasis GPU – Panduan Java untuk Cepat Mengubah Gambar menjadi Teks](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Manfaatkan akselerasi GPU untuk OCR cepat di Java, mempercepat konversi gambar ke teks dengan akurasi tinggi.
+
+### [Ekstrak teks dari TIFF menggunakan Aspose OCR Java – Panduan](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Pelajari cara mengekstrak teks dari file TIFF dengan Aspose OCR untuk Java secara efisien dan akurat.
+
+### [Cara OCR Tabel di Java – Panduan Lengkap Langkah demi Langkah](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Pelajari cara mengekstrak tabel dari gambar menggunakan Java dengan panduan langkah demi langkah yang lengkap.
+
+### [Meningkatkan Kontras Gambar dalam OCR Java – Panduan Pemrograman Lengkap](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Pelajari cara meningkatkan kontras gambar untuk OCR Java dengan panduan pemrograman lengkap, meningkatkan akurasi ekstraksi teks.
+
+### [Kompres Gambar PDF dengan Java – Panduan OCR Batch Penuh ke PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Pelajari cara mengompres gambar PDF dan melakukan OCR batch penuh ke PDF menggunakan Java dalam panduan langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

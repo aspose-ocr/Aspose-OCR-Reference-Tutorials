@@ -157,6 +157,18 @@ Parallel image processing for OCR in Java using Aspose.OCR, delivering faster ex
 Quickly correct spelling errors in noisy OCR images using Aspose.OCR for Java, improving accuracy with minimal code.
 ### [How to Enhance Contrast in Java OCR with Aspose](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 Enhance image contrast before OCR in Java using Aspose.OCR to improve recognition accuracy on low‑quality scans.
+### [gpu accelerated ocr tutorial – Java Guide to Fast Image‑to‑Text](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Accelerate OCR processing with GPU support in Java, achieving fast image-to-text conversion using Aspose.OCR's GPU‑accelerated engine.
+### [Extract text from tiff using Aspose OCR Java – Guide](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Extract text from TIFF images using Aspose OCR for Java. Learn step‑by‑step integration for high‑accuracy OCR on multi‑page TIFF files.
+### [Mixed Language OCR in Java – Complete Step‑by‑Step Guide](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Learn how to perform OCR on mixed‑language documents in Java using Aspose.OCR, with step‑by‑step configuration and code examples.
+### [how to ocr table in Java – Complete Step‑by‑Step Guide](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Learn how to extract tables from images in Java using Aspose.OCR with a complete step‑by‑step guide.
+### [Increase Image Contrast in Java OCR – Complete Programming Guide](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Boost OCR accuracy by enhancing image contrast in Java. Follow this step‑by‑step guide to improve text extraction with Aspose.OCR.
+### [Compress PDF Images with Java – Full Batch OCR to PDF Guide](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Learn how to compress PDF images and run batch OCR to generate searchable PDFs using Aspose.OCR for Java.
 
 ### [How to Use OCR in Java – Parallel Processing with Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
 Accelerate OCR by processing multiple images concurrently with Aspose.OCR in Java for high‑throughput text extraction.

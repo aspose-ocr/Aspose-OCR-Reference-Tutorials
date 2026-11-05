@@ -197,6 +197,12 @@ En komplett guide för att skapa sökbara PDF-filer i Java med Aspose.OCR.
 En komplett guide som visar hur du skapar en sökbar PDF från TIFF-filer med Aspose OCR för Java.
 ### [Ladda OCR-licens-URL i Java – Ta bort provvattenstämpel](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Lär dig hur du laddar OCR-licensen via en URL i Java och tar bort provversionens vattenstämpel.
+### [Skapa sökbar PDF i Java – Komplett guide](./create-searchable-pdf-in-java-complete-guide/)
+En fullständig guide för att skapa sökbara PDF-filer i Java med Aspose.OCR, inklusive steg‑för‑steg‑instruktioner och bästa praxis.
+### [Konvertera bild till text i Java med Aspose OCR – Fullständig guide](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+En komplett guide som visar hur du konverterar bilder till text i Java med Aspose OCR.
+### [Aspose OCR‑licenstutorial – Java‑installationsguide](./aspose-ocr-license-tutorial-java-setup-guide/)
+Lär dig hur du konfigurerar och aktiverar Aspose OCR‑licensen i dina Java‑projekt för produktionsanvändning.
 
 ## Vanliga frågor
 

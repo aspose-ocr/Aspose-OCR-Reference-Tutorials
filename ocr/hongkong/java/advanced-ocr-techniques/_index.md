@@ -259,6 +259,18 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 使用 Aspose.OCR for Java 快速校正噪聲圖像的拼寫，提高文字辨識準確度。
 ### [如何在 Java OCR 中使用 Aspose 增強對比度](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 使用 Aspose.OCR for Java 調整圖像對比度，提升文字辨識精度與效能。
+### [GPU 加速 OCR 教程 – Java 快速影像轉文字指南](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+使用 GPU 加速的 Aspose.OCR for Java，實現高速影像文字提取，提升您的 Java 應用效能。
+### [在 Aspose.OCR for Java 中從 TIFF 提取文字 – 指南](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+使用 Aspose.OCR for Java 從 TIFF 圖像快速提取文字，提升 Java 應用的文字辨識效率。
+### [在 Aspose.OCR for Java 中混合語言 OCR – 完整步驟指南](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+使用 Aspose.OCR for Java 處理多語言影像文字提取，提供完整步驟與最佳實踐，提升您的 Java 應用程式辨識能力。
+### [在 Aspose.OCR for Java 中對表格執行 OCR – 完整步驟指南](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+使用 Aspose.OCR for Java 從表格影像中提取文字，提供完整步驟指南，提升 Java 應用的表格辨識能力。
+### [在 Java OCR 中提升影像對比度 – 完整程式設計指南](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+使用 Aspose.OCR for Java 提升影像對比度，改善 OCR 準確度，提供完整程式範例一步步教學。
+### [使用 Java 壓縮 PDF 圖像 – 完整批次 OCR 轉 PDF 指南](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+使用 Aspose.OCR for Java 批量壓縮 PDF 圖像並將 OCR 結果匯出為 PDF，提高檔案效能與文字可搜尋性。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

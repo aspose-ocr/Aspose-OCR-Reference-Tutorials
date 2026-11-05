@@ -189,6 +189,11 @@ weight: 21
 ### [สร้าง PDF ที่ค้นหาได้จากไฟล์ TIFF ด้วย Aspose OCR (Java) – คำแนะนำเต็ม](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
 เรียนรู้วิธีแปลงไฟล์ TIFF ให้เป็น PDF ที่ค้นหาได้อย่างละเอียดด้วย Aspose OCR สำหรับ Java  
 ### [โหลดใบอนุญาต OCR จาก URL ใน Java – ลบลายน้ำรุ่นทดลอง](./load-ocr-license-url-in-java-remove-trial-watermark/)
+### [สร้าง PDF ที่ค้นหาได้ใน Java – คู่มือเต็ม](./create-searchable-pdf-in-java-complete-guide/)
+เรียนรู้วิธีสร้างไฟล์ PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างครบถ้วน ตั้งแต่การตั้งค่า OCR จนถึงการบันทึกไฟล์  
+### [แปลงภาพเป็นข้อความใน Java ด้วย Aspose OCR – คู่มือเต็ม](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย Aspose OCR ใน Java อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการดึงข้อความ  
+### [คู่มือใบอนุญาต Aspose OCR – การตั้งค่า Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 
 
 

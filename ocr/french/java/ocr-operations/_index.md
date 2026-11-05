@@ -192,6 +192,12 @@ Apprenez à créer un PDF consultable en Java avec Aspose OCR grâce à ce guide
 Transformez vos fichiers TIFF en PDF consultables grâce à Aspose OCR pour Java. Suivez ce guide complet pas à pas.
 ### [Charger l'URL de licence OCR en Java – Supprimer le filigrane d'essai](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Apprenez à charger une licence OCR depuis une URL en Java pour éliminer le filigrane d'évaluation.
+### [Créer un PDF consultable en Java – Guide complet](./create-searchable-pdf-in-java-complete-guide/)
+Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à ce guide complet étape par étape.
+### [Convertir une image en texte en Java avec Aspose OCR – Guide complet](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Apprenez à convertir des images en texte en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Tutoriel de licence Aspose OCR – Guide d'installation Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+Apprenez à configurer et activer votre licence Aspose OCR dans une application Java étape par étape.
 
 ## Foire aux questions
 

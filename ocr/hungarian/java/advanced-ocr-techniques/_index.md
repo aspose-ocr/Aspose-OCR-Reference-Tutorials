@@ -261,6 +261,18 @@ Használja a GPU-t az Aspose OCR Java-ban a gyors szövegkivonáshoz képekből.
 ### [Aspose OCR Java oktatóanyag – Zajos képek helyesírási javítása gyorsan](./aspose-ocr-java-tutorial-spell-correct-noisy-images-quickly/)
 Javítsa a zajos képek szövegét gyors helyesírási korrekcióval az Aspose OCR for Java segítségével.
 ### [Hogyan növelje a kontrasztot Java OCR-ben az Aspose segítségével](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
+### [GPU-gyorsított OCR oktatóanyag – Java útmutató a gyors kép‑szöveg konvertáláshoz](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+Fedezze fel, hogyan használhatja a GPU-t az OCR felgyorsításához Java-ban, gyors és hatékony kép‑szöveg konvertálás.
+### [Szöveg kinyerése TIFF-fájlból az Aspose.OCR for Java-ban – Útmutató](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Tanulja meg, hogyan nyerhet ki szöveget TIFF képekből az Aspose.OCR for Java segítségével.
+### [Vegyes nyelvű OCR Java-ban – Teljes lépésről‑lépésre útmutató](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Fedezze fel, hogyan végezhet OCR-t vegyes nyelvű szövegeken Java-ban, lépésről‑lépésre útmutatóval a pontos kinyeréshez.
+### [Hogyan OCR-t végezzen táblázaton Java-ban – Teljes lépésről‑lépésre útmutató](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Fedezze fel, hogyan végezhet OCR-t táblázatokon Java-ban, részletes lépésről‑lépésre útmutatóval a pontos adatkinyeréshez.
+### [Kép kontrasztjának növelése Java OCR-ben – Teljes programozási útmutató](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Tanulja meg, hogyan növelheti a képek kontrasztját az OCR pontosságának javítása érdekében Java-ban.
+### [PDF képek tömörítése Java-val – Teljes kötegelt OCR PDF-hez útmutató](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Tanulja meg, hogyan tömörítheti a PDF képeket Java-val, és hajtson végre kötegelt OCR-t, hogy PDF-et hozzon létre magas pontossággal.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

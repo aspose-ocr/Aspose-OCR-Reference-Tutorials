@@ -248,6 +248,17 @@ Java에서 Aspose.OCR을 활용해 병렬 이미지 처리로 OCR 텍스트를 �
 Java용 Aspose.OCR을 활용해 잡음이 많은 이미지의 텍스트를 빠르게 맞춤법 교정하고 정확한 추출을 구현하는 방법을 안내합니다.
 ### [Aspose를 사용한 Java OCR 대비 향상 방법](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 Aspose OCR을 활용해 Java 이미지에서 대비를 조정하여 텍스트 인식 정확도를 높이는 방법을 단계별로 안내합니다.
+### [GPU 가속 OCR 튜토리얼 – 빠른 이미지‑텍스트 변환을 위한 Java 가이드](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+GPU 가속을 활용해 Java에서 이미지 텍스트 추출을 빠르게 수행하는 방법을 단계별로 안내합니다.
+### [Java용 Aspose OCR으로 Tiff에서 텍스트 추출 – 가이드](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+Java용 Aspose OCR을 활용해 Tiff 이미지에서 텍스트를 빠르고 정확하게 추출하는 방법을 단계별로 안내합니다.
+### [Java에서 혼합 언어 OCR – 완전한 단계별 가이드](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Java에서 혼합 언어 OCR을 수행하는 완전한 단계별 가이드. 다양한 언어 텍스트를 정확히 추출하는 방법을 안내합니다.
+### [Java에서 표 OCR 수행 – 완전한 단계별 가이드](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Java에서 표 형태의 데이터를 정확히 추출하기 위한 단계별 OCR 가이드를 제공합니다. 빠르고 효율적인 구현 방법을 확인하세요.
+### [Java OCR에서 이미지 대비 증가 – 완전 프로그래밍 가이드](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+이미지 대비를 높여 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다. Java에서 빠르고 효율적인 텍스트 추출을 구현하세요.
+### [Java로 PDF 이미지 압축 – 전체 배치 OCR을 PDF로 변환하는 가이드](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

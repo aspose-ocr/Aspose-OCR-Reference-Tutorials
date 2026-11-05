@@ -250,6 +250,14 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Узнайте, как повысить точность распознавания текста в Java, используя полный пример Aspose OCR.
 ### [Создание объекта OCRConfig в Java – Полное руководство по настройке Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Узнайте, как создать и настроить объект OCRConfig в Java для полного контроля над процессом распознавания в Aspose OCR.
+### [Увеличение контрастности изображения в Java OCR – Полное руководство по программированию](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Улучшите точность OCR, увеличивая контраст изображений в Java с помощью Aspose.OCR. Следуйте пошаговому руководству.
+### [GPU-ускоренный OCR‑урок – Руководство Java по быстрому преобразованию изображений в текст](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+### [Извлечение текста из TIFF с помощью Aspose OCR Java – Руководство](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+### [Смешанное языковое OCR в Java – Полное пошаговое руководство](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+### [Как выполнить OCR таблицы в Java – Полное пошаговое руководство](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+### [Сжатие изображений PDF с помощью Java – Полное руководство по пакетному OCR в PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Узнайте, как сжать изображения в PDF и выполнить пакетное OCR, преобразуя их в PDF с помощью Aspose.OCR для Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

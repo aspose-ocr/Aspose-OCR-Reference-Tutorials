@@ -43,6 +43,21 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 ## [การระบุอักขระที่อนุญาตใน Aspose.OCR สำหรับ Java](./specify-allowed-characters/)
 
+## [สกัดข้อความจากไฟล์ TIFF ด้วย Aspose OCR สำหรับ Java – คู่มือ](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ TIFF ด้วย Aspose OCR สำหรับ Java อย่างง่ายดายและแม่นยำเพื่อเพิ่มประสิทธิภาพแอปพลิเคชันของคุณ
+
+## [บทแนะนำ OCR เร่งด้วย GPU – คู่มือ Java สำหรับการแปลงภาพเป็นข้อความอย่างเร็ว](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+เรียนรู้วิธีใช้ GPU เพื่อเร่งการทำ OCR ใน Java ให้แปลงภาพเป็นข้อความได้เร็วและแม่นยำ
+
+## [OCR ภาษาแบบผสมใน Java – คู่มือขั้นตอนเต็มรูปแบบ](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+เรียนรู้วิธีทำ OCR สำหรับข้อความหลายภาษาใน Java อย่างละเอียดครบทุกขั้นตอนเพื่อการจดจำที่แม่นยำ
+
+## [วิธีทำ OCR ตารางใน Java – คู่มือขั้นตอนเต็มรูปแบบ](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+
+## [เพิ่มความคอนทราสต์ของภาพใน Java OCR – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+
+## [บีบอัดภาพ PDF ด้วย Java – คู่มือ OCR แบบเต็มชุดไปยัง PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+
 ## [ตัวอย่าง Aspose OCR Java – แยกข้อความจากภาพด้วย GPU](./aspose-ocr-java-example-extract-text-from-image-with-gpu/)
 ใช้ Aspose OCR กับ Java บน GPU เพื่อแยกข้อความจากภาพได้อย่างรวดเร็วและแม่นยำ
 

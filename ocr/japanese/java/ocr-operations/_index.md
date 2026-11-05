@@ -188,6 +188,12 @@ Aspose.OCR を使用して PDF を検索可能に変換する手順をステッ�
 Aspose OCR for Java を使い、TIFF 画像から検索可能な PDF を作成する手順を詳細に解説します。
 ### [Java で OCR ライセンス URL をロード – 試用版ウォーターマークを削除](./load-ocr-license-url-in-java-remove-trial-watermark/)
 OCR ライセンス URL を Java で読み込み、試用版のウォーターマークを除去する手順を解説します。
+### [Java で検索可能な PDF を作成 – 完全ガイド](./create-searchable-pdf-in-java-complete-guide/)
+Aspose.OCR for Java を使用して、PDF を検索可能な形式に変換する手順をステップバイステップで解説します。
+### [Aspose OCR を使用した Java で画像をテキストに変換 – 完全ガイド](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Aspose OCR を活用し、Java で画像からテキストを抽出する手順をステップバイステップで解説します。
+### [Aspose OCR ライセンス チュートリアル – Java 設定ガイド](./aspose-ocr-license-tutorial-java-setup-guide/)
+Aspose OCR のライセンス取得方法と Java 環境への設定手順をステップバイステップで解説します。
 
 ## よくある質問
 

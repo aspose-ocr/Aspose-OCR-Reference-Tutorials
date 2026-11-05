@@ -234,6 +234,19 @@ Java で並列画像処理を活用し、OCR テキストの高速抽出方法�
 Aspose OCR for Java を使用して、ノイズが多い画像の文字を高速にスペル補正し、テキスト抽出精度を向上させる方法を解説します。
 ### [Aspose を使用した Java OCR のコントラスト強化方法](./how-to-enhance-contrast-in-java-ocr-with-aspose/)
 Aspose OCR for Java で画像のコントラストを調整し、文字認識精度を向上させる手順を解説します。
+### [GPU 加速 OCR チュートリアル – Java による高速画像テキスト変換ガイド](./gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+GPU のパワーを活用し、Aspose.OCR for Java で高速に画像からテキストを抽出する方法を解説します。パフォーマンス向上を実現。
+### [Java での混合言語 OCR – 完全ステップバイステップガイド](./mixed-language-ocr-in-java-complete-step-by-step-guide/)
+Aspose.OCR for Java を使用して、複数言語が混在する画像から正確にテキストを抽出する方法をステップバイステップで解説します。
+### [Java でテーブルを OCR する方法 – 完全ステップバイステップガイド](./how-to-ocr-table-in-java-complete-step-by-step-guide/)
+Aspose.OCR for Java を使用して、画像内のテーブル構造を正確に認識し、テキストとして抽出する手順を詳しく解説します。
+### [Aspose OCR Java で TIFF からテキストを抽出する – ガイド](./extract-text-from-tiff-using-aspose-ocr-java-guide/)
+
+### [Java OCR で画像コントラストを上げる – 完全プログラミングガイド](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
+Aspose.OCR for Java を使用して、画像のコントラストを調整し、OCR の精度を向上させる手順を詳しく解説します。
+
+### [Java で PDF 画像を圧縮 – バッチ OCR で PDF に変換する完全ガイド](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
+Aspose.OCR for Java を使用して、PDF 内の画像を圧縮し、バッチ OCR でテキスト抽出し PDF に変換する手順を解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
