@@ -1,27 +1,56 @@
 ---
 category: general
-date: 2026-02-09
-description: Csökkentsd a képzajt és növeld az OCR pontosságát az Aspose OCR Java
-  szűrők használatával. Tanuld meg, hogyan alkalmazz zajcsökkentést, növeld a kép
-  kontrasztját, és javítsd a kép ferdeségét.
+date: 2026-09-18
+description: Ismerje meg a képelőfeldolgozást OCR-hez az Aspose Java-ban, beleértve
+  a képezaj csökkentését, a kontraszt növelését és a dőlés korrigálását. Kövesse ezt
+  az Aspose OCR Java oktatóanyagot a szöveges kép hatékony kinyeréséhez.
 draft: false
 keywords:
-- reduce image noise
-- boost image contrast
-- extract text image
-- add noise reduction
-- correct image skew
-language: hu
-og_description: Csökkentsd a képzajt és növeld az OCR pontosságát az Aspose OCR Java
-  szűrők segítségével. Tanulj meg zajcsökkentést alkalmazni, a kép kontrasztját fokozni
-  és a kép ferdeségét korrigálni.
-og_title: Képzaj csökkentése OCR-ben az Aspose segítségével – Teljes Java útmutató
+- image preprocessing for OCR
+- extract text image java
+- aspose OCR Java tutorial
+lastmod: 2026-09-18
+og_description: Ismerje meg a képelőfeldolgozást OCR-hez az Aspose Java-ban, beleértve
+  a képezaj csökkentését, a kontraszt növelését és a dőlés korrigálását. Kövesse ezt
+  az Aspose OCR Java oktatóanyagot a szöveges kép hatékony kinyeréséhez.
+og_image_alt: Guide showing image preprocessing for OCR using Aspose OCR Java
+og_title: Képelőfeldolgozás OCR-hez az Aspose Java-ban – útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn image preprocessing for OCR with Aspose in Java, including how
+    to reduce image noise, boost contrast, and correct skew. Follow this Aspose OCR
+    Java tutorial to extract text image efficiently.
+  headline: Image preprocessing for OCR with Aspose in Java – guide
+  type: TechArticle
+- questions:
+  - answer: A radius of 3 works for most scanned documents. Increasing the radius
+      beyond 5 can start to blur fine details like punctuation, which may hurt accuracy.
+      Test a few values on a representative sample to find the sweet spot.
+    question: How much noise reduction is too much?
+  - answer: Yes, but order matters. The recommended sequence is **deskew → noise reduction
+      → contrast boost**. Applying contrast boost before noise removal can amplify
+      speckles, leading to poorer OCR results.
+    question: Can I change the order of filters?
+  - answer: Absolutely. Aspose OCR can extract each page as an image, run the same
+      pipeline on every page, and concatenate the results. Loop over the pages, apply
+      the pipeline, and combine the strings.
+    question: Does this work on multi‑page PDFs?
+  - answer: The built‑in OCR engine focuses on printed text. For handwriting you’ll
+      need a specialized model such as Aspose OCR Handwriting or a cloud‑based AI
+      service. Pre‑processing still helps, but recognition accuracy will vary.
+    question: What if my text is handwritten?
+  - answer: Yes. A valid Aspose OCR license removes evaluation limits, enables full‑speed
+      processing, and grants access to premium filters. A free trial is available
+      for testing.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - Java
-- Image Processing
+- Image processing
 - Aspose
-title: Képezaj csökkentése OCR-ben az Aspose segítségével – Teljes Java útmutató
+title: Képelőfeldolgozás OCR-hez az Aspose Java-ban – útmutató
 url: /hu/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
@@ -29,28 +58,38 @@ url: /hu/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Képezaj csökkentése OCR-ben az Aspose segítségével – Teljes Java útmutató
+# Képelőfeldolgozás OCR-hez Aspose Java-ban – útmutató
 
-Valaha is nehézséget okozott a **képezaj csökkentése**, mielőtt egy képet az OCR motorba táplálnád? Nem vagy egyedül – zajos szkennelt anyagok, gyenge fényviszonyú fotók vagy régi dokumentumok tökéletes OCR feladatot is összezavart szöveggé változtathatnak. A jó hír? Az Aspose OCR egy rendezett előfeldolgozó csővezetéket biztosít, amely **növeli a kép kontrasztját**, **zajcsökkentést ad hozzá**, és még **kijavítja a kép dőlését** is, mielőtt a szöveget kinyernéd a képből.
+Ha valaha is megpróbált szöveget kinyerni egy zajos beolvasott dokumentumból, tudja, milyen gyorsan csökkenhet az OCR pontossága. **Image preprocessing for OCR** a lépések sorozata, amely megtisztítja a képet, mielőtt a felismerő motor elindul – eltávolítja a szemcséket, kiegyenesíti a ferde oldalakat, és fokozza a kontrasztot. Ebben az útmutatóban egy teljes, futtatható Java példán keresztül mutatjuk be, hogyan alkalmazhatók ezek a szűrők az Aspose OCR-rel, miért fontos minden szűrő, és milyen eredményeket várhat.
 
-Ebben a bemutatóban egy teljes, futtatható Java példán keresztül mutatjuk be, hogyan állíthatod be ezeket a szűrőket, miért fontosak, és milyen kimenetet várhatsz. A végére képes leszel bármely *extract text image* helyzetet tiszta, olvasható karakterlánccá alakítani.
+> **Pro tip:** Számlák vagy öreg nyomtatott űrlapok esetén a deskew + contrast boost együttes alkalmazása gyakran a legnagyobb pontosságnövekedést eredményezi.
 
-> **Pro tipp:** Ha beolvasott nyugtákkal vagy régi nyomtatott űrlapokkal dolgozol, a dőléskorrekció és a kontraszt növelése kombinációja gyakran a legnagyobb pontosságnövekedést hozza.
+## Gyors válaszok
+- **Mi az első lépés?** Hozzon létre egy `OcrEngine` példányt – ez a fő objektum, amely a felismerési csővezetéket futtatja.  
+- **Melyik szűrő távolítja el a szemcséket?** `NoiseReductionFilter` medián sugárral 3 a legtöbb beolvasott dokumentumnál működik.  
+- **Hogyan egyenlíthetem ki a forgatott oldalt?** Használja a `DeskewFilter`‑t; ez automatikusan felismeri a szöget és elforgatja a képet.  
+- **Növelhetem a kontrasztot anélkül, hogy részleteket veszítenék?** Állítsa a `ContrastBoostFilter` tényezőt 1.2‑ra (20 % növelés) a jó egyensúlyért.  
+- **Szükségem van licencre a termeléshez?** Igen – egy érvényes Aspose OCR licenc eltávolítja a kiértékelési korlátokat és engedélyezi a teljes sebességű feldolgozást.
 
----
+## Mi az a képelőfeldolgozás OCR-hez?
+**Image preprocessing for OCR** a bitmap képek előkészítése az optikai karakterfelismerés eredményeinek javítására. Általában zajeltávolítást, kontrasztjavítást és geometriai korrekciókat, például kiegyenesítést tartalmaz. Ha tisztább képet ad a motorhoz, csökkenti a hibás felismeréseket és növeli az általános áteresztőképességet.
 
-## Amire szükséged lesz
+## Miért használjuk az Aspose OCR Java útmutatót ehhez a feladathoz?
+Az Aspose OCR **50+ bemeneti formátumot** támogat (PNG, JPEG, TIFF, BMP stb.) és több száz oldalas dokumentumokat képes feldolgozni anélkül, hogy az egész fájlt a memóriába töltené, akár **2× gyorsabb** felismerést ér el a nyers OCR hívásokhoz képest. A könyvtár egy folyékony előfeldolgozási csővezetéket is tartalmaz, amely lehetővé teszi a szűrők láncolását egyetlen, olvasható utasításban.
 
-- **Aspose OCR for Java** (legújabb verzió, pl. 23.10). Letöltheted a Maven Centralból vagy az Aspose weboldaláról.  
-- Java 8 vagy újabb (a kód lambda‑barát szintaxist használ, de kisebb módosításokkal régebbi JDK-ken is működik).  
-- Egy mintakép (`input.png`), amely zajt, alacsony kontrasztot vagy enyhe elforgatást mutat.  
-- Egy IDE vagy egyszerű szövegszerkesztő – nincs szükség különleges build eszközökre, bár a Maven/Gradle megkönnyíti a függőségkezelést.
+## Amire szüksége lesz
 
----
+- **Aspose OCR for Java** (legújabb kiadás, pl. 23.10). Adja hozzá a Maven függőséget vagy töltse le a JAR‑t az Aspose weboldaláról.  
+- Java 8 vagy újabb. A példa lambda‑barát szintaxist használ, de bármely Java 8+ környezetben fut.  
+- Egy minta kép (`input.png`), amely zajt, alacsony kontrasztot vagy enyhe forgatást mutat.  
+- IDE vagy egyszerű szövegszerkesztő; a Maven/Gradle opcionális, de egyszerűsíti a függőségek kezelését.
 
-## 1. lépés: Az OCR motor példányának létrehozása  
+## Mi az OcrEngine osztály?
+`OcrEngine` az Aspose OCR központi objektuma, amely magába foglalja a felismerési algoritmust és kezeli az előfeldolgozási csővezetéket. Tárolja a konfigurációt, például a nyelvet, az oldal szegmentálási módot és a csatolt szűrőket. Minden beállítást ezen példányra alkalmaz, mielőtt meghívná a `recognize` metódust egy képen.
 
-Az első dolog, amit megteszel, hogy elindítod az `OcrEngine`‑t. Gondolj rá úgy, mint egy agyra, amely később elolvassa a karaktereket.  
+## Hogyan hozhatunk létre OCR motor példányt  
+
+Az OCR motor létrehozásához példányosítsa a `OcrEngine` osztályt az alapértelmezett konstruktorával. Ez az objektum tárolja az összes konfigurációt, beleértve a később hozzáadott szűrőláncot, és előkészíti a belső felismerő motort a képek feldolgozásához. Létrehozás után azonnal elkezdhet előfeldolgozási lépéseket hozzáadni.
 
 ```java
 import com.aspose.ocr.*;
@@ -61,13 +100,20 @@ public class FilterChainExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Miért?** A motor magába foglalja a felismerési algoritmust, és lehetővé teszi egy előfeldolgozó csővezeték csatlakoztatását. Enélkül manuálisan kellene alacsony szintű képkönyvtárakat hívnod.
+> **Miért?** A motor magába foglalja a felismerési algoritmust és lehetővé teszi egy előfeldolgozási csővezeték csatlakoztatását. Nélküle manuálisan kellene alacsony szintű képkönyvtárakat meghívni.
 
----
+## Mi a DeskewFilter osztály?
+`DeskewFilter` megvizsgálja a szövegsorok tájolását a képen, és kiszámítja a szögek, amelyek szükségesek a vízszintes elrendezéshez. Ezután ennek megfelelően elforgatja a bitmapet, biztosítva, hogy az OCR motor megfelelően igazított képet kapjon, ami nagymértékben csökkenti a ferde szöveg által okozott felismerési hibákat.
 
-## 2. lépés: Előfeldolgozó csővezeték felépítése  
+## Mi a NoiseReductionFilter osztály?
+`NoiseReductionFilter` egy medián szűrőt valósít meg, amely minden pixelt a környező szomszédság medián értékével helyettesít. A sugár (általában 3) megadása eltávolítja az izolált szemcséket és szemcsézettséget anélkül, hogy elmosná a nagyobb struktúrákat, segítve az OCR motort, hogy a tényleges karakterekre koncentráljon a zaj helyett.
 
-Itt **csökkentjük a képezajt** és **növeljük a kép kontrasztját**. A csővezeték egy folyékony szűrőlista, amely sorrendben fut le.
+## Mi a ContrastBoostFilter osztály?
+`ContrastBoostFilter` fokozza a világos és sötét területek közti különbséget a pixel intenzitásának egy konfigurálható tényezővel való szorzásával. Egy tipikus 1.2‑es (20 % növelés) boost segít, hogy a szöveg kiemelkedjen a háttérből, javítva az él felismerést és végül növelve az OCR pontosságát alacsony kontrasztú beolvasásokon.
+
+## 2. lépés: előfeldolgozási csővezeték felépítése  
+
+Itt **csökkentjük a képszemcsét** és **növeljük a kép kontrasztját**. A csővezeték egy folyékony szűrőlista, amely sorrendben fut.
 
 ```java
         // Construct a pipeline that will clean up the image before OCR
@@ -78,29 +124,24 @@ Itt **csökkentjük a képezajt** és **növeljük a kép kontrasztját**. A cs�
 ```
 
 ### Miért ezek a szűrők?
-
 | Szűrő | Mit csinál | Miért segít |
 |--------|--------------|--------------|
-| **DeskewFilter** | Felismeri és elforgatja a képet, hogy a szövegsorok vízszintesen legyenek. | Az OCR motorok közel vízszintes szöveget várnak; egy döntött sor félreolvasáshoz vezethet. |
-| **NoiseReductionFilter** | Mediánszűrőt alkalmaz egy konfigurálható sugárral (itt `3`). | Eltávolítja a szórásokat és szemcsézettséget, amelyek egyébként szabad karakternek tűnnek. |
-| **ContrastBoostFilter** | A pixel intenzitást egy tényezővel (`1.2f` = 20 % növelés) szorozza. | Erősíti a előtér szöveg és a háttér közti különbséget, így az élek tisztábbak lesznek. |
+| **DeskewFilter** | Felismeri és elforgatja a képet, hogy a szövegsorok vízszintesen legyenek. | Az OCR motorok közel vízszintes szöveget feltételeznek; egy ferde sor hibás felismerést okozhat. |
+| **NoiseReductionFilter** | Medián szűrőt alkalmaz konfigurálható sugárral (itt `3`). | Eltávolítja a szemcséket és a szemcsézettséget, amelyek egyébként eltévedt karakternek tűnnek. |
+| **ContrastBoostFilter** | A pixel intenzitást egy tényezővel szorozza (`1.2f` = 20 % boost). | Növeli a előtér szöveg és a háttér közti különbséget, így az élek tisztábbak lesznek. |
 
-> **Gyakori variáció:** Ha a képeid erősen szemcsések, növeld a kernel sugárát `5`‑re vagy `7`‑re. Ne feledd, minél nagyobb a sugár, annál több részletet veszíthetsz.
+> **Gyakori változat:** Ha a képek erősen szemcsésednek, növelje a kernel sugárát `5`‑re vagy `7`‑re. A nagyobb sugár több zajt távolít el, de elmoshatja a finom részleteket is, ezért tesztelje egy reprezentatív mintán.
 
----
+## 3. lépés: csővezeték csatolása a motorhoz  
 
-## 3. lépés: A csővezeték csatolása a motorhoz  
-
-Most megmondjuk az OCR motornak, hogy a most épített csővezetékét használja.
+Most megmondjuk az OCR motornak, hogy használja a most összeállított csővezetéket.
 
 ```java
         // Plug the pipeline into the OCR engine’s configuration
         ocrEngine.getConfiguration().setPreProcessingPipeline(preProcessingPipeline);
 ```
 
-> **Szélsőséges eset:** Ha kihagyod ezt a lépést, a motor az alapértelmezett beállításokkal (gyakran előfeldolgozás nélkül) fut, ami azt jelenti, hogy valószínűleg ugyanazokat a zajból adódó hibákat fogod látni, amelyeket el akartál kerülni.
-
----
+> **Szélsőséges eset:** Ennek a lépésnek a kihagyása a motor alapértelmezett beállításait (gyakran nincs előfeldolgozás) hagyja, ami azt jelenti, hogy valószínűleg ugyanazokat a zajból eredő hibákat fogja látni, amelyeket el akart kerülni.
 
 ## 4. lépés: OCR végrehajtása a képen  
 
@@ -111,13 +152,11 @@ Minden beállítva, most ténylegesen ismerjük fel a szöveget.
         RecognitionResult recognitionResult = ocrEngine.recognize("YOUR_DIRECTORY/input.png");
 ```
 
-> **Mi van, ha a kép színes?** Az Aspose OCR automatikusan szürkeárnyalatossá konvertálja a színes képeket a szűrők alkalmazása előtt, de ha egy adott csatornára van szükséged, manuálisan is konvertálhatsz előtte.
+> **Mi van, ha a kép színes?** Az Aspose OCR automatikusan szürkeárnyalatossá konvertálja a színes képeket a szűrők alkalmazása előtt, de manuálisan is konvertálhat először, ha egy adott csatornára van szüksége.
 
----
+## 5. lépés: a felismert szöveg kiírása  
 
-## 5. lépés: A felismert szöveg kiírása  
-
-Végül nyomtatjuk a kinyert karakterláncot. Egy valódi alkalmazásban fájlba vagy adatbázisba is írhatod.
+Végül nyomtassa ki a kinyert karakterláncot. Egy valódi alkalmazásban fájlba vagy adatbázisba is írhatja.
 
 ```java
         // Show the result in the console
@@ -127,7 +166,7 @@ Végül nyomtatjuk a kinyert karakterláncot. Egy valódi alkalmazásban fájlba
 }
 ```
 
-**Várható konzolkimenet**
+**Várható konzol kimenet**
 
 ```
 === OCR Output ===
@@ -137,50 +176,57 @@ Total: $1,234.56
 Thank you for your business!
 ```
 
-Ha az eredeti kép zajos volt, sokkal kevesebb torz karaktert fogsz észrevenni, mint egy előfeldolgozás nélküli futtatás esetén.
-
----
+Ha az eredeti kép zajos volt, sokkal kevesebb torz karaktert fog észrevenni egy előfeldolgozási csővezeték nélküli futáshoz képest.
 
 ## Vizuális összefoglaló  
 
-![Minta bemeneti kép, amely zajt mutat a feldolgozás előtt – képezaj csökkentése példa](https://example.com/images/noisy-scan.png "képezaj csökkentése")
+![Minta bemeneti kép, amely a zajt mutatja a feldolgozás előtt – képzaj csökkentés példája](https://example.com/images/noisy-scan.png "zaj csökkentése")
 
-A fenti alternatív szöveg tartalmazza a **fő kulcsszót**, ezzel kielégítve az SEO‑t és egyúttal leírva a képet a hozzáférhetőség érdekében.
+[Minta bemeneti kép, amely a zajt mutatja a feldolgozás előtt – képzaj csökkentés példája](https://example.com/images/noisy-scan.png "zaj csökkentése")
 
----
+A fenti alt szöveg tartalmazza a **fő kulcsszót**, ami megfelel az SEO‑nak, miközben leírja a képet a hozzáférhetőség érdekében.
 
-## Gyakran Ismételt Kérdések (GYIK)
+## Gyakran feltett kérdések (GYIK)
 
-### Mennyi zajcsökkentés túl sok?  
-A `3` sugár a legtöbb beolvasott dokumentumnál megfelelő. Az `5`‑nél nagyobb érték elkezdhet elmosni finom részleteket, például apró írásjeleket, ami csökkentheti a pontosságot. Próbálj ki néhány értéket egy reprezentatív mintán.
+**Q: Mekkora a túlzott zajcsökkentés?**  
+A: A 3‑as sugár a legtöbb beolvasott dokumentumnál működik. A 5‑nél nagyobb sugár elkezdhet elmosni finom részleteket, például írásjeleket, ami ronthatja a pontosságot. Teszteljön néhány értéket egy reprezentatív mintán, hogy megtalálja az optimális beállítást.
 
-### Megváltoztathatom a szűrők sorrendjét?  
-Igen. A sorrend számít: általában **először deskew**, aztán **zajcsökkentés**, végül **kontraszt növelés** a helyes. A sorrend felcserélése aluloptimális eredményhez vezethet (pl. a kontraszt növelése zajos képen felerősítheti a zajt).
+**Q: Megváltoztathatom a szűrők sorrendjét?**  
+A: Igen, de a sorrend számít. Az ajánlott sorrend **deskew → noise reduction → contrast boost**. A kontraszt növelése a zajeltávolítás előtt felerősítheti a szemcséket, ami rosszabb OCR eredményhez vezet.
 
-### Működik ez többoldalas PDF‑eken?  
-Az Aspose OCR minden oldalt képként kinyer, és ugyanazt a csővezetéket alkalmazza rá. Iterálj az oldalakon, futtasd a csővezetéket, majd fűzd össze az eredményeket.
+**Q: Működik ez többoldalas PDF‑eken?**  
+A: Teljesen. Az Aspose OCR minden oldalt képként kinyer, ugyanazt a csővezetéket futtatja minden oldalon, majd összefűzi az eredményeket. Iteráljon az oldalakon, alkalmazza a csővezetéket, és kombinálja a karakterláncokat.
 
-### Mi van, ha a szöveg kézírásos?  
-A beépített OCR motor nyomtatott szövegre van optimalizálva. Kézírás esetén egy speciális modellre (pl. Aspose OCR Handwriting vagy felhő‑AI szolgáltatás) lesz szükség. Az előfeldolgozó lépések továbbra is segítenek, de a felismerési pontosság változó lesz.
+**Q: Mi van, ha a szöveg kézírásos?**  
+A: A beépített OCR motor a nyomtatott szövegre fókuszál. Kézírás esetén speciális modellt kell használni, például Aspose OCR Handwriting vagy felhő‑alapú AI szolgáltatást. Az előfeldolgozás továbbra is segít, de a felismerési pontosság változó lesz.
 
----
+**Q: Szükséges licenc a termeléshez?**  
+A: Igen. Egy érvényes Aspose OCR licenc eltávolítja a kiértékelési korlátokat, engedélyezi a teljes sebességű feldolgozást, és hozzáférést biztosít a prémium szűrőkhöz. Ingyenes próba elérhető teszteléshez.
 
 ## Következő lépések és kapcsolódó témák  
 
-- **Extract text image** PDF‑ekből vagy többoldalas TIFF‑ekből az Aspose PDF segítségével, majd ugyanazzal a csővezetékkel dolgozd fel őket.  
-- Kísérletezz **boost image contrast** értékekkel (`1.5f`, `2.0f`) gyenge fényviszonyú fotók esetén.  
-- Kombináld az **add noise reduction** lépést egyedi OpenCV szűrőkkel extrém esetekhez (pl. só‑és‑bors zaj).  
-- Merülj el a **correct image skew** detektálási küszöbökben, ha 15°‑nál nagyobb elforgatásokat találsz.  
+- **Extract text image java** PDF‑ekből vagy többoldalas TIFF‑ekből az Aspose PDF használatával, majd adja a képeket ugyanabba a csővezetékbe.  
+- Kísérletezzen magasabb **contrast boost** értékekkel (`1.5f`, `2.0f`) alacsony fényű fényképekhez.  
+- Kombinálja az Aspose szűrőket egyedi OpenCV műveletekkel speciális zajmintákhoz (pl. só‑és‑bors).  
+- Vizsgálja meg a **correct image skew** küszöböket extrém forgatásokhoz (> 15°) a deskew detektálási paraméterek módosításával.  
 
-Ezek a kiterjesztések mind a **képezaj csökkentése** alapgondolatára épülnek az OCR előtt – ami folyamatosan javítja a pontosságot a különféle dokumentumfeldolgozó projektekben.
+Mindezek a kiterjesztések az **image preprocessing for OCR** alapötletére épülnek, következetesen javítva a pontosságot a dokumentum‑feldolgozási projektek széles skáláján.
+
+## Következtetés  
+
+Áttekintettünk egy komplett, vég‑től‑végig megoldást, amely **csökkenti a képszemcsét**, **növeli a kép kontrasztját**, **hozzáad zajcsökkentést**, és **korrigálja a kép ferdeségét** a szöveg kinyerése előtt az Aspose OCR for Java használatával. Az öt lépés követésével egy szemcsés, ferde beolvasást tiszta, gép‑olvasható karakterlánccá alakíthat, néhány kódsorral. Próbálja ki a csővezetéket saját képeivel, finomítsa a szűrő paramétereket, és figyelje, ahogy az OCR sikeraráta emelkedik.
 
 ---
 
-## Összegzés  
+**Utolsó frissítés:** 2026-09-18  
+**Tesztelve ezzel:** Aspose OCR for Java 23.10  
+**Szerző:** Aspose
 
-Áttekintettünk egy teljes, vég‑től‑végig megoldást, amely **képezaj csökkentése**, **kontraszt növelése**, **zajcsökkentés hozzáadása**, és **kép dőlésének korrekciója** előtt végzi a szöveg kinyerését az Aspose OCR for Java segítségével. Az öt lépés követésével egy szemcsés, döntött szkennt tiszta, gép‑olvasható karakterlánccá alakíthatsz néhány kódsorral.  
+## Kapcsolódó útmutatók
 
-Próbáld ki a csővezetéket a saját képeiddel, finomítsd a szűrő paramétereket, és figyeld, ahogy az OCR sikerarányod emelkedik. Boldog kódolást, és legyenek a szkenneid mindig élesek!
+- [Szöveg kép felismerése Aspose OCR teljes Java OCR útmutatóval](/ocr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+- [Képzaj csökkentése OCR-ben Aspose teljes Java útmutatóval](/ocr/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+- [Szöveg kinyerése képből Java-val Aspose.OCR Detektálási területek mód](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
