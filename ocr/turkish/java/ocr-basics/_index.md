@@ -140,6 +140,9 @@ Java’da OCR işlemini adım adım öğrenin, görüntülerden yüksek doğrulu
 ### [Java OCR Örneği – Görüntü Yükleyip Aspose ile Metni Tanıma](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
 ### [Java’da Görüntü Üzerinde OCR Gerçekleştirme – Tam Adım‑Adım Kılavuz](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Java ve Aspose.OCR kullanarak bir görüntüyü yükleyip metni tanıma sürecini adım adım öğrenin.
+### [Java’da Aspose OCR ile JPG’den Metin Tanıma](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Aspose OCR kullanarak JPG dosyalarından metin çıkarın ve Java uygulamanıza entegre edin.
+### [Java’da Tüm CPU Çekirdeklerini Kullan – İş Parçacığı Havuzu Boyutunu Verimli Şekilde Ayarlama](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 
 ---
 

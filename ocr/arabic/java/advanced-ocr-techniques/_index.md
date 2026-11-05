@@ -214,6 +214,9 @@ url: /ar/java/advanced-ocr-techniques/
 ### [إنشاء PDF قابل للبحث من الصور في Java – دليل OCR الدفعي الكامل](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 دليل شامل لإنشاء ملفات PDF قابلة للبحث من مجموعة صور باستخدام OCR دفعي في Java.
 ### [التعرف على النص من صورة في Java – دليل Aspose OCR الكامل لتدقيق الإملاء](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+### [كيفية تمكين وحدة معالجة الرسومات (GPU) في محرك الاستدلال Java – دليل كامل](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+### [إنشاء PDF قابل للبحث من الصور الممسوحة ضوئياً – دليل OCR لجافا](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+تعلم كيفية تحويل الصور الممسوحة إلى ملفات PDF قابلة للبحث باستخدام Aspose.OCR لجافا واستخراج النص بدقة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

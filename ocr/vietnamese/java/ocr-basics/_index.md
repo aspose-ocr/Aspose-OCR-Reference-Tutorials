@@ -142,6 +142,10 @@ Hướng dẫn cách tải ảnh và sử dụng Aspose.OCR để nhận dạng 
 
 ### [Thực hiện OCR trên hình ảnh trong Java – Hướng dẫn chi tiết từng bước](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Hướng dẫn toàn diện cách tải ảnh, cấu hình Aspose.OCR và nhận dạng văn bản trong Java một cách dễ dàng.
+### [Nhận dạng văn bản từ JPG bằng Aspose OCR trong Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Hướng dẫn cách nhận dạng văn bản từ tệp JPG sử dụng Aspose OCR trong Java một cách nhanh chóng và chính xác.
+### [Sử dụng Tất Cả Các Lõi CPU trong Java – Đặt Kích Thước Thread Pool Hiệu Quả](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Tối ưu hiệu suất Java bằng cách sử dụng tất cả các lõi CPU và cấu hình kích thước pool luồng một cách hiệu quả.
 
 ---
 

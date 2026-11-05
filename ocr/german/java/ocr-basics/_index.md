@@ -142,6 +142,11 @@ Laden Sie ein Bild und erkennen Sie den Text mit Aspose.OCR in Java. Dieses komp
 
 ### [OCR auf Bild in Java ausführen – Vollständige Schritt‑für‑Schritt‑Anleitung](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Lernen Sie, wie Sie mit Aspose.OCR in Java ein Bild laden, verarbeiten und den Text vollständig extrahieren.
+### [Text aus JPG mit Aspose OCR in Java erkennen](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Erfahren Sie, wie Sie JPG‑Bilder mit Aspose OCR in Java verarbeiten und Text zuverlässig extrahieren.
+
+### [Alle CPU‑Kerne in Java nutzen – Thread‑Pool‑Größe effizient festlegen](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Erfahren Sie, wie Sie alle CPU‑Kerne in Java nutzen und die Thread‑Pool‑Größe optimal konfigurieren, um die Leistung zu maximieren.
 
 ---
 

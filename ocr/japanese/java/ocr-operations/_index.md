@@ -178,6 +178,10 @@ Aspose OCR を使用して検索可能な PDF を作成する完全な Java ガ�
 Aspose OCR を使用して画像からテキストを抽出する Java ガイドです。手順を追って実装方法を解説します。
 ### [Java で画像を自動デスクュー – 完全 Aspose OCR ガイド](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Aspose OCR を使用して Java で画像の傾きを自動的に補正し、正確なテキスト抽出を実現する完全ガイドです。
+### [画像の傾き補正方法 – 画像前処理 OCR ガイド](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+画像の傾き補正手順を解説し、OCR 前処理としてのデスクュー方法をステップバイステップで紹介します。
+### [Aspose OCR で検索可能な PDF を作成 – 完全ガイド](./create-searchable-pdf-with-ocr-full-guide/)
+Aspose.OCR を使用して PDF を検索可能に変換する手順をステップバイステップで解説します。
 
 ## よくある質問
 

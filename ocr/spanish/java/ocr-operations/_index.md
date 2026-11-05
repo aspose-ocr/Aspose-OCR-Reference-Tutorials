@@ -184,6 +184,10 @@ Desbloquea la creación de PDFs buscables usando Aspose OCR en Java. Sigue esta 
 Aprende a extraer texto de imágenes con Aspose OCR en Java mediante esta guía paso a paso.
 ### [Auto Enderezar Imagen en Java – Guía Completa de Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Desbloquea la corrección automática de inclinación de imágenes usando Aspose OCR en Java. Sigue este tutorial paso a paso.
+### [Crear PDF buscable con OCR – Guía completa](./create-searchable-pdf-with-ocr-full-guide/)
+Desbloquea la creación de PDFs buscables usando OCR con Aspose.OCR para Java. Sigue esta guía paso a paso.
+### [Cómo enderezar una imagen – Guía de preprocesamiento de imágenes para OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Desbloquea la corrección de inclinación de imágenes para mejorar la precisión del OCR con Aspose.OCR para Java.
 
 ## Preguntas frecuentes
 

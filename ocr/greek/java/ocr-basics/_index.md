@@ -139,6 +139,10 @@ weight: 20
 Μάθετε πώς να φορτώσετε μια εικόνα και να εξάγετε κείμενο χρησιμοποιώντας το Aspose.OCR σε Java.
 ### [Εκτέλεση OCR σε εικόνα με Java – Πλήρης οδηγός βήμα‑βήμα](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Μάθετε πώς να εκτελέσετε OCR σε εικόνα χρησιμοποιώντας το Aspose.OCR για Java, ακολουθώντας λεπτομερή βήματα για βέλτιστα αποτελέσματα.
+### [Αναγνώριση κειμένου από JPG με Aspose OCR σε Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Μάθετε πώς να εξάγετε κείμενο από αρχεία JPG χρησιμοποιώντας το Aspose OCR σε Java, βήμα‑βήμα οδηγός.
+### [Χρησιμοποιήστε Όλους τους Πυρήνες CPU στη Java – Ορίστε Αποτελεσματικά το Μέγεθος του Thread Pool](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Μάθετε πώς να αξιοποιήσετε όλους τους πυρήνες CPU στη Java ρυθμίζοντας το μέγεθος του thread pool για βέλτιστη απόδοση.
 
 ---
 

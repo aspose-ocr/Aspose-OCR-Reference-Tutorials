@@ -253,6 +253,11 @@ Apprenez à extraire rapidement le texte d'images en Java avec Aspose OCR grâce
 ### [Boîte englobante OCR en Java – Extraire le texte d'une image](./ocr-bounding-box-in-java-extract-text-from-image/)
 Utilisez Aspose.OCR pour Java afin d'extraire le texte d'une image en récupérant les boîtes englobantes des caractères.
 
+### [Créer un PDF consultable à partir d'images numérisées – Guide OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Générez facilement un PDF consultable à partir d'images numérisées avec Aspose.OCR pour Java. Suivez le guide étape par étape.
+
+### [Comment activer le GPU dans le moteur d'inférence Java – Guide complet](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Apprenez à activer le GPU dans le moteur d'inférence Java pour améliorer les performances de vos modèles d'IA.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

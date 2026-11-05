@@ -180,6 +180,10 @@ Apprenez à générer un PDF consultable en Java avec Aspose OCR grâce à ce gu
 Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide pratique étape par étape.
 ### [Redressement automatique d'image en Java – Guide complet Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Apprenez à corriger automatiquement l’inclinaison des images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Create Searchable PDF with OCR – Full Guide](./create-searchable-pdf-with-ocr-full-guide/)
+Apprenez à générer des PDF recherchables grâce à l’OCR avec ce guide complet étape par étape.
+### [Comment redresser une image – Guide de prétraitement d’image OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Apprenez à corriger l’inclinaison des images avant l’OCR pour améliorer la précision de la reconnaissance.
 
 ## Foire aux questions
 

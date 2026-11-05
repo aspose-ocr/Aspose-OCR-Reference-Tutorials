@@ -55,6 +55,7 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 ## 结论
 
 借助 Aspose.OCR for Java，掌握高级 OCR 技术从未如此简单。深入研究这些教程，并释放 Java 项目中文本识别的全部潜力。通过无缝集成、高精度和多功能文本提取功能提升您的应用程序。立即下载并使用 Aspose.OCR for Java 迈出 OCR 卓越的第一步！
+
 ## 高级 OCR 技术教程
 ### [在 Aspose.OCR for Java 中对 BufferedImage 执行 OCR](./perform-ocr-buffered-image/)
 ### [在 Aspose.OCR for Java 中对图像执行 OCR – 步骤指南](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
@@ -229,6 +230,11 @@ Aspose.OCR for Java 是光学字符识别 (OCR) 方面的游戏规则改变者�
 
 ### [在 Java 中从图像创建可搜索 PDF（完整批量 OCR 指南）](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 使用 Aspose.OCR for Java 将多张图像批量转换为可搜索的 PDF，实现高效文本提取和搜索功能。
+### [如何在 Java 推理引擎中启用 GPU – 完整指南](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+通过本指南，了解如何在 Java 推理引擎中启用 GPU 加速，实现高效的机器学习推理。
+
+### [从扫描图像创建可搜索 PDF – Java OCR 指南](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+使用 Aspose.OCR for Java 将扫描图像转换为可搜索的 PDF，实现高效文本检索和完整文档管理。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

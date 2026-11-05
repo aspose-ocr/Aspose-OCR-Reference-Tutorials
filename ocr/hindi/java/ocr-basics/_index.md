@@ -153,6 +153,12 @@ Aspose OCR का उपयोग करके Java में इमेज ल�
 ### [Java में इमेज पर OCR करने के लिए पूर्ण चरण‑दर‑चरण गाइड](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Java में इमेज पर OCR करने के लिए पूर्ण चरण‑दर‑चरण गाइड। सेटअप, कोड और सर्वोत्तम अभ्यास सीखें।
 
+### [Java में Aspose OCR का उपयोग करके JPG से टेक्स्ट पहचानें](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+JPG फ़ाइल से टेक्स्ट निकालने के लिए Aspose OCR को Java में सेटअप और उपयोग करने का चरण‑दर‑चरण मार्गदर्शक।
+
+### [Java में सभी CPU कोर का उपयोग – थ्रेड पूल आकार को कुशलता से सेट करें](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Java में थ्रेड पूल का आकार सेट करके सभी CPU कोर का प्रभावी उपयोग करके प्रदर्शन बढ़ाएँ।
+
 ---
 
 **अंतिम अपडेट:** 2025-12-08  

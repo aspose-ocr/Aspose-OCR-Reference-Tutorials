@@ -231,6 +231,10 @@ Aprenda a extrair texto de regiões específicas de imagens em Java usando Aspos
 ### [Criar PDF pesquisável a partir de imagens em Java – Guia completo de OCR em lote](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 Transforme imagens em PDFs pesquisáveis usando Aspose.OCR para Java, com processamento em lote rápido e preciso.
 
+### [Criar PDF pesquisável a partir de imagens escaneadas – Guia OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Aprenda a gerar PDFs pesquisáveis a partir de imagens escaneadas usando Aspose.OCR para Java, com alta precisão e facilidade de integração.
+### [Como habilitar GPU no mecanismo de inferência Java – Guia completo](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Aprenda a ativar a GPU no mecanismo de inferência Java para acelerar o processamento de IA com passo a passo detalhado.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

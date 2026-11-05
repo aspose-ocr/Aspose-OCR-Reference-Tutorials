@@ -217,6 +217,11 @@ Extrahera text från ett specifikt område i bilden med Aspose.OCR för Java. F�
 Skapa en sökbar PDF från bildfiler med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för batch‑OCR och enkel PDF‑generering.
 ### [Känn igen text från bild i Java – Komplett Aspose OCR‑stavningskontroll‑guide](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Lär dig att använda Aspose.OCR för stavningskontroll vid textigenkänning i Java. Följ vår steg‑för‑steg‑guide för exakt OCR med korrektur.
+### [Skapa sökbar PDF från skannade bilder – Java OCR-guide](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Lär dig hur du konverterar skannade bilder till sökbara PDF-filer med Aspose.OCR för Java. Enkel steg-för-steg-guide.
+
+### [Hur du aktiverar GPU i Java Inference Engine – Komplett guide](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Lär dig steg för steg hur du aktiverar GPU-stöd i Java Inference Engine för förbättrad prestanda.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

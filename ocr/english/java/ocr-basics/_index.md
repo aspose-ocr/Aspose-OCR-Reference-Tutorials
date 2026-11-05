@@ -139,6 +139,10 @@ Master OCR in Java with this comprehensive guide. Learn to extract text from ima
 Learn how to load an image and extract text using Aspose.OCR for Java in a concise example.
 ### [Perform OCR on Image in Java – Complete Step‑by‑Step Guide](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 A comprehensive guide to loading images and performing OCR with Aspose.OCR for Java, covering setup, processing, and result handling.
+### [recognize text from jpg using Aspose OCR in Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Learn how to recognize text from JPG images using Aspose OCR for Java in a simple step-by-step guide.
+### [Use All CPU Cores in Java – Set Thread Pool Size Efficiently](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Optimize performance by configuring thread pools to utilize all CPU cores in Java applications efficiently.
 
 ---
 

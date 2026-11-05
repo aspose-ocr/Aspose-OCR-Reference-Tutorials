@@ -147,6 +147,12 @@ Suivez ce guide complet pour convertir des images en texte avec Aspose OCR en Ja
 ### [Comment effectuer l’OCR en Java – Guide complet pour extraire du texte à partir d’images](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
 Apprenez à réaliser l’OCR en Java de bout en bout, en extrayant du texte précis depuis n’importe quelle image.
 
+### [Reconnaître du texte à partir d'un JPG avec Aspose OCR en Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Apprenez à extraire du texte d’un fichier JPG en utilisant Aspose OCR avec Java, étape par étape.
+
+### [Utiliser tous les cœurs CPU en Java – Définir la taille du pool de threads efficacement](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Apprenez à exploiter tous les cœurs CPU en Java en configurant correctement la taille du pool de threads pour des performances optimales.
+
 ---
 
 **Dernière mise à jour :** 2025-12-08  

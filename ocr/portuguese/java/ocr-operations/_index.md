@@ -184,6 +184,10 @@ Aprenda a criar PDFs pesquisáveis usando Aspose OCR em Java, cobrindo configura
 Aprenda a reconhecer texto em imagens usando Aspose OCR com um guia prático em Java.
 ### [Desinclinação automática de imagem em Java – Guia completo Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Aprenda a corrigir automaticamente a inclinação de imagens usando Aspose.OCR em Java, com um guia passo a passo completo.
+### [Como Corrigir Inclinação de Imagem – Guia de Pré‑processamento de OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Aprenda a remover a inclinação de imagens antes do OCR, melhorando a precisão e a qualidade dos resultados.
+### [Criar PDF pesquisável com OCR – Guia completo](./create-searchable-pdf-with-ocr-full-guide/)
+Aprenda a transformar PDFs escaneados em documentos pesquisáveis usando OCR com um guia passo a passo completo.
 
 ## Perguntas Frequentes
 

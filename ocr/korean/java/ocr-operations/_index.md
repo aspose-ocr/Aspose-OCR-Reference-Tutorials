@@ -180,6 +180,10 @@ Java에서 이미지를 로드하고 특정 영역의 텍스트를 추출하는 
 ### [Aspose OCR을 사용한 이미지 텍스트 인식 – Java 가이드](./recognize-text-from-image-with-aspose-ocr-java-guide/)
 Aspose OCR을 사용해 Java에서 이미지 텍스트를 인식하는 방법을 상세히 설명합니다.
 ### [Java에서 자동 기울기 보정 이미지 – 전체 Aspose OCR 가이드](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+### [OCR을 사용한 검색 가능한 PDF 만들기 – 전체 가이드](./create-searchable-pdf-with-ocr-full-guide/)
+OCR을 사용해 검색 가능한 PDF를 만드는 전체 가이드를 단계별로 안내합니다.
+### [이미지 기울기 보정 방법 – 이미지 전처리 OCR 가이드](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+이미지 기울기를 교정하여 OCR 정확도를 높이는 단계별 전처리 방법을 안내합니다.
 
 ## 자주 묻는 질문
 

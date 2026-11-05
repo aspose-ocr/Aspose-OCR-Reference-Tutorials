@@ -176,6 +176,10 @@ weight: 21
 完整的 Java 示例，展示如何使用 Aspose OCR 从图像中识别文本并获取结果。
 ### [使用 Aspose OCR 自动校正图像倾斜 – 完整 Java OCR 指南](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 完整的 Java 示例，展示如何使用 Aspose OCR 自动校正图像倾斜并提取文本。
+### [如何校正图像倾斜 – 图像预处理 OCR 指南](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+学习在 OCR 前对图像进行去倾斜处理，提高识别准确率的完整指南。
+### [使用 Aspose OCR 创建可搜索 PDF – 完整指南](./create-searchable-pdf-with-ocr-full-guide/)
+完整的 Java 示例，演示如何使用 Aspose OCR 将 PDF 转换为可搜索的文档并导出结果。
 
 ## 常见问题
 

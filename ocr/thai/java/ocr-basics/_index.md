@@ -131,6 +131,10 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 คู่มือครบถ้วนสำหรับการทำ OCR ด้วย Java เพื่อสกัดข้อความจากรูปภาพอย่างแม่นยำและง่ายดาย
 ### [ตัวอย่าง Java OCR – โหลดภาพและจดจำข้อความด้วย Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
 ### [ทำ OCR บนภาพใน Java – คู่มือขั้นตอนเต็ม](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+### [จดจำข้อความจาก JPG ด้วย Aspose OCR ใน Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ JPG ด้วย Aspose OCR for Java อย่างง่ายและแม่นยำ
+### [ใช้ทุกคอร์ของ CPU ใน Java – ตั้งค่าขนาด Thread Pool อย่างมีประสิทธิภาพ](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+เรียนรู้วิธีใช้คอร์ CPU ทั้งหมดใน Java ด้วยการกำหนดขนาด Thread Pool อย่างเหมาะสมเพื่อเพิ่มประสิทธิภาพการประมวลผล
 
 ---
 

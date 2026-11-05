@@ -238,6 +238,10 @@ Gebruik Aspose.OCR voor Java om OCR uit te voeren op een ROI, voor snelle en nau
 Genereer doorzoekbare PDF's uit afbeeldingen met batch-OCR in Java. Volg de volledige gids voor snelle en nauwkeurige tekstextractie.
 ### [Tekst herkennen uit afbeelding in Java – Complete Aspose OCR-spellingscontrolegids](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Gebruik Aspose.OCR in Java om tekst uit afbeeldingen te herkennen en spellingscontrole toe te passen voor nauwkeurige resultaten.
+### [Hoe GPU in Java Inference Engine in te schakelen – Complete gids](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Leer hoe u GPU-ondersteuning inschakelt in de Java Inference Engine voor snellere AI-prestaties. Volg de stap-voor-stap gids.
+### [Zoekbare PDF maken van gescande afbeeldingen – Java OCR-gids](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt van gescande afbeeldingen. Volg de eenvoudige stappen voor nauwkeurige tekstextractie.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

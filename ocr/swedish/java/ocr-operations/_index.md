@@ -185,6 +185,10 @@ En komplett guide som visar hur du skapar en sökbar PDF med Aspose OCR i Java.
 En steg‑för‑steg‑guide för att känna igen text i bilder med Aspose OCR i Java.
 ### [Automatisk räta upp bild i Java – Komplett Aspose OCR‑guide](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Lär dig hur du automatiskt räta upp bilder med Aspose OCR i Java för förbättrad OCR‑noggrannhet.
+### [Hur man räta upp bild – Bildförbehandling OCR‑guide](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Lär dig att räta upp snedvridna bilder före OCR för bättre igenkänning med Aspose.OCR för Java.
+### [Skapa sökbar PDF med OCR – Fullständig guide](./create-searchable-pdf-with-ocr-full-guide/)
+En komplett guide som visar hur du skapar sökbara PDF‑filer med OCR i Java med Aspose.OCR.
 
 ## Vanliga frågor
 

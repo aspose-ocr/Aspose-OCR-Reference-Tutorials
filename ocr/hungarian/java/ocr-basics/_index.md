@@ -135,6 +135,10 @@ Teljes körű útmutató az OCR végrehajtásához Java-ban, a képek szöveggé
 Fedezze fel, hogyan töltsön be képet Java-ban, és használja az Aspose.OCR-t a szöveg pontos felismeréséhez.
 ### [OCR végrehajtása képen Java‑ban – Teljes lépésről‑lépésre útmutató](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Fedezze fel, hogyan hajthatja végre az OCR‑t képeken Java‑ban egy részletes, lépésről‑lépésre útmutatóval.
+### [Szöveg felismerése JPG-ből az Aspose OCR használatával Java-ban](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Tanulja meg, hogyan ismerje fel a szöveget JPG képeken az Aspose OCR for Java használatával.
+### [Az összes CPU mag használata Java-ban – Szálkészlet méretének hatékony beállítása](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Tanulja meg, hogyan használhatja ki az összes CPU magot Java-ban, és állítsa be hatékonyan a szálkészlet méretét a teljesítmény optimalizálásához.
 
 ---
 

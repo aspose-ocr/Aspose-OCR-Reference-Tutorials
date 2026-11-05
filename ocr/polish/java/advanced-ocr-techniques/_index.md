@@ -46,6 +46,14 @@ Wykryj języki w obrazach przy użyciu Aspose.OCR w Javie. Kompletny przewodnik 
 
 ## [Określanie dozwolonych znaków w Aspose.OCR](./specify-allowed-characters/)
 
+## [Jak włączyć GPU w silniku wnioskowania Java – Kompletny przewodnik](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+
+Pełny przewodnik, jak skonfigurować i uruchomić GPU w silniku wnioskowania Java, aby przyspieszyć przetwarzanie modeli.
+
+## [Tworzenie przeszukiwalnego PDF z zeskanowanych obrazów – Przewodnik OCR w Javie](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+
+Twórz przeszukiwalne pliki PDF z zeskanowanych obrazów w Javie, wykorzystując Aspose.OCR. Szybki i dokładny proces konwersji.
+
 ### [Jak używać OCR w Javie – wyodrębniać tekst z PDF (Aspose OCR)](./how-to-use-ocr-in-java-extract-text-from-pdf-aspose-ocr/)
 Użyj Aspose.OCR w Javie, aby wyodrębnić tekst z plików PDF z wysoką dokładnością i prostą integracją.
 

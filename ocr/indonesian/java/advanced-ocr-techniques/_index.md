@@ -254,6 +254,10 @@ Ubah kumpulan gambar menjadi PDF yang dapat dicari dengan Aspose.OCR untuk Java 
 ### [Mengenali Teks dari Gambar di Java – Panduan Lengkap Pemeriksaan Ejaan Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Deteksi dan koreksi ejaan teks dalam gambar menggunakan Aspose OCR untuk Java. Ikuti panduan lengkap kami untuk integrasi mudah.
 
+### [Cara Mengaktifkan GPU di Mesin Inferensi Java – Panduan Lengkap](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Panduan lengkap untuk mengaktifkan GPU pada mesin inferensi Java, meningkatkan performa pemrosesan model AI dengan mudah.
+### [Buat PDF yang Dapat Dicari dari Gambar Pindai – Panduan OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Panduan lengkap untuk mengubah gambar hasil pemindaian menjadi PDF yang dapat dicari menggunakan Aspose.OCR untuk Java.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

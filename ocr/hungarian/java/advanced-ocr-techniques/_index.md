@@ -64,6 +64,10 @@ Ismerje meg, hogyan csökkentheti a képzajt az OCR folyamatban az Aspose segít
 
 Fedezze fel, hogyan valósíthat meg párhuzamos OCR feldolgozást Java-ban az Aspose.OCR segítségével, a teljes útmutatóban. Javítsa alkalmazásai teljesítményét és pontosságát.
 
+## [Hogyan engedélyezzük a GPU-t a Java Inference Engine-ben – Teljes útmutató](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+
+Tanulja meg, hogyan aktiválhatja a GPU-t a Java Inference Engine-ben, és gyorsíthatja a modell futtatását.
+
 ## Következtetés
 
 Az Aspose.OCR for Java segítségével a fejlett OCR technikák elsajátítása még soha nem volt ilyen egyszerű. Merüljön el ezekben az oktatóanyagokban, és aknázza ki a szövegfelismerésben rejlő lehetőségeket Java-projektjeiben. Emelje fel alkalmazásait a zökkenőmentes integrációval, nagy pontossággal és sokoldalú szövegkivonási lehetőségekkel. Töltse le most, és tegye meg az első lépést az OCR kiválóság felé az Aspose.OCR for Java segítségével!
@@ -240,6 +244,10 @@ Fedezze fel, hogyan végezhet OCR-t egy érdeklődési területen (ROI) Java-ban
 Alakítsa át a képeket kereshető PDF-fé kötegelt OCR-rel Java és Aspose.OCR segítségével.
 ### [Képről szöveg felismerése Java-ban – Teljes Aspose OCR helyesírás-ellenőrző útmutató](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Fedezze fel, hogyan végezhet helyesírás-ellenőrzést a képről kinyert szövegen Java-ban az Aspose OCR segítségével.
+### [Hogyan engedélyezzük a GPU-t a Java Inference Engine-ben – Teljes útmutató](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Tanulja meg, hogyan aktiválhatja a GPU-t a Java Inference Engine-ben, és gyorsíthatja a modell futtatását.
+### [Kereshető PDF létrehozása beolvasott képekből – Java OCR útmutató](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Tanulja meg, hogyan hozhat létre kereshető PDF-et beolvasott képekből az Aspose.OCR for Java segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

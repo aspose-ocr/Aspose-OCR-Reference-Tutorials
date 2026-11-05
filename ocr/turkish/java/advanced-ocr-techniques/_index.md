@@ -247,6 +247,10 @@ Aspose.OCR for Java ile ROI (ilgi alanı) üzerinde OCR yaparak görüntülerden
 ### [Java'da Görüntülerden Aranabilir PDF Oluşturma – Tam Toplu OCR Kılavuzu](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 Java ve Aspose.OCR kullanarak görüntülerden arama yapılabilir PDF'ler oluşturun, toplu OCR işlemlerinin tüm adımlarını öğrenin.
 
+### [Java Çıkarım Motorunda GPU'yu Etkinleştirme – Tam Kılavuz](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Java çıkarım motorunda GPU desteğini etkinleştirerek performansı artırın. Adım adım rehberle kolayca kurulum yapın.
+### [Tarama Görüntülerinden Arama Yapılabilir PDF Oluşturma – Java OCR Kılavuzu](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Tarama görüntülerinden arama yapılabilir PDF oluşturun. Aspose.OCR for Java ile metni çıkarın ve PDF'ye dönüştürün.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

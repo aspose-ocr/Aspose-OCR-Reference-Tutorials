@@ -142,6 +142,10 @@ Pelajari cara melakukan OCR di Java secara menyeluruh, mengekstrak teks dari gam
 Pelajari cara memuat gambar dan mengenali teks menggunakan Aspose.OCR untuk Java dalam contoh praktis ini.
 ### [Melakukan OCR pada Gambar di Java – Panduan Lengkap Langkah‑per‑Langkah](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Pelajari cara melakukan OCR pada gambar menggunakan Aspose.OCR untuk Java dengan panduan lengkap langkah demi langkah.
+### [Mengenali Teks dari JPG menggunakan Aspose OCR di Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Pelajari cara mengekstrak teks dari file JPG menggunakan Aspose OCR di Java dengan langkah‑demi‑langkah mudah.
+### [Gunakan Semua Core CPU di Java – Atur Ukuran Thread Pool Secara Efisien](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Pelajari cara memanfaatkan semua core CPU di Java dengan mengatur ukuran thread pool secara optimal untuk kinerja maksimal.
 
 ---
 

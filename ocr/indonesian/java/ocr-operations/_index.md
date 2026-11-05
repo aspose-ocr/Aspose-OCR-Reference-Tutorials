@@ -183,6 +183,9 @@ Panduan singkat memuat gambar, menerapkan OCR, dan mengekstrak teks dari area te
 Panduan praktis untuk mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail.
 ### [Auto Deskew Gambar di Java – Panduan Lengkap Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Panduan lengkap untuk secara otomatis mengoreksi kemiringan gambar menggunakan Aspose OCR di Java.
+### [Buat PDF Dapat Dicari dengan OCR – Panduan Lengkap](./create-searchable-pdf-with-ocr-full-guide/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan OCR dengan Aspose.OCR untuk Java.
+### [Cara Memperbaiki Kemiringan Gambar – Panduan Praproses Gambar OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
 
 ## Pertanyaan yang Sering Diajukan
 

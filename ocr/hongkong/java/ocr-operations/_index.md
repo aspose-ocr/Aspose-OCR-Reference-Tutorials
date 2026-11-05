@@ -180,6 +180,10 @@ weight: 21
 ### [使用 Aspose OCR 識別圖像文字 – Java 指南](./recognize-text-from-image-with-aspose-ocr-java-guide/)
 完整的 Java 教學，示範如何使用 Aspose OCR 識別圖像文字並取得文字內容。
 ### [在 Java 中自動校正影像 – 完整 Aspose OCR 教學](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+### [如何校正圖像傾斜 – 圖像前處理 OCR 指南](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+本教學說明如何使用 Aspose.OCR 進行圖像去斜處理，提升 OCR 識別準確度。
+### [使用 OCR 建立可搜尋 PDF – 完整指南](./create-searchable-pdf-with-ocr-full-guide/)
+完整教學示範如何使用 Aspose.OCR for Java 將 PDF 轉換為可搜尋的 PDF。
 
 ## 常見問題
 

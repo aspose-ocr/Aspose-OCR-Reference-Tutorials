@@ -150,6 +150,11 @@ Kompletny przewodnik, jak używać Aspose.OCR w Javie do wyodrębniania tekstu z
 
 ### [Wykonaj OCR na obrazie w Javie – Kompletny przewodnik krok po kroku](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Pełny przewodnik, jak w Javie załadować obraz i przeprowadzić OCR przy użyciu Aspose.OCR, krok po kroku.
+### [Rozpoznawanie tekstu z pliku JPG przy użyciu Aspose OCR w Javie](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Dowiedz się, jak używać Aspose OCR w Javie do rozpoznawania tekstu z obrazów JPG w kilku prostych krokach.
+
+### [Użyj wszystkich rdzeni CPU w Javie – efektywne ustawianie rozmiaru puli wątków](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Dowiedz się, jak wykorzystać wszystkie rdzenie CPU w Javie, efektywnie ustawiając rozmiar puli wątków dla maksymalnej wydajności.
 
 ---
 

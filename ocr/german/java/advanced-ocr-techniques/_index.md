@@ -237,6 +237,10 @@ Entdecken Sie, wie Sie mit Aspose OCR in Java die Sprache von Text in Bildern au
 Nutzen Sie Aspose.OCR für Java, um OCR auf einem ROI (Region of Interest) durchzuführen und Text präzise aus ausgewählten Bildbereichen zu extrahieren.
 ### [Texterkennung aus Bild in Java – Vollständiger Aspose OCR Rechtschreib‑Prüfungs‑Leitfaden](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Nutzen Sie Aspose OCR in Java, um Text aus Bildern zu erkennen und gleichzeitig eine umfassende Rechtschreibprüfung durchzuführen.
+### [Erstellen eines durchsuchbaren PDFs aus gescannten Bildern – Java OCR‑Leitfaden](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Erstellen Sie mit Aspose.OCR für Java durchsuchbare PDFs aus gescannten Bildern. Schnell, präzise und einfach zu implementieren.
+### [GPU im Java Inference Engine aktivieren – Komplettanleitung](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Erfahren Sie, wie Sie GPU-Unterstützung im Java Inference Engine aktivieren, um die Leistung Ihrer KI-Anwendungen zu steigern.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

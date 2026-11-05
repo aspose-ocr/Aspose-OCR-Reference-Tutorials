@@ -180,6 +180,10 @@ Leer stap‑voor‑stap hoe u met Aspose OCR een doorzoekbare PDF maakt in Java,
 ### [Tekst uit afbeelding herkennen met Aspose OCR – Java-gids](./recognize-text-from-image-with-aspose-ocr-java-guide/)
 ### [Afbeelding automatisch kantelen in Java – volledige Aspose OCR-gids](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Leer hoe u afbeeldingen automatisch kunt kantelen met Aspose OCR in Java voor optimale OCR‑resultaten.
+### [Hoe een afbeelding rechtzetten – Beeldvoorverwerking OCR-gids](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Leer hoe u scheve afbeeldingen corrigeert met Aspose.OCR voor Java om OCR‑nauwkeurigheid te verbeteren.
+### [Maak doorzoekbare PDF met OCR – volledige gids](./create-searchable-pdf-with-ocr-full-guide/)
+Leer stap‑voor‑stap hoe u met Aspose.OCR een doorzoekbare PDF maakt en OCR‑nauwkeurigheid optimaliseert.
 
 ## Veelgestelde vragen
 

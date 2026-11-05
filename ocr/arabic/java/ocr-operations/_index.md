@@ -165,6 +165,9 @@ weight: 21
 تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
 ### [تسوية تلقائية للصورة في Java – دليل كامل لـ Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 دليل شامل يوضح كيفية تصحيح انحراف الصور تلقائيًا باستخدام Aspose OCR في Java خطوة بخطوة.
+### [كيفية تصحيح ميل الصورة – دليل معالجة الصورة قبل OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+### [إنشاء PDF قابل للبحث باستخدام OCR – دليل كامل](./create-searchable-pdf-with-ocr-full-guide/)
+دليل شامل يشرح كيفية إنشاء ملف PDF قابل للبحث باستخدام OCR خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

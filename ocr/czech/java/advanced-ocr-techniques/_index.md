@@ -51,7 +51,8 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 ### [Jak používat OCR s GPU akcelerací v Javě – krok za krokem průvodce](./how-to-use-ocr-with-gpu-acceleration-in-java-step-by-step-gu/)
 Využijte GPU akceleraci pro rychlé OCR v Javě. Tento podrobný průvodce ukazuje, jak implementovat a optimalizovat rozpoznávání textu s vysokou rychlostí.
 
-## Závěr
+## [Vytvoření prohledávatelného PDF ze skenovaných obrázků – Průvodce OCR v Javě](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Jednoduše vytvořte prohledávatelný PDF ze skenovaných obrázků pomocí Aspose.OCR pro Java. Vysoká přesnost a snadná integrace.
 
 Aspose.OCR for Java nebylo zvládnutí pokročilých technik OCR nikdy jednodušší. Ponořte se do těchto výukových programů a odemkněte plný potenciál rozpoznávání textu ve svých projektech Java. Povyšte své aplikace na úroveň bezproblémové integrace, vysoké přesnosti a všestranných možností extrakce textu. Stáhněte si nyní a udělejte první krok k dokonalosti OCR s Aspose.OCR pro Java!
 ## Výukové programy pro pokročilé techniky OCR
@@ -232,6 +233,8 @@ Zjistěte, jak pomocí Aspose.OCR v Javě rozpoznat jazyky na obrázcích s vyso
 Vytvořte prohledávatelný PDF soubor z obrázků pomocí dávkového OCR v Javě s vysokou přesností.
 ### [Rozpoznání textu z obrázku v Javě – Kompletní průvodce kontrolou pravopisu Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Rozpoznávejte text z obrázků v Javě s kontrolou pravopisu pomocí Aspose OCR pro vysokou přesnost a spolehlivost.
+### [Jak povolit GPU v Java Inference Engine – Kompletní průvodce](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Naučte se, jak aktivovat GPU v Java Inference Engine pro zrychlení výpočtů a optimalizaci výkonu vašich aplikací.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

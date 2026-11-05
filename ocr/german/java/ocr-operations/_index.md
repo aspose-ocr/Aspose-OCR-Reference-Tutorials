@@ -180,6 +180,10 @@ Führen Sie OCR auf Dokumenten in Java aus und erhalten Sie eine Schritt‑für�
 Entfesseln Sie die Bildtext‑Erkennung mit Aspose OCR in Java. Ein kompakter Leitfaden zum Extrahieren von Text aus Bildern.
 ### [Auto Deskew Bild in Java – Vollständiger Aspose OCR Leitfaden](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Erfahren Sie, wie Sie Bildneigungen automatisch korrigieren und OCR mit Aspose OCR in Java durchführen.
+### [Durchsuchbares PDF mit OCR erstellen – Vollständige Anleitung](./create-searchable-pdf-with-ocr-full-guide/)
+Erstellen Sie ein durchsuchbares PDF mit OCR in Java – umfassende Schritt‑für‑Schritt‑Anleitung.
+### [Wie man ein Bild begradigt – Bildvorverarbeitungs‑OCR‑Leitfaden](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Erfahren Sie, wie Sie schiefe Bilder mit Aspose.OCR für Java korrigieren, um die OCR‑Genauigkeit zu verbessern.
 
 ## Häufig gestellte Fragen
 

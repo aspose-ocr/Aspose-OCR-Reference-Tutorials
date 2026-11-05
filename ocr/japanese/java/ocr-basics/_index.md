@@ -153,6 +153,12 @@ Aspose を使用して画像をロードし、テキスト認識を実行する�
 ### [Java で画像の OCR を実行する – 完全ステップバイステップガイド](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Aspose.OCR を使用して画像からテキストを抽出する手順を詳しく解説し、コード例とベストプラクティスを紹介します。
 
+### [JPG 画像からテキストを認識する（Aspose OCR を使用、Java）](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Aspose OCR for Java を使って JPG 画像からテキストを抽出する手順をステップバイステップで解説します。
+
+### [Java で全 CPU コアを活用する – スレッドプールサイズを効率的に設定](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Java アプリケーションで利用可能なすべての CPU コアを活用し、最適なスレッドプールサイズの設定方法をステップバイステップで解説します。
+
 ---
 
 **Last Updated:** 2025-12-08  

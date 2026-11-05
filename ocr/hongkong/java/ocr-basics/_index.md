@@ -138,6 +138,10 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 示範如何在 Java 中載入圖片並使用 Aspose.OCR 進行文字辨識的完整範例。
 
 ### [在 Java 中執行影像 OCR – 完整步驟指南](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+### [使用 Aspose OCR 在 Java 中辨識 JPG 文字](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+使用 Aspose OCR 在 Java 中從 JPG 圖片辨識文字，快速將圖像轉換為可編輯內容。
+
+### [在 Java 中使用全部 CPU 核心 – 高效設定執行緒池大小](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 
 ---
 

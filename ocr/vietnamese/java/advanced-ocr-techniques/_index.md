@@ -233,6 +233,9 @@ Thực hiện OCR trên vùng quan tâm (ROI) trong Java bằng Aspose OCR. Hư�
 ### [Nhận dạng văn bản từ hình ảnh trong Java – Hướng dẫn đầy đủ kiểm tra chính tả Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Khám phá cách tích hợp kiểm tra chính tả khi nhận dạng văn bản từ hình ảnh trong Java bằng Aspose OCR, nâng cao độ chính xác và trải nghiệm người dùng.
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh trong Java – Hướng dẫn OCR hàng loạt đầy đủ](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
+### [Cách bật GPU trong Java Inference Engine – Hướng dẫn đầy đủ](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Hướng dẫn chi tiết cách kích hoạt GPU cho Java Inference Engine để tăng tốc độ xử lý mô hình AI.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh quét – Hướng dẫn OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

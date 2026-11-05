@@ -227,6 +227,10 @@ GPU‑त्वरित OCR के साथ जावा में तेज�
 
 ### [जावा में छवियों से खोज योग्य PDF बनाना – पूर्ण बैच OCR गाइड](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 जावा में Aspose.OCR का उपयोग करके छवियों से खोज योग्य PDF बनाएं। बैच प्रोसेसिंग और उच्च सटीकता के साथ।
+### [जावा इनफ़रेंस इंजन में GPU सक्षम करने की पूरी गाइड](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+जावा इनफ़रेंस इंजन में GPU का उपयोग करके तेज़ निष्पादन प्राप्त करें। चरण-दर-शरण निर्देशों के साथ सेटअप करें।
+### [स्कैन की गई छवियों से खोज योग्य PDF बनाना – जावा OCR गाइड](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+जावा के लिए Aspose.OCR का उपयोग करके स्कैन की गई छवियों से खोज योग्य PDF बनाएं। आसान चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

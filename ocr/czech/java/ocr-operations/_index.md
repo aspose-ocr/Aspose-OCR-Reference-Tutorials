@@ -172,6 +172,10 @@ Naučte se načíst obrázek a pomocí Aspose.OCR v Javě extrahovat text z vybr
 Kompletní průvodce rozpoznáním textu z obrázku v Javě pomocí Aspose OCR – krok za krokem pro maximální přesnost.
 ### [Automatické vyrovnání obrazu v Javě – Kompletní průvodce Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Naučte se automaticky vyrovnat zkosené obrázky v Javě pomocí Aspose OCR a zlepšit přesnost rozpoznávání.
+### [Jak narovnat obrázek – Průvodce předzpracováním obrazu pro OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Naučte se, jak pomocí Aspose.OCR vyrovnat zkosené obrázky před OCR pro lepší přesnost.
+### [Vytvoření prohledávatelného PDF s OCR – Kompletní průvodce](./create-searchable-pdf-with-ocr-full-guide/)
+Kompletní návod, jak pomocí Aspose.OCR v Javě vytvořit prohledávatelný PDF soubor s OCR.
 
 ## Často kladené otázky
 

@@ -187,6 +187,10 @@ Kompletny przewodnik po rozpoznawaniu tekstu z obrazu w Javie przy użyciu Aspos
 
 ### [Automatyczne prostowanie obrazu w Javie – Kompletny przewodnik Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Dowiedz się, jak automatycznie prostować obrazy w Javie przy użyciu Aspose OCR, aby poprawić jakość OCR i uzyskać lepsze wyniki.
+### [Jak prostować obraz – Przewodnik przetwarzania wstępnego obrazu dla OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Dowiedz się, jak prostować obrazy przed OCR, aby zwiększyć dokładność rozpoznawania tekstu.
+### [Utwórz przeszukiwalny PDF przy użyciu OCR – Pełny przewodnik](./create-searchable-pdf-with-ocr-full-guide/)
+Kompletny przewodnik, jak przy pomocy Aspose.OCR utworzyć przeszukiwalny plik PDF, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

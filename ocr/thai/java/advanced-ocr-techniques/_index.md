@@ -223,6 +223,10 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 
 ### [การจดจำข้อความจากรูปภาพใน Java – คู่มือ Aspose OCR ตรวจสอบการสะกดฉบับสมบูรณ์](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อตรวจสอบการสะกดและจดจำข้อความจากรูปภาพอย่างแม่นยำ
+### [วิธีเปิดใช้งาน GPU ใน Java Inference Engine – คู่มือฉบับสมบูรณ์](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+เรียนรู้วิธีเปิดใช้งาน GPU ใน Java Inference Engine เพื่อเพิ่มประสิทธิภาพการประมวลผลและความเร็วของการคาดการณ์
+### [สร้าง PDF ที่ค้นหาได้จากภาพสแกน – คู่มือ OCR สำหรับ Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+แปลงภาพสแกนเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR สำหรับ Java ทำตามขั้นตอนง่ายๆ เพื่อเพิ่มความสามารถในการค้นหาเอกสารของคุณ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

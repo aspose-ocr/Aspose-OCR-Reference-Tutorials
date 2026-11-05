@@ -189,6 +189,10 @@ Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng Aspose OC
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong Java, bao gồm cấu hình và xuất kết quả.
 ### [Tự động chỉnh nghiêng hình ảnh trong Java – Hướng dẫn Aspose OCR toàn diện](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Khám phá cách tự động cân chỉnh hình ảnh bị nghiêng trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
+### [Tạo PDF có thể tìm kiếm với OCR – Hướng dẫn đầy đủ](./create-searchable-pdf-with-ocr-full-guide/)
+Hướng dẫn chi tiết cách tạo PDF có thể tìm kiếm bằng OCR trong Java, từ cấu hình đến xuất kết quả chính xác.
+### [Cách cân chỉnh ảnh – Hướng dẫn tiền xử lý ảnh cho OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Khám phá cách loại bỏ độ nghiêng của ảnh để cải thiện độ chính xác OCR trong Java.
 
 ## Câu hỏi Thường gặp
 

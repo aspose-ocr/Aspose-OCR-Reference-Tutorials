@@ -137,6 +137,10 @@ Learn to automatically detect languages in image files using Aspose.OCR for Java
 Perform OCR on a region of interest (ROI) in Java using Aspose OCR, with step‑by‑step guidance for precise, targeted text extraction.
 ### [Create Searchable PDF from Images in Java – Complete Batch OCR Guide](./create-searchable-pdf-from-images-in-java-complete-batch-ocr/)
 Create searchable PDFs from image batches in Java using Aspose.OCR. Learn step‑by‑step batch processing for high‑accuracy OCR.
+### [How to Enable GPU in Java Inference Engine – Complete Guide](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Learn how to enable GPU acceleration for Java inference engines, boosting AI and ML performance.
+### [Create Searchable PDF from Scanned Images – Java OCR Guide](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Convert scanned images into searchable PDFs using Aspose.OCR for Java. Follow step‑by‑step instructions to generate high‑quality PDF documents.
 
 ### [How to Use OCR in Java – Parallel Processing with Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
 Accelerate OCR by processing multiple images concurrently with Aspose.OCR in Java for high‑throughput text extraction.

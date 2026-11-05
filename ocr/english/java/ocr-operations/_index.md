@@ -191,6 +191,9 @@ Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize
 
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
+### [How to Deskew Image – Image Preprocessing OCR Guide](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Learn how to deskew images before OCR to improve accuracy with Aspose.OCR for Java.
+### [Create Searchable PDF with OCR – Full Guide](./create-searchable-pdf-with-ocr-full-guide/)
 
 ### [recognize text from image with Aspose OCR – Java guide](./recognize-text-from-image-with-aspose-ocr-java-guide/)
 Step-by-step Java guide to extract text from images using Aspose OCR, covering setup, processing, and optimization.

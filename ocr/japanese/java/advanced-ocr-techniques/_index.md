@@ -215,6 +215,10 @@ Java アプリで ROI（領域）を指定して OCR を実行し、テキスト
 Aspose.OCR for Java を活用し、画像をバッチ処理して検索可能な PDF を自動生成する完全ガイドです。高速かつ正確な OCR で文書をデジタル化します。
 ### [Java で画像からテキストを認識する – 完全 Aspose OCR スペルチェックガイド](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Aspose.OCR を使用して、Java アプリで画像テキストのスペルチェックを行う完全ガイドです。
+### [Java 推論エンジンで GPU を有効にする方法 – 完全ガイド](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Java 推論エンジンで GPU を有効化し、パフォーマンスを向上させる手順を詳しく解説します。
+### [スキャン画像から検索可能な PDF を作成 – Java OCR ガイド](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Aspose.OCR for Java を使用して、スキャンした画像から検索可能な PDF を作成する方法をステップバイステップで解説します。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -223,6 +223,10 @@ url: /el/java/advanced-ocr-techniques/
 
 ### [Αναγνώριση κειμένου εικόνας σε Java χρησιμοποιώντας Aspose OCR + GPU](./recognize-text-image-in-java-using-aspose-ocr-gpu/)
 Αξιοποιήστε τη δύναμη του GPU για γρήγορη και ακριβή αναγνώριση κειμένου σε εικόνες με Aspose OCR σε Java.
+### [Πώς να ενεργοποιήσετε το GPU στη μηχανή εκτίμησης Java – Πλήρης οδηγός](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Μάθετε πώς να ενεργοποιήσετε το GPU στη μηχανή inference Java για βελτιωμένη απόδοση OCR και μηχανικής μάθησης.
+### [Δημιουργία Αναζητήσιμου PDF από Σαρωμένες Εικόνες – Οδηγός OCR για Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Μάθετε πώς να μετατρέψετε σαρωμένες εικόνες σε αναζητήσιμο PDF χρησιμοποιώντας Aspose.OCR για Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

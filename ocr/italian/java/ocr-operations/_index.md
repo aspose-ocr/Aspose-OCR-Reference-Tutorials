@@ -183,6 +183,10 @@ Scopri come generare PDF ricercabili con Aspose OCR in Java, passo‑passo per r
 Impara a estrarre testo da immagini usando Aspose OCR in Java, con istruzioni dettagliate per risultati precisi e veloci.
 ### [Correzione automatica dell'inclinazione dell'immagine in Java – Guida completa Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Scopri come raddrizzare automaticamente le immagini con Aspose.OCR in Java, passo‑passo per risultati precisi e rapidi.
+### [Come raddrizzare un'immagine – Guida alla preelaborazione delle immagini per OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Scopri come raddrizzare le immagini per migliorare l'accuratezza OCR con la preelaborazione delle immagini in Java.
+### [Creare PDF Ricercabile con OCR – Guida Completa](./create-searchable-pdf-with-ocr-full-guide/)
+Scopri come generare PDF ricercabili con OCR in Java, passo‑passo per risultati precisi e veloci.
 
 ## Domande Frequenti
 

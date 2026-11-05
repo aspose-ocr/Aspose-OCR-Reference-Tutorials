@@ -233,6 +233,10 @@ Aprenda a extraer texto de una región de interés (ROI) en imágenes usando Asp
 Genere PDFs buscables a partir de imágenes en Java con OCR por lotes, logrando alta precisión y procesamiento eficiente.
 ### [Reconocer texto de imagen en Java – Guía completa de corrección ortográfica de Aspose OCR](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Aprenda a corregir ortográficamente el texto extraído de imágenes en Java usando Aspose OCR. Guía paso a paso para una extracción precisa.
+### [Cómo habilitar la GPU en el motor de inferencia Java – Guía completa](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Aprenda a activar la GPU en el motor de inferencia Java para acelerar sus modelos de IA.
+### [Crear PDF buscable a partir de imágenes escaneadas – Guía OCR Java](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Aprenda a generar PDFs buscables a partir de imágenes escaneadas usando Aspose.OCR para Java, con alta precisión y fácil integración.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

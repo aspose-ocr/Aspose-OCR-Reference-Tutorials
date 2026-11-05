@@ -227,6 +227,10 @@ Java용 Aspose.OCR을 활용해 이미지에서 검색 가능한 PDF를 일괄�
 ### [Java에서 이미지 텍스트 인식 – 전체 Aspose OCR 맞춤법 검사 가이드](./recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
 Java용 Aspose OCR을 활용해 이미지 텍스트의 맞춤법을 자동으로 검사하고 교정하는 방법을 단계별로 안내합니다.
 
+### [Java 추론 엔진에서 GPU 활성화 방법 – 완전 가이드](./how-to-enable-gpu-in-java-inference-engine-complete-guide/)
+Java 추론 엔진에서 GPU를 활성화하는 방법을 단계별로 안내합니다. 고성능 AI 처리와 빠른 응답을 구현하세요.
+### [스캔한 이미지에서 검색 가능한 PDF 만들기 – Java OCR 가이드](./create-searchable-pdf-from-scanned-images-java-ocr-guide/)
+Java용 Aspose.OCR을 사용해 스캔한 이미지로 검색 가능한 PDF를 생성하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
