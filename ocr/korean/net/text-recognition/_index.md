@@ -662,6 +662,18 @@ C#와 Aspose.OCR을 사용해 이미지에서 HTML로 변환하는 방법을 단
 Aspose.OCR를 사용하여 C#에서 중국어 텍스트를 정확하게 인식하고 추출하는 단계별 완전 가이드입니다.
 ### [이미지에서 텍스트 변환 C# – Aspose OCR 완전 가이드](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Aspose OCR을 활용해 C#에서 이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+### [OCR 중국어(간체): C#에서 Aspose를 활용한 오프라인 OCR 완전 가이드](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+C#에서 Aspose를 이용해 중국어(간체) 오프라인 OCR을 구현하는 방법을 단계별로 안내합니다.
+### [C#에서 이미지 OCR 수행 – Aspose OCR 완전 예제](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+C#을 사용해 이미지에서 OCR을 수행하는 전체 예제를 단계별로 안내합니다. Aspose OCR의 모든 기능을 활용해 보세요.
+### [C#에서 배치 OCR 처리 – 이미지를 빠르게 텍스트로 변환](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+C#에서 다수의 이미지를 한 번에 OCR 처리하여 텍스트로 빠르게 변환하는 방법을 단계별로 안내합니다.
+### [Aspose OCR으로 검색 가능한 PDF 만들기 – 전체 C# 가이드](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Aspose OCR을 활용해 C#에서 검색 가능한 PDF를 생성하는 방법을 단계별로 안내합니다.
+### [C#와 Aspose OCR을 사용한 이미지 텍스트 인식 – 완전 가이드](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+C#와 Aspose OCR을 활용해 이미지에서 텍스트를 인식하는 전체 과정을 단계별로 안내합니다.
+### [C#로 DjVu에서 텍스트 추출 – 완전 가이드](./extract-text-from-djvu-with-c-complete-guide/)
+C#를 사용해 DjVu 파일에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

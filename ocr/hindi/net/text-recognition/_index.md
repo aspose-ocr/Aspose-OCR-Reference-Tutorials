@@ -662,6 +662,18 @@ Aspose OCR का उपयोग करके C# में खोज योग�
 C# में Aspose.OCR का उपयोग करके इमेज को HTML में बदलने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका।
 ### [इमेज से टेक्स्ट C# – Aspose OCR के साथ पूर्ण गाइड](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण मार्गदर्शिका।
+### [OCR चीनी सरल: C# में Aspose के साथ ऑफ़लाइन OCR – पूर्ण गाइड](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+C# में Aspose का उपयोग करके चीनी सरल भाषा के ऑफ़लाइन OCR को लागू करने की पूरी मार्गदर्शिका।
+### [C# में छवि पर OCR करें – पूर्ण Aspose OCR उदाहरण](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+C# में Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी मार्गदर्शिका। चरण-दर-स्टेप उदाहरण के साथ सीखें।
+### [C# में बैच OCR प्रोसेसिंग – छवियों को जल्दी टेक्स्ट में बदलें](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+C# में कई छवियों को एक साथ OCR करके तेज़ी से टेक्स्ट में बदलने की पूरी गाइड। बैच प्रोसेसिंग के चरण और कोड उदाहरण।
+### [Aspose OCR के साथ खोज योग्य PDF बनाएं – पूर्ण C# गाइड](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Aspose OCR का उपयोग करके C# में खोज योग्य PDF बनाने की पूरी मार्गदर्शिका। चरण-दर-स्तर कोड और सेटअप सीखें।
+### [C# में छवि से टेक्स्ट पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+C# में Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी मार्गदर्शिका। चरण-दर-चरण कोड और सेटअप।
+### [C# के साथ DjVu से टेक्स्ट निकालें – पूर्ण गाइड](./extract-text-from-djvu-with-c-complete-guide/)
+C# में Aspose OCR का उपयोग करके DjVu फ़ाइलों से टेक्स्ट निकालने की पूरी मार्गदर्शिका। चरण-दर-चरण उदाहरण और कोड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

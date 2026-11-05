@@ -42,6 +42,8 @@ Odblokuj potencjał OCR w .NET dzięki Aspose.OCR. Wyodrębnij tekst z plików P
 
 ### [Jak przeprowadzić OCR PDF w C# – Kompletny przewodnik po wyodrębnianiu tekstu z plików PDF](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
 Dowiedz się, jak w C# używać Aspose.OCR do konwersji plików PDF na tekst w pełnym przewodniku krok po kroku.
+### [Utwórz przeszukiwalny PDF przy użyciu Aspose OCR – Pełny przewodnik C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Dowiedz się, jak w C# przy pomocy Aspose OCR zamienić dokumenty PDF w przeszukiwalne pliki PDF, krok po kroku.
 
 ## Rozpoznaj tabelę w rozpoznawaniu obrazu OCR
 
@@ -667,6 +669,16 @@ Dowiedz się, jak przy użyciu Aspose OCR w C# stworzyć przeszukiwalny plik PDF
 Pełny przewodnik C# pokazujący, jak konwertować obrazy OCR do formatu HTML krok po kroku.
 ### [Obraz do tekstu C# – Kompletny przewodnik z Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Pełny przewodnik C# pokazujący, jak używać Aspose OCR do konwersji obrazów na tekst krok po kroku.
+### [OCR chiński uproszczony: Offline OCR z Aspose w C# – Kompletny przewodnik](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Pełny przewodnik po offline OCR chińskiego uproszczonego w C# z użyciem Aspose, obejmujący konfigurację i przetwarzanie tekstu.
+### [Wykonaj OCR na obrazie w C# – Kompletny przykład Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Poznaj pełny przykład użycia Aspose.OCR w C# do rozpoznawania tekstu na obrazach, krok po kroku.
+### [Przetwarzanie wsadowe OCR w C# – szybkie konwertowanie obrazów na tekst](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Poznaj, jak w C# przetwarzać wiele obrazów jednocześnie, konwertując je na tekst przy użyciu Aspose.OCR w trybie wsadowym.
+### [Rozpoznaj tekst z obrazu w C# przy użyciu Aspose OCR – Kompletny przewodnik](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Pełny przewodnik, jak w C# wykorzystać Aspose OCR do rozpoznawania tekstu z obrazów, krok po kroku.
+### [Wyodrębnij tekst z DjVu w C# – Kompletny przewodnik](./extract-text-from-djvu-with-c-complete-guide/)
+Pełny przewodnik, jak w C# wyodrębnić tekst z plików DjVu przy użyciu Aspose, krok po kroku.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

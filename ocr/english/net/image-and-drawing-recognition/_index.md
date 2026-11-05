@@ -77,6 +77,8 @@ Learn to extract structured tables from images using Aspose.OCR in C#, convertin
 Learn how to convert images to Excel spreadsheets using Aspose.OCR in C#, covering image processing, OCR extraction, and Excel generation.
 ### [Extract Tables from Image with Aspose OCR – Complete C# Guide](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Unlock OCR capabilities to extract tables from images using Aspose OCR in C#. Follow the step‑by‑step guide for accurate table extraction.
+### [OCR Image to Excel – Complete Guide to Convert Scanned Tables to Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Convert scanned tables into Excel with Aspose.OCR for .NET. Follow this guide to extract data and generate Excel files seamlessly.
 
 ## Frequently Asked Questions
 

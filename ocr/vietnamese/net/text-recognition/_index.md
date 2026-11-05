@@ -663,6 +663,18 @@ Biến tài liệu PDF thành dạng có thể tìm kiếm bằng Aspose OCR tro
 Biến hình ảnh OCR thành nội dung HTML trong C#. Hướng dẫn chi tiết từng bước để tích hợp chức năng này vào dự án .NET của bạn.
 ### [Chuyển đổi hình ảnh thành văn bản C# – Hướng dẫn đầy đủ với Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Thực hiện OCR để chuyển hình ảnh thành văn bản bằng Aspose OCR trong C#. Hướng dẫn chi tiết từng bước để tích hợp vào dự án .NET của bạn.
+### [OCR tiếng Trung giản thể: Nhận dạng offline với Aspose trong C# – Hướng dẫn đầy đủ](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Khám phá cách sử dụng Aspose.OCR trong C# để thực hiện OCR offline cho tiếng Trung giản thể, nâng cao độ chính xác và hiệu suất.
+### [Thực hiện OCR trên hình ảnh trong C# – Ví dụ đầy đủ Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Thực hiện OCR trên hình ảnh bằng C# với Aspose.OCR qua ví dụ đầy đủ, hướng dẫn từng bước để tích hợp nhanh chóng.
+### [Xử lý OCR hàng loạt trong C# – Chuyển đổi hình ảnh thành văn bản nhanh chóng](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Thực hiện xử lý OCR hàng loạt trong C# để nhanh chóng chuyển đổi nhiều hình ảnh thành văn bản, tăng năng suất và hiệu quả.
+### [Tạo PDF có thể tìm kiếm bằng Aspose OCR – Hướng dẫn đầy đủ C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để tạo PDF có thể tìm kiếm, bao gồm các bước cấu hình và mã mẫu.
+### [Nhận dạng văn bản từ hình ảnh trong C# với Aspose OCR – Hướng dẫn đầy đủ](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Thực hiện nhận dạng văn bản từ hình ảnh trong C# bằng Aspose OCR qua hướng dẫn chi tiết, giúp bạn tích hợp OCR nhanh chóng và hiệu quả.
+### [Trích xuất văn bản từ DjVu bằng C# – Hướng dẫn đầy đủ](./extract-text-from-djvu-with-c-complete-guide/)
+Khám phá cách trích xuất văn bản từ tệp DjVu bằng C# với hướng dẫn chi tiết, giúp bạn tích hợp nhanh chóng và hiệu quả.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

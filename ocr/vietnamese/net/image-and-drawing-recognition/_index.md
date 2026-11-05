@@ -79,6 +79,8 @@ Mở khóa khả năng trích xuất bảng từ hình ảnh bằng Aspose OCR c
 Biến hình ảnh thành tệp Excel bằng Aspose.OCR và C#. Hướng dẫn chi tiết từng bước để trích xuất dữ liệu và tạo bảng tính.
 ### [Trích xuất bảng từ hình ảnh với Aspose OCR – Hướng dẫn C# đầy đủ](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Khám phá cách trích xuất bảng từ hình ảnh bằng Aspose OCR trong C#, từ xử lý ảnh đến xuất dữ liệu bảng một cách chính xác.
+### [OCR Hình ảnh sang Excel – Hướng dẫn toàn diện để chuyển đổi bảng quét sang Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Chuyển đổi các bảng quét trong hình ảnh thành tệp Excel có thể chỉnh sửa dễ dàng bằng Aspose.OCR cho .NET.
 
 ## Câu hỏi thường gặp
 

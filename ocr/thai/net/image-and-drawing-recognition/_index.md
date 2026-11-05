@@ -78,6 +78,8 @@ Aspose.OCR มี API ที่ยืดหยุ่นให้คุณกำ�
 สร้างไฟล์ Excel จากข้อมูลที่สกัดจากรูปภาพด้วย Aspose.OCR และ C# อย่างครบถ้วน
 ### [Extract Tables from Image with Aspose OCR – Complete C# Guide](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 สกัดตารางจากรูปภาพด้วย Aspose OCR ด้วย C# อย่างครบถ้วน เพิ่มประสิทธิภาพการดึงข้อมูลตารางจากภาพได้ง่าย
+### [OCR รูปภาพเป็น Excel – คู่มือครบวงจรในการแปลงตารางสแกนเป็น Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+เรียนรู้วิธีแปลงภาพสแกนของตารางเป็นไฟล์ Excel อย่างแม่นยำด้วย Aspose.OCR สำหรับ .NET
 
 ## คำถามที่พบบ่อย
 

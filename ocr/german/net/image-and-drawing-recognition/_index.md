@@ -84,6 +84,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR und C# ein Excel‑Dokument aus Bilddaten g
 
 ### [Tabellen aus Bild mit Aspose OCR extrahieren – Vollständiger C#‑Leitfaden](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Entdecken Sie, wie Sie Tabellen aus Bildern extrahieren und in strukturierte Daten umwandeln – Schritt‑für‑Schritt‑Anleitung in C#.
+### [OCR‑Bild zu Excel – Vollständiger Leitfaden zum Konvertieren gescannter Tabellen in Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Erfahren Sie, wie Sie gescannte Tabellendaten mit Aspose.OCR in Excel‑Tabellen umwandeln.
 
 ## Häufig gestellte Fragen
 

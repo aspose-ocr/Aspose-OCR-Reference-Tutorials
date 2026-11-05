@@ -689,6 +689,18 @@ Aprenda a reconocer texto chino en imágenes usando Aspose.OCR con C#, siguiendo
 Aprenda a convertir imágenes OCR a HTML usando Aspose.OCR en C#, con una guía paso a paso.
 ### [Imagen a texto en C# – Guía completa con Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Aprenda a convertir imágenes a texto usando Aspose OCR en C#, siguiendo una guía completa paso a paso.
+### [Crear PDF buscable con Aspose OCR – Guía completa en C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Aprenda a crear PDFs buscables usando Aspose OCR con C# en esta guía paso a paso.
+### [OCR chino simplificado: OCR sin conexión con Aspose en C# – Guía completa](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Aprenda a realizar OCR offline de texto chino simplificado usando Aspose en C#, con una guía paso a paso para integrar esta funcionalidad en sus aplicaciones.
+### [Realizar OCR en una imagen en C# – Ejemplo completo de Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Aprenda a ejecutar OCR en imágenes usando C# con Aspose OCR mediante un ejemplo completo paso a paso.
+### [Procesamiento por lotes de OCR en C# – Convierta imágenes a texto rápidamente](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Aprenda a procesar lotes de imágenes con OCR en C# para convertir texto rápidamente y optimizar su flujo de trabajo.
+### [Reconocer texto de imagen en C# con Aspose OCR – Guía completa](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Aprenda a reconocer texto en imágenes usando C# y Aspose OCR con esta guía paso a paso.
+### [Extraer texto de DjVu con C# – Guía completa](./extract-text-from-djvu-with-c-complete-guide/)
+Aprenda a extraer texto de archivos DjVu usando C# y Aspose OCR con esta guía paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

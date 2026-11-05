@@ -84,6 +84,8 @@ Ekstrak tabel dengan akurasi tinggi dari gambar menggunakan Aspose OCR dalam C#,
 Pelajari cara mengonversi gambar menjadi file Excel menggunakan Aspose.OCR dan C# dalam panduan lengkap ini.
 ### [Ekstrak Tabel dari Gambar dengan Aspose OCR – Panduan Lengkap C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Buka kemampuan ekstraksi tabel dari gambar dengan Aspose OCR menggunakan C#. Ikuti panduan lengkap untuk mengintegrasikan OCR tabel.
+### [OCR Gambar ke Excel – Panduan Lengkap Mengonversi Tabel yang Dipindai ke Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Temukan cara mengubah gambar berisi tabel yang dipindai menjadi file Excel yang dapat diedit dengan Aspose.OCR.
 
 ## Pertanyaan yang Sering Diajukan
 

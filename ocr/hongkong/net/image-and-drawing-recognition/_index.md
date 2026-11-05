@@ -78,6 +78,8 @@ Aspose.OCR 提供彈性的 API，讓您能針對特定文字區域、處理圖�
 示範如何使用 Aspose.OCR 讀取圖像並將文字匯出為 Excel 工作表，完整 C# 範例一步步說明。
 ### [使用 Aspose OCR 從圖像提取表格 – 完整 C# 指南](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 使用 Aspose OCR 於 C# 中辨識圖像中的表格，完整步驟教您提取結構化資料。
+### [OCR 圖像轉 Excel – 完整指南：將掃描表格轉換為 Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+使用 Aspose.OCR for .NET 將掃描的表格圖像快速轉換為可編輯的 Excel 工作表，完整步驟說明。
 
 ## 常見問題
 

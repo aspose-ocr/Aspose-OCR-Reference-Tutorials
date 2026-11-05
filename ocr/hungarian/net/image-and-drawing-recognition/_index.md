@@ -69,6 +69,8 @@ Fedezd fel, hogyan nyerheted ki a táblázatokat képekből C#-ban az Aspose OCR
 Készíts Excel fájlt képekből C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
 ### [Táblázatok kinyerése képből az Aspose OCR segítségével – Teljes C# útmutató](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 Fedezd fel, hogyan nyerheted ki a táblázatokat képekről C#-ban az Aspose OCR használatával, lépésről‑lépésre.
+### [OCR kép Excelbe – Teljes útmutató a beolvasott táblázatok Excelbe konvertálásához](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Fedezd fel, hogyan konvertálhatod a beolvasott táblázatokat Excel formátumba az Aspose.OCR .NET segítségével.
 
 ## Gyakran Ismételt Kérdések
 

@@ -84,6 +84,8 @@ Aspose.OCR 提供灵活的 API，允许您定位特定文本区域、处理图�
 使用 Aspose.OCR for .NET 将图像转换为 Excel 表格，完整步骤指南。
 ### [使用 Aspose OCR 从图像提取表格 – 完整 C# 指南](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
 使用 Aspose OCR 在 C# 中识别图像中的表格并导出为结构化数据的完整指南。
+### [OCR 图像转 Excel – 将扫描表格转换为 Excel 的完整指南](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+使用 Aspose.OCR for .NET 将扫描的表格图像轻松转换为 Excel，提供完整的操作步骤和技巧。
 
 ## 常见问题
 

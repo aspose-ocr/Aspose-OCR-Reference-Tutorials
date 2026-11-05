@@ -604,6 +604,16 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีแปลงภาพ OCR เป็น HTML ด้วย Aspose.OCR ใน C# อย่างละเอียดตามขั้นตอน เพื่อสร้างผลลัพธ์ที่สวยงามและใช้งานง่าย
 ### [แปลงภาพเป็นข้อความ C# – คู่มือฉบับสมบูรณ์กับ Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
 เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย Aspose OCR ใน C# อย่างละเอียดตามขั้นตอนเพื่อผลลัพธ์ที่แม่นยำ
+### [การประมวลผล OCR แบบเป็นชุดใน C# – แปลงภาพเป็นข้อความอย่างรวดเร็ว](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+เรียนรู้วิธีประมวลผล OCR หลายภาพพร้อมกันใน C# เพื่อแปลงรูปภาพเป็นข้อความได้อย่างรวดเร็วและมีประสิทธิภาพ
+### [OCR ภาษาจีนแบบง่าย: การทำ OCR แบบออฟไลน์ด้วย Aspose ใน C# – คู่มือเต็ม](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+### [ทำ OCR บนรูปภาพใน C# – ตัวอย่างเต็มของ Aspose OCR](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือเต็ม C#](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้โดยใช้ Aspose OCR ด้วย C# อย่างละเอียดและครบถ้วน
+### [จดจำข้อความจากรูปภาพใน C# ด้วย Aspose OCR – คู่มือเต็ม](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+เรียนรู้วิธีจดจำข้อความจากรูปภาพใน C# อย่างละเอียดด้วย Aspose OCR พร้อมขั้นตอนครบถ้วน
+### [สกัดข้อความจาก DjVu ด้วย C# – คู่มือเต็ม](./extract-text-from-djvu-with-c-complete-guide/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ DjVu ด้วย C# อย่างละเอียดด้วย Aspose OCR
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

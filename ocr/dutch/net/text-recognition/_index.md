@@ -659,6 +659,18 @@ Leer hoe u met Aspose OCR en C# doorzoekbare PDF's maakt in een eenvoudige staps
 Leer stap voor stap hoe u met Aspose.OCR en C# OCR-afbeeldingen omzet naar HTML voor gestructureerde weergave.
 ### [Afbeelding naar tekst C# – Complete gids met Aspose OCR](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Leer stap voor stap hoe u met Aspose OCR en C# afbeeldingen omzet naar tekst in een volledige gids.
+### [OCR Chinees Vereenvoudigd: Offline OCR met Aspose in C# – Complete Gids](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Leer hoe u offline OCR voor vereenvoudigd Chinees kunt uitvoeren met Aspose in C#, inclusief volledige stapsgewijze handleiding.
+### [Voer OCR uit op afbeelding in C# – Complete Aspose OCR-voorbeeld](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+Leer hoe u met Aspose.OCR in C# OCR uitvoert op een afbeelding met een volledige stap‑voor‑stap voorbeeld.
+### [Batch OCR-verwerking in C# – Converteer afbeeldingen snel naar tekst](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+Leer hoe u met Aspose.OCR in C# batchverwerking uitvoert om meerdere afbeeldingen efficiënt naar tekst te converteren.
+### [Maak doorzoekbare PDF met Aspose OCR – Complete C#-gids](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Leer hoe u met Aspose.OCR in C# doorzoekbare PDF's maakt via een volledige stap‑voor‑stap gids.
+### [Tekst herkennen van afbeelding in C# met Aspose OCR – Complete Gids](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen haalt via een volledige stap‑voor‑stap gids.
+### [Extract Text from DjVu with C# – Complete Guide](./extract-text-from-djvu-with-c-complete-guide/)
+Leer hoe u met Aspose.OCR in C# tekst uit DjVu‑bestanden haalt via een volledige stap‑voor‑stap gids.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

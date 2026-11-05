@@ -656,6 +656,18 @@ Aspose OCR kullanarak C# ile arama yapılabilir PDF oluşturmayı adım adım ö
 C# kullanarak OCR görüntülerini HTML formatına dönüştürmeyi adım adım öğrenin ve tam bir çözüm geliştirin.
 ### [C# ile Görüntüyü Metne Çevirme – Aspose OCR Tam Kılavuzu](./image-to-text-c-complete-guide-with-aspose-ocr/)
 Aspose OCR ile C# kullanarak görüntülerden metin çıkarmayı öğrenin ve eksiksiz bir OCR rehberi edinin.
+### [OCR Çince Basitleştirilmiş: Aspose ile C#'ta Çevrimdışı OCR – Tam Kılavuz](./ocr-chinese-simplified-offline-ocr-with-aspose-in-c-complete/)
+Aspose kullanarak C# ile Çince (Basitleştirilmiş) metinleri çevrimdışı olarak tanıma ve işleme adımlarını öğrenin.
+### [C#'ta Görüntü Üzerinde OCR Gerçekleştirme – Tam Aspose OCR Örneği](./perform-ocr-on-image-in-c-complete-aspose-ocr-example/)
+C# ile Aspose OCR kullanarak bir görüntüde metin tanımayı adım adım öğrenin.
+### [C#'ta Toplu OCR İşleme – Görüntüleri Hızlıca Metne Dönüştürün](./batch-ocr-processing-in-c-convert-images-to-text-quickly/)
+C# kullanarak toplu OCR işleme ile birden fazla görüntüyü hızlıca metne dönüştürmeyi öğrenin.
+### [Aspose OCR ile Aranabilir PDF Oluşturma – Tam C# Kılavuzu](./create-searchable-pdf-with-aspose-ocr-full-c-guide/)
+Aspose OCR kullanarak C# ile aranabilir PDF oluşturmayı adım adım öğrenin.
+### [C# ile Görüntüden Metin Tanıma – Aspose OCR – Tam Kılavuz](./recognize-text-from-image-in-c-with-aspose-ocr-complete-guid/)
+C# ve Aspose OCR kullanarak bir görüntüden metin tanımayı adım adım öğrenin.
+### [C# ile DjVu'dan Metin Çıkarma – Tam Kılavuz](./extract-text-from-djvu-with-c-complete-guide/)
+C# kullanarak DjVu dosyalarından metin çıkarma adımlarını öğrenin ve Aspose OCR ile tam bir çözüm elde edin.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
