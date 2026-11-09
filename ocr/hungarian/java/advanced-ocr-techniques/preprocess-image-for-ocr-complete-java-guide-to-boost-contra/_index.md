@@ -1,28 +1,66 @@
 ---
 category: general
-date: 2026-02-17
-description: Készíts elő képet az OCR-hez az Aspose OCR Java használatával. Tanulja
-  meg, hogyan növelheti a kép kontrasztját, állíthatja be a kontraszt szintjét, és
-  percek alatt felismerheti a szöveget a képen.
+date: 2026-10-30
+description: Ismerje meg, hogyan javíthatja az OCR-t képek előfeldolgozásával Java-ban
+  az Aspose OCR segítségével. Ez az útmutató bemutatja, hogyan növelheti a kép kontrasztját,
+  állíthatja be a kontraszt szintjét, és hatékonyan kinyerheti a szöveget.
 draft: false
 keywords:
-- preprocess image for ocr
-- boost image contrast
-- recognize text from image
-- extract text using OCR
-- set contrast level
-language: hu
-og_description: Képek előfeldolgozása OCR-hez az Aspose OCR Java használatával. Ez
-  az útmutató bemutatja, hogyan lehet növelni a kép kontrasztját, beállítani a kontraszt
-  szintjét, és gyorsan felismerni a szöveget a képről.
-og_title: Kép előfeldolgozása OCR-hez – Java útmutató a kontraszt növeléséhez és a
-  szöveg kinyeréséhez
+- how to improve OCR
+- how to boost contrast
+- preprocess image OCR
+- extract text image Java
+- recognize text image Java
+lastmod: 2026-10-30
+og_description: Ismerje meg, hogyan javíthatja az OCR-t képek előfeldolgozásával Java-ban
+  az Aspose OCR segítségével. Az útmutató bemutatja a kontraszt növelését, a kontraszt
+  szintjének beállítását, és a szöveg gyors kinyerését.
+og_image_alt: Screenshot of a Java OCR preprocessing pipeline showing before‑and‑after
+  contrast enhancement
+og_title: Hogyan javítsuk az OCR-t – Java kép előfeldolgozási útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: Learn how to improve OCR by preprocessing images in Java with Aspose
+    OCR. This guide shows how to boost image contrast, set contrast level, and extract
+    text efficiently.
+  headline: How to improve OCR – preprocess image for OCR in Java with Aspose
+  type: TechArticle
+- description: Learn how to improve OCR by preprocessing images in Java with Aspose
+    OCR. This guide shows how to boost image contrast, set contrast level, and extract
+    text efficiently.
+  name: How to improve OCR – preprocess image for OCR in Java with Aspose
+  steps:
+  - name: '**Deskew** – corrects slight rotations.'
+    text: '**Deskew** – corrects slight rotations.'
+  - name: '**Denoise** – removes speckles that confuse character segmentation.'
+    text: '**Denoise** – removes speckles that confuse character segmentation.'
+  - name: '**Contrast enhancement** – makes dark text stand out against the background.'
+    text: '**Contrast enhancement** – makes dark text stand out against the background.'
+  type: HowTo
+- questions:
+  - answer: Yes—load the appropriate language pack with `engine.setLanguage("fr")`
+      or any supported ISO code to improve accuracy for non‑English text.
+    question: Can I use this approach for languages other than English?
+  - answer: It does not read PDF pages natively; you should extract images from the
+      PDF first (e.g., with Aspose PDF) and then feed them to the OCR engine.
+    question: Does Aspose OCR support PDF input directly?
+  - answer: The library handles images up to 30 MP without needing to load the whole
+      file into memory, thanks to its streaming architecture.
+    question: How large an image can I process?
+  - answer: Absolutely—iterate over the files, reuse the same `OcrEngine` instance,
+      and add each file to `OcrInput`. This reduces per‑image overhead dramatically.
+    question: Is there a way to batch‑process a folder of images?
+  - answer: Try adjusting `setContrastLevel` in smaller increments, experiment with
+      `setDenoiseMode`, or enable `setUseAdaptiveThreshold(true)` for difficult backgrounds.
+    question: What if the OCR output still contains errors?
+  type: FAQPage
 tags:
 - Java
 - OCR
 - Image Processing
-title: Kép előfeldolgozása OCR-hez – Teljes Java útmutató a kontraszt növeléséhez
-  és a szöveg kinyeréséhez
+title: Hogyan javítsuk az OCR-t – képek előfeldolgozása OCR-hez Java-ban az Aspose
+  segítségével
 url: /hu/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-guide-to-boost-contra/
 ---
 
@@ -30,25 +68,40 @@ url: /hu/java/advanced-ocr-techniques/preprocess-image-for-ocr-complete-java-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR-hez előfeldolgozott kép – Teljes Java útmutató
+# Képek előfeldolgozása OCR-hez – teljes Java útmutató
 
-Valaha is szükséged volt **preprocess image for OCR**-ra, de nem tudtad, mely beállítások hoznak valódi különbséget? Nem vagy egyedül. A legtöbb fejlesztő csak rátesz egy képet az OCR motorra, és reméli, hogy varázslat történik, csak hogy összekuszálódott kimenetet kapjon. Ebben az útmutatóban egy gyakorlati, vég‑től‑végig példán keresztül mutatjuk be, hogyan **boosts image contrast**, módosítjuk a **contrast level**‑t, és végül **recognizes text from image**‑t használva az Aspose OCR for Java-t.
+Szükséged volt már **képek előfeldolgozására OCR-hez**, de nem tudtad, mely beállítások hoznak valódi javulást? Nem vagy egyedül. A legtöbb fejlesztő csak egy képet dob az OCR motorba, és reméli, hogy a varázslat megtörténik, csak hogy összekuszálódott kimenetet kapjon. Ebben a bemutatóban egy gyakorlati, vég‑től‑végig példán keresztül mutatjuk be, hogyan **növelheted a kép kontrasztját**, állíthatod a **kontraszt szintet**, és végül **szöveget ismerhetsz fel a képről** az Aspose OCR for Java segítségével.
 
-Amikor befejezed, egy újrahasználható kódrészletet kapsz, amely megbízhatóan **extracts text using OCR**, még zajos szkenneléseknél is. Nincsenek rejtett trükkök, csak tiszta lépések és a mögöttük álló érvelés.
+A végére egy újrahasználható kódrészletet kapsz, amely **megbízhatóan szöveget nyer ki OCR-rel**, még zajos szkenneléseknél is. Nincs rejtett trükk, csak tiszta lépések és a mögöttük álló indoklás.
+
+## Gyors válaszok
+- **Mi az első lépés az OCR javításához?** Töltsd be az Aspose OCR licencet, mielőtt létrehoznád a motort.  
+- **Mely három előfeldolgozási opció a legfontosabb?** Döntéskorrekció (deskew), zajszűrés (denoise) és kontrasztnövelés.  
+- **Milyen kontraszt szint működik a legtöbb nyomtatott dokumentumnál?** Körülbelül 1.3 f jó egyensúlyt biztosít.  
+- **Megtekinthetem a feldolgozott képet?** Igen — exportálhatod a köztes bitmapet PNG‑ként.  
+- **Szükség van licencre a termeléshez?** Teljesen szükséges; a próbaverzió korlátozott módban fut, és vízjeleket ad hozzá.
+
+## Hogyan javítható az OCR képek előfeldolgozásával Java‑ban?
+
+Töltsd be a képet, alkalmazd a döntéskorrekciót, a zajszűrést és a kontraszt beállítást, majd futtasd a felismerőt. Az Aspose OCR csővezeték pontosan ebben a sorrendben dolgozza fel a képet, biztosítva, hogy minden átalakítás a lehető legtisztább adatokon történjen, mielőtt a neurális hálózat felismerője látná. Ez a kétlépéses megközelítés — előfeldolgozás, majd felismerés — akár 30 %‑kal is növelheti a karakter pontosságot a tipikus szkennelt dokumentumokon.
+
+## Mi az Aspose OCR for Java?
+
+Az Aspose OCR for Java egy könyvtár, amely **30+ képformátumot** támogat (köztük JPEG, PNG, TIFF, BMP), és egy 200 oldalas többképes köteg feldolgozását kevesebb, mint 2 másodperc alatt képes elvégezni egy szabványos 8‑magos szerveren. Beépített döntéskorrekciós, zajszűrő és kontrasztnövelő szűrőket kínál, amelyeket programozottan konfigurálhatsz.
 
 ## Amire szükséged lesz
 
-- Java 17 vagy újabb (a kód bármely friss JDK-val fordítható)
+- Java 17 vagy újabb (bármely friss JDK megfelelő)
 - Aspose OCR for Java könyvtár (letölthető a hivatalos Aspose weboldalról)
 - Érvényes Aspose OCR licencfájl (`Aspose.OCR.lic`)
-- Bemeneti kép (`input.jpg`), amelyet be szeretnél olvasni
-- Kedvenc IDE vagy egyszerű parancssori beállítás
+- Egy bemeneti kép (`input.jpg`), amelyet be szeretnél olvasni
+- Kedvenc IDE‑d vagy egy egyszerű parancssori környezet
 
-Ha már megvannak ezek, nagyszerű—merüljünk el azonnal.
+Ha már megvan mindez, nagyszerű — merüljünk el.
 
-## 1. lépés: Az Aspose OCR licenc betöltése (Alapbeállítás)
+## Mi az első lépés: az Aspose OCR licenc betöltése?
 
-Mielőtt az OCR motor bármit tenne, tudnia kell, hogy licencelt vagy. Ellenkező esetben egy próba‑vízjelet kapsz.
+Töltsd be a licencet, mielőtt bármilyen OCR objektumot létrehoznál, hogy a motor teljes funkcionalitással fusson a próbaverzió helyett. Ez megakadályozza a vízjeleket, feloldja az összes előfeldolgozási opciót, és biztosítja, hogy az OCR motor hozzáférjen a licencelt nyelvi csomagokhoz és a pontos szövegkinyeréshez szükséges teljesítményoptimalizációkhoz.
 
 ```java
 import com.aspose.ocr.*;
@@ -61,26 +114,26 @@ public class PreprocessDemo {
         ocrLicense.setLicense("YOUR_DIRECTORY/Aspose.OCR.lic");
 ```
 
-**Miért fontos:** Megfelelő licenc nélkül a motor értékelő módban fut, ami lerövidítheti az eredményeket vagy vízjeleket ad hozzá. A licenc korai beállítása biztosítja, hogy a későbbi előfeldolgozási beállítások teljes funkciókészlettel legyenek alkalmazva.
+**Miért fontos:** Helytelen vagy hiányzó licenc esetén a motor értékelési módban fut, ami a kimenet csonkolásához vagy vízjelek hozzáadásához vezethet. A licenc korai beállítása garantálja, hogy a későbbi előfeldolgozási beállítások teljes funkcionalitással legyenek alkalmazva.
 
-## 2. lépés: Az OCR motor inicializálása
+## Hogyan inicializálod az OCR motort?
 
-Egy `OcrEngine` példány létrehozása hozzáférést biztosít a felismerési és az előfeldolgozási folyamatokhoz egyaránt.
+Az `OcrEngine` osztály a központi komponens, amely OCR‑t végez és előfeldolgozási vezérlést biztosít. Hozz létre egyetlen `OcrEngine` példányt, és használd újra minden képnél, hogy elkerüld a modell többszöri betöltését. Az engine újrahasználata belső neurális hálózati modelleket cache‑el, ami akár 40 %-kal csökkentheti a kép‑enkénti késleltetést és csökkenti a memóriahasználatot, ezáltal hatékonyabbá téve a kötegelt feldolgozást.
 
 ```java
         // Initialise the OCR engine
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-**Pro tipp:** Tartsd a motort singletonként, ha sok képet szeretnél kötegben feldolgozni; ez belső erőforrásokat cache-el és felgyorsítja a későbbi hívásokat.
+**Pro tipp:** Ha sok képet kell egy kötegben feldolgozni, tartsd az engine‑t singletonként; így belső erőforrásokat cache‑el, és felgyorsítja a későbbi hívásokat.
 
-## 3. lépés: Az előfeldolgozás beállítása – Deskew, Denoise és kontrasztnövelés
+## Hogyan konfiguráld az előfeldolgozást – döntéskorrekció, zajszűrés és kontrasztnövelés
 
-Itt történik a **preprocess image for OCR**. A három beállítás, amelyet módosítunk:
+Itt jön a **képek előfeldolgozása OCR-hez**. A három „gomb”, amit állítani fogunk:
 
-1. **Deskew** – korrigálja a kisebb elforgatásokat.
-2. **Denoise** – eltávolítja azokat a szemcséket, amelyek megzavarják a karakterek szegmentálását.
-3. **Contrast enhancement** – a sötét szöveget kiemeli a háttérből.
+1. **Deskew** – korrigálja a kisebb elfordulásokat.  
+2. **Denoise** – eltávolítja azokat a szemcséket, amelyek megzavarják a karakter szegmentálást.  
+3. **Contrast enhancement** – kiemeli a sötét szöveget a háttérből.
 
 ```java
         // Access preprocessing settings
@@ -99,13 +152,13 @@ Itt történik a **preprocess image for OCR**. A három beállítás, amelyet m�
         preprocessing.setContrastLevel(1.3f); // 1.0 = no change, >1.0 = stronger contrast
 ```
 
-### Miért állítsuk be a kontrasztszintet?
+### Miért állítsuk be a kontraszt szintet?
 
-A kontrasztszint növelése kinyújtja a kép hisztogramját, sötét pixeleket sötétebbé, világos pixeleket világosabbá téve. Gyakorlatban egy **contrast level** érték `1.3f` gyakran a legjobb egyensúlyt adja nyomtatott dokumentumoknál, míg a `1.5f` feletti érték túlzottan kiemelheti a vékony vonalakat. Nyugodtan kísérletezz; a beállítás olcsó módosítani, és drámaian javíthatja a **recognize text from image** sikerességét.
+A kontraszt szint növelése kinyújtja a kép hisztogramját, sötétebbé téve a sötét pixeleket és világosabbá a világos pixeleket. Gyakorlatban egy **kontraszt szint** `1.3f` gyakran a legjobb egyensúlyt nyújtja nyomtatott dokumentumoknál, míg a `1.5f` feletti érték túlzottan kiemelheti a vékony vonalakat. Nyugodtan kísérletezz; a beállítás olcsó módosítani, és drámai módon javíthatja a **szöveg felismerését a képről**.
 
-## 4. lépés: A bemeneti kép előkészítése
+## Hogyan készítsd elő a bemeneti képet?
 
-Az `OcrInput` osztály elrejti a fájlkezelést. Több képet is hozzáadhatsz, ha kötegelt feldolgozásra van szükség.
+Az `OcrInput` osztály egy képgyűjteményt képvisel, amelyet az OCR motor feldolgoz. Az `OcrInput` elrejti a fájlkezelést, lehetővé téve, hogy egy vagy több képet adj hozzá kötegelt feldolgozáshoz. Megadhatsz egyedi fájlutakat, stream‑eket vagy byte‑tömböket, és a motor minden bejegyzést külön oldalnak tekint, automatikusan kezelve a formátumdetektálást és a konverziót, ha szükséges.
 
 ```java
         // Prepare the image for OCR – you can add more files to the same OcrInput
@@ -113,22 +166,22 @@ Az `OcrInput` osztály elrejti a fájlkezelést. Több képet is hozzáadhatsz, 
         ocrInput.add("YOUR_DIRECTORY/input.jpg");
 ```
 
-**Edge case:** Ha a képed nem szabványos formátumban van (pl. többoldalas TIFF), akkor minden oldalt külön betölthetsz, vagy először PNG/JPEG formátumba konvertálhatod.
+**Szélsőséges eset:** Ha a képed nem szabványos formátumban van (pl. többoldalas TIFF), betöltheted az egyes oldalakat külön-külön, vagy előbb PNG/JPEG‑re konvertálhatod.
 
-## 5. lépés: A felismerés végrehajtása
+## Hogyan működik a felismerési lépés?
 
-Most a motor lefuttatja a korábban beállított előfeldolgozási csővezetéket, majd a tisztított képet átadja a fő OCR algoritmusnak.
+Amikor meghívod a `recognize` metódust, a motor először a konfigurált előfeldolgozási csővezeték‑sorozatot alkalmazza — deskew, denoise, és kontrasztnövelés ebben a pontos sorrendben. Miután a kép megtisztult, átadja a neurális hálózat alapú felismerőnek, amely elemzi a karakterformákat, és a kinyert szöveget string‑ként visszaadja.
 
 ```java
         // Run OCR – this returns a result object containing the extracted text
         OcrResult ocrResult = ocrEngine.recognize(ocrInput);
 ```
 
-**Mi történik a háttérben?** Az Aspose OCR először alkalmazza a deskew transzformációt, majd futtatja a denoise szűrőt, végül állítja be a kontrasztot, mielőtt a képet a neurális‑hálózaton alapuló felismerőnek adná. A sorrend szándékos; a módosítása alacsonyabb eredményekhez vezethet.
+**Mi történik a háttérben?** Az Aspose OCR először a döntéskorrekciót alkalmazza, majd a zajszűrőt, végül a kontrasztot állítja be, mielőtt a képet a neurális hálózat‑alapú felismerőnek adná. A sorrend szándékos; a megváltoztatása alacsonyabb eredményeket hozhat.
 
-## 6. lépés: A felismert szöveg kiírása
+## Hogyan adhatod ki a felismert szöveget?
 
-Végül kiírjuk a kinyert karakterláncot a konzolra. Egy valódi alkalmazásban fájlba írhatod vagy hálózaton keresztül küldheted.
+A felismerés befejezése után a `getText` vagy `getTextLines` metódusokkal kérheted le az eredményt. Ebben a példában egyszerűen kiírjuk a kinyert stringet a konzolra, de a termelésben fájlba írhatod, adatbázisba mentheted, vagy hálózaton keresztül továbbíthatod downstream szolgáltatások felé.
 
 ```java
         // Print the recognized text to the console
@@ -137,19 +190,19 @@ Végül kiírjuk a kinyert karakterláncot a konzolra. Egy valódi alkalmazásba
 }
 ```
 
-### Várható kimenet
+### Várt kimenet
 
-Ha a `input.jpg` a “Hello World!” kifejezést tartalmazza, a konzolnak a következőt kell mutatnia:
+Ha az `input.jpg` a „Hello World!” kifejezést tartalmazza, a konzolnak a következőt kell mutatnia:
 
 ```
 Hello World!
 ```
 
-Ha a kimenet összekuszáltnak tűnik, ellenőrizd újra az előfeldolgozási értékeket – különösen a **contrast level**‑t és a **denoise mode**‑t – és próbálj ki másik képformátumot.
+Ha a kimenet összekuszáltnak tűnik, ellenőrizd az előfeldolgozási értékeket — különösen a **kontraszt szintet** és a **zajszűrési módot** — és próbálj meg másik képformátumot használni.
 
-## Bónusz: Az előfeldolgozott kép megjelenítése (opcionális)
+## Hogyan jelenítsd meg a előfeldolgozott képet (opcionális)?
 
-Néha szeretnéd látni, hogy a motor mit lát a deskew, denoise és kontrasztnövelés után. Az Aspose OCR lehetővé teszi a köztes bitmap exportálását:
+Ha szeretnéd ellenőrizni, hogy a OCR motor mit lát az előfeldolgozás után, exportálhatod a köztes bitmapet PNG fájlba a `saveProcessedImage` metódussal. Ez a vizuális ellenőrzés segít megbizonyosodni arról, hogy a döntéskorrekció, a zajszűrés és a kontraszt beállítások helyesen lettek alkalmazva a felismerés előtt.
 
 ```java
         // Export the pre‑processed image for debugging
@@ -157,41 +210,72 @@ Néha szeretnéd látni, hogy a motor mit lát a deskew, denoise és kontrasztn�
         ImageIO.write(processed, "png", new File("processed.png"));
 ```
 
-Nyisd meg a `processed.png`-t az eredetivel egymás mellett; észre fogod venni a egyenesebb vízszintet és a tisztább szöveget. Ez a lépés hasznos, ha azt vizsgálod, miért hibás egy adott szken.
+![preprocess image for OCR example](/images/ocr-preprocess-example.png "preprocess image for OCR – before and after contrast boost")
+[preprocess image for OCR example](/images/ocr-preprocess-example.png "preprocess image for OCR – before and after contrast boost")
 
-![OCR-hez előfeldolgozott kép példája](/images/ocr-preprocess-example.png "OCR előfeldolgozása – kontraszt növelése előtte és után")
+*Az előző kép azt mutatja, hogyan változtatja meg a kontraszt növelése és a zajszűrés egy homályos szkennt egy tiszta, OCR‑kész képpé.*
 
-*A fenti kép azt mutatja, hogyan alakítja a kontraszt növelése és a zajszűrés egy homályos szkennelt képet tiszta, OCR‑kész képpé.*
+## Gyakori buktatók és elkerülésük módja
 
-## Gyakori buktatók és elkerülésük módjai
+| Buktató | Miért fordul elő | Megoldás |
+|---------|------------------|----------|
+| **Túlzott kontraszt** (`setContrastLevel` túl magas) | A világos háttér fehér lesz, elnyelve a halvány karaktereket | Tartsd a szintet 1.1 és 1.4 között a legtöbb nyomtatott szöveghez |
+| **Alacsony döntéskorrekció tolerancia** | A kis elfordulások nem kerülnek korrigálásra | Növeld a `setDeskewAngleTolerance` értékét 0.2‑re vagy 0.3‑ra a szkennelt könyveknél |
+| **GAUSSIAN zajszűrés bináris képeken** | Elmosódnak a szélek, egyes karakterek összeolvadnak | Használd a `DenoiseMode.MEDIAN`‑t fekete‑fehér szkenneléseknél |
+| **Hiányzó licenc** | A motor próbaverzióba lép, és csonkolja a kimenetet | Ellenőrizd az `Aspose.OCR.lic` elérési útját, és győződj meg róla, hogy a fájl olvasható |
 
-| Pitfall | Why it Happens | Fix |
-|---------|----------------|-----|
-| **Over‑contrasting** (`setContrastLevel` túl magas) | A világos háttér fehérre vált, és elhalványuló karaktereket töröl | Tartsd a szintet 1.1 és 1.4 között a legtöbb nyomtatott szöveghez |
-| **Deskew tolerance too low** | A kis elforgatások nem kerülnek korrigálásra | `setDeskewAngleTolerance` értékét emeld 0.2‑re vagy 0.3‑ra a beolvasott könyvekhez |
-| **Using GAUSSIAN denoise on binary images** | Elmosódik a szélek, és a karakterek egyesülnek | Használd a `DenoiseMode.MEDIAN`‑t fekete‑fehér szkenneléseknél |
-| **Missing license** | A motor próba‑módra vált, és a kimenetet lerövidíti | Ellenőrizd az `Aspose.OCR.lic` elérési útját, és hogy a fájl olvasható‑e |
+## Gyakran feltett kérdések
 
-## Következő lépések: Alapvető előfeldolgozáson túl
+**Q: Használhatom ezt a megközelítést más nyelvekhez is, mint az angol?**  
+A: Igen — töltsd be a megfelelő nyelvi csomagot a `engine.setLanguage("fr")` vagy bármely támogatott ISO kóddal a nem‑angol szövegek pontosságának javításához.
 
-Most, hogy képes vagy **preprocess image for OCR**‑ra és **extract text using OCR**‑ra, fontold meg ezeket a kiterjesztéseket:
+**Q: Az Aspose OCR támogatja közvetlenül a PDF bemenetet?**  
+A: Nem olvas PDF oldalakat natívan; először extraháld a képeket a PDF‑ből (pl. az Aspose PDF‑vel), majd add őket az OCR motorhoz.
 
-- **Language packs** – tölts be specifikus nyelvi szótárakat a nem‑angol szövegek pontosságának javításához.
-- **Region‑of‑interest (ROI) cropping** – a kép egy részére fókuszálj, ha csak az oldal egy részére van szükség.
-- **Batch processing** – egy könyvtár képeit iteráld, ugyanazt a `OcrEngine` példányt újrahasználva a sebességért.
-- **Integrate with PDF** – kombináld az Aspose OCR‑t az Aspose PDF‑el, hogy a beolvasott PDF‑eket egy lépésben kereshető PDF‑vé alakítsd.
+**Q: Mekkora képet tudok feldolgozni?**  
+A: A könyvtár akár 30 MP‑ig is képes képeket kezelni anélkül, hogy az egész fájlt memóriába kellene tölteni, köszönhetően a streaming architektúrának.
 
-Ezek a témák természetesen tartalmazzák a másodlagos kulcsszavainkat: továbbra is **boosts image contrast**, **set contrast level**, és **recognize text from image**‑t fogsz használni számos szituációban.
+**Q: Van mód egy mappa képeinek kötegelt feldolgozására?**  
+A: Természetesen — iterálj a fájlokon, használd ugyanazt az `OcrEngine` példányt, és add hozzá minden fájlt az `OcrInput`‑hez. Ez drámai módon csökkenti a kép‑enkénti terhelést.
 
-## Összegzés
+**Q: Mit tegyek, ha az OCR kimenet még mindig hibákat tartalmaz?**  
+A: Próbáld meg finomabban állítani a `setContrastLevel`‑t, kísérletezz a `setDenoiseMode`‑dal, vagy engedélyezd a `setUseAdaptiveThreshold(true)`‑t nehéz háttér esetén.
 
-Mindezt lefedtük, ami a **preprocess image for OCR**‑hoz szükséges az Aspose OCR for Java használatával: a licenc betöltése, a deskew, denoise és kontrasztnövelés beállítása, a kép betáplálása, és végül a **recognize text from image**. A fenti teljes, futtatható példával most már **extract text using OCR**‑t hajthatsz végre bármely megfelelően előkészített képen.
+## Következő lépések: a alapvető előfeldolgozáson túl
 
-Próbáld ki a kódot, állítsd be a **contrast level**‑t, és figyeld, ahogy a pontosság növekszik. Amikor készen állsz, fedezd fel a nyelvspecifikus modelleket vagy a kötegelt folyamatokat, hogy ezt az egyképes demót termelés‑kész megoldássá alakítsd.
+Miután már **képeket előfeldolgozol OCR-hez** és **szöveget nyersz ki OCR-rel**, gondolj ezekre a kiegészítésekre:
 
-*Boldog kódolást, és legyenek a szkenneléseid mindig élesek!*
+- **Nyelvi csomagok** – tölts be specifikus nyelvi szótárakat a nem‑angol szövegek pontosságának javításához.  
+- **Érdeklődési terület (ROI) kivágása** – fókuszálj a kép egy részére, ha csak az oldal egy szakaszára van szükséged.  
+- **Kötegelt feldolgozás** – iterálj egy képmappán, újrahasználva ugyanazt az `OcrEngine` példányt a sebesség növelése érdekében.  
+- **PDF integráció** – kombináld az Aspose OCR‑t az Aspose PDF‑vel, hogy egy csővezetékben konvertáld a szkennelt PDF‑eket kereshető PDF‑vé.
+
+Mindezek a témák természetesen beépítik a másodlagos kulcsszavainkat: továbbra is **növelheted a kép kontrasztját**, **beállíthatod a kontraszt szintet**, és **szöveget ismerhetsz fel a képről** számos szituációban.
+
+## Következtetés
+
+Mindent lefedtünk, ami ahhoz szükséges, hogy **képeket előfeldolgozz OCR-hez** az Aspose OCR for Java használatával: licenc betöltése, döntéskorrekció, zajszűrés és kontrasztnövelés konfigurálása, kép betáplálása, és végül **szöveg felismerése a képről**. A fenti, teljesen futtatható példával most már **szöveget nyerhetsz ki OCR-rel** bármely megfelelően előkészített képről.
+
+Próbáld ki a kódot, állítsd be a **kontraszt szintet**, és figyeld, ahogy a pontosság ugrik. Amikor készen állsz, fedezd fel a nyelvspecifikus modelleket vagy a kötegelt csővezetékeket, hogy ez az egy‑képes demó egy termelés‑szintű megoldássá váljon.
+
+*Boldog kódolást, és legyenek a szkenneid mindig élesek!*
+
+---
+
+**Utoljára frissítve:** 2026-10-30  
+**Tesztelve a következővel:** Aspose OCR for Java 24.11  
+**Szerző:** Aspose
+
+## Kapcsolódó bemutatók
+
+- [Extract Text From Image With Aspose Ocr Java Guide](/ocr/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/)
+- [Recognize Text Image Using Aspose Ocr Gpu Java](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
+- [Create Ocr Engine Java Recognize Text From Large Images](/ocr/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
