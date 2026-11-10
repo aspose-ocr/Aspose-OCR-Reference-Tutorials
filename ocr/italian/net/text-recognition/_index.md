@@ -271,6 +271,8 @@ Scopri come generare PDF ricercabili in C# con Aspose.OCR, passo passo, per inte
 Scopri come riconoscere il testo arabo nelle immagini usando Aspose.OCR per .NET, con esempi passo passo per risultati accurati.
 ### [Come riconoscere il testo in C# con Aspose OCR – Visualizzare il conteggio dei caratteri e caricare l'immagine](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Scopri come riconoscere testo in C#, visualizzare il conteggio dei caratteri e caricare immagini con Aspose OCR in pochi passaggi.
+### [Come utilizzare OCR in C# per estrarre testo cirillico](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Scopri come usare Aspose.OCR in C# per estrarre testo cirillico dalle immagini, passo passo.
 
 
 

@@ -284,6 +284,8 @@ Khám phá cách Aspose OCR nhận dạng chính xác văn bản tiếng Ả R�
 Khám phá cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh và nhận kết quả dưới dạng JSON đã định dạng.
 ### [Cách nhận dạng văn bản trong C# với Aspose OCR – Hiển thị số ký tự và tải ảnh](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản, hiển thị số ký tự và tải ảnh một cách nhanh chóng.
+### [Cách sử dụng OCR trong C# để trích xuất văn bản Cyrillic](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản Cyrillic một cách chính xác.
 
 
 

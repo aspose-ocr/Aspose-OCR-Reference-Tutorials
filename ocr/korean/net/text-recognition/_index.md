@@ -278,6 +278,7 @@ Aspose.OCR를 활용해 .NET에서 검색 가능한 PDF를 생성하고 통합�
 Aspose.OCR를 활용해 .NET에서 아랍어 텍스트를 정확히 인식하는 전체 가이드를 단계별로 안내합니다.
 ### [C#에서 Aspose OCR로 텍스트 인식하기 – 문자 수 표시 및 이미지 로드](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Aspose OCR을 사용해 C#에서 이미지 로드, 문자 수를 표시하며 텍스트를 인식하는 단계별 가이드를 제공합니다.
+### [C#에서 OCR을 사용하여 키릴 문자 추출하기](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 
 
 

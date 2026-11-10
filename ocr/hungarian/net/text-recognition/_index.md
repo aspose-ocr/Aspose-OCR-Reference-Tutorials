@@ -276,15 +276,16 @@ Ismerje meg, hogyan ismerhet fel szöveget PNG képekből C#-ban az Aspose.OCR s
 ### [c# OCR oktatóanyag – Képből szöveg kinyerése és formázott JSON](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
 Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose.OCR segítségével, és hogyan kaphat formázott JSON eredményt.
 ### [Hogyan használja az Aspose OCR-t kínai szöveg felismerésére – Teljes útmutató](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
-Ismerje meg, hogyan ismerhet fel kínai szöveget az Aspose OCR segítségével .NET környezetben, részletes lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan ismerhet fel kínai szöveget az Aspose OCR segítségével .NET környezetben, részletes lépésről‑lépésre útmutatóval.
 ### [Kereshető PDF létrehozása C#-ban – Teljes útmutató](./create-searchable-pdf-in-c-full-guide/)
-Ismerje meg, hogyan hozhat létre kereshető PDF fájlokat C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan hozhat létre kereshető PDF fájlokat C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
 ### [Hogyan használja az Aspose OCR-t arab szöveg felismerésére – Teljes útmutató](./how-to-ocr-arabic-in-c-complete-guide/)
-Ismerje meg, hogyan ismerhet fel arab szöveget az Aspose OCR segítségével C#-ban, részletes lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan ismerhet fel arab szöveget az Aspose OCR segítségével C#-ban, részletes lépésről‑lépésre útmutatóval.
 ### [Hogyan ismerjünk fel szöveget C#-ban az Aspose OCR-rel – Karakterek számlálása és kép betöltése](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Ismerje meg, hogyan jelenítheti meg a karakterek számát és tölthet be képet C#-ban az Aspose OCR segítségével.
 ### [Hogyan hozzunk létre konzol naplózót és helyesírás-ellenőrzést az OCR szövegre C#-ban](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
 Ismerje meg, hogyan hozhat létre konzol naplózót és ellenőrizheti az OCR által felismert szöveg helyesírását C#-ban az Aspose.OCR segítségével.
+### [Hogyan használjuk az OCR-t C#-ban cirill szöveg kinyeréséhez](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 
 
 

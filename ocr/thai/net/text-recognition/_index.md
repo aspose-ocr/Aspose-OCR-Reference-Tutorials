@@ -193,6 +193,8 @@ url: /th/net/text-recognition/
 เรียนรู้ขั้นตอนการใช้ Aspose OCR ใน C# เพื่อดึงข้อความจากภาพอย่างแม่นยำและง่ายดาย
 ### [การรับรู้ข้อความหลายภาษาใน C# ด้วย Aspose OCR – คู่มือฉบับสมบูรณ์](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
 เรียนรู้วิธีรับรู้ข้อความหลายภาษาใน C# ด้วย Aspose OCR อย่างเต็มที่ด้วยคู่มือขั้นตอนที่ครบถ้วน
+### [วิธีใช้ OCR ใน C# เพื่อสกัดข้อความ Cyrillic](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อสกัดข้อความ Cyrillic จากภาพอย่างแม่นยำและง่ายดาย
 ### [สกัดข้อความจากภาพใน C# – OCR แบบออฟไลน์ด้วย Aspose (คู่มือขั้นตอนโดยละเอียด)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)
 เรียนรู้วิธีสกัดข้อความจากภาพใน C# โดยใช้ OCR แบบออฟไลน์ของ Aspose อย่างละเอียดและง่ายต่อการทำตาม
 ### [จดจำข้อความจากภาพ – คู่มือ OCR แบบออฟไลน์สำหรับนักพัฒนา C#](./recognize-text-from-image-offline-ocr-guide-for-c-developers/)

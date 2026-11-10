@@ -290,6 +290,8 @@ Aprenda a usar Aspose.OCR em C# para reconhecer texto em imagens de forma rápid
 
 ### [Como executar OCR em C# – reconhecer texto cirílico com Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Aprenda a usar Aspose.OCR em C# para reconhecer texto em cirílico com alta precisão.
+### [Como usar OCR em C# para extrair texto cirílico](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+Aprenda a usar OCR em C# para extrair texto em cirílico de imagens de forma simples e precisa.
 ### [Criar PDF pesquisável a partir de TIFF – Guia completo em C#](./create-searchable-pdf-from-tiff-complete-c-guide/)
 Aprenda a converter arquivos TIFF em PDFs pesquisáveis usando Aspose.OCR em C#, passo a passo.
 ### [Como extrair texto OCR em C# – Guia completo passo a passo](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
