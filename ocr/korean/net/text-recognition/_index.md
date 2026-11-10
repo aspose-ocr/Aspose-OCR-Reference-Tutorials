@@ -285,6 +285,8 @@ Aspose OCR을 사용해 C#에서 이미지 로드, 문자 수를 표시하며 �
 
 ### [Aspose.OCR을 사용하여 C#에서 이미지에서 텍스트 인식하는 방법](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Aspose.OCR을 활용해 C#으로 이미지에서 텍스트를 추출하는 단계별 가이드를 제공합니다.
+### [C# OCR 튜토리얼 – JPG에서 텍스트 추출](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Aspose OCR을 사용해 C#에서 JPG 이미지의 텍스트를 추출하는 단계별 가이드입니다.
 
 
 

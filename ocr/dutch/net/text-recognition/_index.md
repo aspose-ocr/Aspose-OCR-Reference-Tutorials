@@ -231,6 +231,8 @@ Leer hoe u met Aspose OCR en C# tekst uit PNG‑afbeeldingen kunt extraheren in 
 ### [herken tekst in jpg met Aspose OCR – Complete C# gids](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
 Leer hoe u met Aspose OCR en C# tekst uit JPG-afbeeldingen kunt extraheren in een volledige stapsgewijze handleiding.
 ### [c# OCR-tutorial – Haal tekst uit afbeelding en DJVU‑bestanden](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
+### [Hoe tekst uit JPG te extraheren met een C# OCR-tutorial](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Leer hoe u met Aspose OCR in C# tekst uit JPG-afbeeldingen kunt extraheren via een stapsgewijze tutorial.
 Leer hoe u met C# en Aspose.OCR tekst uit afbeeldingen en DJVU‑bestanden kunt extraheren.
 ### [Tekst extraheren uit TIFF met Aspose OCR C# – Volledige tutorial](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
 Leer hoe u met Aspose OCR en C# tekst uit TIFF-bestanden kunt extraheren in een volledige stap‑voor‑stap handleiding.

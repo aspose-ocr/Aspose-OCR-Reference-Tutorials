@@ -286,6 +286,8 @@ Ismerje meg, hogyan jelenítheti meg a karakterek számát és tölthet be képe
 ### [Hogyan hozzunk létre konzol naplózót és helyesírás-ellenőrzést az OCR szövegre C#-ban](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
 Ismerje meg, hogyan hozhat létre konzol naplózót és ellenőrizheti az OCR által felismert szöveg helyesírását C#-ban az Aspose.OCR segítségével.
 ### [Hogyan használjuk az OCR-t C#-ban cirill szöveg kinyeréséhez](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
+### [Hogyan nyerjünk ki szöveget JPG-ből C# OCR oktatóval](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Ismerje meg, hogyan nyerhet ki szöveget JPG képekből C#-ban az Aspose OCR segítségével.
 
 
 

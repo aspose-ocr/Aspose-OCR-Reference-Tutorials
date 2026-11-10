@@ -279,6 +279,8 @@ Aprenda passo a passo como reconhecer texto em árabe usando Aspose.OCR em C#, c
 Aprenda a usar Aspose.OCR em C# para extrair texto de imagens e gerar JSON formatado de forma simples e eficiente.
 ### [Como reconhecer texto em C# com Aspose OCR – Exibir contagem de caracteres e carregar imagem](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Aprenda a reconhecer texto em C# usando Aspose OCR, exibindo a contagem de caracteres e carregando imagens facilmente.
+### [Como extrair texto de JPG usando um tutorial OCR em C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Aprenda a extrair texto de imagens JPG usando OCR em C# passo a passo.
 
 
 

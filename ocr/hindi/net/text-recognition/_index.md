@@ -275,9 +275,8 @@ C# में Aspose OCR के साथ सिरिलिक भाषा क�
 
 ### [C# में Aspose OCR के साथ छवि से टेक्स्ट पहचानें](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की चरण‑दर‑स्टेप मार्गदर्शिका।
-
-
-
+### [C# OCR ट्यूटोरियल – JPG से टेक्स्ट निकालें](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+C# में Aspose.OCR का उपयोग करके JPG छवि से टेक्स्ट निकालने की चरण-दर-स्टेप गाइड।
 ### [C# में OCR कैसे करें – Aspose के साथ सिरिलिक टेक्स्ट पहचानें](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Aspose OCR का उपयोग करके C# में सिरिलिक अक्षरों को पहचानने की चरण-दर-स्टेप मार्गदर्शिका।
 ### [TIFF से खोज योग्य PDF बनाएं – पूर्ण C# गाइड](./create-searchable-pdf-from-tiff-complete-c-guide/)

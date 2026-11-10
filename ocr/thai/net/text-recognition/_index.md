@@ -213,6 +213,7 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีแปลงรูปภาพเป็นข้อความด้วย OCR แบบแบตช์สำหรับ C# อย่างละเอียด
 ### [c# OCR tutorial – จดจำข้อความจาก JPG ในไม่กี่นาที](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 ### [จดจำข้อความจาก JPG ใน C# – คู่มือ OCR ฉบับเต็ม](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
+### [วิธีดึงข้อความจาก JPG ด้วยบทแนะนำ OCR ใน C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
 ### [วิธีใช้ Aspose OCR ใน C# – จดจำข้อความภาษาเกาหลีจากรูปภาพ](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 ### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือเต็ม C#](./create-searchable-pdf-from-tiff-full-c-guide/)
 ### [c# OCR tutorial – ดึงข้อความภาษาฮินดีจากใบเสร็จ PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
@@ -262,10 +263,6 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้ด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
 ### [วิธีจดจำข้อความใน C# ด้วย Aspose OCR – แสดงจำนวนอักขระและโหลดภาพ](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากภาพ พร้อมแสดงจำนวนอักขระและการโหลดภาพอย่างง่ายดาย
-
-
-
-
 ### [วิธีจดจำข้อความจากรูปภาพด้วย Aspose.OCR ใน C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างง่ายดาย
 

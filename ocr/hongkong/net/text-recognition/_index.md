@@ -274,6 +274,8 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR 在 .NET 中從圖像提取文字並生成格式化的 JSON，提升您的應用程式辨識與資料處理能力。
 ### [如何在 C# 中使用 Aspose OCR 文字辨識 – 顯示字元計數與載入圖像](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 使用 Aspose OCR 在 C# 中辨識文字，同時顯示字元數並載入圖像，提供完整步驟與範例程式碼。
+### [使用 C# OCR 教程從 JPG 提取文字](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+使用 Aspose.OCR 在 C# 中從 JPG 圖像快速提取文字的完整教學。
 
 ### [如何在 C# 中使用 OCR 提取西里爾文字](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 使用 Aspose OCR 在 C# 中提取西里爾文字的完整指南。

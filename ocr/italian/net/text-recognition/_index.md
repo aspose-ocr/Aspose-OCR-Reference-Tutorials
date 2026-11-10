@@ -210,6 +210,8 @@ Scopri come eseguire OCR su PDF in C# con una guida dettagliata passo‑passo, p
 Impara a estrarre testo in Hindi da immagini PNG di ricevute usando Aspose.OCR per .NET.
 ### [Riconosci testo in JPG con Aspose OCR – Guida completa C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
 Scopri come riconoscere testo in immagini JPG usando Aspose OCR con una guida completa in C#.
+### [Come estrarre testo da JPG con un tutorial OCR C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Scopri come estrarre testo da immagini JPG in C# usando Aspose.OCR con una guida passo passo.
 ### [Tutorial OCR C# – Estrai testo da immagini e file DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
 Impara a estrarre testo da immagini e file DJVU usando Aspose.OCR per .NET.
 ### [Tutorial OCR C# – Estrai testo dalle immagini con Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)

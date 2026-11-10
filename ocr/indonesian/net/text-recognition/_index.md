@@ -204,6 +204,8 @@ Pelajari cara memproses banyak file TIFF yang dipindai secara batch menggunakan 
 Pelajari cara mengonversi gambar menjadi teks menggunakan Aspose OCR dalam C# dengan panduan langkah demi langkah kami.
 ### [Tutorial OCR C# – Mengenali Teks dari JPG dalam Hitungan Menit](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 Pelajari cara cepat mengenali teks dari file JPG menggunakan Aspose.OCR dalam proyek C# Anda.
+### [Cara mengekstrak teks dari JPG menggunakan tutorial OCR C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Pelajari cara mengekstrak teks dari file JPG menggunakan Aspose.OCR dalam proyek C# dengan panduan langkah demi langkah.
 ### [Cara Menggunakan Aspose OCR di C# – Mengenali Teks Korea dari Gambar](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 Pelajari cara cepat mengenali teks berbahasa Korea dari gambar menggunakan Aspose OCR dalam proyek C# Anda.
 ### [Buat PDF yang Dapat Dicari dari TIFF – Panduan Lengkap C#](./create-searchable-pdf-from-tiff-full-c-guide/)
@@ -287,8 +289,6 @@ Ekstrak teks Sirilik dari gambar menggunakan Aspose OCR di C# dengan panduan lan
 
 ### [Cara mengenali teks dari gambar dengan Aspose.OCR di C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
-
-
 
 ### [Cara Melakukan OCR di C# – Mengenali Teks Sirilik dengan Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
 Pelajari cara menggunakan Aspose OCR di C# untuk mengenali teks Sirilik dengan akurasi tinggi.

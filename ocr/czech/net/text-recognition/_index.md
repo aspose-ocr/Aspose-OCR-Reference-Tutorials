@@ -219,6 +219,8 @@ Naučte se, jak offline pomocí Aspose OCR v C# extrahovat text z obrázků krok
 Naučte se, jak offline pomocí Aspose OCR v C# rozpoznat text z obrázku krok za krokem.
 ### [c# OCR tutoriál – Extrahování textu z JPEG obrázků](./c-ocr-tutorial-extract-text-from-jpeg-images/)
 Naučte se pomocí Aspose.OCR v .NET získat text z JPEG obrázků v několika jednoduchých krocích.
+### [Jak extrahovat text z JPG pomocí OCR tutoriálu v C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
+Naučte se pomocí Aspose.OCR v C# extrahovat text z JPG souborů.
 ### [OCR korejské obrázky: Kompletní průvodce extrakcí textu z obrázků](./ocr-korean-image-complete-guide-to-extract-text-from-picture/)
 Naučte se pomocí Aspose.OCR v .NET extrahovat korejský text z obrázků pomocí podrobného průvodce.
 ### [c# OCR tutoriál – Hromadné zpracování OCR pro naskenované TIFFy](./c-ocr-tutorial-batch-ocr-processing-for-scanned-tiffs/)
