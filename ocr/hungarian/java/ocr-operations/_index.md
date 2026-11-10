@@ -11,7 +11,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF szöveg felismerése az Aspose.OCR for Java segítségével
@@ -52,8 +54,6 @@ A pontosság kulcsfontosságú a szövegkinyerésnél, és az Aspose.OCR for Jav
 
 Akár többnyelvű dokumentumokról, akár specifikus nyelvi követelményekről van szó, ez a tutorial felhatalmaz arra, hogy a szöveget precíz pontossággal nyerd ki. Búcsúzz el a találgatástól, és üdvözöld a pontosságot.
 
-[Discover Language Selection Tutorial](./perform-ocr-language-selection/)
-
 ## OCR PDF dokumentumok felismerése az Aspose.OCR for Java-ban
 
 Könnyedén szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. A PDF dokumentumok szövegének felismeréséről szóló tutorialunk zökkenőmentes integrációra vezet. Növeld alkalmazásaidat a szöveg PDF-ekben történő kezeléséhez szükséges pontossággal és sebességgel.
@@ -74,15 +74,112 @@ Búcsúzz el a TIFF képek manuális szövegkinyerésétől. Hagyd, hogy az Aspo
 
 ## OCR műveletek tutorialok
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
-Szabadítsd fel a képekből történő szövegkinyerés erejét az Aspose.OCR for Java segítségével. Átfogó tutorial a Detect Areas Mode OCR-hoz.
 ### [Performing OCR with Language Selection in Aspose.OCR](./perform-ocr-language-selection/)
-Szabadítsd fel a képek pontos szövegkinyerését az Aspose.OCR for Java segítségével. Kövesd lépésről lépésre útmutatónkat a nyelvválasztással történő pontos OCR-hoz.
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
-Szabadítsd fel az OCR erejét Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget PDF dokumentumokban. Növeld alkalmazásaidat pontossággal és sebességgel.
+### [Kereshető PDF létrehozása beolvasott fájlokból – Java útmutató](./create-searchable-pdf-from-scanned-files-java-guide/)
+Könnyedén alakíts beolvasott fájlokat kereshető PDF‑vé Java‑ban az Aspose.OCR segítségével, gyors és pontos megoldás.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Szabadítsd fel a hatékony szövegfelismerést Java-ban az Aspose.OCR segítségével. Könnyedén ismerd fel a szöveget TIFF képekben. Töltsd le most a zökkenőmentes OCR élményért.
-### [Szövegkép felismerése Aspose OCR-rel – Teljes Java OCR útmutató](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [Kötegelt OCR Java-ban – Teljes útmutató a képek szövegének kinyeréséhez](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
+Fedezd fel, hogyan hajts végre kötegelt OCR-t Java-ban, és nyerd ki a szöveget több képről egyszerre hatékonyan.
+### [OCR futtatása képen Java-val – Teljes Aspose OCR útmutató](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
+Szabadítsd fel a képek szövegének kinyerését Java-ban az Aspose.OCR segítségével.
+### [Kereshető PDF létrehozása Java-ban – Lépésről‑lépésre útmutató](./create-searchable-pdf-in-java-step-by-step-guide/)
+Készíts könnyedén kereshető PDF-et Java-val az Aspose.OCR segítségével, részletes lépésekkel és tippekkel.
+### [Kötegelt képek OCR-ja Java-ban – Gyors szövegkinyerés PNG fájlokból](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+Gyorsan és hatékonyan nyerj ki szöveget PNG képekből Java-ban tömeges OCR segítségével.
+### [Képről szöveg kinyerése Aspose OCR-rel – Lépésről lépésre bemutató](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
+Ismerd meg, hogyan nyerheted ki a szöveget képekből az Aspose OCR segítségével részletes, lépésről‑lépésre útmutatóval.
+### [Remove Evaluation Watermark in Aspose OCR – Complete Java License Guide](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
+Ismerd meg, hogyan távolíthatod el az értékelési vízjelet az Aspose OCR Java verziójában, és aktiváld a teljes licencet.
+### [Kereshető PDF létrehozása JPG-ből – Képből kereshető PDF Java útmutató](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
+Alakítsd át a JPG képeket kereshető PDF-fé Java-ban az Aspose.OCR segítségével.
+### [Képek kiegyenesítése – Lépésről‑lépésre OCR előfeldolgozási útmutató](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
+### [Hogyan használjunk OCR-t Java-ban – Teljes lépésről‑lépésre útmutató](./how-to-use-ocr-in-java-complete-step-by-step-guide/)
+Ismerd meg, hogyan alkalmazhatod az OCR-t Java-ban részletes, könnyen követhető lépésekkel a fejlett szövegfelismeréshez.
+### [Aspose OCR Java: Kép konvertálása HTML-re – Teljes lépésről‑lépésre útmutató](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Fedezd fel, hogyan konvertálhatod a képeket HTML formátumba az Aspose OCR Java segítségével, lépésről lépésre útmutató.
+### [Hogyan hajtsunk végre OCR-t Java-ban – Teljes Aspose OCR útmutató](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Fedezd fel, hogyan használhatod az Aspose OCR-t Java-ban a teljes körű szövegfelismeréshez lépésről lépésre.
+### [Kép szöveggé konvertálása Aspose OCR Java‑val – Lépésről lépésre útmutató](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Fedezd fel, hogyan konvertálhatsz képeket szöveggé az Aspose OCR Java segítségével, részletes lépésekkel.
+### [Kereshető PDF létrehozása Java-val – Lépésről lépésre útmutató](./create-searchable-pdf-with-java-step-by-step-guide/)
+Ismerd meg, hogyan hozhatsz létre kereshető PDF-et Java és Aspose.OCR segítségével, részletes lépésekkel.
+### [Kép betöltése OCR-hez Java-ban – Lépésről‑lépésre útmutató](./load-image-for-ocr-in-java-step-by-step-guide/)
+Ismerd meg, hogyan tölts be képet Java-ban az Aspose.OCR használatával, és hajts végre pontos szövegfelismerést.
+### [Kereshető PDF létrehozása – Java OCR útmutató](./create-searchable-pdf-java-ocr-guide/)
+### [Hogyan engedélyezzük az OCR-t Java-ban az Aspose segítségével – Teljes lépésről‑lépésre útmutató](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+### [Képről szöveg felismerése Aspose OCR Java-val – Teljes útmutató](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
+### [Hindi szöveg kinyerése képekből – Java OCR példa](./extract-hindi-text-from-images-java-ocr-example/)
+### [Hogyan végezzünk OCR-t az Aspose OCR-rel Java-ban – Lépésről‑lépésre útmutató](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
+Részletes útmutató az OCR végrehajtásához az Aspose OCR Java API-val, lépésről‑lépésre.
+### [Kereshető PDF létrehozása az Aspose.OCR segítségével – Java útmutató](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az Aspose.OCR Java könyvtárral.
+### [Kereshető PDF létrehozása Java OCR-rel – Lépésről lépésre útmutató](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+### [Aspose OCR Java példa – Kép gyors szöveggé konvertálása](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Gyors útmutató a képek szöveggé alakításához az Aspose.OCR for Java segítségével, egyszerű kóddal és magas pontossággal.
+### [Képből szöveg kinyerése Java – kép betöltése OCR-hez](./extract-text-from-image-java-load-image-for-ocr/)
+Tanulja meg, hogyan töltsön be képet Java-ban és használja az Aspose.OCR-t a szöveg gyors kinyeréséhez.
+### [Aspose OCR Java példa: Szöveg kinyerése egy területről](./aspose-ocr-java-example-extract-text-from-a-region/)
+Ismerje meg, hogyan nyerhet ki szöveget egy meghatározott területből az Aspose OCR Java példában.
+### [HEIC képből szöveg kinyerése – Teljes Java útmutató](./extract-text-from-heic-complete-java-guide/)
+Fedezd fel, hogyan nyerheted ki a szöveget HEIC formátumú képekből Java-val az Aspose.OCR segítségével.
+### [Kereshető PDF létrehozása képből Java-val – Lépésről‑lépésre útmutató](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+Fedezd fel, hogyan hozhatsz létre kereshető PDF-et képekből Java-val, lépésről lépésre útmutató.
+### [PDF szöveg felismerése Aspose OCR-rel Java-ban – Teljes útmutató](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+Fedezd fel, hogyan ismerheted fel a PDF-ek szövegét Aspose OCR segítségével Java-ban.
+### [PNG képről szöveg felismerése Aspose OCR-rel – Teljes Java útmutató](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+Fedezd fel, hogyan ismerheted fel a PNG képek szövegét az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [OCR futtatása képen Java-val – Thai szöveg kinyerése PNG-ből](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+Fedezd fel, hogyan nyerheted ki a thai nyelvű szöveget PNG képekből az Aspose.OCR Java segítségével.
+### [Hogyan engedélyezzük az OCR-t Java-ban az Aspose – Lépésről‑lépésre útmutató](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Ismerd meg, hogyan állíthatod be az OCR-t Java alkalmazásodban az Aspose segítségével, részletes lépésekkel.
+### [Kereshető PDF létrehozása képből Java OCR-rel](./create-searchable-pdf-from-image-with-java-ocr/)
+Készíts kereshető PDF-et képből Java OCR használatával az Aspose.OCR segítségével.
+### [Hogyan használjuk az OCR-t Java-ban – Szöveg kinyerése képről helyesírási javítással](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Fedezd fel, hogyan lehet képről szöveget kinyerni Java-ban az OCR-rel, és automatikusan javítani a helyesírást.
+### [Kereshető PDF létrehozása képből – Lépésről lépésre Java útmutató](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Fedezd fel, hogyan hozhatsz létre kereshető PDF-et képekből Java-ban az Aspose.OCR segítségével.
+### [Képről szöveg felismerése Java-val – Teljes Aspose OCR útmutató](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+### [PDF OCR végrehajtása Aspose OCR-rel Java-ban – Teljes útmutató](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+### [Kereshető PDF létrehozása Aspose OCR Java-val – Teljes útmutató](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+### [Szöveg felismerése ROI-ban az Aspose OCR-rel – Java útmutató](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+### [Kép betöltése OCR-hez az Aspose OCR Java-val – Teljes útmutató](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+### [Aspose OCR licenc alkalmazása Java-ban – OCR vízjel eltávolítása](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Tanulja meg, hogyan alkalmazzon licencet az Aspose OCR Java-ban, és távolítsa el a vízjelet a kimeneti képekről.
+### [Dokumentum OCR futtatása Java-ban – Teljes útmutató](./run-ocr-on-document-in-java-complete-guide/)
+Fedezd fel, hogyan futtathatod az OCR-t dokumentumokon Java-ban, lépésről lépésre útmutatóval.
+### [Képről szöveg felismerése Java OCR-rel – Teljes útmutató](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget Java OCR-rel, lépésről lépésre útmutatóval.
+### [Kép betöltése OCR-hez, szöveg kinyerése a területről – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Fedezd fel, hogyan tölts be képet OCR-hez, és nyerj ki szöveget egy meghatározott területről Java-ban.
+### [Kereshető PDF létrehozása Aspose OCR-rel – Teljes Java útmutató](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Fedezd fel, hogyan hozhatsz létre kereshető PDF-et Aspose OCR-rel Java-ban, lépésről lépésre útmutatóval.
+### [Képről szöveg felismerése Aspose OCR-rel – Java útmutató](./recognize-text-from-image-with-aspose-ocr-java-guide/)
 Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Kép automatikus kiegyenesítése Java-ban – Teljes Aspose OCR útmutató](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Fedezd fel, hogyan kiegyenesítheted automatikusan a képeket az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Hogyan egyenesítsünk képet – Képelőfeldolgozás OCR útmutató](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Fedezd fel, hogyan lehet egyenesíteni a ferde képeket az OCR előfeldolgozás során, javítva a pontosságot.
+### [Kereshető PDF létrehozása OCR-rel – Teljes útmutató](./create-searchable-pdf-with-ocr-full-guide/)
+Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et az Aspose.OCR for Java segítségével.
+### [Aspose OCR Java példa: szöveg felismerése képről Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+### [Kereshető PDF létrehozása Java-ban – Teljes útmutató](./create-searchable-pdf-in-java-full-guide/)
+### [Kereshető PDF létrehozása TIFF-ből Aspose OCR-rel (Java) – Teljes útmutató](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+Fedezd fel, hogyan alakíthatod át a TIFF képeket kereshető PDF-fé Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [OCR licenc URL betöltése Java-ban – Próbavízjel eltávolítása](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Töltsd be az Aspose.OCR licencet URL-ről, és távolítsd el a próbaverzió vízjelét a Java alkalmazásodban.
+### [Kereshető PDF létrehozása Java-ban – Teljes útmutató](./create-searchable-pdf-in-java-complete-guide/)
+Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et Java és Aspose.OCR segítségével.
+### [Kép szöveggé konvertálása Java-ban az Aspose OCR használatával – Teljes útmutató](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Fedezd fel, hogyan konvertálhatsz képeket szöveggé Java-ban az Aspose OCR segítségével, lépésről lépésre útmutató.
+### [Aspose OCR licenc tutorial – Java beállítási útmutató](./aspose-ocr-license-tutorial-java-setup-guide/)
+Ismerd meg, hogyan állítsd be és aktiváld az Aspose OCR licencet Java környezetben a zökkenőmentes használathoz.
+### [PNG szöveg felismerése Java-val – Teljes Aspose OCR útmutató](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Fedezd fel, hogyan ismerheted fel a PNG képek szövegét Java-ban az Aspose OCR segítségével, lépésről lépésre útmutató.
+### [PNG képről szöveg felismerése Java-ban – Teljes Aspose OCR útmutató](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+### [Képről szöveg felismerése az Aspose OCR-rel – teljes Java útmutató](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre.
 ### [Abszolút útvonal lekérése Java-ban – teljes útmutató](./get-absolute-path-java-complete-guide/)
 Ismerd meg, hogyan kaphatod meg egy fájl abszolút útvonalát Java-ban lépésről lépésre.
 ### [Minden erőforrás letöltése C#-ban – útmutató az előtöltéshez](./download-all-resources-in-c-guide-to-preloading-assets/)
@@ -111,9 +208,34 @@ A: A TIFF képeket darabokban dolgozd fel, vagy használj több szálat a memór
 **Tesztelve ezzel:** Aspose.OCR for Java 24.12  
 **Szerző:** Aspose
 
+### [Szövegkép felismerése Aspose OCR-rel – Teljes Java OCR útmutató](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre útmutató.
+### [Képről szöveg felismerése Aspose OCR-rel – Java útmutató](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+Ismerd fel a képen lévő szöveget Aspose OCR-rel Java-ban, részletes lépésről-lépésre útmutató.
+
+### [Hogyan használjuk az OCR-t Java-ban – Gyors képszöveg felismerés](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
+Ismerd meg, hogyan használhatod az OCR-t Java-ban a képek gyors szövegkinyeréséhez.
+
+### [Kép‑szöveg Java: Urdu szöveg kinyerése Aspose OCR-rel](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+Fedezd fel, hogyan nyerheted ki az Urdu nyelvű szöveget képekből Aspose OCR Java használatával.
+
+### [Kereshető PDF létrehozása képből Java‑ban – Lépésről lépésre útmutató](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
+Lépésről lépésre útmutató a képből kereshető PDF létrehozásához Java‑ban az Aspose.OCR használatával.
+
+### [Hogyan használjuk az OCR-t Java-ban – Szöveg kinyerése PDF-ből az Aspose.OCR-rel](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
+Ismerd meg, hogyan nyerheted ki a PDF-ek szövegét Java-ban az Aspose.OCR segítségével.
+
+### [Kereshető PDF létrehozása PNG-ből – Teljes Java útmutató](./create-searchable-pdf-from-png-complete-java-guide/)
+Szabadítsd fel a PNG képekből a kereshető PDF-ek létrehozását Java-ban az Aspose.OCR segítségével.
+### [Kereshető PDF létrehozása képből OCR-rel – Java útmutató](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+### [Képek szöveggé konvertálása Java-ban – Kötetes OCR feldolgozási útmutató](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
+Tömeges képfeldolgozás Java-val az Aspose.OCR segítségével, a képek szöveggé alakításához egy lépésről‑lépésre útmutató.
+### [Kereshető PDF létrehozása az Aspose OCR-rel – Lépésről‑lépésre útmutató](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Ismerd meg, hogyan hozhatsz létre kereshető PDF-et az Aspose OCR segítségével, részletes lépésekkel.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
