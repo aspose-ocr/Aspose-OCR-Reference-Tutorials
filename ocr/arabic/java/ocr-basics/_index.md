@@ -139,6 +139,8 @@ weight: 20
 تعلم كيفية الاستفادة من جميع أنوية CPU في Java عبر ضبط حجم مجموعة الخيوط لتحقيق أفضل أداء.
 ### [قراءة النص من الصورة باستخدام Java OCR – دليل Aspose OCR الكامل](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 دليل شامل يوضح استخراج النص من الصور باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [Extract Text from Image in Java – Complete OCR Guide](./extract-text-from-image-in-java-complete-ocr-guide/)
+دليل شامل لاستخدام Aspose.OCR لاستخراج النص من الصور في Java مع خطوات إعداد الترخيص وتحسين الدقة.
 
 ---
 

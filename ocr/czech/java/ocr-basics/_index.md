@@ -139,6 +139,8 @@ Ukázka, jak načíst obrázek a pomocí Aspose.OCR v Javě rozpoznat text v ně
 ### [Využijte všechna CPU jádra v Javě – Efektivně nastavte velikost thread poolu](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 ### [Čtení textu z obrázku pomocí Java OCR – Kompletní průvodce Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 Kompletní návod, jak pomocí Aspose.OCR pro Java načíst text z obrázku, včetně nastavení licence, předzpracování a optimalizace přesnosti.
+### [Extrahování textu z obrázku v Javě – Kompletní průvodce OCR](./extract-text-from-image-in-java-complete-ocr-guide/)
+Kompletní průvodce OCR v Javě, který ukazuje, jak extrahovat text z obrázků, nastavit licenci a optimalizovat přesnost.
 
 ---
 

@@ -135,6 +135,8 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 ### [在 Java 中使用全部 CPU 核心 – 高效设置线程池大小](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 ### [使用 Java OCR 从图像读取文本 – 完整 Aspose OCR 指南](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 完整指南，教您使用 Aspose OCR for Java 从图像读取文本，涵盖设置、预处理和最佳实践。
+### [在 Java 中提取图像文本 – 完整 OCR 指南](./extract-text-from-image-in-java-complete-ocr-guide/)
+全面教程，涵盖从图像加载、预处理到 OCR 识别的全部步骤，帮助您在 Java 项目中实现高效文本提取。
 
 ---
 

@@ -148,6 +148,8 @@ Optimize performance by configuring thread pools to utilize all CPU cores in Jav
 
 ### [Read Text from Image with Java OCR – Complete Aspose OCR Guide](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 Comprehensive guide to reading text from images using Aspose.OCR for Java, covering setup, preprocessing, and advanced OCR techniques.
+### [Extract Text from Image in Java – Complete OCR Guide](./extract-text-from-image-in-java-complete-ocr-guide/)
+Master OCR in Java with a full guide to extract text from images, covering setup, preprocessing, and best practices for high accuracy.
 
 ---
 

@@ -156,6 +156,9 @@ Apprenez à exploiter tous les cœurs CPU en Java en configurant correctement la
 ### [Lire du texte à partir d’une image avec Java OCR – Guide complet Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 Apprenez à lire du texte depuis une image en Java avec Aspose OCR, du pré‑traitement à l’extraction finale, dans un guide complet.
 
+### [Extraire du texte à partir d’une image en Java – Guide complet OCR](./extract-text-from-image-in-java-complete-ocr-guide/)
+Apprenez à extraire du texte d’une image en Java avec un guide complet, incluant la configuration, la correction d’inclinaison et l’optimisation OCR.
+
 ---
 
 **Dernière mise à jour :** 2025-12-08  

@@ -145,6 +145,8 @@ weight: 20
 Μάθετε πώς να αξιοποιήσετε όλους τους πυρήνες CPU στη Java ρυθμίζοντας το μέγεθος του thread pool για βέλτιστη απόδοση.
 ### [Read Text from Image with Java OCR – Complete Aspose OCR Guide](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 Μάθετε πώς να διαβάσετε κείμενο από εικόνα με Java OCR σε έναν πλήρη οδηγό Aspose OCR.
+### [Εξαγωγή κειμένου από εικόνα σε Java – Πλήρης οδηγός OCR](./extract-text-from-image-in-java-complete-ocr-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε Java με πλήρη οδηγό βήμα‑βήμα για το Aspose.OCR.
 
 ---
 

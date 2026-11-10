@@ -162,6 +162,9 @@ Java アプリケーションで利用可能なすべての CPU コアを活用�
 ### [Java OCR で画像からテキストを読み取る – 完全 Aspose OCR ガイド](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 Java と Aspose.OCR を使用して画像からテキストを抽出する完全な手順を解説し、設定から高度な機能まで網羅します。
 
+### [Java で画像からテキストを抽出する – 完全 OCR ガイド](./extract-text-from-image-in-java-complete-ocr-guide/)
+Java を使用した画像テキスト抽出の全手順を解説し、OCR の設定・前処理・実装例を網羅します。
+
 ---
 
 **Last Updated:** 2025-12-08  

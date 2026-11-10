@@ -162,6 +162,8 @@ Java में थ्रेड पूल का आकार सेट करक
 ### [जावा OCR के साथ इमेज से टेक्स्ट पढ़ें – पूर्ण Aspose OCR गाइड](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 इस व्यापक ट्यूटोरियल में जावा में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने के सभी चरण सीखें।
 
+### [जावा में इमेज से टेक्स्ट निकालें – पूर्ण OCR गाइड](./extract-text-from-image-in-java-complete-ocr-guide/)
+
 ---
 
 **अंतिम अपडेट:** 2025-12-08  

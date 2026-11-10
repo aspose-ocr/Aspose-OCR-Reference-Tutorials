@@ -148,6 +148,8 @@ Hướng dẫn cách nhận dạng văn bản từ tệp JPG sử dụng Aspose 
 Tối ưu hiệu suất Java bằng cách sử dụng tất cả các lõi CPU và cấu hình kích thước pool luồng một cách hiệu quả.
 ### [Đọc Văn Bản Từ Hình Ảnh Bằng Java OCR – Hướng Dẫn Toàn Diện Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 Khám phá quy trình đầy đủ để đọc văn bản từ hình ảnh bằng Aspose.OCR cho Java, từ cài đặt đến tối ưu hoá kết quả.
+### [Trích xuất văn bản từ hình ảnh trong Java – Hướng dẫn OCR toàn diện](./extract-text-from-image-in-java-complete-ocr-guide/)
+Hướng dẫn chi tiết cách trích xuất văn bản từ ảnh bằng Aspose.OCR trong Java, bao gồm cài đặt, tiền xử lý và tối ưu độ chính xác.
 
 ---
 
