@@ -218,6 +218,8 @@ url: /el/net/text-recognition/
 ### [c# OCR σεμινάριο – Εξαγωγή κειμένου από εικόνες με Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 ### [Πώς να χρησιμοποιήσετε OCR σε C# – Εξαγωγή κειμένου από εικόνα με Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας το Aspose OCR σε εφαρμογές C#.
+### [Πώς να δημιουργήσετε καταγραφέα κονσόλας και ορθογραφικό έλεγχο κειμένου OCR σε C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Μάθετε πώς να προσθέσετε καταγραφέα κονσόλας και ορθογραφικό έλεγχο στο κείμενο OCR χρησιμοποιώντας Aspose.OCR σε C#.
 
 ### [Πώς να δημιουργήσετε αναζητήσιμο PDF από JPG – Οδηγός βήμα προς βήμα](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Μάθετε πώς να μετατρέψετε εικόνες JPG σε αναζητήσιμα αρχεία PDF με το Aspose.OCR, ακολουθώντας έναν απλό βήμα‑βήμα οδηγό.

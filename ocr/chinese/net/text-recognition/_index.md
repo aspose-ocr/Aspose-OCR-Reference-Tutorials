@@ -709,6 +709,8 @@ url: /zh/net/text-recognition/
 ### [使用 Aspose OCR 在 C# 中提取图像文本](./extract-text-from-image-using-aspose-ocr-in-c/)
 ### [在 C# 中从图像识别文本 – Aspose OCR 分步指南](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 通过本教程，使用 Aspose OCR 在 C# 应用程序中实现图像文本识别的完整步骤。
+### [如何在 C# 中创建控制台日志记录器并进行 OCR 文本拼写检查](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+学习在 C# 中使用 Aspose.OCR 创建控制台日志记录器并对 OCR 结果进行拼写检查的完整步骤。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

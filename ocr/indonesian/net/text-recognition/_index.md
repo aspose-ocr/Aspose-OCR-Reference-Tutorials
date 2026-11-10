@@ -223,6 +223,8 @@ Pelajari cara mengekstrak teks dari file TIFF menggunakan Aspose OCR di C# denga
 ### [Tutorial OCR C# – Ekstrak Teks dari Gambar dengan Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 ### [Cara Membuat PDF yang Dapat Dicari dari JPG – Panduan Langkah‑per‑Langkah](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Pelajari cara mengonversi gambar JPG menjadi PDF yang dapat dicari menggunakan Aspose.OCR dengan panduan langkah demi langkah.
+### [Cara Membuat Logger Konsol dan Memeriksa Ejaan Teks OCR di C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Pelajari cara menambahkan logger konsol dan melakukan pemeriksaan ejaan pada teks OCR menggunakan Aspose.OCR di C#.
 
 ### [Cara Menggunakan OCR di C# – Ekstrak Teks dari Gambar dengan Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Pelajari cara menggunakan OCR di C# untuk mengekstrak teks dari gambar dengan Aspose OCR melalui panduan langkah demi langkah.

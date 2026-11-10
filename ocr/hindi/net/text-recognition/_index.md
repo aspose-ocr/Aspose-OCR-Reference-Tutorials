@@ -699,6 +699,8 @@ Aspose OCR के साथ C# में छवि से टेक्स्ट 
 Aspose OCR के साथ C# में छवि से टेक्स्ट निकालें और अपने .NET एप्लिकेशन में एकीकृत करें।
 ### [C# में छवि से टेक्स्ट पहचानें – चरण‑दर‑चरण Aspose OCR गाइड](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 C# में Aspose OCR का उपयोग करके छवि से टेक्स्ट निकालने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
+### [C# में कंसोल लॉगर बनाएं और OCR टेक्स्ट की वर्तनी जांच करें](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# में Aspose.OCR के साथ कंसोल लॉगर बनाकर OCR टेक्स्ट की वर्तनी जांच करने की चरण‑दर‑चरण गाइड।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

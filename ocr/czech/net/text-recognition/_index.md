@@ -199,12 +199,6 @@ Naučte se pomocí Aspose OCR převést obrázek do formátu DOCX v C# krok za k
 Naučte se, jak pomocí Aspose.OCR v C# provádět dávkové převody obrázků na text v kompletním průvodci.
 ### [Vytvořte prohledávatelný PDF z TIFF – kompletní průvodce C#](./create-searchable-pdf-from-tiff-full-c-guide/)
 
-
-
-
-
-
-
 ### [Převod obrázku na text v C# – Kompletní průvodce OCR](./convert-image-to-text-in-c-complete-ocr-guide/)
 Naučte se, jak pomocí Aspose.OCR v C# převést obrázky na text s podrobným krok za krokem průvodcem.
 ### [Jak provést OCR v C# – Extrahovat text z obrázku pomocí Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
@@ -701,6 +695,9 @@ Kompletní průvodce v C# pro rozpoznání textu z obrázku pomocí Aspose OCR, 
 
 ### [Rozpoznat text z obrázku v C# – krok za krokem průvodce Aspose OCR](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 Kompletní návod, jak pomocí Aspose.OCR v C# rozpoznat text z obrázku krok po kroku.
+### [Jak vytvořit konzolový logger a kontrolovat pravopis OCR textu v C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Naučte se vytvořit konzolový logger a provádět kontrolu pravopisu OCR textu v C# pomocí Aspose.OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -722,6 +722,8 @@ Learn how to recognize text from images using Aspose OCR in a complete C# guide.
 Learn how to extract text from images using Aspose OCR in C# with a step-by-step guide.
 ### [recognize text from image in C# – step‑by‑step Aspose OCR guide](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 Step-by-step guide to recognize text from images using Aspose OCR in C#.
+### [How to create console logger and spell‑check OCR text in C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Learn to implement a console logger and perform spell‑check on OCR text using Aspose.OCR in C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

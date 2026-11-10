@@ -41,6 +41,9 @@ Aspose.OCR を使用して C# で画像の OCR 結果を JSON 形式で取得す
 
 Aspose.OCR を使用して、.NET での OCR の可能性を解き放ちます。 PDF からテキストを簡単に抽出します。今すぐダウンロードして、シームレスな統合エクスペリエンスを体験してください。
 
+### [C# で PDF を OCR する方法 – ステップバイステップガイド](./how-to-ocr-pdf-in-c-step-by-step-guide/)
+Aspose.OCR を使用して C# で PDF を OCR し、テキスト抽出を行う手順をステップバイステップで解説します。
+
 ## PDF で OCR を実行する – 完全ガイド
 
 Aspose OCR を使用して PDF ファイルからテキストを抽出し、完全な OCR ソリューションを実装する手順をステップバイステップで解説します。
@@ -236,6 +239,8 @@ Aspose.OCR を使用して JPG 画像からテキストを抽出し、C# で完�
 Aspose.OCR を使用して画像からテキストを抽出する手順を、C# で詳しく解説します。
 ### [JPG から検索可能な PDF を作成する方法 – ステップバイステップ ガイド](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Aspose.OCR を使用して JPG 画像から検索可能な PDF を作成し、テキスト抽出と検索機能を実装する手順を解説します。
+### [C# でコンソールロガーを作成し OCR テキストをスペルチェックする方法](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# でコンソールロガーを作成し、OCR テキストのスペルチェック方法をステップバイステップで解説します。
 
 ### [C# で OCR を使用する方法 – Aspose OCR で画像からテキストを抽出する](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Aspose OCR を使用して C# アプリケーションで画像からテキストを抽出する手順をステップバイステップで学びます。

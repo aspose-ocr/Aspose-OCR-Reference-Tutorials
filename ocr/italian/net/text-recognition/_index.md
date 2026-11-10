@@ -216,6 +216,8 @@ Impara a estrarre testo da immagini e file DJVU usando Aspose.OCR per .NET.
 Impara a estrarre testo da immagini usando Aspose OCR per .NET con questa guida completa passo passo.
 ### [Come creare PDF ricercabile da JPG – Guida passo‑passo](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Impara a trasformare immagini JPG in PDF ricercabili con Aspose.OCR, seguendo una guida dettagliata passo dopo passo.
+### [Come creare un logger console e controllare l'ortografia del testo OCR in C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Impara a creare un logger per console e a eseguire il controllo ortografico del testo OCR in C# per migliorare la qualità dei risultati.
 
 ### [Come utilizzare OCR in C# – Estrarre testo da immagine con Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Scopri come estrarre testo da un'immagine usando Aspose OCR in C#, con esempi pratici per integrare rapidamente la funzionalità OCR nella tua applicazione.

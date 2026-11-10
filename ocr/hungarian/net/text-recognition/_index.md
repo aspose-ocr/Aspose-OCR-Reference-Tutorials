@@ -280,6 +280,8 @@ Ismerje meg, hogyan hozhat létre kereshető PDF fájlokat C#-ban az Aspose.OCR 
 Ismerje meg, hogyan ismerhet fel arab szöveget az Aspose OCR segítségével C#-ban, részletes lépésről-lépésre útmutatóval.
 ### [Hogyan ismerjünk fel szöveget C#-ban az Aspose OCR-rel – Karakterek számlálása és kép betöltése](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Ismerje meg, hogyan jelenítheti meg a karakterek számát és tölthet be képet C#-ban az Aspose OCR segítségével.
+### [Hogyan hozzunk létre konzol naplózót és helyesírás-ellenőrzést az OCR szövegre C#-ban](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Ismerje meg, hogyan hozhat létre konzol naplózót és ellenőrizheti az OCR által felismert szöveg helyesírását C#-ban az Aspose.OCR segítségével.
 
 
 

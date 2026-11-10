@@ -248,6 +248,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR với C# để trích xu�
 Hướng dẫn chi tiết cách sử dụng Aspose OCR với C# để trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính xác.
 ### [Cách sử dụng OCR trong C# – Trích xuất văn bản từ hình ảnh bằng Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Học cách nhanh chóng trích xuất văn bản từ hình ảnh trong C# bằng Aspose OCR, nâng cao khả năng OCR của ứng dụng.
+### [Cách tạo logger console và kiểm tra chính tả văn bản OCR trong C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Hướng dẫn tạo logger console và sử dụng kiểm tra chính tả cho văn bản OCR trong C# với Aspose.OCR.
 
 ### [Cách tạo PDF có thể tìm kiếm từ JPG – Hướng dẫn từng bước](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Hướng dẫn chi tiết cách chuyển đổi ảnh JPG thành PDF có thể tìm kiếm bằng Aspose.OCR cho .NET.

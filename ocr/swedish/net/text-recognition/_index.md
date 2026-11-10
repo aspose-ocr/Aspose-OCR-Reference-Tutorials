@@ -236,6 +236,8 @@ Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från TIFF�
 Lär dig steg-för-steg hur du med Aspose OCR och C# extraherar text från bilder.
 ### [Hur man skapar sökbar PDF från JPG – steg‑för‑steg‑guide](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Lär dig hur du konverterar JPG‑bilder till sökbara PDF‑filer med Aspose.OCR i en enkel steg‑för‑steg‑process.
+### [Hur man skapar en konsolloggare och stavningskontrollerar OCR‑text i C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Lär dig skapa en konsolloggare och utföra stavningskontroll på OCR‑text i C#.
 
 ### [Hur man använder OCR i C# – Extrahera text från bild med Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Steg‑för‑steg‑guide för att använda Aspose OCR i C# för att läsa text från en bild.

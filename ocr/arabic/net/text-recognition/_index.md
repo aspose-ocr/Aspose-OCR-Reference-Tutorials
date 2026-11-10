@@ -244,6 +244,8 @@ url: /ar/net/text-recognition/
 تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في تطبيقات C# خطوة بخطوة.
 ### [كيفية إنشاء PDF قابل للبحث من JPG – دليل خطوة بخطوة](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 تعلم كيفية تحويل ملفات JPG إلى PDF قابل للبحث باستخدام Aspose.OCR خطوة بخطوة.
+### [كيفية إنشاء مسجل وحدة التحكم وتدقيق إملائي لنص OCR في C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+تعلم كيفية إنشاء مسجل وحدة تحكم وتطبيق تدقيق إملائي لنص OCR باستخدام Aspose.OCR في C#.
 
 ### [كيفية استخدام OCR في C# – استخراج النص من الصورة باستخدام Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام Aspose OCR في تطبيقات C# بسهولة.

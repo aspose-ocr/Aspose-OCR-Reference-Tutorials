@@ -229,6 +229,8 @@ Użyj Aspose OCR w C# do wyodrębniania tekstu z plików TIFF. Kompletny przewod
 Dowiedz się, jak używać Aspose OCR w C# do wyodrębniania tekstu z obrazów w różnych formatach.
 ### [c# OCR samouczek: wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
 Poznaj, jak w C# przy pomocy Aspose OCR szybko wyodrębnić tekst z pojedynczego obrazu w kilku prostych krokach.
+### [Jak utworzyć logger konsoli i sprawdzić pisownię tekstu OCR w C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Dowiedz się, jak w C# utworzyć logger konsoli i sprawdzić pisownię tekstu OCR, aby poprawić jakość wyników.
 
 ### [Jak pobrać zasoby OCR i rozpoznać tekst z obrazu w C#](./how-to-download-ocr-resources-and-recognize-text-from-image/)
 Dowiedz się, jak pobrać niezbędne zasoby OCR i używać Aspose.OCR w C# do rozpoznawania tekstu z obrazów.

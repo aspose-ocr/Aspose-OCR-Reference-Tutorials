@@ -686,6 +686,8 @@ url: /zh-hant/net/text-recognition/
 ### [在 C# 中從圖像辨識文字 – 步驟式 Aspose OCR 教學](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 使用 Aspose.OCR 在 C# 中逐步辨識圖像文字，提升您的 .NET 應用程式。
 
+### [如何在 C# 中建立主控台記錄器並拼寫檢查 OCR 文字](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

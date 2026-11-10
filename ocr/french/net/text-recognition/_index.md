@@ -230,6 +230,8 @@ Apprenez à extraire du texte d'images TIFF en utilisant Aspose OCR avec C#. Sui
 Apprenez à extraire du texte d'images en utilisant Aspose OCR avec C# grâce à ce guide complet.
 ### [Comment créer un PDF consultable à partir d'un JPG – Guide étape par étape](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Libérez le potentiel d'Aspose OCR pour .NET en créant des PDF consultables à partir d'images JPG. Suivez le guide étape par étape.
+### [Comment créer un journal console et vérifier l'orthographe du texte OCR en C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Apprenez à créer un logger console et à effectuer une vérification orthographique du texte OCR en C# avec Aspose.OCR.
 
 ### [Comment utiliser l'OCR en C# – Extraire du texte d'une image avec Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Apprenez à extraire du texte d'images en C# avec Aspose OCR grâce à ce guide complet et facile à suivre.

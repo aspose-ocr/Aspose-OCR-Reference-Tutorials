@@ -221,6 +221,8 @@ Aspose OCR C#를 사용해 TIFF 파일에서 텍스트를 정확히 추출하는
 Aspose OCR를 사용해 .NET C#에서 이미지의 텍스트를 정확히 추출하는 단계별 가이드.
 ### [C#에서 Aspose OCR을 사용해 힌디어 텍스트 인식](./recognize-hindi-text-in-c-using-aspose-ocr/)
 Aspose OCR을 활용해 C# 애플리케이션에서 힌디어 텍스트를 정확히 인식하는 방법을 단계별로 안내합니다.
+### [C#에서 콘솔 로거를 만들고 OCR 텍스트를 맞춤법 검사하는 방법](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# 콘솔 애플리케이션에서 로거를 설정하고 OCR 텍스트의 맞춤법을 검사하는 단계별 가이드
 
 ### [C#에서 OCR 사용 방법 – Aspose OCR로 이미지에서 텍스트 추출](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Aspose OCR을 활용해 C# 애플리케이션에서 이미지의 텍스트를 손쉽게 추출하는 단계별 가이드를 제공합니다.

@@ -236,6 +236,8 @@ Leer hoe u met Aspose OCR en C# tekst uit TIFF-bestanden kunt extraheren in een 
 Leer hoe u met C# en Aspose OCR tekst uit diverse afbeeldingsformaten kunt extraheren in een stapsgewijze handleiding.
 ### [c# OCR-tutorial – Tekst extraheren uit afbeelding met Aspose OCR](./c-ocr-tutorial-extract-text-from-image-using-aspose-ocr/)
 Leer hoe u met Aspose OCR tekst uit een afbeelding haalt in een C#-applicatie. Volg de eenvoudige stap‑voor‑stap handleiding.
+### [Hoe maak je een console‑logger en spell‑check OCR‑tekst in C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Leer hoe u met Aspose.OCR een console‑logger maakt en OCR‑tekst spell‑checkt in C#.
 
 ### [Hoe OCR-resources te downloaden en tekst uit afbeelding te herkennen in C#](./how-to-download-ocr-resources-and-recognize-text-from-image/)
 Leer hoe u OCR-bronnen downloadt en tekst uit afbeeldingen herkent met Aspose OCR in een C#-applicatie.

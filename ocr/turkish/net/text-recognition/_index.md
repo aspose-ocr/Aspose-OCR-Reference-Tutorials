@@ -199,7 +199,7 @@ C# kullanarak Aspose OCR ile görüntülerden metin çıkarma sürecini adım ad
 ### [c# ocr eğitimi – JPG'den Metin Tanıma Dakikalar İçinde](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
 c# kullanarak JPG dosyalarından hızlıca metin tanıma işlemini adım adım öğrenin.
 ### [JPG'den Metin Tanıma C# – Tam OCR Eğitimi](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
-C# ile JPG dosyalarından metin tanımayı adım adım öğrenin ve Aspose.OCR'ın tam gücünden faydalanın.
+C# ile JPG dosylarından metin tanımayı adım adım öğrenin ve Aspose.OCR'ın tam gücünden faydalanın.
 ### [Aspose OCR'ı C#'ta Nasıl Kullanılır – Görüntülerden Korece Metin Tanıma](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
 C# ile Aspose OCR kullanarak görüntülerden Korece metni hızlı ve doğru bir şekilde tanıyın.
 ### [TIFF'ten Aranabilir PDF Oluşturma – Tam C# Kılavuzu](./create-searchable-pdf-from-tiff-full-c-guide/)
@@ -218,6 +218,8 @@ Görsel ve DJVU dosyalarından metin çıkararak .NET uygulamalarınızda OCR g�
 Aspose OCR kullanarak görüntülerden metin çıkarmayı adım adım öğrenin. C# ile tam bir rehber.
 ### [C#'ta OCR Kullanımı – Aspose OCR ile Görüntüden Metin Çıkarma](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Aspose OCR ile C# içinde görüntülerden metin çıkarma sürecini adım adım keşfedin.
+### [C# ile Konsol Günlüğü Oluşturma ve OCR Metnini Yazım Denetimi](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+C# uygulamanızda konsol loglayıcı oluşturun ve OCR ile tanınan metnin yazım denetimini yapın.
 
 ### [C#'ta Görüntüden Metin Tanıma – Aspose OCR ile](./recognize-text-from-image-in-c-using-aspose-ocr/)
 Aspose OCR kullanarak C# uygulamanızda görüntülerden metin çıkarma adımlarını öğrenin.

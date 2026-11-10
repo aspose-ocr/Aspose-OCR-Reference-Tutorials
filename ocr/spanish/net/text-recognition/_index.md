@@ -240,6 +240,8 @@ Aprenda a extraer texto de imágenes y archivos DJVU usando Aspose.OCR en C# con
 Aprenda a extraer texto de imágenes usando Aspose OCR en C# con esta guía paso a paso.
 ### [Cómo usar OCR en C# – Extraer texto de una imagen con Aspose OCR](./how-to-use-ocr-in-c-extract-text-from-image-with-aspose-ocr/)
 Aprenda a usar OCR en C# para extraer texto de imágenes con Aspose OCR, mejorando la funcionalidad de sus aplicaciones .NET.
+### [Cómo crear un registrador de consola y corregir la ortografía del texto OCR en C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
+Aprenda a crear un registrador de consola y a aplicar corrección ortográfica al texto OCR en C# con Aspose.OCR.
 
 ### [Reconocer texto de una imagen en C# usando Aspose OCR](./recognize-text-from-image-in-c-using-aspose-ocr/)
 Aprende a reconocer texto de una imagen en C# usando Aspose OCR, mejorando la funcionalidad de sus aplicaciones .NET.
