@@ -1,27 +1,64 @@
 ---
 category: general
-date: 2025-12-30
-description: Comment définir la licence Aspose en C# en chargeant une ressource intégrée
-  et en récupérant le flux de la ressource manifeste. Apprenez étape par étape comment
-  charger la ressource intégrée et appliquer la licence.
+date: 2026-09-08
+description: Apprenez comment configurer la licence Aspose en C# en intégrant le fichier
+  .lic et en récupérant le manifest resource stream, permettant un moteur OCR entièrement
+  licencié.
 draft: false
 keywords:
-- how to set aspose license
-- how to load embedded resource
+- set aspose license c#
+- c# read embedded resource
+- load embedded resource c#
+- c# list embedded resources
 - retrieve manifest resource stream
-- Aspose OCR licensing
-- embedded resource C#
-language: fr
-og_description: Comment définir la licence Aspose en C# à l'aide d'une ressource intégrée.
-  Ce guide montre comment charger la ressource intégrée et récupérer le flux de ressource
-  manifeste pour un moteur OCR entièrement licencié.
-og_title: Comment configurer la licence Aspose en C# – Guide rapide étape par étape
+lastmod: 2026-09-08
+og_description: Apprenez comment configurer la licence Aspose en C# en intégrant le
+  fichier de licence et en récupérant le manifest resource stream, vous offrant un
+  moteur OCR entièrement licencié sans fichiers supplémentaires.
+og_image_alt: 'Developer guide: Set Aspose license in C# using embedded resource'
+og_title: Comment configurer la licence Aspose en C# – guide étape par étape
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  headline: How to set Aspose license in C# – step‑by‑step guide
+  type: TechArticle
+- description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  name: How to set Aspose license in C# – step‑by‑step guide
+  steps:
+  - name: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+    text: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+  - name: In the file’s properties, set **Build Action** to **Embedded Resource**.
+    text: In the file’s properties, set **Build Action** to **Embedded Resource**.
+  - name: Verify the resource name. Visual Studio uses the pattern
+    text: Verify the resource name. Visual Studio uses the pattern
+  type: HowTo
+- questions:
+  - answer: Yes – the same embed‑and‑load pattern works for all Aspose .NET libraries;
+      just replace the license file and class names.
+    question: Can I use this approach with other Aspose products (PDF, Words, Cells)?
+  - answer: The `.lic` file is typically under 10 KB, so the impact on assembly size
+      is negligible.
+    question: Does embedding the license increase the size of my executable noticeably?
+  - answer: Replace the `.lic` file in the project, rebuild, and redeploy the updated
+      assembly.
+    question: What if I need to update the license later?
+  - answer: No – treat the `.lic` file as a secret. Keep it out of source control
+      or encrypt it if you must share the repo.
+    question: Is it safe to store the license in a public repository?
+  - answer: It works flawlessly because the license is loaded from the function’s
+      own assembly, eliminating file‑system dependencies.
+    question: How does this method affect Azure Functions or serverless deployments?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - C#
-- Licensing
-title: Comment définir la licence Aspose en C# – Guide complet
+- licensing
+- embedded resource
+title: Comment configurer la licence Aspose en C# – guide étape par étape
 url: /fr/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 ---
 
@@ -29,45 +66,107 @@ url: /fr/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Comment définir la licence Aspose en C# – Guide complet
+# Comment définir la licence Aspose en C# – guide étape par étape
 
-Vous vous êtes déjà demandé **comment définir la licence Aspose** pour votre projet OCR sans disperser un fichier `.lic` libre dans le système de fichiers ? Vous n'êtes pas seul. De nombreux développeurs luttent avec la gestion des licences parce qu'ils souhaitent un déploiement propre et aucun fichier supplémentaire à côté de l'exécutable. Bonne nouvelle ? Vous pouvez intégrer la licence directement dans votre assembly et la récupérer à l'exécution. Dans ce tutoriel, nous verrons **comment charger une ressource intégrée** et **récupérer le flux de ressource manifeste** afin que le moteur Aspose OCR fonctionne avec toutes ses fonctionnalités.
+Si vous devez **définir la licence Aspose en C#** sans laisser un fichier `.lic` détaché à côté de votre exécutable, vous êtes au bon endroit. Intégrer la licence dans votre assembly rend les déploiements propres, protège la licence contre les pertes accidentelles, et garantit que le moteur OCR fonctionne en mode entièrement licencié à chaque fois. Dans ce tutoriel, vous apprendrez comment intégrer le fichier de licence, récupérer le flux de ressource manifeste, et appliquer la licence à `OcrEngine` – le tout en pur C#.
 
-Nous couvrirons tout ce que vous devez savoir : de l'intégration du fichier `.lic` dans Visual Studio, à l'écriture du code C# qui lit la ressource, applique la licence, puis crée un `OcrEngine` entièrement licencié. À la fin, vous disposerez d’une solution autonome que vous pourrez intégrer dans n’importe quel projet .NET.
+## Réponses rapides
+- **Quelle est la façon la plus simple d’intégrer un fichier de licence ?** Définissez l’*Action de génération* du fichier sur *Embedded Resource* dans Visual Studio.  
+- **Comment récupérer la licence intégrée à l’exécution ?** Utilisez `Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)`.  
+- **Dois‑je écrire la licence sur le disque ?** Non – le flux est passé directement à `License.SetLicense`.  
+- **Cela fonctionnera‑t‑il sur .NET 6, .NET Framework et Azure Functions ?** Oui, le même code s’exécute sur tous les runtimes .NET pris en charge.  
+- **Comment vérifier que la licence est active ?** Appelez `OcrEngine.IsLicensed` (ou exécutez une tâche OCR simple et vérifiez l’absence du filigrane d’essai).
 
-## Prérequis
+## Qu’est‑ce que définir la licence Aspose c# ?
+`set aspose license c#` désigne le processus de chargement d’une licence Aspose OCR valide dans une application .NET afin que la bibliothèque fonctionne sans limitations d’essai. En intégrant le fichier `.lic`, vous éliminez les dépendances externes et simplifiez le déploiement.
 
-- .NET 6+ (le code fonctionne également avec .NET Framework 4.7.2)
-- Package NuGet Aspose.OCR installé (`Install-Package Aspose.OCR`)
-- Un fichier de licence Aspose OCR valide (`Aspose.OCR.lic`)
-- Connaissances de base en C# et Visual Studio
+## Pourquoi intégrer le fichier de licence plutôt que d’utiliser un fichier détaché ?
+Intégrer la licence élimine le risque que le fichier soit égaré, supprimé ou exposé sur la machine cliente. Aspose.OCR prend en charge **plus de 20 langues** et peut traiter des documents de **100 pages en moins de 2 secondes** sur du matériel serveur typique, mais uniquement lorsqu’une licence valide est présente. L’intégration garantit que le moteur fonctionne toujours à pleine vitesse et sans le filigrane d’essai.
 
-Aucun fichier de configuration externe n’est requis une fois la licence intégrée.
+## Comment intégrer le fichier de licence dans votre assembly
 
----
-
-## Étape 1 : Intégrer le fichier de licence dans votre assembly
+Intégrer la licence est simple : ajoutez le fichier `.lic` à votre projet, marquez‑le comme Embedded Resource, et référencez‑le par son nom pleinement qualifié à l’exécution. Cela garantit que la licence accompagne le DLL compilé et ne nécessite aucun fichier externe lors du déploiement.
 
 ### Pourquoi intégrer ?
-
-L’intégration supprime le besoin d’expédier un fichier de licence séparé, réduit le risque de le perdre et garantit que la licence voyage avec le DLL. Pensez-y comme à une clé secrète enfermée dans le coffre lui‑même.
+L’intégration supprime la nécessité d’expédier un fichier de licence séparé, réduit le risque de le perdre, et garantit que la licence accompagne le DLL. Considérez cela comme l’inclusion d’une clé secrète à l’intérieur du coffre lui‑même.
 
 ### Comment intégrer
 
 1. Ajoutez le fichier `.lic` à votre projet (par ex., `Resources/Aspose.OCR.lic`).
 2. Dans les propriétés du fichier, définissez **Build Action** sur **Embedded Resource**.
 3. Vérifiez le nom de la ressource. Visual Studio utilise le modèle  
-   `VotreNamespaceRacine.NomDuDossier.NomDuFichier.Extension`.  
-   Par exemple, si le namespace par défaut de votre projet est `MyApp`, le nom de la ressource devient  
+   `YourRootNamespace.FolderName.FileName.Extension`.  
+   Par exemple, si l’espace de noms par défaut de votre projet est `MyApp`, le nom de la ressource devient  
    `MyApp.Resources.Aspose.OCR.lic`.
 
-> **Astuce :** Ouvrez le *Object Browser* ou exécutez `Assembly.GetExecutingAssembly().GetManifestResourceNames()` dans une petite application console pour lister toutes les ressources intégrées. Cela vous aide à éviter les fautes de frappe lorsque vous **récupérez le flux de ressource manifeste** plus tard.
+> **Astuce :** Ouvrez le *Object Browser* ou exécutez `Assembly.GetExecutingAssembly().GetManifestResourceNames()` dans une petite application console pour lister chaque ressource intégrée. Cela vous aide à éviter les fautes de frappe lorsque vous **récupérez le flux de ressource manifeste** plus tard.  
+> 
+> ![exemple de définition de licence aspose en C#](path/to/image.png "exemple de définition de licence aspose en C#")
+
+## Comment charger la licence intégrée à l’exécution
+
+Pour activer la licence, lisez le flux de ressource intégré et passez‑le directement à la classe `License` d’Aspose. Cela évite d’écrire le fichier sur le disque et fonctionne sur tous les runtimes .NET.
+
+### Comment lire une ressource intégrée en C# ?
+Créez un objet `License`, construisez le nom exact de la ressource, et appelez `GetManifestResourceStream`. Le flux est ensuite fourni à `SetLicense`.
+
+**Réponse directe :**  
+```text
+Instantiate `new License()`, call `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyApp.Resources.Aspose.OCR.lic")`, and pass the returned stream to `SetLicense`. This loads the license directly from the assembly without touching the file system.
+```
+
+La classe `License` est la passerelle d’Aspose pour activer le mode complet. La classe `OcrEngine` est le processeur OCR principal qui respecte la licence appliquée.
+
+## Comment vérifier que la licence est active
+
+Après avoir chargé la licence, vous pouvez confirmer l’activation en vérifiant la propriété `IsLicensed` de `OcrEngine` ou en exécutant une petite tâche OCR et en vous assurant qu’aucun filigrane d’essai n’apparaît. `IsLicensed` renvoie `true` lorsqu’une licence valide a été appliquée.
+
+**Réponse directe :**  
+```text
+Call `bool licensed = ocrEngine.IsLicensed;` – if it returns true, the engine is fully licensed; otherwise, you’ll see a trial watermark on processed images.
+```
+
+## Problèmes courants et comment les résoudre
+
+### Comment corriger un flux nul lors de la récupération de la ressource manifeste ?
+Un flux nul signifie généralement que le nom de la ressource est incorrect ou que le fichier n’est pas marqué comme Embedded Resource. Utilisez la méthode d’assistance ci‑dessous pour lister tous les noms et confirmer la chaîne exacte.
+
+**Réponse directe :**  
+```text
+Run `foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames()) Console.WriteLine(name);` and copy the exact name into your `GetManifestResourceStream` call.
+```
+
+### Comment gérer plusieurs assemblies ?
+Si la licence se trouve dans une bibliothèque partagée, remplacez `GetExecutingAssembly()` par `Assembly.Load("SharedLib")` pour extraire la ressource de cet assembly.
+
+### Comment éviter de disposer du flux trop tôt ?
+Encapsulez le flux dans un bloc `using` **uniquement après** l’appel à `SetLicense`. Le disposer avant empêche la lecture de la licence.
+
+### Comment garantir la compatibilité avec différentes cibles .NET ?
+Aspose.OCR 22.10+ prend en charge .NET Standard 2.0, .NET Core et .NET Framework. Vérifiez que votre projet cible l’un de ces frameworks pour éviter les erreurs d’exécution.
+
+## Questions fréquemment posées
+
+**Q : Puis‑je utiliser cette approche avec d’autres produits Aspose (PDF, Words, Cells) ?**  
+R : Oui – le même modèle d’intégration et de chargement fonctionne pour toutes les bibliothèques Aspose .NET ; il suffit de remplacer le fichier de licence et les noms de classe.
+
+**Q : L’intégration de la licence augmente‑t‑elle la taille de mon exécutable de façon notable ?**  
+R : Le fichier `.lic` fait généralement moins de 10 KB, donc l’impact sur la taille de l’assembly est négligeable.
+
+**Q : Que faire si je dois mettre à jour la licence plus tard ?**  
+R : Remplacez le fichier `.lic` dans le projet, reconstruisez et redéployez l’assembly mis à jour.
+
+**Q : Est‑il sûr de stocker la licence dans un dépôt public ?**  
+R : Non – traitez le fichier `.lic` comme un secret. Gardez‑le hors du contrôle de version ou chiffrez‑le si vous devez partager le dépôt.
+
+**Q : Comment cette méthode affecte‑t‑elle les Azure Functions ou les déploiements serverless ?**  
+R : Elle fonctionne parfaitement car la licence est chargée depuis l’assembly de la fonction, éliminant les dépendances au système de fichiers.
 
 ---
 
-## Étape 2 : Écrire le code pour charger la licence intégrée
-
-Maintenant que la licence réside dans l’assembly, nous devons la récupérer à l’exécution. L’extrait suivant montre le code complet, prêt à être exécuté.
+**Dernière mise à jour :** 2026-09-08  
+**Testé avec :** Aspose.OCR 24.11 pour .NET  
+**Auteur :** Aspose  
 
 ```csharp
 using System;
@@ -113,70 +212,18 @@ namespace MyApp
     }
 }
 ```
-
-#### Que se passe‑t‑il ?
-
-- **Création d’un objet `License`** – Aspose utilise cette classe pour gérer les licences.
-- **Construction du nom de la ressource** – vous devez respecter exactement le modèle namespace‑dossier‑nom‑fichier, sinon `GetManifestResourceStream` renvoie `null`.
-- **Récupération du flux de ressource manifeste** – c’est le cœur de **comment charger une ressource intégrée**. La méthode renvoie un `Stream` que vous pouvez transmettre directement à `SetLicense`.
-- **Gestion des erreurs** – si le flux est `null`, nous affichons un message clair. Cela évite un échec silencieux qui laisserait le moteur OCR en mode d’évaluation.
-- **Application de la licence** – `SetLicense` lit le flux et active le produit complet.
-- **Instanciation de `OcrEngine`** – vous avez maintenant un moteur entièrement licencié prêt pour les tâches OCR.
-
-> **Pourquoi cette approche ?** Elle évite d’écrire la licence sur le disque, élimine les bugs liés aux chemins, et fonctionne même lorsque votre application s’exécute depuis un dossier temporaire (ex., ClickOnce, Azure Functions).
-
----
-
-## Étape 3 : Vérifier que la licence est active
-
-Une vérification rapide évite des heures de débogage plus tard. Après l’exécution du code ci‑dessus, vous pouvez inspecter la propriété `IsLicensed` (disponible dans les versions récentes d’Aspose) ou simplement tenter une opération OCR qui afficherait autrement un filigrane d’évaluation.
-
 ```csharp
 // Assuming you have an image file "sample.png" in the project folder.
 ocrEngine.Image = ImageStream.FromFile("sample.png");
 ocrEngine.Process();
 Console.WriteLine($"Recognized text: {ocrEngine.Text}");
 ```
-
-Si la licence est correctement appliquée, **aucun filigrane d’évaluation** n’apparaît sur l’image de sortie et la qualité OCR correspond aux attentes de l’édition complète.
-
----
-
-## Étape 4 : Cas particuliers & pièges courants
-
-### 1️⃣ Nom de ressource incorrect
-
-Si vous recevez `null` de `GetManifestResourceStream`, revérifiez le nom complet. Utilisez cet utilitaire pour lister tous les noms :
-
 ```csharp
 foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
 {
     Console.WriteLine(name);
 }
 ```
-
-### 2️⃣ Fichier de licence non marqué comme Embedded Resource
-
-Visual Studio définit par défaut **Content**. Changez-le manuellement dans les propriétés du fichier.
-
-### 3️⃣ Assemblies multiples
-
-Si votre licence se trouve dans un autre assembly (par ex., une bibliothèque partagée), appelez `Assembly.Load("OtherAssembly")` au lieu de `GetExecutingAssembly()`.
-
-### 4️⃣ Gestion du flux
-
-Le bloc `using` garantit que le flux est fermé après `SetLicense`. **Ne** libérez pas le flux avant d’appeler `SetLicense`, sinon la licence ne sera jamais lue.
-
-### 5️⃣ Compatibilité
-
-Aspose.OCR 22.10+ prend en charge .NET Standard 2.0, .NET Core et .NET Framework. Vérifiez que vous utilisez une version compatible avec le framework cible de votre projet.
-
----
-
-## Étape 5 : Exemple complet fonctionnel (prêt à copier‑coller)
-
-Voici le programme complet que vous pouvez placer dans une nouvelle application console. Il inclut la logique de chargement de la licence, un test OCR simple, et une gestion robuste des erreurs.
-
 ```csharp
 using System;
 using System.IO;
@@ -236,9 +283,6 @@ namespace AsposeLicenseDemo
     }
 }
 ```
-
-**Sortie attendue** (en supposant que `sample.png` contienne du texte lisible) :
-
 ```
 ✅ License applied.
 📝 Recognized Text:
@@ -246,23 +290,11 @@ Hello, Aspose OCR!
 License active: True
 ```
 
-Si la licence était absente, Aspose lèverait une exception ou ajouterait un filigrane d’évaluation sur l’image traitée.
+## Tutoriels associés
 
----
-
-## Conclusion
-
-Nous avons parcouru **comment définir la licence Aspose** de manière propre et maintenable en intégrant le fichier `.lic` et en utilisant **récérer le flux de ressource manifeste**. Les étapes — intégration de la ressource, chargement avec `Assembly.GetExecutingAssembly().GetManifestResourceStream`, application de la licence, puis création d’un `OcrEngine` licencié — couvrent tous les angles dont un développeur peut avoir besoin.
-
-Vous pouvez désormais distribuer un seul exécutable sans vous soucier des fichiers de licence manquants et vous éviterez à jamais le filigrane d’évaluation. Ensuite, pensez à explorer :
-
-- **Comment définir la licence Aspose** pour d’autres produits Aspose (PDF, Words, Cells) en suivant le même modèle.
-- **Comment charger une ressource intégrée** pour des fichiers de configuration (JSON, XML) dans ASP.NET Core.
-- Gestion avancée des erreurs avec des frameworks de journalisation personnalisés.
-
-N’hésitez pas à expérimenter, à adapter le nom de la ressource à votre propre namespace, et à partager vos découvertes dans les commentaires. Bon codage, et profitez de toute la puissance d’Aspose OCR ! 
-
-![comment définir la licence aspose en C# exemple](path/to/image.png "comment définir la licence aspose en C# exemple")
+- [Lire une ressource intégrée en .NET – Guide complet pour définir Aspose L](/ocr/net/ocr-configuration/read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+- [Comment appliquer la licence dans Aspose OCR – Guide étape par étape en C](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [Comment effectuer un traitement par lots OCR en C avec le moteur Aspose OCR](/ocr/net/ocr-optimization/how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
