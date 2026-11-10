@@ -141,6 +141,10 @@ Transformez une image en PDF searchable avec Aspose.OCR grâce à un guide déta
 ### [Comment effectuer l'OCR avec Aspose.OCR – Guide complet C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
 Apprenez à implémenter une reconnaissance OCR complète en C# avec Aspose.OCR, incluant la configuration, la sélection de langue et le traitement d'images.
 
+### [Créer un journal Aspose OCR – Guide complet étape par étape](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+
+Apprenez à créer un logger pour Aspose OCR avec un guide complet étape par étape.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.

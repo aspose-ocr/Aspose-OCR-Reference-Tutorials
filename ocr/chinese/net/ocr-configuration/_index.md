@@ -147,6 +147,8 @@ weight: 24
 全面指南，演示如何在 .NET 中使用 C# 调用 Aspose.OCR 完成图像文字识别并获取结果。  
 ### [创建 AsposeAI 模型配置 – 步骤指南](./create-asposeai-model-config-step-by-step-guide/)
 一步步指导如何创建 AsposeAI 模型配置，实现 AI 功能的快速集成。  
+### [创建 Aspose OCR 日志记录器 – 完整分步指南](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+一步步教您在 .NET 中创建日志记录器以捕获 OCR 过程信息。
 
 
 

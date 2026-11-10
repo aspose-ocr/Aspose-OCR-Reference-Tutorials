@@ -43,10 +43,13 @@ Extrair OCR significa fornecer uma imagem (ou uma coleção de imagens) ao Aspos
 
 ### [OCROperation com Arquivo em Reconhecimento de Imagens OCR](./ocr-operation-with-archive/)
 Desbloqueie o potencial do OCR em aplicações .NET com Aspose.OCR. Aprenda a extrair texto de imagens em arquivos passo a passo.
+
 ### [OCROperation com Pasta em Reconhecimento de Imagens OCR](./ocr-operation-with-folder/)
 Desbloqueie o poder do reconhecimento de imagens OCR em .NET com Aspose.OCR. Extraia texto sem esforço de imagens.
+
 ### [OCROperation com Seleção de Idioma em Reconhecimento de Imagens OCR](./ocr-operation-with-language-selection/)
 Desbloqueie recursos poderosos de OCR com Aspose.OCR para .NET. Extraia texto de imagens de forma contínua.
+
 ### [OCROperation com Lista em Reconhecimento de Imagens OCR](./ocr-operation-with-list/)
 ### [Carregar Arquivo de Imagem e Extrair Texto de Recibo com OCR GPU em C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Aprenda a usar OCR acelerado por GPU para extrair texto de recibos a partir de arquivos de imagem em C#.
@@ -108,6 +111,9 @@ Aprenda a configurar o motor OCR usando OcrEngineConfig em C# para melhorar a pr
 Aprenda passo a passo como usar Aspose.OCR em C# para extrair texto de imagens com alta precisão.
 ### [Criar Configuração de Modelo AsposeAI – Guia Passo a Passo](./create-asposeai-model-config-step-by-step-guide/)
 Desbloqueie a criação de modelos AsposeAI com instruções detalhadas passo a passo para configurar e usar modelos personalizados.
+
+### [Criar Logger Aspose OCR – Guia Completo Passo a Passo](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Aprenda a implementar um logger para Aspose OCR em .NET, passo a passo, com exemplos completos.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  

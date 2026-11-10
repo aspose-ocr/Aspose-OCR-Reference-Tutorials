@@ -159,6 +159,8 @@ Ismerje meg, hogyan állíthatja be az OCR motor konfigurációját C#‑ban az 
 Lépésről lépésre bemutatja, hogyan használja az Aspose.OCR-t C#-ban a teljes körű OCR feldolgozáshoz.  
 ### [AsposeAI modell konfiguráció létrehozása – lépésről‑lépésre útmutató](./create-asposeai-model-config-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre és konfigurálhat AsposeAI modellt .NET környezetben lépésről‑lépésre.  
+### [Logger létrehozása Aspose OCR‑hoz – Teljes lépésről‑lépésre útmutató](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Az Aspose OCR használatával egyedi naplózási megoldást hozhat létre .NET‑alkalmazásaihoz.  
 
 
 

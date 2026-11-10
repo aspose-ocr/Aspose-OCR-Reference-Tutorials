@@ -106,6 +106,8 @@ Scopri come configurare il motore OCR con OcrEngineConfig in C# per ottimizzare 
 Scopri passo passo come implementare il riconoscimento OCR in C# usando Aspose.OCR, con esempi completi e best practice.
 ### [Crea Configurazione Modello AsposeAI – Guida passo‑passo](./create-asposeai-model-config-step-by-step-guide/)
 Scopri come creare e configurare un modello AsposeAI passo dopo passo per integrare l'intelligenza artificiale nelle tue applicazioni.
+### [Crea Logger Aspose OCR – Guida Completa Passo‑Passo](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Impara a configurare e utilizzare un logger personalizzato per Aspose.OCR in modo dettagliato e pratico.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

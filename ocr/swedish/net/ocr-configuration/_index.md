@@ -116,6 +116,8 @@ En fullständig C#‑guide som visar hur du använder Aspose.OCR för att extrah
 ### [Skapa AsposeAI-modellkonfiguration – steg‑för‑steg‑guide](./create-asposeai-model-config-step-by-step-guide/)
 Lär dig hur du konfigurerar en AsposeAI-modell med en detaljerad steg‑för‑steg‑guide.
 
+### [Skapa Logger Aspose OCR – Komplett steg‑för‑steg‑guide](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Lär dig hur du implementerar en logger för Aspose OCR med en detaljerad steg‑för‑steg‑instruktion.
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.
 - Indexera stora dokumentarkiv för sökbara förråd.

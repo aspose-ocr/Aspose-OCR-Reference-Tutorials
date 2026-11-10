@@ -159,6 +159,8 @@ Hướng dẫn cấu hình OcrEngineConfig để tùy chỉnh engine OCR trong �
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm cấu hình, ngôn ngữ và xử lý đa tệp.
 ### [Tạo cấu hình mô hình AsposeAI – Hướng dẫn từng bước](./create-asposeai-model-config-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo và cấu hình mô hình AsposeAI trong dự án của bạn.
+### [Tạo Logger Aspose OCR – Hướng Dẫn Chi Tiết Từng Bước](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Hướng dẫn đầy đủ cách tạo logger cho Aspose OCR, bao gồm cấu hình, ghi log và xử lý lỗi trong .NET.
 
 
 

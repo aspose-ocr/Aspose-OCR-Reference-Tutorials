@@ -103,6 +103,8 @@ weight: 24
 دليل شامل يوضح كيفية تنفيذ OCR في تطبيقات C# باستخدام Aspose.OCR خطوة بخطوة.
 ### [إنشاء تكوين نموذج AsposeAI – دليل خطوة بخطوة](./create-asposeai-model-config-step-by-step-guide/)
 دليل شامل لإنشاء وتكوين نموذج AsposeAI في .NET خطوة بخطوة.
+### [إنشاء سجل Aspose OCR – دليل خطوة بخطوة كامل](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+دليل شامل لإنشاء سجل لتتبع عمليات OCR باستخدام Aspose OCR في تطبيقات .NET.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

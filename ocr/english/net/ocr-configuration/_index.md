@@ -131,6 +131,8 @@ Configure OCR engine settings in C# with OcrEngineConfig to customize recognitio
 Comprehensive C# guide to perform OCR using Aspose.OCR, covering setup, image processing, and extracting accurate text.
 ### [Create AsposeAI Model Config – Step‑by‑Step Guide](./create-asposeai-model-config-step-by-step-guide/)
 Learn how to configure AsposeAI models step by step, covering setup, parameters, and deployment in .NET applications.
+### [Create Logger Aspose OCR – Complete Step‑by‑Step Guide](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Learn how to create a logger for Aspose OCR in .NET with a detailed, step‑by‑step guide.
 
 ### Common use cases
 - **Extract text images** from scanned invoices for automated accounting.  

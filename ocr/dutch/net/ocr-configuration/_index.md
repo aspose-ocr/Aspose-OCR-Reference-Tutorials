@@ -127,6 +127,8 @@ Leer hoe je OcrEngineConfig instelt voor geavanceerde OCR‑instellingen in C# m
 Leer stap‑voor‑stap hoe je OCR met Aspose.OCR in C# implementeert, van installatie tot geavanceerde configuratie.
 ### [Maak AsposeAI Modelconfiguratie – Stapsgewijze handleiding](./create-asposeai-model-config-step-by-step-guide/)
 Leer stap voor stap hoe je een AsposeAI‑modelconfiguratie maakt en toepast in je .NET‑applicatie.
+### [Maak logger Aspose OCR – Complete stapsgewijze gids](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Leer hoe je een logger implementeert voor Aspose OCR met een volledige stap‑voor‑stap handleiding.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

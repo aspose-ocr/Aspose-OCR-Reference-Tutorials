@@ -103,6 +103,8 @@ Naučte se konfigurovat OCR engine pomocí OcrEngineConfig v C# pro přesnějš�
 Kompletní návod, jak pomocí Aspose.OCR v C# implementovat OCR od instalace po získání výsledků.
 ### [Vytvořit konfiguraci modelu AsposeAI – krok za krokem průvodce](./create-asposeai-model-config-step-by-step-guide/)
 Kompletní návod, jak vytvořit a nakonfigurovat model AsposeAI ve vašich aplikacích.
+### [Vytvořte logger Aspose OCR – Kompletní průvodce krok za krokem](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Kompletní návod, jak vytvořit logger pro Aspose OCR v .NET aplikacích.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

@@ -117,6 +117,8 @@ Erfahren Sie, wie Sie OcrEngineConfig konfigurieren, um die OCR-Engine in C#-Anw
 Erfahren Sie, wie Sie mit Aspose.OCR in C# eine komplette OCR‑Lösung implementieren, von der Einrichtung bis zur Textextraktion.
 ### [Erstellen einer AsposeAI Modellkonfiguration – Schritt‑für‑Schritt‑Anleitung](./create-asposeai-model-config-step-by-step-guide/)
 Erfahren Sie, wie Sie eine AsposeAI‑Modellkonfiguration erstellen und anpassen, um KI‑Funktionen in Ihre Anwendung zu integrieren.
+### [Logger für Aspose OCR erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie einen Logger für Aspose OCR implementieren, um OCR‑Vorgänge zu protokollieren und zu überwachen.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

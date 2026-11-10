@@ -154,6 +154,8 @@ Aspose.OCR의 OcrEngineConfig를 활용해 C#에서 OCR 엔진을 구성하고 �
 Aspose.OCR와 C#을 사용해 OCR을 구현하는 전체 단계별 가이드를 제공합니다.  
 ### [AsposeAI 모델 구성 만들기 – 단계별 가이드](./create-asposeai-model-config-step-by-step-guide/)
 AsposeAI 모델 구성을 단계별로 설정하는 방법을 안내합니다.  
+### [Aspose OCR 로거 만들기 – 완전 단계별 가이드](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Aspose OCR 로거를 생성하여 OCR 프로세스를 기록하고 관리하는 방법을 단계별로 안내합니다.
 
 
 

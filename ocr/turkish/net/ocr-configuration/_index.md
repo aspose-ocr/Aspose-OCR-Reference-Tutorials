@@ -109,6 +109,8 @@ Aspose.OCR’da OcrEngineConfig ayarlarını kullanarak OCR motorunu özelleşti
 Aspose.OCR kullanarak C# ile tam OCR iş akışını adım adım öğrenin.
 ### [AsposeAI Model Yapılandırması Oluştur – Adım Adım Kılavuz](./create-asposeai-model-config-step-by-step-guide/)
 AsposeAI modeli için yapılandırma dosyası oluşturmayı adım adım öğrenin ve AI çözümlerinizde özelleştirilmiş ayarlar yapın.
+### [Aspose OCR Günlüğü Oluşturma – Tam Adım Adım Kılavuz](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Aspose OCR kullanarak özelleştirilmiş bir logger oluşturmayı adım adım öğrenin.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  
