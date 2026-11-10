@@ -690,6 +690,8 @@ Ismerje meg, hogyan ismerhet fel szöveget képekből C#-ban az Aspose OCR telje
 ### [Kép szövegének kinyerése Aspose OCR segítségével C#-ban](./extract-text-from-image-using-aspose-ocr-in-c/)
 Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR használatával.
 
+### [Szöveg felismerése képről C#-ban – lépésről‑lépésre Aspose OCR útmutató](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
+Ismerje meg, hogyan ismerhet fel szöveget képekről C#-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

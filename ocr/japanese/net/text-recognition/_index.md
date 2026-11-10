@@ -705,6 +705,8 @@ Aspose OCR を使用して PNG 画像からテキストを抽出し、C# で実�
 Aspose OCR と C# を活用し、画像からテキストを抽出する手順を詳細に解説します。
 ### [C# で Aspose OCR を使用して画像からテキストを抽出する](./extract-text-from-image-using-aspose-ocr-in-c/)
 Aspose OCR を使用して C# で画像からテキストを抽出する方法を学びます。
+### [C# で画像からテキストを認識する – ステップバイステップ Aspose OCR ガイド](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
+Aspose.OCR を使用して C# アプリケーションで画像からテキストを認識する方法をステップバイステップで解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

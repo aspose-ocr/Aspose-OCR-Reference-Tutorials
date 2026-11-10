@@ -67,6 +67,8 @@ Ontgrendel het potentieel van OCR in .NET met Aspose.OCR. Extraheer moeiteloos t
 Leer stap‑voor‑stap hoe u PDF‑bestanden OCR't in C# met Aspose, inclusief volledige code‑voorbeelden en integratietips.
 ### [Voer OCR uit op PDF met Aspose OCR – Complete C#-gids](./perform-ocr-on-pdf-with-aspose-ocr-complete-c-guide/)
 Leer hoe u met Aspose OCR PDF-bestanden kunt verwerken in C#. Volg onze stapsgewijze handleiding voor optimale OCR-resultaten.
+### [Herken tekst van afbeelding in C# – stap‑voor‑stap Aspose OCR‑gids](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
+Leer hoe u met Aspose.OCR in C# tekst uit een afbeelding kunt extraheren met een stapsgewijze handleiding.
 ### [Herken tabel in OCR-beeldherkenning](./recognize-table/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET met onze uitgebreide gids over het herkennen van tabellen bij OCR-beeldherkenning.
 ### [Hoe OCR te gebruiken in C# – Russische tekst uit PNG extraheren](./how-to-use-ocr-in-c-extract-russian-text-from-png/)

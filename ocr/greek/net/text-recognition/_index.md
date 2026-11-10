@@ -678,6 +678,8 @@ url: /el/net/text-recognition/
 
 ### [Αποσπάστε κείμενο από εικόνα χρησιμοποιώντας Aspose OCR σε C#](./extract-text-from-image-using-aspose-ocr-in-c/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες με Aspose OCR σε C# βήμα‑βήμα, βελτιώνοντας τις δυνατότητες OCR της εφαρμογής σας.
+### [Αναγνώριση κειμένου από εικόνα σε C# – βήμα‑βήμα οδηγός Aspose OCR](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose.OCR με οδηγίες βήμα‑βήμα.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
