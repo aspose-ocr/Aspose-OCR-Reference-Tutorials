@@ -1,0 +1,211 @@
+---
+category: general
+date: 2026-03-18
+description: Cómo hacer OCR de PDF en C# – aprende a convertir PDF escaneado, crear
+  PDF buscable, añadir marca de agua al PDF y extraer texto del PDF con un flujo de
+  trabajo simple de OcrEngine.
+draft: false
+keywords:
+- how to ocr pdf
+- convert scanned pdf
+- create searchable pdf
+- add watermark pdf
+- extract text from pdf
+language: es
+og_description: ¿Cómo hacer OCR a un PDF en C#? Esta guía te muestra cómo convertir
+  PDF escaneados, crear PDF buscables, añadir una marca de agua al PDF y extraer texto
+  del PDF usando OcrEngine.
+og_title: Cómo hacer OCR a PDF en C# – Guía rápida y completa
+tags:
+- OCR
+- PDF
+- C#
+- Document Processing
+title: Cómo hacer OCR de PDF en C# – Convertir PDFs escaneados
+url: /es/python-java/general/how-to-ocr-pdf-in-c-convert-scanned-pdfs/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cómo hacer OCR a PDF en C# – Convertir PDFs escaneados
+
+¿Alguna vez necesitaste **how to OCR PDF** pero te quedaste atascado con un archivo escaneado que se negaba a cooperar? No eres el único. En muchos proyectos del mundo real —piensa en la digitalización de facturas o el archivado de informes históricos—terminas con una pila de imágenes dentro de un PDF, y la única forma de hacerlas buscables es ejecutar OCR sobre ellas.  
+
+¿La buena noticia? Con solo unas pocas líneas de C# puedes **convert scanned PDF** en un **create searchable PDF**, añadir una sutil marca de agua e incluso extraer el texto sin formato para un procesamiento posterior. A continuación verás un ejemplo completo, listo para ejecutar, que hace exactamente eso.
+
+## Qué cubre este tutorial
+
+* Cómo **how to OCR PDF** usando la clase `OcrEngine`.  
+* Convertir un PDF escaneado en un **create searchable PDF**.  
+* Añadir una marca de agua en la primera página (**add watermark pdf**).  
+* Extraer cadenas de texto plano del resultado (**extract text from pdf**).  
+* Trampas comunes —como manejar documentos de varias páginas o tratar escaneos de baja resolución.  
+
+Sin enlaces a documentación externa, sin fragmentos a medio terminar. Todo lo que necesitas está aquí.
+
+## Requisitos previos
+
+* .NET 6.0 o posterior (el código también compila con .NET 5).  
+* Una referencia a la biblioteca OCR que proporciona `OcrEngine` y `ImageFormats` (p. ej., `Aspose.OCR` o un paquete similar).  
+* Un PDF de entrada llamado `input.pdf` ubicado en una carpeta que controles.  
+* Familiaridad básica con aplicaciones de consola en C#.  
+
+Si ya los tienes, genial—¡vamos allá.
+
+## Paso 1: Configurar el proyecto e importar dependencias
+
+Crea un nuevo proyecto de consola y agrega el paquete OCR mediante NuGet:
+
+```bash
+dotnet new console -n OcrPdfDemo
+cd OcrPdfDemo
+dotnet add package Aspose.OCR
+```
+
+Ahora abre `Program.cs`. En la parte superior, incluye los espacios de nombres que necesitarás:
+
+```csharp
+using System;
+using Aspose.OCR;          // OcrEngine lives here
+using Aspose.OCR.Image;   // ImageFormats enum
+```
+
+*Por qué es importante*: Importar los espacios de nombres correctos permite al compilador localizar `OcrEngine`. Omitir este paso generará un error `CS0246` y detendrá la compilación.
+
+## Paso 2: Inicializar el motor OCR
+
+El motor es el corazón del proceso. Lo instancias una vez y lo reutilizas para cada página.
+
+```csharp
+// Step 2: Initialize the OCR engine
+OcrEngine engine = new OcrEngine();
+```
+
+*Consejo profesional*: Si planeas procesar muchos PDFs consecutivamente, considera reutilizar la misma instancia `engine` para evitar verificaciones de licencia repetidas.
+
+## Paso 3: Cargar el PDF de origen
+
+Indica al motor qué archivo debe procesar. El método `SetImageFromFile` acepta cualquier fuente de imagen o PDF.
+
+```csharp
+// Step 3: Load the scanned PDF you want to OCR
+engine.SetImageFromFile(@"YOUR_DIRECTORY\input.pdf");
+```
+
+> **Por qué este paso es crucial** – El motor necesita una representación bitmap de cada página. Cuando le proporcionas un PDF, lo rasteriza internamente según el DPI predeterminado (usualmente 300). Si el PDF de origen ya es basado en texto, el motor simplemente lo pasará sin cambios, ahorrándote tiempo.
+
+## Paso 4: Ejecutar el reconocimiento OCR
+
+Ahora ocurre el trabajo pesado. El método `Recognize` escanea cada página, extrae glifos y construye una capa buscable.
+
+```csharp
+// Step 4: Perform OCR on the loaded document
+engine.Recognize();
+```
+
+*Pregunta frecuente*: *¿Qué pasa si el PDF tiene 50 páginas?*  
+`Recognize` procesa todo el documento por defecto. En entornos con memoria limitada puedes establecer `engine.PageIndex` y `engine.PageCount` para trabajar página por página.
+
+## Paso 5: Guardar el PDF buscable (Marca de agua en la página 1)
+
+Guardaremos el resultado como PDF. La primera página recibirá automáticamente una marca de agua porque la biblioteca OCR agrega por defecto una superposición “Generated by Aspose.OCR”. Si necesitas una marca de agua personalizada, puedes modificar la propiedad `engine.Watermark` antes de guardar.
+
+```csharp
+// Step 5: Save the OCR‑processed PDF with a watermark on page 1
+engine.Save(@"YOUR_DIRECTORY\output.pdf", ImageFormats.Pdf);
+```
+
+Después de esta llamada tendrás un **create searchable PDF** donde podrás seleccionar, copiar y buscar el texto como cualquier PDF nativo.
+
+## Paso 6: Extraer texto plano (Opcional pero útil)
+
+Si también deseas **extract text from pdf** para indexación o análisis adicional, el motor te brinda acceso a la cadena cruda.
+
+```csharp
+// Step 6: Pull the recognized text into a string
+string extractedText = engine.Text;
+Console.WriteLine("=== Extracted Text Start ===");
+Console.WriteLine(extractedText);
+Console.WriteLine("=== Extracted Text End ===");
+```
+
+La propiedad `engine.Text` concatena el texto de todas las páginas, preservando los saltos de línea. Puedes dividirlo por `\f` (form feed) si necesitas granularidad por página.
+
+## Ejemplo completo funcional
+
+A continuación está el programa completo. Copia y pega en `Program.cs`, reemplaza `YOUR_DIRECTORY` con una ruta absoluta o relativa, y ejecuta `dotnet run`.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.Image;
+
+namespace OcrPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1️⃣ Initialize the OCR engine
+            OcrEngine engine = new OcrEngine();
+
+            // 2️⃣ Load the source PDF to be processed
+            // Make sure the file exists; otherwise you'll get a FileNotFoundException.
+            string inputPath = @"YOUR_DIRECTORY\input.pdf";
+            engine.SetImageFromFile(inputPath);
+
+            // 3️⃣ Perform OCR recognition on the loaded document
+            engine.Recognize();
+
+            // 4️⃣ Save the recognized document as a PDF (watermark appears on page 1)
+            string outputPath = @"YOUR_DIRECTORY\output.pdf";
+            engine.Save(outputPath, ImageFormats.Pdf);
+
+            // 5️⃣ (Optional) Extract plain text for further use
+            string extractedText = engine.Text;
+            Console.WriteLine("=== Extracted Text Start ===");
+            Console.WriteLine(extractedText);
+            Console.WriteLine("=== Extracted Text End ===");
+
+            Console.WriteLine($"OCR complete! Searchable PDF saved to: {outputPath}");
+        }
+    }
+}
+```
+
+### Salida esperada
+
+Ejecutar el programa imprime el texto extraído en la consola y crea `output.pdf`. Abre el PDF en cualquier visor (Adobe Acrobat, Edge, etc.) y prueba buscar una palabra que aparecía en el escaneo original—verás que ahora es buscable. La primera página muestra la marca de agua predeterminada, confirmando que el paso **add watermark pdf** se completó con éxito.
+
+## Preguntas frecuentes y casos límite
+
+| Pregunta | Respuesta |
+|----------|-----------|
+| **¿Qué pasa si el escaneo es de baja resolución?** | Aumenta el DPI antes del reconocimiento: `engine.ImageInfo.DpiX = engine.ImageInfo.DpiY = 600;` Esto le brinda al motor OCR más detalle con el que trabajar. |
+| **¿Puedo elegir una marca de agua personalizada?** | Sí. Establece `engine.Watermark = "Confidential – Processed on " + DateTime.Now.ToShortDateString();` antes de `Save`. |
+| **¿Cómo manejo PDFs protegidos con contraseña?** | Usa `engine.LoadPassword = "yourPassword";` antes de `SetImageFromFile`. |
+| **¿Hay una forma de limitar el OCR a páginas específicas?** | Establece `engine.PageIndex = 2;` y `engine.PageCount = 5;` para procesar solo las páginas 3‑7. |
+| **¿Qué pasa si necesito mantener las imágenes originales sin tocar?** | Después del OCR puedes combinar el PDF original con la capa OCR usando una biblioteca PDF (p. ej., `Aspose.PDF`) para preservar la fidelidad de la imagen. |
+
+## Consejos y buenas prácticas
+
+* **Consejo profesional:** Ejecuta OCR en un hilo en segundo plano si lo integras en una aplicación UI—de lo contrario la UI se congelará.  
+* **Cuidado con:** PDFs con contenido mixto raster y vectorial. El motor solo hará OCR en páginas raster; el texto vectorial sigue siendo seleccionable automáticamente.  
+* **Ajuste de rendimiento:** Cachea los datos de idioma OCR (`engine.Language = OcrLanguage.English;`) para evitar recargarlos en cada documento.  
+
+## Conclusión
+
+Ahora tienes una solución completa, de extremo a extremo, para **how to OCR PDF** en C#. Al inicializar el `OcrEngine`, cargar un archivo escaneado, reconocer el texto, guardar un **create searchable pdf**, añadir una marca de agua y, opcionalmente, **extract text from pdf**, puedes convertir cualquier PDF basado en imágenes en un recurso buscable e indexable.  
+
+¿Próximos pasos? Intenta encadenar este flujo de trabajo con un sistema de gestión documental, o experimenta con diferentes idiomas (`engine.Language = OcrLanguage.French;`). También podrías explorar el procesamiento por lotes de varios archivos en una carpeta—simplemente itera los pasos con una nueva instancia `engine` cada vez.  
+
+¡Feliz codificación, y que tus PDFs siempre sean buscables! 
+
+![Ejemplo de cómo hacer OCR a PDF mostrando archivos de entrada y salida](https://example.com/ocr-pdf-demo.png "cómo hacer ocr pdf")
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
