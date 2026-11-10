@@ -260,6 +260,8 @@ Aspose OCR जावा के साथ TIFF फ़ाइलों से त�
 ### [जावा OCR में इमेज कंट्रास्ट बढ़ाना – पूर्ण प्रोग्रामिंग गाइड](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
 ### [जावा के साथ PDF छवियों को संपीड़ित करना – पूर्ण बैच OCR से PDF गाइड](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 जावा में Aspose.OCR का उपयोग करके PDF छवियों को संपीड़ित करें और बैच OCR के साथ PDF बनाएं। तेज़ और सटीक परिणाम प्राप्त करें।
+### [जावा में छवि से पाठ पहचान – पूर्ण OCR गाइड](./recognize-text-from-image-in-java-complete-ocr-guide/)
+जावा में छवि से पाठ निकालने के लिए पूर्ण OCR मार्गदर्शिका। चरण-दर-चरण निर्देश और सर्वोत्तम प्रथाएँ।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

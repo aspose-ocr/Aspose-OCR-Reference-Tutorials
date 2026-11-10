@@ -269,6 +269,8 @@ Mejore la precisión del OCR en Java ajustando el contraste de la imagen. Guía 
 
 ### [Comprimir imágenes PDF con Java – Guía completa de OCR por lotes a PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Aprenda a comprimir imágenes PDF y aplicar OCR por lotes en Java, generando documentos PDF con texto buscable de forma eficiente.
+### [Reconocer texto de imagen en Java – guía completa de OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Aprenda a reconocer texto en imágenes con Java usando Aspose.OCR, siguiendo una guía completa paso a paso.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

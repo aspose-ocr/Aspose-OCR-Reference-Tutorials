@@ -279,6 +279,7 @@ Aspose.OCR for Java kullanarak Java’da tablo OCR işlemini adım adım öğren
 Aspose.OCR for Java kullanarak görüntü kontrastını artırarak OCR doğruluğunu yükseltin. Adım adım rehber.
 ### [Java ile PDF Görüntülerini Sıkıştırma – Tam Toplu OCR'dan PDF'ye Rehber](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Java ve Aspose.OCR kullanarak PDF içindeki görüntüleri sıkıştırın, toplu OCR uygulayın ve yüksek kalite PDF oluşturun.
+### [Java'da Görüntüden Metin Tanıma – Tam OCR Kılavuzu](./recognize-text-from-image-in-java-complete-ocr-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

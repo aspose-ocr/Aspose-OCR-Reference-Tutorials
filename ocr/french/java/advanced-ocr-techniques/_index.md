@@ -296,6 +296,8 @@ Apprenez à extraire les tables d'images en Java avec Aspose.OCR grâce à un gu
 ### [Compresser les images PDF avec Java – Guide complet OCR par lots vers PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Apprenez à compresser les images PDF et à effectuer un OCR par lots en Java, générant des PDF texte avec Aspose.OCR.
 
+### [Reconnaître du texte à partir d'une image en Java – guide complet d'OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Apprenez à extraire du texte d'une image en Java avec un guide complet d'OCR, étape par étape, pour une précision optimale.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -49,6 +49,9 @@ Vylepšete své Java aplikace pomocí Aspose.OCR pro přesné rozpoznávání te
 
 ## [Určení povolených znaků v Aspose.OCR](./specify-allowed-characters/)
 
+## [Rozpoznání textu z obrázku v Javě – kompletní průvodce OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Kompletní průvodce OCR v Javě, který ukazuje, jak rozpoznat text z obrázku s vysokou přesností a snadnou integrací.
+
 ## [Vytvoření objektu OCRConfig v Javě – Kompletní průvodce nastavením Aspose OCR](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 Kompletní průvodce vytvořením objektu OCRConfig v Javě pro plné nastavení Aspose OCR.
 

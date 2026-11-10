@@ -273,6 +273,8 @@ Hướng dẫn chi tiết cách tăng độ tương phản ảnh để cải thi
 ### [Nén ảnh PDF bằng Java – Hướng dẫn OCR hàng loạt đầy đủ tới PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Hướng dẫn chi tiết cách nén ảnh PDF và thực hiện OCR hàng loạt để tạo tài liệu PDF chất lượng cao bằng Java.
 
+### [Nhận dạng văn bản từ hình ảnh trong Java – hướng dẫn OCR hoàn chỉnh](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Hướng dẫn toàn diện để nhận dạng văn bản từ hình ảnh trong Java bằng Aspose.OCR, bao gồm các bước chi tiết và mẹo tối ưu.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

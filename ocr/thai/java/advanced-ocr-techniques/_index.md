@@ -263,6 +263,8 @@ Aspose.OCR สำหรับ Java เป็นตัวเปลี่ยนเ
 ### [สร้างวัตถุ OCRConfig ใน Java – คู่มือการตั้งค่า Aspose OCR อย่างเต็มรูปแบบ](./create-ocrconfig-object-in-java-full-aspose-ocr-setup-guide/)
 เรียนรู้วิธีสร้างและกำหนดค่า OCRConfig ใน Java ด้วย Aspose OCR อย่างละเอียดเพื่อเพิ่มประสิทธิภาพการจดจำข้อความ
 
+### [การจดจำข้อความจากรูปภาพใน Java – คู่มือ OCR ฉบับสมบูรณ์](./recognize-text-from-image-in-java-complete-ocr-guide/)
+เรียนรู้วิธีการจดจำข้อความจากรูปภาพใน Java อย่างครบถ้วนด้วย Aspose.OCR เพื่อผลลัพธ์แม่นยำและง่ายต่อการผสานรวม
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

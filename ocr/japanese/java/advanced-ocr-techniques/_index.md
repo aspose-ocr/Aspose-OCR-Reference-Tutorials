@@ -247,6 +247,8 @@ Aspose.OCR for Java を使用して、画像のコントラストを調整し、
 
 ### [Java で PDF 画像を圧縮 – バッチ OCR で PDF に変換する完全ガイド](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Aspose.OCR for Java を使用して、PDF 内の画像を圧縮し、バッチ OCR でテキスト抽出し PDF に変換する手順を解説します。
+### [Java で画像からテキストを認識する – 完全 OCR ガイド](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Java で画像からテキストを高精度に抽出する完全な OCR ガイドです。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

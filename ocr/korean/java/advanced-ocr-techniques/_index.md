@@ -260,6 +260,8 @@ Java에서 표 형태의 데이터를 정확히 추출하기 위한 단계별 OC
 이미지 대비를 높여 OCR 정확도를 향상시키는 방법을 단계별로 안내합니다. Java에서 빠르고 효율적인 텍스트 추출을 구현하세요.
 ### [Java로 PDF 이미지 압축 – 전체 배치 OCR을 PDF로 변환하는 가이드](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 
+### [Java용 Aspose.OCR으로 이미지에서 텍스트 인식 – 완전 OCR 가이드](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Java용 Aspose.OCR을 사용해 이미지에서 텍스트를 완벽히 인식하는 전체 가이드를 제공합니다. 높은 정확도와 쉬운 구현을 확인하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

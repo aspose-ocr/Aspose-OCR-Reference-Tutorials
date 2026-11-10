@@ -271,6 +271,8 @@ url: /el/java/advanced-ocr-techniques/
 ### [Ανάγνωση κειμένου OCR σε Java – Πλήρης οδηγός για παράλληλη επεξεργασία εικόνας](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
 Μάθετε πώς να επεξεργάζεστε εικόνες παράλληλα για εξαγωγή κειμένου OCR σε Java, βελτιώνοντας την απόδοση και την ακρίβεια.
 
+### [Αναγνώριση κειμένου από εικόνα σε Java – πλήρης οδηγός OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Πλήρης οδηγός OCR για Java που εξηγεί πώς να αναγνωρίζετε κείμενο από εικόνες με ακρίβεια και ευκολία.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -286,6 +286,8 @@ Leer hoe u tabellen in afbeeldingen OCR‑t met Aspose.OCR voor Java, stap‑voo
 ### [Beeldcontrast verhogen in Java OCR – Complete programmeergids](./increase-image-contrast-in-java-ocr-complete-programming-gui/)
 Leer hoe u het contrast van afbeeldingen verhoogt voor betere OCR‑resultaten in Java met een stapsgewijze programmeergids.
 
+### [Tekst herkennen uit afbeelding in Java – volledige OCR-gids](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Volledige gids voor het herkennen van tekst uit afbeeldingen in Java met Aspose.OCR. Stap‑voor‑stap instructies voor optimale resultaten.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -48,6 +48,9 @@ Wykryj języki w obrazach przy użyciu Aspose.OCR w Javie. Kompletny przewodnik 
 
 Bez wysiłku wyodrębniaj tekst z obrazów, określając dozwolone znaki za pomocą Aspose.OCR dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać efektywną integrację i zapewnić płynne rozpoznawanie tekstu. Ulepsz swoje aplikacje Java dzięki możliwościom Aspose.OCR.
 
+## [Rozpoznawanie tekstu z obrazu w Javie – kompletny przewodnik OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Kompletny przewodnik OCR w Javie, pokazujący jak rozpoznać tekst z obrazów przy użyciu Aspose.OCR.
+
 ## [Odczytywanie tekstu OCR w Javie – Kompletny przewodnik po równoległym przetwarzaniu obrazów](./read-ocr-text-in-java-complete-guide-to-parallel-image-proce/)
 Poznaj techniki równoległego przetwarzania obrazów w Javie, aby szybko odczytywać tekst OCR z wielu plików jednocześnie.
 

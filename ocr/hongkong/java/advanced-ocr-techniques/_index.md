@@ -271,6 +271,8 @@ Aspose.OCR for Java 是光學字元辨識 (OCR) 方面的遊戲規則改變者�
 使用 Aspose.OCR for Java 提升影像對比度，改善 OCR 準確度，提供完整程式範例一步步教學。
 ### [使用 Java 壓縮 PDF 圖像 – 完整批次 OCR 轉 PDF 指南](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 使用 Aspose.OCR for Java 批量壓縮 PDF 圖像並將 OCR 結果匯出為 PDF，提高檔案效能與文字可搜尋性。
+### [在 Java 中從圖像辨識文字 – 完整 OCR 指南](./recognize-text-from-image-in-java-complete-ocr-guide/)
+提供完整的 Java 圖像文字辨識步驟，助您快速實作高精度 OCR。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

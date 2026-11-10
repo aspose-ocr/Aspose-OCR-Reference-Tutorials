@@ -43,6 +43,10 @@ Potenzia le tue applicazioni Java con Aspose.OCR per un riconoscimento preciso d
 
 ## [Specifica dei caratteri consentiti in Aspose.OCR](./specify-allowed-characters/)
 
+## [Riconoscere il testo da un'immagine in Java – guida OCR completa](./recognize-text-from-image-in-java-complete-ocr-guide/)
+
+Esegui l'OCR su un'immagine in Java con una guida completa. Estrai testo con precisione e facilità.
+
 ## [Migliora l'accuratezza OCR in Java – Guida completa](./improve-ocr-accuracy-in-java-complete-guide/)
 
 Scopri come aumentare la precisione dell'OCR in Java con Aspose.OCR grazie a tecniche avanzate passo‑passo.

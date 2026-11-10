@@ -169,6 +169,8 @@ Learn how to extract tables from images in Java using Aspose.OCR with a complete
 Boost OCR accuracy by enhancing image contrast in Java. Follow this step‑by‑step guide to improve text extraction with Aspose.OCR.
 ### [Compress PDF Images with Java – Full Batch OCR to PDF Guide](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Learn how to compress PDF images and run batch OCR to generate searchable PDFs using Aspose.OCR for Java.
+### [recognize text from image in Java – complete OCR guide](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Comprehensive guide to recognize text from images in Java with Aspose.OCR.
 
 ### [How to Use OCR in Java – Parallel Processing with Aspose](./how-to-use-ocr-in-java-parallel-processing-with-aspose/)
 Accelerate OCR by processing multiple images concurrently with Aspose.OCR in Java for high‑throughput text extraction.

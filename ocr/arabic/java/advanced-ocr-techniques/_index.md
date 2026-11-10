@@ -243,6 +243,7 @@ url: /ar/java/advanced-ocr-techniques/
 تعلم كيفية تحسين تباين الصور قبل تطبيق OCR في Java للحصول على نص أكثر دقة باستخدام Aspose.OCR.
 ### [ضغط صور PDF باستخدام Java – دليل كامل لتطبيق OCR على دفعات إلى PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 استخدم Aspose.OCR لـ Java لضغط صور PDF وإجراء OCR على دفعات كاملة وتحويلها إلى ملفات PDF بدقة عالية.
+### [التعرف على النص من صورة في جافا – دليل OCR كامل](./recognize-text-from-image-in-java-complete-ocr-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

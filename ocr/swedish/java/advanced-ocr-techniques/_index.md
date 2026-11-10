@@ -251,6 +251,8 @@ Lär dig extrahera tabeller från bilder i Java med Aspose.OCR. En komplett steg
 Lär dig hur du förbättrar OCR-resultat genom att öka bildkontrasten i Java med vår kompletta programmeringsguide.
 ### [Komprimera PDF-bilder med Java – Full batch OCR till PDF-guide](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Komprimera PDF-bilder och kör batch-OCR till PDF med Java för snabb och exakt textextraktion.
+### [Känn igen text från bild i Java – komplett OCR-guide](./recognize-text-from-image-in-java-complete-ocr-guide/)
+En komplett guide för att känna igen text i bilder med Aspose.OCR för Java, steg-för-steg och hög noggrannhet.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

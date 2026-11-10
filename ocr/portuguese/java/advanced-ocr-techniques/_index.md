@@ -264,6 +264,8 @@ Aprenda a melhorar o contraste de imagens para OCR em Java, aumentando a precis�
 ### [Comprimir imagens PDF com Java – Guia completo de OCR em lote para PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Aprenda a comprimir imagens PDF e aplicar OCR em lote usando Java, gerando PDFs pesquisáveis com alta precisão.
 
+### [Reconhecendo texto de imagem em Java – guia completo de OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Aprenda a reconhecer texto em imagens usando Java com nosso guia completo de OCR, passo a passo e alta precisão.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

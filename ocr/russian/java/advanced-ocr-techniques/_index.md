@@ -259,6 +259,8 @@ Aspose.OCR для Java меняет правила игры, когда дело
 ### [Сжатие изображений PDF с помощью Java – Полное руководство по пакетному OCR в PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Узнайте, как сжать изображения в PDF и выполнить пакетное OCR, преобразуя их в PDF с помощью Aspose.OCR для Java.
 
+### [Распознавание текста из изображения в Java – полное руководство по OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Полное руководство по OCR в Java: извлеките текст из изображений с высокой точностью и простотой интеграции.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

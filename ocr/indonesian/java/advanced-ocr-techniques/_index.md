@@ -293,6 +293,8 @@ Pelajari cara meningkatkan kontras gambar untuk OCR Java dengan panduan pemrogra
 ### [Kompres Gambar PDF dengan Java – Panduan OCR Batch Penuh ke PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Pelajari cara mengompres gambar PDF dan melakukan OCR batch penuh ke PDF menggunakan Java dalam panduan langkah demi langkah.
 
+### [Mengenali teks dari gambar di Java – panduan OCR lengkap](./recognize-text-from-image-in-java-complete-ocr-guide/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose.OCR di Java. Ikuti langkah demi langkah untuk hasil akurat.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
