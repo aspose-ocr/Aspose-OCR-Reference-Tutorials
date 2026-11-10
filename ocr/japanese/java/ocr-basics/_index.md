@@ -103,7 +103,64 @@ Aspose.OCR for Java の可能性を解き放つステップバイステップガ
 Aspose.OCR for Java で OCR の精度を向上させます。傾き角度の計算方法をステップバイステップで学び、文書処理を簡単に改善します。
 
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
-Aspose.OCR for Java の力を引き出します。このステップバイステップガイドで画像からテキストをシームレスに抽出する方法を学び、効率的なテキスト認識のために今すぐダウンロードしてください。
+Aspose.OCR の力を引き出します。このステップバイステップガイドで画像からテキストをシームレスに抽出する方法を学び、効率的なテキスト認識のために今すぐダウンロードしてください。
+
+### [Java で PNG からテキストを認識する – Aspose OCR チュートリアル](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Java を使用して PNG 画像からテキストを抽出する手順を解説し、Aspose OCR の設定と実装方法を紹介します。
+
+### [Java で PNG からテキストを抽出 – 画像をテキストに変換](./extract-text-from-image-convert-png-to-text-in-java/)
+Java を使用して PNG 画像からテキストを抽出し、文字列に変換する手順を解説します。
+
+### [Java で画像からテキストを読む – 完全 Aspose OCR ガイド](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Java で画像からテキストを読み取る完全ガイドです。設定から実装までをステップバイステップで解説します。
+
+### [Java で OCR テキストを取得 – 完全 Aspose OCR 例](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+Java で OCR テキストを取得する完全なサンプルです。設定から実装までを段階的に解説します。
+
+### [Java で OCR を有効化する方法 – ステップバイステップガイド](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Java アプリケーションで OCR 機能を有効にし、テキスト抽出を開始する手順を詳しく解説します。
+
+### [画像からテキストへのチュートリアル – Aspose OCR でタミル語テキストを抽出](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Aspose OCR を使用して画像からタミル語テキストを抽出する手順を解説します。
+
+### [Java で画像からテキストを抽出 – 完全 OCR 例](./extract-text-from-image-in-java-complete-ocr-example/)
+Java を使用した画像からテキストを抽出する完全な OCR 実装手順をステップバイステップで解説します。
+
+### [Aspose OCR を使用した画像からのテキスト抽出 – Java クイックガイド](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+
+### [Java で画像からテキストを抽出 – Java OCR チュートリアル](./extract-text-from-image-in-java-java-ocr-tutorial/)
+Java を使用して画像からテキストを抽出する方法をステップバイステップで解説し、OCR の基本的な実装を学びます。
+
+### [Java で画像の OCR を実行 – JPG からテキストを抽出](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+Java で JPG 画像からテキストを抽出するシンプルな OCR 手順をステップバイステップで解説します。
+
+### [Java で画像からテキストを認識する – 完全 OCR チュートリアル](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+### [Aspose OCR を使用した画像からのテキスト抽出 – 完全な Java チュートリアル](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Aspose OCR を活用し、画像からテキストを抽出する手順をフルで解説します。Java での実装方法を詳しく紹介。
+
+### [画像をテキストに変換する Java – 完全な Aspose OCR 例](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Aspose OCR を使って画像からテキストを抽出するフル実装例をステップバイステップで解説します。
+
+### [Java で画像からテキストを抽出 – OCR でテキスト取得](./extract-text-from-image-in-java-get-text-from-ocr/)
+Aspose.OCR for Java を使用して画像からテキストを抽出し、OCR 結果を取得する方法をステップバイステップで解説します。
+
+### [Java で OCR を実行する方法 – 画像からテキストを抽出する完全ガイド](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Java を使って画像からテキストを抽出する手順を詳細に解説し、OCR の全プロセスを網羅します。
+
+### [Java OCR の例 – 画像を読み込み Aspose でテキストを認識する](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Aspose を使用して画像をロードし、テキスト認識を実行する基本的な Java コード例を紹介します。
+
+### [Java で画像の OCR を実行する – 完全ステップバイステップガイド](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Aspose.OCR を使用して画像からテキストを抽出する手順を詳しく解説し、コード例とベストプラクティスを紹介します。
+
+### [JPG 画像からテキストを認識する（Aspose OCR を使用、Java）](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Aspose OCR for Java を使って JPG 画像からテキストを抽出する手順をステップバイステップで解説します。
+
+### [Java で全 CPU コアを活用する – スレッドプールサイズを効率的に設定](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Java アプリケーションで利用可能なすべての CPU コアを活用し、最適なスレッドプールサイズの設定方法をステップバイステップで解説します。
+
+### [Java OCR で画像からテキストを読み取る – 完全 Aspose OCR ガイド](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Java と Aspose.OCR を使用して画像からテキストを抽出する完全な手順を解説し、設定から高度な機能まで網羅します。
 
 ### [Java で画像からテキストを抽出する – 完全 OCR ガイド](./extract-text-from-image-in-java-complete-ocr-guide/)
 Java を使用した画像テキスト抽出の全手順を解説し、OCR の設定・前処理・実装例を網羅します。
