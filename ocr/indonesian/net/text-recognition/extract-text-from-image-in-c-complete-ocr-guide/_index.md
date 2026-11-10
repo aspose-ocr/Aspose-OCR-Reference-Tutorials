@@ -1,37 +1,26 @@
 ---
 category: general
-date: 2026-07-21
-description: Ekstrak teks dari gambar menggunakan C# OCR – pelajari cara mengonversi
-  PNG menjadi teks, memuat gambar untuk OCR, dan mengenali teks Sirilik dengan Aspose.
+date: 2026-04-11
+description: Ekstrak teks dari gambar menggunakan Aspose OCR di C#. Pelajari cara
+  memuat gambar untuk OCR dan mengenali teks dari file TIFF dengan dukungan GPU.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - extract text from image
-- convert png to text
-- c# ocr example
-- load image for ocr
-- recognize cyrillic text
+- load image for OCR
+- recognize text from TIFF
+- Aspose OCR C#
+- GPU OCR processing
+- high‑resolution OCR
 language: id
-lastmod: 2026-07-21
-og_description: Ekstrak teks dari gambar dengan C# OCR. Panduan ini menunjukkan cara
-  mengonversi PNG ke teks, memuat gambar untuk OCR, dan mengenali teks Cyrillic menggunakan
-  Aspose.OCR.
-og_image_alt: Screenshot of C# code extracting text from an image using Aspose OCR
-og_title: Ekstrak Teks dari Gambar di C# – Panduan Lengkap OCR
-schemas:
-- author: Aspose
-  dateModified: '2026-07-21'
-  description: Extract text from image using C# OCR – learn to convert PNG to text,
-    load image for OCR, and recognize Cyrillic text with Aspose.
-  headline: Extract Text from Image in C# – Complete OCR Guide
-  type: TechArticle
+og_description: Ekstrak teks dari gambar dengan Aspose OCR di C#. Tutorial ini menunjukkan
+  cara memuat gambar untuk OCR dan mengenali teks dari TIFF menggunakan percepatan
+  GPU.
+og_title: Ekstrak Teks dari Gambar di C# – Panduan OCR Lengkap
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-- Cyrillic
+- GPU
 title: Ekstrak Teks dari Gambar di C# – Panduan OCR Lengkap
 url: /id/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 ---
@@ -42,221 +31,151 @@ url: /id/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 
 # Ekstrak Teks dari Gambar di C# – Panduan OCR Lengkap
 
-Pernah bertanya-tanya bagaimana cara **mengekstrak teks dari gambar** tanpa meninggalkan proyek C# Anda? Mungkin Anda memiliki sekumpulan struk yang dipindai, sekumpulan tanda Cyrillic, atau hanya screenshot PNG yang perlu diubah menjadi teks yang dapat dicari. Singkatnya, Anda menginginkan mesin OCR yang handal yang dapat *mengonversi PNG ke teks* secara langsung.  
+Pernah perlu **mengekstrak teks dari gambar** tetapi tidak yakin pustaka mana yang dapat menangani TIFF raksasa tanpa macet? Anda tidak sendirian. Dalam banyak proyek dunia nyata—misalnya digitalisasi faktur atau pengarsipan buku yang dipindai—kemampuan memuat gambar untuk OCR dan kemudian mengenali teks dari TIFF dengan cepat menjadi fitur yang menentukan keberhasilan.
 
-Kabar baik—Aspose.OCR membuat hal itu menjadi mungkin dengan hanya beberapa baris kode. Di bawah ini Anda akan melihat **contoh OCR C#** yang memuat gambar untuk OCR, menjalankan pengenalan, dan mencetak hasilnya, bahkan ketika bahasa sumbernya Cyrillic.
+Dalam panduan ini kami akan menunjukkan solusi praktis yang melakukan hal tersebut menggunakan Aspose OCR untuk .NET. Pada akhir tutorial Anda akan memiliki aplikasi konsol C# yang dapat dijalankan, memuat pemindaian resolusi tinggi, mengaktifkan pemrosesan berbasis GPU (dengan fallback yang elegan), dan menghasilkan teks polos. Tanpa bagian yang hilang, tanpa “lihat dokumentasi” yang mematikan.
 
-## Apa yang Dibahas dalam Tutorial Ini
+## Apa yang Anda Butuhkan
 
-- Menyiapkan mesin Aspose.OCR untuk pengenalan Cyrillic.  
-- **Muat gambar untuk OCR** dari jalur file atau stream.  
-- **Konversi PNG ke teks** dan keluarkan string biasa.  
-- Menangani kegagalan dan jebakan umum saat Anda **mengenali teks Cyrillic**.  
+- **.NET 6 atau lebih baru** (kode dapat dikompilasi dengan SDK terbaru apa pun)
+- Paket NuGet **Aspose.OCR untuk .NET**  
+  `dotnet add package Aspose.OCR`
+- **TIFF besar** atau format gambar lain yang ingin Anda OCR  
+  (contoh menggunakan `large_scan.tif`)
+- (Opsional) GPU yang mendukung CUDA 11+ – jika tidak ada, pustaka akan otomatis beralih ke mode CPU.
 
-Pada akhir panduan ini Anda akan memiliki program mandiri yang dapat dijalankan hari ini, plus beberapa tips yang membuat pipeline OCR Anda tetap kuat.
+Itu saja. Mari kita mulai.
 
-> **Prasyarat**  
-> - .NET 6.0 atau lebih baru (kode ini juga bekerja pada .NET Framework 4.7+).  
-> - Lisensi Aspose.OCR yang valid atau kunci evaluasi 30‑hari.  
-> - Paket NuGet `Aspose.OCR` terpasang (`dotnet add package Aspose.OCR`).  
+![Ekstrak teks dari gambar menggunakan Aspose OCR di C#](image-placeholder.png "Ekstrak teks dari gambar menggunakan Aspose OCR di C#")
 
-Jika Anda belum memiliki salah satu dari itu, dapatkan dulu—tidak ada hal lain yang diperlukan.
+## Langkah 1: Ekstrak Teks dari Gambar – Inisialisasi Mesin OCR
 
----
-
-## Ekstrak Teks dari Gambar – Langkah 1: Instal & Inisialisasi Mesin OCR
-
-Pertama-tama, kita memerlukan instance mesin OCR dan harus memberi tahu bahasa yang diharapkan. Aspose mendukung lebih dari 70 bahasa, dan untuk Cyrillic kita gunakan `OcrLanguage.Cyrillic`.
+Sebelum gambar apa pun dapat diproses, Anda memerlukan instance `OcrEngine`. Mesin ini menyimpan semua pengaturan yang mengontrol cara pengenalan berjalan.
 
 ```csharp
-using Aspose.OCR;
 using System;
-
-// Step 1: Create the engine and set the language to Cyrillic.
-OcrEngine engine = new OcrEngine
-{
-    Language = OcrLanguage.Cyrillic
-};
-```
-
-> **Mengapa mengatur bahasa?**  
-> Akurasi OCR turun drastis jika mesin menebak skrip yang salah. Dengan secara eksplisit menentukan Cyrillic, kita memberi mesin *head start*—ia mempersempit set karakter yang harus dipertimbangkan, yang mempercepat pemrosesan dan mengurangi kesalahan pengenalan.
-
----
-
-## Konversi PNG ke Teks – Langkah 2: Muat Gambar untuk OCR
-
-Sekarang kita benar‑benarnya **memuat gambar untuk OCR**. Contoh ini menggunakan file PNG, tetapi Aspose menerima JPEG, BMP, TIFF, dan bahkan halaman PDF.
-
-```csharp
-// Step 2: Load the PNG you want to convert to text.
-engine.Image = ImageStream.FromFile("YOUR_DIRECTORY/sample_cyrillic.png");
-```
-
-Jika Anda lebih suka bekerja dengan `MemoryStream` (misalnya, ketika gambar datang dari permintaan web), cukup ganti baris di atas dengan:
-
-```csharp
-using (var ms = new MemoryStream(File.ReadAllBytes("sample_cyrillic.png")))
-{
-    engine.Image = ImageStream.FromStream(ms);
-}
-```
-
-> **Tip:** Pertahankan resolusi gambar setidaknya 300 dpi untuk hasil terbaik. Screenshot beresolusi rendah sering menghasilkan output yang berantakan, terutama dengan alfabet non‑Latin.
-
----
-
-## Contoh OCR C# – Langkah 3: Lakukan Pengenalan
-
-Dengan mesin siap dan gambar sudah dimuat, pekerjaan OCR sebenarnya hanyalah satu pemanggilan metode.
-
-```csharp
-// Step 3: Run the recognition engine.
-bool success = engine.Recognize();
-```
-
-Metode `Recognize()` mengembalikan `true` ketika menemukan teks yang dapat dikenali. Jika mengembalikan `false`, Anda perlu menyelidiki penyebabnya—mungkin gambar terlalu buram atau bahasa belum diatur dengan benar.
-
----
-
-## Mengenali Teks Cyrillic – Langkah 4: Ambil dan Gunakan Hasilnya
-
-Dengan asumsi pengenalan berhasil, Anda kini dapat **mengekstrak teks dari gambar** dan melakukan apa saja yang Anda perlukan: menyimpannya ke basis data, mengirimnya ke indeks pencarian, atau sekadar menampilkannya.
-
-```csharp
-if (success)
-{
-    // Step 4: Grab the plain text.
-    string plainText = engine.Text;
-    Console.WriteLine("=== OCR RESULT ===");
-    Console.WriteLine(plainText);
-}
-else
-{
-    // Step 5: Handle recognition failure gracefully.
-    Console.WriteLine("Recognition failed. Check image quality or language settings.");
-}
-```
-
-### Output yang Diharapkan
-
-Menjalankan program lengkap terhadap PNG Cyrillic yang jelas menghasilkan sesuatu seperti:
-
-```
-=== OCR RESULT ===
-Пример текста на кириллице
-```
-
-Jika gambar berisi bahasa Inggris yang dicampur dengan Cyrillic, Aspose akan mengeluarkan kedua skrip selama bahasa diatur ke Cyrillic (ia mencakup subset Latin).
-
----
-
-## Jebakan Umum dan Pro Tip
-
-| Masalah | Mengapa Terjadi | Cara Memperbaikinya |
-|---------|----------------|---------------------|
-| **PNG buram atau beresolusi rendah** | Mesin OCR bergantung pada tepi karakter yang jelas. | Tingkatkan gambar ke 300 dpi atau terapkan filter penajaman sebelum memberi ke Aspose. |
-| **Pengaturan bahasa yang salah** | Mesin mencoba mencocokkan karakter dengan skrip yang tidak tepat. | Selalu atur `engine.Language` ke bahasa yang Anda harapkan, misalnya `OcrLanguage.Cyrillic`. |
-| **File besar menyebabkan tekanan memori** | Memuat gambar besar ke dalam `MemoryStream` dapat menghabiskan heap. | Gunakan `engine.Image = ImageStream.FromFile(path)` untuk pemrosesan langsung dari disk, atau proses halaman secara bertahap. |
-| **Pengenalan mengembalikan string kosong** | Mesin mungkin tidak mendeteksi zona teks. | Panggil `engine.SetImageProcessingOptions(new ImageProcessingOptions { DetectTextRegions = true })` sebelum `Recognize()`. |
-
-> **Pro tip:** Jika Anda perlu *mengekstrak teks dari gambar* secara massal, bungkus logika di atas dalam loop `Parallel.ForEach`—pastikan setiap thread membuat instance `OcrEngine`‑nya sendiri. Mesin tidak bersifat thread‑safe.
-
----
-
-## Memperluas Contoh: Banyak Bahasa & Panggilan Async
-
-Kode yang ditampilkan bersifat sinkron dan berfokus pada Cyrillic. Pada aplikasi dunia nyata Anda mungkin perlu mendukung bahasa Inggris dan Cyrillic dalam dokumen yang sama. Aspose memungkinkan Anda mengatur *array bahasa*:
-
-```csharp
-engine.Language = OcrLanguage.Cyrillic | OcrLanguage.English;
-```
-
-Untuk aplikasi yang responsif, panggil `RecognizeAsync()` sebagai gantinya:
-
-```csharp
-await engine.RecognizeAsync();
-string result = engine.Text; // same property, now filled after await
-```
-
-Ingat untuk menandai metode `Main` Anda sebagai `async Task` jika Anda memilih jalur ini.
-
----
-
-## Contoh Lengkap yang Siap Pakai
-
-Berikut adalah program lengkap yang siap disalin‑tempel. Simpan sebagai `Program.cs`, tambahkan paket NuGet Aspose.OCR, dan jalankan dari command line.
-
-```csharp
 using Aspose.OCR;
-using System;
-using System.IO;
+using Aspose.OCR.Settings;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create the OCR engine and set language to Cyrillic.
-        OcrEngine engine = new OcrEngine
+        // Initialise the OCR engine and request GPU processing.
+        // ProcessingMode.Auto tells Aspose to fall back to CPU if a GPU isn’t detected.
+        var ocrEngine = new OcrEngine
         {
-            Language = OcrLanguage.Cyrillic
+            Settings = { ProcessingMode = ProcessingMode.Gpu }
         };
 
-        // 2️⃣ Load the PNG you want to convert to text.
-        //    Replace the path with your actual file location.
-        string imagePath = "YOUR_DIRECTORY/sample_cyrillic.png";
+        // Optional: cap GPU memory usage to avoid OOM on shared machines.
+        ocrEngine.Settings.GpuMemoryLimit = 1024; // MB
+```
 
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"File not found: {imagePath}");
-            return;
-        }
+**Mengapa ini penting:**  
+`ProcessingMode.Gpu` dapat memangkas beberapa detik dari waktu pengenalan pada kartu modern, tetapi mengatur `ProcessingMode.Auto` (atau membiarkan default) lebih aman untuk lingkungan yang mungkin tidak memiliki GPU. Guard `GpuMemoryLimit` adalah tip praktis—tanpa itu, gambar berukuran besar dapat memonopoli seluruh VRAM dan menyebabkan aplikasi lain crash.
 
-        engine.Image = ImageStream.FromFile(imagePath);
+## Langkah 2: Muat Gambar untuk OCR – Bawa TIFF ke Memori
 
-        // 3️⃣ Perform the recognition.
-        bool success = engine.Recognize();
+Setelah mesin siap, kita perlu memberi gambar yang ingin dianalisis. Aspose menyediakan `ImageStream.FromFile` yang mengabstraksi penanganan format.
 
-        // 4️⃣ Retrieve and display the result.
-        if (success)
-        {
-            string plainText = engine.Text;
-            Console.WriteLine("=== OCR RESULT ===");
-            Console.WriteLine(plainText);
-        }
-        else
-        {
-            Console.WriteLine("Recognition failed. Verify image quality and language settings.");
-        }
+```csharp
+        // Load the high‑resolution TIFF you want to OCR.
+        // Replace the path with the location of your own file.
+        var image = ImageStream.FromFile(@"YOUR_DIRECTORY/large_scan.tif");
+```
+
+**Apa yang terjadi di balik layar?**  
+`ImageStream.FromFile` membaca file ke dalam stream dan secara otomatis mendeteksi format gambar (TIFF, PNG, JPEG, dll.). Jika Anda berurusan dengan TIFF multi‑halaman, Aspose akan memperlakukan setiap halaman sebagai frame terpisah; Anda dapat mengiterasinya nanti bila diperlukan.
+
+## Langkah 3: Kenali Teks dari TIFF – Jalankan Mesin OCR
+
+Dengan gambar dimuat, kerja berat dimulai. Metode `Recognize` mengembalikan objek `OcrResult` yang berisi teks yang diekstrak serta beberapa metadata berguna.
+
+```csharp
+        // Perform the OCR operation.
+        var ocrResult = ocrEngine.Recognize(image);
+```
+
+**Mengapa memanggil `Recognize` hanya sekali?**  
+Karena mesin menyimpan cache struktur internal setelah run pertama, satu panggilan sudah cukup untuk kebanyakan skenario. Jika Anda perlu memproses banyak halaman, gunakan kembali instance `OcrEngine` yang sama—ini menghindari overhead inisialisasi ulang konteks GPU.
+
+## Langkah 4: Tampilkan Hasil – Tunjukkan Teks yang Diekstrak
+
+Akhirnya, kami menuliskan string yang dikenali ke konsol. Dalam aplikasi nyata Anda mungkin akan menulisnya ke basis data atau file.
+
+```csharp
+        // Show the extracted plain text.
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-**Jalankan:**  
+**Output yang diharapkan:**  
+Jika `large_scan.tif` berisi faktur tercetak, Anda akan melihat sesuatu seperti:
 
-```bash
-dotnet run
+```
+Invoice #12345
+Date: 2024‑03‑15
+Total: $1,234.56
+...
 ```
 
-Anda akan melihat teks Cyrillic yang diekstrak tercetak di konsol.
+Tata letak tepatnya bergantung pada gambar sumber, tetapi poin pentingnya adalah Anda kini memiliki hasil **ekstrak teks dari gambar** yang siap diproses lebih lanjut.
 
----
+## Langkah 5: Pemecahan Masalah & Kasus Pojok
+
+### GPU Tidak Terdeteksi?
+
+Jika Anda menjalankan contoh pada mesin tanpa GPU yang kompatibel, mesin secara diam-diam beralih ke CPU ketika Anda menggunakan `ProcessingMode.Auto`. Untuk memaksa mode CPU secara eksplisit, ganti baris sebelumnya dengan:
+
+```csharp
+ocrEngine.Settings.ProcessingMode = ProcessingMode.Cpu;
+```
+
+### TIFF yang Memakan Banyak Memori
+
+Pemindaian sangat besar (misalnya 10 000 × 10 000 px) mungkin masih melampaui batas GPU 1 GB yang kami tetapkan. Dalam kasus itu, naikkan `GpuMemoryLimit` (jika Anda memiliki VRAM cadangan) atau turunkan skala gambar sebelum memberikannya ke mesin:
+
+```csharp
+var resized = image.Resize(4000, 4000); // keep aspect ratio as needed
+var ocrResult = ocrEngine.Recognize(resized);
+```
+
+### Dokumen Multi‑Halaman
+
+Jika TIFF Anda berisi beberapa halaman, lakukan loop pada masing‑masing:
+
+```csharp
+for (int i = 0; i < image.PageCount; i++)
+{
+    var pageStream = image.GetPage(i);
+    var result = ocrEngine.Recognize(pageStream);
+    Console.WriteLine($"--- Page {i + 1} ---");
+    Console.WriteLine(result.Text);
+}
+```
+
+### Dukungan Bahasa & Font
+
+Aspose OCR secara otomatis mendeteksi skrip berbasis Latin, tetapi untuk Cyrillic, Arab, atau font khusus Anda mungkin perlu menyediakan paket bahasa:
+
+```csharp
+ocrEngine.Settings.Language = Language.Russian; // example
+```
+
+## Tips Pro & Praktik Terbaik
+
+- **Gunakan kembali mesin**: Membuat `OcrEngine` baru untuk setiap gambar menambah latensi yang terlihat.
+- **Pemrosesan batch**: Saat menangani puluhan TIFF, antrikan mereka dan proses dalam thread paralel—tetapi perhatikan kontensi memori GPU.
+- **Validasi output**: OCR tidak sempurna; jalankan pemeriksaan ejaan sederhana atau validasi regex pada `ocrResult.Text` untuk menangkap kesalahan pengenalan yang jelas.
+- **Catat performa**: Ukur waktu yang dihabiskan `Stopwatch` sebelum dan sesudah `Recognize` untuk memutuskan apakah akselerasi GPU layak diterapkan di lingkungan Anda.
 
 ## Kesimpulan
 
-Kami telah menelusuri **contoh OCR C#** yang menunjukkan cara **mengekstrak teks dari gambar** file, khususnya PNG, menggunakan Aspose.OCR. Dengan mengatur bahasa ke Cyrillic, memuat gambar dengan benar, dan menangani jalur sukses serta kegagalan, Anda kini memiliki fondasi yang kuat untuk tugas ekstraksi teks apa pun—baik Anda mengonversi PNG ke teks untuk indeks pencarian atau membangun pemindai dokumen multibahasa.
+Anda kini memiliki contoh lengkap, end‑to‑end yang **mengekstrak teks dari gambar** menggunakan Aspose OCR di C#. Dengan memuat gambar untuk OCR, memanggil mesin untuk mengenali teks dari TIFF, dan menangani skenario GPU vs. CPU, tutorial ini memberi Anda fondasi siap produksi yang dapat disesuaikan untuk faktur, paspor, atau dokumen ter‑scan apa pun.
 
-Siap untuk langkah berikutnya? Coba ganti `OcrLanguage.Cyrillic` dengan `OcrLanguage.English` untuk melihat perbedaannya, atau bereksperimen dengan `ImageProcessingOptions` untuk meningkatkan akurasi pada pemindaian yang berisik. Dan jika Anda menemui kendala, dokumentasi Aspose serta forum komunitas adalah tempat yang bagus untuk menggali lebih dalam.
-
-Selamat coding, semoga hasil OCR Anda selalu jernih!
-
-## Apa yang Harus Anda Pelajari Selanjutnya?
-
-Tutorial berikut mencakup topik terkait yang membangun teknik yang ditunjukkan dalam panduan ini. Setiap sumber menyertakan contoh kode lengkap dengan penjelasan langkah‑demi‑langkah untuk membantu Anda menguasai fitur API tambahan dan mengeksplorasi pendekatan implementasi alternatif dalam proyek Anda.
-
-- [Ekstrak teks gambar C# dengan pemilihan bahasa menggunakan Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Ekstrak Teks dari Gambar – Optimasi OCR dengan Aspose.OCR untuk .NET](/ocr/english/net/ocr-optimization/)
-- [Cara Mengekstrak Teks dari Gambar Menggunakan Aspose.OCR untuk .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+Apa selanjutnya? Coba ganti TIFF dengan PDF multi‑halaman, bereksperimen dengan paket bahasa khusus, atau alirkan output ke pipeline pemrosesan bahasa alami untuk ekstraksi data otomatis. Langit adalah batasnya—selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

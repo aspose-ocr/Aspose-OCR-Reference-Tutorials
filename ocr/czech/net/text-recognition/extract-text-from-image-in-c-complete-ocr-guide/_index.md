@@ -1,37 +1,26 @@
 ---
 category: general
-date: 2026-07-21
-description: Extrahovat text z obrázku pomocí C# OCR – naučte se převést PNG na text,
-  načíst obrázek pro OCR a rozpoznat cyrilický text pomocí Aspose.
+date: 2026-04-11
+description: Extrahujte text z obrázku pomocí Aspose OCR v C#. Naučte se, jak načíst
+  obrázek pro OCR a rozpoznat text z TIFF souborů s podporou GPU.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - extract text from image
-- convert png to text
-- c# ocr example
-- load image for ocr
-- recognize cyrillic text
+- load image for OCR
+- recognize text from TIFF
+- Aspose OCR C#
+- GPU OCR processing
+- high‑resolution OCR
 language: cs
-lastmod: 2026-07-21
-og_description: Extrahujte text z obrázku pomocí C# OCR. Tento průvodce ukazuje, jak
-  převést PNG na text, načíst obrázek pro OCR a rozpoznat cyrilický text pomocí Aspose.OCR.
-og_image_alt: Screenshot of C# code extracting text from an image using Aspose OCR
+og_description: Extrahujte text z obrázku pomocí Aspose OCR v C#. Tento tutoriál ukazuje,
+  jak načíst obrázek pro OCR a rozpoznat text z TIFF pomocí akcelerace GPU.
 og_title: Extrahování textu z obrázku v C# – Kompletní průvodce OCR
-schemas:
-- author: Aspose
-  dateModified: '2026-07-21'
-  description: Extract text from image using C# OCR – learn to convert PNG to text,
-    load image for OCR, and recognize Cyrillic text with Aspose.
-  headline: Extract Text from Image in C# – Complete OCR Guide
-  type: TechArticle
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-- Cyrillic
-title: Extrahování textu z obrázku v C# – Kompletní průvodce OCR
+- GPU
+title: Extrahovat text z obrázku v C# – Kompletní průvodce OCR
 url: /cs/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
@@ -41,223 +30,151 @@ url: /cs/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 
 # Extrahování textu z obrázku v C# – Kompletní průvodce OCR
 
-Už jste se někdy zamýšleli, jak **extrahovat text z obrázku** souborů, aniž byste opustili svůj C# projekt? Možná máte hromadu naskenovaných účtenek, sadu cyrilických značek nebo jen PNG snímek, který potřebujete převést na prohledávatelný text. Jinými slovy, chcete spolehlivý OCR engine, který dokáže *převést PNG na text* za běhu.  
+Už jste někdy potřebovali **extrahovat text z obrázku**, ale nebyli jste si jisti, která knihovna zvládne obrovský TIFF, aniž by se zhroutila? Nejste v tom sami. V mnoha reálných projektech – například digitalizace faktur nebo archivace naskenovaných knih – se schopnost načíst obrázek pro OCR a poté rozpoznat text z TIFF rychle stane klíčovou funkcí.
 
-Dobrá zpráva – Aspose.OCR to umožňuje pomocí několika řádků kódu. Níže uvidíte **C# OCR příklad**, který načte obrázek pro OCR, spustí rozpoznání a vytiskne výsledek, i když je zdrojový jazyk cyrilický.
+V tomto průvodci si projdeme praktické řešení, které přesně to dělá pomocí Aspose OCR pro .NET. Na konci budete mít spustitelnou C# konzolovou aplikaci, která načte vysoce rozlišený sken, spustí zpracování akcelerované GPU (s elegantním přepnutím na CPU) a vypíše výsledek jako prostý text. Žádné chybějící části, žádné „viz dokumentaci“ slepé uličky.
 
-## Co tento tutoriál pokrývá
+## Co budete potřebovat
 
-- Nastavení Aspose.OCR enginu pro cyrilické rozpoznávání.  
-- **Načíst obrázek pro OCR** z cesty k souboru nebo ze streamu.  
-- **Převést PNG na text** a získat prostý řetězec.  
-- Zpracování selhání a běžných úskalí při **rozpoznávání cyrilického textu**.  
+- **.NET 6 nebo novější** (kód se kompiluje s jakýmkoli aktuálním SDK)
+- **Aspose.OCR for .NET** NuGet balíček  
+  `dotnet add package Aspose.OCR`
+- **Velký TIFF** nebo jakýkoli jiný formát obrázku, který chcete podrobit OCR  
+  (v příkladu se používá `large_scan.tif`)
+- (Volitelné) GPU, která podporuje CUDA 11+ – pokud ji nemáte, knihovna automaticky přepne do režimu CPU.
 
-Na konci tohoto průvodce budete mít samostatný program, který můžete spustit ještě dnes, plus několik tipů, jak udržet váš OCR pipeline robustní.
+To je vše. Pojďme na to.
 
-> **Předpoklady**  
-> - .NET 6.0 nebo novější (kód funguje také na .NET Framework 4.7+).  
-> - Platná licence Aspose.OCR nebo 30‑denní evaluační klíč.  
-> - NuGet balíček `Aspose.OCR` nainstalovaný (`dotnet add package Aspose.OCR`).  
+![Extrahování textu z obrázku pomocí Aspose OCR v C#](image-placeholder.png "Extrahování textu z obrázku pomocí Aspose OCR v C#")
 
-Pokud vám něco chybí, nejprve to pořiďte – nic dalšího není potřeba.
+## Krok 1: Extrahování textu z obrázku – Inicializace OCR enginu
 
----
-
-## Extrahování textu z obrázku – Krok 1: Instalace a inicializace OCR enginu
-
-Nejprve potřebujeme instanci OCR enginu a musíme mu říct, jaký jazyk očekáváme. Aspose podporuje více než 70 jazyků a pro cyrilické používáme `OcrLanguage.Cyrillic`.
+Než může být jakýkoli obrázek zpracován, potřebujete instanci `OcrEngine`. Engine obsahuje všechna nastavení, která řídí, jak probíhá rozpoznávání.
 
 ```csharp
-using Aspose.OCR;
 using System;
-
-// Step 1: Create the engine and set the language to Cyrillic.
-OcrEngine engine = new OcrEngine
-{
-    Language = OcrLanguage.Cyrillic
-};
-```
-
-> **Proč nastavit jazyk?**  
-> Přesnost OCR dramaticky klesá, pokud engine hádá špatné písmo. Tím, že explicitně specifikujeme cyrilické, dáváme enginu *přednost* – zúží sadu znaků, které musí zvažovat, což urychlí zpracování a sníží chybné rozpoznání.
-
----
-
-## Převést PNG na text – Krok 2: Načíst obrázek pro OCR
-
-Nyní skutečně **načteme obrázek pro OCR**. Příklad používá PNG soubor, ale Aspose přijímá JPEG, BMP, TIFF i PDF stránky.
-
-```csharp
-// Step 2: Load the PNG you want to convert to text.
-engine.Image = ImageStream.FromFile("YOUR_DIRECTORY/sample_cyrillic.png");
-```
-
-Pokud raději pracujete s `MemoryStream` (např. když obrázek přichází z webového požadavku), jednoduše nahraďte výše uvedený řádek tímto:
-
-```csharp
-using (var ms = new MemoryStream(File.ReadAllBytes("sample_cyrillic.png")))
-{
-    engine.Image = ImageStream.FromStream(ms);
-}
-```
-
-> **Tip:** Udržujte rozlišení obrázku alespoň na 300 dpi pro nejlepší výsledky. Nízké rozlišení screenshotů často vede k poškozenému výstupu, zejména u ne‑latinských abeced.
-
----
-
-## C# OCR příklad – Krok 3: Provedení rozpoznání
-
-S připraveným enginem a načteným obrázkem je samotná OCR práce jediným voláním metody.
-
-```csharp
-// Step 3: Run the recognition engine.
-bool success = engine.Recognize();
-```
-
-Metoda `Recognize()` vrací `true`, když najde rozpoznatelný text. Pokud vrátí `false`, musíte zjistit proč – možná je obrázek příliš rozmazaný nebo jazyk nebyl nastaven správně.
-
----
-
-## Rozpoznat cyrilický text – Krok 4: Získat a použít výsledek
-
-Předpokládáme, že rozpoznání uspělo, a nyní můžete **extrahovat text z obrázku** a udělat s ním, co potřebujete: uložit do databáze, předat do vyhledávacího indexu nebo jej jednoduše zobrazit.
-
-```csharp
-if (success)
-{
-    // Step 4: Grab the plain text.
-    string plainText = engine.Text;
-    Console.WriteLine("=== OCR RESULT ===");
-    Console.WriteLine(plainText);
-}
-else
-{
-    // Step 5: Handle recognition failure gracefully.
-    Console.WriteLine("Recognition failed. Check image quality or language settings.");
-}
-```
-
-### Očekávaný výstup
-
-Spuštění kompletního programu proti čistému cyrilickému PNG vrátí něco jako:
-
-```
-=== OCR RESULT ===
-Пример текста на кириллице
-```
-
-Pokud obrázek obsahuje angličtinu smíchanou s cyrilicí, Aspose vypíše oba skripty, pokud je jazyk nastaven na cyrilické (obsahuje i latinský podmnožinu).
-
----
-
-## Běžná úskalí a profesionální tipy
-
-| Problém | Proč se vyskytuje | Jak to opravit |
-|-------|----------------|---------------|
-| **Rozmazaný nebo nízké‑rozlišení PNG** | OCR engine potřebuje jasné hrany znaků. | Zvyšte rozlišení obrázku na 300 dpi nebo před zpracováním použijte filtr pro zaostření. |
-| **Špatné nastavení jazyka** | Engine se snaží přiřadit znaky ke špatnému písmu. | Vždy nastavte `engine.Language` na očekávaný jazyk, např. `OcrLanguage.Cyrillic`. |
-| **Velké soubory způsobující tlak na paměť** | Načtení obrovského obrázku do `MemoryStream` může vyčerpat haldu. | Použijte `engine.Image = ImageStream.FromFile(path)` pro zpracování z disku, nebo zpracovávejte stránky po částech. |
-| **Rozpoznání vrací prázdný řetězec** | Engine možná nenašel žádné textové oblasti. | Zavolejte `engine.SetImageProcessingOptions(new ImageProcessingOptions { DetectTextRegions = true })` před `Recognize()`. |
-
-> **Profesionální tip:** Pokud potřebujete *extrahovat text z obrázku* souborů hromadně, zabalte výše uvedenou logiku do smyčky `Parallel.ForEach` – jen se ujistěte, že každý vlákno vytvoří vlastní instanci `OcrEngine`. Engine není thread‑safe.
-
----
-
-## Rozšíření příkladu: Více jazyků a asynchronní volání
-
-Ukázaný kód je synchronní a zaměřuje se na cyrilické. Ve skutečných aplikacích můžete potřebovat podporovat jak angličtinu, tak cyrilické v jednom dokumentu. Aspose vám umožní nastavit *pole jazyků*:
-
-```csharp
-engine.Language = OcrLanguage.Cyrillic | OcrLanguage.English;
-```
-
-Pro aplikace citlivé na UI použijte `RecognizeAsync()`:
-
-```csharp
-await engine.RecognizeAsync();
-string result = engine.Text; // same property, now filled after await
-```
-
-Nezapomeňte označit vaši `Main` metodu jako `async Task`, pokud se rozhodnete pro tento přístup.
-
----
-
-## Kompletní funkční příklad
-
-Níže je kompletní program připravený ke zkopírování a vložení. Uložte jej jako `Program.cs`, přidejte NuGet balíček Aspose.OCR a spusťte z příkazové řádky.
-
-```csharp
 using Aspose.OCR;
-using System;
-using System.IO;
+using Aspose.OCR.Settings;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create the OCR engine and set language to Cyrillic.
-        OcrEngine engine = new OcrEngine
+        // Initialise the OCR engine and request GPU processing.
+        // ProcessingMode.Auto tells Aspose to fall back to CPU if a GPU isn’t detected.
+        var ocrEngine = new OcrEngine
         {
-            Language = OcrLanguage.Cyrillic
+            Settings = { ProcessingMode = ProcessingMode.Gpu }
         };
 
-        // 2️⃣ Load the PNG you want to convert to text.
-        //    Replace the path with your actual file location.
-        string imagePath = "YOUR_DIRECTORY/sample_cyrillic.png";
+        // Optional: cap GPU memory usage to avoid OOM on shared machines.
+        ocrEngine.Settings.GpuMemoryLimit = 1024; // MB
+```
 
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"File not found: {imagePath}");
-            return;
-        }
+**Proč je to důležité:**  
+`ProcessingMode.Gpu` může ušetřit sekundy rozpoznávacího času na moderní kartě, ale nastavení `ProcessingMode.Auto` (nebo ponechání výchozího) je bezpečnější v prostředích, kde může GPU chybět. Ochrana `GpuMemoryLimit` je praktický tip – bez ní by obrovský obrázek mohl monopolizovat veškerou VRAM a zhavarovat ostatní aplikace.
 
-        engine.Image = ImageStream.FromFile(imagePath);
+## Krok 2: Načtení obrázku pro OCR – Načtení TIFF do paměti
 
-        // 3️⃣ Perform the recognition.
-        bool success = engine.Recognize();
+Teď, když je engine připraven, musíme mu předat obrázek, který chceme analyzovat. Aspose poskytuje `ImageStream.FromFile`, který abstrahuje manipulaci s formáty.
 
-        // 4️⃣ Retrieve and display the result.
-        if (success)
-        {
-            string plainText = engine.Text;
-            Console.WriteLine("=== OCR RESULT ===");
-            Console.WriteLine(plainText);
-        }
-        else
-        {
-            Console.WriteLine("Recognition failed. Verify image quality and language settings.");
-        }
+```csharp
+        // Load the high‑resolution TIFF you want to OCR.
+        // Replace the path with the location of your own file.
+        var image = ImageStream.FromFile(@"YOUR_DIRECTORY/large_scan.tif");
+```
+
+**Co se děje pod kapotou?**  
+`ImageStream.FromFile` načte soubor do streamu a automaticky detekuje formát obrázku (TIFF, PNG, JPEG atd.). Pokud pracujete s více‑stránkovými TIFFy, Aspose bude každou stránku považovat za samostatný rámec; můžete je později iterovat, pokud bude potřeba.
+
+## Krok 3: Rozpoznání textu z TIFF – Spuštění OCR enginu
+
+S načteným obrázkem začíná těžká část. Metoda `Recognize` vrací objekt `OcrResult`, který obsahuje extrahovaný text a několik užitečných metadat.
+
+```csharp
+        // Perform the OCR operation.
+        var ocrResult = ocrEngine.Recognize(image);
+```
+
+**Proč volat `Recognize` jen jednou?**  
+Protože engine po prvním spuštění kešuje interní struktury, jeden volání stačí pro většinu scénářů. Pokud potřebujete zpracovat mnoho stránek, znovu použijte stejnou instanci `OcrEngine` – tím se vyhnete režii opětovného inicializování GPU kontextů.
+
+## Krok 4: Zobrazení výsledku – Ukázka extrahovaného textu
+
+Nakonec vypíšeme rozpoznaný řetězec do konzole. Ve skutečné aplikaci byste ho pravděpodobně uložili do databáze nebo souboru.
+
+```csharp
+        // Show the extracted plain text.
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-**Spusťte:**  
+**Očekávaný výstup:**  
+Pokud `large_scan.tif` obsahuje tištěnou fakturu, uvidíte něco jako:
 
-```bash
-dotnet run
+```
+Invoice #12345
+Date: 2024‑03‑15
+Total: $1,234.56
+...
 ```
 
-Měli byste vidět extrahovaný cyrilický text vytištěný v konzoli.
+Přesné rozložení závisí na zdrojovém obrázku, ale hlavní pointa je, že nyní máte **extrahování textu z obrázku** připravené pro další zpracování.
 
----
+## Krok 5: Řešení problémů a okrajové případy
+
+### GPU nebyl detekován?
+
+Pokud spustíte ukázku na stroji bez kompatibilního GPU, engine tiše přepne na CPU, když použijete `ProcessingMode.Auto`. Pro vynucení režimu CPU explicitně nahraďte předchozí řádek tímto:
+
+```csharp
+ocrEngine.Settings.ProcessingMode = ProcessingMode.Cpu;
+```
+
+### Paměťově náročné TIFFy
+
+Velmi velké skeny (např. 10 000 × 10 000 px) mohou stále překročit nastavený limit 1 GB GPU, který jsme stanovili. V takovém případě buď zvýšte `GpuMemoryLimit` (pokud máte volnou VRAM), nebo před předáním enginu obrázek zmenšete:
+
+```csharp
+var resized = image.Resize(4000, 4000); // keep aspect ratio as needed
+var ocrResult = ocrEngine.Recognize(resized);
+```
+
+### Vícestránkové dokumenty
+
+Pokud váš TIFF obsahuje více stránek, projděte je v cyklu:
+
+```csharp
+for (int i = 0; i < image.PageCount; i++)
+{
+    var pageStream = image.GetPage(i);
+    var result = ocrEngine.Recognize(pageStream);
+    Console.WriteLine($"--- Page {i + 1} ---");
+    Console.WriteLine(result.Text);
+}
+```
+
+### Podpora jazyků a fontů
+
+Aspose OCR automaticky detekuje latinské skripty, ale pro cyrilici, arabštinu nebo vlastní fonty možná budete muset dodat jazykový balíček:
+
+```csharp
+ocrEngine.Settings.Language = Language.Russian; // example
+```
+
+## Profesionální tipy a osvědčené postupy
+
+- **Znovu použijte engine**: Vytváření nového `OcrEngine` pro každý obrázek přidává znatelnou latenci.
+- **Dávkové zpracování**: Při práci s desítkami TIFFů je vhodné je zařadit do fronty a zpracovávat ve více vláknech – jen dejte pozor na soutěž o GPU paměť.
+- **Validujte výstup**: OCR není dokonalé; spusťte jednoduchou kontrolu pravopisu nebo regex validaci na `ocrResult.Text`, abyste zachytili zjevné chyby rozpoznání.
+- **Logujte výkon**: Změřte uplynulý čas pomocí `Stopwatch` před a po volání `Recognize`, abyste rozhodli, zda je akcelerace GPU ve vašem prostředí opodstatněná.
 
 ## Závěr
 
-Prošli jsme **C# OCR příkladem**, který ukazuje, jak **extrahovat text z obrázku** souborů, konkrétně PNG, pomocí Aspose.OCR. Nastavením jazyka na cyrilické, správným načtením obrázku a ošetřením úspěšných i neúspěšných cest máte nyní pevný základ pro jakýkoli úkol extrakce textu – ať už převádíte PNG na text pro vyhledávací index nebo budujete vícejazykový skener dokumentů.
+Nyní máte kompletní, end‑to‑end příklad, který **extrahuje text z obrázku** pomocí Aspose OCR v C#. Načtením obrázku pro OCR, vyvoláním enginu k rozpoznání textu z TIFF a ošetřením scénářů GPU vs. CPU vám tento tutoriál poskytuje produkčně připravený základ, který můžete přizpůsobit fakturám, pasům nebo jakémukoli naskenovanému dokumentu.
 
-Jste připraveni na další krok? Zkuste nahradit `OcrLanguage.Cyrillic` za `OcrLanguage.English` a podívejte se na rozdíl, nebo experimentujte s `ImageProcessingOptions` pro zlepšení přesnosti na špinavých skenech. A pokud narazíte na problémy, dokumentace Aspose a komunitní fóra jsou skvělá místa, kde můžete hlouběji ponořit.
-
-Šťastné programování a ať jsou vaše OCR výsledky vždy křišťálově čisté!
-
-
-## Co byste se měli naučit dál?
-
-
-Následující tutoriály pokrývají úzce související témata, která staví na technikách předvedených v tomto průvodci. Každý zdroj obsahuje kompletní funkční ukázky kódu s podrobnými vysvětleními, aby vám pomohl zvládnout další funkce API a prozkoumat alternativní implementační přístupy ve vašich projektech.
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/english/net/ocr-optimization/)
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+Co dál? Vyzkoušejte zaměnit TIFF za více‑stránkový PDF, experimentujte s vlastními jazykovými balíčky nebo nasměrujte výstup do pipeline pro zpracování přirozeného jazyka a automatické získávání dat. Možnosti jsou neomezené – hodně štěstí při kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

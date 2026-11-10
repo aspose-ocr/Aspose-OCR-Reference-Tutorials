@@ -1,39 +1,28 @@
 ---
 category: general
-date: 2026-07-21
-description: Szöveg kinyerése képből C# OCR használatával – tanulja meg, hogyan konvertáljon
-  PNG-t szöveggé, hogyan töltse be a képet OCR-hez, és hogyan ismerje fel a cirill
-  szöveget az Aspose segítségével.
+date: 2026-04-11
+description: Szöveg kinyerése képből Aspose OCR használatával C#-ban. Tanulja meg,
+  hogyan töltsön be képet OCR-hez, és hogyan ismerje fel a szöveget TIFF‑fájlokból
+  GPU‑támogatással.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - extract text from image
-- convert png to text
-- c# ocr example
-- load image for ocr
-- recognize cyrillic text
+- load image for OCR
+- recognize text from TIFF
+- Aspose OCR C#
+- GPU OCR processing
+- high‑resolution OCR
 language: hu
-lastmod: 2026-07-21
-og_description: Szöveg kinyerése képből C# OCR-rel. Ez az útmutató bemutatja, hogyan
-  konvertáljunk PNG-t szöveggé, hogyan töltsünk be képet OCR-hez, és hogyan ismerjünk
-  fel cirill szöveget az Aspose.OCR segítségével.
-og_image_alt: Screenshot of C# code extracting text from an image using Aspose OCR
-og_title: Szöveg kinyerése képből C#-ban – Teljes OCR útmutató
-schemas:
-- author: Aspose
-  dateModified: '2026-07-21'
-  description: Extract text from image using C# OCR – learn to convert PNG to text,
-    load image for OCR, and recognize Cyrillic text with Aspose.
-  headline: Extract Text from Image in C# – Complete OCR Guide
-  type: TechArticle
+og_description: Szöveg kinyerése képből az Aspose OCR-rel C#-ban. Ez az útmutató bemutatja,
+  hogyan töltsünk be képet OCR-hez, és hogyan ismerjük fel a szöveget TIFF-fájlból
+  GPU-gyorsítással.
+og_title: Képből szöveg kinyerése C#-ban – Teljes OCR útmutató
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-- Cyrillic
-title: Képből szöveg kinyerése C#-ban – Teljes OCR útmutató
+- GPU
+title: Szöveg kinyerése képből C#‑ban – Teljes OCR útmutató
 url: /hu/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
@@ -41,223 +30,153 @@ url: /hu/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Szöveg kinyerése képből C#‑ban – Teljes OCR útmutató
+# Kép szövegének kinyerése C#-ban – Teljes OCR útmutató
 
-Gondolkodtál már azon, hogyan **képből szöveg kinyerése** fájlokból anélkül, hogy elhagynád a C# projektedet? Lehet, hogy van egy csomó beolvasott nyugta, egy sor cirill jelek, vagy csak egy PNG képernyőkép, amit kereshető szöveggé szeretnél alakítani. Röviden: egy megbízható OCR motorra van szükséged, amely *PNG‑t szöveggé* alakít valós időben.  
+Valaha is szükséged volt **kép szövegének kinyerésére**, de nem tudtad, melyik könyvtár képes egy óriási TIFF-et kezelni anélkül, hogy elakadozna? Nem vagy egyedül. Sok valós projektben – gondolj a számlák digitalizálására vagy a beolvasott könyvek archiválására – a kép betöltése OCR-hez, majd a szöveg felismerése TIFF-ből gyorsan döntő funkcióvá válik.
 
-Jó hír – az Aspose.OCR ezt lehetővé teszi néhány sor kóddal. Az alábbiakban egy **C# OCR példa** látható, amely betölti a képet OCR‑hez, futtatja a felismerést, és kiírja az eredményt, még akkor is, ha a forrásnyelv cirill.
+Ebben az útmutatóban lépésről lépésre bemutatunk egy gyakorlati megoldást, amely pontosan ezt teszi az Aspose OCR for .NET használatával. A végére egy futtatható C# konzolalkalmazásod lesz, amely betölti a nagy felbontású beolvasást, elindítja a GPU‑gyorsított feldolgozást (elegáns visszaeséssel), és kiadja a sima szöveg eredményt. Nincs hiányzó rész, nincs „lásd a dokumentációt” zsákutcája.
 
-## Mit fed le ez a tutorial
+## Amire szükséged lesz
 
-- Az Aspose.OCR motor beállítása cirill felismeréshez.  
-- **Kép betöltése OCR‑hez** fájlútról vagy stream‑ből.  
-- **PNG‑t szöveggé** konvertálása és a tiszta karakterlánc kiírása.  
-- Hibakezelés és gyakori buktatók, amikor **cirill szöveget ismerünk fel**.  
+- **.NET 6 vagy újabb** (a kód bármely friss SDK-val fordítható)
+- **Aspose.OCR for .NET** NuGet csomag  
+  `dotnet add package Aspose.OCR`
+- Egy **nagy TIFF** vagy bármely más képformátum, amit OCR-ozni szeretnél  
+  (a példában `large_scan.tif` használatos)
+- (Opcionális) GPU, amely támogatja a CUDA 11+ – ha nincs, a könyvtár automatikusan CPU módra vált.
 
-A végére egy önálló programmal leszel felvértezve, amelyet már ma futtathatsz, valamint néhány tippel, amelyek az OCR folyamatot robusztusabbá teszik.
+Ennyi. Merüljünk bele.
 
-> **Előkövetelmények**  
-> - .NET 6.0 vagy újabb (a kód .NET Framework 4.7+‑on is működik).  
-> - Érvényes Aspose.OCR licenc vagy 30‑napos értékelő kulcs.  
-> - Telepített `Aspose.OCR` NuGet csomag (`dotnet add package Aspose.OCR`).  
+![Kép szövegének kinyerése Aspose OCR-rel C#-ban](image-placeholder.png "Kép szövegének kinyerése Aspose OCR-rel C#-ban")
 
-Ha valamelyik hiányzik, először szerezd be – egyébként nincs más szükség.
+## 1. lépés: Kép szövegének kinyerése – OCR motor inicializálása
 
----
-
-## Szöveg kinyerése képből – 1. lépés: Az OCR motor telepítése és inicializálása
-
-Először is szükségünk van egy OCR motor példányra, és meg kell mondanunk, milyen nyelvet várunk. Az Aspose több mint 70 nyelvet támogat, cirillhez a `OcrLanguage.Cyrillic`‑t használjuk.
+Mielőtt bármely képet feldolgoznánk, szükség van egy `OcrEngine` példányra. A motor tartalmazza az összes beállítást, amely szabályozza a felismerés működését.
 
 ```csharp
-using Aspose.OCR;
 using System;
-
-// Step 1: Create the engine and set the language to Cyrillic.
-OcrEngine engine = new OcrEngine
-{
-    Language = OcrLanguage.Cyrillic
-};
-```
-
-> **Miért kell beállítani a nyelvet?**  
-> Az OCR pontossága drámaian csökken, ha a motor rossz írásrendszert feltételez. A cirill explicit megadása *előnyt* biztosít a motor számára – szűkíti a figyelembe veendő karakterkészletet, ami felgyorsítja a feldolgozást és csökkenti a hibás felismeréseket.
-
----
-
-## PNG‑t szöveggé – 2. lépés: Kép betöltése OCR‑hez
-
-Most ténylegesen **betöltjük a képet OCR‑hez**. A példa egy PNG fájlt használ, de az Aspose elfogadja a JPEG, BMP, TIFF és még a PDF oldalakat is.
-
-```csharp
-// Step 2: Load the PNG you want to convert to text.
-engine.Image = ImageStream.FromFile("YOUR_DIRECTORY/sample_cyrillic.png");
-```
-
-Ha inkább `MemoryStream`‑et szeretnél használni (pl. amikor a kép egy webkérésből érkezik), egyszerűen cseréld le a fenti sort erre:
-
-```csharp
-using (var ms = new MemoryStream(File.ReadAllBytes("sample_cyrillic.png")))
-{
-    engine.Image = ImageStream.FromStream(ms);
-}
-```
-
-> **Tipp:** A legjobb eredményhez a kép felbontását legalább 300 dpi‑re állítsd. Az alacsony felbontású képernyőképek gyakran torz kimenetet eredményeznek, különösen nem latin ábécékkel.
-
----
-
-## C# OCR példa – 3. lépés: A felismerés végrehajtása
-
-A motor készen áll, a kép betöltve, a tényleges OCR munka egyetlen metódushívás.
-
-```csharp
-// Step 3: Run the recognition engine.
-bool success = engine.Recognize();
-```
-
-A `Recognize()` metódus `true`‑t ad vissza, ha felismerhető szöveget talál. Ha `false`‑t ad vissza, ki kell derítened, miért – lehet, hogy a kép túl elmosódott vagy a nyelv nincs helyesen beállítva.
-
----
-
-## Cirill szöveg felismerése – 4. lépés: Az eredmény lekérése és felhasználása
-
-Ha a felismerés sikeres, most már **képből szöveg kinyerése** lehetséges, és bármit megtehetsz vele: adatbázisba mentheted, keresőindexbe betáplálhatod, vagy egyszerűen megjelenítheted.
-
-```csharp
-if (success)
-{
-    // Step 4: Grab the plain text.
-    string plainText = engine.Text;
-    Console.WriteLine("=== OCR RESULT ===");
-    Console.WriteLine(plainText);
-}
-else
-{
-    // Step 5: Handle recognition failure gracefully.
-    Console.WriteLine("Recognition failed. Check image quality or language settings.");
-}
-```
-
-### Várható kimenet
-
-A teljes program futtatása egy tiszta cirill PNG‑nél valami ilyesmit ad:
-
-```
-=== OCR RESULT ===
-Пример текста на кириллице
-```
-
-Ha a kép angolt is tartalmaz cirill mellett, az Aspose mindkét írásrendszert kiírja, amíg a nyelv cirillre van állítva (tartalmazza a latin alhalmazt is).
-
----
-
-## Gyakori buktatók és profi tippek
-
-| Probléma | Miért fordul elő | Hogyan javítsuk |
-|----------|------------------|-----------------|
-| **Elmosódott vagy alacsony felbontású PNG** | Az OCR motorok tiszta karakterélre támaszkodnak. | Méretezd fel a képet 300 dpi‑re, vagy alkalmazz élesítő szűrőt, mielőtt az Aspose‑nek átadod. |
-| **Rossz nyelvi beállítás** | A motor a karaktereket a rossz írásrendszerhez próbálja igazítani. | Mindig állítsd be az `engine.Language`‑t a várt nyelvre, pl. `OcrLanguage.Cyrillic`. |
-| **Nagy fájlok memória nyomást okoznak** | Egy hatalmas kép `MemoryStream`‑be töltése kimerítheti a heap‑et. | Használd az `engine.Image = ImageStream.FromFile(path)`‑t lemez‑alapú feldolgozáshoz, vagy dolgozz oldalanként darabokban. |
-| **A felismerés üres karakterláncot ad** | A motor nem talált szövegzónákat. | Hívd meg a `engine.SetImageProcessingOptions(new ImageProcessingOptions { DetectTextRegions = true })`‑t a `Recognize()` előtt. |
-
-> **Pro tipp:** Ha **képből szöveg kinyerése** fájlokat tömegesen szeretnéd végrehajtani, csomagold a fenti logikát egy `Parallel.ForEach` ciklusba – csak ügyelj arra, hogy minden szál saját `OcrEngine` példányt hozzon létre. A motor nem szálbiztos.
-
----
-
-## A példa bővítése: Több nyelv és aszinkron hívások
-
-A bemutatott kód szinkron, és csak a cirillre fókuszál. Valós alkalmazásokban gyakran szükség van angol és cirill egyidejű támogatására. Az Aspose lehetővé teszi egy *nyelvtömb* beállítását:
-
-```csharp
-engine.Language = OcrLanguage.Cyrillic | OcrLanguage.English;
-```
-
-UI‑barát alkalmazásokhoz hívd meg a `RecognizeAsync()`‑t:
-
-```csharp
-await engine.RecognizeAsync();
-string result = engine.Text; // same property, now filled after await
-```
-
-Ne felejtsd el a `Main` metódusod `async Task`‑ként jelölni, ha ezt az utat választod.
-
----
-
-## Teljes működő példa
-
-Az alábbiakban a teljes, másolás‑beillesztés‑kész program látható. Mentsd `Program.cs`‑ként, add hozzá az Aspose.OCR NuGet csomagot, és futtasd a parancssorból.
-
-```csharp
 using Aspose.OCR;
-using System;
-using System.IO;
+using Aspose.OCR.Settings;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create the OCR engine and set language to Cyrillic.
-        OcrEngine engine = new OcrEngine
+        // Initialise the OCR engine and request GPU processing.
+        // ProcessingMode.Auto tells Aspose to fall back to CPU if a GPU isn’t detected.
+        var ocrEngine = new OcrEngine
         {
-            Language = OcrLanguage.Cyrillic
+            Settings = { ProcessingMode = ProcessingMode.Gpu }
         };
 
-        // 2️⃣ Load the PNG you want to convert to text.
-        //    Replace the path with your actual file location.
-        string imagePath = "YOUR_DIRECTORY/sample_cyrillic.png";
+        // Optional: cap GPU memory usage to avoid OOM on shared machines.
+        ocrEngine.Settings.GpuMemoryLimit = 1024; // MB
+```
 
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"File not found: {imagePath}");
-            return;
-        }
+**Miért fontos:**  
+A `ProcessingMode.Gpu` másodperceket takaríthat meg a felismerés időből egy modern kártyán, de a `ProcessingMode.Auto` beállítása (vagy az alapértelmezett hagyása) biztonságosabb olyan környezetekben, ahol a GPU hiányozhat. A `GpuMemoryLimit` korlátozás egy praktikus tipp – nélküle egy hatalmas kép elnyelheti az összes VRAM-ot és összeomlaszthat más alkalmazásokat.
 
-        engine.Image = ImageStream.FromFile(imagePath);
+## 2. lépés: Kép betöltése OCR-hez – TIFF betöltése a memóriába
 
-        // 3️⃣ Perform the recognition.
-        bool success = engine.Recognize();
+Miután a motor készen áll, be kell táplálnunk a képet, amelyet elemezni szeretnénk. Az Aspose biztosítja a `ImageStream.FromFile`-t, amely elrejti a formátumkezelést.
 
-        // 4️⃣ Retrieve and display the result.
-        if (success)
-        {
-            string plainText = engine.Text;
-            Console.WriteLine("=== OCR RESULT ===");
-            Console.WriteLine(plainText);
-        }
-        else
-        {
-            Console.WriteLine("Recognition failed. Verify image quality and language settings.");
-        }
+```csharp
+        // Load the high‑resolution TIFF you want to OCR.
+        // Replace the path with the location of your own file.
+        var image = ImageStream.FromFile(@"YOUR_DIRECTORY/large_scan.tif");
+```
+
+**Mi történik a háttérben?**  
+A `ImageStream.FromFile` beolvassa a fájlt egy streambe, és automatikusan felismeri a képformátumot (TIFF, PNG, JPEG, stb.). Ha többoldalas TIFF-ekkel dolgozol, az Aspose minden oldalt külön keretként kezel; később szükség esetén végigiterálhatsz rajtuk.
+
+## 3. lépés: Szöveg felismerése TIFF-ből – OCR motor futtatása
+
+A kép betöltése után kezdődik a nehéz munka. A `Recognize` metódus egy `OcrResult` objektumot ad vissza, amely tartalmazza a kinyert szöveget és néhány hasznos metaadat mezőt.
+
+```csharp
+        // Perform the OCR operation.
+        var ocrResult = ocrEngine.Recognize(image);
+```
+
+**Miért hívjuk a `Recognize`-t csak egyszer?**  
+Mivel a motor az első futtatás után belső struktúrákat cache-eli, egyetlen hívás elegendő a legtöbb esetben. Ha sok oldalt kell feldolgozni, használd újra ugyanazt a `OcrEngine` példányt – ez elkerüli a GPU kontextusok újra‑inicializálásának többletterhelését.
+
+## 4. lépés: Eredmény megjelenítése – Kinyert szöveg mutatása
+
+Végül kiírjuk a felismert karakterláncot a konzolra. Egy valódi alkalmazásban valószínűleg adatbázisba vagy fájlba írnád.
+
+```csharp
+        // Show the extracted plain text.
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-**Futtasd:**  
+**Várható kimenet:**  
+Ha a `large_scan.tif` egy nyomtatott számlát tartalmaz, valami ilyesmit látsz majd:
 
-```bash
-dotnet run
+```
+Invoice #12345
+Date: 2024‑03‑15
+Total: $1,234.56
+...
 ```
 
-A konzolon a kinyert cirill szöveget kell látnod.
+A pontos elrendezés a forrásképtől függ, de a lényeg, hogy most már **kép szövegének kinyerése** eredmények állnak rendelkezésedre a további feldolgozáshoz.
 
----
+## 5. lépés: Hibaelhárítás és szélhelyzetek
+
+### GPU nem észlelhető?
+
+Ha a példát egy kompatibilis GPU nélküli gépen futtatod, a motor csendben visszaesik CPU-ra, ha a `ProcessingMode.Auto`-t használod. A CPU mód kényszerítéséhez cseréld le a korábbi sort a következőre:
+
+```csharp
+ocrEngine.Settings.ProcessingMode = ProcessingMode.Cpu;
+```
+
+### Memóriaigényes TIFF-ek
+
+Nagyon nagy beolvasások (pl. 10 000 × 10 000 px) még mindig meghaladhatják a beállított 1 GB GPU limitet. Ebben az esetben vagy növeld a `GpuMemoryLimit`-et (ha van szabad VRAM-od), vagy méretezd le a képet, mielőtt a motorba táplálnád:
+
+```csharp
+var resized = image.Resize(4000, 4000); // keep aspect ratio as needed
+var ocrResult = ocrEngine.Recognize(resized);
+```
+
+### Többoldalas dokumentumok
+
+Ha a TIFF több oldalt tartalmaz, iterálj rajtuk:
+
+```csharp
+for (int i = 0; i < image.PageCount; i++)
+{
+    var pageStream = image.GetPage(i);
+    var result = ocrEngine.Recognize(pageStream);
+    Console.WriteLine($"--- Page {i + 1} ---");
+    Console.WriteLine(result.Text);
+}
+```
+
+### Nyelv‑ és betűtípus‑támogatás
+
+Az Aspose OCR automatikusan felismeri a latin‑alapú írásrendszereket, de cirill, arab vagy egyedi betűtípusok esetén nyelvi csomagra lehet szükség:
+
+```csharp
+ocrEngine.Settings.Language = Language.Russian; // example
+```
+
+## Profi tippek és bevált gyakorlatok
+
+- **Használd újra a motort**: Új `OcrEngine` létrehozása képenként észrevehető késleltetést okoz.
+- **Kötegelt feldolgozás**: Több tucat TIFF kezelésekor sorba állítsd őket, és párhuzamos szálakban dolgozd fel – csak figyelj a GPU memória versengésre.
+- **Eredmény ellenőrzése**: Az OCR nem tökéletes; futtass egyszerű helyesírás‑ellenőrzést vagy regex validálást a `ocrResult.Text`-en, hogy elkapd a nyilvánvaló hibákat.
+- **Teljesítmény naplózása**: Mérd a `Stopwatch` által mért eltelt időt a `Recognize` előtt és után, hogy eldöntsd, megéri‑e a GPU gyorsítás a környezetedben.
 
 ## Összegzés
 
-Áttekintettük a **C# OCR példát**, amely megmutatja, hogyan **képből szöveg kinyerése** fájlokból, különösen PNG‑kből, az Aspose.OCR segítségével. A nyelv cirillre állításával, a kép megfelelő betöltésével és a siker‑ és hiba‑utak kezelésével most már egy szilárd alapod van bármilyen szöveg‑kinyerési feladathoz – legyen szó PNG‑t szöveggé alakításról egy keresőindexhez vagy egy többnyelvű dokumentumszkenner építéséről.
+Most már egy teljes, vég‑től‑végig példát kapsz, amely **kép szövegének kinyerését** valósítja meg Aspose OCR használatával C#-ban. A kép betöltésével OCR-hez, a motor meghívásával a TIFF-ből szöveg felismeréséhez, valamint a GPU és CPU szcenáriók kezelésével ez az útmutató egy termelés‑kész alapot nyújt, amelyet számlák, útlevelek vagy bármely beolvasott dokumentum esetén testre szabhatsz.
 
-Készen állsz a következő lépésre? Próbáld ki a `OcrLanguage.Cyrillic` helyett a `OcrLanguage.English`‑t, hogy lásd a különbséget, vagy kísérletezz az `ImageProcessingOptions`‑szel a zajos beolvasások pontosságának javításához. Ha elakadsz, az Aspose dokumentációja és a közösségi fórumok remek helyek a mélyebb kutatáshoz.
-
-Boldog kódolást, és legyen az OCR eredményed mindig kristálytiszta!
-
-## Mit érdemes még tanulni?
-
-Az alábbi tutorialok szorosan kapcsolódó témákat fednek le, amelyek a jelen útmutatóban bemutatott technikákra épülnek. Minden forrás komplett, működő kódrészleteket tartalmaz lépés‑ről‑lépésre magyarázatokkal, hogy további API‑funkciókat saját projektjeidben is könnyedén felfedezhess és alternatív megvalósítási módokat próbálhass ki.
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/english/net/ocr-optimization/)
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+Mi a következő? Próbáld meg a TIFF-et egy többoldalas PDF-re cserélni, kísérletezz egyedi nyelvi csomagokkal, vagy irányítsd az eredményt egy természetes nyelvfeldolgozó csővezetékbe az automatikus adatkinyeréshez. A lehetőségek végtelenek – jó kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

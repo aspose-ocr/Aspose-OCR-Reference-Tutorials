@@ -1,38 +1,27 @@
 ---
 category: general
-date: 2026-07-21
-description: Estrai il testo da un’immagine usando C# OCR – impara a convertire PNG
-  in testo, caricare l’immagine per OCR e riconoscere il testo cirillico con Aspose.
+date: 2026-04-11
+description: Estrai il testo da un'immagine usando Aspose OCR in C#. Scopri come caricare
+  l'immagine per l'OCR e riconoscere il testo dai file TIFF con supporto GPU.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - extract text from image
-- convert png to text
-- c# ocr example
-- load image for ocr
-- recognize cyrillic text
+- load image for OCR
+- recognize text from TIFF
+- Aspose OCR C#
+- GPU OCR processing
+- high‑resolution OCR
 language: it
-lastmod: 2026-07-21
-og_description: Estrai il testo da un'immagine con OCR in C#. Questa guida mostra
-  come convertire PNG in testo, caricare l'immagine per l'OCR e riconoscere il testo
-  cirillico usando Aspose.OCR.
-og_image_alt: Screenshot of C# code extracting text from an image using Aspose OCR
+og_description: Estrai il testo da un'immagine con Aspose OCR in C#. Questo tutorial
+  mostra come caricare l'immagine per l'OCR e riconoscere il testo da un TIFF utilizzando
+  l'accelerazione GPU.
 og_title: Estrai testo da un'immagine in C# – Guida completa all'OCR
-schemas:
-- author: Aspose
-  dateModified: '2026-07-21'
-  description: Extract text from image using C# OCR – learn to convert PNG to text,
-    load image for OCR, and recognize Cyrillic text with Aspose.
-  headline: Extract Text from Image in C# – Complete OCR Guide
-  type: TechArticle
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-- Cyrillic
-title: Estrai testo da immagine in C# – Guida completa all'OCR
+- GPU
+title: Estrai testo da un'immagine in C# – Guida completa all'OCR
 url: /it/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
@@ -42,223 +31,151 @@ url: /it/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 
 # Estrai testo da immagine in C# – Guida completa OCR
 
-Ti sei mai chiesto come **estrarre testo da immagine** senza uscire dal tuo progetto C#? Forse hai una serie di ricevute scannerizzate, un set di insegne cirilliche, o semplicemente uno screenshot PNG che devi trasformare in testo ricercabile. In breve, vuoi un motore OCR affidabile che possa *convertire PNG in testo* al volo.  
+Ti è mai capitato di dover **estrarre testo da un'immagine** senza sapere quale libreria gestisse un enorme TIFF senza bloccarsi? Non sei solo. In molti progetti reali—pensa alla digitalizzazione di fatture o all'archiviazione di libri scansionati—la capacità di caricare un'immagine per l'OCR e poi riconoscere il testo da un TIFF diventa rapidamente una funzionalità decisiva.
 
-Buone notizie: Aspose.OCR lo rende possibile con poche righe di codice. Di seguito vedrai un **esempio OCR in C#** che carica un'immagine per l'OCR, esegue il riconoscimento e stampa il risultato, anche quando la lingua di origine è il cirillico.
+In questa guida percorreremo una soluzione pratica che fa esattamente questo usando Aspose OCR per .NET. Alla fine avrai un’app console C# funzionante che carica una scansione ad alta risoluzione, avvia l'elaborazione accelerata da GPU (con un fallback elegante) e restituisce il risultato in testo semplice. Nessun pezzo mancante, nessun “vedi la documentazione” senza risposta.
 
-## Cosa copre questo tutorial
+## Cosa ti serve
 
-- Configurare il motore Aspose.OCR per il riconoscimento cirillico.  
-- **Caricare immagine per OCR** da un percorso file o da uno stream.  
-- **Convertire PNG in testo** e restituire la stringa semplice.  
-- Gestire errori e problemi comuni quando **rilevi testo cirillico**.  
+- **.NET 6 o successivo** (il codice si compila con qualsiasi SDK recente)
+- **Aspose.OCR per .NET** pacchetto NuGet  
+  `dotnet add package Aspose.OCR`
+- Un **grande TIFF** o qualsiasi altro formato immagine che desideri sottoporre a OCR  
+  (l’esempio utilizza `large_scan.tif`)
+- (Opzionale) Una GPU che supporti CUDA 11+ – se non ne possiedi una, la libreria passerà automaticamente alla modalità CPU.
 
-Al termine di questa guida avrai un programma autonomo che potrai eseguire subito, più una serie di consigli per mantenere la tua pipeline OCR robusta.
+Tutto qui. Iniziamo.
 
-> **Prerequisiti**  
-> - .NET 6.0 o successivo (il codice funziona anche su .NET Framework 4.7+).  
-> - Una licenza valida di Aspose.OCR o una chiave di valutazione di 30 giorni.  
-> - Il pacchetto NuGet `Aspose.OCR` installato (`dotnet add package Aspose.OCR`).  
+![Estrai testo da immagine usando Aspose OCR in C#](image-placeholder.png "Estrai testo da immagine usando Aspose OCR in C#")
 
-Se ti manca qualcosa, procuratelo prima—non è necessario altro.
+## Passo 1: Estrarre testo da immagine – Inizializzare il motore OCR
 
----
-
-## Estrai testo da immagine – Passo 1: Installa e inizializza il motore OCR
-
-Prima di tutto, abbiamo bisogno di un'istanza del motore OCR e dobbiamo indicargli quale lingua ci aspettiamo. Aspose supporta oltre 70 lingue, e per il cirillico usiamo `OcrLanguage.Cyrillic`.
+Prima che un’immagine possa essere elaborata, è necessario un'istanza di `OcrEngine`. Il motore contiene tutte le impostazioni che controllano il modo in cui avviene il riconoscimento.
 
 ```csharp
-using Aspose.OCR;
 using System;
-
-// Step 1: Create the engine and set the language to Cyrillic.
-OcrEngine engine = new OcrEngine
-{
-    Language = OcrLanguage.Cyrillic
-};
-```
-
-> **Perché impostare la lingua?**  
-> L'accuratezza dell'OCR cala drasticamente se il motore indovina lo script sbagliato. Specificando esplicitamente il cirillico forniamo al motore un *vantaggio iniziale*—riduce il set di caratteri da considerare, velocizza l'elaborazione e diminuisce i falsi riconoscimenti.
-
----
-
-## Convertire PNG in testo – Passo 2: Carica l'immagine per OCR
-
-Ora carichiamo effettivamente **l'immagine per OCR**. L'esempio utilizza un file PNG, ma Aspose accetta JPEG, BMP, TIFF e persino pagine PDF.
-
-```csharp
-// Step 2: Load the PNG you want to convert to text.
-engine.Image = ImageStream.FromFile("YOUR_DIRECTORY/sample_cyrillic.png");
-```
-
-Se preferisci lavorare con un `MemoryStream` (ad esempio quando l'immagine proviene da una richiesta web), sostituisci semplicemente la riga sopra con:
-
-```csharp
-using (var ms = new MemoryStream(File.ReadAllBytes("sample_cyrillic.png")))
-{
-    engine.Image = ImageStream.FromStream(ms);
-}
-```
-
-> **Consiglio:** Mantieni la risoluzione dell'immagine almeno a 300 dpi per ottenere i migliori risultati. Screenshot a bassa risoluzione spesso producono output confuso, soprattutto con alfabeti non latini.
-
----
-
-## Esempio OCR in C# – Passo 3: Esegui il riconoscimento
-
-Con il motore pronto e l'immagine caricata, il lavoro di OCR vero e proprio è una singola chiamata di metodo.
-
-```csharp
-// Step 3: Run the recognition engine.
-bool success = engine.Recognize();
-```
-
-Il metodo `Recognize()` restituisce `true` quando trova testo riconoscibile. Se restituisce `false`, dovrai indagare il motivo—potrebbe essere che l'immagine è troppo sfocata o che la lingua non è stata impostata correttamente.
-
----
-
-## Riconosci testo cirillico – Passo 4: Recupera e utilizza il risultato
-
-Supponendo che il riconoscimento sia riuscito, ora puoi **estrarre testo da immagine** e fare ciò che ti serve: salvarlo in un database, inviarlo a un indice di ricerca, o semplicemente visualizzarlo.
-
-```csharp
-if (success)
-{
-    // Step 4: Grab the plain text.
-    string plainText = engine.Text;
-    Console.WriteLine("=== OCR RESULT ===");
-    Console.WriteLine(plainText);
-}
-else
-{
-    // Step 5: Handle recognition failure gracefully.
-    Console.WriteLine("Recognition failed. Check image quality or language settings.");
-}
-```
-
-### Output previsto
-
-Eseguendo il programma completo su un PNG cirillico chiaro otterrai qualcosa di simile a:
-
-```
-=== OCR RESULT ===
-Пример текста на кириллице
-```
-
-Se l'immagine contiene inglese mescolato al cirillico, Aspose produrrà entrambi gli script finché la lingua è impostata su Cyrillic (include il sottoinsieme latino).
-
----
-
-## Problemi comuni e consigli professionali
-
-| Problema | Perché accade | Come risolverlo |
-|----------|---------------|-----------------|
-| **PNG sfocato o a bassa risoluzione** | I motori OCR si basano su bordi di carattere nitidi. | Aumenta la risoluzione a 300 dpi o applica un filtro di nitidezza prima di passare l'immagine ad Aspose. |
-| **Impostazione lingua errata** | Il motore tenta di abbinare i caratteri allo script sbagliato. | Imposta sempre `engine.Language` sulla lingua prevista, ad esempio `OcrLanguage.Cyrillic`. |
-| **File di grandi dimensioni che provocano pressione sulla memoria** | Caricare un'immagine enorme in un `MemoryStream` può esaurire l'heap. | Usa `engine.Image = ImageStream.FromFile(path)` per l'elaborazione su disco, oppure elabora le pagine a blocchi. |
-| **Riconoscimento restituisce stringa vuota** | Il motore potrebbe non aver rilevato zone di testo. | Chiama `engine.SetImageProcessingOptions(new ImageProcessingOptions { DetectTextRegions = true })` prima di `Recognize()`. |
-
-> **Consiglio pro:** Se devi *estrarre testo da immagine* in blocco, avvolgi la logica sopra in un ciclo `Parallel.ForEach`—assicurati solo che ogni thread crei la propria istanza di `OcrEngine`. Il motore non è thread‑safe.
-
----
-
-## Estendere l'esempio: più lingue e chiamate asincrone
-
-Il codice mostrato è sincrono e si concentra sul cirillico. In applicazioni reali potresti dover supportare sia inglese che cirillico nello stesso documento. Aspose permette di impostare un *array di lingue*:
-
-```csharp
-engine.Language = OcrLanguage.Cyrillic | OcrLanguage.English;
-```
-
-Per applicazioni con interfaccia responsiva, chiama `RecognizeAsync()` invece:
-
-```csharp
-await engine.RecognizeAsync();
-string result = engine.Text; // same property, now filled after await
-```
-
-Ricorda di dichiarare il tuo metodo `Main` come `async Task` se scegli questa strada.
-
----
-
-## Esempio completo funzionante
-
-Di seguito trovi il programma completo, pronto per il copia‑incolla. Salvalo come `Program.cs`, aggiungi il pacchetto NuGet Aspose.OCR e avvialo da riga di comando.
-
-```csharp
 using Aspose.OCR;
-using System;
-using System.IO;
+using Aspose.OCR.Settings;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create the OCR engine and set language to Cyrillic.
-        OcrEngine engine = new OcrEngine
+        // Initialise the OCR engine and request GPU processing.
+        // ProcessingMode.Auto tells Aspose to fall back to CPU if a GPU isn’t detected.
+        var ocrEngine = new OcrEngine
         {
-            Language = OcrLanguage.Cyrillic
+            Settings = { ProcessingMode = ProcessingMode.Gpu }
         };
 
-        // 2️⃣ Load the PNG you want to convert to text.
-        //    Replace the path with your actual file location.
-        string imagePath = "YOUR_DIRECTORY/sample_cyrillic.png";
+        // Optional: cap GPU memory usage to avoid OOM on shared machines.
+        ocrEngine.Settings.GpuMemoryLimit = 1024; // MB
+```
 
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"File not found: {imagePath}");
-            return;
-        }
+**Perché è importante:**  
+`ProcessingMode.Gpu` può ridurre di alcuni secondi il tempo di riconoscimento su una scheda moderna, ma impostare `ProcessingMode.Auto` (o lasciare il valore predefinito) è più sicuro in ambienti dove la GPU potrebbe mancare. La guardia `GpuMemoryLimit` è un suggerimento pratico—senza di essa, un’immagine enorme potrebbe monopolizzare tutta la VRAM e far crashare altre applicazioni.
 
-        engine.Image = ImageStream.FromFile(imagePath);
+## Passo 2: Caricare l’immagine per l’OCR – Portare il TIFF in memoria
 
-        // 3️⃣ Perform the recognition.
-        bool success = engine.Recognize();
+Ora che il motore è pronto, dobbiamo fornirgli l’immagine da analizzare. Aspose offre `ImageStream.FromFile` che astrae la gestione del formato.
 
-        // 4️⃣ Retrieve and display the result.
-        if (success)
-        {
-            string plainText = engine.Text;
-            Console.WriteLine("=== OCR RESULT ===");
-            Console.WriteLine(plainText);
-        }
-        else
-        {
-            Console.WriteLine("Recognition failed. Verify image quality and language settings.");
-        }
+```csharp
+        // Load the high‑resolution TIFF you want to OCR.
+        // Replace the path with the location of your own file.
+        var image = ImageStream.FromFile(@"YOUR_DIRECTORY/large_scan.tif");
+```
+
+**Cosa succede dietro le quinte?**  
+`ImageStream.FromFile` legge il file in uno stream e rileva automaticamente il formato dell’immagine (TIFF, PNG, JPEG, ecc.). Se lavori con TIFF multi‑pagina, Aspose tratterà ogni pagina come un frame separato; potrai iterare su di essi in seguito, se necessario.
+
+## Passo 3: Riconoscere testo dal TIFF – Eseguire il motore OCR
+
+Con l’immagine caricata, inizia il lavoro pesante. Il metodo `Recognize` restituisce un oggetto `OcrResult` che contiene il testo estratto e alcuni campi di metadati utili.
+
+```csharp
+        // Perform the OCR operation.
+        var ocrResult = ocrEngine.Recognize(image);
+```
+
+**Perché chiamare `Recognize` una sola volta?**  
+Perché il motore memorizza nella cache le strutture interne dopo la prima esecuzione; una singola chiamata è sufficiente per la maggior parte degli scenari. Se devi elaborare molte pagine, riutilizza la stessa istanza di `OcrEngine`—questo evita l’overhead di reinizializzare i contesti GPU.
+
+## Passo 4: Visualizzare il risultato – Mostrare il testo estratto
+
+Infine, stampiamo la stringa riconosciuta sulla console. In un’applicazione reale probabilmente la scriveresti in un database o in un file.
+
+```csharp
+        // Show the extracted plain text.
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-**Eseguilo:**  
+**Output previsto:**  
+Se `large_scan.tif` contiene una fattura stampata, vedrai qualcosa di simile a:
 
-```bash
-dotnet run
+```
+Invoice #12345
+Date: 2024‑03‑15
+Total: $1,234.56
+...
 ```
 
-Dovresti vedere il testo cirillico estratto stampato sulla console.
+Il layout esatto dipende dall’immagine di origine, ma il punto chiave è che ora hai i risultati di **estrazione testo da immagine** pronti per l’elaborazione successiva.
 
----
+## Passo 5: Risoluzione problemi & casi limite
+
+### GPU non rilevata?
+
+Se esegui il campione su una macchina senza GPU compatibile, il motore passa silenziosamente alla CPU quando usi `ProcessingMode.Auto`. Per forzare esplicitamente la modalità CPU, sostituisci la riga precedente con:
+
+```csharp
+ocrEngine.Settings.ProcessingMode = ProcessingMode.Cpu;
+```
+
+### TIFF che consumano molta memoria
+
+Scansioni molto grandi (es. 10 000 × 10 000 px) possono comunque superare il limite di 1 GB di GPU che abbiamo impostato. In tal caso, aumenta `GpuMemoryLimit` (se hai VRAM disponibile) o ridimensiona l’immagine prima di passarla al motore:
+
+```csharp
+var resized = image.Resize(4000, 4000); // keep aspect ratio as needed
+var ocrResult = ocrEngine.Recognize(resized);
+```
+
+### Documenti multi‑pagina
+
+Se il tuo TIFF contiene più pagine, itera su di esse:
+
+```csharp
+for (int i = 0; i < image.PageCount; i++)
+{
+    var pageStream = image.GetPage(i);
+    var result = ocrEngine.Recognize(pageStream);
+    Console.WriteLine($"--- Page {i + 1} ---");
+    Console.WriteLine(result.Text);
+}
+```
+
+### Supporto lingua e font
+
+Aspose OCR rileva automaticamente script basati su alfabeto latino, ma per cirilico, arabo o font personalizzati potresti dover fornire un language pack:
+
+```csharp
+ocrEngine.Settings.Language = Language.Russian; // example
+```
+
+## Consigli professionali & migliori pratiche
+
+- **Riutilizza il motore**: creare un nuovo `OcrEngine` per ogni immagine aggiunge latenza percepibile.
+- **Elaborazione batch**: quando gestisci decine di TIFF, accodali e processali in thread paralleli—fai però attenzione alla contesa della memoria GPU.
+- **Valida l’output**: l’OCR non è perfetto; esegui un semplice controllo ortografico o una validazione con regex su `ocrResult.Text` per catturare errori evidenti.
+- **Registra le prestazioni**: misura il tempo trascorso con `Stopwatch` prima e dopo `Recognize` per decidere se l’accelerazione GPU vale la pena nel tuo ambiente.
 
 ## Conclusione
 
-Abbiamo percorso un **esempio OCR in C#** che mostra come **estrarre testo da immagine** file, specificamente PNG, usando Aspose.OCR. Impostando la lingua su Cyrillic, caricando correttamente l'immagine e gestendo sia i percorsi di successo che di errore, ora disponi di una solida base per qualsiasi compito di estrazione testo—sia che tu stia convertendo PNG in testo per un indice di ricerca, sia che tu stia costruendo uno scanner di documenti multilingue.
+Ora disponi di un esempio completo, end‑to‑end, che **estrae testo da file immagine** usando Aspose OCR in C#. Caricando l’immagine per l’OCR, invocando il motore per riconoscere testo da TIFF e gestendo scenari GPU vs. CPU, questo tutorial ti fornisce una base pronta per la produzione che puoi adattare a fatture, passaporti o qualsiasi documento scansionato.
 
-Pronto per il passo successivo? Prova a sostituire `OcrLanguage.Cyrillic` con `OcrLanguage.English` per vedere la differenza, o sperimenta con `ImageProcessingOptions` per migliorare l'accuratezza su scansioni rumorose. E se incontri difficoltà, la documentazione Aspose e i forum della community sono ottimi punti di partenza.
-
-Buona programmazione, e che i tuoi risultati OCR siano sempre cristallini!
-
-
-## Cosa dovresti imparare dopo?
-
-
-I tutorial seguenti trattano argomenti strettamente correlati che si basano sulle tecniche dimostrate in questa guida. Ogni risorsa include esempi di codice completi e funzionanti con spiegazioni passo‑passo per aiutarti a padroneggiare funzionalità API aggiuntive ed esplorare approcci di implementazione alternativi nei tuoi progetti.
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/english/net/ocr-optimization/)
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+Qual è il prossimo passo? Prova a sostituire il TIFF con un PDF multi‑pagina, sperimenta con language pack personalizzati, o indirizza l’output verso una pipeline di elaborazione del linguaggio naturale per l’estrazione automatica dei dati. Il cielo è il limite—buon coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

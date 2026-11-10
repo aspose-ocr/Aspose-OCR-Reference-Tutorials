@@ -1,35 +1,24 @@
 ---
 category: general
-date: 2026-07-21
-description: 使用 C# OCR 從圖像提取文字 – 學習將 PNG 轉換為文字、載入圖像進行 OCR，以及使用 Aspose 識別西里爾文字。
+date: 2026-04-11
+description: 使用 Aspose OCR 於 C# 從圖像提取文字。了解如何載入圖像進行 OCR，並在支援 GPU 的情況下辨識 TIFF 檔案的文字。
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - extract text from image
-- convert png to text
-- c# ocr example
-- load image for ocr
-- recognize cyrillic text
+- load image for OCR
+- recognize text from TIFF
+- Aspose OCR C#
+- GPU OCR processing
+- high‑resolution OCR
 language: zh-hant
-lastmod: 2026-07-21
-og_description: 使用 C# OCR 從圖像提取文字。本指南展示如何將 PNG 轉換為文字、載入圖像進行 OCR，以及使用 Aspose.OCR 識別西里爾文字。
-og_image_alt: Screenshot of C# code extracting text from an image using Aspose OCR
-og_title: 在 C# 中從影像提取文字 – 完整 OCR 教學
-schemas:
-- author: Aspose
-  dateModified: '2026-07-21'
-  description: Extract text from image using C# OCR – learn to convert PNG to text,
-    load image for OCR, and recognize Cyrillic text with Aspose.
-  headline: Extract Text from Image in C# – Complete OCR Guide
-  type: TechArticle
+og_description: 使用 Aspose OCR 在 C# 中從圖像擷取文字。本教學示範如何載入圖像進行 OCR，並使用 GPU 加速從 TIFF 識別文字。
+og_title: 在 C# 中從圖像提取文字 – 完整 OCR 指南
 tags:
 - OCR
 - C#
 - Aspose
-- Image Processing
-- Cyrillic
-title: 從圖像中提取文字（C#）– 完整 OCR 指南
+- GPU
+title: 在 C# 中從圖像提取文字 – 完整 OCR 指南
 url: /zh-hant/net/text-recognition/extract-text-from-image-in-c-complete-ocr-guide/
 ---
 
@@ -37,224 +26,153 @@ url: /zh-hant/net/text-recognition/extract-text-from-image-in-c-complete-ocr-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 從影像中提取文字（C#） – 完整 OCR 指南
+# 從圖像中提取文字（C#） – 完整 OCR 指南
 
-有沒有想過如何在 C# 專案內**從影像中提取文字**檔案，而不必離開開發環境？也許你手上有一堆掃描收據、一組西里爾字母的標示，或只是需要把 PNG 截圖轉成可搜尋的文字。簡而言之，你需要一個可靠的 OCR 引擎，能即時**將 PNG 轉換為文字**。
+曾經需要 **從圖像中提取文字**，卻不確定哪個函式庫能處理巨大的 TIFF 而不會卡住嗎？你並不孤單。在許多實務專案中——例如發票數位化或掃描書籍的存檔——能夠載入圖像進行 OCR，然後從 TIFF 識別文字，往往是成敗關鍵。
 
-好消息——Aspose.OCR 只需幾行程式碼就能做到。以下示範一個**C# OCR 範例**，載入影像、執行辨識，並輸出結果，即使來源語言是西里爾文也不例外。
+在本指南中，我們將手把手示範使用 Aspose OCR for .NET 完成此任務。完成後，你將擁有一個可執行的 C# 主控台應用程式，能載入高解析度掃描檔、啟動 GPU 加速處理（若無 GPU 會自動退回 CPU），並輸出純文字結果。沒有遺漏，沒有「請參考文件」的死胡同。
 
-## 本教學涵蓋內容
+## 您需要的條件
 
-- 為西里爾文設定 Aspose.OCR 引擎。  
-- **從檔案路徑或串流載入影像以供 OCR**。  
-- **將 PNG 轉換為文字**，並輸出純文字字串。  
-- 處理失敗情況與常見陷阱，確保**辨識西里爾文字**順利。
+- **.NET 6 或更新版本**（程式碼可在任何近期 SDK 上編譯）
+- **Aspose.OCR for .NET** NuGet 套件  
+  `dotnet add package Aspose.OCR`
+- 一個 **大型 TIFF** 或任何其他想要 OCR 的影像格式  
+  （範例使用 `large_scan.tif`）
+- （可選）支援 CUDA 11+ 的 GPU —— 若沒有，函式庫會自動切換至 CPU 模式。
 
-完成本指南後，你將擁有一個可即刻執行的自包含程式，以及多項讓 OCR 流程更穩定的技巧。
+就這樣。讓我們開始吧。
 
-> **先決條件**  
-> - .NET 6.0 或更新版本（此程式碼亦支援 .NET Framework 4.7 以上）。  
-> - 有效的 Aspose.OCR 授權或 30 天評估金鑰。  
-> - 已安裝 `Aspose.OCR` NuGet 套件（`dotnet add package Aspose.OCR`）。  
+![Extract text from image using Aspose OCR in C#](image-placeholder.png "Extract text from image using Aspose OCR in C#")
 
-若缺少上述任一項，請先取得，其他皆不需額外設定。
+## 步驟 1：提取文字 – 初始化 OCR 引擎
 
----
-
-## 從影像中提取文字 – 步驟 1：安裝與初始化 OCR 引擎
-
-首先，我們需要建立 OCR 引擎實例，並告訴它預期的語言。Aspose 支援超過 70 種語言，西里爾文使用 `OcrLanguage.Cyrillic`。
+在處理任何影像之前，你需要建立一個 `OcrEngine` 實例。此引擎保存所有控制辨識執行方式的設定。
 
 ```csharp
-using Aspose.OCR;
 using System;
-
-// Step 1: Create the engine and set the language to Cyrillic.
-OcrEngine engine = new OcrEngine
-{
-    Language = OcrLanguage.Cyrillic
-};
-```
-
-> **為什麼要設定語言？**  
-> 若引擎自行猜測錯誤的文字腳本，OCR 準確度會急劇下降。明確指定西里爾文可讓引擎*先行縮小*需要考慮的字元集合，從而加快處理速度並減少誤辨。
-
----
-
-## 將 PNG 轉換為文字 – 步驟 2：載入影像以供 OCR
-
-現在正式**從檔案載入影像以供 OCR**。範例使用 PNG 檔案，然而 Aspose 亦支援 JPEG、BMP、TIFF，甚至 PDF 頁面。
-
-```csharp
-// Step 2: Load the PNG you want to convert to text.
-engine.Image = ImageStream.FromFile("YOUR_DIRECTORY/sample_cyrillic.png");
-```
-
-如果你想使用 `MemoryStream`（例如影像來自 Web 請求），只需將上述程式碼改為：
-
-```csharp
-using (var ms = new MemoryStream(File.ReadAllBytes("sample_cyrillic.png")))
-{
-    engine.Image = ImageStream.FromStream(ms);
-}
-```
-
-> **小技巧：** 為取得最佳效果，請將影像解析度保持在至少 300 dpi。低解析度的螢幕截圖常會產生雜亂的輸出，尤其是非拉丁字母時。
-
----
-
-## C# OCR 範例 – 步驟 3：執行辨識
-
-引擎已就緒且影像已載入，實際的 OCR 工作只需一次方法呼叫。
-
-```csharp
-// Step 3: Run the recognition engine.
-bool success = engine.Recognize();
-```
-
-`Recognize()` 方法在找到可辨識文字時會回傳 `true`。若回傳 `false`，則需要調查原因——可能是影像過於模糊，或語言設定不正確。
-
----
-
-## 辨識西里爾文字 – 步驟 4：取得並使用結果
-
-假設辨識成功，你現在可以**從影像中提取文字**，再依需求儲存至資料庫、送入搜尋索引，或直接顯示。
-
-```csharp
-if (success)
-{
-    // Step 4: Grab the plain text.
-    string plainText = engine.Text;
-    Console.WriteLine("=== OCR RESULT ===");
-    Console.WriteLine(plainText);
-}
-else
-{
-    // Step 5: Handle recognition failure gracefully.
-    Console.WriteLine("Recognition failed. Check image quality or language settings.");
-}
-```
-
-### 預期輸出
-
-對清晰的西里爾文 PNG 執行完整程式後，會得到類似以下的結果：
-
-```
-=== OCR RESULT ===
-Пример текста на кириллице
-```
-
-若影像同時包含英文與西里爾文，只要語言設定為 `Cyrillic`（它已內含拉丁子集），Aspose 會同時輸出兩種腳本。
-
----
-
-## 常見陷阱與專業技巧
-
-| 問題 | 為何會發生 | 解決方法 |
-|------|------------|----------|
-| **模糊或低解析度 PNG** | OCR 引擎需要清晰的字元邊緣。 | 將影像升級至 300 dpi，或在送給 Aspose 前套用銳化濾鏡。 |
-| **語言設定錯誤** | 引擎會嘗試匹配錯誤的文字腳本。 | 永遠將 `engine.Language` 設為預期語言，例如 `OcrLanguage.Cyrillic`。 |
-| **大型檔案導致記憶體壓力** | 把巨大的影像載入 `MemoryStream` 可能耗盡堆積空間。 | 使用 `engine.Image = ImageStream.FromFile(path)` 直接在磁碟上處理，或分批處理頁面。 |
-| **辨識回傳空字串** | 引擎可能未偵測到任何文字區域。 | 在 `Recognize()` 前呼叫 `engine.SetImageProcessingOptions(new ImageProcessingOptions { DetectTextRegions = true })`。 |
-
-> **專業小技巧：** 若需批次**從影像中提取文字**，可將上述邏輯包在 `Parallel.ForEach` 迴圈中——只要確保每個執行緒自行建立 `OcrEngine` 實例即可，因為引擎本身不支援多執行緒共用。
-
----
-
-## 延伸範例：多語言與非同步呼叫
-
-上述程式碼為同步範例，且僅聚焦於西里爾文。實務上可能同時需要支援英文與西里爾文。Aspose 允許設定*語言陣列*：
-
-```csharp
-engine.Language = OcrLanguage.Cyrillic | OcrLanguage.English;
-```
-
-若是需要 UI 不卡頓的應用程式，可改用 `RecognizeAsync()`：
-
-```csharp
-await engine.RecognizeAsync();
-string result = engine.Text; // same property, now filled after await
-```
-
-使用此方式時，請將 `Main` 方法宣告為 `async Task`。
-
----
-
-## 完整可執行範例
-
-以下提供完整、可直接複製貼上的程式。存為 `Program.cs`、加入 Aspose.OCR NuGet 套件，然後在命令列執行。
-
-```csharp
 using Aspose.OCR;
-using System;
-using System.IO;
+using Aspose.OCR.Settings;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create the OCR engine and set language to Cyrillic.
-        OcrEngine engine = new OcrEngine
+        // Initialise the OCR engine and request GPU processing.
+        // ProcessingMode.Auto tells Aspose to fall back to CPU if a GPU isn’t detected.
+        var ocrEngine = new OcrEngine
         {
-            Language = OcrLanguage.Cyrillic
+            Settings = { ProcessingMode = ProcessingMode.Gpu }
         };
 
-        // 2️⃣ Load the PNG you want to convert to text.
-        //    Replace the path with your actual file location.
-        string imagePath = "YOUR_DIRECTORY/sample_cyrillic.png";
+        // Optional: cap GPU memory usage to avoid OOM on shared machines.
+        ocrEngine.Settings.GpuMemoryLimit = 1024; // MB
+```
 
-        if (!File.Exists(imagePath))
-        {
-            Console.WriteLine($"File not found: {imagePath}");
-            return;
-        }
+**為什麼這很重要：**  
+`ProcessingMode.Gpu` 能在現代顯示卡上為辨識時間削減數秒，但將 `ProcessingMode.Auto`（或保留預設）設定為較安全，因為在沒有 GPU 的環境中不會出錯。`GpuMemoryLimit` 的限制是一個實用技巧——若不設此限制，巨大的影像可能會佔用全部 VRAM，導致其他應用程式崩潰。
 
-        engine.Image = ImageStream.FromFile(imagePath);
+## 步驟 2：載入影像供 OCR 使用 – 把 TIFF 讀入記憶體
 
-        // 3️⃣ Perform the recognition.
-        bool success = engine.Recognize();
+引擎已就緒後，我們需要將要分析的圖片傳入。Aspose 提供的 `ImageStream.FromFile` 會抽象化格式處理。
 
-        // 4️⃣ Retrieve and display the result.
-        if (success)
-        {
-            string plainText = engine.Text;
-            Console.WriteLine("=== OCR RESULT ===");
-            Console.WriteLine(plainText);
-        }
-        else
-        {
-            Console.WriteLine("Recognition failed. Verify image quality and language settings.");
-        }
+```csharp
+        // Load the high‑resolution TIFF you want to OCR.
+        // Replace the path with the location of your own file.
+        var image = ImageStream.FromFile(@"YOUR_DIRECTORY/large_scan.tif");
+```
+
+**底層發生了什麼？**  
+`ImageStream.FromFile` 會將檔案讀入串流，並自動偵測影像格式（TIFF、PNG、JPEG 等）。若你處理的是多頁 TIFF，Aspose 會將每一頁視為獨立的框格；之後如有需要可自行迭代。
+
+## 步驟 3：辨識 TIFF 文字 – 執行 OCR 引擎
+
+影像載入後，重活就開始了。`Recognize` 方法會回傳一個 `OcrResult` 物件，內含提取的文字以及一些實用的中繼資料欄位。
+
+```csharp
+        // Perform the OCR operation.
+        var ocrResult = ocrEngine.Recognize(image);
+```
+
+**為什麼只呼叫一次 `Recognize`？**  
+因為引擎在第一次執行後會快取內部結構，對大多數情境而言一次呼叫已足夠。若需處理多頁，請重複使用同一個 `OcrEngine` 實例——這樣可避免重新初始化 GPU 上下文的開銷。
+
+## 步驟 4：顯示結果 – 展示提取的文字
+
+最後，我們將辨識出的字串輸出到主控台。實際應用中，你可能會把它寫入資料庫或檔案。
+
+```csharp
+        // Show the extracted plain text.
+        Console.WriteLine(ocrResult.Text);
     }
 }
 ```
 
-**執行方式：**  
+**預期輸出：**  
+如果 `large_scan.tif` 包含一張印刷發票，你會看到類似以下的內容：
 
-```bash
-dotnet run
+```
+Invoice #12345
+Date: 2024‑03‑15
+Total: $1,234.56
+...
 ```
 
-執行後，應在主控台看到提取出的西里爾文字。
+具體版面會依原始影像而異，但重點是你現在已取得 **extract text from image** 的結果，準備進行後續處理。
 
----
+## 步驟 5：故障排除與特殊情況
+
+### GPU 未偵測到？
+
+如果在沒有相容 GPU 的機器上執行範例，使用 `ProcessingMode.Auto` 時引擎會靜默退回 CPU。若想明確強制使用 CPU，請將先前的程式碼行改為：
+
+```csharp
+ocrEngine.Settings.ProcessingMode = ProcessingMode.Cpu;
+```
+
+### 記憶體需求高的 TIFF
+
+極大尺寸的掃描（例如 10 000 × 10 000 px）仍可能超過我們設定的 1 GB GPU 上限。此時，可提升 `GpuMemoryLimit`（前提是有剩餘 VRAM），或在送入引擎前先縮小影像：
+
+```csharp
+var resized = image.Resize(4000, 4000); // keep aspect ratio as needed
+var ocrResult = ocrEngine.Recognize(resized);
+```
+
+### 多頁文件
+
+若你的 TIFF 包含多頁，請使用迴圈逐頁處理：
+
+```csharp
+for (int i = 0; i < image.PageCount; i++)
+{
+    var pageStream = image.GetPage(i);
+    var result = ocrEngine.Recognize(pageStream);
+    Console.WriteLine($"--- Page {i + 1} ---");
+    Console.WriteLine(result.Text);
+}
+```
+
+### 語言與字型支援
+
+Aspose OCR 會自動偵測拉丁系文字，但若要辨識西里爾文、阿拉伯文或自訂字型，可能需要額外提供語言套件：
+
+```csharp
+ocrEngine.Settings.Language = Language.Russian; // example
+```
+
+## 專業提示與最佳實踐
+
+- **重複使用引擎**：每張影像都重新建立 `OcrEngine` 會增加明顯的延遲。
+- **批次處理**：處理數十張 TIFF 時，可將它們排入佇列並以平行執行緒處理——但要留意 GPU 記憶體的競爭情形。
+- **驗證輸出**：OCR 並非完美；可對 `ocrResult.Text` 執行簡易拼寫檢查或正規表達式驗證，以捕捉明顯的錯誤辨識。
+- **記錄效能**：在 `Recognize` 前後使用 `Stopwatch` 計算耗時，判斷在你的環境中 GPU 加速是否值得額外的設定成本。
 
 ## 結論
 
-我們已示範一個**C# OCR 範例**，說明如何使用 Aspose.OCR **從影像中提取文字**，尤其是 PNG 轉文字的流程。透過設定語言為西里爾文、正確載入影像，以及妥善處理成功與失敗的情況，你現在已具備穩固的基礎，能應付任何文字提取任務——無論是為搜尋索引將 PNG 轉文字，或是建置多語系文件掃描器。
+你現在擁有一個完整、端對端的範例，能使用 Aspose OCR 在 C# 中 **extract text from image** 檔案。透過載入影像、呼叫引擎辨識 TIFF 文字，並處理 GPU 與 CPU 兩種情境，本教學為你提供了可直接投入生產環境的基礎，無論是發票、護照或任何掃描文件皆可套用。
 
-準備好下一步了嗎？試著把 `OcrLanguage.Cyrillic` 換成 `OcrLanguage.English` 看看差異，或是調整 `ImageProcessingOptions` 以提升雜訊掃描的準確度。若遇到問題，Aspose 官方文件與社群論壇都是深入探索的好資源。
-
-祝程式開發順利，願你的 OCR 結果永遠清晰無比！
-
-
-## 接下來該學什麼？
-
-以下教學與本指南緊密相關，能進一步擴展本篇示範的技巧。每篇資源皆提供完整可執行的程式碼範例與逐步說明，協助你精通更多 API 功能，並在專案中探索其他實作方式。
-
-- [Extract image text C# with language selection using Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
-- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/english/net/ocr-optimization/)
-- [How to Extract Text from Image Using Aspose.OCR for .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+接下來要做什麼？可以嘗試將 TIFF 換成多頁 PDF、實驗自訂語言套件，或將輸出串接至自然語言處理管線，以自動化資料抽取。可能性無限——祝開發順利！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
