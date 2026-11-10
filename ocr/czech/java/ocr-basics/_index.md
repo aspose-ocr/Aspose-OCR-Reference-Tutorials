@@ -141,6 +141,8 @@ Ukázka, jak načíst obrázek a pomocí Aspose.OCR v Javě rozpoznat text v ně
 Kompletní návod, jak pomocí Aspose.OCR pro Java načíst text z obrázku, včetně nastavení licence, předzpracování a optimalizace přesnosti.
 ### [Extrahování textu z obrázku v Javě – Kompletní průvodce OCR](./extract-text-from-image-in-java-complete-ocr-guide/)
 Kompletní průvodce OCR v Javě, který ukazuje, jak extrahovat text z obrázků, nastavit licenci a optimalizovat přesnost.
+### [Rozpoznání textového obrázku v Javě – Kompletní průvodce Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Kompletní průvodce rozpoznáváním textových obrázků v Javě pomocí Aspose OCR, včetně nastavení, předzpracování a optimalizace přesnosti.
 
 ---
 

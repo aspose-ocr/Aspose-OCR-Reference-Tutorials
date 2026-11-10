@@ -143,6 +143,8 @@ Leer hoe je alle CPU‑kernen benut in Java door de thread‑poolgrootte optimaa
 Volledige gids om tekst uit afbeeldingen te lezen met Aspose.OCR voor Java. Volg stap‑voor‑stap instructies voor optimale OCR‑resultaten.
 ### [Extract Text from Image in Java – Complete OCR Guide](./extract-text-from-image-in-java-complete-ocr-guide/)
 Leer hoe je met Aspose.OCR volledige tekst uit afbeeldingen haalt in Java, van configuratie tot geavanceerde OCR-technieken.
+### [Tekstafbeelding herkennen in Java – Complete Aspose OCR-gids](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Volledige gids voor het herkennen van tekst in afbeeldingen met Aspose OCR voor Java, van installatie tot geavanceerde instellingen.
 
 ---
 

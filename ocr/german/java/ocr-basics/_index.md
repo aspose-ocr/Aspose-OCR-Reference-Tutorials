@@ -151,6 +151,8 @@ Erfahren Sie, wie Sie alle CPU‑Kerne in Java nutzen und die Thread‑Pool‑Gr
 Erfahren Sie, wie Sie mit Aspose.OCR für Java Text aus Bildern extrahieren, von der Lizenz bis zur Bildvorverarbeitung, in einem umfassenden Leitfaden.
 ### [Text aus Bild in Java extrahieren – Vollständiger OCR‑Leitfaden](./extract-text-from-image-in-java-complete-ocr-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus Bildern extrahieren, Vorverarbeitung anwenden und optimale OCR‑Ergebnisse erzielen.
+### [Textbild in Java erkennen – Vollständiger Aspose OCR Leitfaden](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Ein umfassender Leitfaden zur Texterkennung in Bildern mit Aspose.OCR für Java, von Einrichtung bis Optimierung.
 
 ---
 

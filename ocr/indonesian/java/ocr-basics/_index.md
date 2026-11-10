@@ -150,6 +150,8 @@ Pelajari cara memanfaatkan semua core CPU di Java dengan mengatur ukuran thread 
 Panduan lengkap untuk mengekstrak teks dari gambar menggunakan Aspose.OCR di Java, mencakup pengaturan, pra‑pemrosesan, dan contoh kode.
 ### [Ekstrak Teks dari Gambar di Java – Panduan OCR Lengkap](./extract-text-from-image-in-java-complete-ocr-guide/)
 Panduan lengkap untuk mengekstrak teks dari gambar menggunakan Aspose.OCR di Java, mencakup pengaturan, pra‑pemrosesan, dan peningkatan akurasi.
+### [Mengenali Gambar Teks di Java – Panduan Lengkap Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Panduan lengkap untuk mengenali teks dalam gambar menggunakan Aspose OCR di Java, mencakup semua langkah penting.
 
 ---
 

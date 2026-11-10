@@ -146,6 +146,8 @@ Scopri come estrarre testo da file JPG con Aspose OCR per Java in pochi semplici
 Scopri come leggere il testo da immagini usando Aspose.OCR per Java con questa guida completa passo‑passo.
 ### [Estrai testo da immagine in Java – Guida OCR completa](./extract-text-from-image-in-java-complete-ocr-guide/)
 Scopri come estrarre testo da immagini in Java con una guida completa all'OCR, passo dopo passo.
+### [Riconoscere testo da immagine in Java – Guida completa Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Scopri come riconoscere testo da immagini in Java con Aspose OCR, passo‑passo, includendo impostazioni avanzate e ottimizzazioni.
 
 ---
 

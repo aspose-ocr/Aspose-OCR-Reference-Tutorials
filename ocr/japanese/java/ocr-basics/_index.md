@@ -164,6 +164,7 @@ Java と Aspose.OCR を使用して画像からテキストを抽出する完全
 
 ### [Java で画像からテキストを抽出する – 完全 OCR ガイド](./extract-text-from-image-in-java-complete-ocr-guide/)
 Java を使用した画像テキスト抽出の全手順を解説し、OCR の設定・前処理・実装例を網羅します。
+### [Java でテキスト画像を認識する – 完全 Aspose OCR ガイド](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 
 ---
 

@@ -147,6 +147,8 @@ Aspose OCR kullanarak JPG dosyalarından metin çıkarın ve Java uygulamanıza 
 Java kullanarak Aspose OCR ile görüntülerden metin okuma sürecini adım adım öğrenin.
 ### [Java’da Görüntüden Metin Çıkarma – Tam OCR Kılavuzu](./extract-text-from-image-in-java-complete-ocr-guide/)
 Java ve Aspose.OCR kullanarak görüntülerden metin çıkarma sürecini adım adım öğrenin ve OCR doğruluğunu maksimize edin.
+### [Java’da Metin Görüntüsü Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Java’da Aspose OCR kullanarak metin görüntülerini tanıma sürecini adım adım öğrenin ve tam kılavuzu keşfedin.
 
 ---
 
