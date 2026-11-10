@@ -670,6 +670,9 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# gescannte Dateien in durchsuchbare PD
 
 ### [Text aus PNG mit Aspose OCR extrahieren – Vollständige C#-Anleitung](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Lernen Sie, wie Sie mit Aspose OCR Text aus PNG‑Dateien in C# auslesen und in Ihre .NET‑Anwendung integrieren.
+### [Text aus Bild mit Aspose OCR erkennen – Vollständiger C#-Leitfaden](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Text aus Bildern extrahieren und verarbeiten.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

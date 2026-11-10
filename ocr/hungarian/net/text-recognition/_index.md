@@ -685,6 +685,9 @@ Ismerje meg, hogyan hozhat létre kereshető PDF-et beolvasott fájlokból az As
 
 ### [Szöveg kinyerése PNG-ből az Aspose OCR segítségével – Teljes C# útmutató](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Ismerje meg, hogyan nyerhet ki szöveget PNG képekből C#-ban az Aspose OCR használatával, lépésről lépésre útmutatóval.
+### [Képről szöveg felismerése az Aspose OCR segítségével – Teljes C# útmutató](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan ismerhet fel szöveget képekből C#-ban az Aspose OCR teljes körű útmutatója segítségével.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

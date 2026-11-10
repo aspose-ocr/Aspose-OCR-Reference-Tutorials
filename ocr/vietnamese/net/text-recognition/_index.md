@@ -694,6 +694,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để tạo PDF 
 
 ### [Trích xuất văn bản từ PNG bằng Aspose OCR – Hướng dẫn C# đầy đủ](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ tệp PNG một cách nhanh chóng và chính xác.
+### [Nhận dạng văn bản từ hình ảnh bằng Aspose OCR – Hướng dẫn C# đầy đủ](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận dạng văn bản từ hình ảnh, bao gồm cài đặt và ví dụ thực tế.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

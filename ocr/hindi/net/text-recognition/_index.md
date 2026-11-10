@@ -693,6 +693,8 @@ C# OCR के साथ छवि से टेक्स्ट पहचान �
 ### [Aspose OCR के साथ PNG से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Aspose OCR का उपयोग करके PNG छवियों से टेक्स्ट निकालने के लिए पूर्ण C# चरण-दर-चरण मार्गदर्शिका।
 
+### [Aspose OCR का उपयोग करके छवि से टेक्स्ट पहचानें – पूर्ण C# गाइड](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Aspose OCR के साथ C# में छवि से टेक्स्ट पहचानने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका।
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

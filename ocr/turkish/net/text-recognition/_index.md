@@ -688,6 +688,8 @@ C# kullanarak OCR ile görüntülerden metin tanımayı adım adım öğrenin ve
 
 ### [Aspose OCR ile PNG'den Metin Çıkarma – Tam C# Kılavuzu](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Aspose OCR kullanarak PNG dosyalarından metin çıkarmayı adım adım öğrenin ve C# ile tam bir çözüm geliştirin.
+### [Aspose OCR kullanarak görüntüden metin tanıma – Tam C# Rehberi](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Aspose OCR ile görüntülerden metin çıkarmayı adım adım öğrenin ve C# projelerinizde tam bir rehber edinin.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

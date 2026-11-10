@@ -701,6 +701,8 @@ Aspose.OCR を使用してスキャン画像から検索可能な PDF を作成�
 ### [Aspose OCR を使用した PNG からのテキスト抽出 – 完全 C# ガイド](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Aspose OCR を使用して PNG 画像からテキストを抽出し、C# で実装する完全ガイドです。
 
+### [Aspose OCR を使用して画像からテキストを認識する – 完全 C# ガイド](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Aspose OCR と C# を活用し、画像からテキストを抽出する手順を詳細に解説します。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

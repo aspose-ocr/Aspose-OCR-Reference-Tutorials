@@ -704,6 +704,8 @@ url: /zh/net/text-recognition/
 通过本完整指南，学习使用 Aspose.OCR 在 C# 中将扫描文件转换为可搜索的 PDF，实现高效文档处理。
 ### [使用 Aspose OCR 从 PNG 提取文本 – 完整 C# 指南](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 本完整 C# 指南演示如何使用 Aspose OCR 从 PNG 图像中提取文本，帮助您快速实现高效文字识别。
+### [使用 Aspose OCR 从图像识别文本 – 完整 C# 指南](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+通过完整的 C# 示例，学习如何使用 Aspose OCR 从图像中提取文本，实现高精度识别。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

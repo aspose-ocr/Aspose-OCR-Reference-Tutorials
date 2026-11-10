@@ -698,6 +698,9 @@ Kompletny przykład użycia Aspose.OCR w C# do rozpoznawania tekstu z obrazów, 
 Dowiedz się, jak przy użyciu Aspose.OCR w C# przekształcić zeskanowane pliki w przeszukiwalne PDF-y, krok po kroku.
 ### [Wyodrębnij tekst z PNG przy użyciu Aspose OCR – Kompletny przewodnik C#](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak używać Aspose OCR do wyodrębniania tekstu z plików PNG w aplikacjach .NET.
+### [Rozpoznaj tekst z obrazu przy użyciu Aspose OCR – Kompletny przewodnik C#](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Kompletny przewodnik C# pokazujący, jak używać Aspose OCR do rozpoznawania tekstu z obrazów w aplikacjach .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

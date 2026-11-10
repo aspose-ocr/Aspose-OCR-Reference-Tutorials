@@ -673,6 +673,8 @@ url: /el/net/text-recognition/
 Μάθετε πώς να μετατρέψετε σαρωμένα αρχεία σε αναζητήσιμα PDF χρησιμοποιώντας Aspose.OCR σε C#.
 ### [Εξαγωγή κειμένου από PNG με Aspose OCR – Πλήρης οδηγός C#](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
 Μάθετε πώς να εξάγετε κείμενο από αρχεία PNG χρησιμοποιώντας το Aspose OCR σε πλήρη οδηγό C# βήμα προς βήμα.
+### [Αναγνώριση κειμένου από εικόνα χρησιμοποιώντας Aspose OCR – Πλήρης Οδηγός C#](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
+Μάθετε βήμα προς βήμα πώς να αναγνωρίζετε κείμενο από εικόνες με Aspose OCR σε C#, για ακριβή και γρήγορα αποτελέσματα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
