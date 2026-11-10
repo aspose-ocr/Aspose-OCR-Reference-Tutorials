@@ -191,6 +191,8 @@ weight: 21
 Пошаговое руководство по установке и активации лицензии Aspose OCR в Java‑приложениях.
 ### [Распознавание текста PNG с Java – Полный гид Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Полный туториал по распознаванию текста в PNG‑изображениях с Aspose OCR для Java.
+### [Распознавание текста из PNG в Java – Полный гид по Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Полный пошаговый туториал по распознаванию текста из PNG‑изображений с использованием Aspose OCR в Java.
 
 ## Часто задаваемые вопросы
 

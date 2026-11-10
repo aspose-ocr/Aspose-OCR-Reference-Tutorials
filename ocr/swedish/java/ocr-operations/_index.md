@@ -204,6 +204,7 @@ En komplett guide som visar hur du konverterar bilder till text i Java med Aspos
 ### [Aspose OCR‑licenstutorial – Java‑installationsguide](./aspose-ocr-license-tutorial-java-setup-guide/)
 Lär dig hur du konfigurerar och aktiverar Aspose OCR‑licensen i dina Java‑projekt för produktionsanvändning.
 ### [Känna igen text i PNG med Java – Fullständig Aspose OCR‑guide](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+### [Känna igen text från PNG i Java – Fullständig Aspose OCR‑guide](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 En komplett guide som visar hur du använder Aspose OCR för att känna igen text i PNG‑bilder med Java.
 
 ## Vanliga frågor

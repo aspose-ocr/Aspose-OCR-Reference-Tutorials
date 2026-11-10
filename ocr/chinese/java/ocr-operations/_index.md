@@ -194,6 +194,8 @@ weight: 21
 完整指南，演示如何在 Java 项目中配置和使用 Aspose OCR 许可证，确保合法运行。
 ### [使用 Java 识别 PNG 文本 – 完整 Aspose OCR 指南](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 完整的 Java 示例，展示如何使用 Aspose OCR 识别 PNG 图像中的文本并导出结果。
+### [使用 Aspose OCR 在 Java 中识别 PNG 文本 – 完整指南](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+完整的 Java 示例，演示如何使用 Aspose OCR 识别 PNG 图像中的文本并导出结果。
 
 ## 常见问题
 

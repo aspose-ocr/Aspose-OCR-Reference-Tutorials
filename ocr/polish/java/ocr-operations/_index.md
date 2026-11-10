@@ -207,6 +207,8 @@ Kompletny przewodnik, jak w Javie konwertować obrazy na tekst przy użyciu Aspo
 Kompletny przewodnik, jak skonfigurować licencję Aspose OCR w Javie.
 ### [Rozpoznawanie tekstu PNG w Javie – Pełny przewodnik Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Pełny przewodnik po rozpoznawaniu tekstu w formacie PNG przy użyciu Aspose OCR w Javie, obejmujący wszystkie kluczowe kroki.
+### [Rozpoznawanie tekstu z pliku PNG w Javie – Pełny przewodnik Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Pełny przewodnik, jak rozpoznać tekst z obrazów PNG w Javie przy użyciu Aspose.OCR, krok po kroku.
 
 ## Najczęściej zadawane pytania
 

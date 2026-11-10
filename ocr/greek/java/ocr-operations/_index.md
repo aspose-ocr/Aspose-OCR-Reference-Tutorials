@@ -195,6 +195,8 @@ weight: 21
 Μάθετε πώς να εγκαταστήσετε και να ενεργοποιήσετε την άδεια Aspose OCR σε έργα Java.
 ### [Αναγνώριση κειμένου PNG με Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες PNG με το Aspose OCR σε Java.
+### [Αναγνώριση κειμένου από PNG σε Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από αρχεία PNG με το Aspose OCR σε Java.
 
 ## Συχνές Ερωτήσεις
 

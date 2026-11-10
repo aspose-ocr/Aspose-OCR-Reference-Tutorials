@@ -185,6 +185,8 @@ Leer hoe u scheve afbeeldingen corrigeert met Aspose.OCR voor Java om OCR‑nauw
 ### [Maak doorzoekbare PDF met OCR – volledige gids](./create-searchable-pdf-with-ocr-full-guide/)
 Leer stap‑voor‑stap hoe u met Aspose.OCR een doorzoekbare PDF maakt en OCR‑nauwkeurigheid optimaliseert.
 ### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR‑tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [Tekst herkennen uit PNG in Java – volledige Aspose OCR-gids](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑gids.
 Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
 ### [Aspose OCR Java‑voorbeeld: tekst herkennen uit afbeelding (Java)](./aspose-ocr-java-example-recognize-text-from-image-java/)
 Leer hoe u met Aspose OCR voor Java tekst uit een afbeelding kunt herkennen in een eenvoudige voorbeeldcode.

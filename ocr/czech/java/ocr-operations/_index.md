@@ -192,6 +192,8 @@ Kompletní návod, jak v Javě pomocí Aspose OCR převést obrázek na editovat
 Naučte se, jak správně nastavit a aktivovat licenci Aspose.OCR v Java aplikacích.
 ### [Rozpoznání textu PNG pomocí Javy – Kompletní průvodce Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Kompletní návod, jak pomocí Aspose.OCR pro Java rozpoznat text v PNG obrázcích a získat vysoce přesné výsledky.
+### [Rozpoznání textu z PNG v Javě – Kompletní Aspose OCR průvodce](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Kompletní návod, jak pomocí Aspose.OCR v Javě rozpoznat text z PNG obrázků s vysokou přesností a optimalizovaným nastavením.
 
 ## Často kladené otázky
 

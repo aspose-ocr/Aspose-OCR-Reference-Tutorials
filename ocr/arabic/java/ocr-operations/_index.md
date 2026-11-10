@@ -187,6 +187,8 @@ weight: 21
 تعلم كيفية تثبيت ترخيص Aspose OCR في بيئة Java خطوة بخطوة لضمان تشغيل المكتبة بدون قيود.
 ### [التعرف على نص PNG باستخدام Java – دليل Aspose OCR كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 دليل شامل يشرح كيفية التعرف على نص PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على النص من PNG في Java – دليل Aspose OCR كامل](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 
