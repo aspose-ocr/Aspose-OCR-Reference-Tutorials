@@ -244,6 +244,8 @@ url: /ar/java/advanced-ocr-techniques/
 ### [ضغط صور PDF باستخدام Java – دليل كامل لتطبيق OCR على دفعات إلى PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 استخدم Aspose.OCR لـ Java لضغط صور PDF وإجراء OCR على دفعات كاملة وتحويلها إلى ملفات PDF بدقة عالية.
 ### [التعرف على النص من صورة في جافا – دليل OCR كامل](./recognize-text-from-image-in-java-complete-ocr-guide/)
+### [كيفية تمكين GPU للتعرف الضوئي على الحروف في Java باستخدام Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+اكتشف كيفية تسريع عملية OCR باستخدام GPU في Java مع Aspose.OCR لاستخراج النص بسرعة ودقة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

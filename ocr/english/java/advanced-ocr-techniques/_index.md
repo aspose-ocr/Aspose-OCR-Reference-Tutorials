@@ -177,6 +177,8 @@ Accelerate OCR by processing multiple images concurrently with Aspose.OCR in Jav
 
 ### [How to Enable GPU for OCR in Java – Extract Text from Image](./how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
 Leverage GPU acceleration in Aspose.OCR for Java to boost OCR speed and accuracy when extracting text from images.
+### [How to enable GPU for OCR in Java using Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Enable GPU acceleration for Aspose.OCR in Java to speed up text extraction from images.
 
 ## [How to Enable GPU for Java OCR – Recognize Text from Image](./how-to-enable-gpu-for-java-ocr-recognize-text-from-image/)
 

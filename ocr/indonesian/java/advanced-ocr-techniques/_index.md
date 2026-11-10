@@ -295,6 +295,10 @@ Pelajari cara mengompres gambar PDF dan melakukan OCR batch penuh ke PDF menggun
 
 ### [Mengenali teks dari gambar di Java – panduan OCR lengkap](./recognize-text-from-image-in-java-complete-ocr-guide/)
 Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose.OCR di Java. Ikuti langkah demi langkah untuk hasil akurat.
+### [Cara Mengaktifkan GPU untuk OCR di Java menggunakan Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+
+Pelajari cara mengaktifkan GPU untuk OCR di Java dengan Aspose.OCR, meningkatkan kecepatan ekstraksi teks secara signifikan.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -105,7 +105,10 @@ Kompletní průvodce rozpoznáváním textu z obrázků v Javě pomocí Aspose O
 ### [Snížení šumu obrazu v OCR pomocí Aspose – kompletní průvodce pro Javu](./reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
 Kompletní průvodce snižováním šumu obrazu pro přesnější OCR v Javě pomocí Aspose.
 ### [Jak povolit GPU pro OCR – Rychlé získávání textu z obrázků](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
+### [Jak povolit GPU pro OCR – Rychlé získávání textu z obrázků](./how-to-enable-gpu-for-ocr/)
 Zrychlete OCR aktivací GPU a rychle extrahujte text z obrázků ve svých Java aplikacích.
+### [Jak povolit GPU pro OCR v Javě pomocí Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Zrychlete OCR v Javě aktivací GPU s Aspose.OCR a rychle extrahujte text z obrázků.
 ### [Jak spustit OCR na velkých dokumentech – Kompletní průvodce pro Javu](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 Získejte podrobný návod, jak efektivně provádět OCR na rozsáhlých dokumentech v Javě s vysokou přesností.
 ### [Předzpracování obrázku pro OCR v Javě – Zvýšení přesnosti a extrakce textu](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)

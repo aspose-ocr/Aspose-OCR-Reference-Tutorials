@@ -206,6 +206,8 @@ url: /el/java/advanced-ocr-techniques/
 Μάθετε πώς να αυξήσετε την ακρίβεια του OCR σε Java με το Aspose OCR, εφαρμόζοντας βέλτιστες πρακτικές και ρυθμίσεις.
 ### [Ορισμός περιοχής ενδιαφέροντος σε Java OCR – Πλήρης οδηγός](./define-region-of-interest-in-java-ocr-complete-guide/)
 Μάθετε πώς να ορίσετε περιοχές ενδιαφέροντος για OCR σε Java, βελτιώνοντας την ακρίβεια και την απόδοση.
+### [Πώς να ενεργοποιήσετε το GPU για OCR σε Java χρησιμοποιώντας το Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Ενεργοποιήστε το GPU για ταχύτερη εξαγωγή κειμένου με το Aspose.OCR σε Java. Ακολουθήστε τον οδηγό βήμα-βήμα για βελτιωμένη απόδοση.
 
 ## [Αναγνώριση κειμένου εικόνας με Java OCR – Παράδειγμα με επιτάχυνση GPU](./recognize-image-text-with-java-ocr-gpu-accelerated-example/)
 Μάθετε πώς να χρησιμοποιήσετε το Aspose.OCR για Java με επιτάχυνση GPU για γρήγορη εξαγωγή κειμένου από εικόνες.

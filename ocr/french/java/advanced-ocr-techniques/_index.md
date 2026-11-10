@@ -119,6 +119,8 @@ Apprenez à diminuer le bruit des images pour améliorer la précision OCR avec 
 
 ### [Comment activer le GPU pour l'OCR – Extraction rapide de texte à partir d'images](./how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/)
 Accélérez l'extraction de texte en activant le GPU avec Aspose.OCR pour Java. Suivez notre guide pas à pas pour une performance optimale.
+### [Comment activer le GPU pour l'OCR en Java avec Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Accélérez l'extraction de texte en activant le GPU avec Aspose.OCR pour Java. Suivez notre guide pas à pas pour une performance optimale.
 ### [Comment exécuter l'OCR sur de grands documents – Guide complet Java](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 Apprenez à traiter efficacement de gros documents avec Aspose.OCR pour Java grâce à ce guide complet.
 ### [Prétraitement d'image OCR en Java – Améliorer la précision et extraire le texte](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)

@@ -127,6 +127,9 @@ Leer hoe u ruis in afbeeldingen vermindert voor betere OCR-resultaten met Aspose
 ### [Afbeelding voorbewerken voor OCR in Java – Verhoog nauwkeurigheid & extraheer tekst](./preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
 Verbeter de OCR-nauwkeurigheid door afbeeldingen voor te bewerken in Java. Volg onze stapsgewijze handleiding voor optimale tekstextractie.
 ### [Hoe GPU voor OCR in te schakelen – Snelle extractie van tekst uit afbeeldingen](./how-to-enable-gpu-for-ocr-fast-extraction-of-text/)
+
+### [Hoe GPU voor OCR in Java in te schakelen met Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+
 ### [Hoe OCR uit te voeren op grote documenten – Complete Java-gids](./how-to-run-ocr-on-large-documents-complete-java-guide/)
 Leer hoe u OCR toepast op grote documenten met Java voor snelle en nauwkeurige tekstextractie.
 ### [Hoe GPU voor OCR in Java in te schakelen – Tekst snel herkennen uit afbeelding](./how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)

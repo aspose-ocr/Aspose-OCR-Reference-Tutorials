@@ -277,6 +277,8 @@ Fedezze fel, hogyan végezhet OCR-t táblázatokon Java-ban, részletes lépésr
 Tanulja meg, hogyan növelheti a képek kontrasztját az OCR pontosságának javítása érdekében Java-ban.
 ### [PDF képek tömörítése Java-val – Teljes kötegelt OCR PDF-hez útmutató](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Tanulja meg, hogyan tömörítheti a PDF képeket Java-val, és hajtson végre kötegelt OCR-t, hogy PDF-et hozzon létre magas pontossággal.
+### [Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban az Aspose.OCR használatával](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Kapcsolja be a GPU-t az OCR-hez Java-ban az Aspose.OCR segítségével, és gyorsítsa fel a szövegkivonást nagy pontossággal.
 
 ### [Szöveg felismerése képről Java-ban – teljes OCR útmutató](./recognize-text-from-image-in-java-complete-ocr-guide/)
 Teljes körű útmutató a képről történő szövegfelismeréshez Java-ban, magas pontosságú OCR technikákkal.

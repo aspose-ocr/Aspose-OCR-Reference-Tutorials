@@ -112,6 +112,8 @@ Tăng tốc OCR trong Java bằng cách sử dụng GPU, giúp nhận dạng vă
 Trích xuất mã VIN từ ảnh bằng Java, sử dụng Aspose.OCR để nhận dạng ký tự nhanh chóng và chính xác.
 ### [Nhận dạng văn bản từ hình ảnh với Java – Hướng dẫn OCR song song](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
 Hướng dẫn thực hiện OCR song song trên nhiều hình ảnh bằng Java để tăng tốc độ xử lý và độ chính xác.
+### [Cách bật GPU cho OCR trong Java bằng Aspose.OCR](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
+Kích hoạt GPU để tăng tốc OCR, cho phép trích xuất văn bản nhanh hơn và hiệu quả hơn trong Java.
 
 ### [Hướng dẫn kích hoạt GPU cho OCR Java – Bước‑bước](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
 Hướng dẫn từng bước kích hoạt GPU cho OCR Java, tăng tốc độ nhận dạng văn bản và cải thiện hiệu suất.
