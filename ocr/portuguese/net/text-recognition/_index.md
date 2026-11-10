@@ -280,6 +280,8 @@ Aprenda a reconhecer texto em C# usando Aspose OCR, exibindo a contagem de carac
 
 
 
+### [Como reconhecer texto de imagem com Aspose.OCR em C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Aprenda a usar Aspose.OCR em C# para reconhecer texto em imagens de forma rápida e precisa.
 
 
 

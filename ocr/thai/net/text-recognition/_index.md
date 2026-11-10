@@ -261,6 +261,8 @@ url: /th/net/text-recognition/
 
 
 
+### [วิธีจดจำข้อความจากรูปภาพด้วย Aspose.OCR ใน C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างง่ายดาย
 
 
 

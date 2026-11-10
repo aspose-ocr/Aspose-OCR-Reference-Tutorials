@@ -281,6 +281,8 @@ Pelajari cara mengenali teks di C# menggunakan Aspose OCR, menampilkan jumlah ka
 
 
 
+### [Cara mengenali teks dari gambar dengan Aspose.OCR di C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR dalam proyek C# Anda dengan panduan langkah demi langkah.
 
 
 

@@ -288,6 +288,7 @@ Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản,
 
 
 
+### [Cách nhận dạng văn bản từ hình ảnh với Aspose.OCR trong C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 
 
 

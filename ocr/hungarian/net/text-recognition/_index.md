@@ -286,6 +286,8 @@ Ismerje meg, hogyan hozhat létre konzol naplózót és ellenőrizheti az OCR á
 
 
 
+### [Hogyan ismerje fel a szöveget képről az Aspose.OCR segítségével C#-ban](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Ismerje fel a képen lévő szöveget C# és Aspose.OCR használatával.
 
 
 

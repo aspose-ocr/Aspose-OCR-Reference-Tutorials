@@ -280,6 +280,8 @@ C# ve Aspose OCR ile metni tanıyın, karakter sayısını görüntüleyin ve g�
 
 
 
+### [C#'ta Aspose.OCR ile Görüntüden Metin Tanıma](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Aspose.OCR kullanarak C# ile bir görüntüden metni nasıl tanıyacağınızı adım adım öğrenin.
 
 
 

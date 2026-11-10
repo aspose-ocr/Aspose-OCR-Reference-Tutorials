@@ -282,6 +282,8 @@ url: /el/net/text-recognition/
 
 
 
+### [Πώς να αναγνωρίσετε κείμενο από εικόνα με Aspose.OCR σε C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Μάθετε βήμα‑βήμα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
 
 
 

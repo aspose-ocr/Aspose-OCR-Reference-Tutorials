@@ -277,6 +277,8 @@ url: /zh-hant/net/text-recognition/
 
 
 
+### [如何使用 Aspose.OCR 在 C# 中辨識圖像文字](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+使用 Aspose.OCR 在 C# 中快速辨識圖像文字，簡易步驟教學。
 
 
 

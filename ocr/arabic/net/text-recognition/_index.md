@@ -284,6 +284,8 @@ url: /ar/net/text-recognition/
 
 
 
+### [كيفية التعرف على النص من صورة باستخدام Aspose.OCR في C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+تعلم كيفية استخراج النص من صورة باستخدام Aspose.OCR في C# خطوة بخطوة.
 
 
 

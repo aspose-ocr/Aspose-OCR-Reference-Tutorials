@@ -269,6 +269,8 @@ Erfahren Sie, wie Sie mit Aspose OCR Text in C# erkennen, die Zeichenanzahl anze
 
 
 
+### [Wie man Text aus Bild mit Aspose.OCR in C# erkennt](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern schnell und präzise erkennen.
 
 
 

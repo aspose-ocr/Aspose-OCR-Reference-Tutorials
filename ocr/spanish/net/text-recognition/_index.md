@@ -294,6 +294,8 @@ Aprenda a reconocer texto, mostrar el número de caracteres y cargar imágenes u
 
 
 
+### [Cómo reconocer texto de una imagen con Aspose.OCR en C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Aprenda a reconocer texto en imágenes usando Aspose.OCR con C# paso a paso.
 
 
 

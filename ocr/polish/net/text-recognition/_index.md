@@ -49,7 +49,6 @@ Dowiedz się, jak w C# przy pomocy Aspose OCR zamienić dokumenty PDF w przeszuk
 
 Poruszaj się po złożoności rozpoznawania tabel w rozpoznawaniu obrazów OCR za pomocą Aspose.OCR dla .NET. Nasz kompleksowy przewodnik umożliwia odblokowanie pełnego potencjału Aspose.OCR, zapewniając dokładne i wydajne rozpoznawanie tabel w Twoich aplikacjach. Podnieś poziom swoich projektów dzięki wiodącemu w branży rozwiązaniu OCR.
 
-Gotowy zrewolucjonizować swoje aplikacje .NET? Zanurz się w naszych samouczkach dotyczących rozpoznawania tekstu i wykorzystaj moc Aspose.OCR do dokładnego i wydajnego rozpoznawania tekstu w obrazach. Pobierz teraz i wyrusz w podróż po ulepszonych możliwościach OCR.
 ## Poradniki rozpoznawania tekstu
 ### [Uzyskaj wybór rozpoznawanych znaków w procesie rozpoznawania obrazu OCR](./get-choices-for-recognized-characters/)
 Ulepsz swoje aplikacje .NET za pomocą Aspose.OCR, aby uzyskać dokładne rozpoznawanie znaków. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby wyszukać opcje rozpoznawania znaków w procesie rozpoznawania obrazu.
@@ -277,6 +276,8 @@ Dowiedz się, jak w C# używać Aspose OCR do rozpoznawania tekstu, wyświetlani
 
 
 
+### [Jak rozpoznać tekst z obrazu przy użyciu Aspose.OCR w C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Szybki przewodnik, jak w .NET przy użyciu Aspose.OCR rozpoznać tekst z obrazów w kilku prostych krokach.
 
 
 

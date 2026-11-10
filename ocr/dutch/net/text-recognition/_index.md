@@ -282,6 +282,8 @@ Leer hoe u met Aspose OCR tekst herkent in C#, het aantal tekens weergeeft en af
 
 
 
+### [Hoe tekst te herkennen uit een afbeelding met Aspose.OCR in C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Leer stap voor stap hoe u met Aspose.OCR tekst uit afbeeldingen haalt in een C#‑applicatie.
 
 
 

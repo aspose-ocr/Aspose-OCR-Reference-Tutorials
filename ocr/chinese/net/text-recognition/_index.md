@@ -299,6 +299,8 @@ url: /zh/net/text-recognition/
 
 
 
+### [如何在 C# 中使用 Aspose.OCR 识别图像文字](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+通过本教程，快速学习在 C# 项目中使用 Aspose.OCR 从图像中提取文本的完整步骤。
 
 
 

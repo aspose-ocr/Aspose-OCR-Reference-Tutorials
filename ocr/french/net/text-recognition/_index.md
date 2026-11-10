@@ -286,6 +286,8 @@ Apprenez à extraire du texte d'images et à obtenir les résultats OCR au forma
 
 
 
+### [Comment reconnaître du texte à partir d'une image avec Aspose.OCR en C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+Apprenez à extraire du texte d'une image en C# avec Aspose.OCR grâce à ce guide rapide.
 
 
 
