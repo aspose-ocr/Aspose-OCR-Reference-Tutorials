@@ -118,9 +118,48 @@ Odkryj moc Aspose.OCR for Java. Dowiedz się, jak płynnie wyodrębniać tekst z
 
 ### [Odczyt tekstu z obrazu w Javie – Kompletny przewodnik Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Kompletny przewodnik po odczytywaniu tekstu z obrazów w Javie przy użyciu Aspose OCR.
-
 ### [Uzyskaj tekst OCR w Javie – Kompletny przykład Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Pełny przykład pokazujący, jak pobrać tekst OCR w Javie przy użyciu Aspose OCR.
+### [Jak włączyć OCR w Javie – Przewodnik krok po kroku](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób włączyć OCR w aplikacji Java, krok po kroku, z przykładami kodu.
+### [Samouczek Image to Text – Wyodrębnianie tekstu tamilskiego przy użyciu Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Poznaj, jak przetworzyć obrazy na tekst w języku tamilskim, wykorzystując Aspose OCR w Javie.
+### [Wyodrębnianie tekstu z obrazu w Javie – Kompletny przykład OCR](./extract-text-from-image-in-java-complete-ocr-example/)
+Pełny przykład użycia Aspose.OCR w Javie do wyodrębniania tekstu z obrazów, obejmujący licencję, korekcję pochylenia i odczyt tekstu.
+### [Rozpoznawanie tekstu z PNG w Javie – samouczek Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+
+### [Wyodrębnianie tekstu z obrazu – konwersja PNG na tekst w Javie](./extract-text-from-image-convert-png-to-text-in-java/)
+
+### [Wyodrębnianie tekstu z obrazu – szybki przewodnik Java z Aspose OCR](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Szybki samouczek pokazujący, jak w kilku krokach wyodrębnić tekst z obrazu w Javie przy użyciu biblioteki Aspose OCR.
+### [Wyodrębnianie tekstu z obrazu w Javie – Samouczek Java OCR](./extract-text-from-image-in-java-java-ocr-tutorial/)
+Poznaj, jak szybko wyodrębnić tekst z obrazów w Javie przy użyciu Aspose.OCR, krok po kroku, z praktycznymi przykładami.
+### [Wykonaj OCR na obrazie w Javie – wyodrębnij tekst z JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+### [Rozpoznawanie tekstu z obrazu w Javie – Kompletny samouczek OCR](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Pełny przewodnik po rozpoznawaniu tekstu z obrazów w Javie przy użyciu Aspose.OCR, od konfiguracji po zaawansowane techniki.
+### [Wyodrębnianie tekstu z obrazu w Javie – Pobierz tekst z OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Dowiedz się, jak wyodrębnić tekst z obrazów w Javie przy użyciu Aspose.OCR, obejmując konfigurację, przetwarzanie i pobieranie wyników OCR.
+### [Wyodrębnianie tekstu z obrazu przy użyciu Aspose OCR – Kompletny samouczek Java](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Kompletny przewodnik Java, jak wyodrębnić tekst z obrazu przy użyciu Aspose OCR.
+
+### [Konwertowanie obrazu na tekst w Javie – Kompletny przykład Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Pełny przykład w Javie, pokazujący konwersję obrazu na tekst przy użyciu Aspose OCR.
+### [Jak wykonać OCR w Javie – Kompletny przewodnik po wyodrębnianiu tekstu z obrazów](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Kompletny przewodnik, jak używać Aspose.OCR w Javie do wyodrębniania tekstu z obrazów, obejmujący konfigurację, korekcję pochylenia i optymalizację wyników.
+### [Przykład OCR w Javie – Wczytaj obraz i rozpoznaj tekst przy użyciu Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+
+### [Wykonaj OCR na obrazie w Javie – Kompletny przewodnik krok po kroku](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Pełny przewodnik, jak w Javie załadować obraz i przeprowadzić OCR przy użyciu Aspose.OCR, krok po kroku.
+### [Rozpoznawanie tekstu z pliku JPG przy użyciu Aspose OCR w Javie](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Dowiedz się, jak używać Aspose OCR w Javie do rozpoznawania tekstu z obrazów JPG w kilku prostych krokach.
+
+### [Użyj wszystkich rdzeni CPU w Javie – efektywne ustawianie rozmiaru puli wątków](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Dowiedz się, jak wykorzystać wszystkie rdzenie CPU w Javie, efektywnie ustawiając rozmiar puli wątków dla maksymalnej wydajności.
+### [Odczyt tekstu z obrazu przy użyciu Java OCR – Kompletny przewodnik Aspose OCR](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+### [Wyodrębnianie tekstu z obrazu w Javie – Kompletny przewodnik OCR](./extract-text-from-image-in-java-complete-ocr-guide/)
+Kompletny przewodnik po wyodrębnianiu tekstu z obrazów w Javie przy użyciu Aspose.OCR, od konfiguracji po zaawansowane techniki.
+### [Rozpoznawanie obrazu tekstowego w Javie – Kompletny przewodnik Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Pełny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, od konfiguracji po zaawansowane techniki.
 
 ---
 

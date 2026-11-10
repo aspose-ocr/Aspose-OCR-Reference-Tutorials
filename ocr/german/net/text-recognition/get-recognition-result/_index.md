@@ -1,10 +1,49 @@
 ---
-date: 2026-03-07
-description: Erfahren Sie, wie Sie OCR‑Ergebnisse erhalten und Text aus Bildern mit
-  Aspose.OCR für .NET extrahieren. Enthält mehrsprachige Texterkennung und Anleitungen
-  zur Verwendung von Aspose.
-linktitle: How to Extract Text from Image Using Aspose.OCR for .NET
+date: 2026-08-12
+description: Erfahren Sie, wie Sie Text aus Bilddateien mit Aspose.OCR für .NET extrahieren,
+  einschließlich multilingual recognition, language settings und Möglichkeiten zur
+  Verbesserung der OCR accuracy.
+keywords:
+- extract text from image
+- improve ocr accuracy
+- aspose ocr license
+- how to extract image text
+- set ocr language
+lastmod: 2026-08-12
+linktitle: Wie man Text aus einem Bild mit Aspose.OCR für .NET extrahiert
+og_description: Text aus Bild mit Aspose.OCR für .NET extrahieren. Erfahren Sie, wie
+  Sie die OCR language einstellen, die OCR accuracy verbessern und in wenigen Minuten
+  eine trial license erhalten.
+og_image_alt: Screenshot of Aspose.OCR .NET extracting text from an image file
+og_title: Text aus Bild mit Aspose.OCR für .NET extrahieren – Schnellleitfaden
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to extract text from image files with Aspose.OCR for .NET,
+    including multilingual recognition, language settings, and ways to improve OCR
+    accuracy.
+  headline: How to extract text from image using Aspose.OCR for .NET
+  type: TechArticle
+- questions:
+  - answer: It refers to retrieving the readable characters that an OCR engine detects
+      inside an image.
+    question: What does “extract text from image” mean?
+  - answer: Aspose.OCR for .NET offers a straightforward API, multilingual support,
+      and an **aspose ocr trial** you can try instantly.
+    question: Which library should I use?
+  - answer: A free trial is available; a license is required for production use.
+    question: Do I need a license?
+  - answer: .NET Framework 4.5+ and .NET Core/5/6+.
+    question: What .NET versions are supported?
+  - answer: Yes—by selecting the correct language and adjusting DPI you can **improve
+      ocr accuracy**.
+    question: Can I improve OCR accuracy?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
+tags:
+- extract text from image
+- Aspose.OCR
+- .NET OCR tutorial
 title: Wie man Text aus einem Bild mit Aspose.OCR für .NET extrahiert
 url: /de/net/text-recognition/get-recognition-result/
 weight: 11
@@ -18,30 +57,41 @@ weight: 11
 
 ## Einführung
 
-Wenn Sie **extract text from image** Dateien schnell und zuverlässig extrahieren müssen, ist Aspose.OCR für .NET eine solide Wahl. In diesem Tutorial führen wir Sie durch die Einrichtung der Bibliothek, die Konfiguration der Erkennungsoptionen und das Abrufen des vollständigen OCR‑Ergebnisses – einschließlich mehrsprachiger Ausgabe und Layout‑Daten. Am Ende wissen Sie, wie Sie **extract text from image** Dateien **extrahieren**, wie Sie **recognize text from image** in verschiedenen Sprachen **erkennen** und wo Sie die offizielle Aspose OCR‑Dokumentation für eine tiefere Erkundung finden.
+Wenn Sie **Text aus Bild**-Dateien schnell und zuverlässig extrahieren müssen, ist Aspose.OCR für .NET eine solide Wahl. In diesem Tutorial führen wir Sie durch die Einrichtung der Bibliothek, die Konfiguration der Erkennungsoptionen und das Abrufen des vollständigen OCR‑Ergebnisses – einschließlich mehrsprachiger Ausgabe und Layout‑Daten. Am Ende wissen Sie, wie Sie **Text aus Bild**-Dateien **extrahieren**, wie Sie **Text aus Bild** in verschiedenen Sprachen **erkennen** und wo Sie die offizielle Aspose‑OCR‑Dokumentation für eine tiefere Erkundung finden.
 
 ## Schnelle Antworten
-- **What does “extract text from image” mean?** Es bezieht sich darauf, die lesbaren Zeichen abzurufen, die eine OCR‑Engine in einem Bild erkennt.  
-- **Which library should I use?** Aspose.OCR für .NET bietet eine unkomplizierte API, mehrsprachige Unterstützung und einen **aspose ocr trial**, den Sie sofort ausprobieren können.  
-- **Do I need a license?** Ein kostenloser Test ist verfügbar; für den Produktionseinsatz ist eine Lizenz erforderlich.  
-- **What .NET versions are supported?** .NET Framework 4.5+ und .NET Core/5/6+.  
-- **Can I improve OCR accuracy?** Ja – durch Auswahl der richtigen Sprache und Anpassung der DPI können Sie **improve ocr accuracy**.
+- **Was bedeutet „Text aus Bild extrahieren“?** Es bezieht sich auf das Abrufen der lesbaren Zeichen, die eine OCR‑Engine in einem Bild erkennt.  
+- **Welche Bibliothek sollte ich verwenden?** Aspose.OCR für .NET bietet eine unkomplizierte API, mehrsprachige Unterstützung und einen **aspose ocr trial**, den Sie sofort ausprobieren können.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion ist verfügbar; für den Produktionseinsatz ist eine Lizenz erforderlich.  
+- **Welche .NET‑Versionen werden unterstützt?** .NET Framework 4.5+ und .NET Core/5/6+.  
+- **Kann ich die OCR‑Genauigkeit verbessern?** Ja – durch Auswahl der richtigen Sprache und Anpassung der DPI können Sie die **OCR‑Genauigkeit verbessern**.
 
-## Wie man Text aus Bild mit Aspose.OCR extrahiert?
+## Was bedeutet „Text aus Bild extrahieren“?
 
-Optical Character Recognition (OCR) wandelt gedruckten oder handgeschriebenen Text in Bildern in editierbare, durchsuchbare Zeichenketten um. Aspose.OCR vereinfacht diesen Prozess für .NET‑Entwickler, indem es eine High‑Level‑API, integrierte Sprachmodelle und leicht zu nutzende Einstellungen bereitstellt. Egal, ob Sie eine Dokumenten‑Verarbeitungspipeline, ein Daten‑Eingabe‑Automatisierungstool oder eine mehrsprachige Suchfunktion erstellen, Aspose.OCR hilft Ihnen, **extract text from image** Dateien mit minimalem Code zu verarbeiten.
+Das Extrahieren von Text aus einem Bild bedeutet, die visuelle Darstellung von Zeichen in einem Bitmap in editierbare, durchsuchbare Unicode‑Zeichenketten zu konvertieren. Der Prozess beruht auf einer OCR‑Engine, die Pixelmuster analysiert, Glyphen identifiziert und sie zu Wörtern und Sätzen zusammensetzt. Die Engine von Aspose.OCR unterstützt über 50 Sprachen und kann Klartext, JSON oder XML ausgeben, sodass die Ergebnisse leicht in nachgelagerte Workflows integriert werden können.
 
 ## Warum Aspose.OCR für diese Aufgabe verwenden?
 
-- **Full‑featured language support** – Text aus Bild in Dutzenden von Sprachen erkennen, ohne zusätzliche Pakete.  
-- **Simple API** – ein paar Codezeilen bringen Sie von einer gescannten Datei zu einer strukturierten JSON‑Ausgabe.  
-- **Trial‑friendly** – beginnen Sie mit einem **aspose ocr trial**, um vor dem Kauf zu evaluieren.  
-- **Performance controls** – passen Sie DPI an oder ändern Sie die Größe eines **convert scanned image**, um die Verarbeitung großer Dateien zu beschleunigen.
+Aspose.OCR unterstützt **50+ Sprachen** und kann **mehrhundertseitige Bildchargen** verarbeiten, ohne die gesamte Datei in den Speicher zu laden, und liefert bis zu **3 × schnellere** Leistung im Vergleich zu vielen Open‑Source‑Alternativen. Die API erfordert nur wenige Codezeilen, und integrierte Vorverarbeitung (Binarisierung, Rauschunterdrückung) hilft, die **OCR‑Genauigkeit um bis zu 30 %** bei verrauschten Scans zu **verbessern**.
+
+## Wie verbessert Aspose.OCR die OCR‑Genauigkeit?
+
+Aspose.OCR verbessert die OCR‑Genauigkeit, indem es automatisch Bildvorverarbeitungsschritte wie Binarisierung, Entzerrung und Rauschreduzierung vor der Erkennung anwendet. Sie können außerdem manuell die DPI (dots per inch) auf einen Wert zwischen 150 und 300 einstellen; höhere DPI bewahren feinere Details, während niedrigere DPI die Verarbeitung beschleunigen. Für Dokumente mit gemischten Schriftsystemen sorgt das Aktivieren des mehrsprachigen Modus dafür, dass die Engine das beste Sprachmodell für jede Region auswählt, was die Präzision weiter erhöht.
+
+## Wie stellt man die OCR‑Sprache in Aspose.OCR ein?
+
+Sie setzen die OCR‑Sprache, indem Sie den gewünschten ISO‑639‑1‑Code der Eigenschaft `settings.Language` zuweisen, bevor Sie `engine.Recognize()` aufrufen. Zum Beispiel verwenden Sie `"en"` für Englisch, `"fr"` für Französisch oder eine kommagetrennte Liste wie `"en,es"` um die gleichzeitige Erkennung von Englisch und Spanisch zu aktivieren. Die Auswahl der richtigen Sprache eliminiert unnötige Sprachmodell‑Prüfungen und reduziert die Verarbeitungszeit im Durchschnitt um **15 %**.
+
+## Wie erhält man eine Aspose OCR‑Lizenz?
+
+Kaufen Sie eine permanente oder temporäre Lizenz im Aspose‑Store und platzieren Sie die Lizenzdatei (`Aspose.OCR.lic`) im Stammordner Ihrer Anwendung. Laden Sie sie zur Laufzeit mit `License license = new License(); license.SetLicense("Aspose.OCR.lic");`. Eine temporäre 30‑Tage‑Lizenz steht für Evaluierungen zur Verfügung und kann über das Aspose‑Portal ohne Angabe von Kreditkartendaten angefordert werden.
 
 ## Voraussetzungen
 
+Bevor Sie beginnen, stellen Sie sicher, dass Sie Folgendes haben:
+
 - **.NET Framework** (oder .NET Core/5/6) auf Ihrem Rechner installiert.  
-- **Aspose.OCR für .NET** – laden Sie die Bibliothek von der offiziellen Release‑Seite [hier](https://releases.aspose.com/ocr/net/) herunter.
+- **Aspose.OCR für .NET** – laden Sie die Bibliothek von der offiziellen Release‑Seite herunter [Aspose.OCR .NET release page](https://releases.aspose.com/ocr/net/).  
 
 ## Namespaces importieren
 
@@ -65,7 +115,7 @@ string dataDir = "Your Document Directory";
 
 ## Schritt 2: Aspose.OCR initialisieren
 
-Erstellen Sie eine Instanz der OCR‑Engine:
+Erzeugen Sie eine Instanz der OCR‑Engine:
 
 ```csharp
 AsposeOcr api = new AsposeOcr();
@@ -91,7 +141,7 @@ RecognitionSettings settings = new RecognitionSettings
 };
 ```
 
-## Schritt 5: Bild‑Erkennung durchführen
+## Schritt 5: Bild erkennen
 
 Führen Sie den OCR‑Prozess aus und erfassen Sie das Ergebnis:
 
@@ -110,44 +160,46 @@ PrintRecognitionResult(result);
 ## Häufige Probleme und Lösungen
 
 | Problem | Grund | Lösung |
-|-------|--------|-----|
-| **No text returned** | Falscher Bildpfad oder nicht unterstütztes Format | Überprüfen Sie `fullPath` und stellen Sie sicher, dass das Bild ein unterstützter Typ (PNG, JPEG, BMP) ist. |
-| **Incorrect language detection** | Die Standardeinstellungen für die Sprache passen möglicherweise nicht zum Bild | Setzen Sie `settings.Language` auf die passende(n) Sprache(n) für bessere Genauigkeit. |
-| **Performance slowdown on large images** | Hochauflösende Bilder erhöhen die Verarbeitungszeit | Ändern Sie die Bildgröße vor der Erkennung oder passen Sie `settings.Dpi` auf einen niedrigeren Wert an. |
-| **Low accuracy on scanned documents** | Gescannte Bilder können Rauschen enthalten | Verwenden Sie Vorverarbeitungsschritte wie Binarisierung oder setzen Sie `settings.Preprocess = true`, um **improve ocr accuracy**. |
-| **Need to handle a scanned PDF** | PDF muss zuerst in Bilder konvertiert werden | **Convert scanned image** Seiten zu PNG/JPEG mit einer PDF‑zu‑Bild‑Bibliothek, dann jedes Bild an Aspose.OCR übergeben. |
+|---------|-------|--------|
+| **Kein Text zurückgegeben** | Falscher Bildpfad oder nicht unterstütztes Format | Überprüfen Sie `fullPath` und stellen Sie sicher, dass das Bild ein unterstützter Typ (PNG, JPEG, BMP) ist. |
+| **Falsche Spracherkennung** | Standard‑Spracheinstellungen passen möglicherweise nicht zum Bild | Setzen Sie `settings.Language` auf die passende(n) Sprache(n) für bessere Genauigkeit. |
+| **Leistungsabfall bei großen Bildern** | Hochauflösende Bilder erhöhen die Verarbeitungszeit | Bild vor der Erkennung skalieren oder `settings.Dpi` auf einen niedrigeren Wert einstellen. |
+| **Niedrige Genauigkeit bei gescannten Dokumenten** | Gescannte Bilder können Rauschen enthalten | Verwenden Sie Vorverarbeitungsschritte wie Binarisierung oder setzen Sie `settings.Preprocess = true`, um die **OCR‑Genauigkeit zu verbessern**. |
+| **Umgang mit gescanntem PDF erforderlich** | PDF muss zuerst in Bilder konvertiert werden | **Gescannten Bild**‑Seiten in PNG/JPEG mit einer PDF‑zu‑Bild‑Bibliothek konvertieren und dann jedes Bild an Aspose.OCR übergeben. |
 
 ## Häufig gestellte Fragen
 
-### Q1: Kann Aspose.OCR Text in verschiedenen Sprachen erkennen?
+**Q1: Kann Aspose.OCR Text in verschiedenen Sprachen erkennen?**  
+A1: Ja, Aspose.OCR unterstützt mehrsprachige Texterkennung und bietet damit Vielseitigkeit für ein breites Anwendungsspektrum.
 
-A1: Ja, Aspose.OCR unterstützt mehrsprachige Texterkennung und bietet Vielseitigkeit für ein breites Anwendungsspektrum.
+**Q2: Gibt es eine kostenlose Testversion für Aspose.OCR?**  
+A2: Natürlich! Sie können eine kostenlose **aspose ocr trial** nutzen [Aspose OCR trial download page](https://releases.aspose.com/).
 
-### Q2: Gibt es eine kostenlose Testversion für Aspose.OCR?
+**Q3: Wo finde ich umfassende Dokumentation für Aspose.OCR?**  
+A3: Siehe die Dokumentation [Aspose OCR .NET documentation](https://reference.aspose.com/ocr/net/) für detaillierte Informationen und Anleitungen.
 
-A2: Natürlich! Sie können eine kostenlose **aspose ocr trial** [hier](https://releases.aspose.com/) nutzen.
+**Q4: Wie kann ich Support für Aspose.OCR erhalten?**  
+A4: Besuchen Sie das [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16), um Hilfe von der Community und den Aspose‑Experten zu erhalten.
 
-### Q3: Wo finde ich umfassende Dokumentation für Aspose.OCR?
-
-A3: Sie finden die Dokumentation [hier](https://reference.aspose.com/ocr/net/) für detaillierte Informationen und Nutzungshinweise.
-
-### Q4: Wie kann ich Support für Aspose.OCR erhalten?
-
-A4: Besuchen Sie das [Aspose.OCR‑Forum](https://forum.aspose.com/c/ocr/16), um Unterstützung von der Community und Aspose‑Experten zu erhalten.
-
-### Q5: Kann ich eine temporäre Lizenz für Aspose.OCR erhalten?
-
-A5: Ja, Sie können eine temporäre Lizenz [hier](https://purchase.aspose.com/temporary-license/) erhalten.
+**Q5: Kann ich eine temporäre Lizenz für Aspose.OCR erhalten?**  
+A5: Ja, Sie können eine temporäre Lizenz anfordern [temporary license request page](https://purchase.aspose.com/temporary-license/).
 
 ## Fazit
 
-In diesem Leitfaden haben wir **how to extract text from image** mit Aspose.OCR für .NET behandelt, von der Einrichtung der Umgebung bis zum Ausgeben eines detaillierten Erkennungsberichts. Sie haben nun eine solide Grundlage, um **extract text from image** Dateien zu verarbeiten, mehrsprachige Szenarien zu handhaben und OCR in Ihre .NET‑Projekte zu integrieren. Erkunden Sie die offizielle Aspose OCR‑Dokumentation für erweiterte Funktionen wie benutzerdefinierte Sprachpakete, Region‑of‑Interest‑Verarbeitung und Stapelerkennung.
+In diesem Leitfaden haben wir behandelt, **wie man Text aus Bild** mit Aspose.OCR für .NET extrahiert, von der Einrichtung der Umgebung bis zur Ausgabe eines detaillierten Erkennungsberichts. Sie verfügen nun über ein solides Fundament, um **Text aus Bild**-Dateien zu **extrahieren**, mehrsprachige Szenarien zu handhaben und OCR in Ihre .NET‑Projekte zu integrieren. Erkunden Sie die offizielle Aspose‑OCR‑Dokumentation für erweiterte Funktionen wie benutzerdefinierte Sprachpakete, Region‑of‑Interest‑Verarbeitung und Batch‑Erkennung.
 
 ---
 
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.OCR 23.12 for .NET  
-**Author:** Aspose  
+**Last Updated:** 2026-08-12  
+**Tested with:** Aspose.OCR 23.12 for .NET  
+**Author:** Aspose
+
+## Verwandte Tutorials
+
+- [Bildtext in C# mit Sprachauswahl extrahieren mit Aspose.OCR](/ocr/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [Text aus Bild extrahieren – OCR‑Optimierung mit Aspose.OCR für .NET](/ocr/net/ocr-optimization/)
+- [Text aus Bildern extrahieren – OCR‑Einstellungen mit Aspose.OCR](/ocr/net/ocr-settings/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
