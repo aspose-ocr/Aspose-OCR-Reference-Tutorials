@@ -23,14 +23,16 @@ Skevvinkel spelar en avgörande roll i OCR-bildigenkänning, vilket säkerställ
 ## [Beräkna skevningsvinkel i OCR-bildigenkänning](./calculate-skew-angle/)
 Ge dig ut på en resa för att bemästra skevvinkelberäkning i OCR-bildigenkänning med Aspose.OCR för .NET. Vår handledning förenklar processen och gör den tillgänglig för utvecklare på alla nivåer. Öka din textigenkänningsnoggrannhet och effektivitet idag!
 
-## Enkel bildigenkänning med Aspose.OCR för .NET
-Våra handledningar sträcker sig bortom teorin och går in i praktisk implementering. Lär dig hur du släpper lös kraften i Aspose.OCR för .NET, en robust lösning för bildigenkänning. Från strömbaserade beräkningar till enkel URI-integration, vi har dig täckt.
-
 ## [Beräkna skevningsvinkel från Stream i OCR-bildigenkänning](./calculate-skew-angle-from-stream/)
 Utforska funktionerna i Aspose.OCR för .NET när vi guidar dig genom att beräkna snedvinklar från strömmar. Lyft dina bildigenkänningsprojekt med denna omfattande handledning. Precision och effektivitet är bara ett klick bort!
 
 ## [Beräkna skevningsvinkel från URI i OCR-bildigenkänning](./calculate-skew-angle-from-uri/)
 Integrera Aspose.OCR för .NET enkelt i dina projekt och förbättra OCR-bildigenkänningen. Vår handledning om att beräkna snedvinklar från URI:er ger dig möjlighet att ta precision och effektivitet i framkant. Håll dig framme i din utvecklingsresa!
+
+## [OCR-roterad dokumenthandledning – Automatisk korrigering av snedvinkel och rotation i C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+
+## Enkel bildigenkänning med Aspose.OCR för .NET
+Våra handledningar sträcker sig bortom teorin och går in i praktisk implementering. Lär dig hur du släpper lös kraften i Aspose.OCR för .NET, en robust lösning för bildigenkänning. Från strömbaserade beräkningar till enkel URI-integration, vi har dig täckt.
 
 Sammanfattningsvis fungerar våra guider för beräkning av skevvinkel som din kompass inom området för OCR-bildigenkänning. Oavsett om du är en C#-entusiast eller en Java-entusiast, utrustar Aspose.OCR dig med verktygen för att erövra snedvinklar och lyfta dina projekt till nya höjder. Utforska, lär dig och revolutionera din utvecklingsresa med oss!
 ## Instruktioner för beräkning av sned vinkel
@@ -46,6 +48,18 @@ Lär dig steg för steg hur du korrigerar snedvridna bilder för OCR med Aspose.
 Lär dig steg‑för‑steg hur du rättar upp bilder i C# för att förbättra OCR‑förbehandling och öka igenkänningsprecisionen.
 ### [Hur du räta upp en bild i C# – Komplett guide för OCR‑förbehandling](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
 Lär dig steg‑för‑steg hur du räta upp bilder i C# för att förbättra OCR‑noggrannheten och förbehandla dina projekt.
+### [Hur man räta upp bild – Komplett C#‑förbehandlingsguide för OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
+Lär dig steg‑för‑steg hur du räta upp bilder med C#‑förbehandling för att förbättra OCR‑noggrannheten.
+### [Ta bort skevning från bild – komplett OCR‑förbehandlingsguide](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Lär dig hur du tar bort skevning från bilder som en del av en fullständig OCR‑förbehandlingsprocess med Aspose.OCR för .NET.
+### [Hur du räta upp en bild och rensa upp skanningar – Komplett C#-guide](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+### [Hur man räta upp en bild i C# med Aspose OCR – Fullständig guide](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+
+### [Hur du räta upp en bild i C# – Komplett guide med Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Lär dig steg för steg att räta upp bilder i C# med Aspose OCR för förbättrad OCR-precision.
+### [Hur du räta upp en bild med Aspose OCR – Komplett C#-guide](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Lär dig steg för steg hur du använder Aspose OCR i C# för att automatiskt räta upp snedvridna bilder.
+### [OCR-roterad dokumenthandledning – Automatisk korrigering av snedvinkel och rotation i C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

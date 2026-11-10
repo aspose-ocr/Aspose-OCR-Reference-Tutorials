@@ -62,7 +62,9 @@ url: /net/text-recognition/how-to-convert-an-ocr-image-to-json-in-c-with-aspose-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to convert an OCR image to JSON in C# with Aspose.OCR
@@ -273,7 +275,6 @@ From here you might explore:
 
 Feel free to experiment with different languages, image formats, and output options to fit your project’s needs. Happy coding!
 
-
 ## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -283,7 +284,8 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Extract Text from Image Using Aspose.OCR for .NET]({{< relref "ocr/english/net/text-recognition/get-recognition-result.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

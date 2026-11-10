@@ -1,26 +1,81 @@
 ---
 category: general
-date: 2025-12-30
-description: Converteer afbeelding naar PDF met Aspose OCR in C#. Leer hoe je een
-  afbeelding voor OCR kunt voorbewerken, Koreaanse tekstafbeeldingen kunt herkennen
-  en snel een doorzoekbare PDF‑afbeelding kunt maken.
-draft: false
+date: 2026-09-13
+description: Leer hoe je een gescande pagina naar PDF kunt omzetten in C# met Aspose
+  OCR. Deze gids toont image preprocessing, Korean text recognition, en het maken
+  van een doorzoekbare PDF.
 keywords:
-- convert image to pdf
-- preprocess image for ocr
-- recognize korean text image
-- create searchable pdf image
-language: nl
-og_description: Converteer afbeelding naar PDF met Aspose OCR. Deze tutorial laat
-  zien hoe je een afbeelding voor OCR kunt voorbewerken, Koreaanse tekstafbeelding
-  kunt herkennen en een doorzoekbare PDF-afbeelding kunt maken.
-og_title: Afbeelding naar PDF converteren in C# – Complete OCR-gids
+- scanned page to pdf
+- preprocess image for OCR
+- generate pdf with text
+- convert image to searchable pdf
+- gpu accelerated OCR
+- recognize Korean text image
+lastmod: 2026-09-13
+og_description: Leer hoe je een gescande pagina naar PDF kunt omzetten in C# met Aspose
+  OCR. De tutorial behandelt image preprocessing, GPU‑accelerated OCR voor Korean
+  text en het genereren van een doorzoekbare PDF in enkele minuten.
+og_image_alt: Screenshot of C# console app converting a scanned Korean page to searchable
+  PDF using Aspose OCR
+og_title: Hoe een gescande pagina omzetten naar PDF in C# met OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-09-13'
+  description: Learn how to turn a scanned page to PDF in C# using Aspose OCR. This
+    guide shows preprocessing, Korean text recognition, and creating a searchable
+    PDF.
+  headline: How to turn a scanned page to PDF in C# with OCR
+  type: TechArticle
+- description: Learn how to turn a scanned page to PDF in C# using Aspose OCR. This
+    guide shows preprocessing, Korean text recognition, and creating a searchable
+    PDF.
+  name: How to turn a scanned page to PDF in C# with OCR
+  steps:
+  - name: Initialise the OCR engine with GPU support.
+    text: Initialise the OCR engine with GPU support.
+  - name: Add **preprocess image for OCR** filters such as deskew and denoise.
+    text: Add **preprocess image for OCR** filters such as deskew and denoise.
+  - name: Download and load the Korean language model (handled automatically).
+    text: Download and load the Korean language model (handled automatically).
+  - name: Run the OCR on the image.
+    text: Run the OCR on the image.
+  - name: Export the result with **SearchablePdfExporter** to **create searchable
+      PDF image**.
+    text: Export the result with **SearchablePdfExporter** to **create searchable
+      PDF image**.
+  - name: (Optional) Serialize the OCR output to JSON for downstream pipelines.
+    text: (Optional) Serialize the OCR output to JSON for downstream pipelines.
+  - name: '**Ensure the language model is fully downloaded** – check the console for
+      a message like “Downloading Korean model…”.'
+    text: '**Ensure the language model is fully downloaded** – check the console for
+      a message like “Downloading Korean model…”.'
+  - name: '**Increase the `MaxAngle`** in `DeskewFilter` if your scans are rotated
+      beyond 12°.'
+    text: '**Increase the `MaxAngle`** in `DeskewFilter` if your scans are rotated
+      beyond 12°.'
+  - name: '**Boost GPU memory** by setting `ocrEngine.GpuMemoryLimit = 2048;` (value
+      in MB).'
+    text: '**Boost GPU memory** by setting `ocrEngine.GpuMemoryLimit = 2048;` (value
+      in MB).'
+  type: HowTo
+- questions:
+  - answer: 'The exporter embeds the original bitmap at its native resolution. If
+      size is a concern, downscale the image *before* recognition:'
+    question: My PDF is huge compared to the original image.
+  - answer: Verify that the image path is correct and that the file is not corrupted.
+      Also, make sure the GPU driver is up‑to‑date; older drivers can cause silent
+      failures.
+    question: The OCR returns empty strings.
+  - answer: Absolutely. Wrap steps 4‑6 in a `foreach (var file in Directory.GetFiles("Resources",
+      "*.jpg"))` loop and change the output PDF path accordingly.
+    question: Can I process multiple pages in a loop?
+  type: FAQPage
 tags:
-- C#
+- scanned page to pdf
 - OCR
 - Aspose
-- PDF
-title: Afbeelding converteren naar PDF in C# – Complete OCR-gids
+- C#
+title: Hoe een gescande pagina omzetten naar PDF in C# met OCR
 url: /nl/net/ocr-optimization/convert-image-to-pdf-in-c-complete-ocr-guide/
 ---
 
@@ -28,37 +83,48 @@ url: /nl/net/ocr-optimization/convert-image-to-pdf-in-c-complete-ocr-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Afbeelding naar PDF converteren in C# – Complete OCR-gids
+# Hoe een gescande pagina omzetten naar PDF in C# met OCR
 
-Heb je ooit **een afbeelding naar PDF moeten converteren** en tegelijk de tekst doorzoekbaar willen maken? Je bent niet de enige. Veel ontwikkelaars lopen tegen dezelfde muur aan bij gescande pagina's, vooral wanneer ze in het Koreaans zijn geschreven. Het goede nieuws is dat je met Aspose OCR **afbeelding voor OCR kunt voorbewerken**, **Koreaans tekstbeeld kunt herkennen**, en uiteindelijk **een doorzoekbare PDF‑afbeelding kunt maken** in slechts een handvol regels code.
+Als je een **gescande pagina naar PDF wilt converteren** terwijl de tekst doorzoekbaar blijft, ben je hier aan het juiste adres. Deze tutorial leidt je door het gebruik van Aspose OCR om **preprocess image for OCR**, **recognize Korean text image**, en uiteindelijk **create searchable PDF image** – allemaal vanuit een eenvoudige C# console‑applicatie.
 
-In deze tutorial lopen we de volledige pijplijn door – van het laden van een ruwe JPEG van een Koreaanse boekpagina, het opschonen ervan, het extraheren van de tekst, tot het verpakken van alles als een doorzoekbare PDF. Aan het einde heb je een kant‑klaar C# console‑applicatie die je in elk .NET‑project kunt gebruiken.
+## Snelle antwoorden
+- **Welke bibliotheek verwerkt OCR?** Aspose.OCR for .NET  
+- **Kan ik de GPU gebruiken?** Ja – schakel GPU‑versnelling in voor tot 2× snellere verwerking  
+- **Heb ik een Koreaans taalpakket nodig?** Het wordt automatisch gedownload bij eerste gebruik  
+- **Zal de output doorzoekbaar zijn?** De gegenereerde PDF bevat een onzichtbare tekstlaag  
+- **Welke .NET‑versies worden ondersteund?** .NET 6.0 en later (inclusief .NET Core en .NET Framework)
 
-## Wat je nodig hebt
+## Vereisten
 
-- **.NET 6.0 of later** (de code werkt zowel op .NET Core als .NET Framework)  
-- **Aspose.OCR for .NET** NuGet‑pakket (`Aspose.OCR`) – gratis proeflicenties zijn beschikbaar op de Aspose‑site.  
-- Een voorbeeldafbeelding met Koreaanse tekst (bijv. `korean_book_page.jpg`).  
-- Een ontwikkelomgeving naar keuze (Visual Studio, VS Code, Rider – ik gebruik VS 2022).
+- **.NET 6.0 of later** – werkt op .NET Core, .NET Framework, en .NET 5/6+  
+- **Aspose.OCR for .NET** NuGet‑pakket (`Aspose.OCR`) – proeflicenties zijn gratis op de Aspose‑site  
+- Een voorbeeldafbeelding met Koreaanse tekens, bijv. `korean_book_page.jpg`  
+- Je favoriete IDE (Visual Studio 2022, VS Code, Rider, enz.)
 
-> **Pro tip:** Bewaar je afbeeldingsbestanden in een speciale map zoals `Resources/` zodat het pad consistent blijft op verschillende machines.
+> **Pro tip:** Sla afbeeldingen op in een `Resources/` map zodat paden consistent blijven tussen machines.
 
 ## Overzicht van het proces
 
-1. **Initialiseer de OCR‑engine** met GPU‑ondersteuning voor snelheid.  
-2. **Voeg voorbewerkingsfilters toe** (deskew, denoise) om de herkenningsnauwkeurigheid te verbeteren.  
-3. **Download en laad het Koreaanse taalmodel** – Aspose doet dit automatisch indien nodig.  
-4. **Voer de herkenning uit** op de invoerafbeelding.  
-5. **Exporteer het resultaat als een doorzoekbare PDF** met de ingebouwde exporter.  
-6. **Optioneel, serialiseer het resultaat naar JSON** voor verdere analyse of logging.
+1. Initialiseer de OCR‑engine met GPU‑ondersteuning.  
+2. Voeg **preprocess image for OCR** filters toe, zoals deskew en denoise.  
+3. Download en laad het Koreaanse taalmodel (automatisch afgehandeld).  
+4. Voer de OCR uit op de afbeelding.  
+5. Exporteer het resultaat met **SearchablePdfExporter** naar **create searchable PDF image**.  
+6. (Optioneel) Serialiseer de OCR‑uitvoer naar JSON voor downstream‑pijplijnen.
 
-Hieronder splitsen we elke stap uit, leggen *waarom* het belangrijk is, en geven we de exacte code die je kunt copy‑pasten.
+Hieronder breiden we elke stap uit, leggen we *waarom* het belangrijk is, en geven we je de exacte code die je kunt kopiëren‑plakken.
 
----
+## Hoe werkt de conversie van gescande pagina naar PDF?
 
-## ## Afbeelding naar PDF – Volledige workflow
+`OcrEngine` is de hoofdklasse in Aspose.OCR die optische tekenherkenning op afbeeldingen uitvoert.  
+`SearchablePdfExporter` maakt een PDF die de originele afbeelding en een onzichtbare tekstlaag voor zoeken bevat.  
+`RecognitionResult` bevat de tekst en vertrouwensdata die door de OCR‑engine worden geretourneerd.
 
-Het volgende fragment is het *complete* programma. Maak gerust een nieuw console‑project (`dotnet new console -n OcrPdfDemo`) en vervang de automatisch gegenereerde `Program.cs` door deze code.
+Laad je afbeelding met `new OcrEngine()` en roep `engine.Recognize("korean_book_page.jpg")` aan, waarna je de `RecognitionResult` doorgeeft aan `SearchablePdfExporter.Export`. Deze twee‑stappenstroom leest de bitmap, extraheert Unicode‑tekst, en embedt beide in één PDF waarbij de tekstlaag onzichtbaar maar doorzoekbaar is. GPU‑versnelling verkort de herkenningstijd ongeveer met de helft, terwijl deskew‑ en denoise‑filters de nauwkeurigheid met tot 15 % verhogen bij ruisende scans.
+
+## Convert image to PDF – full workflow
+
+De volgende codefragment is het *volledige* programma. Maak een nieuw console‑project (`dotnet new console -n OcrPdfDemo`) en vervang de automatisch gegenereerde `Program.cs` door de code die in de placeholder wordt getoond.
 
 ```csharp
 using System;
@@ -127,53 +193,57 @@ namespace OcrPdfDemo
 
 ### Waarom dit werkt
 
-- **GPU‑versnelling** verkort de herkenningstijd ongeveer tot de helft vergeleken met alleen CPU‑modus.  
-- **Deskew** en **Denoise** zijn klassieke *preprocess image for OCR*‑technieken; ze corrigeren veelvoorkomende scan‑defecten die anders ervoor zorgen dat de engine tekens mist.  
-- **Het laden van het taalmodel** is essentieel voor **recognize Korean text image** – zonder het Koreaanse model zou de engine terugvallen op een generiek Latijns alfabet en onbruikbare output produceren.  
-- De **SearchablePdfExporter** bundelt de originele bitmap en een onzichtbare tekstlaag, waardoor je een **create searchable pdf image**‑resultaat krijgt dat je in elke PDF‑viewer kunt indexeren.
+- **GPU acceleration** verkort de herkenningstijd ongeveer met de helft vergeleken met alleen‑CPU‑modus.  
+- **Deskew** en **Denoise** zijn klassieke *preprocess image for OCR* technieken; ze corrigeren veelvoorkomende scan‑defecten die anders de engine karakters laten missen.  
+- **Language model loading** is essentieel voor **recognize Korean text image** – zonder het Koreaanse model zou de engine terugvallen op een generiek Latijns alfabet en onzin produceren.  
+- De **SearchablePdfExporter** bundelt de originele bitmap en een onzichtbare tekstoverlay, waardoor je een **create searchable pdf image** resultaat krijgt dat je in elke PDF‑viewer kunt indexeren.
 
----
+## Waarom dit werkt
 
-## ## Preprocess Image for OCR – Tips & tricks
+- **GPU acceleration** verkort de herkenningstijd ongeveer met de helft vergeleken met alleen‑CPU‑modus.  
+- **Deskew** en **Denoise** zijn klassieke *preprocess image for OCR* technieken; ze corrigeren veelvoorkomende scan‑defecten die anders de engine karakters laten missen.  
+- **Language model loading** is essentieel voor **recognize Korean text image** – zonder het Koreaanse model zou de engine terugvallen op een generiek Latijns alfabet en onzin produceren.  
+- De **SearchablePdfExporter** bundelt de originele bitmap en een onzichtbare tekstoverlay, waardoor je een **create searchable pdf image** resultaat krijgt dat je in elke PDF‑viewer kunt indexeren.
 
-Hoewel de twee toegevoegde filters meestal voldoende zijn, kun je soms hardnekkige afbeeldingen tegenkomen. Hier zijn een paar extra stappen die je kunt proberen:
+## Preprocess image for OCR – tips & tricks
+
+`DeskewFilter` corrigeert de rotatie van gescande pagina's.  
+`ContrastFilter` past de beeldcontrast aan om OCR‑nauwkeurigheid te verbeteren.  
+`BinarizationFilter` zet de afbeelding om naar zwart‑wit op basis van een drempel, waardoor achtergrondruis wordt verminderd.  
+`OrientationFilter` detecteert en corrigeert gemengde portret‑/landschapspagina's.  
 
 | Probleem | Extra filter | Hoe toe te voegen |
 |----------|--------------|-------------------|
 | Lage contrast | `ContrastFilter { Level = 30 }` | `ocrEngine.Filters.Add(new ContrastFilter { Level = 30 });` |
-| Veel achtergrondruis | `BinarizationFilter { Threshold = 128 }` | `ocrEngine.Filters.Add(new BinarizationFilter { Threshold = 128 });` |
+| Zware achtergrondruis | `BinarizationFilter { Threshold = 128 }` | `ocrEngine.Filters.Add(new BinarizationFilter { Threshold = 128 });` |
 | Gemengde oriëntatie (portret & landschap) | `OrientationFilter()` | `ocrEngine.Filters.Add(new OrientationFilter());` |
 
-> **Opmerking:** Het toevoegen van te veel filters kan de verwerking vertragen. Test elke wijziging eerst op één pagina voordat je opschaalt.
+> **Opmerking:** Het toevoegen van te veel filters kan de verwerking vertragen. Test elke wijziging op één pagina voordat je opschaalt.
 
----
+## Recognize Korean text image – common pitfalls
 
-## ## Recognize Korean Text Image – Veelvoorkomende valkuilen
+Koreaanse scripts bevatten Hangul‑lettergrepen die visueel dicht zijn. Als je rommelige output opmerkt:
 
-Koreaanse scripts bevatten Hangul‑lettergrepen die visueel dicht opeengepakt zijn. Als je rommelige output ziet:
-
-1. **Zorg dat het taalmodel volledig is gedownload** – controleer de console voor een bericht zoals “Downloading Korean model…”.  
+1. **Zorg ervoor dat het taalmodel volledig is gedownload** – controleer de console op een bericht zoals “Downloading Korean model…”.  
 2. **Verhoog de `MaxAngle`** in `DeskewFilter` als je scans meer dan 12° gedraaid zijn.  
-3. **Verhoog het GPU‑geheugen** door `ocrEngine.GpuMemoryLimit = 2048;` in te stellen (waarde in MB).  
+3. **Verhoog GPU‑geheugen** door `ocrEngine.GpuMemoryLimit = 2048;` in te stellen (waarde in MB).  
 
-Deze aanpassingen hebben direct invloed op het succes van **recognize Korean text image**.
+`LanguageModel.Korean` laadt de Koreaanse taaldataset voor OCR, waardoor nauwkeurige Hangul‑herkenning mogelijk is.  
 
----
+Deze aanpassingen beïnvloeden direct het succes van **recognize Korean text image**.
 
-## ## Create Searchable PDF Image – Resultaat verifiëren
+## Create searchable PDF image – verifying the result
 
-Nadat het programma is voltooid, open je `korean_page.pdf` in een PDF‑lezer (Adobe Acrobat Reader, Foxit, zelfs Chrome). Je moet kunnen:
+Na het uitvoeren van het programma, open `korean_page.pdf` in een PDF‑lezer (Adobe Acrobat Reader, Foxit, zelfs Chrome). Je zou moeten kunnen:
 
 - **Tekst selecteren** met je muis alsof het een native PDF is.  
-- **Zoeken** naar Koreaanse woorden via het ingebouwde zoekvak.  
+- **Zoeken** naar Koreaanse woorden met het ingebouwde zoekvak.  
 
-Als de tekstlaag leeg lijkt, controleer dan of de `Export`‑methode het juiste afbeeldingspad heeft ontvangen en of het OCR‑resultaat een niet‑lege `RecognitionResult.Text` bevat.
+Als de tekstlaag leeg lijkt, controleer dan dubbel of de `Export`‑methode het juiste afbeeldingspad heeft ontvangen en of het OCR‑resultaat een niet‑lege `RecognitionResult.Text` bevat.
 
----
+## Volledige JSON‑output – wat te verwachten
 
-## ## Volledige JSON‑output – Wat je kunt verwachten
-
-De console print een mooi geformatteerde JSON‑payload. Een ingekorte voorbeeld ziet er zo uit:
+De console drukt een mooi geformatteerde JSON‑payload af. Een ingekorte voorbeeld ziet er zo uit:
 
 ```json
 {
@@ -190,36 +260,43 @@ De console print een mooi geformatteerde JSON‑payload. Een ingekorte voorbeeld
 }
 ```
 
-Je kunt deze JSON doorsturen naar downstream‑services (bijv. index‑pipelines, vertaal‑API’s) zonder OCR opnieuw te moeten uitvoeren.
+## Probleemoplossing & FAQ
 
----
-
-## ## Probleemoplossing & FAQ
-
-**Q: Mijn PDF is veel groter dan de originele afbeelding.**  
-A: De exporter embedde de originele bitmap op zijn native resolutie. Als grootte een probleem is, verklein de afbeelding *voor* de herkenning:
+**Q: Mijn PDF is enorm vergeleken met de originele afbeelding.**  
+A: De exporter embedt de originele bitmap op zijn oorspronkelijke resolutie. Als grootte een zorg is, schaal de afbeelding *voor* de herkenning verkleint:
 
 ```csharp
 ocrEngine.Filters.Add(new ResizeFilter { MaxWidth = 1240, MaxHeight = 1754 });
 ```
 
 **Q: De OCR geeft lege strings terug.**  
-A: Controleer of het afbeeldingspad correct is en of het bestand niet corrupt is. Zorg er ook voor dat de GPU‑driver up‑to‑date is; oudere drivers kunnen stille fouten veroorzaken.
+A: Controleer of het afbeeldingspad correct is en of het bestand niet beschadigd is. Zorg er ook voor dat de GPU‑driver up‑to‑date is; oudere drivers kunnen stille fouten veroorzaken.
 
 **Q: Kan ik meerdere pagina's in een lus verwerken?**  
-A: Zeker. Plaats stappen 4‑6 in een `foreach (var file in Directory.GetFiles("Resources", "*.jpg"))`‑lus en pas het uitvoer‑PDF‑pad dienovereenkomstig aan.
+A: Zeker. Plaats stappen 4‑6 in een `foreach (var file in Directory.GetFiles("Resources", "*.jpg"))` lus en wijzig het uitvoer‑PDF‑pad dienovereenkomstig.
 
----
+## Conclusie
 
-## ## Conclusie
+We hebben zojuist **image to PDF** geconverteerd terwijl we doorzoekbare tekst behouden, allemaal dankzij de krachtige pipeline van Aspose OCR. Door **preprocess image for OCR** te gebruiken, verhoog je de nauwkeurigheid; door **recognize Korean text image** te gebruiken, verwerk je complexe scripts; en door **create searchable pdf image** te gebruiken, krijg je een draagbaar, indexeerbaar document.
 
-We hebben zojuist **een afbeelding naar PDF geconverteerd** terwijl we doorzoekbare tekst behouden, allemaal dankzij de krachtige pipeline van Aspose OCR. Door **preprocess image for OCR** te gebruiken, verhoog je de nauwkeurigheid; door **recognize Korean text image** toe te passen, kun je complexe scripts aan; en door **create searchable pdf image** te genereren, krijg je een draagbaar, indexeerbaar document.
-
-Pak de code, richt hem op je eigen scans, en experimenteer met extra filters of taalmodellen. Hetzelfde patroon werkt voor Chinees, Japans of elke op het Latijn gebaseerde taal – vervang gewoon `LanguageModel.Korean` door de juiste enum.
+Pak de code, richt deze op je eigen scans, en experimenteer met extra filters of taalmodellen. Hetzelfde patroon werkt voor Chinees, Japans, of elke op Latijn gebaseerd taal—vervang gewoon `LanguageModel.Korean` door de juiste enum.
 
 Heb je meer vragen? Laat een reactie achter, en happy coding!
 
+**Last Updated:** 2026-09-13  
+**Tested with:** Aspose.OCR 24.11 for .NET  
+**Author:** Aspose
+
+## Gerelateerde tutorials
+
+- [Maak doorzoekbare PDF van gescande bestanden met Aspose Ocr](/ocr/net/ocr-optimization/create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
+- [OCR-preprocessing pipeline Hoe tekst van afbeelding te herkennen](/ocr/net/ocr-optimization/ocr-preprocessing-pipeline-how-to-recognize-text-from-image/)
+- [Tekst herkennen van afbeelding met Aspose Ocr Complete C-gids](/ocr/net/ocr-configuration/recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
