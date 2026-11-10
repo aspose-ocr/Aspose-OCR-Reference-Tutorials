@@ -685,6 +685,8 @@ url: /ar/net/text-recognition/
 ### [إنشاء PDF قابل للبحث من ملفات ممسوحة ضوئيًا – دليل C# كامل](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 تعلم كيفية تحويل الملفات الممسوحة ضوئيًا إلى PDF قابل للبحث باستخدام Aspose.OCR في C# خطوة بخطوة.
 
+### [استخراج النص من PNG باستخدام Aspose OCR – دليل C# كامل](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+تعلم خطوة بخطوة كيفية استخراج النص من صور PNG باستخدام Aspose OCR في بيئة C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

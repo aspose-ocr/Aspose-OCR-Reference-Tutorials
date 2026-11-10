@@ -668,6 +668,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# Text aus Bildern extrahieren – Schr
 ### [Erstellen Sie ein durchsuchbares PDF aus gescannten Dateien – Vollständiger C#-Leitfaden](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR in C# gescannte Dateien in durchsuchbare PDFs umwandeln – Schritt-für-Schritt-Anleitung.
 
+### [Text aus PNG mit Aspose OCR extrahieren – Vollständige C#-Anleitung](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Lernen Sie, wie Sie mit Aspose OCR Text aus PNG‑Dateien in C# auslesen und in Ihre .NET‑Anwendung integrieren.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -692,6 +692,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận d�
 ### [Tạo PDF có thể tìm kiếm từ các tệp đã quét – Hướng dẫn đầy đủ C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để tạo PDF có thể tìm kiếm từ các tệp đã quét, kèm ví dụ thực tế.
 
+### [Trích xuất văn bản từ PNG bằng Aspose OCR – Hướng dẫn C# đầy đủ](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để trích xuất văn bản từ tệp PNG một cách nhanh chóng và chính xác.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

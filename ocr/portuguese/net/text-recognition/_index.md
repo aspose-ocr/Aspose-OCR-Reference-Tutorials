@@ -701,6 +701,8 @@ Guia completo para reconhecer texto em imagens usando C# e OCR Aspose, com códi
 ### [Criar PDF pesquisável a partir de arquivos digitalizados – Guia completo C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 Aprenda a gerar PDFs pesquisáveis a partir de documentos escaneados usando Aspose.OCR e C#, com passo a passo detalhado.
 
+### [Extrair Texto de PNG com Aspose OCR – Guia Completo em C#](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Aprenda a extrair texto de arquivos PNG usando Aspose OCR em C#. Guia passo a passo para integração rápida e eficaz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

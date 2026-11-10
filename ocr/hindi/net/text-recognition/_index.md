@@ -690,6 +690,8 @@ C# में Aspose OCR का उपयोग करके छवि से ट
 C# OCR के साथ छवि से टेक्स्ट पहचान का पूर्ण उदाहरण। विस्तृत चरण-दर-चरण मार्गदर्शिका।
 ### [स्कैन की गई फ़ाइलों से खोज योग्य PDF बनाना – पूर्ण C# गाइड](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 स्कैन की गई फ़ाइलों से खोज योग्य PDF बनाने की पूरी प्रक्रिया सीखें, C# में Aspose OCR के साथ चरण-दर-चरण मार्गदर्शिका।
+### [Aspose OCR के साथ PNG से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Aspose OCR का उपयोग करके PNG छवियों से टेक्स्ट निकालने के लिए पूर्ण C# चरण-दर-चरण मार्गदर्शिका।
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

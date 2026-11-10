@@ -693,6 +693,8 @@ Kompletní ukázka, jak pomocí Aspose.OCR v C# rozpoznat text z obrázku a zís
 ### [Vytvořte prohledávatelný PDF ze skenovaných souborů – Kompletní průvodce C#](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 Kompletní návod, jak pomocí Aspose.OCR v C# vytvořit prohledávatelný PDF dokument ze skenovaných souborů.
 
+### [Extrahovat text z PNG pomocí Aspose OCR – Kompletní průvodce v C#](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Naučte se, jak pomocí Aspose OCR v C# načíst a extrahovat text z PNG souborů v několika jednoduchých krocích.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

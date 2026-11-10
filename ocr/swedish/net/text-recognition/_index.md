@@ -694,6 +694,8 @@ Följ ett komplett exempel för att känna igen text i bilder med Aspose.OCR och
 ### [Skapa sökbar PDF från skannade filer – Komplett C#-guide](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 Lär dig steg-för-steg hur du skapar en sökbar PDF från skannade dokument med Aspose.OCR och C#.
 
+### [Extrahera text från PNG med Aspose OCR – Komplett C#-guide](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Lär dig steg-för-steg hur du extraherar text från PNG-bilder med Aspose OCR i C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

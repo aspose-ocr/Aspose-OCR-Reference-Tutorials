@@ -688,6 +688,8 @@ Volledige handleiding voor het herkennen van tekst uit afbeeldingen met C# OCR, 
 ### [Maak doorzoekbare PDF van gescande bestanden – Complete C#-gids](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 Leer hoe u met Aspose.OCR een doorzoekbare PDF maakt van gescande bestanden in C#, inclusief voorbeeldcode en stapsgewijze instructies.
 
+### [Tekst extraheren uit PNG met Aspose OCR – Complete C#-gids](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Leer stap voor stap hoe u met Aspose OCR tekst uit PNG-afbeeldingen haalt in C#, inclusief codevoorbeelden en best practices.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

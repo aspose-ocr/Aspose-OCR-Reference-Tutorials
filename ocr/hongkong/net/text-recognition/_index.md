@@ -677,6 +677,8 @@ url: /zh-hant/net/text-recognition/
 ### [從掃描檔案建立可搜尋 PDF – 完整 C# 指南](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 完整指南示範如何使用 Aspose.OCR for .NET 在 C# 中將掃描檔案轉換為可搜尋的 PDF，步驟清晰，快速上手。
 
+### [使用 Aspose OCR 從 PNG 提取文字 – 完整 C# 教學](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+完整的 C# 範例，示範如何使用 Aspose OCR 從 PNG 圖片中提取文字。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

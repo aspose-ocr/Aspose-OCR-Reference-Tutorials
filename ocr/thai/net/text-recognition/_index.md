@@ -631,6 +631,8 @@ url: /th/net/text-recognition/
 ### [รับรู้ข้อความจากรูปภาพด้วย C# OCR – ตัวอย่างสมบูรณ์](./recognize-text-from-image-with-c-ocr-complete-example/)
 เรียนรู้วิธีใช้ Aspose OCR กับ C# เพื่อรับรู้ข้อความจากรูปภาพอย่างครบถ้วนในตัวอย่างขั้นตอนเดียว
 
+### [สกัดข้อความจาก PNG ด้วย Aspose OCR – คู่มือ C# ครบถ้วน](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

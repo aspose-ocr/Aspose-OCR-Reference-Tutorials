@@ -690,6 +690,8 @@ C#와 Aspose OCR을 활용해 이미지에서 텍스트를 추출하고 검색 �
 C#와 Aspose.OCR을 활용해 이미지에서 텍스트를 정확히 추출하는 완전 예제를 확인하세요.
 ### [스캔 파일에서 검색 가능한 PDF 만들기 – 완전 C# 가이드](./create-searchable-pdf-from-scanned-files-complete-c-guide/)
 스캔한 파일에서 검색 가능한 PDF를 생성하는 방법을 단계별로 안내합니다. Aspose.OCR와 C#을 활용해 효율적인 PDF 변환을 구현하세요.
+### [Aspose OCR을 사용한 PNG 텍스트 추출 – 완전한 C# 가이드](./extract-text-from-png-with-aspose-ocr-complete-c-guide/)
+Aspose OCR을 활용해 PNG 이미지에서 텍스트를 추출하고 C#으로 구현하는 전체 가이드를 확인하세요.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
