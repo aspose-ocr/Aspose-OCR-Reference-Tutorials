@@ -203,5 +203,6 @@ Probeer het met een paar eigen bonnetjes, pas het contrastniveau aan, en laat de
 Happy coding, en moge je afbeeldingen altijd recht en helder zijn!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >{{< /blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
