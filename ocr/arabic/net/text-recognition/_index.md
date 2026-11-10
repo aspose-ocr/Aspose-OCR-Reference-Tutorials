@@ -689,6 +689,9 @@ url: /ar/net/text-recognition/
 تعلم خطوة بخطوة كيفية استخراج النص من صور PNG باستخدام Aspose OCR في بيئة C#.
 ### [التعرف على النص من الصورة باستخدام Aspose OCR – دليل C# كامل](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
 دليل شامل بلغة C# للتعرف على النص من الصور باستخدام Aspose OCR.
+### [استخراج النص من الصورة باستخدام Aspose OCR في C#](./extract-text-from-image-using-aspose-ocr-in-c/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في بيئة C# بسهولة وفعالية.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

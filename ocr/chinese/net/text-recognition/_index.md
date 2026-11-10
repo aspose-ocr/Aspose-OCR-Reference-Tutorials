@@ -706,6 +706,7 @@ url: /zh/net/text-recognition/
 本完整 C# 指南演示如何使用 Aspose OCR 从 PNG 图像中提取文本，帮助您快速实现高效文字识别。
 ### [使用 Aspose OCR 从图像识别文本 – 完整 C# 指南](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
 通过完整的 C# 示例，学习如何使用 Aspose OCR 从图像中提取文本，实现高精度识别。
+### [使用 Aspose OCR 在 C# 中提取图像文本](./extract-text-from-image-using-aspose-ocr-in-c/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -722,6 +722,8 @@ Aprenda a extraer texto de imágenes PNG usando Aspose OCR en C#, con una guía 
 ### [Reconocer texto de una imagen usando Aspose OCR – Guía completa en C#](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
 Aprenda paso a paso a reconocer texto en imágenes con Aspose OCR usando C# en una guía completa.
 
+### [Extraer texto de una imagen usando Aspose OCR en C#](./extract-text-from-image-using-aspose-ocr-in-c/)
+Aprenda a extraer texto de imágenes con Aspose OCR en C# de forma sencilla y eficaz.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

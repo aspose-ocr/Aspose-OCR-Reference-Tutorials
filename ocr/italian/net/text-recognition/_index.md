@@ -685,6 +685,8 @@ Impara a generare PDF ricercabili da documenti scansionati usando Aspose.OCR e C
 Scopri come estrarre testo da immagini PNG usando Aspose OCR in C#, con esempi passo passo per una soluzione completa.
 ### [Riconosci testo da immagine usando Aspose OCR – Guida completa C#](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
 Scopri come riconoscere testo da un'immagine con Aspose OCR in C#, passo passo, per integrare facilmente l'OCR nelle tue app .NET.
+### [Estrai testo da immagine usando Aspose OCR in C#](./extract-text-from-image-using-aspose-ocr-in-c/)
+Scopri come estrarre testo da un'immagine con Aspose OCR in C#, integrando facilmente la funzionalità OCR nelle tue applicazioni .NET.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

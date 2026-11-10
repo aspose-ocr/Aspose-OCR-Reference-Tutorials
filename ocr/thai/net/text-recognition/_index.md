@@ -635,6 +635,7 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีสกัดข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน C# อย่างละเอียดและครบถ้วน
 ### [จดจำข้อความจากรูปภาพโดยใช้ Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
 เรียนรู้วิธีจดจำข้อความจากรูปภาพด้วย Aspose OCR ด้วยคู่มือ C# ฉบับสมบูรณ์ของเรา
+### [ดึงข้อความจากภาพโดยใช้ Aspose OCR ใน C#](./extract-text-from-image-using-aspose-ocr-in-c/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

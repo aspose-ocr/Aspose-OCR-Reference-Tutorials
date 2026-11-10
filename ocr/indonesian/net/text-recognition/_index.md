@@ -699,6 +699,8 @@ Panduan lengkap untuk membuat PDF yang dapat dicari dari file pindai menggunakan
 Pelajari cara mengekstrak teks dari file PNG menggunakan Aspose OCR dengan contoh lengkap dalam bahasa C#.
 ### [Mengenali Teks dari Gambar menggunakan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-using-aspose-ocr-complete-c-guide/)
 Panduan lengkap C# untuk mengenali teks dari gambar menggunakan Aspose OCR, langkah demi langkah untuk integrasi mudah dalam aplikasi .NET Anda.
+### [Ekstrak teks dari gambar menggunakan Aspose OCR di C#](./extract-text-from-image-using-aspose-ocr-in-c/)
+Pelajari cara mengekstrak teks dari gambar dengan Aspose OCR menggunakan bahasa C# dalam tutorial langkah demi langkah.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
