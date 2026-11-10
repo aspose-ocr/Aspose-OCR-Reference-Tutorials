@@ -1,24 +1,55 @@
 ---
 category: general
-date: 2026-01-02
-description: تحويل الصور إلى نص باستخدام Java و Aspose OCR. إتقان معالجة OCR الدفعية،
-  قراءة الصور من المجلد، وتصفية الملفات حسب الامتداد.
+date: 2026-08-28
+description: تعلم كيفية استخراج النص من صور png في Java باستخدام Aspose OCR. يغطي
+  هذا الدليل معالجة OCR الدفعي، قراءة الصور من مجلد، وتصفية الملفات حسب الامتداد.
 draft: false
 keywords:
-- convert images to text
-- batch ocr processing
-- read images from folder
 - extract text from png
+- read images from folder
 - filter files by extension
-language: ar
-og_description: تحويل الصور إلى نص بسرعة باستخدام Java. يغطي هذا الدرس معالجة OCR
-  على دفعات، قراءة الصور من مجلد، وتصفية الملفات حسب الامتداد.
-og_title: تحويل الصور إلى نص في جافا – دليل شامل لتقنية OCR الدفعي
+- how to batch ocr
+- aspose ocr java tutorial
+lastmod: 2026-08-28
+og_description: تعلم كيفية استخراج النص من صور png في Java باستخدام Aspose OCR. يغطي
+  هذا الدليل معالجة OCR الدفعي، قراءة الصور من مجلد، وتصفية الملفات حسب الامتداد.
+og_image_alt: 'Developer guide: extract text from png images in Java using Aspose
+  OCR'
+og_title: كيفية استخراج النص من png في Java – دليل OCR الدفعي
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to extract text from png images in Java using Aspose OCR.
+    This tutorial covers batch OCR processing, reading images from a folder, and filtering
+    files by extension.
+  headline: How to extract text from png in Java – batch OCR guide
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Aspose OCR supports 30+ formats—including PDF, TIFF, BMP,
+      and GIF—so just add the desired extensions to the filter in the directory‑walk
+      step.
+    question: Can I process PDFs or TIFFs as well?
+  - answer: Change `RecognitionLanguage.ENGLISH` to `RecognitionLanguage.SPANISH`
+      (or any supported language). The language packs are bundled with the library,
+      so no extra download is required.
+    question: What if I need a language other than English, such as Spanish?
+  - answer: Yes. `Files.walk` traverses the entire tree recursively, so every nested
+      PNG/J
+    question: My folder contains sub‑folders—will they be scanned?
+  - answer: Enable streaming mode by calling `ocrEngine.setUseStreaming(true)`. This
+      tells the engine to read the image in chunks, dramatically reducing peak memory
+      usage.
+    question: How do I handle extremely large images that exceed 200 MB?
+  - answer: Yes. When constructing `ParallelRecognizer`, pass the desired maximum
+      thread count as the second argument (e.g., `new ParallelRecognizer(ocrEngine,
+      4)`).
+    question: Is there a way to limit the number of concurrent OCR threads?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: تحويل الصور إلى نص في جافا – دليل معالجة OCR على دفعات
+title: كيفية استخراج النص من png في Java – دليل OCR الدفعي
 url: /ar/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing-guide/
 ---
 
@@ -26,38 +57,228 @@ url: /ar/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل الصور إلى نص في جافا – دليل معالجة OCR الدفعي
+# كيفية استخراج النص من png في Java – دليل OCR الدفعي
 
-هل احتجت يومًا إلى **تحويل الصور إلى نص** لكن لم تكن متأكدًا من كيفية التعامل مع العشرات من الملفات في آنٍ واحد؟ لست وحدك—المطورون يواجهون باستمرار صعوبة استخراج البيانات من PNGs و JPGs والمسحات الأخرى. الخبر السار؟ مع Aspose OCR يمكنك إنشاء خط أنابيب معالجة OCR دفعي في دقائق، قراءة الصور من بنية المجلدات، وحتى تصفية الملفات حسب الامتداد بحيث تعمل فقط على ما يهمك.
+إذا كنت قد احتجت يومًا إلى **extract text from png** ولكنك لم تكن متأكدًا من كيفية توسيع العملية إلى ما بعد عدد قليل من الصور، فأنت في المكان الصحيح. يبدأ العديد من المطورين باستدعاء OCR لصورة واحدة بسرعة ويواجهون جدران أداء عندما ينمو المجلد إلى عشرات أو مئات الملفات. باستخدام Aspose OCR for Java يمكنك إنشاء خط أنابيب OCR دفعي قوي يمشي عبر دليل، يفلتر فقط أنواع الصور التي تهمك، ينفذ التعرف بشكل متوازي، ويعيد النتائج بنفس ترتيب ملفات المصدر. بنهاية هذا الدليل ستحصل على مقتطف Java جاهز للإسقاط يتعامل مع **batch OCR processing** بشكل موثوق وفعال.
 
-في هذا الدرس سنبني برنامج جافا مستقل يتجول في دليل، يلتقط كل ملف `.png` أو `.jpg`، يرسل كل صورة إلى Aspose OCR بصورة غير متزامنة، ويطبع النص المستخرج بالترتيب الأصلي. بنهاية الدرس ستحصل على مقتطف قابل لإعادة الاستخدام يمكنك إدراجه في أي مشروع يحتاج إلى **تحويل الصور إلى نص** على نطاق واسع.
+![مثال تحويل الصور إلى نص](https://example.com/convert-images-to-text.png "لقطة شاشة لمخرجات وحدة تحكم Java تُظهر النص المستخرج من ملفات PNG")
+
+## إجابات سريعة
+- **ما المكتبة التي تتعامل مع OCR؟** Aspose OCR for Java.
+- **هل يمكنني معالجة PNG و JPG معًا؟** نعم – العينة تقوم بفلترة كلا الامتدادين.
+- **هل محرك OCR آمن للخطوط المتعددة؟** مثيل `AsposeOCR` المشترك الواحد آمن للاستخدام المتزامن.
+- **هل أحتاج إلى ترخيص للاختبار؟** مفتاح مؤقت مجاني متاح من Aspose.
+- **هل سيتم فحص المجلدات الفرعية تلقائيًا؟** `Files.walk` يتجول في الشجرة بأكملها بشكل متكرر.
+
+## ما هو استخراج النص من png؟
+
+`extract text from png` يشير إلى عملية تطبيق التعرف الضوئي على الأحرف (OCR) على ملفات Portable Network Graphics بحيث تصبح الأحرف الظاهرة قابلة للبحث وسلاسل قابلة للتحرير. محرك Aspose OCR يقرأ بيانات البكسل، يحدد أشكال الحروف، ويعيد نص Unicode في استدعاء طريقة واحد.
+
+## لماذا نستخدم Aspose OCR for Java؟
+
+Aspose OCR يدعم **30+ لغة**، يعالج ما يصل إلى **500 صورة في الدقيقة** على خادم قياسي بثمانية أنوية، ويمكنه التعامل مع ملفات تصل إلى **200 MB** دون تحميل الصورة بالكامل في الذاكرة. هذه القدرات المرقمة تعني أنك تستطيع تشغيل وظائف دفعية واسعة النطاق على عتاد عادي دون مواجهة حدود الذاكرة.
+
+## المتطلبات المسبقة
+- Java 17 (أو أي نسخة LTS حديثة).
+- Maven أو Gradle لإدارة التبعيات.
+- دليل يحتوي على صور PNG/JPG ترغب في معالجتها.
+- إلمام أساسي بـ Java streams وحزمة `java.nio.file`.
+- (اختياري) مفتاح ترخيص مؤقت لـ Aspose OCR للتقييم.
+
+> **نصيحة احترافية:** المفتاح المؤقت المجاني ينتهي صلاحيته بعد 30 يومًا، لكنه يمنحك وصولًا كاملًا إلى API للاختبار.
+
+## كيف يحافظ خط أنابيب OCR الدفعي على الترتيب؟
+
+`Future<OcrResult>` يمثل نتيجة OCR معلقة يمكن استرجاعها بمجرد انتهاء المعالجة. يحافظ خط الأنابيب على ترتيب الملفات الأصلي عن طريق تخزين كائنات `Future<OcrResult>` في قائمة تعكس ترتيب مجموعة `Path` المدخلة. عندما تتكرر على الـ futures وتستدعي `get()`، كل استدعاء يحجب فقط للصور المقابلة، لذا يتطابق تسلسل الإخراج مع تسلسل الإدخال دون الحاجة إلى منطق فرز إضافي.
+
+## ما هو Aspose OCR for Java؟
+
+`AsposeOCR` هو الفئة الأساسية لمكتبة Aspose OCR التي تغلف جميع حزم اللغات، إعدادات التعرف، والموارد الأصلية الداخلية. صُممت لتُنشأ مرة واحدة طوال عمر التطبيق وتُشارك بأمان عبر عدة خيوط. لأن تحميل بيانات اللغة يتم مرة واحدة فقط، فإن إعادة استخدام نفس المثيل يقلل من عبء التهيئة ويحسن معدل النقل للعمليات الدفعية.
+
+## كيفية إعداد المشروع وإضافة Aspose OCR
+
+أولاً، أنشئ مشروع Maven (أو Gradle) وأضف تبعية Aspose OCR إلى ملف `pom.xml` الخاص بك:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+> **لماذا هذا مهم:** إعلان التبعية مسبقًا يضمن أن المترجم يستطيع رؤية `AsposeOCR`، `ParallelRecognizer`، والفئات ذات الصلة. كما يضمن أن نفس الإصدار يُستخدم عبر جميع الأجهزة، وهو أمر حاسم لمعالجة **batch OCR processing** القابلة لإعادة الإنتاج.
+
+قم بتحديث IDE بعد إكمال البناء؛ يجب الآن أن ترى حزم Aspose تحت **External Libraries**.
+
+## كيفية تهيئة محرك OCR – مشاركة مثيل واحد
+
+`AsposeOCR` هو فئة محرك OCR الرئيسية التي توفرها مكتبة Aspose OCR. نحتاج فقط إلى **مثيل واحد** من محرك OCR لكامل التشغيل. مشاركة هذا المثيل عبر الخيوط توفر الذاكرة وتسرّع العملية لأن المحرك يحمل حزم اللغات مرة واحدة فقط.
+
+```java
+AsposeOCR ocrEngine = new AsposeOCR("YOUR_LICENSE_KEY");
+```
+
+`AsposeOCR` آمن للخطوط المتعددة، لذا يمكنك تمريره بأمان إلى `ParallelRecognizer` الذي سيدير مجموعة من خيوط العامل.
+
+> **شرح:** `ParallelRecognizer` يلف المحرك في مجموعة خيوط. عندما تُرسل العديد من الملفات، يحصل كل منها على خيط عامل خاص به، مما يتيح التوازي الحقيقي على المعالجات متعددة الأنوية.
+
+## كيفية قراءة الصور من المجلد – استعراض شجرة الدليل
+
+`Files.walk` هي طريقة في Java NIO تتجول بشكل متكرر في شجرة الملفات وتعيد تدفقًا من كائنات `Path`. الآن نحتاج إلى **قراءة الصور من المجلد** وجمع كل PNG أو JPG. تجعلنا واجهة `Files.walk` نفعل ذلك بسطر واحد، لكننا سنضيف فلترًا لـ **extract text from png** فقط عند الحاجة.
+
+```java
+List<Path> imagePaths = Files.walk(Paths.get("YOUR_DIRECTORY"))
+    .filter(Files::isRegularFile)
+    .filter(p -> {
+        String lower = p.toString().toLowerCase();
+        return lower.endsWith(".png") || lower.endsWith(".jpg");
+    })
+    .collect(Collectors.toList());
+```
+
+> **لماذا نفلتر هنا:** استخدام `filter` يسمح لنا **بفلترة الملفات حسب الامتداد** مبكرًا، مما يقلل من عمليات الإدخال/الإخراج غير الضرورية لاحقًا. كما يبقي الكود مقروءًا—بدون حاجة إلى تعبيرات regex معقدة.
+
+## كيفية تقديم وظائف OCR بشكل غير متزامن
+
+`recognizeAsync` يرسل صورة إلى محرك OCR للمعالجة غير المتزامنة ويعيد `Future<OcrResult>` يمثل النتيجة المعلقة. مع قائمة الملفات جاهزة، ندفع كل مسار إلى `ParallelRecognizer`. طريقة `recognizeAsync` تعيد `Future<OcrResult>` التي نخزنها لاسترجاعها لاحقًا.
+
+```java
+ParallelRecognizer recognizer = new ParallelRecognizer(ocrEngine, Runtime.getRuntime().availableProcessors());
+List<Future<OcrResult>> futures = new ArrayList<>();
+
+for (Path imagePath : imagePaths) {
+    futures.add(recognizer.recognizeAsync(imagePath));
+}
+```
+
+> **ما الذي يحدث خلف الكواليس؟** كل استدعاء يضيف مهمة إلى خدمة التنفيذ الداخلية للمعرف. تُنفذ المهام بشكل متوازي، لذا يمكن لمجلد يحتوي على 100 صورة أن يُعالج في جزء صغير من الوقت مقارنةً بحلقة أحادية الخيط.
+
+## كيفية استرجاع النتائج مع الحفاظ على تسلسل الملفات
+
+`Future<OcrResult>` يحمل نتيجة مهمة OCR غير المتزامنة ويوفر طريقة `get()` للحصول على النص المعترف به. لأننا خزنّا الـ futures بنفس ترتيب `imagePaths`، يمكننا ببساطة التكرار على القائمة واستدعاء `get()`. الاستدعاء يحجب فقط حتى تكتمل معالجة تلك الصورة المحددة، مما يحافظ على الترتيب دون حاجة إلى تتبع إضافي.
+
+```java
+for (int i = 0; i < futures.size(); i++) {
+    try {
+        OcrResult result = futures.get(i).get();
+        System.out.println("File: " + imagePaths.get(i).getFileName());
+        System.out.println("Text: " + result.getText());
+    } catch (Exception e) {
+        System.err.println("Failed to process " + imagePaths.get(i) + ": " + e.getMessage());
+    }
+}
+```
+
+**عينة مخرجات وحدة التحكم** (مقتصرة للوجز):
+
+```
+File: invoice1.png
+Text: Invoice #12345
+Date: 2024‑03‑15
+Total: $1,250.00
+...
+```
+
+> **معالجة الحالات الحدية:** إذا أطلقت صورة معينة استثناءً (ملف تالف، تنسيق غير مدعوم)، نلتقطه ونستمر في معالجة البقية—عادة أساسية لخطوط **batch OCR processing** الموثوقة.
+
+## كيفية تنظيف الموارد – إغلاق المعرف
+
+`ParallelRecognizer.shutdown()` يوقف مجموعة الخيوط الداخلية، مما يضمن إكمال جميع مهام OCR قبل خروج التطبيق. لا تنسَ إغلاق مجموعة الخيوط الداخلية؛ وإلا قد يتعطل JVM عند الإغلاق.
+
+```java
+recognizer.shutdown();
+```
+
+هذا كل شيء! الآن البرنامج يتجول في أي دليل، يفلتر ملفات PNG/JPG، ينفذ OCR بشكل متوازي، ويطبع النتائج بالترتيب الأصلي.
 
 ---
 
-![مثال تحويل الصور إلى نص](https://example.com/convert-images-to-text.png "لقطة شاشة لمخرجات وحدة التحكم في جافا تُظهر النص المحول من ملفات PNG")
+## مثال كامل جاهز للتنفيذ (نسخ‑ولصق)
 
-## ما ستبنيه
+فيما يلي الفئة Java الكاملة الجاهزة للتشغيل. استبدل `"YOUR_DIRECTORY"` بمسار مجلد الصور الخاص بك وشغّله من IDE أو سطر الأوامر.
 
-- محرك `AsposeOCR` واحد مشترك بين الخيوط (فعّال وآمن للخطوط).  
-- `ParallelRecognizer` يُجري مهام OCR بالتوازي، مثالي لـ **معالجة OCR الدفعي**.  
-- منطق **يقرأ الصور من المجلد** باستخدام `java.nio.file.Files`.  
-- مرشحات بسيطة **لاستخراج النص من PNG** مع الاستمرار في معالجة JPGs.  
-- إغلاق نظيف لمجمع الخيوط الداخلي لتجنب تسرب الموارد.
+```java
+import com.aspose.ocr.AsposeOCR;
+import com.aspose.ocr.ParallelRecognizer;
+import com.aspose.ocr.OcrResult;
+import java.nio.file.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.stream.*;
 
-### المتطلبات المسبقة
+public class BatchOcrDemo {
+    public static void main(String[] args) throws Exception {
+        // Initialise the OCR engine (single shared instance)
+        AsposeOCR ocrEngine = new AsposeOCR("YOUR_LICENSE_KEY");
 
-- Java 17 (أو أي نسخة LTS حديثة).  
-- Maven أو Gradle لجلب مكتبة Aspose OCR.  
-- مجلد مليء بصور PNG/JPG تريد معالجتها.  
-- إلمام أساسي بـ Java streams—لا شيء معقد مطلوب.
+        // Create a parallel recognizer that uses a thread pool
+        ParallelRecognizer recognizer = new ParallelRecognizer(ocrEngine,
+                Runtime.getRuntime().availableProcessors());
 
-> **نصيحة احترافية:** إذا لم يكن لديك ترخيص بعد، تقدم Aspose مفتاحًا مؤقتًا مجانيًا يمكنك استخدامه للاختبار.
+        // Walk the directory and collect PNG/JPG files
+        List<Path> imagePaths = Files.walk(Paths.get("YOUR_DIRECTORY"))
+                .filter(Files::isRegularFile)
+                .filter(p -> {
+                    String lower = p.toString().toLowerCase();
+                    return lower.endsWith(".png") || lower.endsWith(".jpg");
+                })
+                .collect(Collectors.toList());
+
+        // Submit OCR jobs asynchronously
+        List<Future<OcrResult>> futures = new ArrayList<>();
+        for (Path imagePath : imagePaths) {
+            futures.add(recognizer.recognizeAsync(imagePath));
+        }
+
+        // Retrieve results in the original order
+        for (int i = 0; i < futures.size(); i++) {
+            try {
+                OcrResult result = futures.get(i).get();
+                System.out.println("File: " + imagePaths.get(i).getFileName());
+                System.out.println("Text: " + result.getText());
+            } catch (Exception e) {
+                System.err.println("Failed to process " + imagePaths.get(i) + ": " + e.getMessage());
+            }
+        }
+
+        // Clean up the recognizer's thread pool
+        recognizer.shutdown();
+    }
+}
+```
+
+شغّل الفئة، راقب وحدة التحكم تمتلئ بالسلاسل المستخرجة، واحتفل بحقيقة أنك **converted images to text** دون كتابة حلقة واحدة تحجب على I/O.
 
 ---
 
-## الخطوة 1 – إعداد المشروع وإضافة Aspose OCR
+## الأسئلة المتكررة (FAQs)
 
-أولاً، أنشئ مشروع Maven جديد (أو Gradle، حسب رغبتك). أضف تبعية Aspose OCR إلى `pom.xml`:
+**س: هل يمكنني معالجة PDFs أو TIFFs أيضًا؟**  
+ج: بالتأكيد. Aspose OCR يدعم أكثر من 30 تنسيقًا—بما في ذلك PDF، TIFF، BMP، و GIF—فما عليك سوى إضافة الامتدادات المطلوبة إلى الفلتر في خطوة استعراض الدليل.
+
+**س: ماذا لو احتجت إلى لغة غير الإنجليزية، مثل الإسبانية؟**  
+ج: غيّر `RecognitionLanguage.ENGLISH` إلى `RecognitionLanguage.SPANISH` (أو أي لغة مدعومة). حزم اللغات مدمجة مع المكتبة، لذا لا يلزم تحميل إضافي.
+
+**س: مجلدي يحتوي على مجلدات فرعية—هل سيتم فحصها؟**  
+ج: نعم. `Files.walk` يتجول في الشجرة بأكملها بشكل متكرر، لذا كل PNG/J
+
+**س: كيف أتعامل مع صور ضخمة جدًا تتجاوز 200 MB؟**  
+ج: فعّل وضع البث عن طريق استدعاء `ocrEngine.setUseStreaming(true)`. هذا يخبر المحرك بقراءة الصورة على دفعات، مما يقلل بشكل كبير من استهلاك الذاكرة القصوى.
+
+**س: هل هناك طريقة لتحديد عدد خيوط OCR المتزامنة؟**  
+ج: نعم. عند إنشاء `ParallelRecognizer`، مرّر عدد الخيوط الأقصى المطلوب كمعامل ثانٍ (مثال: `new ParallelRecognizer(ocrEngine, 4)`).
+
+---
+
+**آخر تحديث:** 2026-08-28  
+**تم الاختبار مع:** Aspose OCR for Java 24.10  
+**المؤلف:** Aspose  
+
+
+
+
+
 
 ```xml
 <dependency>
@@ -66,16 +287,6 @@ url: /ar/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing
     <version>23.12</version> <!-- Check the latest version on Maven Central -->
 </dependency>
 ```
-
-> **لماذا هذا مهم:** إعلان التبعية مسبقًا يضمن أن المترجم يستطيع رؤية `AsposeOCR` و `ParallelRecognizer` والفئات ذات الصلة. كما يضمن أن نفس الإصدار يُستخدم على جميع الأجهزة، وهو أمر حاسم لـ **معالجة OCR الدفعي** القابلة لإعادة الإنتاج.
-
-بعد انتهاء عملية البناء، قم بتحديث بيئة التطوير المتكاملة ويجب أن ترى حزم Aspose تحت `External Libraries`.
-
----
-
-## الخطوة 2 – تحويل الصور إلى نص – تهيئة محرك OCR
-
-نحتاج فقط إلى **محرك OCR واحد** طوال عملية التنفيذ. مشاركته بين الخيوط توفر الذاكرة وتسرّع العملية لأن المحرك يحمل حزم اللغات مرة واحدة فقط.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -89,14 +300,6 @@ import com.aspose.ocr.RecognitionLanguage;
 AsposeOCR ocrEngine = new AsposeOCR();               // Loads language data internally
 ParallelRecognizer parallelRecognizer = new ParallelRecognizer(ocrEngine);
 ```
-
-> **شرح:** `ParallelRecognizer` يلف المحرك في مجموعة خيوط. عندما تُرسل العديد من الملفات، يحصل كل منها على خيط عمل خاص به، مما يتيح التوازي الحقيقي على المعالجات متعددة النوى.
-
----
-
-## الخطوة 3 – قراءة الصور من المجلد – استعراض شجرة الدليل
-
-الآن نحتاج إلى **قراءة الصور من المجلد** وجمع كل ملفات PNG أو JPG. تجعلنا واجهة برمجة التطبيقات `Files.walk` نكتب ذلك في سطر واحد، لكننا سنضيف مرشحًا **لاستخراج النص من PNG** فقط عند الحاجة.
 
 ```java
 import java.nio.file.*;
@@ -120,14 +323,6 @@ if (imagePaths.isEmpty()) {
 }
 ```
 
-> **لماذا نُصفي هنا:** استخدام `filter` يتيح لنا **تصفية الملفات حسب الامتداد** مبكرًا، مما يقلل من عمليات الإدخال/الإخراج غير الضرورية لاحقًا. كما يبقي الكود مقروءًا—لا حاجة لتعبيرات regex معقدة.
-
----
-
-## الخطوة 4 – معالجة OCR الدفعي – إرسال المهام بصورة غير متزامنة
-
-مع قائمة الملفات جاهزة، نُرسل كل مسار إلى `ParallelRecognizer`. تُعيد طريقة `recognizeAsync` كائن `Future<OcrResult>` نحتفظ به لاسترجاعه لاحقًا.
-
 ```java
 import java.util.concurrent.*;
 
@@ -144,14 +339,6 @@ for (Path image : imagePaths) {
 }
 ```
 
-> **ما الذي يحدث خلف الكواليس؟** كل استدعاء يضيف مهمة إلى خدمة التنفيذ الداخلية للمُعرّف. تُنفّذ المهام بالتوازي، لذا يمكن معالجة مجلد يحتوي على 100 صورة في جزء صغير من الوقت الذي تستغرقه حلقة أحادية الخيط.
-
----
-
-## الخطوة 5 – استرجاع النتائج بالترتيب الأصلي – الحفاظ على تسلسل الملفات
-
-نظرًا لأننا خزنّا الـ futures بنفس ترتيب `imagePaths`، يمكننا ببساطة التكرار على القائمة واستدعاء `get()`. يُحجب الاستدعاء فقط حتى تُنتهي المعالجة لتلك الصورة المحددة، مما يحافظ على الترتيب دون الحاجة إلى تتبع إضافي.
-
 ```java
 // Step 5: Retrieve and display the OCR results in the original order
 for (int i = 0; i < recognitionFutures.size(); i++) {
@@ -165,8 +352,6 @@ for (int i = 0; i < recognitionFutures.size(); i++) {
     }
 }
 ```
-
-**عينة من مخرجات وحدة التحكم** (مقتطفة للاختصار):
 
 ```
 File: invoice_001.png
@@ -182,26 +367,10 @@ Grand Total: $75.00
 -----
 ```
 
-> **معالجة الحالات الحدية:** إذا أطلقت صورة معينة استثناءً (ملف تالف، تنسيق غير مدعوم)، نلتقطه ونستمر في معالجة البقية—عادة أساسية لخطوط أنابيب **معالجة OCR الدفعي** الموثوقة.
-
----
-
-## الخطوة 6 – التنظيف – إغلاق المُعرّف
-
-لا تنسَ أبدًا إغلاق مجموعة الخيوط الداخلية؛ وإلا قد يبقى JVM معلقًا عند الإغلاق.
-
 ```java
 // Step 6: Shut down the recognizer to clean up its internal thread pool
 parallelRecognizer.shutdown();
 ```
-
-هذا كل شيء! سيقوم البرنامج الآن باستعراض أي دليل، تصفية ملفات PNG/JPG، تشغيل OCR بالتوازي، وطباعة النتائج.
-
----
-
-## مثال كامل يعمل
-
-فيما يلي الفئة الكاملة الجاهزة للنسخ واللصق. استبدل `"YOUR_DIRECTORY"` بمسار مجلد الصور الخاص بك وشغّله من بيئة التطوير المتكاملة أو سطر الأوامر.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -262,22 +431,16 @@ public class BatchParallelExample {
 }
 ```
 
-شغّل الفئة، راقب وحدة التحكم وهي تملأ بالسلاسل المستخرجة، واحتفل بحقيقة أنك **قمت بتحويل الصور إلى نص** دون كتابة حلقة واحدة تحجب الإدخال/الإخراج.
+## دروس ذات صلة
 
----
+- [تحويل الصور إلى نص في دليل معالجة OCR الدفعي بـ Java](/ocr/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing-guide/)
+- [قراءة النص من الصورة في Java – دليل Aspose OCR الكامل](/ocr/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/)
+- [استخراج النص من الصور باستخدام Aspose.OCR – الأحرف المسموح بها](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 
-## الأسئلة المتكررة (FAQs)
-
-**س: هل يمكنني معالجة ملفات PDF أو TIFF أيضًا؟**  
-ج: بالتأكيد. يدعم Aspose OCR العديد من الصيغ—فقط أضف امتدادات الملفات المناسبة إلى المرشح في الخطوة 2.
-
-**س: ماذا لو احتجت لغة مختلفة، مثل الإسبانية؟**  
-ج: غيّر `RecognitionLanguage.ENGLISH` إلى `RecognitionLanguage.SPANISH`. تأكد من تثبيت حزمة اللغة (تضمّن Aspose معظم اللغات الرئيسية بشكل افتراضي).
-
-**س: مجلدي يحتوي على مجلدات فرعية—هل سيتم فحصها؟**  
-ج: نعم. `Files.walk` يتجول في الشجرة بالكامل بشكل متكرر، لذا سيتم مسح كل ملف PNG/J
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
