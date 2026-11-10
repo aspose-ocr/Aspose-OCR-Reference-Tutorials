@@ -50,7 +50,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak teks gambar C# dengan pemilihan bahasa menggunakan Aspose.OCR
@@ -187,8 +189,6 @@ Selamat! Anda telah mempelajari **how to extract image text C#** dengan pemiliha
 **Diuji Dengan:** Aspose.OCR 24.11 for .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [mengenali teks gambar dengan Aspose OCR untuk banyak bahasa](/ocr/net/ocr-settings/working-with-different-languages/)
@@ -196,5 +196,8 @@ Selamat! Anda telah mempelajari **how to extract image text C#** dengan pemiliha
 - [Cara Mengekstrak Teks dari Gambar Menggunakan Aspose.OCR untuk .NET](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

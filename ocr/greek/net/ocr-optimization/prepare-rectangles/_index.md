@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Απόσπαση Κειμένου από Εικόνα με Ορθογώνια – Οδηγός OCR
@@ -208,15 +210,15 @@ foreach (string s in result.RecognitionAreasText)
 **Δοκιμάστηκε Με:** Aspose.OCR 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Πώς να εξάγετε ορθογώνια για παραγράφους στην αναγνώριση εικόνας OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Πώς να κάνετε OCR σε εικόνα – Εκτέλεση OCR σε εικόνα στην αναγνώριση εικόνας OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Πώς να εξάγετε κείμενο από εικόνα χρησιμοποιώντας Aspose.OCR για .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

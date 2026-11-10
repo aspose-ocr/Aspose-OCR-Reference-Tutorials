@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR for .NET을 사용한 이미지 배치 텍스트 추출
@@ -214,11 +216,9 @@ A: 커뮤니티와 전문가들의 신속한 지원을 받을 수 있는 [Aspose
 - [이미지에서 텍스트 추출 – Aspose.OCR OCR 설정](/ocr/net/ocr-settings/)
 - [AspOCR 사용법: .NET용 이미지 OCR 필터 전처리](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chuyển Đổi Hình Ảnh Thành Văn Bản – Thực Hiện OCR trên Hình Ảnh từ URL
@@ -213,15 +215,15 @@ Với Aspose.OCR cho .NET, chuyển đổi hình ảnh thành văn bản từ UR
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Các hướng dẫn liên quan
 
 - [Cách Trích xuất Văn bản Hình ảnh từ Stream bằng Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Trích xuất Văn bản từ Hình ảnh – Cài đặt OCR với Aspose.OCR](/ocr/net/ocr-settings/)
 - [Cách Trích xuất Văn bản từ Hình ảnh bằng cách Chuẩn bị Các Hình chữ nhật trong OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

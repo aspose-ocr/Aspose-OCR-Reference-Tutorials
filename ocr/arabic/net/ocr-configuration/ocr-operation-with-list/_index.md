@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخراج النص من الصور دفعيًا باستخدام Aspose.OCR لـ .NET
@@ -214,11 +216,9 @@ for (int i = 0; i < result.Length; i++)
 - [استخراج النص من الصور – إعدادات OCR مع Aspose.OCR](/ocr/net/ocr-settings/)
 - [كيفية استخدام AspOCR: معالجة مرشحات OCR للصور لـ .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

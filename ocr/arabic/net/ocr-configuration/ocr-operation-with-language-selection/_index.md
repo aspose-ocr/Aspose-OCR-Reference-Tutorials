@@ -48,7 +48,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخراج نص الصورة C# مع اختيار اللغة باستخدام Aspose.OCR
@@ -185,8 +187,6 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 **تم الاختبار مع:** Aspose.OCR 24.11 for .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [التعرف على نص الصورة باستخدام Aspose OCR لعدة لغات](/ocr/net/ocr-settings/working-with-different-languages/)
@@ -194,5 +194,8 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 - [كيفية استخراج النص من الصورة باستخدام Aspose.OCR لـ .NET](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 폴더에서 OCR 작업을 사용하여 이미지에서 텍스트 추출
@@ -238,6 +240,5 @@ A: 커뮤니티 지원은 [Aspose.OCR 포럼](https://forum.aspose.com/c/ocr/16)
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

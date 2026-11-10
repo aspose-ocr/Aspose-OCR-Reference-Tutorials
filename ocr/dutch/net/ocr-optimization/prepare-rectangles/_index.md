@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tekst uit afbeelding extraheren met rechthoeken – OCR-gids
@@ -210,15 +212,15 @@ Je weet nu hoe je **extract text from image** kunt uitvoeren door aangepaste rec
 **Getest met:** Aspose.OCR 24.11 for .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Hoe rechthoeken voor alinea's te extraheren in OCR-afbeeldingsherkenning](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Hoe afbeelding OCR‑en – OCR uitvoeren op afbeelding in OCR-afbeeldingsherkenning](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Hoe tekst uit afbeelding te extraheren met Aspose.OCR voor .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

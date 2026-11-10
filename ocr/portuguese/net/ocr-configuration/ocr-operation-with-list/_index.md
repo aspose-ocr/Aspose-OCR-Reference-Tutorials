@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrair Texto em Lote de Imagens com Aspose.OCR para .NET
@@ -215,11 +217,9 @@ Parabéns! Você aprendeu com sucesso **como fazer OCR em lote de imagens** com 
 - [Extrair Texto de Imagens – Configurações OCR com Aspose.OCR](/ocr/net/ocr-settings/)
 - [Como Usar AspOCR: Pré‑processar Filtros de OCR de Imagem para .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -68,7 +68,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 在資料夾上使用 OCR 操作提取圖像文字
@@ -230,11 +232,9 @@ A: 前往 [Aspose.OCR 論壇](https://forum.aspose.com/c/ocr/16) 取得社群支
 - [如何使用 Aspose.OCR for .NET 從 ZIP 壓縮檔提取文字](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [從圖像提取文字 – 使用 Aspose.OCR 的 OCR 設定](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

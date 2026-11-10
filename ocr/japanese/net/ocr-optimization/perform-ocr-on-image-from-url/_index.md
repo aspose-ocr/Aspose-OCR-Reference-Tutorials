@@ -68,7 +68,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 画像をテキストに変換 – URLから画像のOCRを実行
@@ -208,8 +210,6 @@ Aspose.OCR for .NET を使用すれば、リモート URL から画像をテキ�
 **テスト環境:** Aspose.OCR 24.11 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [Aspose OCR を使用したストリームからの画像テキスト抽出の実行方法](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -217,5 +217,8 @@ Aspose.OCR for .NET を使用すれば、リモート URL から画像をテキ�
 - [OCR で矩形を準備して画像からテキストを抽出する方法](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Bild zu Text konvertieren – OCR auf Bild von URL ausführen
@@ -213,15 +215,15 @@ Mit Aspose.OCR für .NET ist das Konvertieren von Bild zu Text von einer entfern
 **Getestet mit:** Aspose.OCR 24.11 für .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [Wie man Bild‑Textextraktion aus Stream mit Aspose OCR durchführt](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Text aus Bildern extrahieren – OCR‑Einstellungen mit Aspose.OCR](/ocr/net/ocr-settings/)
 - [Wie man Text aus Bild extrahiert, indem man Rechtecke für OCR vorbereitet](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -45,7 +45,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahování textu z obrázku pomocí obdélníků – Průvodce OCR
@@ -214,15 +216,15 @@ Nyní víte, jak **extrahovat text z obrázku** přípravou vlastních obdélní
 **Testováno s:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Jak extrahovat obdélníky pro odstavce v OCR rozpoznávání obrázků](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Jak OCR obrázek – provést OCR na obrázku v OCR rozpoznávání obrázků](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Jak extrahovat text z obrázku pomocí Aspose.OCR pro .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

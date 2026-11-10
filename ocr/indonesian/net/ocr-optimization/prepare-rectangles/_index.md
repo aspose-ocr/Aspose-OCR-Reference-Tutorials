@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Teks dari Gambar dengan Persegi Panjang – Panduan OCR
@@ -208,15 +210,15 @@ Anda kini tahu cara **mengekstrak teks dari gambar** dengan menyiapkan persegi p
 **Diuji Dengan:** Aspose.OCR 24.11 untuk .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Cara Menarik Persegi Panjang untuk Paragraf dalam Pengenalan Gambar OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Cara OCR Gambar – Lakukan OCR pada Gambar dalam Pengenalan Gambar OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Cara Menarik Teks dari Gambar Menggunakan Aspose.OCR untuk .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

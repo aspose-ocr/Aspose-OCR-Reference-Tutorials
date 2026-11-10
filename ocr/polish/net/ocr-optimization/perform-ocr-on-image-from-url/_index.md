@@ -72,7 +72,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konwertuj obraz na tekst – wykonaj OCR na obrazie z URL
@@ -212,15 +214,15 @@ Dzięki Aspose.OCR for .NET konwertowanie obrazu na tekst z zdalnego URL jest pr
 **Testowano z:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Jak wykonać ekstrakcję tekstu obrazu ze strumienia przy użyciu Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Wyodrębnij tekst z obrazów – ustawienia OCR z Aspose.OCR](/ocr/net/ocr-settings/)
 - [Jak wyodrębnić tekst z obrazu, przygotowując prostokąty w OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

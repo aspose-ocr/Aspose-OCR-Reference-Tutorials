@@ -50,7 +50,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εξαγωγή κειμένου εικόνας C# με επιλογή γλώσσας χρησιμοποιώντας Aspose.OCR
@@ -187,8 +189,6 @@ A: Για αγορά, επισκεφθείτε τη [purchase page](https://purc
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Tutorials
 
 - [αναγνώριση κειμένου εικόνας με Aspose OCR για πολλές γλώσσες](/ocr/net/ocr-settings/working-with-different-languages/)
@@ -196,5 +196,8 @@ A: Για αγορά, επισκεφθείτε τη [purchase page](https://purc
 - [Πώς να Εξάγετε Κείμενο από Εικόνα Χρησιμοποιώντας Aspose.OCR για .NET](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

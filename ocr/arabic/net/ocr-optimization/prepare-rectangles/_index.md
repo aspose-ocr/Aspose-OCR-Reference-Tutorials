@@ -45,7 +45,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # استخراج النص من الصورة باستخدام المستطيلات – دليل OCR
@@ -208,15 +210,15 @@ You now know how to **extract text from image** by preparing custom rectangles w
 **تم الاختبار مع:** Aspose.OCR 24.11 for .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [كيفية استخراج المستطيلات للفقرات في التعرف على الصور باستخدام OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [كيفية إجراء OCR على صورة – تنفيذ OCR على الصورة في التعرف على الصور باستخدام OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [كيفية استخراج النص من الصورة باستخدام Aspose.OCR for .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

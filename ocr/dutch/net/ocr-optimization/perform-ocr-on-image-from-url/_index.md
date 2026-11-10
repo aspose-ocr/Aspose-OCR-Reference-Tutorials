@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Afbeelding naar Tekst Converteren – OCR uitvoeren op Afbeelding van URL
@@ -213,8 +215,6 @@ Met Aspose.OCR voor .NET is het converteren van image to text vanaf een externe 
 **Getest met:** Aspose.OCR 24.11 for .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Hoe afbeeldingstekstextractie uit stream uitvoeren met Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -222,5 +222,8 @@ Met Aspose.OCR voor .NET is het converteren van image to text vanaf een externe 
 - [Hoe tekst uit afbeelding extraheren door rechthoeken voor OCR voor te bereiden](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

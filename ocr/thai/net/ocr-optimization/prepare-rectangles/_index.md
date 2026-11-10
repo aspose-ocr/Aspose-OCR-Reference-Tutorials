@@ -45,7 +45,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สกัดข้อความจากภาพด้วยสี่เหลี่ยม – คู่มือ OCR
@@ -197,13 +199,14 @@ foreach (string s in result.RecognitionAreasText)
 **ทดสอบด้วย:** Aspose.OCR 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 - [วิธีสกัดสี่เหลี่ยมสำหรับย่อหน้าการจดจำภาพ OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [วิธี OCR ภาพ – ทำ OCR บนภาพในการจดจำภาพ OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [วิธีสกัดข้อความจากภาพโดยใช้ Aspose.OCR for .NET](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

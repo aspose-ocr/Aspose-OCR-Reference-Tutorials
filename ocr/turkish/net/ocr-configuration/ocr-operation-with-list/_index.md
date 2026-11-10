@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntülerden Metin Toplu Olarak Çıkarma Aspose.OCR for .NET ile
@@ -214,11 +216,9 @@ Tebrikler! Aspose.OCR for .NET kullanarak bir listeyle **görüntüleri toplu OC
 - [Görüntülerden Metin Çıkarma – Aspose.OCR ile OCR Ayarları](/ocr/net/ocr-settings/)
 - [AspOCR Nasıl Kullanılır: .NET için Görüntü OCR Filtrelerini Ön İşleme](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

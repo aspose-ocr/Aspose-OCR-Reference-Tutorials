@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Извлечение текста из изображения с прямоугольниками – Руководство по OCR
@@ -215,8 +217,6 @@ foreach (string s in result.RecognitionAreasText)
 **Тестировано с:** Aspose.OCR 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные руководства
 
 - [Как извлечь прямоугольники для абзацев в распознавании изображений OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
@@ -224,5 +224,8 @@ foreach (string s in result.RecognitionAreasText)
 - [Как извлечь текст из изображения с помощью Aspose.OCR for .NET](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

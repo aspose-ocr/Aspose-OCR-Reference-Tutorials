@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สกัดข้อความจากภาพโดยใช้การดำเนินการ OCR บนโฟลเดอร์
@@ -234,11 +236,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 - [วิธีสกัดข้อความจากไฟล์ ZIP ด้วย Aspose.OCR สำหรับ .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [สกัดข้อความจากภาพ – การตั้งค่า OCR กับ Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

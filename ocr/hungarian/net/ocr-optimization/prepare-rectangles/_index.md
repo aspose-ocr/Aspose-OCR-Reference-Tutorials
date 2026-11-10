@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kép szövegének kinyerése téglalapokkal – OCR útmutató
@@ -216,15 +218,15 @@ Most már tudod, hogyan **kép szövegét kinyerheted** egyedi téglalapok elők
 **Tesztelve ezzel:** Aspose.OCR 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó oktatóanyagok
 
 - [Hogyan nyerjünk ki téglalapokat bekezdésekhez az OCR képfelismerésben](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Hogyan OCR-eljünk képet – OCR végrehajtása képen az OCR képfelismerésben](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Hogyan nyerjünk ki szöveget képből az Aspose.OCR for .NET használatával](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

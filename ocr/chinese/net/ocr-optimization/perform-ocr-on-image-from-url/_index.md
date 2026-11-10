@@ -68,7 +68,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 将图像转换为文本 – 对来自 URL 的图像执行 OCR
@@ -210,8 +212,6 @@ A: 请访问专用的 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 获�
 **测试环境：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [How to Perform Image Text Extraction from Stream Using Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -219,5 +219,8 @@ A: 请访问专用的 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 获�
 - [How to Extract Text from Image by Preparing Rectangles in OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -46,7 +46,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR 進行語言選擇的 C# 圖像文字提取
@@ -183,15 +185,15 @@ A: 購買請前往 [purchase page](https://purchase.aspose.com/buy)。
 **測試版本：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [使用 Aspose OCR 進行多語言文字圖像辨識](/ocr/net/ocr-settings/working-with-different-languages/)
 - [從圖像提取文字 – 使用 Aspose.OCR 的 OCR 設定](/ocr/net/ocr-settings/)
 - [如何使用 Aspose.OCR for .NET 從圖像提取文字](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

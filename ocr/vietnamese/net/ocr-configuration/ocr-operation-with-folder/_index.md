@@ -72,7 +72,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản từ hình ảnh bằng thao tác OCR trên thư mục
@@ -232,11 +234,9 @@ A: Truy cập [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) để đư�
 - [Cách trích xuất văn bản từ các tệp ZIP bằng Aspose.OCR cho .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Trích xuất văn bản từ hình ảnh – Cài đặt OCR với Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

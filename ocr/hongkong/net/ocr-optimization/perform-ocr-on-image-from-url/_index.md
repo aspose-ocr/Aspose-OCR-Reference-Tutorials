@@ -68,7 +68,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 轉換圖像為文字 – 從 URL 執行 OCR
@@ -208,15 +210,15 @@ A: 前往專屬的 [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) 取得�
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [如何使用 Aspose OCR 從串流執行圖像文字擷取](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [從圖像提取文字 – 使用 Aspose.OCR 的 OCR 設定](/ocr/net/ocr-settings/)
 - [如何透過在 OCR 中準備矩形來提取圖像文字](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Batchextrahera text från bilder med Aspose.OCR för .NET
@@ -214,11 +216,9 @@ Grattis! Du har framgångsrikt lärt dig **hur man batch-OCR:ar bilder** med en 
 - [Extrahera text från bilder – OCR‑inställningar med Aspose.OCR](/ocr/net/ocr-settings/)
 - [Hur man använder AspOCR: Förbehandla bild‑OCR‑filter för .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

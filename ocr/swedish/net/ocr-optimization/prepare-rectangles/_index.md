@@ -45,7 +45,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahera text från bild med rektanglar – OCR-guide
@@ -208,15 +210,15 @@ Du vet nu hur du **extraherar text från bild** genom att förbereda anpassade r
 **Testad med:** Aspose.OCR 24.11 for .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Hur man extraherar rektanglar för stycken i OCR‑bildigenkänning](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Hur man OCR‑bild – Utför OCR på bild i OCR‑bildigenkänning](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Hur man extraherar text från bild med Aspose.OCR för .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

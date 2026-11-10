@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μαζική Εξαγωγή Κειμένου από Εικόνες με Aspose.OCR για .NET
@@ -218,6 +220,5 @@ A: Μη διστάσετε να ζητήσετε βοήθεια στο [Aspose.O
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

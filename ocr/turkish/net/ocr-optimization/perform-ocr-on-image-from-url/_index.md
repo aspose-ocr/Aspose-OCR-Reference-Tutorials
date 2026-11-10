@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntüyü Metne Dönüştür – URL'den Görüntü Üzerinde OCR Yap
@@ -213,15 +215,15 @@ Aspose.OCR for .NET ile uzak bir URL'den görüntüyü metne dönüştürmek bas
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Aspose OCR Kullanarak Akıştan Görüntü Metni Çıkarma Nasıl Yapılır](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Görüntülerden Metin Çıkarma – Aspose.OCR ile OCR Ayarları](/ocr/net/ocr-settings/)
 - [OCR'da Dikdörtgen Hazırlayarak Görüntüden Metin Çıkarma Nasıl Yapılır](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

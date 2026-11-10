@@ -74,7 +74,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tömeges szövegkivonás képekből az Aspose.OCR for .NET segítségével
@@ -216,11 +218,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan **végezzen tömeges OCR-t képeken**
 - [Szöveg kivonása képekből – OCR beállítások az Aspose.OCR-rel](/ocr/net/ocr-settings/)
 - [Hogyan használjuk az AspOCR-t: Képfeldolgozó OCR szűrők .NET-hez](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -48,7 +48,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR을 사용한 언어 선택이 가능한 이미지 텍스트 추출 C#
@@ -185,8 +187,6 @@ A: 구매하려면 [purchase page](https://purchase.aspose.com/buy)를 방문하
 **테스트 환경:** Aspose.OCR 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [다중 언어를 위한 Aspose OCR 이미지 텍스트 인식](/ocr/net/ocr-settings/working-with-different-languages/)
@@ -194,5 +194,8 @@ A: 구매하려면 [purchase page](https://purchase.aspose.com/buy)를 방문하
 - [Aspose.OCR for .NET을 사용한 이미지 텍스트 추출 방법](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -46,7 +46,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # छवि से आयतों के साथ पाठ निकालें – OCR गाइड
@@ -199,13 +201,14 @@ foreach (string s in result.RecognitionAreasText)
 **परीक्षण किया गया:** Aspose.OCR 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 - [OCR इमेज रिकग्निशन में पैराग्राफ़ के लिए आयतें निकालना कैसे करें](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [इमेज को OCR कैसे करें – OCR इमेज रिकग्निशन में इमेज पर OCR निष्पादित करना](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Aspose.OCR for .NET का उपयोग करके इमेज से पाठ निकालना कैसे करें](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

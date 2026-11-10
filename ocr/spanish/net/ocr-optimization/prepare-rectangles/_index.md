@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extraer texto de una imagen con rectángulos – Guía OCR
@@ -210,15 +212,15 @@ Ahora sabe cómo **extract text from image** preparando rectángulos personaliza
 **Probado con:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriales relacionados
 
 - [Cómo extraer rectángulos para párrafos en reconocimiento de imágenes OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Cómo OCR una imagen – Realizar OCR en una imagen en reconocimiento de imágenes OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Cómo extraer texto de una imagen usando Aspose.OCR for .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

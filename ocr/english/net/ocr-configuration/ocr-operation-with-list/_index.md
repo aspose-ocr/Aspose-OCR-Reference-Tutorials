@@ -74,7 +74,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Batch Extract Text from Images with Aspose.OCR for .NET
@@ -216,11 +218,9 @@ Congratulations! You've successfully learned **how to batch OCR images** with a 
 - [Extract Text from Images – OCR Settings with Aspose.OCR](/ocr/net/ocr-settings/)
 - [How to Use AspOCR: Preprocess Image OCR Filters for .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

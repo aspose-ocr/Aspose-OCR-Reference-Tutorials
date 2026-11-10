@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # ดึงข้อความจากรูปภาพเป็นชุดด้วย Aspose.OCR สำหรับ .NET
@@ -214,11 +216,9 @@ A: อย่าลังเลที่จะขอความช่วยเ�
 - [ดึงข้อความจากรูปภาพ – การตั้งค่า OCR ด้วย Aspose.OCR](/ocr/net/ocr-settings/)
 - [วิธีใช้ AspOCR: การเตรียมตัวกรอง OCR สำหรับรูปภาพใน .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

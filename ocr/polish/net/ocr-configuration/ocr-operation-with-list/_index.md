@@ -73,7 +73,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wsadowkie wyodrębnianie tekstu z obrazów przy użyciu Aspose.OCR dla .NET
@@ -219,6 +221,5 @@ Gratulacje! Pomyślnie nauczyłeś się **jak wykonywać wsadowe OCR obrazów** 
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

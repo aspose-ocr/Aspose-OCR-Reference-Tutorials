@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # इमेज को टेक्स्ट में बदलें – URL से इमेज पर OCR करें
@@ -211,15 +213,15 @@ Aspose.OCR for .NET के साथ, रिमोट URL से इमेज �
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Aspose OCR का उपयोग करके स्ट्रीम से इमेज टेक्स्ट एक्सट्रैक्शन कैसे करें](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [इमेज से टेक्स्ट एक्सट्रैक्ट करें – Aspose.OCR के साथ OCR सेटिंग्स](/ocr/net/ocr-settings/)
 - [OCR में रेक्टेंगल तैयार करके इमेज से टेक्स्ट कैसे एक्सट्रैक्ट करें](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

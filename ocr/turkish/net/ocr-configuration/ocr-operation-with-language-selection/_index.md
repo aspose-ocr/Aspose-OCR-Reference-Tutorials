@@ -49,7 +49,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR kullanarak dil seçimiyle C# görüntü metni çıkarma
@@ -186,8 +188,6 @@ Tebrikler! Aspose.OCR for .NET kullanarak dil seçimiyle **how to extract image 
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Aspose OCR ile çoklu dillerde metin görüntüsü tanıma](/ocr/net/ocr-settings/working-with-different-languages/)
@@ -195,5 +195,8 @@ Tebrikler! Aspose.OCR for .NET kullanarak dil seçimiyle **how to extract image 
 - [Aspose.OCR for .NET Kullanarak Görüntüden Metin Nasıl Çıkarılır](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

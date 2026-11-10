@@ -72,7 +72,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Text from Images Using OCR Operation on Folders
@@ -236,11 +238,9 @@ A: Visit the [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) for community
 - [How to Extract Text from ZIP Archives Using Aspose.OCR for .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Extract Text from Images – OCR Settings with Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

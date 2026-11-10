@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Преобразование изображения в текст – Выполнение OCR для изображения по URL
@@ -213,15 +215,15 @@ A: Посетите специализированный [Aspose.OCR forum](http
 **Тестировано с:** Aspose.OCR 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные руководства
 
 - [Как выполнить извлечение текста из изображения из потока с помощью Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Извлечение текста из изображений – настройки OCR с Aspose.OCR](/ocr/net/ocr-settings/)
 - [Как извлечь текст из изображения, подготовив прямоугольники в OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

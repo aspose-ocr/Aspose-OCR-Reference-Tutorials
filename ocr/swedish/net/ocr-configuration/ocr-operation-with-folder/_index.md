@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahera text från bilder med OCR‑operation på mappar
@@ -234,11 +236,9 @@ A: Besök [Aspose.OCR‑forumet](https://forum.aspose.com/c/ocr/16) för communi
 - [Hur man extraherar text från ZIP‑arkiv med Aspose.OCR för .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Extrahera text från bilder – OCR‑inställningar med Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

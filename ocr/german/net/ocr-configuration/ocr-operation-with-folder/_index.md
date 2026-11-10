@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text aus Bildern mit OCR-Operation in Ordnern extrahieren
@@ -230,11 +232,9 @@ A: Besuchen Sie das [Aspose.OCR‑Forum](https://forum.aspose.com/c/ocr/16) für
 - [Wie man Text aus ZIP‑Archiven mit Aspose.OCR für .NET extrahiert](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Text aus Bildern extrahieren – OCR‑Einstellungen mit Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

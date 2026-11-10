@@ -71,7 +71,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Képek szövegének kinyerése OCR művelettel mappákon
@@ -231,11 +233,9 @@ A: Látogasd meg az [Aspose.OCR fórumot](https://forum.aspose.com/c/ocr/16) a k
 - [Hogyan nyerjünk ki szöveget ZIP archívumokból az Aspose.OCR for .NET használatával](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Képek szövegének kinyerése – OCR beállítások az Aspose.OCR-rel](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -71,7 +71,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tekst extraheren uit afbeeldingen met OCR-bewerking op mappen
@@ -231,11 +233,9 @@ A: Bezoek het [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) voor communi
 - [Hoe tekst extraheren uit ZIP-archieven met Aspose.OCR voor .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Tekst extraheren uit afbeeldingen – OCR-instellingen met Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

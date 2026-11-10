@@ -48,7 +48,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR 进行语言选择的图像文本提取（C#）
@@ -185,15 +187,15 @@ Console.WriteLine($"JSON: {result.GetJson()}");
 **测试版本：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [使用 Aspose OCR 进行多语言文本识别](/ocr/net/ocr-settings/working-with-different-languages/)
 - [从图像提取文本 – Aspose.OCR OCR 设置](/ocr/net/ocr-settings/)
 - [如何使用 Aspose.OCR for .NET 从图像提取文本](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

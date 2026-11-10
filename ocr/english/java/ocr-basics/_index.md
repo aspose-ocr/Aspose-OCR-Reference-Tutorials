@@ -1,8 +1,8 @@
 ---
-title: "Extract Text Images – OCR Basics with Aspose.OCR for Java"
+title: "Extract Text from Images Using Aspose.OCR Java API – OCR Basics"
 linktitle: OCR Basics
 second_title: Aspose.OCR Java API
-description: "Learn how to extract text images using Aspose.OCR for Java. This guide shows how to set license, calculate skew, and improve OCR accuracy."
+description: "Learn how to extract text from images using the Aspose.OCR Java API. This guide shows how to set the license, calculate skew, and improve OCR accuracy."
 weight: 20
 url: /java/ocr-basics/
 date: 2025-12-08
@@ -41,10 +41,16 @@ Extracting text from images means applying optical character recognition (OCR) t
 
 ## Step‑by‑Step Guide
 
-### How to set license for Aspose.OCR in Java
+### How‑to set license for Aspose.OCR in Java
 A licensed environment removes evaluation limits and maximizes performance. Follow the short tutorial linked below to register your license file:
 
 [How to Set License for Aspose.OCR in Java](./set-license/)
+
+```java
+// Load Aspose OCR license
+License license = new License();
+license.setLicense("Aspose.OCR.lic");
+```
 
 > **Pro tip:** Place the license file in your project’s resources folder and load it once at application startup.
 
@@ -62,14 +68,14 @@ After correcting skew, you can extract the exact regions that contain text. This
 
 > **Use case:** Exporting text coordinates to PDF annotations or feeding them into a downstream natural‑language pipeline.
 
-## Common Pitfalls & Solutions
+## Common pitfalls & solutions
 | Issue | Why it Happens | Fix |
 |-------|----------------|-----|
 | Low accuracy on low‑resolution images | OCR engine struggles with pixelated characters | Upscale the image or apply a sharpening filter before OCR. |
 | License not recognized | License file path is incorrect or not loaded | Ensure `License.setLicense("Aspose.OCR.lic")` points to the classpath resource. |
 | Skew angle returned as 0° | Image is already straight or pre‑processed incorrectly | Verify that the image contains a discernible baseline; use visual inspection. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I use Aspose.OCR in a commercial product?**  
 A: Yes. Once you apply a valid license, you may embed the library in any commercial application without restrictions.
@@ -92,13 +98,58 @@ Congratulations! You now have a solid foundation for **extracting text images** 
 
 Remember, the journey doesn’t stop here—Aspose.OCR offers advanced features like custom dictionaries, multi‑language detection, and cloud integration. Dive deeper, and let your applications read the world, one image at a time.
 
-## OCR Basics Tutorials
+## OCR basics tutorials
 ### [How to Set License for Aspose.OCR in Java](./set-license/)
 Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up your license effortlessly and enhance your OCR capabilities.
+
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
 Enhance OCR accuracy with Aspose.OCR for Java. Learn to calculate skew angles step-by-step. Improve document processing effortlessly.
+
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 Unlock the power of Aspose.OCR for Java. Learn how to extract text from images seamlessly in this step-by-step guide. Download now for efficient text recognition.
+### [Read text from image in java – complete aspose OCR guide](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
+Comprehensive guide to reading text from images using Aspose OCR for Java, covering setup, preprocessing, and advanced features.
+### [Get OCR text in java – complete aspose OCR example](./get-ocr-text-in-java-complete-aspose-ocr-example/)
+Complete example showing how to extract OCR text in Java using Aspose OCR, covering setup, processing, and best practices.
+### [How to Enable OCR in Java – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-step-by-step-guide/)
+Enable OCR in Java quickly with this step-by-step guide. Follow simple instructions to get Aspose.OCR up and running.
+### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+Learn how to extract Tamil text from images using Aspose OCR for Java in this step‑by‑step guide.
+### [Extract text from image in java – complete OCR example](./extract-text-from-image-in-java-complete-ocr-example/)
+Full Java OCR walkthrough: load image, set license, configure engine, and extract text with Aspose.OCR.
+### [recognize text from png in Java – Aspose OCR tutorial](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Learn how to recognize text from PNG images using Aspose OCR for Java in a simple step-by-step guide.
+### [extract text from image – convert PNG to text in Java](./extract-text-from-image-convert-png-to-text-in-java/)
+Convert PNG images to searchable text in Java using Aspose.OCR with a simple step-by-step guide.
+### [Extract text from image with aspose OCR – java quick guide](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Quickly learn how to extract text from images using Aspose OCR in Java with this concise step‑by‑step guide.
+### [Extract text from image in java – java OCR tutorial](./extract-text-from-image-in-java-java-ocr-tutorial/)
+Learn how to extract text from images using Aspose.OCR for Java in this concise step‑by‑step tutorial.
+### [Perform OCR on Image in Java – Extract Text from JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+Learn how to perform OCR on a JPG image using Aspose.OCR for Java, covering loading, processing, and extracting text efficiently.
+### [recognize text from image in Java – Complete OCR Tutorial](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Master OCR in Java with a complete guide to recognize text from images, covering setup, preprocessing, and extraction steps.
+### [Extract text from image in java – get text from oCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+Learn how to extract text from images using Aspose.OCR for Java in a simple step-by-step tutorial.
+### [Extract Text from Image with Aspose OCR – Complete Java Tutorial](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Comprehensive guide to extract text from images using Aspose OCR in Java, covering setup, processing, and optimization techniques.
+### [Convert Image to Text Java – Complete Aspose OCR Example](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Full end‑to‑end example showing how to convert images to text using Aspose.OCR in Java, covering setup, processing, and best‑practice tips.
+### [How to Perform OCR in Java – Complete Guide to Extract Text from Images](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Master OCR in Java with this comprehensive guide. Learn to extract text from images, configure settings, and boost recognition accuracy.
+### [Java OCR Example – Load Image and Recognize Text with Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Learn how to load an image and extract text using Aspose.OCR for Java in a concise example.
+### [Perform OCR on Image in Java – Complete Step‑by‑Step Guide](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+A comprehensive guide to loading images and performing OCR with Aspose.OCR for Java, covering setup, processing, and result handling.
+### [recognize text from jpg using Aspose OCR in Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Learn how to recognize text from JPG images using Aspose OCR for Java in a simple step-by-step guide.
+### [Use All CPU Cores in Java – Set Thread Pool Size Efficiently](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Optimize performance by configuring thread pools to utilize all CPU cores in Java applications efficiently.
+
+### [Read Text from Image with Java OCR – Complete Aspose OCR Guide](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Comprehensive guide to reading text from images using Aspose.OCR for Java, covering setup, preprocessing, and advanced OCR techniques.
+### [Extract Text from Image in Java – Complete OCR Guide](./extract-text-from-image-in-java-complete-ocr-guide/)
+Master OCR in Java with a full guide to extract text from images, covering setup, preprocessing, and best practices for high accuracy.
 
 ---
 
@@ -110,5 +161,4 @@ Unlock the power of Aspose.OCR for Java. Learn how to extract text from images s
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}

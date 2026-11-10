@@ -70,7 +70,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 이미지를 텍스트로 변환 – URL에서 이미지에 OCR 수행
@@ -210,8 +212,6 @@ Aspose.OCR for .NET을 사용하면 원격 URL에서 이미지를 텍스트로 �
 **테스트 환경:** Aspose.OCR 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [Aspose OCR을 사용하여 스트림에서 이미지 텍스트 추출 수행 방법](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -219,5 +219,8 @@ Aspose.OCR for .NET을 사용하면 원격 URL에서 이미지를 텍스트로 �
 - [OCR에서 사각형을 준비하여 이미지에서 텍스트 추출하는 방법](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

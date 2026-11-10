@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konversi Gambar ke Teks – Lakukan OCR pada Gambar dari URL
@@ -213,8 +215,6 @@ Dengan Aspose.OCR untuk .NET, mengonversi gambar ke teks dari URL remote menjadi
 **Diuji Dengan:** Aspose.OCR 24.11 for .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Cara Melakukan Ekstraksi Teks Gambar dari Stream Menggunakan Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -222,5 +222,8 @@ Dengan Aspose.OCR untuk .NET, mengonversi gambar ke teks dari URL remote menjadi
 - [Cara Mengekstrak Teks dari Gambar dengan Menyiapkan Persegi Panjang di OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

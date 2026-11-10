@@ -47,7 +47,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR を使用した言語選択付き画像テキスト抽出 C#
@@ -184,15 +186,15 @@ A: 購入するには [purchase page](https://purchase.aspose.com/buy) にアク
 **テスト環境:** Aspose.OCR 24.11 for .NET  
 **作者:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [複数言語向け Aspose OCR で画像テキストを認識する](/ocr/net/ocr-settings/working-with-different-languages/)
 - [画像からテキストを抽出 – Aspose.OCR の OCR 設定](/ocr/net/ocr-settings/)
 - [.NET 用 Aspose.OCR を使用した画像からテキストを抽出する方法](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

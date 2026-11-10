@@ -73,7 +73,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Teks Secara Batch dari Gambar dengan Aspose.OCR untuk .NET
@@ -215,11 +217,9 @@ Selamat! Anda telah berhasil mempelajari **cara melakukan batch OCR pada gambar*
 - [Ekstrak Teks dari Gambar – Pengaturan OCR dengan Aspose.OCR](/ocr/net/ocr-settings/)
 - [Cara Menggunakan AspOCR: Pra‑proses Filter OCR Gambar untuk .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

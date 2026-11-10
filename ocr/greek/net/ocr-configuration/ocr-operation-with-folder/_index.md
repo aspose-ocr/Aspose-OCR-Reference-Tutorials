@@ -72,7 +72,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Εξαγωγή Κειμένου από Εικόνες Χρησιμοποιώντας Λειτουργία OCR σε Φακέλους
@@ -236,11 +238,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 - [Πώς να Εξάγετε Κείμενο από Αρχεία ZIP Χρησιμοποιώντας το Aspose.OCR for .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Εξαγωγή Κειμένου από Εικόνες – Ρυθμίσεις OCR με Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -50,7 +50,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kép szövegének kinyerése C#-ban nyelvválasztással az Aspose.OCR használatával
@@ -185,15 +187,15 @@ Gratulálunk! Megtanultad, **hogyan nyerjünk ki kép szöveget C#-ban** nyelvv�
 **Tesztelve:** Aspose.OCR 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [szöveg felismerése képen többnyelvű Aspose OCR-rel](/ocr/net/ocr-settings/working-with-different-languages/)
 - [Szöveg kinyerése képekből – OCR beállítások Aspose.OCR-rel](/ocr/net/ocr-settings/)
 - [Hogyan nyerjünk ki szöveget képből az Aspose.OCR .NET használatával](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Klasörlerde OCR İşlemi Kullanarak Görsellerden Metin Çıkarma
@@ -226,11 +228,9 @@ A: Topluluk desteği için [Aspose.OCR forumunu](https://forum.aspose.com/c/ocr/
 - [Aspose.OCR for .NET Kullanarak ZIP Arşivlerinden Metin Nasıl Çıkarılır](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Görsellerden Metin Çıkarma – Aspose.OCR ile OCR Ayarları](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

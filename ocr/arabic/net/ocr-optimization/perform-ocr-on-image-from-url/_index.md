@@ -70,7 +70,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحويل الصورة إلى نص – إجراء OCR على صورة من URL
@@ -212,15 +214,15 @@ Console.WriteLine("PerformOCROnImageFromUrl executed successfully");
 **تم الاختبار مع:** Aspose.OCR 24.11 for .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [كيفية استخراج نص الصورة من تدفق باستخدام Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [استخراج نص من الصور – إعدادات OCR مع Aspose.OCR](/ocr/net/ocr-settings/)
 - [كيفية استخراج نص من صورة عبر إعداد المستطيلات في OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -72,7 +72,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnianie tekstu z obrazów przy użyciu operacji OCR na folderach
@@ -236,11 +238,9 @@ O: Odwiedź [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) dla wsparcia s
 - [Jak wyodrębnić tekst z archiwów ZIP przy użyciu Aspose.OCR dla .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Wyodrębnianie tekstu z obrazów – ustawienia OCR z Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

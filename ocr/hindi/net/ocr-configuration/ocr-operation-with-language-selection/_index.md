@@ -50,7 +50,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR का उपयोग करके भाषा चयन के साथ C# में इमेज टेक्स्ट निकालें
@@ -188,15 +190,15 @@ A: खरीदने के लिए [purchase page](https://purchase.aspose.c
 **परीक्षण किया गया संस्करण:** Aspose.OCR 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल
 
 - [Aspose OCR के साथ कई भाषाओं के लिए इमेज टेक्स्ट पहचान](/ocr/net/ocr-settings/working-with-different-languages/)
 - [इमेज से टेक्स्ट निकालें – Aspose.OCR के साथ OCR सेटिंग्स](/ocr/net/ocr-settings/)
 - [Aspose.OCR for .NET का उपयोग करके इमेज से टेक्स्ट कैसे निकालें](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

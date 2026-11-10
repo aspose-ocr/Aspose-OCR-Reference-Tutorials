@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahování textu z obrázků pomocí OCR operace ve složkách
@@ -234,11 +236,9 @@ A: Navštivte [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) pro komunitn
 - [Jak extrahovat text ze ZIP archivů pomocí Aspose.OCR pro .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Extrahování textu z obrázků – nastavení OCR s Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

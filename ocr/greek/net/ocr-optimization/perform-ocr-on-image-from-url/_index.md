@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Μετατροπή Εικόνας σε Κείμενο – Εκτέλεση OCR σε Εικόνα από URL
@@ -213,8 +215,6 @@ A: Επισκεφθείτε το αφιερωμένο [Aspose.OCR forum](https:/
 **Δοκιμή Με:** Aspose.OCR 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικοί Οδηγοί
 
 - [Πώς να Εκτελέσετε Εξαγωγή Κειμένου από Εικόνα από Ροή Χρησιμοποιώντας το Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -222,5 +222,8 @@ A: Επισκεφθείτε το αφιερωμένο [Aspose.OCR forum](https:/
 - [Πώς να Εξάγετε Κείμενο από Εικόνα Προετοιμάζοντας Ορθογώνια στο OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

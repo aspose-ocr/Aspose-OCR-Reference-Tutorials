@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Převést obrázek na text – provést OCR na obrázku z URL
@@ -213,15 +215,15 @@ S Aspose.OCR pro .NET je převod obrázku na text ze vzdálené URL jednoduchý 
 **Testováno s:** Aspose.OCR 24.11 pro .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [Jak provést extrakci textu z obrázku ze streamu pomocí Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Extrahovat text z obrázků – nastavení OCR s Aspose.OCR](/ocr/net/ocr-settings/)
 - [Jak extrahovat text z obrázku přípravou obdélníků v OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

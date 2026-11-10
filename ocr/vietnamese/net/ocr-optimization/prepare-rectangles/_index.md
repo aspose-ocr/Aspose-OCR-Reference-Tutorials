@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất Văn bản từ Hình ảnh với Các Hình chữ nhật – Hướng dẫn OCR
@@ -206,15 +208,15 @@ Bây giờ bạn đã biết cách **trích xuất văn bản từ hình ảnh**
 **Đã kiểm tra với:** Aspose.OCR 24.11 for .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Cách trích xuất hình chữ nhật cho đoạn văn trong nhận dạng hình ảnh OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Cách OCR hình ảnh – Thực hiện OCR trên hình ảnh trong nhận dạng hình ảnh OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -70,7 +70,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrair Texto de Imagens Usando Operação OCR em Pastas
@@ -240,11 +242,9 @@ R: Visite o [fórum Aspose.OCR](https://forum.aspose.com/c/ocr/16) para suporte 
 - [Como Extrair Texto de Arquivos ZIP Usando Aspose.OCR para .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Extrair Texto de Imagens – Configurações OCR com Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -71,7 +71,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Ekstrak Teks dari Gambar Menggunakan Operasi OCR pada Folder
@@ -225,11 +227,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 - [Cara Mengekstrak Teks dari Arsip ZIP Menggunakan Aspose.OCR untuk .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Mengekstrak Teks dari Gambar – Pengaturan OCR dengan Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

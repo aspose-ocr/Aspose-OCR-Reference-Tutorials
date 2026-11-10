@@ -70,7 +70,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.OCR for .NET 批次從影像提取文字
@@ -216,6 +218,5 @@ A: 歡迎在 [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16) 尋求社群�
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

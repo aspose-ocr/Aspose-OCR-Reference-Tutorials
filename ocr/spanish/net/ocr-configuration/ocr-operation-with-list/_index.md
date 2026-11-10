@@ -73,7 +73,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extracción por lotes de texto de imágenes con Aspose.OCR para .NET
@@ -215,11 +217,9 @@ R: No dude en buscar ayuda en el [Foro de Aspose.OCR](https://forum.aspose.com/c
 - [Extraer texto de imágenes – Configuraciones OCR con Aspose.OCR](/ocr/net/ocr-settings/)
 - [Cómo usar AspOCR: filtros de preprocesamiento de imagen OCR para .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

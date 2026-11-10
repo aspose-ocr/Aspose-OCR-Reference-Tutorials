@@ -43,7 +43,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用矩形從圖像提取文字 – OCR 指南
@@ -208,15 +210,15 @@ foreach (string s in result.RecognitionAreasText)
 **測試版本：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [如何在 OCR 圖像辨識中提取段落的矩形](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [如何 OCR 圖像 – 在 OCR 圖像辨識中執行圖像 OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [如何使用 Aspose.OCR for .NET 從圖像提取文字](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

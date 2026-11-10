@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Wyodrębnianie tekstu z obrazu za pomocą prostokątów – przewodnik OCR
@@ -215,15 +217,15 @@ Teraz wiesz, jak **wyodrębniać tekst z obrazu** przygotowując własne prostok
 **Testowano z:** Aspose.OCR 24.11 dla .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Jak wyodrębnić prostokąty dla akapitów w rozpoznawaniu obrazu OCR](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Jak wykonać OCR obrazu – Przeprowadzić OCR na obrazie w rozpoznawaniu obrazu OCR](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Jak wyodrębnić tekst z obrazu przy użyciu Aspose.OCR dla .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

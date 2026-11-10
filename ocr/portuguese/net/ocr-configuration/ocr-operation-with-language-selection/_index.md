@@ -48,7 +48,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrair texto de imagem C# com seleção de idioma usando Aspose.OCR
@@ -186,15 +188,15 @@ Parabéns! Você aprendeu **como extrair texto de imagem C#** com seleção de i
 **Testado com:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriais Relacionados
 
 - [reconhecer texto em imagem com Aspose OCR para vários idiomas](/ocr/net/ocr-settings/working-with-different-languages/)
 - [Extrair Texto de Imagens – Configurações OCR com Aspose.OCR](/ocr/net/ocr-settings/)
 - [Como Extrair Texto de Imagem Usando Aspose.OCR para .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -49,7 +49,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Trích xuất văn bản hình ảnh C# với lựa chọn ngôn ngữ bằng Aspose.OCR
@@ -170,15 +172,15 @@ Chúc mừng! Bạn đã học **how to extract image text C#** với lựa ch�
 **Kiểm tra với:** Aspose.OCR 24.11 cho .NET  
 **Tác giả:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [nhận dạng văn bản hình ảnh với Aspose OCR cho nhiều ngôn ngữ](/ocr/net/ocr-settings/working-with-different-languages/)
 - [Trích xuất văn bản từ hình ảnh – Cài đặt OCR với Aspose.OCR](/ocr/net/ocr-settings/)
 - [Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

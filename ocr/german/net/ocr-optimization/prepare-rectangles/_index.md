@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text aus Bild mit Rechtecken extrahieren – OCR‑Leitfaden
@@ -215,15 +217,15 @@ Sie wissen jetzt, wie Sie **Text aus Bild** extrahieren, indem Sie benutzerdefin
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [Wie man Rechtecke für Absätze in OCR‑Bilderkennung extrahiert](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Wie man ein Bild OCR‑t – OCR auf Bild in OCR‑Bilderkennung durchführen](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Wie man Text aus Bild mit Aspose.OCR für .NET extrahiert](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -71,7 +71,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # फ़ोल्डरों पर OCR ऑपरेशन का उपयोग करके छवियों से टेक्स्ट निकालें
@@ -235,11 +237,9 @@ Console.WriteLine("OCROperationWithFolder executed successfully");
 - [How to Extract Text from ZIP Archives Using Aspose.OCR for .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Extract Text from Images – OCR Settings with Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

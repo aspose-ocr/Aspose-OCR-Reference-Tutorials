@@ -47,7 +47,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Görüntüden Dikdörtgenlerle Metin Çıkarma – OCR Rehberi
@@ -208,15 +210,15 @@ Artık Aspose.OCR for .NET ile özel dikdörtgenler hazırlayarak **görüntüde
 **Test Edilen:** Aspose.OCR 24.11 for .NET  
 **Yazar:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Eğitimler
 
 - [OCR Görüntü Tanımasında Paragraflar İçin Dikdörtgenleri Nasıl Çıkarılır](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [Görüntüyü OCR Yap – OCR Görüntü Tanımasında Görüntü Üzerinde OCR Gerçekleştirme](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Aspose.OCR for .NET Kullanarak Görüntüden Metin Çıkarma](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

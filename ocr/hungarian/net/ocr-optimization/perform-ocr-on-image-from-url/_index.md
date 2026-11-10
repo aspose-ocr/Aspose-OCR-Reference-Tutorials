@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Kép szöveggé konvertálása – OCR végrehajtása URL‑ről származó képen
@@ -213,15 +215,15 @@ Az Aspose.OCR for .NET segítségével a távoli URL‑ről történő convert i
 **Tesztelve ezzel:** Aspose.OCR 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [Hogyan hajtsunk végre képszöveg-kivonást streamből az Aspose OCR használatával](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
 - [Szöveg kinyerése képekből – OCR beállítások az Aspose.OCR-rel](/ocr/net/ocr-settings/)
 - [Hogyan nyerjünk ki szöveget képből téglalapok előkészítésével az OCR-ben](/ocr/net/ocr-optimization/prepare-rectangles/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

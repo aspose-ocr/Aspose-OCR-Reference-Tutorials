@@ -71,7 +71,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Estrai Testo dalle Immagini con Operazione OCR su Cartelle
@@ -235,11 +237,9 @@ A: Visitate il [forum Aspose.OCR](https://forum.aspose.com/c/ocr/16) per il supp
 - [Come estrarre testo da archivi ZIP usando Aspose.OCR per .NET](/ocr/net/ocr-configuration/ocr-operation-with-archive/)
 - [Estrarre testo dalle immagini – Impostazioni OCR con Aspose.OCR](/ocr/net/ocr-settings/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

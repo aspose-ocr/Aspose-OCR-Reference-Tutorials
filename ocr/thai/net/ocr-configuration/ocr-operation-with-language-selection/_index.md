@@ -48,7 +48,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # สกัดข้อความจากภาพ C# ด้วยการเลือกภาษาโดยใช้ Aspose.OCR
@@ -185,15 +187,15 @@ A: เพื่อซื้อ, เยี่ยมชม [purchase page](https:/
 **ทดสอบด้วย:** Aspose.OCR 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทแนะนำที่เกี่ยวข้อง
 
 - [จดจำข้อความจากภาพด้วย Aspose OCR สำหรับหลายภาษา](/ocr/net/ocr-settings/working-with-different-languages/)
 - [สกัดข้อความจากภาพ – การตั้งค่า OCR ด้วย Aspose.OCR](/ocr/net/ocr-settings/)
 - [วิธีสกัดข้อความจากภาพโดยใช้ Aspose.OCR สำหรับ .NET](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

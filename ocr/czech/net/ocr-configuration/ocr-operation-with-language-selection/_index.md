@@ -49,7 +49,9 @@ weight: 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extrahování textu z obrázku v C# s výběrem jazyka pomocí Aspose.OCR
@@ -186,8 +188,6 @@ Gratulujeme! Naučili jste se **jak extrahovat text z obrázku v C#** s výběre
 **Testováno s:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Související tutoriály
 
 - [rozpoznat text z obrázku pomocí Aspose OCR pro více jazyků](/ocr/net/ocr-settings/working-with-different-languages/)
@@ -195,5 +195,8 @@ Gratulujeme! Naučili jste se **jak extrahovat text z obrázku v C#** s výběre
 - [Jak extrahovat text z obrázku pomocí Aspose.OCR pro .NET](/ocr/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

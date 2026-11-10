@@ -70,7 +70,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # แปลงรูปภาพเป็นข้อความ – ทำ OCR บนรูปภาพจาก URL
@@ -212,8 +214,6 @@ A: เยี่ยมชม [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16
 **ทดสอบด้วย:** Aspose.OCR 24.11 for .NET  
 **ผู้เขียน:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## บทเรียนที่เกี่ยวข้อง
 
 - [วิธีการสกัดข้อความจากรูปภาพจากสตรีมโดยใช้ Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -221,5 +221,8 @@ A: เยี่ยมชม [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16
 - [วิธีสกัดข้อความจากรูปภาพโดยการเตรียมสี่เหลี่ยมใน OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

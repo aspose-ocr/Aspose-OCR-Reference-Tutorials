@@ -45,7 +45,9 @@ weight: 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 사각형을 사용한 이미지 텍스트 추출 – OCR 가이드
@@ -208,15 +210,15 @@ foreach (string s in result.RecognitionAreasText)
 **테스트 환경:** Aspose.OCR 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [OCR 이미지 인식에서 단락을 위한 사각형 추출 방법](/ocr/net/image-and-drawing-recognition/get-rectangles-for-paragraphs/)
 - [OCR 이미지 수행 – OCR 이미지 인식에서 이미지에 OCR 수행](/ocr/net/image-and-drawing-recognition/perform-ocr-on-image/)
 - [Aspose.OCR for .NET을 사용해 이미지에서 텍스트 추출하는 방법](/ocr/net/text-recognition/get-recognition-result/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

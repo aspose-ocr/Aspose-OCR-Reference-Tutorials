@@ -72,7 +72,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hromadné získávání textu z obrázků pomocí Aspose.OCR pro .NET
@@ -214,11 +216,9 @@ Gratulujeme! Úspěšně jste se naučili **hromadně OCR obrázky** pomocí sez
 - [Extrahovat text z obrázků — OCR nastavení s Aspose.OCR](/ocr/net/ocr-settings/)
 - [Jak používat AspOCR: Předzpracování filtrů OCR obrázku pro .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

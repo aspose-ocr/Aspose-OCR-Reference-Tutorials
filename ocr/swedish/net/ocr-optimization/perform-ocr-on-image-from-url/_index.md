@@ -71,7 +71,9 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Konvertera bild till text – Utför OCR på bild från URL
@@ -213,8 +215,6 @@ Med Aspose.OCR för .NET är det enkelt och mycket anpassningsbart att konverter
 **Testat med:** Aspose.OCR 24.11 för .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Hur man utför bildtextutvinning från ström med Aspose OCR](/ocr/net/image-and-drawing-recognition/recognize-image-from-stream/)
@@ -222,5 +222,8 @@ Med Aspose.OCR för .NET är det enkelt och mycket anpassningsbart att konverter
 - [Hur man extraherar text från bild genom att förbereda rektanglar i OCR](/ocr/net/ocr-optimization/prepare-rectangles/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

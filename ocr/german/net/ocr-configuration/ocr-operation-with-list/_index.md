@@ -73,7 +73,9 @@ weight: 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Text stapelweise aus Bildern extrahieren mit Aspose.OCR für .NET
@@ -215,11 +217,9 @@ Herzlichen Glückwunsch! Sie haben erfolgreich gelernt, **wie man Bilder stapelw
 - [Text aus Bildern extrahieren – OCR‑Einstellungen mit Aspose.OCR](/ocr/net/ocr-settings/)
 - [Wie man AspOCR verwendet: Bild‑OCR‑Filter vorverarbeiten für .NET](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
