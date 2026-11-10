@@ -35,7 +35,9 @@ url: /net/text-recognition/how-to-recognize-text-from-image-with-aspose-ocr-in-c
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Recognize text from image with Aspose.OCR – complete C# tutorial
@@ -207,7 +209,8 @@ The following tutorials cover closely related topics that build on the technique
 - [ocr preprocessing pipeline – How to Recognize Text from Image in C#]({{< relref "/ocr/english/net/ocr-optimization/ocr-preprocessing-pipeline-how-to-recognize-text-from-image/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
