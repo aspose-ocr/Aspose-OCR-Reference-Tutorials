@@ -65,6 +65,44 @@ Aspose OCR का उपयोग करके PNG इमेज से Cyrillic 
 C# में Aspose.OCR का उपयोग करके GPU डिवाइस कॉन्फ़िगर करके तेज़ OCR प्रोसेसिंग कैसे सेट करें, इसका पूरा मार्गदर्शन।
 ### [C# में इमेज से टेक्स्ट पहचानें – Aspose OCR के साथ कन्नड़ कैसे पहचानें](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Aspose OCR का उपयोग करके C# में कन्नड़ भाषा की इमेज से टेक्स्ट निकालने की प्रक्रिया सीखें।
+### [Aspose OCR AI के साथ स्पेल चेक प्रोसेसर बनाएं – पूर्ण गाइड](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aspose OCR AI का उपयोग करके स्पेल चेक प्रोसेसर बनाने की पूरी प्रक्रिया सीखें, सेटअप, कॉन्फ़िगरेशन और कोड उदाहरण सहित।
+### [Aspose OCR में लाइसेंस फ्लैग जांचें – लाइसेंस सत्यापन के लिए त्वरित गाइड](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Aspose OCR लाइसेंस की स्थिति कैसे जांचें और वैधता सुनिश्चित करें।
+### [C# में OCR के लिए GPU सक्षम करने का तरीका – चरण‑दर‑चरण गाइड](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+C# एप्लिकेशन में Aspose.OCR के साथ GPU का उपयोग करके तेज़ OCR प्रोसेसिंग कैसे सेट करें, सीखें।
+### [रूसी के लिए OCR भाषा पैक कैसे डाउनलोड करें – पूर्ण गाइड](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+रूसी OCR भाषा पैक डाउनलोड करने और सेट करने की पूरी प्रक्रिया सीखें।
+### [C# में OCR को कैसे निष्क्रिय करें – ऑफ़लाइन Aspose OCR गाइड](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Aspose OCR को ऑफ़लाइन मोड में C# एप्लिकेशन से निष्क्रिय करने की चरण‑दर‑चरण प्रक्रिया सीखें।
+### [C# में इमेज लोड करना – पूर्ण Aspose OCR और स्पेल‑चेक गाइड](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+C# में इमेज लोड करके OCR और स्पेल‑चेक कैसे करें, इसका पूरा मार्गदर्शन।
+### [C# में OCR इंजन बनाएं – पूर्ण गाइड](./create-ocr-engine-in-c-complete-guide/)
+C# में Aspose.OCR का उपयोग करके OCR इंजन सेटअप और कॉन्फ़िगर करने की पूरी प्रक्रिया सीखें।
+### [Aspose OCR के साथ GPU मेमोरी सीमा सेट करें – C# GPU गाइड](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Aspose OCR में GPU मेमोरी सीमा कैसे सेट करें, C# कोड के साथ विस्तृत गाइड।
+### [Aspose OCR GPU के साथ इमेज से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Aspose OCR GPU का उपयोग करके इमेज से तेज़ी से टेक्स्ट निकालने के लिए पूर्ण C# कोड उदाहरण और चरण‑बद्ध मार्गदर्शन।
+### [Aspose OCR में लाइसेंस सेट करने का तरीका – पूर्ण C# गाइड](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR के लिए लाइसेंस सेट करने के चरण‑बद्ध निर्देश और पूर्ण C# कोड उदाहरण।
+### [C# में OCR कैसे करें – बहु‑भाषा गाइड](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR का उपयोग करके C# में कई भाषाओं के साथ इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
+### [इमेज से टेक्स्ट C# – Aspose OCR (डाउनलोड अक्षम)](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aspose OCR का उपयोग करके C# में इमेज को टेक्स्ट में बदलें, जबकि डाउनलोड फ़ीचर को निष्क्रिय रखें।
+### [C# में Aspose OCR संस्करण प्राप्त करें – पूर्ण गाइड](./get-aspose-ocr-version-in-c-complete-guide/)
+C# में Aspose OCR का संस्करण प्राप्त करने की पूरी गाइड, कोड उदाहरण और उपयोग के टिप्स।
+### [C# में OcrEngine का उपयोग कैसे करें – पूर्ण OCR गाइड](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+C# में OcrEngine का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
+### [इमेज से सर्चेबल PDF बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+इमेज को PDF में बदलें और OCR के साथ सर्चेबल बनाएं। Aspose.PDF और OCR का उपयोग करके पूरा चरण‑दर‑चरण प्रक्रिया सीखें।
+### [C# में इमेज से भाषा पहचानें – पूर्ण प्रोग्रामिंग गाइड](./detect-language-from-image-in-c-complete-programming-guide/)
+Aspose.OCR का उपयोग करके C# में इमेज से भाषा का पता लगाएं और परिणाम प्राप्त करें।
+### [OcrEngineConfig का उपयोग कैसे करें – C# में OCR इंजन कॉन्फ़िगरेशन](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Aspose.OCR में OcrEngineConfig सेट करके OCR इंजन को कस्टमाइज़ करें और C# में टेक्स्ट एक्सट्रैक्शन को नियंत्रित करें।
+### [Aspose.OCR के साथ OCR कैसे करें – पूर्ण C# गाइड](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR का उपयोग करके C# में पूर्ण OCR प्रक्रिया को चरण‑बद्ध तरीके से सीखें।
+### [AsposeAI मॉडल कॉन्फ़िग बनाना – चरण‑दर‑चरण गाइड](./create-asposeai-model-config-step-by-step-guide/)
+AsposeAI मॉडल कॉन्फ़िगरेशन को आसानी से सेट करने के लिए विस्तृत चरण‑दर‑चरण गाइड।
 
 ### कॉमन यूज़ केस
 - **टेक्स्ट इमेज निकालें** स्कैन किए गए इनवॉइस से टेक्स्ट निकालें ताकि ऑटोमेटेड अकाउंटिंग हो सके।

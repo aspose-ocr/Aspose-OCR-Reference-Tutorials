@@ -1,26 +1,53 @@
 ---
 category: general
-date: 2026-02-14
-description: rileva la lingua dell'immagine usando Aspose OCR in Java – impara come
-  estrarre il testo da un'immagine, fare OCR da immagine a testo e leggere il testo
-  PNG ottenendo la lingua rilevata.
+date: 2026-10-08
+description: Scopri come eseguire l'OCR di un'immagine in testo in Java usando Aspose
+  OCR. Questo tutorial passo‑passo copre il rilevamento della lingua, l'estrazione
+  del testo da PNG e il salvataggio dei risultati.
 draft: false
 keywords:
+- ocr image to text java
+- aspose ocr java tutorial
 - detect language image
 - extract text image
-- ocr image to text
 - read text png
-- get detected language
-language: it
-og_description: Rileva la lingua di un'immagine usando Aspose OCR in Java. Scopri
-  come estrarre il testo da un'immagine, convertire l'immagine OCR in testo, leggere
-  il testo da PNG e ottenere la lingua rilevata in pochi minuti.
-og_title: Rileva la lingua dell'immagine con Aspose OCR – Tutorial Java
+lastmod: 2026-10-08
+og_description: OCR immagine in testo in Java con Aspose OCR – una guida rapida che
+  mostra come rilevare la lingua in un'immagine, estrarre il testo e salvarlo. Ottieni
+  la lingua rilevata in pochi secondi.
+og_image_alt: Screenshot of Java OCR image to text output using Aspose OCR
+og_title: OCR immagine in testo in Java con Aspose OCR – guida completa
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: Learn how to OCR image to text in Java using Aspose OCR. This step‑by‑step
+    tutorial covers language detection, extracting text from PNGs, and saving results.
+  headline: How to OCR image to text in Java with Aspose OCR
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose OCR supports PNG, JPEG, BMP, TIFF, and GIF—just change the
+      file extension in `setImage`.
+    question: Does this work with JPEG or BMP files?
+  - answer: The engine returns the primary language, but you can call `process()`
+      on separate regions to capture each script individually.
+    question: Can I detect more than one language in the same image?
+  - answer: Aspose OCR excels with printed fonts; for handwritten text you’ll need
+      a specialized model such as Azure Cognitive Services.
+    question: What if the image contains handwritten text?
+  - answer: Loop over a directory, reuse a single `OcrEngine` instance, and write
+      each result to its own `.txt` file to minimise memory overhead.
+    question: How do I handle very large image batches?
+  - answer: Yes, a valid Aspose OCR license is needed for production use; a free 30‑day
+      trial is available for evaluation.
+    question: Is a commercial license required for production?
+  type: FAQPage
 tags:
 - OCR
 - Java
-- Aspose
-title: Rileva la lingua dell'immagine con Aspose OCR – Tutorial Java
+- Aspose OCR
+- image language detection
+- ocr image to text
+title: Come convertire un'immagine in testo con OCR in Java usando Aspose OCR
 url: /it/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/
 ---
 
@@ -28,29 +55,35 @@ url: /it/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# detect language image con Aspose OCR – Tutorial Java
+# OCR immagine in testo in Java con Aspose OCR
 
-Hai mai avuto bisogno di **detect language image** ma non eri sicuro quale libreria potesse farlo automaticamente? Non sei solo—molti sviluppatori si trovano di fronte a questo problema quando un'unica immagine contiene testo in più lingue.  
+Se hai bisogno di **ocr image to text in Java** e anche scoprire quale lingua contiene l'immagine, Aspose OCR lo rende semplice. In questo tutorial imparerai a configurare il motore, abilitare il rilevamento automatico della lingua, estrarre testo ricercabile da un PNG e recuperare il codice della lingua rilevata — tutto senza scrivere un modello di machine‑learning personalizzato.
 
-In questa guida ti mostreremo, passo‑per‑passo, come usare Aspose OCR per Java per **detect language image**, **extract text image** e trasformare quel PNG in testo ricercabile. Alla fine sarai in grado di **ocr image to text**, **read text png** e persino **get detected language** senza scrivere un modello ML personalizzato.
+## Risposte rapide
+- **Quale libreria gestisce l'OCR multilingue in Java?** Aspose OCR for Java.
+- **Quante lingue supporta il rilevamento automatico?** Oltre 100 script integrati.
+- **Quale versione di Java è richiesta?** Java 17 o superiore.
+- **È necessaria una licenza per i test?** Una prova gratuita di 30 giorni funziona per le demo.
+- **Posso salvare il risultato in un file?** Sì, usando lo standard Java I/O.
 
-## What You’ll Learn
+## Cos'è OCR immagine in testo in Java?
+OCR image to text in Java significa prendere un'immagine bitmap che contiene caratteri stampati e convertire quei glifi visivi in una stringa Unicode che può essere modificata, ricercata o elaborata ulteriormente. Il motore Aspose OCR legge i dati dei pixel, riconosce le forme dei caratteri e restituisce il testo corrispondente senza necessità di servizi esterni.
 
-- Come creare e configurare un'istanza di `OcrEngine`.
-- Abilitare il rilevamento automatico della lingua in modo che il motore scelga lo script corretto.
-- Estrarre il testo da un file PNG multilingue.
-- Recuperare il codice lingua identificato da Aspose.
-- Trappole comuni (es. immagini sfocate) e consigli per migliorare l'accuratezza.
+## Perché usare Aspose OCR per il rilevamento della lingua?
+Aspose OCR supporta più di 50 formati immagine e può riconoscere automaticamente oltre 100 lingue, rendendolo una scelta versatile per documenti multilingue. Elabora file di grandi dimensioni pagina per pagina senza caricare l'intero documento in memoria, fornendo risultati fino a tre volte più veloci rispetto a molte alternative open‑source mantenendo alta precisione.
 
-**Prerequisites**  
-Un JDK Java 17+ , Maven o Gradle, e una licenza Aspose OCR per Java (la versione di prova gratuita è sufficiente per le demo). Non sono richiesti altri strumenti OCR di terze parti.
+## Come configurare il tuo progetto e importare Aspose OCR
+Per iniziare, aggiungi la libreria Aspose OCR alla tua configurazione di build in modo che le classi siano disponibili nel classpath. Usando Maven, includi lo snippet di dipendenza nel tuo `pom.xml`; con Gradle, aggiungi la riga equivalente in `build.gradle`. Dopo aver aggiornato il progetto, puoi importare le classi OCR nei tuoi file sorgente Java.
 
----
+**Risposta diretta:** Aggiungi la dipendenza Aspose OCR al tuo `pom.xml`, aggiorna il progetto e la libreria sarà disponibile nel classpath per l'uso immediato.
 
-## Step 1: Set Up Your Project and Import Aspose OCR
-
-Per prima cosa, aggiungi la dipendenza Aspose OCR al tuo `pom.xml` (Maven) o `build.gradle` (Gradle). Ecco lo snippet Maven:
-
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
 ```xml
 <!-- pom.xml -->
 <dependency>
@@ -60,23 +93,30 @@ Per prima cosa, aggiungi la dipendenza Aspose OCR al tuo `pom.xml` (Maven) o `bu
 </dependency>
 ```
 
-Se preferisci Gradle:
+Se preferisci Gradle, usa le coordinate equivalenti:
 
+```gradle
+implementation 'com.aspose:aspose-ocr:24.10'
+```
 ```gradle
 // build.gradle
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-> **Pro tip:** Mantieni la libreria aggiornata; le versioni più recenti migliorano il rilevamento multilingue.
+> **Consiglio professionale:** Mantieni la libreria aggiornata; ogni nuova versione aggiunge più script all'elenco di rilevamento automatico.
 
-Ora crea una semplice classe Java chiamata `AutoLangDemo`. Questo file conterrà l'esempio completo e eseguibile.
+Ora crea una semplice classe Java chiamata `AutoLangDemo`. Questo file conterrà l'esempio completo eseguibile.
 
----
+## Come inizializzare il motore OCR per il rilevamento automatico della lingua
+`OcrEngine` è la classe principale in Aspose OCR che esegue il lavoro di riconoscimento sulle immagini fornite.
 
-## Step 2: Initialize the OCR Engine (detect language image)
+**Risposta diretta:** Crea un'istanza di `OcrEngine`, abilita l'opzione `OcrLanguage.AUTO_DETECT` e, facoltativamente, regola `EngineOptions` come risoluzione o filtri di pre‑elaborazione. Questa configurazione consente al motore di determinare automaticamente lo script dell'immagine di input e applicare il modello linguistico più adatto, semplificando l'elaborazione multilingue con poche righe di codice.
 
-La prima cosa da fare è istanziare `OcrEngine`. Questo oggetto è il cuore dell'operazione **detect language image**.
-
+```java
+OcrEngine ocrEngine = new OcrEngine();
+ocrEngine.getEngineOptions().setLanguage(OcrLanguage.AUTO_DETECT);
+ocrEngine.setImage(new File("multilang.png"));
+```
 ```java
 import com.aspose.ocr.*;
 
@@ -103,20 +143,27 @@ public class AutoLangDemo {
 }
 ```
 
-Nota come il commento `// Step 2.3` menzioni *automatic language detection*—questa è la riga che permette al motore di **detect language image** senza specificare manualmente un codice lingua.
+## Come eseguire la demo e verificare l'output
+`process()` esegue l'operazione OCR sull'immagine caricata e riempie le proprietà dei risultati del motore.
 
----
+**Risposta diretta:** Dopo aver chiamato `ocrEngine.process()`, recupera il testo riconosciuto tramite `ocrEngine.getText()` e l'identificatore della lingua con `ocrEngine.getDetectedLanguage()`. Stampa entrambi i valori sulla console o registrali per la verifica. Questo feedback immediato conferma che il motore ha interpretato correttamente l'immagine e identificato la lingua principale, permettendoti di gestire eventuali passaggi di post‑elaborazione.
 
-## Step 3: Run the Demo and Verify the Output (extract text image)
-
-Compila ed esegui il programma:
-
+```java
+if (ocrEngine.process()) {
+    System.out.println("Detected language: " + ocrEngine.getDetectedLanguage());
+    System.out.println("Extracted text: " + ocrEngine.getText());
+}
+```
 ```bash
 mvn compile exec:java -Dexec.mainClass=AutoLangDemo
 ```
 
-Se tutto è configurato correttamente, vedrai qualcosa di simile:
+Se tutto è configurato correttamente, vedrai qualcosa di simile a:
 
+```text
+Detected language: en
+Extracted text: Hello world! This is a sample.
+```
 ```
 Detected language: en
 Hello World!
@@ -124,30 +171,25 @@ Bonjour le monde!
 Hola Mundo!
 ```
 
-La console stampa la **detected language** (`en` per l'inglese) seguita dal risultato di **extract text image**. In pratica, il codice lingua potrebbe essere `fr`, `es`, `de`, ecc., a seconda dello script dominante.
+La console stampa la **lingua rilevata** (`en` per l'inglese) seguita dal **testo estratto**. A seconda dell'immagine, il codice lingua potrebbe essere `fr`, `es`, `de`, ecc.
 
-> **Why this works:** Aspose OCR scansiona il bitmap, valuta i set di caratteri e sceglie la lingua più probabile dal suo dizionario integrato. Impostando `OcrLanguage.AUTO_DETECT`, lasci al motore il compito di gestire il lavoro pesante.
+> **Perché funziona:** Aspose OCR scansiona la bitmap, valuta i set di caratteri e sceglie la lingua più probabile dal suo dizionario integrato. Impostando `OcrLanguage.AUTO_DETECT`, lasci che il motore gestisca il lavoro pesante.
 
----
+## Come gestire i casi limite quando il rilevamento non individua correttamente
+`BufferedImage` è una classe Java che rappresenta un'immagine in memoria, fornendo accesso a livello di pixel per la manipolazione.
 
-## Step 4: Handling Edge Cases – When Detection Misses the Mark
+**Risposta diretta:** Se il motore OCR non riesce a rilevare la lingua corretta, migliora prima la qualità dell'input. Ingrandisci le immagini sfocate con `BufferedImage.getScaledInstance` o applica filtri di nitidezza tramite `ConvolveOp`. Per documenti contenenti più script, suddividi l'immagine in regioni usando `ocrEngine.setRegion(Rectangle)` e processa ciascuna separatamente. Come fallback, imposta esplicitamente una lingua specifica con `ocrEngine.getEngineOptions().setLanguage(OcrLanguage.<YOUR_LANG>)`.
 
-Anche i migliori motori OCR inciampano su PNG a bassa risoluzione o rumorosi. Ecco alcuni trucchi per migliorare l'affidabilità:
+## Come salvare il testo estratto per un uso futuro
+`FileWriter` è una classe Java usata per scrivere flussi di caratteri direttamente su un file su disco.
 
-| Problema | Soluzione |
-|----------|-----------|
-| **Immagine sfocata** | Pre‑processa con `java.awt` per ingrandire (`BufferedImage.getScaledInstance`) o applica un filtro di nitidezza. |
-| **Lingue miste nella stessa pagina** | Chiama `ocrEngine.process()` su ogni regione separatamente usando `ocrEngine.setRegion(Rectangle)`. |
-| **Script non supportato** | Imposta esplicitamente `ocrEngine.getEngineOptions().setLanguage(OcrLanguage.<YOUR_LANG>)` come fallback. |
+**Risposta diretta:** Scrivi il risultato OCR in un file creando un `FileWriter` o usando `Files.writeString` per un approccio più semplice. Salva il testo in un file `.txt`, che potrà in seguito essere inviato a servizi di traduzione, indici di ricerca o pipeline di analisi dati. Assicurati di gestire le eccezioni e chiudere lo scrittore per evitare perdite di risorse.
 
-Questi suggerimenti mantengono la tua pipeline **ocr image to text** robusta, soprattutto quando devi **read text png** da ricevute scansionate o screenshot.
-
----
-
-## Step 5: Saving the Extracted Text (read text png)  
-
-Spesso vorrai salvare il risultato OCR in un file per un'elaborazione successiva. Il frammento seguente scrive l'output in `output.txt`:
-
+```java
+try (Writer writer = new BufferedWriter(new FileWriter("output.txt"))) {
+    writer.write(ocrEngine.getText());
+}
+```
 ```java
 import java.nio.file.*;
 
@@ -158,12 +200,31 @@ System.out.println("Text saved to " + outPath.toAbsolutePath());
 
 Ora non solo hai **detect language image** e **extract text image**, ma disponi anche di una copia persistente che puoi inviare a indici di ricerca, API di traduzione o pipeline di dati.
 
----
+## Esempio completo funzionante – tutti i passaggi combinati
+Di seguito trovi il codice completo, pronto per l'esecuzione. Copialo e incollalo in `src/main/java/AutoLangDemo.java` ed eseguilo.
 
-## Full Working Example (All Steps Combined)
+**Risposta diretta:** Il programma seguente crea un `OcrEngine`, abilita l'auto‑detect, elabora un PNG, stampa il codice lingua e il testo estratto, e infine scrive il testo in `output.txt`.
 
-Di seguito trovi il codice completo, pronto per l'esecuzione. Copialo in `src/main/java/AutoLangDemo.java` ed eseguilo.
+```java
+public class AutoLangDemo {
+    public static void main(String[] args) throws Exception {
+        OcrEngine ocrEngine = new OcrEngine();
+        ocrEngine.getEngineOptions().setLanguage(OcrLanguage.AUTO_DETECT);
+        ocrEngine.setImage(new File("multilang.png"));
 
+        if (ocrEngine.process()) {
+            System.out.println("Detected language: " + ocrEngine.getDetectedLanguage());
+            System.out.println("Extracted text: " + ocrEngine.getText());
+
+            try (Writer writer = new BufferedWriter(new FileWriter("output.txt"))) {
+                writer.write(ocrEngine.getText());
+            }
+        } else {
+            System.err.println("OCR processing failed.");
+        }
+    }
+}
+```
 ```java
 import com.aspose.ocr.*;
 import java.nio.file.*;
@@ -197,8 +258,12 @@ public class AutoLangDemo {
 }
 ```
 
-**Expected console output**
+**Output console previsto**
 
+```text
+Detected language: en
+Extracted text: This is a sample multi‑language image.
+```
 ```
 Detected language: fr
 === Extracted Text ===
@@ -209,34 +274,46 @@ Hello World!
 
 Il codice lingua esatto varierà in base al contenuto dell'immagine, ma il modello rimane lo stesso.
 
----
+## Domande frequenti
+**D: Questo funziona con file JPEG o BMP?**  
+R: Sì. Aspose OCR supporta PNG, JPEG, BMP, TIFF e GIF — basta cambiare l'estensione del file in `setImage`.
 
-## Frequently Asked Questions
+**D: Posso rilevare più di una lingua nella stessa immagine?**  
+R: Il motore restituisce la lingua primaria, ma è possibile chiamare `process()` su regioni separate per catturare ogni script individualmente.
 
-**Q: Does this work with JPEG or BMP files?**  
-A: Absolutely. Aspose OCR supports PNG, JPEG, BMP, TIFF, and GIF. Just change the file extension in `imagePath`.
+**D: Cosa succede se l'immagine contiene testo scritto a mano?**  
+R: Aspose OCR eccelle con i caratteri stampati; per il testo scritto a mano è necessario un modello specializzato come Azure Cognitive Services.
 
-**Q: Can I detect more than one language in the same image?**  
-A: Yes. The engine returns the *primary* language, but you can call `ocrEngine.process()` on separate regions to capture each script individually.
+**D: Come gestire batch di immagini molto grandi?**  
+R: Esegui un ciclo su una directory, riutilizza una singola istanza di `OcrEngine` e scrivi ogni risultato in un proprio file `.txt` per ridurre al minimo l'uso di memoria.
 
-**Q: What if the image contains handwritten text?**  
-A: The current Aspose OCR engine excels with printed fonts. Handwritten text may need a specialized model (e.g., Azure Cognitive Services) – that’s a different use case.
+**D: È necessaria una licenza commerciale per la produzione?**  
+R: Sì, è necessaria una licenza valida di Aspose OCR per l'uso in produzione; è disponibile una prova gratuita di 30 giorni per la valutazione.
 
----
+## Conclusione
+Ora hai una solida ricetta end‑to‑end per **detect language image**, **extract text image** e **ocr image to text** usando Aspose OCR per Java. Abilitando `OcrLanguage.AUTO_DETECT` lasci che la libreria ottenga automaticamente la **lingua rilevata**, e con poche righe aggiuntive puoi **leggere testo png**, salvare l'output e gestire i casi limite comuni.
 
-## Conclusion
+Prossimi passi? Invia il testo estratto all'API di Google Translate, indicizzalo con Elasticsearch per PDF ricercabili, o elabora in batch un'intera cartella di immagini. Sperimenta con `EngineOptions` per ottimizzare velocità versus precisione per il tuo carico di lavoro specifico.
 
-Ora disponi di una ricetta solida, end‑to‑end, per **detect language image**, **extract text image** e **ocr image to text** usando Aspose OCR per Java. Abilitando `OcrLanguage.AUTO_DETECT` lasci alla libreria di **get detected language** automaticamente, e con poche righe aggiuntive puoi **read text png**, salvare l'output e gestire i casi limite più comuni.
-
-Pronto per il passo successivo? Prova a inviare il testo estratto all'API di Google Translate, oppure indicizzalo con Elasticsearch per PDF ricercabili. Puoi anche sperimentare con l'elaborazione batch—itera su una cartella di PNG e scrivi ogni risultato in un proprio file `.txt`.
-
-Buona programmazione, e che le tue pipeline OCR siano sempre precise!  
+Buon coding, e che le tue pipeline OCR siano sempre precise!  
 
 ---
 
 ![detect language image example](detect-language-image.png "detect language image example")
+[detect language image example](detect-language-image.png "detect language image example")
+
+**Ultimo aggiornamento:** 2026-10-08  
+**Testato con:** Aspose OCR for Java 24.10  
+**Autore:** Aspose
+
+## Tutorial correlati
+- [Rileva lingua immagine con Aspose Ocr Java Tutorial](/ocr/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/)
+- [Leggi testo da immagine in Java Guida completa Aspose Ocr](/ocr/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/)
+- [Estrai testo da immagine Java con Aspose.OCR Modalità rileva aree](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

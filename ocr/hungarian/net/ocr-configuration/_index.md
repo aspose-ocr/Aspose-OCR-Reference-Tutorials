@@ -48,7 +48,7 @@ Merüljön el az OCR világában az Aspose.OCR-rel, és fedezze fel, hogyan lehe
 Szabadítsa fel az OCR képfelismerés erejét .NET-ben az Aspose.OCR-rel. Ez az oktatóanyag megadja a tudást, hogy könnyedén szöveget nyerjen ki a mappákban tárolt képekből. Növelje az adatkinyerés hatékonyságát és egyszerűsítse alkalmazása OCR képességeit.
 
 ## OCROperation nyelvválasztással az OCR képfelismerésben
-Emelje OCR képességeit új szintre az **ocr language selection** (OCR nyelvválasztás) elsajátításával az Aspose.OCR for .NET-ben. Ez az oktatóanyag végigvezeti a folyamaton, hogy zökkenőmentesen szöveget nyerjen ki különböző nyelveken írt képekből. Erősítse alkalmazását többnyelvű OCR képességekkel.
+Emelje OCR képesseit új szintre az **ocr language selection** (OCR nyelvválasztás) elsajátításával az Aspose.OCR for .NET-ben. Ez az oktatóanyag végigvezeti a folyamaton, hogy zökkenőmentesen szöveget nyerjen ki különböző nyelveken írt képekből. Erősítse alkalmazását többnyelvű OCR képességekkel.
 
 ## OCROperation listával az OCR képfelismerésben
 Fedezze fel az Aspose.OCR for .NET hatalmas lehetőségeit, miközben könnyedén végez OCR képfelismerést listákkal. Ez az oktatóanyag nemcsak a szövegkinyerést javítja, hanem a változatos adatkészletek kezelésében is növeli a termelékenységet. Ismerje meg az OCR hatékonyságát listaműveletekkel.
@@ -120,6 +120,45 @@ Tanulja meg, hogyan nyerjen ki cirill karaktereket PNG képekből az Aspose OCR 
 Ismerje meg, hogyan állíthatja be a GPU-t az OCR felgyorsításához C#-ban az Aspose.OCR használatával.
 ### [Szöveg felismerése képről C#-ban – hogyan ismerjük fel a kannada nyelvet az Aspose OCR-rel](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t kannada nyelvű szövegek felismerésére C# alkalmazásokban.  
+### [Spell Check processzor létrehozása az Aspose OCR AI-val – Teljes útmutató](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Ismerje meg, hogyan hozhat létre helyesírás-ellenőrző processzort az Aspose OCR AI segítségével .NET-ben.  
+### [Licencjelző ellenőrzése az Aspose OCR-ben – Gyors útmutató a licenc ellenőrzéséhez](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Ismerje meg, hogyan ellenőrizheti a licenc állapotát az Aspose OCR használatakor, hogy biztosítsa a megfelelő működést.  
+### [Hogyan engedélyezzük a GPU-t az OCR-hez C#‑ban – Lépésről‑lépésre útmutató](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Fedezze fel, hogyan aktiválhatja a GPU-t az OCR-hez C#‑ban a teljesítmény fokozásához.  
+### [Hogyan töltsük le az OCR nyelvi csomagot orosz nyelvhez – Teljes útmutató](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Lépésről‑lépésre bemutatja, hogyan telepíthető és használható az orosz nyelvi csomag az Aspose.OCR‑ban.  
+### [Hogyan tiltsuk le az OCR-t C#-ban – Offline Aspose OCR útmutató](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Ismerje meg, hogyan kapcsolhatja ki az OCR funkciót C# alkalmazásban offline környezetben az Aspose OCR használatával.  
+### [Kép betöltése OCR-hez C#-ban – Teljes Aspose OCR és helyesírás-ellenőrző útmutató](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Ismerje meg, hogyan töltsön be képet C#-ban, és alkalmazzon teljes körű OCR- és helyesírás-ellenőrző funkciókat az Aspose OCR segítségével.  
+### [OCR motor létrehozása C#‑ban – Teljes útmutató](./create-ocr-engine-in-c-complete-guide/)
+Ismerje meg, hogyan hozhat létre saját OCR motort C#‑ban az Aspose.OCR segítségével, lépésről lépésre.  
+### [GPU memória korlát beállítása az Aspose OCR‑val – C# GPU útmutató](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Tanulja meg, hogyan állíthatja be a GPU memória korlátot az Aspose OCR használatával C#‑ban.  
+### [Kép szövegének kinyerése Aspose OCR GPU-val – Teljes C# útmutató](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Ismerje meg, hogyan használhatja az Aspose OCR GPU-t C#-ban képek szövegének gyors kinyerésére.  
+### [Hogyan állítsuk be a licencet az Aspose OCR-ban – Teljes C# útmutató](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Ismerje meg, hogyan konfigurálja a licencet az Aspose OCR könyvtárban C#-ban a zökkenőmentes használathoz.  
+### [Hogyan végezzünk OCR-t C#‑ban – Többnyelvű útmutató](./how-to-perform-ocr-in-c-multi-language-guide/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#‑ban több nyelv felismerésére, lépésről lépésre útmutatóval.  
+### [kép szöveggé C# – Aspose OCR letöltés letiltásával](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Bemutatja, hogyan használja az Aspose OCR-t C#-ban a letöltés letiltásával a képek szöveggé alakításához.  
+### [Az Aspose OCR verzió lekérése C#‑ban – Teljes útmutató](./get-aspose-ocr-version-in-c-complete-guide/)
+Ismerje meg, hogyan kérheti le az Aspose OCR könyvtár verziószámát C#‑ban, egyszerű kóddal.  
+### [Hogyan használjuk az OcrEngine-t C#‑ban – Teljes OCR útmutató](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Ismerje meg az OcrEngine osztály teljes használatát C#‑ban, a beállításoktól a szövegkinyerésig.  
+
+### [Kereshető PDF létrehozása képből – Teljes lépésről‑lépésre útmutató](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Ismerje meg, hogyan alakíthatja a képet kereshető PDF-dokumentummá az Aspose.OCR és Aspose.PDF segítségével.  
+### [Kép nyelvének felismerése C#‑ban – Teljes programozási útmutató](./detect-language-from-image-in-c-complete-programming-guide/)
+Ismerje meg, hogyan lehet képről nyelvet felismerni C#‑ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.  
+### [Hogyan használjuk az OcrEngineConfig‑t – OCR motor konfiguráció C#‑ban](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Ismerje meg, hogyan állíthatja be az OCR motor konfigurációját C#‑ban az Aspose.OCR segítségével.  
+### [Hogyan hajtsunk végre OCR-t az Aspose.OCR-rel – Teljes C# útmutató](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Lépésről lépésre bemutatja, hogyan használja az Aspose.OCR-t C#-ban a teljes körű OCR feldolgozáshoz.  
+### [AsposeAI modell konfiguráció létrehozása – lépésről‑lépésre útmutató](./create-asposeai-model-config-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre és konfigurálhat AsposeAI modellt .NET környezetben lépésről‑lépésre.  
 
 
 

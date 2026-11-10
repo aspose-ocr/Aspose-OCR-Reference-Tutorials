@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Känn igen PDF-text med Aspose.OCR för Java
@@ -77,7 +79,14 @@ Lås upp kraften i textutvinning från bilder med Aspose.OCR för Java. En omfat
 Lås upp exakt textutvinning från bilder med Aspose.OCR för Java. Följ vår steg‑för‑steg‑guide för exakt OCR med språkval.
 ### [OCR‑igenkänning av PDF‑dokument i Aspose.OCR för Java](./recognize-pdf/)
 Lås upp kraften i OCR i Java med Aspose.OCR. Känn igen text i PDF‑dokument enkelt. Förbättra dina applikationer med precision och hastighet.
+### [Skapa sökbar PDF med Aspose.OCR – Java‑guide](./create-searchable-pdf-with-aspose-ocr-java-guide/)
+Lär dig hur du skapar en sökbar PDF med Aspose.OCR i Java, inklusive OCR‑inställningar och export av resultatet.
+### [Skapa sökbar PDF med Aspose OCR i Java – Komplett guide](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+En komplett guide som visar hur du med Aspose OCR för Java skapar sökbara PDF‑filer med OCR‑processen.
 ### [OCR‑igenkänning av TIFF‑bilder i Aspose.OCR för Java](./recognize-tiff/)
+### [Känna igen PDF‑text med Aspose OCR i Java – Komplett guide](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)
+En komplett guide som visar hur du använder Aspose OCR för att känna igen PDF‑text i Java.
+### [OCR‑igenkänning av TIFF‑bilder i Aspose.OCR för Java](./recognize-tff/)
 Lås upp kraftfull textigenkänning i Java med Aspose.OCR. Känn igen text i TIFF‑bilder enkelt. Ladda ner nu för en sömlös OCR‑upplevelse.
 ### [Hur man batch-OCR i Java – Komplett guide för att extrahera text från bilder](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
 Lär dig hur du batchbearbetar OCR i Java för att extrahera text från flera bilder effektivt och automatiskt.
@@ -128,6 +137,75 @@ En komplett guide som visar hur du använder Aspose OCR för att känna igen tex
 En steg‑för‑steg‑guide för att extrahera hindi‑text från bilder med Aspose.OCR i Java.
 ### [Hur man utför OCR med Aspose OCR i Java – Steg‑för‑steg‑guide](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
 En komplett steg‑för‑steg‑guide för att utföra OCR med Aspose OCR i Java.
+### [Aspose OCR Java‑exempel – Konvertera bild till text snabbt](./aspose-ocr-java-example-convert-image-to-text-fast/)
+Snabb guide för att konvertera en bild till redigerbar text med Aspose OCR i Java.
+### [Skapa sökbar PDF med Java OCR – Steg‑för‑steg‑guide](./create-searchable-pdf-with-java-ocr-step-by-step-guide/)
+Lär dig hur du med Aspose.OCR för Java skapar en sökbar PDF‑fil steg för steg.
+### [Extrahera text från bild i Java – ladda bild för OCR](./extract-text-from-image-java-load-image-for-ocr/)
+Snabb guide för att ladda en bild och extrahera text med Aspose OCR i Java.
+### [Aspose OCR Java‑exempel: Extrahera text från ett område](./aspose-ocr-java-example-extract-text-from-a-region/)
+Lär dig hur du med Aspose OCR för Java extraherar text från ett specifikt område i en bild.
+### [Extrahera text från HEIC – Fullständig Java‑guide](./extract-text-from-heic-complete-java-guide/)
+En komplett guide som visar hur du använder Aspose OCR för att extrahera text från HEIC‑bilder med Java.
+### [Känna igen text från PNG med Aspose OCR – Fullständig Java‑guide](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+En komplett guide som visar hur du använder Aspose OCR för att känna igen text i PNG‑bilder med Java.
+### [Kör OCR på bild med Java – Extrahera thaitext från PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
+En steg‑för‑steg‑guide för att köra OCR på PNG‑bilder och extrahera thaitext med Aspose.OCR för Java.
+### [Skapa sökbar PDF från bild med Java – Steg‑för‑steg‑guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
+En detaljerad guide som visar hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java.
+### [Hur du aktiverar OCR i Java med Aspose – Steg‑för‑steg‑guide](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Lär dig hur du enkelt aktiverar OCR i Java med Aspose genom en detaljerad steg‑för‑steg‑guide.
+### [Skapa sökbar PDF från bild med Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
+Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java, steg‑för‑steg‑instruktioner för optimal OCR‑resultat.
+### [Känna igen text i bild med Aspose OCR – Fullständig Java OCR‑handledning](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+En komplett guide som visar hur du använder Aspose OCR för att känna igen text i bilder med Java.
+### [Hur du använder OCR i Java – Extrahera text från bild med stavningskorrigering](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Lär dig hur du använder OCR i Java för att extrahera text från bilder och korrigera stavfel automatiskt.
+### [Skapa sökbar PDF från bild – steg‑för‑steg Java‑guide](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+Lär dig hur du konverterar en bild till en sökbar PDF med Aspose.OCR för Java, steg för steg med kodexempel.
+### [Känna igen text i bild med Java – Fullständig Aspose OCR‑guide](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Steg‑för‑steg‑instruktioner för att extrahera text från bilder med Aspose OCR i Java.
+### [Utför OCR på PDF med Aspose OCR i Java – Fullständig guide](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+En komplett guide för att utföra OCR på PDF‑filer med Aspose OCR i Java, steg‑för‑steg och kodexempel.
+### [Känna igen text i ROI med Aspose OCR – Java‑handledning](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Lär dig hur du extraherar text från ett specifikt område (ROI) i en bild med Aspose OCR för Java.
+### [Ladda bild för OCR med Aspose OCR Java – Fullständig guide](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+En komplett guide som visar hur du laddar en bild för OCR med Aspose OCR i Java.
+### [Applicera Aspose OCR-licens i Java – Ta bort OCR‑vattenstämpel](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Lär dig hur du applicerar en Aspose OCR‑licens i Java för att ta bort vattenstämpeln från OCR‑resultaten.
+### [Kör OCR på dokument i Java – Komplett guide](./run-ocr-on-document-in-java-complete-guide/)
+En fullständig guide som visar hur du kör OCR på dokument i Java med Aspose.OCR, inklusive kodexempel och bästa praxis.
+### [Känna igen text från bild med Java OCR – Komplett guide](./recognize-text-from-image-with-java-ocr-complete-guide/)
+En komplett guide som visar hur du använder Java OCR för att känna igen text i bilder.
+### [Ladda bild för OCR, extrahera text från område – Java](./load-image-for-ocr-extract-text-from-region-java/)
+Lär dig hur du laddar en bild och extraherar text från ett specifikt område med Aspose.OCR i Java.
+### [Skapa sökbar PDF med Aspose OCR – Komplett Java‑guide](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+En komplett guide som visar hur du skapar en sökbar PDF med Aspose OCR i Java.
+### [Känna igen text från bild med Aspose OCR – Java‑guide](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+En steg‑för‑steg‑guide för att känna igen text i bilder med Aspose OCR i Java.
+### [Automatisk räta upp bild i Java – Komplett Aspose OCR‑guide](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Lär dig hur du automatiskt räta upp bilder med Aspose OCR i Java för förbättrad OCR‑noggrannhet.
+### [Hur man räta upp bild – Bildförbehandling OCR‑guide](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+Lär dig att räta upp snedvridna bilder före OCR för bättre igenkänning med Aspose.OCR för Java.
+### [Skapa sökbar PDF med OCR – Fullständig guide](./create-searchable-pdf-with-ocr-full-guide/)
+En komplett guide som visar hur du skapar sökbara PDF‑filer med OCR i Java med Aspose.OCR.
+### [Aspose OCR Java‑exempel: känna igen text från bild i Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
+En enkel guide som visar hur du med Aspose OCR för Java kan känna igen text i en bild och extrahera den.
+### [Skapa sökbar PDF i Java – Fullständig guide](./create-searchable-pdf-in-java-full-guide/)
+En komplett guide för att skapa sökbara PDF-filer i Java med Aspose.OCR.
+### [Skapa sökbar PDF från TIFF med Aspose OCR (Java) – Fullständig guide](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+En komplett guide som visar hur du skapar en sökbar PDF från TIFF-filer med Aspose OCR för Java.
+### [Ladda OCR-licens-URL i Java – Ta bort provvattenstämpel](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Lär dig hur du laddar OCR-licensen via en URL i Java och tar bort provversionens vattenstämpel.
+### [Skapa sökbar PDF i Java – Komplett guide](./create-searchable-pdf-in-java-complete-guide/)
+En fullständig guide för att skapa sökbara PDF-filer i Java med Aspose.OCR, inklusive steg‑för‑steg‑instruktioner och bästa praxis.
+### [Konvertera bild till text i Java med Aspose OCR – Fullständig guide](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+En komplett guide som visar hur du konverterar bilder till text i Java med Aspose OCR.
+### [Aspose OCR‑licenstutorial – Java‑installationsguide](./aspose-ocr-license-tutorial-java-setup-guide/)
+Lär dig hur du konfigurerar och aktiverar Aspose OCR‑licensen i dina Java‑projekt för produktionsanvändning.
+### [Känna igen text i PNG med Java – Fullständig Aspose OCR‑guide](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+### [Känna igen text från PNG i Java – Fullständig Aspose OCR‑guide](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+En komplett guide som visar hur du använder Aspose OCR för att känna igen text i PNG‑bilder med Java.
 
 ## Vanliga frågor
 
@@ -152,16 +230,8 @@ A: Bearbeta TIFF‑bilder i delar eller använd multi‑threading för att håll
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Skapa sökbar PDF med Aspose OCR – Steg‑för‑steg‑guide](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Lär dig hur du skapar en sökbar PDF med Aspose OCR i en detaljerad steg‑för‑steg‑guide.
-### [Känna igen text i bild med Aspose OCR – Fullständig Java OCR-handledning](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-En komplett guide som visar hur du använder Aspose OCR för att känna igen text i bilder med Java.
 ### [Skapa sökbar PDF från PNG – Komplett Java‑guide](./create-searchable-pdf-from-png-complete-java-guide/)
 Lär dig steg‑för‑steg hur du konverterar PNG‑bilder till sökbara PDF‑filer med Aspose.OCR för Java.
 ### [Skapa sökbar PDF från bild med OCR – Java‑guide](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
@@ -169,3 +239,9 @@ Lär dig steg‑för‑steg hur du konverterar bildfiler till sökbara PDF‑dok
 ### [Konvertera bilder till text i Java – Batch‑OCR‑behandlingsguide](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Lär dig hur du batch‑processar bildfiler till text med Aspose.OCR för Java för hög effektivitet.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -55,6 +55,8 @@ Tingkatkan akurasi OCR dengan Aspose.OCR untuk .NET dengan menjelajahi [preproce
 
 ### [Cara Mengoreksi Kemiringan Gambar di C# – Panduan Lengkap Pre‑processing OCR](./how-to-deskew-image-in-c-full-ocr-pre-processing-guide/)
 Pelajari cara menghilangkan kemiringan gambar sebelum OCR menggunakan Aspose.OCR di C# untuk meningkatkan akurasi.
+### [Pra‑pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Aspose.OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
+Pelajari cara menerapkan pra‑pemrosesan gambar untuk meningkatkan akurasi OCR menggunakan Aspose.OCR.
 
 ## Koreksi Hasil dengan Pemeriksaan Ejaan dalam OCR Image Recognition
 
@@ -181,8 +183,6 @@ Pelajari cara pra‑pemrosesan gambar OCR di C# untuk meningkatkan akurasi denga
 
 
 
-### [Pra-pemrosesan Gambar untuk OCR – Tingkatkan Akurasi dengan Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
-Jelajahi Aspose OCR untuk .NET. Pra-pemrosesan gambar meningkatkan akurasi OCR. Unduh sekarang untuk integrasi yang lancar.
 ### [c# OCR tutorial – Mengenali Teks dari Gambar dengan Akselerasi GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Jelajahi integrasi OCR dengan akselerasi GPU menggunakan Aspose.OCR untuk .NET. Tingkatkan kecepatan dan akurasi pengenalan teks pada gambar.
 
@@ -228,6 +228,93 @@ Manfaatkan akselerasi GPU untuk meningkatkan kecepatan OCR pada gambar menggunak
 Tingkatkan akurasi OCR pada gambar dengan teknik optimalisasi menggunakan Aspose OCR.
 ### [Buat Logger Konsol di C# – Panduan Lengkap untuk Mengaktifkan Unduhan Otomatis & Memperbaiki Teks OCR](./create-console-logger-in-c-full-guide-to-enable-auto-downloa/)
 Pelajari cara membuat logger konsol di C# yang secara otomatis mengunduh hasil OCR dan memperbaiki teks untuk akurasi maksimal.
+### [Ekstrak Teks dari Gambar dengan C# – Panduan OCR Lengkap](./extract-text-from-image-with-c-complete-ocr-guide/)
+Panduan lengkap mengekstrak teks dari gambar menggunakan C# dan Aspose.OCR, mencakup semua langkah penting.
+### [Cara Meningkatkan OCR dengan Aspose OCR – Panduan C# Lengkap](./how-to-improve-ocr-with-aspose-ocr-complete-c-guide/)
+Panduan lengkap untuk meningkatkan akurasi OCR menggunakan Aspose OCR dengan contoh kode C# yang komprehensif.
+### [Jalankan OCR pada Gambar dengan GPU di C# – Panduan Pemrograman Lengkap](./run-ocr-on-image-with-gpu-in-c-complete-programming-guide/)
+Manfaatkan GPU untuk mempercepat OCR pada gambar menggunakan Aspose.OCR di C#, lengkap dengan contoh kode.
+### [Mengenali teks dari gambar dengan Aspose OCR GPU di C#](./recognize-text-from-image-with-aspose-ocr-gpu-in-c/)
+Gunakan Aspose OCR GPU untuk mempercepat pengenalan teks dari gambar dalam aplikasi C# Anda.
+### [Buat PDF yang dapat dicari di C# – Panduan Pemrograman Lengkap](./create-searchable-pdf-in-c-full-programming-guide/)
+Pelajari cara membuat PDF yang dapat dicari menggunakan Aspose.OCR di C#, lengkap dengan contoh kode dan langkah-langkah implementasi.
+### [Ekstrak Teks dari Gambar di C# – Panduan OCR Auto‑Rotate & Deskew](./extract-text-from-image-in-c-auto-rotate-ocr-deskew-guide/)
+Pelajari cara otomatis memutar dan mengoreksi kemiringan gambar sebelum OCR dengan Aspose.OCR di C#.
+### [Mengenali teks dari PNG dengan Aspose OCR – Demo Batch Dipercepat GPU](./recognize-text-from-png-with-aspose-ocr-gpu-accelerated-batc/)
+Demonstrasi batch akselerasi GPU untuk mengenali teks dari file PNG menggunakan Aspose OCR, meningkatkan kecepatan pemrosesan secara signifikan.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR di C#](./create-searchable-pdf-with-aspose-ocr-in-c/)
+Panduan langkah demi langkah untuk menghasilkan PDF yang dapat dicari menggunakan Aspose OCR dalam proyek C# Anda.
+### [Cara Meningkatkan OCR – Ekstrak Teks dari Gambar dengan Aspose](./how-to-improve-ocr-extract-text-from-images-with-aspose/)
+Panduan langkah demi langkah untuk meningkatkan akurasi OCR dan mengekstrak teks dari gambar menggunakan Aspose.
+### [Cara Memperbaiki Kemiringan Gambar dan Meningkatkan Akurasi OCR di C# – Panduan Langkah‑per‑Langkah](./how-to-deskew-image-and-boost-ocr-accuracy-in-c-step-by-step/)
+Pelajari cara menghilangkan kemiringan gambar dan meningkatkan akurasi OCR menggunakan Aspose.OCR di C# dengan contoh langkah demi langkah.
+### [Cara Meningkatkan Akurasi OCR di C# – Panduan Lengkap](./how-to-improve-ocr-accuracy-in-c-complete-guide/)
+Pelajari teknik dan pengaturan untuk meningkatkan akurasi OCR di C# dengan Aspose.OCR, termasuk preprocessing, parameter, dan validasi hasil.
+### [Aspose OCR GPU: Mengenali Teks Gambar dari TIFF dengan C#](./aspose-ocr-gpu-recognize-text-image-from-tiff-with-c/)
+Pelajari cara menggunakan Aspose OCR GPU dengan C# untuk mengekstrak teks dari file TIFF secara efisien.
+### [Cara Membetulkan Kemiringan Gambar dan Meningkatkan Akurasi OCR – Panduan Lengkap Aspose OCR](./how-to-deskew-image-and-boost-ocr-accuracy-complete-aspose-o/)
+Pelajari cara menghilangkan kemiringan gambar dengan filter deskew Aspose OCR untuk meningkatkan akurasi pengenalan teks secara signifikan.
+### [Buat PDF yang Dapat Dicari dengan Aspose OCR – Panduan Pemrograman Lengkap](./create-searchable-pdf-with-aspose-ocr-complete-programming-g/)
+Panduan lengkap untuk membuat PDF yang dapat dicari menggunakan Aspose OCR dengan contoh kode C#.
+### [Pra-proses Gambar untuk OCR – Panduan Lengkap Aspose C#](./preprocess-image-for-ocr-complete-aspose-c-guide/)
+Pelajari cara mempersiapkan gambar dengan filter pra‑proses untuk meningkatkan akurasi OCR menggunakan Aspose OCR di C#.
+### [Cara Membetulkan Kemiringan Gambar – Panduan Lengkap C# untuk Pra‑pemrosesan OCR](./how-to-deskew-image-complete-c-guide-for-ocr-pre-processing/)
+Pelajari cara menghilangkan kemiringan pada gambar menggunakan Aspose.OCR dengan C# untuk meningkatkan akurasi OCR.
+### [Cara Deskew Gambar dengan Aspose OCR – Panduan Lengkap C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Pelajari cara menghilangkan kemiringan pada gambar menggunakan Aspose OCR dengan contoh kode C# lengkap.
+### [Cara Batch OCR di C# – Cara Cepat Mengekstrak Teks dari File PNG](./how-to-batch-ocr-in-c-fast-way-to-extract-text-png-files/)
+### [Meningkatkan Kontras Gambar dalam C# OCR – Panduan Lengkap](./boost-image-contrast-in-c-ocr-complete-guide/)
+Pelajari cara meningkatkan kontras gambar menggunakan C# untuk memperbaiki akurasi OCR dengan langkah‑langkah praktis.
+### [OCR PDF Batch dengan GPU – Panduan Ekstraksi Teks Cepat](./batch-pdf-ocr-with-gpu-fast-text-extraction-guide/)
+Gunakan GPU untuk mempercepat OCR pada PDF batch, mengekstrak teks dengan cepat dan akurat menggunakan Aspose.OCR.
+### [Ekstrak Teks dari Gambar dengan Aspose OCR – Panduan Lengkap C#](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
+Panduan lengkap C# untuk mengekstrak teks dari gambar menggunakan Aspose OCR dengan contoh kode dan tips optimalisasi.
+### [Aktifkan Akselerasi GPU untuk OCR di C# – Ekstrak Teks dari Resi](./enable-gpu-acceleration-for-ocr-in-c-extract-text-from-recei/)
+Pelajari cara mempercepat OCR dengan GPU di C# untuk mengekstrak teks dari resi secara efisien.
+### [Cara Deskew Gambar – Panduan Preprocessing Aspose OCR](./how-to-deskew-image-aspose-ocr-preprocessing-guide/)
+Pelajari cara menghilangkan kemiringan pada gambar menggunakan filter deskew Aspose OCR untuk meningkatkan akurasi OCR.
+### [Batch OCR Gambar di C# – OCR Paralel untuk Scan JPG](./batch-ocr-images-in-c-parallel-ocr-of-jpg-scans/)
+Pelajari cara memproses banyak gambar JPG secara paralel dengan Aspose.OCR di C# untuk meningkatkan kecepatan OCR.
+### [Batasi Penggunaan Memori GPU pada OCR C# – Panduan Lengkap](./limit-gpu-memory-usage-in-c-ocr-complete-guide/)
+Pelajari cara membatasi penggunaan memori GPU saat menjalankan OCR dengan Aspose.OCR di C# untuk meningkatkan kinerja aplikasi.
+### [Mengenali teks pada gambar dengan Aspose OCR C# – Panduan Preprocess Lengkap](./recognize-text-image-with-aspose-ocr-c-complete-preprocess-g/)
+Panduan lengkap untuk mengoptimalkan preprocessing gambar sebelum OCR menggunakan Aspose OCR C# untuk hasil akurasi tinggi.
+### [Cara Deskew Gambar di C# – Panduan OCR Lengkap](./how-to-deskew-image-in-c-complete-ocr-guide/)
+Pelajari cara memperbaiki kemiringan gambar dengan Aspose.OCR di C# untuk meningkatkan akurasi OCR secara signifikan.
+### [Jalankan OCR pada Gambar – Panduan Lengkap C#](./run-ocr-on-image-complete-c-guide/)
+Panduan lengkap C# untuk menjalankan OCR pada gambar menggunakan Aspose.OCR, mencakup contoh kode dan langkah-langkah implementasi.
+### [Cara Mengoreksi Kemiringan Gambar di C# – Panduan Lengkap Pre‑Processing OCR](./how-to-deskew-image-in-c-complete-ocr-pre-processing-guide/)
+Pelajari cara mengoreksi kemiringan gambar dengan Aspose.OCR di C#, meningkatkan akurasi OCR melalui preprocessing yang efektif.
+### [Skor Kepercayaan OCR dalam C# – Panduan Lengkap](./ocr-confidence-scores-in-c-complete-guide/)
+Pelajari cara menampilkan dan menggunakan skor kepercayaan OCR di C# untuk meningkatkan akurasi dan validasi hasil pengenalan teks.
+### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap Aspose OCR](./preprocess-image-for-ocr-in-c-complete-aspose-ocr-guide/)
+Pelajari cara mempersiapkan gambar dengan filter pra‑pemrosesan sebelum OCR menggunakan Aspose.OCR di C# untuk hasil yang akurat.
+### [Contoh Aspose OCR C# – Aktifkan GPU, Atur Batas Memori & Proses Gambar TIF](./aspose-ocr-c-example-enable-gpu-set-memory-limit-process-tif/)
+Pelajari cara mengaktifkan GPU, mengatur batas memori, dan memproses file TIF dengan Aspose OCR menggunakan C#.
+### [Cara Mengaktifkan GPU di Mesin OCR C# – Panduan Pemrograman Lengkap](./how-to-enable-gpu-in-c-ocr-engine-complete-programming-guide/)
+Pelajari cara mengaktifkan akselerasi GPU pada mesin OCR C# untuk meningkatkan kecepatan dan akurasi pengenalan teks.
+### [Aktifkan GPU OCR di C# – Panduan Lengkap untuk Ekstraksi Teks Lebih Cepat](./enable-gpu-ocr-in-c-complete-guide-to-faster-text-extraction/)
+Pelajari cara mengaktifkan akselerasi GPU pada Aspose.OCR di C# untuk meningkatkan kecepatan ekstraksi teks secara signifikan.
+### [Pra-pemrosesan Gambar untuk OCR di C# – Panduan Lengkap](./preprocess-image-for-ocr-in-c-complete-guide/)
+Pelajari cara mempersiapkan gambar sebelum OCR di C# dengan panduan lengkap, meningkatkan akurasi dan kecepatan pengenalan.
+### [Langkah-Langkah Preprocessing OCR di C# – Tingkatkan Akurasi dengan Aspose.OCR](./ocr-preprocessing-steps-in-c-boost-accuracy-with-aspose-ocr/)
+Pelajari langkah-langkah preprocessing OCR menggunakan C# untuk meningkatkan akurasi dengan Aspose.OCR.
+### [Aktifkan Akselerasi GPU OCR – Panduan Lengkap C#](./enable-gpu-acceleration-ocr-complete-c-guide/)
+Pelajari cara mengaktifkan akselerasi GPU untuk OCR dengan Aspose.OCR menggunakan C#, meningkatkan kecepatan pemrosesan secara signifikan.
+### [Preload OCR Resources in Aspose.OCR – Complete Setup Guide](./preload-ocr-resources-in-aspose-ocr-complete-setup-guide/)
+Panduan lengkap memuat sumber daya OCR di Aspose.OCR untuk meningkatkan kinerja dan akurasi aplikasi Anda.
+### [Mengenali Teks dari Gambar dengan C# – Contoh OCR Lengkap](./recognize-text-from-image-in-c-full-ocr-example/)
+Panduan lengkap untuk mengenali teks dari gambar menggunakan Aspose.OCR di C#, mencakup contoh kode lengkap dan langkah‑langkah implementasi.
+### [Mengenali teks dari gambar menggunakan Aspose OCR GPU](./recognize-text-from-image-using-aspose-ocr-gpu/)
+Manfaatkan akselerasi GPU Aspose OCR untuk mengenali teks dari gambar dengan kecepatan dan akurasi tinggi.
+### [Cara Deskew Gambar di C# – Panduan Lengkap Aspose.OCR](./how-to-deskew-image-in-c-complete-aspose-ocr-guide/)
+Pelajari cara menghilangkan kemiringan gambar dengan Aspose.OCR di C#, meningkatkan akurasi OCR secara signifikan.
+### [Mengenali teks dari gambar di ASP.NET Core – unggah untuk OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
+Panduan mengunggah gambar di ASP.NET Core dan melakukan OCR dengan Aspose.OCR untuk mengekstrak teks secara efisien.
+### [Pra‑pemrosesan Gambar untuk OCR di C# – Panduan Pemrograman Lengkap](./preprocess-image-for-ocr-in-c-complete-programming-guide/)
+Pelajari cara melakukan pra‑pemrosesan gambar sebelum OCR menggunakan Aspose.OCR di C# untuk meningkatkan akurasi secara signifikan.
+### [Lakukan OCR pada Gambar dengan Aspose – Panduan Lengkap C#](./perform-ocr-on-image-with-aspose-complete-c-guide/)
+Panduan lengkap C# untuk melakukan OCR pada gambar menggunakan Aspose, mencakup contoh kode dan langkah-langkah integrasi.
 
 ## Pertanyaan yang Sering Diajukan
 

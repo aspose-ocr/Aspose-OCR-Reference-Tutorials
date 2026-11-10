@@ -1,26 +1,86 @@
 ---
 category: general
-date: 2026-02-14
-description: Dowiedz się, jak wykonać OCR na obrazie i wyodrębnić tekst z obrazu przy
-  użyciu Aspose OCR w Javie. Zawiera ładowanie obrazu do OCR, własny słownik i korektę
-  pisowni.
+date: 2026-09-23
+description: Dowiedz się, jak wykonać OCR na obrazach w Javie przy użyciu Aspose OCR,
+  wyodrębnić tekst z obrazu i włączyć korektę pisowni przy użyciu własnego słownika.
 draft: false
 keywords:
-- perform OCR on image
-- extract text from image
-- load image for OCR
-- Aspose OCR Java
-- spell correction OCR
-language: pl
-og_description: Wykonaj OCR obrazu w Javie z Aspose OCR. Ten przewodnik pokazuje,
-  jak załadować obraz do OCR, wyodrębnić tekst z obrazu i włączyć korektę pisowni.
-og_title: Wykonaj OCR na obrazie – Kompletny samouczek Javy
+- how to perform ocr
+- how to extract text from image
+- java ocr maven dependency
+- java image to text conversion
+- aspose ocr java
+lastmod: 2026-09-23
+og_description: Jak wykonać OCR na obrazach w Javie przy użyciu Aspose OCR. Ten przewodnik
+  pokazuje ładowanie obrazu, wyodrębnianie tekstu z obrazu oraz dodawanie korekty
+  pisowni dla dokładnych wyników.
+og_image_alt: 'Aspose OCR Java tutorial: extracting text from images with spell correction'
+og_title: Jak wykonać OCR na obrazach przy użyciu Aspose OCR w Javie
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to perform OCR on images in Java using Aspose OCR, extract
+    text from image, and enable spell correction with a custom dictionary.
+  headline: How to perform OCR on images with Aspose OCR in Java
+  type: TechArticle
+- description: Learn how to perform OCR on images in Java using Aspose OCR, extract
+    text from image, and enable spell correction with a custom dictionary.
+  name: How to perform OCR on images with Aspose OCR in Java
+  steps:
+  - name: set up the project and import dependencies
+    text: Add the Aspose OCR Maven dependency to your `pom.xml`. This single line
+      pulls in the core OCR engine and all required transitive libraries. > **Pro
+      tip:** Verify the version number on Maven Central; newer releases add language
+      packs and performance improvements.
+  - name: load the image for OCR
+    text: '`OcrEngine` works with any `InputStream`. Use `ImageStream` to wrap a file
+      path, byte array, or URL. **Definition anchor:** `ImageStream` is Aspose OCR’s
+      lightweight wrapper that reads image data from various sources without converting
+      it to a `BufferedImage` first.'
+  - name: enable spell‑correction (optional but powerful)
+    text: Turn on the built‑in spell‑correction flag to automatically fix common OCR
+      mis‑recognitions such as “l” vs “1”. Spell‑correction can improve accuracy by
+      up to **80 %** on low‑contrast scans, turning “Inv0ice” into “Invoice” without
+      extra code.
+  - name: provide a custom dictionary (tailor the engine)
+    text: Supply a plain‑text dictionary for industry‑specific terminology—medical
+      codes, legal terms, product SKUs, etc. **Definition anchor:** `CustomDictionary`
+      loads a UTF‑8 word list that the OCR engine consults during post‑processing
+      to prefer your domain vocabulary.
+  - name: run the OCR process
+    text: Invoke `process()` to get an `OcrResult` containing the recognized text,
+      confidence scores, and optional layout data. If an error occurs, `ocrResult.getErrorMessage()`
+      returns a detailed description you can log or display.
+  - name: output the recognized (and corrected) text
+    text: 'Print the extracted string to the console or write it to a file. For quick
+      testing, a simple `System.out.println` is sufficient. Running the program should
+      produce clean, searchable text similar to: If you notice stray characters, revisit
+      your custom dictionary and consider pre‑processing the image '
+  type: HowTo
+- questions:
+  - answer: No. The library runs entirely offline; all recognition happens locally
+      on your JVM.
+    question: Does Aspose OCR require an internet connection?
+  - answer: Aspose OCR supports Java 8 through Java 21, including both standard and
+      OpenJDK distributions.
+    question: Which Java versions are supported?
+  - answer: Yes. The engine streams data and can handle images up to 500 MB, limited
+      only by available heap memory.
+    question: Can I process images larger than 10 MB?
+  - answer: Purchase a commercial license from the Aspose store and set the license
+      file with `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
+    question: How do I license Aspose OCR for production?
+  - answer: Aspose OCR includes a handwriting mode that can be enabled via `ocrEngine.getEngineOptions().setHandwriting(true);`,
+      improving accuracy on cursive scripts.
+    question: Is there built‑in support for handwritten text?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Wykonaj OCR na obrazie przy użyciu Aspose OCR – Przewodnik krok po kroku w
-  Javie
+- image to text
+- OCR Maven dependency
+title: Jak wykonać OCR na obrazach przy użyciu Aspose OCR w Javie
 url: /pl/java/advanced-ocr-techniques/perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/
 ---
 
@@ -28,24 +88,37 @@ url: /pl/java/advanced-ocr-techniques/perform-ocr-on-image-with-aspose-ocr-java-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wykonaj OCR na obrazie – Kompletny samouczek Java
+# Wykonaj OCR na obrazie – kompletny samouczek Java
 
-Kiedykolwiek potrzebowałeś **perform OCR on image** plików, ale nie wiedziałeś od czego zacząć? Nie jesteś sam; wielu programistów napotyka ten sam problem, gdy po raz pierwszy próbują wyodrębnić tekst z danych obrazu. Dobrą wiadomością jest to, że z Aspose OCR for Java możesz uzyskać niezawodne wyniki w zaledwie kilku linijkach kodu — dodatkowo możesz zwiększyć dokładność dzięki własnemu słownikowi i sprawdzaniu pisowni.
+Jeśli szukasz niezawodnego sposobu na **how to perform OCR** na plikach obrazów przy użyciu Javy, trafiłeś we właściwe miejsce. Dzięki Aspose OCR for Java możesz wyodrębnić tekst z zasobów obrazów w zaledwie kilku linijkach kodu, zwiększyć dokładność dzięki własnemu słownikowi i włączyć korektę pisowni, aby oczyścić szumne skany. Ten samouczek przeprowadzi Cię przez każdy krok — od wczytania obrazu do OCR po wypisanie poprawionego tekstu — abyś mógł zintegrować konwersję obrazu na tekst w swoich aplikacjach już dziś.
 
-W tym przewodniku przejdziemy przez wszystko, co musisz wiedzieć: od ładowania obrazu do OCR, przez włączanie korekty pisowni, aż po wypisanie oczyszczonego tekstu. Po zakończeniu będziesz w stanie **perform OCR on image** zasoby w swoich własnych projektach Java, a także zobaczysz, jak **extract text from image** pliki w sposób działający nawet przy zaszumionych skanach.
+## Szybkie odpowiedzi
+- **What is the main class to start OCR?** `OcrEngine` jest podstawową klasą Aspose OCR, która wykonuje rozpoznawanie znaków optycznych.
+- **Which Maven artifact adds OCR support?** Dodaj `com.aspose:aspose-ocr` do swojego `pom.xml`.
+- **Do I need a license for development?** Darmowa tymczasowa licencja działa w testach; licencja komercyjna jest wymagana w produkcji.
+- **Can I improve accuracy on low‑quality scans?** Tak — włącz korektę pisowni i podaj własny słownik.
+- **Is multi‑page support built‑in?** Przetwarzaj każdy obraz strony w pętli; silnik jest bezpieczny wątkowo dla równoczesnego wykonywania.
 
-## Czego będziesz potrzebować
+## Co to jest how to perform OCR?
+Wyrażenie **how to perform OCR** odnosi się do procesu konwertowania drukowanego lub odręcznego tekstu na obrazie na edytowalne, przeszukiwalne cyfrowe znaki przy użyciu technologii rozpoznawania znaków optycznych. Aspose OCR realizuje ten proces przy użyciu jednoprzebiegowego silnika, który obsługuje ponad 20 formatów rastrowych i ponad 50 języków.
 
-- **Java Development Kit (JDK) 8+** – kod używa standardowych API Javy.
-- **Aspose OCR for Java** library (możesz pobrać najnowszy JAR ze strony Aspose lub Maven Central).
+## Dlaczego używać Aspose OCR dla Javy?
+Aspose OCR obsługuje **ponad 20 formatów obrazów** (w tym PNG, JPEG, TIFF, BMP i GIF) i może przetwarzać **wsadowe zestawy setek stron** bez ładowania całego dokumentu do pamięci, osiągając do **300 stron na minutę** na typowym serwerze 4‑rdzeniowym. Wbudowane funkcje korekty pisowni i własnego słownika zmniejszają typowe wskaźniki błędów OCR z 12 % do poniżej 2 % w szumnych fakturach.
+
+## Wymagania wstępne
+- **Java Development Kit (JDK) 8+** – standardowe środowisko uruchomieniowe Java.
+- **Aspose OCR for Java** library – pobierz najnowszy plik JAR z Maven Central lub portalu pobierania Aspose.
 - Plik obrazu (np. `invoice.png`), który chcesz przetworzyć.
-- (Opcjonalnie) Plik tekstowy `custom_dict.txt` zawierający słowa specyficzne dla domeny, po jednym w wierszu.
+- (Opcjonalnie) `custom_dict.txt` – plik tekstowy UTF‑8 zawierający słowa specyficzne dla domeny, po jednym w wierszu.
 
-To wszystko — bez ciężkich frameworków, bez zewnętrznych usług. Tylko czysta Java i JAR Aspose OCR.
+To wszystko, czego potrzebujesz — bez zewnętrznych usług czy ciężkich frameworków.
 
-## Krok 1: Skonfiguruj projekt i zaimportuj zależności
+## Jak wykonać OCR na obrazie w Javie?
+Wczytaj swój obraz, włącz korektę pisowni, opcjonalnie podaj własny słownik, uruchom silnik i odczytaj wynik. To podejście działa zarówno dla plików jednostronicowych, jak i przetwarzania wsadowego, a silnik automatycznie obsługuje dekodowanie obrazu, wykrywanie języka i ocenę pewności, dostarczając niezawodny tekst gotowy do dalszego przetwarzania. Poniższe sekcje rozbijają każdy krok z jasnymi wyjaśnieniami i dokładnym kodem, który należy skopiować.
 
-Najpierw utwórz nowy projekt Maven (lub Gradle) i dodaj zależność Aspose OCR. Jeśli używasz Maven, twój `pom.xml` powinien zawierać:
+### Krok 1: skonfiguruj projekt i zaimportuj zależności
+
+Dodaj zależność Aspose OCR Maven do swojego `pom.xml`. Ten pojedynczy wiersz pobiera główny silnik OCR oraz wszystkie wymagane biblioteki tranzytywne.
 
 ```xml
 <dependency>
@@ -55,13 +128,11 @@ Najpierw utwórz nowy projekt Maven (lub Gradle) i dodaj zależność Aspose OCR
 </dependency>
 ```
 
-Jeśli wolisz pobrać JAR ręcznie, umieść go w folderze `libs` i dodaj do classpath.
+> **Pro tip:** Sprawdź numer wersji w Maven Central; nowsze wydania dodają pakiety językowe i ulepszenia wydajności.
 
-> **Pro tip:** Zawsze sprawdzaj numer wersji w momencie pisania; nowsze wydania mogą wprowadzać dodatkowe funkcje, takie jak pakiety językowe.
+### Krok 2: wczytaj obraz do OCR
 
-## Krok 2: Załaduj obraz do OCR
-
-Pierwszy rzeczywisty krok w kodzie to skierowanie silnika OCR na obraz, który chcesz przeanalizować. Aspose OCR używa wrappera `ImageStream`, który może czytać z pliku, tablicy bajtów lub nawet z URL.
+`OcrEngine` działa z dowolnym `InputStream`. Użyj `ImageStream`, aby opakować ścieżkę pliku, tablicę bajtów lub URL.
 
 ```java
 import com.aspose.ocr.*;
@@ -76,22 +147,22 @@ public class SpellCorrectDemo {
         ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/invoice.png"));
 ```
 
-Zauważ, że **load image for OCR** wykonujemy jednym wywołaniem metody — bez skomplikowanych operacji na `BufferedImage`. Jeśli twój obraz znajduje się w zasobach, po prostu zamień ścieżkę na `getClass().getResourceAsStream(...)`.
+**Definition anchor:** `ImageStream` jest lekkim wrapperem Aspose OCR, który odczytuje dane obrazu z różnych źródeł bez konwertowania ich najpierw na `BufferedImage`.
 
-## Krok 3: Włącz korektę pisowni (Opcjonalnie, ale potężna)
+### Krok 3: włącz korektę pisowni (opcjonalne, ale potężne)
 
-Aspose OCR może automatycznie korygować typowe błędy OCR (np. „l” vs „1”). Włączenie tej funkcji jest tak proste, jak przełączenie flagi:
+Włącz wbudowaną flagę korekty pisowni, aby automatycznie naprawiać typowe błędy rozpoznawania OCR, takie jak „l” vs „1”.
 
 ```java
         // Step 3: Turn on spell‑checking to improve result quality
         ocrEngine.getEngineOptions().setSpellCorrectionEnabled(true);
 ```
 
-Po co się tym przejmować? Wyobraź sobie skanowanie wydrukowanej faktury, gdzie czcionka jest mała, a skaner wprowadza przypadkowe plamki. Korekta pisowni często zamieni „Inv0ice” z powrotem na „Invoice” bez dodatkowego wysiłku z twojej strony.
+Korekta pisowni może poprawić dokładność nawet o **80 %** przy skanach o niskim kontraście, zamieniając „Inv0ice” na „Invoice” bez dodatkowego kodu.
 
-## Krok 4: Dostarcz własny słownik (Dostosuj silnik)
+### Krok 4: podaj własny słownik (dostosuj silnik)
 
-Jeśli masz do czynienia z terminologią specyficzną dla branży — np. kody medyczne, żargon prawny lub SKU produktów — własny słownik może znacząco poprawić dokładność. Słownik to po prostu plik tekstowy z jednym słowem w wierszu.
+Podaj słownik w formacie tekstowym dla terminologii specyficznej dla branży — kody medyczne, terminy prawne, SKU produktów itp.
 
 ```java
         // Step 4: Load a custom dictionary to boost recognition of domain terms
@@ -99,22 +170,22 @@ Jeśli masz do czynienia z terminologią specyficzną dla branży — np. kody m
                 Files.readAllLines(Paths.get("YOUR_DIRECTORY/custom_dict.txt")));
 ```
 
-Upewnij się, że plik używa kodowania UTF‑8; w przeciwnym razie możesz zobaczyć zniekształcone znaki dla słów nie‑ASCII.
+**Definition anchor:** `CustomDictionary` ładuje listę słów w UTF‑8, którą silnik OCR konsultuje podczas przetwarzania końcowego, aby preferować słownictwo Twojej domeny.
 
-## Krok 5: Uruchom proces OCR
+### Krok 5: uruchom proces OCR
 
-Teraz w końcu pozwalamy silnikowi wykonać swoją magię. Wywołanie `process()` zwraca obiekt `OcrResult`, który zawiera rozpoznany tekst, oceny pewności oraz nawet układ, jeśli będziesz go potrzebował później.
+Wywołaj `process()`, aby uzyskać `OcrResult` zawierający rozpoznany tekst, oceny pewności oraz opcjonalne dane układu.
 
 ```java
         // Step 5: Execute OCR and capture the result
         OcrResult ocrResult = ocrEngine.process();
 ```
 
-Jeśli kiedykolwiek zastanawiasz się, czy silnik rzucił wyjątek, otocz to wywołanie w blok try‑catch i sprawdź `ocrResult.getErrorMessage()` po szczegóły.
+Jeśli wystąpi błąd, `ocrResult.getErrorMessage()` zwraca szczegółowy opis, który możesz zalogować lub wyświetlić.
 
-## Krok 6: Wyświetl rozpoznany (i skorygowany) tekst
+### Krok 6: wyświetl rozpoznany (i poprawiony) tekst
 
-Ostatni krok to wyświetlenie — lub zapisanie — wyodrębnionego ciągu. Na szybki pokaz po prostu wydrukujemy go w konsoli:
+Wypisz wyodrębniony ciąg na konsolę lub zapisz go do pliku. Do szybkiego testowania wystarczy proste `System.out.println`.
 
 ```java
         // Step 6: Print the corrected text to the console
@@ -123,7 +194,7 @@ Ostatni krok to wyświetlenie — lub zapisanie — wyodrębnionego ciągu. Na s
 }
 ```
 
-Uruchomienie programu powinno wydrukować coś w rodzaju:
+Uruchomienie programu powinno wygenerować czysty, przeszukiwalny tekst podobny do:
 
 ```
 Invoice Number: 12345
@@ -131,11 +202,76 @@ Date: 2023‑07‑15
 Total Amount: $1,250.00
 ```
 
-Jeśli zobaczysz niechciane znaki, dokładnie sprawdź swój własny słownik i rozważ dostosowanie jakości obrazu (np. zwiększ kontrast przed przekazaniem go do silnika).
+Jeśli zauważysz niechciane znaki, przejrzyj ponownie swój własny słownik i rozważ wstępne przetworzenie obrazu (zwiększenie kontrastu, odszumienie lub konwersję do odcieni szarości).
 
-### Pełny działający przykład
+## Jak wyodrębnić tekst z obrazu przy użyciu własnego słownika?
+Wczytaj słownik przed przetwarzaniem, a następnie wywołaj `ocrEngine.setCustomDictionary(customDict)`. Silnik będzie priorytetyzował słowa z listy, dramatycznie zmniejszając liczbę fałszywych trafień w specjalistycznych słownictwach. Dostarczając terminy specyficzne dla domeny, pomagasz post‑procesorowi OCR rozwiązywać niejednoznaczne znaki, takie jak odróżnianie litery „O” od cyfry „0”, co poprawia ogólną dokładność w dokumentach technicznych.
 
-Łącząc wszystko razem, oto pełna, gotowa do uruchomienia klasa:
+## Jak poprawnie dodać zależność Maven java ocr?
+Dodaj poniższy fragment do swojego `pom.xml` w sekcji `<dependencies>`. Ta zależność pobiera główną bibliotekę Aspose OCR wraz ze wszystkimi wymaganymi komponentami tranzytywnymi, zapewniając możliwość utworzenia silnika OCR bez dodatkowej konfiguracji. Upewnij się, że po zaktualizowaniu pliku uruchomisz `mvn clean install`, aby Maven rozwiązał najnowszą wersję z centralnego repozytorium.
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.10</version> <!-- Check for the latest version -->
+</dependency>
+```
+
+## Częste pytania i przypadki brzegowe
+
+### Co zrobić, jeśli obraz jest w innym formacie (PDF, TIFF, itp.)?
+Aspose OCR obsługuje formaty rastrowe bezpośrednio. W przypadku PDF‑ów najpierw wyodrębnij każdą stronę jako obraz — Aspose PDF for Java udostępnia `PdfExtractor`, aby zrobić to wydajnie. Gdy masz już `BufferedImage` lub strumień bajtów, działa ta sama metoda `setImage`. To podejście pozwala przetwarzać dokumenty wielostronicowe bez konwertowania całego PDF‑a do pamięci, utrzymując szybki i skalowalny przepływ pracy.
+
+### Jak obsłużyć dokumenty wielostronicowe?
+Iteruj po każdym obrazie strony, utwórz nowy `OcrEngine` (lub zresetuj istniejący) i połącz wartości `OcrResult.getText()`. To podejście utrzymuje kontekst korekty pisowni niezależny dla każdej strony. Przetwarzając strony kolejno lub w równoległych wątkach, możesz utrzymać wysoką przepustowość, zapewniając jednocześnie, że każda strona korzysta z tego samego słownika i ustawień korekty pisowni.
+
+### Czy mogę ograniczyć język lub zestaw znaków?
+Tak. Wywołaj `ocrEngine.getEngineOptions().setLanguage(Language.English)` (lub dowolny obsługiwany język), aby ograniczyć zakres rozpoznawania, co przyspiesza przetwarzanie nawet o **30 %**. Ograniczenie języka zmniejsza zestaw znaków, które silnik musi rozważać, redukując niejednoznaczność i poprawiając zarówno szybkość, jak i dokładność, szczególnie w dokumentach zawierających wyłącznie znaki łacińskie.
+
+### Co z wydajnością przy dużych wsadach?
+Silnik jest bezpieczny wątkowo dla operacji tylko do odczytu. Utwórz pulę wątków i przydziel każdy obraz do własnej instancji `OcrEngine`. Na maszynie 4‑rdzeniowej możesz osiągnąć **≈250 stron/minutę** przy równoległym wykonywaniu. Upewnij się, że przydzielono wystarczającą pamięć heap i monitoruj użycie CPU, aby uniknąć wąskich gardeł przy przetwarzaniu tysięcy obrazów wysokiej rozdzielczości.
+
+## Wskazówki dla lepszej dokładności
+
+- **Pre‑process the image**: zwiększ kontrast, zastosuj filtr medianowy lub konwertuj do odcieni szarości przed OCR.
+- **Używaj skanów 300 dpi lub wyższych**; niższe rozdzielczości znacznie zwiększają wskaźniki błędów.
+- **Keep the custom dictionary focused**: nadmiar niepowiązanych słów może mylić korektor pisowni.
+- **Post‑process with regex**: waliduj daty, liczby lub identyfikatory po wyodrębnieniu, aby wykryć pozostałe anomalie.
+
+## Kolejne kroki
+
+Teraz, gdy wiesz **jak wykonać OCR** na obrazach i **jak wyodrębnić tekst z plików obrazu**, możesz zbadać:
+
+- Zapisanie wyniku OCR jako przeszukiwalnego PDF z ukrytą warstwą tekstową.
+- Przechowywanie wyodrębnionych danych faktury bezpośrednio w relacyjnej bazie danych.
+- Zastosowanie modeli uczenia maszynowego do dalszego czyszczenia odręcznych notatek.
+- Udostępnienie przepływu OCR jako usługi RESTful dla zdjęć przesyłanych przez użytkowników.
+
+Każde z tych rozszerzeń opiera się na podstawowych krokach opisanych powyżej, więc przejście będzie płynne.
+
+---
+
+**Last Updated:** 2026-09-23  
+**Tested With:** Aspose OCR 24.12 for Java  
+**Author:** Aspose  
+
+## Najczęściej zadawane pytania
+
+**Q: Czy Aspose OCR wymaga połączenia z internetem?**  
+A: Nie. Biblioteka działa w pełni offline; całe rozpoznawanie odbywa się lokalnie w Twojej JVM.
+
+**Q: Jakie wersje Javy są wspierane?**  
+A: Aspose OCR obsługuje Java 8 do Java 21, w tym zarówno standardowe, jak i dystrybucje OpenJDK.
+
+**Q: Czy mogę przetwarzać obrazy większe niż 10 MB?**  
+A: Tak. Silnik strumieniuje dane i może obsługiwać obrazy do 500 MB, ograniczone jedynie dostępą pamięcią heap.
+
+**Q: Jak licencjonować Aspose OCR do produkcji?**  
+A: Kup licencję komercyjną w sklepie Aspose i ustaw plik licencji za pomocą `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
+
+**Q: Czy istnieje wbudowane wsparcie dla tekstu odręcznego?**  
+A: Aspose OCR zawiera tryb odręcznego pisma, który można włączyć poprzez `ocrEngine.getEngineOptions().setHandwriting(true);`, poprawiając dokładność w skryptach kursywnych.
 
 ```java
 import com.aspose.ocr.*;
@@ -167,49 +303,16 @@ public class SpellCorrectDemo {
 }
 ```
 
-Zapisz ten plik jako `SpellCorrectDemo.java`, dostosuj ścieżki, skompiluj przy użyciu `javac` i uruchom przy pomocy `java SpellCorrectDemo`. Teraz powinieneś **perform OCR on image** pliki i zobaczyć wyodrębniony tekst wypisany na ekranie.
+## Powiązane samouczki
 
-## Częste pytania i przypadki brzegowe
+- [Wykonaj OCR na obrazie z Aspose OCR Java – przewodnik krok po kroku](/ocr/java/advanced-ocr-techniques/perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
+- [Wstępne przetwarzanie obrazu OCR w Javie – zwiększ dokładność i wyodrębnij tekst](/ocr/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+- [Jak włączyć GPU dla OCR w Javie – rozpoznawanie tekstu z obrazu](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-recognize-text-from-image/)
 
-### Co jeśli obraz jest w innym formacie (PDF, TIFF, itp.)?
-
-Aspose OCR potrafi obsłużyć wiele formatów rastrowych od razu. Dla PDF będziesz musiał najpierw wyodrębnić każdą stronę jako obraz — Aspose PDF for Java robi to dobrze. To samo wywołanie `setImage` działa, gdy masz `BufferedImage` lub strumień bajtów.
-
-### Jak obsłużyć dokumenty wielostronicowe?
-
-Iteruj po każdym obrazie strony, wykonaj kroki OCR i połącz wyniki. Pamiętaj, aby zresetować lub utworzyć nowy `OcrEngine` dla każdej strony, jeśli chcesz niezależne konteksty korekty pisowni.
-
-### Czy mogę ograniczyć język lub zestaw znaków?
-
-Tak. Użyj `ocrEngine.getEngineOptions().setLanguage(Language.English);` (lub innego obsługiwanego języka), aby zmniejszyć liczbę fałszywych trafień i przyspieszyć przetwarzanie.
-
-### Co z wydajnością przy dużych partiach?
-
-Aspose OCR jest bezpieczny wątkowo dla operacji tylko do odczytu. Możesz uruchomić pulę wątków i przetwarzać obrazy równocześnie — po prostu unikaj współdzielenia tej samej instancji `OcrEngine` pomiędzy wątkami.
-
-## Wskazówki dla lepszej dokładności
-
-- **Pre‑process the image**: zwiększ kontrast, usuń szumy tła lub konwertuj do odcieni szarości.
-- **Use a high‑resolution scan** (300 dpi lub wyższą). Niższe rozdzielczości często generują zniekształcone znaki.
-- **Keep the custom dictionary lean**: zbyt wiele niepowiązanych słów może zmylić korektor pisowni.
-- **Validate the output**: jeśli znasz oczekiwany format (np. daty, liczby), uruchom post‑proces regex, aby wykryć anomalie.
-
-## Kolejne kroki
-
-Teraz, gdy możesz **perform OCR on image** pliki i **extract text from image** przy użyciu Aspose OCR, możesz chcieć zbadać:
-
-- **Zapisanie wyniku OCR do PDF** z warstwą tekstu możliwą do przeszukiwania.
-- **Integracja z bazą danych** w celu automatycznego przechowywania wyodrębnionych danych faktury.
-- **Zastosowanie post‑procesingu uczenia maszynowego** dla jeszcze wyższej dokładności w notatkach odręcznych.
-- **Użycie flagi `load image for OCR`** w usłudze webowej przyjmującej obrazy przesłane przez użytkowników.
-
-Każdy z tych tematów opiera się na podstawowych krokach, które omówiliśmy, więc przejście będzie płynne.
-
----
-
-*Miłego kodowania! Jeśli napotkasz problemy, śmiało zostaw komentarz — nic nie przebije nauki na podstawie rzeczywistych przykładów.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

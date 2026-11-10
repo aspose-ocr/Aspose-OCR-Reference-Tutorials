@@ -65,6 +65,44 @@ weight: 24
 تعلم كيفية تكوين جهاز GPU لتسريع عملية OCR باستخدام Aspose.OCR في تطبيقات C#.
 ### [التعرف على النص من صورة في C# – كيفية التعرف على كانادا باستخدام Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
 تعلم كيفية استخراج النص من صورة باللغة الكنادية باستخدام Aspose OCR في تطبيقات .NET.
+### [إنشاء معالج تدقيق إملائي باستخدام Aspose OCR AI – دليل كامل](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+تعلم كيفية إنشاء معالج تدقيق إملائي باستخدام تقنية Aspose OCR AI خطوة بخطوة.
+### [التحقق من علامة الترخيص في Aspose OCR – دليل سريع للتحقق من الترخيص](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+تعلم كيفية فحص حالة الترخيص في Aspose OCR بسرعة لضمان تشغيل المكتبة بشكل صحيح.
+### [كيفية تمكين GPU لتقنية OCR في C# – دليل خطوة بخطوة](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+تعلم كيفية تفعيل معالجة GPU في Aspose.OCR باستخدام C# لتحسين سرعة ودقة التعرف على النص.
+### [كيفية تنزيل حزمة لغة OCR للغة الروسية – دليل كامل](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+تعلم خطوة بخطوة كيفية تحميل حزمة اللغة الروسية لاستخدام OCR مع Aspose.OCR.
+### [كيفية تعطيل OCR في C# – دليل Aspose OCR غير المتصل](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+تعلم كيفية إيقاف تشغيل OCR في تطبيقات C# باستخدام Aspose OCR دون اتصال بالإنترنت.
+### [تحميل صورة للتعرف الضوئي على الأحرف في C# – دليل كامل لـ Aspose OCR وتدقيق الإملاء](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+تعلم كيفية تحميل صورة وإجراء OCR مع تدقيق إملائي باستخدام Aspose OCR في C# خطوة بخطوة.
+### [إنشاء محرك OCR في C# – دليل كامل](./create-ocr-engine-in-c-complete-guide/)
+دليل شامل لإنشاء محرك OCR باستخدام C# مع Aspose.OCR، يغطي الإعداد، التكوين، واستخدامه في التطبيقات.
+### [تحديد حد ذاكرة GPU باستخدام Aspose OCR – دليل C# للـ GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+تعلم كيفية ضبط حد الذاكرة للـ GPU في Aspose OCR باستخدام C# لتحسين الأداء.
+### [كيفية تعيين الترخيص في Aspose OCR – دليل كامل بلغة C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية إعداد ترخيص Aspose OCR في تطبيقات C# لضمان تشغيل المكتبة دون قيود.
+### [استخراج النص من الصورة باستخدام Aspose OCR GPU – دليل كامل بلغة C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+دليل شامل يوضح كيفية استخدام Aspose OCR مع وحدة معالجة الرسوميات لاستخراج النص من الصور باستخدام C#.
+### [كيفية تنفيذ OCR في C# – دليل متعدد اللغات](./how-to-perform-ocr-in-c-multi-language-guide/)
+تعلم كيفية استخدام Aspose.OCR لمعالجة نصوص متعددة اللغات في تطبيقات C# بسهولة.
+### [تحويل الصورة إلى نص C# – Aspose OCR مع تعطيل التحميل](./image-to-text-c-aspose-ocr-with-disabled-download/)
+تعلم استخراج النص من الصور في C# باستخدام Aspose OCR مع تعطيل خيار التحميل.
+### [الحصول على إصدار Aspose OCR في C# – دليل كامل](./get-aspose-ocr-version-in-c-complete-guide/)
+دليل شامل يوضح طريقة استخراج رقم إصدار Aspose OCR في تطبيق C# واستخدامه في بيئة .NET.
+### [كيفية استخدام OcrEngine في C# – دليل OCR كامل](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+دليل شامل يشرح كيفية استخدام OcrEngine في C# لإجراء التعرف الضوئي على الأحرف باستخدام Aspose.OCR.
+### [إنشاء PDF قابل للبحث من صورة – دليل خطوة بخطوة كامل](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+دليل شامل لإنشاء ملف PDF قابل للبحث من صورة باستخدام Aspose.OCR خطوة بخطوة.
+### [اكتشاف اللغة من الصورة في C# – دليل برمجة كامل](./detect-language-from-image-in-c-complete-programming-guide/)
+تعلم كيفية استخراج اللغة من الصور باستخدام Aspose.OCR في C# وإنشاء تطبيق يحدد لغة النص بدقة.
+### [كيفية استخدام OcrEngineConfig – تكوين محرك OCR في C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+تعلم كيفية تكوين محرك OCR باستخدام OcrEngineConfig في C# لتخصيص إعدادات التعرف على النص.
+### [كيفية تنفيذ OCR باستخدام Aspose.OCR – دليل C# كامل](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+دليل شامل يوضح كيفية تنفيذ OCR في تطبيقات C# باستخدام Aspose.OCR خطوة بخطوة.
+### [إنشاء تكوين نموذج AsposeAI – دليل خطوة بخطوة](./create-asposeai-model-config-step-by-step-guide/)
+دليل شامل لإنشاء وتكوين نموذج AsposeAI في .NET خطوة بخطوة.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  
