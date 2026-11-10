@@ -164,6 +164,7 @@ Java projelerinizde Aspose OCR lisansını nasıl ekleyeceğinizi ve lisans doğ
 Java kullanarak PNG görüntülerinden metin tanıma sürecini adım adım öğrenin.
 ### [Java'da PNG'den Metin Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Java ile PNG görüntülerinden metin çıkarma sürecini adım adım öğrenin ve Aspose OCR'un tam potansiyelini keşfedin.
+### [Aspose OCR ile Görüntü Metnini Tanıma – Tam Java Kılavuzu](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 
 ## Sıkça Sorulan Sorular
 

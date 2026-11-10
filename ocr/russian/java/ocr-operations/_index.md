@@ -193,6 +193,8 @@ weight: 21
 Полный туториал по распознаванию текста в PNG‑изображениях с Aspose OCR для Java.
 ### [Распознавание текста из PNG в Java – Полный гид по Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Полный пошаговый туториал по распознаванию текста из PNG‑изображений с использованием Aspose OCR в Java.
+### [Распознать текст с изображения с Aspose OCR – полный Java‑гид](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Полный пошаговый руководствo по распознаванию текста с изображений с помощью Aspose OCR в Java.
 
 ## Часто задаваемые вопросы
 

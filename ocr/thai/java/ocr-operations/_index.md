@@ -197,6 +197,8 @@ weight: 21
 ### [จดจำข้อความ PNG ด้วย Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 ### [จดจำข้อความจาก PNG ใน Java – คู่มือ Aspose OCR ฉบับเต็ม](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java  
+### [จดจำข้อความจากภาพด้วย Aspose OCR – คู่มือ Java ฉบับเต็ม](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java อย่างละเอียด
 
 
 

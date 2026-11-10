@@ -178,6 +178,8 @@ Ismerd meg, hogyan állítsd be és aktiváld az Aspose OCR licencet Java körny
 ### [PNG szöveg felismerése Java-val – Teljes Aspose OCR útmutató](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Fedezd fel, hogyan ismerheted fel a PNG képek szövegét Java-ban az Aspose OCR segítségével, lépésről lépésre útmutató.
 ### [PNG képről szöveg felismerése Java-ban – Teljes Aspose OCR útmutató](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+### [Képről szöveg felismerése az Aspose OCR-rel – teljes Java útmutató](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR segítségével Java-ban, lépésről lépésre.
 
 ## Gyakran Ismételt Kérdések
 

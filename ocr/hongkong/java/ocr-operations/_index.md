@@ -201,6 +201,8 @@ weight: 21
 完整的 Java OCR 教學，示範如何使用 Aspose OCR 識別 PNG 圖像文字。
 ### [在 Java 中識別 PNG 文字 – 完整 Aspose OCR 教學](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 完整的 Java OCR 教學，示範如何使用 Aspose OCR 從 PNG 圖片中提取文字。
+### [使用 Aspose OCR 識別圖像文字 – 完整 Java 指南](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+完整的 Java 教學，示範如何使用 Aspose OCR 從圖像中識別文字。
 
 ## 常見問題
 

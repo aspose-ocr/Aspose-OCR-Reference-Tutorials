@@ -207,6 +207,8 @@ Java में Aspose OCR लाइसेंस को सेटअप करन
 Java में PNG इमेज से टेक्स्ट निकालने के लिए Aspose OCR का पूर्ण गाइड, कोड उदाहरणों सहित।
 ### [Java में PNG से टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Java में PNG इमेजेज से टेक्स्ट निकालने के लिए Aspose OCR का पूर्ण गाइड, कोड उदाहरणों सहित।
+### [Aspose OCR के साथ इमेज से टेक्स्ट को पहचानें – पूर्ण Java गाइड](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+इमेज से टेक्स्ट निकालने के लिए पूर्ण Java कोड गाइड, Aspose OCR के साथ।
 
 ## अक्सर पूछे जाने वाले सवाल
 

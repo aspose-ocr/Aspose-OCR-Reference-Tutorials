@@ -189,6 +189,8 @@ weight: 21
 دليل شامل يشرح كيفية التعرف على نص PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
 ### [التعرف على النص من PNG في Java – دليل Aspose OCR كامل](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص الصورة باستخدام Aspose OCR – دليل كامل للـ Java](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

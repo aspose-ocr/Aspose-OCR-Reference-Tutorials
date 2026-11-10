@@ -197,6 +197,8 @@ Aspose OCR のライセンス取得方法と Java 環境への設定手順をス
 ### [JavaでPNGテキストを認識 – 完全 Aspose OCR ガイド](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Aspose OCR を使用して PNG 画像からテキストを抽出する完全な Java チュートリアルです。ステップバイステップで解説します。
 ### [JavaでPNGからテキストを認識 – 完全 Aspose OCR ガイド](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+### [Aspose OCR で画像からテキストを認識 – 完全 Java ガイド](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Aspose OCR を使用して画像からテキストを認識する完全な Java ガイドです。ステップバイステップで実装方法を解説します。
 
 ## よくある質問
 

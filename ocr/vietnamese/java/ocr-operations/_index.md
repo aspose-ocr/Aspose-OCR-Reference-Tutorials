@@ -211,6 +211,8 @@ Hướng dẫn chi tiết cách cấu hình giấy phép Aspose OCR trong môi t
 Khám phá cách nhận dạng ảnh PNG trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
 ### [Nhận dạng văn bản từ PNG trong Java – Hướng dẫn Aspose OCR đầy đủ](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Khám phá cách nhận dạng văn bản từ tệp PNG trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
+### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – hướng dẫn Java đầy đủ](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Hướng dẫn chi tiết cách nhận dạng văn bản trong hình ảnh bằng Aspose OCR cho Java, từ cấu hình đến xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

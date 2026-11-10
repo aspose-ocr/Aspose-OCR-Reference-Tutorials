@@ -204,6 +204,8 @@ Leer hoe u afbeeldingen naar tekst converteert in Java met Aspose OCR, stap‑vo
 Leer hoe u de Aspose OCR‑licentie instelt in Java, stap‑voor‑stap met voorbeeldcode en configuratie‑tips.
 ### [Tekst PNG herkennen met Java – volledige Aspose OCR-gids](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
+### [Tekst uit afbeelding herkennen met Aspose OCR – volledige Java‑gids](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Leer stap‑voor‑stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑gids.
 
 ## Veelgestelde vragen
 

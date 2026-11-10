@@ -202,6 +202,8 @@ Java 환경에서 Aspose OCR 라이선스를 설정하고 적용하는 단계별
 Aspose OCR을 사용해 Java에서 PNG 이미지의 텍스트를 완전하게 인식하는 단계별 가이드입니다.
 ### [Java에서 PNG 텍스트 인식 – 전체 Aspose OCR 가이드](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Java 환경에서 PNG 이미지의 텍스트를 정확히 추출하는 전체 단계별 Aspose OCR 가이드를 제공합니다.
+### [Aspose OCR을 사용한 이미지 텍스트 인식 – 전체 Java 가이드](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Aspose OCR을 활용해 Java에서 이미지 텍스트를 전체적으로 인식하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

@@ -204,6 +204,8 @@ Panduan lengkap mengatur lisensi Aspose OCR di proyek Java Anda untuk mengaktifk
 Panduan lengkap untuk mengenali teks pada gambar PNG menggunakan Aspose OCR dengan Java, meliputi langkah‑langkah detail untuk hasil akurat.
 ### [Mengenali teks dari PNG di Java – Panduan Lengkap Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Panduan lengkap mengenali teks pada gambar PNG menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil akurat.
+### [Mengenali Teks Dari Gambar dengan Aspose OCR – Panduan Java Lengkap](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Panduan lengkap untuk mengenali teks pada gambar menggunakan Aspose OCR dengan Java, mencakup langkah‑langkah detail untuk hasil akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

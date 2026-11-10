@@ -202,6 +202,8 @@ Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz in Java einrichten und aktivieren
 Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von PNG‑Bildern mit Aspose OCR in Java erklärt.
 ### [Texterkennung aus PNG in Java – Vollständiger Aspose OCR‑Leitfaden](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Entfesseln Sie die OCR‑Leistung für PNG‑Bilder in Java mit Aspose OCR. Ein vollständiger Leitfaden zu Einrichtung, Verarbeitung und Best Practices.
+### [Bildtext mit Aspose OCR erkennen – vollständiger Java‑Leitfaden](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Ein umfassender Leitfaden zur Texterkennung aus Bildern mit Aspose OCR in Java.
 
 ## Häufig gestellte Fragen
 

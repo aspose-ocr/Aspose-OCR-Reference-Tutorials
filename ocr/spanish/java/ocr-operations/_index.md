@@ -205,6 +205,8 @@ Aprende a configurar y aplicar la licencia de Aspose OCR en tus proyectos Java p
 ### [Reconocer texto PNG con Java – Guía completa de Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 ### [Reconocer texto desde PNG en Java – Guía completa de Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Desbloquea la extracción completa de texto de imágenes PNG usando Aspose OCR en Java. Sigue este tutorial paso a paso.
+### [Reconocer texto de imagen con Aspose OCR – guía completa Java](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Aprende a extraer texto de imágenes usando Aspose OCR en Java con esta guía paso a paso.
 
 ## Preguntas frecuentes
 

@@ -197,6 +197,8 @@ weight: 21
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες PNG με το Aspose OCR σε Java.
 ### [Αναγνώριση κειμένου από PNG σε Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από αρχεία PNG με το Aspose OCR σε Java.
+### [Αναγνώριση κειμένου από εικόνα με Aspose OCR – πλήρης οδηγός Java](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+Μάθετε βήμα‑βήμα πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose OCR σε Java.
 
 ## Συχνές Ερωτήσεις
 
