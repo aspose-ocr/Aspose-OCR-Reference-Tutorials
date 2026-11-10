@@ -198,6 +198,8 @@ Aspose OCR을 활용해 Java에서 이미지 파일을 텍스트로 변환하는
 Aspose.OCR을 활용해 Java에서 검색 가능한 PDF를 만드는 전체 과정을 단계별로 안내합니다.
 ### [Aspose OCR 라이선스 튜토리얼 – Java 설정 가이드](./aspose-ocr-license-tutorial-java-setup-guide/)
 Java 환경에서 Aspose OCR 라이선스를 설정하고 적용하는 단계별 가이드입니다.
+### [Java로 PNG 텍스트 인식 – 전체 Aspose OCR 가이드](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Aspose OCR을 사용해 Java에서 PNG 이미지의 텍스트를 완전하게 인식하는 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

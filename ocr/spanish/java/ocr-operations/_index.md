@@ -202,6 +202,8 @@ Desbloquea la creación de PDFs buscables en Java con Aspose.OCR. Sigue esta gu�
 Convierte imágenes a texto en Java con Aspose OCR. Sigue esta guía completa paso a paso para obtener resultados precisos.
 ### [Tutorial de licencia Aspose OCR – Guía de configuración Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 Aprende a configurar y aplicar la licencia de Aspose OCR en tus proyectos Java paso a paso.
+### [Reconocer texto PNG con Java – Guía completa de Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Desbloquea la extracción completa de texto de imágenes PNG usando Aspose OCR en Java. Sigue este tutorial paso a paso.
 
 ## Preguntas frecuentes
 

@@ -205,6 +205,8 @@ Kompletny przewodnik, jak w Javie stworzyć przeszukiwalny plik PDF przy użyciu
 Kompletny przewodnik, jak w Javie konwertować obrazy na tekst przy użyciu Aspose OCR.
 ### [Samouczek licencji Aspose OCR – Przewodnik konfiguracji w Javie](./aspose-ocr-license-tutorial-java-setup-guide/)
 Kompletny przewodnik, jak skonfigurować licencję Aspose OCR w Javie.
+### [Rozpoznawanie tekstu PNG w Javie – Pełny przewodnik Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Pełny przewodnik po rozpoznawaniu tekstu w formacie PNG przy użyciu Aspose OCR w Javie, obejmujący wszystkie kluczowe kroki.
 
 ## Najczęściej zadawane pytania
 

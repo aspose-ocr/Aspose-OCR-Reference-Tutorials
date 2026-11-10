@@ -194,6 +194,8 @@ weight: 21
 ### [แปลงภาพเป็นข้อความใน Java ด้วย Aspose OCR – คู่มือเต็ม](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
 เรียนรู้วิธีแปลงภาพเป็นข้อความด้วย Aspose OCR ใน Java อย่างละเอียด ตั้งแต่การตั้งค่าไปจนถึงการดึงข้อความ  
 ### [คู่มือใบอนุญาต Aspose OCR – การตั้งค่า Java](./aspose-ocr-license-tutorial-java-setup-guide/)
+### [จดจำข้อความ PNG ด้วย Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java  
 
 
 

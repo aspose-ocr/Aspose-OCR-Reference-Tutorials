@@ -193,6 +193,8 @@ weight: 21
 Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο σε Java με το Aspose OCR – πλήρης οδηγός βήμα‑βήμα.
 ### [Οδηγός Άδειας Aspose OCR – Ρύθμιση για Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 Μάθετε πώς να εγκαταστήσετε και να ενεργοποιήσετε την άδεια Aspose OCR σε έργα Java.
+### [Αναγνώριση κειμένου PNG με Java – Πλήρης Οδηγός Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Αποκτήστε πλήρη καθοδήγηση για την αναγνώριση κειμένου από εικόνες PNG με το Aspose OCR σε Java.
 
 ## Συχνές Ερωτήσεις
 

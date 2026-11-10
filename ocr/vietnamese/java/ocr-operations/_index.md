@@ -207,6 +207,8 @@ Hướng dẫn chi tiết tạo PDF có thể tìm kiếm trong Java bằng Aspo
 Hướng dẫn chi tiết cách sử dụng Aspose OCR trong Java để chuyển đổi hình ảnh sang văn bản, bao gồm cấu hình, xử lý và xuất kết quả.
 ### [Hướng dẫn giấy phép Aspose OCR – Cài đặt Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 Hướng dẫn chi tiết cách cấu hình giấy phép Aspose OCR trong môi trường Java để kích hoạt đầy đủ tính năng OCR.
+### [Nhận dạng văn bản PNG với Aspose OCR – Hướng dẫn Java đầy đủ](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Khám phá cách nhận dạng ảnh PNG trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
 
 ## Câu hỏi Thường gặp
 

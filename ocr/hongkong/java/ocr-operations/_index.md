@@ -197,6 +197,8 @@ weight: 21
 完整教學示範如何在 Java 使用 Aspose OCR 將圖像檔案轉換為可編輯文字，涵蓋設定與最佳化技巧。
 ### [Aspose OCR 授權教學 – Java 設定指南](./aspose-ocr-license-tutorial-java-setup-guide/)
 說明如何在 Java 專案中設定 Aspose OCR 授權，以確保 OCR 功能正常運作。
+### [使用 Java 識別 PNG 文字 – 完整 Aspose OCR 指南](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+完整的 Java OCR 教學，示範如何使用 Aspose OCR 識別 PNG 圖像文字。
 
 ## 常見問題
 

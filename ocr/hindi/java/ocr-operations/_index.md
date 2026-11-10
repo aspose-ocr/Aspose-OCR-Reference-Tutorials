@@ -197,13 +197,14 @@ TIFF इमेज को सर्चेबल PDF में बदलने क
 ### [Java में OCR लाइसेंस URL लोड करें – ट्रायल वॉटरमार्क हटाएँ](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Java एप्लिकेशन में OCR लाइसेंस URL सेट करके ट्रायल वॉटरमार्क हटाने की प्रक्रिया सीखें।
 ### [Aspose OCR के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Java OCR ट्यूटोरियल](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Aspose OCR का उपयोग करके इमेल से टेक्स्ट निकालने की पूरी प्रक्रिया, Java कोड उदाहरणों के साथ।
 ### [Java में सर्चेबल PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-in-java-complete-guide/)
 Java में Aspose.OCR का उपयोग करके सर्चेबल PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [Aspose OCR का उपयोग करके इमेज को टेक्स्ट में बदलें – पूर्ण Java गाइड](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
 Aspose OCR का उपयोग करके जावा में इमेज को टेक्स्ट में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [Aspose OCR लाइसेंस ट्यूटोरियल – Java सेटअप गाइड](./aspose-ocr-license-tutorial-java-setup-guide/)
 Java में Aspose OCR लाइसेंस को सेटअप करने और सक्रिय करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java के साथ PNG टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Java में PNG इमेज से टेक्स्ट निकालने के लिए Aspose OCR का पूर्ण गाइड, कोड उदाहरणों सहित।
 
 ## अक्सर पूछे जाने वाले सवाल
 

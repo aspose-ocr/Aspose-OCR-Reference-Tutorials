@@ -189,6 +189,8 @@ weight: 21
 
 ### [Руководство по лицензированию Aspose OCR – настройка Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 Пошаговое руководство по установке и активации лицензии Aspose OCR в Java‑приложениях.
+### [Распознавание текста PNG с Java – Полный гид Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Полный туториал по распознаванию текста в PNG‑изображениях с Aspose OCR для Java.
 
 ## Часто задаваемые вопросы
 

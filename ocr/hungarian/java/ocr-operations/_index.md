@@ -175,6 +175,8 @@ Lépésről lépésre bemutatjuk, hogyan hozhatsz létre kereshető PDF-et Java 
 Fedezd fel, hogyan konvertálhatsz képeket szöveggé Java-ban az Aspose OCR segítségével, lépésről lépésre útmutató.
 ### [Aspose OCR licenc tutorial – Java beállítási útmutató](./aspose-ocr-license-tutorial-java-setup-guide/)
 Ismerd meg, hogyan állítsd be és aktiváld az Aspose OCR licencet Java környezetben a zökkenőmentes használathoz.
+### [PNG szöveg felismerése Java-val – Teljes Aspose OCR útmutató](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Fedezd fel, hogyan ismerheted fel a PNG képek szövegét Java-ban az Aspose OCR segítségével, lépésről lépésre útmutató.
 
 ## Gyakran Ismételt Kérdések
 

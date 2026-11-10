@@ -198,6 +198,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR für Java ein durchsuchbares PDF erstellen 
 Erfahren Sie, wie Sie Bilder in Java mit Aspose OCR vollständig in editierbaren Text umwandeln – Schritt‑für‑Schritt‑Anleitung.
 ### [Aspose OCR Lizenz‑Tutorial – Java‑Einrichtungs‑Guide](./aspose-ocr-license-tutorial-java-setup-guide/)
 Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz in Java einrichten und aktivieren, um OCR‑Funktionen produktiv zu nutzen.
+### [PNG-Text mit Java erkennen – Vollständiges Aspose OCR‑Tutorial](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von PNG‑Bildern mit Aspose OCR in Java erklärt.
 
 ## Häufig gestellte Fragen
 

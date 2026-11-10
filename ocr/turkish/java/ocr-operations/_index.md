@@ -160,6 +160,8 @@ Java uygulamanızda Aspose.OCR kullanarak PDF dosyalarını aranabilir hale geti
 Java uygulamanızda Aspose OCR ile görüntüleri metne dönüştürmenin adım adım tam rehberi.
 ### [Aspose OCR Lisans Öğreticisi – Java Kurulum Kılavuzu](./aspose-ocr-license-tutorial-java-setup-guide/)
 Java projelerinizde Aspose OCR lisansını nasıl ekleyeceğinizi ve lisans doğrulamasını adım adım gösteren kapsamlı bir rehber.
+### [Java ile PNG Metni Tanıma – Tam Aspose OCR Rehberi](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Java kullanarak PNG görüntülerinden metin tanıma sürecini adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

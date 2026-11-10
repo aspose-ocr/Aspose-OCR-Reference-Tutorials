@@ -190,6 +190,8 @@ Kompletní návod, jak v Javě pomocí Aspose.OCR vytvořit prohledávatelný PD
 Kompletní návod, jak v Javě pomocí Aspose OCR převést obrázek na editovatelný text s vysokou přesností.
 ### [Aspose OCR licenční tutoriál – nastavení pro Javu](./aspose-ocr-license-tutorial-java-setup-guide/)
 Naučte se, jak správně nastavit a aktivovat licenci Aspose.OCR v Java aplikacích.
+### [Rozpoznání textu PNG pomocí Javy – Kompletní průvodce Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Kompletní návod, jak pomocí Aspose.OCR pro Java rozpoznat text v PNG obrázcích a získat vysoce přesné výsledky.
 
 ## Často kladené otázky
 

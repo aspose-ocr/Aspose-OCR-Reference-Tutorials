@@ -194,6 +194,8 @@ Aspose.OCR for Java を使用して、PDF を検索可能な形式に変換す�
 Aspose OCR を活用し、Java で画像からテキストを抽出する手順をステップバイステップで解説します。
 ### [Aspose OCR ライセンス チュートリアル – Java 設定ガイド](./aspose-ocr-license-tutorial-java-setup-guide/)
 Aspose OCR のライセンス取得方法と Java 環境への設定手順をステップバイステップで解説します。
+### [JavaでPNGテキストを認識 – 完全 Aspose OCR ガイド](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Aspose OCR を使用して PNG 画像からテキストを抽出する完全な Java チュートリアルです。ステップバイステップで解説します。
 
 ## よくある質問
 

@@ -198,6 +198,8 @@ Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à ce gui
 Apprenez à convertir des images en texte en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 ### [Tutoriel de licence Aspose OCR – Guide d'installation Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 Apprenez à configurer et activer votre licence Aspose OCR dans une application Java étape par étape.
+### [Reconnaître le texte PNG avec Java – Guide complet Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Apprenez à extraire du texte d'images PNG en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 
 ## Foire aux questions
 
