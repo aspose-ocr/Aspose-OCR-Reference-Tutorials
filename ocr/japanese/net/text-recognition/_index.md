@@ -78,6 +78,8 @@ Aspose OCR を使用して、画像からテキストを認識し、結果を JS
 Aspose.OCR を使用して画像からテキストを抽出し、インデントされた JSON 形式でエクスポートする手順を詳しく解説します。
 ### [Aspose OCR で画像を JSON に変換する – 完全 C# ガイド](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
 Aspose.OCR を使用して C# アプリケーションで画像を JSON 形式に変換し、完全な手順で実装する方法を解説します。
+### [C# で OCR 画像を JSON に変換する方法 – Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Aspose.OCR を使用して C# で OCR 画像を JSON 形式に変換する手順をステップバイステップで解説します。
 ### [OCR画像認識のOCR検出領域モード](./ocr-detect-areas-mode/)
 Aspose.OCR を使用して .NET アプリケーションを強化し、画像テキストを効率的に認識します。正確な結果を得るには、OCR 領域検出モードを調べてください。
 

@@ -29,6 +29,9 @@ Explore os recursos do Aspose.OCR for .NET e transforme a maneira como você lid
 
 Liberte todo o potencial do Aspose.OCR para .NET aprendendo como obter resultados de OCR no formato JSON sem esforço. Este guia passo a passo garante uma jornada tranquila para aprimorar seus recursos de reconhecimento de imagem. Aumente a eficiência do seu aplicativo com os recursos robustos e a tecnologia líder do setor do Aspose.OCR.
 
+### [Como converter uma imagem OCR para JSON em C# com Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Aprenda a transformar imagens OCR em JSON usando Aspose.OCR em C# passo a passo.
+
 ## Modo de detecção de áreas de OCR no reconhecimento de imagem OCR
 
 A eficiência é fundamental em aplicativos .NET e o Aspose.OCR está aqui para ajudá-lo a conseguir exatamente isso. Mergulhe no tutorial do modo de detecção de áreas de OCR para obter resultados precisos no reconhecimento de texto de imagem. Eleve seus projetos com os recursos avançados do Aspose.OCR, proporcionando precisão e velocidade no reconhecimento de texto.
@@ -305,7 +308,7 @@ Aprenda a extrair texto de imagens usando Aspose OCR em C#. Siga nosso guia pass
 ### [Tutorial c# OCR – Extrair texto de imagens e exportar para JSON](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
 Aprenda a extrair texto de imagens e exportar os resultados em JSON usando Aspose OCR em C#.
 ### [Como fazer OCR de imagem em C# – Converter JPG para ePub](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
-Aprenda a usar Aspose.OCR em C# para converter imagens JPG em ePub, extraindo texto e criando ebooks de forma simples.
+Aprenda a usar Aspose.OCR em C# para converter imagens JPG em ePub, extrair texto e criar ebooks de forma simples.
 ### [Reconhecer texto russo com Aspose OCR C# – Guia completo de PDF multipágina](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Siga o guia passo a passo para extrair texto russo de PDFs de várias páginas com Aspose OCR em C#.
 ### [Reconhecer texto chinês offline – Tutorial completo C# OCR](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)

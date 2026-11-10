@@ -277,6 +277,8 @@ Scopri come riconoscere testo in C#, visualizzare il conteggio dei caratteri e c
 
 ### [Come riconoscere il testo da immagine con Aspose.OCR in C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Scopri come utilizzare Aspose.OCR in C# per estrarre testo da un'immagine in pochi passaggi.
+### [Come convertire un'immagine OCR in JSON in C# con Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Scopri come convertire le immagini OCR in formato JSON usando Aspose.OCR in C# passo passo.
 
 
 

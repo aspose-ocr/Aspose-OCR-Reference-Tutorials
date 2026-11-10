@@ -274,6 +274,8 @@ url: /ru/net/text-recognition/
 
 ### [Как распознать текст с изображения с помощью Aspose.OCR в C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Пошаговое руководство по распознаванию текста с изображений с использованием Aspose.OCR в C#.
+### [Как конвертировать OCR‑изображение в JSON в C# с Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Пошаговое руководство по преобразованию OCR‑изображения в JSON с помощью Aspose.OCR в C#.
 
 
 

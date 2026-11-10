@@ -43,6 +43,9 @@ url: /th/net/text-recognition/
 ### [วิธีทำ OCR PDF ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-ocr-pdf-in-c-step-by-step-guide/)
 เรียนรู้วิธีทำ OCR บนไฟล์ PDF ด้วย C# อย่างละเอียดตามขั้นตอนเพื่อการแยกข้อความที่แม่นยำและง่ายดาย
 
+### [วิธีทำ OCR PDF ด้วย Aspose: แปลง, ส่งออก & ค้นหา](./how-to-ocr-pdf-with-aspose-convert-export-search/)
+เรียนรู้วิธี OCR PDF ด้วย Aspose เพื่อแปลง ส่งออก และค้นหาข้อความในไฟล์ได้อย่างง่ายดาย
+
 ### [สร้าง PDF ที่ค้นหาได้จากรูปภาพใน C# – คู่มือฉบับสมบูรณ์](./create-searchable-pdf-from-image-in-c-complete-guide/)
 เรียนรู้ขั้นตอนการสร้าง PDF ที่ค้นหาได้จากรูปภาพด้วย C# และ Aspose.OCR อย่างครบถ้วนในคู่มือฉบับสมบูรณ์
 ### [สร้าง PDF ที่ค้นหาได้จากภาพสแกน – คู่มือ C#](./create-searchable-pdf-from-scanned-image-c-guide/)
@@ -264,7 +267,8 @@ url: /th/net/text-recognition/
 ### [วิธีจดจำข้อความจากรูปภาพด้วย Aspose.OCR ใน C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างง่ายดาย
 
-
+### [วิธีแปลงภาพ OCR เป็น JSON ใน C# ด้วย Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+เรียนรู้วิธีแปลงผลลัพธ์ OCR เป็นรูปแบบ JSON ด้วย C# อย่างละเอียด
 
 ### [จดจำข้อความ PNG ด้วย Aspose OCR .NET – คู่มือ OCR ภายในเครื่องเต็มรูปแบบ](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 เรียนรู้วิธีใช้ Aspose OCR .NET เพื่อจดจำข้อความจากไฟล์ PNG อย่างครบถ้วนในสภาพแวดล้อมแบบออฟไลน์

@@ -53,6 +53,8 @@ Pelajari cara melakukan OCR pada gambar di C# dan mengonversi hasilnya ke format
 
 ### [Mengonversi Gambar ke JSON dengan Aspose OCR – Panduan Lengkap C#](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
 Pelajari cara mengonversi gambar menjadi JSON dengan Aspose OCR menggunakan C# dalam panduan lengkap langkah demi langkah.
+### [Cara mengonversi gambar OCR ke JSON di C# dengan Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Pelajari cara mengonversi hasil OCR menjadi format JSON menggunakan Aspose.OCR di C#.
 ### [Mode Deteksi Area OCR dalam Pengenalan Gambar OCR](./ocr-detect-areas-mode/)
 Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan teks gambar yang efisien. Jelajahi Mode Deteksi Area OCR untuk hasil yang presisi.
 ### [Kenali PDF dalam Pengenalan Gambar OCR](./recognize-pdf/)

@@ -27,7 +27,7 @@ url: /zh-hant/net/text-recognition/
 
 ## 在 OCR 影像辨識中取得 JSON 格式的結果
 
-透過學習如何輕鬆獲得 JSON 格式的 OCR 結果，釋放 Aspose.OCR for .NET 的全部潛力。本逐步指南可確保您順利增強影像辨識能力。利用 Aspose.OCR 強大的功能和業界領先的技術來提高應用程式的效率。
+釋放 Aspose.OCR for .NET 的強大功能。學習如何輕鬆獲得 JSON 格式的 OCR 結果。透過本逐步指南增強您的影像辨識能力。
 
 ## OCR影像辨識中的OCR偵測區域模式
 
@@ -50,9 +50,10 @@ url: /zh-hant/net/text-recognition/
 探索 Aspose.OCR for .NET，這是一款功能強大的 OCR 解決方案，可實現圖像中的無縫文字辨識。
 
 ### [在 OCR 影像辨識中取得 JSON 格式的結果](./get-result-as-json/)
-釋放 Aspose.OCR for .NET 的強大功能。學習輕鬆取得 JSON 格式的 OCR 結果。透過本逐步指南增強您的影像辨識能力。
 ### [使用 Aspose OCR 將影像轉換為 JSON – 步驟說明指南](./convert-image-to-json-with-aspose-ocr-step-by-step-guide/)
 學習如何使用 Aspose OCR 將影像資料轉換為 JSON 格式，提供清晰的步驟指引。
+### [如何在 C# 中使用 Aspose.OCR 將 OCR 圖像轉換為 JSON](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+說明如何在 C# 中使用 Aspose.OCR 將 OCR 圖像的結果匯出為 JSON 格式，提供完整步驟與範例。
 
 ### [Aspose OCR 範例 – 將影像文字轉換為 JSON（C#）](./aspose-ocr-example-convert-image-text-to-json-in-c/)
 使用 Aspose.OCR 在 C# 中將影像文字轉換為 JSON 格式，快速取得結構化辨識結果。

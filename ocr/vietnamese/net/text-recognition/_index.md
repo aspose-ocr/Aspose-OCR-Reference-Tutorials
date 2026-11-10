@@ -289,6 +289,8 @@ Khám phá cách sử dụng Aspose OCR trong C# để nhận dạng văn bản,
 
 
 ### [Cách nhận dạng văn bản từ hình ảnh với Aspose.OCR trong C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
+### [Cách chuyển đổi hình ảnh OCR sang JSON trong C# với Aspose OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Hướng dẫn chi tiết cách chuyển đổi hình ảnh OCR thành định dạng JSON trong C# bằng Aspose.OCR.
 
 
 

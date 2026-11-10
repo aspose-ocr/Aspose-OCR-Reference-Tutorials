@@ -288,6 +288,8 @@ Apprenez à extraire du texte d'images et à obtenir les résultats OCR au forma
 
 ### [Comment reconnaître du texte à partir d'une image avec Aspose.OCR en C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Apprenez à extraire du texte d'une image en C# avec Aspose.OCR grâce à ce guide rapide.
+### [Comment convertir une image OCR en JSON en C# avec Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Apprenez à transformer les résultats OCR d’une image en format JSON en C# avec Aspose.OCR.
 
 
 

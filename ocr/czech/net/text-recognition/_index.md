@@ -46,20 +46,10 @@ Procházejte složitosti rozpoznávání tabulek v rozpoznávání obrázků OCR
 
 Jste připraveni na revoluci ve svých aplikacích .NET? Ponořte se do našich výukových programů pro rozpoznávání textu a využijte sílu Aspose.OCR pro přesné a efektivní rozpoznávání textu v obrázcích. Stáhněte si nyní a vydejte se na cestu vylepšených schopností OCR.
 ## Výukové programy pro rozpoznávání textu
-### [Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu OCR](./get-choices-for-recognized-characters/)
-Vylepšete své .NET aplikace pomocí Aspose.OCR pro přesné rozpoznávání znaků. Postupujte podle našeho podrobného průvodce a načtěte volby pro rozpoznané znaky při rozpoznávání obrázků.
-### [Získejte výsledek rozpoznávání v rozpoznávání obrazu OCR](./get-recognition-result/)
-Prozkoumejte Aspose.OCR for .NET, výkonné řešení OCR pro bezproblémové rozpoznávání textu v obrázcích.
-### [Získejte výsledek jako JSON v rozpoznávání obrazu OCR](./get-result-as-json/)
-Uvolněte sílu Aspose.OCR pro .NET. Naučte se snadno získávat výsledky OCR ve formátu JSON. Vylepšete rozpoznávání obrázků pomocí tohoto podrobného průvodce.
 ### [Převod obrázku na JSON s Aspose OCR C# průvodcem](./convert-image-to-json-with-aspose-ocr-c-guide/)
 Naučte se, jak pomocí Aspose OCR v C# převést obrázek na formát JSON a získat strukturované výsledky OCR.
-### [OCR Detect Areas Mode v OCR Image Recognition](./ocr-detect-areas-mode/)
-Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
 ### [Rozpoznat text z obrázku v C# – Kompletní průvodce s exportem do JSON](./recognize-image-text-in-c-full-guide-with-json-export/)
 Kompletní návod, jak v C# pomocí Aspose.OCR rozpoznat text z obrázku a exportovat výsledek ve formátu JSON.
-### [Rozpoznat PDF v OCR Image Recognition](./recognize-pdf/)
-Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Jak vytvořit prohledávatelný PDF z JPG – krok za krokem](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
 Naučte se převést JPG na prohledávatelný PDF pomocí Aspose.OCR v .NET během několika jednoduchých kroků.
 
@@ -201,6 +191,18 @@ Naučte se pomocí Aspose OCR převést obrázek do formátu DOCX v C# krok za k
 Naučte se, jak pomocí Aspose.OCR v C# provádět dávkové převody obrázků na text v kompletním průvodci.
 ### [Vytvořte prohledávatelný PDF z TIFF – kompletní průvodce C#](./create-searchable-pdf-from-tiff-full-c-guide/)
 
+### [Jak převést OCR obrázek na JSON v C# s Aspose.OCR](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
+Naučte se převést výstup OCR obrázku do formátu JSON pomocí Aspose.OCR v C#.
+### [Získejte možnosti pro rozpoznávání znaků v rozpoznávání obrazu OCR](./get-choices-for-recognized-characters/)
+Vylepšete své .NET aplikace pomocí Aspose.OCR pro přesné rozpoznávání znaků. Postupujte podle našeho podrobného průvodce a načtěte volby pro rozpoznané znaky při rozpoznávání obrázků.
+### [Získejte výsledek rozpoznávání v rozpoznávání obrazu OCR](./get-recognition-result/)
+Prozkoumejte Aspose.OCR for .NET, výkonné řešení OCR pro bezproblémové rozpoznávání textu v obrázcích.
+### [Získejte výsledek jako JSON v rozpoznávání obrazu OCR](./get-result-as-json/)
+Uvolněte sílu Aspose.OCR pro .NET. Naučte se snadno získávat výsledky OCR ve formátu JSON. Vylepšete rozpoznávání obrázků pomocí tohoto podrobného průvodce.
+### [OCR Detect Areas Mode v OCR Image Recognition](./ocr-detect-areas-mode/)
+Vylepšete své aplikace .NET pomocí Aspose.OCR pro efektivní rozpoznávání textů obrázků. Prozkoumejte režim OCR Detect Areas Mode pro přesné výsledky.
+### [Rozpoznat PDF v OCR Image Recognition](./recognize-pdf/)
+Odemkněte potenciál OCR v .NET s Aspose.OCR. Extrahujte text z PDF bez námahy. Stáhněte si nyní pro bezproblémovou integraci.
 ### [Převod obrázku na text v C# – Kompletní průvodce OCR](./convert-image-to-text-in-c-complete-ocr-guide/)
 Naučte se, jak pomocí Aspose.OCR v C# převést obrázky na text s podrobným krok za krokem průvodcem.
 ### [Jak provést OCR v C# – Extrahovat text z obrázku pomocí Aspose OCR](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
