@@ -201,6 +201,8 @@ weight: 21
 完整指南，教您在 Java 中获取文件的绝对路径。
 ### [在 C# 中下载所有资源 – 预加载资产指南](./download-all-resources-in-c-guide-to-preloading-assets/)
 提供在 C# 中预加载资源的完整指南，帮助您一次性下载所有资源。
+### [如何使用 Aspose OCR 在 Java 中对图像执行 OCR](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+完整的 Java 示例，演示如何使用 Aspose OCR 对图像进行 OCR 并获取文本结果。
 
 ## 常见问题
 

@@ -169,6 +169,8 @@ Java ile PNG görüntülerinden metin çıkarma sürecini adım adım öğrenin 
 Java'da dosya sisteminde mutlak yol elde etme yöntemlerini adım adım öğrenin.
 ### [C#'da Tüm Kaynakları İndir – Ön Yükleme Varlıkları Rehberi](./download-all-resources-in-c-guide-to-preloading-assets/)
 C# projelerinizde varlıkları önceden yüklemek için tüm kaynakları nasıl indireceğinizi öğrenin.
+### [Java'da Aspose OCR ile Görüntü Üzerinde OCR Nasıl Yapılır](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Java ile bir görüntüde metin tanıma sürecini adım adım öğrenin.
 
 ## Sıkça Sorulan Sorular
 

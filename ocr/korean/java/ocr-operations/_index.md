@@ -208,6 +208,8 @@ Aspose OCR을 활용해 Java에서 이미지 텍스트를 전체적으로 인식
 Java에서 파일의 절대 경로를 얻는 방법을 단계별로 안내합니다.
 ### [C#에서 모든 리소스 다운로드 – 사전 로드 가이드](./download-all-resources-in-c-guide-to-preloading-assets/)
 C# 애플리케이션에서 모든 리소스를 미리 로드하는 방법을 단계별로 안내합니다.
+### [Java에서 Aspose OCR로 이미지 OCR 수행하기](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aspose OCR을 사용해 Java에서 이미지에 OCR을 수행하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

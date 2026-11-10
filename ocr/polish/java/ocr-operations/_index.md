@@ -215,6 +215,8 @@ Szczegółowy tutorial pokazujący, jak używać Aspose OCR w Javie do pełnego 
 Kompletny przewodnik, jak uzyskać absolutną ścieżkę w Javie.
 ### [Pobierz wszystkie zasoby w C# – przewodnik po wstępnym ładowaniu zasobów](./download-all-resources-in-c-guide-to-preloading-assets/)
 Kompletny przewodnik, jak pobrać i wstępnie załadować wszystkie zasoby w aplikacji C#.
+### [Jak wykonać OCR na obrazie przy użyciu Aspose OCR w Javie](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Kompletny przewodnik, jak wykonać OCR na obrazie w Javie przy użyciu Aspose OCR.
 
 ## Najczęściej zadawane pytania
 

@@ -202,6 +202,10 @@ weight: 21
 ### [รับเส้นทางเต็มของ Java – คู่มือฉบับสมบูรณ์](./get-absolute-path-java-complete-guide/)
 เรียนรู้วิธีการดึงเส้นทางเต็มของไฟล์ใน Java อย่างละเอียดและครบถ้วน  
 ### [ดาวน์โหลดทรัพยากรทั้งหมดใน C# – คู่มือการโหลดล่วงหน้า](./download-all-resources-in-c-guide-to-preloading-assets/)
+### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย OCR – คู่มือ Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
+แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
+### [วิธีทำ OCR บนภาพด้วย Aspose OCR ใน Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+เรียนรู้ขั้นตอนการใช้ Aspose OCR เพื่อจดจำข้อความจากภาพใน Java อย่างละเอียด
 
 
 
@@ -232,8 +236,6 @@ weight: 21
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java  
 ### [สร้าง PDF ที่ค้นหาได้จาก PNG – คู่มือ Java ฉบับสมบูรณ์](./create-searchable-pdf-from-png-complete-java-guide/)
 แปลงไฟล์ PNG ให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
-### [สร้าง PDF ที่ค้นหาได้จากภาพด้วย OCR – คู่มือ Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
-แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน
 ### [แปลงรูปภาพเป็นข้อความใน Java – คู่มือการประมวลผล OCR แบบกลุ่ม](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 แปลงรูปภาพเป็นข้อความใน Java ด้วยการประมวลผล OCR แบบกลุ่ม – คู่มือขั้นตอนเต็ม  
 ### [สร้าง PDF ที่ค้นหาได้ด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)

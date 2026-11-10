@@ -210,6 +210,8 @@ Leer stap‑voor‑stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose O
 Leer hoe u het absolute pad van een bestand in Java kunt bepalen met een volledige stap‑voor‑stap‑handleiding.
 ### [Alle resources downloaden in C# – gids voor het vooraf laden van assets](./download-all-resources-in-c-guide-to-preloading-assets/)
 Leer hoe u alle resources in C# kunt downloaden en vooraf kunt laden voor optimale prestaties.
+### [Hoe OCR uit te voeren op een afbeelding met Aspose OCR in Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Leer stap‑voor‑stap hoe u met Aspose OCR in Java tekst uit afbeeldingen haalt.
 
 ## Veelgestelde vragen
 

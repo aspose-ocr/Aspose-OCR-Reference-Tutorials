@@ -199,6 +199,8 @@ Kompletní průvodce rozpoznáním textu z obrázku v Javě pomocí Aspose OCR.
 ### [Získání absolutní cesty v Javě – kompletní průvodce](./get-absolute-path-java-complete-guide/)
 ### [Stáhněte všechny zdroje v C# – průvodce přednačítáním aktiv](./download-all-resources-in-c-guide-to-preloading-assets/)
 Kompletní průvodce stažením všech zdrojů v C# a přednačítáním aktiv.
+### [Jak provést OCR na obrázku pomocí Aspose OCR v Javě](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Naučte se, jak pomocí Aspose OCR v Javě provést OCR na obrázku a získat text.
 
 ## Často kladené otázky
 

@@ -217,6 +217,8 @@ Hướng dẫn chi tiết cách nhận dạng văn bản trong hình ảnh bằn
 Hướng dẫn chi tiết cách lấy đường dẫn tuyệt đối của tệp trong Java, bao gồm các phương pháp và ví dụ thực tế.
 ### [Tải xuống tất cả tài nguyên trong C# – hướng dẫn tải trước các tài nguyên](./download-all-resources-in-c-guide-to-preloading-assets/)
 Hướng dẫn chi tiết cách tải xuống và chuẩn bị trước mọi tài nguyên trong dự án C# để tối ưu hiệu năng.
+### [Cách thực hiện OCR trên hình ảnh với Aspose OCR trong Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR để nhận dạng văn bản từ hình ảnh trong Java.
 
 ## Câu hỏi Thường gặp
 

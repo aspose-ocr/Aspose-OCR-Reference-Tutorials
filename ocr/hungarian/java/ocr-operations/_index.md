@@ -184,6 +184,8 @@ Fedezd fel, hogyan ismerheted fel a képeken lévő szöveget az Aspose OCR seg�
 Ismerd meg, hogyan kaphatod meg egy fájl abszolút útvonalát Java-ban lépésről lépésre.
 ### [Minden erőforrás letöltése C#-ban – útmutató az előtöltéshez](./download-all-resources-in-c-guide-to-preloading-assets/)
 Lépésről lépésre bemutatja, hogyan tölts le minden erőforrást C#-ban az előtöltéshez.
+### [Hogyan végezzünk OCR-t képen az Aspose OCR segítségével Java-ban](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Fedezd fel, hogyan használhatod az Aspose OCR-t képek szövegének kinyerésére Java-ban.
 
 ## Gyakran Ismételt Kérdések
 

@@ -199,6 +199,10 @@ weight: 21
 Полный гид по получению абсолютного пути к файлам в Java, включая примеры кода и лучшие практики.
 ### [Скачивание всех ресурсов в C# – руководство по предзагрузке ассетов](./download-all-resources-in-c-guide-to-preloading-assets/)
 Полное руководство по загрузке всех ресурсов в C# и предзагрузке ассетов для ускорения работы приложений.
+### [Как выполнить OCR изображения с Aspose OCR в Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Полный пошаговый туториал по распознаванию текста на изображениях с использованием Aspose OCR в Java.
+### [Создание поискового PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
 
 ## Часто задаваемые вопросы
 
@@ -243,8 +247,6 @@ A: Обрабатывайте TIFF‑изображения частями ил�
 Создайте поисковый PDF из изображения, используя OCR в Aspose.OCR для Java. Полный пошаговый гид.
 ### [Конвертация изображений в текст в Java – Руководство по пакетной обработке OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Пакетный OCR в Java: конвертируйте множество изображений в текст быстро и точно с помощью Aspose.OCR.
-### [Создание поискового PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
-Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

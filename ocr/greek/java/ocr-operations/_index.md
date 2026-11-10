@@ -202,6 +202,8 @@ weight: 21
 ### [Απόκτηση απόλυτης διαδρομής Java – πλήρης οδηγός](./get-absolute-path-java-complete-guide/)
 ### [Λήψη όλων των πόρων σε C# – οδηγός προφόρτωσης περιουσιακών στοιχείων](./download-all-resources-in-c-guide-to-preloading-assets/)
 Κατεβάστε όλα τα αρχεία πόρων σε C# και μάθετε πώς να προφορτώνετε περιουσιακά στοιχεία για βελτιωμένη απόδοση.
+### [Πώς να εκτελέσετε OCR σε εικόνα με το Aspose OCR σε Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Μάθετε βήμα‑βήμα πώς να εφαρμόσετε OCR σε εικόνες χρησιμοποιώντας το Aspose OCR με Java.
 
 ## Συχνές Ερωτήσεις
 

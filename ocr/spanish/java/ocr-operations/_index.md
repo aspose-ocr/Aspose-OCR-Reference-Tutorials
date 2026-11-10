@@ -211,6 +211,8 @@ Aprende a extraer texto de imágenes usando Aspose OCR en Java con esta guía pa
 Aprende a obtener la ruta absoluta de archivos en Java con ejemplos paso a paso.
 ### [Descargar todos los recursos en C# – guía para precargar activos](./download-all-resources-in-c-guide-to-preloading-assets/)
 Descarga y precarga todos los recursos en C# de forma sencilla con esta guía paso a paso.
+### [Cómo realizar OCR en una imagen con Aspose OCR en Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aprende a ejecutar OCR en imágenes usando Aspose OCR con Java paso a paso.
 
 ## Preguntas frecuentes
 

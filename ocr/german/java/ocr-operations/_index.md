@@ -208,6 +208,8 @@ Ein umfassender Leitfaden zur Texterkennung aus Bildern mit Aspose OCR in Java.
 Erfahren Sie, wie Sie den absoluten Pfad einer Datei in Java ermitteln und nutzen können.
 ### [Alle Ressourcen in C# herunterladen – Anleitung zum Vorladen von Assets](./download-all-resources-in-c-guide-to-preloading-assets/)
 Laden Sie alle Ressourcen in C# herunter und lernen Sie, Assets vorzuladen.
+### [Wie man OCR auf einem Bild mit Aspose OCR in Java durchführt](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern extrahieren.
 
 ## Häufig gestellte Fragen
 

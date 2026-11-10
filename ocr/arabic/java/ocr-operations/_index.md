@@ -194,6 +194,10 @@ weight: 21
 ### [الحصول على المسار المطلق في Java – دليل كامل](./get-absolute-path-java-complete-guide/)
 دليل كامل يشرح كيفية الحصول على المسار المطلق للملفات في Java.
 ### [تحميل جميع الموارد في C# – دليل تحميل مسبق للأصول](./download-all-resources-in-c-guide-to-preloading-assets/)
+### [كيفية إجراء OCR على صورة باستخدام Aspose OCR في Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+دليل خطوة بخطوة لأداء OCR على الصور باستخدام Aspose OCR للـ Java.
+### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
+دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
 
 ## الأسئلة المتكررة
 
@@ -224,8 +228,6 @@ weight: 21
 ### [إنشاء PDF قابل للبحث من صورة باستخدام OCR – دليل Java](./create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 تعلم كيفية تحويل صورة إلى PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 ### [تحويل الصور إلى نص في Java – دليل معالجة OCR الدفعي](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
-### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
-دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

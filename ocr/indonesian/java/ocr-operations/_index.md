@@ -210,6 +210,8 @@ Panduan lengkap untuk mengenali teks pada gambar menggunakan Aspose OCR dengan J
 Panduan lengkap untuk mendapatkan jalur absolut file di Java menggunakan Aspose.
 ### [Unduh Semua Sumber Daya di C# – Panduan Memuat Awal Aset](./download-all-resources-in-c-guide-to-preloading-assets/)
 Panduan lengkap untuk mengunduh semua sumber daya dalam proyek C# dan memuatnya sebelumnya untuk meningkatkan kinerja aplikasi.
+### [Cara melakukan OCR pada gambar dengan Aspose OCR di Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Panduan langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose OCR dengan Java.
 
 ## Pertanyaan yang Sering Diajukan
 

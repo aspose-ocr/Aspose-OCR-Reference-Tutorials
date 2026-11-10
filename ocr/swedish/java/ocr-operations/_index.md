@@ -212,6 +212,8 @@ En fullständig guide som visar hur du använder Aspose OCR för att känna igen
 En komplett guide som visar hur du får den absoluta sökvägen i Java-program.
 ### [Ladda ner alla resurser i C# – guide för förladdning av tillgångar](./download-all-resources-in-c-guide-to-preloading-assets/)
 En komplett guide för att ladda ner alla resurser i C# och förladda dem för optimal prestanda.
+### [Hur du utför OCR på bild med Aspose OCR i Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Lär dig steg‑för‑steg hur du använder Aspose OCR för att känna igen text i bilder med Java.
 
 ## Vanliga frågor
 

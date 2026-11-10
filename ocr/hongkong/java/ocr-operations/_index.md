@@ -206,6 +206,8 @@ weight: 21
 ### [取得絕對路徑 Java – 完整指南](./get-absolute-path-java-complete-guide/)
 完整的 Java 教學，示範如何取得檔案的絕對路徑。
 ### [在 C# 中下載所有資源 – 預載資產指南](./download-all-resources-in-c-guide-to-preloading-assets/)
+### [如何在 Java 中使用 Aspose OCR 執行圖像 OCR](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+完整教學示範如何使用 Aspose OCR 在 Java 中對圖像執行文字識別。
 
 ## 常見問題
 

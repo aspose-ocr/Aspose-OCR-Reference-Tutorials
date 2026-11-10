@@ -212,6 +212,8 @@ Aprenda passo a passo como reconhecer texto em imagens usando Aspose OCR com Jav
 Aprenda a obter o caminho absoluto de arquivos em Java com um guia completo e exemplos práticos.
 ### [Baixar todos os recursos em C# – guia de pré‑carregamento de ativos](./download-all-resources-in-c-guide-to-preloading-assets/)
 Aprenda a baixar e pré‑carregar todos os recursos em C# para melhorar o desempenho da sua aplicação.
+### [Como realizar OCR em imagem com Aspose OCR em Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aprenda a aplicar OCR em imagens usando Aspose OCR com Java, passo a passo.
 
 ## Perguntas Frequentes
 
