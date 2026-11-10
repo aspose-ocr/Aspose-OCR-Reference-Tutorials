@@ -1,36 +1,26 @@
 ---
 category: general
-date: 2026-08-15
-description: Jak szybko wykonać OCR w Pythonie. Dowiedz się, jak wyodrębnić tekst
-  z PNG, załadować obraz do OCR i poprawić dokładność OCR za pomocą post‑procesowania
-  AI.
+date: 2026-01-12
+description: Jak szybko wykonać OCR i przekształcić obraz w tekst. Dowiedz się, jak
+  rozpoznawać znaki specjalne, wyodrębniać tekst z obrazu i ładować obraz do OCR przy
+  użyciu kompletnego przykładu w Pythonie.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to perform OCR
-- extract text from PNG
-- improve OCR accuracy
+- convert image to text
+- recognize special characters
+- extract text from image
 - load image for OCR
 language: pl
-lastmod: 2026-08-15
-og_description: Jak wykonać OCR w Pythonie, wyjaśniono w pierwszym zdaniu. Skorzystaj
-  z tego samouczka, aby wyodrębnić tekst z obrazów PNG, załadować obraz do OCR i zwiększyć
-  dokładność dzięki post‑procesowaniu AI.
-og_image_alt: How to perform OCR example output displayed in a Python console
-og_title: Jak wykonać OCR w Pythonie – kompletny przewodnik dla programistów
-schemas:
-- author: Aspose
-  dateModified: '2026-08-15'
-  description: How to perform OCR in Python quickly. Learn to extract text from PNG,
-    load image for OCR, and improve OCR accuracy with AI post‑processing.
-  headline: How to perform OCR in Python – step‑by‑step guide
-  type: TechArticle
+og_description: Jak wykonać OCR w Pythonie, konwertować obraz na tekst i rozpoznawać
+  znaki specjalne. Skorzystaj z tego praktycznego przewodnika, aby wyodrębnić tekst
+  z obrazów.
+og_title: Jak wykonać OCR w Pythonie – Kompletny poradnik
 tags:
 - OCR
 - Python
-- AI post‑processing
-title: Jak przeprowadzić OCR w Pythonie – przewodnik krok po kroku
+- Image Processing
+title: Jak wykonać OCR w Pythonie – Przewodnik krok po kroku
 url: /pl/python/general/how-to-perform-ocr-in-python-step-by-step-guide/
 ---
 
@@ -38,175 +28,205 @@ url: /pl/python/general/how-to-perform-ocr-in-python-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Jak wykonać OCR w Pythonie – przewodnik krok po kroku
+# Jak wykonać OCR w Pythonie – Przewodnik krok po kroku
 
-Wykonywanie OCR w Pythonie jest częstym wymogiem, gdy trzeba zdigitalizować zeskanowane dokumenty lub paragony. W tym samouczku nauczysz się wyodrębniać tekst z plików PNG, ładować obraz do OCR oraz poprawiać dokładność OCR, stosując post‑procesor oparty na AI.
+Czy kiedykolwiek potrzebowałeś **wykonać OCR** na zrzucie ekranu zawierającym zarówno znaki łacińskie, jak i cyrylicę? Nie jesteś sam. W wielu projektach — czy to digitalizacja paragonów, indeksowanie dokumentów wielojęzycznych, czy budowanie przeszukiwalnego archiwum — **jak wykonać OCR** szybko staje się najważniejszym pytaniem.  
 
-Zobaczysz kompletny, gotowy do uruchomienia przykład, który zaczyna się od wczytania obrazu, uruchomienia podstawowego silnika OCR i kończy się tekstem wzbogaconym przez AI. Nie potrzebujesz dodatkowej dokumentacji – po prostu podążaj za krokami, skopiuj kod i uruchom go na swoim komputerze.
+W tym samouczku przeprowadzimy Cię przez kompletny, działający przykład, który pokaże, jak **konwertować obraz na tekst**, **rozpoznawać znaki specjalne** oraz **wyodrębniać tekst z obrazu** przy użyciu prostej biblioteki Pythona. Po zakończeniu będziesz mieć gotowy do uruchomienia skrypt, który wczytuje obraz do OCR, obsługuje treść wielojęzyczną i wypisuje wynik.
 
-## Wymagania wstępne
+## Czego będziesz potrzebować
 
-Zanim rozpoczniesz, upewnij się, że masz:
+- Python 3.8+ zainstalowany na Twoim komputerze.  
+- Pakiet `ocr` (lub dowolna kompatybilna biblioteka OCR) zainstalowany za pomocą `pip install ocr`.  
+- Plik obrazu (`multilingual.png`) zawierający zarówno glify łacińskie, jak i cyrylicę.  
+- Podstawowy edytor tekstu lub IDE — VS Code, PyCharm, a nawet prosty Notatnik wystarczy.  
 
-* Python 3.9 lub nowszy zainstalowany.
-* Pakiet `ocr-engine` (symboliczny dla dowolnej biblioteki OCR, takiej jak Aspose.OCR, Tesseract‑wrapper itp.).
-* Bibliotekę pomocniczą AI, która udostępnia metodę `run_postprocessor` (np. lekki wrapper OpenAI).
-* Przykładowy obraz PNG (np. `sample_invoice.png`) umieszczony w znanym katalogu.
+Jeśli nie masz pakietu `ocr`, możesz zamienić go na `pytesseract` przy kilku drobnych zmianach; podstawowe koncepcje pozostają takie same.
 
-Wymagane pakiety możesz zainstalować poleceniem:
+## Krok 1: Zainstaluj i zaimportuj bibliotekę OCR
 
-```bash
-pip install ocr-engine ai-helper
-```
-
-> **Wskazówka:** Jeśli wolisz otwarto‑źródłowy silnik OCR, zamień `ocr-engine` na `pytesseract` i odpowiednio dostosuj kod. Ogólny przebieg pozostaje taki sam.
-
-## Krok 1: Utwórz instancję silnika OCR
-
-Pierwszym zadaniem jest zainicjowanie silnika OCR. Ten obiekt obsługuje niskopoziomową analizę obrazu i rozpoznawanie znaków.
+Najpierw przygotujmy silnik OCR. Zaimportujemy bibliotekę, utworzymy instancję silnika i skonfigurujemy ją pod wsparcie wielojęzyczne.
 
 ```python
-from ocr_engine import OcrEngine   # Replace with your actual OCR library import
+# Install the library (run this once in your terminal)
+# pip install ocr
 
-# Initialize the OCR engine
-engine = OcrEngine()
+import ocr
+
+# Step 1: Create an OCR engine instance
+engine = ocr.OcrEngine()
+
+# Optional: Enable language packs for Latin and Cyrillic
+engine.set_languages(['eng', 'rus'])  # 'eng' = English, 'rus' = Russian
 ```
 
-Utworzenie silnika raz i ponowne użycie go dla wielu obrazów zmniejsza narzut inicjalizacji i zapewnia spójne ustawienia.
+**Dlaczego to jest ważne:**  
+Utworzenie silnika jest podstawą — bez niego nie będziesz mógł później **wczytać obrazu do OCR**. Włączenie pakietów językowych zapewnia, że silnik prawidłowo rozpozna znaki takie jak „Ŀ”, „Ҕ” i „Ǣ”. Jeśli pominiesz ten krok, otrzymasz zniekształcony wynik dla skryptów nie‑łacińskich.
 
-## Krok 2: Wczytaj obraz, który chcesz rozpoznać
+## Krok 2: Wczytaj obraz zawierający tekst wielojęzyczny
 
-Wczytanie właściwego formatu pliku jest kluczowe. Poniżej pokazujemy, jak wczytać obraz PNG, który jest typowym formatem dla zeskanowanych faktur i paragonów.
+Teraz skierujemy silnik na plik, który chcemy przetworzyć. Ścieżka może być bezwzględna lub względna; po prostu upewnij się, że wskazuje na czytelny obraz.
 
 ```python
-import os
-
-# Define the path to the PNG file you want to process
-image_path = os.path.join("YOUR_DIRECTORY", "sample_invoice.png")
-
-# Load the image into the OCR engine
+# Step 2: Load the image containing multilingual text
+image_path = "YOUR_DIRECTORY/multilingual.png"  # replace with your actual path
 engine.load_image(image_path)
 ```
 
-Metoda `load_image` odczytuje plik do pamięci i przygotowuje go do rozpoznania. Jeśli plik nie zostanie znaleziony, silnik zgłosi informacyjną wyjątkową sytuację, co pozwala elegancko obsłużyć brakujące pliki.
+> ![przykład jak wykonać OCR](/images/ocr-example.png "jak wykonać OCR na obrazie wielojęzycznym")
 
-## Krok 3: Wykonaj podstawową operację OCR
+**Dlaczego to jest ważne:**  
+Wywołanie `load_image` odczytuje dane pikseli do pamięci, przygotowując je do algorytmu OCR. Jeśli obraz jest duży, silnik może automatycznie zmniejszyć jego rozdzielczość; później możesz to dopasować za pomocą `engine.set_max_resolution(3000)` dla skanów wysokiej rozdzielczości.
 
-Po wczytaniu obrazu wywołaj metodę `recognize` silnika OCR. Zwraca ona obiekt wynikowy zawierający surowy tekst.
+## Krok 3: Uruchom proces rozpoznawania
 
-```python
-# Run the OCR process
-plain_result = engine.recognize()
-
-# Display the raw OCR output
-print("Raw OCR:", plain_result.text)
-```
-
-Wynik zazwyczaj zawiera podziały wierszy i sporadyczne błędy rozpoznania, szczególnie przy skanach o niskiej rozdzielczości. W tym momencie udało Ci się **wyodrębnić tekst z PNG** przy użyciu podstawowego potoku OCR.
-
-### Przykładowy surowy wynik
-
-```
-Raw OCR: Invoice #12345
-Date: 2023/07/15
-Total: $1,234.56
-```
-
-## Krok 4: Popraw tekst OCR przy użyciu post‑procesora AI
-
-Podstawowy OCR może mieć problemy z zaszumionym tłem, nietypowymi czcionkami lub odręcznymi notatkami. Post‑procesor AI może wyczyścić surowy ciąg znaków, poprawić pisownię i nawet przekształcić dane.
+Po przygotowaniu silnika i wczytaniu obrazu możemy w końcu wyodrębnić treść tekstową.
 
 ```python
-from ai_helper import AIHelper   # Replace with your actual AI helper import
-
-# Initialize the AI helper (assumes you have set up API keys elsewhere)
-ai = AIHelper()
-
-# Run the AI‑based post‑processor on the raw OCR text
-enhanced_text = ai.run_postprocessor(plain_result.text)
-
-# Show the AI‑enhanced result
-print("AI‑enhanced OCR:", enhanced_text)
+# Step 3: Perform OCR recognition on the loaded image
+result = engine.recognize()
 ```
 
-Model AI analizuje surowy ciąg, naprawia typowe błędy OCR (np. „1,234.56” → „1,234.56”) i może nawet uzupełnić brakujące pola.
+**Dlaczego to jest ważne:**  
+`recognize()` uruchamia za kulisami ciężką sieć neuronową. Zwraca obiekt zawierający surowy tekst, wyniki pewności oraz nawet ramki ograniczające, jeśli potrzebujesz ich do wizualnego debugowania.
 
-### Przykładowy poprawiony wynik
+## Krok 4: Wyświetl rozpoznany tekst
 
-```
-AI‑enhanced OCR: Invoice #12345
-Date: 2023‑07‑15
-Total: $1,234.56
-```
-
-Stosując ten krok, **zwiększasz dokładność OCR** bez modyfikowania niskopoziomowych parametrów silnika.
-
-## Pełny, uruchamialny skrypt
-
-Połączenie wszystkich elementów daje pojedynczy skrypt, który możesz uruchomić od razu:
+Zobaczmy, co silnik znalazł. Wypiszemy tekst w konsoli, ale możesz go także zapisać do pliku lub bazy danych.
 
 ```python
+# Step 4: Output the recognized text, which should include characters like “Ŀ”, “Ҕ”, “Ǣ”
+print("=== OCR Result ===")
+print(result.text)
+```
+
+### Oczekiwany wynik
+
+```
+=== OCR Result ===
+Hello, world! Ŀ is a Latin‑extended character.
+Привет, мир! Ҕ is a Cyrillic character.
+Special combo: Ǣ is a ligature.
+```
+
+Jeśli zobaczysz coś podobnego, gratulacje — udało Ci się **konwertować obraz na tekst** i **rozpoznawać znaki specjalne**.
+
+## Radzenie sobie z typowymi problemami
+
+Nawet przy prostym skrypcie możesz napotkać kilka problemów. Poniżej kilka praktycznych wskazówek z mojego doświadczenia.
+
+### 1. Brak pakietów językowych
+
+Jeśli zamiast liter cyrylicy pojawiają się znaki zapytania (`?`), sprawdź ponownie, czy pakiety językowe są zainstalowane. Dla wielu silników OCR musisz pobrać odpowiednie pliki `.traineddata` i umieścić je w folderze `tessdata` silnika.
+
+```python
+# Example for pytesseract
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Ensure 'eng' and 'rus' data files exist in tessdata
+```
+
+### 2. Niska jakość obrazu
+
+Rozmyte lub niskokontrastowe obrazy dają niskie wyniki pewności. Wstępnie przetwórz obraz za pomocą OpenCV:
+
+```python
+import cv2
+
+# Load, convert to grayscale, and apply thresholding
+raw = cv2.imread(image_path)
+gray = cv2.cvtColor(raw, cv2.COLOR_BGR2GRAY)
+_, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY)
+
+# Save a temporary cleaned image and feed it to the OCR engine
+cv2.imwrite("cleaned.png", thresh)
+engine.load_image("cleaned.png")
+```
+
+### 3. Duże pliki i zużycie pamięci
+
+Przetwarzanie zdjęcia o wielkości 10 MB może zwiększyć zużycie pamięci. Użyj `engine.set_max_image_size(2000)`, aby ograniczyć rozdzielczość, lub podziel obraz na kafelki i wykonaj OCR na każdym z nich osobno.
+
+### 4. Pobieranie ramek ograniczających
+
+Jeśli potrzebujesz podświetlić, gdzie pojawia się każde słowo (przydatne w nakładkach UI), uzyskaj dostęp do `result.boxes`:
+
+```python
+for box in result.boxes:
+    print(f"Word: {box.text} – Coordinates: {box.x0},{box.y0},{box.x1},{box.y1}")
+```
+
+## Pełny skrypt — jednorazowe uruchomienie
+
+Łącząc wszystko razem, oto pojedynczy plik, który możesz uruchomić jako `python ocr_demo.py`. Zawiera obsługę błędów, opcjonalne przetwarzanie wstępne i komentarze dla przejrzystości.
+
+```python
+#!/usr/bin/env python3
+"""
+Complete OCR demo: load image, recognize multilingual text,
+and print results. Works with the generic 'ocr' library.
+"""
+
 import os
-from ocr_engine import OcrEngine          # OCR library
-from ai_helper import AIHelper             # AI post‑processing library
+import sys
+import ocr
 
-def main():
-    # 1️⃣ Create OCR engine
-    engine = OcrEngine()
+def main(image_path: str):
+    # Verify the image exists
+    if not os.path.isfile(image_path):
+        sys.exit(f"Error: File not found – {image_path}")
 
-    # 2️⃣ Load PNG image
-    image_path = os.path.join("YOUR_DIRECTORY", "sample_invoice.png")
-    engine.load_image(image_path)
+    # Initialize the OCR engine
+    engine = ocr.OcrEngine()
+    engine.set_languages(['eng', 'rus'])          # load language packs
+    engine.set_max_image_size(2500)               # limit memory usage
 
-    # 3️⃣ Basic OCR
-    plain_result = engine.recognize()
-    print("Raw OCR:", plain_result.text)
+    # Load the image
+    try:
+        engine.load_image(image_path)
+    except Exception as e:
+        sys.exit(f"Failed to load image: {e}")
 
-    # 4️⃣ AI post‑processing
-    ai = AIHelper()
-    enhanced_text = ai.run_postprocessor(plain_result.text)
-    print("AI‑enhanced OCR:", enhanced_text)
+    # Perform recognition
+    try:
+        result = engine.recognize()
+    except Exception as e:
+        sys.exit(f"OCR failed: {e}")
+
+    # Output the text
+    print("\n=== OCR Result ===")
+    print(result.text)
+
+    # Optional: display confidence scores
+    if hasattr(result, "confidence"):
+        avg_conf = sum(result.confidence) / len(result.confidence)
+        print(f"\nAverage confidence: {avg_conf:.1%}")
 
 if __name__ == "__main__":
-    main()
+    # Replace with your actual image path or pass as CLI argument
+    img = sys.argv[1] if len(sys.argv) > 1 else "YOUR_DIRECTORY/multilingual.png"
+    main(img)
 ```
 
-Zapisz plik jako `ocr_demo.py` i uruchom:
+Uruchom go za pomocą:
 
 ```bash
-python ocr_demo.py
+python ocr_demo.py path/to/multilingual.png
 ```
 
-Powinieneś zobaczyć zarówno surowe, jak i wzbogacone przez AI wyniki OCR wypisane w konsoli.
+Powinieneś zobaczyć ten sam wynik, co wcześniej, potwierdzając, że **wyodrębniłeś tekst z obrazu** pomyślnie.
 
-## Częste pytania i przypadki brzegowe
+## Zakończenie
 
-| Pytanie | Odpowiedź |
-|----------|-----------|
-| **Co zrobić, jeśli obraz nie jest w formacie PNG?** | Większość bibliotek OCR obsługuje JPEG, BMP lub TIFF. Zmień rozszerzenie w `image_path` i upewnij się, że silnik wspiera dany format. |
-| **Jak obsłużyć wielostronicowe PDF‑y?** | Najpierw skonwertuj każdą stronę na PNG (lub inny format rastrowy), a potem iteruj po stronach i zastosuj ten sam skrypt. |
-| **Czy mogę przetwarzać wsadowo wiele obrazów?** | Tak – umieść logikę w pętli `for`, która przechodzi po katalogu z plikami PNG. Ponowne użycie tej samej instancji `engine` zwiększa wydajność. |
-| **Co zrobić, gdy pomocnik AI zgłosi błąd?** | Złap wyjątki wokół `run_postprocessor` i w razie potrzeby wróć do surowego tekstu OCR, logując awarię do późniejszej analizy. |
+Omówiliśmy **jak wykonać OCR** w Pythonie od początku do końca: instalację biblioteki, wczytanie obrazu, rozpoznawanie treści wielojęzycznej oraz obsługę najczęstszych przypadków brzegowych. Postępując zgodnie z tym przewodnikiem, możesz teraz **konwertować obraz na tekst**, **rozpoznawać znaki specjalne** i **wyodrębniać tekst z obrazu** w swoich projektach — koniec z ręczną transkrypcją.
 
-## Podsumowanie
+Co dalej? Spróbuj eksperymentować z:
 
-W tym przewodniku nauczyłeś się **wykonywać OCR w Pythonie**, od wczytania obrazu PNG po wyodrębnienie tekstu i ostatecznie **poprawę dokładności OCR** przy użyciu post‑procesora AI. Pełny skrypt demonstruje przepływ end‑to‑end, dzięki czemu możesz od razu włączyć go do większych potoków automatyzacji.
+- Dodawaniem kolejnych pakietów językowych (np. `spa` dla hiszpańskiego).  
+- Eksportowaniem wyników do JSON w celu dalszego przetwarzania.  
+- Integracją kroku OCR z API Flask, aby inne usługi mogły go wywoływać.  
 
-Dalej możesz rozważyć:
-
-* **wyodrębnianie tekstu z PNG** w trybie wsadowym dla dużych archiwów dokumentów.
-* Zaawansowane techniki **ładowania obrazu do OCR**, takie jak wstępne przetwarzanie obrazu (prostowanie, odszumianie), aby podnieść bazową dokładność.
-* Niestandardowe modele AI dostosowane do konkretnych układów dokumentów, które mogą jeszcze bardziej **poprawić dokładność OCR** ponad standardowe post‑procesowanie.
-
-Miłego kodowania i ciesz się mocą niezawodnego OCR połączonego z AI!
-
-## Co powinieneś nauczyć się dalej?
-
-Poniższe samouczki obejmują tematy ściśle powiązane, które rozwijają techniki przedstawione w tym przewodniku. Każdy zasób zawiera kompletne, działające przykłady kodu oraz wyjaśnienia krok po kroku, aby pomóc Ci opanować dodatkowe funkcje API i odkrywać alternatywne podejścia implementacyjne w własnych projektach.
-
-- [Convert Image to Text: Extract Text from Image Using Aspose OCR (Python)](/ocr/english/python/general/convert-image-to-text-extract-text-from-image-using-aspose-o/)
-- [Extract Text from Image with Aspose OCR – Step‑by‑Step Guide](/ocr/english/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
-- [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/english/net/ocr-optimization/)
+Jeśli napotkasz jakiekolwiek problemy, społeczność wokół większości bibliotek OCR jest aktywna — wyszukaj „ocr library language pack installation” lub zostaw komentarz poniżej. Szczęśliwego kodowania i ciesz się przekształcaniem obrazów w przeszukiwalny tekst!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

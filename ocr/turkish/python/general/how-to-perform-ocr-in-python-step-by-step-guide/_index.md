@@ -1,35 +1,24 @@
 ---
 category: general
-date: 2026-08-15
-description: Python’da OCR’i hızlı bir şekilde nasıl gerçekleştireceğinizi öğrenin.
-  PNG’den metin çıkarmayı, OCR için resmi yüklemeyi ve AI sonrası işleme ile OCR doğruluğunu
-  artırmayı keşfedin.
+date: 2026-01-12
+description: OCR nasıl yapılır ve görüntü hızlıca metne dönüştürülür. Özel karakterleri
+  tanımayı, görüntüden metin çıkarmayı ve tam bir Python örneğiyle OCR için görüntüyü
+  yüklemeyi öğrenin.
 draft: false
-images:
-- PLACEHOLDER_URL/og-image.png
 keywords:
 - how to perform OCR
-- extract text from PNG
-- improve OCR accuracy
+- convert image to text
+- recognize special characters
+- extract text from image
 - load image for OCR
 language: tr
-lastmod: 2026-08-15
-og_description: Python'da OCR nasıl yapılır, ilk cümlede açıklanmıştır. PNG görüntülerinden
-  metin çıkarmak, OCR için görüntüyü yüklemek ve AI sonrası işleme ile doğruluğu artırmak
-  için bu öğreticiyi izleyin.
-og_image_alt: How to perform OCR example output displayed in a Python console
-og_title: Python'da OCR Nasıl Yapılır – Geliştiriciler İçin Tam Kılavuz
-schemas:
-- author: Aspose
-  dateModified: '2026-08-15'
-  description: How to perform OCR in Python quickly. Learn to extract text from PNG,
-    load image for OCR, and improve OCR accuracy with AI post‑processing.
-  headline: How to perform OCR in Python – step‑by‑step guide
-  type: TechArticle
+og_description: Python'da OCR nasıl yapılır, görüntüyü metne dönüştürür ve özel karakterleri
+  tanır. Görüntülerden metin çıkarmak için bu uygulamalı rehberi izleyin.
+og_title: Python'da OCR Nasıl Yapılır – Tam Kılavuz
 tags:
 - OCR
 - Python
-- AI post‑processing
+- Image Processing
 title: Python'da OCR Nasıl Yapılır – Adım Adım Rehber
 url: /tr/python/general/how-to-perform-ocr-in-python-step-by-step-guide/
 ---
@@ -38,177 +27,207 @@ url: /tr/python/general/how-to-perform-ocr-in-python-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Python’da OCR Nasıl Yapılır – adım‑adım kılavuz
+# Python’da OCR Nasıl Yapılır – Adım‑Adım Kılavuz
 
-Python’da OCR yapmak, taranmış belgeleri veya fişleri dijitalleştirmeniz gerektiğinde yaygın bir gereksinimdir. Bu öğreticide PNG dosyalarından metin çıkarmayı, OCR için görüntü yüklemeyi ve AI‑destekli bir post‑processör uygulayarak OCR doğruluğunu artırmayı öğreneceksiniz.
+Bir ekran görüntüsünde hem Latin hem de Kiril karakterleri içeren **OCR gerçekleştirme** ihtiyacı hiç duydunuz mu? Yalnız değilsiniz. Makbuzları dijitalleştirmek, çok dilli belgeleri indekslemek ya da aranabilir bir arşiv oluşturmak gibi projelerde **Python’da OCR nasıl yapılır** sorusu hızla öncelikli hale gelir.  
 
-Tam, çalıştırılabilir bir örnek göreceksiniz; örnek bir görüntü yükleme, temel bir OCR motoru çalıştırma ve AI‑geliştirilmiş metinle sonuçlandırma adımlarını içerir. Harici bir dokümantasyona ihtiyaç yok—adımları izleyin, kodu kopyalayın ve makinenizde çalıştırın.
+Bu öğreticide, **görüntüyü metne dönüştürme**, **özel karakterleri tanıma** ve **görüntüden metin çıkarma** işlemlerini gösteren tam, çalıştırılabilir bir örnek üzerinden ilerleyeceğiz. Sonunda, OCR için bir görüntüyü yükleyen, çok dilli içeriği işleyen ve sonucu ekrana yazdıran hazır bir betiğiniz olacak.
 
-## Önkoşullar
+## Gerekenler
 
-Başlamadan önce şunların yüklü olduğundan emin olun:
+Başlamadan önce aşağıdaki ön koşullara sahip olduğunuzdan emin olun:
 
-* Python 3.9 veya daha yeni bir sürüm.
-* `ocr-engine` paketi (Aspose.OCR, Tesseract‑wrapper gibi herhangi bir OCR kütüphanesi için yer tutucu).
-* `run_postprocessor` metodunu sağlayan bir AI yardımcı kütüphanesi (örneğin hafif bir OpenAI sarmalayıcısı).
-* Bilinen bir dizine yerleştirilmiş örnek bir PNG görüntüsü (ör. `sample_invoice.png`).
+- Makinenizde Python 3.8+ yüklü.  
+- `ocr` paketi (veya uyumlu bir OCR kütüphanesi) `pip install ocr` ile kurulmuş.  
+- Hem Latin hem de Kiril karakterler içeren bir görüntü dosyası (`multilingual.png`).  
+- Basit bir metin editörü veya IDE — VS Code, PyCharm ya da basit bir Notepad yeterli.  
 
-Gerekli paketleri şu şekilde kurabilirsiniz:
+`ocr` paketiniz yoksa, birkaç küçük değişiklikle `pytesseract` ile değiştirebilirsiniz; temel kavramlar aynı kalır.
 
-```bash
-pip install ocr-engine ai-helper
-```
+## Adım 1: OCR Kütüphanesini Kurun ve İçe Aktarın
 
-> **Pro ipucu:** Açık kaynak bir OCR motoru tercih ediyorsanız, `ocr-engine` yerine `pytesseract` kullanın ve kodu buna göre ayarlayın. Genel akış aynı kalır.
-
-## Adım 1: Bir OCR motoru örneği oluşturun
-
-İlk görev OCR motorunu örneklemek. Bu nesne düşük‑seviye görüntü analizi ve karakter tanımasını yönetir.
+İlk olarak OCR motorunu hazır hale getirelim. Kütüphaneyi içe aktaracağız, bir motor örneği oluşturacağız ve çok dilli desteği için yapılandıracağız.
 
 ```python
-from ocr_engine import OcrEngine   # Replace with your actual OCR library import
+# Install the library (run this once in your terminal)
+# pip install ocr
 
-# Initialize the OCR engine
-engine = OcrEngine()
+import ocr
+
+# Step 1: Create an OCR engine instance
+engine = ocr.OcrEngine()
+
+# Optional: Enable language packs for Latin and Cyrillic
+engine.set_languages(['eng', 'rus'])  # 'eng' = English, 'rus' = Russian
 ```
 
-Motoru bir kez oluşturup birden çok görüntüde yeniden kullanmak, başlatma süresini azaltır ve ayarların tutarlı olmasını sağlar.
+**Neden önemli:**  
+Motorun oluşturulması temeldir — olmadan **OCR için görüntü yükleme** yapılamaz. Dil paketlerini etkinleştirmek, motorun “Ŀ”, “Ҕ” ve “Ǣ” gibi karakterleri doğru tanımasını sağlar. Bu adımı atlamanız, Latin dışı betiklerde bozuk çıktı almanıza yol açar.
 
-## Adım 2: Tanımak istediğiniz görüntüyü yükleyin
+## Adım 2: Çok Dilli Metin İçeren Görüntüyü Yükleyin
 
-Doğru dosya biçimini yüklemek çok önemlidir. Burada tipik bir fatura veya fiş taraması için yaygın olan PNG görüntüsünün yüklenmesini gösteriyoruz.
+Şimdi motoru işlemek istediğimiz dosyaya yönlendirelim. Yol mutlak ya da göreli olabilir; sadece okunabilir bir görüntüye işaret ettiğinden emin olun.
 
 ```python
-import os
-
-# Define the path to the PNG file you want to process
-image_path = os.path.join("YOUR_DIRECTORY", "sample_invoice.png")
-
-# Load the image into the OCR engine
+# Step 2: Load the image containing multilingual text
+image_path = "YOUR_DIRECTORY/multilingual.png"  # replace with your actual path
 engine.load_image(image_path)
 ```
 
-`load_image` metodu dosyayı belleğe okur ve tanıma için hazır hâle getirir. Dosya bulunamazsa, motor bilgilendirici bir istisna fırlatır; böylece eksik dosyaları nazikçe ele alabilirsiniz.
+> ![OCR örneği nasıl yapılır](/images/ocr-example.png "çok dilli bir görüntüde OCR nasıl yapılır")
 
-## Adım 3: Temel OCR işlemini gerçekleştirin
+**Neden önemli:**  
+`load_image` çağrısı piksel verilerini belleğe okur ve OCR algoritması için hazırlar. Görüntü büyükse, motor otomatik olarak ölçeklendirebilir; yüksek çözünürlüklü taramalar için daha sonra `engine.set_max_resolution(3000)` ile ince ayar yapabilirsiniz.
 
-Görüntü yüklendikten sonra OCR motorunun `recognize` metodunu çağırın. Bu, ham metni içeren bir sonuç nesnesi döndürür.
+## Adım 3: Tanıma İşlemini Çalıştırın
 
-```python
-# Run the OCR process
-plain_result = engine.recognize()
-
-# Display the raw OCR output
-print("Raw OCR:", plain_result.text)
-```
-
-Çıktı genellikle satır sonları ve düşük çözünürlüklü taramalarda zaman zaman hatalı tanıma içerir. Bu aşamada **PNG’den metin çıkarmayı** temel OCR hattı ile başarıyla tamamlamış olursunuz.
-
-### Beklenen ham çıktı (örnek)
-
-```
-Raw OCR: Invoice #12345
-Date: 2023/07/15
-Total: $1,234.56
-```
-
-## Adım 4: AI post‑processör ile OCR metnini iyileştirin
-
-Temel OCR, gürültülü arka planlar, alışılmadık yazı tipleri veya el yazısı notlarla zorlanabilir. Bir AI post‑processör, ham dizeyi temizleyebilir, yazım hatalarını düzeltebilir ve hatta veriyi yeniden biçimlendirebilir.
+Motor hazır ve görüntü yüklendi, artık metin içeriğini çıkarabiliriz.
 
 ```python
-from ai_helper import AIHelper   # Replace with your actual AI helper import
-
-# Initialize the AI helper (assumes you have set up API keys elsewhere)
-ai = AIHelper()
-
-# Run the AI‑based post‑processor on the raw OCR text
-enhanced_text = ai.run_postprocessor(plain_result.text)
-
-# Show the AI‑enhanced result
-print("AI‑enhanced OCR:", enhanced_text)
+# Step 3: Perform OCR recognition on the loaded image
+result = engine.recognize()
 ```
 
-AI modeli ham dizeyi analiz eder, yaygın OCR hatalarını (ör. “1,234.56” → “1,234.56”) düzeltir ve eksik alanları bile tahmin edebilir.
+**Neden önemli:**  
+`recognize()` arka planda ağır bir sinir ağı çalıştırır. Ham metni, güven skorlarını ve isterseniz görsel hata ayıklama için sınırlayıcı kutuları içeren bir nesne döndürür.
 
-### Beklenen iyileştirilmiş çıktı (örnek)
+## Adım 4: Tanınan Metni Çıktılayın
 
-```
-AI‑enhanced OCR: Invoice #12345
-Date: 2023‑07‑15
-Total: $1,234.56
-```
-
-Bu adımı uygulayarak **OCR doğruluğunu** motorun düşük‑seviye parametrelerini ayarlamadan artırırsınız.
-
-## Tam çalıştırılabilir betik
-
-Tüm parçaları bir araya getirdiğinizde doğrudan çalıştırabileceğiniz tek bir betik elde edersiniz:
+Motorun ne bulduğunu görelim. Metni konsola yazdıracağız, ancak isterseniz bir dosyaya ya da veritabanına da kaydedebilirsiniz.
 
 ```python
+# Step 4: Output the recognized text, which should include characters like “Ŀ”, “Ҕ”, “Ǣ”
+print("=== OCR Result ===")
+print(result.text)
+```
+
+### Beklenen Çıktı
+
+```
+=== OCR Result ===
+Hello, world! Ŀ is a Latin‑extended character.
+Привет, мир! Ҕ is a Cyrillic character.
+Special combo: Ǣ is a ligature.
+```
+
+Böyle bir şey görürseniz, **görüntüyü metne dönüştürme** ve **özel karakterleri tanıma** işlemlerini başarıyla tamamlamışsınız demektir.
+
+## Yaygın Sorunlarla Baş Etme
+
+Basit bir betik olsa da birkaç aksaklıkla karşılaşabilirsiniz. İşte kendi deneyimlerimden pratik ipuçları.
+
+### 1. Dil Paketleri Eksik
+
+Eğer Kiril harfleri yerine soru işaretleri (`?`) görüyorsanız, dil paketlerinin yüklü olduğundan emin olun. Birçok OCR motoru için ilgili `.traineddata` dosyalarını indirip motorun `tessdata` klasörüne koymanız gerekir.
+
+```python
+# Example for pytesseract
+import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+# Ensure 'eng' and 'rus' data files exist in tessdata
+```
+
+### 2. Düşük Görüntü Kalitesi
+
+Bulanık ya da düşük kontrastlı görüntüler düşük güven skorları üretir. Görüntüyü OpenCV ile ön işleme tabi tutun:
+
+```python
+import cv2
+
+# Load, convert to grayscale, and apply thresholding
+raw = cv2.imread(image_path)
+gray = cv2.cvtColor(raw, cv2.COLOR_BGR2GRAY)
+_, thresh = cv2.threshold(gray, 150, 255, cv2.THRESH_BINARY)
+
+# Save a temporary cleaned image and feed it to the OCR engine
+cv2.imwrite("cleaned.png", thresh)
+engine.load_image("cleaned.png")
+```
+
+### 3. Büyük Dosyalar ve Bellek Kullanımı
+
+10 MB bir fotoğraf işlemek belleği zorlayabilir. Çözünürlüğü sınırlamak için `engine.set_max_image_size(2000)` kullanın ya da görüntüyü parçalara bölüp her parçayı ayrı ayrı OCR’a gönderin.
+
+### 4. Sınırlayıcı Kutuları Yakalama
+
+Her kelimenin nerede göründüğünü vurgulamanız (UI katmanları için faydalı) gerekiyorsa, `result.boxes` özelliğine erişin:
+
+```python
+for box in result.boxes:
+    print(f"Word: {box.text} – Coordinates: {box.x0},{box.y0},{box.x1},{box.y1}")
+```
+
+## Tam Betik – Tek‑Tıkla Çalıştırma
+
+Her şeyi bir araya getirdik; işte `python ocr_demo.py` olarak çalıştırabileceğiniz tek dosya. Hata yönetimi, isteğe bağlı ön işleme ve açıklayıcı yorumlar içerir.
+
+```python
+#!/usr/bin/env python3
+"""
+Complete OCR demo: load image, recognize multilingual text,
+and print results. Works with the generic 'ocr' library.
+"""
+
 import os
-from ocr_engine import OcrEngine          # OCR library
-from ai_helper import AIHelper             # AI post‑processing library
+import sys
+import ocr
 
-def main():
-    # 1️⃣ Create OCR engine
-    engine = OcrEngine()
+def main(image_path: str):
+    # Verify the image exists
+    if not os.path.isfile(image_path):
+        sys.exit(f"Error: File not found – {image_path}")
 
-    # 2️⃣ Load PNG image
-    image_path = os.path.join("YOUR_DIRECTORY", "sample_invoice.png")
-    engine.load_image(image_path)
+    # Initialize the OCR engine
+    engine = ocr.OcrEngine()
+    engine.set_languages(['eng', 'rus'])          # load language packs
+    engine.set_max_image_size(2500)               # limit memory usage
 
-    # 3️⃣ Basic OCR
-    plain_result = engine.recognize()
-    print("Raw OCR:", plain_result.text)
+    # Load the image
+    try:
+        engine.load_image(image_path)
+    except Exception as e:
+        sys.exit(f"Failed to load image: {e}")
 
-    # 4️⃣ AI post‑processing
-    ai = AIHelper()
-    enhanced_text = ai.run_postprocessor(plain_result.text)
-    print("AI‑enhanced OCR:", enhanced_text)
+    # Perform recognition
+    try:
+        result = engine.recognize()
+    except Exception as e:
+        sys.exit(f"OCR failed: {e}")
+
+    # Output the text
+    print("\n=== OCR Result ===")
+    print(result.text)
+
+    # Optional: display confidence scores
+    if hasattr(result, "confidence"):
+        avg_conf = sum(result.confidence) / len(result.confidence)
+        print(f"\nAverage confidence: {avg_conf:.1%}")
 
 if __name__ == "__main__":
-    main()
+    # Replace with your actual image path or pass as CLI argument
+    img = sys.argv[1] if len(sys.argv) > 1 else "YOUR_DIRECTORY/multilingual.png"
+    main(img)
 ```
 
-Dosyayı `ocr_demo.py` olarak kaydedin ve çalıştırın:
+Şöyle çalıştırın:
 
 ```bash
-python ocr_demo.py
+python ocr_demo.py path/to/multilingual.png
 ```
 
-Ham ve AI‑geliştirilmiş OCR sonuçlarının ikisini de konsolda göreceksiniz.
-
-## Yaygın sorular ve kenar durumları
-
-| Soru | Cevap |
-|----------|--------|
-| **Görüntü PNG değilse ne olur?** | Çoğu OCR kütüphanesi JPEG, BMP veya TIFF kabul eder. `image_path` içindeki dosya uzantısını değiştirin ve motorun formatı desteklediğinden emin olun. |
-| **Çok sayfalı PDF’ler nasıl işlenir?** | Önce her sayfayı PNG (veya başka bir raster format) hâline dönüştürün, ardından sayfalar üzerinde döngü kurarak aynı betiği uygulayın. |
-| **Birden çok görüntüyü toplu işleme alabilir miyim?** | Evet—mantığı bir `for` döngüsü içinde, bir klasördeki PNG dosyaları üzerinde yineleyerek sarın. Aynı `engine` örneğini yeniden kullanmak performansı artırır. |
-| **AI yardımcı bir hata verirse ne yapmalıyım?** | `run_postprocessor` etrafında istisna yakalayın ve ham OCR metnine geri dönün; hatayı daha sonra incelenmek üzere kaydedin. |
+Daha önce gösterilen aynı çıktıyı görmelisiniz; bu da **görüntüden metin çıkarma** işlemini başarıyla tamamladığınızı doğrular.
 
 ## Sonuç
 
-Bu rehberde **Python’da OCR nasıl yapılır** konusunu, PNG bir görüntünün yüklenmesinden metnin çıkarılmasına ve son olarak **AI post‑processör ile OCR doğruluğunu artırmaya** kadar öğrendiniz. Tam betik, uçtan uca akışı gösterir; böylece hemen daha büyük otomasyon hatlarına entegre edebilirsiniz.
+Python’da **OCR nasıl yapılır** konusunu baştan sona ele aldık: kütüphaneyi kurma, görüntüyü yükleme, çok dilli içeriği tanıma ve en yaygın kenar durumlarıyla başa çıkma. Bu kılavuzu izleyerek artık kendi projelerinizde **görüntüyü metne dönüştürme**, **özel karakterleri tanıma** ve **görüntüden metin çıkarma** yapabilirsiniz — manuel transkripsiyona son.
 
-İleride keşfetmek isteyebilecekleriniz:
+Sırada ne var? Şunları deneyin:
 
-* Büyük belge arşivleri için **PNG’den toplu metin çıkarma**.
-* Temel doğruluğu artırmak amacıyla **OCR için görüntü ön‑işleme** (dikleştirme, gürültü azaltma) teknikleri.
-* Belirli belge düzenlerine göre özelleştirilmiş AI modelleri; bu modeller, genel post‑processörden daha da **OCR doğruluğunu artırabilir**.
+- Daha fazla dil paketi ekleyin (ör. `spa` İspanyolca).  
+- Sonuçları JSON’a aktararak sonraki iş akışları için hazırlayın.  
+- OCR adımını bir Flask API’sine entegre edip diğer hizmetlerin kullanımına açın.  
 
-Kodlamanın tadını çıkarın ve güvenilir OCR ile AI’ın gücünden faydalanın!
-
-
-## Sonra Ne Öğrenmelisiniz?
-
-
-Aşağıdaki öğreticiler, bu kılavuzda gösterilen tekniklere dayanarak yakından ilgili konuları kapsar. Her kaynak, ek API özelliklerini ustalaşmanız ve projelerinizde alternatif uygulama yaklaşımlarını keşfetmeniz için adım‑adım açıklamalı tam çalışan kod örnekleri içerir.
-
-- [Resmi Metne Dönüştür: Aspose OCR (Python) Kullanarak Görüntüden Metin Çıkarın](/ocr/english/python/general/convert-image-to-text-extract-text-from-image-using-aspose-o/)
-- [Aspose OCR ile Görüntüden Metin Çıkarma – Adım‑adım Kılavuz](/ocr/english/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
-- [Görüntüden Metin Çıkarma – Aspose.OCR ile .NET için OCR Optimizasyonu](/ocr/english/net/ocr-optimization/)
+Herhangi bir sorunla karşılaşırsanız, çoğu OCR kütüphanesinin aktif bir topluluğu vardır — “ocr library language pack installation” gibi anahtar kelimelerle arama yapın ya da aşağıya yorum bırakın. Kodlamanın tadını çıkarın, ve resimleri aranabilir metne dönüştürmenin keyfini yaşayın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
