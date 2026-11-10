@@ -123,6 +123,8 @@ Domina el OCR con Aspose.OCR en C#. Aprende paso a paso a extraer texto de imág
 Aprende a crear y configurar un modelo AsposeAI paso a paso para integrar IA en tus aplicaciones.
 ### [Crear Logger Aspose OCR – Guía Completa Paso a Paso](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Aprende a crear un registro de actividades para Aspose OCR en .NET con una guía paso a paso completa.
+### [Descargar modelos faltantes con Aspose AI – guía completa](./download-missing-models-with-aspose-ai-complete-guide/)
+Aprende a descargar e instalar los modelos de IA que faltan usando Aspose AI para habilitar funcionalidades avanzadas.
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.

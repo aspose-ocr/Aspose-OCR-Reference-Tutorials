@@ -156,6 +156,8 @@ Aspose.OCR와 C#을 사용해 OCR을 구현하는 전체 단계별 가이드를 
 AsposeAI 모델 구성을 단계별로 설정하는 방법을 안내합니다.  
 ### [Aspose OCR 로거 만들기 – 완전 단계별 가이드](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Aspose OCR 로거를 생성하여 OCR 프로세스를 기록하고 관리하는 방법을 단계별로 안내합니다.
+### [Aspose AI로 누락된 모델 다운로드 – 완전 가이드](./download-missing-models-with-aspose-ai-complete-guide/)
+Aspose AI를 사용해 누락된 모델을 자동으로 다운로드하고 설정하는 전체 가이드를 제공합니다.
 
 
 

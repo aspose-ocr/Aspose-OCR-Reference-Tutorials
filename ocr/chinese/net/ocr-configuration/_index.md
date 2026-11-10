@@ -149,6 +149,8 @@ weight: 24
 一步步指导如何创建 AsposeAI 模型配置，实现 AI 功能的快速集成。  
 ### [创建 Aspose OCR 日志记录器 – 完整分步指南](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 一步步教您在 .NET 中创建日志记录器以捕获 OCR 过程信息。
+### [使用 Aspose AI 下载缺失模型 – 完整指南](./download-missing-models-with-aspose-ai-complete-guide/)
+使用 Aspose AI 自动下载所需的 OCR 模型，确保识别过程不中断并提升准确率。  
 
 
 

@@ -161,6 +161,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xu�
 Hướng dẫn chi tiết cách tạo và cấu hình mô hình AsposeAI trong dự án của bạn.
 ### [Tạo Logger Aspose OCR – Hướng Dẫn Chi Tiết Từng Bước](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Hướng dẫn đầy đủ cách tạo logger cho Aspose OCR, bao gồm cấu hình, ghi log và xử lý lỗi trong .NET.
+### [Tải xuống các mô hình thiếu với Aspose AI – hướng dẫn đầy đủ](./download-missing-models-with-aspose-ai-complete-guide/)
+Hướng dẫn chi tiết cách tải và cài đặt các mô hình AI thiếu cho Aspose AI trong dự án của bạn.
 
 
 

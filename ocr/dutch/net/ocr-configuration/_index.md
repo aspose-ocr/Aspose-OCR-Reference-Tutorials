@@ -129,6 +129,8 @@ Leer stap‑voor‑stap hoe je OCR met Aspose.OCR in C# implementeert, van insta
 Leer stap voor stap hoe je een AsposeAI‑modelconfiguratie maakt en toepast in je .NET‑applicatie.
 ### [Maak logger Aspose OCR – Complete stapsgewijze gids](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Leer hoe je een logger implementeert voor Aspose OCR met een volledige stap‑voor‑stap handleiding.
+### [Download ontbrekende modellen met Aspose AI – volledige gids](./download-missing-models-with-aspose-ai-complete-guide/)
+Leer hoe je ontbrekende AI-modellen automatisch downloadt met Aspose AI in een volledige stap‑voor‑stap gids.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

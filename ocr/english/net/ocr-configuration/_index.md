@@ -133,6 +133,8 @@ Comprehensive C# guide to perform OCR using Aspose.OCR, covering setup, image pr
 Learn how to configure AsposeAI models step by step, covering setup, parameters, and deployment in .NET applications.
 ### [Create Logger Aspose OCR – Complete Step‑by‑Step Guide](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Learn how to create a logger for Aspose OCR in .NET with a detailed, step‑by‑step guide.
+### [Download missing models with Aspose AI – complete guide](./download-missing-models-with-aspose-ai-complete-guide/)
+Learn how to automatically download missing AI models using Aspose AI to ensure seamless OCR processing.
 
 ### Common use cases
 - **Extract text images** from scanned invoices for automated accounting.  

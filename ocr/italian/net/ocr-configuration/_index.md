@@ -108,6 +108,8 @@ Scopri passo passo come implementare il riconoscimento OCR in C# usando Aspose.O
 Scopri come creare e configurare un modello AsposeAI passo dopo passo per integrare l'intelligenza artificiale nelle tue applicazioni.
 ### [Crea Logger Aspose OCR – Guida Completa Passo‑Passo](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Impara a configurare e utilizzare un logger personalizzato per Aspose.OCR in modo dettagliato e pratico.
+### [Scarica i modelli mancanti con Aspose AI – guida completa](./download-missing-models-with-aspose-ai-complete-guide/)
+Guida completa per scaricare i modelli AI mancanti con Aspose AI, passo passo, per migliorare le funzionalità di riconoscimento.
 
 ### Casi d'uso comuni
 - **Estrarre testo da immagini** di fatture scannerizzate per la contabilità automatizzata.  

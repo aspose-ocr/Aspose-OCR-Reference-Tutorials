@@ -105,6 +105,8 @@ weight: 24
 دليل شامل لإنشاء وتكوين نموذج AsposeAI في .NET خطوة بخطوة.
 ### [إنشاء سجل Aspose OCR – دليل خطوة بخطوة كامل](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 دليل شامل لإنشاء سجل لتتبع عمليات OCR باستخدام Aspose OCR في تطبيقات .NET.
+### [تنزيل النماذج المفقودة باستخدام Aspose AI – دليل كامل](./download-missing-models-with-aspose-ai-complete-guide/)
+دليل شامل لتنزيل النماذج المفقودة باستخدام Aspose AI وتحسين أداء تطبيقاتك.
 
 ### حالات الاستخدام الشائعة
 - **استخراج نصوص الصور** من الفواتير الممسوحة لأتمتة المحاسبة.  

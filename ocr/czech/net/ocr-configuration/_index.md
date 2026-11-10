@@ -105,6 +105,8 @@ Kompletní návod, jak pomocí Aspose.OCR v C# implementovat OCR od instalace po
 Kompletní návod, jak vytvořit a nakonfigurovat model AsposeAI ve vašich aplikacích.
 ### [Vytvořte logger Aspose OCR – Kompletní průvodce krok za krokem](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Kompletní návod, jak vytvořit logger pro Aspose OCR v .NET aplikacích.
+### [Stáhněte chybějící modely pomocí Aspose AI – kompletní průvodce](./download-missing-models-with-aspose-ai-complete-guide/)
+Kompletní návod, jak stáhnout chybějící AI modely pomocí Aspose AI a integrovat je do vašich aplikací.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  

@@ -62,6 +62,8 @@ Lås upp kraftfulla OCR‑funktioner med Aspose.OCR för .NET. Extrahera text fr
 Lås upp potentialen i Aspose.OCR för .NET. Utför OCR‑bildigenkänning med listor utan ansträngning. Öka produktivitet och datautdragning i dina applikationer.
 ### [Skapa sökbar PDF i C# – OCR‑konverteringsguide](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Lås upp möjligheten att skapa sökbara PDF-filer med OCR i C# med Aspose.OCR.
+### [Ladda ner saknade modeller med Aspose AI – komplett guide](./download-missing-models-with-aspose-ai-complete-guide/)
+Lär dig ladda ner saknade AI-modeller automatiskt med Aspose AI i din .NET-applikation.
 
 ### [Ladda bildfil och extrahera kvittotext med GPU‑OCR i C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Använd GPU‑accelererad OCR för snabb kvittotextutvinning i C#‑applikationer.

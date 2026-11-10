@@ -145,6 +145,10 @@ Apprenez à implémenter une reconnaissance OCR complète en C# avec Aspose.OCR,
 
 Apprenez à créer un logger pour Aspose OCR avec un guide complet étape par étape.
 
+### [Télécharger les modèles manquants avec Aspose IA – guide complet](./download-missing-models-with-aspose-ai-complete-guide/)
+
+Apprenez à récupérer automatiquement les modèles OCR manquants via Aspose AI pour améliorer la précision de vos extractions.
+
 ### Cas d'utilisation courants
 
 - **Extraire les images de texte** à partir de factures numérisées pour la comptabilité automatisée.

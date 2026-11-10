@@ -161,6 +161,8 @@ Panduan lengkap untuk melakukan OCR menggunakan Aspose.OCR dengan contoh kode C#
 Panduan lengkap untuk membuat konfigurasi model AsposeAI secara terperinci, langkah demi langkah.
 ### [Buat Logger Aspose OCR – Panduan Lengkap Langkah demi Langkah](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Panduan lengkap untuk membuat logger khusus menggunakan Aspose OCR dalam aplikasi .NET Anda.
+### [Unduh model yang hilang dengan Aspose AI – panduan lengkap](./download-missing-models-with-aspose-ai-complete-guide/)
+Panduan lengkap untuk mengunduh model AI yang diperlukan menggunakan Aspose AI dalam proyek Anda.
 
 ### Kasus Penggunaan Umum
 - **Ekstrak gambar teks** dari faktur yang dipindai untuk akuntansi otomatis.  

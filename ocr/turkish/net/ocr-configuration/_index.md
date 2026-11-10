@@ -111,6 +111,8 @@ Aspose.OCR kullanarak C# ile tam OCR iş akışını adım adım öğrenin.
 AsposeAI modeli için yapılandırma dosyası oluşturmayı adım adım öğrenin ve AI çözümlerinizde özelleştirilmiş ayarlar yapın.
 ### [Aspose OCR Günlüğü Oluşturma – Tam Adım Adım Kılavuz](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Aspose OCR kullanarak özelleştirilmiş bir logger oluşturmayı adım adım öğrenin.
+### [Aspose AI ile eksik modelleri indirin – tam rehber](./download-missing-models-with-aspose-ai-complete-guide/)
+Aspose AI kullanarak eksik OCR modellerini indirip kurmayı adım adım gösteren tam rehber.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

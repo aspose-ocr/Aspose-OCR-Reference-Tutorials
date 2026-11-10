@@ -119,6 +119,8 @@ Erfahren Sie, wie Sie mit Aspose.OCR in C# eine komplette OCR‑Lösung implemen
 Erfahren Sie, wie Sie eine AsposeAI‑Modellkonfiguration erstellen und anpassen, um KI‑Funktionen in Ihre Anwendung zu integrieren.
 ### [Logger für Aspose OCR erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie einen Logger für Aspose OCR implementieren, um OCR‑Vorgänge zu protokollieren und zu überwachen.
+### [Download fehlender Modelle mit Aspose AI – vollständiger Leitfaden](./download-missing-models-with-aspose-ai-complete-guide/)
+Erfahren Sie, wie Sie fehlende KI‑Modelle automatisch herunterladen und in Ihre Anwendung integrieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

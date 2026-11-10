@@ -100,6 +100,8 @@ Aspose.OCR を使用した C# 完全ガイドで、OCR の設定からテキス�
 ### [AsposeAI モデル構成の作成 – ステップバイステップ ガイド](./create-asposeai-model-config-step-by-step-guide/)
 ### [Aspose OCR ロガー作成 – 完全ステップバイステップガイド](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Aspose OCR 用のロガーを作成し、OCR プロセスの詳細なログを取得する手順をステップバイステップで解説します。
+### [Aspose AI で不足モデルをダウンロードする完全ガイド](./download-missing-models-with-aspose-ai-complete-guide/)
+Aspose AI を使用して欠落しているモデルを自動的にダウンロードし、OCR の精度を向上させる方法を解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

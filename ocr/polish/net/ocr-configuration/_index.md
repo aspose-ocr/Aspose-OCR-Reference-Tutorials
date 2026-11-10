@@ -124,6 +124,8 @@ Pełny przewodnik C# pokazujący, jak używać Aspose.OCR do rozpoznawania tekst
 Dowiedz się, jak skonfigurować model AsposeAI w kilku prostych krokach, aby wykorzystać jego możliwości w aplikacjach.
 ### [Utwórz rejestrator Aspose OCR – Kompletny przewodnik krok po kroku](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Dowiedz się, jak skonfigurować i używać loggera w Aspose OCR, aby monitorować procesy OCR w aplikacjach .NET.
+### [Pobierz brakujące modele przy użyciu Aspose AI – kompletny przewodnik](./download-missing-models-with-aspose-ai-complete-guide/)
+Kompletny przewodnik, jak automatycznie pobrać brakujące modele AI w Aspose, aby zapewnić pełną funkcjonalność OCR.
 
 ### Typowe przypadki użycia
 - **Wyodrębnianie tekstu z obrazów** ze skanowanych faktur w celu automatycznej księgowości.  

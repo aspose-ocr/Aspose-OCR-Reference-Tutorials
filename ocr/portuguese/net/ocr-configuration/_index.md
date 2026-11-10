@@ -114,6 +114,8 @@ Desbloqueie a criação de modelos AsposeAI com instruções detalhadas passo a 
 
 ### [Criar Logger Aspose OCR – Guia Completo Passo a Passo](./create-logger-aspose-ocr-complete-step-by-step-guide/)
 Aprenda a implementar um logger para Aspose OCR em .NET, passo a passo, com exemplos completos.
+### [Baixe modelos ausentes com Aspose AI – guia completo](./download-missing-models-with-aspose-ai-complete-guide/)
+Aprenda a baixar e instalar modelos de IA ausentes usando Aspose AI para melhorar o reconhecimento de imagens.
 
 ### Casos de Uso Comuns
 - **Extrair imagens de texto** de faturas escaneadas para contabilidade automatizada.  
