@@ -1,0 +1,7 @@
+Title: How to enable GPU for OCR in Java using Aspose.OCR
+Slug: how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr
+Category: advanced-ocr-techniques
+ProcessedDate: 2026-08-19T06:27:21.080382
+SourceRepo: AI Search API
+Keywords: how to enable gpu, recognize image text, extract text jpg, how to add filter, how to set language
+PRNumber: 206
