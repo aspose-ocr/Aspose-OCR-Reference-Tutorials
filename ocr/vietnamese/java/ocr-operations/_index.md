@@ -213,6 +213,10 @@ Khám phá cách nhận dạng ảnh PNG trong Java bằng Aspose OCR, từ cấ
 Khám phá cách nhận dạng văn bản từ tệp PNG trong Java bằng Aspose OCR, từ cấu hình đến xuất kết quả chính xác.
 ### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – hướng dẫn Java đầy đủ](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Hướng dẫn chi tiết cách nhận dạng văn bản trong hình ảnh bằng Aspose OCR cho Java, từ cấu hình đến xuất kết quả chính xác.
+### [Lấy đường dẫn tuyệt đối trong Java – hướng dẫn đầy đủ](./get-absolute-path-java-complete-guide/)
+Hướng dẫn chi tiết cách lấy đường dẫn tuyệt đối của tệp trong Java, bao gồm các phương pháp và ví dụ thực tế.
+### [Tải xuống tất cả tài nguyên trong C# – hướng dẫn tải trước các tài nguyên](./download-all-resources-in-c-guide-to-preloading-assets/)
+Hướng dẫn chi tiết cách tải xuống và chuẩn bị trước mọi tài nguyên trong dự án C# để tối ưu hiệu năng.
 
 ## Câu hỏi Thường gặp
 

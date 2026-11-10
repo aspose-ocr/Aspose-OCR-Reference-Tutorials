@@ -165,6 +165,10 @@ Java kullanarak PNG görüntülerinden metin tanıma sürecini adım adım öğr
 ### [Java'da PNG'den Metin Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Java ile PNG görüntülerinden metin çıkarma sürecini adım adım öğrenin ve Aspose OCR'un tam potansiyelini keşfedin.
 ### [Aspose OCR ile Görüntü Metnini Tanıma – Tam Java Kılavuzu](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+### [Java'da Mutlak Yol Alma – Tam Rehber](./get-absolute-path-java-complete-guide/)
+Java'da dosya sisteminde mutlak yol elde etme yöntemlerini adım adım öğrenin.
+### [C#'da Tüm Kaynakları İndir – Ön Yükleme Varlıkları Rehberi](./download-all-resources-in-c-guide-to-preloading-assets/)
+C# projelerinizde varlıkları önceden yüklemek için tüm kaynakları nasıl indireceğinizi öğrenin.
 
 ## Sıkça Sorulan Sorular
 

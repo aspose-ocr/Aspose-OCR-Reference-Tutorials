@@ -203,6 +203,10 @@ Apprenez à configurer et activer votre licence Aspose OCR dans une application 
 Apprenez à extraire du texte d'images PNG en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 ### [Reconnaître le texte d'image avec Aspose OCR – guide complet Java](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+### [Obtenir le chemin absolu en Java – guide complet](./get-absolute-path-java-complete-guide/)
+Apprenez à récupérer le chemin absolu d'un fichier en Java grâce à ce guide complet.
+### [Télécharger toutes les ressources en C# – guide de préchargement des actifs](./download-all-resources-in-c-guide-to-preloading-assets/)
+Apprenez à télécharger toutes les ressources en C# et à les précharger efficacement dans vos applications.
 
 ## Foire aux questions
 

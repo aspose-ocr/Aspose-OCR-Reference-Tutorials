@@ -204,6 +204,10 @@ Aspose OCR을 사용해 Java에서 PNG 이미지의 텍스트를 완전하게 �
 Java 환경에서 PNG 이미지의 텍스트를 정확히 추출하는 전체 단계별 Aspose OCR 가이드를 제공합니다.
 ### [Aspose OCR을 사용한 이미지 텍스트 인식 – 전체 Java 가이드](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Aspose OCR을 활용해 Java에서 이미지 텍스트를 전체적으로 인식하는 방법을 단계별로 안내합니다.
+### [Java에서 절대 경로 가져오기 – 완전 가이드](./get-absolute-path-java-complete-guide/)
+Java에서 파일의 절대 경로를 얻는 방법을 단계별로 안내합니다.
+### [C#에서 모든 리소스 다운로드 – 사전 로드 가이드](./download-all-resources-in-c-guide-to-preloading-assets/)
+C# 애플리케이션에서 모든 리소스를 미리 로드하는 방법을 단계별로 안내합니다.
 
 ## 자주 묻는 질문
 

@@ -208,6 +208,10 @@ Lär dig hur du konfigurerar och aktiverar Aspose OCR‑licensen i dina Java‑p
 En komplett guide som visar hur du använder Aspose OCR för att känna igen text i PNG‑bilder med Java.
 ### [Känna igen text från bild med Aspose OCR – komplett Java‑guide](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 En fullständig guide som visar hur du använder Aspose OCR för att känna igen text i bilder med Java.
+### [Hämta absolut sökväg i Java – komplett guide](./get-absolute-path-java-complete-guide/)
+En komplett guide som visar hur du får den absoluta sökvägen i Java-program.
+### [Ladda ner alla resurser i C# – guide för förladdning av tillgångar](./download-all-resources-in-c-guide-to-preloading-assets/)
+En komplett guide för att ladda ner alla resurser i C# och förladda dem för optimal prestanda.
 
 ## Vanliga frågor
 

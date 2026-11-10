@@ -199,6 +199,9 @@ weight: 21
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java  
 ### [จดจำข้อความจากภาพด้วย Aspose OCR – คู่มือ Java ฉบับเต็ม](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากภาพด้วย Aspose OCR ใน Java อย่างละเอียด
+### [รับเส้นทางเต็มของ Java – คู่มือฉบับสมบูรณ์](./get-absolute-path-java-complete-guide/)
+เรียนรู้วิธีการดึงเส้นทางเต็มของไฟล์ใน Java อย่างละเอียดและครบถ้วน  
+### [ดาวน์โหลดทรัพยากรทั้งหมดใน C# – คู่มือการโหลดล่วงหน้า](./download-all-resources-in-c-guide-to-preloading-assets/)
 
 
 

@@ -211,6 +211,10 @@ Pełny przewodnik po rozpoznawaniu tekstu w formacie PNG przy użyciu Aspose OCR
 Pełny przewodnik, jak rozpoznać tekst z obrazów PNG w Javie przy użyciu Aspose.OCR, krok po kroku.
 ### [Rozpoznawanie tekstu na obrazie przy użyciu Aspose OCR – kompletny przewodnik w Javie](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Szczegółowy tutorial pokazujący, jak używać Aspose OCR w Javie do pełnego rozpoznawania tekstu na obrazach.
+### [Uzyskaj absolutną ścieżkę w Javie – kompletny przewodnik](./get-absolute-path-java-complete-guide/)
+Kompletny przewodnik, jak uzyskać absolutną ścieżkę w Javie.
+### [Pobierz wszystkie zasoby w C# – przewodnik po wstępnym ładowaniu zasobów](./download-all-resources-in-c-guide-to-preloading-assets/)
+Kompletny przewodnik, jak pobrać i wstępnie załadować wszystkie zasoby w aplikacji C#.
 
 ## Najczęściej zadawane pytania
 

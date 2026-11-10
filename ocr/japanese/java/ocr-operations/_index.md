@@ -199,6 +199,9 @@ Aspose OCR を使用して PNG 画像からテキストを抽出する完全な 
 ### [JavaでPNGからテキストを認識 – 完全 Aspose OCR ガイド](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 ### [Aspose OCR で画像からテキストを認識 – 完全 Java ガイド](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Aspose OCR を使用して画像からテキストを認識する完全な Java ガイドです。ステップバイステップで実装方法を解説します。
+### [Javaで絶対パスを取得 – 完全ガイド](./get-absolute-path-java-complete-guide/)
+### [C# ですべてのリソースをダウンロード – プリロード資産ガイド](./download-all-resources-in-c-guide-to-preloading-assets/)
+C# で全リソースを一括ダウンロードし、資産のプリロード方法を解説します。
 
 ## よくある質問
 

@@ -197,6 +197,10 @@ weight: 21
 ### [使用 Aspose OCR 在 Java 中识别 PNG 文本 – 完整指南](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 完整的 Java 示例，演示如何使用 Aspose OCR 识别 PNG 图像中的文本并导出结果。
 ### [使用 Aspose OCR 识别图像文本 – 完整 Java 指南](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+### [获取绝对路径 Java – 完整指南](./get-absolute-path-java-complete-guide/)
+完整指南，教您在 Java 中获取文件的绝对路径。
+### [在 C# 中下载所有资源 – 预加载资产指南](./download-all-resources-in-c-guide-to-preloading-assets/)
+提供在 C# 中预加载资源的完整指南，帮助您一次性下载所有资源。
 
 ## 常见问题
 

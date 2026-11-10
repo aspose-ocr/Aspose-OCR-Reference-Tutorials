@@ -206,6 +206,10 @@ Scopri come configurare e attivare la licenza Aspose OCR in Java per sbloccare t
 Scopri come eseguire l'OCR su immagini PNG in Java con Aspose OCR, passo‑passo per risultati accurati e rapidi.
 ### [Riconoscere il testo da un'immagine con Aspose OCR – guida Java completa](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Scopri come eseguire l'OCR completo su un'immagine usando Aspose OCR in Java, passo passo per risultati accurati.
+### [Ottieni il percorso assoluto in Java – guida completa](./get-absolute-path-java-complete-guide/)
+Scopri come ottenere il percorso assoluto di un file in Java con esempi pratici e consigli utili.
+### [Scarica tutte le risorse in C# – guida al pre‑caricamento degli asset](./download-all-resources-in-c-guide-to-preloading-assets/)
+Scopri come pre‑caricare asset in C# scaricando tutte le risorse necessarie in un unico passaggio.
 
 ## Domande Frequenti
 

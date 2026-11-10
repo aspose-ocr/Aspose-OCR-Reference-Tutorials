@@ -204,6 +204,10 @@ Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von PNG‑Bil
 Entfesseln Sie die OCR‑Leistung für PNG‑Bilder in Java mit Aspose OCR. Ein vollständiger Leitfaden zu Einrichtung, Verarbeitung und Best Practices.
 ### [Bildtext mit Aspose OCR erkennen – vollständiger Java‑Leitfaden](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Ein umfassender Leitfaden zur Texterkennung aus Bildern mit Aspose OCR in Java.
+### [Absoluten Pfad in Java erhalten – vollständige Anleitung](./get-absolute-path-java-complete-guide/)
+Erfahren Sie, wie Sie den absoluten Pfad einer Datei in Java ermitteln und nutzen können.
+### [Alle Ressourcen in C# herunterladen – Anleitung zum Vorladen von Assets](./download-all-resources-in-c-guide-to-preloading-assets/)
+Laden Sie alle Ressourcen in C# herunter und lernen Sie, Assets vorzuladen.
 
 ## Häufig gestellte Fragen
 

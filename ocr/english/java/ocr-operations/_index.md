@@ -220,6 +220,9 @@ Full guide to recognizing text in PNG images using Aspose OCR for Java, covering
 Comprehensive guide to recognizing text from PNG images in Java using Aspose OCR, covering setup, processing, and best practices.
 ### [Recognize text from image with Aspose OCR – complete Java guide](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Comprehensive Java guide for recognizing text from images using Aspose OCR, covering setup, processing, and best practices.
+### [Get absolute path java – complete guide](./get-absolute-path-java-complete-guide/)
+Learn how to retrieve the absolute file path in Java with a complete step‑by‑step guide.
+### [Download all resources in C# – guide to preloading assets](./download-all-resources-in-c-guide-to-preloading-assets/)
 
 ## Frequently Asked Questions
 

@@ -206,6 +206,10 @@ Leer hoe u de Aspose OCR‑licentie instelt in Java, stap‑voor‑stap met voor
 Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
 ### [Tekst uit afbeelding herkennen met Aspose OCR – volledige Java‑gids](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Leer stap‑voor‑stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑gids.
+### [Absolute pad ophalen in Java – volledige gids](./get-absolute-path-java-complete-guide/)
+Leer hoe u het absolute pad van een bestand in Java kunt bepalen met een volledige stap‑voor‑stap‑handleiding.
+### [Alle resources downloaden in C# – gids voor het vooraf laden van assets](./download-all-resources-in-c-guide-to-preloading-assets/)
+Leer hoe u alle resources in C# kunt downloaden en vooraf kunt laden voor optimale prestaties.
 
 ## Veelgestelde vragen
 

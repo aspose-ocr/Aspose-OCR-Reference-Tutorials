@@ -203,6 +203,9 @@ weight: 21
 完整的 Java OCR 教學，示範如何使用 Aspose OCR 從 PNG 圖片中提取文字。
 ### [使用 Aspose OCR 識別圖像文字 – 完整 Java 指南](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 完整的 Java 教學，示範如何使用 Aspose OCR 從圖像中識別文字。
+### [取得絕對路徑 Java – 完整指南](./get-absolute-path-java-complete-guide/)
+完整的 Java 教學，示範如何取得檔案的絕對路徑。
+### [在 C# 中下載所有資源 – 預載資產指南](./download-all-resources-in-c-guide-to-preloading-assets/)
 
 ## 常見問題
 
