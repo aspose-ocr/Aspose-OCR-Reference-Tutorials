@@ -112,12 +112,6 @@ GPU 가속을 활용해 이미지 OCR 속도를 크게 높이고 텍스트를 �
 ### [C#에서 OCR을 개선하는 방법 – 이미지 기울기 보정, 노이즈 제거 및 회전](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 이미지를 기울기 보정하고 노이즈를 제거하며 회전시켜 OCR 정확도를 높이는 단계별 가이드.
 
-
-
-
-
-
-
 ### [이미지 기울기 보정 및 대비 강화로 OCR 정확도 향상](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 .NET용 Aspose.OCR로 이미지 기울기를 보정하고 대비를 강화하여 OCR 정확도를 크게 향상시키는 방법을 알아보세요.
 ### [C#에서 이미지를 PDF로 변환 – 완전한 OCR 가이드](./convert-image-to-pdf-in-c-complete-ocr-guide/)
@@ -125,16 +119,10 @@ GPU 가속을 활용해 이미지 OCR 속도를 크게 높이고 텍스트를 �
 
 
 
-
-
-
 ### [C#에서 이미지 전처리 OCR – Aspose OCR으로 정확도 향상](./preprocess-image-ocr-in-c-boost-accuracy-with-aspose-ocr/)
 C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose OCR 엔진으로 배치 OCR 수행 방법](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 .NET용 Aspose.OCR 엔진을 사용해 C#에서 배치 OCR을 구현하는 방법을 단계별로 안내합니다.
-
-
-
 
 
 
@@ -151,7 +139,6 @@ C#에서 Aspose OCR을 사용해 이미지 전처리로 정확도를 높이는 �
 GPU 가속 OCR을 활용해 C#에서 이미지 텍스트를 빠르고 정확하게 추출하는 방법을 단계별로 안내합니다.
 ### [이미지에서 텍스트 추출 – 노이즈 감소를 포함한 완전한 C# OCR 가이드](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 ### [Aspose OCR GPU: C#로 빠른 텍스트 인식](./aspose-ocr-gpu-fast-text-recognition-with-c/)
-GPU 가속을 활용해 C#에서 고속 텍스트 인식을 구현하는 방법을 단계별로 안내합니다.
 ### [Aspose OCR에서 필터 사용하기 – 텍스트 추출 향상](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 Aspose OCR의 필터를 활용해 텍스트 추출 정확도를 높이는 단계별 가이드.
 ### [c# OCR 튜토리얼 – GPU 가속으로 이미지에서 텍스트 추출](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
@@ -266,6 +253,9 @@ Aspose.OCR와 함께 C#에서 이미지 전처리 과정을 단계별로 배워 
 ### [ASP.NET Core에서 이미지 텍스트 인식 – 업로드를 통한 OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 ### [Aspose를 사용한 이미지 OCR 수행 – 완전 C# 가이드](./perform-ocr-on-image-with-aspose-complete-c-guide/)
 Aspose와 C#을 활용해 이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
+
+### [C#에서 이미지에서 PDF OCR 수행 – 단계별 가이드](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+C#에서 Aspose OCR을 사용해 이미지를 PDF로 변환하고 OCR을 수행하는 단계별 가이드입니다.
 
 ## 자주 묻는 질문
 

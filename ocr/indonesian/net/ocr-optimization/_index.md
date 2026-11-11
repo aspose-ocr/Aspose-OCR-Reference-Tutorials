@@ -148,7 +148,7 @@ Pelajari cara mengoptimalkan OCR gambar menggunakan GPU dengan C#, meningkatkan 
 ### [Cara Menggunakan Aspose OCR dengan GPU – Panduan Langkah‑per‑Langkah](./how-to-use-aspose-ocr-with-gpu-step-by-step-guide/)
 Pelajari cara memanfaatkan GPU untuk meningkatkan kinerja Aspose OCR dengan panduan langkah demi langkah.
 ### [Pra-pemrosesan OCR Gambar di C# – Panduan Lengkap dengan Filter](./preprocess-image-ocr-in-c-complete-guide-with-filters/)
-Pelajari cara pra-pemrosesan gambar untuk OCR di C# dengan filter lengkap untuk meningkatkan akurasi.
+Pelajari cara pra‑pemrosesan gambar untuk OCR di C# dengan filter lengkap untuk meningkatkan akurasi.
 ### [Ekstrak teks gambar PNG dengan C# – OCR batch menggunakan Aspose OCR](./extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/)
 Pelajari cara mengekstrak teks dari banyak file PNG secara batch menggunakan Aspose OCR dengan C#.
 ### [Tutorial OCR C#: Mengenali Teks dari Gambar dengan Pra-pemrosesan](./c-ocr-tutorial-recognize-text-from-image-with-preprocessing/)
@@ -163,7 +163,9 @@ Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan akseleras
 
 ### [Cara Memperbaiki Kemiringan Gambar dan Meningkatkan Kontras untuk Akurasi OCR yang Lebih Baik](./how-to-deskew-image-and-boost-contrast-for-better-ocr-accura/)
 Pelajari cara mengoreksi kemiringan gambar dan meningkatkan kontras untuk meningkatkan akurasi OCR dengan Aspose.OCR.
-### [Mengonversi Gambar ke PDF dalam C# – Panduan OCR Lengkap](./convert-image-to-pdf-in-c-complete-ocr-guide/)
+### [Mengonversi Gambar ke PDF dengan OCR Aspose di C#: Panduan Langkah demi Langkah](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+Panduan lengkap mengonversi gambar menjadi PDF yang dapat dicari menggunakan Aspose OCR di C#.
+### [Mengonversi Gambar ke PDF dengan OCR Aspose di C#: Panduan Langkah demi Langkah](./convert-image-to-pdf-in-c-complete-ocr-guide/)
 Panduan lengkap mengonversi gambar ke PDF menggunakan C# dengan Aspose.OCR, termasuk langkah-langkah OCR penuh.
 
 

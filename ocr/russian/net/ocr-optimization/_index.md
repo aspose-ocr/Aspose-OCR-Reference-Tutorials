@@ -116,21 +116,10 @@ weight: 25
 ### [Как пакетно выполнять OCR в C# с движком Aspose OCR](./how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 Узнайте, как обрабатывать множество изображений за один проход, используя Aspose OCR в C#.
 
-
-
-
-
-
-
 ### [Предобработка изображения для OCR – Повышение точности с Aspose OCR](./preprocess-image-for-ocr-boost-accuracy-with-aspose-ocr/)
 Узнайте, как предобрабатывать изображения для OCR с Aspose OCR, повышая точность распознавания.
 ### [c# OCR учебник – Распознавание текста с изображения с ускорением GPU](./c-ocr-tutorial-recognize-text-from-image-with-gpu-accelerati/)
 Узнайте, как использовать GPU ускорение для распознавания текста на изображениях с помощью Aspose.OCR в C#.
-
-
-
-
-
 
 ### [Выполнение OCR изображения с ускорением GPU – Полное руководство на C#](./perform-ocr-on-image-with-gpu-acceleration-complete-c-guide/)
 Полное руководство по использованию ускорения GPU для OCR изображений в C# с Aspose.OCR.
@@ -161,13 +150,10 @@ weight: 25
 
 ### [Распознавание текста из изображения с использованием ускоренного GPU‑OCR в C#](./recognize-text-from-image-using-gpu-accelerated-ocr-in-c/)
 Узнайте, как применять GPU‑ускоренный OCR в C# для быстрого и точного извлечения текста из изображений.
-
 ### [Извлечение текста из изображения – Полное руководство по OCR на C# с уменьшением шума](./extract-text-from-image-complete-c-ocr-guide-with-noise-redu/)
 Подробный пошаговый гид по извлечению текста из изображений в C# с применением шумоподавления для повышения точности OCR.
-
 ### [Aspose OCR GPU: Быстрое распознавание текста с C#](./aspose-ocr-gpu-fast-text-recognition-with-c/)
 Узнайте, как ускорить OCR с помощью GPU и C# для быстрого распознавания текста в приложениях .NET.
-
 ### [Как использовать фильтры в Aspose OCR – ускорить извлечение текста](./how-to-use-filters-in-aspose-ocr-boost-text-extraction/)
 
 ### [c# OCR‑урок – Извлечение текста из изображений с ускорением GPU](./c-ocr-tutorial-extract-text-from-images-with-gpu-acceleratio/)
@@ -332,6 +318,8 @@ weight: 25
 
 ### [Распознавание текста из изображения в ASP.NET Core – загрузка для OCR](./recognize-text-from-image-in-asp-net-core-upload-for-ocr/)
 Узнайте, как загружать изображения в ASP.NET Core и выполнять OCR с помощью Aspose.OCR.
+### [Изображение в PDF OCR с Aspose OCR на C#: пошаговое руководство](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+Пошаговое руководство по преобразованию изображений в PDF с OCR, используя Aspose OCR в C#.
 
 ## Часто задаваемые вопросы
 

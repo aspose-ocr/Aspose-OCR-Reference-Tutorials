@@ -89,8 +89,7 @@ GPU 加速を活用し、高速かつ高精度に画像テキストを認識す�
 GPU を活用して OCR 処理を高速化し、画像からテキストへの変換を最適化する手順を解説します。
 ### [C# で OCR を改善する方法 – デスキュー、デノイズ、画像回転](./how-to-improve-ocr-in-c-deskew-denoise-rotate-images/)
 画像のデスキュー、デノイズ、回転処理を行い、OCR 精度を向上させる手順を C# で解説します。
-
-
+### [C# で Aspose OCR を使用した画像から PDF への OCR – ステップバイステップ ガイド](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
 
 Aspose.OCR for .NET を使用して OCR の世界に飛び込みましょう。私たちのチュートリアル[URL からの画像に対して OCR を実行する](./perform-ocr-on-image-from-url/)シームレスな統合をガイドします。画像からテキストを正確に認識し、アプリケーションをよりスマートにします。
 
@@ -100,7 +99,7 @@ Aspose.OCR for .NET の可能性を最大限に引き出す準備はできてい
 
 ## OCR画像認識における画像の前処理フィルタ
 
-Aspose.OCR for .NET を使用して OCR の精度を向上させる[前処理フィルタ](./preprocessing-filters-for-image/)。今すぐダウンロードして、認識前に画像を微調整する方法をご覧ください。このチュートリアルでは、シームレスな統合を保証し、精度と効率を高めます。
+Aspose.OCR for .NET を使用して OCR の精度を向上させるために、[前処理フィルタ](./preprocessing-filters-for-image/)。今すぐダウンロードして、認識前に画像を微調整する方法をご覧ください。このチュートリアルでは、シームレスな統合を保証し、精度と効率を高めます。
 
 ## OCR画像認識におけるスペルチェックによる結果修正
 
@@ -108,7 +107,7 @@ Aspose.OCR for .NET を使用して OCR の精度を向上させる[前処理フ
 
 ## OCR画像認識で複数ページの結果をドキュメントとして保存
 
-Aspose.OCR for .NET を使用すると、複数ページの OCR 結果をドキュメントとして簡単に保存できます。私たちの[ステップバイステップガイド](./save-multipage-result-as-document/)ドキュメント作成の可能性を最大限に引き出します。 Aspose.OCR をシームレスに統合し、OCR 結果を複数ページのドキュメントに簡単に変換します。
+Aspose.OCR for .NET を使用すると、複数ページの OCR 結果をドキュメントとして簡単に保存できます。私たちの[ステップバイステップガイド](./save-multipage-result-as-document/)ドキュメント作成の全ポテンシャルを解き放ちます。 Aspose.OCR をシームレスに統合し、OCR 結果をマルチページ文書へと容易に変換します。
 
 Aspose.OCR For .NET チュートリアル リストを使用すると、追加のリソースにアクセスし、OCR 最適化の最新の進歩を常に最新の状態に保つことができます。 Aspose.OCR for .NET チュートリアルで、精度と効率の世界に飛び込んでください。
 ## OCR最適化チュートリアル
