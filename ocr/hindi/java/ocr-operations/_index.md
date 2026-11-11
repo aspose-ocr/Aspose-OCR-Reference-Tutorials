@@ -216,6 +216,8 @@ C# में एसेट्स को प्री‑लोड करने क
 ### [Java में Aspose OCR के साथ इमेज पर OCR कैसे करें](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Aspose OCR का उपयोग करके Java में इमेज से टेक्स्ट निकालने की चरण‑बद्ध प्रक्रिया।
 
+### [Java में Aspose OCR के साथ इमेज को टेक्स्ट में बदलें](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+
 ## अक्सर पूछे जाने वाले सवाल
 
 **Q: मैं स्कैन की हुई PDF को सर्च करने लायक PDF में कैसे बदलूँ?**

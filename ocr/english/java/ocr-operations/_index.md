@@ -58,6 +58,16 @@ public class RecognizePdf {
 
 [Explore Detect Areas Mode Tutorial]({{< relref "perform-ocr-detect-areas-mode" >}})
 
+```java
+// Example: Recognize text in a specific area of an image
+OcrEngine engine = new OcrEngine();
+engine.setImage("sample.png");
+engine.getImageProcessingOptions().setDetectAreasMode(true);
+engine.getImageProcessingOptions().setDetectAreas(new Rectangle(50, 100, 400, 200));
+engine.recognize();
+System.out.println(engine.getText());
+```
+
 ## Performing OCR with Language Selection in Aspose.OCR
 
 Precision is key when it comes to text extraction, and Aspose.OCR for Java understands that. Dive into the Language Selection tutorial, where we guide you through the process of achieving accurate OCR by selecting the right language. Follow our step‑by‑step instructions to ensure your text extraction meets the highest standards.
@@ -191,7 +201,8 @@ Unlock precise text extraction from images with Aspose.OCR for Java. Follow our 
 
 ### [OCR Recognizing PDF Documents in Aspose.OCR for Java](./recognize-pdf/)
 Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents effortlessly. Boost your applications with precision and speed.
-
+### [How to convert image to text in Java with Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Convert images to searchable text using Aspose OCR for Java in a simple step‑by‑step guide.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
 
@@ -230,7 +241,7 @@ Comprehensive Java guide for recognizing text from images using Aspose OCR, cove
 Learn how to retrieve the absolute file path in Java with a complete step‑by‑step guide.
 ### [Download all resources in C# – guide to preloading assets](./download-all-resources-in-c-guide-to-preloading-assets/)
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How do I convert a scanned PDF into a searchable PDF?**  
 A: Use the `recognize-pdf` tutorial to apply OCR, then save the document with a searchable text layer.

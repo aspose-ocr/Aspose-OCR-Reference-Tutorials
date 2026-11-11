@@ -212,6 +212,8 @@ Panduan lengkap untuk mendapatkan jalur absolut file di Java menggunakan Aspose.
 Panduan lengkap untuk mengunduh semua sumber daya dalam proyek C# dan memuatnya sebelumnya untuk meningkatkan kinerja aplikasi.
 ### [Cara melakukan OCR pada gambar dengan Aspose OCR di Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Panduan langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose OCR dengan Java.
+### [Cara mengonversi gambar ke teks di Java dengan Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Panduan lengkap mengonversi gambar menjadi teks menggunakan Aspose OCR di Java, langkah demi langkah untuk hasil akurat.
 
 ## Pertanyaan yang Sering Diajukan
 

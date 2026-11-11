@@ -212,6 +212,8 @@ Leer hoe u het absolute pad van een bestand in Java kunt bepalen met een volledi
 Leer hoe u alle resources in C# kunt downloaden en vooraf kunt laden voor optimale prestaties.
 ### [Hoe OCR uit te voeren op een afbeelding met Aspose OCR in Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Leer stap‑voor‑stap hoe u met Aspose OCR in Java tekst uit afbeeldingen haalt.
+### [Hoe afbeelding naar tekst converteren in Java met Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Leer hoe u met Aspose OCR in Java afbeeldingen naar bewerkbare tekst converteert.
 
 ## Veelgestelde vragen
 

@@ -219,6 +219,8 @@ Hướng dẫn chi tiết cách lấy đường dẫn tuyệt đối của tệp
 Hướng dẫn chi tiết cách tải xuống và chuẩn bị trước mọi tài nguyên trong dự án C# để tối ưu hiệu năng.
 ### [Cách thực hiện OCR trên hình ảnh với Aspose OCR trong Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Hướng dẫn chi tiết cách sử dụng Aspose OCR để nhận dạng văn bản từ hình ảnh trong Java.
+### [Cách chuyển đổi hình ảnh thành văn bản trong Java với Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Mở khóa khả năng chuyển đổi hình ảnh thành văn bản trong Java bằng Aspose OCR, hướng dẫn chi tiết từng bước.
 
 ## Câu hỏi Thường gặp
 

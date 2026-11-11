@@ -209,6 +209,8 @@ Apprenez à récupérer le chemin absolu d'un fichier en Java grâce à ce guide
 Apprenez à télécharger toutes les ressources en C# et à les précharger efficacement dans vos applications.
 ### [Comment effectuer l'OCR sur une image avec Aspose OCR en Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Apprenez à extraire du texte d'une image en Java avec Aspose OCR, étape par étape.
+### [Comment convertir une image en texte en Java avec Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Apprenez à transformer des images en texte en Java avec Aspose OCR, étape par étape.
 
 ## Foire aux questions
 

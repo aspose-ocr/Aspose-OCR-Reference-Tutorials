@@ -210,6 +210,8 @@ Erfahren Sie, wie Sie den absoluten Pfad einer Datei in Java ermitteln und nutze
 Laden Sie alle Ressourcen in C# herunter und lernen Sie, Assets vorzuladen.
 ### [Wie man OCR auf einem Bild mit Aspose OCR in Java durchführt](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern extrahieren.
+### [Bild in Text konvertieren in Java mit Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Erfahren Sie, wie Sie Bilder mit Aspose OCR in Java in editierbaren Text umwandeln.
 
 ## Häufig gestellte Fragen
 

@@ -84,6 +84,7 @@ weight: 21
 เรียนรู้วิธีประมวลผล OCR หลายไฟล์พร้อมกันใน Java เพื่อสกัดข้อความจากรูปภาพอย่างมีประสิทธิภาพ  
 ### [ทำ OCR บนรูปภาพด้วย Java – คู่มือเต็ม Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ Java เพื่อทำ OCR บนรูปภาพอย่างเต็มรูปแบบและได้ผลลัพธ์แม่นยำ  
+### [วิธีแปลงรูปภาพเป็นข้อความใน Java ด้วย Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 ### [สร้าง PDF ที่ค้นหาได้ใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-in-java-step-by-step-guide/)
 เรียนรู้วิธีสร้าง PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
 ### [OCR ภาพชุดใน Java – ดึงข้อความจากไฟล์ PNG อย่างรวดเร็ว](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)

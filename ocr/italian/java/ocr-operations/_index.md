@@ -212,6 +212,8 @@ Scopri come ottenere il percorso assoluto di un file in Java con esempi pratici 
 Scopri come pre‑caricare asset in C# scaricando tutte le risorse necessarie in un unico passaggio.
 ### [Come eseguire l'OCR su un'immagine con Aspose OCR in Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Scopri come eseguire l'OCR su immagini usando Aspose OCR in Java, passo‑passo per risultati accurati.
+### [Come convertire un'immagine in testo in Java con Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Scopri come trasformare immagini in testo con Aspose OCR per Java, seguendo una guida passo‑passo per risultati precisi.
 
 ## Domande Frequenti
 

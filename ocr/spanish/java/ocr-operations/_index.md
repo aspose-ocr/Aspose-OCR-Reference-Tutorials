@@ -213,6 +213,8 @@ Aprende a obtener la ruta absoluta de archivos en Java con ejemplos paso a paso.
 Descarga y precarga todos los recursos en C# de forma sencilla con esta guía paso a paso.
 ### [Cómo realizar OCR en una imagen con Aspose OCR en Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Aprende a ejecutar OCR en imágenes usando Aspose OCR con Java paso a paso.
+### [Cómo convertir una imagen a texto en Java con Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+Aprende a convertir imágenes a texto en Java usando Aspose OCR, paso a paso y con ejemplos claros.
 
 ## Preguntas frecuentes
 

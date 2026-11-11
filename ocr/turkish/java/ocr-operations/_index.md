@@ -171,6 +171,7 @@ Java'da dosya sisteminde mutlak yol elde etme yöntemlerini adım adım öğreni
 C# projelerinizde varlıkları önceden yüklemek için tüm kaynakları nasıl indireceğinizi öğrenin.
 ### [Java'da Aspose OCR ile Görüntü Üzerinde OCR Nasıl Yapılır](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Java ile bir görüntüde metin tanıma sürecini adım adım öğrenin.
+### [Java'da Aspose OCR ile Görüntüyü Metne Dönüştürme](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 
 ## Sıkça Sorulan Sorular
 
