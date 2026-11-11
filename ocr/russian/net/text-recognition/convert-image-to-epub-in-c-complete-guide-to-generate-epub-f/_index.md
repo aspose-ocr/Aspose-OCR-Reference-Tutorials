@@ -24,7 +24,7 @@ title: Конвертировать изображение в ePub на C# –
 url: /ru/net/text-recognition/convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/
 ---
 
-all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

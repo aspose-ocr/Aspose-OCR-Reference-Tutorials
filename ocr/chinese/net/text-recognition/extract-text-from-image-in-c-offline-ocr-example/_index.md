@@ -20,7 +20,6 @@ title: 在 C# 中从图像提取文本 – 离线 OCR 示例
 url: /zh/net/text-recognition/extract-text-from-image-in-c-offline-ocr-example/
 ---
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

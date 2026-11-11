@@ -24,11 +24,8 @@ title: 'Cara Menggunakan Aspose: Mengenali Teks Tangan dari Gambar'
 url: /id/python/general/how-to-use-aspose-recognize-handwritten-text-from-images/
 ---
 
-we translate alt? It says preserve exactly; probably we should not change alt text. So keep as is.
 
-Similarly blockquote >.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

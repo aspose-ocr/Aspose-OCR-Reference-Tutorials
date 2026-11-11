@@ -20,9 +20,8 @@ title: 在 C# 中识别印地语文本 – 完整的 Aspose OCR 指南
 url: /zh/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
 
-code block placeholders.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
