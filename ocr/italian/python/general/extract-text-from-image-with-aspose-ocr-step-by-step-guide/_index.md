@@ -25,13 +25,10 @@ title: Come correggere gli errori OCR – Estrarre testo da un'immagine con Aspo
 url: /it/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
-:** Aspose" -> "**Autore:** Aspose"
 
-Make sure to keep bold formatting.
 
-Now produce final content with all translations, preserving placeholders.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

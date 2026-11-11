@@ -46,6 +46,8 @@ Aspose.OCR を使用して .NET アプリケーションで OCR の可能性を�
 Aspose.OCR で .NET の OCR 画像認識を活用し、フォルダー内の画像からテキストを簡単に抽出する方法を習得します。
 ### [OCROperation with Language Selection in OCR Image Recognition](./ocr-operation-with-language-selection/)
 Aspose.OCR for .NET の強力な OCR 機能を活用し、画像からシームレスにテキストを抽出する方法を学びます。
+### [ロシア語用 OCR 言語パックのダウンロード方法 – 完全ガイド](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+ロシア語 OCR 言語パックの取得手順とインストール方法をステップバイステップで解説します。
 ### [OCROperation with List in OCR Image Recognition](./ocr-operation-with-list/)
 Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR 画像認識を手軽に実行し、アプリケーションの生産性とデータ抽出を向上させます。
 ### [C# で OCR を有効化する方法 – PDF を簡単にテキストへ変換](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
@@ -53,6 +55,53 @@ Aspose.OCR for .NET の可能性を引き出し、リストを使用した OCR �
 ### [C# で GPU OCR を使用して画像ファイルを読み込み、レシートテキストを抽出](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 GPU を活用した OCR で画像ファイルからレシートテキストを高速に抽出し、C# で実装する方法を解説します。
 ### [C# で検索可能な PDF を作成 – OCR 変換ガイド](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+### [C# で OCR から JSON を保存する方法 – 完全ステップバイステップガイド](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+### [オフラインで中国語テキストを認識する – 完全 C# ガイド](./recognize-chinese-text-offline-complete-c-guide/)
+Aspose.OCR を使用してオフライン環境で中国語テキストを認識し、C# で実装する完全ガイドです。
+### [C# で OCR エンジンを作成する – オフラインセットアップガイド](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+C# でオフライン OCR エンジンを構築し、セットアップ手順と必要な構成を学びます。
+### [C# で OCR モデルの利用可否を確認する方法 – ステップバイステップガイド](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+C# で OCR モデルが利用可能かどうかを確認し、適切にハンドリングする手順を解説します。
+### [PDF にフォントを埋め込む – JPEG から検索可能な PDF を作成](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+JPEG 画像からフォントを埋め込み、検索可能な PDF を作成する方法を学びます。
+### [png からテキストを読み取る – Aspose OCR でキリル文字テキストを抽出](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Aspose OCR を使用して PNG 画像からキリル文字テキストを抽出し、.NET アプリで利用する方法を解説します。
+### [C# で OCR の GPU デバイスを設定する – 完全プログラミングガイド](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+### [C# で画像からテキストを認識 – Aspose OCR でカンナダ語を認識する方法](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Aspose OCR を使用して C# アプリでカンナダ語画像のテキスト抽出手順を学びます。
+### [Aspose OCR AI を使用したスペルチェックプロセッサの作成 – 完全ガイド](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aspose OCR AI を活用し、スペルチェックプロセッサを作成してテキストの正確性を向上させる完全ガイドです。
+### [Aspose OCR のライセンスフラグを確認 – ライセンス検証クイックガイド](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+### [C# で OCR 用 GPU を有効化する方法 – ステップバイステップガイド](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+### [C# で OCR を無効にする方法 – オフライン Aspose OCR ガイド](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+### [C# で OCR 用に画像をロード – 完全な Aspose OCR とスペルチェック ガイド](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+C# で画像をロードし、Aspose OCR とスペルチェック機能を組み合わせてテキスト抽出と校正を行う完全ガイドです。
+### [C# で OCR エンジンを作成する – 完全ガイド](./create-ocr-engine-in-c-complete-guide/)
+### [Aspose OCR で GPU メモリ制限を設定 – C# GPU ガイド](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+### [Aspose OCR GPU を使用した画像からのテキスト抽出 – 完全 C# ガイド](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+GPU 加速を活用し、Aspose OCR で画像テキストを高速に抽出する C# 完全ガイドです。
+### [Aspose OCR のライセンス設定方法 – 完全 C# ガイド](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR のライセンスを設定し、C# アプリで正しく使用する手順を詳しく解説します。
+### [C# で OCR を実行する方法 – 多言語ガイド](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR を使用して C# アプリで複数言語の画像テキストを抽出する手順を解説します。
+### [画像からテキストへ C# – ダウンロード無効の Aspose OCR](./image-to-text-c-aspose-ocr-with-disabled-download/)
+C# で Aspose OCR を使用し、ダウンロード機能を無効にした状態で画像からテキストを抽出する方法を解説します。
+### [C# で Aspose OCR のバージョンを取得する – 完全ガイド](./get-aspose-ocr-version-in-c-complete-guide/)
+C# コードで Aspose OCR の現在バージョン情報を取得し、表示する方法をステップバイステップで解説します。
+### [C# で OcrEngine を使用する方法 – 完全 OCR ガイド](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+C# で OcrEngine クラスを活用し、画像からテキストを抽出する手順を詳しく解説します。
+### [画像から検索可能な PDF を作成 – 完全ステップバイステップガイド](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+画像から検索可能な PDF を作成する手順をステップバイステップで解説します。
+### [C# による画像からの言語検出 – 完全プログラミングガイド](./detect-language-from-image-in-c-complete-programming-guide/)
+### [OcrEngineConfig の使用方法 – C# における OCR エンジン構成](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+### [Aspose.OCR で OCR を実行する方法 – 完全 C# ガイド](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR を使用した C# 完全ガイドで、OCR の設定からテキスト抽出までをステップバイステップで学びます。
+
+### [AsposeAI モデル構成の作成 – ステップバイステップ ガイド](./create-asposeai-model-config-step-by-step-guide/)
+### [Aspose OCR ロガー作成 – 完全ステップバイステップガイド](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Aspose OCR 用のロガーを作成し、OCR プロセスの詳細なログを取得する手順をステップバイステップで解説します。
+### [Aspose AI で不足モデルをダウンロードする完全ガイド](./download-missing-models-with-aspose-ai-complete-guide/)
+Aspose AI を使用して欠落しているモデルを自動的にダウンロードし、OCR の精度を向上させる方法を解説します。
 
 ### 一般的なユースケース
 - **Extract text images** スキャンした請求書からテキストを抽出し、会計業務を自動化。  

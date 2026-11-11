@@ -23,15 +23,11 @@ title: Hur man rättar OCR‑fel – Extrahera text från bild med Aspose OCR �
 url: /sv/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
- på extrahering av text från bild". Title attribute also.
 
-Backtop button shortcode unchanged.
 
-Last Updated etc keep.
 
-Now produce final markdown with all translations, preserving shortcodes and code block placeholders.
 
-Let's craft.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

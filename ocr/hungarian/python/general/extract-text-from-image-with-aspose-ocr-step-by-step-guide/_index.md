@@ -26,19 +26,13 @@ title: Hogyan javítsuk ki az OCR hibákat – Szöveg kinyerése képből az As
 url: /hu/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
- versions.
 
-**Last Updated:** -> "Utolsó frissítés:".
 
-**Tested With:** -> "Tesztelve a következőkkel:".
 
-**Author:** -> "Szerző:".
 
-Now ensure we keep all placeholders unchanged.
 
-Also ensure markdown formatting preserved.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
