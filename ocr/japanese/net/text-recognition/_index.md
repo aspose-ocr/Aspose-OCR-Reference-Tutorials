@@ -199,6 +199,8 @@ Aspose.OCR と C# を使用して、複数の JPEG 画像を一括で OCR 処理
 
 
 
+### [Aspose OCR を使用して OCR モデルをダウンロードし、PNG からテキストを抽出する方法（C#）](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Aspose.OCR で OCR モデルを取得し、C# で PNG 画像からテキストを抽出する手順をステップバイステップで解説します。
 
 
 

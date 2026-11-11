@@ -172,6 +172,8 @@ Naučte se v C# pomocí Aspose OCR rozpoznávat text z obrázků a snadno jej za
 
 
 
+### [Jak stáhnout OCR model a extrahovat text z PNG pomocí Aspose.OCR v C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Naučte se stáhnout OCR model a extrahovat text z PNG souborů pomocí Aspose.OCR v C#.
 
 
 
@@ -286,7 +288,7 @@ Naučte se, jak v C# pomocí Aspose OCR kompletně extrahovat text z obrázku a 
 ### [Rozpoznat text z obrázku v C# – Kompletní průvodce OCR a JSON](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 Naučte se v C# rozpoznávat text z obrázků a získávat výsledky ve formátu JSON pomocí Aspose.OCR.
 ### [c# OCR tutoriál – Převod obrázků na prohledávatelná PDF](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
-Naučte se pomocí Aspose.OCR pro .NET převést obrázky na prohledávatelná PDF soubory a snadno integrovat OCR do vašich aplikací.
+Naučte se pomocí Aspose.OCR pro .NET převést obrázky na prohledávatelná PDF soubory a snadno integrovat OCR do svých aplikací.
 ### [c# OCR tutoriál: Rozpoznání textu z PNG obrázků](./c-ocr-tutorial-recognize-text-from-png-images/)
 Naučte se pomocí Aspose.OCR v .NET rozpoznávat text z PNG souborů a získávat výsledky ve svých aplikacích.
 ### [c# OCR tutoriál – Extrahovat text z obrázku a získat formátovaný JSON](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)

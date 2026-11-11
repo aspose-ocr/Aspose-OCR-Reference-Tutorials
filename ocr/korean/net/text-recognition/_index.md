@@ -117,6 +117,8 @@ C#와 Aspose.OCR을 활용해 이미지에서 텍스트를 인식하고 추출�
 Aspose OCR을 사용하여 아랍어와 힌디어 텍스트를 정확하게 인식하는 단계별 가이드를 확인하세요.
 ### [C#에서 OCR 수행하기 – 오프라인 텍스트 추출 가이드](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Aspose.OCR을 사용해 C#에서 인터넷 없이 텍스트를 추출하는 방법을 단계별로 안내합니다.
+### [Aspose OCR를 사용해 OCR 모델을 다운로드하고 PNG에서 텍스트 추출하기 (C#)](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Aspose.OCR로 OCR 모델을 다운로드하고 PNG 이미지에서 텍스트를 추출하는 단계별 가이드를 확인하세요.
 
 ### [C#에서 이미지에 OCR 실행 – 완전한 Aspose OCR 튜토리얼](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
 C#을 사용해 이미지에서 OCR을 수행하고 Aspose OCR의 모든 기능을 단계별로 배워보세요.
@@ -184,7 +186,7 @@ Aspose.OCR를 사용해 C#에서 이미지를 텍스트로 변환하는 전체 �
 ### [Aspose OCR로 이미지에서 텍스트 추출 – 완전한 C# 가이드](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
 Aspose OCR를 활용해 C#에서 이미지 텍스트를 추출하는 전체 과정을 단계별로 안내합니다.
 ### [C#에서 OCR 수행 방법 – Aspose OCR로 이미지에서 텍스트 추출](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
-Aspose OCR를 사용해 C#에서 이미지의 텍스트를 추출하는 방법을 단계별로 안내합니다.
+Aspose OCR을 사용해 C#에서 이미지의 텍스트를 추출하는 방법을 단계별로 안내합니다.
 ### [C#에서 Aspose OCR을 사용한 다국어 텍스트 인식 – 완전 가이드](./multilingual-text-recognition-in-c-with-aspose-ocr-complete/)
 Aspose OCR을 활용해 C#에서 다국어 텍스트를 정확히 인식하는 방법을 단계별로 안내합니다.
 ### [C#에서 이미지에서 텍스트 추출 – Aspose를 사용한 오프라인 OCR (단계별 가이드)](./extract-text-from-image-in-c-offline-ocr-with-aspose-step-by/)

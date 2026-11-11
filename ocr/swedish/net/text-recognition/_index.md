@@ -147,6 +147,8 @@ Lär dig att känna igen arabisk och hindi-text i bilder med Aspose OCR för .NE
 Lär dig hur du konverterar en bild till JSON med Aspose OCR i C#. Följ vår steg-för-steg-guide för enkel implementering.
 ### [Hur man utför OCR i C# – Offline textutdragsguide](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Lär dig att utföra OCR i C# utan internetanslutning för att extrahera text från bilder lokalt.
+### [Hur du laddar ner OCR-modell och extraherar text från PNG med Aspose.OCR i C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Lär dig ladda ner OCR-modellen och extrahera text från PNG-bilder med Aspose.OCR i C#.
 
 ### [Kör OCR på bild i C# – Komplett Aspose OCR-handledning](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
 Lär dig steg-för-steg hur du kör OCR på en bild med C# och Aspose OCR för att extrahera text effektivt.

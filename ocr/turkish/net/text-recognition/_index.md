@@ -167,7 +167,8 @@ Aspose OCR kullanarak C# ile bir görüntüden metin nasıl tanınır, adım ad�
 
 
 
-
+### [Aspose.OCR ile OCR Modelini İndirip PNG'den Metin Çıkarma (C#)](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Aspose.OCR kullanarak OCR modelini indirip PNG dosyalarından metin çıkarmayı adım adım öğrenin.
 
 ### [Aspose ile PDF OCR: Dönüştürme, Dışa Aktarma ve Arama](./how-to-ocr-pdf-with-aspose-convert-export-search/)
 Aspose kullanarak PDF dosyalarını OCR ile işleyin, metni dönüştürün, dışa aktarın ve içinde arama yapın.
@@ -258,7 +259,7 @@ C# ile Aspose OCR kullanarak PNG dosyalarından Arapça metni çıkarmayı adım
 ### [C#'ta PNG'den Aranabilir PDF Oluşturma – Tam Kılavuz](./create-searchable-pdf-from-png-in-c-complete-guide/)
 C# ile Aspose OCR kullanarak PNG dosyasından aranabilir PDF oluşturmayı adım adım öğrenin.
 ### [C#'ta Görüntüden Metin Çıkarma – Tam Aspose OCR Kılavuzu](./extract-text-from-image-in-c-complete-aspose-ocr-guide/)
-Aspose OCR kullanarak C# içinde görüntülerden metin çıkarmayı adım adım keşfedin.
+Aspose OCR kullanarak C# içinde görüntülerden metin çıkarma adımlarını adım adım keşfedin.
 ### [C#'ta Görüntüden Metin Tanıma – OCR ve JSON Tam Kılavuzu](./recognize-text-from-image-in-c-complete-guide-to-ocr-and-jso/)
 C# ile Aspose OCR kullanarak görüntülerden metin çıkarın ve sonuçları JSON formatında alın. Adım adım tam rehber.
 ### [c# OCR eğitimi – Görüntüleri Aranabilir PDF'lere Dönüştürme](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)

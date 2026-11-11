@@ -179,6 +179,8 @@ Dowiedz się, jak w C# przetwarzać wsadowo obrazy OCR i wyodrębniać tekst w p
 
 
 
+### [Jak pobrać model OCR i wyodrębnić tekst z PNG przy użyciu Aspose.OCR w C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Dowiedz się, jak pobrać model OCR i wyodrębnić tekst z pliku PNG w C# przy użyciu Aspose.OCR.
 
 
 

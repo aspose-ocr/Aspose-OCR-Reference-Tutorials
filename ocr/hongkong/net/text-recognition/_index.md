@@ -187,6 +187,11 @@ url: /zh-hant/net/text-recognition/
 
 
 
+### [C# OCR 教學 – 在數分鐘內從 JPG 識別文字](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
+使用 Aspose.OCR，快速在 .NET 中從 JPG 圖像提取文字，簡單步驟即可完成。
+
+### [如何下載 OCR 模型並使用 Aspose.OCR 在 C# 中從 PNG 提取文字](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+學習下載 OCR 模型並在 C# 中使用 Aspose.OCR 從 PNG 圖像提取文字。
 
 
 
@@ -211,8 +216,6 @@ url: /zh-hant/net/text-recognition/
 使用 Aspose.OCR for .NET，學習如何批量處理掃描的 TIFF 圖像以提取文字，提高工作效率。
 ### [使用 Aspose OCR 在 C# 中將圖像轉換為文字 – 步驟指南](./convert-image-to-text-in-c-with-aspose-ocr-step-by-step-guid/)
 使用 Aspose.OCR for .NET，學習如何在 C# 中將圖像轉換為文字，提供完整步驟指南。
-### [C# OCR 教程 – 在數分鐘內從 JPG 識別文字](./c-ocr-tutorial-recognize-text-from-jpg-in-minutes/)
-使用 Aspose.OCR，快速在 .NET 中從 JPG 圖像提取文字，簡單步驟即可完成。
 ### [C# 從 JPG 識別文字 – 完整 OCR 教程](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 使用 Aspose.OCR，完整步驟將 JPG 圖像文字轉換為可編輯內容，助您深入掌握 OCR 技術。
 ### [如何在 C# 中使用 Aspose OCR – 從圖像辨識韓文文字](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)

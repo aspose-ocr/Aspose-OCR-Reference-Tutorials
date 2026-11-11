@@ -183,6 +183,8 @@ url: /ru/net/text-recognition/
 
 
 
+### [Как скачать модель OCR и извлечь текст из PNG с помощью Aspose.OCR в C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Пошаговое руководство по загрузке модели OCR и извлечению текста из PNG‑изображений с использованием Aspose.OCR в C#.
 
 
 

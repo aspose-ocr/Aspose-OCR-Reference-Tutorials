@@ -176,6 +176,8 @@ Aprenda a reconhecer texto em imagens usando Aspose OCR com C#, passo a passo, p
 
 
 
+### [Como baixar modelo OCR e extrair texto de PNG usando Aspose.OCR em C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Aprenda a baixar o modelo OCR e extrair texto de imagens PNG usando Aspose.OCR em C# com um guia passo a passo.
 
 
 
@@ -216,7 +218,7 @@ Aprenda a usar Aspose.OCR em C# para extrair texto em Hindi de imagens PNG de re
 ### [Extrair Texto de PNG – Tutorial Completo Aspose OCR](./extract-text-from-png-complete-aspose-ocr-tutorial/)
 Aprenda passo a passo a extrair texto de imagens PNG usando Aspose OCR, cobrindo configuração e extração de texto.
 ### [Reconhecer texto em JPG com Aspose OCR – Guia Completo em C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
-Aprenda passo a passo a reconhecer texto em imagens JPG usando Aspose OCR com C#, cobrindo configuração e extração de texto.
+Aprenda passo a passo a reconhecer texto em imagens JPG usando Aspose OCR com C#. Cobrindo configuração e extração de texto.
 ### [Tutorial c# OCR – Extrair Texto de Imagens com Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 Aprenda a usar Aspose.OCR em C# para extrair texto de imagens, passo a passo, cobrindo configuração e extração de texto.
 ### [Como criar PDF pesquisável a partir de JPG – Guia passo a passo](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
@@ -291,6 +293,7 @@ Aprenda a usar Aspose.OCR em C# para reconhecer texto em imagens de forma rápid
 
 
 ### [Como executar OCR em C# – reconhecer texto cirílico com Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
+### [Como executar OCR em C# – reconhecer texto cirílico com Aspose](./how-to-perform-ocr-in-c-recognize-cyrillic-text-withaspose/)
 Aprenda a usar Aspose.OCR em C# para reconhecer texto em cirílico com alta precisão.
 ### [Como usar OCR em C# para extrair texto cirílico](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 Aprenda a usar OCR em C# para extrair texto em cirílico de imagens de forma simples e precisa.

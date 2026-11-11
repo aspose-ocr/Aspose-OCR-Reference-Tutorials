@@ -123,6 +123,31 @@ Learn how to implement OCR in C# to recognize text from images using Aspose.OCR 
 ### [How to OCR Arabic and Hindi Text with Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
 Step-by-step guide to recognize Arabic and Hindi text using Aspose.OCR in .NET applications.
 ### [How to Perform OCR in C# – Offline Text Extraction Guide](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
+### [Get choices for recognized characters in OCR image recognition](get-choices-for-recognized-characters)
+Enhance your .NET applications with Aspose.OCR for accurate character recognition. Follow our step‑by‑step guide to retrieve choices for recognized characters in image recognition.
+
+### [Get recognition result in OCR image recognition](get-recognition-result)
+Explore Aspose.OCR for .NET, a powerful OCR solution for seamless text recognition in images.
+
+### [Get Result as JSON in OCR Image Recognition](get-result-as-json)
+Unleash the power of Aspose.OCR for .NET. Learn to obtain OCR results in JSON format effortlessly. Enhance your image recognition with this step‑by‑step guide.
+
+### [Convert Image to JSON with Aspose OCR C# Guide](convert-image-to-json-with-aspose-ocr-c-guide)
+Learn how to convert images to JSON using Aspose OCR in C#. Follow our step‑by‑step guide for seamless .NET integration.
+
+### [OCR detect areas mode in OCR image recognition](ocr-detect-areas-mode)
+Enhance your .NET applications with Aspose.OCR for efficient image text recognition. Explore OCR Detect Areas Mode for precise results.
+
+### [Recognize PDF in OCR Image Recognition](recognize-pdf)
+Unlock the potential of OCR in .NET with Aspose.OCR. Extract text from PDFs effortlessly. Download now for a seamless integration experience.
+
+### [Recognize table in OCR image recognition](recognize-table)
+Unlock the potential of Aspose.OCR for .NET with our comprehensive guide on recognizing tables in OCR image recognition.
+
+### [How to OCR Arabic and Hindi Text with Aspose OCR](how-to-ocr-arabic-and-hindi-text-with-aspose-ocr)
+Step‑by‑step guide to recognize Arabic and Hindi text using Aspose.OCR in .NET applications.
+
+### [How to Perform OCR in C# – Offline Text Extraction Guide](how-to-perform-ocr-in-c-offline-text-extraction-guide)
 Learn how to perform offline OCR in C# with Aspose.OCR, extracting text from images without internet connectivity.
 ### [Run OCR on Image in C# – Complete Aspose OCR Tutorial](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
 Learn how to run OCR on images using C# with Aspose OCR in this comprehensive step‑by‑step tutorial.
@@ -185,8 +210,6 @@ Step-by-step guide to recognize text from images using Aspose OCR in C#, includi
 Create searchable PDFs from images using Aspose.OCR in C#. Follow this step-by-step guide to integrate PDF generation into your .NET apps.
 ### [How to Batch OCR JPEG Images in C# – Complete Guide](./how-to-batch-ocr-jpeg-images-in-c-complete-guide/)
 Learn to process multiple JPEG images with Aspose.OCR in C#, batch OCR them efficiently in this comprehensive step‑by‑step guide.
-
-
 
 
 
@@ -852,6 +875,13 @@ Step-by-step guide to recognize text from images using Aspose OCR in C#.
 Learn to implement a console logger and perform spell‑check on OCR text using Aspose.OCR in C#.
 ### [How to use OCR in C# to extract Cyrillic text](./how-to-use-ocr-in-c-to-extract-cyrillic-text/)
 Learn how to extract Cyrillic text from images using Aspose.OCR in C# with a step‑by‑step guide.
+
+
+### [How to download OCR model and extract text from PNG using Aspose OCR in C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+### [How to Extract OCR Text in C# – Complete Step‑by‑Step Guide](./how-to-extract-ocr-text-in-c-complete-step-by-step-guide/)
+Learn to extract OCR text in C# using Aspose.OCR with a complete step‑by‑step guide for accurate results.
+### [recognize text png with Aspose OCR .NET – Full Local OCR Guide](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
+Learn how to perform local OCR on PNG images using Aspose.OCR for .NET with a comprehensive step‑by‑step guide.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

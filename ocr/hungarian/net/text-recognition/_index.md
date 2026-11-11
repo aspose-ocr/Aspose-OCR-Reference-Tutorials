@@ -213,6 +213,8 @@ Tanulja meg, hogyan végezhet kötegelt OCR feldolgozást C#-ban az Aspose.OCR s
 
 
 
+### [Hogyan töltsük le az OCR modellt és nyerjünk ki szöveget PNG-ből az Aspose.OCR segítségével C#-ban](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Ismerje meg, hogyan töltheti le az OCR modellt, és nyerhet ki szöveget PNG képekből C#-ban az Aspose.OCR-rel.
 
 
 

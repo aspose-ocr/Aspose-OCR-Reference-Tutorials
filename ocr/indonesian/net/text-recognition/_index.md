@@ -176,6 +176,8 @@ Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dalam C# dengan 
 
 
 
+### [Cara mengunduh model OCR dan mengekstrak teks dari PNG menggunakan Aspose.OCR di C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Pelajari cara mengunduh model OCR dan mengekstrak teks dari gambar PNG dengan Aspose.OCR di C#.
 
 
 

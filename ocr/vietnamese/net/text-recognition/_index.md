@@ -195,6 +195,8 @@ Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để nhận d�
 
 
 
+### [Cách tải mô hình OCR và trích xuất văn bản từ PNG bằng Aspose.OCR trong C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
+Tải mô hình OCR và sử dụng Aspose.OCR trong C# để trích xuất nhanh chóng văn bản từ tệp PNG.
 
 
 
