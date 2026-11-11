@@ -123,6 +123,9 @@ Aspose kullanarak OCR doğruluğunu artırmak için görüntü gürültüsünü 
 
 GPU desteğiyle OCR hızını artırın, görüntülerden metni anında çıkarın. Java projelerinizde yüksek performans elde edin.
 
+### [Java'da GPU'yu Etkinleştirme ve Görüntülerden Metin Çıkarma](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+GPU desteğiyle Java uygulamalarında görüntülerden metni hızlı ve doğru bir şekilde çıkarın.
+
 ### [Java'da Aspose.OCR ile GPU'yu OCR için Etkinleştirme](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
 Java projelerinizde Aspose.OCR ile GPU desteğini etkinleştirerek OCR performansını artırın.
 

@@ -124,6 +124,7 @@ Aspose.OCR для Java меняет правила игры, когда дело
 Извлеките VIN из фотографии с помощью Aspose.OCR для Java. Быстрое и точное распознавание символов на изображениях.
 ### [Как включить GPU для OCR в Aspose.OCR для Java – пошаговое руководство](./how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
 Узнайте, как активировать ускорение GPU в Aspose.OCR для Java для повышения производительности распознавания текста.
+### [Как включить GPU и извлекать текст из изображений в Java](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
 ### [Распознавание текста из изображений с Java – Параллельный OCR‑урок](./recognize-text-from-images-with-java-parallel-ocr-tutorial/)
 Узнайте, как выполнять параллельное распознавание изображений в Java с помощью Aspose.OCR, повышая скорость обработки.
 ### [Извлечение текста из изображения Java – Полное руководство по OCR с исправлением орфографии](./extract-text-from-image-java-complete-ocr-guide-with-spell-c/)

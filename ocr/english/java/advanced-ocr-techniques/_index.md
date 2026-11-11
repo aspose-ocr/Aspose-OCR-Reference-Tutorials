@@ -289,6 +289,9 @@ Learn how to decrypt PDF files and extract text using Aspose.OCR for Java in thi
 ### [Preprocess Image for OCR – Boost Accuracy with Preprocessing](./preprocess-image-for-ocr-boost-accuracy-with-preprocessing/)
 Boost OCR accuracy by preprocessing images before recognition with Aspose.OCR for Java.
 
+### [How to enable GPU and extract text from images in Java](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+Enable GPU acceleration for Aspose.OCR in Java to quickly extract text from images, boosting OCR performance.
+
 ## Frequently asked questions
 
 **Q: Can I use Aspose.OCR for OCR on PDF documents?**  

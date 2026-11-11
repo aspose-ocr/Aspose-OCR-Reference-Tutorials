@@ -261,6 +261,8 @@ Scopri come estrarre tabelle da immagini in Java usando Aspose.OCR, con istruzio
 Scopri come migliorare il contrasto delle immagini per ottimizzare l'OCR in Java, con esempi di codice dettagliati.
 ### [Comprimi le immagini PDF con Java – Guida completa per OCR batch su PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Scopri come comprimere le immagini PDF e eseguire OCR batch in Java, generando PDF ricercabili in modo rapido ed efficiente.
+### [Come abilitare la GPU ed estrarre testo dalle immagini in Java](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+Scopri come attivare l'accelerazione GPU in Aspose.OCR per Java per estrarre rapidamente testo dalle immagini.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

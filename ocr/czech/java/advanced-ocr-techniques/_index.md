@@ -274,6 +274,8 @@ Rychle a přesně extrahujte text z tabulek pomocí Aspose.OCR pro Java. Tento p
 Zvyšte kontrast obrázků pro lepší OCR v Javě a dosáhněte vyšší přesnosti rozpoznávání textu. Kompletní krok‑za‑krokem průvodce.
 ### [Komprimování obrázků PDF v Javě – Kompletní průvodce hromadným OCR do PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Komprimujte obrázky PDF a provádějte hromadné OCR do PDF pomocí Aspose.OCR pro Java. Rychlé a přesné řešení.
+### [Jak povolit GPU a extrahovat text z obrázků v Javě](./how-to-enable-gpu-and-extract-text-from-images-in-java/)
+Zrychlete OCR aktivací GPU a extrahujte text z obrázků ve svých Java aplikacích.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
