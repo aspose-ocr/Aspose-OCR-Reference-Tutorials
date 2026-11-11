@@ -50,6 +50,19 @@ Scopri come raddrizzare le immagini in C# per migliorare il riconoscimento OCR c
 ### [Come correggere l'inclinazione di un'immagine – Guida completa al pre‑processing C# per OCR](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 Scopri come rimuovere l'inclinazione dalle immagini con una guida completa al pre‑processing C# per migliorare l'OCR.
 
+### [Rimuovi l'inclinazione dall'immagine – Guida completa alla pre‑elaborazione OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+Scopri come rimuovere l'inclinazione dalle immagini per migliorare l'accuratezza dell'OCR con una guida passo passo.
+### [Come raddrizzare l'immagine e pulire le scansioni – Guida completa C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Scopri come raddrizzare le immagini e migliorare le scansioni con Aspose.OCR per .NET in una guida passo‑passo in C#.
+### [Come raddrizzare l'immagine in C# – Guida completa con Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Scopri come raddrizzare le immagini in C# con Aspose OCR, migliorando la precisione del riconoscimento del testo.
+### [Come correggere l'inclinazione di un'immagine in C# con Aspose OCR – Guida completa](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+Scopri come raddrizzare le immagini con Aspose OCR in C#, migliorando l'accuratezza del riconoscimento del testo.
+
+### [Come correggere l'inclinazione di un'immagine con Aspose OCR – Guida completa C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Scopri come rimuovere l'inclinazione dalle immagini usando Aspose OCR in C#, passo passo per risultati precisi.
+### [Tutorial documento OCR ruotato – Correzione automatica di inclinazione e rotazione in C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Scopri come correggere automaticamente l'inclinazione e la rotazione di documenti OCR ruotati usando Aspose.OCR per .NET in C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

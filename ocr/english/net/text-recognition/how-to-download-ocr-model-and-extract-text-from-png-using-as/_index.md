@@ -37,7 +37,9 @@ url: /net/text-recognition/how-to-download-ocr-model-and-extract-text-from-png-u
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to download OCR model and extract text from PNG using Aspose.OCR in C#
@@ -240,6 +242,8 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Extract Text from Image Using Aspose.OCR for .NET](ocr/english/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/products-backtop-button / >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
