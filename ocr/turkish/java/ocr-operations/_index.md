@@ -172,6 +172,10 @@ C# projelerinizde varlıkları önceden yüklemek için tüm kaynakları nasıl 
 ### [Java'da Aspose OCR ile Görüntü Üzerinde OCR Nasıl Yapılır](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Java ile bir görüntüde metin tanıma sürecini adım adım öğrenin.
 ### [Java'da Aspose OCR ile Görüntüyü Metne Dönüştürme](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+### [C#'ta Tüm Kaynakları ve Dil Paketlerini İndirme – Tam Kılavuz](./download-all-resources-and-language-packs-in-c-complete-guid/)
+C# için Aspose OCR tüm kaynakları ve dil paketlerini nasıl indireceğinizi adım adım gösteren eksiksiz rehber.
+### [Java'da PNG Görüntülerinden Metin Tanıma – Aspose OCR Kullanarak](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Java ile Aspose OCR kullanarak PNG dosyalarından metin çıkarma adımlarını öğrenin.
 
 ## Sıkça Sorulan Sorular
 

@@ -718,6 +718,9 @@ Lär dig steg-för-steg hur du använder Aspose OCR i C# för att extrahera text
 Lär dig hur du med Aspose OCR i C# extraherar text från bilder enkelt och effektivt.
 ### [Känn igen text från bild i C# – steg‑för‑steg Aspose OCR‑guide](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 Lär dig hur du med Aspose.OCR för .NET extraherar text från en bild i C# med en tydlig steg‑för‑steg‑guide.
+### [Hur man utför OCR i C# – extrahera text från bilder](./how-to-perform-ocr-in-c-extract-text-from-images/)
+Lär dig hur du utför OCR i C# med Aspose.OCR för att extrahera text från bildfiler. Denna guide visar hur du konverterar bild till text och känner igen text från JPEG.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

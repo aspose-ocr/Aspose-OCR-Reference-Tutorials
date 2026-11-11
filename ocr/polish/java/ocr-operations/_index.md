@@ -219,6 +219,10 @@ Kompletny przewodnik, jak uzyskać absolutną ścieżkę w Javie.
 Kompletny przewodnik, jak pobrać i wstępnie załadować wszystkie zasoby w aplikacji C#.
 ### [Jak wykonać OCR na obrazie przy użyciu Aspose OCR w Javie](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Kompletny przewodnik, jak wykonać OCR na obrazie w Javie przy użyciu Aspose OCR.
+### [Pobierz wszystkie zasoby i pakiety językowe w C# – kompletny przewodnik](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Kompletny przewodnik, jak pobrać wszystkie zasoby i pakiety językowe dla Aspose w C#.
+### [Jak rozpoznać tekst z obrazów PNG przy użyciu Aspose OCR w Javie](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Szybko wyodrębnij tekst z plików PNG w Javie, korzystając z Aspose OCR.
 
 ## Najczęściej zadawane pytania
 

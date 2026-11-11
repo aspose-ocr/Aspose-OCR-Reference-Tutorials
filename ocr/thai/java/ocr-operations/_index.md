@@ -103,7 +103,6 @@ weight: 21
 ### [สร้าง PDF ที่ค้นหาได้จากภาพใน Java – คู่มือขั้นตอน‑ต่อ‑ขั้นตอน](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
 เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
 ### [วิธีใช้ OCR ใน Java – ดึงข้อความจากภาพอย่างรวดเร็ว](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
-เรียนรู้วิธีใช้ OCR ใน Java เพื่อดึงข้อความจากภาพอย่างรวดเร็วและแม่นยำในไม่กี่ขั้นตอน
 ### [สร้าง PDF ที่ค้นหาได้จาก JPG – คำแนะนำ Java สำหรับแปลงภาพเป็น PDF ที่ค้นหาได้](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
 เรียนรู้วิธีแปลงไฟล์ JPG เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java  
 ### [วิธีทำ Deskew ภาพ — คู่มือการเตรียม OCR ขั้นตอนต่อขั้นตอน](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
@@ -207,6 +206,10 @@ weight: 21
 แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
 ### [วิธีทำ OCR บนภาพด้วย Aspose OCR ใน Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 เรียนรู้ขั้นตอนการใช้ Aspose OCR เพื่อจดจำข้อความจากภาพใน Java อย่างละเอียด
+### [ดาวน์โหลดทรัพยากรและแพ็คเกจภาษา ทั้งหมดใน C# – คู่มือเต็ม](./download-all-resources-and-language-packs-in-c-complete-guid/)
+### [วิธีจดจำข้อความจากภาพ PNG ด้วย Aspose OCR ใน Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+
+เรียนรู้วิธีสกัดข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java อย่างละเอียดและแม่นยำ  
 
 
 

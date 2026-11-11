@@ -178,6 +178,8 @@ Java와 Aspose OCR을 사용해 이미지에서 텍스트를 추출하는 전체
 
 이 단계별 가이드를 통해 Java에서 Aspose OCR을 사용해 텍스트 이미지를 완벽하게 인식하는 방법을 배웁니다.
 
+### [Java에서 리소스 경로 가져오기 및 다운로드 폴더 설정 방법](./how-to-get-resources-path-java-and-set-download-folder/)
+
 ---
 
 **마지막 업데이트:** 2025-12-08  

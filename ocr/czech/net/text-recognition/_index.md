@@ -705,6 +705,9 @@ Kompletní průvodce v C# pro rozpoznání textu z obrázku pomocí Aspose OCR, 
 Kompletní návod, jak pomocí Aspose.OCR v C# rozpoznat text z obrázku krok po kroku.
 ### [Jak vytvořit konzolový logger a kontrolovat pravopis OCR textu v C#](./how-to-create-console-logger-and-spell-check-ocr-text-in-c/)
 Naučte se vytvořit konzolový logger a provádět kontrolu pravopisu OCR textu v C# pomocí Aspose.OCR.
+### [Jak provést OCR v C# – extrahovat text z obrázků](./how-to-perform-ocr-in-c-extract-text-from-images/)
+Naučte se provádět OCR v C# pomocí Aspose.OCR k extrakci textu z obrazových souborů. Tento průvodce vám ukáže, jak převést obrázek na text a rozpoznat text z JPEG.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

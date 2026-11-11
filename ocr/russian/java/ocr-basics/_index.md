@@ -106,12 +106,16 @@ weight: 20
 
 ### [Чтение текста из изображения в Java – Полное руководство по Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Полное руководство по извлечению текста из изображений в Java с использованием Aspose OCR, включая настройку, предобработку и улучшение точности.
+
 ### [Получить OCR‑текст в Java – Полный пример Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Полный пример получения текста OCR в Java с использованием Aspose OCR, демонстрирующий настройку, предобработку и улучшение точности.
+
 ### [Как включить OCR в Java – пошаговое руководство](./how-to-enable-ocr-in-java-step-by-step-guide/)
 Пошаговое руководство по включению OCR в Java с Aspose.OCR, от настройки до первого распознавания.
+
 ### [Извлечение тамильского текста из изображений с Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Научитесь извлекать тамильский текст из изображений с помощью Aspose OCR в этом пошаговом руководстве.
+
 ### [Извлечение текста из изображения в Java – Полный пример OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Полный пример использования Aspose.OCR в Java для извлечения текста из изображений, включая настройку лицензии, коррекцию наклона и обработку результатов.
 ### [Распознавание текста из PNG в Java – руководство Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
@@ -153,6 +157,9 @@ weight: 20
 Полное руководство по извлечению текста из изображений в Java с использованием Aspose.OCR, охватывающее настройку, предобработку и улучшение точности.
 ### [Распознавание текстовых изображений в Java — Полное руководство Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Полное руководство по распознаванию текстовых изображений в Java с использованием Aspose OCR.
+
+### [Как получить путь к ресурсам в Java и задать папку загрузки](./how-to-get-resources-path-java-and-set-download-folder/)
+Узнайте, как получить путь к ресурсам в Java и задать папку загрузки.
 
 ---
 

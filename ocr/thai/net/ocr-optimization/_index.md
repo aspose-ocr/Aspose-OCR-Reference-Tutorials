@@ -327,6 +327,9 @@ weight: 25
 
 ### [ทำ OCR บนภาพด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./perform-ocr-on-image-with-aspose-complete-c-guide/)
 คู่มือเต็มขั้นตอนสำหรับการทำ OCR บนภาพด้วย Aspose ใน C# เพิ่มความแม่นยำและประสิทธิภาพ
+### [แปลงภาพเป็น PDF ด้วย OCR ของ Aspose OCR ใน C#: คู่มือขั้นตอนต่อขั้นตอน](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+
+แปลงภาพเป็น PDF ที่ค้นหาได้ด้วย OCR โดยใช้ Aspose OCR ใน C# อย่างละเอียด
 
 ## คำถามที่พบบ่อย
 

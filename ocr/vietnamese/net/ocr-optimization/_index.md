@@ -82,11 +82,12 @@ Khám phá cách tích hợp Aspose OCR với GPU để tăng tốc độ xử l
 Hướng dẫn cách trích xuất văn bản từ nhiều file PNG đồng thời bằng C# và Aspose OCR, tăng tốc quy trình OCR hàng loạt.
 ### [Cải thiện độ chính xác OCR trong C# với Aspose – Hướng dẫn từng bước](./improve-ocr-accuracy-in-c-with-aspose-step-by-step-guide/)
 ### [Xóa nền OCR với Aspose OCR – Hướng dẫn GPU hoàn chỉnh](./remove-background-ocr-with-aspose-ocr-complete-gpu-guide/)
-Hướng dẫn chi tiết cách loại bỏ nền trong OCR bằng Aspose OCR sử dụng GPU để tăng tốc hiệu suất.
 ### [Trích xuất văn bản từ hình ảnh với Aspose OCR & GPU – Hướng dẫn C#](./extract-text-from-image-with-aspose-ocr-gpu-c-guide/)
 Tận dụng sức mạnh GPU để trích xuất văn bản nhanh chóng từ hình ảnh bằng Aspose OCR trong C#.
 ### [Tạo PDF có thể tìm kiếm từ tệp quét bằng Aspose OCR](./create-searchable-pdf-from-scanned-files-using-aspose-ocr/)
 Biến tài liệu quét thành PDF có thể tìm kiếm bằng Aspose OCR cho .NET, dễ dàng lưu trữ và tìm kiếm nội dung.
+### [Chuyển đổi hình ảnh sang PDF OCR với Aspose OCR trong C#: hướng dẫn từng bước](./image-to-pdf-ocr-with-aspose-ocr-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose OCR trong C# để chuyển ảnh thành PDF có thể tìm kiếm.
 ### [Cách Tăng Độ Tương Phản trong OCR – Hướng Dẫn C# Hoàn Chỉnh](./how-to-enhance-contrast-in-ocr-complete-c-tutorial/)
 Khám phá cách cải thiện độ tương phản ảnh để nâng cao độ chính xác OCR bằng C# trong hướng dẫn chi tiết này.
 ### [Tạo PDF có thể tìm kiếm với OCR hàng loạt – Hướng dẫn C#](./create-searchable-pdf-with-batch-ocr-c-guide/)

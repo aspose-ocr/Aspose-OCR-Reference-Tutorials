@@ -47,7 +47,7 @@ Tingkatkan aplikasi .NET Anda dengan Aspose.OCR untuk pengenalan karakter yang a
 ### [Dapatkan Hasil Pengakuan dalam Pengenalan Gambar OCR](./get-recognition-result/)
 Jelajahi Aspose.OCR untuk .NET, solusi OCR canggih untuk pengenalan teks tanpa hambatan dalam gambar.
 ### [Dapatkan Hasil sebagai JSON dalam Pengenalan Gambar OCR](./get-result-as-json/)
-Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dalam format JSON dengan mudah. Tingkatkan pengenalan gambar Anda dengan panduan langkah demi langkah ini.
+Bebaskan kekuatan Aspose.OCR untuk .NET. Pelajari cara mendapatkan hasil OCR dalam format JSON dengan mudah. Tingkatkan pengenalan gambar Anda dengan panduan langkah demi langkah.
 ### [Cara Melakukan OCR di C# – Panduan Mengonversi Gambar ke JSON](./how-to-perform-ocr-in-c-convert-image-to-json-guide/)
 Pelajari cara melakukan OCR pada gambar di C# dan mengonversi hasilnya ke format JSON dengan panduan langkah demi langkah.
 
@@ -120,6 +120,8 @@ Pelajari cara mengonversi gambar menjadi file ePub menggunakan C# dengan panduan
 Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari gambar dan menyimpan hasilnya dalam format JSON.
 ### [Mengenali Teks dari Gambar dengan Aspose OCR – Panduan Lengkap C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dalam C# dengan panduan lengkap langkah demi langkah.
+### [Cara Menggunakan OCR di C# – Proses Batch Gambar PNG dengan Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+Pelajari cara memproses banyak gambar PNG secara batch menggunakan Aspose OCR dalam aplikasi C# Anda.
 ### [Cara Menggunakan OCR di C# – Mengenali Teks dari Gambar](./how-to-use-ocr-in-c-recognize-text-from-images/)
 Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari gambar dengan mudah melalui panduan langkah demi langkah.
 ### [Cara OCR Teks Arab dan Hindi dengan Aspose OCR](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
@@ -156,7 +158,7 @@ Pelajari cara menggunakan Aspose.OCR di C# untuk mengekstrak teks dari gambar be
 Pelajari cara mengubah gambar menjadi teks menggunakan Aspose OCR dengan contoh kode C# yang mudah diikuti.
 ### [Cara Melakukan OCR dan Membuat PDF yang Dapat Dicari dalam C#](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
 Panduan langkah demi langkah menggunakan Aspose.OCR untuk C# dalam melakukan OCR dan menghasilkan PDF yang dapat dicari.
-### [Cara Menggunakan OCR di C# – Proses Batch Gambar PNG dengan Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
+### [Cara Menggunakan OCR di C# – Proses Batch Gambar PNG dengan Aspose OCR](./how-to-use-ocr-in-c-batch-process-png-images-withaspose-ocr/)
 Pelajari cara memproses banyak gambar PNG secara batch menggunakan Aspose OCR dalam aplikasi C# Anda.
 ### [Cara mengekstrak teks dari gambar menggunakan Aspose.OCR di C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di C# dengan panduan langkah demi langkah.
@@ -273,12 +275,12 @@ Pelajari cara mengekstrak teks dari gambar menggunakan Aspose OCR dalam panduan 
 Pelajari cara mengenali teks dari gambar menggunakan Aspose.OCR di C# dan mengonversinya ke format JSON dengan panduan langkah demi langkah.
 ### [c# ocr tutorial – Mengubah Gambar menjadi PDF yang Dapat Dicari](./c-ocr-tutorial-turn-images-into-searchable-pdfs/)
 Pelajari cara menggunakan Aspose.OCR dengan C# untuk mengonversi gambar menjadi PDF yang dapat dicari secara mudah.
-### [Tutorial OCR C#: Mengenali Teks dari Gambar PNG](./c-ocr-tutorial-recognize-text-from-png-images/)
+### [Tutorial OCR C# – Mengenali Teks dari Gambar PNG](./c-ocr-tutorial-recognize-text-from-png-images/)
 Pelajari cara menggunakan Aspose.OCR dengan C# untuk mengenali teks pada gambar PNG secara akurat dan efisien.
 ### [Cara Menggunakan Aspose OCR untuk Mengenali Teks Cina – Panduan Lengkap](./how-to-use-aspose-ocr-to-recognize-chinese-text-full-guide/)
 Pelajari cara Aspose OCR mengenali teks berbahasa Cina dengan akurasi tinggi, lengkap dengan contoh kode dan langkah-langkah praktis.
 ### [Buat PDF yang Dapat Dicari dalam C# – Panduan Lengkap](./create-searchable-pdf-in-c-full-guide/)
-Pelajari cara membuat PDF yang dapat dicari menggunakan Aspose.OCR di C#, lengkap dengan contoh kode dan langkah-langkah praktis.
+Pelajari cara membuat PDF yang dapat dicari menggunakan Aspose.OCR di C# dengan contoh kode dan langkah-langkah praktis.
 ### [Cara OCR Bahasa Arab di C# – Panduan Lengkap](./how-to-ocr-arabic-in-c-complete-guide/)
 Pelajari cara menggunakan Aspose.OCR dengan C# untuk mengenali teks Arab secara akurat dan efisien.
 ### [Tutorial OCR C# – Ekstrak Teks dari Gambar dan Dapatkan JSON Terformat](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
@@ -716,6 +718,9 @@ Pelajari cara mengekstrak teks dari gambar dengan Aspose OCR menggunakan bahasa 
 
 ### [Mengenali Teks dari Gambar dalam C# – Panduan Aspose OCR Langkah‑demi‑Langkah](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 Pelajari cara mengenali teks dari gambar menggunakan C# dengan Aspose OCR melalui panduan langkah demi langkah yang mudah diikuti.
+### [Cara melakukan OCR di C# – mengekstrak teks dari gambar](./how-to-perform-ocr-in-c-extract-text-from-images/)
+Pelajari cara melakukan OCR pada gambar di C# dan mengekstrak teks dengan panduan langkah demi langkah.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

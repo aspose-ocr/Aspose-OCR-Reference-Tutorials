@@ -92,10 +92,14 @@ Lås upp kraftfull textigenkänning i Java med Aspose.OCR. Känn igen text i TIF
 Lär dig hur du batchbearbetar OCR i Java för att extrahera text från flera bilder effektivt och automatiskt.
 ### [Kör OCR på bild med Java – Komplett Aspose OCR‑guide](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Lär dig hur du kör OCR på bilder i Java med en komplett guide för Aspose OCR.
+### [Ladda ner alla resurser och språkpaket i C# – komplett guide](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Lär dig hur du hämtar alla resurser och språkpaket för Aspose OCR i C# med en komplett steg‑för‑steg‑guide.
 ### [Skapa sökbar PDF i Java – Steg‑för‑steg‑guide](./create-searchable-pdf-in-java-step-by-step-guide/)
 Lär dig hur du skapar en sökbar PDF i Java med Aspose.OCR genom en detaljerad steg‑för‑steg‑guide.
 ### [Batch‑OCR för bilder i Java – Extrahera text från PNG‑filer snabbt](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 Snabb batch‑OCR för PNG‑bilder i Java, med kodexempel för att extrahera text effektivt.
+### [Hur man känner igen text från PNG‑bilder med Aspose OCR i Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Lär dig hur du extraherar text från PNG‑bilder med Aspose OCR i Java på ett enkelt sätt.
 ### [Extrahera text från bild med Aspose OCR – Steg‑för‑steg‑demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 En detaljerad guide som visar hur du extraherar text från bilder med Aspose OCR i Java, steg för steg.
 ### [Skapa sökbar PDF från skannade filer – Java‑guide](./create-searchable-pdf-from-scanned-files-java-guide/)
