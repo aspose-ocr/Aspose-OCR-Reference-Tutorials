@@ -49,6 +49,18 @@ C# で画像をデスクューし、OCR の精度を向上させる完全ガイ�
 ### [画像のデスキュー方法 – OCR のための完全な C# 前処理ガイド](./how-to-deskew-image-complete-c-pre-processing-guide-for-ocr/)
 OCR の精度向上のため、C# で画像をデスキューする完全な前処理手順を解説します。
 
+### [画像のスキュー除去 – 完全な OCR 前処理ガイド](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
+画像のスキューを除去し、OCR の精度を向上させる完全な前処理手順を学びましょう。
+### [画像のデスクューとスキャンのクリーンアップ – 完全 C# ガイド](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+C# で画像の傾きを補正し、スキャン画像をきれいにする手順をステップバイステップで解説します。
+### [C# で画像をデスクューする方法 – Aspose OCR を使用した完全ガイド](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Aspose OCR を活用し、C# で画像の傾きを補正する手順を詳しく解説します。
+### [C# で Aspose OCR を使用して画像をデスキューする方法 – 完全ガイド](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+
+### [Aspose OCRで画像をデスクューする完全C#ガイド](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCRを使用して画像の傾きを補正し、正確なテキスト抽出を実現する手順を詳しく解説します。
+### [OCR 回転ドキュメント チュートリアル – 自動スキューと回転修正（C#）](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+C# で回転した画像のスキューと回転を自動的に補正し、正確な OCR 認識を実現する方法を学びます。
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
