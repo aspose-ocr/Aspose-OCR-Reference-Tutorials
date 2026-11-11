@@ -271,8 +271,8 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Check OCR Language Support in C# – Complete Guide]({{< relref "ocr/english/net/ocr-configuration/how-to-check-ocr-language-support-in-c-complete-guide.md" >}})
 - [Extract image text C# with language selection using Aspose.OCR]({{< relref "ocr/english/net/ocr-configuration/ocr-operation-with-language-selection.md" >}})
 
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

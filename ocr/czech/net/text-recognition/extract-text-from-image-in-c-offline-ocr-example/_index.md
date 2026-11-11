@@ -24,9 +24,7 @@ title: Extrahování textu z obrázku v C# – Příklad offline OCR
 url: /cs/net/text-recognition/extract-text-from-image-in-c-offline-ocr-example/
 ---
 
-preserve pipes.
 
-Now produce final content with translated text.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

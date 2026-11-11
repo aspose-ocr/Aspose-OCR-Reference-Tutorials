@@ -24,9 +24,8 @@ title: जावा के साथ इमेज पर OCR चलाएँ –
 url: /hi/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/
 ---
 
-unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

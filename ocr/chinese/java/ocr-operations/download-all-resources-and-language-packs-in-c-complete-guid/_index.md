@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-09-22
-description: 使用一次调用在 C# 中下载所有资源。了解如何批量下载语言包、自动下载资源以及获取特定语言数据。
+description: 使用一次调用在 C# 中下载所有资源。了解如何批量下载语言包、自动下载资源，以及获取特定语言的数据文件。
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png

@@ -240,6 +240,8 @@ class Program
 Αν αντιμετωπίσετε πρόβλημα, αφήστε ένα σχόλιο παρακάτω — καλή προγραμματιστική!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{</products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

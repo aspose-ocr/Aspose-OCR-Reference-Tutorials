@@ -25,9 +25,7 @@ title: Szöveges képek kinyerése PNG-ekből C#-val – Tömeges OCR az Aspose 
 url: /hu/net/ocr-optimization/extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/
 ---
 
-.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

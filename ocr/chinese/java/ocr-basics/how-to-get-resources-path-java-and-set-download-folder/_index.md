@@ -1,7 +1,7 @@
 ---
 category: general
 date: 2026-09-22
-description: 学习如何获取 Java 资源路径并配置下载文件夹，以在 Java 应用程序中存储下载文件的位置。
+description: 学习如何获取 Java 资源路径并配置下载文件夹，以便在 Java 应用程序中安全、整洁地存储下载文件的位置。
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png

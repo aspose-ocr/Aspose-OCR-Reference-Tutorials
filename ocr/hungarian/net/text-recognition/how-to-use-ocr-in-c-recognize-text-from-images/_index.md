@@ -24,13 +24,9 @@ title: Hogyan használjuk az OCR-t C#-ban – Szöveg felismerése képekből
 url: /hu/net/text-recognition/how-to-use-ocr-in-c-recognize-text-from-images/
 ---
 
-license → create engine → load image stream → recognize → output text](image-placeholder.png "how to use OCR to recognize text from image") Need to translate alt text and title? The instruction: translate all text content. Alt text is text, title is text. Should translate them to Hungarian, but keep the URL unchanged. So alt becomes Hungarian description, title too.
 
-Also the block shortcodes at top and bottom remain unchanged.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

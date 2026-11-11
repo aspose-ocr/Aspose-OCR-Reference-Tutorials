@@ -21,13 +21,10 @@ title: كيفية تحرير موارد OCR في بايثون – دليل خط�
 url: /ar/python/general/how-to-free-ocr-resources-in-python-step-by-step-guide/
 ---
 
-how to free ocr resources after processing](image.png)" keep unchanged.
 
-Then closing shortcodes.
 
-Now ensure we keep all placeholders and shortcodes.
 
-Let's assemble final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

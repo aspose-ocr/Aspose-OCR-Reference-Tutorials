@@ -17,7 +17,7 @@ weight: 20
 
 ## المقدمة
 
-في هذا الدليل الشامل، ستتعلم **كيفية استخراج النص من الصور** باستخدام Aspose.OCR for Java، وتحويل الصور الممسوحة ضوئياً إلى محتوى قابل للبحث والتحرير. سنرشدك عبر كل شيء من الترخيص إلى تصحيح الميل، حتى تتمكن من **تحسين دقة OCR** وبناء خطوط معالجة مستندات موثوقة. سواءً كنت تبني تطبيق ماسح ضوئي بسيط أو حلاً على مستوى المؤسسة، ستمنحك هذه الخطوات الثقة للتعامل مع تحديات OCR مباشرة.
+في هذا الدليل الشامل، ستتعلم **كيفية استخراج النص من الصور** باستخدام Aspose.OCR for Java، وتحويل الصور الممسوحة ضوئياً إلى محتوى قابل للبحث والتحرير. سنرشدك عبر كل شيء من الترخيص إلى تصحيح الميل، حتى تتمكن من **تحسين دقة OCR** وبناء خطوط معالجة مستندات موثوقة. سواءً كنت تبني تطبيق ماسح ضوئي بسيطًا أو حلاً على مستوى المؤسسة، ستمنحك هذه الخطوات الثقة للتعامل مع تحديات OCR مباشرة.
 
 ## إجابات سريعة
 - **ماذا يعني “استخراج النص من الصور”؟** يشير إلى قراءة الأحرف من ملفات الصور (PNG، JPEG، TIFF، إلخ) وتحويلها إلى نص عادي.  
@@ -59,7 +59,7 @@ weight: 20
 ### التعرف على نص OCR – الحصول على المستطيلات التي تحتوي على مناطق النص
 بعد تصحيح الميل، يمكنك استخراج المناطق الدقيقة التي تحتوي على نص. هذا يساعد عندما تحتاج إلى بيانات إطارات حدودية لمعالجة إضافية (مثل التظليل أو الإخفاء):
 
-[Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
+[Getting Rectangles with Text Areas in Aspose.OCR for Java](./get-rectangles-with-text-areas/)
 
 > **حالة استخدام:** تصدير إحداثيات النص إلى تعليقات PDF أو تمريرها إلى خط أنابيب معالجة لغة طبيعية لاحق.
 
@@ -100,6 +100,10 @@ weight: 20
 حسّن دقة OCR باستخدام Aspose.OCR for Java. تعلم كيفية حساب زوايا الميل خطوة بخطوة. حسّن معالجة المستندات بسهولة.
 ### [Getting Rectangles with Text Areas in Aspose.OCR](./get-rectangles-with-text-areas/)
 اكتشف قوة Aspose.OCR for Java. تعلم كيفية استخراج النص من الصور بسلاسة في هذا الدليل خطوة بخطوة. حمّل الآن لتعرف على التعرف الفعال على النص.
+### [التعرف على النص من PNG في Java – دليل Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+
+### [استخراج النص من الصورة – تحويل PNG إلى نص في Java](./extract-text-from-image-convert-png-to-text-in-java/)
+
 ### [قراءة النص من الصورة في Java – دليل Aspose OCR الكامل](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 دليل شامل يشرح كيفية استخراج النص من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
 ### [استخراج نص OCR في Java – مثال كامل Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
@@ -112,6 +116,35 @@ weight: 20
 مثال كامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
 ### [كيفية الحصول على مسار الموارد في Java وتعيين مجلد التنزيل](./how-to-get-resources-path-java-and-set-download-folder/)
 تعلم كيفية الحصول على مسار الموارد في Java وتحديد مجلد التحميل للملفات.
+
+### [استخراج النص من الصورة باستخدام Aspose OCR – دليل Java السريع](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+### [استخراج النص من الصورة في Java – دليل OCR للـ Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في Java خطوة بخطوة.
+### [إجراء OCR على صورة في Java – استخراج النص من JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+تعلم كيفية استخدام Aspose.OCR في Java لاستخراج النص من ملفات JPG بدقة وسهولة.
+### [التعرف على النص من الصورة في Java – دليل OCR كامل](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+دليل شامل يشرح كيفية التعرف على النص من الصور باستخدام Aspose.OCR في Java خطوة بخطوة.
+### [استخراج النص من الصورة في Java – الحصول على النص من OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
+تعلم كيفية استخراج النص من الصور باستخدام Aspose.OCR في Java خطوة بخطوة.
+### [استخراج النص من الصورة باستخدام Aspose OCR – دليل Java كامل](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+تعلم خطوة بخطوة كيفية استخراج النص من الصور باستخدام Aspose OCR في Java، مع أمثلة عملية وإعداد كامل للمشروع.
+### [تحويل الصورة إلى نص Java – مثال كامل Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
+تعلم كيفية تحويل الصور إلى نص باستخدام Aspose OCR في Java مع مثال كامل خطوة بخطوة.
+### [كيفية تنفيذ OCR في Java – دليل شامل لاستخراج النص من الصور](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+### [مثال Java OCR – تحميل صورة والتعرف على النص باستخدام Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+تعلم كيفية تحميل صورة واستخدام Aspose.OCR في Java للتعرف على النص واستخراجه بسهولة.
+### [إجراء OCR على صورة في Java – دليل خطوة بخطوة كامل](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+اكتشف كيفية تنفيذ OCR على صورة باستخدام Aspose.OCR في Java من خلال دليل شامل خطوة بخطوة.
+### [التعرف على النص من JPG باستخدام Aspose OCR في Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+تعلم كيفية استخراج النص من ملفات JPG باستخدام Aspose OCR في Java خطوة بخطوة.
+### [استخدام جميع أنوية وحدة المعالجة المركزية في Java – ضبط حجم مجموعة الخيوط بفعالية](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+تعلم كيفية الاستفادة من جميع أنوية CPU في Java عبر ضبط حجم مجموعة الخيوط لتحقيق أفضل أداء.
+### [قراءة النص من الصورة باستخدام Java OCR – دليل Aspose OCR الكامل](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+دليل شامل يوضح استخراج النص من الصور باستخدام Aspose.OCR للـ Java خطوة بخطوة.
+### [Extract Text from Image in Java – Complete OCR Guide](./extract-text-from-image-in-java-complete-ocr-guide/)
+دليل شامل لاستخدام Aspose.OCR لاستخراج النص من الصور في Java مع خطوات إعداد الترخيص وتحسين الدقة.
+### [التعرف على النص في الصورة باستخدام Java – دليل Aspose OCR الكامل](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+دليل شامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
 
 ---
 

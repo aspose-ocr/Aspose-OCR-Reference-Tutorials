@@ -23,15 +23,11 @@ title: Cómo realizar OCR en C# – Extraer texto y escribir JSON
 url: /es/net/text-recognition/how-to-perform-ocr-in-c-extract-text-and-write-json/
 ---
 
-< blocks/products/products-backtop-button >}}
 
-All good.
 
-Check for any other markdown links: none.
 
-Make sure we didn't translate code block placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
