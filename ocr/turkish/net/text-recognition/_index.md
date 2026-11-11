@@ -162,6 +162,8 @@ Aspose.OCR kullanarak C# ile görüntülerden aranabilir PDF oluşturmayı adım
 Aspose.OCR ile C# kullanarak JPEG görüntülerini toplu olarak OCR'dan geçirip metni çıkarmayı adım adım öğrenin.
 ### [C# ile Aspose OCR kullanarak görüntüden metin tanıma](./recognize-text-from-image-in-c-with-aspose-ocr/)
 Aspose OCR kullanarak C# ile bir görüntüden metin nasıl tanınır, adım adım öğrenin.
+### [C#'ta Aspose.OCR kullanarak görüntüden metin çıkarma](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+C#'ta Aspose.OCR ile bir görüntüden metin çıkarma adımlarını öğrenin.
 
 
 
@@ -171,7 +173,6 @@ Aspose OCR kullanarak C# ile bir görüntüden metin nasıl tanınır, adım ad�
 Aspose.OCR kullanarak OCR modelini indirip PNG dosyalarından metin çıkarmayı adım adım öğrenin.
 
 ### [Aspose ile PDF OCR: Dönüştürme, Dışa Aktarma ve Arama](./how-to-ocr-pdf-with-aspose-convert-export-search/)
-Aspose kullanarak PDF dosyalarını OCR ile işleyin, metni dönüştürün, dışa aktarın ve içinde arama yapın.
 ### [C#'ta Görüntüyü Metne Dönüştürme – Tam OCR Rehberi](./convert-image-to-text-in-c-complete-ocr-guide/)
 C# kullanarak görüntüyü metne dönüştürmek için adım adım tam OCR rehberi.
 ### [C#'ta OCR Nasıl Yapılır – Aspose OCR ile Görüntüden Metin Çıkarma](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
@@ -686,7 +687,7 @@ Aspose OCR .NET kullanarak PNG dosyalarından metin tanımayı adım adım öğr
 Aspose OCR kullanarak C# ile bir görüntüden metin nasıl çıkarılır, adım adım öğrenin.
 ### [c# OCR eğitimi – Görüntülerden Metin Çıkarma ve JSON Olarak Dışa Aktarma](./c-ocr-tutorial-extract-text-from-images-and-export-to-json/)
 Aspose OCR ile C# kullanarak görüntülerden metin çıkarın ve sonuçları JSON formatında dışa aktarın. Adım adım kılavuz.
-### [C# ile Görüntüyü OCR Yapma – JPG'yi ePub'a Dönüştürme](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
+### [C#'ta Görüntüyü OCR Yapma – JPG'yi ePub'a Dönüştürme](./how-to-ocr-image-in-c-convert-jpg-to-epub/)
 C# ve Aspose.OCR kullanarak JPG görüntülerini OCR ile okuyun ve ePub formatına dönüştürün. Adım adım kılavuz.
 ### [Aspose OCR C# ile Rusça Metin Tanıma – Tam Çok Sayfalı PDF Kılavuzu](./recognize-russian-text-with-aspose-ocr-c-full-multi-page-pdf/)
 Aspose OCR C# kullanarak Rusça metni çok sayfalı PDF dosyalarından doğru şekilde çıkarın ve işleyin.

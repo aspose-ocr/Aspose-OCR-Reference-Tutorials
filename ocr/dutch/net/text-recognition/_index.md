@@ -190,7 +190,8 @@ Leer hoe u met Aspose.OCR in C# meerdere afbeeldingen batchgewijs verwerkt en te
 ### [Hoe OCR-model te downloaden en tekst uit PNG te extraheren met Aspose.OCR in C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
 Leer hoe u het OCR‑model downloadt en tekst uit PNG‑afbeeldingen haalt met Aspose.OCR in C#.
 
-
+### [Hoe tekst uit afbeelding extraheren met Aspose OCR in C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Leer hoe u met Aspose.OCR in C# tekst uit afbeeldingen haalt met een eenvoudige stap‑voor‑stap handleiding.
 
 ### [Hoe PDF OCRen met Aspose: Converteren, Exporteren & Zoeken](./how-to-ocr-pdf-with-aspose-convert-export-search/)
 Leer PDF's OCRen met Aspose, converteer naar bewerkbare tekst, exporteer resultaten en implementeer zoekfunctionaliteit.

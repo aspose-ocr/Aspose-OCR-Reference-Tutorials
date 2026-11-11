@@ -160,6 +160,8 @@ Aprenda a reconhecer texto em imagens usando C# e Aspose OCR, com instruções p
 
 ### [Como baixar modelo OCR e extrair texto de PNG usando Aspose.OCR em C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
 Aprenda a baixar o modelo OCR e extrair texto de imagens PNG usando Aspose.OCR em C# com um guia passo a passo.
+### [Como extrair texto de imagem usando Aspose.OCR em C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Aprenda a extrair texto de imagens usando Aspose.OCR em C# com um guia passo a passo.
 
 
 

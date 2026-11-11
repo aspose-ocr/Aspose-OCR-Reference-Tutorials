@@ -119,7 +119,7 @@ Dowiedz się, jak w C# używać Aspose.OCR do rozpoznawania tekstu w arabskich o
 
 ### [Jak używać OCR w C# – wyodrębniać tekst z obrazu i rozpoznawanie tekstu ze zdjęcia](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
 Szybki przewodnik, jak w C# używać Aspose OCR do wyodrębniania tekstu z obrazów i rozpoznawania tekstu ze zdjęć.
-### [Jak używać OCR w C# – wyodrębnianie tekstu z obrazów przy użyciu GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
+### [Jak używać OCR w C# – wyodrębniać tekst z obrazów przy użyciu GPU](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
 Szybki przewodnik, jak w C# używać Aspose OCR z przyspieszeniem GPU do wyodrębniania tekstu z obrazów.
 ### [Utwórz przeszukiwalny PDF z obrazu – Kompletny przewodnik C#](./create-searchable-pdf-from-image-complete-c-guide/)
 Dowiedz się, jak w C# przy użyciu Aspose.OCR przekształcić obrazy w przeszukiwalne pliki PDF w kilku prostych krokach.
@@ -181,6 +181,8 @@ Dowiedz się, jak w C# przetwarzać wsadowo obrazy OCR i wyodrębniać tekst w p
 
 ### [Jak pobrać model OCR i wyodrębnić tekst z PNG przy użyciu Aspose.OCR w C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
 Dowiedz się, jak pobrać model OCR i wyodrębnić tekst z pliku PNG w C# przy użyciu Aspose.OCR.
+### [Jak wyodrębnić tekst z obrazu przy użyciu Aspose.OCR w C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Krok po kroku wyodrębnij tekst z obrazu w C# przy użyciu Aspose.OCR.
 
 
 
@@ -704,7 +706,7 @@ Dowiedz się, jak rozpoznać rosyjski tekst w wielostronicowych plikach PDF przy
 ### [Rozpoznawanie chińskiego tekstu offline – Kompletny samouczek C# OCR](./recognize-chinese-text-offline-complete-c-ocr-tutorial/)
 Dowiedz się, jak offline rozpoznawać chiński tekst w C# przy użyciu Aspose.OCR, krok po kroku.
 ### [Wyodrębnij tekst z obrazu i konwertuj do JSONL – przewodnik C#](./extract-text-from-image-and-convert-to-jsonl-c-guide/)
-Dowiedz się, jak w C# wyodrębnić tekst z obrazu i zapisać go w formacie JSONL, wykorzystując Aspose.OCR.
+Dowiedz się, jak w C# wyodrębnić tekst z obrazu i zapisać go w formacie JSONL, wykorzystując Aspose OCR.
 
 ### [Jak wykonać OCR w C# – wyodrębnić tekst z obrazów](./how-to-perform-ocr-in-c-extract-text-from-images/)
 Dowiedz się, jak w C# używać Aspose.OCR do wyodrębniania tekstu z obrazów krok po kroku.

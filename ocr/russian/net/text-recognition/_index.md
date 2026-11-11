@@ -185,6 +185,8 @@ url: /ru/net/text-recognition/
 
 ### [Как скачать модель OCR и извлечь текст из PNG с помощью Aspose.OCR в C#](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
 Пошаговое руководство по загрузке модели OCR и извлечению текста из PNG‑изображений с использованием Aspose.OCR в C#.
+### [Как извлечь текст из изображения с помощью Aspose.OCR в C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Узнайте, как с помощью Aspose.OCR извлечь текст из изображения в C#.
 
 
 
@@ -221,11 +223,11 @@ url: /ru/net/text-recognition/
 ### [Распознать текст из JPG в C# – Полное руководство по OCR](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 Пошаговое руководство по полному использованию OCR в C# для распознавания текста из JPG‑изображений.
 ### [c# OCR‑урок – извлечение текста на хинди из PNG‑чеков](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
-Извлеките хинди‑текст из PNG‑чеков с помощью Aspose.OCR в C#. Пошаговое руководство по настройке и использованию OCR.
+Извлеките хинди‑текст из PNG‑чеков с помощью Aspose.OCR в C# Пошаговое руководство по настройке и использованию OCR.
 ### [Распознать текст в JPG с помощью Aspose OCR – Полное руководство C#](./recognize-text-in-jpg-with-aspose-ocr-complete-c-guide/)
 Полное пошаговое руководство по распознаванию текста в JPG‑изображениях с использованием Aspose OCR в C#.
 ### [c# OCR‑урок – извлечение текста из изображений и файлов DJVU](./c-ocr-tutorial-extract-text-from-image-and-djvu-files/)
-Извлеките текст из обычных изображений и файлов DJVU с помощью Aspose.OCR в C#. Пошаговое руководство по настройке и использованию OCR.
+Извлеките текст из обычных изображений и файлов DJVU с помощью Aspose.OCR в C# Пошаговое руководство по настройке и использованию OCR.
 ### [Извлечение текста из TIFF с Aspose OCR C# – Полное руководство](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
 Полное пошаговое руководство по извлечению текста из файлов TIFF с помощью Aspose OCR в C#.
 ### [c# OCR‑урок – извлечение текста из изображений с Aspose OCR](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)

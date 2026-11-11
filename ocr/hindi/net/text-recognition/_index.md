@@ -139,11 +139,10 @@ C# में Aspose.OCR का उपयोग करके छवि से ट
 ### [C# में OCR का उपयोग कैसे करें – GPU के साथ छवियों से टेक्स्ट निकालें](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
 GPU की शक्ति से तेज़ी से छवियों से टेक्स्ट निकालें और Aspose.OCR का अधिकतम उपयोग करें।
 ### [C# में रसीद पढ़ने का तरीका – OCR + Regex गाइड](./how-to-read-receipt-in-c-ocr-regex-guide/)
-OCR और Regex का उपयोग करके C# में रसीद से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
 ### [C# में PDF को OCR कैसे करें – PDFs से टेक्स्ट निकालने के लिए पूर्ण गाइड](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
-C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑चरण गाइड।
+C# में Aspose.OCR का उपयोग करके PDF फ़ाइलों से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें। चरण‑दर‑स्टेज गाइड।
 ### [अरबी छवियों पर OCR कैसे करें – C# में टेक्स्ट निकालें](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
-C# में Aspose.OCR का उपयोग करके अरबी छवियों से टेक्स्ट निकालने की चरण‑दर‑चरण मार्गदर्शिका।
+C# में Aspose.OCR का उपयोग करके अरबी छवियों से टेक्स्ट निकालने की चरण‑दर‑स्टेज मार्गदर्शिका।
 ### [Aspose OCR के साथ इमेज को टेक्स्ट में बदलें – C# गाइड](./convert-image-to-text-with-aspose-ocr-c-guide/)
 C# में Aspose OCR का उपयोग करके इमेज को टेक्स्ट में बदलने की चरण‑दर‑शरण मार्गदर्शिका।
 ### [C# में OCR कैसे करें और खोज योग्य PDF बनाएं](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
@@ -197,7 +196,7 @@ C# में कई छवियों को एक साथ OCR करके 
 
 
 ### [C# में छवि को टेक्स्ट में परिवर्तित करें – पूर्ण OCR गाइड](./convert-image-to-text-in-c-complete-ocr-guide/)
-C# में इमेज को टेक्स्ट में बदलने के लिए Aspose.OCR के साथ चरण-दर-स्तर पूर्ण गाइड।
+C# में इमेज को टेक्स्ट में बदलने के लिए Aspose.OCR के साथ चरण‑दर‑स्तर पूर्ण गाइड।
 ### [C# में OCR कैसे करें – Aspose OCR के साथ इमेज से टेक्स्ट निकालें](./how-to-perform-ocr-in-c-extract-text-from-image-with-aspose/)
 Aspose OCR का उपयोग करके C# में इमेज से टेक्स्ट निकालने की चरण‑दर‑स्तर मार्गदर्शिका।
 ### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – पूर्ण C# गाइड](./extract-text-from-image-with-aspose-ocr-complete-c-guide/)
@@ -269,6 +268,8 @@ C# में Aspose.OCR का उपयोग करके अरबी टे�
 C# में Aspose OCR के साथ सिरिलिक भाषा के टेक्स्ट को आसानी से निकालें।
 ### [C# में Aspose.OCR का उपयोग करके OCR मॉडल डाउनलोड करें और PNG से टेक्स्ट निकालें](./how-to-download-ocr-model-and-extract-text-from-png-using-as/)
 C# में Aspose.OCR मॉडल डाउनलोड करके PNG छवियों से तेज़ी से टेक्स्ट निकालें।
+### [C# में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालें](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Aspose.OCR के साथ C# में इमेज से टेक्स्ट निकालने की चरण‑दर‑स्टेप गाइड।
 
 
 

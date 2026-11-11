@@ -133,7 +133,7 @@ Ismerje meg, hogyan hajthatja végre az OCR-t képeken az Aspose OCR használat�
 Ismerje meg, hogyan hajthatja végre a kötegelt OCR fájlok feldolgozását C#‑ban egy teljes kódpéldával.
 
 ### [Hogyan használjuk az OCR-t C#-ban – Szöveg felismerése képekről](./how-to-use-ocr-in-c-recognize-text-from-images/)
-Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képek szövegének felismerésére lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban a képek szövegének felismerésére lépésről‑lépésre útmutatóval.
 ### [Hindi szöveg felismerése képekről – Konvertálás ePub formátumba az Aspose OCR-rel (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
 Fedezze fel, hogyan ismerheti fel a Hindi szöveget képekről, és konvertálja azt ePub formátumba az Aspose OCR C# segítségével.
 ### [Hogyan OCR-elj arab és hindi szöveget az Aspose OCR-rel](./how-to-ocr-arabic-and-hindi-text-with-aspose-ocr/)
@@ -143,21 +143,26 @@ Fedezze fel, hogyan konvertálhat képeket JSON formátumba az Aspose OCR C# seg
 ### [Hogyan végezzen OCR-t C#-ban – Offline szövegkinyerési útmutató](./how-to-perform-ocr-in-c-offline-text-extraction-guide/)
 Fedezze fel, hogyan használhatja az Aspose.OCR-t offline szövegkinyeréshez C#-ban, egyszerű és hatékony módon.
 ### [Kereshető PDF létrehozása arab képből – Teljes útmutató](./create-searchable-pdf-from-arabic-image-complete-guide/)
-Ismerje meg, hogyan hozhat létre kereshető PDF-et arab nyelvű képekből az Aspose.OCR segítségével lépésről lépésre.
+Ismerje meg, hogyan hozhat létre kereshető PDF-et arab nyelvű képekből az Aspose.OCR segítségével lépésről‑lépésre.
 
 ### [Kereshető PDF létrehozása képből az Aspose OCR segítségével C#-ban](./create-searchable-pdf-from-image-with-aspose-ocr-in-c/)
-Ismerje meg, hogyan hozhat létre kereshető PDF-et képekből az Aspose OCR és C# kombinációjával lépésről lépésre.
+Ismerje meg, hogyan hozhat létre kereshető PDF-et képekből az Aspose OCR és C# kombinációjával lépésről‑lépésre.
 
 ### [OCR futtatása képen C#-ban – Teljes Aspose OCR oktatóanyag](./run-ocr-on-image-in-c-complete-aspose-ocr-tutorial/)
-Ismerje meg, hogyan hajthatja végre az OCR-t képeken C#-ban az Aspose OCR segítségével lépésről lépésre.
+Ismerje meg, hogyan hajthatja végre az OCR-t képeken C#-ban az Aspose OCR segítségével lépésről‑lépésre.
 
 ### [OCR futtatása többoldalas TIFF képeken C#-ban – Teljes Aspose OCR útmutató](./how-to-run-ocr-on-multi-page-tiff-images-with-aspose-ocr-c-g/)
 Ismerje meg, hogyan hajthatja végre az OCR-t többoldalas TIFF fájlokon C#-ban az Aspose OCR használatával lépésről‑lépésre.
 
 ### [OCR kép JSON-ba C#-ban – Teljes lépés‑ről‑lépésre útmutató](./ocr-image-to-json-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhatja az OCR által felismert képet JSON formátumba C#-ban lépésről‑lépésre.
+
 ### [Kép szövegének kinyerése az Aspose OCR segítségével – C# gyorsindítás](./extract-text-from-image-with-aspose-ocr-c-quickstart/)
 Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR gyorsindítási útmutatóval.
+
+### [Képből szöveg kinyerése Aspose.OCR segítségével C#-ban](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban képek szövegének kinyerésére lépésről‑lépésre.
+
 ### [Hogyan használjuk az OCR-t C#-ban – Szöveg kinyerése képből és szöveg felismerése fényképről](./how-to-use-ocr-in-c-extract-text-from-image-and-recognize-te/)
 Ismerje meg, hogyan nyerhet ki szöveget képekből és ismerheti fel a szöveget fényképeken C#-ban az Aspose OCR segítségével.
 ### [Hogyan használjuk az OCR-t C#-ban – Szöveg kinyerése képekből GPU-val](./how-to-use-ocr-in-c-extract-text-from-images-with-gpu/)
@@ -165,13 +170,13 @@ Ismerje meg, hogyan használhatja az OCR-t C#-ban GPU gyorsítással a képek sz
 ### [Hogyan olvassuk be a nyugtát C#-ban – OCR + Regex útmutató](./how-to-read-receipt-in-c-ocr-regex-guide/)
 Tanulja meg, hogyan használhatja az Aspose.OCR-t és a reguláris kifejezéseket nyugták szövegének kinyeréséhez C#-ban.
 ### [Kereshető PDF létrehozása képből – Teljes C# útmutató](./create-searchable-pdf-from-image-complete-c-guide/)
-Tanulja meg, hogyan hozhat létre kereshető PDF-et képekből C#-ban az Aspose.OCR segítségével, lépésről-lépésre útmutatóval.
+Tanulja meg, hogyan hozhat létre kereshető PDF-et képekből C#-ban az Aspose.OCR segítségével, lépésről‑lépésre útmutatóval.
 ### [Hogyan OCR-eljünk PDF-et C#-ban – Teljes útmutató a PDF-ek szövegének kinyeréséhez](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
-Ismerje meg, hogyan használhatja az Aspose.OCR-t PDF-ek szövegének teljes körű kinyeréséhez C#-ban, lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan használhatja az Aspose.OCR-t PDF-ek szövegének teljes körű kinyeréséhez C#-ban, lépésről‑lépésre útmutatóval.
 ### [Hogyan végezzünk OCR-t arab nyelvű képeken – Szöveg kinyerése C#-ban](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t arab nyelvű képek szövegének C#-ban történő kinyeréséhez.
 ### [Kép szöveggé konvertálása az Aspose OCR segítségével – C# útmutató](./convert-image-to-text-with-aspose-ocr-c-guide/)
-Ismerje meg, hogyan konvertálhat képeket szöveggé az Aspose OCR C#-ban, lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan konvertálhat képeket szöveggé az Aspose OCR C#-ban, lépésről‑lépésre útmutatóval.
 ### [Hogyan végezzen OCR-t és hozzon létre kereshető PDF-et C#-ban](./how-to-perform-ocr-and-create-a-searchable-pdf-in-c/)
 Ismerje meg, hogyan használhatja az Aspose.OCR-t C#-ban OCR végrehajtásához és kereshető PDF létrehozásához.
 ### [Hogyan használjon OCR-t C#-ban – PNG képek kötegelt feldolgozása az Aspose OCR-rel](./how-to-use-ocr-in-c-batch-process-png-images-with-aspose-ocr/)
