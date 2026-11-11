@@ -691,6 +691,9 @@ url: /el/net/text-recognition/
 Μάθετε πώς να εξάγετε κείμενο από εικόνες με Aspose OCR σε C# βήμα‑βήμα, βελτιώνοντας τις δυνατότητες OCR της εφαρμογής σας.
 ### [Αναγνώριση κειμένου από εικόνα σε C# – βήμα‑βήμα οδηγός Aspose OCR](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 Μάθετε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας το Aspose.OCR με οδηγίες βήμα‑βήμα.
+### [Πώς να εκτελέσετε OCR σε C# – εξαγωγή κειμένου από εικόνες](./how-to-perform-ocr-in-c-extract-text-from-images/)
+Μάθετε πώς να εκτελείτε OCR σε C# χρησιμοποιώντας το Aspose.OCR για να εξάγετε κείμενο από αρχεία εικόνας. Αυτός ο οδηγός σας δείχνει πώς να μετατρέπετε εικόνα σε κείμενο και να αναγνωρίζετε κείμενο από JPEG.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

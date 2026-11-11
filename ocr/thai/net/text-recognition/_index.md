@@ -643,6 +643,9 @@ url: /th/net/text-recognition/
 ### [ดึงข้อความจากภาพโดยใช้ Aspose OCR ใน C#](./extract-text-from-image-using-aspose-ocr-in-c/)
 ### [จดจำข้อความจากรูปภาพใน C# – คู่มือ Aspose OCR ทีละขั้นตอน](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 เรียนรู้วิธีจดจำข้อความจากรูปภาพด้วย C# ผ่านคู่มือ Aspose OCR อย่างละเอียด
+### [วิธีทำ OCR ใน C# – แยกข้อความจากภาพ](./how-to-perform-ocr-in-c-extract-text-from-images/)
+เรียนรู้วิธีทำ OCR ใน C# ด้วย Aspose.OCR เพื่อดึงข้อความจากไฟล์ภาพ คู่มือนี้จะแสดงวิธีแปลงภาพเป็นข้อความและจดจำข้อความจากไฟล์ JPEG.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
