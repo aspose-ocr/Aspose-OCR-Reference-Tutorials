@@ -24,11 +24,9 @@ title: Convertir une image en ePub en C# – Guide complet pour générer un fic
 url: /fr/net/text-recognition/convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/
 ---
 
-Up the OCR Engine (Why It Matters)" we translated. "## Step 2 – Load the Source Image (How to Convert TIF)" etc.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -23,17 +23,12 @@ title: 'Python OCR‑Tutorial: Text aus Bildern mit Aspose extrahieren'
 url: /de/python/general/python-ocr-tutorial-extract-text-from-images-with-aspose/
 ---
 
-image above visualizes the console output after the script processes a sample PNG.*" translate.
 
-- "Conclusion" etc.
 
-- Translate final paragraphs.
 
-Make sure not to translate code block placeholders.
 
-Also keep markdown formatting.
 
-Let's write final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

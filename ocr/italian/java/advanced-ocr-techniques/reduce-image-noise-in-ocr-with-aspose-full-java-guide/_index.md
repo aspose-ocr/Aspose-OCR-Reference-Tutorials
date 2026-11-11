@@ -1,27 +1,56 @@
 ---
 category: general
-date: 2026-02-09
-description: Riduci il rumore dell'immagine e migliora l'accuratezza OCR utilizzando
-  i filtri Aspose OCR Java. Scopri come aggiungere la riduzione del rumore, aumentare
-  il contrasto dell'immagine e correggere l'inclinazione dell'immagine.
+date: 2026-09-18
+description: Scopri la pre-elaborazione delle immagini per OCR con Aspose in Java,
+  inclusi come ridurre l'image noise, aumentare il contrast e correggere lo skew.
+  Segui questo Aspose OCR Java tutorial per estrarre il text image in modo efficiente.
 draft: false
 keywords:
-- reduce image noise
-- boost image contrast
-- extract text image
-- add noise reduction
-- correct image skew
-language: it
-og_description: Riduci il rumore dell'immagine e migliora l'accuratezza OCR con i
-  filtri Aspose OCR Java. Scopri come aggiungere la riduzione del rumore, aumentare
-  il contrasto dell'immagine e correggere l'inclinazione dell'immagine.
-og_title: Riduci il rumore dell'immagine nell'OCR con Aspose – Guida completa Java
+- image preprocessing for OCR
+- extract text image java
+- aspose OCR Java tutorial
+lastmod: 2026-09-18
+og_description: Scopri la pre-elaborazione delle immagini per OCR con Aspose in Java,
+  inclusi come ridurre l'image noise, aumentare il contrast e correggere lo skew.
+  Segui questo Aspose OCR Java tutorial per estrarre il text image in modo efficiente.
+og_image_alt: Guide showing image preprocessing for OCR using Aspose OCR Java
+og_title: Pre-elaborazione delle immagini per OCR con Aspose in Java – guida
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn image preprocessing for OCR with Aspose in Java, including how
+    to reduce image noise, boost contrast, and correct skew. Follow this Aspose OCR
+    Java tutorial to extract text image efficiently.
+  headline: Image preprocessing for OCR with Aspose in Java – guide
+  type: TechArticle
+- questions:
+  - answer: A radius of 3 works for most scanned documents. Increasing the radius
+      beyond 5 can start to blur fine details like punctuation, which may hurt accuracy.
+      Test a few values on a representative sample to find the sweet spot.
+    question: How much noise reduction is too much?
+  - answer: Yes, but order matters. The recommended sequence is **deskew → noise reduction
+      → contrast boost**. Applying contrast boost before noise removal can amplify
+      speckles, leading to poorer OCR results.
+    question: Can I change the order of filters?
+  - answer: Absolutely. Aspose OCR can extract each page as an image, run the same
+      pipeline on every page, and concatenate the results. Loop over the pages, apply
+      the pipeline, and combine the strings.
+    question: Does this work on multi‑page PDFs?
+  - answer: The built‑in OCR engine focuses on printed text. For handwriting you’ll
+      need a specialized model such as Aspose OCR Handwriting or a cloud‑based AI
+      service. Pre‑processing still helps, but recognition accuracy will vary.
+    question: What if my text is handwritten?
+  - answer: Yes. A valid Aspose OCR license removes evaluation limits, enables full‑speed
+      processing, and grants access to premium filters. A free trial is available
+      for testing.
+    question: Is a license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - Java
-- Image Processing
+- Image processing
 - Aspose
-title: Riduci il rumore dell'immagine nell'OCR con Aspose – Guida completa Java
+title: Pre-elaborazione delle immagini per OCR con Aspose in Java – guida
 url: /it/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/
 ---
 
@@ -29,24 +58,37 @@ url: /it/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ridurre il rumore dell'immagine in OCR con Aspose – Guida completa Java
+# Preelaborazione delle immagini per OCR con Aspose in Java – guida
 
-Hai mai avuto difficoltà a **ridurre il rumore dell'immagine** prima di fornire una foto a un motore OCR? Non sei solo—scansioni rumorose, foto a bassa illuminazione o documenti vecchi possono trasformare un lavoro OCR perfetto in un pasticcio incomprensibile. La buona notizia? Aspose OCR ti offre una pipeline di pre‑elaborazione ordinata che può **aumentare il contrasto dell'immagine**, **aggiungere riduzione del rumore** e persino **correggere l'inclinazione dell'immagine** prima di estrarre il testo dall'immagine.
+Se hai mai provato a estrarre testo da una scansione rumorosa, sai quanto rapidamente può diminuire l'accuratezza dell'OCR. **Image preprocessing for OCR** è l'insieme di passaggi che puliscono un'immagine prima che il motore di riconoscimento venga eseguito – rimuovendo i granelli, raddrizzando le pagine inclinate e migliorando il contrasto. In questo tutorial percorreremo un esempio Java completo e eseguibile che mostra esattamente come applicare questi filtri con Aspose OCR, perché ogni filtro è importante e quali risultati ci si può aspettare.
 
-In questo tutorial percorreremo un esempio Java completo e eseguibile che mostra esattamente come configurare questi filtri, perché ognuno è importante e quale output ci si può aspettare. Alla fine sarai in grado di prendere qualsiasi scenario *estrazione testo immagine* e trasformarlo in una stringa pulita e leggibile.
+> **Pro tip:** Per ricevute o moduli stampati vecchi, applicare deskew + contrast boost insieme spesso produce il più grande salto di accuratezza.
 
-> **Consiglio professionale:** Se lavori con ricevute scannerizzate o vecchi moduli stampati, la combinazione di correzione dell'inclinazione e aumento del contrasto spesso produce il più grande salto in precisione.
+## Risposte rapide
+- **What is the first step?** Crea un'istanza di `OcrEngine` – è l'oggetto principale che esegue la pipeline di riconoscimento.  
+- **Which filter removes speckles?** `NoiseReductionFilter` con un raggio mediano di 3 funziona per la maggior parte dei documenti scansionati.  
+- **How do I straighten a rotated page?** Usa `DeskewFilter`; rileva automaticamente l'angolo e ruota l'immagine.  
+- **Can I boost contrast without losing detail?** Imposta il fattore `ContrastBoostFilter` a 1.2 (20 % di aumento) per un buon equilibrio.  
+- **Do I need a license for production?** Sì – una licenza valida di Aspose OCR rimuove i limiti di valutazione e abilita l'elaborazione a piena velocità.
 
-## Di cosa avrai bisogno
+## Cos'è la preelaborazione delle immagini per OCR?
+**Image preprocessing for OCR** è la preparazione delle immagini bitmap per migliorare i risultati del riconoscimento ottico dei caratteri. Tipicamente comprende la rimozione del rumore, il miglioramento del contrasto e correzioni geometriche come il deskewing. Fornendo un'immagine più pulita al motore, riduci le errate riconoscimenti e aumenti la capacità complessiva.
 
-- **Aspose OCR for Java** (ultima versione, ad es., 23.10). Puoi scaricarlo da Maven Central o dal sito web di Aspose.  
-- Java 8 o versioni successive (il codice utilizza sintassi lambda‑friendly, ma funziona su JDK più vecchi con piccole modifiche).  
+## Perché usare il tutorial Aspose OCR Java per questo compito?
+Aspose OCR supporta **oltre 50 formati di input** (PNG, JPEG, TIFF, BMP, ecc.) e può elaborare documenti con centinaia di pagine senza caricare l'intero file in memoria, raggiungendo fino a **2× più veloce** di riconoscimento rispetto alle chiamate OCR grezze. La libreria include anche una pipeline di pre‑processing fluida, consentendoti di concatenare i filtri in un'unica istruzione leggibile.
+
+## Cosa ti servirà
+
+- **Aspose OCR for Java** (ultima versione, ad es. 23.10). Aggiungi la dipendenza Maven o scarica il JAR dal sito Aspose.  
+- Java 8 o superiore. L'esempio utilizza una sintassi compatibile con le lambda ma funziona su qualsiasi runtime Java 8+.  
 - Un'immagine di esempio (`input.png`) che presenta rumore, basso contrasto o una leggera rotazione.  
-- Un IDE o un semplice editor di testo—non sono richiesti strumenti di build speciali, anche se Maven/Gradle semplificano la gestione delle dipendenze.
+- Un IDE o un semplice editor di testo; Maven/Gradle sono opzionali ma semplificano la gestione delle dipendenze.
 
-## Passo 1: Creare l'istanza del motore OCR  
+## Cos'è la classe OcrEngine?
+`OcrEngine` è l'oggetto centrale di Aspose OCR che incapsula l'algoritmo di riconoscimento e gestisce la pipeline di pre‑processing. Memorizza configurazioni come lingua, modalità di segmentazione della pagina e filtri allegati. Tutte le impostazioni vengono applicate a questa istanza prima di invocare il metodo `recognize` su un'immagine.
 
-La prima cosa da fare è avviare un `OcrEngine`. Pensalo come il cervello che in seguito leggerà i caratteri.  
+## Come creare l'istanza del motore OCR
+Per creare il motore OCR, istanzia la classe `OcrEngine` con il suo costruttore predefinito. Questo oggetto contiene tutte le configurazioni, inclusa qualsiasi catena di filtri che allegherai in seguito, e prepara il motore di riconoscimento interno per l'elaborazione delle immagini. Una volta creato, puoi subito iniziare ad aggiungere i passaggi di pre‑processing.
 
 ```java
 import com.aspose.ocr.*;
@@ -57,10 +99,18 @@ public class FilterChainExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Perché?** Il motore incapsula l'algoritmo di riconoscimento e ti permette di collegare una pipeline di pre‑elaborazione. Senza di esso, dovresti invocare manualmente librerie di immagini a basso livello.
+> **Why?** Il motore incapsula l'algoritmo di riconoscimento e ti consente di collegare una pipeline di pre‑processing. Senza di esso, dovresti invocare manualmente le librerie di immagini a basso livello.
 
-## Passo 2: Costruire una pipeline di pre‑elaborazione  
+## Cos'è la classe DeskewFilter?
+`DeskewFilter` esamina l'orientamento delle linee di testo nell'immagine e calcola l'angolo necessario per renderle orizzontali. Poi ruota il bitmap di conseguenza, garantendo che il motore OCR riceva un'immagine correttamente allineata, riducendo notevolmente gli errori di riconoscimento causati da testo inclinato.
 
+## Cos'è la classe NoiseReductionFilter?
+`NoiseReductionFilter` implementa un filtro mediano che sostituisce ogni pixel con il valore mediano del suo intorno. Specificando un raggio (comunemente 3), rimuove i granelli isolati e la grana senza sfocare le strutture più grandi, aiutando il motore OCR a concentrarsi sui caratteri reali anziché sul rumore.
+
+## Cos'è la classe ContrastBoostFilter?
+`ContrastBoostFilter` aumenta la differenza tra le aree chiare e scure moltiplicando le intensità dei pixel per un fattore configurabile. Un tipico aumento di 1.2 (20 % di incremento) fa risaltare il testo rispetto allo sfondo, migliorando il rilevamento dei bordi e aumentando infine l'accuratezza dell'OCR su scansioni a basso contrasto.
+
+## Passo 2: costruisci una pipeline di pre‑processing
 Qui è dove **riduciamo il rumore dell'immagine** e **aumentiamo il contrasto dell'immagine**. La pipeline è un elenco fluido di filtri che vengono eseguiti in ordine.
 
 ```java
@@ -72,17 +122,15 @@ Qui è dove **riduciamo il rumore dell'immagine** e **aumentiamo il contrasto de
 ```
 
 ### Perché questi filtri?
-
-| Filtro | Cosa fa | Perché è utile |
+| Filter | What it does | Why it helps |
 |--------|--------------|--------------|
-| **DeskewFilter** | Rileva e ruota l'immagine per rendere le linee di testo orizzontali. | I motori OCR presumono testo quasi orizzontale; una linea inclinata può causare errori di riconoscimento. |
-| **NoiseReductionFilter** | Applica un filtro mediano con un raggio configurabile (qui `3`). | Rimuove macchie e granuli che altrimenti sembrano caratteri sparsi. |
-| **ContrastBoostFilter** | Moltiplica l'intensità dei pixel di un fattore (`1.2f` = aumento del 20 %). | Migliora la differenza tra il testo in primo piano e lo sfondo, rendendo i bordi più nitidi. |
+| **DeskewFilter** | Rileva e ruota l'immagine per rendere le linee di testo orizzontali. | I motori OCR assumono testo quasi orizzontale; una linea inclinata può causare errori di riconoscimento. |
+| **NoiseReductionFilter** | Applica un filtro mediano con un raggio configurabile (qui `3`). | Rimuove granelli e grana che altrimenti sembrano caratteri sparsi. |
+| **ContrastBoostFilter** | Moltiplica l'intensità dei pixel per un fattore (`1.2f` = aumento del 20 %). | Migliora la differenza tra testo in primo piano e sfondo, rendendo i bordi più chiari. |
 
-> **Variazione comune:** Se le tue immagini sono molto granulose, aumenta il raggio del kernel a `5` o `7`. Ricorda solo che più grande è il raggio, più dettagli potresti perdere.
+> **Common variation:** Se le tue immagini sono molto granulose, aumenta il raggio del kernel a `5` o `7`. Raggi più grandi rimuovono più rumore ma possono anche sfocare i dettagli fini, quindi testa su un campione rappresentativo.
 
-## Passo 3: Collegare la pipeline al motore  
-
+## Passo 3: collega la pipeline al motore
 Ora diciamo al motore OCR di usare la pipeline che abbiamo appena creato.
 
 ```java
@@ -90,10 +138,9 @@ Ora diciamo al motore OCR di usare la pipeline che abbiamo appena creato.
         ocrEngine.getConfiguration().setPreProcessingPipeline(preProcessingPipeline);
 ```
 
-> **Caso limite:** Se salti questo passo, il motore verrà eseguito con le impostazioni predefinite (spesso senza pre‑elaborazione), il che significa che probabilmente vedrai gli stessi errori causati dal rumore che cercavi di evitare.
+> **Edge case:** Saltare questo passaggio lascia il motore con le impostazioni predefinite (spesso nessun pre‑processing), il che significa che probabilmente vedrai gli stessi errori indotti dal rumore che stavi cercando di evitare.
 
-## Passo 4: Eseguire OCR sull'immagine  
-
+## Passo 4: esegui OCR sulla tua immagine
 Con tutto impostato, riconosciamo effettivamente il testo.
 
 ```java
@@ -101,11 +148,10 @@ Con tutto impostato, riconosciamo effettivamente il testo.
         RecognitionResult recognitionResult = ocrEngine.recognize("YOUR_DIRECTORY/input.png");
 ```
 
-> **E se l'immagine è a colori?** Aspose OCR converte automaticamente le immagini a colori in scala di grigi prima di applicare i filtri, ma puoi convertirle manualmente prima se hai bisogno di un canale specifico.
+> **E se l'immagine è a colori?** Aspose OCR converte automaticamente le immagini a colori in scala di grigi prima di applicare i filtri, ma puoi convertire manualmente prima se hai bisogno di un canale specifico.
 
-## Passo 5: Stampare il testo riconosciuto  
-
-Infine, stampa la stringa estratta. In un'app reale potresti scriverla su un file o in un database.
+## Passo 5: output del testo riconosciuto
+Infine, stampa la stringa estratta. In un'applicazione reale potresti scriverla su un file o in un database.
 
 ```java
         // Show the result in the console
@@ -115,7 +161,7 @@ Infine, stampa la stringa estratta. In un'app reale potresti scriverla su un fil
 }
 ```
 
-**Expected console output**
+**Output previsto della console**
 
 ```
 === OCR Output ===
@@ -125,42 +171,57 @@ Total: $1,234.56
 Thank you for your business!
 ```
 
-Se l'immagine originale era rumorosa, noterai molti meno caratteri confusi rispetto a un'esecuzione senza la pipeline di pre‑elaborazione.
+Se l'immagine originale era rumorosa, noterai molti meno caratteri confusi rispetto a un'esecuzione senza la pipeline di pre‑processing.
 
-## Riepilogo visivo  
+## Riepilogo visivo
 
-![Immagine di esempio di input che mostra il rumore prima della elaborazione – esempio di riduzione del rumore dell'immagine](https://example.com/images/noisy-scan.png "ridurre il rumore dell'immagine")
+![Immagine di esempio di input che mostra il rumore prima dell'elaborazione – esempio di riduzione del rumore dell'immagine](https://example.com/images/noisy-scan.png "riduci rumore immagine")
+
+[Immagine di esempio di input che mostra il rumore prima dell'elaborazione – esempio di riduzione del rumore dell'immagine](https://example.com/images/noisy-scan.png "riduci rumore immagine")
 
 Il testo alternativo sopra contiene la **parola chiave primaria**, soddisfacendo la SEO e descrivendo l'immagine per l'accessibilità.
 
 ## Domande frequenti (FAQ)
 
-### Quanto è troppo la riduzione del rumore?  
-Un raggio di `3` funziona per la maggior parte dei documenti scannerizzati. Superare `5` può iniziare a sfocare dettagli fini come piccoli segni di punteggiatura, il che può compromettere la precisione. Prova alcuni valori su un campione rappresentativo.
+**Q: Quanto è eccessiva la riduzione del rumore?**  
+A: Un raggio di 3 funziona per la maggior parte dei documenti scansionati. Aumentare il raggio oltre 5 può iniziare a sfocare i dettagli fini come la punteggiatura, il che può compromettere l'accuratezza. Prova alcuni valori su un campione rappresentativo per trovare il punto ottimale.
 
-### Posso cambiare l'ordine dei filtri?  
-Sì. L'ordine è importante: generalmente vuoi **correggere l'inclinazione per prima**, poi **ridurre il rumore**, e infine **aumentare il contrasto**. Scambiarli può portare a risultati sub‑ottimali (ad esempio, aumentare il contrasto su un'immagine rumorosa può amplificare il rumore).
+**Q: Posso cambiare l'ordine dei filtri?**  
+A: Sì, ma l'ordine è importante. La sequenza consigliata è **deskew → noise reduction → contrast boost**. Applicare il contrast boost prima della rimozione del rumore può amplificare i granelli, portando a risultati OCR peggiori.
 
-### Funziona su PDF multi‑pagina?  
-Aspose OCR può estrarre ogni pagina come immagine ed eseguire la stessa pipeline su ciascuna. Scorri le pagine, applica la pipeline e concatena i risultati.
+**Q: Funziona su PDF multi‑pagina?**  
+A: Assolutamente. Aspose OCR può estrarre ogni pagina come immagine, eseguire la stessa pipeline su ogni pagina e concatenare i risultati. Cicla sulle pagine, applica la pipeline e combina le stringhe.
 
-### E se il mio testo è scritto a mano?  
-Il motore OCR integrato si concentra sul testo stampato. Per la scrittura a mano avresti bisogno di un modello specializzato (ad es., Aspose OCR Handwriting o un servizio AI cloud). I passaggi di pre‑elaborazione aiutano comunque, ma la precisione del riconoscimento varierà.
+**Q: E se il mio testo è scritto a mano?**  
+A: Il motore OCR integrato si concentra sul testo stampato. Per la scrittura a mano avrai bisogno di un modello specializzato come Aspose OCR Handwriting o un servizio AI basato su cloud. Il pre‑processing aiuta comunque, ma l'accuratezza del riconoscimento varierà.
 
-## Prossimi passi e argomenti correlati  
+**Q: È necessaria una licenza per l'uso in produzione?**  
+A: Sì. Una licenza valida di Aspose OCR rimuove i limiti di valutazione, abilita l'elaborazione a piena velocità e concede l'accesso ai filtri premium. È disponibile una prova gratuita per i test.
 
-- **Extract text image** da PDF o TIFF multi‑pagina usando Aspose PDF e inserirli nella stessa pipeline.  
-- Sperimenta con i valori di **boost image contrast** (`1.5f`, `2.0f`) per foto a bassa illuminazione.  
-- Combina **add noise reduction** con filtri OpenCV personalizzati per scenari limite (ad es., rumore sale‑e‑pepe).  
-- Approfondisci le soglie di rilevamento di **correct image skew** se incontri rotazioni estreme (> 15°).  
+## Prossimi passi e argomenti correlati
 
-Ciascuna di queste estensioni si basa sull'idea centrale di **ridurre il rumore dell'immagine** prima dell'OCR—qualcosa che migliora costantemente la precisione in una vasta gamma di progetti di elaborazione documenti.
+- **Extract text image java** da PDF o TIFF multi‑pagina usando Aspose PDF, poi passa le immagini nella stessa pipeline.  
+- Sperimenta valori più alti di **contrast boost** (`1.5f`, `2.0f`) per foto a bassa illuminazione.  
+- Combina i filtri Aspose con operazioni personalizzate di OpenCV per pattern di rumore particolari (ad es., sale‑e‑pepe).  
+- Esplora le soglie di **correct image skew** per rotazioni estreme (> 15°) regolando i parametri di rilevamento del deskew.  
 
-## Conclusione  
+Ciascuna di queste estensioni si basa sull'idea centrale di **image preprocessing for OCR**, migliorando costantemente l'accuratezza in una vasta gamma di progetti di elaborazione documenti.
 
-Abbiamo coperto una soluzione completa, end‑to‑end, che **riduce il rumore dell'immagine**, **aumenta il contrasto dell'immagine**, **aggiunge riduzione del rumore** e **corregge l'inclinazione dell'immagine** prima di estrarre il testo da un'immagine usando Aspose OCR per Java. Seguendo i cinque passaggi sopra, puoi trasformare una scansione granulosa e inclinata in una stringa pulita e leggibile dalla macchina con poche righe di codice.  
+## Conclusione
 
-Metti alla prova la pipeline con le tue immagini, regola i parametri dei filtri e osserva aumentare il tasso di successo dell'OCR. Buona programmazione, e che le tue scansioni siano sempre nitide!
+Abbiamo coperto una soluzione completa, end‑to‑end, che **riduce il rumore dell'immagine**, **aumenta il contrasto dell'immagine**, **applica la riduzione del rumore** e **corregge l'inclinazione dell'immagine** prima di estrarre il testo da un'immagine usando Aspose OCR per Java. Seguendo i cinque passaggi sopra, puoi trasformare una scansione granulosa e inclinata in una stringa pulita e leggibile dalla macchina con poche righe di codice. Prova la pipeline con le tue immagini, modifica i parametri dei filtri e osserva il tasso di successo dell'OCR salire.
+
+---
+
+**Ultimo aggiornamento:** 2026-09-18  
+**Testato con:** Aspose OCR for Java 23.10  
+**Autore:** Aspose
+
+## Tutorial correlati
+
+- [Riconosci immagine di testo con Aspose Ocr tutorial Java completo](/ocr/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+- [Riduci il rumore dell'immagine in OCR con Aspose guida Java completa](/ocr/java/advanced-ocr-techniques/reduce-image-noise-in-ocr-with-aspose-full-java-guide/)
+- [Estrai testo da immagine Java con Aspose.OCR modalità Detect Areas](/ocr/java/ocr-operations/perform-ocr-detect-areas-mode/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

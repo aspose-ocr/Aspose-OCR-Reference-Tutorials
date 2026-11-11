@@ -65,11 +65,20 @@ weight: 22
 ### [Recognize Image without Text Area Detection in OCR Image Recognition](./recognize-image-without-text-area-detection/)
 Αποκτήστε το δυναμικό της αναγνώρισης κειμένου με το Aspose.OCR για .NET. Αναγνωρίστε κείμενο από εικόνες χωρίς κόπο.
 ### [Recognize Line in OCR Image Recognition](./recognize-line/)
-Απελευθερώστε το δυναμικό του Aspose.OCR για .NET στην αναγνώριση γραμμών σε OCR εικόνες. Ένας οδηγός για προγραμματιστές για αβίαστη εξαγωγή κειμένου από εικόνες.
 ### [Perform OCR on Image in OCR Image Recognition](./perform-ocr-on-image/)
 Αποκτήστε τη μαγεία του OCR με το Aspose.OCR για .NET, εξάγοντας κείμενο από εικόνες χωρίς κόπο. Εξερευνήστε το tutorial για αβίαστη ενσωμάτωση.
 ### [Πώς να ενεργοποιήσετε φόρμες και να εξάγετε πίνακες με OCR σε C# – Πλήρης οδηγός](./how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/)
 Μάθετε πώς να ενεργοποιήσετε την αναγνώριση φορμών και να εξάγετε πίνακες από εικόνες χρησιμοποιώντας Aspose.OCR σε C#.
+### [Save Table as CSV in C# – Complete Aspose OCR Guide](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
+Μάθετε πώς να εξάγετε πίνακες από εικόνες OCR και να τους αποθηκεύσετε ως CSV με C# και Aspose.OCR.
+### [Πώς να εξάγετε πίνακες από εικόνες χρησιμοποιώντας το Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+Ανακαλύψτε πώς να εντοπίζετε και να εξάγετε πίνακες από εικόνες με το Aspose OCR για .NET, βήμα‑βήμα σε C#.
+### [Create Excel from Image with C# – Full Aspose OCR Guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+Δημιουργήστε αρχείο Excel από εικόνα χρησιμοποιώντας Aspose.OCR και C#. Ο πλήρης οδηγός βήμα‑βήμα.
+### [Εξαγωγή Πινάκων από Εικόνα με Aspose OCR – Πλήρης Οδηγός C#](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+Ανακαλύψτε πώς να εξάγετε πίνακες από εικόνες με Aspose OCR σε C#, βήμα‑βήμα οδηγίες.
+### [OCR εικόνας σε Excel – Πλήρης οδηγός για μετατροπή σαρωμένων πινάκων σε Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+Μετατρέψτε εύκολα σαρωμένους πίνακες σε αρχεία Excel χρησιμοποιώντας Aspose.OCR για .NET.
 
 ## Frequently Asked Questions
 

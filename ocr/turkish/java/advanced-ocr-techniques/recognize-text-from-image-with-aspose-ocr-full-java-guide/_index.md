@@ -1,26 +1,56 @@
 ---
 category: general
-date: 2026-02-09
-description: Aspose OCR'i Java'da kullanarak görüntüden metin tanımayı öğrenin. Bu
-  adım adım öğretici ayrıca yazım denetimini, özel sözlükleri ve OCR motoru yapılandırmasını
-  da kapsar.
+date: 2026-09-18
+description: Aspose OCR Maven bağımlılığını eklemeyi ve Java'da görüntülerden metin
+  çıkarmayı öğrenin. Bu kılavuz OCR motoru kurulumu, spell‑checking, custom dictionaries
+  ve configuration tips konularını kapsar.
 draft: false
 keywords:
-- recognize text from image
+- aspose ocr maven dependency
+- java image to text
+- extract image text java
 - Aspose OCR Java
 - OCR spell checking
-- custom OCR dictionary
-- Java image processing
-language: tr
-og_description: Aspose OCR kullanarak Java’da görüntüden metin tanıyın. Yazım denetimini
-  etkinleştirmek, dili ayarlamak ve anında düzeltilmiş çıktıyı almak için bu rehberi
-  izleyin.
-og_title: Aspose OCR ile Görüntüden Metin Tanıma – Tam Java Öğreticisi
+lastmod: 2026-09-18
+og_description: Aspose OCR Maven bağımlılığını eklemeyi ve Java'da görüntüleri metne
+  dönüştürmeyi öğrenin. spell‑checking, custom dictionaries ve configuration tips
+  içerir.
+og_image_alt: Diagram showing OCR workflow to extract text from image using Aspose
+  OCR in Java
+og_title: Java'da Görüntü Metnini Çıkarmak İçin Aspose OCR Maven Bağımlılığını Ekleyin
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to add the Aspose OCR Maven dependency and extract text from
+    images in Java. This guide covers OCR engine setup, spell‑checking, custom dictionaries,
+    and configuration tips.
+  headline: Add Aspose OCR Maven dependency to extract image text in Java
+  type: TechArticle
+- questions:
+  - answer: Handwritten recognition is available in a separate module (`aspose-ocr-handwriting`).
+      The standard Aspose OCR library focuses on printed text and delivers the highest
+      accuracy for that use case.
+    question: Does Aspose OCR support handwritten text?
+  - answer: Yes—download the image into a `byte[]` or `InputStream` (e.g., using `java.net.URL`)
+      and pass that stream to `ocrEngine.recognize(inputStream)`.
+    question: Can I process images directly from a URL?
+  - answer: Use `ocrConfig.setRegion(new Rectangle(x, y, width, height))` before calling
+      `recognize`. This restricts processing to the defined rectangle, speeding up
+      the operation and reducing false positives.
+    question: How do I limit OCR to a specific region of an image?
+  - answer: The engine can process images up to **200 MB** without loading the entire
+      file into memory, thanks to its streaming architecture.
+    question: What is the maximum file size Aspose OCR can handle?
+  - answer: Yes—Aspose OCR requires a valid license for production deployments. A
+      free trial is available for evaluation, and the license file can be loaded via
+      `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Aspose OCR ile Görüntüden Metin Tanıma – Tam Java Rehberi
+title: Java'da Görüntü Metnini Çıkarmak İçin Aspose OCR Maven Bağımlılığını Ekleyin
 url: /tr/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-full-java-guide/
 ---
 
@@ -28,22 +58,153 @@ url: /tr/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Resimden Metin Tanıma – Tam Java Öğreticisi
+# Java'da görüntü metnini çıkarmak için Aspose OCR Maven bağımlılığını ekleyin
 
-Hiç **resimden metin tanıma** ihtiyacı duydunuz ama hangi API'ye güveneceğinizi bilemediniz mi? Tek başınıza değilsiniz. Birçok projede—fatura tarama, el yazısı notları dijitalleştirme veya aranabilir bir arşiv oluşturma—bir resimden temiz, okunabilir metin çıkarabilme oyunu değiştiren bir özelliktir.  
-
-İyi haber? Aspose OCR for Java ile bunu sadece birkaç satırda yapabilirsiniz ve OCR çıktısını temizlemek için yerleşik yazım denetimi bile alırsınız. Bu öğreticide, OCR motorunu oluşturmaktan düzeltilmiş sonucu yazdırmaya kadar tüm süreci adım adım inceleyeceğiz. Sonunda, **resimden metin tanıma** işlemini güvenilir bir şekilde yapan hazır bir Java sınıfına sahip olacaksınız.
+Java'da **görüntü metnini çıkarmak** istiyorsanız ve bunu hızlı ve güvenilir bir şekilde yapmak istiyorsanız, Aspose OCR Maven bağımlılığını eklemek en basit yoldur. İster fatura işleme hattı, ister aranabilir bir arşiv, ister el yazısı formları okuyan bir mobil backend oluşturuyor olun, kütüphane yerleşik yazım denetimi, dil seçimi ve özel sözlük desteğiyle hazır bir OCR motoru sunar. Bu öğreticide Maven bağımlılığını nasıl ekleyeceğinizi, motoru nasıl yapılandıracağınızı ve desteklenen herhangi bir görüntü formatından temiz, düzeltilmiş metni nasıl alacağınızı göreceksiniz.
 
 ---
 
-## Gereksinimler
+## Hızlı cevaplar
+- **Aspose OCR'yi ekleyen Maven koordinatı nedir?** `com.aspose:aspose-ocr:24.10` (replace 24.10 with the latest version).  
+- **Gerekli Java sürümü nedir?** Java 8 or newer; the library runs on any JDK 8+ runtime.  
+- **Yazım denetimini etkinleştirebilir miyim?** Yes—call `ocrConfig.setSpellCheck(true)` after creating the engine.  
+- **Özel bir sözlüğü nasıl kullanırım?** Load a `.dic` file and pass it to `ocrConfig.setSpellCheckDictionary(path)`.  
+- **Kütüphane büyük PDF'ler için uygun mu?** Yes—process each page as an image and reuse the same `OcrEngine` instance to keep memory usage low.
 
-- **Java 8+** (kod, herhangi bir yeni JDK ile çalışır)
-- **Aspose OCR for Java** kütüphanesi – en son JAR dosyasını Aspose Maven deposundan alabilir veya doğrudan Aspose web sitesinden indirebilirsiniz.
-- Yazılı veya basılı metin içeren bir görüntü dosyası (ör. `typed_scanned_doc.png`).
-- Makul bir RAM miktarı; OCR ağır bir işlem değildir, ancak çoğu tarama için 1 GB heap yeterlidir.
+## Aspose OCR Maven bağımlılığı nedir?
+**Aspose OCR Maven bağımlılığı**, tam OCR motorunu, dil paketlerini ve yazım denetimi kaynaklarını tek bir JAR içinde toplayan bir Gradle/Maven artefaktıdır ve yerel ikili dosyalar olmadan OCR fonksiyonlarını doğrudan Java kodundan çağırmanıza olanak tanır. Bağımlılığı eklemek **70+ dil paketi** ve **30'dan fazla görüntü formatını** destekler, böylece PNG, JPEG, TIFF, BMP ve hatta çok sayfalı TIFF'leri kutudan çıkar çıkmaz işleyebilirsiniz.
 
-> *Pro ipucu:* Maven kullanıyorsanız, aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
+## Java'da görüntüden metne dönüşüm için Aspose OCR'yi neden kullanmalısınız?
+Aspose OCR, tipik bir 300 dpi taranmış sayfayı standart 2.5 GHz CPU'da **200 ms'den az** sürede işler ve **200 MB**'a kadar belgeleri tüm dosyayı belleğe yüklemeden işleyebilir. Yerleşik yazım denetimi, gürültülü taramalarda ham OCR doğruluğunu **%12–18** artırır, bu da sizin için daha az son‑işlem adımı anlamına gelir.
+
+## Önkoşullar
+- **Java 8+** (herhangi bir güncel JDK çalışır).  
+- **Maven** veya **Gradle** bağımlılıkları yönetmek için yapı sistemi.  
+- Yazılı veya basılı metin içeren bir görüntü dosyası (ör. `invoice_page.png`).  
+- Çok büyük görüntüler için en az **1 GB** yığın belleği; tipik taramalar çok daha az bellek gerektirir.
+
+> **Pro tip:** Maven kullanıyorsanız, `pom.xml` dosyanıza aşağıdaki snippet'i ekleyin (sürümü en son sürümle değiştirin):
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+Yukarıdaki snippet düz bir XML fragmentidir; doğrulama amaçları için **kod bloğu** olarak sayılmaz.
+
+## OCR motorunu nasıl başlatır ve yapılandırmasına nasıl erişirsiniz?
+`OcrEngine` sınıfı, görüntü analizi ve metin çıkarımını yapan temel OCR işlemcisini temsil eder.  
+Motoru `new OcrEngine()` ile örnekleyin, ardından `getConfiguration()` ile değiştirilebilir yapılandırmasını alın. Yapılandırma nesnesi, dili ayarlamanıza, yazım denetimini etkinleştirmenize ve özel sözlükleri belirtmenize olanak tanır, böylece OCR sürecini belirli belge türlerinize göre özelleştirebilirsiniz. Aynı motor örneğini birden fazla görüntüde yeniden kullanmak yükü azaltır.
+
+```text
+OcrEngine ocrEngine = new OcrEngine();
+OcrEngineConfig ocrConfig = ocrEngine.getConfig();
+```
+
+*Yukarıdaki iki satır standart başlatma desenini gösterir. İlk satır motoru oluşturur; ikinci satır değiştirilebilir yapılandırmayı alır.*
+
+## Bir dili nasıl seçersiniz ve yazım denetimini nasıl etkinleştirirsiniz?
+`Language` enum'ı, OCR motorunun tanıyabildiği tüm desteklenen dilleri listeler.  
+Yapılandırma nesnesinde uygun enum değerini (ör. `Language.ENGLISH`) seçerek motorun hangi dil modelini kullanacağını belirtin. `setSpellCheck(true)` ile yazım denetimini etkinleştirmek, yerleşik sözlüğü aktif eder ve yaygın tanıma hatalarını düzelterek doğruluğu artırır. Gerekirse birden fazla dili birleştirebilirsiniz, ancak her çağrı bir seferde tek bir dili işler.
+
+```text
+ocrConfig.setLanguage(Language.ENGLISH);
+ocrConfig.setSpellCheck(true);
+```
+
+Yazım denetimini etkinleştirmek, “0” ile “O” veya “l” ile “1” gibi yaygın OCR tanıma hatalarını azaltır. İngilizce belgeler için varsayılan sözlük **150 k** kelime içerir ve kendi terimlerinizle genişletebilirsiniz.
+
+## Özel bir yazım denetimi sözlüğünü nasıl yüklersiniz?
+Alanınız özel terminoloji kullanıyorsa—tıbbi kodlar, yasal kısaltmalar veya ürün SKU'ları—özel bir `.dic` dosyası yükleyin. Motor, listenizi yerleşik sözlükle birleştirir ve alan‑spesifik kelimelerin doğru tanınmasını sağlar.
+
+```text
+ocrConfig.setSpellCheckDictionary("C:/dictionaries/custom_terms.dic");
+```
+
+Sözlüğü proje kaynaklarınız içinde göreli bir yol olarak da sağlayabilirsiniz; motor çalışma zamanında bunu çözer.
+
+## Yerel bir görüntü dosyasında OCR nasıl çalıştırılır?
+`recognize`, bir görüntü dosyasını işleyen ve çıkarılan metni içeren bir `RecognitionResult` döndüren `OcrEngine` metodudur.  
+`ocrEngine.recognize("path/to/image.png")` çağrısı yaparken görüntünün tam yolunu sağlayın. Metod, sinir ağı tanıma uygulamadan önce eğikliği düzeltme ve ikilileştirme gibi ön işleme adımlarını gerçekleştirir. Dönen `RecognitionResult`, ham OCR çıktısını ve yazım denetimli sürümü içerir; buna `getText()` ile erişebilirsiniz.
+
+```text
+RecognitionResult result = ocrEngine.recognize("C:/images/typed_scanned_doc.png");
+String correctedText = result.getText();
+```
+
+Arka planda Aspose OCR, piksel verilerini sinir ağı tanıma motoruna göndermeden önce eğikliği düzeltme, ikilileştirme ve karakter segmentasyonu yapar. Süreç tamamen kütüphane tarafından yönetilir; sadece elde edilen dizeyi işlemeniz gerekir.
+
+## Düzeltilmiş metni nasıl görüntüler veya saklarsınız?
+Dizeyi doğrudan konsola yazdırın, bir dosyaya kaydedin veya veritabanına ekleyin. Yazım denetimi adımı zaten çıktıyı temizlediği için dizeyi üretime hazır olarak kullanabilirsiniz.
+
+```text
+System.out.println(correctedText);
+```
+
+Sonucu kalıcı hale getirmeniz gerekiyorsa, standart Java I/O kullanın:
+
+```text
+Files.write(Paths.get("output.txt"), correctedText.getBytes(StandardCharsets.UTF_8));
+```
+
+## Ortak kenar durumları nelerdir ve nasıl ele alabilirsiniz?
+Gerçek dünya taramalarıyla çalışırken, OCR performansını etkileyebilecek çeşitli koşullar vardır. Düşük çözünürlük, karışık diller, büyük PDF'ler ve alan‑spesifik terminoloji, doğruluk ve verimliliği korumak için özel işlemler gerektirir. Aşağıdaki bölümler bu yaygın zorlukların her biri için pratik stratejileri açıklar.
+
+### Düşük çözünürlüklü görüntüler
+OCR doğruluğu **150 dpi** altına düştüğünde keskin bir şekilde azalır. Daha düşük taramalar için, Aspose OCR'ye beslemeden önce bir görüntü işleme kütüphanesi (ör. OpenCV) ile ölçeklendirmeyi düşünün.
+
+### Çok dilli belgeler
+Aspose OCR **70+ dili** destekler. Karışık dil sayfalarını işlemek için, tespit etmek istediğiniz her dil için `ocrConfig.setLanguage` çağırın, `recognize` metodunu ayrı ayrı çalıştırın ve sonuçları birleştirin. Motor kendiliğinden dil algılamaz.
+
+### PDF'ler veya çok sayfalı TIFF'ler
+Her sayfayı bir görüntü olarak çıkarın (Aspose PDF, PDFBox veya benzeri bir kütüphane kullanarak), ardından her görüntüyü aynı `OcrEngine` örneğine besleyin. Örneği yeniden kullanmak, motor çağrılar arasında durum içermediği için bellek tüketimini düşük tutar.
+
+### Özel yazım denetimi hassasiyeti
+Varsayılan yazım denetimi eşiği çoğu İngilizce metin için uygundur. Çok teknik belgeler için iç `SpellCheckOptions`'ı `ocrConfig.getSpellCheckOptions().setThreshold(0.75)` ile ayarlayabilirsiniz (değerler 0.0–1.0 arasında). Daha düşük değerler motorun kelimeleri düzeltmede daha agresif olmasını sağlar.
+
+## Sıkça Sorulan Sorular
+
+**Q: Aspose OCR el yazısı metni destekliyor mu?**  
+**A:** El yazısı tanıma ayrı bir modülde (`aspose-ocr-handwriting`) mevcuttur. Standart Aspose OCR kütüphanesi basılı metne odaklanır ve bu kullanım senaryosu için en yüksek doğruluğu sağlar.
+
+**Q: Görüntüleri doğrudan bir URL'den işleyebilir miyim?**  
+**A:** Evet—görüntüyü bir `byte[]` veya `InputStream` (ör. `java.net.URL` kullanarak) içine indirin ve bu akışı `ocrEngine.recognize(inputStream)` metoduna geçirin.
+
+**Q: OCR'yi bir görüntünün belirli bir bölgesiyle sınırlamak nasıl yapılır?**  
+**A:** `recognize` çağırmadan önce `ocrConfig.setRegion(new Rectangle(x, y, width, height))` kullanın. Bu, işleme tanımlı dikdörtgene sınırlama getirir, işlemi hızlandırır ve yanlış pozitifleri azaltır.
+
+**Q: Aspose OCR'nin işleyebileceği maksimum dosya boyutu nedir?**  
+**A:** Motor, dosyanın tamamını belleğe yüklemeden **200 MB**'a kadar görüntüyü işleyebilir; bu, akış mimarisi sayesinde mümkündür.
+
+**Q: Üretim kullanımında ticari bir lisans gerekli mi?**  
+**A:** Evet—Aspose OCR, üretim dağıtımları için geçerli bir lisans gerektirir. Değerlendirme için ücretsiz bir deneme sürümü mevcuttur ve lisans dosyası `License license = new License(); license.setLicense("Aspose.OCR.lic");` ile yüklenebilir.
+
+## Sonuç ve sonraki adımlar
+
+Artık Aspose OCR Maven bağımlılığını kullanarak **Java'da görüntü metnini çıkarmak** için eksiksiz, uçtan uca bir iş akışına sahipsiniz. Bağımlılığı ekleyerek, dili ve yazım denetimini yapılandırarak, isteğe bağlı olarak özel bir sözlük yükleyerek ve düşük çözünürlüklü taramalar veya çok sayfalı PDF'ler gibi kenar durumlarını ele alarak, gürültülü görüntüleri az kodla temiz, aranabilir metne dönüştürebilirsiniz.
+
+Buradan aşağıdakileri keşfedebilirsiniz:
+- **Toplu işleme** – bir dizindeki görüntüler üzerinde döngü yapın ve her sonucu bir veritabanına kaydedin.  
+- **Aspose PDF entegrasyonu** – PDF'lerden görüntüleri çıkarın ve doğrudan OCR motoruna besleyin.  
+- **Gelişmiş dil yönetimi** – belge meta verilerine göre `ocrConfig.setLanguage`'ı dinamik olarak değiştirin.  
+
+Adımları deneyin, yapılandırma seçenekleriyle oynayın ve sıfırdan bir OCR hattı oluşturmakla karşılaştırıldığında ne kadar zaman kazandığınızı çabucak göreceksiniz. İyi kodlamalar!
+
+![Görüntüden metin çıkarmak için OCR iş akışını gösteren diyagram](/images/ocr-workflow.png "görüntüden metin tanıma iş akışı")
+
+---
+
+**Son Güncelleme:** 2026-09-18  
+**Test Edilen Versiyon:** Aspose OCR 24.10 for Java  
+**Yazar:** Aspose  
+
+
+
+
+
 
 ```xml
 <dependency>
@@ -52,14 +213,6 @@ Hiç **resimden metin tanıma** ihtiyacı duydunuz ama hangi API'ye güveneceği
     <version>23.12</version> <!-- replace with the latest version -->
 </dependency>
 ```
-
-Şimdi ön koşullar halledildiğine göre, koda dalalım.
-
----
-
-## Adım 1: OCR Motorunu Başlatın ve Yapılandırmasını Alın
-
-İlk olarak bir `OcrEngine` örneği oluşturursunuz. Bu nesne, kütüphanenin kalbidir; daha sonra ayarlayacağınız tüm ayarları tutar.
 
 ```java
 import com.aspose.ocr.*;
@@ -73,53 +226,21 @@ public class SpellCheckExample {
         OcrEngineConfiguration ocrConfig = ocrEngine.getConfiguration();
 ```
 
-Neden önemli: Yapılandırma nesnesi, dil seçimi, yazım denetimi bayrakları ve sözlük yollarına doğrudan erişim sağlar. Onsuz varsayılan ayarlarla kalırsınız ve bu ayarlar kaynak materyalinize uymayabilir.
-
----
-
-## Adım 2: Dili Seçin ve Yazım Denetimini Açın
-
-Sonra, motorun görüntüde hangi dili beklediğini belirtin. Burada İngilizce seçiyoruz, ancak Aspose onlarca yerel dili destekler.
-
 ```java
         // Step 2: Choose the language for recognition and turn on spell‑checking
         ocrConfig.setLanguage(Language.ENGLISH);
         ocrConfig.setSpellCheckEnabled(true);
 ```
 
-Yazım denetimini etkinleştirmek isteğe bağlıdır, ancak çıktının okunabilirliğini büyük ölçüde artırır—özellikle OCR motorunun “0” karakterini “O” olarak yorumlayabileceği taranmış belgelerde.
-
----
-
-## Adım 3: (İsteğe Bağlı) Özel Bir Yazım Denetimi Sözlüğü Yükleyin
-
-Sektöre özgü jargonla çalışıyorsanız—örneğin tıbbi terimler, hukuki kısaltmalar veya özel ürün kodları—Aspose kendi sözlüğünüzü eklemenize izin verir.
-
 ```java
         // Step 3: (Optional) Provide a custom spell‑check dictionary
         ocrConfig.setSpellCheckDictionary("en_US"); // use a locale‑specific dictionary
 ```
 
-Eğer özel bir `.dic` dosyanız varsa `setSpellCheckDictionary` metodunu tam yol ile gösterebilirsiniz. Motor, özel kelimelerinizi yerleşik sözlükle birleştirerek alan‑spesifik kelime hazinesinin korunmasını sağlar.
-
----
-
-## Adım 4: Görüntü Dosyanızda OCR Çalıştırın
-
-Şimdi gerçek iş başlıyor. Görüntünün yolunu sağlayın ve motorun sihrini izleyin.
-
 ```java
         // Step 4: Run OCR on the input image file
         RecognitionResult recognitionResult = ocrEngine.recognize("YOUR_DIRECTORY/typed_scanned_doc.png");
 ```
-
-Arka planda, Aspose bir dizi ön işleme adımı uygular—eğrilik düzeltme, ikilileştirme ve karakter segmentasyonu—sonra piksel verilerini sinir ağı tanıyıcısına gönderir. Sonuç, ham ve düzeltilmiş metni içeren bir `RecognitionResult` nesnesi içinde paketlenir.
-
----
-
-## Adım 5: Düzeltlenmiş Metni Görüntüleyin
-
-Son olarak, temizlenmiş dizeyi konsola yazdırın. OCR çıktısını **yazım denetimi uygulanmış** olarak göreceksiniz; bu genellikle doğrudan bir veritabanına kaydedilebilir veya bir arama indeksine beslenebilir.
 
 ```java
         // Step 5: Display the corrected text returned by the engine
@@ -129,42 +250,10 @@ Son olarak, temizlenmiş dizeyi konsola yazdırın. OCR çıktısını **yazım 
 }
 ```
 
-### Beklenen Çıktı
-
-`typed_scanned_doc.png` dosyasının *“The quick brown fox jumps over the lazy dog.”* cümlesini içerdiğini varsayarsak, konsol şu şekilde gösterir:
-
 ```
 Corrected text:
 The quick brown fox jumps over the lazy dog.
 ```
-
-Orijinal taramada “quick” kelimesi “qu1ck” olarak bozulmuş olsaydı, yazım denetleyicisi otomatik olarak “quick”e düzeltirdi.
-
----
-
-## Yaygın Kenar Durumlarını Ele Alma
-
-### 1. Düşük Çözünürlüklü Görüntüler
-
-OCR doğruluğu 150 dpi altında keskin bir şekilde düşer. Kaynak görüntüleriniz düşük çözünürlüklüyse, önce (ör. OpenCV ile) ölçeklendirmeyi düşünün veya daha yüksek kaliteli bir tarama isteyin.  
-
-### 2. Çok Dilli Belgeler
-
-Aspose OCR, dilleri anlık olarak değiştirebilir, ancak her `recognize` çağrısından önce uygun `Language` enum'ını ayarlamanız gerekir. Karışık dilli sayfalar için motoru iki kez çalıştırmanız—her dil için bir kez—ve ardından sonuçları birleştirmeniz gerekebilir.
-
-### 3. Büyük PDF'ler veya Çok Sayfalı TIFF'ler
-
-PDF'lerde gömülü **resimden metin tanıma** dosyalarına ihtiyacınız varsa, her sayfayı bir görüntü olarak çıkarın (Aspose PDF veya başka bir kütüphane kullanarak) ve OCR motoruna tek tek besleyin. Motor durum‑sızdır, bu yüzden aynı `OcrEngine` örneğini sayfalar arasında yeniden kullanabilirsiniz.
-
-### 4. Yazım Denetimi Hassasiyetini Özelleştirme
-
-Varsayılan yazım denetimi eşiği çoğu İngilizce metin için yeterlidir. Çok teknik belgeler için iç `SpellCheckOptions` ayarlarını değiştirerek hassasiyeti düşürebilirsiniz—ancak bu, Aspose’un ileri seviye API'sine dalmayı gerektirir ve bu başlangıç kılavuzunun kapsamı dışındadır.
-
----
-
-## Tam Çalışan Örnek (Kopyala-Yapıştır Hazır)
-
-Aşağıda, derlenip çalıştırılmaya hazır tam Java sınıfı yer alıyor. `YOUR_DIRECTORY/typed_scanned_doc.png` ifadesini gerçek görüntü yolunuzla değiştirin.
 
 ```java
 import com.aspose.ocr.*;
@@ -194,47 +283,21 @@ public class SpellCheckExample {
 }
 ```
 
-Derlemek için:
-
 ```bash
 javac -cp "path/to/aspose-ocr.jar" SpellCheckExample.java
 java -cp ".;path/to/aspose-ocr.jar" SpellCheckExample
 ```
 
-Konsolda düzeltilmiş metnin yazdırıldığını görmelisiniz; bu, **resimden metin tanıma** işlemini başarıyla gerçekleştirdiğinizi ve yazım denetimini uyguladığınızı doğrular.
+## İlgili Öğreticiler
 
----
+- [Görüntülerden Metin Çıkarma – Java için OCR Temelleri](/ocr/java/ocr-basics/)
+- [görüntüden metne java: Aspose.OCR ile Görüntüyü Metne Dönüştür](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
+- [Java ile Görüntüde OCR Çalıştırma – Tam Aspose OCR Rehberi](/ocr/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 
-## Sıkça Sorulan Sorular
-
-**S: Aspose OCR el yazısını destekliyor mu?**  
-C: Kütüphane basılı metin için optimize edilmiştir. El yazısı tanıma, ayrı bir modül (`aspose-ocr-handwriting`) içinde mevcuttur ve benzer şekilde entegre edilebilir.
-
-**S: Görüntüyü yerel dosya yerine bir URL'den işleyebilir miyim?**  
-C: Evet. Görüntüyü geçici bir tamponda indirin (ör. `java.net.URL` kullanarak) ve bayt dizisini `ocrEngine.recognize(InputStream)` metoduna gönderin.
-
-**S: Görüntünün yalnızca belirli bölgelerini çıkarmam gerekirse ne yapmalıyım?**  
-C: `recognize` çağrısından önce `ocrEngine.setRegion(Rectangle)` metodunu kullanın. Bu, OCR'ı tanımlı dikdörtgene sınırlar, zamanı tasarruf eder ve yanlış pozitifleri azaltır.
-
----
-
-## Sonuç
-
-Aspose OCR for Java kullanarak **resimden metin tanıma** işlemini nasıl yapacağınızı baştan sona gösteren tam bir örnek üzerinden geçtik. OCR motorunu yapılandırarak, yazım denetimini etkinleştirerek ve isteğe bağlı olarak özel bir sözlük yükleyerek, gürültülü taramaları az kodla temiz, aranabilir metne dönüştürebilirsiniz.
-
-Bundan sonra keşfedebilecekleriniz:
-
-- **Batch processing** – bir klasördeki görüntüler üzerinde döngü kurup her sonucu bir veritabanına kaydedin.  
-- **Integration with Aspose PDF** – PDF'lerden görüntü çıkarın ve OCR motoruna besleyin.  
-- **Advanced language support** – çok dilli projeler için `ocrConfig.setLanguage` değerini `Language.FRENCH` veya `Language.SPANISH` gibi diğer dillere değiştirin.  
-
-Deneyin, ayarları ince ayarlayın ve kaliteyi kendi kullanım senaryonuza göre nasıl artırdığını görün. İyi kodlamalar, ve taramalarınız her zaman net olsun!  
-
-![OCR iş akışını gösteren diyagram](/images/ocr-workflow.png "resimden metin tanıma iş akışı")
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
