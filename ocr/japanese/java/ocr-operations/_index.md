@@ -207,6 +207,8 @@ Aspose OCR を Java で利用し、画像からテキストを抽出する手順
 ### [Java で Aspose OCR を使用して画像をテキストに変換する方法](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 ### [C# で全リソースとランゲージパックをダウンロード – 完全ガイド](./download-all-resources-and-language-packs-in-c-complete-guid/)
 C# 用のすべてのリソースと OCR 言語パックを一括ダウンロードする手順をステップバイステップで解説します。
+### [Java で Aspose OCR を使用して PNG 画像からテキストを認識する方法](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Aspose OCR を使って Java で PNG 画像からテキストを抽出する手順をステップバイステップで解説します。
 
 ## よくある質問
 

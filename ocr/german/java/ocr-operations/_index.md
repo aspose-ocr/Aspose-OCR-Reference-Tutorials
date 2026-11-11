@@ -67,7 +67,7 @@ Erfahren Sie, wie Sie mit Aspose.OCR ein durchsuchbares PDF aus einem Bild in Ja
 ## OCR-Erkennung von TIFF‑Bildern in Aspose.OCR für Java
 Erleben Sie die nächste Stufe der Texterkennung in Java mit Aspose.OCR. Unser Tutorial zur Erkennung von Text in TIFF‑Bildern ist darauf ausgelegt, den Prozess für Sie mühelos zu gestalten. Laden Sie jetzt herunter für ein nahtloses OCR‑Erlebnis und erleben Sie die Präzision und Geschwindigkeit, die Aspose.OCR bietet.
 
-Verabschieden Sie sich von manueller Textertraktion aus TIFF‑Bildern. Lassen Sie Aspose.OCR das für Sie übernehmen. Tauchen Sie in das Tutorial ein und schalten Sie leistungsstarke Texterkennung in Java frei.
+Verabschieden Sie sich von manueller Textertrtraktion aus TIFF‑Bildern. Lassen Sie Aspose.OCR das für Sie übernehmen. Tauchen Sie in das Tutorial ein und schalten Sie leistungsstarke Texterkennung in Java frei.
 
 [TIFF Recognition Tutorial](./recognize-tiff/)
 
@@ -214,6 +214,7 @@ Erfahren Sie, wie Sie mit Aspose OCR in Java Text aus Bildern extrahieren.
 Erfahren Sie, wie Sie Bilder mit Aspose OCR in Java in editierbaren Text umwandeln.
 ### [Alle Ressourcen und Sprachpakete in C# herunterladen – vollständige Anleitung](./download-all-resources-and-language-packs-in-c-complete-guid/)
 Laden Sie alle benötigten Ressourcen und Sprachpakete für Aspose OCR in C# herunter – Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Text aus PNG‑Bildern mit Aspose OCR in Java erkennt](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
 
 ## Häufig gestellte Fragen
 

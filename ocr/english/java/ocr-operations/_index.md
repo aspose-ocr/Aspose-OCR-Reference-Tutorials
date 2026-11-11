@@ -49,6 +49,7 @@ import com.aspose.ocr.*;
 public class RecognizePdf {
     public static void main(String[] args) throws Exception {
         OcrEngine engine = new OcrEngine();
+        engine.setLanguage(OcrLanguage.English);
         engine.setImage(new Image("sample.pdf"));
         engine.process();
         System.out.println(engine.getText());
@@ -205,7 +206,6 @@ Unlock the power of OCR in Java with Aspose.OCR. Recognize text in PDF documents
 Convert images to searchable text using Aspose OCR for Java in a simple step‑by‑step guide.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Unlock powerful text recognition in Java with Aspose.OCR. Effortlessly recognize text in TIFF images. Download now for a seamless OCR experience.
-
 ### [recognize text image with Aspose OCR – Full Java OCR Tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 Full Java OCR tutorial for recognizing text in images using Aspose OCR, covering setup, processing, and optimization.
 ### [How to Deskew Image – Image Preprocessing OCR Guide](./how-to-deskew-image-image-preprocessing-ocr-guide/)
@@ -243,6 +243,9 @@ Learn how to retrieve the absolute file path in Java with a complete step‑by�
 
 ### [Download all resources and language packs in C# – complete guide]({{< relref "download-all-resources-and-language-packs-in-c-complete-guid" >}})
 Download all Aspose OCR resources and language packs for C# in one comprehensive guide.
+
+### [How to recognize text from PNG images using Aspose OCR in Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Learn to extract text from PNG images using Aspose OCR in Java.
 
 ## Frequently asked questions
 

@@ -205,6 +205,7 @@ weight: 21
 Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
 ### [Как конвертировать изображение в текст в Java с Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 ### [Скачать все ресурсы и языковые пакеты в C# – полное руководство](./download-all-resources-and-language-packs-in-c-complete-guid/)
+### [Как распознать текст из PNG‑изображений с помощью Aspose OCR в Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
 
 ## Часто задаваемые вопросы
 

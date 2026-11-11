@@ -101,7 +101,7 @@ Khám phá cách tạo PDF có thể tìm kiếm từ các tệp đã quét bằ
 Hướng dẫn chi tiết cách loại bỏ watermark đánh giá trong Aspose OCR bằng giấy phép Java đầy đủ.
 ### [Nhận dạng văn bản từ hình ảnh với Aspose OCR – Hướng dẫn Java](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh bằng Aspose OCR trong Java, từ cài đặt đến xuất kết quả chính xác.
-### [image to text java: Trích xuất văn bản Urdu với Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
+### [image to text java: Trích xuất Văn bản Urdu với Aspose OCR](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 Khám phá cách trích xuất văn bản Urdu từ hình ảnh bằng Aspose OCR trong Java, từ cấu hình đến xuất kết quả chính bản.
 ### [Tạo PDF có thể tìm kiếm từ hình ảnh trong Java – Hướng dẫn từng bước](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
 Khám phá cách tạo PDF có thể tìm kiếm từ hình ảnh trong Java, hướng dẫn chi tiết từng bước để chuyển đổi và tối ưu OCR.
@@ -221,6 +221,8 @@ Hướng dẫn chi tiết cách tải xuống và chuẩn bị trước mọi t�
 Hướng dẫn chi tiết cách sử dụng Aspose OCR để nhận dạng văn bản từ hình ảnh trong Java.
 ### [Cách chuyển đổi hình ảnh thành văn bản trong Java với Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Mở khóa khả năng chuyển đổi hình ảnh thành văn bản trong Java bằng Aspose OCR, hướng dẫn chi tiết từng bước.
+### [Cách nhận dạng văn bản từ hình ảnh PNG bằng Aspose OCR trong Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Hướng dẫn chi tiết cách trích xuất văn bản từ các tệp PNG bằng Aspose OCR trong Java.
 
 ## Câu hỏi Thường gặp
 

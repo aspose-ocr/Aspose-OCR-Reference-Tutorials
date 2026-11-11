@@ -189,6 +189,8 @@ Fedezd fel, hogyan használhatod az Aspose OCR-t képek szövegének kinyerésé
 ### [Hogyan konvertáljunk képet szöveggé Java-ban az Aspose OCR-rel](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Könnyedén alakítsd a képeket szöveggé Java-ban az Aspose OCR segítségével, részletes útmutatóval.
 ### [Minden erőforrás és nyelvi csomag letöltése C#-ban – teljes útmutató](./download-all-resources-and-language-packs-in-c-complete-guid/)
+### [Hogyan ismerjük fel a szöveget PNG képekből az Aspose OCR használatával Java-ban](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Rövid útmutató a PNG képek szövegének kinyeréséhez az Aspose OCR Java könyvtárral.
 
 ## Gyakran Ismételt Kérdések
 

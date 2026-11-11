@@ -208,6 +208,8 @@ weight: 21
 Μάθετε πώς να μετατρέψετε εικόνες σε κείμενο χρησιμοποιώντας Aspose OCR σε Java, βήμα‑βήμα οδηγίες για ακριβή εξαγωγή.
 ### [Λήψη όλων των πόρων και πακέτων γλώσσας σε C# – πλήρης οδηγός](./download-all-resources-and-language-packs-in-c-complete-guid/)
 Κατεβάστε όλα τα απαραίτητα resources και language packs για Aspose OCR σε C# με αυτόν τον πλήρη οδηγό.
+### [Πώς να αναγνωρίσετε κείμενο από εικόνες PNG χρησιμοποιώντας Aspose OCR σε Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Μάθετε πώς να εξάγετε κείμενο από εικόνες PNG με Aspose OCR σε Java.
 
 ## Συχνές Ερωτήσεις
 
