@@ -118,12 +118,16 @@ Odkryj moc Aspose.OCR for Java. Dowiedz się, jak płynnie wyodrębniać tekst z
 
 ### [Odczyt tekstu z obrazu w Javie – Kompletny przewodnik Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Kompletny przewodnik po odczytywaniu tekstu z obrazów w Javie przy użyciu Aspose OCR.
+
 ### [Uzyskaj tekst OCR w Javie – Kompletny przykład Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Pełny przykład pokazujący, jak pobrać tekst OCR w Javie przy użyciu Aspose OCR.
+
 ### [Jak włączyć OCR w Javie – Przewodnik krok po kroku](./how-to-enable-ocr-in-java-step-by-step-guide/)
 Dowiedz się, jak w prosty sposób włączyć OCR w aplikacji Java, krok po kroku, z przykładami kodu.
+
 ### [Samouczek Image to Text – Wyodrębnianie tekstu tamilskiego przy użyciu Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Poznaj, jak przetworzyć obrazy na tekst w języku tamilskim, wykorzystując Aspose OCR w Javie.
+
 ### [Wyodrębnianie tekstu z obrazu w Javie – Kompletny przykład OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Pełny przykład użycia Aspose.OCR w Javie do wyodrębniania tekstu z obrazów, obejmujący licencję, korekcję pochylenia i odczyt tekstu.
 ### [Rozpoznawanie tekstu z PNG w Javie – samouczek Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
@@ -160,6 +164,9 @@ Dowiedz się, jak wykorzystać wszystkie rdzenie CPU w Javie, efektywnie ustawia
 Kompletny przewodnik po wyodrębnianiu tekstu z obrazów w Javie przy użyciu Aspose.OCR, od konfiguracji po zaawansowane techniki.
 ### [Rozpoznawanie obrazu tekstowego w Javie – Kompletny przewodnik Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Pełny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspose OCR, od konfiguracji po zaawansowane techniki.
+
+### [Jak uzyskać ścieżkę zasobów w Javie i ustawić folder pobierania](./how-to-get-resources-path-java-and-set-download-folder/)
+Dowiedz się, jak uzyskać ścieżkę zasobów i ustawić folder pobierania w Javie.
 
 ---
 

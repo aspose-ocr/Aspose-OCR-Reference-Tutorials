@@ -120,12 +120,16 @@ Apprenez à convertir une image PNG en texte brut avec Aspose.OCR pour Java grâ
 
 ### [Lire du texte à partir d'une image en Java – Guide complet Aspose OCR](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Apprenez à lire du texte depuis une image en Java avec Aspose OCR grâce à ce guide complet pas à pas.
+
 ### [Obtenir du texte OCR en Java – Exemple complet Aspose OCR](./get-ocr-text-in-java-complete-aspose-ocr-example/)
 Apprenez à extraire du texte OCR en Java avec un exemple complet, étape par étape, pour maîtriser Aspose OCR.
+
 ### [Comment activer l’OCR en Java – Guide étape par étape](./how-to-enable-ocr-in-java-step-by-step-guide/)
 Activez facilement l’OCR dans vos applications Java grâce à ce guide complet pas à pas.
+
 ### [Tutoriel Image vers texte – Extraire le texte tamoul avec Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Apprenez à extraire du texte tamoul à partir d’images en utilisant Aspose OCR. Suivez ce guide pas à pas pour une reconnaissance précise.
+
 ### [Extraire du texte d'une image en Java – Exemple complet d'OCR](./extract-text-from-image-in-java-complete-ocr-example/)
 Apprenez à extraire du texte d’une image en Java avec un exemple complet d’OCR.
 
@@ -160,6 +164,8 @@ Apprenez à lire du texte depuis une image en Java avec Aspose OCR, du pré‑tr
 Apprenez à extraire du texte d’une image en Java avec un guide complet, incluant la configuration, la correction d’inclinaison et l’optimisation OCR.
 ### [Reconnaître le texte d'image en Java – Guide complet Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Apprenez à reconnaître du texte dans les images avec Aspose OCR en Java grâce à ce guide complet, incluant configuration, pré‑traitement et extraction.
+### [Comment obtenir le chemin des ressources en Java et définir le dossier de téléchargement](./how-to-get-resources-path-java-and-set-download-folder/)
+Apprenez à récupérer le chemin des ressources dans une application Java et à configurer le répertoire de téléchargement.
 
 ---
 

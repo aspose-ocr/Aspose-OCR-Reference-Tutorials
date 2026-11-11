@@ -204,6 +204,7 @@ weight: 21
 ### [Создание поискового PDF с Aspose OCR – пошаговое руководство](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Подробный пошаговый гайд по созданию поискового PDF с помощью Aspose OCR в Java.
 ### [Как конвертировать изображение в текст в Java с Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+### [Скачать все ресурсы и языковые пакеты в C# – полное руководство](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 ## Часто задаваемые вопросы
 

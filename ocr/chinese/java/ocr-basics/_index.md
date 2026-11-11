@@ -139,6 +139,8 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 全面教程，涵盖从图像加载、预处理到 OCR 识别的全部步骤，帮助您在 Java 项目中实现高效文本提取。
 ### [在 Java 中识别文本图像 – 完整的 Aspose OCR 指南](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 全面教程，教您在 Java 环境下使用 Aspose OCR 完整识别文本图像并优化准确率。
+### [如何获取 Java 资源路径并设置下载文件夹](./how-to-get-resources-path-java-and-set-download-folder/)
+教程演示如何获取 Java 项目中的资源路径并设置下载文件夹，帮助管理文件保存位置。
 
 ---
 

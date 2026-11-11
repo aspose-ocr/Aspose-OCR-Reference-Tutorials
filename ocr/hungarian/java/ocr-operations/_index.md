@@ -188,6 +188,7 @@ Lépésről lépésre bemutatja, hogyan tölts le minden erőforrást C#-ban az 
 Fedezd fel, hogyan használhatod az Aspose OCR-t képek szövegének kinyerésére Java-ban.
 ### [Hogyan konvertáljunk képet szöveggé Java-ban az Aspose OCR-rel](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Könnyedén alakítsd a képeket szöveggé Java-ban az Aspose OCR segítségével, részletes útmutatóval.
+### [Minden erőforrás és nyelvi csomag letöltése C#-ban – teljes útmutató](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 ## Gyakran Ismételt Kérdések
 

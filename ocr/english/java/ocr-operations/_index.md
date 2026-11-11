@@ -241,6 +241,9 @@ Comprehensive Java guide for recognizing text from images using Aspose OCR, cove
 Learn how to retrieve the absolute file path in Java with a complete step‑by‑step guide.
 ### [Download all resources in C# – guide to preloading assets](./download-all-resources-in-c-guide-to-preloading-assets/)
 
+### [Download all resources and language packs in C# – complete guide]({{< relref "download-all-resources-and-language-packs-in-c-complete-guid" >}})
+Download all Aspose OCR resources and language packs for C# in one comprehensive guide.
+
 ## Frequently asked questions
 
 **Q: How do I convert a scanned PDF into a searchable PDF?**  

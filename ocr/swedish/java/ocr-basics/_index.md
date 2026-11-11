@@ -148,6 +148,8 @@ Lär dig hur du utnyttjar alla CPU‑kärnor i Java genom att konfigurera en opt
 En fullständig guide för att läsa text från bilder med Aspose.OCR för Java, inklusive kodexempel och bästa praxis.
 ### [Extrahera text från bild i Java – Komplett OCR‑guide](./extract-text-from-image-in-java-complete-ocr-guide/)
 En fullständig guide för att extrahera text från bilder i Java med Aspose.OCR, steg för steg med kodexempel.
+### [Hur man får resurssökväg i Java och sätter nedladdningsmapp](./how-to-get-resources-path-java-and-set-download-folder/)
+Lär dig hur du hämtar resurssökvägen i Java och konfigurerar en nedladdningsmapp för filhantering.
 
 ---
 

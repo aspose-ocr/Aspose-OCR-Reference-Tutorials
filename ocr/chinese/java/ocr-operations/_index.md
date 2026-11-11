@@ -205,6 +205,8 @@ weight: 21
 提供在 C# 中预加载资源的完整指南，帮助您一次性下载所有资源。
 ### [如何使用 Aspose OCR 在 Java 中对图像执行 OCR](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 完整的 Java 示例，演示如何使用 Aspose OCR 对图像进行 OCR 并获取文本结果。
+### [在 C# 中下载所有资源和语言包 – 完整指南](./download-all-resources-and-language-packs-in-c-complete-guid/)
+提供在 C# 中下载所有资源和语言包的完整指南。
 
 ## 常见问题
 

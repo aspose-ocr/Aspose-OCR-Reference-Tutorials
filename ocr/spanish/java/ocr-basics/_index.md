@@ -154,6 +154,9 @@ Aprende a extraer texto de imágenes en Java con una guía completa paso a paso,
 ### [Reconocer texto en imágenes en Java – Guía completa de Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Guía completa para reconocer texto en imágenes usando Aspose.OCR para Java, cubriendo configuración, preprocesamiento y extracción precisa.
 
+### [Cómo obtener la ruta de recursos en Java y establecer la carpeta de descarga](./how-to-get-resources-path-java-and-set-download-folder/)
+Aprende a localizar la ruta de recursos en Java y a configurar la carpeta de descarga para tus aplicaciones.
+
 ---
 
 **Última actualización:** 2025-12-08  

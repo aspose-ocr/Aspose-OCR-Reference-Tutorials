@@ -200,6 +200,7 @@ weight: 21
 دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
 ### [كيفية تحويل الصورة إلى نص في Java باستخدام Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 دليل يوضح تحويل الصور إلى نص باستخدام Aspose OCR للـ Java خطوة بخطوة.
+### [تحميل جميع الموارد وحزم اللغات في C# – دليل كامل](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 ## الأسئلة المتكررة
 

@@ -207,6 +207,7 @@ weight: 21
 แปลงไฟล์ภาพให้เป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java พร้อมขั้นตอนครบถ้วน  
 ### [วิธีทำ OCR บนภาพด้วย Aspose OCR ใน Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 เรียนรู้ขั้นตอนการใช้ Aspose OCR เพื่อจดจำข้อความจากภาพใน Java อย่างละเอียด
+### [ดาวน์โหลดทรัพยากรและแพ็คเกจภาษา ทั้งหมดใน C# – คู่มือเต็ม](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 
 

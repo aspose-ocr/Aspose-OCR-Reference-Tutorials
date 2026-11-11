@@ -218,6 +218,9 @@ Aspose OCR का उपयोग करके Java में इमेज स�
 
 ### [Java में Aspose OCR के साथ इमेज को टेक्स्ट में बदलें](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 
+### [C# में सभी संसाधन और भाषा पैक्स डाउनलोड करें – पूर्ण गाइड](./download-all-resources-and-language-packs-in-c-complete-guid/)
+C# के लिए सभी संसाधन और भाषा पैक्स को एक ही जगह से डाउनलोड करने की पूरी प्रक्रिया।
+
 ## अक्सर पूछे जाने वाले सवाल
 
 **Q: मैं स्कैन की हुई PDF को सर्च करने लायक PDF में कैसे बदलूँ?**

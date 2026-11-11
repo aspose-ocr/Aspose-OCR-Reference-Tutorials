@@ -211,6 +211,7 @@ C# 애플리케이션에서 모든 리소스를 미리 로드하는 방법을 �
 ### [Java에서 Aspose OCR로 이미지 OCR 수행하기](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
 Aspose OCR을 사용해 Java에서 이미지에 OCR을 수행하는 방법을 단계별로 안내합니다.
 ### [Java에서 Aspose OCR을 사용해 이미지를 텍스트로 변환하는 방법](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+### [C#에서 모든 리소스 및 언어 팩 다운로드 – 완전 가이드](./download-all-resources-and-language-packs-in-c-complete-guid/)
 
 ## 자주 묻는 질문
 

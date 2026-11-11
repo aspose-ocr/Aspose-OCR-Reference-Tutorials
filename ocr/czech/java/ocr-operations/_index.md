@@ -90,7 +90,7 @@ Rychlý průvodce použitím OCR v Javě pro okamžité rozpoznání textu z obr
 Kompletní návod, jak pomocí Aspose.OCR v Javě zpracovat více obrázků najednou a extrahovat z nich text efektivně.
 ### [Spuštění OCR na obrázku s Javou – Kompletní průvodce Aspose OCR](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 Kompletní návod, jak pomocí Aspose.OCR v Javě provést OCR na obrázcích a získat přesný text.
-### [Vytvoření prohledávatelného PDF v Javě – průvodce krok za krokem](./create-searchable-pdf-in-java-step-by-step-guide/)
+### [Vytvoření prohledávatného PDF v Javě – průvodce krok za krokem](./create-searchable-pdf-in-java-step-by-step-guide/)
 Umožněte snadno převést PDF na prohledávatelný dokument pomocí Aspose.OCR v Javě s podrobným krok‑za‑krokem návodem.
 ### [Dávkové OCR obrázků v Javě – Rychlé získání textu z PNG souborů](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 Uvolněte sílu dávkového OCR pro PNG soubory v Javě a rychle extrahujte text z mnoha obrázků.
@@ -203,6 +203,8 @@ Kompletní průvodce stažením všech zdrojů v C# a přednačítáním aktiv.
 Naučte se, jak pomocí Aspose OCR v Javě provést OCR na obrázku a získat text.
 ### [Jak převést obrázek na text v Javě s Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Kompletní průvodce převodem obrázků na text pomocí Aspose OCR v Javě.
+### [Stáhněte všechny zdroje a jazykové balíčky v C# – kompletní průvodce](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Kompletní návod, jak stáhnout všechny zdroje a jazykové balíčky pro Aspose.OCR v C#.
 
 ## Často kladené otázky
 

@@ -70,8 +70,6 @@ Zeg vaarwel tegen handmatige tekst‑extractie uit TIFF‑afbeeldingen. Laat Asp
 
 [TIFF Recognition Tutorial](./recognize-tiff/)
 
-Kortom, met onze Aspose.OCR voor Java Tutorials Listing heeft u de sleutels om het volledige potentieel van OCR‑bewerkingen te benutten. Duik in elke tutorial, verken de functies en til uw tekst‑extractiecapaciteiten naar een hoger niveau. Zeg vaarwel tegen handmatige inspanningen en omarm de precisie en efficiëntie die Aspose.OCR voor Java biedt!
-
 ## OCR‑bewerkingen Tutorials
 ### [Performing OCR with Detect Areas Mode in Aspose.OCR](./perform-ocr-detect-areas-mode/)
 Ontgrendel de kracht van tekst‑extractie uit afbeeldingen met Aspose.OCR voor Java. Een uitgebreide tutorial over OCR met Detect Areas Mode.
@@ -83,6 +81,8 @@ Ontgrendel de kracht van OCR in Java met Aspose.OCR. Herken moeiteloos tekst in 
 Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt, stap voor stap, inclusief code‑voorbeeld en configuratie‑tips.
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Ontgrendel krachtige tekst‑herkenning in Java met Aspose.OCR. Herken moeiteloos tekst in TIFF‑afbeeldingen. Download nu voor een naadloze OCR‑ervaring.
+### [Alle bronnen en taalpakketten downloaden in C# – volledige gids](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Leer hoe u alle benodigde bronnen en taalpakketten voor Aspose OCR in C# kunt downloaden en installeren.
 ### [Hoe batch-OCR in Java – Complete gids voor het extraheren van tekst uit afbeeldingen](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
 Leer hoe u meerdere afbeeldingen in één keer kunt verwerken met Aspose.OCR voor Java en efficiënt tekst kunt extraheren.
 ### [OCR uitvoeren op afbeelding met Java – Complete Aspose OCR-gids](./run-ocr-on-image-with-java-complete-aspose-ocr-guide/)

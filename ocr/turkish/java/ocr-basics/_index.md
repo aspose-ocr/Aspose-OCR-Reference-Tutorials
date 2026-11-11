@@ -149,6 +149,7 @@ Java kullanarak Aspose OCR ile görüntülerden metin okuma sürecini adım adı
 Java ve Aspose.OCR kullanarak görüntülerden metin çıkarma sürecini adım adım öğrenin ve OCR doğruluğunu maksimize edin.
 ### [Java’da Metin Görüntüsü Tanıma – Tam Aspose OCR Kılavuzu](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Java’da Aspose OCR kullanarak metin görüntülerini tanıma sürecini adım adım öğrenin ve tam kılavuzu keşfedin.
+### [Java’da kaynak yolu nasıl alınır ve indirme klasörü nasıl ayarlanır](./how-to-get-resources-path-java-and-set-download-folder/)
 
 ---
 

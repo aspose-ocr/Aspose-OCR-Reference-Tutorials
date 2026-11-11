@@ -214,6 +214,8 @@ Panduan lengkap untuk mengunduh semua sumber daya dalam proyek C# dan memuatnya 
 Panduan langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose OCR dengan Java.
 ### [Cara mengonversi gambar ke teks di Java dengan Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Panduan lengkap mengonversi gambar menjadi teks menggunakan Aspose OCR di Java, langkah demi langkah untuk hasil akurat.
+### [Unduh semua sumber daya dan paket bahasa di C# – panduan lengkap](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Panduan lengkap mengunduh semua sumber daya dan paket bahasa untuk Aspose OCR di C#.
 
 ## Pertanyaan yang Sering Diajukan
 

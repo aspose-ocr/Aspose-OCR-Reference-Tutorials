@@ -211,6 +211,8 @@ Apprenez à télécharger toutes les ressources en C# et à les précharger effi
 Apprenez à extraire du texte d'une image en Java avec Aspose OCR, étape par étape.
 ### [Comment convertir une image en texte en Java avec Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Apprenez à transformer des images en texte en Java avec Aspose OCR, étape par étape.
+### [Télécharger toutes les ressources et packs de langues en C# – guide complet](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Téléchargez toutes les ressources et packs de langues pour Aspose.OCR en C# grâce à ce guide complet.
 
 ## Foire aux questions
 

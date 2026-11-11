@@ -214,6 +214,8 @@ Scopri come pre‑caricare asset in C# scaricando tutte le risorse necessarie in
 Scopri come eseguire l'OCR su immagini usando Aspose OCR in Java, passo‑passo per risultati accurati.
 ### [Come convertire un'immagine in testo in Java con Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Scopri come trasformare immagini in testo con Aspose OCR per Java, seguendo una guida passo‑passo per risultati precisi.
+### [Scarica tutte le risorse e i pacchetti lingua in C# – guida completa](./download-all-resources-and-language-packs-in-c-complete-guid/)
+Guida passo‑passo per scaricare tutte le risorse e i pacchetti lingua necessari per Aspose.OCR in C#.
 
 ## Domande Frequenti
 
