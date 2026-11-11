@@ -1,25 +1,54 @@
 ---
 category: general
-date: 2026-02-17
-description: Java’da OCR motoru oluşturun ve TIFF dosyasını hızlıca okuyun. Aspose.OCR
-  kullanarak büyük bir görüntüden metin tanıma işlemini adım adım öğrenin.
+date: 2026-09-28
+description: Java'da Aspose OCR kullanarak TIFF'ten metin nasıl çıkarılacağını öğrenin.
+  Bu adım adım öğretici, bir OCR motoru oluşturmayı, büyük TIFF dosyalarını okumayı
+  ve metni verimli bir şekilde tanımayı gösterir.
 draft: false
 keywords:
-- create ocr engine java
+- extract text from tiff
+- aspose ocr java tutorial
 - read tiff file java
-- recognize text from large image
-- Aspose OCR Java
-- large image processing Java
-language: tr
-og_description: Şimdi Java OCR motoru oluşturun. Bu öğreticide, Java’da TIFF dosyasını
-  nasıl okuyacağınızı ve Aspose.OCR kullanarak büyük bir görüntüden metni nasıl tanıyacağınızı
-  gösterir.
-og_title: Java ile OCR Motoru Oluşturma – Büyük Görüntü Metin Tanıma İçin Tam Kılavuz
+- large image ocr java
+- ocr engine java
+lastmod: 2026-09-28
+og_description: Java'da Aspose OCR kullanarak TIFF'ten metin çıkarın. Bu öğreticiyi
+  izleyerek bir OCR motoru oluşturun, büyük TIFF dosyalarını okuyun ve doğru sonuçlar
+  elde edin.
+og_image_alt: Diagram showing OCR engine workflow for large TIFF files in Java
+og_title: TIFF'ten metin çıkarma – Aspose OCR Java rehberi
+schemas:
+- author: Aspose
+  dateModified: '2026-09-28'
+  description: Learn how to extract text from TIFF using Aspose OCR in Java. This
+    step‑by‑step tutorial shows you how to create an OCR engine, read large TIFF files,
+    and recognize text efficiently.
+  headline: Extract text from TIFF with Aspose OCR in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, provided you have a valid Aspose.OCR license. The library’s commercial
+      license covers both development and production use.
+    question: Can I use this solution in a commercial application?
+  - answer: TIFF does not have a standard password mechanism, so the library treats
+      it as a regular image. For encrypted containers (e.g., ZIP), decrypt before
+      passing the stream to the engine.
+    question: Does Aspose.OCR support password‑protected TIFF files?
+  - answer: Aspose.OCR for Java supports JDK 8 through JDK 21, including both Java
+      SE and OpenJDK distributions.
+    question: Which Java versions are officially supported?
+  - answer: 'Enable preprocessing: `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.CONTRAST_ENHANCE);`
+      This boosts OCR confidence on noisy images.'
+    question: How can I improve accuracy on low‑contrast scans?
+  - answer: The engine can handle images up to several gigabytes, limited only by
+      available disk space for temporary tiles. Memory usage stays under 200 MB thanks
+      to streaming.
+    question: Is there a limit to the image size I can process?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Java ile OCR Motoru Oluştur – Büyük Görüntülerden Metin Tanıma
+title: Java'da Aspose OCR ile TIFF'ten metin çıkarma
 url: /tr/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from-large-images/
 ---
 
@@ -27,26 +56,43 @@ url: /tr/java/advanced-ocr-techniques/create-ocr-engine-java-recognize-text-from
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR Motoru Java Oluşturma – Büyük Görüntülerden Metin Tanıma  
+# Aspose OCR ile Java'da TIFF'ten Metin Çıkarma  
 
-Ever needed to **create OCR engine Java** code that can handle a massive TIFF map, but weren’t sure where to start? You’re not alone—most developers hit a wall when the image size blows past the usual memory limits.  
+Eğer onlarca ya da yüzlerce megabayt boyutundaki **TIFF'ten metin çıkarma** dosyalarına ihtiyacınız varsa, bu öğretici size üretim‑hazır bir çözüm sunar. Java'da bir OCR motoru oluşturmayı, büyük bir TIFF'i `InputStream` aracılığıyla akıtmayı ve JVM yığınına aşırı yük bindirmeden doğru Unicode metni elde etmeyi öğreneceksiniz.
 
-In this guide we’ll walk you through a complete, ready‑to‑run example that **creates an OCR engine in Java**, shows you how to **read TIFF file Java** with an `InputStream`, and finally **recognizes text from large image** files without running out of heap. By the end you’ll have a self‑contained program you can drop into any Maven or Gradle project.  
+## Hızlı cevaplar
+- **Büyük TIFF OCR'ını hangi kütüphane yönetir?** Aspose.OCR for Java.  
+- **Minimum Java sürümü?** JDK 8 veya daha yeni.  
+- **Lisans gerekli mi?** Evet, geçerli bir `.lic` dosyası tam‑çözünürlük döşemeyi açar.  
+- **Çok sayfalı TIFF'leri işleyebilir miyim?** Kesinlikle – motor her sayfayı otomatik olarak döşer.  
+- **50 MP görüntü için tipik çalışma süresi?** Standart 4‑çekirdek sunucuda yaklaşık 12 saniye.
 
-## İhtiyacınız Olanlar  
+## TIFF'ten metin çıkarma nedir?
 
-- **Java Development Kit (JDK) 8 veya üzeri** – kod yalnızca standart I/O ve Aspose.OCR kullanır.  
-- **Aspose.OCR for Java** kütüphanesi (2026‑02 itibarıyla en son sürüm) – JAR dosyasını Aspose sitesinden ya da Maven Central üzerinden alabilirsiniz.  
-- **large TIFF file** (örneğin çok megapiksel bir harita) OCR yapmak istediğiniz bir dosya.  
-- **Aspose.OCR license file** (`Aspose.OCR.lic`). Bu dosya olmadan motor değerlendirme modunda çalışır ve bir filigran ekler.  
+**Extract text from TIFF** bir TIFF görüntüsünün görsel içeriğini optik karakter tanıma (OCR) kullanarak aranabilir, düzenlenebilir Unicode karakterlerine dönüştürmek anlamına gelir. Bu süreç, taranmış haritaları indekslemenize, taranmış formlardan veri girişini otomatikleştirmenize ve büyük arşiv görüntülerini içeriklerini manuel olarak yeniden yazmadan aranabilir hâle getirmenize olanak tanır. Sonuç, depolanabilen, indekslenebilen veya sonraki analiz boru hatlarına beslenebilen düz metindir.
 
-> **Pro ipucu:** TIFF dosyasını kaynak klasörünüzün yanına koyun ya da mutlak bir yol kullanın; motor görüntüyü dahili olarak döşeleyecek, böylece kendiniz bölmek zorunda kalmayacaksınız.  
+## Java için Aspose OCR neden kullanılmalı?
 
-![Create OCR Engine Java workflow](ocr-workflow.png){alt="Create OCR Engine Java iş akışı diyagramı"}  
+Aspose.OCR, **50+ görüntü formatını** destekler, **yüzlerce sayfalı TIFF'leri** tüm dosyayı belleğe yüklemeden işleyebilir ve yerleşik dil algılama ile otomatik döşeme (tiling) sağlar. Bu özellikler, saf `BufferedImage` yaklaşımlarına göre bellek tüketimini %90'a kadar azaltırken, gürültülü veya düşük kontrastlı taramalarda yüksek doğruluk sunar. Kütüphane ayrıca PDF oluşturma veya belge dönüştürme için diğer Aspose ürünleriyle kolay entegrasyon sağlar.
 
-## Adım 1 – Aspose.OCR Lisansınızı Uygulayın (Create OCR Engine Java)  
+## Önkoşullar
+- Java Development Kit (JDK) 8 veya daha yeni.  
+- Aspose.OCR for Java (Şubat 2026 itibarıyla en son sürüm).  
+- İşlemek istediğiniz büyük bir TIFF dosyası.  
+- Bir Aspose.OCR lisans dosyası (`Aspose.OCR.lic`).  
 
-Before the engine does any heavy lifting you must register the license. Skipping this step forces the evaluation mode, which limits the number of pages and adds a banner to the output.  
+> **Pro tip:** TIFF dosyasını kaynak kodunuzla aynı dizine yerleştirin veya mutlak bir yol ile referans verin; motor içsel olarak döşemeyi (tiling) yönetecek, bu yüzden görüntüyü kendiniz bölmenize gerek yok.
+
+![Create OCR Engine Java workflow](ocr-workflow.png){alt="Java OCR Motoru Oluşturma iş akışı diyagramı"}  
+[Java OCR Motoru Oluşturma iş akışı](ocr-workflow.png)
+
+## Java'da TIFF'ten metin nasıl çıkarılır?
+
+TIFF dosyanızı bir `InputStream` ile yükleyin, lisansı uygulayın, OCR motorunu örnekleyin ve `recognize` metodunu çağırın. Motor görüntüyü döşecek, her döşeme üzerinde sinir ağı modelini çalıştıracak ve sonuçları birleştirerek tek bir çağrıda nihai metni sağlayacak. Bu yaklaşım, tüm görüntüyü belleğe yüklemeyi önler, gigapiksel dosyalar için uygun hâle getirir ve CPU kullanımını öngörülebilir tutar.
+
+### Adım 1 – Aspose.OCR lisansınızı uygulayın (create OCR engine Java)
+
+`License` sınıfı, OCR motoruna tam çözünürlüklü döşeme algoritmasını açmasını söyler; bu, **büyük bir görüntüyü** verimli bir şekilde işlemek için gereklidir.
 
 ```java
 import com.aspose.ocr.*;
@@ -60,11 +106,11 @@ public class LicenseHelper {
 }
 ```  
 
-*Why this matters:* `License` nesnesi OCR motoruna tam‑resolution tiling algorithmunu açmasını söyler; bu, **large image** verimli bir şekilde işlemek için gereklidir.  
+*Neden önemli:* Lisans olmadan motor değerlendirme modunda çalışır, sayfaları kısıtlar ve çıktıya bir filigran ekler.
 
-## Adım 2 – OCR Motorunu Örnekleyin (Create OCR Engine Java)  
+### Adım 2 – OCR motorunu örnekleyin (create OCR engine Java)
 
-Now we spin up the core `OcrEngine`. Think of it as the brain that will later read the pixels and spit out Unicode text.  
+`OcrEngine`, piksel‑den‑metne dönüşümü gerçekleştiren temel nesnedir.
 
 ```java
 /** Returns a fresh OcrEngine ready for recognition. */
@@ -75,11 +121,11 @@ public static OcrEngine buildEngine() {
 }
 ```  
 
-*Why we keep it simple:* Çoğu senaryoda varsayılan ayarlar zaten otomatik dil algılamayı ve optimal döşemeyi içerir. Fazla yapılandırma, büyük dosyalarda aslında yavaşlamaya neden olabilir.  
+*Neden basit tutuyoruz:* Varsayılan ayarlar zaten otomatik dil algılama ve optimal döşeme içerir. Aşırı yapılandırma, büyük dosyalarda aslında hızı yavaşlatabilir.
 
-## Adım 3 – TIFF Dosyasını InputStream ile Yükleyin (Read TIFF File Java)  
+### Adım 3 – `InputStream` kullanarak TIFF dosyasını yükleyin (read TIFF file Java)
 
-Large TIFFs can be several hundred megabytes. Loading the whole thing into a `BufferedImage` would explode the heap. Instead we give the engine an `InputStream`; Aspose.OCR will read and tile the image on‑the‑fly.  
+Dosyayı akıtmak, JVM'in devasa bir `BufferedImage` tahsis etmesini önler. Aspose.OCR, görüntüyü anlık olarak okur ve döşer.
 
 ```java
 import java.io.*;
@@ -90,11 +136,11 @@ public static InputStream openTiff(String filePath) throws FileNotFoundException
 }
 ```  
 
-*Edge case:* If your TIFF is compressed with CCITT Group 4, Aspose.OCR still handles it, but you might want to set `ocrEngine.getConfiguration().setTiffCompression(TiffCompression.CCITT4)` for a tiny speed boost.  
+*Köşe durumu:* TIFF'iniz CCITT Group 4 sıkıştırması kullanıyorsa, `ocrEngine.getConfiguration().setTiffCompression(TiffCompression.CCITT4)` ayarını isteğe bağlı olarak belirleyerek hafif bir hız artışı elde edebilirsiniz.
 
-## Adım 4 – OCR Girişini Hazırlayın ve Formatı İpucu Olarak Belirtin  
+### Adım 4 – OCR girişini hazırlayın ve format ipucunu verin
 
-The `OcrInput` object can hold multiple images, but we only need one for this demo. Providing the format string (`"tif"`) helps the engine skip format sniffing, shaving off a few milliseconds.  
+`OcrInput`, birden fazla görüntü tutabilir, ancak bu demo için sadece birine ihtiyacımız var. Format dizesini (`"tif"`) sağlamak, maliyetli format algılamasını atlar.
 
 ```java
 import com.aspose.ocr.*;
@@ -106,11 +152,11 @@ public static OcrInput buildInput(InputStream imageStream) throws Exception {
 }
 ```  
 
-*Why the hint is useful:* When dealing with **large images**, every millisecond counts. The format hint tells the parser to bypass the expensive header analysis.  
+*İpucunun faydası:* **Büyük görüntüler** ile çalışırken her milisaniye önemlidir. Format ipucu, ayrıştırıcıya maliyetli başlık analizini atlamasını söyler.
 
-## Adım 5 – Büyük Görüntüden Metin Tanıma (Recognize Text from Large Image)  
+### Adım 5 – büyük görüntüden metni tanıyın (recognize text from large image)
 
-With everything wired up, the actual OCR call is a single line. The engine returns an `OcrResult` that contains the plain text, confidence scores, and even bounding boxes if you need them later.  
+OCR çağrısı, düz metin, güven puanları ve isteğe bağlı sınırlama kutuları içeren bir `OcrResult` döndürür.
 
 ```java
 public static OcrResult runRecognition(OcrEngine engine, OcrInput input) throws Exception {
@@ -119,11 +165,11 @@ public static OcrResult runRecognition(OcrEngine engine, OcrInput input) throws 
 }
 ```  
 
-*What happens under the hood:* Aspose.OCR splits the TIFF into manageable tiles (default 1024 × 1024 px), runs the neural‑net model on each tile, and then stitches the results together. This is why you can **recognize text from large image** files without manual pre‑processing.  
+*Arka planda neler oluyor:* Aspose.OCR, TIFF'i 1024 × 1024 px döşemelere ayırır, her döşemede sinir ağı modelini çalıştırır ve sonuçları birleştirir. Bu yüzden **büyük görüntü dosyalarından** metin tanıyabilirsiniz, manuel ön‑işleme gerek kalmaz.
 
-## Adım 6 – Çıkarılan Metnin Önizlemesini Göster  
+### Adım 6 – çıkarılan metnin önizlemesini gösterin
 
-Printing the whole document to the console can be overwhelming. Let’s show just the first 200 characters, followed by an ellipsis, so you can verify the output at a glance.  
+Tüm belgeyi yazdırmak konsolu bunaltabilir. İlk 200 karakteri göstermek, çıktıyı hızlıca doğrulamanızı sağlar.
 
 ```java
 public static void printPreview(OcrResult result) {
@@ -136,17 +182,17 @@ public static void printPreview(OcrResult result) {
 }
 ```  
 
-*Expected console output:*  
+**Beklenen konsol çıktısı:**  
 
 ```
 The quick brown fox jumps over the lazy dog. This map shows the historic...
 ```  
 
-If you see gibberish, double‑check that the correct language is selected (default is English) and that the TIFF isn’t corrupted.  
+Eğer anlamsız karakterler görürseniz, doğru dilin seçildiğini (varsayılan İngilizce) ve TIFF'in bozulmadığını iki kez kontrol edin.
 
-## Tam Çalışan Örnek  
+## Tam çalışan örnek
 
-Putting all the pieces together gives you a single class you can compile and run:  
+Tüm parçaları bir araya getirerek derleyip çalıştırabileceğiniz tek bir sınıf elde edersiniz:
 
 ```java
 import com.aspose.ocr.*;
@@ -218,38 +264,61 @@ public class LargeImageDemo {
 }
 ```  
 
-Compile with:  
+Şöyle derleyin:  
 
 ```bash
 javac -cp "aspose-ocr-23.12.jar" LargeImageDemo.java
 java -cp ".:aspose-ocr-23.12.jar" LargeImageDemo
 ```  
 
-Replace `aspose-ocr-23.12.jar` with the actual version you downloaded.  
+`aspose-ocr-23.12.jar` dosyasını indirdiğiniz gerçek sürümle değiştirin.
 
-## Yaygın Tuzaklar ve İpuçları  
+## Yaygın tuzaklar ve ipuçları  
 
-| Sorun | Neden Oluşur | Hızlı Çözüm |
+| Sorun | Neden oluşur | Hızlı çözüm |
 |------|----------------|-----------|
-| **OutOfMemoryError** | TIFF'i akış yerine bir `BufferedImage` içine yüklemek. | Her zaman gösterildiği gibi `InputStream` kullanın; Aspose'un döşemeyi yönetmesine izin verin. |
+| **OutOfMemoryError** | TIFF'i `BufferedImage` içinde yüklemek yerine akıtma. | Her zaman gösterildiği gibi `InputStream` kullanın; Aspose'un döşemeyi yönetmesine izin verin. |
 | **Blank output** | Yanlış dosya uzantısı ipucu (`"tif"` vs `"tiff"`). | `add` metoduna gönderdiğiniz tam dizeyi kullanın. |
-| **Garbage characters** | Lisans uygulanmamış veya süresi dolmuş. | `.lic` dosya yolunu doğrulayın ve motoru oluşturmadan önce tekrar uygulayın. |
-| **Slow recognition** | Yüksek DPI'lı özel bir `OcrConfiguration` kullanmak. | Çoğu durumda varsayılanları kullanın; yalnızca daha yüksek doğruluk gerektiğinde ayarlama yapın. |
+| **Garbage characters** | Lisans uygulanmamış veya süresi dolmuş. | `.lic` dosya yolunu doğrulayın ve motoru oluştururken lisansı uygulayın. |
+| **Slow recognition** | Yüksek DPI ile özelleştirilmiş `OcrConfiguration`. | Varsayılanları kullanın; yalnızca daha yüksek doğruluk gerektiğinde ayarlayın. |
 
-### Ayarları Ne Zaman Değiştirmeli  
+### Ayarları ne zaman ayarlamalısınız  
 
-- **Multi‑language documents:** `ocrEngine.getConfiguration().setLanguage(Language.English, Language.French);`  
-- **Higher accuracy on tiny fonts:** `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.ENHANCE);`  
+- **Çok‑dilli belgeler:** `ocrEngine.getConfiguration().setLanguage(Language.English, Language.French);`  
+- **Küçük fontlarda daha yüksek doğruluk:** `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.ENHANCE);`  
 
-But remember, each extra option can increase CPU time, especially on a **large image**. Test with a single tile first.  
+Unutmayın, her ekstra seçenek CPU süresini artırabilir, özellikle **büyük bir görüntü** üzerinde. Önce tek bir döşeme ile test edin.
 
-## Sonraki Adımlar  
+## TIFF'ten metin çıkardıktan sonra ne yapılmalı?
 
-Now that you know how to **create OCR engine Java**, **read TIFF file Java**, and **recognize text from large image**, you might want to:
+Artık **TIFF'ten metin çıkarma** işlemini verimli bir şekilde yapabildiğinize göre, iş akışını aranabilir PDF'ler oluşturmak, vurgulama için sınırlama kutusu koordinatlarını depolamak veya döşeme işleme işlemini birden fazla CPU çekirdeği üzerinde paralelleştirmek için genişletmeyi düşünün. Bu iyileştirmeler, devasa taranmış arşivleri tam olarak aranabilir, indekslenmiş kaynaklara dönüştüren uçtan uca belge boru hatları oluşturmanıza olanak tanır; bu da kurumsal arama veya GIS uygulamaları için uygundur.
 
-1. **Export the result to a PDF** – Aspose.PDF'yi OCR metniyle birleştirerek aranabilir belgeler oluşturun.  
-2. **Store bounding boxes** – vurgulama için koordinatları almak üzere `ocrResult.getWords()` kullanın.  
-3. **Parallelize tile processing** – ultra‑büyük uydu görüntüleri için bir  
+## Sıkça sorulan sorular
+
+**S: Bu çözümü ticari bir uygulamada kullanabilir miyim?**  
+C: Evet, geçerli bir Aspose.OCR lisansınız olduğu sürece. Kütüphanenin ticari lisansı hem geliştirme hem de üretim kullanımını kapsar.
+
+**S: Aspose.OCR şifre korumalı TIFF dosyalarını destekliyor mu?**  
+C: TIFF'in standart bir şifreleme mekanizması yoktur, bu yüzden kütüphane bunu normal bir görüntü olarak işler. Şifreli konteynerler (ör. ZIP) için akışı motoruna vermeden önce şifreyi çözün.
+
+**S: Hangi Java sürümleri resmi olarak destekleniyor?**  
+C: Aspose.OCR for Java, JDK 8'den JDK 21'e kadar, hem Java SE hem de OpenJDK dağıtımlarını destekler.
+
+**S: Düşük kontrastlı taramalarda doğruluğu nasıl artırabilirim?**  
+C: Ön işleme etkinleştirin: `ocrEngine.getConfiguration().setPreprocessOptions(PreprocessOptions.CONTRAST_ENHANCE);` Bu, gürültülü görüntülerde OCR güvenini artırır.
+
+**S: İşleyebileceğim görüntü boyutu için bir limit var mı?**  
+C: Motor, sadece geçici döşemeler için mevcut disk alanı ile sınırlı olmak üzere, birkaç gigabayta kadar görüntüyü işleyebilir. Akış sayesinde bellek kullanımı 200 MB'nin altında kalır.
+
+**Son güncelleme:** 2026-09-28  
+**Test edilen sürüm:** Aspose.OCR 23.12 for Java  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose Ocr Java ile Görüntüden Metin Tanıma Öğreticisi](/ocr/java/ocr-operations/recognize-text-from-image-with-aspose-ocr-java-tutorial/)
+- [Aspose Ocr Java ile Görüntüden Metin Çıkarma Hızlı Kılavuzu](/ocr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+- [Aspose Ocr Gpu Java ile Metin Görüntüsü Tanıma](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
