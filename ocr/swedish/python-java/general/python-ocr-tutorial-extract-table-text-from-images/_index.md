@@ -231,7 +231,9 @@ Varje av dessa förlängningar bygger på kärnkoncepten i denna **python ocr tu
 
 *Lycka till med kodandet! Om du stöter på problem, lämna en kommentar nedan—jag hjälper gärna till att finjustera extraktionen.*
 
-{{< /blocks/products/pf-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

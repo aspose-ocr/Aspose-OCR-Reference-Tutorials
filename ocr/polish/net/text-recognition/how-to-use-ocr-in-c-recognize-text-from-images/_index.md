@@ -22,9 +22,8 @@ title: Jak używać OCR w C# – Rozpoznawanie tekstu z obrazów
 url: /pl/net/text-recognition/how-to-use-ocr-in-c-recognize-text-from-images/
 ---
 
-block placeholders exactly as they are.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

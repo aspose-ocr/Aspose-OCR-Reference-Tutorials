@@ -218,8 +218,6 @@ Projeyi klasörden `dotnet run` komutuyla çalıştırın ve konsolda çıkarıl
 
 ---
 
-![how to batch OCR example](alt="toplu OCR örneği")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

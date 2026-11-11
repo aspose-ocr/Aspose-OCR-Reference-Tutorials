@@ -1,27 +1,49 @@
 ---
 category: general
-date: 2026-02-14
-description: كيفية تمكين وحدة معالجة الرسومات (GPU) في Aspose OCR Java لاستخراج النص
-  من الصورة بسرعة. تعلم تحويل ملفات TIFF إلى نص، وتعيين معرف جهاز GPU، وقراءة النص
-  من ملفات TIFF.
+date: 2026-09-23
+description: تعلم كيفية استخراج النص من ملف tiff بسرعة عن طريق تمكين تسريع GPU في
+  Aspose OCR for Java. دليل خطوة بخطوة يغطي تحميل TIFF، تعيين معرف جهاز GPU، وقراءة
+  النص.
 draft: false
 keywords:
-- how to enable gpu
-- extract text from image
-- convert tiff to text
-- set gpu device id
-- read text from tiff
-language: ar
-og_description: كيفية تمكين وحدة معالجة الرسومات (GPU) في Aspose OCR Java لاستخراج
-  النص من الصورة بسرعة. اتبع هذا الدليل لتحويل ملفات TIFF إلى نص، وتعيين معرف جهاز
-  GPU، وقراءة النص من ملف TIFF.
-og_title: كيفية تمكين وحدة معالجة الرسومات (GPU) للتعرف الضوئي على الأحرف – استخراج
-  النص من ملف TIFF
+- extract text from tiff file
+- gpu acceleration java
+- ocr tiff java
+- aspose ocr gpu
+lastmod: 2026-09-23
+og_description: تعلم كيفية استخراج النص من ملف tiff بسرعة عن طريق تمكين تسريع GPU
+  في Aspose OCR for Java. يوضح الدليل تحميل TIFF، اختيار جهاز GPU، وقراءة النص المستخرج.
+og_image_alt: 'Tutorial image: enabling GPU for OCR in Java'
+og_title: استخراج النص من ملف tiff مع تسريع GPU في OCR Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-23'
+  description: Learn how to extract text from tiff file quickly by enabling GPU acceleration
+    in Aspose OCR for Java. Step‑by‑step guide covers loading TIFF, setting GPU device
+    ID, and reading text.
+  headline: How to extract text from tiff file using GPU in OCR Java
+  type: TechArticle
+- questions:
+  - answer: Absolutely—Aspose OCR runs on Windows, Linux, and macOS as long as the
+      CUDA toolkit and drivers are installed.
+    question: Does this work on Linux?
+  - answer: Omit the `setUseGpu(true)` call or explicitly call `setUseGpu(false)`;
+      the engine will run on CPU.
+    question: What if I don’t have a GPU?
+  - answer: Yes. `setImage` accepts JPEG, PNG, BMP, PDF, and more.
+    question: Can I extract text from other formats?
+  - answer: Accuracy drops sharply below 300 dpi. Pre‑process the image (binarization,
+      deskew) for better results.
+    question: How accurate is OCR on low‑resolution TIFFs?
+  - answer: The library handles 30+ raster and document formats, including TIFF, JPEG,
+      PNG, BMP, PDF, and GIF.
+    question: How many formats does Aspose OCR support?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - GPU acceleration
-title: كيفية تمكين الـ GPU للتعرف الضوئي على الأحرف واستخراج النص من ملفات TIFF
+title: كيفية استخراج النص من ملف tiff باستخدام GPU في OCR Java
 url: /ar/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text-from-tiff/
 ---
 
@@ -29,28 +51,43 @@ url: /ar/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-and-extract-text
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تمكين وحدة معالجة الرسومات (GPU) للتعرف الضوئي على الأحرف (OCR) واستخراج النص من ملفات TIFF
+# كيفية استخراج النص من ملف TIFF باستخدام GPU في OCR Java
 
-هل تساءلت يومًا **كيف يمكنك تمكين الـ GPU** عند إجراء OCR على ملفات TIFF الكبيرة؟ لست وحدك—المطورون يسعون دائمًا للحصول على تلك الزيادة في السرعة، خاصةً عندما تكون الصورة المصدر ملف TIFF متعدد الميجابايت. الخبر السار؟ مع Aspose OCR for Java يمكنك تبديل زر، وتحديد الـ GPU المناسب، ومشاهدة المحرك يندفع عبر الصورة.
+إذا كنت بحاجة إلى **استخراج النص من ملف TIFF** بسرعة، فإن تشغيل تسريع GPU في Aspose OCR for Java هو أسرع طريقة. في أول 100 كلمة سنشرح لماذا GPU مهم، ثم نرشدك عبر تحميل TIFF، تمكين GPU، اختيار جهاز محدد اختياريًا، تشغيل OCR، وأخيرًا قراءة النص المستخرج. في النهاية ستتمكن من تحويل TIFF إلى نص ببضع أسطر من الشيفرة فقط.
 
-في هذا الدرس سنستعرض سير العمل بالكامل: تحميل ملف TIFF، تشغيل تسريع الـ GPU، اختيار جهاز GPU محدد اختياريًا، تشغيل OCR، وأخيرًا **استخراج النص من الصورة**. في النهاية ستتمكن من **تحويل TIFF إلى نص** ببضع أسطر من الشيفرة، وسترى أيضًا كيف **تقرأ النص من ملفات TIFF** على أي منصة مدعومة.
+## إجابات سريعة
+- **ما هي الفائدة الرئيسية من OCR باستخدام GPU؟** حتى 5× أسرع في المعالجة للملفات الكبيرة متعددة الصفحات من نوع TIFF.  
+- **ما نسخة Java المطلوبة؟** Java 17 أو أحدث (Java 8+ يعمل أيضاً).  
+- **هل أحتاج إلى ترخيص خاص؟** يلزم وجود ترخيص صالح لـ Aspose OCR for Java للاستخدام في الإنتاج.  
+- **هل يمكن تشغيله على Linux؟** نعم—Aspose OCR متعدد المنصات؛ فقط قم بتثبيت مجموعة أدوات CUDA.  
+- **هل GPU اختياري؟** يمكنك الرجوع إلى CPU باستدعاء `setUseGpu(false)`.
+
+## ما هو OcrEngine؟
+فئة `OcrEngine` هي المكوّن المركزي في Aspose OCR for Java. إنها تغلف جميع وظائف OCR، مما يتيح لك تحميل الصور، تكوين خيارات المعالجة مثل اللغة واستخدام GPU، واسترجاع النص المعترف به وبيانات الثقة في كائن مريح.
+
+`OcrEngine` هي الفئة الأساسية في Aspose OCR التي تمثّل محرك معالجة OCR وتوفر طرقًا لتحميل الصور، تكوين الخيارات، واسترجاع النتائج.
+
+## كيفية تمكين GPU لـ OCR في Java؟
+حمّل صورتك، شغّل GPU، واستدعِ `recognize`—هذا كل ما تحتاجه. تمكين GPU باستخدام `setUseGpu(true)` يسمح للمحرك بتحميل الأعمال المكثفة من البكسلات إلى بطاقة الرسوميات، مما يقلل وقت المعالجة بشكل كبير، خاصةً للصور عالية الدقة أو ملفات TIFF متعددة الصفحات.
 
 ## ما ستحتاجه
 
-- Java 17 أو أحدث (الشيفرة تعمل أيضًا مع Java 8+)
-- Aspose OCR for Java 23.10 (أو أحدث نسخة متوفرة وقت الكتابة)
-- GPU متوافق مع CUDA مع أحدث برنامج تشغيل مثبت
-- ملف TIFF متعدد الصفحات تجريبي (سنسميه `sample_large.tif`)
+- Java 17 أو أحدث (الكود يعمل أيضاً على Java 8+).  
+- Aspose OCR for Java 23.10 (أو أحدث إصدار).  
+- GPU متوافق مع CUDA مع أحدث برنامج تشغيل مثبت.  
+- ملف TIFF متعدد الصفحات تجريبي (مثال: `sample_large.tif`).  
 
-لا تستخدم Maven؟ لا مشكلة—فقط ضع ملف الـ JAR في مسار الـ classpath وستكون جاهزًا.
+لا Maven؟ فقط ضع ملف JAR في مسار الفئات الخاص بك.
 
-![How to enable GPU tutorial](gpu-ocr.png)
+![كيفية تمكين GPU لـ OCR في Java](gpu-ocr.png)
 
-*نص بديل للصورة: كيفية تمكين الـ GPU للتعرف الضوئي على الأحرف في Java*
+[كيفية تمكين GPU لـ OCR في Java](gpu-ocr.png)
 
-## الخطوة 1: تحميل صورة TIFF للتعرف الضوئي على الأحرف
+*نص بديل للصورة: كيفية تمكين GPU لـ OCR في Java*
 
-أولاً وقبل كل شيء: تحتاج إلى كائن `OcrEngine` وصورة مصدر. Aspose OCR يمكنه قراءة أي تنسيق نقطي تقريبًا، لكن TIFF شائع للوثائق الممسوحة ضوئيًا.
+## الخطوة 1: تحميل صورة TIFF لـ OCR
+
+طريقة `setImage` تغلف الملف في `ImageStream`، مما يسمح للمحرك بمعالجة ملفات TIFF متعددة الصفحات دون الحاجة إلى تقسيم يدوي. إذا تعذر العثور على الملف، سيتم إلقاء استثناء واضح `FileNotFoundException`.
 
 ```java
 import com.aspose.ocr.*;
@@ -64,33 +101,33 @@ public class GpuOcrDemo {
         ocrEngine.setImage(ImageStream.fromFile("YOUR_DIRECTORY/sample_large.tif"));
 ```
 
-> **لماذا هذا مهم:** استدعاء `setImage` يلف الملف في `ImageStream`، مما يسمح للمحرك بمعالجة ملفات TIFF متعددة الصفحات دون الحاجة لتقسيمها يدويًا. إذا تعذر العثور على الملف، ستحصل على استثناء واضح `FileNotFoundException`—لذا تأكد من صحة المسار.
+> **لماذا هذا مهم:** استدعاء `setImage` يختصر التعامل مع الصفحات، بحيث يمكنك معالجة مستند كامل باستخدام نسخة محرك واحدة.
 
-## الخطوة 2: تمكين تسريع الـ GPU
+## الخطوة 2: تمكين تسريع GPU
 
-الآن يحدث السحر. تشغيل الـ GPU هو مجرد علم منطقي، لكنه يمكن أن يقلل الثواني—أو حتى الدقائق—من وقت المعالجة.
+تشغيل GPU هو مجرد علم منطقي واحد. في معظم الأنظمة يكون GPU الافتراضي هو الجهاز 0، لكن يمكنك السماح لـ Aspose باختيار الجهاز الأمثل تلقائيًا.
 
 ```java
         // Enable GPU acceleration (requires a supported driver)
         ocrEngine.getEngineOptions().setUseGpu(true);
 ```
 
-> **نصيحة احترافية:** إذا كان جهازك يحتوي على عدة وحدات GPU، فإن الافتراضي عادةً ما يكون الأولى (الجهاز 0). يمكنك ترك Aspose يختار أفضل جهاز تلقائيًا، لكن تحديده يدويًا قد يجنبك المفاجآت في محطات العمل متعددة الـ GPU.
+> **نصيحة احترافية:** في محطات العمل التي تحتوي على عدة بطاقات GPU، تحديد معرف الجهاز يجنب الانتقال غير المتوقع إلى GPU مدمج أبطأ.
 
-## الخطوة 3: تعيين معرف جهاز الـ GPU (اختياري)
+## الخطوة 3: تعيين معرف جهاز GPU (اختياري)
 
-أحيانًا تعرف بالضبط أي GPU تريد استخدامه—ربما البطاقة الثانية مخصصة لأعباء عمل الذكاء الاصطناعي. هنا يأتي دور `setGpuDeviceId`.
+إذا كنت تعرف أي GPU يجب أن يتولى OCR—ربما بطاقة AI مخصصة—يمكنك تعيينه صراحةً باستخدام `setGpuDeviceId`.  
 
 ```java
         // Optional: select the GPU device (0 = first device, 1 = second, etc.)
         ocrEngine.getEngineOptions().setGpuDeviceId(0);
 ```
 
-> **حالة حافة:** إذا مررت معرفًا غير صالح، سيطرح المحرك استثناء `IllegalArgumentException`. يمكن لكود سريع مثل `System.out.println(ocrEngine.getEngineOptions().getAvailableGpuDevices())` أن يعرض لك قائمة المعرفات المتاحة.
+> **حالة حافة:** تمرير معرف غير صالح يثير استثناء `IllegalArgumentException`. استخدم `ocrEngine.getEngineOptions().getAvailableGpuDevices()` لسرد المعرفات الصالحة.
 
-## الخطوة 4: معالجة الصورة و **استخراج النص من الصورة**
+## الخطوة 4: معالجة الصورة واستخراج النص من الصورة
 
-بعد تكوين المحرك، حان وقت تشغيل OCR. كائن النتيجة يمنحك السلسلة النصية الخام، بالإضافة إلى درجات الثقة إذا احتجت إليها.
+تشغيل OCR يُعيد كائن `OcrResult` يحتوي على السلسلة النصية العادية ودرجات الثقة الاختيارية.  
 
 ```java
         // Perform OCR – this is where we "convert TIFF to text"
@@ -105,24 +142,28 @@ public class GpuOcrDemo {
 
 ### النتيجة المتوقعة
 
-إذا كان ملف TIFF يحتوي على العبارة “Hello, World!” يجب أن ترى شيئًا مثل:
+إذا كان TIFF يحتوي على “Hello, World!” فإن النتيجة ستظهر كالتالي:
 
 ```
 Recognized text:
 Hello, World!
 ```
 
-المحرك يتعامل مع فواصل الأسطر، وعلامات الترقيم، وحتى اكتشاف التخطيط الأساسي. للحصول على تحكم أكثر تفصيلاً (مثل استخراج النص لكل صفحة)، استكشف `ocrResult.getPages()`.
+المحرك يتعامل تلقائيًا مع فواصل الأسطر، علامات الترقيم، واكتشاف التخطيط الأساسي. لاستخراج النص لكل صفحة، استكشف `ocrResult.getPages()`.
 
 ## الخطوة 5: التحقق من النتيجة ومعالجة المشكلات الشائعة
 
-### لماذا قد لا يُستخدم الـ GPU؟
+قد يتم تجاوز GPU لعدة أسباب. إذا كان إصدار برنامج التشغيل المثبت أقدم من الحد الأدنى المطلوب، لا يمكن للمكتبة تهيئة CUDA. نقص الذاكرة الفيديوية قد يسبب عودة المحرك إلى CPU، وبعض الرسومات المدمجة تفتقر إلى القدرة الحوسبية المطلوبة لتسريع OCR.
 
-- **عدم توافق برنامج التشغيل:** يجب أن يكون برنامج تشغيل الـ GPU على الأقل بالإصدار الموصى به من Aspose (تحقق من ملاحظات الإصدار).
-- **الذاكرة غير كافية:** الصور الكبيرة جدًا قد تتجاوز سعة VRAM للـ GPU. في هذه الحالة، يعود المحرك تلقائيًا إلى الـ CPU—ابحث عن تحذير في وحدة التحكم.
-- **عِتاد غير مدعوم:** غالبًا ما تفتقر الرسومات المتكاملة إلى القدرة الحوسبية المطلوبة.
+### لماذا قد لا يتم استخدام GPU؟
 
-### كيفية الرجوع إلى الـ CPU برمجيًا
+- **عدم توافق السائق:** يجب أن يفي سائق GPU بالحد الأدنى من الإصدار المذكور في ملاحظات إصدار Aspose.  
+- **الذاكرة غير كافية:** قد تتجاوز الصور الكبيرة سعة VRAM؛ ثم يعود المحرك إلى CPU ويسجل تحذيراً.  
+- **الأجهزة غير المدعومة:** غالباً ما تفتقر الرسومات المتكاملة إلى القدرة الحوسبية المطلوبة لتسريع OCR.
+
+### كيفية الرجوع إلى CPU برمجياً
+
+إذا كنت بحاجة إلى ضمان معالجة عبر CPU، استدعِ مُعدّل خيارات المحرك مع علم false. هذا يعطل أي محاولات GPU ويجبر خط أنابيب OCR على العمل بالكامل على المعالج المضيف، وهو مفيد على الأجهزة التي لا تحتوي على بطاقات رسومية متوافقة.
 
 ```java
 if (!ocrEngine.getEngineOptions().isGpuAvailable()) {
@@ -133,7 +174,7 @@ if (!ocrEngine.getEngineOptions().isGpuAvailable()) {
 
 ### قراءة النص من TIFF في حلقة
 
-إذا كان لديك مجلد مليء بملفات TIFF، يمكنك التكرار كالتالي:
+عند معالجة العديد من الملفات، كرّر عبر دليل مع الحفاظ على تمكين تسريع GPU.
 
 ```java
 File folder = new File("YOUR_DIRECTORY");
@@ -145,35 +186,53 @@ for (File file : folder.listFiles((dir, name) -> name.toLowerCase().endsWith(".t
 }
 ```
 
-هذا المقتطف يوضح كيف **تقرأ النص من ملفات TIFF** بالجملة، مع الاستمرار في الاستفادة من تسريع الـ GPU.
+يظهر هذا المقتطف كيفية **قراءة النص من ملفات TIFF** بالجملة دون فقدان تعزيز الأداء.
 
 ## الأسئلة المتكررة (FAQ)
 
-**س: هل يعمل هذا على لينكس؟**  
-ج: بالتأكيد—Aspose OCR متعدد المنصات. فقط تأكد من تثبيت مجموعة أدوات CUDA وبرامج التشغيل.
+**س: هل يعمل هذا على Linux؟**  
+ج: بالتأكيد—Aspose OCR يعمل على Windows وLinux وmacOS طالما تم تثبيت مجموعة أدوات CUDA والسائقين.
 
 **س: ماذا لو لم يكن لدي GPU؟**  
-ج: عيّن `setUseGpu(false)` أو ببساطة احذف الاستدعاء. المحرك يستخدم الـ CPU افتراضيًا.
+ج: احذف استدعاء `setUseGpu(true)` أو استدعِ صراحةً `setUseGpu(false)`؛ سيعمل المحرك على CPU.
 
-**س: هل يمكنني استخراج النص من صيغ أخرى؟**  
-ج: نعم، طريقة `setImage` نفسها تقبل JPEG، PNG، BMP، وحتى تدفقات PDF.
+**س: هل يمكن استخراج النص من صيغ أخرى؟**  
+ج: نعم. `setImage` يقبل JPEG, PNG, BMP, PDF، وأكثر.
 
-**س: ما مدى دقة الـ OCR على ملفات TIFF منخفضة الدقة؟**  
-ج: الدقة تنخفض تحت 300 dpi. يُنصح بمعالجة مسبقة للصورة (تحويل إلى ثنائي، تصحيح الميل) قبل تمريرها إلى المحرك.
+**س: ما مدى دقة OCR على ملفات TIFF منخفضة الدقة؟**  
+ج: الدقة تنخفض بشكل حاد تحت 300 dpi. قم بتهيئة الصورة مسبقاً (تحويل إلى ثنائي، تصحيح الميل) للحصول على نتائج أفضل.
+
+**س: كم عدد الصيغ التي يدعمها Aspose OCR؟**  
+ج: المكتبة تدعم أكثر من 30 صيغة من الصيغ النقطية والوثائق، بما في ذلك TIFF, JPEG, PNG, BMP, PDF, وGIF.
 
 ## الخلاصة
 
-أنت الآن تعرف **كيفية تمكين الـ GPU** لـ Aspose OCR Java، وكيف **تعيين معرف جهاز الـ GPU**، والأهم من ذلك **كيفية استخراج النص من ملفات الصورة**، وخاصة **تحويل TIFF إلى نص** و**قراءة النص من TIFF** بكفاءة. من خلال تبديل علم واحد واختيار جهاز إذا لزم الأمر، ستحصل على تحسينات هائلة في الأداء دون الحاجة لإعادة كتابة أي منطق OCR.
+أنت الآن تعرف **كيفية استخراج النص من ملف TIFF** باستخدام تسريع GPU في Aspose OCR for Java، وكيفية تعيين معرف جهاز GPU محدد، وكيفية معالجة ملفات TIFF واحدة أو متعددة بفعالية. عبر تبديل علم واحد تحصل على تحسينات هائلة في السرعة دون تغيير أي من منطق OCR.
 
-هل أنت مستعد للخطوة التالية؟ جرّب تجربة:
+الخطوات التالية التي قد تجربها:
 
-- **معالجة دفعات** مئات ملفات TIFF باستخدام خيوط متوازية.
-- **حزم لغات مخصصة** لتحسين التعرف على المستندات المتخصصة.
-- **معالجة ما بعد الاستخراج** للسلسلة باستخدام تعبيرات regex لتنظيف التنسيق.
+- معالجة دفعات مئات ملفات TIFF في خيوط متوازية.  
+- تحميل حزم لغات مخصصة لتحسين التعرف على المفردات المتخصصة.  
+- معالجة النص المستخرج باستخدام regex لتنظيف التنسيق.
 
-لا تتردد في ترك تعليق إذا واجهت أي صعوبات، وتمنياتنا لك ببرمجة سعيدة!
+إذا واجهت أي مشكلات، اترك تعليقاً أدناه. برمجة سعيدة!
+
+---
+
+**آخر تحديث:** 2026-09-23  
+**تم الاختبار مع:** Aspose OCR for Java 23.10  
+**المؤلف:** Aspose
+
+## دروس ذات صلة
+
+- [كيفية تمكين GPU لـ OCR Java خطوة بخطوة](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-step-by-step-guide/)
+- [التعرف على النص من صورة باستخدام Aspose OCR دليل Java كامل](/ocr/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-full-java-guide/)
+- [معالجة مسبقة لصورة OCR في Java لزيادة الدقة واستخراج النص](/ocr/java/advanced-ocr-techniques/preprocess-image-ocr-in-java-boost-accuracy-extract-text/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

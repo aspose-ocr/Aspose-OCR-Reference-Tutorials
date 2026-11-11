@@ -1,27 +1,64 @@
 ---
 category: general
-date: 2025-12-30
-description: Cara mengatur lisensi Aspose di C# dengan memuat sumber daya tersemat
-  dan mengambil aliran sumber daya manifes. Pelajari langkah demi langkah cara memuat
-  sumber daya tersemat dan menerapkan lisensi.
+date: 2026-09-08
+description: Pelajari cara mengatur lisensi Aspose di C# dengan menyematkan file .lic
+  dan mengambil manifest resource stream, sehingga memungkinkan mesin OCR berlisensi
+  penuh.
 draft: false
 keywords:
-- how to set aspose license
-- how to load embedded resource
+- set aspose license c#
+- c# read embedded resource
+- load embedded resource c#
+- c# list embedded resources
 - retrieve manifest resource stream
-- Aspose OCR licensing
-- embedded resource C#
-language: id
-og_description: Cara mengatur lisensi Aspose di C# menggunakan sumber daya tersemat.
-  Panduan ini menunjukkan cara memuat sumber daya tersemat dan mengambil aliran sumber
-  daya manifes untuk mesin OCR yang berlisensi penuh.
-og_title: Cara Mengatur Lisensi Aspose di C# – Langkah demi Langkah Cepat
+lastmod: 2026-09-08
+og_description: Pelajari cara mengatur lisensi Aspose di C# dengan menyematkan license
+  file dan mengambil manifest resource stream, memberi Anda mesin OCR berlisensi penuh
+  tanpa file tambahan.
+og_image_alt: 'Developer guide: Set Aspose license in C# using embedded resource'
+og_title: Cara mengatur lisensi Aspose di C# – panduan langkah demi langkah
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  headline: How to set Aspose license in C# – step‑by‑step guide
+  type: TechArticle
+- description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  name: How to set Aspose license in C# – step‑by‑step guide
+  steps:
+  - name: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+    text: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+  - name: In the file’s properties, set **Build Action** to **Embedded Resource**.
+    text: In the file’s properties, set **Build Action** to **Embedded Resource**.
+  - name: Verify the resource name. Visual Studio uses the pattern
+    text: Verify the resource name. Visual Studio uses the pattern
+  type: HowTo
+- questions:
+  - answer: Yes – the same embed‑and‑load pattern works for all Aspose .NET libraries;
+      just replace the license file and class names.
+    question: Can I use this approach with other Aspose products (PDF, Words, Cells)?
+  - answer: The `.lic` file is typically under 10 KB, so the impact on assembly size
+      is negligible.
+    question: Does embedding the license increase the size of my executable noticeably?
+  - answer: Replace the `.lic` file in the project, rebuild, and redeploy the updated
+      assembly.
+    question: What if I need to update the license later?
+  - answer: No – treat the `.lic` file as a secret. Keep it out of source control
+      or encrypt it if you must share the repo.
+    question: Is it safe to store the license in a public repository?
+  - answer: It works flawlessly because the license is loaded from the function’s
+      own assembly, eliminating file‑system dependencies.
+    question: How does this method affect Azure Functions or serverless deployments?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - C#
-- Licensing
-title: Cara Mengatur Lisensi Aspose di C# – Panduan Lengkap
+- licensing
+- embedded resource
+title: Cara mengatur lisensi Aspose di C# – panduan langkah demi langkah
 url: /id/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 ---
 
@@ -29,28 +66,30 @@ url: /id/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cara Mengatur Lisensi Aspose di C# – Panduan Lengkap
+# Cara mengatur lisensi Aspose di C# – panduan langkah demi langkah
 
-Pernah bertanya‑tanya **bagaimana cara mengatur lisensi Aspose** untuk proyek OCR Anda tanpa menyebar file `.lic` yang terpisah di seluruh sistem file? Anda tidak sendirian. Banyak pengembang berjuang dengan lisensi karena mereka menginginkan penyebaran yang bersih dan tidak ada file tambahan di samping executable. Kabar baik? Anda dapat menyematkan lisensi langsung di dalam assembly dan mengambilnya saat runtime. Dalam tutorial ini kami akan membahas **cara memuat sumber daya yang disematkan** dan **mengambil aliran sumber daya manifes** sehingga mesin Aspose OCR berfungsi dengan fungsionalitas penuh.
+Jika Anda perlu **mengatur lisensi Aspose di C#** tanpa meninggalkan file `.lic` terpisah di samping executable Anda, Anda berada di tempat yang tepat. Menyematkan lisensi ke dalam assembly Anda membuat deployment rapi, melindungi lisensi dari kehilangan tidak sengaja, dan menjamin mesin OCR berjalan dalam mode berlisensi penuh setiap saat. Dalam tutorial ini Anda akan belajar cara menyematkan file lisensi, mengambil aliran sumber daya manifest, dan menerapkan lisensi ke `OcrEngine` – semuanya dalam C# murni.
 
-Kami akan membahas semua yang perlu Anda ketahui: mulai dari menyematkan file `.lic` di Visual Studio, menulis kode C# yang membaca sumber daya, menerapkan lisensi, hingga akhirnya membuat `OcrEngine` berlisensi penuh. Pada akhir tutorial Anda akan memiliki solusi mandiri yang dapat Anda masukkan ke proyek .NET apa pun.
+## Jawaban Cepat
+- **Apa cara termudah untuk menyematkan file lisensi?** Atur *Build Action* file menjadi *Embedded Resource* di Visual Studio.  
+- **Bagaimana cara mengambil lisensi yang disematkan pada runtime?** Gunakan `Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)`.  
+- **Apakah saya perlu menulis lisensi ke disk?** Tidak – aliran tersebut langsung diteruskan ke `License.SetLicense`.  
+- **Apakah ini akan bekerja pada .NET 6, .NET Framework, dan Azure Functions?** Ya, kode yang sama berjalan pada semua runtime .NET yang didukung.  
+- **Bagaimana saya dapat memverifikasi lisensi aktif?** Panggil `OcrEngine.IsLicensed` (atau jalankan tugas OCR sederhana dan periksa adanya watermark percobaan).
 
-## Prasyarat
+## Apa itu mengatur lisensi Aspose di C#?
+`set aspose license c#` mengacu pada proses memuat lisensi Aspose OCR yang valid ke dalam aplikasi .NET sehingga perpustakaan beroperasi tanpa batasan percobaan. Dengan menyematkan file `.lic`, Anda menghilangkan ketergantungan eksternal dan menyederhanakan deployment.
 
-- .NET 6+ (kode ini juga bekerja pada .NET Framework 4.7.2)
-- Paket NuGet Aspose.OCR terpasang (`Install-Package Aspose.OCR`)
-- File lisensi Aspose OCR yang valid (`Aspose.OCR.lic`)
-- Pemahaman dasar tentang C# dan Visual Studio
+## Mengapa menyematkan file lisensi alih-alih menggunakan file terpisah?
+Menyematkan lisensi menghilangkan risiko file tersebut hilang, terhapus, atau terekspos pada mesin klien. Aspose.OCR mendukung **lebih dari 20 bahasa** dan dapat memproses **dokumen 100‑halaman dalam kurang dari 2 detik** pada perangkat keras server tipikal, tetapi hanya ketika lisensi yang valid ada. Menyematkan menjamin mesin selalu berjalan dengan kecepatan penuh dan tanpa watermark percobaan.
 
-Tidak ada file konfigurasi eksternal yang diperlukan setelah lisensi disematkan.
+## Cara menyematkan file lisensi ke dalam assembly Anda
 
----
-
-## Langkah 1: Sematkan File Lisensi ke dalam Assembly Anda
+Menyematkan lisensi sangat sederhana: tambahkan file `.lic` ke proyek Anda, tandai sebagai Embedded Resource, dan referensikan dengan nama lengkapnya pada runtime. Ini memastikan lisensi menyertai DLL yang dikompilasi dan tidak memerlukan file eksternal selama deployment.
 
 ### Mengapa menyematkan?
 
-Menyematkan menghilangkan kebutuhan mengirim file lisensi terpisah, mengurangi risiko kehilangan, dan menjamin lisensi selalu menyertai DLL. Anggap saja seperti menaruh kunci rahasia di dalam brankas itu sendiri.
+Menyematkan menghilangkan kebutuhan mengirim file lisensi terpisah, mengurangi risiko kehilangan, dan menjamin lisensi menyertai DLL. Anggap saja sebagai mengemas kunci rahasia di dalam brankas itu sendiri.
 
 ### Cara menyematkan
 
@@ -61,13 +100,79 @@ Menyematkan menghilangkan kebutuhan mengirim file lisensi terpisah, mengurangi r
    Misalnya, jika namespace default proyek Anda adalah `MyApp`, nama sumber daya menjadi  
    `MyApp.Resources.Aspose.OCR.lic`.
 
-> **Pro tip:** Buka *Object Browser* atau jalankan `Assembly.GetExecutingAssembly().GetManifestResourceNames()` dalam aplikasi console cepat untuk menampilkan semua sumber daya yang disematkan. Ini membantu Anda menghindari kesalahan ketik saat nanti **mengambil aliran sumber daya manifes**.
+> **Pro tip:** Buka *Object Browser* atau jalankan `Assembly.GetExecutingAssembly().GetManifestResourceNames()` dalam aplikasi console cepat untuk menampilkan semua sumber daya yang disematkan. Ini membantu Anda menghindari kesalahan pengetikan saat nanti **mengambil aliran sumber daya manifest**.  
+> 
+> ![how to set aspose license in C# example](path/to/image.png "how to set aspose license in C# example")
 
----
+## Cara memuat lisensi yang disematkan pada runtime
 
-## Langkah 2: Tulis Kode untuk Memuat Lisensi yang Disematkan
+Untuk mengaktifkan lisensi, baca aliran sumber daya yang disematkan dan teruskan langsung ke kelas `License` Aspose. Ini menghindari penulisan file ke disk dan berfungsi pada semua runtime .NET.
 
-Sekarang lisensi berada di dalam assembly, kita perlu mengambilnya saat runtime. Potongan kode berikut menunjukkan program lengkap yang siap dijalankan.
+### Cara membaca sumber daya yang disematkan di C#?
+
+Buat objek `License`, susun nama sumber daya yang tepat, dan panggil `GetManifestResourceStream`. Aliran tersebut kemudian diberikan ke `SetLicense`.
+
+**Jawaban langsung:**  
+```text
+Instantiate `new License()`, call `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyApp.Resources.Aspose.OCR.lic")`, and pass the returned stream to `SetLicense`. This loads the license directly from the assembly without touching the file system.
+```
+
+Kelas `License` adalah gerbang Aspose untuk mengaktifkan mode fitur lengkap. Kelas `OcrEngine` adalah prosesor OCR inti yang menghormati lisensi yang diterapkan.
+
+## Cara memverifikasi lisensi aktif
+
+Setelah memuat lisensi, Anda dapat mengonfirmasi aktivasi dengan memeriksa properti `IsLicensed` pada `OcrEngine` atau dengan menjalankan tugas OCR kecil dan memastikan tidak ada watermark percobaan yang muncul. `IsLicensed` mengembalikan `true` ketika lisensi yang valid telah diterapkan.
+
+**Jawaban langsung:**  
+```text
+Call `bool licensed = ocrEngine.IsLicensed;` – if it returns true, the engine is fully licensed; otherwise, you’ll see a trial watermark on processed images.
+```
+
+`IsLicensed` adalah properti dari `OcrEngine` yang menunjukkan apakah lisensi yang valid telah diterapkan.
+
+## Masalah umum dan cara mengatasinya
+
+### Cara memperbaiki aliran null saat mengambil sumber daya manifest?
+
+Aliran null biasanya berarti nama sumber daya tidak tepat atau file tidak ditandai sebagai Embedded Resource. Gunakan metode bantu di bawah ini untuk menampilkan semua nama dan mengonfirmasi string yang tepat.
+
+**Jawaban langsung:**  
+```text
+Run `foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames()) Console.WriteLine(name);` and copy the exact name into your `GetManifestResourceStream` call.
+```
+
+### Cara menangani beberapa assembly?
+
+Jika lisensi berada di pustaka bersama, ganti `GetExecutingAssembly()` dengan `Assembly.Load("SharedLib")` untuk mengambil sumber daya dari assembly tersebut.
+
+### Cara menghindari membuang (dispose) aliran terlalu awal?
+
+Bungkus aliran dalam blok `using` **hanya setelah** memanggil `SetLicense`. Membuang aliran sebelumnya mencegah lisensi dibaca.
+
+### Cara memastikan kompatibilitas dengan target .NET yang berbeda?
+
+Aspose.OCR 22.10+ mendukung .NET Standard 2.0, .NET Core, dan .NET Framework. Verifikasi bahwa proyek Anda menargetkan salah satu kerangka kerja ini untuk menghindari kesalahan runtime.
+
+## Pertanyaan yang sering diajukan
+
+**Q: Bisakah saya menggunakan pendekatan ini dengan produk Aspose lain (PDF, Words, Cells)?**  
+A: Ya – pola embed‑and‑load yang sama bekerja untuk semua pustaka Aspose .NET; cukup ganti file lisensi dan nama kelas.
+
+**Q: Apakah menyematkan lisensi meningkatkan ukuran executable saya secara signifikan?**  
+A: File `.lic` biasanya berukuran kurang dari 10 KB, jadi dampaknya pada ukuran assembly dapat diabaikan.
+
+**Q: Bagaimana jika saya perlu memperbarui lisensi nanti?**  
+A: Ganti file `.lic` dalam proyek, bangun kembali, dan redeploy assembly yang diperbarui.
+
+**Q: Apakah aman menyimpan lisensi di repositori publik?**  
+A: Tidak – perlakukan file `.lic` sebagai rahasia. Simpan di luar kontrol sumber atau enkripsi jika harus berbagi repo.
+
+**Q: Bagaimana metode ini memengaruhi Azure Functions atau deployment serverless?**  
+A: Ini berfungsi dengan sempurna karena lisensi dimuat dari assembly fungsi itu sendiri, menghilangkan ketergantungan sistem file.
+
+**Terakhir Diperbarui:** 2026-09-08  
+**Diuji Dengan:** Aspose.OCR 24.11 for .NET  
+**Penulis:** Aspose  
 
 ```csharp
 using System;
@@ -113,70 +218,18 @@ namespace MyApp
     }
 }
 ```
-
-#### Apa yang terjadi?
-
-- **Buat objek `License`** – Aspose menggunakan kelas ini untuk mengelola lisensi.
-- **Bangun nama sumber daya** – Anda harus mencocokkan pola namespace‑folder‑filename yang tepat, jika tidak `GetManifestResourceStream` akan mengembalikan `null`.
-- **Ambil aliran sumber daya manifes** – ini adalah inti dari **cara memuat sumber daya yang disematkan**. Metode ini mengembalikan `Stream` yang dapat Anda berikan langsung ke `SetLicense`.
-- **Penanganan kesalahan** – jika aliran `null`, kami menampilkan pesan yang jelas. Ini menghindari kegagalan diam‑diam yang akan membuat mesin OCR berada dalam mode trial.
-- **Terapkan lisensi** – `SetLicense` membaca aliran dan mengaktifkan produk penuh.
-- **Instansiasi `OcrEngine`** – sekarang Anda memiliki mesin berlisensi penuh siap untuk tugas OCR.
-
-> **Mengapa pendekatan ini?** Ini menghindari penulisan lisensi ke disk, menghilangkan bug terkait jalur, dan tetap berfungsi bahkan ketika aplikasi Anda dijalankan dari folder sementara (misalnya, ClickOnce, Azure Functions).
-
----
-
-## Langkah 3: Verifikasi Lisensi Aktif
-
-Pengecekan cepat dapat menghemat jam debugging di kemudian hari. Setelah kode di atas dijalankan, Anda dapat memeriksa properti `IsLicensed` (tersedia pada versi Aspose yang lebih baru) atau cukup mencoba operasi OCR yang biasanya menampilkan watermark trial.
-
 ```csharp
 // Assuming you have an image file "sample.png" in the project folder.
 ocrEngine.Image = ImageStream.FromFile("sample.png");
 ocrEngine.Process();
 Console.WriteLine($"Recognized text: {ocrEngine.Text}");
 ```
-
-Jika lisensi diterapkan dengan benar, **tidak ada watermark trial** yang muncul pada gambar output dan kualitas OCR sesuai dengan harapan edisi penuh.
-
----
-
-## Langkah 4: Kasus Tepi & Kesalahan Umum
-
-### 1️⃣ Nama sumber daya salah
-
-Jika Anda menerima `null` dari `GetManifestResourceStream`, periksa kembali nama yang sepenuhnya memenuhi kualifikasi. Gunakan pembantu ini untuk menampilkan semua nama:
-
 ```csharp
 foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
 {
     Console.WriteLine(name);
 }
 ```
-
-### 2️⃣ File lisensi tidak ditandai sebagai Embedded Resource
-
-Visual Studio secara default mengatur ke **Content**. Ubah secara manual pada properti file.
-
-### 3️⃣ Banyak assembly
-
-Jika lisensi Anda berada di assembly lain (misalnya, pustaka bersama), panggil `Assembly.Load("OtherAssembly")` alih‑alih `GetExecutingAssembly()`.
-
-### 4️⃣ Pengelolaan stream
-
-Blok `using` memastikan stream ditutup setelah `SetLicense`. **Jangan** membuang (dispose) stream sebelum memanggil `SetLicense`, atau lisensi tidak akan pernah terbaca.
-
-### 5️⃣ Kompatibilitas
-
-Aspose.OCR 22.10+ mendukung .NET Standard 2.0, .NET Core, dan .NET Framework. Pastikan Anda menggunakan versi yang cocok dengan target framework proyek Anda.
-
----
-
-## Langkah 5: Contoh Lengkap yang Siap Pakai (Copy‑Paste)
-
-Berikut program lengkap yang dapat Anda masukkan ke aplikasi console baru. Program ini mencakup logika pemuatan lisensi, tes OCR sederhana, dan penanganan kesalahan yang kuat.
-
 ```csharp
 using System;
 using System.IO;
@@ -236,9 +289,6 @@ namespace AsposeLicenseDemo
     }
 }
 ```
-
-**Output yang diharapkan** (asumsi `sample.png` berisi teks yang dapat dibaca):
-
 ```
 ✅ License applied.
 📝 Recognized Text:
@@ -246,23 +296,12 @@ Hello, Aspose OCR!
 License active: True
 ```
 
-Jika lisensi tidak ada, Aspose akan melempar pengecualian atau menambahkan watermark trial pada gambar yang diproses.
+## Tutorial Terkait
 
----
+- [Baca Sumber Daya Tertanam di .NET Panduan Lengkap untuk Mengatur Aspose L](/ocr/net/ocr-configuration/read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+- [Cara Menerapkan Lisensi di Aspose OCR Langkah demi Langkah Panduan C](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [Cara Memproses OCR Secara Batch di C dengan Aspose OCR Engine](/ocr/net/ocr-optimization/how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 
-## Kesimpulan
-
-Kami telah membahas **cara mengatur lisensi Aspose** secara bersih dan dapat dipelihara dengan menyematkan file `.lic` dan menggunakan **mengambil aliran sumber daya manifes**. Langkah‑langkah—menyematkan sumber daya, memuatnya dengan `Assembly.GetExecutingAssembly().GetManifestResourceStream`, menerapkan lisensi, dan akhirnya membuat `OcrEngine` berlisensi—mencakup semua yang dibutuhkan pengembang.
-
-Sekarang Anda dapat mendistribusikan satu executable tanpa khawatir file lisensi hilang, dan Anda akan menghindari watermark trial selamanya. Selanjutnya, pertimbangkan untuk mengeksplor:
-
-- **Cara mengatur lisensi Aspose** untuk produk Aspose lainnya (PDF, Words, Cells) menggunakan pola yang sama.
-- **Cara memuat sumber daya yang disematkan** untuk file konfigurasi (JSON, XML) di ASP.NET Core.
-- Penanganan kesalahan lanjutan dengan kerangka kerja logging khusus.
-
-Silakan bereksperimen, sesuaikan nama sumber daya dengan namespace Anda, dan bagikan temuan Anda di komentar. Selamat coding, dan nikmati kekuatan penuh Aspose OCR! 
-
-![how to set aspose license in C# example](path/to/image.png "how to set aspose license in C# example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

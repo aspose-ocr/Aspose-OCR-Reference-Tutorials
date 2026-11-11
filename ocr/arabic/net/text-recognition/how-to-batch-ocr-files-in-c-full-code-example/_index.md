@@ -217,8 +217,6 @@ class Program
 
 ---
 
-![how to batch OCR example](alt="مثال على تنفيذ OCR دفعي")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

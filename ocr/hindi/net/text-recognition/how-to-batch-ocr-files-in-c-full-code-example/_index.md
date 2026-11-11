@@ -217,8 +217,6 @@ Run `dotnet run` from the project folder and watch the console fill with the ext
 
 ---
 
-![how to batch OCR example](alt="how to batch OCR example")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

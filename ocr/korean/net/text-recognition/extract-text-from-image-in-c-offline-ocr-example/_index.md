@@ -22,11 +22,9 @@ title: C#에서 이미지 텍스트 추출 – 오프라인 OCR 예제
 url: /ko/net/text-recognition/extract-text-from-image-in-c-offline-ocr-example/
 ---
 
-: only image URL. We kept that.
 
-Check for any code snippets inside text: we kept them.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

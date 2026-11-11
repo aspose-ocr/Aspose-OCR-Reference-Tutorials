@@ -1,7 +1,7 @@
 ---
 date: 2025-12-21
 description: Μάθετε πώς να εξάγετε OCR σε εφαρμογές .NET με το Aspose.OCR. Εξερευνήστε
-  οδηγούς αναγνώρισης εικόνας OCR, συμπεριλαμβανομένων αρχείου, φακέλου, επιλογής
+  οδηγούς αναγνώρισης εικόνας OCR, συμπεριαλαμβανομένων αρχείου, φακέλου, επιλογής
   γλώσσας και λειτουργιών λίστας.
 linktitle: OCR Configuration
 second_title: Aspose.OCR .NET API
@@ -41,10 +41,86 @@ weight: 24
 - Πακέτο NuGet Aspose.OCR για .NET εγκατεστημένο (`Install-Package Aspose.OCR`).  
 - Δείγμα εικόνων ή αρχεία που περιέχουν εικόνες που θέλετε να επεξεργαστείτε.
 
+## OCROperation με Αρχείο σε Αναγνώριση Εικόνας OCR
+Βυθιστείτε στον κόσμο του OCR με το Aspose.OCR και ανακαλύψτε πώς να εξάγετε κείμενο από εικόνες σε αρχεία βήμα προς βήμα. Αυτό το tutorial παρέχει ολοκληρωμένες πληροφορίες για την αξιοποίηση των δυνατοτήτων OCR σε εφαρμογές .NET. Από την εγκατάσταση μέχρι την υλοποίηση, αποκαλύψτε τη μαγεία της εξαγωγής κειμένου.
+
+## OCROperation με Φάκελο σε Αναγνώριση Εικόνας OCR
+Αποκτήστε τη δύναμη της αναγνώρισης εικόνων OCR σε .NET με το Aspose.OCR. Αυτό το tutorial σας εξοπλίζει με τις γνώσεις για να εξάγετε κείμενο άψογα από εικόνες αποθηκευμένες σε φακέλους. Αυξήστε την αποδοτικότητα στην εξαγωγή δεδομένων και βελτιστοποιήστε τις δυνατότητες OCR της εφαρμογής σας.
+
+## OCROperation με Επιλογή Γλώσσας σε Αναγνώριση Εικόνας OCR
+Ανεβάστε τις δυνατότητες OCR σε νέο επίπεδο μαθαίνοντας **ocr language selection** στο Aspose.OCR για .NET. Αυτό το tutorial σας καθοδηγεί στη διαδικασία εξαγωγής κειμένου από εικόνες σε διαφορετικές γλώσσες χωρίς προβλήματα. Ενδυναμώστε την εφαρμογή σας με πολυγλωσσικές δυνατότητες OCR.
+
+## OCROperation με Λίστα σε Αναγνώριση Εικόνας OCR
+Εξερευνήστε το τεράστιο δυναμικό του Aspose.OCR για .NET καθώς εκτελείτε αναγνώριση εικόνων OCR με λίστες. Αυτό το tutorial όχι μόνο ενισχύει την εξαγωγή κειμένου αλλά και αυξάνει την παραγωγικότητα στην διαχείριση διαφορετικών συνόλων δεδομένων. Ανακαλύψτε την αποδοτικότητα του OCR με λειτουργίες λίστας.
+
+## Tutorials Ρύθμισης OCR
 ### [OCROperation με Λίστα σε Αναγνώριση Εικόνας OCR](./ocr-operation-with-list/)
 Αποκτήστε το δυναμικό του Aspose.OCR για .NET. Εκτελέστε αναγνώριση εικόνων OCR με λίστες εύκολα. Αυξήστε την παραγωγικότητα και την εξαγωγή δεδομένων στις εφαρμογές σας.
 ### [Φόρτωση αρχείου εικόνας & εξαγωγή κειμένου από απόδειξη με GPU OCR σε C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Φορτώστε αρχείο εικόνας και εξάγετε κείμενο από απόδειξη χρησιμοποιώντας GPU OCR σε C#.
+### [Δημιουργία αναζητήσιμου PDF σε C# – Οδηγός μετατροπής OCR](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+Μάθετε πώς να μετατρέψετε έγγραφα PDF σε αναζητήσιμα χρησιμοποιώντας Aspose.OCR και C#.
+### [Πώς να ενεργοποιήσετε το OCR σε C# – Μετατρέψτε εύκολα PDF σε κείμενο](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+Μάθετε πώς να ενεργοποιήσετε το OCR σε C# και να μετατρέψετε PDF σε επεξεργάσιμο κείμενο με Aspose.OCR.
+### [Πώς να αποθηκεύσετε JSON από OCR σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να εξάγετε τα αποτελέσματα OCR σε μορφή JSON χρησιμοποιώντας C# με πλήρη οδηγό βήμα‑βήμα.
+### [Αναγνώριση κινεζικού κειμένου εκτός σύνδεσης – Πλήρης οδηγός C#](./recognize-chinese-text-offline-complete-c-guide/)
+Μάθετε πώς να αναγνωρίζετε κινεζικό κείμενο χωρίς σύνδεση χρησιμοποιώντας Aspose.OCR σε C# βήμα‑βήμα.
+### [Πώς να δημιουργήσετε μηχανή OCR σε C# – Οδηγός εγκατάστασης εκτός σύνδεσης](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+Μάθετε πώς να δημιουργήσετε και να ρυθμίσετε μια τοπική μηχανή OCR σε C# χωρίς σύνδεση στο διαδίκτυο, χρησιμοποιώντας το Aspose.OCR.
+### [Πώς να ελέγξετε τη διαθεσιμότητα μοντέλου OCR σε C# – Οδηγός βήμα‑βήμα](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+### [Ενσωμάτωση Γραμματοσειρών σε PDF – Δημιουργία Αναζητήσιμων PDF από JPEG](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+Ενσωματώστε γραμματοσειρές σε PDF και μετατρέψτε JPEG σε αναζητήσιμα PDF εύκολα.
+### [Ανάγνωση κειμένου από PNG – εξαγωγή κυριλλικού κειμένου με Aspose OCR](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Μάθετε πώς να διαβάζετε κείμενο από αρχεία PNG και να εξάγετε κυριλλικό κείμενο χρησιμοποιώντας το Aspose OCR.
+### [Ορισμός Συσκευής GPU για OCR σε C# – Πλήρης Οδηγός Προγραμματισμού](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Μάθετε πώς να ορίσετε τη συσκευή GPU για βελτιωμένη απόδοση OCR σε C# με το Aspose.OCR, βήμα‑βήμα οδηγίες.
+### [Αναγνώριση κειμένου από εικόνα σε C# – πώς να αναγνωρίσετε Κανάντα με το Aspose OCR](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Μάθετε πώς να εξάγετε κείμενο Κανάντα από εικόνες χρησιμοποιώντας το Aspose OCR σε C#.
+### [Δημιουργία Επεξεργαστή Ορθογραφικού Ελέγχου με Aspose OCR AI – Πλήρης Οδηγός](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Μάθετε πώς να δημιουργήσετε επεξεργαστή ορθογραφικού ελέγχου χρησιμοποιώντας το Aspose OCR AI, βήμα‑βήμα, με παραδείγματα κώδικα.
+
+### [Έλεγχος σημαίας άδειας στο Aspose OCR – Σύντομος οδηγός επαλήθευσης άδειας](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Μάθετε πώς να ελέγξετε τη σημαία άδειας στο Aspose OCR για να βεβαιωθείτε ότι η βιβλιοθήκη είναι ενεργοποιημένη σωστά.
+### [Πώς να ενεργοποιήσετε το GPU για OCR σε C# – Οδηγός βήμα‑βήμα](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Μάθετε πώς να ενεργοποιήσετε την επιτάχυνση GPU στο Aspose.OCR για .NET, βελτιώνοντας την ταχύτητα αναγνώρισης εικόνας.
+### [Πώς να κατεβάσετε το πακέτο γλώσσας OCR για Ρωσικά – Πλήρης οδηγός](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Μάθετε βήμα‑βήμα πώς να κατεβάσετε και να εγκαταστήσετε το πακέτο γλώσσας OCR για Ρωσικά στο Aspose.OCR.
+### [Πώς να απενεργοποιήσετε το OCR σε C# – Offline οδηγός Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Μάθετε πώς να απενεργοποιήσετε το OCR σε εφαρμογές C# χωρίς σύνδεση, χρησιμοποιώντας το Aspose OCR.
+### [Φόρτωση εικόνας για OCR σε C# – Πλήρης Οδηγός Aspose OCR & Ορθογραφικού Ελέγχου](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+Μάθετε πώς να φορτώνετε εικόνες για OCR σε C# και να ενσωματώνετε ορθογραφικό έλεγχο με το Aspose OCR.
+### [Δημιουργία μηχανής OCR σε C# – Πλήρης Οδηγός](./create-ocr-engine-in-c-complete-guide/)
+Μάθετε πώς να δημιουργήσετε και να ρυθμίσετε μια μηχανή OCR σε C# χρησιμοποιώντας το Aspose.OCR, βήμα‑βήμα, με παραδείγματα κώδικα.
+### [Αποκτήστε την έκδοση Aspose OCR σε C# – Πλήρης Οδηγός](./get-aspose-ocr-version-in-c-complete-guide/)
+Μάθετε πώς να εντοπίσετε την έκδοση της βιβλιοθήκης Aspose OCR σε εφαρμογές C# με απλό κώδικα.
+
+### [Ορισμός ορίου μνήμης GPU με Aspose OCR – Οδηγός C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Μάθετε πώς να περιορίσετε τη χρήση μνήμης GPU στο Aspose OCR με C# για βέλτιστη απόδοση.
+### [Εξαγωγή κειμένου από εικόνα με Aspose OCR GPU – Πλήρης οδηγός C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Μάθετε πώς να χρησιμοποιήσετε το Aspose OCR GPU για γρήγορη εξαγωγή κειμένου από εικόνες σε C# εφαρμογές.
+### [Πώς να ορίσετε άδεια στο Aspose OCR – Πλήρης οδηγός C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose OCR σε εφαρμογές C# για πλήρη λειτουργικότητα.
+### [Πώς να εκτελέσετε OCR σε C# – Οδηγός πολλαπλών γλωσσών](./how-to-perform-ocr-in-c-multi-language-guide/)
+Μάθετε πώς να εφαρμόσετε OCR σε C# με υποστήριξη πολλαπλών γλωσσών, βήμα προς βήμα οδηγίες.
+### [image to text c# – Aspose OCR με απενεργοποιημένη λήψη](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Δείτε πώς να εξάγετε κείμενο από εικόνες σε C# χρησιμοποιώντας Aspose OCR ενώ απενεργοποιείτε τη δυνατότητα λήψης.
+### [Πώς να Χρησιμοποιήσετε το OcrEngine σε C# – Πλήρης Οδηγός OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Μάθετε πώς να χρησιμοποιήσετε το OcrEngine σε C# για πλήρη διαχείριση OCR, βήμα‑βήμα οδηγίες και παραδείγματα.
+### [Δημιουργία Αναζητήσιμου PDF από Εικόνα – Πλήρης Οδηγός Βήμα‑βήμα](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέψετε εικόνες σε αναζητήσιμα PDF χρησιμοποιώντας το Aspose.OCR σε .NET, με πλήρη βήμα‑βήμα οδηγίες.
+### [Ανίχνευση Γλώσσας από Εικόνα σε C# – Πλήρης Οδηγός Προγραμματισμού](./detect-language-from-image-in-c-complete-programming-guide/)
+Μάθετε πώς να εντοπίζετε τη γλώσσα ενός κειμένου σε εικόνα χρησιμοποιώντας Aspose.OCR σε C#.
+### [Πώς να χρησιμοποιήσετε το OcrEngineConfig – Διαμόρφωση μηχανής OCR σε C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Μάθετε πώς να ρυθμίσετε το OcrEngineConfig για βελτιστοποίηση της αναγνώρισης OCR σε εφαρμογές C#.
+### [Πώς να Εκτελέσετε OCR με Aspose.OCR – Πλήρης Οδηγός C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Μάθετε βήμα‑βήμα πώς να υλοποιήσετε OCR με Aspose.OCR σε C#, από την εγκατάσταση μέχρι την εξαγωγή κειμένου.
+### [Δημιουργία Διαμόρφωσης Μοντέλου AsposeAI – Οδηγός Βήμα‑βήμα](./create-asposeai-model-config-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε και να ρυθμίσετε ένα μοντέλο AsposeAI βήμα‑βήμα για ενσωμάτωση στις εφαρμογές σας.
+### [Δημιουργία Logger Aspose OCR – Πλήρης Οδηγός Βήμα‑βήμα](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έναν logger για το Aspose OCR, βήμα‑βήμα, για παρακολούθηση και αποσφαλμάτωση.
+### [Λήψη ελλιπών μοντέλων με Aspose AI – πλήρης οδηγός](./download-missing-models-with-aspose-ai-complete-guide/)
+Μάθετε πώς να κατεβάσετε και να ενσωματώσετε τα απαραίτητα μοντέλα AI με το Aspose AI για βέλτιστη λειτουργία.
 
 ### Κοινές Περιπτώσεις Χρήσης
 - **Εξαγωγή κειμένου από εικόνες** σε σαρωμένα τιμολόγια για αυτοματοποιημένη λογιστική.  
@@ -73,12 +149,12 @@ weight: 24
 Μάθετε πώς να διαβάζετε ενσωματωμένους πόρους σε .NET και να ρυθμίζετε την άδεια Aspose με βήμα-βήμα οδηγίες.
 ### [Λήψη μοντέλου γλώσσας OCR σε C# με το Aspose – Πλήρης Οδηγός](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Μάθετε πώς να κατεβάσετε και να ενσωματώσετε το μοντέλο γλώσσας OCR σε εφαρμογές C# χρησιμοποιώντας το Aspose, βήμα-βήμα.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να ενεργοποιήσετε το GPU για το Aspose OCR – Οδηγός βήμα‑βήμα](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Ανακαλύψτε πώς να ενεργοποιήσετε την επιτάχυνση GPU στο Aspose OCR για .NET, βήμα‑βήμα, βελτιώνοντας την απόδοση της αναγνώρισης.
 ### [Αναγνώριση κειμένου εικόνας σε C# – Αραβικό OCR με Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -86,20 +162,20 @@ weight: 24
 ### [Πώς να ορίσετε την άδεια Aspose σε C# – Πλήρης οδηγός](./how-to-set-aspose-license-in-c-complete-guide/)
 Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose σε εφαρμογές C# βήμα‑βήμα, εξασφαλίζοντας πλήρη λειτουργικότητα.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [Πώς να Εφαρμόσετε Άδεια στο Aspose OCR – Βήμα‑βήμα Οδηγός C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Μάθετε πώς να ενεργοποιήσετε την άδεια Aspose OCR σε εφαρμογές C# βήμα‑βήμα.
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## Συχνές Ερωτήσεις
 
 **Q: Μπορώ να χρησιμοποιήσω το Aspose.OCR σε εμπορική εφαρμογή .NET;**  
@@ -127,6 +203,7 @@ A: Ναι, το αντικείμενο `OcrResult` παρέχει τιμές ε�
 ## Οδηγίες διαμόρφωσης OCR
 ### [Πώς να Ελέγξετε την Υποστήριξη Γλώσσας OCR σε C# – Πλήρης Οδηγός](./how-to-check-ocr-language-support-in-c-complete-guide/)
 Μάθετε πώς να ελέγξετε ποιες γλώσσες υποστηρίζει το Aspose.OCR σε εφαρμογές C#, βήμα προς βήμα.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

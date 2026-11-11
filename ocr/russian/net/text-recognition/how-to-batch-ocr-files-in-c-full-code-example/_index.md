@@ -218,8 +218,6 @@ class Program
 
 ---
 
-![how to batch OCR example](alt="пример пакетного OCR")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

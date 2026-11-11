@@ -111,6 +111,42 @@ Ismerje meg, hogyan aktiválja az OCR funkciót Java alkalmazásában részletes
 Fedezze fel, hogyan nyerhet ki tamil nyelvű szöveget képekből az Aspose OCR segítségével.
 ### [Képről szöveg kinyerése Java-ban – Teljes OCR példa](./extract-text-from-image-in-java-complete-ocr-example/)
 Teljes útmutató a képek szöveggé alakításához Java-ban az Aspose.OCR használatával.
+### [PNG-ből szöveg felismerése Java-ban – Aspose OCR oktatóanyag](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
+Fedezze fel, hogyan olvassa ki a szöveget PNG képekből Java-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Képből szöveg kinyerése – PNG konvertálása szöveggé Java-ban](./extract-text-from-image-convert-png-to-text-in-java/)
+Ismerje meg, hogyan konvertálhatja a PNG képeket szöveggé Java-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+### [Szöveg kinyerése képből az Aspose OCR-rel – Java gyors útmutató](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+Gyorsan tanulja meg, hogyan nyerjen ki szöveget képekből az Aspose OCR Java használatával egy egyszerű útmutatóban.
+### [Képből szöveg kinyerése Java-ban – Java OCR oktatóanyag](./extract-text-from-image-in-java-java-ocr-tutorial/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből Java használatával az Aspose.OCR segítségével.
+### [OCR végrehajtása képen Java-ban – Szöveg kinyerése JPG-ből](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
+Ismerje meg, hogyan használja az Aspose.OCR for Java könyvtárat JPG képek szövegének gyors és pontos kinyeréséhez.
+### [Képről szöveg felismerése Java-ban – Teljes OCR útmutató](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+Ismerje meg lépésről‑lépésre, hogyan használja az Aspose.OCR-t a képek szövegének teljes körű felismerésére Java-ban.
+### [Képből szöveg kinyerése Java-ban – Szöveg lekérése OCR-rel](./extract-text-from-image-in-java-get-text-from-ocr/)
+Ismerje meg, hogyan nyerhet ki szöveget képekből Java használatával az Aspose.OCR segítségével, egyszerű lépésekkel.
+### [Szöveg kinyerése képből az Aspose OCR-rel – Teljes Java útmutató](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
+Ismerje meg lépésről‑lépésre, hogyan használja az Aspose OCR-t Java‑ban a képek szövegének teljes körű kinyeréséhez.
+### [Kép szöveggé konvertálása Java – Teljes Aspose OCR példa](./convert-image-to-text-java-complete-aspose-ocr-example/)
+Teljes útmutató a képek szöveggé konvertálásához Aspose OCR Java-val, lépésről‑lépésre példával.
+### [Hogyan hajtsunk végre OCR-t Java-ban – Teljes útmutató a képek szöveggé alakításához](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
+Teljes körű útmutató az OCR végrehajtásához Java-ban, a képek szöveggé alakításának minden lépésével.
+### [Java OCR példa – Kép betöltése és szöveg felismerése az Aspose-szal](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
+Fedezze fel, hogyan töltsön be képet Java-ban, és használja az Aspose.OCR-t a szöveg pontos felismeréséhez.
+### [OCR végrehajtása képen Java‑ban – Teljes lépésről‑lépésre útmutató](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
+Fedezze fel, hogyan hajthatja végre az OCR‑t képeken Java‑ban egy részletes, lépésről‑lépésre útmutatóval.
+### [Szöveg felismerése JPG-ből az Aspose OCR használatával Java-ban](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
+Tanulja meg, hogyan ismerje fel a szöveget JPG képeken az Aspose OCR for Java használatával.
+### [Az összes CPU mag használata Java-ban – Szálkészlet méretének hatékony beállítása](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
+Tanulja meg, hogyan használhatja ki az összes CPU magot Java-ban, és állítsa be hatékonyan a szálkészlet méretét a teljesítmény optimalizálásához.
+### [Szöveg olvasása képről Java OCR‑rel – Teljes Aspose OCR útmutató](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+Fedezze fel, hogyan olvashat szöveget képekből Java OCR‑rel egy átfogó, lépésről‑lépésre útmutatóval.
+### [Képből szöveg kinyerése Java-ban – Teljes OCR útmutató](./extract-text-from-image-in-java-complete-ocr-guide/)
+Ismerje meg a teljes folyamatot a képek szövegének kinyeréséhez Java-ban az Aspose.OCR segítségével, a beállítástól a finomhangolásig.
+### [szövegkép felismerése Java-ban – Teljes Aspose OCR útmutató](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+Fedezze fel a teljes útmutatót a szövegképek Java-ban történő felismeréséhez az Aspose OCR segítségével.
+### [Hogyan kapjuk meg a resources útvonalat Java-ban és állítsuk be a letöltési mappát](./how-to-get-resources-path-java-and-set-download-folder/)
+Ismerje meg, hogyan határozhatja meg a resources könyvtár útvonalát Java-ban, és állíthatja be a letöltési mappát a projektben.
 
 ---
 

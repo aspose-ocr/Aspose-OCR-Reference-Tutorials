@@ -59,6 +59,70 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 釋放 Aspose.OCR for .NET 的潛能。輕鬆實現清單的 OCR 影像辨識。提升應用程式的效率和資料提取速度。
 ### [在 C# 中載入影像檔案並使用 GPU OCR 提取收據文字](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 使用 Aspose.OCR GPU 加速，在 C# 中載入影像檔案並提取收據文字。
+### [在 C# 中建立可搜尋的 PDF – OCR 轉換指南](./create-searchable-pdf-in-c-ocr-conversion-guide/)
+使用 Aspose.OCR 在 .NET 中將影像轉換為可搜尋的 PDF，實作完整的 OCR 轉換流程。
+### [如何在 C# 中啟用 OCR – 輕鬆將 PDF 轉換為文字](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
+使用 Aspose.OCR 在 C# 應用程式中啟用 OCR，快速將 PDF 檔案轉換為可編輯文字。
+### [如何在 C# 中將 OCR 結果儲存為 JSON – 完整步驟指南](./how-to-save-json-from-ocr-in-c-complete-step-by-step-guide/)
+示範如何使用 Aspose.OCR 於 C# 將辨識結果匯出為 JSON 檔案，完整步驟說明。
+### [離線中文文字辨識 – 完整 C# 指南](./recognize-chinese-text-offline-complete-c-guide/)
+示範如何在離線環境下使用 Aspose.OCR 於 C# 進行中文文字辨識，提供完整步驟與最佳化技巧。
+### [如何在 C# 中建立 OCR 引擎 – 離線設定指南](./how-to-create-ocr-engine-in-c-offline-setup-guide/)
+在離線環境下於 C# 建立 OCR 引擎的完整步驟指南。
+### [如何在 C# 中檢查 OCR 模型可用性 – 步驟說明](./how-to-check-ocr-model-availability-in-c-step-by-step-guide/)
+在 C# 中驗證 OCR 模型是否已安裝或可用，並示範如何在程式碼中檢查與處理。
+### [在 PDF 中嵌入字體 – 從 JPEG 建立可搜尋的 PDF](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
+使用 Aspose.PDF 將 JPEG 轉換為可搜尋的 PDF，並嵌入所需字體以確保文字可索引。
+### [從 PNG 讀取文字 – 使用 Aspose OCR 提取西里爾文字](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+使用 Aspose.OCR 在 .NET 中從 PNG 圖像提取西里爾文字，實現高精度文字辨識。
+### [在 C# 中設定 GPU 裝置以執行 OCR – 完整程式設計指南](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+說明如何在 C# 中設定 GPU 裝置以加速 Aspose.OCR，提升辨識效能的完整程式設計指南。
+### [在 C# 中從圖像辨識文字 – 如何使用 Aspose OCR 識別卡納達語](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+使用 Aspose OCR 在 .NET 中辨識卡納達語圖像文字，提供 C# 範例程式碼與設定說明。
+### [使用 Aspose OCR AI 建立拼寫檢查處理器 – 完整指南](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+使用 Aspose OCR AI 在 .NET 中建立完整的拼寫檢查處理器，提升文字辨識與校正功能。
+### [檢查 Aspose OCR 授權旗標 – 快速指南驗證授權](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+說明如何在 Aspose OCR 中檢查授權旗標，確保您的應用程式正確驗證授權狀態。
+### [如何在 C# 中啟用 GPU 以進行 OCR – 步驟指南](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+在 C# 中啟用 GPU 加速 OCR，逐步說明設定與最佳化方法。
+### [如何下載俄文 OCR 語言包 – 完整指南](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+一步步說明如何取得並安裝俄文 OCR 語言包，以在 Aspose.OCR 中支援俄語文字辨識。
+### [如何在 C# 中停用 OCR – 離線 Aspose OCR 指南](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+說明如何在 C# 應用程式中關閉 OCR 功能，使用離線 Aspose OCR 方案。
+### [在 C# 中載入影像進行 OCR – 完整的 Aspose OCR 與拼寫檢查指南](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+說明如何在 C# 中載入影像並使用 Aspose OCR 進行文字辨識與拼寫檢查的完整步驟。
+### [在 C# 中建立 OCR 引擎 – 完整指南](./create-ocr-engine-in-c-complete-guide/)
+一步步教您在 C# 中建立完整的 OCR 引擎，涵蓋設定、語言選擇與最佳化技巧。
+### [使用 Aspose OCR 設定 GPU 記憶體限制 – C# GPU 指南](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+說明如何在 C# 中使用 Aspose OCR 設定 GPU 記憶體上限，以提升辨識效能。
+
+### [使用 Aspose OCR GPU 從影像提取文字 – 完整 C# 教程](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+說明如何使用 Aspose OCR GPU 加速影像文字辨識，完整的 C# 程式碼示例與步驟說明。
+
+### [如何在 Aspose OCR 中設定授權 – 完整 C# 教程](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+說明如何在 .NET 應用程式中設定 Aspose OCR 授權，完整的 C# 程式碼示例與步驟指引。
+### [如何在 C# 中執行 OCR – 多語言指南](./how-to-perform-ocr-in-c-multi-language-guide/)
+在 .NET C# 應用程式中使用 Aspose.OCR，示範如何同時處理多種語言的文字辨識與提取。
+### [影像轉文字 C# – Aspose OCR（已停用下載）](./image-to-text-c-aspose-ocr-with-disabled-download/)
+示範如何在 C# 中使用 Aspose OCR 進行影像轉文字，且停用下載功能以提升安全性。
+### [在 C# 中取得 Aspose OCR 版本 – 完整指南](./get-aspose-ocr-version-in-c-complete-guide/)
+了解如何在 C# 程式中檢索 Aspose OCR 函式庫的版本資訊，並確保相容性與升級。
+### [如何在 C# 中使用 OcrEngine – 完整 OCR 指南](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+完整說明如何在 C# 中使用 OcrEngine 進行 OCR，涵蓋設定、語言選擇與最佳化技巧。
+### [從圖像建立可搜尋 PDF – 完整步驟指南](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+教您如何將單張影像轉換為可搜尋的 PDF，涵蓋 Aspose.OCR 與 Aspose.PDF 的完整流程與最佳化技巧。
+### [在 C# 中從影像偵測語言 – 完整程式設計指南](./detect-language-from-image-in-c-complete-programming-guide/)
+使用 Aspose.OCR 在 C# 中偵測影像語言，提供完整的程式設計步驟與範例。
+### [如何使用 OcrEngineConfig – C# 中的 OCR 引擎設定](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+說明如何在 C# 中使用 OcrEngineConfig 進行 OCR 引擎設定，以提升辨識效果。
+### [如何使用 Aspose.OCR 進行 OCR – 完整 C# 指南](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+完整教學示範如何在 .NET 中使用 Aspose.OCR 進行文字辨識，涵蓋安裝、設定與範例程式碼。
+### [建立 AsposeAI 模型設定 – 步驟指南](./create-asposeai-model-config-step-by-step-guide/)
+本教學說明如何在 .NET 中建立 AsposeAI 模型設定，逐步完成配置與部署。
+### [建立 Logger Aspose OCR – 完整步驟指南](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+提供在 .NET 中使用 Aspose OCR 建立日誌記錄器的完整步驟說明。
+### [使用 Aspose AI 下載缺失模型 – 完整指南](./download-missing-models-with-aspose-ai-complete-guide/)
+使用 Aspose AI 下載缺失的模型，提供完整步驟指南。
 
 ### 常見用例
 - **Extract text images** 從掃描發票中擷取文字，以實現自動化會計。  
@@ -88,12 +152,12 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 ### [使用 Aspose 下載 OCR 語言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 了解如何使用 Aspose 在 C# 中下載並整合 OCR 語言模型，以提升文字辨識準確度。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [在 C# 中辨識影像文字 – 使用 Aspose 進行阿拉伯語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 本教學示範如何在 C# 應用程式中使用 Aspose OCR 進行阿拉伯語文字的辨識。
 ### [如何為 Aspose OCR 啟用 GPU – 步驟指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
@@ -101,21 +165,21 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 ### [在 C# 中設定 Aspose 授權 – 完整指南](./how-to-set-aspose-license-in-c-complete-guide/)
 本教學說明如何在 C# 應用程式中設定 Aspose 授權，確保功能完整運作。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ### [如何在 Aspose OCR 中套用授權 – 步驟式 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 了解如何在 Aspose OCR 中使用 C# 設定授權，以確保您的應用程式合法運行。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
+
 ## 常見問題解答
 
 **問：我可以在商業 .NET 應用程式中使用 Aspose.OCR 嗎？ ** 答：可以，一旦您獲得有效的 Aspose 許可證，該庫即可完全支援商業用途。
