@@ -65,6 +65,54 @@ C# ile offline ortamda OCR motoru kurup yapılandırmayı adım adım öğrenin.
 C# ile OCR modelinin mevcut olup olmadığını kontrol etmeyi adım adım öğrenin.
 ### [PDF'ye Yazı Tipi Göm – JPEG'den Aranabilir PDF'ler Oluştur](./embed-fonts-in-pdf-make-searchable-pdfs-from-jpeg/)
 JPEG görüntülerini PDF'ye gömülü yazı tipleriyle dönüştürerek aranabilir PDF dosyaları oluşturun.
+### [png'den metin oku – Aspose OCR ile Kiril metni çıkarma](./read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
+Aspose OCR kullanarak PNG dosyalarından Kiril alfabesindeki metni doğru ve hızlı bir şekilde çıkarın.
+### [C#'ta OCR için GPU Aygıtı Ayarlama – Tam Programlama Kılavuzu](./set-gpu-device-for-ocr-in-c-complete-programming-guide/)
+Aspose.OCR’da GPU cihazını yapılandırarak OCR performansını artırın ve C# kod örnekleriyle tam bir rehber izleyin.
+### [C# ile görüntüden metin tanıma – Aspose OCR ile Kannada dili nasıl tanınır](./recognize-text-from-image-in-c-how-to-recognize-kannada-with/)
+Aspose OCR kullanarak C# içinde Kannada dilindeki metinleri doğru şekilde tanıyın ve çıkarın.
+### [Aspose OCR AI ile Yazım Denetimi İşlemcisi Oluşturma – Tam Kılavuz](./create-spell-check-processor-with-aspose-ocr-ai-full-guide/)
+Aspose OCR AI kullanarak tam özellikli bir yazım denetimi işlemcisi geliştirin ve .NET uygulamalarınızda metin doğruluğunu artırın.
+### [Aspose OCR'de lisans bayrağını kontrol et – Lisans Doğrulama İçin Hızlı Kılavuz](./check-license-flag-in-aspose-ocr-quick-guide-to-verify-licen/)
+Aspose OCR lisansının etkin olup olmadığını kontrol etmek için bayrak değerini nasıl okuyacağınızı adım adım gösterir.
+### [C#'ta OCR için GPU'yu nasıl etkinleştiririz – Adım Adım Kılavuz](./how-to-enable-gpu-for-ocr-in-c-step-by-step-guide/)
+Aspose.OCR ile C# uygulamalarında GPU hızlandırmasını etkinleştirerek OCR performansını artırın.
+### [Rusça OCR Dil Paketi Nasıl İndirilir – Tam Kılavuz](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
+Aspose.OCR için Rusça dil paketini indirme ve kurma adımlarını ayrıntılı olarak öğrenin.
+### [C#’ta OCR’ı Devre Dışı Bırakma – Çevrimdışı Aspose OCR Rehberi](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
+Aspose OCR’ı çevrimdışı ortamda C# uygulamanızda nasıl devre dışı bırakacağınızı adım adım gösterir.
+### [C#'ta OCR için görüntü yükleme – Tam Aspose OCR ve Yazım Denetimi Rehberi](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
+C# ile görüntü yükleyerek OCR ve yazım denetimini birleştiren kapsamlı bir rehber.
+### [C#'ta OCR Motoru Oluşturma – Tam Kılavuz](./create-ocr-engine-in-c-complete-guide/)
+Aspose.OCR ile C# uygulamanızda tam OCR motoru oluşturmayı adım adım öğrenin.
+### [Aspose OCR ile GPU bellek sınırını ayarlama – C# GPU Kılavuzu](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+Aspose OCR’da GPU bellek kullanımını sınırlayarak performansı yönetin ve C# uygulamanızda bellek yönetimini optimize edin.
+### [Aspose OCR GPU ile Görüntüden Metin Çıkarma – Tam C# Kılavuzu](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Aspose OCR GPU desteğiyle C# kullanarak görüntülerden yüksek hızlı metin çıkarın.
+### [Aspose OCR'da Lisans Ayarlama – Tam C# Kılavuzu](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Aspose OCR için lisans dosyasını nasıl ayarlayacağınızı adım adım gösteren kapsamlı C# rehberi.
+### [C#'ta OCR Nasıl Yapılır – Çok Dilli Kılavuz](./how-to-perform-ocr-in-c-multi-language-guide/)
+Aspose.OCR ile C# uygulamalarında çok dilli OCR işlemlerini adım adım öğrenin.
+### [görüntüden metne c# – Aspose OCR ile indirme devre dışı](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Aspose OCR kullanarak indirme özelliği devre dışı bırakılmış bir şekilde C# ile görüntüden metin çıkarma örneği.
+### [C#'ta Aspose OCR Sürümünü Alın – Tam Kılavuz](./get-aspose-ocr-version-in-c-complete-guide/)
+Aspose OCR kütüphanesinin sürüm bilgisini C# kodu ile nasıl alacağınızı adım adım gösterir.
+### [C#'ta OcrEngine Nasıl Kullanılır – Tam OCR Rehberi](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Aspose.OCR OcrEngine sınıfını C# ile kullanarak tam OCR sürecini adım adım öğrenin.
+### [Görüntüden Arama Yapılabilir PDF Oluşturma – Tam Adım‑Adım Kılavuz](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Aspose.OCR ve Aspose.PDF kullanarak tek bir görüntüden tam metin arama özelliğine sahip PDF dosyası oluşturmayı öğrenin.
+### [C# ile Görüntüden Dil Algılama – Tam Programlama Rehberi](./detect-language-from-image-in-c-complete-programming-guide/)
+Aspose.OCR ile C# kullanarak bir görüntüden dili otomatik olarak tespit edin ve metne dönüştürün.
+### [OcrEngineConfig Nasıl Kullanılır – C#'ta OCR Motoru Yapılandırması](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Aspose.OCR’da OcrEngineConfig ayarlarını kullanarak OCR motorunu özelleştirin ve performansı artırın.
+### [Aspose.OCR ile OCR Nasıl Yapılır – Tam C# Rehberi](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Aspose.OCR kullanarak C# ile tam OCR iş akışını adım adım öğrenin.
+### [AsposeAI Model Yapılandırması Oluştur – Adım Adım Kılavuz](./create-asposeai-model-config-step-by-step-guide/)
+AsposeAI modeli için yapılandırma dosyası oluşturmayı adım adım öğrenin ve AI çözümlerinizde özelleştirilmiş ayarlar yapın.
+### [Aspose OCR Günlüğü Oluşturma – Tam Adım Adım Kılavuz](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Aspose OCR kullanarak özelleştirilmiş bir logger oluşturmayı adım adım öğrenin.
+### [Aspose AI ile eksik modelleri indirin – tam rehber](./download-missing-models-with-aspose-ai-complete-guide/)
+Aspose AI kullanarak eksik OCR modellerini indirip kurmayı adım adım gösteren tam rehber.
 
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  

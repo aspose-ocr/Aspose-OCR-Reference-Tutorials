@@ -26,10 +26,6 @@ url: /pt/net/text-recognition/how-to-ocr-arabic-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/p >}}
-
-
-
 # Como fazer OCR de Árabe em C# – Guia Completo
 
 Já precisou **fazer OCR de Árabe** mas ficou preso na pergunta “por onde começar?” Você não está sozinho. OCR para Árabe pode ser complicado por causa do script da direita‑para‑esquerda, das ligaduras e de um conjunto de caracteres extenso. A boa notícia? Com o Aspose OCR você pode extrair texto árabe de uma imagem em apenas algumas linhas de código C#.
