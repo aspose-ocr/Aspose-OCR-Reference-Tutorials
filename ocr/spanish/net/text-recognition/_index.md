@@ -765,6 +765,9 @@ Aprenda a extraer texto de imágenes con Aspose OCR en C# de forma sencilla y ef
 Aprenda a reconocer texto de imágenes en C# con Aspose OCR siguiendo esta guía paso a paso.
 ### [Cómo realizar OCR en C# – extraer texto de imágenes](./how-to-perform-ocr-in-c-extract-text-from-images/)
 Aprende cómo realizar OCR en C# usando Aspose.OCR para extraer texto de archivos de imagen. Esta guía te muestra cómo convertir una imagen a texto y reconocer texto de JPEG.
+### [Cómo realizar OCR en una imagen en C# usando Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+Aprende cómo realizar OCR en imágenes en C# con Aspose.OCR, incluyendo la instalación de System.Drawing.Common y la extracción de texto de archivos JPG.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

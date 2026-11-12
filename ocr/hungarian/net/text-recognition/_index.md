@@ -712,6 +712,9 @@ Ismerje meg, hogyan nyerhet ki szöveget képekből C#-ban az Aspose OCR haszná
 Ismerje meg, hogyan ismerhet fel szöveget képekről C#-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
 ### [Hogyan végezzünk OCR-t C#-ban – szöveg kinyerése képekből](./how-to-perform-ocr-in-c-extract-text-from-images/)
 Tanulja meg, hogyan végezhet OCR-t C#-ban az Aspose.OCR használatával, hogy szöveget nyerjen ki képfájlokból. Ez az útmutató megmutatja, hogyan konvertálhatja a képet szöveggé, és hogyan ismerheti fel a szöveget JPEG-ből.
+### [Hogyan végezzünk OCR-t egy képen C#-ban az Aspose.OCR használatával](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+Tanulja meg, hogyan végezhet OCR-t képen C#-ban az Aspose.OCR segítségével, beleértve a System.Drawing.Common telepítését és a JPG fájlok szövegének kinyerését.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

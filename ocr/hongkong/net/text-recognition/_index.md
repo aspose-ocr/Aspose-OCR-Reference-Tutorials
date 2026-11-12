@@ -45,6 +45,7 @@ url: /zh-hant/net/text-recognition/
 ## 文字辨識教程
 ### [How to perform OCR in C# – extract text from images](./how-to-perform-ocr-in-c-extract-text-from-images/)
 ### [How to extract text from image using Aspose.OCR in C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
+### [How to perform OCR on image in C# using Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
 
 
 ### [在 OCR 影像辨識中取得已辨識字元的選擇](./get-choices-for-recognized-characters/)

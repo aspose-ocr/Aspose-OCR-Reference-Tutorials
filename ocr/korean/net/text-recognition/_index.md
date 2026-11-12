@@ -714,6 +714,9 @@ C#와 Aspose OCR을 활용해 이미지에서 텍스트를 추출하는 방법�
 ### [C#에서 이미지 텍스트 인식 – 단계별 Aspose OCR 가이드](./recognize-text-from-image-in-c-step-by-step-aspose-ocr-guide/)
 C#를 사용해 이미지에서 텍스트를 인식하는 방법을 단계별로 안내합니다.
 ### [C#에서 OCR 수행하기 – 이미지에서 텍스트 추출](./how-to-perform-ocr-in-c-extract-text-from-images/)
+### [Aspose.OCR를 사용하여 C#에서 이미지에 OCR 수행하는 방법](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+여기에는 System.Drawing.Common 설에설 설치와 JPG 파일에서 텍스트 추출이 포함됩니다.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

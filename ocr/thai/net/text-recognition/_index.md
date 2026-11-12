@@ -62,6 +62,8 @@ url: /th/net/text-recognition/
 ### [วิธีทำ OCR บนไฟล์ DjVu ใน C# – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-on-djvu-files-in-c-step-by-step-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อแปลงไฟล์ DjVu ให้เป็นข้อความด้วยขั้นตอนง่าย ๆ และแม่นยำ
 
+### [วิธีทำ OCR บนรูปภาพใน C# ด้วย Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+
 ### [วิธีใช้ OCR ใน C# – ดึงข้อความรัสเซียจาก PNG](./how-to-use-ocr-in-c-extract-russian-text-from-png/)
 
 ### [วิธีอ่านใบเสร็จใน C# – คู่มือครบถ้วนสำหรับการดึงข้อความจากรูปภาพ](./how-to-read-receipt-in-c-complete-guide-to-extract-text-from/)
@@ -97,7 +99,7 @@ url: /th/net/text-recognition/
 ### [สร้าง PDF ที่ค้นหาได้จากรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-image-complete-c-guide/)
 เรียนรู้วิธีสร้าง PDF ที่สามารถค้นหาได้จากรูปภาพด้วย Aspose.OCR ใน C# อย่างละเอียดและครบถ้วน
 
-### [วิธีอ่านใบเสร็จใน C# – คู่มือ OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
+### [วิธีอ่านใบเสร็จใน C# – OCR + Regex](./how-to-read-receipt-in-c-ocr-regex-guide/)
 เรียนรู้วิธีใช้ Aspose.OCR และ Regex ใน C# เพื่อดึงข้อมูลจากใบเสร็จอย่างแม่นยำและอัตโนมัติ
 
 ### [วิธีทำ OCR บนภาพภาษาอารบิก – ดึงข้อความใน C#](./how-to-perform-ocr-on-arabic-images-extract-text-in-c/)
@@ -216,7 +218,7 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความจาก JPG ใน C# – คู่มือ OCR ฉบับเต็ม](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 ### [วิธีดึงข้อความจาก JPG ด้วยบทแนะนำ OCR ใน C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
 ### [วิธีใช้ Aspose OCR ใน C# – จดจำข้อความภาษาเกาหลีจากรูปภาพ](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
-### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-tiff-full-c-guide/)
+### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือ Aspose OCR ทีละขั้นตอน](./create-searchable-pdf-from-tiff-full-c-guide/)
 ### [c# OCR tutorial – ดึงข้อความภาษาฮินดีจากใบเสร็จ PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อสกัดข้อความภาษาฮินดีจากไฟล์ PNG ของใบเสร็จ
 ### [ดึงข้อความจาก PNG – บทเรียน Aspose OCR ฉบับสมบูรณ์](./extract-text-from-png-complete-aspose-ocr-tutorial/)
@@ -329,7 +331,7 @@ url: /th/net/text-recognition/
 เรียนรู้วิธีใช้ Aspose OCR เพื่อดึงข้อความภาษาอาหรับจากภาพด้วย C# อย่างง่ายและละเอียดในขั้นตอนทีละขั้นตอน
 ### [สร้าง Excel จากภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 ### [แปลง TIFF เป็นข้อความใน C# – ดึงข้อความจากภาพสแกน](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
-เรียนรู้วิธีแปลงไฟล์ TIFF เป็นข้อความใน C# ด้วย Aspose.OCR เพื่อดึงข้อความจากภาพสแกนอย่างแม่นยำ
+เรียนรู้วิธีแปลงไฟล์ TIFF เป็นข้อความใน C# ด้วย Aspose.OCR เพื่อดึงข้อความจากภาพส캔อย่างแม่นยำ
 ### [จดจำข้อความจากรูปภาพด้วย Aspose OCR – คู่มือ C# ฉบับสมบูรณ์](./recognize-text-from-picture-with-aspose-ocr-complete-c-guide/)
 เรียนรู้วิธีใช้ Aspose OCR ใน C# เพื่อจดจำข้อความจากรูปภาพอย่างครบถ้วนและแม่นยำในขั้นตอนเดียว
 ### [วิธีใช้ OCR ใน C# – ดึงข้อความจากใบเสร็จอย่างรวดเร็ว](./how-to-use-ocr-in-c-extract-text-from-receipts-quickly/)

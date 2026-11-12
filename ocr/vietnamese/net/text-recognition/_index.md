@@ -716,6 +716,9 @@ Trích xuất văn bản từ hình ảnh một cách nhanh chóng và chính x�
 Khám phá cách nhận dạng văn bản từ hình ảnh bằng C# với Aspose OCR qua hướng dẫn chi tiết từng bước.
 ### [Cách thực hiện OCR trong C# – trích xuất văn bản từ hình ảnh](./how-to-perform-ocr-in-c-extract-text-from-images/)
 Tìm hiểu cách thực hiện OCR trong C# bằng Aspose.OCR để trích xuất văn bản từ các tệp hình ảnh. Hướng dẫn này chỉ cho bạn cách chuyển đổi hình ảnh thành văn bản và nhận dạng văn bản từ JPEG.
+### [Cách thực hiện OCR trên hình ảnh trong C# bằng Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
+Tìm hiểu cách thực hiện OCR trên hình ảnh trong C# với Aspose.OCR, bao gồm cài đặt System.Drawing.Common và trích xuất văn bản từ các tệp JPG.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
