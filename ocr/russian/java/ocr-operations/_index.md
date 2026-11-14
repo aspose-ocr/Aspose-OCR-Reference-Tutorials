@@ -142,7 +142,7 @@ weight: 21
 ### [Выполнение OCR на изображении с Java – извлечение тайского текста из PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Полный пошаговый туториал по распознаванию тайского текста из PNG‑изображений с помощью Aspose.OCR в Java.
 ### [Как включить OCR в Java с Aspose – пошаговое руководство](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
-Подробное руководство по включению OCR в Java с использованием Aspose, шаг за шагом.
+Подробное руководство по включению OCR в Java с использованием Aspose.
 ### [Создание поискового PDF из изображения с помощью Java OCR](./create-searchable-pdf-from-image-with-java-ocr/)
 Пошаговое руководство по преобразованию изображения в PDF с поисковым слоем с использованием Aspose.OCR для Java.
 ### [Как использовать OCR в Java – извлечение текста из изображения с исправлением орфографии](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
@@ -178,7 +178,7 @@ weight: 21
 ### [Создание поискового PDF с OCR – Полное руководство](./create-searchable-pdf-with-ocr-full-guide/)
 Полный пошаговый гид по созданию поисковых PDF‑файлов с помощью OCR в Aspose.OCR для Java.
 ### [aspose ocr java пример: распознавание текста с изображения java](./aspose-ocr-java-example-recognize-text-from-image-java/)
-Полный пример кода на Java, демонстрирующий, как с помощью Aspose OCR распознать текст на изображении.
+Полный пример кода на Java, демонстрирующий, как с помощью Aspose.OCR распознать текст на изображении.
 ### [Create Searchable PDF from TIFF with Aspose OCR (Java) – Full Guide](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
 Пошаговый туториал по преобразованию TIFF‑файлов в поисковые PDF с помощью Aspose OCR для Java.
 ### [Загрузка лицензии OCR по URL в Java – Удаление пробного водяного знака](./load-ocr-license-url-in-java-remove-trial-watermark/)
@@ -250,6 +250,9 @@ A: Обрабатывайте TIFF‑изображения частями ил�
 Создайте поисковый PDF из изображения, используя OCR в Aspose.OCR для Java. Полный пошаговый гид.
 ### [Конвертация изображений в текст в Java – Руководство по пакетной обработке OCR](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Пакетный OCR в Java: конвертируйте множество изображений в текст быстро и точно с помощью Aspose.OCR.
+
+### [Как распознать текст из PNG в Java с Aspose OCR](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+Пошаговое руководство по распознаванию текста из PNG‑изображений в Java с помощью Aspose OCR.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

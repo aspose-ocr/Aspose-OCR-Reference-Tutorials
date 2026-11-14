@@ -160,6 +160,9 @@ Learn how to load an image and extract its text using Aspose.OCR for Java in a s
 Learn how to extract text from a defined region in images using Aspose OCR Java example.
 ### [Extract text from HEIC – complete java guide]({{< relref "extract-text-from-heic-complete-java-guide" >}})
 Comprehensive Java guide for extracting text from HEIC images with Aspose.OCR, covering setup, processing, and optimization.
+### [How to recognize text from PNG in Java with Aspose OCR](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+
+
 ### [Create Searchable PDF from Image with Java – Step‑by‑Step Guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 Step‑by‑step guide to convert images into searchable PDFs using Aspose.OCR for Java.
 ### [recognize pdf text with Aspose OCR in Java – Complete Guide](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)

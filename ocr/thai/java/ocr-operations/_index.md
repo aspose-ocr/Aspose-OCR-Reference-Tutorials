@@ -144,6 +144,8 @@ weight: 21
 เรียนรู้วิธีสกัดข้อความจากไฟล์ HEIC ด้วย Aspose.OCR for Java อย่างละเอียดและครบถ้วน
 ### [จดจำข้อความจาก PNG ด้วย Aspose OCR – คู่มือเต็มสำหรับ Java](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
 เรียนรู้ขั้นตอนเต็มเพื่อจดจำข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java อย่างแม่นยำและง่ายดาย  
+### [How to recognize text from PNG in Java with Aspose OCR](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+เรียนรู้วิธีสกัดข้อความจากไฟล์ PNG ด้วย Aspose OCR ใน Java อย่างละเอียด  
 ### [Create Searchable PDF from Image with Java – Step‑by‑Step Guide](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 เรียนรู้วิธีแปลงภาพเป็น PDF ที่ค้นหาได้ด้วย Aspose.OCR for Java อย่างละเอียดและง่ายดาย  
 ### [จดจำข้อความ PDF ด้วย Aspose OCR ใน Java – คู่มือเต็ม](./recognize-pdf-text-with-aspose-ocr-in-java-complete-guide/)

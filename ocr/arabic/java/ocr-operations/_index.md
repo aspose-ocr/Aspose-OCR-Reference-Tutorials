@@ -138,70 +138,31 @@ weight: 21
 ### [إنشاء PDF قابل للبحث من صورة باستخدام Java – دليل خطوة بخطوة](./create-searchable-pdf-from-image-with-java-step-by-step-guid/)
 دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
 ### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-from-png-with-aspose-ocr-full-java-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR للـ Java مع تحسين الدقة.
 ### [تشغيل OCR على صورة باستخدام Java – استخراج النص التايلاندي من PNG](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
-### [كيفية تمكين OCR في Java باستخدام Aspose – دليل خطوة بخطوة](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
-دليل خطوة بخطوة يوضح كيفية تفعيل OCR في Java باستخدام مكتبة Aspose لتحقيق استخراج نص فعال.
-### [إنشاء PDF قابل للبحث من صورة باستخدام OCR في Java](./create-searchable-pdf-from-image-with-java-ocr/)
-دليل خطوة بخطوة لإنشاء ملف PDF قابل للبحث من صورة باستخدام Aspose.OCR للـ Java.
-### [كيفية استخدام OCR في Java – استخراج النص من الصورة مع تصحيح إملائي](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
-دليل يوضح كيفية استخراج النص من الصور باستخدام Aspose.OCR للـ Java مع تصحيح الأخطاء الإملائية لتحسين الدقة.
-### [إنشاء PDF قابل للبحث من صورة – دليل خطوة بخطوة للـ Java](./create-searchable-pdf-from-image-step-by-step-java-guide/)
-دليل شامل يوضح كيفية تحويل صورة إلى ملف PDF قابل للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
-### [إجراء OCR على ملفات PDF باستخدام Aspose OCR في Java – دليل كامل](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
-دليل شامل يوضح كيفية تنفيذ OCR على مستندات PDF باستخدام Aspose OCR في Java خطوة بخطوة.
-### [إنشاء PDF قابل للبحث باستخدام Aspose OCR Java – دليل كامل](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
-دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR للـ Java خطوة بخطوة.
-### [التعرف على نص الصورة باستخدام Java – دليل كامل لـ Aspose OCR](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
-دليل شامل يوضح كيفية التعرف على النص في الصور باستخدام Java مع Aspose OCR خطوة بخطوة.
-### [التعرف على النص في ROI باستخدام Aspose OCR – دليل Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
-### [تحميل صورة للتعرف الضوئي على الأحرف باستخدام Aspose OCR Java – دليل كامل](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
-دليل شامل يوضح كيفية تحميل صورة وإجراء OCR باستخدام Aspose OCR للـ Java خطوة بخطوة.
-### [تطبيق ترخيص Aspose OCR في Java – إزالة العلامة المائية للـ OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
-دليل خطوة بخطوة لتطبيق ترخيص Aspose OCR في Java وإزالة العلامة المائية من النص المستخرج.
-### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل Java كامل](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
-دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR في Java، خطوة بخطوة مع أمثلة عملية.
-### [تحميل صورة للتعرف الضوئي على الأحرف، استخراج النص من منطقة – Java](./load-image-for-ocr-extract-text-from-region-java/)
-دليل يوضح كيفية تحميل صورة واستخدام Aspose.OCR لاستخراج النص من منطقة محددة في Java.
-### [تشغيل OCR على مستند في Java – دليل كامل](./run-ocr-on-document-in-java-complete-guide/)
-### [التعرف على النص من الصورة باستخدام Java OCR – دليل كامل](./recognize-text-from-image-with-java-ocr-complete-guide/)
-### [التعرف على نص الصورة باستخدام Aspose OCR – دليل Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
-تعلم كيفية استخراج النص من الصور باستخدام Aspose OCR في Java خطوة بخطوة.
-### [تسوية تلقائية للصورة في Java – دليل كامل لـ Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
-دليل شامل يوضح كيفية تصحيح انحراف الصور تلقائيًا باستخدام Aspose OCR في Java خطوة بخطوة.
-### [كيفية تصحيح ميل الصورة – دليل معالجة الصورة قبل OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
-### [إنشاء PDF قابل للبحث باستخدام OCR – دليل كامل](./create-searchable-pdf-with-ocr-full-guide/)
-دليل شامل يشرح كيفية إنشاء ملف PDF قابل للبحث باستخدام OCR خطوة بخطوة.
-### [إنشاء PDF قابل للبحث في Java – دليل كامل](./create-searchable-pdf-in-java-full-guide/)
-### [مثال Aspose OCR للـ Java: التعرف على النص من صورة](./aspose-ocr-java-example-recognize-text-from-image-java/)
-### [إنشاء PDF قابل للبحث من TIFF باستخدام Aspose OCR (Java) – دليل كامل](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
-دليل شامل يوضح كيفية تحويل ملفات TIFF إلى PDF قابل للبحث باستخدام Aspose OCR للـ Java خطوة بخطوة.
-### [تحميل عنوان URL لترخيص OCR في Java – إزالة علامة التجربة المائية](./load-ocr-license-url-in-java-remove-trial-watermark/)
-تعلم كيفية تحميل ترخيص Aspose.OCR من URL في Java لإزالة علامة التجربة المائية.
-### [إنشاء PDF قابل للبحث في Java – دليل كامل](./create-searchable-pdf-in-java-complete-guide/)
-دليل شامل يوضح كيفية إنشاء ملفات PDF قابلة للبحث باستخدام Aspose.OCR للـ Java خطوة بخطوة.
-
-
-### [تحويل الصورة إلى نص في Java باستخدام Aspose OCR – دليل كامل](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
-دليل شامل يوضح كيفية تحويل الصور إلى نص باستخدام Aspose OCR في Java خطوة بخطوة.
-
-### [دليل ترخيص Aspose OCR – إعداد Java](./aspose-ocr-license-tutorial-java-setup-guide/)
-تعلم كيفية تثبيت ترخيص Aspose OCR في بيئة Java خطوة بخطوة لضمان تشغيل المكتبة بدون قيود.
-### [التعرف على نص PNG باستخدام Java – دليل Aspose OCR كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
-دليل شامل يشرح كيفية التعرف على نص PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
-### [التعرف على النص من PNG في Java – دليل Aspose OCR كامل](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+دليل يوضح كيفية استخراج النص التايلاندي من صور PNG باستخدام OCR في Java.
+### [كيفية التعرف على النص من PNG باستخدام Aspose OCR في Java](./how-to-recognize-text-from-png-in-java/)
+دليل خطوة بخطوة للتعرف على النص من ملفات PNG باستخدام Aspose OCR في Java.
+### [كيفية التعرف على النص من PNG في Java باستخدام Aspose OCR](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+دليل خطوة بخطوة للتعرف على النص من ملفات PNG باستخدام Aspose OCR في Java.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يشرح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
 دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
-### [التعرف على نص الصورة باستخدام Aspose OCR – دليل كامل للـ Java](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
-دليل شامل يشرح كيفية التعرف على النص في الصور باستخدام Aspose OCR مع Java خطوة بخطوة.
-### [الحصول على المسار المطلق في Java – دليل كامل](./get-absolute-path-java-complete-guide/)
-دليل كامل يشرح كيفية الحصول على المسار المطلق للملفات في Java.
-### [تحميل جميع الموارد في C# – دليل تحميل مسبق للأصول](./download-all-resources-in-c-guide-to-preloading-assets/)
-### [كيفية إجراء OCR على صورة باستخدام Aspose OCR في Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
-دليل خطوة بخطوة لأداء OCR على الصور باستخدام Aspose OCR للـ Java.
-### [إنشاء PDF قابل للبحث باستخدام Aspose OCR – دليل خطوة بخطوة](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
-دليل شامل لإنشاء ملفات PDF قابلة للبحث باستخدام Aspose OCR خطوة بخطوة.
-### [كيفية تحويل الصورة إلى نص في Java باستخدام Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
-دليل يوضح تحويل الصور إلى نص باستخدام Aspose OCR للـ Java خطوة بخطوة.
-### [تحميل جميع الموارد وحزم اللغات في C# – دليل كامل](./download-all-resources-and-language-packs-in-c-complete-guid/)
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
+### [التعرف على نص PNG باستخدام Aspose OCR – دليل Java كامل](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+دليل شامل يوضح كيفية التعرف على النص في ملفات PNG باستخدام Aspose OCR مع Java خطوة بخطوة.
 
 ## الأسئلة المتكررة
 

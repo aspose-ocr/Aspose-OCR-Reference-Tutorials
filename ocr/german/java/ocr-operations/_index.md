@@ -99,9 +99,9 @@ Ein praktisches Demo‑Tutorial, das die schrittweise Extraktion von Text aus Bi
 ### [Entfernen des Evaluationswasserzeichens in Aspose OCR – Vollständiger Java‑Lizenzleitfaden](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Erfahren Sie, wie Sie das Evaluations‑Wasserzeichen entfernen und Ihre Lizenz für Aspose OCR in Java vollständig aktivieren.
 ### [Bildtext mit Aspose OCR erkennen – Java‑Tutorial](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
-Erfahren Sie, wie Sie Text aus Bildern mit Aspose OCR in Java erkennen und verarbeiten.
+Erfahren Sie, wie Sie Text aus Bildern mit Aspose OCR für Java erkennen und verarbeiten.
 ### [Bild‑zu‑Text Java: Urdu‑Text mit Aspose OCR extrahieren](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
-Erfahren Sie, wie Sie Urdu‑Text aus Bildern mit Aspose OCR in Java extrahieren.
+Erfahren Sie, wie Sie Urdu‑Text aus Bildern mit Aspose OCR für Java extrahieren.
 ### [OCR in Java verwenden – Text aus PDF mit Aspose.OCR extrahieren](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
 Erfahren Sie, wie Sie mit Aspose.OCR in Java PDF‑Dateien analysieren und Text extrahieren, um durchsuchbare Dokumente zu erstellen.
 ### [OCR in Java verwenden – Text schnell aus Bild erkennen](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
@@ -125,7 +125,7 @@ Laden Sie ein Bild in Java und führen Sie OCR mit Aspose.OCR durch – eine det
 ### [Durchsuchbares PDF erstellen – Java OCR‑Leitfaden](./create-searchable-pdf-java-ocr-guide/)
 Erfahren Sie, wie Sie mit Aspose.OCR für Java ein durchsuchbares PDF erstellen und die OCR‑Funktionen optimal nutzen.
 ### [Text aus Bild mit Aspose OCR Java erkennen – Vollständige Anleitung](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
-Entdecken Sie die vollständige Anleitung zur Texterkennung aus Bildern mit Aspose OCR Java. Schritt‑für‑Step zum perfekten Ergebnis.
+Entdecken Sie die vollständige Anleitung zur Texterkennung aus Bildern mit Aspose OCR Java. Schritt‑for‑Step zum perfekten Ergebnis.
 ### [Wie man OCR in Java mit Aspose aktiviert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
 Erfahren Sie, wie Sie OCR in Java mit Aspose aktivieren, inklusive vollständiger Schritt‑für‑Schritt‑Anleitung.
 ### [Hindi-Text aus Bildern extrahieren – Java OCR‑Beispiel](./extract-hindi-text-from-images-java-ocr-example/)
@@ -199,9 +199,11 @@ Erfahren Sie, wie Sie Bilder in Java mit Aspose OCR vollständig in editierbaren
 ### [Aspose OCR Lizenz‑Tutorial – Java‑Einrichtungs‑Guide](./aspose-ocr-license-tutorial-java-setup-guide/)
 Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz in Java einrichten und aktivieren, um OCR‑Funktionen produktiv zu nutzen.
 ### [PNG-Text mit Java erkennen – Vollständiges Aspose OCR‑Tutorial](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
-Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von PNG‑Bildern mit Aspose OCR in Java erklärt.
+Ein umfassendes Tutorial, das die vollständige OCR‑Verarbeitung von PNG‑Dateien mit Aspose OCR in Java erklärt.
 ### [Texterkennung aus PNG in Java – Vollständiger Aspose OCR‑Leitfaden](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
-Entfesseln Sie die OCR‑Leistung für PNG‑Bilder in Java mit Aspose OCR. Ein vollständiger Leitfaden zu Einrichtung, Verarbeitung und Best Practices.
+Entfesseln Sie die OCR‑Leistung für PNG‑Bilder in Java mit Aspose OCR – ein vollständiger Leitfaden zu Einrichtung, Verarbeitung und Best Practices.
+### [Text aus PNG in Java mit Aspose OCR erkennen](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+Erfahren Sie, wie Sie PNG‑Bilder in Java mit Aspose OCR in Text umwandeln.
 ### [Bildtext mit Aspose OCR erkennen – vollständiger Java‑Leitfaden](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Ein umfassender Leitfaden zur Texterkennung aus Bildern mit Aspose OCR in Java.
 ### [Absoluten Pfad in Java erhalten – vollständige Anleitung](./get-absolute-path-java-complete-guide/)

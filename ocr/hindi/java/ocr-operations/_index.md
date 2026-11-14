@@ -129,7 +129,7 @@ Java में OCR को लागू करने के लिए चरण�
 ### [Aspose OCR Java: इमेज को HTML में बदलें – पूर्ण चरण‑बद्ध गाइड](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
 Aspose OCR for Java का उपयोग करके इमेज को HTML फॉर्मेट में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
 ### [Java में OCR कैसे करें – पूर्ण Aspose OCR ट्यूटोरियल](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
-Java में Aspose OCR का उपयोग करके OCR लागू करने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
+Java में Aspose OCR का उपयोग करके OCR लागू करने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
 ### [Java में OCR के लिए इमेज लोड करें – चरण‑दर‑चरण गाइड](./load-image-for-ocr-in-java-step-by-step-guide/)
 Java में इमेज को लोड करके OCR लागू करने की पूरी प्रक्रिया, कोड उदाहरणों के साथ।
 ### [सर्चेबल PDF बनाएं – Java OCR गाइड](./create-searchable-pdf-java-ocr-guide/)
@@ -224,7 +224,6 @@ Java में PNG इमेजेज से टेक्स्ट निका�
 ### [C# में सभी संसाधन डाउनलोड करें – प्री‑लोडिंग एसेट्स गाइड](./download-all-resources-in-c-guide-to-preloading-assets/)
 C# में एसेट्स को प्री‑लोड करने के लिए सभी आवश्यक संसाधनों को डाउनलोड करने की पूरी गाइड।
 ### [Java में Aspose OCR के साथ इमेज पर OCR कैसे करें](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
-Aspose OCR का उपयोग करके Java में इमेज से टेक्स्ट निकालने की चरण‑बद्ध प्रक्रिया।
 
 ### [Java में Aspose OCR के साथ इमेज को टेक्स्ट में बदलें](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 
@@ -232,7 +231,9 @@ Aspose OCR का उपयोग करके Java में इमेज स�
 C# के लिए सभी संसाधन और भाषा पैक्स को एक ही जगह से डाउनलोड करने की पूरी प्रक्रिया।
 
 ### [Java में Aspose OCR का उपयोग करके PNG इमेजेज से टेक्स्ट पहचानें](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
-Java में Aspose OCR का उपयोग करके PNG इमेजेज से तेज़ी से टेक्स्ट निकालें। चरण‑बद्ध गाइड।
+
+### [Java में PNG से टेक्स्ट पहचानें – Aspose OCR के साथ](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+Java में Aspose OCR के साथ PNG से टेक्स्ट पहचानें।
 
 ## अक्सर पूछे जाने वाले सवाल
 

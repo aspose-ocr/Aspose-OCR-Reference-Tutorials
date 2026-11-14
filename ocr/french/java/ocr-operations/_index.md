@@ -101,10 +101,12 @@ Apprenez à extraire rapidement du texte d'une image en Java avec Aspose.OCR gr�
 Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce tutoriel pratique étape par étape.
 ### [Comment reconnaître le texte à partir d'images PNG avec Aspose OCR en Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
 Apprenez à extraire du texte d'images PNG en Java grâce à Aspose OCR, étape par étape.
+### [Comment reconnaître le texte à partir de PNG en Java avec Aspose OCR](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+Apprenez à extraire du texte d'images PNG en Java avec Aspose OCR grâce à ce guide complet étape par étape.
 ### [Extraire du texte Urdu avec Aspose OCR – Tutoriel Java](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 Apprenez à extraire du texte en langue Urdu à partir d'images en Java avec Aspose OCR grâce à ce guide étape par étape.
 ### [Créer un PDF consultable à partir d'une image en Java – Guide étape par étape](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
-Apprenez à transformer une image en PDF consultable avec Aspose.OCR pour Java grâce à ce guide détaillé.
+Apprenez à transformer une image en PDF consultable avec Aspose.OCR pour Java grâce à un guide détaillé pas à pas.
 ### [Créer un PDF consultable à partir de JPG – Guide Java Image vers PDF consultable](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
 Apprenez à transformer des images JPG en PDF recherchables avec Aspose.OCR pour Java, étape par étape.
 ### [Comment redresser une image — Guide de pré‑traitement OCR étape par étape](./how-to-deskew-image-step-by-step-ocr-pre-processing-guide/)
@@ -114,20 +116,20 @@ Apprenez à utiliser l'OCR en Java grâce à ce guide complet, étape par étape
 ### [Aspose OCR Java : Convertir une image en HTML – Guide complet étape par étape](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
 Apprenez à convertir des images en HTML avec Aspose OCR pour Java grâce à ce guide complet étape par étape.
 ### [Comment réaliser l'OCR en Java – Tutoriel complet Aspose OCR](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
-Apprenez à réaliser l'OCR en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+Apprenez à réaliser l'OCR en Java avec Aspose OCR grâce à un guide complet étape par étape.
 ### [Convertir une image en texte avec Aspose OCR Java – Guide étape par étape](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
 Apprenez à convertir des images en texte avec Aspose OCR Java grâce à ce guide complet étape par étape.
 ### [Créer un PDF consultable avec Java – Guide étape par étape](./create-searchable-pdf-with-java-step-by-step-guide/)
-Apprenez à créer un PDF consultable en Java grâce à ce guide complet étape par étape.
+Apprenez à créer un PDF consultable en Java grâce à un guide complet étape par étape.
 ### [Charger une image pour l'OCR en Java – Guide étape par étape](./load-image-for-ocr-in-java-step-by-step-guide/)
 Apprenez à charger des images dans Aspose.OCR pour Java avant de lancer la reconnaissance optique de caractères.
 ### [Créer un PDF consultable – Guide OCR Java](./create-searchable-pdf-java-ocr-guide/)
-Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à ce guide complet.
+Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à un guide complet.
 ### [Comment activer l'OCR en Java avec Aspose – Guide complet étape par étape](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
 Apprenez à activer l’OCR dans vos applications Java avec Aspose grâce à un guide détaillé étape par étape.
 ### [Reconnaître le texte d'image avec Aspose OCR Java – Guide complet](./recognize-text-from-image-with-aspose-ocr-java-complete-guid/)
 ### [Créer un PDF consultable avec Aspose.OCR – Guide Java](./create-searchable-pdf-with-aspose-ocr-java-guide/)
-Apprenez à générer des PDF consultables en Java avec Aspose.OCR grâce à ce guide étape par étape.
+Apprenez à générer des PDF consultables en Java avec Aspose.OCR grâce à un guide complet étape par étape.
 ### [Extraire du texte hindi à partir d'images – Exemple OCR Java](./extract-hindi-text-from-images-java-ocr-example/)
 Apprenez à extraire du texte hindi d'images en Java avec Aspose OCR grâce à cet exemple détaillé.
 ### [Comment effectuer l'OCR avec Aspose OCR en Java – Guide étape par étape](./how-to-perform-ocr-with-aspose-ocr-in-java-step-by-step-guid/)
@@ -167,21 +169,21 @@ Guide complet pour extraire du texte d'images en Java avec Aspose OCR, incluant 
 ### [Reconnaître le texte dans une ROI avec Aspose OCR – Tutoriel Java](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
 Apprenez à extraire du texte d'une zone d'intérêt (ROI) dans une image en Java avec Aspose OCR grâce à ce guide pratique.
 ### [Charger une image pour l’OCR avec Aspose OCR Java – Guide complet](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
-Apprenez à charger des images pour l'OCR en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+Apprenez à charger des images pour l'OCR en Java avec Aspose OCR grâce à un guide complet étape par étape.
 ### [Appliquer la licence Aspose OCR en Java – Supprimer le filigrane OCR](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
 Apprenez à appliquer votre licence Aspose OCR en Java pour éliminer le filigrane OCR des documents générés.
-### [Charger une image pour l'OCR, extraire le texte d'une région – Java](./load-image-for-ocr-extract-text-from-region-java/)
+### [Charger une image pour l’OCR, extraire le texte d'une région – Java](./load-image-for-ocr-extract-text-from-region-java/)
 Apprenez à charger une image, définir une zone et extraire le texte avec Aspose.OCR en Java.
 ### [Exécuter l'OCR sur un document en Java – Guide complet](./run-ocr-on-document-in-java-complete-guide/)
-Apprenez à exécuter l'OCR sur n'importe quel document en Java avec Aspose.OCR grâce à ce guide complet étape par étape.
+Apprenez à exécuter l'OCR sur n'importe quel document en Java avec Aspose.OCR grâce à un guide complet étape par étape.
 ### [Reconnaître le texte d'image avec Java OCR – Guide complet](./recognize-text-from-image-with-java-ocr-complete-guide/)
 Apprenez à extraire le texte d'images en Java grâce à un guide complet étape par étape.
 ### [Créer un PDF consultable avec Aspose OCR – Guide complet Java](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
-Apprenez à générer un PDF consultable en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+Apprenez à générer un PDF consultable en Java avec Aspose OCR grâce à un guide complet étape par étape.
 ### [Reconnaître le texte d'image avec Aspose OCR – Guide Java](./recognize-text-from-image-with-aspose-ocr-java-guide/)
-Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à ce guide pratique étape par étape.
+Apprenez à extraire du texte d'images en Java avec Aspose OCR grâce à un guide pratique étape par étape.
 ### [Redressement automatique d'image en Java – Guide complet Aspose OCR](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
-Apprenez à corriger automatiquement l’inclinaison des images en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+Apprenez à corriger automatiquement l’inclinaison des images en Java avec Aspose OCR grâce à un guide complet étape par étape.
 ### [Create Searchable PDF with OCR – Full Guide](./create-searchable-pdf-with-ocr-full-guide/)
 Apprenez à générer des PDF recherchables grâce à l’OCR avec ce guide complet étape par étape.
 ### [Comment redresser une image – Guide de prétraitement d’image OCR](./how-to-deskew-image-image-preprocessing-ocr-guide/)
@@ -189,15 +191,15 @@ Apprenez à corriger l’inclinaison des images avant l’OCR pour améliorer la
 ### [Aspose OCR Java Example: Recognize Text from Image Java](./aspose-ocr-java-example-recognize-text-from-image-java/)
 Apprenez à extraire du texte d’une image en Java avec Aspose OCR grâce à cet exemple complet.
 ### [Créer un PDF consultable en Java – Guide complet](./create-searchable-pdf-in-java-full-guide/)
-Apprenez à créer un PDF consultable en Java avec Aspose OCR grâce à ce guide complet.
+Apprenez à créer un PDF consultable en Java avec Aspose OCR grâce à un guide complet.
 ### [Créer un PDF consultable à partir de TIFF avec Aspose OCR (Java) – Guide complet](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
 Transformez vos fichiers TIFF en PDF consultables grâce à Aspose OCR pour Java. Suivez ce guide complet pas à pas.
 ### [Charger l'URL de licence OCR en Java – Supprimer le filigrane d'essai](./load-ocr-license-url-in-java-remove-trial-watermark/)
 Apprenez à charger une licence OCR depuis une URL en Java pour éliminer le filigrane d'évaluation.
 ### [Créer un PDF consultable en Java – Guide complet](./create-searchable-pdf-in-java-complete-guide/)
-Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à ce guide complet étape par étape.
+Apprenez à créer des PDF consultables en Java avec Aspose.OCR grâce à un guide complet étape par étape.
 ### [Convertir une image en texte en Java avec Aspose OCR – Guide complet](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
-Apprenez à convertir des images en texte en Java avec Aspose OCR grâce à ce guide complet étape par étape.
+Apprenez à convertir des images en texte en Java avec Aspose OCR grâce à un guide complet étape par étape.
 ### [Tutoriel de licence Aspose OCR – Guide d'installation Java](./aspose-ocr-license-tutorial-java-setup-guide/)
 Apprenez à configurer et activer votre licence Aspose OCR dans une application Java étape par étape.
 ### [Reconnaître le texte PNG avec Java – Guide complet Aspose OCR](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
@@ -214,7 +216,7 @@ Apprenez à extraire du texte d'une image en Java avec Aspose OCR, étape par é
 ### [Comment convertir une image en texte en Java avec Aspose OCR](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
 Apprenez à transformer des images en texte en Java avec Aspose OCR, étape par étape.
 ### [Télécharger toutes les ressources et packs de langues en C# – guide complet](./download-all-resources-and-language-packs-in-c-complete-guid/)
-Téléchargez toutes les ressources et packs de langues pour Aspose.OCR en C# grâce à ce guide complet.
+Téléchargez toutes les ressources et packs de langues pour Aspose.OCR en C# grâce à un guide complet.
 
 ## Foire aux questions
 
