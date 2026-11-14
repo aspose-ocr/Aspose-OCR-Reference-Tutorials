@@ -70,6 +70,9 @@ Ucapkan selamat tinggal pada ekstraksi teks manual dari gambar TIFF. Biarkan Asp
 
 [TIFF Recognition Tutorial](./recognize-tiff/)
 
+### [How to recognize text from PNG in Java with Aspose OCR](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+
+
 ### [Cara mengenali teks dari gambar PNG menggunakan Aspose OCR di Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
 Panduan langkah demi langkah mengenali teks dari gambar PNG dengan Aspose OCR di Java, menghasilkan teks yang akurat dan dapat diproses lebih lanjut.
 

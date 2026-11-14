@@ -92,6 +92,8 @@ Leer stap‑voor‑stap hoe u OCR toepast op afbeeldingen in Java met Aspose.OCR
 Ontgrendel snelle batch‑OCR voor PNG‑afbeeldingen in Java. Verwerk meerdere bestanden efficiënt en haal tekst nauwkeurig uit elk bestand.
 ### [Hoe tekst uit PNG‑afbeeldingen te herkennen met Aspose OCR in Java](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
 Leer hoe u met Aspose OCR in Java tekst uit PNG‑afbeeldingen kunt herkennen en extraheren.
+### [Hoe tekst uit PNG‑afbeeldingen te herkennen met Aspose OCR in Java](./how-to-recognize-text-from-png-in-java-with-aspose-ocr/)
+Leer stap‑voor‑stap hoe u PNG‑afbeeldingen OCR‑t met Aspose OCR in Java.
 ### [Tekst uit afbeelding extraheren met Aspose OCR – Stapsgewijze demo](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 Leer hoe u stap voor stap tekst uit afbeeldingen kunt extraheren met Aspose OCR in Java.
 ### [Zoekbare PDF maken van gescande bestanden – Java‑gids](./create-searchable-pdf-from-scanned-files-java-guide/)
@@ -169,16 +171,18 @@ Leer stap‑voor‑stap hoe u PDF‑bestanden OCR‑t met Aspose OCR in Java en 
 Leer hoe u tekst binnen een specifiek gebied (ROI) kunt herkennen met Aspose OCR in Java.
 ### [Afbeelding laden voor OCR met Aspose OCR Java – volledige gids](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
 Leer hoe u afbeeldingen kunt laden en voorbereiden voor OCR met Aspose OCR voor Java in een volledige gids.
-### [Aspose OCR-licentie toepassen in Java – OCR-watermerk verwijderen](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
-Leer hoe u de Aspose OCR-licentie in Java installeert om het OCR-watermerk te verwijderen en onbeperkte OCR-functionaliteit te krijgen.
-### [OCR uitvoeren op document in Java – volledige gids](./run-ocr-on-document-in-java-complete-guide/)
-Leer hoe u OCR toepast op documenten in Java met een stap‑voor‑stap volledige gids.
-### [Tekst uit afbeelding herkennen met Java OCR – volledige gids](./recognize-text-from-image-with-java-ocr-complete-guide/)
-Leer stap‑voor‑stap hoe u tekst uit afbeeldingen herkent met Aspose OCR in Java, van configuratie tot optimale resultaten.
-### [Afbeelding laden voor OCR, tekst uit regio extraheren – Java](./load-image-for-ocr-extract-text-from-region-java/)
-Leer hoe u een afbeelding laadt en tekst uit een specifiek gebied met Aspose.OCR in Java extraheert.
-### [Maak doorzoekbare PDF met Aspose OCR – Complete Java-gids](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
-Leer stap‑voor‑stap hoe u met Aspose OCR een doorzoekbare PDF maakt in Java, van configuratie tot export.
+### [Aspose OCR Java: Afbeelding naar HTML converteren – volledige stap‑voor‑stap‑gids](./aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/)
+Leer hoe u afbeeldingen omzet naar HTML met Aspose OCR voor Java in een volledige stap‑voor‑stap‑handleiding.
+### [Hoe OCR in Java uit te voeren – Complete Aspose OCR‑tutorial](./how-to-perform-ocr-in-java-complete-aspose-ocr-tutorial/)
+Leer stap‑voor‑stap hoe u OCR in Java implementeert met Aspose OCR, van configuratie tot tekst‑extractie.
+### [Afbeelding naar tekst converteren met Aspose OCR Java – Stapsgewijze gids](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+Leer hoe u afbeeldingen omzet naar bewerkbare tekst met Aspose OCR voor Java in een eenvoudige stap‑voor‑stap handleiding.
+### [Zoekbare PDF maken – Java OCR‑gids](./create-searchable-pdf-java-ocr-guide/)
+Leer hoe u met Aspose.OCR voor Java een doorzoekbare PDF maakt, inclusief OCR‑instellingen en exportopties.
+### [Afbeelding laden voor OCR in Java – Stapsgewijze handleiding](./load-image-for-ocr-in-java-step-by-step-guide/)
+Leer hoe u afbeeldingen laadt en voorbereidt voor OCR in Java met Aspose.OCR, stap voor stap.
+### [Hoe OCR in Java inschakelen met Aspose – Complete stap‑voor‑stap‑gids](./how-to-enable-ocr-in-java-with-aspose-complete-step-by-step/)
+Leer hoe u OCR in Java activeert met Aspose via een volledige stap‑voor‑stap‑handleiding.
 ### [Tekst uit afbeelding herkennen met Aspose OCR – Java-gids](./recognize-text-from-image-with-aspose-ocr-java-guide/)
 ### [Afbeelding automatisch kantelen in Java – volledige Aspose OCR-gids](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
 Leer hoe u afbeeldingen automatisch kunt kantelen met Aspose OCR in Java voor optimale OCR‑resultaten.
@@ -189,7 +193,6 @@ Leer stap‑voor‑stap hoe u met Aspose.OCR een doorzoekbare PDF maakt en OCR�
 ### [Tekstafbeelding herkennen met Aspose OCR – volledige Java OCR‑tutorial](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
 ### [Tekst herkennen uit PNG in Java – volledige Aspose OCR-gids](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
 Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑gids.
-Leer hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑OCR‑tutorial.
 ### [Aspose OCR Java‑voorbeeld: tekst herkennen uit afbeelding (Java)](./aspose-ocr-java-example-recognize-text-from-image-java/)
 Leer hoe u met Aspose OCR voor Java tekst uit een afbeelding kunt herkennen in een eenvoudige voorbeeldcode.
 ### [Maak doorzoekbare PDF in Java – volledige gids](./create-searchable-pdf-in-java-full-guide/)
@@ -209,7 +212,7 @@ Leer hoe u tekst uit PNG‑afbeeldingen kunt herkennen met Aspose OCR in een vol
 ### [Tekst uit afbeelding herkennen met Aspose OCR – volledige Java‑gids](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
 Leer stap‑voor‑stap hoe u tekst uit afbeeldingen kunt herkennen met Aspose OCR in een volledige Java‑gids.
 ### [Absolute pad ophalen in Java – volledige gids](./get-absolute-path-java-complete-guide/)
-Leer hoe u het absolute pad van een bestand in Java kunt bepalen met een volledige stap‑voor‑stap‑handleiding.
+Leer hoe u het absolute pad van een bestand in Java bepaalt met een volledige stap‑voor‑stap‑handleiding.
 ### [Alle resources downloaden in C# – gids voor het vooraf laden van assets](./download-all-resources-in-c-guide-to-preloading-assets/)
 Leer hoe u alle resources in C# kunt downloaden en vooraf kunt laden voor optimale prestaties.
 ### [Hoe OCR uit te voeren op een afbeelding met Aspose OCR in Java](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
