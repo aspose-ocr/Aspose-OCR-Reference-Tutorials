@@ -29,6 +29,9 @@ url: /ko/net/text-recognition/
 
 JSON 형식의 OCR 결과를 쉽게 얻는 방법을 배워 .NET용 Aspose.OCR의 잠재력을 최대한 활용하세요. 이 단계별 가이드는 이미지 인식 기능을 향상시키기 위한 원활한 여정을 보장합니다. Aspose.OCR의 강력한 기능과 업계 최고의 기술로 애플리케이션의 효율성을 높이세요.
 
+### [How to recognize image to text with Aspose OCR in C#](./how-to-recognize-image-to-text-with-aspose-ocr-in-c/)
+
+
 ### [C#에서 Aspose.OCR로 OCR 이미지를 JSON으로 변환하는 방법](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
 Aspose.OCR를 사용해 C#에서 OCR 이미지 결과를 JSON 형식으로 변환하는 단계별 가이드.
 
