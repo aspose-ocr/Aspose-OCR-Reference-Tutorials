@@ -29,6 +29,9 @@ url: /hi/net/text-recognition/
 
 .NET के लिए Aspose.OCR की शक्ति को उजागर करें। JSON प्रारूप में OCR परिणाम सहजता से प्राप्त करना सीखें। इस चरण-दर-स्तर मार्गदर्शिका के साथ अपनी छवि पहचान बढ़ाएँ।
 
+### [How to recognize image to text with Aspose OCR in C#](./how-to-recognize-image-to-text-with-aspose-ocr-in-c/)
+
+
 ### [C# में Aspose.OCR के साथ OCR छवि को JSON में बदलें](./how-to-convert-an-ocr-image-to-json-in-c-with-aspose-ocr/)
 Aspose.OCR का उपयोग करके C# में OCR छवि को JSON फ़ॉर्मेट में परिवर्तित करने की चरण‑दर‑स्टेप गाइड।
 
