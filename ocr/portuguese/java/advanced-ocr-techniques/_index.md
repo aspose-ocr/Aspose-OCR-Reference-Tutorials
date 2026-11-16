@@ -135,6 +135,8 @@ Aprenda a criar um motor OCR em Java capaz de reconhecer texto em imagens de gra
 Aprenda a ativar a aceleração GPU no Aspose.OCR para Java e melhorar o desempenho do reconhecimento de texto.
 ### [Como fazer OCR de imagem em Java – Notas manuscritas com verificação ortográfica](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 Aprenda a reconhecer texto manuscrito em imagens Java usando OCR com correção ortográfica para melhorar a precisão.
+### [Como reconhecer texto a partir de imagem em Java usando Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Aprenda a reconhecer texto em imagens usando Aspose OCR em Java com este guia passo a passo.
 
 ### [Executando OCR em imagem com Aspose.OCR para Java – Guia passo a passo](./perform-ocr-on-image-with-aspose-ocr-java-step-by-step-guide/)
 Aprenda a executar OCR em imagens com Aspose.OCR para Java através de um guia passo a passo simples e eficaz.

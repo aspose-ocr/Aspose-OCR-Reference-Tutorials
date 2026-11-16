@@ -140,6 +140,8 @@ Lär dig hur du korrigerar fel i handskrivna anteckningar med Aspose OCR för Ja
 
 
 
+### [Hur du känner igen text från bild i Java med Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Lär dig hur du med Aspose OCR extraherar text från bilder i Java för snabb och exakt igenkänning.
 
 
 

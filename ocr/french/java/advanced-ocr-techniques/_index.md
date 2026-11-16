@@ -159,6 +159,8 @@ Apprenez à transformer des PDF scannés en fichiers PDF consultables avec Aspos
 
 
 
+### [Comment reconnaître le texte d'une image en Java avec Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Apprenez à extraire le texte d'une image en Java avec Aspose OCR grâce à ce guide complet.
 
 
 

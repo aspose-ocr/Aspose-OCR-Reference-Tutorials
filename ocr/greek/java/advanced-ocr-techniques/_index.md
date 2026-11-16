@@ -274,6 +274,9 @@ url: /el/java/advanced-ocr-techniques/
 
 ### [Αναγνώριση κειμένου από εικόνα σε Java – πλήρης οδηγός OCR](./recognize-text-from-image-in-java-complete-ocr-guide/)
 Πλήρης οδηγός OCR για Java που εξηγεί πώς να αναγνωρίζετε κείμενο από εικόνες με ακρίβεια και ευκολία.
+### [Πώς να αναγνωρίσετε κείμενο από εικόνα σε Java χρησιμοποιώντας το Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Μάθετε πώς να αναγνωρίζετε κείμενο από εικόνα με Java και Aspose OCR. Αυτός ο οδηγός δείχνει επίσης πώς να εξάγετε κείμενο από jpg και πώς να βελτιώσετε την ακρίβεια του OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

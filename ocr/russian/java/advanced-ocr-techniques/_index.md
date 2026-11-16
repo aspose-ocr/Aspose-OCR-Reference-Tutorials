@@ -142,8 +142,8 @@ Aspose.OCR для Java меняет правила игры, когда дело
 
 
 
-
-
+### [Как распознать текст с изображения в Java с помощью Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Пошаговое руководство по распознаванию текста с изображения в Java с использованием Aspose OCR.
 ### [Как включить GPU для OCR в Java – Полное руководство](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Узнайте, как активировать GPU для ускорения OCR в Java с помощью Aspose.OCR, следуя пошаговому полному руководству.
 ### [Как выполнить OCR изображения в Java – Рукописные заметки с проверкой орфографии](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)

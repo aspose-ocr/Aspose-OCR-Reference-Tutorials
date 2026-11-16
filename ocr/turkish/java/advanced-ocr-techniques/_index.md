@@ -61,6 +61,9 @@ Java OCR performansını artırmak için GPU'yu nasıl etkinleştireceğinizi ad
 
 Aspose.OCR for Java ile gelişmiş OCR tekniklerinde uzmanlaşmak hiç bu kadar kolay olmamıştı. Bu eğitimlere dalın ve Java projelerinizde metin tanımanın tam potansiyelini ortaya çıkarın. Sorunsuz entegrasyon, yüksek doğruluk ve çok yönlü metin çıkarma yetenekleriyle uygulamalarınızı geliştirin. Hemen indirin ve Aspose.OCR for Java ile OCR mükemmelliğine doğru ilk adımı atın!
 ## Gelişmiş OCR Teknikleri Eğitimleri
+### [How to recognize text from image in Java using Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+
+
 ### [Aspose.OCR for Java'da BufferedImage üzerinde OCR gerçekleştirme](./perform-ocr-buffered-image/)
 
 Aspose.OCR for Java ile BufferedImage üzerinde zahmetsizce OCR gerçekleştirin. Görüntülerden metni sorunsuz bir şekilde çıkarın. Çok yönlü bir metin tanıma deneyimi için hemen indirin.

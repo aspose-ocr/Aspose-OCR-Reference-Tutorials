@@ -304,6 +304,9 @@ Dowiedz się, jak zwiększyć kontrast obrazu przed OCR w Javie, aby poprawić d
 ### [Kompresja obrazów PDF w Javie – Kompletny przewodnik po wsadowym OCR do PDF](./compress-pdf-images-with-java-full-batch-ocr-to-pdf-guide/)
 Szybko skompresuj obrazy w plikach PDF i wykonaj wsadowe OCR, generując gotowe PDFy w Javie.
 
+### [Jak rozpoznać tekst z obrazu w Javie przy użyciu Aspose OCR](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Dowiedz się, jak w Javie rozpoznawać tekst z obrazów przy użyciu biblioteki Aspose OCR.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

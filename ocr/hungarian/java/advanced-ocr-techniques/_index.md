@@ -110,6 +110,7 @@ Fedezze fel, hogyan javíthatja a kézírásos jegyzetek OCR-eredményeit az Asp
 Tanulja meg, hogyan konvertálhat beolvasott PDF-eket kereshető PDF formátumba az Aspose.OCR for Java segítségével.
 
 ## [GPU engedélyezése OCR-hez Java-ban – Teljes útmutató](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
+### [GPU engedélyezése OCR-hez Java-ban – Teljes útmutató](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 
 ### [Hogyan végezzünk OCR-t képen Java-ban – kézírásos jegyzetek helyesírás-ellenőrzéssel](./how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
 OCR használata kézírásos jegyzetekhez Java-ban, beépített helyesírás-ellenőrzéssel a pontos szövegkivonásért.
@@ -134,7 +135,7 @@ Tanulja meg, hogyan végezhet OCR-t képen az Aspose OCR Java használatával, r
 ### [Hogyan kiegyenesítsük a képet OCR-hez – Teljes Java előfeldolgozási útmutató](./how-to-deskew-image-for-ocr-complete-java-pre-processing-gui/)
 
 ### [Képről szöveg kinyerése az Aspose OCR – Java útmutató](./extract-text-from-image-with-aspose-ocr-java-guide/)
-Tanulja meg, hogyan nyerhet ki szöveget képekről az Aspose OCR Java használatával, részletes lépésről-lépésre útmutatóval.
+Tanulja meg, hogyan nyerhet ki szöveget képekről az Aspose OCR Java használatával, részletes lépésről‑lépésre útmutatóval.
 
 ### [Képek nyelvének felismerése az Aspose OCR – Java útmutató](./detect-language-image-with-aspose-ocr-java-tutorial/)
 Tanulja meg, hogyan ismerheti fel a képen lévő szöveg nyelvét az Aspose OCR Java segítségével.
@@ -280,9 +281,12 @@ Tanulja meg, hogyan növelheti a képek kontrasztját az OCR pontosságának jav
 Tanulja meg, hogyan tömörítheti a PDF képeket Java-val, és hajtson végre kötegelt OCR-t, hogy PDF-et hozzon létre magas pontossággal.
 ### [Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban az Aspose.OCR használatával](./how-to-enable-gpu-for-ocr-in-java-using-aspose-ocr/)
 Kapcsolja be a GPU-t az OCR-hez Java-ban az Aspose.OCR segítségével, és gyorsítsa fel a szövegkivonást nagy pontossággal.
+### [Szöveg felismerése képről Java-ban az Aspose OCR használatával](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
+Ismerje fel a szöveget képről Java-ban az Aspose OCR segítségével, részletes, lépésről‑lépésre útmutató.
 
 ### [Szöveg felismerése képről Java-ban – teljes OCR útmutató](./recognize-text-from-image-in-java-complete-ocr-guide/)
 Teljes körű útmutató a képről történő szövegfelismeréshez Java-ban, magas pontosságú OCR technikákkal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -153,6 +153,7 @@ Erfahren Sie, wie Sie mit Aspose.OCR für Java Text aus Bildern extrahieren und 
 Erfahren Sie, wie Sie mit Aspose.OCR für Java handschriftliche Notizen aus Bildern extrahieren und dabei eine Rechtschreibprüfung integrieren.
 ### [GPU für OCR in Java aktivieren – Komplettanleitung](./how-to-enable-gpu-for-ocr-in-java-complete-guide/)
 Erfahren Sie, wie Sie GPU-Beschleunigung für Aspose.OCR in Java aktivieren und die Texterkennungsgeschwindigkeit steigern.
+### [Wie man Text aus Bild in Java mit Aspose OCR erkennt](./how-to-recognize-text-from-image-in-java-using-aspose-ocr/)
 
 
 
