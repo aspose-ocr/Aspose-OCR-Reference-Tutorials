@@ -25,7 +25,8 @@ title: Cómo reconocer texto en C# con Aspose OCR – Mostrar recuento de caract
 url: /es/net/text-recognition/how-to-recognize-text-in-c-with-aspose-ocr-display-character/
 ---
 
-{{< blocks/products/pf/main-wrap-class >{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cómo reconocer texto en C# con Aspose OCR – Guía completa

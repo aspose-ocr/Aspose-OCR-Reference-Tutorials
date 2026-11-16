@@ -23,9 +23,8 @@ title: Jak provést OCR v C# – Extrahovat text a zapisovat JSON
 url: /cs/net/text-recognition/how-to-perform-ocr-in-c-extract-text-and-write-json/
 ---
 
-code identifiers.
 
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

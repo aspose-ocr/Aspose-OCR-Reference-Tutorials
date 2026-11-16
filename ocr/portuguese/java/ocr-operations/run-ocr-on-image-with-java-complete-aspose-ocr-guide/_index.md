@@ -23,7 +23,7 @@ title: Execute OCR em Imagem com Java – Guia Completo de OCR da Aspose
 url: /pt/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/
 ---
 
-output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

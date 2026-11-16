@@ -1,20 +1,29 @@
 ---
-date: 2026-05-19
-description: Ismerje meg, hogyan számítható ki az OCR az Aspose.OCR for .NET segítségével,
-  hogyan lehet szöveget kinyerni képekből és PDF-ekből, hogyan javítható az OCR sebessége,
-  és hogyan kezelhető a kézírás felismerése.
+date: 2026-09-08
+description: Ismerje meg, hogyan nyerhet ki szöveget képekből az Aspose.OCR for .NET
+  használatával, javíthatja az OCR sebességét, PDF-et konvertálhat képpé, előfeldolgozhatja
+  a képeket OCR-hez, és engedélyezheti a kézírás felismerését.
 keywords:
-- how to calculate ocr
+- extract text from images
+- handwriting recognition ocr
+- convert pdf to image
 - preprocess images for ocr
-- extract text from images .net
-- extract text from pdfs .net
+- improve ocr speed
+- extract text from pdf
+lastmod: 2026-09-08
 linktitle: Aspose.OCR for .NET oktatóanyagok
+og_description: Ismerje meg, hogyan nyerhet ki szöveget képekből az Aspose.OCR for
+  .NET használatával, javíthatja az OCR sebességét, PDF-et konvertálhat képpé, előfeldolgozhatja
+  a képeket OCR-hez, és engedélyezheti a kézírás felismerését.
+og_image_alt: 'Developer guide: extract text from images using Aspose.OCR for .NET'
+og_title: Szöveg kinyerése képekből az Aspose.OCR for .NET használatával
 schemas:
 - author: Aspose
-  dateModified: '2026-05-19'
-  description: Learn how to calculate OCR with Aspise.OCR for .NET, extract text from
-    images and PDFs, improve OCR speed, and handle handwriting recognition.
-  headline: How to Calculate OCR with Aspose.OCR for .NET
+  dateModified: '2026-09-08'
+  description: Learn how to extract text from images with Aspose.OCR for .NET, improve
+    OCR speed, convert PDF to image, preprocess images for OCR, and enable handwriting
+    recognition.
+  headline: How to extract text from images with Aspose.OCR for .NET
   type: TechArticle
 - questions:
   - answer: Apply image preprocessing (de‑noise, binarization) and correct the skew
@@ -34,7 +43,13 @@ schemas:
       preprocessing for better outcomes.
     question: Does Aspose.OCR support handwriting recognition?
   type: FAQPage
-title: Hogyan számítsuk ki az OCR-t az Aspose.OCR for .NET segítségével
+tags:
+- extract text from images
+- Aspose.OCR
+- .NET OCR
+- handwriting recognition
+- PDF conversion
+title: Hogyan lehet szöveget kinyerni képekből az Aspose.OCR for .NET segítségével
 url: /hu/net/
 weight: 10
 ---
@@ -43,115 +58,123 @@ weight: 10
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan számítsuk ki az OCR-t az Aspose.OCR for .NET segítségével
+# Hogyan lehet szöveget kinyerni képekből az Aspose.OCR for .NET segítségével
 
 ## Bevezetés
 
-Aspose.OCR for .NET egy .NET könyvtár, amely nyomtatott és kézírásos szöveget nyer ki képekből, PDF‑ekből és beolvasott dokumentumokból. Ha **hogyan számítsuk ki az OCR-t** pontosan a .NET projektjeiben, jó helyen jár. Ebben az útmutatóban áttekintjük a leggyakoribb forgatókönyveket – döntés szög korrigálása, kép‑ és rajzfelismerés, szövegkinyerés, konfiguráció és teljesítményhangolás. A végére pontosan **hogyan vonjunk ki szöveget** különböző képforrásokból, **szöveget vonjunk ki PDF‑ekből**, és **optimalizáljuk az OCR-t** a sebesség és pontosság érdekében. Emellett érintjük a **kézírás felismerés OCR**‑t és a **képek előfeldolgozása OCR‑hez** legjobb gyakorlatait.
+Aspose.OCR for .NET egy .NET könyvtár, amely nyomtatott és kézírásos szöveget nyer ki képekből, PDF‑ekből és beolvasott dokumentumokból. Ha pontos **szövegkinyerés képekből** megoldást keres .NET projektjeiben, jó helyen jár. Ebben az útmutatóban áttekintjük a leggyakoribb forgatókönyveket – ferde szög korrekció, kép‑ és rajzfelismerés, szövegkinyerés, konfiguráció és teljesítményhangolás. A végére pontosan tudni fogja, **hogyan kell szöveget kinyerni PDF‑ekből**, hogyan **elő kell készíteni a képeket OCR‑hez**, és hogyan **javítható az OCR sebessége** nagy léptékű feladatoknál. Emellett bemutatjuk a **kézírás felismerés OCR**-t és a **PDF képpé konvertálása** csővezetékek legjobb gyakorlatait.
 
 ## Gyors válaszok
-- **Mi az első lépés az OCR kiszámításához?** Igazítsa a képet és korrigálja a döntési szöget.  
-- **Melyik funkció von ki szöveget a rajzokból?** Az Image and Drawing Recognition modul.  
+- **Mi az első lépés az OCR számításához?** Igazítsa a képet és korrigálja a ferde szöget.  
+- **Melyik funkció nyeri ki a szöveget rajzokból?** Az Image and Drawing Recognition modul.  
 - **Hogyan javíthatom az OCR sebességét?** Használjon előfeldolgozó szűrőket és finomhangolja az OCR beállításokat.  
-- **Kiválaszthatok egy adott nyelvet?** Igen—használja az OCR nyelvválasztási lehetőséget.  
-- **Szükségem van licencre a termeléshez?** Érvényes Aspose licenc szükséges a kereskedelmi használathoz.
+- **Kiválaszthatok egy adott nyelvet?** Igen – használja az OCR nyelvválasztási opciót.  
+- **Szükség van licencre a termeléshez?** Érvényes Aspose licenc szükséges kereskedelmi használathoz.
 
 ## Mi az Aspose.OCR for .NET?
 
-Aspose.OCR for .NET egy .NET könyvtár, amely nyomtatott és kézírásos szöveget nyer ki képekből, PDF‑ekből és beolvasott dokumentumokból. Egyetlen hívásos API‑t biztosít, amely több mint 30 képformátumot olvas, több mint 50 nyelvet támogat, és akár 500 MB‑os fájlokat is feldolgozhat anélkül, hogy a teljes dokumentumot memóriába kellene tölteni. Ez ideálissá teszi nagy áteresztőképességű kötegelt feladatokhoz, valós‑idő képfeldolgozáshoz és vállalati szintű dokumentumdigitalizációhoz.
+Az Aspose.OCR for .NET egy .NET könyvtár, amely nyomtatott és kézírásos szöveget nyer ki képekből, PDF‑ekből és beolvasott dokumentumokból. Több mint 30 képformátumot, 50+ nyelvet támogat, és akár 500 MB‑os fájlokat is képes feldolgozni a teljes dokumentum memóriába töltése nélkül, lehetővé téve a nagy áteresztőképességű kötegelt feladatokat és a valós‑idő képfeldolgozást.
 
-## Hogyan számítsuk ki az OCR-t: Döntési szög számítása
+## Hogyan növeli a ferde szög korrekció az OCR pontosságát?
 
-Töltse be a képet, detektálja a döntési szöget, forgassa el a vásznat, majd adja a korrigált képet az OCR motorhoz. A döntés felismerése és korrigálása a leghatékonyabb módja a felismerési pontosság növelésének, mivel a szöveg alapvonalait a motor vízszintes vonalakra vonatkozó elvárásával igazítja. Gyakorlatban egy megfelelően kiegyenesített kép 15‑20 %-kal növelheti a karakter‑szintű pontosságot a nyers beolvasáshoz képest.
+A ferde szög korrigálása a szöveg alapvonalait a OCR motor vízszintes vonalakra vonatkozó elvárásával igazítja, ami 15‑20 %-kal növelheti a karakter‑szintű pontosságot egy nyers beolvasáshoz képest. A folyamat magában foglalja a szög detektálását, a vászon elforgatását, majd a korrigált kép átadását a motorba.
 
-## Kép- és rajzfelismerés
+## Hogyan nyerhet ki szöveget PDF‑ekből az Aspose.OCR használatával?
 
-Az Aspose.OCR nem csak egyszerű szöveget, hanem alakzatokat, diagramokat és kézírásos megjegyzéseket is fel tud ismerni. Ez a képesség lehetővé teszi, hogy **szöveget vonjunk ki a rajzokból** és vegyes tartalmú űrlapokból, átalakítva a mérnöki vázlatokat vagy a megjegyzésekkel ellátott nyugtákat kereshető adatokként. A motor megkülönbözteti a vektor‑alapú rajzokat és a raszteres szöveget, és külön eredménykészleteket ad mindkettőhöz.
+Konvertálja minden PDF oldalt egy képpé (pl. PNG), ha szükséges alkalmazza a ferde szög korrekciót, majd futtassa az OCR motort a képen. Ez a kétlépéses megközelítés megőrzi a layout hűségét, és lehetővé teszi kereshető szöveg kinyerését a beolvasott PDF‑ekből anélkül, hogy külön PDF‑to‑text könyvtárra lenne szükség.
+
+## Hogyan javítható az OCR sebessége előfeldolgozással?
+
+Alkalmazzon könnyű előfeldolgozást, például a érdeklődési területekre történő vágást, szürkeárnyalatos konvertálást, és egy gyors binarizációs szűrőt. Ezek a lépések csökkentik a motor által elemzendő adat mennyiségét, gyakran 30‑40 %-kal csökkentve a feldolgozási időt, miközben megőrzik a pontosságot.
+
+## Kép‑ és rajzfelismerés
+
+Az `Image and Drawing Recognition` modul nem csak egyszerű szöveget, hanem alakzatokat, diagramokat és kézírásos megjegyzéseket is fel tud ismerni. Ez lehetővé teszi a **szöveg kinyerését rajzokból** és vegyes tartalmú űrlapokból, átalakítva a mérnöki vázlatokat vagy megjegyzésekkel ellátott nyugtákat kereshető adatoktá. A motor a vektor‑alapú rajzokat elválasztja a raszter szövegtől, és külön eredménykészleteket ad mindkettőhöz.
 
 ## Szövegfelismerés
 
-A pontos karakterdetektálás bármely OCR munkafolyamat szíve. Itt megvizsgáljuk a lehetőségeket a felismerési választások, nyers eredmények és JSON‑formátumú kimenetek megszerzéséhez. Megtanulja, **hogyan vonjunk ki szöveget** hatékonyan, és hogyan kezelje a többnyelvű dokumentumokat a beépített nyelvválasztási funkcióval.
+A pontos karakterdetektálás minden OCR munkafolyamat szíve. Itt megvizsgáljuk a lehetőségeket a felismerési választások, nyers eredmények és JSON‑formátumú kimenetek megszerzésére. Megtanulja, **hogyan kell hatékonyan kinyerni a szöveget**, és hogyan kezelje a többnyelvű dokumentumokat a beépített nyelvválasztási funkcióval.
 
 ## OCR konfiguráció
 
-A motor helyes konfigurálása órákat takaríthat meg a hibakeresésben. Kitérünk az archívumkezelésre, mappa feldolgozásra, **OCR language selection**‑re és lista műveletekre, amelyek lehetővé teszik az OCR futtatás testreszabását az Ön pontos igényei szerint. Például az API‑t egy teljes könyvtárra irányíthatja, megadhat egy vesszővel elválasztott nyelvlistát, és a motor automatikusan végigiterál minden fájlon.
+A motor helyes konfigurálása órákat takaríthat meg a hibakeresésben. Bemutatjuk az archívumkezelést, mappafeldolgozást, **OCR nyelvválasztást**, és a listaműveleteket, amelyekkel pontosan testre szabhatja az OCR futtatást. Például az API‑t egy teljes könyvtárra irányíthatja, megadhat egy vesszővel elválasztott nyelvlistát, és a motor automatikusan végigiterál minden fájlon.
 
 ## OCR optimalizálás
 
-A teljesítmény kulcsfontosságú, különösen nagy kötegeknél. Ez az útmutató bemutatja, hogyan készítsen elő képi téglalapokat, alkalmazzon előfeldolgozó szűrőket, futtasson helyesírás‑ellenőrzést az eredményeken, és mentse a többoldalas OCR kimeneteket – mindez bevált módszerek a **hogyan optimalizáljuk az OCR-t** mind pontosság, mind sebesség tekintetében. **Képek előfeldolgozása OCR‑hez** révén jelentős javulást fog látni az **OCR sebesség**‑ben is.
+A teljesítmény fontos, különösen nagy kötegeknél. Ez az útmutató elmagyarázza, hogyan kell előkészíteni a kép téglalapokat, alkalmazni előfeldolgozó szűrőket, helyesírás-ellenőrzést futtatni az eredményeken, és többoldalas OCR kimeneteket menteni – mindezek bevált módszerek az **OCR optimalizálására** a pontosság és a sebesség tekintetében. A **képek előfeldolgozásával OCR‑hez** észrevehető javulást fog látni az **OCR sebességben**.
 
 ## OCR beállítások
 
-A finomhangolt beállítások irányítást adnak a pontosság, sebesség és egyedi viselkedés felett. Tanulja meg, mely paramétereket kell módosítani különböző képminőségek, nyelvek és elrendezési összetettségek esetén. Például az `EnableLayoutPreservation` kapcsoló bekapcsolása megőrzi az oszlopstruktúrákat a beolvasott PDF‑ek kereshető PDF‑ekké konvertálásakor.
+A finomhangolt beállítások irányítást adnak a pontosság, a sebesség és az egyedi viselkedés felett. Tanulja meg, mely paramétereket kell módosítani különböző képminőségek, nyelvek és layout komplexitások esetén. Például az `EnableLayoutPreservation` kapcsoló bekapcsolása megőrzi az oszlopstruktúrákat a beolvasott PDF‑ek kereshető PDF‑ekké konvertálásakor.
 
 ## Miért fontos a kézírás felismerés
 
-A kézírás felismerés OCR lehetővé teszi, hogy kézírásos aláírásokat, jegyzeteket és űrlapbejegyzéseket rögzítsen, amelyeket a tisztán nyomtatott‑szöveg motorok egyébként figyelmen kívül hagynának. Ennek a funkciónak az engedélyezése, különösen zajcsökkentő szűrőkkel kombinálva, akár 30 %-kal is növelheti az adatgyűjtési arányt olyan helyzetekben, mint aláírt szerződések vagy terepen gyűjtött ellenőrzőlisták.
+A kézírásos OCR lehetővé teszi a kézírásos aláírások, jegyzetek és űrlapbejegyzések rögzítését, amelyeket a tisztán nyomtatott szöveg motorok egyébként figyelmen kívül hagynának. Ennek a funkciónak a engedélyezése, különösen zajcsökkentő szűrőkkel kombinálva, akár 30 %-kal is növelheti az adatgyűjtési arányt olyan helyzetekben, mint aláírt szerződések vagy terepen gyűjtött ellenőrzőlisták.
 
 ## Gyakori felhasználási esetek
 
-- **Számlafeldolgozás:** Szöveg kinyerése a beolvasott PDF‑ekből, döntés korrigálása, és sor‑elemek részleteinek kinyerése.  
+- **Számlafeldolgozás:** Szöveg kinyerése beolvasott PDF‑ekből, ferde szög korrekció, és sor‑elemek részleteinek kinyerése.  
 - **Űrlap digitalizálás:** Jelölőnégyzetek, aláírások és kézírásos jegyzetek felismerése.  
-- **Mérnöki rajzok:** Alkatrész számok és megjegyzések kinyerése összetett diagramokból.  
-- **Kötegelt archiválás:** OCR futtatása több ezer képen optimalizált beállításokkal a feldolgozási idő alacsonyan tartásához.
+- **Mérnöki rajzok:** Alkatrészszámok és megjegyzések kinyerése összetett diagramokból.  
+- **Kötegelt archiválás:** OCR futtatása több ezer képen optimalizált beállításokkal a feldolgozási idő alacsonyan tartása érdekében.
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-**K: Hogyan javíthatom az OCR pontosságát alacsony felbontású képeken?**  
-A: Alkalmazzon képelőfeldolgozást (zajcsökkentés, binarizálás) és korrigálja a döntési szöget a felismerés előtt.
+**Q: Hogyan javíthatom az OCR pontosságát alacsony felbontású képeken?**  
+A: Alkalmazzon kép előfeldolgozást (zajcsökkentés, binarizáció) és korrigálja a ferde szöget a felismerés előtt.
 
-**K: Lehetséges több nyelvet felismerni egyetlen dokumentumban?**  
-A: Igen—használja az OCR nyelvválasztási funkciót egy vesszővel elválasztott nyelvlistához.
+**Q: Lehetséges több nyelvet felismerni egyetlen dokumentumban?**  
+A: Igen – használja az OCR nyelvválasztási funkciót egy vesszővel elválasztott nyelvlista megadásához.
 
-**K: Mi a legjobb módja a szöveg kinyerésének PDF‑ekből, amelyek beolvasott oldalakat tartalmaznak?**  
-A: Alakítsa át minden PDF oldalt képpé, korrigálja a döntést, majd futtassa az Aspose.OCR‑t a megfelelő nyelvi beállításokkal.
+**Q: Mi a legjobb módja a szöveg kinyerésének olyan PDF‑ekből, amelyek beolvasott oldalakat tartalmaznak?**  
+A: Konvertálja minden PDF oldalt képpé, korrigálja a ferde szöget, majd futtassa az Aspose.OCR‑t a megfelelő nyelvi beállításokkal.
 
-**K: Futtathatok OCR‑t több szálas környezetben?**  
-A: Természetesen. Hozzon létre külön OCR objektumokat szálanként vagy használja az Aspose.OCR által biztosított szálbiztos statikus metódusokat.
+**Q: Futtathatok OCR‑t több szálas környezetben?**  
+A: Teljesen. Hozzon létre külön OCR objektumokat szálanként, vagy használja az Aspose.OCR által biztosított szálbiztos statikus metódusokat.
 
-**K: Támogatja az Aspose.OCR a kézírás felismerését?**  
-A: Az alapvető kézírás támogatott, de az eredmények változhatnak; fontolja meg a további előfeldolgozást a jobb eredményekért.
+**Q: Támogatja az Aspose.OCR a kézírás felismerését?**  
+A: Alapvető kézírás támogatott, de az eredmények változhatnak; fontolja meg további előfeldolgozást a jobb eredmények érdekében.
 
-**K: Hogyan vonjak ki a szöveget PDF‑ekből a layout megőrzésével?**  
-A: Használja az OCR beállításokat a layout megőrzéséhez, és adja ki az eredményeket kereshető PDF‑ként.
+**Q: Hogyan nyerhetek ki szöveget PDF‑ekből a layout megőrzése mellett?**  
+A: Használja az OCR Settings‑et a layout megőrzésének engedélyezéséhez, és adja ki az eredményeket kereshető PDF‑ként.
 
-**K: Mely előfeldolgozási lépések adnak a legnagyobb sebességjavulást?**  
-A: A érdeklődésre számító területek kivágása, szürkeárnyalatos konvertálás, és egy egyszerű binarizációs szűrő alkalmazása általában a leggyorsabb feldolgozási időt eredményezi.
+**Q: Mely előfeldolgozási lépések adnak a legnagyobb sebességjavulást?**  
+A: A érdeklődési területekre történő vágás, szürkeárnyalatos konvertálás, és egy egyszerű binarizációs szűrő alkalmazása általában a leggyorsabb feldolgozási időt eredményezi.
 
 ## Aspose.OCR for .NET oktatóanyagok
-### [Döntés Szög Számítása](./skew-angle-calculation/)
-Fedezze fel a pontos döntés szög számítás titkait az OCR képfelismerésben az Aspose.OCR for .NET segítségével. Növelje a pontosságot és a hatékonyságot könnyedén projektjeiben.
+### [Ferdeszög Számítás](./skew-angle-calculation/)
+Fedezze fel a pontos ferdeszög számítás titkait az OCR képfelismerésben az Aspose.OCR for .NET segítségével. Növelje a pontosságot és a hatékonyságot könnyedén projektjeiben.
 
-### [Kép- és rajzfelismerés](./image-and-drawing-recognition/)
-Fedezze fel az OCR képfelismerés pontosságát az Aspose.OCR for .NET segítségével. Könnyedén vonjon ki szöveget képekből, legyen szó vonalakról, bekezdésekről vagy teljes áramlásokról. Merüljön el oktatóanyagainkban lépésről‑lépésre útmutatással.
+### [Kép és Rajzfelismerés](./image-and-drawing-recognition/)
+Szabadítsa fel az OCR képfelismerés pontosságát az Aspose.OCR for .NET segítségével. Könnyedén nyerjen ki szöveget képekből, legyen szó vonalakról, bekezdésekről vagy teljes áramlásokról. Merüljön el oktatóanyagainkban a lépésről‑lépésre útmutatóért.
 
 ### [Szövegfelismerés](./text-recognition/)
-Emelje .NET alkalmazásait az Aspose.OCR segítségével a pontos karakterfelismeréshez. Fedezze fel a lépésről‑lépésre oktatóanyagokat a választási lehetőségek, eredmények és JSON formátumok megszerzéséhez az OCR képfelismerésben.
+Emelje .NET alkalmazásait az Aspose.OCR segítségével a pontos karakterfelismeréshez. Fedezze fel a lépésről‑lépésre útmutatókat a választások, eredmények és JSON formátumok megszerzéséhez az OCR képfelismerésben.
 
-### [OCR konfiguráció](./ocr-configuration/)
-Nyissa meg az OCR képességeket .NET alkalmazásokban az Aspose.OCR-rel. Fedezze fel az archiválás, mappa, nyelvválasztás és lista műveletek oktatóanyagait. Növelje alkalmazása szövegkinyerését zökkenőmentesen.
+### [OCR Konfiguráció](./ocr-configuration/)
+Nyissa meg az OCR képességeket .NET alkalmazásokban az Aspose.OCR segítségével. Fedezze fel az archívum, mappa, nyelvválasztás és listaműveletek oktatóanyagait. Növelje alkalmazása szövegkinyerését zökkenőmentesen.
 
-### [OCR optimalizálás](./ocr-optimization/)
-Maximalizálja az OCR pontosságát az Aspose.OCR for .NET oktatóanyagokkal. Hajtsa végre az OCR‑t képeken, készítsen téglalapokat, alkalmazzon előfeldolgozó szűrőket, javítsa az eredményeket helyesírás‑ellenőrzéssel, és mentse a többoldalas eredményeket könnyedén.
+### [OCR Optimalizálás](./ocr-optimization/)
+Maximalizálja az OCR pontosságát az Aspose.OCR for .NET oktatóanyagokkal. Végezzen OCR‑t képeken, készítsen elő téglalapokat, alkalmazzon előfeldolgozó szűrőket, javítsa az eredményeket helyesírás-ellenőrzéssel, és mentse a többoldalas eredményeket könnyedén.
 
-### [OCR beállítások](./ocr-settings/)
-Fedezze fel az Aspose.OCR for .NET erejét OCR beállítási oktatóanyagainkkal. Tanulja meg a pontosság, sebesség és testreszabás javítását a képek szövegfelismeréséhez.
+### [OCR Beállítások](./ocr-settings/)
+Fedezze fel az Aspose.OCR for .NET erejét OCR Beállítások oktatóanyagainkkal. Tanulja meg, hogyan növelheti a pontosságot, a sebességet és a testreszabhatóságot a képek szövegfelismerésében.
 
 ---
 
-**Last Updated:** 2026-05-19  
+**Last Updated:** 2026-09-08  
 **Tested With:** Aspose.OCR for .NET 24.11  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó oktatóanyagok
 
-- [Szöveg kinyerése képből – OCR optimalizálás az Aspose.OCR for .NET segítségével](/ocr/net/ocr-optimization/)
-- [Szöveg képek kinyerése – OCR beállítások](/ocr/net/ocr-settings/)
+- [Kép szövegének kinyerése – OCR optimalizálás az Aspose.OCR for .NET segítségével](/ocr/net/ocr-optimization/)
+- [Kép szövegének kinyerése – OCR beállítások](/ocr/net/ocr-settings/)
 - [Kép OCR előfeldolgozása Aspose.OCR szűrőkkel .NET számára](/ocr/net/ocr-optimization/preprocessing-filters-for-image/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

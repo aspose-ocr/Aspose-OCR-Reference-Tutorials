@@ -23,17 +23,12 @@ title: Hoe OCR in C# uit te voeren – Tekst extraheren en JSON schrijven
 url: /nl/net/text-recognition/how-to-perform-ocr-in-c-extract-text-and-write-json/
 ---
 
-’s the limit once you’ve mastered the basics of OCR in C#."
 
-Translate.
 
-Next: "If you ran into any snags or have ideas for further extensions, drop a comment below. Happy coding, and enjoy turning those pixelated scans into clean, searchable data!" translate.
 
-Then closing shortcodes.
 
-Make sure to keep placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

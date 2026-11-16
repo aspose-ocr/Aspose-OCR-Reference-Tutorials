@@ -22,25 +22,16 @@ title: C#'ta OCR Nasıl Kullanılır – Görüntülerden Metin Tanıma
 url: /tr/net/text-recognition/how-to-use-ocr-in-c-recognize-text-from-images/
 ---
 
-ize text from image* files but lack a clear, ready‑to‑run example.
 
-Translate: "OCR'yi nasıl kullanacağınızı" etc.
 
-Let's produce Turkish.
 
-Proceed.
 
-Also note to keep ** and * formatting.
 
-Let's craft translation.
 
-Will maintain bullet lists.
 
-Also code block placeholders remain.
 
-Make sure to keep blockquotes >.
 
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

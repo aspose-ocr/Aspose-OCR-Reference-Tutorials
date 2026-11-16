@@ -1,11 +1,11 @@
 ---
-date: 2025-12-19
+date: 2026-02-22
 description: Tanulja meg, hogyan lehet szöveget kinyerni a képből az Aspose.OCR for
-  .NET segítségével – lépésről‑lépésre útmutató a sorok felismeréséhez és a kép szöveggé
-  konvertálásához.
+  .NET használatával, PNG-t szöveggé konvertálni, és javítani az OCR pontosságát C#
+  alkalmazásokban.
 linktitle: Extract Text from Image – Recognize Line with Aspose.OCR
 second_title: Aspose.OCR .NET API
-title: Képből szöveg kinyerése – Sor felismerése az Aspose.OCR-rel
+title: Képből szöveg kinyerése – Sor felismerése az Aspose.OCR segítségével
 url: /hu/net/image-and-drawing-recognition/recognize-line/
 weight: 14
 ---
@@ -14,41 +14,45 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kép szövegének kinyerése – Sor felismerése az Aspose.OCR segítségével
+# Kép szövegének kinyerése – Sor felismerése az Aspose.OCR-rel
 
-## Bevezetés
+## Introduction
 
-Az optikai karakterfelismerés (OCR) lett a leggyakrabban használt megoldás a szöveges képek kereshető, szerkeszthető tartalommá alakításához. Ha gyorsan és megbízhatóan szeretne **extract text from image** fájlokból szöveget kinyerni, az Aspose.OCR for .NET egy erőteljes, fejlesztőbarát API-t kínál. Ebben az útmutatóban végigvezetjük mindent, amit tudni kell a képen lévő sorok felismeréséhez, azok egyszerű szöveggé konvertálásához és az eredmény megjelenítéséhez – mindezt tiszta, könnyen követhető C# kóddal.
+Az optikai karakterfelismerés (OCR) a szöveges képek kereshető, szerkeszthető tartalommá alakításának elsődleges megoldásává vált. Ha gyorsan és megbízhatóan szeretne **szöveget kinyerni képfájlokból**, az Aspose.OCR for .NET egy erőteljes, fejlesztőbarát API-t kínál, amely mind a teljes .NET Framework, mind a **ASP OCR .NET Core** projektekben működik. Ebben az útmutatóban végigvezetjük, hogyan ismerjen fel sorokat egy képen, hogyan konvertálja ezeket a sorokat egyszerű szöveggé, és hogyan jelenítse meg az eredményt – mindezt tiszta, könnyen követhető C# kóddal.
 
-## Gyors válaszok
-- **Mit csinál az Aspose.OCR?** Kinyomtatott vagy kézírásos szöveget olvas be képfájlokból, és egyszerű karakterláncokat ad vissza.  
-- **Mely képfájl formátumok támogatottak?** PNG, JPEG, BMP, GIF, TIFF és egyebek.  
-- **Szükségem van licencre a teszteléshez?** Egy ingyenes próba verzió működik fejlesztéshez; licenc szükséges a termeléshez.  
+## Quick Answers
+- **Az Aspose.OCR mit csinál?** Nyomtatott vagy kézírásos szöveget olvas be képfájlformátumokból, és egyszerű karakterláncokat ad vissza.  
+- **Mely képfájlformátumok támogatottak?** PNG, JPEG, BMP, GIF, TIFF és továbbiak.  
+- **Szükség van licencre a teszteléshez?** Ingyenes próba verzió használható fejlesztéshez; a termeléshez licenc szükséges.  
 - **Futtatható .NET Core-on?** Igen – a könyvtár támogatja a .NET Framework 4.5+, .NET Core 3.1+, .NET 5/6 verziókat.  
-- **Mennyi időt vesz igénybe egy egyszerű sor‑felismerés?** Általában kevesebb, mint egy másodperc egy szabványos PNG esetén.
+- **Mennyi időt vesz igénybe egy egyszerű sorfelismerés?** Általában egy másodpercnél kevesebb egy szabványos PNG esetén.
 
-## Mi az a “extract text from image”?
+## What is “extract text from image”?
 
-A képről történő szövegkinyerés azt jelenti, hogy OCR technológiát használunk a vizuális pixelek elemzésére, a karakterek azonosítására, és azok gép‑olvasható szövegként való kimenetére. Ez lehetővé teszi például a beolvasott dokumentumok digitalizálását, a nyugták adatbevitelének automatizálását, vagy kereshető archívumok létrehozását.
+A szöveg kinyerése egy képből azt jelenti, hogy OCR technológiát használunk a vizuális pixelek elemzésére, a karakterek azonosítására, és azok géppel olvasható szövegként való kiadására. Ez lehetővé teszi például beolvasott dokumentumok digitalizálását, nyugták adatbevitelének automatizálását, vagy kereshető archívumok létrehozását.
 
-## Miért használjuk az Aspose.OCR for .NET-et?
+## Why use Aspose.OCR for .NET?
 
-- **Magas pontosság** több nyelven és betűtípuson át.  
+- **Magas pontosság** több nyelven és betűtípusban.  
 - **Nincs külső függőség** – tiszta managed kód, könnyen integrálható.  
-- **Átfogó formátumtámogatás** – működik PNG, JPEG, BMP és egyebekkel.  
-- **Egyszerű API** – néhány kódsorral a képből a szövegig juthat.
+- **Átfogó formátumtámogatás** – működik PNG, JPEG, BMP és további formátumokkal.  
+- **Egyszerű API** – néhány kódsorral eljuthatsz a képből a szövegig.  
 
-## Előfeltételek
+### How does this help you **convert PNG to text**?
 
-Mielőtt belemerülnénk, győződjön meg róla, hogy rendelkezik a következőkkel:
+Mivel az Aspose.OCR közvetlenül képes PNG fájlok olvasására, egy beolvasott PNG képet átadhatsz a `RecognizeLine` metódusnak, és tiszta karakterláncot kapsz anélkül, hogy köztes konverziós lépésekre lenne szükség.
 
-- **Fejlesztői környezet** – Visual Studio 2022 (vagy bármely kedvelt .NET IDE).  
-- **Aspose.OCR for .NET** – töltse le a [download link](https://releases.aspose.com/ocr/net/) címről.  
-- **Dokumentum könyvtár** – egy mappa a gépén, ahol a mintakép (`sample_line.png`) található. Cserélje le a kódban a „Your Document Directory” szöveget a tényleges útvonalra.
+## Prerequisites
 
-## Névterek importálása
+Mielőtt elkezdenénk, győződj meg róla, hogy rendelkezel:
 
-.NET-ben a névterek hozzáférést biztosítanak a szükséges osztályokhoz. Adja hozzá ezeket a using utasításokat a C# fájl tetejéhez:
+- **Fejlesztői környezettel** – Visual Studio 2022 (vagy bármely kedvelt .NET IDE).  
+- **Aspose.OCR for .NET** – letöltheted a [letöltési hivatkozásról](https://releases.aspose.com/ocr/net/).  
+- **Dokumentum könyvtárral** – egy mappával a gépeden, ahol a mintakép (`sample_line.png`) található. A kódban cseréld le a „Your Document Directory” szöveget a tényleges útvonalra.
+
+## Import Namespaces
+
+.NET-ben a névterek biztosítják a szükséges osztályok elérését. Add hozzá ezeket a using utasításokat a C# fájlod tetejére:
 
 ```csharp
 using System;
@@ -56,11 +60,11 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Hogyan nyerjünk ki szöveget képből az Aspose.OCR használatával
+## How to extract text from image using Aspose.OCR
 
-Az alábbiakban a lépésről‑lépésre megvalósítás található. Minden kódrészlet változatlan az eredeti útmutatóból, biztosítva, hogy a pontos logika érintetlen maradjon.
+Az alábbiakban a lépésről‑lépésre megvalósítás található. Minden kódrészlet változatlan az eredeti útmutatóból, biztosítva, hogy a logika pontosan megmaradjon.
 
-### 1. lépés: Az Aspose.OCR inicializálása
+### Step 1: Initializing Aspose.OCR
 
 ```csharp
 // ExStart:1
@@ -72,9 +76,9 @@ AsposeOcr api = new AsposeOcr();
 // ExEnd:1
 ```
 
-> **Pro tip:** Használjon abszolút útvonalat vagy a `Path.Combine`‑t, hogy elkerülje az útvonal‑elválasztó problémákat különböző operációs rendszerek között.
+> **Pro tipp:** Használj abszolút útvonalat vagy a `Path.Combine`-t, hogy elkerüld az útvonal‑elválasztó problémákat különböző operációs rendszerek között.
 
-### 2. lépés: Képsorok felismerése
+### Step 2: Recognizing Image Lines
 
 ```csharp
 // ExStart:3
@@ -83,9 +87,9 @@ string result = api.RecognizeLine(dataDir + "sample_line.png");
 // ExEnd:3
 ```
 
-A `RecognizeLine` metódus egyetlen szövegsorra fókuszál, ami ideálissá teszi, ha ismeri a kép elrendezését.
+A `RecognizeLine` metódus egyetlen szövegsorra fókuszál, így ideális, ha ismered a kép elrendezését. Emellett nagyszerű módja a **beolvasott képszöveg olvasásának**, ha a dokumentum egy fontos adatot tartalmazó egyetlen sorból áll.
 
-### 3. lépés: Felismert szöveg megjelenítése
+### Step 3: Displaying Recognized Text
 
 ```csharp
 // ExStart:4
@@ -94,9 +98,9 @@ Console.WriteLine(result);
 // ExEnd:4
 ```
 
-A program futtatása kiírja a kinyert sort a konzolra, megerősítve, hogy a **extract text from image** művelet sikeres volt.
+A program futtatása kiírja a kinyert sort a konzolra, ezzel megerősítve, hogy a **szöveg kinyerése képből** művelet sikeres volt.
 
-### 4. lépés: Befejezési üzenet
+### Step 4: Completion Message
 
 ```csharp
 Console.WriteLine("RecognizeLine executed successfully");
@@ -104,45 +108,54 @@ Console.WriteLine("RecognizeLine executed successfully");
 
 Ennek az üzenetnek a megjelenése azt jelenti, hogy az OCR folyamat hibamentesen befejeződött.
 
-## Gyakori problémák és megoldások
+## How to improve OCR accuracy with Aspose.OCR?
+
+- **Használj nagy felbontású képeket** (300 dpi vagy magasabb).  
+- **Alkalmazz képelőfeldolgozást** például binarizálást vagy zajeltávolítást a `api.PreprocessImage` segítségével.  
+- **Válaszd ki a megfelelő nyelvet** a `api.Language = OcrLanguage.English;` (vagy a megfelelő nyelvi enum) használatával.  
+- **Vágd le a szegélyeket**, hogy eltávolítsd a nem releváns háttért.  
+
+Ezek a finomhangolások segítenek **javítani az OCR pontosságát**, különösen alacsony minőségű beolvasások esetén.
+
+## Common Issues & Solutions
 
 | Probléma | Ok | Megoldás |
 |----------|----|----------|
-| `FileNotFoundException` | Helytelen `dataDir` útvonal | Ellenőrizze a mappa útvonalát, és győződjön meg arról, hogy a `sample_line.png` létezik. |
-| Poor accuracy | Alacsony felbontású kép | Használjon nagyobb felbontású forrást vagy előfeldolgozza a képet (pl. binarizálás). |
-| Unsupported format | A kép nincs a támogatott listán | Konvertálja a képet PNG vagy JPEG formátumba a `RecognizeLine` hívása előtt. |
+| `FileNotFoundException` | Helytelen `dataDir` útvonal | Ellenőrizd a mappa útvonalát, és győződj meg róla, hogy a `sample_line.png` létezik. |
+| Rossz pontosság | Alacsony felbontású kép | Használj nagyobb felbontású forrást vagy előfeldolgozd a képet (pl. binarizálás). |
+| Nem támogatott formátum | A kép nincs a támogatott listán | Konvertáld a képet PNG vagy JPEG formátumba, mielőtt meghívod a `RecognizeLine`-t. |
 
-## Gyakran Ismételt Kérdések
+## Frequently Asked Questions
 
-### Q1: Az Aspose.OCR kompatibilis minden képfájl formátummal?
+### Q1: Is Aspose.OCR compatible with all image formats?
 
-A1: Az Aspose.OCR számos képfájl formátumot támogat, többek között PNG, JPEG, GIF, BMP és egyebek. Tekintse meg a [documentation](https://reference.aspose.com/ocr/net/) részletes listáját.
+A1: Az Aspose.OCR széles körű képfájlformátumot támogat, többek között PNG, JPEG, GIF, BMP és továbbiak. A részletes listaért lásd a [dokumentációt](https://reference.aspose.com/ocr/net/).
 
-### Q2: Használhatom az Aspose.OCR‑t kereskedelmi projektekhez a próbaidőszak alatt?
+### Q2: Can I use Aspose.OCR for commercial projects during the trial period?
 
-A2: Igen, a próbaidőszak alatt kereskedelmi projektekben is felfedezheti az Aspose.OCR képességeit. Hosszabb használathoz fontolja meg a [licenc vásárlását](https://purchase.aspose.com/buy).
+A2: Igen, a próbaidőszak alatt kereskedelmi projektekben is felfedezheted az Aspose.OCR lehetőségeit. Hosszabb használathoz fontold meg a [licenc megvásárlását](https://purchase.aspose.com/buy).
 
-### Q3: Hogyan kérhetek segítséget vagy járulhatok hozzá az Aspose.OCR közösséghez?
+### Q3: How do I seek help or contribute to the Aspose.OCR community?
 
-A3: Csatlakozzon az élénk Aspose.OCR közösséghez a [support forum](https://forum.aspose.com/c/ocr/16) oldalon segítségért és együttműködésért.
+A3: Kapcsolatba léphetsz az élénk Aspose.OCR közösséggel a [támogatási fórumon](https://forum.aspose.com/c/ocr/16) segítség és együttműködés érdekében.
 
-### Q4: Elérhetők ideiglenes licencek az Aspose.OCR-hez?
+### Q4: Are temporary licenses available for Aspose.OCR?
 
-A4: Igen, ideiglenes licenceket szerezhet az Aspose.OCR-hez a funkciók kipróbálásához. További információkért látogasson el [ide](https://purchase.aspose.com/temporary-license/).
+A4: Igen, ideiglenes licenceket szerezhetsz az Aspose.OCR-hez a funkciók kipróbálásához. További részletekért látogasd meg [ezt a linket](https://purchase.aspose.com/temporary-license/).
 
-### Q5: Mik a rendszerkövetelmények az Aspose.OCR for .NET-hez?
+### Q5: What are the system requirements for Aspose.OCR for .NET?
 
-A5: Tekintse meg a [documentation](https://reference.aspose.com/ocr/net/) részletes rendszerkövetelményeit.
+A5: A teljes rendszerkövetelményekért lásd a [dokumentációt](https://reference.aspose.com/ocr/net/).
 
-## Összegzés
+## Conclusion
 
-Ezeknek a lépéseknek a követésével megtanulta, hogyan **extract text from image** fájlokat használjon az Aspose.OCR for .NET segítségével, különösen az egyedi sorok felismerését. Ez a képesség lehetővé teszi az adatgyűjtés automatizálását, kereshető archívumok létrehozását, és az OCR integrálását bármely .NET alkalmazásba.
+A lépések követésével megtanultad, hogyan **nyerj ki szöveget képfájlokból** az Aspose.OCR for .NET segítségével, különösen az egyes sorok felismerésével. Ez a képesség lehetővé teszi az adatgyűjtés automatizálását, kereshető archívumok létrehozását, és az OCR integrálását bármely .NET alkalmazásba – legyen szó a teljes keretrendszerről vagy a **ASP OCR .NET Core**-ról.
 
 ---
 
-**Utolsó frissítés:** 2025-12-19  
-**Tesztelve:** Aspose.OCR 24.12 for .NET  
-**Szerző:** Aspose  
+**Last Updated:** 2026-02-22  
+**Tested With:** Aspose.OCR 24.12 for .NET  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

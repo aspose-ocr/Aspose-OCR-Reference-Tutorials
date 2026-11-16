@@ -214,8 +214,6 @@ class Program
 
 ---
 
-![如何批次 OCR 示例](alt="how to batch OCR example")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

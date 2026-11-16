@@ -22,9 +22,7 @@ title: 使用 C# 从 PNG 中提取文本图像 – 使用 Aspose OCR 进行批�
 url: /zh/net/ocr-optimization/extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/
 ---
 
-placeholders unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

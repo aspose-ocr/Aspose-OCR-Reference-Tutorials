@@ -24,15 +24,10 @@ title: 'Aspose का उपयोग कैसे करें: छवियो
 url: /hi/python/general/how-to-use-aspose-recognize-handwritten-text-from-images/
 ---
 
-we should keep **Pro tip:** unchanged but translate rest. So blockquote becomes:
 
-> **Pro tip:** अपने लाइसेंस फ़ाइल को सुरक्षित स्थान पर रखें और एप्लिकेशन स्टार्ट‑अप पर एक बार लोड करें ताकि बार‑बार I/O से बचा जा सके।
 
-Similarly for other blockquotes.
 
-Now produce final content with all translations.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

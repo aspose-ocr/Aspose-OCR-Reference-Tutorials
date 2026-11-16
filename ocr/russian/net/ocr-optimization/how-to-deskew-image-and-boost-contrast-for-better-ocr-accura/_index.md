@@ -256,6 +256,8 @@ foreach (var region in ocrResult.Regions)
 ![пример выравнивания изображения](deskew_example.png)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

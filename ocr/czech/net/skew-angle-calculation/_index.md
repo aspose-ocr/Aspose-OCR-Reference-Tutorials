@@ -50,6 +50,16 @@ Kompletní návod, jak v C# odstranit zkosení obrázku před OCR, včetně krok
 Objevte kompletní návod na předzpracování obrázků v C# pro OCR, včetně korekce zkosení a zvýšení přesnosti rozpoznávání.
 ### [Odstranit zkosení z obrázku – Kompletní průvodce předzpracováním OCR](./remove-skew-from-image-complete-ocr-pre-processing-guide/)
 Získejte kompletní návod, jak odstranit zkosení z obrázku před OCR pomocí Aspose.OCR pro .NET a zlepšit přesnost rozpoznávání.
+### [Jak vyrovnat obrázek a vyčistit skeny – kompletní průvodce v C#](./how-to-deskew-image-and-clean-up-scans-complete-c-guide/)
+Kompletní průvodce v C# pro vyrovnání zkosených obrázků a čištění skenů pomocí Aspose.OCR.
+### [Jak odstranit zkosení obrázku v C# – Kompletní průvodce pomocí Aspose OCR](./how-to-deskew-image-in-c-complete-guide-using-aspose-ocr/)
+Naučte se, jak pomocí Aspose OCR v C# snadno odstranit zkosení obrázku a zlepšit přesnost OCR.
+### [Jak vyrovnat obrázek v C# pomocí Aspose OCR – Kompletní průvodce](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
+Objevte podrobný návod, jak pomocí Aspose OCR v C# odstranit zkosení obrázku a zlepšit přesnost rozpoznávání textu.
+### [Jak deskewovat obrázek pomocí Aspose OCR – Kompletní průvodce C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Objevte kompletní průvodce deskewováním obrázků v C# s Aspose OCR a zvyšte přesnost rozpoznávání textu.
+### [OCR tutoriál pro otočený dokument – automatické opravy zkosení a rotace v C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Naučte se automaticky odhalit a opravit zkosení a rotaci dokumentů pomocí Aspose.OCR pro .NET v C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

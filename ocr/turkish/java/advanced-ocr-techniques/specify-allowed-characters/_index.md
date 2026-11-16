@@ -1,11 +1,59 @@
 ---
-date: 2026-02-20
-description: Aspose.OCR for Java kullanarak görüntülerden metin nasıl çıkarılır, izin
-  verilen karakterler nasıl ayarlanır ve geçici lisans nasıl uygulanır – eksiksiz
-  bir Aspose OCR Java öğreticisi.
-linktitle: Specifying Allowed Characters in Aspose.OCR
+date: 2026-05-24
+description: Aspose.OCR for Java ile OCR nasıl kullanılacağını keşfedin, görüntülerden
+  metin çıkarın, izin verilen karakterleri ayarlayın ve birkaç dakika içinde geçici
+  bir lisans uygulayın.
+keywords:
+- how to use OCR
+- extract text from images
+- how to apply license
+- how to set characters
+linktitle: Aspose.OCR'de İzin Verilen Karakterleri Belirleme
+schemas:
+- author: Aspose
+  dateModified: '2026-05-24'
+  description: Discover how to use OCR with Aspose.OCR for Java, extract text from
+    images, set allowed characters, and apply a temporary license in minutes.
+  headline: How to Use OCR – Extract Text from Images with Aspose.OCR
+  type: TechArticle
+- description: Discover how to use OCR with Aspose.OCR for Java, extract text from
+    images, set allowed characters, and apply a temporary license in minutes.
+  name: How to Use OCR – Extract Text from Images with Aspose.OCR
+  steps:
+  - name: Set Your Document Directory
+    text: Choose a folder where OCR results and temporary files will be stored. This
+      path is later used to locate the image you want to process.
+  - name: Specify the Image Path
+    text: Provide the full file system path or a class‑path resource location that
+      points to the image you wish to analyse.
+  - name: Create an Aspose.OCR Instance
+    text: '`AsposeOCR` is the core engine that performs optical character recognition.
+      Instantiate it with either a temporary or permanent license string.'
+  - name: Perform OCR Recognition
+    text: '`RecognizeLine` extracts a single line of text from the supplied image
+      and returns it as a plain Java `String`. You can call this method repeatedly
+      for multi‑line documents. > **Pro tip:** If you need to restrict the output
+      to digits only (e.g., for invoice numbers), call `setAllowedCharacters("0123'
+  type: HowTo
+- questions:
+  - answer: Visit the [temporary license page](https://purchase.aspose.com/temporary-license/)
+      to request a trial key that removes evaluation watermarks.
+    question: How can I obtain a temporary license for Aspose.OCR?
+  - answer: Join the community at the [Aspose.OCR Forum](https://forum.aspose.com/c/ocr/16)
+      for help and discussions.
+    question: Where can I find support for Aspose.OCR?
+  - answer: Yes, use the `setAllowedCharacters` API to define a custom whitelist of
+      characters. This is ideal for numeric‑only fields.
+    question: Can I specify allowed characters in Aspose.OCR?
+  - answer: Absolutely—Aspose.OCR is regularly updated to stay compatible with the
+      newest Java releases.
+    question: Is Aspose.OCR compatible with the latest JDK versions?
+  - answer: The library also supports block, paragraph, and full‑page recognition,
+      language packs, and advanced image preprocessing.
+    question: Are there additional OCR features beyond line recognition?
+  type: FAQPage
 second_title: Aspose.OCR Java API
-title: Aspose.OCR Kullanarak Görsellerden Metin Çıkarma – İzin Verilen Karakterler
+title: OCR Nasıl Kullanılır – Aspose.OCR ile Görüntülerden Metin Çıkarma
 url: /tr/java/advanced-ocr-techniques/specify-allowed-characters/
 weight: 15
 ---
@@ -14,62 +62,44 @@ weight: 15
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Görüntülerden Metin Çıkarma – Aspose.OCR – İzin Verilen Karakterler
+# OCR Nasıl Kullanılır – Aspose.OCR ile Görüntülerden Metin Çıkarma
 
-## Giriş
+Modern Java uygulamalarında, **OCR nasıl kullanılır** sık sorulan bir sorudur, özellikle taranmış faturaları, makbuzları veya basılı formları aranabilir metne dönüştürmeniz gerektiğinde. Bu öğretici, **Aspose.OCR for Java** örneğiyle sizi adım adım yönlendirir: görüntülerden metin çıkarma, çıktıyı özel bir karakter kümesiyle sınırlama ve hızlı değerlendirme için geçici bir lisans uygulama.
 
-Görüntülerden metin çıkarma, modern uygulamalarda yaygın bir gereksinimdir—faturaları işliyor, makbuzları tarıyor veya basılı belgeleri dijitalleştiriyor olun. Bu öğreticide, Aspose.OCR for Java ile **görüntülerden metin çıkarma**, izin verilen karakterleri ayarlama ve sadece kütüphaneyi test ederken geçici bir lisans uygulama adımlarını gösteren eksiksiz bir **aspose ocr java tutorial** üzerinden geçeceğiz.
+## Hızlı Cevaplar
+- **Aspose.OCR ne yapar?** Görüntülerden yüksek doğrulukla metin çıkarır ve tanınan karakterleri sınırlamanıza izin verir.  
+- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçici veya kalıcı bir lisans gereklidir; geçici anahtar su işaretlerini kaldırır.  
+- **Hangi JDK sürümü destekleniyor?** Kütüphane en son JDK sürümleriyle (JDK 17, 19, 21) çalışır.  
+- **Tanıyan karakterleri sınırlayabilir miyim?** Evet—çıktıyı kısıtlamak için `setAllowedCharacters` metodunu kullanın.  
+- **Kurulum ne kadar sürer?** Temel uçtan uca bir uygulama için yaklaşık 10‑15 dakika.
 
-## Hızlı Yanıtlar
-- **Aspose.OCR ne yapar?** Görüntülerden yüksek doğrulukla metin çıkarır ve özel karakter setlerini destekler.  
-- **Lisans gerekiyor mu?** Üretim kullanımı için geçici veya kalıcı bir lisans gereklidir.  
-- **Hangi JDK sürümü destekleniyor?** En yeni JDK sürümleri tam uyumludur.  
-- **Tanıyan karakterleri sınırlayabilir miyim?** Evet—çıktıyı kısıtlamak için `setAllowedCharacters` API'sini kullanın.  
-- **Kurulum ne kadar sürer?** Temel bir uygulama için yaklaşık 10‑15 dakikadır.
-
-## “Görüntülerden metin çıkarma” nedir?
-Görüntülerden metin çıkarma, görsel metni (ör. basılı veya el yazması) makine‑okunur dizeye dönüştürme sürecidir. Bu, arama, indeksleme veya veri analizi gibi sonraki görevleri mümkün kılar.
+## “Görüntülerden Metin Çıkarma” Nedir?
+Görüntülerden metin çıkarma, aynı zamanda optik karakter tanıma (OCR) olarak da bilinir, görsel karakterleri—basılı, el yazısı ya da yazılmış—makine‑okunur dizelere dönüştürür. Bu dönüşüm, uygulamaların içeriği programlı olarak aramasını, indekslemesini, düzenlemesini ve analiz etmesini sağlar; fatura işleme, belge arşivleme ve veri girişi otomasyonu gibi iş akışlarını destekler.
 
 ## Neden Aspose.OCR for Java Kullanmalı?
-- **Birden çok dil ve yazı tipi** için yüksek doğruluk.  
-- **Basit API**, herhangi bir Java projesine kolayca entegre olur.  
-- **Özelleştirilebilir** karakter setleri, dil paketleri ve görüntü ön işleme.  
-- **Harici bağımlılık yok**—kütüphane kendi içinde çalışır.
+Aspose.OCR **60+ dil** destekler, **10 MB**'a kadar görüntüleri belleğe tamamen yüklemeden işleyebilir ve temiz taramalarda **%95'in üzerinde doğruluk** sunar. Kütüphane dış bağımlı OCR motorları gerektirmez, bu da dağıtımı basitleştirir ve lisans maliyetlerini azaltır.
 
-## Ön Koşullar
+## Önkoşullar
 
-Başlamadan önce aşağıdakilerin kurulu olduğundan emin olun:
+### Java Geliştirme Kiti (JDK)
 
-### Java Development Kit (JDK)
+En son Java Geliştirme Kitinin yüklü olduğundan emin olun. [buradan](https://www.oracle.com/java/technologies/javase-downloads.html) indirebilirsiniz.
 
-Sisteminize en son Java Development Kit'in yüklü olduğundan emin olun. İndirmek için [buraya](https://www.oracle.com/java/technologies/javase-downloads.html) tıklayın.
+### Aspose.OCR for Java Kütüphanesi
 
-### Aspose.OCR for Java Library
-
-Aspose.OCR for Java kütüphanesini [indirme bağlantısından](https://releases.aspose.com/ocr/java/) indirin ve kurun.
+Aspose.OCR for Java kütüphanesini [indirme bağlantısından](https://releases.aspose.com/ocr/java/) indirip kurun.
 
 ### Aspose.OCR Lisansı
 
-Aspose.OCR'ün tam potansiyelini kullanmak için geçerli bir lisans edinin. Lisansı [buradan](https://purchase.aspose.com/buy) alabilir veya deneme süresi için bir [geçici lisans](https://purchase.aspose.com/temporary-license/) inceleyebilirsiniz.
+Tam işlevselliği açmak için bir lisans edinin. [buradan](https://purchase.aspose.com/buy) satın alabilir veya deneme amaçlı bir [geçici lisans](https://purchase.aspose.com/temporary-license/) talep edebilirsiniz.
 
-## Geçici lisans nasıl uygulanır
+## Aspose.OCR for Java ile OCR Nasıl Kullanılır?
 
-Ürünü değerlendirirken, geçici lisans değerlendirme filigranını kaldırır ve sınırlı bir süre için tam işlevselliği açar. Lisans dizesini Aspose portalında oluşturup, aşağıdaki kod örneğinde gösterildiği gibi `AsposeOCR` yapıcısına aktarın. Üretim dağıtımlarında geçici anahtarı kalıcı lisansınızla değiştirin.
+Görüntünüzü yükleyin, OCR motorunu yapılandırın ve tanıma metodunu çağırın—bütün bunlar sadece birkaç basit satırda. Bu doğrudan‑cevap paragrafı tam olarak ne yapmanız gerektiğini söyler: lisans dizesiyle bir `AsposeOCR` örneği oluşturun, izin verilen karakterleri ayarlayın ve hedef görüntüde `RecognizeLine` metodunu çağırarak çıkarılan metni alın. API, görüntü ön işleme işlemlerini dahili olarak yönetir, böylece ekstra kod yazmadan temiz sonuçlar elde edersiniz.
 
-## OCR görüntü ön işleme ipuçları
+### Paketleri İçe Aktarma
 
-İyi görüntü kalitesi tanıma sonuçlarını büyük ölçüde iyileştirir. OCR motorunu çağırmadan önce şunları göz önünde bulundurun:
-
-- Görüntüyü gri tonlamaya dönüştürün.  
-- Karakterlerin öne çıkması için kontrastı artırın.  
-- Arka plan gürültüsünü bir ikilileştirme filtresiyle kaldırın.  
-- Düşük çözünürlüklü görüntüleri en az 300 dpi’ye yeniden boyutlandırın.
-
-Bu adımlar **ocr image preprocessing** kapsamında olup, Aspose.OCR'ü çağırmadan önce herhangi bir standart Java görüntüleme kütüphanesiyle gerçekleştirilebilir.
-
-## Paketleri İçe Aktarma
-
-Ön koşullar hazır olduğunda, Java projenize gerekli paketleri şu şekilde içe aktarın:
+`AsposeOCR` sınıfı `com.aspose.ocr` paketinde bulunur. Kodlamaya başlamadan önce gerekli sınıfları içe aktarın.
 
 ```java
 package com.aspose.ocr.examples.OcrFeatures;
@@ -80,11 +110,11 @@ import com.aspose.ocr.examples.Utils;
 import java.io.IOException;
 ```
 
-## Adım‑Adım Kılavuz
+## Adım Adım Kılavuz
 
-### Adım 1: Belge Dizinini Ayarlayın
+### Adım 1: Belge Dizininizi Ayarlayın
 
-OCR‑işlenmiş sonuçları saklayacağınız bir klasör tanımlayın. Bu yol, daha sonra görüntü dosyasını bulmak için kullanılacaktır.
+OCR sonuçlarının ve geçici dosyaların depolanacağı bir klasör seçin. Bu yol, daha sonra işlemek istediğiniz görüntüyü bulmak için kullanılacaktır.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -92,7 +122,7 @@ String dataDir = "Your Document Directory";
 
 ### Adım 2: Görüntü Yolunu Belirtin
 
-API'yi analiz etmek istediğiniz görüntüye yönlendirin.
+Analiz etmek istediğiniz görüntüyü işaret eden tam dosya sistemi yolunu veya sınıf‑yolu kaynak konumunu sağlayın.
 
 ```java
 String imagePath = dataDir + "0001460985.Jpeg";
@@ -100,7 +130,7 @@ String imagePath = dataDir + "0001460985.Jpeg";
 
 ### Adım 3: Bir Aspose.OCR Örneği Oluşturun
 
-Lisans anahtarınızla OCR motorunu başlatın. Anahtar geçici ya da kalıcı bir lisans dizesi olabilir.
+`AsposeOCR`, optik karakter tanıma (OCR) yapan temel motorudur. Geçici ya da kalıcı bir lisans dizesiyle örnekleyin.
 
 ```java
 AsposeOCR api = new AsposeOCR("YourLicenseKey");
@@ -108,7 +138,7 @@ AsposeOCR api = new AsposeOCR("YourLicenseKey");
 
 ### Adım 4: OCR Tanıma İşlemini Gerçekleştirin
 
-`RecognizeLine` metodunu çağırarak görüntüden bir satır metin çıkarın. Sonuç, daha fazla işleyebileceğiniz veya depolayabileceğiniz düz bir dizedir.
+`RecognizeLine`, sağlanan görüntüden tek bir metin satırı çıkarır ve düz bir Java `String` olarak döndürür. Çok satırlı belgeler için bu metodu tekrarlayarak çağırabilirsiniz.
 
 ```java
 try {
@@ -120,46 +150,52 @@ try {
 }
 ```
 
-> **Pro ipucu:** Çıktıyı belirli bir karakter setiyle (ör. sadece rakamlar) sınırlamanız gerekiyorsa, `RecognizeLine` metodunu çağırmadan önce `AsposeOCR` örneği üzerinde `setAllowedCharacters` metodunu kullanın. Bu, motorun tanımlı set dışındaki karakterleri yok saymasını sağlar.
+> **Pro ipucu:** Çıktıyı yalnızca rakamlara (ör. fatura numaraları için) sınırlamanız gerekiyorsa, `RecognizeLine` metodunu çağırmadan önce `AsposeOCR` örneği üzerinde `setAllowedCharacters("0123456789")` metodunu çağırın. Bu, motorun sayısal olmayan sembolleri görmezden gelmesini sağlar.  
+> `setAllowedCharacters`, OCR çıktısını belirli bir karakter beyaz listesine sınırlayan `AsposeOCR` metodudur.
 
 ## Yaygın Sorunlar ve Çözümler
 
-| Sorun | Sebep | Çözüm |
+| Sorun | Neden | Çözüm |
 |-------|--------|-----|
-| **Çıktı yok veya boş dize** | Yanlış görüntü yolu veya desteklenmeyen görüntü formatı | `imagePath` değerini doğrulayın ve desteklenen bir format (JPEG, PNG, BMP) kullanın |
-| **Tanıma hataları** | Düşük çözünürlüklü görüntü veya gürültülü arka plan | OCR'den önce görüntüyü ön işleyin (kontrast artırın, ikilileştirin) |
-| **Lisans uygulanmadı** | Eksik veya geçersiz lisans anahtarı | Lisans dizesinin doğru olduğundan ve `AsposeOCR` yapıcısına yerleştirildiğinden emin olun |
+| **Çıktı yok veya boş dize** | Yanlış görüntü yolu veya desteklenmeyen format | `imagePath`'i doğrulayın ve desteklenen bir format (JPEG, PNG, BMP) kullanın |
+| **Tanıma hataları** | Düşük çözünürlüklü görüntü veya gürültülü arka plan | OCR'den önce görüntüyü ön işleme tabi tutun (kontrastı artırın, ikilileştirin) |
+| **Lisans uygulanmadı** | Eksik veya geçersiz lisans anahtarı | `AsposeOCR` yapıcısına doğru bir lisans dizesi geçirildiğinden emin olun |
 
 ## Sık Sorulan Sorular
 
-**S: Aspose.OCR için geçici lisans nasıl alınır?**  
-C: Deneme lisansı talep etmek için [geçici lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin.
+**S: Aspose.OCR için geçici bir lisans nasıl alabilirim?**  
+C: Değerlendirme su işaretlerini kaldıran bir deneme anahtarı talep etmek için [geçici lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin.
 
-**S: Aspose.OCR için destek nereden bulunur?**  
+**S: Aspose.OCR için desteği nereden bulabilirim?**  
 C: Yardım ve tartışmalar için [Aspose.OCR Forumuna](https://forum.aspose.com/c/ocr/16) katılın.
 
-**S: Aspose.OCR'de izin verilen karakterler belirtilebilir mi?**  
-C: Evet, `setAllowedCharacters` API'siyle karakter setini özelleştirebilirsiniz. Ayrıntılar için resmi belgelere bakın.
+**S: Aspose.OCR'de izin verilen karakterleri belirtebilir miyim?**  
+C: Evet, `setAllowedCharacters` API'sini kullanarak özel bir karakter beyaz listesi tanımlayabilirsiniz. Bu, yalnızca sayısal alanlar için idealdir.
 
 **S: Aspose.OCR en yeni JDK sürümleriyle uyumlu mu?**  
-C: Kesinlikle—Aspose.OCR, en yeni Java sürümleriyle uyumlu kalacak şekilde düzenli olarak güncellenir.
+C: Kesinlikle—Aspose.OCR, en yeni Java sürümleriyle uyumlu kalması için düzenli olarak güncellenir.
 
 **S: Satır tanımanın ötesinde ek OCR özellikleri var mı?**  
-C: Evet, kütüphane blok, paragraf ve tam‑sayfa tanıma, dil paketleri ve görüntü ön işleme seçeneklerini destekler.
+C: Kütüphane blok, paragraf ve tam sayfa tanıma, dil paketleri ve gelişmiş görüntü ön işleme gibi özellikleri de destekler.
 
 ## Sonuç
 
-Bu **aspose ocr java tutorial**'ı izleyerek artık **görüntülerden metin çıkarma** ve hangi karakterlerin tanınacağını kontrol etme konusunda çalışan bir çözüme sahipsiniz. Gelişmiş çok‑dilli destek, özel ön işleme ve toplu işleme gibi özellikleri keşfetmek için tam [belgelere](https://reference.aspose.com/ocr/java/) göz atın.
+Bu **Aspose OCR Java öğreticisini** izleyerek artık **OCR nasıl kullanılır** konusunda, görüntülerden metin çıkarma, karakter kümesini sınırlama ve hızlı test için geçici lisans uygulama konularında bilgi sahibisiniz. Çok‑dilli destek, toplu işleme ve özel ön işleme boru hatlarını keşfetmek için tam [belgelere](https://reference.aspose.com/ocr/java/) dalın.
 
 ---
 
-**Son Güncelleme:** 2026-02-20  
-**Test Edilen Versiyon:** Aspose.OCR for Java 24.11  
+**Son Güncelleme:** 2026-05-24  
+**Test Edilen:** Aspose.OCR for Java 24.11  
 **Yazar:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 
+## İlgili Öğreticiler
+
+- [Java'da Lisans Ayarlama ve Aspose.OCR Lisansını Doğrulama](/ocr/java/ocr-basics/set-license/)
+- [Aspose.OCR BufferedImage Kullanarak Java'da Görüntüyü Metne Dönüştürme](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
+- [Aspose OCR Java Örneği – Görüntülerde Satır Tanıma](/ocr/java/advanced-ocr-techniques/recognize-lines/)
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

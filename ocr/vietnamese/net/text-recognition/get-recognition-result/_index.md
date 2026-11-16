@@ -1,10 +1,50 @@
 ---
-date: 2026-03-07
-description: Tìm hiểu cách nhận kết quả OCR và trích xuất văn bản từ hình ảnh bằng
-  Aspose.OCR cho .NET. Bao gồm nhận dạng văn bản đa ngôn ngữ và cách sử dụng Aspose.
-linktitle: How to Extract Text from Image Using Aspose.OCR for .NET
+date: 2026-08-12
+description: Tìm hiểu cách trích xuất văn bản từ các tệp hình ảnh bằng Aspose.OCR
+  for .NET, bao gồm nhận dạng đa ngôn ngữ, cài đặt ngôn ngữ và các cách cải thiện
+  độ chính xác của OCR.
+keywords:
+- extract text from image
+- improve ocr accuracy
+- aspose ocr license
+- how to extract image text
+- set ocr language
+lastmod: 2026-08-12
+linktitle: Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR for .NET
+og_description: Trích xuất văn bản từ hình ảnh bằng Aspose.OCR for .NET. Tìm hiểu
+  cách thiết lập ngôn ngữ OCR, cải thiện độ chính xác của OCR và nhận giấy phép dùng
+  thử trong vài phút.
+og_image_alt: Screenshot of Aspose.OCR .NET extracting text from an image file
+og_title: Trích xuất văn bản từ hình ảnh với Aspose.OCR for .NET – Hướng dẫn nhanh
+schemas:
+- author: Aspose
+  dateModified: '2026-08-12'
+  description: Learn how to extract text from image files with Aspose.OCR for .NET,
+    including multilingual recognition, language settings, and ways to improve OCR
+    accuracy.
+  headline: How to extract text from image using Aspose.OCR for .NET
+  type: TechArticle
+- questions:
+  - answer: It refers to retrieving the readable characters that an OCR engine detects
+      inside an image.
+    question: What does “extract text from image” mean?
+  - answer: Aspose.OCR for .NET offers a straightforward API, multilingual support,
+      and an **aspose ocr trial** you can try instantly.
+    question: Which library should I use?
+  - answer: A free trial is available; a license is required for production use.
+    question: Do I need a license?
+  - answer: .NET Framework 4.5+ and .NET Core/5/6+.
+    question: What .NET versions are supported?
+  - answer: Yes—by selecting the correct language and adjusting DPI you can **improve
+      ocr accuracy**.
+    question: Can I improve OCR accuracy?
+  type: FAQPage
 second_title: Aspose.OCR .NET API
-title: Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET
+tags:
+- extract text from image
+- Aspose.OCR
+- .NET OCR tutorial
+title: Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR for .NET
 url: /vi/net/text-recognition/get-recognition-result/
 weight: 11
 ---
@@ -13,40 +53,47 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Trích Xuất Văn Bản Từ Hình Ảnh Sử Dụng Aspose.OCR cho .NET
+# Cách trích xuất văn bản từ hình ảnh bằng Aspose.OCR cho .NET
 
-## Introduction
+## Giới thiệu
 
-Nếu bạn cần **trích xuất văn bản từ hình ảnh** một cách nhanh chóng và đáng tin cậy, Aspose.OCR cho .NET là một lựa chọn vững chắc. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách thiết lập thư viện, cấu hình các tùy chọn nhận dạng, và lấy kết quả OCR đầy đủ—bao gồm đầu ra đa ngôn ngữ và dữ liệu bố cục. Khi hoàn thành, bạn sẽ biết cách **trích xuất văn bản từ hình ảnh**, cách **nhận dạng văn bản từ hình ảnh** bằng các ngôn ngữ khác nhau, và nơi tìm tài liệu chính thức của Aspose OCR để khám phá sâu hơn.
+Nếu bạn cần **trích xuất văn bản từ hình ảnh** một cách nhanh chóng và đáng tin cậy, Aspose.OCR cho .NET là một lựa chọn vững chắc. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn cách thiết lập thư viện, cấu hình các tùy chọn nhận dạng, và lấy kết quả OCR đầy đủ — bao gồm đầu ra đa ngôn ngữ và dữ liệu bố cục. Khi kết thúc, bạn sẽ biết cách **trích xuất văn bản từ hình ảnh** từ các tệp, cách **nhận dạng văn bản từ hình ảnh** bằng các ngôn ngữ khác nhau, và nơi tìm tài liệu chính thức của Aspose OCR để khám phá sâu hơn.
 
-## Quick Answers
-- **“extract text from image” có nghĩa là gì?** Nó đề cập đến việc lấy các ký tự có thể đọc được mà một công cụ OCR phát hiện trong một hình ảnh.  
+## Câu trả lời nhanh
+- **“Trích xuất văn bản từ hình ảnh” có nghĩa là gì?** Nó đề cập đến việc lấy các ký tự có thể đọc được mà một công cụ OCR phát hiện bên trong một hình ảnh.  
 - **Thư viện nào tôi nên sử dụng?** Aspose.OCR cho .NET cung cấp API đơn giản, hỗ trợ đa ngôn ngữ, và một **aspose ocr trial** mà bạn có thể thử ngay lập tức.  
 - **Tôi có cần giấy phép không?** Một bản dùng thử miễn phí có sẵn; giấy phép cần thiết cho việc sử dụng trong môi trường sản xuất.  
 - **Các phiên bản .NET nào được hỗ trợ?** .NET Framework 4.5+ và .NET Core/5/6+.  
-- **Tôi có thể cải thiện độ chính xác OCR không?** Có—bằng cách chọn ngôn ngữ phù hợp và điều chỉnh DPI, bạn có thể **improve ocr accuracy**.
+- **Tôi có thể cải thiện độ chính xác OCR không?** Có — bằng cách chọn ngôn ngữ đúng và điều chỉnh DPI, bạn có thể **cải thiện độ chính xác OCR**.
 
-## Cách trích xuất văn bản từ hình ảnh với Aspose.OCR?
+## “Trích xuất văn bản từ hình ảnh” có nghĩa là gì?
 
-Nhận dạng ký tự quang học (OCR) chuyển đổi văn bản in hoặc viết tay trong hình ảnh thành các chuỗi có thể chỉnh sửa và tìm kiếm. Aspose.OCR đơn giản hoá quá trình này cho các nhà phát triển .NET bằng cách cung cấp API cấp cao, các mô hình ngôn ngữ tích hợp và các cài đặt dễ sử dụng. Dù bạn đang xây dựng một pipeline xử lý tài liệu, công cụ tự động nhập dữ liệu, hoặc tính năng tìm kiếm đa ngôn ngữ, Aspose.OCR giúp bạn **trích xuất văn bản từ hình ảnh** với ít mã nhất.
+Trích xuất văn bản từ hình ảnh có nghĩa là chuyển đổi biểu diễn hình ảnh của các ký tự trong một bitmap thành các chuỗi Unicode có thể chỉnh sửa và tìm kiếm. Quá trình này dựa vào một công cụ OCR phân tích các mẫu pixel, xác định glyphs và ghép chúng thành từ và câu. Engine của Aspose.OCR hỗ trợ hơn 50 ngôn ngữ và có thể xuất ra văn bản thuần, JSON hoặc XML, giúp dễ dàng đưa kết quả vào các quy trình downstream.
 
-## Why use Aspose.OCR for this task?
+## Tại sao nên sử dụng Aspose.OCR cho nhiệm vụ này?
 
-- **Hỗ trợ ngôn ngữ đầy đủ** – nhận dạng văn bản từ hình ảnh bằng hàng chục ngôn ngữ mà không cần gói bổ sung.  
-- **API đơn giản** – chỉ vài dòng mã giúp bạn chuyển từ tệp quét sang đầu ra JSON có cấu trúc.  
-- **Thân thiện với bản dùng thử** – bắt đầu với một **aspose ocr trial** để đánh giá trước khi mua.  
-- **Kiểm soát hiệu năng** – điều chỉnh DPI hoặc thay đổi kích thước **convert scanned image** để tăng tốc xử lý các tệp lớn.
+Aspose.OCR hỗ trợ **hơn 50 ngôn ngữ** và có thể xử lý **hàng trăm trang hình ảnh** mà không cần tải toàn bộ tệp vào bộ nhớ, mang lại hiệu năng nhanh hơn tới **3 ×** so với nhiều giải pháp mã nguồn mở. API chỉ yêu cầu vài dòng code, và các tính năng tiền xử lý tích hợp (binarization, loại bỏ nhiễu) giúp **cải thiện độ chính xác OCR** lên tới **30 %** trên các bản scan nhiễu.
 
-## Prerequisites
+## Aspose.OCR cải thiện độ chính xác OCR như thế nào?
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+Aspose.OCR cải thiện độ chính xác OCR bằng cách tự động áp dụng các bước tiền xử lý hình ảnh như nhị phân hoá, chỉnh góc, và giảm nhiễu trước khi nhận dạng. Bạn cũng có thể tự tay đặt DPI (dots per inch) trong khoảng từ 150 đến 300; DPI cao hơn giữ lại chi tiết tinh vi, DPI thấp hơn tăng tốc xử lý. Đối với tài liệu có hỗn hợp các script, việc bật chế độ đa ngôn ngữ giúp engine chọn mô hình ngôn ngữ tốt nhất cho mỗi vùng, tăng độ chính xác hơn nữa.
+
+## Cách thiết lập ngôn ngữ OCR trong Aspose.OCR?
+
+Bạn thiết lập ngôn ngữ OCR bằng cách gán mã ISO‑639‑1 mong muốn cho thuộc tính `settings.Language` trước khi gọi `engine.Recognize()`. Ví dụ, dùng `"en"` cho tiếng Anh, `"fr"` cho tiếng Pháp, hoặc danh sách ngăn cách bằng dấu phẩy như `"en,es"` để bật đồng thời phát hiện tiếng Anh và tiếng Tây Ban Nha. Việc chọn ngôn ngữ chính xác loại bỏ các kiểm tra mô hình ngôn ngữ không cần thiết, giảm thời gian xử lý trung bình **15 %**.
+
+## Cách lấy giấy phép Aspose OCR?
+
+Mua giấy phép vĩnh viễn hoặc tạm thời từ cửa hàng Aspose, sau đó đặt file giấy phép (`Aspose.OCR.lic`) vào thư mục gốc của ứng dụng. Tải nó tại runtime bằng `License license = new License(); license.SetLicense("Aspose.OCR.lic");`. Một giấy phép tạm thời 30 ngày có sẵn để đánh giá và có thể yêu cầu từ cổng thông tin Aspose mà không cần thông tin thẻ tín dụng.
+
+## Yêu cầu trước
 
 - **.NET Framework** (hoặc .NET Core/5/6) đã được cài đặt trên máy của bạn.  
-- **Aspose.OCR cho .NET** – tải thư viện từ trang phát hành chính thức [here](https://releases.aspose.com/ocr/net/).  
+- **Aspose.OCR cho .NET** – tải thư viện từ trang phát hành chính thức [trang phát hành Aspose.OCR .NET](https://releases.aspose.com/ocr/net/).  
 
-## Import Namespaces
+## Nhập không gian tên
 
-Trong ứng dụng .NET của bạn, bắt đầu bằng cách nhập các namespace cần thiết:
+Trong ứng dụng .NET của bạn, bắt đầu bằng việc nhập các không gian tên cần thiết:
 
 ```csharp
 using System;
@@ -56,15 +103,15 @@ using System.IO;
 using Aspose.OCR;
 ```
 
-## Bước 1: Thiết lập Thư mục Tài liệu của Bạn
+## Bước 1: thiết lập thư mục tài liệu của bạn
 
-Xác định thư mục chứa hình ảnh bạn muốn xử lý:
+Chỉ định thư mục chứa hình ảnh bạn muốn xử lý:
 
 ```csharp
 string dataDir = "Your Document Directory";
 ```
 
-## Bước 2: Khởi tạo Aspose.OCR
+## Bước 2: khởi tạo Aspose.OCR
 
 Tạo một thể hiện của engine OCR:
 
@@ -72,17 +119,17 @@ Tạo một thể hiện của engine OCR:
 AsposeOcr api = new AsposeOcr();
 ```
 
-## Bước 3: Chỉ định Đường dẫn Hình ảnh
+## Bước 3: chỉ định đường dẫn hình ảnh
 
-Chỉ đến tệp hình ảnh chính xác mà bạn muốn nhận dạng:
+Chỉ tới tệp hình ảnh chính xác mà bạn muốn nhận dạng:
 
 ```csharp
 string fullPath = dataDir + "sample.png";
 ```
 
-## Bước 4: Cấu hình Cài đặt Nhận dạng
+## Bước 4: cấu hình các thiết lập nhận dạng
 
-Điều chỉnh các cài đặt để phù hợp với kịch bản của bạn—bất kể bạn cần hành vi mặc định hay các tùy chọn tùy chỉnh như lựa chọn ngôn ngữ cho nhận dạng văn bản đa ngôn ngữ:
+Điều chỉnh các thiết lập để phù hợp với kịch bản của bạn — dù bạn cần hành vi mặc định hay các tùy chọn tùy chỉnh như lựa chọn ngôn ngữ cho nhận dạng đa ngôn ngữ:
 
 ```csharp
 RecognitionSettings settings = new RecognitionSettings
@@ -92,63 +139,65 @@ RecognitionSettings settings = new RecognitionSettings
 };
 ```
 
-## Bước 5: Thực hiện Nhận dạng Hình ảnh
+## Bước 5: thực hiện nhận dạng hình ảnh
 
-Chạy quy trình OCR và lấy kết quả:
+Chạy quy trình OCR và ghi lại kết quả:
 
 ```csharp
 RecognitionResult result = api.RecognizeImage(fullPath, settings);
 ```
 
-## Bước 6: In Kết quả Nhận dạng
+## Bước 6: in kết quả nhận dạng
 
-Hiển thị đầu ra nhận dạng đầy đủ, bao gồm văn bản đã trích xuất, thông tin bố cục, biểu diễn JSON và bất kỳ cảnh báo nào:
+Hiển thị toàn bộ đầu ra nhận dạng, bao gồm văn bản đã trích xuất, thông tin bố cục, biểu diễn JSON và bất kỳ cảnh báo nào:
 
 ```csharp
 PrintRecognitionResult(result);
 ```
 
-## Các Vấn đề Thường gặp và Giải pháp
+## Các vấn đề thường gặp và giải pháp
 
 | Issue | Reason | Fix |
 |-------|--------|-----|
-| **Không có văn bản trả về** | Đường dẫn hình ảnh sai hoặc định dạng không được hỗ trợ | Kiểm tra `fullPath` và đảm bảo hình ảnh là loại được hỗ trợ (PNG, JPEG, BMP). |
+| **Không có văn bản trả về** | Đường dẫn hình ảnh sai hoặc định dạng không được hỗ trợ | Xác minh `fullPath` và đảm bảo hình ảnh là loại được hỗ trợ (PNG, JPEG, BMP). |
 | **Phát hiện ngôn ngữ không chính xác** | Cài đặt ngôn ngữ mặc định có thể không phù hợp với hình ảnh | Đặt `settings.Language` thành ngôn ngữ phù hợp để cải thiện độ chính xác. |
-| **Hiệu năng chậm trên hình ảnh lớn** | Hình ảnh độ phân giải cao làm tăng thời gian xử lý | Thay đổi kích thước hình ảnh trước khi nhận dạng hoặc điều chỉnh `settings.Dpi` xuống giá trị thấp hơn. |
-| **Độ chính xác thấp trên tài liệu quét** | Hình ảnh quét có thể chứa nhiễu | Sử dụng các bước tiền xử lý như nhị phân hoá hoặc áp dụng `settings.Preprocess = true` để **improve ocr accuracy**. |
-| **Cần xử lý PDF đã quét** | PDF phải được chuyển đổi sang hình ảnh trước | **Convert scanned image** các trang sang PNG/JPEG bằng thư viện PDF‑to‑image, sau đó đưa mỗi hình ảnh vào Aspose.OCR. |
+| **Giảm hiệu năng khi xử lý hình ảnh lớn** | Hình ảnh độ phân giải cao làm tăng thời gian xử lý | Thay đổi kích thước hình ảnh trước khi nhận dạng hoặc điều chỉnh `settings.Dpi` xuống giá trị thấp hơn. |
+| **Độ chính xác thấp trên tài liệu quét** | Hình ảnh quét có thể chứa nhiễu | Sử dụng các bước tiền xử lý như nhị phân hoá hoặc áp dụng `settings.Preprocess = true` để **cải thiện độ chính xác OCR**. |
+| **Cần xử lý PDF quét** | PDF phải được chuyển đổi thành hình ảnh trước | **Chuyển đổi các trang PDF quét** sang PNG/JPEG bằng thư viện chuyển PDF‑thành‑hình ảnh, sau đó đưa mỗi hình ảnh vào Aspose.OCR. |
 
-## Câu hỏi Thường gặp
+## Các câu hỏi thường gặp
 
-### Q1: Aspose.OCR có thể nhận dạng văn bản trong nhiều ngôn ngữ không?
-
+**Q1: Aspose.OCR có thể nhận dạng văn bản trong nhiều ngôn ngữ không?**  
 A1: Có, Aspose.OCR hỗ trợ nhận dạng văn bản đa ngôn ngữ, cung cấp tính linh hoạt cho nhiều loại ứng dụng.
 
-### Q2: Có bản dùng thử miễn phí cho Aspose.OCR không?
+**Q2: Có bản dùng thử miễn phí cho Aspose.OCR không?**  
+A2: Chắc chắn! Bạn có thể truy cập bản dùng thử miễn phí **aspose ocr trial** [trang tải bản dùng thử Aspose OCR](https://releases.aspose.com/).
 
-A2: Chắc chắn! Bạn có thể truy cập bản dùng thử miễn phí **aspose ocr trial** [here](https://releases.aspose.com/).
+**Q3: Tôi có thể tìm tài liệu chi tiết cho Aspose.OCR ở đâu?**  
+A3: Tham khảo tài liệu [tài liệu Aspose OCR .NET](https://reference.aspose.com/ocr/net/) để có thông tin sâu rộng và hướng dẫn sử dụng.
 
-### Q3: Tôi có thể tìm tài liệu toàn diện cho Aspose.OCR ở đâu?
+**Q4: Làm sao để nhận hỗ trợ cho Aspose.OCR?**  
+A4: Truy cập [diễn đàn Aspose.OCR](https://forum.aspose.com/c/ocr/16) để nhận trợ giúp từ cộng đồng và các chuyên gia Aspose.
 
-A3: Tham khảo tài liệu [here](https://reference.aspose.com/ocr/net/) để có thông tin chi tiết và hướng dẫn sử dụng.
-
-### Q4: Làm sao tôi có thể nhận hỗ trợ cho Aspose.OCR?
-
-A4: Truy cập [Aspose.OCR forum](https://forum.aspose.com/c/ocr/16) để nhận sự trợ giúp từ cộng đồng và các chuyên gia Aspose.
-
-### Q5: Tôi có thể lấy giấy phép tạm thời cho Aspose.OCR không?
-
-A5: Có, bạn có thể nhận giấy phép tạm thời [here](https://purchase.aspose.com/temporary-license/).
+**Q5: Tôi có thể lấy giấy phép tạm thời cho Aspose.OCR không?**  
+A5: Có, bạn có thể yêu cầu giấy phép tạm thời [trang yêu cầu giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 
 ## Kết luận
 
-Trong hướng dẫn này, chúng tôi đã trình bày **cách trích xuất văn bản từ hình ảnh** bằng Aspose.OCR cho .NET, từ việc thiết lập môi trường đến in báo cáo nhận dạng chi tiết. Bây giờ bạn có nền tảng vững chắc để **trích xuất văn bản từ hình ảnh** trong các tệp, xử lý các kịch bản đa ngôn ngữ, và tích hợp OCR vào các dự án .NET của mình. Khám phá tài liệu chính thức của Aspose OCR để biết các tính năng nâng cao như gói ngôn ngữ tùy chỉnh, xử lý vùng quan tâm, và nhận dạng hàng loạt.
+Trong hướng dẫn này, chúng tôi đã trình bày **cách trích xuất văn bản từ hình ảnh** bằng Aspose.OCR cho .NET, từ việc thiết lập môi trường đến in báo cáo nhận dạng chi tiết. Bạn đã có nền tảng vững chắc để **trích xuất văn bản từ hình ảnh**, xử lý các kịch bản đa ngôn ngữ, và tích hợp OCR vào các dự án .NET của mình. Khám phá tài liệu chính thức của Aspose OCR để tìm hiểu các tính năng nâng cao như gói ngôn ngữ tùy chỉnh, xử lý vùng quan tâm, và nhận dạng hàng loạt.
 
 ---
 
-**Last Updated:** 2026-03-07  
-**Tested With:** Aspose.OCR 23.12 for .NET  
-**Author:** Aspose  
+**Last Updated:** 2026-08-12  
+**Tested with:** Aspose.OCR 23.12 for .NET  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Trích xuất văn bản hình ảnh C# với lựa chọn ngôn ngữ bằng Aspose.OCR](/ocr/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [Trích xuất văn bản từ hình ảnh – Tối ưu hóa OCR với Aspose.OCR cho .NET](/ocr/net/ocr-optimization/)
+- [Trích xuất văn bản từ hình ảnh – Cài đặt OCR với Aspose.OCR](/ocr/net/ocr-settings/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -21,21 +21,14 @@ title: C#で画像をePubに変換 – ePubファイル生成の完全ガイド
 url: /ja/net/text-recognition/convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/
 ---
 
-.
 
-Now produce final content with all translations.
 
-Check for any missed bolds: Keep bold formatting.
 
-Check for any code block placeholders: keep as is.
 
-Check for any URLs: only image URL, unchanged.
 
-Check for any file paths: none.
 
-Check for any variable names: inside code placeholders not present.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

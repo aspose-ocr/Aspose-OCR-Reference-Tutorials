@@ -23,7 +23,8 @@ url: /sv/net/text-recognition/create-searchable-pdf-from-tiff-complete-c-guide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/pf/main-container >{{< blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # Skapa sökbar PDF från TIFF – Komplett C#‑guide
 

@@ -23,7 +23,7 @@ title: OCR-fouten corrigeren met Aspose OCR & HuggingFace – volledige gids
 url: /nl/python/general/correct-ocr-errors-with-aspose-ocr-huggingface-full-guide/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

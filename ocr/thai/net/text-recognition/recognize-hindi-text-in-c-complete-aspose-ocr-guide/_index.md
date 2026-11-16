@@ -22,15 +22,10 @@ title: จดจำข้อความฮินดีใน C# – คู่�
 url: /th/net/text-recognition/recognize-hindi-text-in-c-complete-aspose-ocr-guide/
 ---
 
-content.
 
-Also the "Expected Console Output" heading etc. Should translate.
 
-All other text.
 
-We must keep code block placeholders unchanged.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

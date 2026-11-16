@@ -207,6 +207,8 @@ Co dalej? Spróbuj dodać własne czcionki, aby poprawić dokładność OCR, lub
 Miłego kodowania i niech Twoje PDF‑y zawsze będą przeszukiwalne!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/p-container >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

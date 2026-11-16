@@ -1,0 +1,28 @@
+name: Build and Deploy Tutorials
+
+# Push-triggered: calls the reusable deploy-product.yml workflow in
+# Aspose/aspose-tutorials-workflows on every push to main. Builds and
+# deploys both production and staging in parallel, directly from this
+# repo's own content -- no replication into any shared repo.
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    strategy:
+      matrix:
+        environment: [production, staging]
+    uses: Aspose/aspose-tutorials-workflows/.github/workflows/deploy-product.yml@main
+    with:
+      product: ocr
+      environment: ${{ matrix.environment }}
+    secrets:
+      REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
+      CEPH_S3_LIVE_ACCESS_KEY: ${{ secrets.CEPH_S3_LIVE_ACCESS_KEY }}
+      CEPH_S3_LIVE_SECRET_KEY: ${{ secrets.CEPH_S3_LIVE_SECRET_KEY }}
+      CEPH_S3_QA_ACCESS_KEY: ${{ secrets.CEPH_S3_QA_ACCESS_KEY }}
+      CEPH_S3_QA_SECRET_KEY: ${{ secrets.CEPH_S3_QA_SECRET_KEY }}
+      BUNNY_API_KEY: ${{ secrets.BUNNY_API_KEY }}

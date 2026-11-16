@@ -20,11 +20,9 @@ title: 在 C# 中将图像转换为 ePub – 生成 ePub 文件的完整指南
 url: /zh/net/text-recognition/convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/
 ---
 
--button >}}
 
-Make sure to keep them unchanged.
 
-Now produce final answer with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

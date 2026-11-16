@@ -22,9 +22,8 @@ title: C#에서 OCR 사용 방법 – 이미지에서 텍스트 인식
 url: /ko/net/text-recognition/how-to-use-ocr-in-c-recognize-text-from-images/
 ---
 
-.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

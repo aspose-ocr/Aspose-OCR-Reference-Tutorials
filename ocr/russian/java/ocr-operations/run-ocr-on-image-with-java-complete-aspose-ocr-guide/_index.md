@@ -24,19 +24,12 @@ title: Запуск OCR на изображении с помощью Java – 
 url: /ru/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/
 ---
 
-, и пусть ваши изображения всегда читаемы!"
 
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc remain.
 
-Also include backtop button shortcode unchanged.
 
-Now ensure we didn't miss any markdown formatting.
 
-Check bold formatting: keep **...**.
 
-We kept placeholders unchanged.
 
-Now produce final content with translated Russian text.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

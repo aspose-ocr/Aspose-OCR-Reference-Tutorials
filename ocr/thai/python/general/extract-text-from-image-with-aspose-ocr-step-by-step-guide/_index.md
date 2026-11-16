@@ -1,8 +1,8 @@
 ---
 category: general
-date: 2025-12-27
-description: ดึงข้อความจากภาพโดยใช้ Aspose OCR และแก้ไขข้อผิดพลาดของ OCR เรียนรู้วิธีโหลดภาพสำหรับ
-  OCR และแก้ไขข้อผิดพลาดอย่างรวดเร็ว
+date: 2026-02-27
+description: เรียนรู้วิธีแก้ไขข้อผิดพลาดของ OCR และดึงข้อความจากภาพโดยใช้ Aspose OCR
+  ใน Python คู่มือนี้แสดงวิธีโหลดภาพสำหรับ OCR และทำความสะอาดผลลัพธ์
 draft: false
 keywords:
 - extract text from image
@@ -10,16 +10,15 @@ keywords:
 - how to correct ocr errors
 - Aspose OCR Python
 - OCR post‑processing
-language: th
-og_description: ดึงข้อความจากภาพด้วย Aspose OCR และแก้ไขข้อผิดพลาดของ OCR ทันที ตามบทเรียนนี้เพื่อโหลดภาพสำหรับ
-  OCR และทำความสะอาดผลลัพธ์
-og_title: สกัดข้อความจากภาพด้วย Aspose OCR – คู่มือฉบับสมบูรณ์
+og_description: เรียนรู้วิธีแก้ไขข้อผิดพลาดของ OCR และดึงข้อความจากภาพด้วย Aspose
+  OCR ใน Python. ทำตามบทแนะนำแบบขั้นตอนต่อขั้นตอนนี้.
+og_title: วิธีแก้ไขข้อผิดพลาด OCR – แยกข้อความจากภาพด้วย Aspose OCR
 tags:
 - OCR
 - Python
 - Aspose
 - Text Extraction
-title: ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด
+title: วิธีแก้ไขข้อผิดพลาด OCR – ดึงข้อความจากภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด
 url: /th/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-guide/
 ---
 
@@ -27,55 +26,49 @@ url: /th/python/general/extract-text-from-image-with-aspose-ocr-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ดึงข้อความจากรูปภาพด้วย Aspose OCR – คู่มือทีละขั้นตอน
+# วิธีแก้ไขข้อผิดพลาด OCR – ดึงข้อความจากรูปภาพด้วย Aspose OCR – คู่มือขั้นตอนโดยละเอียด
 
-เคยต้อง **extract text from image** แต่เจอผลลัพธ์ OCR ที่ยุ่งยากหรือไม่? คุณไม่ได้อยู่คนเดียว ในหลายโครงการอัตโนมัติ—เช่น การประมวลผลใบแจ้งหนี้, การสแกนใบเสร็จ, หรือการแปลงเอกสารเก่าเป็นดิจิทัล—อุปสรรคแรกคือการได้ข้อความที่สะอาดและค้นหาได้จากรูปภาพ  
+หากคุณเคยต้อง **extract text from image** ในโครงการ Python และต้องต่อสู้กับผลลัพธ์ OCR ที่ยุ่งยาก คุณมาถูกที่แล้ว ในหลายสถานการณ์อัตโนมัติ—การประมวลผลใบแจ้งหนี้, การสแกนใบเสร็จ, หรือการดิจิไทซ์เอกสารประวัติศาสตร์—ความท้าทายแรกคือการเปลี่ยนรูปภาพให้เป็นข้อความที่สะอาดและค้นหาได้ได้ง่าย บทเรียนนี้จะแสดง **how to correct OCR errors** ด้วยการตรวจสอบการสะกดอัตโนมัติที่ขับเคลื่อนด้วย AI ของ Aspose พร้อมกับครอบคลุมขั้นตอนสำคัญในการ **load image for OCR** เพื่อให้ได้ผลลัพธ์ที่เชื่อถือได้
 
-ในบทเรียนนี้เราจะเดินผ่านตัวอย่างที่ทำงานได้เต็มรูปแบบ ซึ่งจะแสดงวิธี **load image for OCR**, รันการจดจำ, แล้ว **correct OCR errors** ด้วยตัวประมวลผลตรวจสอบการสะกดคำที่ใช้ AI ของ Aspose. เมื่อเสร็จคุณจะมีสคริปต์เดียวที่เปลี่ยน PNG ของใบแจ้งหนี้ให้เป็นข้อความที่เรียบร้อยและค้นหาได้ พร้อมใช้งานในขั้นตอนต่อไปของคุณ
+## คำตอบด่วน
+- **What library should I use?** Aspose OCR for Python
+- **Can I fix typos automatically?** ใช่, ด้วยโปรเซสเซอร์ตรวจสอบการสะกด AI ในตัว
+- **Do I need a license?** ทดลองใช้งานได้สำหรับการทดสอบ; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง
+- **Is it Python‑3 compatible?** ทำงานกับ Python 3.8 ขึ้นไป
+- **Can I process PDFs?** แปลงหน้าของ PDF เป็นรูปภาพก่อน (ดู “convert pdf to images for ocr”)
 
-## สิ่งที่คุณจะได้เรียนรู้
+## “how to correct OCR errors” คืออะไร?
+การแก้ไขข้อผิดพลาด OCR หมายถึงการนำสตริงดิบที่สร้างโดยเครื่อง OCR มาซ่อมแซมการสะกดผิด, ตัวอักษรที่วางผิดตำแหน่ง, และข้อบกพร่องด้านรูปแบบโดยอัตโนมัติ เพื่อให้ข้อความสามารถนำไปใช้ต่อได้อย่างเชื่อถือ (การค้นหา, การวิเคราะห์, หรือการป้อนข้อมูล).
 
-- วิธีติดตั้งและนำเข้าไลบรารี Aspose OCR และ AI ใน Python  
-- โค้ดที่จำเป็นสำหรับ **load image for OCR** อย่างแม่นยำ (ไม่มีการเดา)  
-- วิธีรันเอนจิน OCR และดึงสตริงดิบออกมา  
-- ทำไม OCR มักให้ผลลัพธ์ที่มีการพิมพ์ผิดและวิธีที่ตัวตรวจสอบการสะกดคำในตัวสามารถ **correct OCR errors** ได้โดยอัตโนมัติ  
-- เคล็ดลับการจัดการกับกรณีขอบเช่น PDF หลายหน้า หรือสแกนความละเอียดต่ำ  
+## ทำไมต้องใช้ Aspose OCR สำหรับ Python?
+Aspose OCR ผสานรวมเอาเอนจินการจดจำที่เร็วและแม่นยำกับ AI post‑processor ทางเลือกที่จัดการการตรวจสอบการสะกดและการแก้ไขไวยากรณ์พื้นฐาน มันเป็น **aspose ocr tutorial** ที่ครบถ้วนในแพ็คเกจเดียว ทำให้คุณสามารถแปลงจากรูปภาพเป็นข้อความที่สะอาดได้โดยไม่ต้องใช้เครื่องมือของบุคคลที่สาม.
 
-> **Prerequisites:** Python 3.8+, ใบอนุญาต Aspose OCR ที่ถูกต้อง (หรือทดลองฟรี), และไฟล์รูปภาพ (เช่น `invoice.png`) ที่คุณต้องการประมวลผล
+## ข้อกำหนดเบื้องต้น
+- ติดตั้ง Python 3.8+ แล้ว
+- มีลิขสิทธิ์ Aspose OCR ที่ถูกต้อง (หรือทดลองฟรี)
+- ไฟล์รูปภาพเช่น `invoice.png` ที่คุณต้องการประมวลผล
+- ตัวเลือก: `pdf2image` หากคุณต้องการ **convert pdf to images for OCR**
 
----
+## คู่มือขั้นตอนโดยละเอียด
 
-## ดึงข้อความจากรูปภาพ – การตั้งค่า Aspose OCR
-
-ก่อนที่เราจะทำอะไรได้ เราต้องมีแพ็กเกจที่ถูกต้อง Aspose แจกจ่ายเอนจิน OCR ของมันเป็นโมดูลที่ติดตั้งผ่าน pip  
-
+### ขั้นตอนที่ 1: ติดตั้ง Aspose OCR และ AI post‑processor
 ```bash
 pip install aspose-ocr
 ```
-
-หากคุณต้องการตัวประมวลผล AI เพิ่มเติม ให้ติดตั้งแพ็กเกจคู่:
 
 ```bash
 pip install aspose-ocr-ai
 ```
 
-> **Pro tip:** ควรอัปเดตแพ็กเกจอยู่เสมอ ขณะเขียนนี้เวอร์ชันล่าสุดคือ `aspose-ocr 23.12` และ `aspose-ocr-ai 23.12`
+> **Pro tip:** ควรอัปเดตแพ็กเกจให้เป็นเวอร์ชันล่าสุด ขณะเขียนบทความนี้เวอร์ชันล่าสุดคือ `aspose-ocr 23.12` และ `aspose-ocr-ai 23.12`.
 
-เมื่อไลบรารีอยู่ในระบบของคุณแล้ว ให้นำเข้าคลาสที่จำเป็น:
-
+### ขั้นตอนที่ 2: นำเข้าคลาสที่จำเป็น
 ```python
 # Step 1: Import the OCR and AI classes
 from aspose.ocr import OcrEngine, AsposeAI
 ```
 
-> **Why this matters:** การนำเข้าคลาสเฉพาะทำให้เนมสเปซสะอาดและทำให้เห็นชัดว่าองค์ประกอบใดรับผิดชอบต่อการจดจำและส่วนใดรับผิดชอบต่อการประมวลผลหลังจดจำ
-
----
-
-## Load Image for OCR – เตรียม PNG ใบแจ้งหนี้ของคุณ
-
-ขั้นตอนต่อไปคือการชี้เอนจินไปยังไฟล์ที่ต้องการอ่าน นี่คือจุดที่คีย์เวิร์ด **load image for OCR** มีประโยชน์  
-
+### ขั้นตอนที่ 3: สร้างเอนจินและ **load image for OCR**
 ```python
 # Step 2: Create an OCR engine instance
 ocr_engine = OcrEngine()
@@ -84,22 +77,16 @@ ocr_engine = OcrEngine()
 ocr_engine.load_image("YOUR_DIRECTORY/invoice.png")
 ```
 
-> **Explanation:** `OcrEngine()` สร้างเอนจินใหม่พร้อมค่าตั้งต้น (ภาษาอังกฤษ, การหมุนอัตโนมัติ, ฯลฯ) เมธอด `load_image()` ยอมรับเส้นทางไฟล์, สตรีม, หรือแม้แต่ byte array—จึงสามารถโหลดภาพจากดิสก์, เว็บ, หรือบัฟเฟอร์ในหน่วยความจำได้
+> **Explanation:** `load_image()` รับพาธ, สตรีม, หรืออาร์เรย์ไบต์, ดังนั้นคุณสามารถป้อนรูปภาพจากดิสก์, เว็บ, หรือบัฟเฟอร์ในหน่วยความจำได้.
 
-### ข้อผิดพลาดทั่วไปเมื่อโหลดภาพ
-
-| Issue | Symptom | Fix |
+#### ข้อผิดพลาดทั่วไปเมื่อโหลดรูปภาพ
+| ปัญหา | อาการ | วิธีแก้ |
 |-------|---------|-----|
-| Low DPI (<300) | ตัวอักษรแสดงเป็นอักขระผิด, ตัวเลขหาย | Resample the image to 300 dpi or higher before loading |
-| Incorrect color mode (CMYK) | รูปร่างอักขระผิด | Convert to RGB using Pillow (`Image.convert("RGB")`) |
-| Multi‑page PDF | ประมวลผลได้เฉพาะหน้าแรก | Convert each page to an image and loop over them |
+| DPI ต่ำ (<300) | อักขระแสดงผิด, ตัวเลขหาย | ทำการรีแซมป์เป็น ≥ 300 dpi ก่อนโหลด |
+| โหมดสี CMYK | รูปแบบอักขระผิด | แปลงเป็น RGB ด้วย Pillow (`Image.convert("RGB")`) |
+| PDF หลายหน้า | ประมวลผลเฉพาะหน้าแรก | **Convert PDF to images for OCR** using `pdf2image` and loop over each page |
 
----
-
-## ดำเนินการ OCR และรับข้อความดิบ
-
-ตอนนี้เอนจินรู้แล้วว่าภาพอยู่ที่ไหน เราจึงสามารถอ่านได้  
-
+### ขั้นตอนที่ 4: รัน OCR เพื่อรับสตริงดิบ
 ```python
 # Step 4: Perform OCR to extract raw text
 raw_text = ocr_engine.recognize()
@@ -107,24 +94,16 @@ print("Raw OCR output:")
 print(raw_text)
 ```
 
-การเรียก `recognize()` จะคืนสตริง Python ธรรมดา ในหลายสถานการณ์จริงผลลัพธ์อาจมีช่องว่างแปลก ๆ, ตัวอักษรที่อ่านผิด, หรือการตัดบรรทัดที่ไม่ถูกต้อง—โดยเฉพาะอย่างยิ่งกับใบเสร็จที่ใช้ฟอนต์บีบตัว  
-
-> **Why we capture raw_text first:** มันให้ฐานเปรียบเทียบกับเวอร์ชันที่ทำความสะอาดแล้วในภายหลัง ซึ่งมีประโยชน์สำหรับการดีบักหรือการตรวจสอบ
-
----
-
-## วิธีแก้ไขข้อผิดพลาด OCR – การใช้ Aspose AI Spell‑Check
-
-Aspose มี wrapper AI ที่เบา ๆ สามารถรันตัวตรวจสอบการสะกดคำบนผลลัพธ์ดิบได้โดยตรง ซึ่งตอบคำถาม **how to correct OCR errors**  
-
+### ขั้นตอนที่ 5: เริ่มต้น AI spell‑check processor (หัวใจของ **how to correct OCR errors**)
 ```python
 # Step 5: Initialise the AI post‑processor and choose a spell‑check processor
 ai_processor = AsposeAI()
 ai_processor.set_post_processor("spell_check")
 ```
 
-คุณสามารถเปลี่ยน `"spell_check"` เป็นโปรเซสเซอร์อื่น ๆ เช่น `"grammar_check"` หรือ `"named_entity_recognition"` หากกรณีการใช้งานของคุณต้องการ  
+คุณสามารถแทนที่ `"spell_check"` ด้วย `"grammar_check"` หรือ `"named_entity_recognition"` สำหรับกรณีการใช้งานอื่น ๆ.
 
+### ขั้นตอนที่ 6: ทำความสะอาดผลลัพธ์ OCR
 ```python
 # Step 6: Clean the OCR output using the selected post‑processor
 clean_text = ai_processor.run_postprocessor(raw_text)
@@ -134,21 +113,12 @@ print("\nCorrected OCR output:")
 print(clean_text)
 ```
 
-### สิ่งที่ Spell‑Check ทำเบื้องหลัง
+**What the spell‑check does:** ทำการแบ่งคำในข้อความ, ค้นหาแต่ละโทเคนในพจนานุกรมภาษาอังกฤษ (หรือพจนานุกรมที่คุณกำหนดเอง), ให้คะแนนตัวเลือกด้วยโมเดลภาษาขนาดเล็ก, และคืนค่าการแก้ไขที่เป็นไปได้สูงสุด.
 
-1. **Tokenisation** – แยกสตริงดิบเป็นคำและเครื่องหมายวรรคตอน  
-2. **Dictionary Lookup** – ตรวจสอบแต่ละโทเคนกับพจนานุกรมภาษาอังกฤษ (หรือพจนานุกรมที่คุณกำหนดเอง)  
-3. **Contextual Scoring** – ใช้โมเดลภาษาเล็ก ๆ เพื่อประเมินว่าการแก้ไขนั้นเข้ากับบริบทหรือไม่  
-4. **Replacement** – คืนสตริงใหม่ที่มีการแก้ไขที่เป็นไปได้มากที่สุด  
+#### ภาษาไม่ใช่ภาษาอังกฤษ
+ส่งรหัสภาษาเมื่อสร้าง `AsposeAI` เช่น `AsposeAI(language="fr")` สำหรับภาษาฝรั่งเศส.
 
-> **Edge case:** หากภาษาต้นทางไม่ใช่ภาษาอังกฤษ ให้ส่งรหัสภาษาที่เหมาะสมเมื่อสร้าง `AsposeAI()` (เช่น `AsposeAI(language="fr")`)
-
----
-
-## ตรวจสอบและใช้งานข้อความที่แก้ไขแล้ว
-
-ตอนนี้คุณมีสองตัวแปร: `raw_text` (ผลลัพธ์ OCR ดิบ) และ `clean_text` (เวอร์ชันที่ตรวจสอบการสะกด) การเลือกใช้ขึ้นกับความต้องการของขั้นตอนต่อไป  
-
+### ขั้นตอนที่ 7: บันทึกผลลัพธ์ที่ทำความสะอาดแล้ว
 ```python
 # Example: Save the cleaned text to a .txt file for later indexing
 with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
@@ -157,13 +127,8 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as f:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-หากคุณส่งผลลัพธ์ไปยังเครื่องมือค้นหา, ฐานข้อมูล, หรือโมเดลแมชชีนเลิร์นนิง ควรใช้เวอร์ชัน **cleaned** เสมอ—ไม่เช่นนั้นจะทำให้เสียงรบกวนจาก OCR แพร่กระจายทั่วทั้ง pipeline
-
----
-
-## ตัวอย่างการทำงานแบบเต็มรูปแบบ
-
-ด้านล่างเป็นสคริปต์เต็มที่คุณสามารถคัดลอก‑วางลงในไฟล์ชื่อ `extract_invoice.py` สมมติว่าคุณได้ติดตั้งแพ็กเกจ Aspose ทั้งสองแล้วและมีภาพที่ `YOUR_DIRECTORY/invoice.png`  
+### ตัวอย่างทำงานเต็มรูปแบบ
+ด้านล่างเป็นสคริปต์เต็มที่คุณสามารถคัดลอก‑วางลงใน `extract_invoice.py`. สมมติว่าติดตั้งแพ็กเกจ Aspose ทั้งสองแล้วและรูปภาพอยู่ที่ `YOUR_DIRECTORY/invoice.png`.
 
 ```python
 # extract_invoice.py
@@ -201,46 +166,44 @@ with open("invoice_extracted.txt", "w", encoding="utf-8") as out_file:
 print("\n✅ Cleaned text saved to invoice_extracted.txt")
 ```
 
-รันด้วยคำสั่ง:
-
+Run it with:
 ```bash
 python extract_invoice.py
 ```
 
-คุณจะเห็นผลลัพธ์ดิบตามด้วยเวอร์ชันที่เรียบร้อยขึ้น และไฟล์ `invoice_extracted.txt` จะปรากฏในโฟลเดอร์เดียวกัน
+คุณจะเห็นการแสดงผลดิบ, เวอร์ชันที่ทำความสะอาด, และไฟล์ชื่อ `invoice_extracted.txt` ในโฟลเดอร์เดียวกัน.
 
----
+## วิธีแก้ไขข้อผิดพลาด OCR ในสถานการณ์อื่น ๆ?
+- **Batch processing:** ห่อหุ้มตรรกะหลักในฟังก์ชันและใช้ `concurrent.futures.ThreadPoolExecutor` เพื่อทำงานขนานกับหลายรูปภาพ
+- **PDF documents:** ใช้ `pdf2image` เพื่อแปลงแต่ละหน้เป็น PNG, แล้วป้อนแต่ละ PNG ผ่านสคริปต์ ซึ่งเป็นการทำงานของ “convert pdf to images for ocr”
+- **Custom dictionaries:** ส่งรายการคำเฉพาะโดเมนให้ `AsposeAI` ผ่าน `set_custom_dictionary()` เพื่อปรับปรุงความแม่นยำของการตรวจสอบการสะกดสำหรับใบแจ้งหนี้, รายงานทางการแพทย์, ฯลฯ
 
-## คำถามที่พบบ่อย (FAQ)
+## คำถามที่พบบ่อย
 
-**ถาม: โปรแกรมนี้ใช้งานกับไฟล์ PDF ได้หรือไม่?**
-ตอบ: ไม่ได้โดยตรง ต้องแปลงแต่ละหน้าของไฟล์ PDF เป็นรูปภาพ (เช่น ใช้ `pdf2image`) แล้ววนลูปสคริปต์กับไฟล์ PNG ที่ได้
+**Q: Does this work with PDFs directly?**  
+A: ไม่ได้โดยตรง ต้องแปลงแต่ละหน้าของ PDF เป็นรูปภาพก่อน (เช่น ด้วย `pdf2image`) แล้วรันสคริปต์ OCR บนแต่ละ PNG.
 
-**ถาม: ภาษาของฉันไม่ใช่ภาษาอังกฤษ ฉันยังสามารถใช้การตรวจสอบการสะกดคำได้หรือไม่?**
-ตอบ: ได้ ส่งรหัสภาษาที่ต้องการไปยัง `AsposeAI(language="de")` สำหรับภาษาเยอรมัน `"es"` สำหรับภาษาสเปน เป็นต้น
+**Q: My source language isn’t English—can I still use the spell‑check?**  
+A: ใช่. เริ่มต้น `AsposeAI(language="de")` สำหรับภาษาเยอรมัน, `"es"` สำหรับภาษาสเปน, เป็นต้น.
 
-**ถาม: เกิดอะไรขึ้นหากเอนจิ้น OCR ตรวจจับเค้าโครงตารางผิดพลาด?**
-ตอบ: Aspose OCR มีแฟล็ก `set_layout_analysis(True)` การเปิดใช้งานจะช่วยปรับปรุงการตรวจจับตาราง แต่อาจทำให้เวลาในการประมวลผลเพิ่มขึ้น
+**Q: What if the OCR engine mis‑detects table structures?**  
+A: เปิดใช้งานการวิเคราะห์โครงสร้างด้วย `ocr_engine.set_layout_analysis(True)`. นี้จะช่วยปรับปรุงการตรวจจับตารางแต่ใช้เวลาเพิ่มขึ้นเล็กน้อย.
 
-**ถาม: ฉันจะจัดการกับชุดข้อมูลขนาดใหญ่มากได้อย่างไร?**
-ตอบ: ห่อตรรกะหลักไว้ในฟังก์ชันและใช้พูลเธรดหรืออะซิงโครนัสเพื่อประมวลผลแบบขนานบนหลายคอร์หรือหลายเครื่อง
+**Q: How can I handle very large batches efficiently?**  
+A: ประมวลผลรูปภาพเป็นชิ้นส่วน, เขียนผลลัพธ์แต่ละรายการลงในฐานข้อมูลหรือคิวข้อความ, และพิจารณาใช้ async I/O หรือ multiprocessing เพื่อใช้ CPU อย่างเต็มที่.
 
+**Q: Is there a way to customize the spell‑check dictionary?**  
+A: ใช่. ใช้ `ai_processor.set_custom_dictionary(["Invoice", "VAT", "Subtotal"])` ก่อนรัน post‑processor.
 
----
-
-## สรุป
-
-เราได้แสดงวิธี **extract text from image** ด้วย Aspose OCR, วิธี **load image for OCR**, และวิธีที่ง่ายที่สุดในการ **correct OCR errors** ด้วย AI spell‑check ในตัว สคริปต์ที่ทำงานได้เต็มรูปแบบนี้แสดงขั้นตอนจากการโหลด PNG ใบแจ้งหนี้จนถึงการบันทึกไฟล์ `.txt` ที่สะอาดและค้นหาได้  
-
-ลองเปลี่ยน spell‑check เป็น grammar correction, ส่งผลลัพธ์ไปยังตัวจำแนก NLP, หรือรวมกระบวนการนี้เข้าในระบบจัดการเอกสารขนาดใหญ่ ไม่ว่าคุณจะทำอะไร การมีข้อความที่เชื่อถือได้และผ่านการแก้ไขแล้วคือกุญแจสำคัญ  
-
-มีคำถามเพิ่มเติมเกี่ยวกับ OCR, Aspose, หรือการอัตโนมัติด้วย Python? แสดงความคิดเห็นด้านล่าง แล้วขอให้สนุกกับการเขียนโค้ด!
-
----
-
-![Extract text from image example](extract_text_image.png "Extract text from image with Aspose OCR")
+![ตัวอย่างการดึงข้อความจากรูปภาพ](extract_text_image.png "ดึงข้อความจากรูปภาพด้วย Aspose OCR")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-27  
+**ทดสอบด้วย:** Aspose OCR 23.12, Aspose OCR AI 23.12  
+**ผู้เขียน:** Aspose

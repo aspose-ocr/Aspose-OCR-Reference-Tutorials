@@ -21,21 +21,13 @@ title: Python에서 OCR 리소스를 해제하는 방법 – 단계별 가이드
 url: /ko/python/general/how-to-free-ocr-resources-in-python-step-by-step-guide/
 ---
 
-. Keep them as is.
 
-Thus translate surrounding text but keep bold phrases unchanged.
 
-Proceed.
 
-List bullet points: translate.
 
-Tables: translate header and content.
 
-Make sure to keep code block placeholders.
 
-Proceed step by step.
 
-Let's craft final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

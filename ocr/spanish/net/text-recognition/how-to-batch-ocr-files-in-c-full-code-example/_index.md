@@ -218,8 +218,6 @@ Ejecuta `dotnet run` desde la carpeta del proyecto y observa cómo la consola se
 
 ---
 
-![ejemplo de cómo procesar OCR por lotes](alt="ejemplo de cómo procesar OCR por lotes")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

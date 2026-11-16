@@ -24,21 +24,14 @@ title: Estrai testo da immagine in C# – Esempio di OCR offline
 url: /it/net/text-recognition/extract-text-from-image-in-c-offline-ocr-example/
 ---
 
-."
 
-Translate.
 
-Next: "Got questions or want to share your own tweaks? Drop a comment below, and happy coding!"
 
-Translate.
 
-Then closing shortcodes unchanged.
 
-Now produce final content with same markdown.
 
-Make sure to keep placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

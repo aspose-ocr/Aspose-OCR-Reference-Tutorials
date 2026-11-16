@@ -23,13 +23,10 @@ title: 'كيفية استخدام Aspose: التعرف على النص المك�
 url: /ar/python/general/how-to-use-aspose-recognize-handwritten-text-from-images/
 ---
 
-content with all translations.
 
-Check we didn't translate any code placeholders or URLs.
 
-Make sure to keep markdown formatting.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

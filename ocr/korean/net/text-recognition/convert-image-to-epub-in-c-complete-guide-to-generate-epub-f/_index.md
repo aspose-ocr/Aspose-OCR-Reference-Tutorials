@@ -22,11 +22,8 @@ title: C#에서 이미지를 ePub으로 변환 – ePub 파일 생성 완전 가
 url: /ko/net/text-recognition/convert-image-to-epub-in-c-complete-guide-to-generate-epub-f/
 ---
 
-unchanged.
 
-Now produce final output.
 
-Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,9 +24,7 @@ title: Aspose AI के साथ OCR कैसे चलाएँ – चरण
 url: /hi/python/general/how-to-run-ocr-with-aspose-ai-step-by-step-guide/
 ---
 
-to preserve markdown formatting exactly.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

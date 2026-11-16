@@ -230,6 +230,8 @@ Each of these extensions builds on the core concepts covered in this **python oc
 *Happy coding! If you hit any snags, drop a comment below—I'll be glad to help you fine‑tune the extraction.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf-container >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

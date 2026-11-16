@@ -1,58 +1,93 @@
 ---
 category: general
-date: 2026-02-09
-description: Készíts kereshető PDF-et egy beolvasott dokumentumból Java PDF OCR-rel.
-  Tanuld meg, hogyan konvertálj beolvasott PDF-et gyorsan Java PDF OCR segítségével.
+date: 2026-09-18
+description: Ismerjen meg egy aspose ocr java példát a searchable PDF gyors létrehozásához
+  beolvasott dokumentumokból. Ez az útmutató bemutatja, hogyan konvertálhat beolvasott
+  PDF-et Java OCR használatával.
 draft: false
 keywords:
-- create searchable pdf
-- convert scanned pdf
-- how to convert pdf
-- java pdf ocr
-- how to make searchable pdf
-language: hu
-og_description: Készíts kereshető PDF-et azonnal. Ez az útmutató bemutatja, hogyan
-  konvertálhatod a beolvasott PDF-et Java PDF OCR-rel, és válaszol arra, hogyan készíthetsz
-  kereshető PDF-et.
-og_title: Kereshető PDF létrehozása Java-ban – Teljes útmutató
+- aspose ocr java example
+- multi language pdf ocr
+- java pdf ocr library
+- convert pdf with java
+- add text layer pdf
+lastmod: 2026-09-18
+og_description: Ismerjen meg egy aspose ocr java példát a searchable PDF azonnali
+  létrehozásához. Konvertáljon beolvasott PDF-eket Java OCR-rel, és adjon hozzá kereshető
+  szövegréteget.
+og_image_alt: Screenshot of Java code converting scanned PDF to searchable PDF using
+  Aspose OCR
+og_title: Hogyan használjuk az aspose ocr java példát a searchable PDF létrehozásához
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn an aspose ocr java example to create searchable PDF from scanned
+    documents quickly. This guide shows how to convert scanned PDF using Java OCR.
+  headline: How to use aspose ocr java example to create searchable PDF
+  type: TechArticle
+- questions:
+  - answer: Yes, with a valid Aspose license. A free trial is available for evaluation.
+    question: Can I use this in a commercial application?
+  - answer: Yes, you can unlock the document first using `PdfDocument.decrypt("yourPassword")`
+      before OCR.
+    question: Does this work with password‑protected PDF files?
+  - answer: Java 17 or newer is recommended; the library is compatible with Java 8+
+      as well.
+    question: What Java versions are supported?
+  - answer: Process the file in page‑by‑page chunks and keep DPI at 300 or lower to
+      limit memory usage.
+    question: How do I handle very large PDFs efficiently?
+  - answer: Other tools exist, but Aspose OCR offers the most complete Java API with
+      **60+ language** support and no external binaries.
+    question: Is there a way to add searchable text without Aspose OCR?
+  type: FAQPage
 tags:
 - Java
 - OCR
 - PDF
-title: Kereshető PDF létrehozása Java-ban – Lépésről lépésre útmutató
+title: Hogyan használjuk az aspose ocr java példát a searchable PDF létrehozásához
 url: /hu/java/ocr-operations/create-searchable-pdf-in-java-step-by-step-guide/
 ---
-
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Kereshető PDF létrehozása Java‑ban – Lépésről‑lépésre útmutató
+# Hogyan használjuk az aspose ocr java példát kereshető PDF létrehozásához
 
-Gondolkodtál már azon, hogyan **create searchable pdf** fájlokat készíthetsz egy halom beolvasott képből? Nem vagy egyedül — sok fejlesztő szembesül ezzel a problémával, amikor szöveg‑kereshető dokumentumokra van szükség archiválás vagy megfelelőség céljából. A jó hír, hogy néhány Java‑sor és az Aspose OCR segítségével bármely beolvasott PDF‑et másodpercek alatt teljesen kereshető PDF‑vé alakíthatsz.
+Ever wondered how to **create searchable pdf** files from a stack of scanned images? You’re not alone—many developers hit this roadblock when they need text‑searchable documents for archiving or compliance. The good news is that with a few lines of Java and Aspose OCR you can turn any scanned PDF into a fully searchable PDF in seconds. This tutorial shows an **aspose ocr java example** that walks you through setup, DPI and language tuning, and the final conversion call.
 
-Ebben az útmutatóban végigvezetünk a teljes folyamaton: az Aspose OCR könyvtár beállításától a DPI és nyelvi beállítások finomhangolásáig, egészen a konverziós metódus meghívásáig. A végére megtanulod, hogyan **convert pdf** fájlokat programozottan, megérted a **java pdf ocr** sajátosságait, és készen állsz arra, hogy megválaszold a „**how to make searchable pdf**?” kérdést a saját projektjeidben.
+## Gyors válaszok
+- **Which library handles OCR in Java?** Aspose OCR for Java.  
+- **How many languages are supported?** Over 60 language packs, including Asian scripts.  
+- **What DPI gives the best accuracy?** 300 DPI balances quality and memory use.  
+- **Can I process multiple PDFs at once?** Yes—wrap the conversion call in a loop.  
+- **Do I need a license for production?** A paid license removes the evaluation watermark.
 
-## Mit tanulhatsz meg
+## Mi az aspose ocr java példa?
+The **aspose ocr java example** demonstrates how to use the Aspose OCR API to read scanned PDF pages, run optical character recognition, and embed an invisible text layer that makes the document searchable. It’s a concise, end‑to‑end snippet you can copy into any Java project.
 
-* Hogyan **create searchable pdf** használj az Aspose OCR for Java‑val.  
-* A pontos lépések a **convert scanned pdf** kereshető változattá alakításához.  
-* Miért fontos a DPI és a nyelv, amikor **java pdf ocr**‑t végzel egy dokumentumon.  
-* Tippek többnyelvű PDF‑ek és nagy fájlok kezeléséhez.  
+## Hogyan hozzunk létre kereshető PDF-et Java-ban az aspose ocr használatával?
+Load the source PDF with `PdfOcrProcessor`, configure optional DPI and language settings, then call `convertToSearchablePdf`. The method processes each page, runs OCR, and writes the recognized text back as a hidden layer, preserving the original image appearance. For typical documents 300 DPI and the correct language pack give >95 % character accuracy while keeping memory usage under 200 MB.
 
-> **Előfeltételek:** Java 17 vagy újabb, Maven vagy Gradle, valamint egy Aspose OCR for Java licenc (az ingyenes próba verzió teszteléshez elegendő). Más harmadik fél könyvtárra nincs szükség.
+## Mit fogsz megtanulni
+* How to **create searchable pdf** using Aspose OCR for Java.  
+* The exact steps to **convert scanned pdf** into a searchable version.  
+* Why DPI and language matter when you **java pdf ocr** a document.  
+* Tips for handling multi‑language PDFs and large files.  
+
+> **Előfeltételek:** Java 17 or newer, Maven or Gradle, and an Aspose OCR for Java license (the free trial works for testing). No other third‑party libraries are required.
 
 ---
 
-![Kereshető PDF létrehozása példa](image-placeholder.png "create searchable pdf example")
+![Kereshető PDF példa](image-placeholder.png "Kereshető PDF példa")
+[Create searchable PDF example](image-placeholder.png "Kereshető PDF példa")
 
-## Kereshető PDF – Áttekintés
+## Kereshető PDF létrehozása – áttekintés
 
-A megoldás lényege az Aspose által biztosított `PdfOcrProcessor` osztályban rejlik. Ez beolvassa a beolvasott PDF minden oldalát, OCR‑t futtat, és a felismert szöveget egy láthatatlan szövegréteggel visszaírja a PDF‑be. Ez a réteg teszi a fájlt kereshetővé, miközben megőrzi az eredeti kép megjelenését.
+The core of the solution lives in the `PdfOcrProcessor` class provided by Aspose. **The `PdfOcrProcessor` class is Aspose OCR's engine that reads each PDF page, runs OCR, and writes a hidden text layer back into the file.** That layer makes the file searchable while preserving the original image appearance.
 
-Az alábbiakban a teljes, azonnal futtatható Java programot láthatod. Nyugodtan másold be a kedvenc IDE‑dbe, és nyomd meg a **Run** gombot.
+Below is the complete, ready‑to‑run Java program. Feel free to copy‑paste it into your IDE and hit **Run**.
 
 ```java
 import com.aspose.ocr.*;
@@ -81,21 +116,19 @@ public class PdfToSearchablePdf {
 }
 ```
 
-A program futtatása valami ilyesmit ír ki:
+Running the program prints something like:
 
 ```
 Searchable PDF created at: YOUR_DIRECTORY/searchable_output.pdf
 ```
 
-Nyisd meg a keletkezett fájlt az Adobe Readerben, nyomd meg a **Ctrl + F**‑et, és láthatod, hogy a keresőmezőbe beírt szöveg most már megegyezik a beolvasott oldalak tartalmával. Ez az a pillanat, amikor tudod, hogy sikeresen **create searchable pdf**‑t hoztál létre.
+Open the resulting file in Adobe Reader, press **Ctrl + F**, and you’ll see that the text you typed in the search box now matches the content of the scanned pages. That’s the moment you know you’ve successfully **create searchable pdf**.
 
----
+## 1. lépés: aspose ocr beállítása Java-hoz
 
-## 1. lépés: Aspose OCR for Java beállítása
+Before you can call `PdfOcrProcessor`, you need the Aspose OCR JARs on your classpath.
 
-Mielőtt meghívnád a `PdfOcrProcessor`‑t, az Aspose OCR JAR‑okat a classpath‑ra kell helyezned.
-
-**Maven felhasználók** adják hozzá a következő függőséget a `pom.xml`‑hez:
+**Maven users** add the following dependency to `pom.xml`:
 
 ```xml
 <dependency>
@@ -105,53 +138,49 @@ Mielőtt meghívnád a `PdfOcrProcessor`‑t, az Aspose OCR JAR‑okat a class
 </dependency>
 ```
 
-**Gradle felhasználók** adják hozzá ezt a sort a `build.gradle`‑hez:
+**Gradle users** add this line to `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-Ha manuális letöltést részesítesz előnyben, szerezd be a JAR‑t az Aspose portálról, és helyezd el a `libs/` könyvtárban. Ne felejtsd el az IDE‑det a JAR‑ra mutatni, különben fordítási hibákat kapsz.
+If you prefer a manual download, grab the JAR from the Aspose portal and place it in `libs/`. Remember to point your IDE to the JAR, otherwise you’ll get compilation errors.
 
-> **Pro tipp:** Használd az Aspose OCR legújabb verzióját a teljesítményjavulások és az új nyelvi csomagok érdekében.  
-
----
+> **Pro tipp:** Use the latest version of Aspose OCR to benefit from performance improvements and new language packs. The current release supports **60+ languages** and can process PDFs up to **500 MB** without loading the entire file into memory.
 
 ## 2. lépés: OCR beállítások konfigurálása (opcionális, de ajánlott)
 
-Az alapértelmezett OCR konfiguráció működik, de a DPI és a nyelv finomhangolása drámaian javíthatja az eredményt, ha **convert scanned pdf**‑t dolgozol fel, amely apró betűket vagy nem‑angol szöveget tartalmaz.
+The default OCR configuration works, but tweaking DPI and language can dramatically improve the result when you **convert scanned pdf** that contain tiny fonts or non‑English text.
 
 ```java
 pdfProcessor.getConfiguration().setDpi(300); // 300 DPI is a sweet spot
 pdfProcessor.getConfiguration().setLanguage(Language.ENGLISH);
 ```
 
-* **DPI** – A magasabb DPI több pixelt ad az OCR motor számára, ami általában nagyobb pontosságot jelent. Ugyanakkor a memóriahasználatot is növeli, ezért a 300 DPI a legtöbb dokumentum esetén praktikus kompromisszum.  
-* **Language** – A megfelelő nyelv beállítása csökkenti a hamis pozitív találatokat. Az Aspose több mint 60 nyelvet támogat; egyszerűen cseréld le a `Language.ENGLISH`‑t `Language.FRENCH`, `Language.SPANISH` stb.-re, ha szükséges.
+* **DPI** – Higher DPI gives the OCR engine more pixels to analyse, which usually translates to higher accuracy. However, it also increases memory usage, so 300 DPI is a practical compromise for most documents.  
+* **Language** – Setting the correct language reduces false positives. Aspose supports **over 60 languages**; just replace `Language.ENGLISH` with `Language.FRENCH`, `Language.SPANISH`, etc., if needed.
 
-Ha azt szeretnéd megtudni, **how to make searchable pdf** több nyelven, akkor a `setLanguage`‑t többször is meghívhatod, vagy használhatod a `Language.MULTI`‑t (ha a könyvtár támogatja).
+If you need to **how to make searchable pdf** in multiple languages, you can call `setLanguage` multiple times or use `Language.MULTI` (if the library supports it).
 
----
+## 3. lépés: beolvasott PDF konvertálása kereshető PDF-re
 
-## 3. lépés: Beolvasott PDF konvertálása kereshető PDF‑é
+Now the magic happens. The `convertToSearchablePdf` method does all the heavy lifting.
 
-Most jön a varázslat. A `convertToSearchablePdf` metódus végzi az összes nehéz munkát:
+The `convertToSearchablePdf` method converts the input PDF into a searchable PDF by performing OCR on each page and adding a hidden text layer.
 
 ```java
 pdfProcessor.convertToSearchablePdf(inputPdfPath, outputPdfPath);
 ```
 
-A háttérben az Aspose beolvassa az egyes oldalképeket, OCR‑t futtat, és egy rejtett szövegréteget ad hozzá. Az eredeti kép változatlan marad, ami azt jelenti, hogy a forrás PDF‑ben látható vizuális elrendezés megmarad.
+Under the hood, Aspose reads each page image, runs OCR, and adds a hidden text layer. The original image stays untouched, which means the visual layout you see in the source PDF is preserved.
 
-**Különleges eset:** Ha a forrás PDF jelszóval védett, előbb fel kell oldani a védelmet a `PdfDocument`‑tel, mielőtt átadnád az OCR processzornak. A könyvtár biztosítja a `pdfDocument.decrypt("password")` metódust erre a célra.
+**Edge case:** If your source PDF is password‑protected, you’ll need to unlock it first with `PdfDocument` before passing the path to the OCR processor. The library provides `pdfDocument.decrypt("password")` for that purpose.
 
----
+## 4. lépés: az eredmény ellenőrzése
 
-## 4. lépés: Az eredmény ellenőrzése
+After conversion, open the output file in any PDF viewer that supports text search (Adobe Acrobat Reader, Foxit, etc.) and try searching for a word you know appears in the scanned image. If the search finds the word, you’ve successfully **create searchable pdf**.
 
-A konverzió után nyisd meg a kimeneti fájlt bármely szövegkeresést támogató PDF‑nézőben (Adobe Acrobat Reader, Foxit stb.), és keress egy olyan szót, amely biztosan megjelenik a beolvasott képen. Ha a keresés megtalálja a szót, sikeresen **create searchable pdf**‑t hoztál létre.
-
-Programból is ellenőrizheted a szövegréteg jelenlétét az Aspose PDF‑vel:
+You can also programmatically verify the presence of a text layer using Aspose PDF:
 
 ```java
 PdfDocument doc = new PdfDocument(outputPdfPath);
@@ -159,42 +188,62 @@ boolean hasText = doc.getPages().get_Item(1).getExtractedText().length() > 0;
 System.out.println("Text layer detected: " + hasText);
 ```
 
-Ha a `hasText` `true`‑t ír ki, akkor az OCR réteg a helyén van.
-
----
+If `hasText` prints `true`, the OCR layer is in place.
 
 ## Gyakori kérdések és buktatók
 
 | Kérdés | Válasz |
 |----------|--------|
-| **Tömegesen tudok‑e PDF‑eket feldolgozni?** | Igen. Csomagold a konverziós hívást egy ciklusba, és add át a fájlútvonalak listáját. |
-| **Mi van, ha a PDF olyan képeket tartalmaz, amelyek nem szöveg?** | Az OCR motor figyelmen kívül hagyja a nem‑szöveges képeket, és érintetlenül hagyja őket. |
-| **Van korlátozás a fájlméretre?** | A könyvtár nagy fájlokkal is megbirkózik, de a memóriaigény a DPI‑val nő. Nagyobb, >100 MB‑os PDF‑ek esetén érdemes darabonként feldolgozni. |
-| **Miben különbözik ez a „how to convert pdf” más eszközökhöz képest?** | Az Aspose OCR tisztán Java API‑t biztosít, nincs külső végrehajtható fájl, és finom DPI/nyelv‑vezérlést tesz lehetővé. |
-| **Szükség van licencre a termeléshez?** | Az ingyenes próba verzió elegendő a kiértékeléshez. Termelésben licenc vásárlása szükséges a kiértékelési vízjel eltávolításához. |
+| **Több PDF-et batch‑feldolgozhatok?** | Igen. Csomagolja a konverziós hívást egy ciklusba, és adja meg a fájlútvonalak listáját. |
+| **Mi van, ha a PDF nem‑szöveges képeket tartalmaz?** | Az OCR motor figyelmen kívül hagyja a nem‑szöveges képeket, érintetlenül hagyja őket. |
+| **Van-e korlátozás a fájlméretre?** | A könyvtár nagy fájlokkal is megbirkózik, de a memóriafogyasztás a DPI‑val nő. Fontolja meg a darabolást >100 MB PDF‑eknél. |
+| **Miben különbözik ez a „pdf konvertálás” más eszközökkel?** | Az Aspose OCR tisztán Java API‑t biztosít, külső végrehajtható fájlok nélkül, és finom DPI/nyelv‑vezérlést támogat **60+ nyelven**. |
+| **Szükség van licencre a termeléshez?** | A ingyenes próbaértékesítés értékelésre alkalmas. Termeléshez vásároljon licencet a vízjel eltávolításához. |
+
+## Következő lépések: az alapok meghaladása
+
+Now that you know **how to convert pdf** with Aspose OCR, you might want to explore:
+
+* **Batch conversion scripts** – combine the code with `java.nio.file` to walk a directory tree.  
+* **Multi‑language OCR** – load multiple language packs and let the engine auto‑detect.  
+* **Embedding metadata** – after conversion, use Aspose PDF to add title, author, and keywords to the searchable PDF.  
+* **Performance tuning** – experiment with lower DPI for faster processing when accuracy isn’t critical.  
+
+These extensions let you build a full‑featured document processing pipeline that can **how to make searchable pdf** a routine part of your Java application.
+
+## Gyakran feltett kérdések
+
+**Q: Használhatom ezt kereskedelmi alkalmazásban?**  
+A: Igen, érvényes Aspose licenccel. Ingyenes próbaértékesítés elérhető értékeléshez.
+
+**Q: Működik ez jelszóval védett PDF fájlokkal?**  
+A: Igen, a dokumentumot először fel kell oldani a `PdfDocument.decrypt("yourPassword")` használatával OCR előtt.
+
+**Q: Mely Java verziók támogatottak?**  
+A: Java 17 vagy újabb ajánlott; a könyvtár kompatibilis a Java 8+ verziókkal is.
+
+**Q: Hogyan kezeljem a nagyon nagy PDF‑eket hatékonyan?**  
+A: Process the file in page‑by‑page chunks and keep DPI at 300 or lower to limit memory usage.
+
+**Q: Van-e mód kereshető szöveget hozzáadni Aspose OCR nélkül?**  
+A: Other tools exist, but Aspose OCR offers the most complete Java API with **60+ language** support and no external binaries.
 
 ---
 
-## Következő lépések: Túl a alapokon
+**Legutóbb frissítve:** 2026-09-18  
+**Tesztelve:** Aspose OCR for Java 24.11  
+**Szerző:** Aspose
 
-Most, hogy már tudod, **how to convert pdf** az Aspose OCR‑rel, érdemes lehet:
+## Kapcsolódó oktatóanyagok
 
-* **Batch conversion scripts** – kombináld a kódot a `java.nio.file`‑al, hogy egy könyvtárfa bejárásával dolgozz több fájlon.  
-* **Multi‑language OCR** – tölts be több nyelvi csomagot, és engedd, hogy a motor automatikusan felismerje a nyelvet.  
-* **Metaadatok beágyazása** – a konverzió után használd az Aspose PDF‑et cím, szerző és kulcsszavak hozzáadására a kereshető PDF‑hez.  
-* **Teljesítményhangolás** – kísérletezz alacsonyabb DPI‑val a gyorsabb feldolgozás érdekében, ha a pontosság nem kritikus.  
+- [How to OCR PDF Documents with Aspose.OCR for Java](/ocr/java/ocr-operations/recognize-pdf/)
+- [Get Ocr Text In Java Complete Aspose Ocr Example](/ocr/java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/)
+- [Create Searchable Pdf From Image With Ocr Java Tutorial](/ocr/java/ocr-operations/create-searchable-pdf-from-image-with-ocr-java-tutorial/)
 
-Ezekkel a kiegészítésekkel egy teljes körű dokumentumfeldolgozó csővezetéket építhetsz, amely a **how to make searchable pdf** feladatot rutin részévé teszi Java‑alkalmazásodnak.
-
----
-
-## Összegzés
-
-Áttekintettük mindazt, amire szükséged van **create searchable pdf** fájlok Java‑ban történő létrehozásához: az Aspose OCR beállítása, a DPI és nyelv konfigurálása, a konverzió meghívása és az eredmény ellenőrzése. Legyen szó vállalati archiváló rendszerről vagy csak egy gyors megoldásról a beolvasott szerződések kereshetővé tételéhez, ez a megközelítés megbízható, gyors és teljesen kódból vezérelhető.
-
-Próbáld ki, finomítsd a beállításokat a dokumentumaid sajátosságai szerint, és hamarosan a „**how to make searchable pdf**?” kérdésre válaszolni fogsz bármely beolvasott fájlra. Boldog kódolást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

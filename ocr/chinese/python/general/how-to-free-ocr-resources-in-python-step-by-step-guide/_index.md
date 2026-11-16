@@ -19,21 +19,14 @@ title: 如何在 Python 中释放 OCR 资源——一步一步指南
 url: /zh/python/general/how-to-free-ocr-resources-in-python-step-by-step-guide/
 ---
 
-In original they have bold **how to free ocr**. I'd keep the phrase unchanged to preserve keyword. So keep bold unchanged.
 
-Similarly **how to list ai**, **how to get ocr**, **list ocr models** keep unchanged.
 
-Proceed.
 
-Translate bullet points.
 
-Tables: translate left column and right column content.
 
-Make sure not to translate code placeholders.
 
-Proceed.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

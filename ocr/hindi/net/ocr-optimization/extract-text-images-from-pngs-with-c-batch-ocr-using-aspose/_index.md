@@ -25,9 +25,7 @@ title: C# के साथ PNG से टेक्स्ट इमेज नि�
 url: /hi/net/ocr-optimization/extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/
 ---
 
-.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

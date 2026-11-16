@@ -23,7 +23,7 @@ title: Ekstrak Teks dari PDF dengan OCR – Panduan Python Lengkap
 url: /id/python/general/extract-text-from-pdf-with-ocr-complete-python-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

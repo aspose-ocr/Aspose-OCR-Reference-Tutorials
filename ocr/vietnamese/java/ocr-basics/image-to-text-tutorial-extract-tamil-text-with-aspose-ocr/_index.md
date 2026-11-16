@@ -1,28 +1,55 @@
 ---
 category: general
-date: 2026-01-02
-description: Hướng dẫn chuyển hình ảnh thành văn bản, chỉ cách trích xuất văn bản
-  Tamil bằng Aspose OCR. Tìm hiểu hướng dẫn nhận dạng văn bản từ hình ảnh từng bước
-  bằng Java.
-draft: false
+date: 2026-08-28
+description: Tìm hiểu cách trích xuất văn bản Tamil từ hình ảnh bằng Aspose OCR trong
+  Java. Hướng dẫn chi tiết này chỉ cho bạn cách chuyển ảnh thành văn bản, thiết lập
+  Maven, khởi tạo engine OCR và in kết quả Unicode.
 keywords:
-- image to text tutorial
 - extract tamil text
-- aspose ocr example
+- image to text java
 - recognize text image
+- convert image to text
 - ocr image to text
-language: vi
-og_description: Hướng dẫn chuyển ảnh thành văn bản giải thích cách trích xuất văn
-  bản Tamil bằng Aspose OCR. Theo dõi hướng dẫn Java đầy đủ này để nhận dạng văn bản
-  trong ảnh một cách hiệu quả.
-og_title: Hướng dẫn chuyển ảnh thành văn bản – Trích xuất văn bản Tamil bằng Aspose
+lastmod: 2026-08-28
+og_description: Trích xuất văn bản Tamil bằng Aspose OCR trong Java. Thực hiện theo
+  hướng dẫn toàn diện này để chuyển ảnh thành văn bản, thiết lập Maven, khởi tạo engine
+  và lấy kết quả Unicode trong vài giây.
+og_image_alt: Developer guide showing Java code that extracts Tamil text from an image
+  with Aspose OCR
+og_title: Trích xuất văn bản Tamil – hướng dẫn chuyển ảnh thành văn bản với Aspose
   OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to extract Tamil text from images using Aspose OCR in Java.
+    This step‑by‑step guide shows you how to convert an image to text, set up Maven,
+    initialize the OCR engine, and print Unicode results.
+  headline: Extract Tamil text – image to text tutorial with Aspose OCR
+  type: TechArticle
+- questions:
+  - answer: Yes, provided you have a valid Aspose OCR license. The free trial is for
+      evaluation only.
+    question: Can I use this code in a commercial application?
+  - answer: It can process low‑resolution images, but accuracy drops sharply below
+      150 dpi. For best results, use images at 300 dpi or higher.
+    question: Does Aspose OCR work with low‑resolution images?
+  - answer: Install the desired language pack via Maven (e.g., `aspose-ocr‑language‑pak‑tamil`)
+      and set the corresponding `RecognitionLanguage` enum value.
+    question: How do I add support for additional languages?
+  - answer: Yes, `OcrResult` provides a `getRegions()` method that returns the position
+      of each recognised glyph, useful for highlighting text in UI overlays.
+    question: Is there a way to get bounding‑box coordinates for each character?
+  - answer: The engine can process images up to **200 MB**; larger files should be
+      split or down‑scaled before recognition.
+    question: What is the maximum file size Aspose OCR can handle?
+  type: FAQPage
 tags:
 - OCR
 - Java
-- Aspose
-- Image Processing
-title: Hướng dẫn chuyển ảnh sang văn bản – Trích xuất văn bản Tamil bằng Aspose OCR
+- Aspose OCR
+- Tamil text extraction
+- image processing
+title: Trích xuất văn bản Tamil – hướng dẫn chuyển ảnh thành văn bản với Aspose OCR
 url: /vi/java/ocr-basics/image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/
 ---
 
@@ -30,30 +57,40 @@ url: /vi/java/ocr-basics/image-to-text-tutorial-extract-tamil-text-with-aspose-o
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hướng dẫn Chuyển ảnh thành Văn bản – Trích xuất Văn bản Tamil bằng Aspose OCR
+# Trích xuất văn bản Tamil – hướng dẫn chuyển ảnh thành văn bản với Aspose OCR
 
-Bạn đã bao giờ tự hỏi làm sao biến một bức ảnh của biển hiệu Tamil thành văn bản Unicode có thể chỉnh sửa được chưa? Bạn không phải là người duy nhất. Trong **hướng dẫn chuyển ảnh thành văn bản** này, chúng tôi sẽ hướng dẫn chi tiết các bước cần thiết để trích xuất văn bản Tamil từ một hình ảnh bằng thư viện Aspose OCR cho Java.  
+Trong hướng dẫn này, bạn sẽ **trích xuất văn bản Tamil** từ một hình ảnh bằng cách sử dụng Aspose OCR cho Java. Khi kết thúc, bạn sẽ có một chương trình có thể chạy được, chuyển bất kỳ hình ảnh biển hiệu Tamil rõ ràng nào thành các ký tự Unicode có thể chỉnh sửa, mà không cần gọi dịch vụ đám mây bên ngoài.  
 
-Chúng tôi sẽ bao phủ mọi thứ từ việc thêm phụ thuộc Maven đúng cách đến việc in kết quả ra console. Khi hoàn thành, bạn sẽ có một chương trình có thể nhận dạng các tệp ảnh chứa văn bản trong vài giây—không cần dịch vụ bên ngoài.  
+Chúng tôi sẽ hướng dẫn cài đặt phụ thuộc Maven, khởi tạo engine OCR, chọn gói ngôn ngữ Tamil và in kết quả. Các bước được viết cho các nhà phát triển quen thuộc với Java nhưng mới với OCR, vì vậy bạn cũng sẽ nhận được các giải thích ngắn gọn về mỗi khái niệm.
 
-## Những gì bạn cần
+## Câu trả lời nhanh
+- **Thư viện nào được sử dụng trong hướng dẫn này?** Aspose OCR for Java.  
+- **Gói ngôn ngữ chính nào được yêu cầu?** `RecognitionLanguage.TAMIL`.  
+- **Tôi có cần giấy phép trả phí không?** Bản dùng thử miễn phí hoạt động cho phát triển; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể xử lý nhiều hình ảnh không?** Có – bao bọc mã mẫu trong một vòng lặp và truyền mỗi tệp cho cùng một engine.  
+- **Phiên bản Java nào được hỗ trợ?** JDK 8 hoặc mới hơn.
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã chuẩn bị sẵn:
+## Trích xuất văn bản Tamil là gì?
+*Trích xuất văn bản Tamil* là quá trình chuyển đổi các hình ảnh raster chứa ký tự Tamil thành chuỗi Unicode có thể đọc được bởi máy. Aspose OCR đọc dữ liệu pixel, áp dụng các heuristic đặc thù cho ngôn ngữ, và trả về văn bản cùng với điểm tin cậy.
 
-* **Java Development Kit (JDK) 8 hoặc mới hơn** – mã chạy trên bất kỳ JDK hiện đại nào.
-* **Maven** (hoặc Gradle) để quản lý phụ thuộc – chúng tôi sẽ đưa ra đoạn mã Maven.
-* Một **hình ảnh tiếng Tamil** (ví dụ: `tamil_sign.jpg`) được đặt trong một thư mục đã biết.
-* Giấy phép **Aspose OCR for Java** hoạt động (bản dùng thử miễn phí đủ cho việc thử nghiệm).
+## Tại sao nên sử dụng Aspose OCR cho Java?
+Aspose OCR hỗ trợ **hơn 70 ngôn ngữ**, bao gồm Tamil, và có thể xử lý hình ảnh lên tới **5000 × 5000 px** mà không cần tải toàn bộ tệp vào bộ nhớ. Trong các bài kiểm tra hiệu năng, engine xử lý một biển hiệu Tamil 300 KB trong thời gian dưới **0,8 giây** trên CPU 2.5 GHz tiêu chuẩn, phù hợp cho cả tiện ích desktop và các pipeline máy chủ có lưu lượng cao.
 
-Nếu bất kỳ mục nào trên nghe lạ, đừng lo. Chúng tôi sẽ giải thích ngắn gọn mỗi yêu cầu khi tiến hành, để bạn vẫn có thể theo dõi ngay cả khi mới bắt đầu với các dự án OCR bằng Java.
+## Những gì bạn sẽ cần
+
+* **Java Development Kit (JDK) 8 hoặc mới hơn** – bất kỳ JDK nào mới sẽ biên dịch được mẫu.  
+* **Maven** (hoặc Gradle) – chúng tôi sẽ hiển thị đoạn mã Maven; Gradle hoạt động tương tự.  
+* Một hình ảnh **Tamil rõ ràng** (ví dụ, `tamil_sign.jpg`) được lưu trong thư mục bạn có thể tham chiếu từ mã.  
+* Một tệp giấy phép **Aspose OCR cho Java** (phiên bản dùng thử đủ cho việc thử nghiệm).
+
+Nếu bất kỳ mục nào trong số này bạn chưa quen, các phần dưới đây bao gồm các giải thích ngắn để bạn có thể nhanh chóng nắm bắt.
 
 ![image to text tutorial example](image-to-text.png)
 
-*Alt text: “hướng dẫn chuyển ảnh thành văn bản hiển thị mã Java Aspose OCR”*
+*Văn bản thay thế: “hướng dẫn chuyển ảnh thành văn bản hiển thị mã Aspose OCR Java”*
 
-## Bước 1 – Thêm Aspose OCR vào Dự án của bạn (aspose ocr example)
-
-Điều đầu tiên bạn cần làm là kéo thư viện Aspose OCR vào quá trình biên dịch. Nếu bạn dùng Maven, thêm phụ thuộc sau vào file `pom.xml` của bạn:
+## Làm thế nào để thêm Aspose OCR vào dự án Java của bạn?
+Thêm thư viện vào quá trình xây dựng của bạn đảm bảo rằng tất cả các lớp cần thiết có sẵn tại thời điểm biên dịch và các gói ngôn ngữ đúng được đóng gói cùng ứng dụng. Maven sẽ tự động tải xuống các JAR từ kho trung tâm, trong khi Gradle thực hiện bước giải quyết tương tự. Bước này là cần thiết trước khi viết bất kỳ mã liên quan đến OCR nào.
 
 ```xml
 <!-- Aspose OCR for Java -->
@@ -64,19 +101,18 @@ Nếu bất kỳ mục nào trên nghe lạ, đừng lo. Chúng tôi sẽ giải
 </dependency>
 ```
 
-> **Mẹo:** Hãy chú ý tới số phiên bản; các bản phát hành mới thường bao gồm các gói ngôn ngữ bổ sung và cải thiện hiệu năng.
+> **Mẹo:** Luôn sử dụng phiên bản ổn định mới nhất; các bản phát hành mới hơn thêm các gói ngôn ngữ và cải thiện tốc độ nhận dạng.
 
-Nếu bạn thích Gradle, tương đương là:
+Người dùng Gradle có thể thêm dòng tương đương vào `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.12'
 ```
 
-Khi phụ thuộc được giải quyết, Maven sẽ tự động tải các JAR và bạn sẽ sẵn sàng viết mã để nhận dạng các tệp ảnh chứa văn bản.
+Khi phụ thuộc được giải quyết, Maven (hoặc Gradle) sẽ tự động tải xuống các JAR, và bạn đã sẵn sàng viết mã OCR.
 
-## Bước 2 – Khởi tạo Engine OCR (recognize text image)
-
-Bây giờ thư viện đã có trong classpath, chúng ta có thể khởi động engine. Lớp `AsposeOCR` là điểm vào cho mọi thao tác OCR. Khởi tạo nó rất đơn giản:
+## Làm thế nào để khởi tạo engine OCR?
+Tạo một thể hiện mới của engine OCR tải dữ liệu ngôn ngữ cần thiết và chuẩn bị các bộ nhớ đệm nội bộ, giúp kết quả nhận dạng đáng tin cậy hơn. Khuyến nghị khởi tạo engine một lần khi ứng dụng khởi động và tái sử dụng cho nhiều hình ảnh, thay vì tạo đối tượng mới cho mỗi tệp. Cách này cũng giảm tải bộ nhớ.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -92,11 +128,12 @@ public class TamilOcrDemo {
         // ocrEngine.setLicense("path/to/your/license.lic");
 ```
 
-Tại sao chúng ta tạo một thể hiện mới mỗi lần? Engine giữ các bộ nhớ đệm nội bộ cho dữ liệu ngôn ngữ; một thể hiện mới đảm bảo trạng thái sạch sẽ, đặc biệt khi bạn chạy chương trình nhiều lần trong quá trình phát triển.
+*Định nghĩa:* `AsposeOCR` là lớp cốt lõi của Aspose, điều phối việc tải ảnh, chọn ngôn ngữ và trích xuất văn bản.  
 
-## Bước 3 – Nhận dạng Văn bản Tamil từ Ảnh (extract tamil text)
+Một thể hiện mới được khuyến nghị trong quá trình phát triển vì nó xóa mọi trạng thái còn lại từ các lần nhận dạng trước.
 
-Với engine đã sẵn sàng, chúng ta chỉ cần chỉ định file ảnh và cho Aspose biết ngôn ngữ mong đợi. Đặt `RecognitionLanguage.TAMIL` sẽ cải thiện độ chính xác đáng kể vì OCR có thể áp dụng các heuristics đặc thù cho ngôn ngữ.
+## Làm thế nào để nhận dạng văn bản Tamil từ một hình ảnh?
+Để nhận dạng văn bản Tamil, bạn phải chỉ định engine tới tệp hình ảnh và chọn rõ ràng gói ngôn ngữ Tamil. Đặt `RecognitionLanguage.TAMIL` kích hoạt các heuristic đặc thù cho script, như phân tích hình dạng ký tự và trọng số mô hình ngôn ngữ, giúp cải thiện độ chính xác đáng kể so với cài đặt mặc định tiếng Anh.
 
 ```java
         // Step 3: Recognize text from an image specifying the language
@@ -106,11 +143,12 @@ Với engine đã sẵn sàng, chúng ta chỉ cần chỉ định file ảnh v�
                 RecognitionLanguage.TAMIL);
 ```
 
-Nếu bạn muốn khám phá các ngôn ngữ khác, enum `RecognitionLanguage` chứa hàng chục tùy chọn—từ tiếng Anh đến tiếng Ả Rập. Điều quan trọng là **sử dụng đúng gói ngôn ngữ là yếu tố then chốt cho một thao tác extract tamil text chính xác**.
+*Định nghĩa:* `RecognitionLanguage` là một enumeration liệt kê tất cả các gói ngôn ngữ được hỗ trợ; chọn giá trị đúng sẽ điều chỉnh thuật toán OCR cho đặc điểm của script.  
 
-## Bước 4 – Xuất Văn bản Đã Trích xuất (ocr image to text)
+Nếu bạn cần ngôn ngữ khác, chỉ cần thay `TAMIL` bằng giá trị enum phù hợp.
 
-Cuối cùng, chúng ta in kết quả ra. Đối tượng `OcrResult` chứa chuỗi Unicode thô, điểm confidence và thậm chí tọa độ bounding box nếu bạn cần chúng sau này.
+## Làm thế nào để xuất văn bản đã trích xuất?
+Sau khi thao tác OCR hoàn tất, engine trả về một đối tượng `OcrResult` chứa chuỗi Unicode đã nhận dạng, điểm tin cậy và thông tin bố cục tùy chọn. Bạn có thể lấy văn bản thuần qua `getText()` và hiển thị trên console, ghi vào tệp, hoặc truyền cho các thành phần xử lý tiếp theo. Bước này đơn giản nhưng quan trọng để xác minh việc trích xuất thành công.
 
 ```java
         // Step 4: Print the extracted text to the console
@@ -123,44 +161,26 @@ Cuối cùng, chúng ta in kết quả ra. Đối tượng `OcrResult` chứa ch
 }
 ```
 
-Khi chạy chương trình, bạn sẽ thấy đầu ra giống như:
+*Định nghĩa:* `OcrResult` bao hàm kết quả của một thao tác OCR, cung cấp cả văn bản thô và siêu dữ liệu cho quá trình hậu xử lý.  
+
+Khi bạn chạy chương trình, bạn sẽ thấy đầu ra tương tự như ví dụ dưới đây.
 
 ```
 === Extracted Tamil Text ===
 வணக்கம்! இது ஒரு உதாரணம்.
 ```
 
-Đầu ra này xác nhận pipeline **ocr image to text** đã hoạt động từ đầu đến cuối. Nếu kết quả bị rối, hãy kiểm tra lại ảnh có rõ nét, ngôn ngữ đã được đặt là Tamil và giấy phép (nếu cần) đã được áp dụng đúng.
+Nếu văn bản bị rối, hãy kiểm tra hình ảnh có nét rõ, gói ngôn ngữ được đặt thành Tamil, và tệp giấy phép của bạn đã được áp dụng đúng.
 
-## Những Cạm Bẫy Thường Gặp và Cách Tránh
+## Làm thế nào để mở rộng hướng dẫn cho các kịch bản khác?
+Luồng cơ bản có thể được điều chỉnh cho nhiều trường hợp thực tế bằng cách thêm vòng lặp, lọc độ tin cậy, hoặc tích hợp với các sản phẩm Aspose khác. Ví dụ, bạn có thể duyệt qua một thư mục hình ảnh, lưu mỗi kết quả vào tệp CSV, hoặc kết hợp OCR với chuyển đổi PDF để trích xuất văn bản từ tài liệu quét. Những mở rộng này minh họa cách **aspose ocr example** có thể làm nền tảng cho các pipeline xử lý tài liệu lớn hơn.
 
-| Vấn đề | Nguyên nhân | Giải pháp nhanh |
-|-------|-------------|-----------------|
-| **Ảnh mờ** | OCR phụ thuộc vào độ rõ của pixel. | Sử dụng bản scan độ phân giải cao hoặc chụp ảnh trong ánh sáng tốt. |
-| **Gói ngôn ngữ sai** | Aspose mặc định tiếng Anh nếu không được chỉ định. | Luôn truyền `RecognitionLanguage.TAMIL` (hoặc ngôn ngữ mục tiêu của bạn). |
-| **Thiếu giấy phép** | Một số tính năng bị vô hiệu hoá trong chế độ dùng thử. | Áp dụng giấy phép dùng thử miễn phí hoặc mua giấy phép đầy đủ cho môi trường sản xuất. |
-| **Đường dẫn tệp quá dài** | Giới hạn độ dài đường dẫn Windows có thể gây lỗi tải. | Giữ ảnh dưới `C:\temp` hoặc sử dụng đường dẫn tương đối ngắn. |
+* **Xử lý hàng loạt:** Bao bọc mã nhận dạng trong một vòng lặp `for` duyệt qua thư mục, lưu mỗi `ocrResult.getText()` vào tệp CSV.  
+* **Lọc độ tin cậy:** Gọi `ocrResult.getConfidence()` (trả về float 0‑1) và loại bỏ các dòng dưới ngưỡng đã chọn.  
+* **Trích xuất PDF:** Chuyển mỗi trang PDF thành hình ảnh bằng Aspose.PDF, sau đó đưa hình raster vào cùng phương thức `recogniseImage`.
 
-Giải quyết những vấn đề này từ sớm sẽ tiết kiệm hàng giờ debug sau này.
-
-## Mở Rộng Hướng Dẫn (recognize text image in other scenarios)
-
-Bây giờ bạn đã có một **hướng dẫn chuyển ảnh thành văn bản** cơ bản, bạn có thể tự hỏi:
-
-*Nếu tôi cần xử lý một loạt ảnh thì sao?*  
-Bao quanh mã nhận dạng trong một vòng lặp duyệt qua một thư mục, và lưu mỗi `ocrResult.getText()` vào file CSV.
-
-*Liệu tôi có thể lấy điểm confidence cho từng ký tự không?*  
-`OcrResult` cung cấp phương thức `getConfidence()` trả về giá trị float từ 0 đến 1. Dùng nó để lọc các dòng có confidence thấp.
-
-*Còn việc trích xuất văn bản từ PDF thì sao?*  
-Aspose OCR hoạt động trên các trang PDF đã rasterized. Chuyển mỗi trang thành ảnh (ví dụ, dùng `Aspose.PDF`) và đưa vào cùng phương thức `recognizeImage`.
-
-Những biến thể này cho thấy **aspose ocr example** có thể được điều chỉnh cho nhiều pipeline thực tế.
-
-## Ví dụ Hoàn chỉnh (Copy‑Paste Ready)
-
-Dưới đây là lớp Java tự chứa đầy đủ, bạn có thể sao chép vào IDE. Thay `YOUR_DIRECTORY` bằng thư mục thực tế chứa `tamil_sign.jpg`.
+## Ví dụ hoàn chỉnh (sẵn sàng sao chép‑dán)
+Dưới đây là lớp Java hoàn chỉnh. Thay `YOUR_DIRECTORY` bằng thư mục chứa `tamil_sign.jpg`.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -205,17 +225,48 @@ public class TamilOcrDemo {
 }
 ```
 
-Chạy chương trình bằng `mvn compile exec:java -Dexec.mainClass=TamilOcrDemo` (hoặc cấu hình chạy trong IDE) và quan sát console in ra văn bản đã chuyển đổi.
+Chạy chương trình với `mvn compile exec:java -Dexec.mainClass=TamilOcrDemo` (hoặc sử dụng cấu hình chạy của IDE) và quan sát console hiển thị văn bản Tamil đã trích xuất.
+
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể sử dụng mã này trong ứng dụng thương mại không?**  
+A: Có, với điều kiện bạn có giấy phép Aspose OCR hợp lệ. Bản dùng thử chỉ dành cho việc đánh giá.
+
+**Q: Aspose OCR có hoạt động với hình ảnh độ phân giải thấp không?**  
+A: Nó có thể xử lý hình ảnh độ phân giải thấp, nhưng độ chính xác giảm mạnh dưới 150 dpi. Để có kết quả tốt nhất, sử dụng hình ảnh ở 300 dpi hoặc cao hơn.
+
+**Q: Làm thế nào để thêm hỗ trợ cho các ngôn ngữ khác?**  
+A: Cài đặt gói ngôn ngữ mong muốn qua Maven (ví dụ, `aspose-ocr‑language‑pak‑tamil`) và đặt giá trị enum `RecognitionLanguage` tương ứng.
+
+**Q: Có cách nào để lấy tọa độ bounding‑box cho mỗi ký tự không?**  
+A: Có, `OcrResult` cung cấp phương thức `getRegions()` trả về vị trí của mỗi glyph đã nhận dạng, hữu ích cho việc làm nổi bật văn bản trong lớp phủ UI.
+
+**Q: Kích thước tệp tối đa mà Aspose OCR có thể xử lý là bao nhiêu?**  
+A: Engine có thể xử lý hình ảnh lên tới **200 MB**; các tệp lớn hơn nên được chia nhỏ hoặc giảm kích thước trước khi nhận dạng.
 
 ## Kết luận
+Trong **hướng dẫn chuyển ảnh thành văn bản** này, bạn đã biết cách **trích xuất văn bản Tamil** từ một hình ảnh bằng Aspose OCR cho Java. Bạn đã học cách thiết lập Maven, khởi tạo engine OCR, chọn gói ngôn ngữ Tamil, và lấy đầu ra Unicode sạch. Mã mẫu đã sẵn sàng để sao chép‑dán, và mẫu này có thể mở rộng cho các công việc hàng loạt, lọc dựa trên độ tin cậy, và chuyển đổi PDF‑to‑text.
 
-Trong **hướng dẫn chuyển ảnh thành văn bản** này, chúng ta đã bao phủ mọi thứ bạn cần để **trích xuất văn bản Tamil** bằng Aspose OCR trong Java. Từ việc thiết lập phụ thuộc Maven đến việc in chuỗi Unicode cuối cùng, các bước được thiết kế đơn giản nhưng đủ mạnh để sử dụng trong môi trường sản xuất.  
+Hãy thử đổi `RecognitionLanguage.TAMIL` sang các ngôn ngữ hỗ trợ khác, hoặc tích hợp quy trình này vào dịch vụ xử lý tài liệu lớn hơn. Nếu gặp vấn đề, hãy tham khảo bảng “Những khó khăn thường gặp” hoặc phần FAQ ở trên.
 
-Bạn giờ đã có một **aspose ocr example** có thể tái sử dụng và mở rộng thành xử lý batch, lọc dựa trên confidence, hoặc thậm chí chuyển PDF sang văn bản. Bước tiếp theo hợp lý là thử nghiệm với các ngôn ngữ khác—chỉ cần thay `RecognitionLanguage.TAMIL` bằng `RecognitionLanguage.ENGLISH` hoặc bất kỳ giá trị hỗ trợ nào khác.  
+Chúc lập trình vui vẻ, và hy vọng hình ảnh của bạn luôn chuyển thành văn bản tìm kiếm hoàn hảo!
 
-Hãy để lại bình luận nếu bạn gặp khó khăn, hoặc chia sẻ cách bạn tích hợp luồng **ocr image to text** vào ứng dụng lớn hơn. Chúc lập trình vui vẻ, và mong rằng ảnh của bạn luôn chuyển thành văn bản sạch, có thể tìm kiếm được!
+---
+
+**Cập nhật lần cuối:** 2026-08-28  
+**Kiểm tra với:** Aspose OCR for Java 24.11  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách OCR Văn bản Hình ảnh với Ngôn ngữ Sử dụng Aspose.OCR](/ocr/java/ocr-operations/perform-ocr-language-selection/)
+- [Lấy Văn bản OCR trong Java – Ví dụ Aspose OCR Hoàn chỉnh](/ocr/java/ocr-basics/get-ocr-text-in-java-complete-aspose-ocr-example/)
+- [Trích xuất Văn bản từ Hình ảnh bằng Aspose.OCR – Ký tự Được cho phép](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,8 +1,8 @@
 ---
 category: general
-date: 2025-12-27
-description: เรียนรู้วิธีจดจำภาพข้อความใน Java ด้วย Aspose OCR คู่มือนี้ครอบคลุมการสกัดข้อความ,
-  การเตรียม OCR, และรวมตัวอย่าง Java OCR ที่สมบูรณ์.
+date: 2026-02-27
+description: เรียนรู้วิธีทำตัวอย่าง OCR ด้วย Java โดยใช้ Aspose OCR, ดึงข้อความจากภาพ,
+  เตรียมการ OCR, และสร้าง PDF ที่สามารถค้นหาได้ด้วย OCR ใน Java.
 draft: false
 keywords:
 - recognize text image
@@ -10,16 +10,16 @@ keywords:
 - java ocr example
 - how to preprocess ocr
 - aspose ocr java tutorial
-language: th
-og_description: จดจำข้อความจากภาพโดยใช้ Aspose OCR ใน Java. บทแนะนำแบบขั้นตอนแสดงวิธีการดึงข้อความ,
-  เตรียมการ OCR, และรันตัวอย่าง OCR ใน Java.
-og_title: รู้จำภาพข้อความด้วย Aspose OCR – คู่มือ Java ฉบับสมบูรณ์
+og_description: ตัวอย่าง OCR ใน Java ด้วย Aspose OCR – คู่มือขั้นตอนต่อขั้นตอนในการดึงข้อความจากภาพ,
+  เตรียมการ OCR, และสร้าง PDF ที่สามารถค้นหาได้ด้วย OCR.
+og_title: ตัวอย่าง OCR ด้วย Java – แยกข้อความจากรูปภาพด้วย Aspose OCR
 tags:
 - OCR
 - Java
 - Aspose
 - GPU
-title: จดจำข้อความจากภาพด้วย Aspose OCR – บทเรียน OCR Java อย่างเต็มรูปแบบ
+title: ตัวอย่าง OCR ด้วย Java – แยกข้อความจากภาพด้วย Aspose OCR – บทเรียน OCR ด้วย
+  Java อย่างเต็มรูปแบบ
 url: /th/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/
 ---
 
@@ -27,15 +27,22 @@ url: /th/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# การจดจำข้อความในรูปภาพ – บทแนะนำ Aspose OCR Java อย่างสมบูรณ์
+# java ocr example – การจดจำข้อความจากรูปภาพ – คำแนะนำเต็มรูปแบบ Aspose OCR Java
 
-เคยต้องการ **recognize text image** แต่ไม่แน่ใจว่าห้องสมุดใดจะให้ความเร็ว GPU และความแม่นยำที่ดี? คุณไม่ได้เป็นคนเดียว ในหลายโครงการคอขวดไม่ได้อยู่ที่อัลกอริธึม OCR เอง แต่เป็นการตั้งค่า—โดยเฉพาะเมื่อคุณต้องการ **how to extract text** จากการสแกนความละเอียดสูงโดยไม่ต้องเขียนโค้ดเป็นล้านบรรทัด.
+หากคุณกำลังมองหา **java ocr example** ที่ช่วยให้คุณ **extract text from image** ได้อย่างรวดเร็วและเชื่อถือได้ คุณมาถูกที่แล้ว ในหลายโครงการจริง ๆ อุปสรรคใหญ่ที่สุดไม่ได้อยู่ที่เอนจิน OCR แต่เป็นการตั้งค่าที่ถูกต้อง—โดยเฉพาะเมื่อคุณต้องการการเร่งความเร็วด้วย GPU และความแม่นยำสูง คำแนะนำนี้จะพาคุณผ่านโปรแกรม Java ที่ทำงานได้เต็มรูปแบบ ซึ่งแสดง **how to preprocess OCR**, ใช้ประโยชน์จาก fluent builder ของ Aspose OCR และแม้แต่บอกวิธีสร้าง **searchable PDF with OCR** ในภายหลัง
 
-ในบทแนะนำนี้ เราจะเดินผ่าน **java ocr example** ที่ใช้ fluent builder ของ Aspose OCR, แสดง **how to preprocess ocr** ด้วยการกรอง adaptive‑threshold, และสาธิตขั้นตอนที่แน่นอนเพื่อ **recognize text image** บนเครื่องที่เปิดใช้งาน GPU. เมื่อจบคุณจะมีโปรแกรมที่สามารถรันได้ซึ่งพิมพ์ข้อความที่สกัดออกมาที่คอนโซล พร้อมเคล็ดลับสำหรับปัญหาที่พบบ่อยและการปรับแต่งระดับต่อไป.
+## คำตอบด่วน
+- **บทแนะนำนี้ครอบคลุมอะไรบ้าง?** ตัวอย่าง java ocr example แบบครบถ้วนโดยใช้ Aspose OCR รวมถึงการตั้งค่า GPU และการทำ preprocessing แบบ adaptive‑threshold.  
+- **ฉันต้องการ GPU หรือไม่?** ไม่จำเป็น แต่การเปิดใช้งาน (`enableGpu(true)`) จะทำให้การประมวลผลเร็วขึ้นอย่างมากบนฮาร์ดแวร์ที่รองรับ.  
+- **ภาษาที่แสดงในตัวอย่างคืออะไร?** ภาษาอังกฤษ แต่คุณสามารถสลับเป็นภาษาอื่นที่รองรับได้ผ่าน builder.  
+- **ฉันจะ extract text from image อย่างไร?** เรียก `ocrEngine.recognize(imagePath)` แล้วอ่านค่า `ocrResult.getText()`.  
+- **ฉันสามารถสร้าง searchable PDF ได้หรือไม่?** ได้ – หลังจากทำการ extract แล้วคุณสามารถฝังชั้นข้อความลงใน PDF ด้วย Aspose.PDF (ไม่ได้แสดงในที่นี้).
 
-## สิ่งที่คุณต้องการ
+## สิ่งที่คุณต้องเตรียม
 
-- **Java Development Kit (JDK) 11 or newer** – Aspose OCR รองรับ Java 8+ แต่ JDK 11 ให้การจัดการโมดูลที่ดีที่สุด.
+ก่อนที่เราจะลงลึก ให้ตรวจสอบว่าคุณมี:
+
+- **Java Development Kit (JDK) 11 หรือใหม่กว่า** – Aspose OCR รองรับ Java 8+ แต่ JDK 11 ให้การจัดการโมดูลที่ดีที่สุด  
 - **Aspose.OCR for Java** JAR (ดาวน์โหลดจากเว็บไซต์ Aspose หรือเพิ่มผ่าน Maven/Gradle).  
   ตัวอย่าง Maven:
   ```xml
@@ -45,18 +52,24 @@ url: /th/java/ocr-operations/recognize-text-image-with-aspose-ocr-full-java-ocr-
       <version>23.10</version>
   </dependency>
   ```
-- **A GPU‑compatible driver** (CUDA 11+ หากคุณวางแผนเปิดใช้งานการเร่งความเร็วด้วย GPU). หากคุณไม่มี GPU ให้ตั้งค่า `enableGpu(false)` และโค้ดจะย้อนกลับไปใช้ CPU.
-- **A sample high‑resolution image** (`sample-highres.png`) วางไว้ในโฟลเดอร์ที่คุณสามารถอ้างอิงได้ เช่น `C:/ocr-demo/`.
+- **ไดรเวอร์ที่รองรับ GPU** (CUDA 11+ หากคุณต้องการเปิดการเร่งด้วย GPU). หากไม่มี GPU ให้ตั้งค่า `enableGpu(false)` โค้ดจะกลับไปใช้ CPU.  
+- **ภาพตัวอย่างความละเอียดสูง** (`sample-highres.png`) วางไว้ในโฟลเดอร์ที่คุณอ้างอิงได้ เช่น `C:/ocr-demo/`.
 
-เท่านี้—ไม่มีไบนารีเนทีฟเพิ่มเติมหรือไฟล์การกำหนดค่าที่ซับซ้อน.
+แค่นั้นเอง—ไม่มีไบนารีเนทีฟเพิ่มเติมหรือไฟล์การกำหนดค่าที่ซับซ้อน
 
-![แผนภาพแสดงกระบวนการ OCR สำหรับ recognize text image ด้วย Aspose OCR Java](https://example.com/ocr-pipeline.png "recognize text image using Aspose OCR Java")
+![แผนภาพแสดงกระบวนการ OCR สำหรับการจดจำข้อความจากรูปภาพโดยใช้ Aspose OCR Java](https://example.com/ocr-pipeline.png "จดจำข้อความจากรูปภาพโดยใช้ Aspose OCR Java")
 
 *ข้อความแทนภาพ: recognize text image using Aspose OCR Java*
 
+## ทำไมตัวอย่าง java ocr example นี้จึงสำคัญ
+
+- **ความเร็ว:** การเร่งด้วย GPU สามารถลดเวลาในการประมวลผลจากวินาทีเป็นเศษส่วนของวินาทีสำหรับภาพขนาดใหญ่  
+- **ความแม่นยำ:** การเลือกภาษาที่ถูกต้องและการใช้ **how to preprocess OCR** (adaptive threshold) จะทำให้การจดจำอักขระดีขึ้นอย่างมาก  
+- **ความยืดหยุ่น:** เอนจินเดียวกันนี้สามารถใช้ต่อไปเพื่อสร้าง **searchable PDF with OCR** ทำให้เอกสารของคุณสามารถค้นหาได้โดยไม่ต้องใช้เครื่องมือเพิ่มเติม  
+
 ## ขั้นตอนที่ 1: ตั้งค่า OCR Engine – recognize text image ด้วยตัวเลือกที่เหมาะสม
 
-สิ่งแรกที่เราทำคือสร้างอินสแตนซ์ของ `OcrEngine`. Aspose มีรูปแบบ builder ที่ให้คุณเชื่อมต่อการเรียกตั้งค่าต่าง ๆ ทำให้โค้ดอ่านง่ายและยืดหยุ่น.
+สิ่งแรกที่เราทำคือสร้างอินสแตนซ์ของ `OcrEngine`. Aspose มี pattern แบบ builder ที่ทำให้คุณสามารถเชื่อมต่อการตั้งค่าได้ ทำให้โค้ดอ่านง่ายและยืดหยุ่น
 
 ```java
 import com.aspose.ocr.*;
@@ -75,14 +88,14 @@ public class GpuOcrDemo {
                 .build();
 ```
 
-**ทำไมสิ่งนี้ถึงสำคัญ:**  
-- **Language selection** บอก engine ว่าต้องคาดหวังชุดอักขระใด ซึ่งช่วยเพิ่มความแม่นยำอย่างมาก.  
-- **GPU acceleration** สามารถลดเวลาการประมวลผลจากวินาทีเป็นเศษวินาทีสำหรับภาพขนาดใหญ่.  
-- **Adaptive‑threshold preprocessing** เป็นเทคนิคคลาสสิกในการจัดการแสงที่ไม่สม่ำเสมอ—ตรงกับปัญหาที่คุณเจอเมื่อพยายาม **how to preprocess ocr** สำหรับเอกสารที่สแกน.
+**ทำไมเรื่องนี้สำคัญ:**  
+- **Language selection** บอกให้เอนจินทราบชุดอักขระที่คาดหวัง ซึ่งทำให้ความแม่นยำดีขึ้นอย่างมาก  
+- **GPU acceleration** สามารถลดเวลาในการประมวลผลจากวินาทีเป็นเศษส่วนของวินาทีสำหรับภาพขนาดใหญ่  
+- **Adaptive‑threshold preprocessing** เป็นเทคนิคคลาสสิกเพื่อจัดการกับแสงที่ไม่สม่ำเสมอ—เป็นปัญหาที่คุณเจอเมื่อพยายาม **how to preprocess OCR** สำหรับเอกสารสแกน  
 
-## ขั้นตอนที่ 2: Recognize Text Image – การรัน OCR
+## ขั้นตอนที่ 2: Recognize Text Image – Running the OCR
 
-เมื่อ engine พร้อมแล้ว เราจะป้อนภาพให้มัน. เมธอด `recognize` จะคืนค่าอ็อบเจ็กต์ `OcrResult` ที่มีข้อความดิบ, คะแนนความมั่นใจ, และแม้แต่ข้อมูล bounding box หากคุณต้องการใช้ในภายหลัง.
+เมื่อเอนจินพร้อมแล้ว เราจะส่งภาพเข้าไป เมธอด `recognize` จะคืนค่าอ็อบเจ็กต์ `OcrResult` ที่มีข้อความดิบ, คะแนนความเชื่อมั่น, และแม้แต่ข้อมูล bounding box หากคุณต้องการใช้ในภายหลัง
 
 ```java
         // Path to the high‑resolution image you want to analyze
@@ -92,11 +105,11 @@ public class GpuOcrDemo {
         OcrResult ocrResult = ocrEngine.recognize(imagePath);
 ```
 
-**จุดสำคัญ:** การเรียก `recognize` เป็นแบบ synchronous; มันบล็อกจนกว่า OCR จะเสร็จ. หากคุณกำลังประมวลผลหลายสิบไฟล์, ควรห่อหุ้มใน thread pool, แต่สำหรับภาพเดียว ความเรียบง่ายเป็นข้อได้เปรียบ.
+**ประเด็นสำคัญ:** การเรียก `recognize` เป็นแบบ synchronous; จะบล็อกจนกว่า OCR จะเสร็จ หากคุณกำลังประมวลผลหลายสิบไฟล์ ควรพิจารณาใส่ใน thread pool แต่สำหรับภาพเดียว ความเรียบง่ายจะได้เปรียบ  
 
 ## ขั้นตอนที่ 3: Extract and Display the Text – how to extract text from the result
 
-สุดท้าย เราจะดึงข้อความธรรมดาจากผลลัพธ์และพิมพ์ออก. คุณอาจเขียนลงไฟล์, ส่งให้ดัชนีการค้นหา, หรือส่งต่อไปยัง API แปลภาษา.
+สุดท้าย เราดึงข้อความธรรมดาออกจากผลลัพธ์และพิมพ์ออกมา คุณสามารถเขียนลงไฟล์, ส่งไปยังดัชนีการค้นหา, หรือส่งต่อไปยัง API แปลภาษาได้
 
 ```java
         // Print the extracted text to the console
@@ -109,7 +122,7 @@ public class GpuOcrDemo {
 }
 ```
 
-เมื่อคุณรันโปรแกรม, คุณควรเห็นผลลัพธ์ประมาณนี้:
+เมื่อคุณรันโปรแกรม คุณควรเห็นผลลัพธ์ประมาณนี้:
 
 ```
 === OCR Output ===
@@ -119,25 +132,25 @@ The OCR engine recognized it successfully!
 Confidence: 0.97
 ```
 
-หากผลลัพธ์ดูเป็นอักษรผิด, ตรวจสอบอีกครั้งว่าภาพชัดเจนและขั้นตอน **how to preprocess ocr** (adaptive threshold) ตรงกับสภาพแสงของภาพ.
+หากผลลัพธ์ดูเป็นอักขระผสมกัน ตรวจสอบให้แน่ใจว่าภาพชัดเจนและขั้นตอน **how to preprocess OCR** (adaptive threshold) ตรงกับสภาพแสงของภาพ  
 
-## ปัญหาที่พบบ่อย & เคล็ดลับระดับมืออาชีพ (java ocr example)
+## ข้อผิดพลาดทั่วไป & เคล็ดลับมืออาชีพ (java ocr example)
 
-| Issue | Why it Happens | Fix |
-|-------|----------------|-----|
-| **GPU not detected** | ไม่มีไดรเวอร์ CUDA หรือ GPU ไม่เข้ากัน | ติดตั้ง CUDA 11+, ตรวจสอบว่า `nvidia-smi` ทำงาน, หรือตั้งค่า `.enableGpu(false)` |
+| ปัญหา | สาเหตุ | วิธีแก้ |
+|-------|--------|----------|
+| **GPU not detected** | ขาดไดรเวอร์ CUDA หรือ GPU ไม่เข้ากัน | ติดตั้ง CUDA 11+, ตรวจสอบว่า `nvidia-smi` ทำงาน, หรือตั้งค่า `.enableGpu(false)` |
 | **Low accuracy on dark backgrounds** | Adaptive threshold อาจทำให้ภาพเรียบเกินไป | ลองใช้ `PreprocessFilter.GaussianBlur` ก่อน threshold |
-| **Out‑of‑memory on huge images** | จำกัดหน่วยความจำของ GPU | ปรับขนาดภาพให้กว้างไม่เกิน 2000 px ก่อน OCR, หรือใช้โหมด CPU |
-| **Wrong language** | ค่าเริ่มต้นเป็น English, แต่เอกสารมีหลายภาษา | เรียก `.setLanguage(Language.French)` หรือใช้ `Language.Multilingual` |
+| **Out‑of‑memory on huge images** | จำกัดหน่วยความจำของ GPU | ปรับขนาดภาพให้กว้างสูงสุด 2000 px ก่อน OCR, หรือใช้โหมด CPU |
+| **Wrong language** | ค่าเริ่มต้นเป็นภาษาอังกฤษ แต่เอกสารหลายภาษา | เรียก `.setLanguage(Language.French)` หรือใช้ `Language.Multilingual` |
 
-**เคล็ดลับระดับมืออาชีพ:** เมื่อคุณสร้าง **java ocr example** สำหรับการประมวลผลเป็นชุด, ควรแคชอินสแตนซ์ `OcrEngine` แทนการสร้างใหม่สำหรับแต่ละไฟล์. Builder มีต้นทุนต่ำ, แต่ native GPU context มีค่าใช้จ่ายสูงเมื่อต้องสร้างใหม่.
+**เคล็ดลับ:** เมื่อคุณสร้าง **java ocr example** สำหรับการประมวลผลเป็นชุด ควรแคชอินสแตนซ์ `OcrEngine` แทนการสร้างใหม่สำหรับแต่ละไฟล์ Builder มีต้นทุนต่ำ แต่บริบท GPU แบบเนทีฟอาจใช้เวลามากในการสร้างใหม่  
 
-## การขยายตัวอย่าง – ต่อไปหลังจากคุณสามารถ recognize text image ได้?
+## ขยายตัวอย่าง – ต่อไปหลังจากคุณสามารถจดจำข้อความจากรูปภาพได้?
 
-1. **Export to PDF/A** – Aspose OCR สามารถฝังข้อความที่จดจำได้เป็นเลเยอร์ซ่อน, ทำให้ PDF สามารถค้นหาได้.  
-2. **Integrate with Tesseract** – หากคุณต้องการวิธีสำรองสำหรับภาษาที่ยังไม่ได้รับการสนับสนุนจาก Aspose, สามารถต่อผลลัพธ์ต่อกัน.  
-3. **Real‑time video OCR** – จับเฟรมจากเว็บแคม, ป้อนเข้าสู่ engine เดียวกัน, และแสดงคำบรรยายแบบเรียลไทม์.  
-4. **Post‑processing** – ใช้ regular expressions เพื่อลบข้อผิดพลาด OCR ที่พบบ่อย (`"0"` กับ `"O"`), โดยเฉพาะเมื่อคุณ **how to extract text** สำหรับการวิเคราะห์ต่อไป.
+1. **Create a searchable PDF with OCR** – Aspose OCR สามารถฝังข้อความที่จดจำได้เป็นเลเยอร์ซ่อน ทำให้ PDF ที่สแกนกลายเป็นเอกสารที่ค้นหาได้เต็มที่  
+2. **Combine with Aspose.PDF** – ผสานผลลัพธ์ OCR กับการสร้าง PDF เพื่อสร้างเวิร์กโฟลว์เอกสารแบบต้นจนจบ  
+3. **Real‑time video OCR** – จับเฟรมจากเว็บแคม, ส่งเข้าเอนจินเดียวกัน, และแสดงซับไตเติลแบบเรียลไทม์  
+4. **Post‑processing** – ใช้ regular expressions เพื่อลบข้อผิดพลาด OCR ที่พบบ่อย (`"0"` กับ `"O"`), โดยเฉพาะเมื่อคุณ **how to extract text** สำหรับการวิเคราะห์ต่อไป  
 
 ## โค้ดต้นฉบับเต็ม (พร้อมคัดลอก)
 
@@ -167,15 +180,30 @@ public class GpuOcrDemo {
 }
 ```
 
-บันทึกไฟล์นี้เป็น `GpuOcrDemo.java`, คอมไพล์ด้วย `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java`, แล้วรันด้วย `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo`. หากทุกอย่างตั้งค่าอย่างถูกต้อง, คุณจะเห็นข้อความที่สกัดออกมาถูกพิมพ์—เป็นหลักฐานว่าคุณได้ **recognize text image** ด้วย Aspose OCR อย่างสำเร็จ.
+บันทึกไฟล์นี้เป็น `GpuOcrDemo.java`, คอมไพล์ด้วย `javac -cp "aspose-ocr-23.10.jar;." GpuOcrDemo.java`, และรันด้วย `java -cp "aspose-ocr-23.10.jar;." GpuOcrDemo`. หากทุกอย่างตั้งค่าอย่างถูกต้อง คุณจะเห็นข้อความที่ดึงออกมาแสดงบนหน้าจอ—เป็นหลักฐานว่าคุณได้ **recognize text image** ด้วย Aspose OCR สำเร็จ  
 
-## สรุป
+## คำถามที่พบบ่อย
 
-เราได้เดินผ่าน **java ocr example** ที่สมบูรณ์ซึ่งแสดง **how to extract text** จากภาพความละเอียดสูง, สาธิต **how to preprocess ocr** ด้วย adaptive threshold, และใช้การเร่งความเร็วด้วย GPU เพื่อประสิทธิภาพ **recognize text image** ที่เร็ว. โค้ดเป็นอิสระ, คำอธิบายครอบคลุมทั้ง *what* และ *why*, และตอนนี้คุณมีพื้นฐานที่มั่นคงสำหรับขยายโซลูชันเป็นงานแบบ batch, PDF ที่ค้นหาได้, หรือแม้กระทั่งสตรีมวิดีโอแบบเรียลไทม์.
+**Q: ฉันสามารถสร้าง searchable PDF ได้โดยตรงจากตัวอย่างนี้หรือไม่?**  
+A: ได้ หลังจากดึงข้อความแล้ว ใช้ Aspose.PDF สร้าง PDF และฝังเลเยอร์ข้อความ OCR ทำให้ไฟล์กลายเป็น searchable PDF  
 
-พร้อมสำหรับขั้นตอนต่อไปหรือยัง? ลองเปลี่ยนภาษาเป็น Spanish, ทดลองฟิลเตอร์การเตรียมข้อมูลต่าง ๆ, หรือรวมผลลัพธ์ OCR กับ pipeline การประมวลผลภาษาธรรมชาติเพื่อทำการแท็กเอกสารอัตโนมัติ. ไม่มีขีดจำกัด, และ Aspose OCR มีเครื่องมือให้คุณไปถึง.
+**Q: ถ้าฉันไม่มี GPU ที่รองรับ CUDA จะทำอย่างไร?**  
+A: เพียงเปลี่ยนจาก `.enableGpu(true)` เป็น `.enableGpu(false)`; เอนจินจะกลับไปใช้โหมด CPU โดยมีผลต่อประสิทธิภาพเพียงเล็กน้อย  
 
-หากคุณเจอปัญหาใด ๆ, แสดงความคิดเห็นด้านล่างหรือเยี่ยมชมฟอรั่มของ Aspose—มีชุมชนที่กระตือรือร้นพร้อมช่วยเหลือ. ขอให้สนุกกับการเขียนโค้ด, และเพลิดเพลินกับการแปลงภาพเป็นข้อความที่ค้นหาได้!
+**Q: ฉันจะจัดการกับเอกสารหลายภาษาอย่างไร?**  
+A: ใช้ `Language.Multilingual` หรือกำหนด enum ของภาษาที่เหมาะสมสำหรับแต่ละเอกสารก่อนเรียก `recognize`  
+
+**Q: มีวิธีการประมวลผลหลายภาพพร้อมกันอย่างมีประสิทธิภาพหรือไม่?**  
+A: มี. สร้างอินสแตนซ์ `OcrEngine` เพียงหนึ่งตัว แล้ววนลูปรายการภาพของคุณ, สามารถใช้ thread pool เพื่อทำการ `recognize` แบบขนานได้  
+
+**Q: ฉันจะหา filter การ preprocessing ขั้นสูงเพิ่มเติมได้จากที่ไหน?**  
+A: enum `PreprocessFilter` มีตัวเลือกเช่น `GaussianBlur`, `MedianFilter`, และ `ContrastStretch`. ทดลองเพื่อดูว่าอันไหนทำงานดีที่สุดกับชุดภาพของคุณ  
+
+---
+
+**อัปเดตล่าสุด:** 2026-02-27  
+**ทดสอบด้วย:** Aspose.OCR 23.10 for Java  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

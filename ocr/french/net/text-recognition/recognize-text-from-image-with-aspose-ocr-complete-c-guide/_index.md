@@ -24,15 +24,10 @@ title: Reconnaître le texte à partir d'une image avec Aspose OCR – Guide com
 url: /fr/net/text-recognition/recognize-text-from-image-with-aspose-ocr-complete-c-guide/
 ---
 
-Paragraph.
 
-Then final note.
 
-Translate.
 
-Make sure to keep markdown formatting.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

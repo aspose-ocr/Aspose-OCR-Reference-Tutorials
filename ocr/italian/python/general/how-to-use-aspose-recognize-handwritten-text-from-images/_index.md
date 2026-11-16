@@ -24,17 +24,11 @@ title: 'Come usare Aspose: riconoscere il testo scritto a mano dalle immagini'
 url: /it/python/general/how-to-use-aspose-recognize-handwritten-text-from-images/
 ---
 
-Must translate all text content, keep technical terms in English. Ensure headings remain same level but translated. Also keep the table.
 
-We need to translate everything between the shortcodes, but not the shortcodes themselves. Also need to translate the alt text of image? The alt text is "how to use aspose OCR example". Should be translated? The instruction says translate all text content. Alt text is part of markdown image syntax, so translate it. The title attribute also. So translate alt and title.
 
-Also translate the blockquote > etc.
 
-Let's produce final content.
 
-We must keep code block placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

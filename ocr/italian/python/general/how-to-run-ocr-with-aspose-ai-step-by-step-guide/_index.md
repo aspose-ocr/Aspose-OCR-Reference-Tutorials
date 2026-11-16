@@ -25,15 +25,10 @@ title: Come eseguire OCR con Aspose AI – Guida passo passo
 url: /it/python/general/how-to-run-ocr-with-aspose-ai-step-by-step-guide/
 ---
 
--page-section >}} etc.
 
-We need to keep that.
 
-Now produce final output with all translated content and original shortcodes.
 
-Make sure to keep the same number of line breaks.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

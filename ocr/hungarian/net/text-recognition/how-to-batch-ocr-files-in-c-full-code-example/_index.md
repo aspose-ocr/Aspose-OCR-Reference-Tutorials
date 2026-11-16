@@ -216,8 +216,6 @@ Futtasd a `dotnet run` parancsot a projekt mappájából, és figyeld, ahogy a k
 - **Post‑processing**: Az OCR kimenetet irányítsd át egy helyesírás-ellenőrzőnek vagy egy természetes nyelv feldolgozó parsernek, hogy javítsd a pontosságot beolvasott szerződések esetén.  
 - **Alternative libraries**: Hasonlítsd össze az Aspose OCR-t a Tesseract.NET-tel, ha nyílt forráskódú megoldást keresel – mindkettő **extract text scanned pdf** képes, de eltérnek a licencelésben és a kész pontosságban.  
 
-![hogyan kötegelt OCR példája](alt="how to batch OCR example")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

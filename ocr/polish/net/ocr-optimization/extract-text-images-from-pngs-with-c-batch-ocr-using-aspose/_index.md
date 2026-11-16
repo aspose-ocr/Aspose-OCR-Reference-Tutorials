@@ -26,11 +26,8 @@ title: Wyodrębnianie tekstu z obrazów PNG w C# – wsadowe OCR przy użyciu As
 url: /pl/net/ocr-optimization/extract-text-images-from-pngs-with-c-batch-ocr-using-aspose/
 ---
 
-ensure we didn't miss any markdown links. There are none besides maybe code placeholders. No URLs.
 
-Check for any other formatting like bold, etc. Keep bold.
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

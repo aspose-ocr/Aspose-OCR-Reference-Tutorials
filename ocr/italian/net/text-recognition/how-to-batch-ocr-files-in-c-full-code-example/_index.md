@@ -218,8 +218,6 @@ Esegui `dotnet run` dalla cartella del progetto e osserva la console riempirsi d
 
 ---
 
-![how to batch OCR example](alt="how to batch OCR example")
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
