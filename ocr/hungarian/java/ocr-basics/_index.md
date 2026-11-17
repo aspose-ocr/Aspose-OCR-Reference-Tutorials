@@ -149,6 +149,9 @@ Fedezze fel a teljes útmutatót a szövegképek Java-ban történő felismerés
 Ismerje meg, hogyan határozhatja meg a resources könyvtár útvonalát Java-ban, és állíthatja be a letöltési mappát a projektben.
 ### [Hogyan végezzen OCR-t PNG képen Java-ban](./how-to-perform-ocr-on-a-png-image-in-java/)
 Ismerje meg, hogyan olvassa ki a szöveget PNG képekből Java-ban az Aspose.OCR segítségével.
+### [Hogyan hajtsunk végre OCR-t képen Java‑ban – Lépésről‑lépésre útmutató](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+
+Fedezze fel, hogyan hajthatja végre az OCR‑t képeken Java‑ban részletes, lépésről‑lépésre útmutatóval.
 
 ---
 

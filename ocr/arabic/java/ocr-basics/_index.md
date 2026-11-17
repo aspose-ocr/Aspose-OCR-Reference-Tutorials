@@ -149,6 +149,9 @@ weight: 20
 ### [كيفية تنفيذ OCR على صورة PNG في Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 دليل خطوة بخطوة لتنفيذ التعرف الضوئي على الأحرف (OCR) لملفات PNG باستخدام Aspose.OCR في Java.
 
+### [كيفية تنفيذ OCR على صورة في Java – دليل خطوة بخطوة](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+دليل شامل يوضح كيفية تنفيذ التعرف الضوئي على الأحرف (OCR) على صورة باستخدام Aspose.OCR في Java خطوة بخطوة.
+
 ---
 
 **آخر تحديث:** 2025-12-08  

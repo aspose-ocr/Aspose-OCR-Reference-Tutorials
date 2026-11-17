@@ -156,6 +156,9 @@ Master OCR in Java with a full guide to extract text from images, covering setup
 A comprehensive guide to recognizing text in images using Aspose OCR for Java.
 ### [How to get resources path java and set download folder](./how-to-get-resources-path-java-and-set-download-folder/)
 
+### [How to perform OCR on an image in Java – step‑by‑step guide](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Step-by-step guide to perform OCR on an image using Aspose.OCR for Java, covering setup, processing, and result handling.
+
 ---
 
 **Last Updated:** 2025-12-08  

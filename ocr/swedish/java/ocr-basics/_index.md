@@ -120,7 +120,7 @@ Lär dig hur du med Aspose.OCR för Java konverterar PNG‑bilder till ren text 
 Lär dig snabbt hur du med Aspose OCR för Java extraherar text från en bild i några enkla steg.
 ### [Extrahera text från bild i Java – Java OCR‑handledning](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Lär dig hur du extraherar text från bilder i Java med Aspose.OCR i denna steg‑för‑steg‑handledning.
-### [Känna igen textbild i Java – Komplett Aspose OCR-guide](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+### [Känna igen textbild i Java – Komplett Aspose OCR‑guide](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 En fullständig guide för att känna igen text i bilder med Aspose.OCR för Java, inklusive kodexempel och bästa praxis.
 
 ### [Utför OCR på bild i Java – Extrahera text från JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
@@ -144,7 +144,7 @@ Steg‑för‑steg‑guide för att utföra OCR på en bild i Java med Aspose.OC
 Lär dig hur du använder Aspose OCR för att känna igen text i JPG‑bilder med Java i några enkla steg.
 ### [Använd alla CPU‑kärnor i Java – Ställ in trådpoolsstorlek effektivt](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 Lär dig hur du utnyttjar alla CPU‑kärnor i Java genom att konfigurera en optimal trådpool för bättre prestanda.
-### [Läs text från bild med Java OCR – Komplett Aspose OCR-guide](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
+### [Läs text från bild med Java OCR – Komplett Aspose OCR‑guide](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
 En fullständig guide för att läsa text från bilder med Aspose.OCR för Java, inklusive kodexempel och bästa praxis.
 ### [Extrahera text från bild i Java – Komplett OCR‑guide](./extract-text-from-image-in-java-complete-ocr-guide/)
 En fullständig guide för att extrahera text från bilder i Java med Aspose.OCR, steg för steg med kodexempel.
@@ -152,6 +152,8 @@ En fullständig guide för att extrahera text från bilder i Java med Aspose.OCR
 Lär dig hur du hämtar resurssökvägen i Java och konfigurerar en nedladdningsmapp för filhantering.
 ### [Hur man utför OCR på en PNG‑bild i Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Lär dig steg‑för‑steg hur du utför OCR på en PNG‑bild i Java med Aspose OCR.
+### [Hur man utför OCR på en bild i Java – steg‑för‑steg‑guide](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Lär dig steg‑för‑steg hur du utför OCR på en bild i Java med Aspose OCR.
 
 ---
 

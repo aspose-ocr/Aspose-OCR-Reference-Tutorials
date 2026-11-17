@@ -159,6 +159,9 @@ Guía completa para reconocer texto en imágenes usando Aspose.OCR para Java, cu
 ### [Cómo obtener la ruta de recursos en Java y establecer la carpeta de descarga](./how-to-get-resources-path-java-and-set-download-folder/)
 Aprende a localizar la ruta de recursos en Java y a configurar la carpeta de descarga para tus aplicaciones.
 
+### [Cómo realizar OCR en una imagen en Java – guía paso a paso](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Aprende a ejecutar OCR en una imagen con Aspose.OCR para Java paso a paso.
+
 ---
 
 **Última actualización:** 2025-12-08  

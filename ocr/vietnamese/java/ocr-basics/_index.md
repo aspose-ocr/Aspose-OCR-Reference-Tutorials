@@ -155,6 +155,9 @@ Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh trong 
 ### [Cách thực hiện OCR trên ảnh PNG trong Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR để nhận dạng văn bản từ tệp PNG trong Java.
 
+### [Cách thực hiện OCR trên hình ảnh trong Java – hướng dẫn từng bước](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Hướng dẫn chi tiết từng bước để thực hiện OCR trên hình ảnh trong Java bằng Aspose.OCR.
+
 ---
 
 **Last Updated:** 2025-12-08  
