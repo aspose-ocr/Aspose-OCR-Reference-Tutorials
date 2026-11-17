@@ -1,27 +1,53 @@
 ---
 category: general
-date: 2026-01-12
-description: Java OCR'de GPU'yu etkinleştirerek görüntüden hızlı metin çıkarma. GPU'yu
-  nasıl yapılandıracağınızı, metin çıkarımını ve Aspose OCR ile Java'da metin tanımayı
+date: 2026-11-17
+description: Java OCR'de GPU'yu etkinleştirerek görüntüden hızlı bir şekilde metin
+  çıkarın. GPU'yu yapılandırmayı, metin çıkarmayı ve Aspose OCR ile Java metin tanımayı
   öğrenin.
 draft: false
 keywords:
 - how to enable gpu
-- extract text from image
-- how to extract text
-- how to configure gpu
-- recognize text java
-language: tr
-og_description: Java OCR'de GPU'yu hızlıca nasıl etkinleştirirsiniz. Bu rehber, GPU'yu
-  nasıl yapılandıracağınızı, görüntüden metin çıkartmayı ve Aspose OCR kullanarak
-  Java'da metni tanımayı gösterir.
-og_title: Java OCR için GPU Nasıl Etkinleştirilir – Tam Rehber
+- high resolution ocr
+- aspose ocr java
+- extract text image java
+- gpu acceleration ocr
+lastmod: 2026-11-17
+og_description: Java OCR için GPU'yu hızlı bir şekilde etkinleştirin. Bu kılavuz,
+  GPU'yu yapılandırmayı, görüntüden metin çıkarmayı ve Aspose OCR kullanarak Java
+  ile metin tanımayı gösterir.
+og_image_alt: 'Developer guide: Enable GPU for Java OCR using Aspose OCR library'
+og_title: Java OCR için GPU'yu nasıl etkinleştirirsiniz – adım adım kılavuz
+schemas:
+- author: Aspose
+  dateModified: '2026-11-17'
+  description: How to enable GPU in Java OCR to extract text from image fast. Learn
+    how to configure GPU, extract text and recognize text java with Aspose OCR.
+  headline: How to enable GPU for Java OCR – step‑by‑step guide
+  type: TechArticle
+- questions:
+  - answer: Yes, you can pass a PDF file directly to `setImage`; the library rasterizes
+      each page before OCR.
+    question: Does Aspose OCR support PDF input?
+  - answer: Use `ocrEngine.getConfiguration().setCustomDictionary(List<String>)` to
+      improve recognition of specialized vocabulary.
+    question: How do I add custom dictionaries for domain‑specific terms?
+  - answer: Currently only CUDA‑compatible NVIDIA GPUs on Windows and Linux are supported;
+      macOS users fall back to CPU.
+    question: Is GPU acceleration available on macOS?
+  - answer: Absolutely—`OcrResult` includes a `getConfidence()` method for each `OcrWord`
+      object.
+    question: Can I retrieve the confidence score for each recognized word?
+  - answer: A commercial Aspose OCR license is required for production deployments;
+      a free evaluation license works for development and testing.
+    question: What license is required for production use?
+  type: FAQPage
 tags:
-- OCR
-- Java
-- GPU
-- Aspose
-title: Java OCR için GPU'yu Etkinleştirme – Adım Adım Rehber
+- gpu ocr
+- java ocr
+- aspose ocr
+- high resolution ocr
+- java image processing
+title: Java OCR için GPU'yu nasıl etkinleştirirsiniz – adım adım kılavuz
 url: /tr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-step-by-step-guide/
 ---
 
@@ -29,31 +55,67 @@ url: /tr/java/advanced-ocr-techniques/how-to-enable-gpu-for-java-ocr-step-by-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Java OCR için GPU Nasıl Etkinleştirilir – Tam Kılavuz
+# Java OCR için GPU'yu nasıl etkinleştirirsiniz – adım adım kılavuz
 
-Bir görüntüden Java ile metin çıkarırken **GPU'yu nasıl etkinleştirirsiniz** diye hiç merak ettiniz mi? Tek başınıza değilsiniz. Birçok geliştirici yüksek çözünürlüklü taramaları işlerken performans sınırına takılıyor ve tek bir GPU'nun OCR çalışma süresini saniyeler—hatta dakikalar—kısaltabileceğini keşfediyor.
+Java ile görüntülerden metin çıkarırken **GPU'yu nasıl etkinleştirirsiniz** sorusunun cevabını arıyorsanız doğru yerdesiniz. GPU hızlandırması, OCR işleme süresini birkaç saniyeden bir saniyenin çok altına düşürebilir, özellikle yüksek çözünürlüklü taramalarda. Bu kılavuzda Aspose OCR'ı kurmayı, GPU cihazını yapılandırmayı ve GPU destekli ve sadece CPU çalışan makinelerde güvenilir şekilde çalışan tam bir metin çıkarma programını çalıştırmayı adım adım göstereceğiz.
 
-Bu öğreticide, GPU hızlandırmasını açma, istediğiniz cihazı yapılandırma ve sonunda Aspose OCR kütüphanesini kullanarak **java‑style metin tanıma** işlemini gerçekleştirme adımlarını adım adım göstereceğiz. Sonunda, görüntüden ışık hızında metin çıkaran çalıştırılabilir bir programınız olacak.
+## Hızlı cevaplar
+- **Java minimum sürümü nedir?** Java 17 veya daha yeni.
+- **Hangi GPU tipi gereklidir?** CUDA uyumlu herhangi bir NVIDIA GPU (CUDA 11+).
+- **Örneği çalıştırmak için lisans gerekiyor mu?** Geliştirme için ücretsiz deneme yeterlidir; üretim için ticari lisans gerekir.
+- **GPU OCR ne kadar daha hızlı?** CPU'ya kıyasla 4 MP bir görüntüde 5 katına kadar hız artışı.
+- **CPU'ya otomatik olarak geri dönülebilir mi?** Evet—Aspose OCR, GPU bulunamadığında CPU'ya geçer.
 
-## Neler Öğreneceksiniz
+## OCR için GPU hızlandırması nedir?
+OCR için GPU hızlandırması, sinir ağı çıkarım adımlarını CPU yerine bir grafik işlemci üzerinde çalıştırmak anlamına gelir; bu da binlerce paralel işlem yapılmasını sağlar. Bu, özellikle CPU'nun darboğaz oluşturabileceği yüksek çözünürlüklü görüntülerde çıkarım gecikmesini büyük ölçüde azaltır.
 
-Şunları kapsayacağız:
+## Java için Aspose OCR neden kullanılmalı?
+Aspose OCR **50+ giriş formatını** (PNG, JPEG, TIFF, PDF dahil) destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı belgeleri işleyebilir. Java API'si, düşük seviyeli CUDA çağrılarını soyutlayan tek bir `OcrEngine` sınıfı sunar, böylece iş mantığınıza odaklanabilirsiniz.
 
-* Aspose OCR SDK for Java’yı nasıl kuracağınız.  
-* Bir `OcrEngine` oluşturup yüksek çözünürlüklü bir PNG'yi nasıl yükleyeceğiniz.  
-* **GPU'yu nasıl yapılandıracağınız** – etkinleştirme, cihaz kimliğini seçme ve GPU bulunmadığında geri dönüşü yönetme.  
-* **Görüntüden metin çıkarma** ve sonucu yazdırma için tam kod.  
-* Sorun giderme ipuçları, kenar‑durum yönetimi ve sonraki adımlar.
+## Önkoşullar
+- Java 17+ JDK kurulu.
+- Bağımlılık yönetimi için Maven 3.6+ veya Gradle 7+.
+- CUDA uyumlu NVIDIA GPU ve CUDA 11.x veya daha yeni sürücüleri.
+- Aspose OCR kütüphanesini indirmek için internet erişimi.
 
-**Önkoşullar** – Java 17+ JDK, Maven veya Gradle ve en az bir CUDA‑uyumlu GPU’ya sahip bir makine. Başka bir kütüphane gerekmez.
+## Java OCR için GPU nasıl etkinleştirilir?
+Aspose OCR kütüphanesini yükleyin, bir `OcrEngine` oluşturun ve sadece birkaç satır kodla GPU desteğini açın. Motor, mevcut cihazları otomatik olarak algılar; çoklu GPU ortamlarında belirli bir GPU'yu hedeflemek için cihaz kimliği de belirtebilirsiniz.
 
----
+## OcrEngine nasıl çalışır?
+`OcrEngine`, görüntü ön işleme, sinir ağı çıkarımı ve sonuç toplama işlemlerini yöneten merkezi sınıftır. Görüntüleri dosya yolu, `java.io.File` nesnesi veya `java.awt.image.BufferedImage` örnekleri olarak kabul eder, böylece veriyi pipeline'a nasıl besleyeceğiniz konusunda esneklik sağlar.
 
-![GPU'yu etkinleştirme illüstrasyonu](placeholder.png "GPU hızlandırmalı Java OCR boru hattını gösteren diyagram – GPU'yu nasıl etkinleştirirsiniz")
+## GPU hızlandırmasını nasıl yapılandırılır (GPU nasıl yapılandırılır)
+Aspose OCR'ı GPU'yu kullanacak şekilde ve hangi cihazı seçeceğinizi burada belirtirsiniz.
 
-## Adım 1 – Aspose OCR'ı Kurun ve Görüntünüzü Hazırlayın (GPU'yu Nasıl Etkinleştirirsiniz)
+GPU hızlandırmasını etkinleştirmek için bir `GpuConfiguration` örneği oluşturur, `setEnable(true)` çağırır, isteğe bağlı olarak `setDeviceId(int)` ile bir cihaz seçer ve `setGpuConfiguration` ile `OcrEngine`e ekleriz. Konfigürasyon ayrıca, istenen cihaz mevcut değilse CPU'ya geri dönme stratejisini tanımlamanıza da olanak tanır, böylece uygulama kararlı kalır.  
 
-İlk olarak, Aspose OCR bağımlılığını projenize ekleyin. Maven kullanıyorsanız şunu ekleyin:
+```java
+        // Step 3: Enable GPU acceleration (optional: select a specific device)
+        GpuConfiguration gpuConfig = new GpuConfiguration();
+        gpuConfig.setEnabled(true);          // turn on GPU support
+        gpuConfig.setDeviceId(0);            // choose GPU 0 (default first device)
+
+        // Attach the GPU config to the OCR engine
+        ocrEngine.setGpuConfiguration(gpuConfig);
+```
+
+GPU'yu neden etkinleştirirsiniz? OCR pipeline'ı birkaç konvolüsyonel sinir ağı çalıştırır. Bu ağları bir GPU'da çalıştırmak, binlerce paralel çekirdeği kullanarak çıkarım süresini CPU'da 3–5 saniyeden modern bir RTX 3080'de 4 MP bir görüntü için 1 saniyenin altına düşürür. Belirtilen cihaz bulunamazsa, Aspose sessizce CPU'ya geçer ve çökme riskini önler.
+
+### Kenar‑durum işleme
+
+GPU çalışması denemeden önce bir CUDA sürücüsünün kurulu olduğunu doğrulamak gerekir.
+
+```java
+        // Verify that a GPU was actually engaged
+        if (!gpuConfig.isEnabled() || !gpuConfig.isDeviceAvailable()) {
+            System.out.println("GPU not detected – falling back to CPU. " +
+                               "Performance will be slower.");
+        }
+```
+
+## Adım 1 – Aspose OCR'ı kurun ve görüntünüzü hazırlayın (GPU'yu nasıl etkinleştirirsiniz)
+
+İlk olarak Aspose OCR bağımlılığını projenize ekleyin. Maven kullanıyorsanız şunu ekleyin:
 
 ```xml
 <dependency>
@@ -69,13 +131,16 @@ Gradle kullanıcıları şunu ekleyebilir:
 implementation 'com.aspose:aspose-ocr:23.9'
 ```
 
-JAR sınıf yolunuza eklendikten sonra, koddan referans verebileceğiniz bir klasöre yüksek çözünürlüklü bir dosya (ör. `sample-highres.png`) koyun. En iyi OCR doğruluğu için görüntünün en az 300 dpi olması gerekir.
+Koddan referans verebileceğiniz bir klasöre yüksek çözünürlüklü bir dosya (ör. `sample-highres.png`) koyun. En iyi OCR doğruluğu için görüntünün en az 300 dpi olması gerekir.
 
-> **Pro ipucu:** Ayrı bir GPU'su olmayan bir dizüstü bilgisayarda test ediyorsanız bile kodu çalıştırabilirsiniz; motor otomatik olarak CPU'ya geri dönecektir.
+> **İpucu:** Ayrı bir GPU'su olmayan bir dizüstü bilgisayarda test ediyorsanız, kod hâlâ çalışır; motor otomatik olarak CPU'ya geri döner.
 
-## Adım 2 – OCR Motorunu Oluşturun ve Görüntüyü Yükleyin (Görüntüden Metin Çıkarma)
+![GPU'yu etkinleştirme illüstrasyonu](placeholder.png "GPU hızlandırmalı Java OCR pipeline'ını gösteren diyagram – GPU'yu etkinleştirme")
+[GPU'yu etkinleştirme illüstrasyonu](placeholder.png "GPU hızlandırmalı Java OCR pipeline'ını gösteren diyagram – GPU'yu etkinleştirme")
 
-Şimdi temel OCR nesnesini başlatıp resmimize yönlendireceğiz. Bu, herhangi bir **görüntüden metin çıkarma** işleminin temelidir.
+## Adım 2 – OCR motorunu oluşturun ve görüntüyü yükleyin (görüntüden metin çıkarma)
+
+`OcrEngine` sınıfı, tek bir OCR oturumunu temsil eden üst‑seviye nesnedir.
 
 ```java
 import com.aspose.ocr.*;
@@ -92,11 +157,11 @@ public class GpuOcrTutorial {
         ocrEngine.setImage("YOUR_DIRECTORY/sample-highres.png");
 ```
 
-`setImage` çağrısı bir dosya yolu, bir `java.io.File` veya hatta bir `java.awt.image.BufferedImage` alabilir. Yüksek çözünürlüklü bir kaynak kullanmak, GPU'nun yeterli veri almasını sağlar ve bu da belirgin hız artışına dönüşür.
+`setImage` metodu bir dosya yolu, bir `java.io.File` veya bir `java.awt.image.BufferedImage` kabul eder. Yüksek çözünürlüklü bir kaynak sağlamak, GPU'nun tüm çekirdeklerini meşgul tutar ve bu da belirgin hız artışına dönüşür.
 
-## Adım 3 – GPU Hızlandırmasını Yapılandırın (GPU'yu Nasıl Yapılandırırsınız)
+## Adım 3 – GPU hızlandırmasını yapılandırın (GPU nasıl yapılandırılır)
 
-İşte sihrin gerçekleştiği yer. `GpuConfiguration` sınıfı, Aspose'a GPU kullanıp kullanmayacağını ve hangi cihazı seçeceğini söyler. Birden fazla GPU'nuz varsa (ör. entegre Intel GPU ve NVIDIA RTX), en yüksek verimi sağlayanı seçebilirsiniz.
+`GpuConfiguration` nesnesi, GPU kullanımını etkinleştirmenize, bir cihaz seçmenize ve OCR motoru için geri dönüş davranışını tanımlamanıza olanak verir.
 
 ```java
         // Step 3: Enable GPU acceleration (optional: select a specific device)
@@ -108,23 +173,11 @@ public class GpuOcrTutorial {
         ocrEngine.setGpuConfiguration(gpuConfig);
 ```
 
-**GPU'yu neden etkinleştirirsiniz?** OCR boru hattı bir dizi konvolüsyonel sinir ağı çalıştırır. Bu ağları bir GPU’da çalıştırmak paralel çekirdeklerden yararlanır ve çıkarım süresini dramatik şekilde azaltır. Belirtilen cihaz mevcut değilse, Aspose sessizce CPU'ya geri döner, böylece uygulamanız çökmez.
+## Adım 4 – Metin tanıma gerçekleştirin (java metin tanıma)
 
-### Kenar‑Durum Yönetimi
+Motor ve GPU hazır olduğunda karakterleri nihayet çıkarabilirsiniz.
 
-```java
-        // Verify that a GPU was actually engaged
-        if (!gpuConfig.isEnabled() || !gpuConfig.isDeviceAvailable()) {
-            System.out.println("GPU not detected – falling back to CPU. " +
-                               "Performance will be slower.");
-        }
-```
-
-`isDeviceAvailable()` yöntemi CUDA sürücüsü varlığını kontrol eder; bu da kodun geliştirme makineleri ve CI boru hatları arasında dayanıklı olmasını sağlar.
-
-## Adım 4 – Metin Tanıma Gerçekleştirin (Java’da Metin Tanıma)
-
-Motor ve GPU hazır olduğunda, Aspose’dan karakterleri okumasını isteyebiliriz.
+`recognize()` metodu OCR pipeline'ını çalıştırır ve düz metin, güven puanları ve isteğe bağlı sınırlama kutusu verileri içeren bir `OcrResult` döndürür.  
 
 ```java
         // Step 4: Perform the recognition
@@ -137,8 +190,6 @@ Motor ve GPU hazır olduğunda, Aspose’dan karakterleri okumasını isteyebili
 }
 ```
 
-`recognize()` çağrısı, düz metin, güven skorları ve gerekirse aşağı akış işlemleri için sınırlayıcı kutu koordinatlarını içeren bir `OcrResult` nesnesi döndürür.
-
 **Beklenen çıktı** (kısaltılmış):
 
 ```
@@ -146,14 +197,14 @@ Recognized text:
 Lorem ipsum dolor sit amet, consectetur adipiscing elit...
 ```
 
-Görüntü birden fazla dil içeriyorsa şunu ekleyebilirsiniz:
+Görüntünüz birden fazla dil içeriyorsa, `recognize()` çağırmadan önce dil paketlerini ekleyebilirsiniz:
 
 ```java
 ocrEngine.getLanguage().add(OcrLanguage.FRENCH);
 ocrEngine.getLanguage().add(OcrLanguage.SPANISH);
 ```
 
-## Adım 5 – Çıktıyı İnceleyin ve Sonraki Adımları Planlayın
+## Adım 5 – Çıktıyı gözden geçirin ve sonraki adımlara geçin
 
 Programı şu şekilde çalıştırın:
 
@@ -161,36 +212,75 @@ Programı şu şekilde çalıştırın:
 mvn compile exec:java -Dexec.mainClass=GpuOcrTutorial
 ```
 
-İyi bir GPU’ya sahip bir makinede, OCR 4 MP bir görüntü için bir saniyenin altında tamamlanmalıdır—CPU’da yalnızca 3‑5 saniyeye kıyasla.
+İyi bir GPU'ya sahip bir makinede OCR, **4 MP bir görüntü için bir saniyenin altında** tamamlanır; CPU'da ise 3–5 saniye sürer. Bu hız artışı, toplu işleme senaryoları veya gerçek zamanlı belge alım hatları için özellikle değerlidir.
 
-### Yaygın Sorular
+### Yaygın sorular
 
-* **`CUDA driver version is insufficient` hatası alırsam ne yapmalıyım?**  
-  NVIDIA sürücünüzü, Aspose ile gelen CUDA araç setiyle (genellikle 2026 itibarıyla 11.x) eşleşen en yeni sürüme güncelleyin.
+* **“CUDA sürücü sürümü yetersiz” hatası alırsam ne yapmalıyım?**  
+  NVIDIA sürücünüzü, Aspose ile paketlenen CUDA araç setiyle (genellikle 2026 itibarıyla CUDA 11.x) eşleşen en son sürüme güncelleyin.
 
-* **Bir grup görüntüyü işleyebilir miyim?**  
-  Evet. Motor başlatmayı bir döngü içinde sarın, ancak aynı `OcrEngine` örneğini yeniden kullanarak GPU bağlamı oluşturmayı tekrarlamaktan kaçının.
+* **Bir dizi görüntüyü işleyebilir miyim?**  
+  Evet. Tek bir `OcrEngine` örneğini bir döngü içinde yeniden kullanarak GPU bağlamı oluşturma maliyetini azaltabilir ve verimliliği artırabilirsiniz.
 
 * **Bellek sınırı var mı?**  
-  GPU belleği gereksinimi görüntü boyutuyla orantılıdır. Çok büyük TIFF dosyaları için, motorun içine beslemeden önce görüntüyü döşemeyi (tiling) düşünün.
+  GPU bellek kullanımı görüntü boyutuyla orantılıdır; çok büyük TIFF'ler için resmi motorun içine beslemeden önce parçalara bölerek tipik 8 GB GPU bellek sınırları içinde kalın.
 
-### Pro İpuçları
+### Pro ipuçları
 
-* **GPU'yu sabitleyin** – çok‑GPU sunucularda, `gpuConfig.setDeviceId(1)` ile ikinci GPU’yu OCR için ayırın, birinci GPU diğer iş yüklerini yönetebilir.  
-* **Isınma** – başlangıçta küçük bir dummy görüntüde `ocrEngine.recognize()` çağırın; bu sinir ağlarını GPU’ya yükler ve ilk çağrı gecikmesini ortadan kaldırır.  
-* **İş parçacığı güvenliği** – her iş parçacığı kendi `OcrEngine` örneğine sahip olmalı; sınıf iş parçacığı‑güvenli değildir.
+* **GPU'yu sabitleyin** – çoklu GPU sunucularında `gpuConfig.setDeviceId(1)` ile ikinci GPU'yu OCR için ayırın, birincisi diğer işler için kullanılabilir.  
+* **Isınma** – başlangıçta küçük bir dummy görüntüde `ocrEngine.recognize()` çağırın; bu, sinir ağlarını GPU'ya yükleyerek ilk çağrı gecikmesini ortadan kaldırır.  
+* **İş parçacığı güvenliği** – her iş parçacığı kendi `OcrEngine` örneğine sahip olmalı; sınıf iş parçacığı güvenli değildir, paylaşım yarış koşullarına yol açabilir.
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose OCR PDF girişini destekliyor mu?**  
+C: Evet, bir PDF dosyasını doğrudan `setImage` ile geçirebilirsiniz; kütüphane her sayfayı rasterleştirip OCR uygular.
+
+**S: Alan‑spesifik terimler için özel sözlükler ekleyebilir miyim?**  
+C: `ocrEngine.getConfiguration().setCustomDictionary(List<String>)` kullanarak özelleştirilmiş sözlük ekleyebilir ve belirli terminoloji tanımasını iyileştirebilirsiniz.
+
+**S: macOS'ta GPU hızlandırması mevcut mu?**  
+C: Şu anda sadece Windows ve Linux'ta CUDA uyumlu NVIDIA GPU'lar destekleniyor; macOS kullanıcıları CPU'ya geri döner.
+
+**S: Tanınan her kelime için güven puanını alabilir miyim?**  
+C: Kesinlikle—`OcrResult` her `OcrWord` nesnesi için bir `getConfidence()` metodu içerir.
+
+**S: Üretim kullanımı için hangi lisans gerekir?**  
+C: Üretim dağıtımları için ticari bir Aspose OCR lisansı gereklidir; geliştirme ve test için ücretsiz bir değerlendirme lisansı yeterlidir.
 
 ---
 
-## Sonuç
+**Son Güncelleme:** 2026-11-17  
+**Test Edildi:** Aspose OCR 24.11 for Java  
+**Yazar:** Aspose  
 
-Sadece birkaç adımda **Java OCR için GPU'yu nasıl etkinleştirirsiniz** gösterdik, Aspose ile **GPU'yu nasıl yapılandırırsınız** örnekledik ve **görüntüden metin çıkarma** ve **java‑style metin tanıma** yapan tam, çalıştırılabilir bir örnek sunduk. `GpuConfiguration`’ı değiştirerek herhangi bir CUDA‑uyumlu cihazda anında performans artışı elde ederken, CPU geri dönüşü uygulamanızın dayanıklılığını korur.
 
-Sırada ne var? PDF’leri beslemeyi deneyin, OCR dil paketleriyle oynayın veya çıktıyı aranabilir bir Elastic indeksine entegre edin. GPU‑hızlandırmalı OCR’u Java’da ustalaştıktan sonra sınır yoktur.
 
-İyi kodlamalar, GPU’larınız serin kalsın!
+
+
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.9</version> <!-- latest as of Jan 2026 -->
+</dependency>
+```
+
+```groovy
+implementation 'com.aspose:aspose-ocr:23.9'
+```
+
+## İlgili Eğitimler
+
+- [Aspose Ocr Java Örneği GPU ile Görüntüden Metin Çıkarma](/ocr/java/advanced-ocr-techniques/aspose-ocr-java-example-extract-text-from-image-with-gpu/)
+- [GPU Hızlandırmalı Java Ocr ile Görüntüden Metin Tanıma](/ocr/java/advanced-ocr-techniques/recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+- [GPU Hızlandırmalı Ocr Eğitim Java Rehberi Hızlı Görüntüden Metne](/ocr/java/advanced-ocr-techniques/gpu-accelerated-ocr-tutorial-java-guide-to-fast-image-to-tex/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

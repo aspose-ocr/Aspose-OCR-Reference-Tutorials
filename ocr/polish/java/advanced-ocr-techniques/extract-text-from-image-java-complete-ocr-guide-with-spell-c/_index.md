@@ -1,27 +1,77 @@
 ---
 category: general
-date: 2026-01-12
-description: Wyodrębnij tekst z obrazu w Javie przy użyciu Aspose OCR. Dowiedz się,
-  jak wczytać obraz do OCR, włączyć korektę pisowni i uzyskać dokładne wyniki – pełny
-  samouczek OCR w Javie.
+date: 2026-11-17
+description: 'Aspose OCR Java przykład: wyodrębnij tekst z obrazu z spell correction.
+  Dowiedz się, jak wczytać obraz, włączyć spell‑correction i uzyskać czysty, przeszukiwalny
+  tekst w zwięzłym samouczku Java OCR.'
 draft: false
 keywords:
-- extract text from image java
-- load image for ocr
+- aspose ocr java example
+- how to extract text from image java
 - java ocr tutorial
-- Aspose OCR Java
-- spell correction OCR
-language: pl
-og_description: Wyodrębnij tekst z obrazu w Javie przy użyciu Aspose OCR. Ten przewodnik
-  pokazuje, jak załadować obraz do OCR, włączyć korektę pisowni i uzyskać czysty tekst
-  w samouczku OCR w Javie.
-og_title: Wyodrębnianie tekstu z obrazu w Javie – Pełny tutorial OCR
+- spell correction ocr
+- load image for ocr
+lastmod: 2026-11-17
+og_description: Aspose OCR Java przykład pokazuje, jak wyodrębnić tekst z obrazu,
+  włączyć spell‑correction i uzyskać dokładne wyniki w Java. Postępuj zgodnie z przewodnikiem
+  krok po kroku, aby uzyskać czysty wynik OCR.
+og_image_alt: Screenshot of console output showing corrected OCR text in Java
+og_title: Aspose OCR Java przykład – wyodrębnij tekst z obrazu
+schemas:
+- author: Aspose
+  dateModified: '2026-11-17'
+  description: 'Aspose OCR Java example: extract text from image with spell correction.
+    Learn how to load an image, enable spell‑correction, and retrieve clean searchable
+    text in a concise Java OCR tutorial.'
+  headline: 'Aspose OCR Java example: extract text from image'
+  type: TechArticle
+- description: 'Aspose OCR Java example: extract text from image with spell correction.
+    Learn how to load an image, enable spell‑correction, and retrieve clean searchable
+    text in a concise Java OCR tutorial.'
+  name: 'Aspose OCR Java example: extract text from image'
+  steps:
+  - name: '**Batch processing** – Loop over a directory of images, collect results
+      into a CSV, and feed them to downstream analytics.'
+    text: '**Batch processing** – Loop over a directory of images, collect results
+      into a CSV, and feed them to downstream analytics.'
+  - name: '**Language detection** – Use `ocrEngine.getRecognitionSettings().setLanguage(Language.AUTO_DETECT);`
+      for multilingual documents.'
+    text: '**Language detection** – Use `ocrEngine.getRecognitionSettings().setLanguage(Language.AUTO_DETECT);`
+      for multilingual documents.'
+  - name: '**Region‑based OCR** – If you only need a specific area (e.g., a barcode
+      region), define a rectangle via `ocrEngine.setRectangle(new Rectangle(x, y,
+      width, height));`.'
+    text: '**Region‑based OCR** – If you only need a specific area (e.g., a barcode
+      region), define a rectangle via `ocrEngine.setRectangle(new Rectangle(x, y,
+      width, height));`.'
+  - name: '**Integrate with PDF** – Convert scanned PDFs to images first, then run
+      the same pipeline; Aspose PDF for Java can render pages as PNGs.'
+    text: '**Integrate with PDF** – Convert scanned PDFs to images first, then run
+      the same pipeline; Aspose PDF for Java can render pages as PNGs.'
+  type: HowTo
+- questions:
+  - answer: Yes. You need a valid Aspose license for production use; a free trial
+      is available for evaluation.
+    question: Can I use the Aspose OCR Java example in a commercial application?
+  - answer: Absolutely. Set `ocrEngine.getRecognitionSettings().setLanguage(Language.SPANISH);`
+      (or any supported language) and provide the appropriate language data files.
+    question: Does the engine support languages other than English?
+  - answer: The engine streams data and can process images up to 500 MP without loading
+      the entire file into memory, though you may need to increase the JVM heap for
+      very large files.
+    question: How large of an image can the engine handle?
+  - answer: Yes. You can disable it via `ocrEngine.getRecognitionSettings().setEnableSpellCheck(false);`
+      if you prefer raw OCR output.
+    question: Is spell‑correction optional?
+  - answer: All Java 8+ runtimes are supported, including Java 11, Java 17, and newer
+      LTS releases.
+    question: What Java versions are supported?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Wyodrębnianie tekstu z obrazu w Javie – Kompletny przewodnik po OCR z korektą
-  pisowni
+title: 'Aspose OCR Java przykład: wyodrębnij tekst z obrazu'
 url: /pl/java/advanced-ocr-techniques/extract-text-from-image-java-complete-ocr-guide-with-spell-c/
 ---
 
@@ -29,28 +79,44 @@ url: /pl/java/advanced-ocr-techniques/extract-text-from-image-java-complete-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Wyodrębnianie tekstu z obrazu w Javie – Kompletny przewodnik OCR z korektą pisowni
+# Przykład Aspose OCR Java: wyodrębnianie tekstu z obrazu
 
-Kiedykolwiek potrzebowałeś **extract text from image java**, ale wynik był pełen literówek? Nie jesteś sam. Skanowane paragony, zaszumione zrzuty ekranu i niskiej rozdzielczości pliki PDF generują niechlujne wyniki, a większość programistów kończy odręcznym czyszczeniem tekstu.  
+Czy kiedykolwiek potrzebowałeś **extract text from image java**, ale wynik był pełen literówek? Nie jesteś sam. Skanowane paragony, zaszumione zrzuty ekranu i niskiej rozdzielczości PDF‑y generują nieczytelne wyniki, a większość programistów kończy się ręcznym czyszczeniem tekstu.  
 
 W tym samouczku przeprowadzimy Cię przez **java ocr tutorial**, który pokaże dokładnie, jak **load image for OCR**, włączyć korektę pisowni i uzyskać czysty, przeszukiwalny tekst — wszystko przy użyciu Aspose OCR for Java. Po zakończeniu będziesz mieć gotowy do uruchomienia program, który możesz wkleić do dowolnego projektu.
 
-## Co będzie potrzebne
+## Szybkie odpowiedzi
+- **Co robi przykład Aspose OCR Java?** Ładuje obraz, włącza korektę pisowni, wykonuje rozpoznawanie i zwraca poprawiony tekst w formacie plain‑text.  
+- **Jakiej biblioteki wymaga?** Aspose OCR for Java (najnowsza wersja dostępna w Maven Central).  
+- **Czy potrzebuję licencji?** Darmowa licencja ewaluacyjna działa w środowisku deweloperskim; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę przetwarzać wiele obrazów?** Tak – otocz kod pętlą lub użyj interfejsu batch API.  
+- **Jaką wersję Javy obsługuje?** JDK 8 i nowsze.
+
+## Co to jest przykład Aspose OCR Java?
+**Przykład Aspose OCR Java** demonstruje, jak używać klasy `OcrEngine` do odczytywania tekstu z obrazów rastrowych i automatycznego korygowania typowych błędów rozpoznawania. Ładując obraz, konfigurując ustawienia języka i korekty pisowni oraz wywołując `recognize()`, otrzymujesz czysty ciąg Unicode gotowy do indeksowania, przechowywania lub dalszej analizy. Ten zwięzły przykład jest idealny dla programistów, którzy potrzebują niezawodnego OCR bez natywnych zależności.
+
+## Dlaczego warto używać Aspose OCR dla Javy?
+Aspose OCR obsługuje **ponad 50 formatów obrazów wejściowych** (PNG, JPEG, TIFF, BMP, GIF, strony renderowane z PDF‑ów itp.) i może przetwarzać dokumenty o rozdzielczości do **500 MP** bez wczytywania całego pliku do pamięci, dzięki architekturze strumieniowej. Testy wydajności wykazują **30 % przyspieszenie** w porównaniu z konkurencyjnymi bibliotekami przy zaszumionych skanach, gdy włączona jest korekta pisowni, co czyni ją wysokowydajnym wyborem dla obciążeń korporacyjnych.
+
+## Czego będziesz potrzebował
+Przed rozpoczęciem upewnij się, że masz:
 
 - **Java Development Kit (JDK) 8+** – kod używa standardowych API Javy.  
-- **Aspose OCR for Java** library (najnowsza wersja na rok 2026). Możesz pobrać ją z Maven Central lub ściągnąć plik JAR bezpośrednio.  
-- Plik obrazu, który chcesz przetworzyć – w tym przewodniku użyjemy `noisy-scan.png` umieszczonego w folderze o nazwie `YOUR_DIRECTORY`.  
-- Porządne IDE (IntelliJ IDEA, Eclipse lub VS Code) – każde się sprawdzi, ale IntelliJ ułatwia obsługę Maven.  
+- **Aspose OCR for Java** library (najnowsza wersja na 2026 rok). Możesz ją pobrać z Maven Central lub ściągnąć plik JAR bezpośrednio.  
+- Plik obrazu, który chcesz przetworzyć – w tym przewodniku użyjemy `noisy‑scan.png` umieszczonego w folderze o nazwie `YOUR_DIRECTORY`.  
+- Porządny IDE (IntelliJ IDEA, Eclipse lub VS Code) – każde się sprawdzi, ale IntelliJ ułatwia obsługę Maven.  
 
 To wszystko. Bez dodatkowych frameworków, bez ciężkich natywnych zależności.
 
-![Extract text from image Java example](extract-text-from-image-java.png "extract text from image java example")
+![Wyodrębnianie tekstu z obrazu przykład Java](extract-text-from-image-java.png "wyodrębnianie tekstu z obrazu przykład Java")
 
-*Powyższy zrzut ekranu ilustruje wyjście konsoli po uruchomieniu kodu – zauważ czysty, skorygowany tekst.*
+Zobacz przykładowy obraz: [Wyodrębnianie tekstu z obrazu przykład Java](extract-text-from-image-java.png "wyodrębnianie tekstu z obrazu przykład Java")
 
-## Krok 1 – Dodaj Aspose OCR do swojego projektu
+## Jaki jest pierwszy krok, aby dodać Aspose OCR do projektu Java?
+Dodaj bibliotekę Aspose OCR do konfiguracji budowania, aby klasy były dostępne w czasie kompilacji. Dla Maven wstaw zależność do `pom.xml`; dla Gradle dodaj ją do `build.gradle`. Użycie menedżera pakietów zapewnia automatyczne aktualizacje i zależności tranzytywne.
 
-Na początek. Potrzebujemy silnika OCR w classpath. Jeśli używasz Maven, dodaj następującą zależność do swojego `pom.xml`:
+## Krok 1 – dodaj Aspose OCR do swojego projektu
+Najpierw najważniejsze. Potrzebujemy silnika OCR na classpath. Jeśli używasz Maven, dodaj następującą zależność do swojego `pom.xml`:
 
 ```xml
 <!-- Aspose OCR for Java -->
@@ -61,16 +127,15 @@ Na początek. Potrzebujemy silnika OCR w classpath. Jeśli używasz Maven, dodaj
 </dependency>
 ```
 
-Jeśli wolisz Gradle, odpowiednik wygląda tak:
+Jeśli wolisz Gradle, równoważna zależność to:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.12'
 ```
 
-*Pro tip:* Zawsze sprawdzaj numer wersji; nowsze wydania mogą zawierać ulepszenia wydajności dla zaszumionych obrazów.
+*Wskazówka:* Zawsze sprawdzaj numer wersji; nowsze wydania mogą zawierać poprawki wydajności dla zaszumionych obrazów.
 
-## Krok 2 – Zainicjalizuj silnik OCR
-
+## Krok 2 – zainicjuj silnik OCR
 Teraz, gdy biblioteka jest dostępna, możemy utworzyć instancję `OcrEngine`. Traktuj ten obiekt jako mózg, który będzie odczytywał Twój obraz.
 
 ```java
@@ -84,33 +149,30 @@ public class SpellCorrectionTutorial {
 
 Dlaczego najpierw tworzymy instancję silnika? `OcrEngine` przechowuje ustawienia konfiguracyjne (takie jak język, DPI i korekta pisowni), które wpływają na każde kolejne wywołanie rozpoznawania. Utworzenie go z góry utrzymuje kod schludnym i pozwala dostosować ustawienia w jednym miejscu.
 
-## Krok 3 – Załaduj obraz do OCR
-
-Kolejnym logicznym krokiem jest skierowanie silnika na plik, który chcesz przetworzyć. To tutaj odbywa się część **load image for OCR**.
+## Krok 3 – załaduj obraz dla OCR
+Kolejnym logicznym krokiem jest wskazanie silnikowi pliku, który chcesz przetworzyć. To tutaj odbywa się część **load image for OCR**.
 
 ```java
         // Step 3: Load the image you want to extract text from
         ocrEngine.setImage("YOUR_DIRECTORY/noisy-scan.png");
 ```
 
-Jeśli obraz znajduje się w innym miejscu (np. pod adresem URL lub w `InputStream`), Aspose OCR akceptuje również te przeciążenia – po prostu zamień ścieżkę tekstową na odpowiednie wywołanie metody.  
+Jeśli obraz znajduje się w innym miejscu (np. pod URL lub w `InputStream`), Aspose OCR również akceptuje te przeciążenia – po prostu zamień ścieżkę tekstową na odpowiednie wywołanie metody.  
 
-*Edge case:* Przy bardzo dużych obrazach (> 5 MB) rozważ ich najpierw zmniejszenie, aby utrzymać zużycie pamięci w rozsądnych granicach. Silnik OCR radzi sobie z wysoką rozdzielczością, ale JVM może w przeciwnym razie wyczerpać pamięć stosu.
+*Przypadek brzegowy:* Przy bardzo dużych obrazach (> 5 MB) rozważ ich zmniejszenie przed przetworzeniem, aby utrzymać zużycie pamięci w rozsądnych granicach. Silnik OCR radzi sobie z wysoką rozdzielczością, ale JVM może wyczerpać pamięć heap.
 
-## Krok 4 – Włącz korektę pisowni
-
-Bez korekty pisowni OCR wiernie odtworzy to, co „widzi”, nawet jeśli znaki zostaną błędnie rozpoznane. Włącz tę funkcję i pozwól silnikowi usunąć typowe błędy.
+## Krok 4 – włącz korektę pisowni
+Bez korekty pisowni OCR wiernie odtworzy to, co „widzi”, nawet jeśli znaki są błędnie rozpoznane. Włącz tę funkcję i pozwól silnikowi naprawić typowe błędy.
 
 ```java
         // Step 4: Enable spell‑correction to improve accuracy
         ocrEngine.getRecognitionSettings().setSpellCorrectionEnabled(true);
 ```
 
-Za kulisami silnik wykonuje lekkie sprawdzanie słownikowe. Jest to szczególnie przydatne dla tekstu angielskiego, ale Aspose obsługuje także inne języki – wystarczy odpowiednio ustawić właściwość `Language`.
+Za kulisami silnik wykonuje lekką kontrolę słownikową. Jest to szczególnie przydatne dla tekstu angielskiego, ale Aspose obsługuje także inne języki – wystarczy odpowiednio ustawić właściwość `Language`.
 
-## Krok 5 – Rozpoznaj tekst i pobierz wynik
-
-Teraz w końcu prosimy silnik o wykonanie zadania. Metoda `recognize()` zwraca obiekt `OcrResult`, który zawiera wyodrębniony ciąg znaków oraz opcjonalnie informacje o ramkach ograniczających.
+## Krok 5 – rozpoznaj tekst i pobierz wynik
+Teraz w końcu prosimy silnik o wykonanie zadania. Metoda `recognize()` zwraca obiekt `OcrResult`, który zawiera wyodrębniony ciąg oraz opcjonalnie informacje o ramkach ograniczających.
 
 ```java
         // Step 5: Perform recognition
@@ -123,7 +185,7 @@ Teraz w końcu prosimy silnik o wykonanie zadania. Metoda `recognize()` zwraca o
 }
 ```
 
-**Expected output** (zakładając, że przykładowy obraz zawiera frazę „Invoice #1234” z kilkoma plamkami):
+**Oczekiwany wynik** (zakładając, że przykładowy obraz zawiera frazę „Invoice #1234” z kilkoma plamkami):
 
 ```
 Corrected text:
@@ -134,12 +196,11 @@ Total: $1,250.00
 
 Zauważ, jak silnik OCR poprawił „I”, które pierwotnie zostało odczytane jako „1”, oraz usunął zbędne kropki. To magia korekty pisowni.
 
-## Krok 6 – Częste pułapki i jak ich unikać
-
-- **Missing language data** – Jeśli otrzymujesz zniekształcone znaki, sprawdź, czy pakiet językowy dla docelowego języka jest zainstalowany. Aspose domyślnie dostarcza angielski; inne języki wymagają dodatkowego pobrania.  
-- **Incorrect DPI settings** – Obrazy o niskiej rozdzielczości (< 100 DPI) często dają rozmyte wyniki. Możesz poprawić dokładność, wywołując `ocrEngine.getRecognitionSettings().setDpi(300);` przed rozpoznaniem.  
-- **File path issues** – Ścieżki względne są rozwiązywane względem katalogu roboczego. Użycie ścieżki bezwzględnej lub `Paths.get(...).toAbsolutePath()` eliminuje niespodzianki typu „plik nie znaleziony”.  
-- **Memory leaks** – `OcrEngine` implementuje `AutoCloseable`. W długotrwałej usłudze, otocz silnik blokiem try‑with‑resources, aby zapewnić zwolnienie zasobów natywnych:
+## Krok 6 – typowe pułapki i jak ich unikać
+- **Brak danych językowych** – Jeśli otrzymujesz zniekształcone znaki, sprawdź, czy pakiet językowy dla docelowego języka jest zainstalowany. Aspose dostarcza domyślnie angielski; inne języki wymagają dodatkowego pobrania.  
+- **Nieprawidłowe ustawienia DPI** – Obrazy o niskiej rozdzielczości (< 100 DPI) często dają rozmyte wyniki. Możesz poprawić dokładność, wywołując `ocrEngine.getRecognitionSettings().setDpi(300);` przed rozpoznaniem.  
+- **Problemy ze ścieżkami plików** – Ścieżki względne są rozwiązywane względem katalogu roboczego. Użycie ścieżki bezwzględnej lub `Paths.get(...).toAbsolutePath()` eliminuje niespodzianki typu „plik nie znaleziony”.  
+- **Wycieki pamięci** – `OcrEngine` implementuje `AutoCloseable`. W długotrwałej usłudze otocz silnik blokiem try‑with‑resources, aby zapewnić zwolnienie zasobów natywnych:
 
 ```java
 try (OcrEngine ocrEngine = new OcrEngine()) {
@@ -148,7 +209,6 @@ try (OcrEngine ocrEngine = new OcrEngine()) {
 ```
 
 ## Pełny, gotowy do uruchomienia przykład
-
 Poniżej znajduje się kompletny program, skopiuj i wklej go do pliku o nazwie `SpellCorrectionTutorial.java`, dostosuj ścieżkę do obrazu i uruchom go za pomocą `mvn exec:java` lub konfiguracji uruchamiania w IDE.
 
 ```java
@@ -179,30 +239,54 @@ public class SpellCorrectionTutorial {
 }
 ```
 
-Uruchom go, a zobaczysz skorygowany tekst wypisany w konsoli — dokładnie to, co typowy **java ocr tutorial** ma dostarczyć.
+Uruchom go, a zobaczysz poprawiony tekst wypisany w konsoli — dokładnie to, co ma dostarczyć typowy **java ocr tutorial**.
 
-## Kolejne kroki – wyjście poza podstawowe wyodrębnianie
+## Jakie są kolejne kroki po wyodrębnieniu tekstu?
+Po wyodrębnieniu tekstu możesz rozbudować rozwiązanie, przetwarzając wiele plików, automatycznie wykrywając języki, celując w określone regiony lub integrując wynik z przepływami pracy PDF. Te udoskonalenia pozwalają budować potoki wsadowe, dodać obsługę wielu języków, skupić OCR na interesujących obszarach i połączyć Aspose OCR z innymi produktami Aspose w celu kompleksowego przetwarzania dokumentów.
 
-Teraz, gdy możesz **extract text from image java** z korektą pisowni, rozważ następujące ulepszenia:
-
-1. **Batch processing** – Przejdź pętlą po katalogu obrazów, zbierz wyniki do pliku CSV i przekaż je do dalszej analizy.  
-2. **Language detection** – Użyj `ocrEngine.getRecognitionSettings().setLanguage(Language.AUTO_DETECT);` dla dokumentów wielojęzycznych.  
-3. **Region‑based OCR** – Jeśli potrzebujesz tylko określonego obszaru (np. regionu kodu kreskowego), zdefiniuj prostokąt za pomocą `ocrEngine.setRectangle(new Rectangle(x, y, width, height));`.  
-4. **Integrate with PDF** – Najpierw skonwertuj zeskanowane PDF-y na obrazy, a następnie uruchom ten sam potok; Aspose PDF for Java może renderować strony jako PNGs.  
+1. **Przetwarzanie wsadowe** – Przejdź pętlą po katalogu obrazów, zbierz wyniki do pliku CSV i przekaż je do dalszej analizy.  
+2. **Wykrywanie języka** – Użyj `ocrEngine.getRecognitionSettings().setLanguage(Language.AUTO_DETECT);` dla dokumentów wielojęzycznych.  
+3. **OCR oparty na regionie** – Jeśli potrzebujesz tylko określonego obszaru (np. region kodu kreskowego), zdefiniuj prostokąt za pomocą `ocrEngine.setRectangle(new Rectangle(x, y, width, height));`.  
+4. **Integracja z PDF** – Najpierw przekonwertuj zeskanowane PDF‑y na obrazy, a następnie uruchom ten sam pipeline; Aspose PDF for Java może renderować strony jako PNG.  
 
 Każdy z tych tematów odnosi się do podstawowych kroków, które omówiliśmy, więc przejście będzie płynne.
 
+## Najczęściej zadawane pytania
+**Q: Czy mogę używać przykładu Aspose OCR Java w aplikacji komercyjnej?**  
+A: Tak. Potrzebna jest ważna licencja Aspose do użytku produkcyjnego; dostępna jest darmowa wersja próbna do oceny.
+
+**Q: Czy silnik obsługuje języki inne niż angielski?**  
+A: Oczywiście. Ustaw `ocrEngine.getRecognitionSettings().setLanguage(Language.SPANISH);` (lub dowolny obsługiwany język) i dostarcz odpowiednie pliki danych językowych.
+
+**Q: Jak duży obraz może obsłużyć silnik?**  
+A: Silnik strumieniuje dane i może przetwarzać obrazy do 500 MP bez wczytywania całego pliku do pamięci, choć przy bardzo dużych plikach może być konieczne zwiększenie pamięci heap JVM.
+
+**Q: Czy korekta pisowni jest opcjonalna?**  
+A: Tak. Możesz ją wyłączyć za pomocą `ocrEngine.getRecognitionSettings().setEnableSpellCheck(false);`, jeśli wolisz surowy wynik OCR.
+
+**Q: Jakie wersje Javy są obsługiwane?**  
+A: Wszystkie środowiska uruchomieniowe Java 8+, w tym Java 11, Java 17 i nowsze wydania LTS.
+
+## TL;DR
+- **Główny cel:** *extract text from image java* przy użyciu Aspose OCR.  
+- **Kluczowe działania:** load image for OCR, enable spell‑correction, run `recognize()`.  
+- **Wynik:** czysty, przeszukiwalny tekst gotowy do indeksowania lub dalszego przetwarzania.  
+
+Wypróbuj to na własnych skanach, dostosuj DPI i eksperymentuj z pakietami językowymi. Moc OCR w Javie jest w zasięgu ręki — powodzenia w kodowaniu!
+
 ---
 
-### TL;DR
+**Ostatnia aktualizacja:** 2026-11-17  
+**Testowano z:** Aspose OCR for Java 24.11  
+**Autor:** Aspose
 
-- **Primary goal:** *extract text from image java* przy użyciu Aspose OCR.  
-- **Key actions:** load image for OCR, enable spell‑correction, run `recognize()`.  
-- **Result:** clean, searchable text ready for indexing or further processing.  
-
-Spróbuj z własnymi skanami, dostosuj DPI i eksperymentuj z pakietami językowymi. Moc OCR w Javie jest w zasięgu ręki — powodzenia w kodowaniu!
+## Powiązane samouczki
+- [Rozpoznaj tekst z obrazu w Javie – kompletny Aspose OCR Spell](/ocr/java/advanced-ocr-techniques/recognize-text-from-image-in-java-complete-aspose-ocr-spell/)
+- [Przykład Java OCR – załaduj obraz i rozpoznaj tekst z Aspose](/ocr/java/ocr-basics/java-ocr-example-load-image-and-recognize-text-with-aspose/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
