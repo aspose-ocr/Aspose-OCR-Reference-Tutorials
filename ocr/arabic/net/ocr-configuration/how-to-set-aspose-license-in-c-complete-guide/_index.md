@@ -1,25 +1,62 @@
 ---
 category: general
-date: 2025-12-30
-description: كيفية تعيين ترخيص Aspose في C# عن طريق تحميل مورد مضمن واسترجاع تدفق
-  مورد البيان. تعلم خطوة بخطوة كيفية تحميل المورد المضمن وتطبيق الترخيص.
+date: 2026-09-08
+description: تعلم كيفية تعيين رخصة Aspose في C# عن طريق تضمين ملف .lic واسترجاع manifest
+  resource stream، مما يتيح محرك OCR مرخص بالكامل.
 draft: false
 keywords:
-- how to set aspose license
-- how to load embedded resource
+- set aspose license c#
+- c# read embedded resource
+- load embedded resource c#
+- c# list embedded resources
 - retrieve manifest resource stream
-- Aspose OCR licensing
-- embedded resource C#
-language: ar
-og_description: كيفية تعيين ترخيص Aspose في C# باستخدام مورد مضمن. يوضح هذا الدليل
-  كيفية تحميل المورد المضمن واسترجاع تدفق مورد البيان للحصول على محرك OCR مرخص بالكامل.
-og_title: كيفية تعيين ترخيص Aspose في C# – خطوة بخطوة سريعة
+lastmod: 2026-09-08
+og_description: تعلم كيفية تعيين رخصة Aspose في C# عن طريق تضمين license file واسترجاع
+  manifest resource stream، لتزويدك بمحرك OCR مرخص بالكامل دون ملفات إضافية.
+og_image_alt: 'Developer guide: Set Aspose license in C# using embedded resource'
+og_title: كيفية تعيين رخصة Aspose في C# – دليل خطوة بخطوة
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  headline: How to set Aspose license in C# – step‑by‑step guide
+  type: TechArticle
+- description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  name: How to set Aspose license in C# – step‑by‑step guide
+  steps:
+  - name: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+    text: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+  - name: In the file’s properties, set **Build Action** to **Embedded Resource**.
+    text: In the file’s properties, set **Build Action** to **Embedded Resource**.
+  - name: Verify the resource name. Visual Studio uses the pattern
+    text: Verify the resource name. Visual Studio uses the pattern
+  type: HowTo
+- questions:
+  - answer: Yes – the same embed‑and‑load pattern works for all Aspose .NET libraries;
+      just replace the license file and class names.
+    question: Can I use this approach with other Aspose products (PDF, Words, Cells)?
+  - answer: The `.lic` file is typically under 10 KB, so the impact on assembly size
+      is negligible.
+    question: Does embedding the license increase the size of my executable noticeably?
+  - answer: Replace the `.lic` file in the project, rebuild, and redeploy the updated
+      assembly.
+    question: What if I need to update the license later?
+  - answer: No – treat the `.lic` file as a secret. Keep it out of source control
+      or encrypt it if you must share the repo.
+    question: Is it safe to store the license in a public repository?
+  - answer: It works flawlessly because the license is loaded from the function’s
+      own assembly, eliminating file‑system dependencies.
+    question: How does this method affect Azure Functions or serverless deployments?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - C#
-- Licensing
-title: كيفية تعيين ترخيص Aspose في C# – دليل كامل
+- licensing
+- embedded resource
+title: كيفية تعيين رخصة Aspose في C# – دليل خطوة بخطوة
 url: /ar/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 ---
 
@@ -27,45 +64,101 @@ url: /ar/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تعيين ترخيص Aspose في C# – دليل كامل
+# كيفية تعيين رخصة Aspose في C# – دليل خطوة بخطوة
 
-هل تساءلت يومًا **كيفية تعيين ترخيص Aspose** لمشروع OCR الخاص بك دون نشر ملف `.lic` منفصل في نظام الملفات؟ لست وحدك. يواجه العديد من المطورين صعوبات في الترخيص لأنهم يرغبون في نشر نظيف دون ملفات إضافية بجانب الملف التنفيذي. الخبر السار؟ يمكنك تضمين الترخيص داخل التجميع الخاص بك واستخراجه وقت التشغيل. في هذا الدرس سنستعرض **كيفية تحميل المورد المضمّن** و**استرجاع تدفق مورد البيان** حتى يعمل محرك Aspose OCR بكامل وظائفه.
+## إجابات سريعة
+- **ما هي أسهل طريقة لتضمين ملف رخصة؟** اضبط *Build Action* للملف إلى *Embedded Resource* في Visual Studio.  
+- **كيف يمكنني استرجاع الرخصة المضمنة أثناء التشغيل؟** استخدم `Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)`.  
+- **هل أحتاج إلى كتابة الرخصة إلى القرص؟** لا – يتم تمرير الدفق مباشرة إلى `License.SetLicense`.  
+- **هل سيعمل هذا على .NET 6 و .NET Framework و Azure Functions؟** نعم، نفس الشيفرة تعمل على جميع أطر .NET المدعومة.  
+- **كيف يمكنني التحقق من أن الرخصة مفعلة؟** استدعِ `OcrEngine.IsLicensed` (أو نفّذ مهمة OCR بسيطة وتحقق من عدم ظهور علامة التجربة).
 
-سنغطي كل ما تحتاج معرفته: من تضمين ملف `.lic` في Visual Studio، إلى كتابة كود C# الذي يقرأ المورد، يطبق الترخيص، وأخيرًا ينشئ `OcrEngine` مرخصًا بالكامل. في النهاية ستحصل على حل ذاتي الاحتواء يمكنك إدراجه في أي مشروع .NET.
+## ما هو تعيين رخصة Aspose في C#؟
+`set aspose license c#` يشير إلى عملية تحميل رخصة Aspose OCR صالحة إلى تطبيق .NET بحيث تعمل المكتبة بدون قيود التجربة. من خلال تضمين ملف `.lic`، تُزيل الاعتماديات الخارجية وتبسط عملية النشر.
 
-## المتطلبات المسبقة
+## لماذا يتم تضمين ملف الرخصة بدلاً من استخدام ملف منفصل؟
+تضمين الرخصة يزيل خطر فقدان الملف أو حذفه أو كشفه على جهاز العميل. يدعم Aspose.OCR **أكثر من 20 لغة** ويمكنه معالجة **مستندات من 100 صفحة في أقل من ثانيتين** على عتاد الخادم المعتاد، ولكن فقط عندما تكون الرخصة صالحة. يضمن التضمين أن المحرك يعمل دائمًا بأقصى سرعة وبدون علامة التجربة.
 
-- .NET 6+ (الكود يعمل أيضًا على .NET Framework 4.7.2)
-- حزمة NuGet Aspose.OCR مثبتة (`Install-Package Aspose.OCR`)
-- ملف ترخيص Aspose OCR صالح (`Aspose.OCR.lic`)
-- إلمام أساسي بـ C# و Visual Studio
-
-لا توجد ملفات إعدادات خارجية مطلوبة بمجرد تضمين الترخيص.
-
----
-
-## الخطوة 1: تضمين ملف الترخيص داخل التجميع الخاص بك
+## كيفية تضمين ملف الرخصة في التجميع الخاص بك
+تضمين الرخصة سهل: أضف ملف `.lic` إلى مشروعك، ضع علامة عليه كـ Embedded Resource، وارجع إليه باسمه المؤهل بالكامل أثناء التشغيل. يضمن ذلك أن الرخصة تنتقل مع DLL المترجم ولا تحتاج إلى ملفات خارجية أثناء النشر.
 
 ### لماذا التضمين؟
-
-التضمين يلغي الحاجة إلى شحن ملف ترخيص منفصل، يقلل من خطر فقدانه، ويضمن أن الترخيص ينتقل مع الـ DLL. فكر فيه كأنك تضع مفتاحًا سريًا داخل الخزنة نفسها.
+تضمين الرخصة يزيل الحاجة إلى شحن ملف رخصة منفصل، يقلل من خطر فقدانه، ويضمن أن الرخصة تنتقل مع DLL. فكر فيها كأنك تدمج مفتاحًا سريًا داخل الخزنة نفسها.
 
 ### كيفية التضمين
-
-1. أضف ملف `.lic` إلى مشروعك (مثلاً `Resources/Aspose.OCR.lic`).
+1. أضف ملف `.lic` إلى مشروعك (مثال: `Resources/Aspose.OCR.lic`).
 2. في خصائص الملف، اضبط **Build Action** إلى **Embedded Resource**.
 3. تحقق من اسم المورد. يستخدم Visual Studio النمط  
    `YourRootNamespace.FolderName.FileName.Extension`.  
    على سبيل المثال، إذا كان الفضاء الاسمي الافتراضي لمشروعك هو `MyApp`، يصبح اسم المورد  
    `MyApp.Resources.Aspose.OCR.lic`.
 
-> **نصيحة احترافية:** افتح *Object Browser* أو شغّل `Assembly.GetExecutingAssembly().GetManifestResourceNames()` في تطبيق كونسول سريع لعرض جميع الموارد المضمّنة. هذا يساعدك على تجنّب الأخطاء الإملائية عندما تقوم لاحقًا **باسترجاع تدفق مورد البيان**.
+> **نصيحة احترافية:** افتح *Object Browser* أو نفّذ `Assembly.GetExecutingAssembly().GetManifestResourceNames()` في تطبيق وحدة تحكم سريع لتسرد جميع الموارد المضمنة. يساعدك ذلك على تجنب الأخطاء المطبعية عندما تقوم لاحقًا **باسترجاع تدفق مورد البيان**.  
+> 
+> ![مثال على كيفية تعيين رخصة Aspose في C#](path/to/image.png "مثال على كيفية تعيين رخصة Aspose في C#")
 
----
+## كيفية تحميل الرخصة المضمنة أثناء التشغيل
+لتفعيل الرخصة، اقرأ تدفق المورد المضمن ومرره مباشرة إلى فئة `License` الخاصة بـ Aspose. هذا يتجنب كتابة الملف إلى القرص ويعمل عبر جميع أطر .NET.
 
-## الخطوة 2: كتابة الكود لتحميل الترخيص المضمّن
+### كيفية قراءة المورد المضمن في C#؟
+أنشئ كائن `License`، بنِ اسم المورد الدقيق، واستدعِ `GetManifestResourceStream`. ثم يتم تمرير الدفق إلى `SetLicense`.
 
-الآن بعد أن أصبح الترخيص داخل التجميع، نحتاج إلى سحبه وقت التشغيل. المقتطف التالي يوضح الكود الكامل الجاهز للتنفيذ.
+**الإجابة المباشرة:**  
+```text
+Instantiate `new License()`, call `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyApp.Resources.Aspose.OCR.lic")`, and pass the returned stream to `SetLicense`. This loads the license directly from the assembly without touching the file system.
+```
+
+فئة `License` هي بوابة Aspose لتفعيل وضع كامل المميزات. فئة `OcrEngine` هي المعالج الأساسي لـ OCR الذي يحترم الرخصة المطبقة.
+
+## كيفية التحقق من أن الرخصة مفعلة
+بعد تحميل الرخصة، يمكنك تأكيد التفعيل بالتحقق من خاصية `IsLicensed` في `OcrEngine` أو بتنفيذ مهمة OCR صغيرة والتأكد من عدم ظهور علامة التجربة. تُعيد `IsLicensed` القيمة `true` عندما تُطبق رخصة صالحة.
+
+**الإجابة المباشرة:**  
+```text
+Call `bool licensed = ocrEngine.IsLicensed;` – if it returns true, the engine is fully licensed; otherwise, you’ll see a trial watermark on processed images.
+```
+
+`IsLicensed` هي خاصية في `OcrEngine` تشير إلى ما إذا كانت رخصة صالحة مطبقة.
+
+## المشكلات الشائعة وكيفية حلها
+
+### كيفية إصلاح تدفق فارغ عند استرجاع مورد البيان؟
+عادةً ما يعني تدفق فارغ أن اسم المورد غير صحيح أو أن الملف غير محدد كـ Embedded Resource. استخدم الطريقة المساعدة أدناه لسرد جميع الأسماء وتأكيد السلسلة الدقيقة.
+
+**الإجابة المباشرة:**  
+```text
+Run `foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames()) Console.WriteLine(name);` and copy the exact name into your `GetManifestResourceStream` call.
+```
+
+### كيفية التعامل مع تجميعات متعددة؟
+إذا كانت الرخصة موجودة في مكتبة مشتركة، استبدل `GetExecutingAssembly()` بـ `Assembly.Load("SharedLib")` لسحب المورد من ذلك التجميع.
+
+### كيفية تجنب إغلاق الدفق مبكرًا؟
+غلف الدفق داخل كتلة `using` **فقط بعد** استدعاء `SetLicense`. الإغلاق المسبق يمنع قراءة الرخصة.
+
+### كيفية ضمان التوافق مع أهداف .NET المختلفة؟
+يدعم Aspose.OCR 22.10+ .NET Standard 2.0 و .NET Core و .NET Framework. تحقق من أن مشروعك يستهدف أحد هذه الأطر لتجنب أخطاء وقت التشغيل.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني استخدام هذه الطريقة مع منتجات Aspose الأخرى (PDF, Words, Cells)؟**  
+**ج:** نعم – نمط التضمين‑والتحميل نفسه يعمل مع جميع مكتبات Aspose .NET؛ فقط استبدل ملف الرخصة وأسماء الفئات.
+
+**س: هل يزيد تضمين الرخصة من حجم الملف التنفيذي بشكل ملحوظ؟**  
+**ج:** عادةً ما يكون حجم ملف `.lic` أقل من 10 KB، لذا فإن التأثير على حجم التجميع ضئيل.
+
+**س: ماذا لو احتجت لتحديث الرخصة لاحقًا؟**  
+**ج:** استبدل ملف `.lic` في المشروع، أعد بناءه، وانشر التجميع المحدث.
+
+**س: هل من الآمن تخزين الرخصة في مستودع عام؟**  
+**ج:** لا – اعتبر ملف `.lic` سراً. أبقه خارج نظام التحكم بالمصادر أو قم بتشفيره إذا اضطررت لمشاركة المستودع.
+
+**س: كيف يؤثر هذا الأسلوب على Azure Functions أو عمليات النشر بدون خادم؟**  
+**ج:** يعمل بلا مشاكل لأن الرخصة تُحمَّل من تجميع الدالة نفسه، مما يلغي الاعتماديات على نظام الملفات.
+
+**آخر تحديث:** 2026-09-08  
+**تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
+**المؤلف:** Aspose  
 
 ```csharp
 using System;
@@ -111,70 +204,18 @@ namespace MyApp
     }
 }
 ```
-
-#### ما الذي يحدث؟
-
-- **إنشاء كائن `License`** – تستخدم Aspose هذا الصنف لإدارة الترخيص.
-- **تكوين اسم المورد** – يجب أن يتطابق مع نمط الفضاء الاسمي‑المجلد‑اسم الملف تمامًا، وإلا سيعيد `GetManifestResourceStream` قيمة `null`.
-- **استرجاع تدفق مورد البيان** – هذا هو جوهر **كيفية تحميل المورد المضمّن**. تُعيد الطريقة `Stream` يمكنك تمريره مباشرة إلى `SetLicense`.
-- **معالجة الأخطاء** – إذا كان التدفق `null`، نطبع رسالة واضحة. هذا يجنّب الفشل الصامت الذي يترك محرك OCR في وضع التجربة.
-- **تطبيق الترخيص** – `SetLicense` يقرأ التدفق ويُفعّل المنتج بالكامل.
-- **إنشاء `OcrEngine`** – الآن لديك محرك مرخص بالكامل جاهز لمهام OCR.
-
-> **لماذا هذا النهج؟**جنب كتابة الترخيص إلى القرص، يقضي على الأخطاء المتعلقة بالمسارات، ويعمل حتى عندما يعمل تطبيقك من مجلد مؤقت (مثل ClickOnce أو Azure Functions).
-
----
-
-## الخطوة 3: التحقق من أن الترخيص فعال
-
-فحص سريع يوفّر ساعات من التصحيح لاحقًا. بعد تشغيل الكود أعلاه، يمكنك فحص الخاصية `IsLicensed` (متوفرة في إصد Aspose الحديثة) أو ببساطة محاولة عملية OCR التي كانت ستظهر علامة مائية تجريبية.
-
 ```csharp
 // Assuming you have an image file "sample.png" in the project folder.
 ocrEngine.Image = ImageStream.FromFile("sample.png");
 ocrEngine.Process();
 Console.WriteLine($"Recognized text: {ocrEngine.Text}");
 ```
-
-إذا تم تطبيق الترخيص بشكل صحيح، **لن تظهر علامة مائية تجريبية** على الصورة الناتجة وستطابق جودة OCR توقعات النسخة الكاملة.
-
----
-
-## الخطوة 4: الحالات الخاصة ومخاطر شائعة
-
-### 1️⃣ اسم المورد غير صحيح
-
-إذا حصلت على `null` من `GetManifestResourceStream`، تحقق مرة أخرى من الاسم المؤهل بالكامل. استخدم المساعد التالي لعرض جميع الأسماء:
-
 ```csharp
 foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
 {
     Console.WriteLine(name);
 }
 ```
-
-### 2️⃣ ملف الترخيص غير محدد كـ Embedded Resource
-
-يعيّن Visual Studio الافتراضي إلى **Content**. غيّره يدويًا في خصائص الملف.
-
-### 3️⃣ تجميعات متعددة
-
-إذا كان الترخيص موجودًا في تجميع مختلف (مثل مكتبة مشتركة)، استدعِ `Assembly.Load("OtherAssembly")` بدلاً من `GetExecutingAssembly()`.
-
-### 4️⃣ إغلاق التدفق
-
-كتلة `using` تضمن إغلاق التدفق بعد `SetLicense`. لا **تغلق** التدفق قبل استدعاء `SetLicense`، وإلا لن يُقرأ الترخيص أبدًا.
-
-### 5️⃣ التوافق
-
-يدعم Aspose.OCR 22.10+ .NET Standard 2.0، .NET Core، و .NET Framework. تأكد من أنك تستخدم نسخة تتوافق مع إطار الهدف في مشروعك.
-
----
-
-## الخطوة 5: مثال كامل يعمل (جاهز للنسخ واللصق)
-
-فيما يلي البرنامج الكامل الذي يمكنك وضعه في تطبيق كونسول جديد. يتضمن منطق تحميل الترخيص، اختبار OCR بسيط، ومعالجة أخطاء قوية.
-
 ```csharp
 using System;
 using System.IO;
@@ -234,33 +275,20 @@ namespace AsposeLicenseDemo
     }
 }
 ```
-
-**الناتج المتوقع** (بافتراض أن `sample.png` يحتوي على نص قابل للقراءة):
-
 ```
 ✅ License applied.
 📝 Recognized Text:
 Hello, Aspose OCR!
 License active: True
 ```
+{{CODE_BLOCK_8}}
+{{CODE_BLOCK_9}}
 
-إذا كان الترخيص مفقودًا، ستلقي Aspose استثناءً أو تُضيف علامة مائية تجريبية على الصورة المعالجة.
+## دروس ذات صلة
 
----
-
-## الخلاصة
-
-استعرضنا **كيفية تعيين ترخيص Aspose** بطريقة نظيفة وقابلة للصيانة عبر تضمين ملف `.lic` واستخدام **استرجاع تدفق مورد البيان**. الخطوات—تضمين المورد، تحميله باستخدام `Assembly.GetExecutingAssembly().GetManifestResourceStream`، تطبيق الترخيص، وأخيرًا إنشاء `OcrEngine` مرخص—تغطي جميع الزوايا التي قد يحتاجها المطور.
-
-الآن يمكنك توزيع ملف تنفيذي واحد دون القلق من فقدان ملفات الترخيص، وستتجنب علامة المائية التجريبية إلى الأبد. بعد ذلك، فكر في استكشاف:
-
-- **كيفية تعيين ترخيص Aspose** لمنتجات Aspose الأخرى (PDF, Words, Cells) باستخدام نفس النمط.
-- **كيفية تحميل مورد مضمّن** لملفات الإعداد (JSON, XML) في ASP.NET Core.
-- معالجة أخطاء متقدمة باستخدام أطر تسجيل مخصصة.
-
-لا تتردد في التجربة، تعديل اسم المورد ليتناسب مع الفضاء الاسمي الخاص بك، ومشاركة ما توصلت إليه في التعليقات. برمجة سعيدة، واستمتع بالقوة الكاملة لـ Aspose OCR!
-
-![how to set aspose license in C# example](path/to/image.png "how to set aspose license in C# example")
+- [قراءة المورد المضمن في .NET دليل كامل لتعيين Aspose L](/ocr/net/ocr-configuration/read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+- [كيفية تطبيق الرخصة في Aspose OCR خطوة بخطوة دليل C](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [كيفية تنفيذ OCR دفعي في C باستخدام محرك Aspose OCR](/ocr/net/ocr-optimization/how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

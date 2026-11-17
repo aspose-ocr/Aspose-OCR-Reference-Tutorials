@@ -72,6 +72,14 @@ Aspose.OCR มี API ที่ยืดหยุ่นให้คุณกำ�
 เรียนรู้วิธีใช้ Aspose.OCR ใน C# เพื่อเปิดใช้งานการจดจำฟอร์มและสกัดข้อมูลตารางจากภาพอย่างละเอียด
 ### [บันทึกตารางเป็น CSV ใน C# – คู่มือ Aspose OCR ฉบับสมบูรณ์](./save-table-as-csv-in-c-complete-aspose-ocr-guide/)
 เรียนรู้วิธีบันทึกข้อมูลตารางเป็นไฟล์ CSV ด้วย Aspose.OCR ใน C# อย่างละเอียด
+### [วิธีสกัดตารางจากรูปภาพด้วย Aspose OCR (C#)](./how-to-extract-tables-from-images-using-aspose-ocr-c/)
+สกัดตารางจากรูปภาพด้วย Aspose OCR ใน C# – เรียนรู้วิธีตรวจจับและดึงข้อมูลตารางอย่างแม่นยำ
+### [Create Excel from Image with C# – Full Aspose OCR Guide](./create-excel-from-image-with-c-full-aspose-ocr-guide/)
+สร้างไฟล์ Excel จากข้อมูลที่สกัดจากรูปภาพด้วย Aspose.OCR และ C# อย่างครบถ้วน
+### [Extract Tables from Image with Aspose OCR – Complete C# Guide](./extract-tables-from-image-with-aspose-ocr-complete-c-guide/)
+สกัดตารางจากรูปภาพด้วย Aspose OCR ด้วย C# อย่างครบถ้วน เพิ่มประสิทธิภาพการดึงข้อมูลตารางจากภาพได้ง่าย
+### [OCR รูปภาพเป็น Excel – คู่มือครบวงจรในการแปลงตารางสแกนเป็น Excel](./ocr-image-to-excel-complete-guide-to-convert-scanned-tables/)
+เรียนรู้วิธีแปลงภาพสแกนของตารางเป็นไฟล์ Excel อย่างแม่นยำด้วย Aspose.OCR สำหรับ .NET
 
 ## คำถามที่พบบ่อย
 

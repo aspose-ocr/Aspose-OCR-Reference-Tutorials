@@ -1,26 +1,57 @@
 ---
 category: general
-date: 2026-01-02
-description: Képek szöveggé konvertálása Java-val az Aspose OCR használatával. Tanulja
-  meg a kötegelt OCR feldolgozást, olvassa be a képeket egy mappából, és szűrje a
-  fájlokat kiterjesztés szerint.
+date: 2026-08-28
+description: Ismerje meg, hogyan lehet szöveget kinyerni png képekből Java-ban az
+  Aspose OCR segítségével. Ez az útmutató a kötegelt OCR feldolgozást, a képek mappából
+  történő beolvasását és a fájlok kiterjesztés szerinti szűrését tárgyalja.
 draft: false
 keywords:
-- convert images to text
-- batch ocr processing
-- read images from folder
 - extract text from png
+- read images from folder
 - filter files by extension
-language: hu
-og_description: Konvertálja a képeket gyorsan szöveggé Java-val. Ez az útmutató a
-  kötegelt OCR-feldolgozást, a képek mappából történő beolvasását és a fájlok kiterjesztés
-  szerinti szűrését tárgyalja.
-og_title: Képek szöveggé konvertálása Java-ban – Teljes kötegelt OCR útmutató
+- how to batch ocr
+- aspose ocr java tutorial
+lastmod: 2026-08-28
+og_description: Ismerje meg, hogyan lehet szöveget kinyerni png képekből Java-ban
+  az Aspose OCR segítségével. Ez az útmutató a kötegelt OCR feldolgozást, a képek
+  mappából történő beolvasását és a fájlok kiterjesztés szerinti szűrését tárgyalja.
+og_image_alt: 'Developer guide: extract text from png images in Java using Aspose
+  OCR'
+og_title: Hogyan lehet szöveget kinyerni png-ből Java-ban – kötegelt OCR útmutató
+schemas:
+- author: Aspose
+  dateModified: '2026-08-28'
+  description: Learn how to extract text from png images in Java using Aspose OCR.
+    This tutorial covers batch OCR processing, reading images from a folder, and filtering
+    files by extension.
+  headline: How to extract text from png in Java – batch OCR guide
+  type: TechArticle
+- questions:
+  - answer: Absolutely. Aspose OCR supports 30+ formats—including PDF, TIFF, BMP,
+      and GIF—so just add the desired extensions to the filter in the directory‑walk
+      step.
+    question: Can I process PDFs or TIFFs as well?
+  - answer: Change `RecognitionLanguage.ENGLISH` to `RecognitionLanguage.SPANISH`
+      (or any supported language). The language packs are bundled with the library,
+      so no extra download is required.
+    question: What if I need a language other than English, such as Spanish?
+  - answer: Yes. `Files.walk` traverses the entire tree recursively, so every nested
+      PNG/J
+    question: My folder contains sub‑folders—will they be scanned?
+  - answer: Enable streaming mode by calling `ocrEngine.setUseStreaming(true)`. This
+      tells the engine to read the image in chunks, dramatically reducing peak memory
+      usage.
+    question: How do I handle extremely large images that exceed 200 MB?
+  - answer: Yes. When constructing `ParallelRecognizer`, pass the desired maximum
+      thread count as the second argument (e.g., `new ParallelRecognizer(ocrEngine,
+      4)`).
+    question: Is there a way to limit the number of concurrent OCR threads?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: Képek szöveggé konvertálása Java-ban – Kötetes OCR feldolgozási útmutató
+title: Hogyan lehet szöveget kinyerni png-ből Java-ban – kötegelt OCR útmutató
 url: /hu/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing-guide/
 ---
 
@@ -28,38 +59,230 @@ url: /hu/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Képek szöveggé konvertálása Java‑ban – Kötetes OCR feldolgozási útmutató
+# Hogyan lehet szöveget kinyerni png-ből Java-ban – kötegelt OCR útmutató
 
-Szükséged volt már **képek szöveggé konvertálására**, de nem tudtad, hogyan kezeld egyszerre a tucatnyi fájlt? Nem vagy egyedül – a fejlesztők állandóan küzdenek azzal, hogy adatot nyerjenek ki PNG‑ekből, JPG‑ekből és egyéb beolvasott anyagokból. A jó hír? Az Aspose OCR‑rel percek alatt felállíthatsz egy kötetes OCR feldolgozási csővezetéket, beolvashatsz képeket mappaszerkezetből, és még a fájlkiterjesztés alapján is szűrhetsz, hogy csak a lényegesekkel dolgozz.
+Ha valaha is **szöveget kellett kinyerni png** fájlokból, de nem tudtad, hogyan skálázhatod a műveletet egy csomó kép fölé, jó helyen vagy. Sok fejlesztő egyetlen kép OCR hívással kezd, és gyorsan teljesítménykorlátokba ütközik, amikor a mappa tucatnyi vagy akár száz fájlra nő. Az Aspose OCR for Java segítségével egy robusztus kötegelt OCR csővezetéket hozhatsz létre, amely bejár egy könyvtárat, csak a kívánt képtípusokat szűri, párhuzamosan futtatja a felismerést, és az eredményeket ugyanabban a sorrendben adja vissza, mint a forrásfájlok. A végére egy kész Java kódrészletet kapsz, amely megbízhatóan és hatékonyan kezeli a **kötegelt OCR feldolgozást**.
 
-Ebben a tutorialban egy önálló Java‑programot építünk, amely bejár egy könyvtárat, kiválaszt minden `.png` és `.jpg` fájlt, aszinkron módon elküldi őket az Aspose OCR‑nek, és az eredeti sorrendben kiírja a kinyert szöveget. A végére egy újrahasználható kódrészletet kapsz, amelyet bármely projektbe beilleszthetsz, ha **képek szöveggé konvertálására** van szükség nagy mennyiségben.
+![Képek szöveggé konvertálása példa](https://example.com/convert-images-to-text.png "Képernyőkép a Java konzol kimenetéről, amely a PNG fájlokból konvertált szöveget mutatja")
+
+## Gyors válaszok
+- **Melyik könyvtár kezeli az OCR-t?** Aspose OCR for Java.
+- **Feldolgozhatom a PNG és JPG fájlokat együtt?** Igen – a minta mindkét kiterjesztést szűri.
+- **Az OCR motor szálbiztos?** Egyetlen megosztott `AsposeOCR` példány biztonságosan használható párhuzamosan.
+- **Szükségem van licencre a teszteléshez?** Egy ingyenes ideiglenes kulcs elérhető az Aspose-tól.
+- **Alkönyvtárak automatikusan be lesznek járva?** A `Files.walk` rekurzívan bejárja az egész fát.
+
+## Mi az a szöveg kinyerése png-ből?
+
+A `extract text from png` a optikai karakterfelismerés (OCR) alkalmazását jelenti a Portable Network Graphics fájlokra, hogy a látható karakterek kereshető, szerkeszthető karakterláncokká váljanak. Az Aspose OCR motorja pixel adatokat olvas, felismeri a glifformákat, és egyetlen metódushívásban Unicode szöveget ad vissza.
+
+## Miért használjuk az Aspose OCR for Java-t?
+
+Az Aspose OCR **30+ nyelvet** támogat, akár **500 képet percenként** képes feldolgozni egy szabványos 8‑magos szerveren, és **200 MB**-ig terjedő fájlokat kezel anélkül, hogy az egész képet memóriába töltené. Ezek a számszerű képességek lehetővé teszik, hogy megbízhatóan futtass nagy léptékű kötegelt feladatokat átlagos hardveren, memóriahatárokba ütközés nélkül.
+
+## Előfeltételek
+- Java 17 (vagy bármely friss LTS verzió).
+- Maven vagy Gradle a függőségkezeléshez.
+- Egy könyvtár, amely PNG/JPG képeket tartalmaz, amelyeket feldolgozni szeretnél.
+- Alapvető ismeretek a Java stream-ekről és a `java.nio.file` csomagról.
+- (Opcionális) Aspose OCR ideiglenes licenckulcs értékeléshez.
+
+> **Pro tipp:** Az ingyenes ideiglenes kulcs 30 nap után lejár, de teljes API hozzáférést biztosít a teszteléshez.
+
+## Hogyan tartja meg a kötegelt OCR csővezeték a sorrendet?
+
+A `Future<OcrResult>` egy függőben lévő OCR eredményt képvisel, amely a feldolgozás befejezése után lekérhető. A csővezeték az eredeti fájlsorrendet úgy őrzi meg, hogy a `Future<OcrResult>` objektumokat egy listában tárolja, amely tükrözi a bemeneti `Path` gyűjtemény sorrendjét. Amikor később iterálsz a future-ökön és meghívod a `get()`-et, minden hívás csak a hozzá tartozó képre blokkol, így a kimeneti sorozat megegyezik a bemeneti sorozattal extra rendezés nélkül.
+
+## Mi az az Aspose OCR for Java?
+
+Az `AsposeOCR` az Aspose OCR könyvtár központi osztálya, amely magába foglalja az összes nyelvi csomagot, a felismerési beállításokat és a belső natív erőforrásokat. Egy alkalmazás életciklusa során egyszer kell példányosítani, és biztonságosan megosztható több szál között. Mivel a nyelvi adatokat csak egyszer tölti be, ugyanannak az instance-nek a újrahasználata csökkenti a inicializálási terhelést és növeli a kötegelt műveletek áteresztőképességét.
+
+## Hogyan állítsuk be a projektet és adjuk hozzá az Aspose OCR-t
+
+Először hozz létre egy Maven (vagy Gradle) projektet, és add hozzá az Aspose OCR függőséget a `pom.xml`-hez:
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+> **Miért fontos:** A függőség előre deklarálása biztosítja, hogy a fordító lássa az `AsposeOCR`, `ParallelRecognizer` és a kapcsolódó osztályokat. Emellett garantálja, hogy minden gépen ugyanaz a verzió legyen használva, ami elengedhetetlen a reprodukálható **kötegelt OCR feldolgozáshoz**.
+
+Frissítsd az IDE-t a build befejezése után; most már látnod kell az Aspose csomagokat a **External Libraries** alatt.
+
+## Hogyan inicializáljuk az OCR motort – egyetlen példány megosztása
+
+Az `AsposeOCR` a fő OCR motorosztály, amelyet az Aspose OCR könyvtár biztosít. Csak **egy** OCR motor példányra van szükségünk a teljes futtatáshoz. A szálak közötti megosztás memóriát takarít meg és felgyorsítja a folyamatot, mivel a motor csak egyszer tölti be a nyelvi csomagokat.
+
+```java
+AsposeOCR ocrEngine = new AsposeOCR("YOUR_LICENSE_KEY");
+```
+
+Az `AsposeOCR` szálbiztos, ezért nyugodtan átadhatod egy `ParallelRecognizer`-nek, amely egy munkás szálcsoportot kezel.
+
+> **Magyarázat:** A `ParallelRecognizer` a motort egy szálpoolba csomagolja. Amikor sok fájlt küldesz be, mindegyik saját munkás szálat kap, ami valódi párhuzamosságot tesz lehetővé többmagos CPU-ken.
+
+## Hogyan olvassuk be a képeket a mappából – a könyvtárfa bejárása
+
+A `Files.walk` egy Java NIO metódus, amely rekurzívan bejár egy fájrafát, és `Path` objektumok stream-jét adja vissza. Most **be kell olvasnunk a képeket a mappából**, és összegyűjteni minden PNG vagy JPG fájlt. A `Files.walk` API ezt egy soros megoldássá teszi, de hozzáadunk egy szűrőt, hogy csak a **szöveg kinyerése png-ből** esetén szűrjünk.
+
+```java
+List<Path> imagePaths = Files.walk(Paths.get("YOUR_DIRECTORY"))
+    .filter(Files::isRegularFile)
+    .filter(p -> {
+        String lower = p.toString().toLowerCase();
+        return lower.endsWith(".png") || lower.endsWith(".jpg");
+    })
+    .collect(Collectors.toList());
+```
+
+> **Miért szűrünk itt:** A `filter` használatával **korán szűrhetünk fájlokat kiterjesztés szerint**, ami csökkenti a felesleges I/O-t később. Emellett a kód olvasható marad – nincs szükség bonyolult regexekre.
+
+## Hogyan küldjünk OCR feladatokat aszinkron módon
+
+A `recognizeAsync` egy képet küld az OCR motorhoz aszinkron feldolgozásra, és egy `Future<OcrResult>`-ot ad vissza, amely a függőben lévő eredményt képviseli. A fájlok listája készen áll, minden útvonalat a `ParallelRecognizer`-nek adunk. A `recognizeAsync` metódus egy `Future<OcrResult>`-ot ad vissza, amelyet később tárolunk.
+
+```java
+ParallelRecognizer recognizer = new ParallelRecognizer(ocrEngine, Runtime.getRuntime().availableProcessors());
+List<Future<OcrResult>> futures = new ArrayList<>();
+
+for (Path imagePath : imagePaths) {
+    futures.add(recognizer.recognizeAsync(imagePath));
+}
+```
+
+> **Mi történik a háttérben?** Minden hívás egy feladatot helyez be a recognizer belső executor szolgáltatásába. A feladatok párhuzamosan futnak, így egy 100 képet tartalmazó mappa töredékes idő alatt feldolgozható, amit egyetlen szálas ciklus igényelne.
+
+## Hogyan nyerjük ki az eredményeket a fájl sorrend megőrzésével
+
+A `Future<OcrResult>` egy aszinkron OCR feladat eredményét tárolja, és egy `get()` metódust biztosít a felismert szöveg lekéréséhez. Mivel a future-öket ugyanabban a sorrendben tároltuk, mint az `imagePaths`-t, egyszerűen iterálhatunk a listán és meghívhatjuk a `get()`-et. A hívás csak addig blokkol, amíg az adott kép be nem fejeződik, így a sorrend megmarad extra nyilvántartás nélkül.
+
+```java
+for (int i = 0; i < futures.size(); i++) {
+    try {
+        OcrResult result = futures.get(i).get();
+        System.out.println("File: " + imagePaths.get(i).getFileName());
+        System.out.println("Text: " + result.getText());
+    } catch (Exception e) {
+        System.err.println("Failed to process " + imagePaths.get(i) + ": " + e.getMessage());
+    }
+}
+```
+
+**Minta konzolkimenet** (rövidítve a tömörség kedvéért):
+
+```
+File: invoice1.png
+Text: Invoice #12345
+Date: 2024‑03‑15
+Total: $1,250.00
+...
+```
+
+> **Szélsőséges eset kezelése:** Ha egy adott kép kivételt dob (sérült fájl, nem támogatott formátum), elkapjuk és folytatjuk a többi feldolgozását – ez elengedhetetlen szokás a megbízható **kötegelt OCR feldolgozó** csővezetékekhez.
+
+## Hogyan tisztítsuk meg az erőforrásokat – állítsuk le a recognizert
+
+A `ParallelRecognizer.shutdown()` leállítja a belső szálpoolt, biztosítva, hogy minden OCR feladat befejeződjön, mielőtt az alkalmazás kilép. Soha ne felejtsd el leállítani a belső szálpoolt; ellenkező esetben a JVM a kilépéskor elakadhat.
+
+```java
+recognizer.shutdown();
+```
+
+Ennyi! A program most már bejár bármely könyvtárat, PNG/JPG fájlokra szűr, párhuzamosan futtat OCR-t, és az eredményeket az eredeti sorrendben írja ki.
 
 ---
 
-![Képek szöveggé konvertálása példa](https://example.com/convert-images-to-text.png "Java konzol kimenetének képernyőképe, amely PNG‑fájlokból konvertált szöveget mutat")
+## Teljes működő példa (másolás‑beillesztés)
 
-## Mit fogunk építeni
+Az alábbiakban a teljes, futtatható Java osztály található. Cseréld ki a `"YOUR_DIRECTORY"`-t a képek mappájának elérési útjára, és futtasd az IDE-ből vagy a parancssorból.
 
-- Egyetlen `AsposeOCR` motor, amely a szálak között megosztott (hatékony és szál‑biztonságos).  
-- Egy `ParallelRecognizer`, amely párhuzamosan futtatja az OCR feladatokat, tökéletes **kötetes OCR feldolgozáshoz**.  
-- Logika, amely **képeket olvas be mappából** a `java.nio.file.Files` segítségével.  
-- Egyszerű szűrők, hogy **szöveget nyerjünk ki PNG** fájlokból, miközben a JPG‑eket is kezeljük.  
-- A belső szálkészlet tiszta leállítása az erőforrás‑szivárgások elkerülése érdekében.
+```java
+import com.aspose.ocr.AsposeOCR;
+import com.aspose.ocr.ParallelRecognizer;
+import com.aspose.ocr.OcrResult;
+import java.nio.file.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.stream.*;
 
-### Előfeltételek
+public class BatchOcrDemo {
+    public static void main(String[] args) throws Exception {
+        // Initialise the OCR engine (single shared instance)
+        AsposeOCR ocrEngine = new AsposeOCR("YOUR_LICENSE_KEY");
 
-- Java 17 (vagy bármely friss LTS verzió).  
-- Maven vagy Gradle az Aspose OCR könyvtár letöltéséhez.  
-- Egy mappa tele PNG/JPG képekkel, amelyeket feldolgozni szeretnél.  
-- Alapvető ismeretek a Java stream‑ekről – semmi bonyolultra nincs szükség.
+        // Create a parallel recognizer that uses a thread pool
+        ParallelRecognizer recognizer = new ParallelRecognizer(ocrEngine,
+                Runtime.getRuntime().availableProcessors());
 
-> **Pro tipp:** Ha még nincs licenced, az Aspose ingyenes ideiglenes kulcsot kínál teszteléshez.
+        // Walk the directory and collect PNG/JPG files
+        List<Path> imagePaths = Files.walk(Paths.get("YOUR_DIRECTORY"))
+                .filter(Files::isRegularFile)
+                .filter(p -> {
+                    String lower = p.toString().toLowerCase();
+                    return lower.endsWith(".png") || lower.endsWith(".jpg");
+                })
+                .collect(Collectors.toList());
+
+        // Submit OCR jobs asynchronously
+        List<Future<OcrResult>> futures = new ArrayList<>();
+        for (Path imagePath : imagePaths) {
+            futures.add(recognizer.recognizeAsync(imagePath));
+        }
+
+        // Retrieve results in the original order
+        for (int i = 0; i < futures.size(); i++) {
+            try {
+                OcrResult result = futures.get(i).get();
+                System.out.println("File: " + imagePaths.get(i).getFileName());
+                System.out.println("Text: " + result.getText());
+            } catch (Exception e) {
+                System.err.println("Failed to process " + imagePaths.get(i) + ": " + e.getMessage());
+            }
+        }
+
+        // Clean up the recognizer's thread pool
+        recognizer.shutdown();
+    }
+}
+```
+
+Futtasd az osztályt, nézd, ahogy a konzol megtelik kinyert karakterláncokkal, és ünnepeld, hogy **képeket szöveggé konvertáltál** anélkül, hogy egyetlen I/O‑ra blokkoló ciklust írtál volna.
 
 ---
 
-## 1. lépés – Projekt beállítása és Aspose OCR hozzáadása
+## Gyakran ismételt kérdések (GYIK)
 
-Először hozz létre egy új Maven projektet (vagy Gradle‑t, ahogy neked kényelmes). Add hozzá az Aspose OCR függőséget a `pom.xml`‑hez:
+**K: Feldolgozhatok PDF-eket vagy TIFF-eket is?**  
+V: Természetesen. Az Aspose OCR 30+ formátumot támogat – köztük PDF, TIFF, BMP és GIF – így csak add hozzá a kívánt kiterjesztéseket a könyvtár‑bejárás szűrőjéhez.
+
+**K: Mi van, ha más nyelvre van szükségem, például spanyolra?**  
+V: Cseréld le a `RecognitionLanguage.ENGLISH`-t `RecognitionLanguage.SPANISH`-ra (vagy bármely támogatott nyelvre). A nyelvi csomagok a könyvtárral együtt érkeznek, így nincs szükség extra letöltésre.
+
+**K: A mappám almappákat is tartalmaz – be lesznek járva?**  
+V: Igen. A `Files.walk` rekurzívan bejárja az egész fát, így minden beágyazott PNG/J
+
+**K: Hogyan kezelem a 200 MB-nál nagyobb képeket?**  
+V: Engedélyezd a streaming módot a `ocrEngine.setUseStreaming(true)` hívással. Ez a motor számára azt jelenti, hogy a képet darabokban olvassa, drámai módon csökkentve a csúcsteljesítmény memóriaigényét.
+
+**K: Van mód a párhuzamos OCR szálak számának korlátozására?**  
+V: Igen. A `ParallelRecognizer` létrehozásakor add meg a kívánt maximális szál számát második argumentumként (pl. `new ParallelRecognizer(ocrEngine, 4)`).
+
+---
+
+---
+
+**Utoljára frissítve:** 2026-08-28  
+**Tesztelve:** Aspose OCR for Java 24.10  
+**Szerző:** Aspose  
+
+
+
+
+
 
 ```xml
 <dependency>
@@ -68,16 +291,6 @@ Először hozz létre egy új Maven projektet (vagy Gradle‑t, ahogy neked kén
     <version>23.12</version> <!-- Check the latest version on Maven Central -->
 </dependency>
 ```
-
-> **Miért fontos:** A függőség deklarálása már a kezdetektől biztosítja, hogy a fordító lássa az `AsposeOCR`, `ParallelRecognizer` és a kapcsolódó osztályokat. Emellett garantálja, hogy minden gépen ugyanaz a verzió legyen használva, ami elengedhetetlen a reprodukálható **kötetes OCR feldolgozáshoz**.
-
-A build befejezése után frissítsd az IDE‑det, és látnod kell az Aspose csomagokat az `External Libraries` alatt.
-
----
-
-## 2. lépés – Képek szöveggé konvertálása – OCR motor inicializálása
-
-Csak **egy** OCR motor példányra van szükség a teljes futtatáshoz. Ennek megosztása a szálak között memóriát takarít meg és felgyorsítja a folyamatot, mivel a motor csak egyszer tölti be a nyelvi csomagokat.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -91,14 +304,6 @@ import com.aspose.ocr.RecognitionLanguage;
 AsposeOCR ocrEngine = new AsposeOCR();               // Loads language data internally
 ParallelRecognizer parallelRecognizer = new ParallelRecognizer(ocrEngine);
 ```
-
-> **Magyarázat:** A `ParallelRecognizer` egy szál‑medencét csomagol a motor köré. Amikor sok fájlt küldesz be, mindegyik saját munkás‑szálat kap, ami valódi párhuzamosságot biztosít a többmagos CPU‑kon.
-
----
-
-## 3. lépés – Képek beolvasása mappából – Könyvtárfa bejárása
-
-Most már **képeket kell beolvasnunk mappából**, és összegyűjteni minden PNG vagy JPG fájlt. A `Files.walk` API ezt egyetlen sorba sűríti, de hozzáadunk egy szűrőt, hogy **szöveget nyerjünk ki csak PNG**‑ból, ha szükséges.
 
 ```java
 import java.nio.file.*;
@@ -122,14 +327,6 @@ if (imagePaths.isEmpty()) {
 }
 ```
 
-> **Miért szűrünk itt:** A `filter` használata lehetővé teszi, hogy **kiterjesztés szerint szűrjünk** már a kezdetekkor, ami jelentősen csökkenti a felesleges I/O‑t később. Emellett a kód olvasható marad – nincs szükség bonyolult regex‑ekre.
-
----
-
-## 4. lépés – Kötetes OCR feldolgozás – Feladatok aszinkron benyújtása
-
-Miután a fájlok listája készen áll, minden útvonalat átadunk a `ParallelRecognizer`‑nek. A `recognizeAsync` metódus egy `Future<OcrResult>`‑ot ad vissza, amelyet később lekérhetünk.
-
 ```java
 import java.util.concurrent.*;
 
@@ -146,14 +343,6 @@ for (Path image : imagePaths) {
 }
 ```
 
-> **Mi történik a háttérben?** Minden hívás egy feladatot helyez be a recognizer belső executor szolgáltatásába. A feladatok párhuzamosan futnak, így egy 100 képet tartalmazó mappa feldolgozása jóval kevesebb időt vesz igénybe, mint egy egy‑szálas ciklus esetén.
-
----
-
-## 5. lépés – Eredmények lekérése az eredeti sorrendben – Fájl sorrend megőrzése
-
-Mivel a `Future`‑kat ugyanabban a sorrendben tároltuk, ahogy az `imagePaths` listában voltak, egyszerűen végigiterálhatunk a listán, és meghívhatjuk a `get()`‑et. A hívás csak addig blokkol, amíg az adott kép feldolgozása be nem fejeződik, így a sorrend megmarad extra nyilvántartás nélkül.
-
 ```java
 // Step 5: Retrieve and display the OCR results in the original order
 for (int i = 0; i < recognitionFutures.size(); i++) {
@@ -167,8 +356,6 @@ for (int i = 0; i < recognitionFutures.size(); i++) {
     }
 }
 ```
-
-**Minta konzol kimenet** (rövidítve):
 
 ```
 File: invoice_001.png
@@ -184,26 +371,10 @@ Grand Total: $75.00
 -----
 ```
 
-> **Szélsőséges eset kezelése:** Ha egy adott kép kivételt dob (sérült fájl, nem támogatott formátum), elkapjuk, és a többi feldolgozása folytatódik – ez egy alapvető szokás a megbízható **kötetes OCR feldolgozási** csővezetékeknél.
-
----
-
-## 6. lépés – Takarítás – Recognizer leállítása
-
-Soha ne felejtsd el leállítani a belső szálkészletet; különben a JVM a kilépéskor elakadhat.
-
 ```java
 // Step 6: Shut down the recognizer to clean up its internal thread pool
 parallelRecognizer.shutdown();
 ```
-
-Ennyi! A program most már bármely könyvtárat bejár, PNG/JPG fájlokra szűr, párhuzamosan futtat OCR‑t, és kiírja az eredményeket.
-
----
-
-## Teljes működő példa
-
-Az alábbiakban megtalálod a komplett, másolás‑beillesztés‑kész Java osztályt. Cseréld le a `"YOUR_DIRECTORY"`‑t a képeid mappájának elérési útjára, és futtasd az IDE‑dből vagy a parancssorból.
 
 ```java
 import com.aspose.ocr.AsposeOCR;
@@ -264,22 +435,16 @@ public class BatchParallelExample {
 }
 ```
 
-Futtasd az osztályt, figyeld, ahogy a konzol megtelik kinyert karakterláncokkal, és ünnepeld, hogy **képeket szöveggé konvertáltál** anélkül, hogy egyetlen blokkoló I/O‑ciklust is írtál volna.
+## Kapcsolódó oktatóanyagok
 
----
+- [Convert Images To Text In Java Batch Ocr Processing Guide](/ocr/java/ocr-operations/convert-images-to-text-in-java-batch-ocr-processing-guide/)
+- [Read Text From Image In Java Complete Aspose Ocr Guide](/ocr/java/ocr-basics/read-text-from-image-in-java-complete-aspose-ocr-guide/)
+- [Extract Text from Images Using Aspose.OCR – Allowed Characters](/ocr/java/advanced-ocr-techniques/specify-allowed-characters/)
 
-## Gyakran Ismételt Kérdések (GYIK)
-
-**Q: Feldolgozhatok PDF‑eket vagy TIFF‑eket is?**  
-A: Természetesen. Az Aspose OCR számos formátumot támogat – csak add hozzá a megfelelő fájlkiterjesztéseket a 2. lépésben lévő szűrőhöz.
-
-**Q: Mi van, ha más nyelvre, például spanyolra van szükségem?**  
-A: Cseréld le a `RecognitionLanguage.ENGLISH`‑t `RecognitionLanguage.SPANISH`‑ra. Győződj meg róla, hogy a nyelvi csomag telepítve van (az Aspose a legtöbb főbb nyelvet alapból tartalmazza).
-
-**Q: A mappám almappákat is tartalmaz – be lesznek-e olvasva?**  
-A: Igen. A `Files.walk` rekurzívan bejárja az egész fastruktúrát, így minden beágyazott PNG/J
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

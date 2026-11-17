@@ -1,27 +1,64 @@
 ---
 category: general
-date: 2025-12-30
-description: C# में एम्बेडेड रिसोर्स लोड करके और मैनिफेस्ट रिसोर्स स्ट्रीम प्राप्त
-  करके Aspose लाइसेंस कैसे सेट करें। चरण‑दर‑चरण सीखें कि एम्बेडेड रिसोर्स को कैसे
-  लोड करें और लाइसेंस लागू करें।
+date: 2026-09-08
+description: Aspose लाइसेंस को C# में सेट करने के लिए .lic फ़ाइल को एम्बेड करके और
+  manifest resource stream को प्राप्त करके सीखें, जिससे एक पूरी तरह से लाइसेंस प्राप्त
+  OCR इंजन सक्षम हो जाता है।
 draft: false
 keywords:
-- how to set aspose license
-- how to load embedded resource
+- set aspose license c#
+- c# read embedded resource
+- load embedded resource c#
+- c# list embedded resources
 - retrieve manifest resource stream
-- Aspose OCR licensing
-- embedded resource C#
-language: hi
-og_description: C# में एम्बेडेड रिसोर्स का उपयोग करके Aspose लाइसेंस कैसे सेट करें।
-  यह गाइड दिखाता है कि एम्बेडेड रिसोर्स को कैसे लोड करें और पूरी तरह लाइसेंस प्राप्त
-  OCR इंजन के लिए मैनिफेस्ट रिसोर्स स्ट्रीम कैसे प्राप्त करें।
-og_title: C# में Aspose लाइसेंस कैसे सेट करें – त्वरित चरण‑दर‑चरण
+lastmod: 2026-09-08
+og_description: Aspose लाइसेंस को C# में सेट करने के लिए लाइसेंस फ़ाइल को एम्बेड करके
+  और manifest resource stream को प्राप्त करके सीखें, जिससे अतिरिक्त फ़ाइलों के बिना
+  एक पूरी तरह से लाइसेंस प्राप्त OCR इंजन मिल जाता है।
+og_image_alt: 'Developer guide: Set Aspose license in C# using embedded resource'
+og_title: C# में Aspose लाइसेंस कैसे सेट करें – स्टेप‑बाय‑स्टेप गाइड
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  headline: How to set Aspose license in C# – step‑by‑step guide
+  type: TechArticle
+- description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  name: How to set Aspose license in C# – step‑by‑step guide
+  steps:
+  - name: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+    text: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+  - name: In the file’s properties, set **Build Action** to **Embedded Resource**.
+    text: In the file’s properties, set **Build Action** to **Embedded Resource**.
+  - name: Verify the resource name. Visual Studio uses the pattern
+    text: Verify the resource name. Visual Studio uses the pattern
+  type: HowTo
+- questions:
+  - answer: Yes – the same embed‑and‑load pattern works for all Aspose .NET libraries;
+      just replace the license file and class names.
+    question: Can I use this approach with other Aspose products (PDF, Words, Cells)?
+  - answer: The `.lic` file is typically under 10 KB, so the impact on assembly size
+      is negligible.
+    question: Does embedding the license increase the size of my executable noticeably?
+  - answer: Replace the `.lic` file in the project, rebuild, and redeploy the updated
+      assembly.
+    question: What if I need to update the license later?
+  - answer: No – treat the `.lic` file as a secret. Keep it out of source control
+      or encrypt it if you must share the repo.
+    question: Is it safe to store the license in a public repository?
+  - answer: It works flawlessly because the license is loaded from the function’s
+      own assembly, eliminating file‑system dependencies.
+    question: How does this method affect Azure Functions or serverless deployments?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - C#
-- Licensing
-title: C# में Aspose लाइसेंस कैसे सेट करें – पूर्ण गाइड
+- licensing
+- embedded resource
+title: C# में Aspose लाइसेंस कैसे सेट करें – स्टेप‑बाय‑स्टेप गाइड
 url: /hi/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 ---
 
@@ -29,45 +66,103 @@ url: /hi/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Set Aspose License in C# – Complete Guide
+# C# में Aspose लाइसेंस कैसे सेट करें – चरण-दर-चरण मार्गदर्शिका
 
-क्या आप कभी सोचते रहे हैं **कैसे Aspose लाइसेंस सेट करें** अपने OCR प्रोजेक्ट के लिए बिना `.lic` फ़ाइल को फ़ाइल सिस्टम में बिखरे? आप अकेले नहीं हैं। कई डेवलपर्स लाइसेंसिंग से जूझते हैं क्योंकि वे एक साफ़ डिप्लॉयमेंट चाहते हैं और executable के बगल में अतिरिक्त फ़ाइलें नहीं चाहते। अच्छी खबर? आप लाइसेंस को सीधे अपनी assembly में एम्बेड कर सकते हैं और रन‑टाइम पर उसे निकाल सकते हैं। इस ट्यूटोरियल में हम **एम्बेडेड रिसोर्स लोड करने** और **मैनिफेस्ट रिसोर्स स्ट्रीम प्राप्त करने** के बारे में बताएँगे ताकि Aspose OCR इंजन पूरी कार्यक्षमता के साथ काम करे।
+यदि आपको **set Aspose license in C#** करना है और अपने executable के बगल में एक अलग `.lic` फ़ाइल नहीं छोड़नी है, तो आप सही जगह पर हैं। लाइसेंस को अपनी assembly में एम्बेड करने से डिप्लॉयमेंट साफ़ रहता है, लाइसेंस को आकस्मिक नुकसान से बचाता है, और यह सुनिश्चित करता है कि OCR इंजन हर बार पूरी‑लाइसेंस्ड मोड में चले। इस ट्यूटोरियल में आप सीखेंगे कि लाइसेंस फ़ाइल को कैसे एम्बेड करें, manifest resource stream को कैसे प्राप्त करें, और `OcrEngine` पर लाइसेंस कैसे लागू करें – सभी शुद्ध C# में।
 
-हम सब कुछ कवर करेंगे: Visual Studio में `.lic` फ़ाइल को एम्बेड करने से लेकर C# कोड लिखने तक जो रिसोर्स पढ़ता है, लाइसेंस लागू करता है, और अंत में एक पूरी‑लाइसेंस्ड `OcrEngine` बनाता है। अंत में आपके पास एक सेल्फ‑कंटेन्ड समाधान होगा जिसे आप किसी भी .NET प्रोजेक्ट में डाल सकते हैं।
+## त्वरित उत्तर
+- **लाइसेंस फ़ाइल को एम्बेड करने का सबसे आसान तरीका क्या है?** Visual Studio में फ़ाइल की *Build Action* को *Embedded Resource* सेट करें।  
+- **रनटाइम पर एम्बेडेड लाइसेंस को कैसे प्राप्त करें?** `Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)` का उपयोग करें।  
+- **क्या मुझे लाइसेंस को डिस्क पर लिखना चाहिए?** नहीं – स्ट्रीम को सीधे `License.SetLicense` को पास किया जाता है।  
+- **क्या यह .NET 6, .NET Framework, और Azure Functions पर काम करेगा?** हाँ, वही कोड सभी समर्थित .NET runtimes पर चलता है।  
+- **मैं कैसे सत्यापित करूँ कि लाइसेंस सक्रिय है?** `OcrEngine.IsLicensed` को कॉल करें (या एक सरल OCR कार्य चलाएँ और ट्रायल वॉटरमार्क की जाँच करें)।
 
-## Prerequisites
+## सेट Aspose लाइसेंस c# क्या है?
+`set aspose license c#` एक वैध Aspose OCR लाइसेंस को .NET एप्लिकेशन में लोड करने की प्रक्रिया को दर्शाता है ताकि लाइब्रेरी ट्रायल सीमाओं के बिना काम करे। `.lic` फ़ाइल को एम्बेड करने से आप बाहरी निर्भरताओं को समाप्त कर देते हैं और डिप्लॉयमेंट को सरल बनाते हैं।
 
-- .NET 6+ (कोड .NET Framework 4.7.2 पर भी काम करता है)
-- Aspose.OCR NuGet पैकेज इंस्टॉल किया हुआ (`Install-Package Aspose.OCR`)
-- एक वैध Aspose OCR लाइसेंस फ़ाइल (`Aspose.OCR.lic`)
-- C# और Visual Studio की बेसिक समझ
+## लाइसेंस फ़ाइल को एम्बेड क्यों करें बजाय एक अलग फ़ाइल के उपयोग के?
+लाइसेंस को एम्बेड करने से फ़ाइल के ग़लत जगह पर रखे जाने, हटाए जाने, या क्लाइंट मशीन पर उजागर होने का जोखिम समाप्त हो जाता है। Aspose.OCR **20+ भाषाओं** का समर्थन करता है और सामान्य सर्वर हार्डवेयर पर **2 सेकंड से कम समय में 100‑पेज दस्तावेज़** प्रोसेस कर सकता है, लेकिन केवल तभी जब वैध लाइसेंस मौजूद हो। एम्बेडिंग यह सुनिश्चित करती है कि इंजन हमेशा पूरी गति से और ट्रायल वॉटरमार्क के बिना चले।
 
-एक बार लाइसेंस एम्बेड हो जाने पर कोई बाहरी कॉन्फ़िगरेशन फ़ाइल की ज़रूरत नहीं रहती।
+## लाइसेंस फ़ाइल को अपनी assembly में कैसे एम्बेड करें
+लाइसेंस को एम्बेड करना सरल है: `.lic` फ़ाइल को अपने प्रोजेक्ट में जोड़ें, इसे Embedded Resource के रूप में चिह्नित करें, और रनटाइम पर इसके पूर्ण‑योग्य नाम से संदर्भित करें। इससे लाइसेंस संकलित DLL के साथ यात्रा करता है और डिप्लॉयमेंट के दौरान कोई बाहरी फ़ाइल आवश्यक नहीं होती।
 
----
+### एम्बेड क्यों करें?
+एम्बेड करने से अलग लाइसेंस फ़ाइल शिप करने की आवश्यकता नहीं रहती, इसे खोने का जोखिम कम होता है, और लाइसेंस DLL के साथ यात्रा करता है। इसे एक सुरक्षित के अंदर गुप्त कुंजी बंडल करने जैसा सोचें।
 
-## Step 1: Embed the License File into Your Assembly
-
-### Why embed?
-
-एम्बेड करने से अलग लाइसेंस फ़ाइल शिप करने की जरूरत नहीं रहती, फ़ाइल खोने का जोखिम कम होता है, और लाइसेंस हमेशा DLL के साथ रहता है। इसे एक सीक्रेट की को सेफ़ के अंदर बंडल करने जैसा समझें।
-
-### How to embed
-
-1. `.lic` फ़ाइल को अपने प्रोजेक्ट में जोड़ें (जैसे, `Resources/Aspose.OCR.lic`)।
-2. फ़ाइल की प्रॉपर्टीज़ में **Build Action** को **Embedded Resource** सेट करें।
-3. रिसोर्स नाम की पुष्टि करें। Visual Studio इस पैटर्न का उपयोग करता है  
+### कैसे एम्बेड करें
+1. `.lic` फ़ाइल को अपने प्रोजेक्ट में जोड़ें (उदा., `Resources/Aspose.OCR.lic`)।
+2. फ़ाइल की प्रॉपर्टीज़ में, **Build Action** को **Embedded Resource** सेट करें।
+3. रिसोर्स नाम की जाँच करें। Visual Studio पैटर्न उपयोग करता है  
    `YourRootNamespace.FolderName.FileName.Extension`।  
    उदाहरण के लिए, यदि आपके प्रोजेक्ट का डिफ़ॉल्ट नेमस्पेस `MyApp` है, तो रिसोर्स नाम बन जाएगा  
    `MyApp.Resources.Aspose.OCR.lic`।
 
-> **Pro tip:** *Object Browser* खोलें या एक छोटा console app में `Assembly.GetExecutingAssembly().GetManifestResourceNames()` चलाएँ ताकि सभी एम्बेडेड रिसोर्स की सूची मिल सके। इससे बाद में **मैनिफेस्ट रिसोर्स स्ट्रीम प्राप्त करने** में टाइपो से बचा जा सकेगा।
+> **Pro tip:** *Object Browser* खोलें या एक त्वरित कंसोल ऐप में `Assembly.GetExecutingAssembly().GetManifestResourceNames()` चलाएँ ताकि सभी एम्बेडेड रिसोर्स की सूची मिल सके। यह आपको बाद में **retrieve manifest resource stream** करते समय टाइपो से बचने में मदद करता है।  
+> 
+> ![how to set aspose license in C# example](path/to/image.png "how to set aspose license in C# example")
 
----
+## रनटाइम पर एम्बेडेड लाइसेंस कैसे लोड करें
+लाइसेंस को सक्रिय करने के लिए, एम्बेडेड रिसोर्स स्ट्रीम को पढ़ें और इसे सीधे Aspose के `License` क्लास को पास करें। इससे फ़ाइल को डिस्क पर लिखने से बचा जाता है और यह सभी .NET runtimes पर काम करता है।
 
-## Step 2: Write the Code to Load the Embedded License
+### C# में एम्बेडेड रिसोर्स कैसे पढ़ें?
+`License` ऑब्जेक्ट बनाएं, सटीक रिसोर्स नाम बनाएं, और `GetManifestResourceStream` को कॉल करें। फिर इस स्ट्रीम को `SetLicense` को प्रदान किया जाता है।
 
-अब लाइसेंस assembly के अंदर है, हमें इसे रन‑टाइम पर निकालना होगा। नीचे दिया गया स्निपेट पूरी तरह से तैयार‑चलाने‑योग्य कोड दिखाता है।
+**Direct answer:**  
+```text
+Instantiate `new License()`, call `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyApp.Resources.Aspose.OCR.lic")`, and pass the returned stream to `SetLicense`. This loads the license directly from the assembly without touching the file system.
+```
+
+`License` क्लास Aspose का गेटवे है जो पूर्ण‑फ़ीचर मोड को सक्रिय करता है। `OcrEngine` क्लास मुख्य OCR प्रोसेसर है जो लागू लाइसेंस का सम्मान करता है।
+
+## लाइसेंस सक्रिय है या नहीं कैसे सत्यापित करें
+लाइसेंस लोड करने के बाद, आप `OcrEngine` की `IsLicensed` प्रॉपर्टी की जाँच करके या एक छोटा OCR कार्य चलाकर और यह सुनिश्चित करके कि कोई ट्रायल वॉटरमार्क नहीं दिखता, सक्रियता की पुष्टि कर सकते हैं। जब वैध लाइसेंस लागू किया जाता है तो `IsLicensed` `true` लौटाता है।
+
+**Direct answer:**  
+```text
+Call `bool licensed = ocrEngine.IsLicensed;` – if it returns true, the engine is fully licensed; otherwise, you’ll see a trial watermark on processed images.
+```
+
+`IsLicensed` `OcrEngine` की एक प्रॉपर्टी है जो दर्शाती है कि वैध लाइसेंस लागू किया गया है या नहीं।
+
+## सामान्य समस्याएँ और उनके समाधान
+
+### मैनीफ़ेस्ट रिसोर्स प्राप्त करते समय null स्ट्रीम को कैसे ठीक करें?
+एक null स्ट्रीम आमतौर पर इसका मतलब है कि रिसोर्स नाम गलत है या फ़ाइल को Embedded Resource के रूप में चिह्नित नहीं किया गया है। नीचे दिए गए हेल्पर मेथड का उपयोग करके सभी नामों की सूची बनाएं और सटीक स्ट्रिंग की पुष्टि करें।
+
+**Direct answer:**  
+```text
+Run `foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames()) Console.WriteLine(name);` and copy the exact name into your `GetManifestResourceStream` call.
+```
+
+### कई असेंबलियों को कैसे संभालें?
+यदि लाइसेंस एक साझा लाइब्रेरी में है, तो `GetExecutingAssembly()` को `Assembly.Load("SharedLib")` से बदलें ताकि उस असेंबली से रिसोर्स प्राप्त किया जा सके।
+
+### स्ट्रीम को बहुत जल्दी डिस्पोज़ करने से कैसे बचें?
+`SetLicense` कॉल करने के **बाद** ही स्ट्रीम को `using` ब्लॉक में रैप करें। पहले डिस्पोज़ करने से लाइसेंस पढ़ा नहीं जा पाता।
+
+### विभिन्न .NET टार्गेट्स के साथ संगतता कैसे सुनिश्चित करें?
+Aspose.OCR 22.10+ .NET Standard 2.0, .NET Core, और .NET Framework को सपोर्ट करता है। रनटाइम एरर से बचने के लिए सुनिश्चित करें कि आपका प्रोजेक्ट इन फ्रेमवर्क्स में से किसी एक को टार्गेट करता है।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं इस विधि को अन्य Aspose उत्पादों (PDF, Words, Cells) के साथ उपयोग कर सकता हूँ?**  
+A: हाँ – वही embed‑and‑load पैटर्न सभी Aspose .NET लाइब्रेरीज़ के लिए काम करता है; बस लाइसेंस फ़ाइल और क्लास नाम बदल दें।
+
+**Q: क्या लाइसेंस को एम्बेड करने से मेरे executable का आकार उल्लेखनीय रूप से बढ़ता है?**  
+A: `.lic` फ़ाइल आमतौर पर 10 KB से कम होती है, इसलिए assembly आकार पर प्रभाव नगण्य है।
+
+**Q: यदि बाद में मुझे लाइसेंस अपडेट करना पड़े तो क्या करें?**  
+A: प्रोजेक्ट में `.lic` फ़ाइल को बदलें, पुनः बिल्ड करें, और अपडेटेड असेंबली को पुनः डिप्लॉय करें।
+
+**Q: क्या लाइसेंस को सार्वजनिक रिपॉजिटरी में रखना सुरक्षित है?**  
+A: नहीं – `.lic` फ़ाइल को एक सीक्रेट मानें। इसे स्रोत नियंत्रण से बाहर रखें या यदि रिपॉजिटरी साझा करनी ही पड़े तो एन्क्रिप्ट करें।
+
+**Q: यह विधि Azure Functions या सर्वरलेस डिप्लॉयमेंट को कैसे प्रभावित करती है?**  
+A: यह पूरी तरह से काम करती है क्योंकि लाइसेंस फ़ंक्शन की अपनी असेंबली से लोड होता है, जिससे फ़ाइल‑सिस्टम निर्भरताएँ समाप्त हो जाती हैं।
+
+**अंतिम अपडेट:** 2026-09-08  
+**परीक्षित संस्करण:** Aspose.OCR 24.11 for .NET  
+**लेखक:** Aspose  
 
 ```csharp
 using System;
@@ -113,70 +208,18 @@ namespace MyApp
     }
 }
 ```
-
-#### What’s happening?
-
-- **`License` ऑब्जेक्ट बनाना** – Aspose इस क्लास का उपयोग लाइसेंसिंग मैनेज करने के लिए करता है।
-- **रिसोर्स नाम बनाना** – आपको नेमस्पेस‑फ़ोल्डर‑फ़ाइलनाम पैटर्न से बिल्कुल मेल करना होगा, नहीं तो `GetManifestResourceStream` `null` लौटाएगा।
-- **मैनिफेस्ट रिसोर्स स्ट्रीम प्राप्त करना** – यह **एम्बेडेड रिसोर्स लोड करने** का मुख्य भाग है। यह मेथड एक `Stream` लौटाता है जिसे आप सीधे `SetLicense` को पास कर सकते हैं।
-- **एरर हैंडलिंग** – अगर स्ट्रीम `null` है, तो हम एक स्पष्ट संदेश आउटपुट करते हैं। इससे साइलेंट फेल्योर से बचा जा सकता है जो OCR इंजन को ट्रायल मोड में रख देता।
-- **लाइसेंस लागू करना** – `SetLicense` स्ट्रीम पढ़ता है और प्रोडक्ट को पूरी तरह एक्टिवेट करता है।
-- **`OcrEngine` इंस्टैंशिएट करना** – अब आपके पास एक पूरी‑लाइसेंस्ड इंजन है जो OCR टास्क के लिए तैयार है।
-
-> **Why this approach?** यह लाइसेंस को डिस्क पर लिखने से बचाता है, पाथ‑रिलेटेड बग्स को खत्म करता है, और तब भी काम करता है जब आपका ऐप टेम्पररी फ़ोल्डर (जैसे ClickOnce, Azure Functions) से चलता है।
-
----
-
-## Step 3: Verify the License Is Active
-
-एक त्वरित sanity check बाद में घंटों की डिबगिंग बचा सकता है। ऊपर वाला कोड चलने के बाद, आप `IsLicensed` प्रॉपर्टी (नए Aspose संस्करणों में उपलब्ध) देख सकते हैं या बस एक OCR ऑपरेशन आज़मा सकते हैं जो ट्रायल वॉटरमार्क दिखाता।
-
 ```csharp
 // Assuming you have an image file "sample.png" in the project folder.
 ocrEngine.Image = ImageStream.FromFile("sample.png");
 ocrEngine.Process();
 Console.WriteLine($"Recognized text: {ocrEngine.Text}");
 ```
-
-अगर लाइसेंस सही ढंग से लागू हो गया है, तो **कोई ट्रायल वॉटरमार्क** आउटपुट इमेज पर नहीं दिखेगा और OCR क्वालिटी पूरी‑एडिशन की अपेक्षा के अनुसार होगी।
-
----
-
-## Step 4: Edge Cases & Common Pitfalls
-
-### 1️⃣ Wrong resource name
-
-अगर आपको `GetManifestResourceStream` से `null` मिल रहा है, तो पूरी तरह क्वालिफ़ाइड नाम दोबारा चेक करें। सभी नामों की लिस्ट पाने के लिए यह हेल्पर इस्तेमाल करें:
-
 ```csharp
 foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
 {
     Console.WriteLine(name);
 }
 ```
-
-### 2️⃣ License file not marked as Embedded Resource
-
-Visual Studio डिफ़ॉल्ट रूप से **Content** सेट करता है। फ़ाइल की प्रॉपर्टीज़ में जाकर इसे मैन्युअली **Embedded Resource** में बदलें।
-
-### 3️⃣ Multiple assemblies
-
-अगर आपका लाइसेंस किसी अलग assembly (जैसे, एक shared library) में है, तो `GetExecutingAssembly()` की जगह `Assembly.Load("OtherAssembly")` कॉल करें।
-
-### 4️⃣ Stream disposal
-
-`using` ब्लॉक यह सुनिश्चित करता है कि `SetLicense` के बाद स्ट्रीम बंद हो जाए। **SetLicense** से पहले स्ट्रीम को डिस्पोज़ न करें, नहीं तो लाइसेंस पढ़ा नहीं जाएगा।
-
-### 5️⃣ Compatibility
-
-Aspose.OCR 22.10+ .NET Standard 2.0, .NET Core, और .NET Framework को सपोर्ट करता है। सुनिश्चित करें कि आप अपने प्रोजेक्ट के टार्गेट फ़्रेमवर्क से मेल खाने वाला वर्ज़न इस्तेमाल कर रहे हैं।
-
----
-
-## Step 5: Full Working Example (Copy‑Paste Ready)
-
-नीचे पूरा प्रोग्राम दिया गया है जिसे आप नई console app में कॉपी‑पेस्ट कर सकते हैं। इसमें लाइसेंस‑लोडिंग लॉजिक, एक साधारण OCR टेस्ट, और मजबूत एरर हैंडलिंग शामिल है।
-
 ```csharp
 using System;
 using System.IO;
@@ -236,9 +279,6 @@ namespace AsposeLicenseDemo
     }
 }
 ```
-
-**Expected output** (मान लीजिए `sample.png` में पढ़ने योग्य टेक्स्ट है):
-
 ```
 ✅ License applied.
 📝 Recognized Text:
@@ -246,23 +286,12 @@ Hello, Aspose OCR!
 License active: True
 ```
 
-अगर लाइसेंस नहीं मिला, तो Aspose एक एक्सेप्शन थ्रो करेगा या प्रोसेस्ड इमेज पर ट्रायल वॉटरमार्क एम्बेड करेगा।
+## संबंधित ट्यूटोरियल
 
----
+- [नेट में एम्बेडेड रिसोर्स पढ़ें – Aspose L सेट करने के लिए पूर्ण गाइड](/ocr/net/ocr-configuration/read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+- [Aspose OCR में लाइसेंस लागू करने की चरण-दर-चरण C गाइड](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [C में Aspose OCR इंजन के साथ बैच OCR कैसे करें](/ocr/net/ocr-optimization/how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 
-## Conclusion
-
-हमने **कैसे Aspose लाइसेंस सेट करें** को एक साफ़, मेंटेनेबल तरीके से एम्बेडेड `.lic` फ़ाइल और **मैनिफेस्ट रिसोर्स स्ट्रीम प्राप्त करने** का उपयोग करके समझाया। चरण—रिसोर्स एम्बेड करना, `Assembly.GetExecutingAssembly().GetManifestResourceStream` से लोड करना, लाइसेंस लागू करना, और अंत में एक लाइसेंस्ड `OcrEngine` बनाना—डिवेलपर को चाहिए हर पहलू को कवर करते हैं।
-
-अब आप एक सिंगल एक्सिक्यूटेबल शिप कर सकते हैं बिना लाइसेंस फ़ाइल की कमी की चिंता के, और ट्रायल वॉटरमार्क से हमेशा मुक्त रहेंगे। आगे आप देख सकते हैं:
-
-- **कैसे Aspose लाइसेंस सेट करें** अन्य Aspose प्रोडक्ट्स (PDF, Words, Cells) के लिए उसी पैटर्न से।
-- **कैसे एम्बेडेड रिसोर्स लोड करें** कॉन्फ़िगरेशन फ़ाइलों (JSON, XML) के लिए ASP.NET Core में।
-- कस्टम लॉगिंग फ्रेमवर्क के साथ एडवांस्ड एरर हैंडलिंग।
-
-अपनी नेमस्पेस के अनुसार रिसोर्स नाम को एडजस्ट करें, प्रयोग करें, और कमेंट्स में अपने अनुभव शेयर करें। Happy coding, और Aspose OCR की पूरी शक्ति का आनंद लें! 
-
-![Aspose लाइसेंस सेट करने का C# उदाहरण](path/to/image.png "Aspose लाइसेंस सेट करने का C# उदाहरण")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

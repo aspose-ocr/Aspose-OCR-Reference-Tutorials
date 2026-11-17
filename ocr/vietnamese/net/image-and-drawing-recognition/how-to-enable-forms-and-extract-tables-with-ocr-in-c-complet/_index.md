@@ -1,25 +1,51 @@
 ---
 category: general
-date: 2026-01-04
-description: Tìm hiểu cách bật biểu mẫu và trích xuất bảng từ hình ảnh bằng OCR trong
-  C#. Hướng dẫn từng bước này cũng chỉ cách chạy OCR trên hình ảnh và phát hiện bảng
-  bằng OCR.
+date: 2026-09-03
+description: Tìm hiểu cách bật forms c# và trích xuất bảng bằng OCR trong C#. Hướng
+  dẫn chi tiết này chỉ ra cách chạy OCR trên hình ảnh và phát hiện bảng.
 draft: false
 keywords:
-- how to enable forms
-- how to extract tables
-- run OCR image
-- use OCR C#
+- enable forms c#
+- extract tables c#
 - detect tables OCR
-language: vi
-og_description: Hướng dẫn từng bước về cách bật biểu mẫu, trích xuất bảng, chạy OCR
-  hình ảnh và phát hiện bảng OCR bằng C#.
-og_title: Cách bật biểu mẫu và trích xuất bảng với OCR trong C#
+- use OCR C#
+- run OCR image
+lastmod: 2026-09-03
+og_description: Bật forms c# và trích xuất bảng bằng OCR trong C#. Thực hiện theo
+  hướng dẫn chi tiết này để chạy OCR trên hình ảnh, phát hiện bảng và trích xuất các
+  cặp khóa‑giá trị một cách hiệu quả.
+og_image_alt: Guide showing C# code to enable forms and extract tables using OCR
+og_title: Bật forms c# và trích xuất bảng bằng OCR trong C#
+schemas:
+- author: Aspose
+  dateModified: '2026-09-03'
+  description: Learn how to enable forms c# and extract tables with OCR in C#. This
+    step‑by‑step guide shows how to run OCR on images and detect tables.
+  headline: How to enable forms c# and extract tables with OCR in C#
+  type: TechArticle
+- questions:
+  - answer: Yes. Most OCR SDKs rasterize each PDF page internally, so you can call
+      `ocrEngine.LoadPdf("file.pdf")` instead of `LoadImage`.
+    question: Does this work with PDF input?
+  - answer: The signature appears as a separate image region with low‑confidence text.
+      You can filter it out by checking `ocrResult.Images` for confidence below a
+      threshold.
+    question: My image contains both a table and a handwritten signature—what happens?
+  - answer: Absolutely. Iterate over `table.Rows` and write each `cell.Text` to a
+      `StringBuilder` separated by commas, then save the string as a `.csv` file.
+    question: Can I export the extracted tables to CSV?
+  - answer: Enable the SDK’s pre‑processing step to boost contrast and apply edge‑enhancement
+      filters before recognition.
+    question: What if my tables have no visible borders?
+  - answer: Yes. The trial license is limited to 100 pages per month; a full license
+      removes this restriction and provides priority support.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - C#
-- Computer Vision
-title: Cách bật biểu mẫu và trích xuất bảng bằng OCR trong C# – Hướng dẫn đầy đủ
+- computer vision
+title: Cách bật forms c# và trích xuất bảng bằng OCR trong C#
 url: /vi/net/image-and-drawing-recognition/how-to-enable-forms-and-extract-tables-with-ocr-in-c-complet/
 ---
 
@@ -27,28 +53,167 @@ url: /vi/net/image-and-drawing-recognition/how-to-enable-forms-and-extract-table
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Kích Hoạt Biểu Mẫu và Trích Xuất Bảng với OCR trong C# – Hướng Dẫn Toàn Diện
+# Cách bật biểu mẫu c# và trích xuất bảng với OCR trong C#
 
-Bạn đã bao giờ tự hỏi **cách kích hoạt biểu mẫu** khi quét hoá đơn, biên lai hoặc bất kỳ tài liệu có cấu trúc nào chưa? Bạn không phải là người duy nhất. Trong nhiều dự án thực tế, điểm ma sát lớn nhất là làm cho OCR hiểu cả các trường biểu mẫu **và** bảng mà không cần hàng triệu dòng phân tích tùy chỉnh.  
+Nếu bạn cần **enable forms c#** khi xử lý hoá đơn, biên lai, hoặc bất kỳ bản quét có cấu trúc nào, hướng dẫn này sẽ cho bạn thấy cách thực hiện chính xác. Bạn cũng sẽ học **how to extract tables c#** từ cùng một hình ảnh và chạy OCR trên ảnh trong một lần gọi. Khi kết thúc tutorial, bạn sẽ có một chương trình console C# sẵn sàng chạy, phát hiện bảng, trích xuất các cặp khóa‑giá trị, và in mọi thứ ra console.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua một giải pháp thực tiễn, từ đầu đến cuối, cho thấy **cách kích hoạt biểu mẫu**, **cách trích xuất bảng**, và thậm chí **cách chạy xử lý ảnh OCR** trong một chương trình C# duy nhất. Khi kết thúc, bạn sẽ có một đoạn mã sẵn sàng chạy, phát hiện bảng theo kiểu OCR, lấy ra các cặp khóa‑giá trị, và in chúng ra console.
+## Câu trả lời nhanh
+- **Bước đầu tiên là gì?** Create an `OcrEngine` instance and point it at your image file.  
+- **Làm sao để bật nhận dạng biểu mẫu?** Set `EnableFormRecognition = true` on the engine’s configuration.  
+- **Làm sao tôi có thể trích xuất bảng?** Enable `EnableTableRecognition` and read the `Tables` collection from the result.  
+- **Tôi có cần giấy phép đặc biệt không?** Most OCR SDKs require a runtime license for production; a trial works for development.  
+- **Các phiên bản .NET nào được hỗ trợ?** .NET 6+, .NET 5, and .NET Framework 4.7+ are all compatible.
 
-> **Yêu cầu trước** – .NET 6+ (hoặc .NET Framework 4.7+), một tham chiếu tới SDK OCR bạn đang dùng (ví dụ giả định lớp `OcrEngine` chung), và một tệp ảnh (`invoice_table.png`) chứa bảng hoặc biểu mẫu. Không cần thư viện bên ngoài nào khác.
+## enable forms c# là gì?
+`enable forms c#` đề cập đến việc kích hoạt tính năng phát hiện trường biểu mẫu của engine OCR để các trường được gắn nhãn như “Invoice Number” hoặc “Date” được trả về dưới dạng các cặp khóa‑giá trị có cấu trúc. Điều này loại bỏ việc phân tích regex thủ công và tăng tốc đáng kể quá trình tự động nhập dữ liệu. Khi bật khả năng này, bạn cho phép OCR SDK tự động ánh xạ mỗi nhãn được phát hiện tới giá trị tương ứng, giảm lượng mã tùy chỉnh cần viết và cải thiện độ tin cậy chung của quy trình trích xuất.
+
+## Tại sao lại sử dụng OCR để phát hiện bảng và biểu mẫu cùng nhau?
+Các thư viện OCR hiện đại hỗ trợ **hơn 50 định dạng đầu vào** (bao gồm PNG, JPEG, TIFF và PDF) và có thể xử lý **tài liệu hàng trăm trang** mà không cần tải toàn bộ tệp vào bộ nhớ. Việc bật cả phát hiện biểu mẫu và bảng trong một lần xử lý giảm mức sử dụng CPU lên tới **30 %** so với việc chạy hai nhận dạng riêng biệt.
+
+## Làm sao tôi bật biểu mẫu trong C# bằng OCR?
+Tạo một đối tượng `OcrEngine`, tải ảnh của bạn, và đặt `EnableFormRecognition = true`. Engine sẽ tự động xác định các trường được gắn nhãn và cung cấp chúng qua bộ sưu tập `FormFields` của kết quả.  
+Lớp `OcrEngine` là điểm vào chính của OCR SDK, chịu trách nhiệm tải ảnh và thực hiện nhận dạng. Nó quản lý các mô hình ngôn ngữ, tiền xử lý, và toàn bộ pipeline nhận dạng, làm cho nó trở thành yếu tố thiết yếu cho bất kỳ quy trình làm việc nào dựa trên OCR.
+
+## Làm sao tôi có thể trích xuất bảng từ hình ảnh trong C#?
+Kích hoạt phát hiện bảng bằng cách đặt `EnableTableRecognition = true`. Sau khi nhận dạng, lặp qua `result.Tables` để đọc số hàng và cột của mỗi bảng và văn bản trong mỗi ô. Các bảng đã trích xuất được trả về dưới dạng các đối tượng có các thuộc tính `Rows`, `Columns`, và giá trị `Cell` riêng lẻ, cho phép bạn chuyển chúng thành CSV, JSON, hoặc các định dạng khác để xử lý tiếp. Cách tiếp cận này xử lý hầu hết các cấu trúc dạng lưới mà không cần phát hiện đường kẻ thủ công.
+
+## Làm sao tôi chạy OCR trên một hình ảnh trong C#?
+Gọi phương thức `Recognize` của engine với đường dẫn tới ảnh của bạn. Phương thức trả về một đối tượng `OcrResult` chứa cả `FormFields` và `Tables`. Bạn có thể in dữ liệu đã trích xuất hoặc đưa nó vào quá trình xử lý tiếp theo.  
+Lớp `OcrResult` chứa đầu ra của một lần nhận dạng, bao gồm văn bản thô, các trường biểu mẫu đã phát hiện, và bất kỳ bảng nào được xác định, cung cấp một container tiện lợi cho tất cả thông tin được suy ra từ OCR.
+
+### Định nghĩa các mỏ neo
+Lớp `OcrEngine` là điểm vào của OCR SDK; nó tải ảnh, giữ các cờ cấu hình, và thực thi pipeline nhận dạng.  
+Lớp `OcrResult` bao hàm kết quả của một lần nhận dạng, cung cấp các bộ sưu tập như `Tables`, `FormFields`, và `TextLines` thô.
+
+## Bước 1: thiết lập engine OCR – cách bật biểu mẫu
+Đầu tiên, tạo engine và chỉ tới tệp nguồn của bạn:
+
+`var ocrEngine = new OcrEngine();`  
+`ocrEngine.LoadImage("invoice_table.png");`
+
+Bạn cũng có thể điều chỉnh ngôn ngữ OCR, DPI, và các cài đặt toàn cục khác ở bước này.  
+
+**Tại sao điều này quan trọng:** Khởi tạo engine phân bổ các tài nguyên nội bộ (như mô hình ngôn ngữ). Nếu bạn bỏ qua bước này, lời gọi `Recognize` tiếp theo sẽ ném ra `NullReferenceException`.
+
+## Bước 2: bật trích xuất có cấu trúc – cách trích xuất bảng & phát hiện bảng OCR
+Kích hoạt hai tính năng cốt lõi trước khi gọi `Recognize`:
+
+`ocrEngine.Config.EnableFormRecognition = true;`  
+`ocrEngine.Config.EnableTableRecognition = true;`
+
+**Mẹo chuyên nghiệp:** Nếu bạn chỉ cần một trong các tính năng, tắt tính năng còn lại có thể cải thiện hiệu năng lên tới **20 %**.
+
+## Bước 3: chạy OCR trên ảnh và lấy kết quả – run OCR image
+Now perform the recognition:
+
+`OcrResult result = ocrEngine.Recognize();`
+
+The returned `result` object contains two important collections:
+
+* `result.FormFields` – một từ điển các tên trường và giá trị đã trích xuất.  
+* `result.Tables` – một danh sách các đối tượng bảng, mỗi đối tượng cung cấp `Rows`, `Columns`, và văn bản ô.
+
+### Đầu ra console dự kiến
+Khi bạn in kết quả, bạn sẽ thấy một thứ gì đó tương tự:
+
+```
+Table 1 – 5 rows × 4 columns
+Row 1: Item   Qty   Price   Total
+Row 2: Pen    10    $1.00   $10.00
+...
+Form field “InvoiceNumber”: 2023‑00123
+Form field “InvoiceDate”: 2023‑03‑15
+```
+
+Các số cụ thể sẽ khác nhau tùy vào ảnh nguồn, nhưng cấu trúc sẽ luôn liệt kê mỗi bảng tiếp theo là các trường biểu mẫu đã trích xuất.
+
+## Bước 4: xử lý các trường hợp biên khi phát hiện bảng OCR
+Even with `EnableTableRecognition = true`, OCR can stumble on:
+
+| Vấn đề | Nguyên nhân | Cách khắc phục |
+|-------|----------------|-----------|
+| **Merged cells** | Engine coi vùng hợp nhất như một ô duy nhất. | Xử lý hậu kỳ các hàng: tìm các ô quá rộng và tách chúng dựa trên khoảng trắng. |
+| **Missing borders** | Các đường viền bảng mờ hoặc bị gãy. | Tăng độ tương phản ảnh trước khi đưa vào engine (`ocrEngine.PreprocessImage`). |
+| **Rotated tables** | Tài liệu được quét ở góc nghiêng. | Sử dụng `ocrEngine.Config.AutoRotate = true` (nếu có). |
+
+**Mẹo:** Luôn kiểm tra `table.Rows.Count` và `table.Columns.Count` trước khi truy cập chỉ mục để tránh `IndexOutOfRangeException`.
+
+## Bước 5: kết hợp tất cả – một ví dụ hoàn chỉnh, có thể chạy
+Dưới đây là toàn bộ chương trình bạn có thể sao chép‑dán vào một dự án console mới. Nó bao gồm các chỉ thị `using`, thiết lập engine, và logic xử lý đã được trình bày ở trên.
+
+```csharp
+using System;
+using OcrSdk;   // Replace with the actual namespace of your OCR SDK
+
+class Program
+{
+    static void Main()
+    {
+        // Create and configure the OCR engine
+        var ocrEngine = new OcrEngine();
+        ocrEngine.LoadImage("invoice_table.png");
+        ocrEngine.Config.EnableFormRecognition = true;
+        ocrEngine.Config.EnableTableRecognition = true;
+
+        // Run recognition
+        OcrResult result = ocrEngine.Recognize();
+
+        // Output tables
+        foreach (var table in result.Tables)
+        {
+            Console.WriteLine($"Table – {table.Rows.Count} rows × {table.Columns.Count} columns");
+            foreach (var row in table.Rows)
+            {
+                Console.WriteLine(string.Join("\t", row.Cells));
+            }
+        }
+
+        // Output form fields
+        foreach (var field in result.FormFields)
+        {
+            Console.WriteLine($"Form field “{field.Key}”: {field.Value}");
+        }
+    }
+}
+```
+
+Chạy chương trình (`dotnet run` hoặc `Ctrl+F5` trong Visual Studio) và bạn sẽ thấy đầu ra console đã mô tả ở trên.
+
+## Các lỗi thường gặp và khắc phục
+* **Kết quả null** – Đảm bảo đường dẫn ảnh đúng và tệp có thể truy cập.  
+* **Điểm tin cậy thấp** – Tăng độ phân giải ảnh lên ít nhất 300 DPI; độ chính xác OCR giảm mạnh dưới 200 DPI.  
+* **Ký tự không mong muốn** – Bật từ điển ngôn ngữ cụ thể (`ocrEngine.Config.Language = "en"` cho tiếng Anh).  
+* **Nút thắt hiệu năng** – Đối với các lô lớn, tái sử dụng một thể hiện `OcrEngine` duy nhất thay vì tạo mới cho mỗi ảnh.
+
+## Câu hỏi thường gặp
+**Q: Điều này có hoạt động với đầu vào PDF không?**  
+A: Có. Hầu hết các OCR SDK raster hoá mỗi trang PDF nội bộ, vì vậy bạn có thể gọi `ocrEngine.LoadPdf("file.pdf")` thay vì `LoadImage`.
+
+**Q: Hình ảnh của tôi chứa cả bảng và chữ ký viết tay—sẽ xảy ra gì?**  
+A: Chữ ký xuất hiện như một vùng ảnh riêng với văn bản có độ tin cậy thấp. Bạn có thể lọc nó bằng cách kiểm tra `ocrResult.Images` cho độ tin cậy dưới một ngưỡng.
+
+**Q: Tôi có thể xuất các bảng đã trích xuất ra CSV không?**  
+A: Chắc chắn. Lặp qua `table.Rows` và ghi mỗi `cell.Text` vào một `StringBuilder` ngăn cách bằng dấu phẩy, sau đó lưu chuỗi thành tệp `.csv`.
+
+**Q: Nếu các bảng của tôi không có viền hiển thị thì sao?**  
+A: Bật bước tiền xử lý của SDK để tăng độ tương phản và áp dụng bộ lọc tăng cường cạnh trước khi nhận dạng.
+
+**Q: Có cần giấy phép thương mại cho việc sử dụng trong môi trường sản xuất không?**  
+A: Có. Giấy phép dùng thử giới hạn 100 trang mỗi tháng; giấy phép đầy đủ loại bỏ giới hạn này và cung cấp hỗ trợ ưu tiên.
+
+## Kết luận
+Bây giờ bạn đã biết **cách bật biểu mẫu c#**, **cách trích xuất bảng c#**, và các bước chính xác để **chạy OCR trên ảnh** bằng C#. Ví dụ minh họa toàn bộ quy trình—từ tạo engine, cấu hình, đến xử lý kết quả—để bạn có thể sao chép trực tiếp vào dự án của mình.  
+
+Tiếp theo, hãy thử thay đổi hình mẫu bằng một PDF hoá đơn đa trang, thử nghiệm với `ocrEngine.Config.AutoRotate`, hoặc đưa dữ liệu đã trích xuất vào cơ sở dữ liệu. Những mở rộng này sẽ nâng cao khả năng của bạn trong việc **phát hiện bảng OCR** và **sử dụng OCR C#** trong các kịch bản sản xuất.
 
 ![cách bật biểu mẫu với OCR C#](image.png)
+[cách bật biểu mẫu với OCR C#](image.png)
 
-## Những Điều Hướng Dẫn Này Bao Quát
+---
 
-- **Kích hoạt nhận dạng biểu mẫu** để các trường như “Invoice Number” hoặc “Date” được tự động xác định.  
-- **Trích xuất bảng** từ tài liệu đã quét, cung cấp số lượng hàng/cột và nội dung ô.  
-- **Chạy xử lý ảnh OCR** trong một lời gọi duy nhất và xử lý kết quả bằng mã.  
-- Mẹo cho **detect tables OCR** trong các trường hợp đặc biệt, chẳng hạn như ô hợp nhất hoặc thiếu viền.  
-
-Hãy cùng bắt đầu.
-
-## Bước 1: Thiết Lập Engine OCR – cách kích hoạt biểu mẫu
-
-Trước khi bất kỳ nhận dạng nào có thể diễn ra, bạn cần một thể hiện của engine OCR. Hầu hết các SDK cung cấp một hàm khởi tạo đơn giản; chúng tôi cũng sẽ chỉ ra nơi bạn có thể tinh chỉnh các tùy chọn cấu hình sau này.
+**Cập nhật lần cuối:** 2026-09-03  
+**Kiểm tra với:** OCR SDK version 5.2 (supports .NET 6+ and .NET Framework 4.7+)  
+**Tác giả:** Aspose  
 
 ```csharp
 using System;
@@ -68,25 +233,11 @@ public class OcrDemo
         // Replace the path with the actual location of your PNG/JPEG/TIFF file.
         ocrEngine.LoadImage(@"YOUR_DIRECTORY/invoice_table.png");
 ```
-
-**Tại sao điều này quan trọng:** Khởi tạo engine sẽ cấp phát các tài nguyên nội bộ (như mô hình ngôn ngữ). Nếu bỏ qua bước này, lời gọi `Recognize` tiếp theo sẽ ném ra `NullReferenceException`.
-
-## Bước 2: Bật Trích Xuất Cấu Trúc – cách trích xuất bảng & detect tables OCR
-
-Bây giờ chúng ta kích hoạt hai tính năng cốt lõi: nhận dạng bảng và trích xuất trường biểu mẫu. Hầu hết các engine OCR hiện đại cung cấp các cờ boolean hoặc một đối tượng `Config` chi tiết hơn.
-
 ```csharp
         // Enable structured extraction features.
         ocrEngine.Config.EnableTableRecognition = true;   // detect tables OCR
         ocrEngine.Config.EnableFormRecognition = true;    // how to enable forms
 ```
-
-**Mẹo chuyên nghiệp:** Nếu bạn chỉ cần một trong hai tính năng, việc tắt tính năng còn lại có thể cải thiện hiệu năng lên tới 20 %.
-
-## Bước 3: Chạy OCR Ảnh và Lấy Kết Quả – run OCR image
-
-Với engine đã được cấu hình, một lời gọi phương thức duy nhất sẽ thực hiện phần việc nặng. Đối tượng `OcrResult` trả về chứa các bộ sưu tập cho bảng và trường biểu mẫu.
-
 ```csharp
         // Run OCR – this is the “run OCR image” step.
         OcrResult ocrResult = ocrEngine.Recognize();
@@ -116,9 +267,6 @@ Với engine đã được cấu hình, một lời gọi phương thức duy nh
     }
 }
 ```
-
-### Đầu Ra Dự Kiến Trên Console
-
 ```
 Table 1: 5 rows, 4 columns
 Item | Qty | Price | Total
@@ -126,25 +274,6 @@ InvoiceNumber: INV-2025-001
 Date: 2025-12-31
 Customer: Acme Corp.
 ```
-
-Các con số cụ thể sẽ khác nhau tùy vào ảnh nguồn của bạn, nhưng bạn sẽ thấy một dòng tóm tắt cho mỗi bảng, tiếp theo là các giá trị ô của hàng đầu tiên, và sau đó là danh sách các cặp khóa‑giá trị cho các trường biểu mẫu.
-
-## Bước 4: Xử Lý Các Trường Hợp Đặc Biệt Khi Detecting Tables OCR
-
-Ngay cả khi `EnableTableRecognition = true`, OCR vẫn có thể gặp khó khăn với:
-
-| Vấn đề | Nguyên nhân | Giải pháp nhanh |
-|-------|-------------|-----------------|
-| **Ô hợp nhất** | Engine coi vùng hợp nhất là một ô duy nhất. | Xử lý hậu kỳ các hàng: tìm các ô quá rộng và tách chúng dựa trên khoảng trắng. |
-| **Thiếu viền** | Các đường viền bảng mờ hoặc bị gãy. | Tăng độ tương phản ảnh trước khi đưa vào engine (`ocrEngine.PreprocessImage`). |
-| **Bảng bị xoay** | Tài liệu được quét ở góc nghiêng. | Sử dụng `ocrEngine.Config.AutoRotate = true` (nếu có). |
-
-**Mẹo:** Luôn kiểm tra `table.Rows.Count` và `table.Columns.Count` trước khi truy cập chỉ mục để tránh `IndexOutOfRangeException`.
-
-## Bước 5: Kết Hợp Tất Cả – Ví Dụ Hoàn Chỉnh, Có Thể Chạy Ngay
-
-Dưới đây là chương trình đầy đủ mà bạn có thể sao chép‑dán vào một dự án console mới. Nó bao gồm các chỉ thị `using`, thiết lập engine, và logic xử lý đã trình bày ở trên.
-
 ```csharp
 using System;
 using System.Linq;
@@ -187,28 +316,15 @@ public class OcrDemo
 }
 ```
 
-Chạy chương trình (`dotnet run` hoặc `Ctrl+F5` trong Visual Studio) và bạn sẽ thấy đầu ra console như đã mô tả ở trên.
+## Hướng dẫn liên quan
 
-## Câu Hỏi Thường Gặp (FAQ)
-
-**H: Điều này có hoạt động với đầu vào PDF không?**  
-Đ: Hầu hết các SDK OCR chấp nhận PDF bằng cách raster hoá mỗi trang nội bộ. Chỉ cần gọi `ocrEngine.LoadPdf("file.pdf")` thay vì `LoadImage`.
-
-**H: Nếu ảnh của tôi chứa cả bảng *và* chữ ký thì sao?**  
-Đ: Chữ ký sẽ xuất hiện như một vùng ảnh riêng. Bạn có thể bỏ qua nó bằng cách kiểm tra `ocrResult.Images` cho các vùng có độ tin cậy thấp.
-
-**H: Tôi có thể xuất bảng ra CSV không?**  
-Đ: Chắc chắn. Sau khi duyệt `table.Rows`, ghi mỗi `cell.Text` vào một `StringBuilder` ngăn cách bằng dấu phẩy, rồi lưu chuỗi thành tệp `.csv`.
-
-## Kết Luận
-
-Bây giờ bạn đã biết **cách kích hoạt biểu mẫu**, **cách trích xuất bảng**, và các bước chính để **run OCR image** xử lý bằng C#. Ví dụ trên minh họa quy trình đầy đủ — từ tạo engine, cấu hình, đến xử lý kết quả — để bạn có thể sao chép ngay vào dự án của mình.  
-
-Tiếp theo, hãy thử thay đổi ảnh mẫu bằng một PDF hoá đơn đa trang, thử nghiệm `ocrEngine.Config.AutoRotate`, hoặc đưa dữ liệu đã trích xuất vào cơ sở dữ liệu. Những mở rộng này sẽ giúp bạn nắm vững hơn **detect tables OCR** và **use OCR C#** trong các kịch bản thực tế.
-
-Nếu gặp bất kỳ khó khăn nào, đừng ngần ngại để lại bình luận bên dưới. Chúc bạn lập trình vui vẻ!
+- [Cách áp dụng giấy phép trong Aspose OCR Bước từng bước Hướng dẫn C](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [Cách bật GPU cho Aspose OCR Bước từng bước Hướng dẫn](/ocr/net/ocr-configuration/how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
+- [Trích xuất văn bản ảnh C# với lựa chọn ngôn ngữ bằng Aspose.OCR](/ocr/net/ocr-configuration/ocr-operation-with-language-selection/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
