@@ -144,6 +144,9 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ### [จดจำข้อความจากรูปภาพใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 คู่มือฉบับสมบูรณ์สำหรับการจดจำข้อความจากรูปภาพใน Java ด้วย Aspose OCR
 
+### [วิธีทำ OCR บนภาพใน Java – คู่มือขั้นตอนโดยละเอียด](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+เรียนรู้ขั้นตอนการทำ OCR บนภาพใน Java อย่างละเอียด ตั้งแต่การโหลดภาพจนถึงการดึงข้อความ
+
 ---
 
 **Last Updated:** 2025-12-08  

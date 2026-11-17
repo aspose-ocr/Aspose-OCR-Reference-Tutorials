@@ -138,6 +138,7 @@ Java を使用して画像からテキストを抽出する方法をステップ
 Java で JPG 画像からテキストを抽出するシンプルな OCR 手順をステップバイステップで解説します。
 
 ### [Java で画像からテキストを認識する – 完全 OCR チュートリアル](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
+
 ### [Aspose OCR を使用した画像からのテキスト抽出 – 完全な Java チュートリアル](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
 Aspose OCR を活用し、画像からテキストを抽出する手順をフルで解説します。Java での実装方法を詳しく紹介。
 
@@ -167,9 +168,15 @@ Java と Aspose.OCR を使用して画像からテキストを抽出する完全
 
 ### [Java で画像からテキストを抽出する – 完全 OCR ガイド](./extract-text-from-image-in-java-complete-ocr-guide/)
 Java を使用した画像テキスト抽出の全手順を解説し、OCR の設定・前処理・実装例を網羅します。
+
 ### [Java でテキスト画像を認識する – 完全 Aspose OCR ガイド](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
+
 ### [Javaでリソースパスを取得し、ダウンロードフォルダーを設定する方法](./how-to-get-resources-path-java-and-set-download-folder/)
 Java アプリでリソースのパスを取得し、ダウンロード先フォルダーを設定する手順を解説します。
+
+### [Java で画像の OCR を実行する方法 – ステップバイステップガイド](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+
+Java を使用して画像からテキストを抽出する手順を詳しく解説し、Aspose.OCR の設定から実装までをステップバイステップで紹介します。
 
 ---
 

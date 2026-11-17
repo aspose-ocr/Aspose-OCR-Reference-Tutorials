@@ -141,6 +141,8 @@ Guida completa per convertire immagini in testo con Aspose OCR in Java, dalla co
 Scopri passo passo come utilizzare Aspose.OCR in Java per estrarre testo da qualsiasi immagine con precisione.
 ### [Eseguire OCR su Immagine in Java – Guida Completa Passo‑Passo](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 Scopri come eseguire OCR su un'immagine in Java con una guida dettagliata passo‑passo, includendo configurazione, pre‑elaborazione e riconoscimento del testo.
+### [Come eseguire OCR su un'immagine in Java – guida passo‑passo](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Scopri come eseguire OCR su un'immagine in Java con una guida passo‑passo, dalla configurazione alla lettura del testo.
 
 ### [Esempio OCR Java – Carica Immagine e Riconosci Testo con Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
 ### [Riconoscere testo da JPG usando Aspose OCR in Java](./recognize-text-from-jpg-using-aspose-ocr-in-java/)

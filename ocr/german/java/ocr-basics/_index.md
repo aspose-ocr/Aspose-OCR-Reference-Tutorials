@@ -165,6 +165,9 @@ Erfahren Sie, wie Sie den Ressourcenpfad ermitteln und einen Download-Ordner in 
 ### [Wie man OCR auf einem PNG‑Bild in Java durchführt](./how-to-perform-ocr-on-a-png-image-in-java/)
 Erfahren Sie, wie Sie mit Aspose.OCR PNG‑Bilder in Java erkennen und Text extrahieren – Schritt‑für‑Schritt‑Anleitung.
 
+### [Wie man OCR auf einem Bild in Java durchführt – Schritt‑für‑Schritt‑Anleitung](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Erfahren Sie, wie Sie OCR auf einem Bild in Java Schritt für Schritt durchführen.
+
 ---
 
 **Last Updated:** 2025-12-08  

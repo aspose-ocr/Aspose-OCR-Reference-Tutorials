@@ -130,14 +130,12 @@ Pelajari cara lengkap mengenali teks dari gambar menggunakan Aspose.OCR di Java,
 ### [Ekstrak Teks dari Gambar di Java – Dapatkan Teks dari OCR](./extract-text-from-image-in-java-get-text-from-ocr/)
 Pelajari cara mengekstrak teks dari gambar menggunakan Aspose.OCR di Java dengan contoh kode lengkap dan tips peningkatan akurasi.
 ### [Ekstrak Teks dari Gambar dengan Aspose OCR – Tutorial Java Lengkap](./extract-text-from-image-with-aspose-ocr-complete-java-tutori/)
-
 Pelajari cara lengkap mengekstrak teks dari gambar menggunakan Aspose OCR di Java, termasuk pengaturan, pra‑pemrosesan, dan contoh kode.
 ### [Konversi Gambar ke Teks Java – Contoh Lengkap Aspose OCR](./convert-image-to-text-java-complete-aspose-ocr-example/)
-
 Pelajari cara lengkap mengonversi gambar menjadi teks menggunakan Aspose OCR di Java, termasuk pengaturan, pra‑pemrosesan, dan contoh kode.
 
 ### [Cara Melakukan OCR di Java – Panduan Lengkap untuk Mengekstrak Teks dari Gambar](./how-to-perform-ocr-in-java-complete-guide-to-extract-text-fr/)
-Pelajari cara melakukan OCR di Java secara menyeluruh, mengekstrak teks dari gambar dengan langkah‑langkah praktis.
+Pelajari cara melakukan OCR di Java secara menyeluruh, mengekstrak teks dari gambar dengan langkah‑praktis.
 ### [Contoh OCR Java – Muat Gambar dan Kenali Teks dengan Aspose](./java-ocr-example-load-image-and-recognize-text-with-aspose/)
 Pelajari cara memuat gambar dan mengenali teks menggunakan Aspose.OCR untuk Java dalam contoh praktis ini.
 ### [Melakukan OCR pada Gambar di Java – Panduan Lengkap Langkah‑per‑Langkah](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
@@ -155,6 +153,8 @@ Panduan lengkap untuk mengenali teks dalam gambar menggunakan Aspose OCR di Java
 ### [Cara mendapatkan path resources di Java dan mengatur folder unduhan](./how-to-get-resources-path-java-and-set-download-folder/)
 ### [Cara melakukan OCR pada gambar PNG di Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Panduan langkah demi langkah untuk melakukan OCR pada file PNG menggunakan Aspose.OCR di Java.
+### [Cara melakukan OCR pada gambar di Java – panduan langkah demi langkah](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Panduan langkah demi langkah untuk melakukan OCR pada gambar menggunakan Aspose.OCR di Java.
 
 ---
 

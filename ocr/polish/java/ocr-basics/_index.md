@@ -171,6 +171,9 @@ Dowiedz się, jak uzyskać ścieżkę zasobów i ustawić folder pobierania w Ja
 ### [Jak wykonać OCR na obrazie PNG w Javie](./how-to-perform-ocr-on-a-png-image-in-java/)
 Szybki przewodnik, jak używać Aspose.OCR do rozpoznawania tekstu na obrazach PNG w Javie.
 
+### [Jak wykonać OCR na obrazie w Javie – przewodnik krok po kroku](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
+Kompletny przewodnik, jak w Javie wykonać OCR na obrazie, krok po kroku, z przykładami kodu.
+
 ---
 
 **Last Updated:** 2025-12-08  

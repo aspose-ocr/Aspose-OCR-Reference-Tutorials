@@ -144,19 +144,16 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 
 ### [在 Java 中執行影像 OCR – 完整步驟指南](./perform-ocr-on-image-in-java-complete-step-by-step-guide/)
 ### [使用 Aspose OCR 在 Java 中辨識 JPG 文字](./recognize-text-from-jpg-using-aspose-ocr-in-java/)
-使用 Aspose OCR 在 Java 中從 JPG 圖片辨識文字，快速將圖像轉換為可編輯內容。
-
 ### [在 Java 中使用全部 CPU 核心 – 高效設定執行緒池大小](./use-all-cpu-cores-in-java-set-thread-pool-size-efficiently/)
 ### [使用 Java OCR 從影像讀取文字 – 完整 Aspose OCR 指南](./read-text-from-image-with-java-ocr-complete-aspose-ocr-guide/)
-完整教學示範如何使用 Aspose.OCR for Java 從圖片中讀取文字，涵蓋設定、前處理與最佳化技巧。
 ### [在 Java 中從圖像提取文字 – 完整 OCR 指南](./extract-text-from-image-in-java-complete-ocr-guide/)
 ### [在 Java 中辨識文字圖像 – 完整 Aspose OCR 指南](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
-完整指南教您在 Java 使用 Aspose.OCR 進行文字圖像辨識，涵蓋設定、前處理與最佳化技巧。
-
 ### [如何取得 Java 資源路徑並設定下載資料夾](./how-to-get-resources-path-java-and-set-download-folder/)
 說明如何在 Java 中取得資源檔案路徑並設定下載資料夾，以便儲存下載的檔案。
 
 ### [在 Java 中對 PNG 圖片執行 OCR](./how-to-perform-ocr-on-a-png-image-in-java/)
+
+### [在 Java 中執行影像 OCR – 步驟式指南](./how-to-perform-ocr-on-an-image-in-java-step-by-step-guide/)
 
 ---
 
