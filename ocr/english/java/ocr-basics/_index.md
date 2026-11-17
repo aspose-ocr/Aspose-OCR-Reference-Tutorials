@@ -99,8 +99,6 @@ Congratulations! You now have a solid foundation for **extracting text images** 
 Remember, the journey doesn’t stop here—Aspose.OCR offers advanced features like custom dictionaries, multi‑language detection, and cloud integration. Dive deeper, and let your applications read the world, one image at a time.
 
 ## OCR basics tutorials
-### [How to Set License for Aspose.OCR in Java](./set-license/)
-Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up your license effortlessly and enhance your OCR capabilities.
 
 ### [Calculating Skew Angle in Aspose.OCR for Java](./calculate-skew-angle/)
 Enhance OCR accuracy with Aspose.OCR for Java. Learn to calculate skew angles step-by-step. Improve document processing effortlessly.
@@ -113,6 +111,10 @@ Comprehensive guide to reading text from images using Aspose OCR for Java, cover
 Complete example showing how to extract OCR text in Java using Aspose OCR, covering setup, processing, and best practices.
 ### [How to Enable OCR in Java – Step‑by‑Step Guide](./how-to-enable-ocr-in-java-step-by-step-guide/)
 Enable OCR in Java quickly with this step-by-step guide. Follow simple instructions to get Aspose.OCR up and running.
+### [How to perform OCR on a PNG image in Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+Step-by-step guide to perform OCR on PNG images using Aspose.OCR for Java.
+### [How to Set License for Aspose.OCR in Java](./set-license/)
+Unlock the potential of Aspose.OCR for Java with this step-by-step guide. Set up your license effortlessly and enhance your OCR capabilities.
 ### [Image to Text Tutorial – Extract Tamil Text with Aspose OCR](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Learn how to extract Tamil text from images using Aspose OCR for Java in this step‑by‑step guide.
 ### [Extract text from image in java – complete OCR example](./extract-text-from-image-in-java-complete-ocr-example/)

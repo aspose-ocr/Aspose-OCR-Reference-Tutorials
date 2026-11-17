@@ -146,6 +146,9 @@ Kompletní průvodce OCR v Javě, který ukazuje, jak extrahovat text z obrázk�
 ### [Rozpoznání textového obrázku v Javě – Kompletní průvodce Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Kompletní průvodce rozpoznáváním textových obrázků v Javě pomocí Aspose OCR, včetně nastavení, předzpracování a optimalizace přesnosti.
 
+### [Jak provést OCR na PNG obrázku v Javě](./how-to-perform-ocr-on-a-png-image-in-java/)
+Naučte se provést OCR na PNG obrázku v Javě pomocí Aspose.OCR.
+
 ---
 
 **Last Updated:** 2025-12-08  

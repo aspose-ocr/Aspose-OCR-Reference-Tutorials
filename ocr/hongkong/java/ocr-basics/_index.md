@@ -116,6 +116,7 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 
 ### [在 Java 中從影像提取文字 – 完整 OCR 範例](./extract-text-from-image-in-java-complete-ocr-example/)
 完整示範如何在 Java 使用 Aspose.OCR 從影像提取文字，涵蓋授權設定、前處理與結果輸出。
+
 ### [在 Java 中從 PNG 文字辨識 – Aspose OCR 教學](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
 示範如何使用 Aspose.OCR for Java 讀取 PNG 圖片並提取文字，涵蓋授權設定與基本程式範例。
 
@@ -154,6 +155,8 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 
 ### [如何取得 Java 資源路徑並設定下載資料夾](./how-to-get-resources-path-java-and-set-download-folder/)
 說明如何在 Java 中取得資源檔案路徑並設定下載資料夾，以便儲存下載的檔案。
+
+### [在 Java 中對 PNG 圖片執行 OCR](./how-to-perform-ocr-on-a-png-image-in-java/)
 
 ---
 

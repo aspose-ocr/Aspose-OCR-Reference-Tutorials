@@ -153,6 +153,8 @@ Panduan lengkap untuk mengekstrak teks dari gambar menggunakan Aspose.OCR di Jav
 ### [Mengenali Gambar Teks di Java – Panduan Lengkap Aspose OCR](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Panduan lengkap untuk mengenali teks dalam gambar menggunakan Aspose OCR di Java, mencakup semua langkah penting.
 ### [Cara mendapatkan path resources di Java dan mengatur folder unduhan](./how-to-get-resources-path-java-and-set-download-folder/)
+### [Cara melakukan OCR pada gambar PNG di Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+Panduan langkah demi langkah untuk melakukan OCR pada file PNG menggunakan Aspose.OCR di Java.
 
 ---
 

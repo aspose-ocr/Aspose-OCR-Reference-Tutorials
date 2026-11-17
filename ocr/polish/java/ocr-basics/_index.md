@@ -168,6 +168,9 @@ Pełny przewodnik po rozpoznawaniu tekstu na obrazach w Javie przy użyciu Aspos
 ### [Jak uzyskać ścieżkę zasobów w Javie i ustawić folder pobierania](./how-to-get-resources-path-java-and-set-download-folder/)
 Dowiedz się, jak uzyskać ścieżkę zasobów i ustawić folder pobierania w Javie.
 
+### [Jak wykonać OCR na obrazie PNG w Javie](./how-to-perform-ocr-on-a-png-image-in-java/)
+Szybki przewodnik, jak używać Aspose.OCR do rozpoznawania tekstu na obrazach PNG w Javie.
+
 ---
 
 **Last Updated:** 2025-12-08  

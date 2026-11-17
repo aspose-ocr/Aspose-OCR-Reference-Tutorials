@@ -111,6 +111,9 @@ Java を使用して PNG 画像からテキストを抽出する手順を解説�
 ### [Java で PNG からテキストを抽出 – 画像をテキストに変換](./extract-text-from-image-convert-png-to-text-in-java/)
 Java を使用して PNG 画像からテキストを抽出し、文字列に変換する手順を解説します。
 
+### [How to perform OCR on a PNG image in Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+Java を使用して PNG 画像からテキストを抽出する手順をステップバイステップで解説します。
+
 ### [Java で画像からテキストを読む – 完全 Aspose OCR ガイド](./read-text-from-image-in-java-complete-aspose-ocr-guide/)
 Java で画像からテキストを読み取る完全ガイドです。設定から実装までをステップバイステップで解説します。
 

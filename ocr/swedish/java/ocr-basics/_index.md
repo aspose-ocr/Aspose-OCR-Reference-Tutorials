@@ -150,6 +150,8 @@ En fullständig guide för att läsa text från bilder med Aspose.OCR för Java,
 En fullständig guide för att extrahera text från bilder i Java med Aspose.OCR, steg för steg med kodexempel.
 ### [Hur man får resurssökväg i Java och sätter nedladdningsmapp](./how-to-get-resources-path-java-and-set-download-folder/)
 Lär dig hur du hämtar resurssökvägen i Java och konfigurerar en nedladdningsmapp för filhantering.
+### [Hur man utför OCR på en PNG‑bild i Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+Lär dig steg‑för‑steg hur du utför OCR på en PNG‑bild i Java med Aspose OCR.
 
 ---
 

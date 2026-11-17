@@ -116,8 +116,9 @@ Erfahren Sie, wie Sie OCR in Java aktivieren und konfigurieren – ein umfassend
 ### [Bild‑zu‑Text‑Tutorial – Tamil‑Text mit Aspose OCR extrahieren](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
 Erfahren Sie, wie Sie tamilischen Text aus Bildern mit Aspose OCR extrahieren – Schritt für Schritt Anleitung.
 
-### [Text aus Bild in Java extrahieren – Komplettes OCR‑Beispiel](./extract-text-from-image-in-java-complete-ocr-example/)
+### [Text aus Bild in Java extrahieren – Komplettes OCR-Beispiel](./extract-text-from-image-in-java-complete-ocr-example/)
 Vollständiges Beispiel, das zeigt, wie Sie mit Aspose.OCR in Java Text aus Bildern extrahieren und die OCR‑Engine konfigurieren.
+
 ### [Text aus PNG in Java erkennen – Aspose OCR‑Tutorial](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.OCR in Java Text aus PNG‑Dateien extrahieren. Schritt‑für‑Schritt‑Anleitung für schnelle Texterkennung.
 
@@ -160,6 +161,9 @@ Ein umfassender Leitfaden zur Texterkennung in Bildern mit Aspose.OCR für Java,
 
 ### [Wie man den Ressourcenpfad in Java erhält und den Download-Ordner festlegt](./how-to-get-resources-path-java-and-set-download-folder/)
 Erfahren Sie, wie Sie den Ressourcenpfad ermitteln und einen Download-Ordner in Java festlegen.
+
+### [Wie man OCR auf einem PNG‑Bild in Java durchführt](./how-to-perform-ocr-on-a-png-image-in-java/)
+Erfahren Sie, wie Sie mit Aspose.OCR PNG‑Bilder in Java erkennen und Text extrahieren – Schritt‑für‑Schritt‑Anleitung.
 
 ---
 

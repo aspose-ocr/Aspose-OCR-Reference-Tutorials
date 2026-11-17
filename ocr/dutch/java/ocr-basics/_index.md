@@ -147,6 +147,8 @@ Leer hoe je met Aspose.OCR volledige tekst uit afbeeldingen haalt in Java, van c
 Volledige gids voor het herkennen van tekst in afbeeldingen met Aspose OCR voor Java, van installatie tot geavanceerde instellingen.
 ### [Hoe resources‑pad in Java krijgen en downloadmap instellen](./how-to-get-resources-path-java-and-set-download-folder/)
 Leer hoe je het resources‑pad in Java bepaalt en een downloadmap configureert voor je applicatie.
+### [Hoe OCR op een PNG-afbeelding in Java uitvoeren](./how-to-perform-ocr-on-a-png-image-in-java/)
+Leer stap voor stap hoe je OCR toepast op een PNG-afbeelding in Java met Aspose.OCR.
 
 ---
 

@@ -146,6 +146,9 @@ weight: 20
 ### [التعرف على النص في الصورة باستخدام Java – دليل Aspose OCR الكامل](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 دليل شامل لاستخدام Aspose.OCR في Java لاستخراج النص من الصور بدقة عالية.
 
+### [كيفية تنفيذ OCR على صورة PNG في Java](./how-to-perform-ocr-on-a-png-image-in-java/)
+دليل خطوة بخطوة لتنفيذ التعرف الضوئي على الأحرف (OCR) لملفات PNG باستخدام Aspose.OCR في Java.
+
 ---
 
 **آخر تحديث:** 2025-12-08  
