@@ -29,6 +29,9 @@ url: /th/net/text-recognition/
 
 ปลดปล่อยศักยภาพสูงสุดของ Aspose.OCR สำหรับ .NET โดยการเรียนรู้วิธีรับผลลัพธ์ OCR ในรูปแบบ JSON ได้อย่างง่ายดาย คำแนะนำทีละขั้นตอนนี้ช่วยให้มั่นใจได้ถึงการเดินทางที่ราบรื่นไปสู่การปรับปรุงความสามารถในการจดจำภาพของคุณ ยกระดับประสิทธิภาพของแอปพลิเคชันของคุณด้วยฟีเจอร์ที่แข็งแกร่งและเทคโนโลยีชั้นนำของอุตสาหกรรมของ Aspose.OCR
 
+### [How to perform OCR on a JPG image using Aspose OCR in C#](./how-to-perform-ocr-on-a-jpg-image-using-aspose-ocr-in-c/)
+
+
 ### [c# OCR tutorial – ดึงข้อความจากรูปภาพและส่งออกเป็น JSON ที่มีการเยื้อง](./c-ocr-tutorial-extract-text-from-images-and-export-as-indent/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อดึงข้อความจากรูปภาพและแปลงเป็น JSON ที่จัดรูปแบบอย่างเป็นระเบียบ
 
