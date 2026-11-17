@@ -29,6 +29,9 @@ url: /el/net/text-recognition/
 
 Απελευθερώστε όλες τις δυνατότητες του Aspose.OCR για .NET μαθαίνοντας πώς να αποκτάτε αποτελέσματα OCR σε μορφή JSON χωρίς κόπο. Αυτός ο οδηγός βήμα προς βήμα εξασφαλίζει ένα ομαλό ταξίδι προς τη βελτίωση των δυνατοτήτων αναγνώρισης εικόνας. Αυξήστε την αποτελεσματικότητα της εφαρμογής σας με τις ισχυρές δυνατότητες και την κορυφαία τεχνολογία του Aspose.OCR.
 
+### [How to perform OCR on a JPG image using Aspose OCR in C#](./how-to-perform-ocr-on-a-jpg-image-using-aspose-ocr-in-c/)
+
+
 ### [Εκτέλεση OCR σε εικόνα σε JSON με C# και Aspose](./perform-ocr-on-image-to-json-in-c-with-aspose/)
 Μάθετε πώς να μετατρέψετε εικόνες σε JSON χρησιμοποιώντας το Aspose OCR με C# σε βήμα-βήμα οδηγό.
 
