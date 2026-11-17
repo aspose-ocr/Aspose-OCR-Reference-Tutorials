@@ -1,0 +1,7 @@
+Title: How to perform OCR on an image in Java – step‑by‑step guide
+Slug: how-to-perform-ocr-on-an-image-in-java-step-by-step-guide
+Category: ocr-basics
+ProcessedDate: 2026-11-17T15:29:59.360107
+SourceRepo: AI Search API
+Keywords: how to perform ocr, extract text image, read image java, convert image to text, image to text java
+PRNumber: 265
