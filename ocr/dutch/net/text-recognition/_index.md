@@ -294,9 +294,6 @@ Leer hoe u met Aspose.OCR Arabische tekst nauwkeurig kunt herkennen in C#-toepas
 ### [Hoe tekst te herkennen in C# met Aspose OCR – Teken telling weergeven & Afbeelding laden](./how-to-recognize-text-in-c-with-aspose-ocr-display-character/)
 Leer hoe u met Aspose OCR tekst herkent in C#, het aantal tekens weergeeft en afbeeldingen laadt.
 
-
-
-
 ### [Hoe tekst te herkennen uit een afbeelding met Aspose.OCR in C#](./how-to-recognize-text-from-image-with-aspose-ocr-in-c/)
 Leer stap voor stap hoe u met Aspose.OCR tekst uit afbeeldingen haalt in een C#‑applicatie.
 
@@ -310,12 +307,6 @@ Leer hoe u met Aspose.OCR in C# Cyrillische tekst uit afbeeldingen kunt herkenne
 Leer hoe u met Aspose.OCR in C# OCR-tekst uit afbeeldingen kunt extraheren met een volledige stap‑voor‑stap gids.
 ### [Herken tekst png met Aspose OCR .NET – Volledige lokale OCR-gids](./recognize-text-png-with-aspose-ocr-net-full-local-ocr-guide/)
 Leer stap voor stap hoe u PNG-afbeeldingen lokaal kunt OCR-en met Aspose OCR .NET voor nauwkeurige tekstherkenning.
-
-
-
-
-
-
 
 ### [c# OCR-tutorial: Tekst extraheren uit afbeelding met Aspose OCR](./c-ocr-tutorial-extract-text-from-image-with-aspose-ocr/)
 Leer hoe u met Aspose OCR tekst uit afbeeldingen haalt in een C#-applicatie. Volg de eenvoudige stap‑voor‑stap handleiding.
@@ -365,7 +356,7 @@ Leer hoe u met Aspose.OCR afbeeldingen naar ePub-conversies in C# kunt omzetten 
 ### [OCR uitvoeren op afbeelding met Aspose OCR – Chinese tekst herkennen](./run-ocr-on-image-with-aspose-ocr-recognize-chinese-text/)
 Leer hoe u met Aspose OCR Chinese tekst in afbeeldingen kunt herkennen en verwerken in uw .NET-applicatie.
 ### [c# OCR-tutorial: Arabische tekst uit afbeelding extraheren](./c-ocr-tutorial-extract-arabic-text-from-images/)
-Leer hoe u met Aspose OCR Arabische tekst uit afbeeldingen haalt in een C#-applicatie. Stapsgewijze handleiding voor snelle integratie.
+Leer hoe u met Aspose OCR Arabische tekst uit afbeeldingen haalt in een C#-applicatie. Stapsgewijze handleleiding voor snelle integratie.
 ### [Excel maken van afbeelding met Aspose OCR – Stapsgewijze gids](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 Leer hoe u met Aspose OCR afbeeldingen omzet naar Excel‑bestanden in een eenvoudige stap‑voor‑stap handleiding.
 ### [TIFF naar tekst converteren in C# – Tekst uit gescande afbeelding extraheren](./convert-tiff-to-text-in-c-extract-scanned-image-text/)
@@ -718,6 +709,9 @@ Leer stap voor stap hoe u met Aspose OCR tekst uit afbeeldingen haalt in een vol
 Leer hoe u met Aspose OCR in C# tekst uit afbeeldingen kunt halen en integreren in uw .NET-applicaties.
 ### [Hoe OCR uit te voeren in C# – tekst uit afbeeldingen extraheren](./how-to-perform-ocr-in-c-extract-text-from-images/)
 Leer hoe u met Aspose.OCR in C# tekst uit meerdere afbeeldingen kunt extraheren.
+
+### [Hoe JPG naar tekst converteren in C# met Aspose OCR](./how-to-convert-jpg-to-text-in-c-with-aspose-ocr/)
+Leer hoe u met Aspose OCR JPG‑afbeeldingen naar tekst converteert in C# met een eenvoudige stap‑voor‑stap handleiding.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

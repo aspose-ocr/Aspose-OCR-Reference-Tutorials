@@ -218,7 +218,10 @@ url: /th/net/text-recognition/
 ### [จดจำข้อความจาก JPG ใน C# – คู่มือ OCR ฉบับเต็ม](./recognize-text-from-jpg-in-c-complete-ocr-tutorial/)
 ### [วิธีดึงข้อความจาก JPG ด้วยบทแนะนำ OCR ใน C#](./how-to-extract-text-from-jpg-using-a-c-ocr-tutorial/)
 ### [วิธีใช้ Aspose OCR ใน C# – จดจำข้อความภาษาเกาหลีจากรูปภาพ](./how-to-use-aspose-ocr-in-c-recognize-korean-text-from-images/)
-### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือ Aspose OCR ทีละขั้นตอน](./create-searchable-pdf-from-tiff-full-c-guide/)
+### [สร้าง PDF ที่ค้นหาได้จาก TIFF – คู่มือ C# ฉบับสมบูรณ์](./create-searchable-pdf-from-tiff-full-c-guide/)
+### [วิธีแปลง JPG เป็นข้อความใน C# ด้วย Aspose OCR](./how-to-convert-jpg-to-text-in-c-with-aspose-ocr/)
+เรียนรู้วิธีแปลงไฟล์ JPG เป็นข้อความด้วย Aspose OCR ใน C# อย่างง่ายและแม่นยำ
+
 ### [c# OCR tutorial – ดึงข้อความภาษาฮินดีจากใบเสร็จ PNG](./c-ocr-tutorial-extract-hindi-text-from-png-receipts/)
 เรียนรู้วิธีใช้ Aspose.OCR กับ C# เพื่อสกัดข้อความภาษาฮินดีจากไฟล์ PNG ของใบเสร็จ
 ### [ดึงข้อความจาก PNG – บทเรียน Aspose OCR ฉบับสมบูรณ์](./extract-text-from-png-complete-aspose-ocr-tutorial/)
