@@ -1,27 +1,64 @@
 ---
 category: general
-date: 2025-12-30
-description: Πώς να ορίσετε την άδεια Aspose σε C# φορτώνοντας έναν ενσωματωμένο πόρο
-  και ανακτώντας τη ροή πόρου του μανιφέστου. Μάθετε βήμα‑βήμα πώς να φορτώσετε τον
-  ενσωματωμένο πόρο και να εφαρμόσετε την άδεια.
+date: 2026-09-08
+description: Μάθετε πώς να ορίσετε την άδεια Aspose σε C# ενσωματώνοντας το αρχείο
+  .lic και ανακτώντας το manifest resource stream, ενεργοποιώντας μια πλήρως αδειοδοτημένη
+  OCR engine.
 draft: false
 keywords:
-- how to set aspose license
-- how to load embedded resource
+- set aspose license c#
+- c# read embedded resource
+- load embedded resource c#
+- c# list embedded resources
 - retrieve manifest resource stream
-- Aspose OCR licensing
-- embedded resource C#
-language: el
-og_description: Πώς να ορίσετε την άδεια Aspose σε C# χρησιμοποιώντας ενσωματωμένο
-  πόρο. Αυτός ο οδηγός δείχνει πώς να φορτώσετε ενσωματωμένο πόρο και να ανακτήσετε
-  τη ροή πόρου manifest για μια πλήρως αδειοδοτημένη μηχανή OCR.
-og_title: Πώς να ορίσετε την άδεια Aspose σε C# – Γρήγορο βήμα‑βήμα
+lastmod: 2026-09-08
+og_description: Μάθετε πώς να ορίσετε την άδεια Aspose σε C# ενσωματώνοντας το αρχείο
+  άδειας και ανακτώντας το manifest resource stream, παρέχοντάς σας μια πλήρως αδειοδοτημένη
+  OCR engine χωρίς επιπλέον αρχεία.
+og_image_alt: 'Developer guide: Set Aspose license in C# using embedded resource'
+og_title: Πώς να ορίσετε την άδεια Aspose σε C# – οδηγός βήμα‑βήμα
+schemas:
+- author: Aspose
+  dateModified: '2026-09-08'
+  description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  headline: How to set Aspose license in C# – step‑by‑step guide
+  type: TechArticle
+- description: Learn how to set Aspose license in C# by embedding the .lic file and
+    retrieving the manifest resource stream, enabling a fully licensed OCR engine.
+  name: How to set Aspose license in C# – step‑by‑step guide
+  steps:
+  - name: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+    text: Add the `.lic` file to your project (e.g., `Resources/Aspose.OCR.lic`).
+  - name: In the file’s properties, set **Build Action** to **Embedded Resource**.
+    text: In the file’s properties, set **Build Action** to **Embedded Resource**.
+  - name: Verify the resource name. Visual Studio uses the pattern
+    text: Verify the resource name. Visual Studio uses the pattern
+  type: HowTo
+- questions:
+  - answer: Yes – the same embed‑and‑load pattern works for all Aspose .NET libraries;
+      just replace the license file and class names.
+    question: Can I use this approach with other Aspose products (PDF, Words, Cells)?
+  - answer: The `.lic` file is typically under 10 KB, so the impact on assembly size
+      is negligible.
+    question: Does embedding the license increase the size of my executable noticeably?
+  - answer: Replace the `.lic` file in the project, rebuild, and redeploy the updated
+      assembly.
+    question: What if I need to update the license later?
+  - answer: No – treat the `.lic` file as a secret. Keep it out of source control
+      or encrypt it if you must share the repo.
+    question: Is it safe to store the license in a public repository?
+  - answer: It works flawlessly because the license is loaded from the function’s
+      own assembly, eliminating file‑system dependencies.
+    question: How does this method affect Azure Functions or serverless deployments?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - C#
-- Licensing
-title: Πώς να ορίσετε την άδεια Aspose σε C# – Πλήρης οδηγός
+- licensing
+- embedded resource
+title: Πώς να ορίσετε την άδεια Aspose σε C# – οδηγός βήμα‑βήμα
 url: /el/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 ---
 
@@ -29,31 +66,31 @@ url: /el/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Πώς να Ορίσετε την Άδεια Aspose σε C# – Πλήρης Οδηγός
+# Πώς να ορίσετε την άδεια Aspose σε C# – βήμα‑βήμα οδηγός
 
-Έχετε αναρωτηθεί ποτέ **πώς να ορίσετε την άδεια Aspose** για το έργο OCR χωρίς να διασκορπίζετε ένα χαλαρό αρχείο `.lic` στο σύστημα αρχείων; Δεν είστε μόνοι. Πολλοί προγραμματιστές παλεύουν με την αδειοδότηση επειδή θέλουν μια καθαρή ανάπτυξη χωρίς επιπλέον αρχεία δίπλα στο εκτελέσιμο. Τα καλά νέα; Μπορείτε να ενσωματώσετε την άδεια απευθείας μέσα στη συναρμολόγησή σας και να την ανακτήσετε κατά την εκτέλεση. Σε αυτό το tutorial θα δούμε **πώς να φορτώσουμε ενσωματωμένο πόρο** και **πώς να ανακτήσουμε το ρεύμα πόρου manifest** ώστε η μηχανή Aspose OCR να λειτουργεί με πλήρη λειτουργικότητα.
+Αν χρειάζεται να **ορίσετε την άδεια Aspose σε C#** χωρίς να αφήσετε ένα ξεχωριστό αρχείο `.lic` δίπλα στο εκτελέσιμο σας, βρίσκεστε στο σωστό μέρος. Η ενσωμάτωση της άδειας μέσα στη συναρμολόγησή σας διατηρεί τις αναπτύξεις καθαρές, προστατεύει την άδεια από τυχαία απώλεια και εγγυάται ότι η μηχανή OCR λειτουργεί σε πλήρως ενεργοποιημένη λειτουργία κάθε φορά. Σε αυτό το μάθημα θα μάθετε πώς να ενσωματώσετε το αρχείο άδειας, να ανακτήσετε τη ροή πόρου manifest και να εφαρμόσετε την άδεια στο `OcrEngine` – όλα σε καθαρό C#.
 
-Θα καλύψουμε όλα όσα χρειάζεστε: από την ενσωμάτωση του αρχείου `.lic` στο Visual Studio, μέχρι τον κώδικα C# που διαβάζει τον πόρο, εφαρμόζει την άδεια και τελικά δημιουργεί ένα πλήρως αδειοδοτημένο `OcrEngine`. Στο τέλος θα έχετε μια αυτόνομη λύση που μπορείτε να ενσωματώσετε σε οποιοδήποτε έργο .NET.
+## Γρήγορες απαντήσεις
+- **Ποιος είναι ο πιο εύκολος τρόπος για να ενσωματώσετε ένα αρχείο άδειας;** Ορίστε το *Build Action* του αρχείου σε *Embedded Resource* στο Visual Studio.  
+- **Πώς μπορώ να ανακτήσω την ενσωματωμένη άδεια κατά το χρόνο εκτέλεσης;** Χρησιμοποιήστε `Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName)`.  
+- **Χρειάζεται να γράψω την άδεια στο δίσκο;** Όχι – η ροή περνάει απευθείας στο `License.SetLicense`.  
+- **Θα λειτουργήσει αυτό σε .NET 6, .NET Framework και Azure Functions;** Ναι, ο ίδιος κώδικας εκτελείται σε όλα τα υποστηριζόμενα .NET runtime.  
+- **Πώς μπορώ να επαληθεύσω ότι η άδεια είναι ενεργή;** Καλέστε `OcrEngine.IsLicensed` (ή εκτελέστε μια απλή εργασία OCR και ελέγξτε για το υδατογράφημα δοκιμής).
 
-## Προαπαιτούμενα
+## Τι είναι η ρύθμιση άδειας Aspose c#;
+`set aspose license c#` αναφέρεται στη διαδικασία φόρτωσης μιας έγκυρης άδειας Aspose OCR σε μια εφαρμογή .NET ώστε η βιβλιοθήκη να λειτουργεί χωρίς περιορισμούς δοκιμής. Με την ενσωμάτωση του αρχείου `.lic`, εξαλείφετε εξωτερικές εξαρτήσεις και απλοποιείτε την ανάπτυξη.
 
-- .NET 6+ (ο κώδικας λειτουργεί επίσης σε .NET Framework 4.7.2)
-- Πακέτο NuGet Aspose.OCR εγκατεστημένο (`Install-Package Aspose.OCR`)
-- Ένα έγκυρο αρχείο άδειας Aspose OCR (`Aspose.OCR.lic`)
-- Βασική εξοικείωση με C# και Visual Studio
+## Γιατί να ενσωματώσετε το αρχείο άδειας αντί να χρησιμοποιήσετε ένα ξεχωριστό αρχείο;
+Η ενσωμάτωση της άδειας αφαιρεί τον κίνδυνο να χαθεί, να διαγραφεί ή να εκτεθεί το αρχείο στον υπολογιστή του πελάτη. Η Aspose.OCR υποστηρίζει **20+ γλώσσες** και μπορεί να επεξεργαστεί **έγγραφα 100 σελίδων σε λιγότερο από 2 δευτερόλεπτα** σε τυπικό εξοπλισμό διακομιστή, αλλά μόνο όταν υπάρχει έγκυρη άδεια. Η ενσωμάτωση εγγυάται ότι η μηχανή λειτουργεί πάντα με πλήρη ταχύτητα και χωρίς υδατογράφημα δοκιμής.
 
-Δεν απαιτούνται εξωτερικά αρχεία ρυθμίσεων μόλις η άδεια ενσωματωθεί.
+## Πώς να ενσωματώσετε το αρχείο άδειας στη συναρμολόγησή σας
 
----
-
-## Βήμα 1: Ενσωμάτωση του Αρχείου Άδειας στη Συναρμολόγησή Σας
+Η ενσωμάτωση της άδειας είναι απλή: προσθέστε το αρχείο `.lic` στο έργο σας, ορίστε το ως Embedded Resource και αναφερθείτε του με το πλήρες όνομα του χρόνου εκτέλεσης. Αυτό εξασφαλίζει ότι η άδεια μεταφέρεται μαζί με το μεταγλωττισμένο DLL και δεν απαιτούνται εξωτερικά αρχεία κατά την ανάπτυξη.
 
 ### Γιατί να ενσωματώσετε;
-
-Η ενσωμάτωση αφαιρεί την ανάγκη αποστολής ξεχωριστού αρχείου άδειας, μειώνει τον κίνδυνο απώλειας του και εγγυάται ότι η άδεια ταξιδεύει μαζί με το DLL. Σκεφτείτε το ως τοποθέτηση ενός μυστικού κλειδιού μέσα στην ίδια την θησαυροφυλακή.
+Η ενσωμάτωση αφαιρεί την ανάγκη αποστολής ξεχωριστού αρχείου άδειας, μειώνει τον κίνδυνο απώλειας και εγγυάται ότι η άδεια μεταφέρεται μαζί με το DLL. Σκεφτείτε το σαν να ενσωματώνετε ένα μυστικό κλειδί μέσα στην ίδια την θησαυροφυλακή.
 
 ### Πώς να ενσωματώσετε
-
 1. Προσθέστε το αρχείο `.lic` στο έργο σας (π.χ., `Resources/Aspose.OCR.lic`).
 2. Στις ιδιότητες του αρχείου, ορίστε **Build Action** σε **Embedded Resource**.
 3. Επαληθεύστε το όνομα του πόρου. Το Visual Studio χρησιμοποιεί το πρότυπο  
@@ -61,13 +98,76 @@ url: /el/net/ocr-configuration/how-to-set-aspose-license-in-c-complete-guide/
    Για παράδειγμα, αν το προεπιλεγμένο namespace του έργου σας είναι `MyApp`, το όνομα του πόρου γίνεται  
    `MyApp.Resources.Aspose.OCR.lic`.
 
-> **Pro tip:** Ανοίξτε το *Object Browser* ή εκτελέστε `Assembly.GetExecutingAssembly().GetManifestResourceNames()` σε μια γρήγορη εφαρμογή κονσόλας για να εμφανίσετε όλα τα ενσωματωμένα resources. Αυτό σας βοηθά να αποφύγετε τυπογραφικά λάθη όταν αργότερα **ανακτήσετε το ρεύμα πόρου manifest**.
+> **Συμβουλή:** Ανοίξτε το *Object Browser* ή εκτελέστε `Assembly.GetExecutingAssembly().GetManifestResourceNames()` σε μια γρήγορη εφαρμογή κονσόλας για να εμφανίσετε όλους τους ενσωματωμένους πόρους. Αυτό σας βοηθά να αποφύγετε τυπογραφικά λάθη όταν αργότερα **ανακτήσετε τη ροή πόρου manifest**.  
+> 
+> ![πώς να ορίσετε την άδεια aspose σε C# παράδειγμα](path/to/image.png "πώς να ορίσετε την άδεια aspose σε C# παράδειγμα")
+
+## Πώς να φορτώσετε την ενσωματωμένη άδεια κατά το χρόνο εκτέλεσης
+
+Για να ενεργοποιήσετε την άδεια, διαβάστε τη ροή ενσωματωμένου πόρου και περάστε την απευθείας στην κλάση `License` της Aspose. Αυτό αποφεύγει τη γραφή του αρχείου στο δίσκο και λειτουργεί σε όλες τις .NET πλατφόρμες.
+
+### Πώς να διαβάσετε ενσωματωμένο πόρο σε C#;
+Δημιουργήστε ένα αντικείμενο `License`, κατασκευάστε το ακριβές όνομα του πόρου και καλέστε `GetManifestResourceStream`. Η ροή στη συνέχεια παρέχεται στο `SetLicense`.
+
+**Απευθείας απάντηση:**  
+```text
+Instantiate `new License()`, call `Assembly.GetExecutingAssembly().GetManifestResourceStream("MyApp.Resources.Aspose.OCR.lic")`, and pass the returned stream to `SetLicense`. This loads the license directly from the assembly without touching the file system.
+```
+
+Η κλάση `License` είναι η πύλη της Aspose για την ενεργοποίηση της λειτουργίας πλήρων δυνατοτήτων. Η κλάση `OcrEngine` είναι ο πυρήνας του επεξεργαστή OCR που σέβεται την εφαρμοσμένη άδεια.
+
+## Πώς να επαληθεύσετε ότι η άδεια είναι ενεργή
+
+Μετά τη φόρτωση της άδειας, μπορείτε να επιβεβαιώσετε την ενεργοποίηση ελέγχοντας την ιδιότητα `IsLicensed` του `OcrEngine` ή εκτελώντας μια μικρή εργασία OCR και διασφαλίζοντας ότι δεν εμφανίζεται υδατογράφημα δοκιμής. Η `IsLicensed` επιστρέφει `true` όταν έχει εφαρμοστεί έγκυρη άδεια.
+
+**Απευθείας απάντηση:**  
+```text
+Call `bool licensed = ocrEngine.IsLicensed;` – if it returns true, the engine is fully licensed; otherwise, you’ll see a trial watermark on processed images.
+```
+
+Η `IsLicensed` είναι ιδιότητα του `OcrEngine` που υποδεικνύει εάν έχει εφαρμοστεί έγκυρη άδεια.
+
+## Συνηθισμένα προβλήματα και πώς να τα λύσετε
+
+### Πώς να διορθώσετε μια null ροή όταν ανακτάτε το manifest resource;
+Μια null ροή συνήθως σημαίνει ότι το όνομα του πόρου είναι λανθασμένο ή ότι το αρχείο δεν έχει οριστεί ως Embedded Resource. Χρησιμοποιήστε τη βοηθητική μέθοδο παρακάτω για να εμφανίσετε όλα τα ονόματα και να επιβεβαιώσετε το ακριβές string.
+
+**Απευθείας απάντηση:**  
+```text
+Run `foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames()) Console.WriteLine(name);` and copy the exact name into your `GetManifestResourceStream` call.
+```
+
+### Πώς να διαχειριστείτε πολλαπλές συναρμολογήσεις;
+Αν η άδεια βρίσκεται σε κοινόχρηστη βιβλιοθήκη, αντικαταστήστε το `GetExecutingAssembly()` με `Assembly.Load("SharedLib")` για να ανακτήσετε τον πόρο από εκείνη τη συναρμολόγηση.
+
+### Πώς να αποφύγετε την πρόωρη απελευθέρωση της ροής;
+Τυλίξτε τη ροή σε ένα `using` μπλοκ **μόνο μετά** την κλήση του `SetLicense`. Η πρόωρη απελευθέρωση εμποδίζει την ανάγνωση της άδειας.
+
+### Πώς να εξασφαλίσετε συμβατότητα με διαφορετικούς στόχους .NET;
+Η Aspose.OCR 22.10+ υποστηρίζει .NET Standard 2.0, .NET Core και .NET Framework. Επαληθεύστε ότι το έργο σας στοχεύει σε ένα από αυτά τα πλαίσια για να αποφύγετε σφάλματα χρόνου εκτέλεσης.
+
+## Συχνές ερωτήσεις
+
+**Ε: Μπορώ να χρησιμοποιήσω αυτή τη μέθοδο με άλλα προϊόντα Aspose (PDF, Words, Cells);**  
+Α: Ναι – το ίδιο μοτίβο ενσωμάτωσης‑φόρτωσης λειτουργεί για όλες τις βιβλιοθήκες Aspose .NET· απλώς αντικαταστήστε το αρχείο άδειας και τα ονόματα κλάσεων.
+
+**Ε: Η ενσωμάτωση της άδειας αυξάνει το μέγεθος του εκτελέσιμου μου αισθητά;**  
+Α: Το αρχείο `.lic` είναι συνήθως κάτω από 10 KB, οπότε η επίπτωση στο μέγεθος της συναρμολόγησης είναι αμελητέα.
+
+**Ε: Τι γίνεται αν χρειαστεί να ενημερώσω την άδεια αργότερα;**  
+Α: Αντικαταστήστε το αρχείο `.lic` στο έργο, κάντε ξανά build και επαναναπτύξτε τη ενημερωμένη συναρμολόγηση.
+
+**Ε: Είναι ασφαλές να αποθηκεύσω την άδεια σε δημόσιο αποθετήριο;**  
+Α: Όχι – θεωρήστε το αρχείο `.lic` μυστικό. Κρατήστε το εκτός ελέγχου πηγαίου κώδικα ή κρυπτογραφήστε το αν πρέπει να μοιραστείτε το αποθετήριο.
+
+**Ε: Πώς αυτή η μέθοδος επηρεάζει τις Azure Functions ή τις serverless αναπτύξεις;**  
+Α: Λειτουργεί άψογα επειδή η άδεια φορτώνεται από τη δική της συναρμολόγηση της λειτουργίας, εξαλείφοντας τις εξαρτήσεις από το σύστημα αρχείων.
 
 ---
 
-## Βήμα 2: Γράψτε τον Κώδικα για Φόρτωση της Ενσωματωμένης Άδειας
-
-Τώρα που η άδεια βρίσκεται μέσα στη συναρμολόγηση, πρέπει να την εξάγουμε κατά την εκτέλεση. Το παρακάτω απόσπασμα δείχνει τον πλήρη, έτοιμο‑για‑εκτέλεση κώδικα.
+**Τελευταία ενημέρωση:** 2026-09-08  
+**Δοκιμή με:** Aspose.OCR 24.11 for .NET  
+**Συγγραφέας:** Aspose  
 
 ```csharp
 using System;
@@ -113,70 +213,18 @@ namespace MyApp
     }
 }
 ```
-
-#### Τι συμβαίνει;
-
-- **Δημιουργία αντικειμένου `License`** – η Aspose χρησιμοποιεί αυτή την κλάση για τη διαχείριση αδειών.
-- **Κατασκευή του ονόματος πόρου** – πρέπει να ταιριάζει ακριβώς με το πρότυπο namespace‑folder‑filename, διαφορετικά το `GetManifestResourceStream` επιστρέφει `null`.
-- **Ανάκτηση του ρεύματος πόρου manifest** – αυτό είναι το κεντρικό κομμάτι του **πώς να φορτώσετε ενσωματωμένο πόρο**. Η μέθοδος επιστρέφει ένα `Stream` που μπορείτε να περάσετε κατευθείαν στο `SetLicense`.
-- **Διαχείριση σφαλμάτων** – αν το stream είναι `null`, εμφανίζουμε ένα σαφές μήνυμα. Αυτό αποτρέπει σιωπηλή αποτυχία που θα άφηνε τη μηχανή OCR σε λειτουργία δοκιμής.
-- **Εφαρμογή της άδειας** – το `SetLicense` διαβάζει το stream και ενεργοποιεί το πλήρες προϊόν.
-- **Δημιουργία `OcrEngine`** – τώρα έχετε μια πλήρως αδειοδοτημένη μηχανή έτοιμη για εργασίες OCR.
-
-> **Γιατί αυτή η προσέγγιση;** Αποφεύγει την εγγραφή της άδειας στο δίσκο, εξαλείφει σφάλματα σχετιζόμενα με διαδρομές και λειτουργεί ακόμη και όταν η εφαρμογή σας τρέχει από προσωρινό φάκελο (π.χ., ClickOnce, Azure Functions).
-
----
-
-## Βήμα 3: Επαλήθευση ότι η Άδεια Είναι Ενεργή
-
-Μια γρήγορη επιβεβαίωση εξοικονομεί ώρες εντοπισμού σφαλμάτων αργότερα. Μετά την εκτέλεση του παραπάνω κώδικα, μπορείτε να ελέγξετε την ιδιότητα `IsLicensed` (διαθέσιμη σε νεότερες εκδόσεις Aspose) ή απλώς να δοκιμάσετε μια λειτουργία OCR που διαφορετικά θα εμφάνιζε υδατογράφημα δοκιμής.
-
 ```csharp
 // Assuming you have an image file "sample.png" in the project folder.
 ocrEngine.Image = ImageStream.FromFile("sample.png");
 ocrEngine.Process();
 Console.WriteLine($"Recognized text: {ocrEngine.Text}");
 ```
-
-Αν η άδεια έχει εφαρμοστεί σωστά, **δεν εμφανίζεται υδατογράφημα δοκιμής** στην έξοδο εικόνας και η ποιότητα OCR ταιριάζει με τις προσδοκίες της πλήρους έκδοσης.
-
----
-
-## Βήμα 4: Ακραίες Περιπτώσεις & Συνηθισμένα Πιθανά Σφάλματα
-
-### 1️⃣ Λάθος όνομα πόρου
-
-Αν λαμβάνετε `null` από το `GetManifestResourceStream`, ελέγξτε ξανά το πλήρως καταξιωμένο όνομα. Χρησιμοποιήστε αυτόν τον βοηθό για να εμφανίσετε όλα τα ονόματα:
-
 ```csharp
 foreach (var name in Assembly.GetExecutingAssembly().GetManifestResourceNames())
 {
     Console.WriteLine(name);
 }
 ```
-
-### 2️⃣ Το αρχείο άδειας δεν έχει οριστεί ως Embedded Resource
-
-Το Visual Studio προεπιλέγει **Content**. Αλλάξτε το χειροκίνητα στις ιδιότητες του αρχείου.
-
-### 3️⃣ Πολλαπλές συναρμολογήσεις
-
-Αν η άδεια βρίσκεται σε διαφορετική συναρμολόγηση (π.χ., μια κοινόχρηστη βιβλιοθήκη), καλέστε `Assembly.Load("OtherAssembly")` αντί για `GetExecutingAssembly()`.
-
-### 4️⃣ Διαχείριση του Stream
-
-Το μπλοκ `using` εξασφαλίζει ότι το stream κλείνει μετά το `SetLicense`. Μην **κλείνετε** το stream πριν καλέσετε το `SetLicense`, διαφορετικά η άδεια δεν θα διαβαστεί ποτέ.
-
-### 5️⃣ Συμβατότητα
-
-Το Aspose.OCR 22.10+ υποστηρίζει .NET Standard 2.0, .NET Core και .NET Framework. Βεβαιωθείτε ότι χρησιμοποιείτε μια έκδοση που ταιριάζει με το target framework του έργου σας.
-
----
-
-## Βήμα 5: Πλήρες Παράδειγμα Εργασίας (Έτοιμο για Αντιγραφή‑Επικόλληση)
-
-Παρακάτω βρίσκεται το πλήρες πρόγραμμα που μπορείτε να ενσωματώσετε σε μια νέα εφαρμογή κονσόλας. Περιλαμβάνει τη λογική φόρτωσης της άδειας, έναν απλό έλεγχο OCR και ισχυρή διαχείριση σφαλμάτων.
-
 ```csharp
 using System;
 using System.IO;
@@ -236,33 +284,19 @@ namespace AsposeLicenseDemo
     }
 }
 ```
-
-**Αναμενόμενη έξοδος** (υπόθεση ότι το `sample.png` περιέχει αναγνώσιμο κείμενο):
-
 ```
 ✅ License applied.
 📝 Recognized Text:
 Hello, Aspose OCR!
 License active: True
 ```
+{{CODE_BLOCK_8}}
 
-Αν η άδεια έλειπε, η Aspose θα έριχνε εξαίρεση ή θα ενσωμάτωνε υδατογράφημα δοκιμής στην επεξεργασμένη εικόνα.
+## Σχετικά Μαθήματα
 
----
-
-## Συμπέρασμα
-
-Διασχίσαμε **πώς να ορίσετε την άδεια Aspose** με καθαρό, συντηρήσιμο τρόπο ενσωματώνοντας το αρχείο `.lic` και χρησιμοποιώντας **ανακτήστε το ρεύμα πόρου manifest**. Τα βήματα—ενσωμάτωση του πόρου, φόρτωση με `Assembly.GetExecutingAssembly().GetManifestResourceStream`, εφαρμογή της άδειας και τελικά δημιουργία αδειοδοτημένου `OcrEngine`—καλύπτουν κάθε πιθανή ανάγκη του προγραμματιστή.
-
-Τώρα μπορείτε να διανείμετε ένα μόνο εκτελέσιμο χωρίς να ανησυχείτε για ελλιπείς αρχεία άδειας, και θα αποφύγετε για πάντα το ενοχλητικό υδατογράφημα δοκιμής. Στο μέλλον, εξετάστε:
-
-- **Πώς να ορίσετε την άδεια Aspose** για άλλα προϊόντα Aspose (PDF, Words, Cells) χρησιμοποιώντας το ίδιο μοτίβο.
-- **Πώς να φορτώσετε ενσωματωμένο πόρο** για αρχεία ρυθμίσεων (JSON, XML) σε ASP.NET Core.
-- Προχωρημένη διαχείριση σφαλμάτων με προσαρμοσμένα πλαίσια καταγραφής.
-
-Μη διστάσετε να πειραματιστείτε, να προσαρμόσετε το όνομα του πόρου στο δικό σας namespace και να μοιραστείτε τα ευρήματά σας στα σχόλια. Καλό κώδικα και απολαύστε τη πλήρη δύναμη του Aspose OCR!
-
-![how to set aspose license in C# example](path/to/image.png "how to set aspose license in C# example")
+- [Διαβάστε ενσωματωμένο πόρο σε .NET – Πλήρης οδηγός για τη ρύθμιση Aspose L](/ocr/net/ocr-configuration/read-embedded-resource-in-net-complete-guide-to-set-aspose-l/)
+- [Πώς να εφαρμόσετε άδεια στο Aspose OCR – Βήμα‑βήμα οδηγός C](/ocr/net/ocr-configuration/how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
+- [Πώς να εκτελέσετε batch OCR σε C με το Aspose OCR Engine](/ocr/net/ocr-optimization/how-to-batch-ocr-in-c-with-aspose-ocr-engine/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

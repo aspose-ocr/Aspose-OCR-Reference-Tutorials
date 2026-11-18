@@ -1,25 +1,45 @@
 ---
 category: general
-date: 2026-02-19
-description: วิธีเปิดใช้งาน GPU เพื่อการประมวลผล OCR อย่างรวดเร็ว เรียนรู้การโหลดภาพความละเอียดสูง
-  การจดจำภาพข้อความ และการดึงข้อความด้วย Aspose OCR.
+date: 2026-10-08
+description: วิธีเปิดใช้งาน GPU เพื่อการประมวลผล OCR ที่เร็วขึ้น เรียนรู้การโหลดภาพความละเอียดสูง,
+  การจดจำภาพข้อความ, และการสกัดข้อความโดยใช้ Aspose OCR.
 draft: false
 keywords:
 - how to enable gpu
 - load high resolution image
 - recognize text image
-- how to extract text
-- enable gpu processing
-language: th
-og_description: วิธีเปิดใช้งาน GPU เพื่อการประมวลผล OCR ที่เร็วขึ้น คู่มือนี้จะแสดงวิธีโหลดภาพความละเอียดสูง,
-  จดจำข้อความในภาพ, และดึงข้อความด้วย Aspose OCR.
+- extract text OCR
+- GPU accelerated OCR
+lastmod: 2026-10-08
+og_description: วิธีเปิดใช้งาน GPU เพื่อการประมวลผล OCR ที่เร็วขึ้น คู่มือนี้จะแสดงวิธีการโหลดภาพความละเอียดสูง,
+  การจดจำภาพข้อความ, และการสกัดข้อความด้วย Aspose OCR.
+og_image_alt: Diagram showing GPU-accelerated OCR workflow in Java
 og_title: วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือครบถ้วน
+schemas:
+- author: Aspose
+  dateModified: '2026-10-08'
+  description: How to enable GPU for fast OCR processing. Learn to load high resolution
+    image, recognize text image, and extract text using Aspose OCR.
+  headline: How to enable GPU for OCR in Java – complete guide
+  type: TechArticle
+- questions:
+  - answer: Java 17 or newer (older JDKs work with minor tweaks).
+    question: What is the minimum Java version?
+  - answer: Any NVIDIA GPU that supports CUDA 12+ will work.
+    question: Do I need a specific GPU?
+  - answer: Aspose OCR for Java 23.10 or later.
+    question: Which Aspose version is required?
+  - answer: Yes, the GPU driver works without a display.
+    question: Can I run this on a headless server?
+  - answer: Yes, a valid Aspose OCR license is required for non‑trial use.
+    question: Is a license mandatory for production?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - GPU
 - Aspose
-title: วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือเต็ม
+title: วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือครบถ้วน
 url: /th/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete-guide/
 ---
 
@@ -29,30 +49,51 @@ url: /th/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-complete
 
 # วิธีเปิดใช้งาน GPU สำหรับ OCR ใน Java – คู่มือฉบับสมบูรณ์
 
-เคยสงสัย **วิธีเปิดใช้งาน GPU** สำหรับ pipeline OCR ของคุณและลดเวลาการประมวลผลลงเป็นวินาทีหรือไม่? คุณไม่ได้อยู่คนเดียว ในโครงการที่มีภาพจำนวนมาก บ่อยครั้งขั้นตอนการสกัดข้อความที่ทำงานบน CPU จะเป็นคอขวด และการสลับไปใช้ GPU สามารถเปลี่ยนเกมได้อย่างมาก
+หากคุณกำลังมองหา **how to enable GPU** สำหรับ pipeline OCR ของคุณและต้องการลดเวลาในการประมวลผลอย่างมาก คุณมาถูกที่แล้ว การเร่งความเร็วด้วย GPU จะย้ายงานหนักของการสกัดข้อความจาก CPU ไปยังการ์ดกราฟิก ซึ่งมีประโยชน์อย่างยิ่งเมื่อคุณทำงานกับสแกนความละเอียดสูงหรือประมวลผลเป็นชุดหลายพันหน้า
 
-ในบทแนะนำนี้เราจะพาคุณผ่านการโหลด **ภาพความละเอียดสูง**, การตั้งค่า Aspose OCR ให้ทำงานบน GPU, และสุดท้าย **การจดจำภาพข้อความ** และ **การสกัดข้อความ** ด้วยเพียงไม่กี่บรรทัดของ Java. เมื่อเสร็จสิ้นคุณจะมีโปรแกรมพร้อมรันที่สาธิต **การเปิดใช้งานการประมวลผลด้วย GPU** ตั้งแต่ต้นจนจบ
+ใน tutorial นี้ เราจะเดินผ่านการโหลด **high resolution image**, การกำหนดค่า Aspose OCR ให้ทำงานบน GPU, และสุดท้าย **recognize text image** และ **extract text** ด้วยเพียงไม่กี่บรรทัดของ Java. เมื่อเสร็จคุณจะมีโปรแกรมพร้อมรันที่แสดงการ **enable GPU processing** ตั้งแต่ต้นจนจบ
 
-## สิ่งที่คุณต้องเตรียม
+## คำตอบสั้น
+- **What is the minimum Java version?** Java 17 หรือใหม่กว่า (JDK เก่าก็ทำงานได้ด้วยการปรับเล็กน้อย).  
+- **Do I need a specific GPU?** GPU NVIDIA ใดก็ได้ที่รองรับ CUDA 12+ จะทำงานได้.  
+- **Which Aspose version is required?** Aspose OCR for Java 23.10 หรือใหม่กว่า.  
+- **Can I run this on a headless server?** ใช่, ไดรเวอร์ GPU ทำงานได้โดยไม่ต้องมีหน้าจอ.  
+- **Is a license mandatory for production?** ใช่, จำเป็นต้องมีใบอนุญาต Aspose OCR ที่ถูกต้องสำหรับการใช้งานที่ไม่ใช่แบบทดลอง.
 
-- Java 17 หรือใหม่กว่า (โค้ดใช้ระบบโมดูล แต่ทำงานบน JDK เก่าได้ด้วยการปรับเล็กน้อย)  
-- Aspose OCR for Java 23.10 (หรือเวอร์ชันล่าสุด) – สามารถดึงพิกัด Maven จากเว็บไซต์ Aspose  
-- GPU NVIDIA ที่ติดตั้งไดรเวอร์ CUDA 12+ (หากไม่มีไลบรารีจะไม่สามารถเริ่มทำงานได้)  
+## สิ่งที่คุณต้องการ
+
+คุณจะต้องมีรายการต่อไปนี้ก่อนเริ่ม:
+
+- Java 17 หรือใหม่กว่า (โค้ดใช้ระบบโมดูลแต่ทำงานได้กับ JDK เก่ากับการปรับเล็กน้อย)  
+- Aspose OCR for Java 23.10 (หรือเวอร์ชันล่าสุด) – คุณสามารถรับ Maven coordinates จากเว็บไซต์ Aspose  
+- GPU NVIDIA ที่ติดตั้งไดรเวอร์ CUDA 12+ (หากไม่มีไลบรารีจะไม่เริ่มทำงาน)  
 - ตัวอย่างภาพความละเอียดสูง (PNG หรือ JPEG) ที่คุณต้องการอ่านข้อความจาก  
 
-เท่านี้แค่นั้น ไม่ต้องใช้บริการภายนอก ไม่ต้องใช้เครดิตคลาวด์ เพียงเครื่องของคุณและไดรเวอร์สแต็กที่เหมาะสม
+เท่านี้เอง ไม่ต้องใช้บริการภายนอก ไม่ต้องเครดิตคลาวด์ แค่เครื่องของคุณและสแตกไดรเวอร์ที่ถูกต้อง
 
-![GPU OCR workflow – how to enable GPU processing](gpu-ocr-workflow.png)
+![GPU OCR workflow – วิธีเปิดใช้งานการประมวลผล GPU](gpu-ocr-workflow.png)
 
-*ข้อความแทนภาพ: แผนภาพแสดงวิธีเปิดใช้งาน GPU สำหรับการประมวลผล OCR ใน Java.*
+[GPU OCR workflow – วิธีเปิดใช้งานการประมวลผล GPU](gpu-ocr-workflow.png)
+
+*ข้อความอธิบายภาพ: แผนภาพแสดงวิธีเปิดใช้งาน GPU สำหรับการประมวลผล OCR ใน Java.*
+
+## GPU‑accelerated OCR คืออะไร?
+
+GPU‑accelerated OCR ย้ายการสรุปผลของ neural‑network จาก CPU ไปยังการ์ดกราฟิก ทำให้การประมวลผลเร็วขึ้นถึง 10× สำหรับภาพที่ใหญ่กว่า 2 MP. Aspose OCR ใช้ CUDA kernels ที่คอมไพล์ล่วงหน้าสำหรับ Windows, Linux, และ macOS, ทำให้คุณสามารถใช้ Java API เดียวกันพร้อมกับความเร็วที่เพิ่มขึ้น
+
+## ทำไมต้องใช้การเร่งความเร็วด้วย GPU สำหรับ OCR?
+
+Aspose OCR รองรับ **50+ รูปแบบการนำเข้าและส่งออก** และสามารถประมวลผลเอกสารหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ. เมื่อเปิดใช้งาน GPU, การสแกนขนาด 3000 × 2000 พิกเซลที่ใช้เวลา 4 วินาทีบน CPU จะลดลงเหลือน้อยกว่า 0.5 วินาที, ลดเวลาการประมวลผลเป็นชุดโดยรวมมากกว่า 80 %
 
 ## การดำเนินการแบบขั้นตอนต่อขั้นตอน
 
-ด้านล่างเราจะแบ่งวิธีแก้เป็นส่วนย่อย ๆ แต่ละส่วนมีโค้ดสั้น ๆ คำอธิบาย **ทำไม** ขั้นตอนนั้นสำคัญ และเคล็ดลับปฏิบัติที่คุณอาจชื่นชอบในภายหลัง
+ด้านล่างเราจะแบ่งโซลูชันเป็นส่วนย่อยตามลอจิก แต่ละส่วนมีโค้ดสั้น ๆ, คำอธิบายว่า **ทำไม** ขั้นตอนนั้นสำคัญ, และเคล็ดลับปฏิบัติที่คุณอาจชื่นชมในภายหลัง
 
-### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 1: ติดตั้ง Dependencies & ตรวจสอบ CUDA
+### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 1: ติดตั้ง dependencies & verify CUDA
 
-ก่อนที่โค้ด Java ใด ๆ จะทำงาน runtime ของ CUDA ต้องสามารถค้นพบได้บนระบบของคุณ บน Windows คุณสามารถตรวจสอบได้ด้วย:
+สำหรับขั้นตอน 1, คุณต้องยืนยันว่าไลบรารีรันไทม์ของ CUDA ปรากฏต่อระบบปฏิบัติการและไดรเวอร์ GPU ถูกติดตั้งอย่างถูกต้อง. ตรวจสอบการติดตั้งโดยรันคำสั่งเวอร์ชันสำหรับคอมไพเลอร์หรือ NVIDIA System Management Interface, ซึ่งจะแสดงรายละเอียดของไดรเวอร์และ GPU.
+
+บน Windows คุณสามารถตรวจสอบได้ด้วย:
 
 ```bat
 nvcc --version
@@ -64,13 +105,13 @@ nvcc --version
 nvidia-smi
 ```
 
-หากคำสั่งแสดงเวอร์ชันของไดรเวอร์และรายละเอียดของ GPU คุณก็พร้อมแล้ว หากไม่แสดง ให้ไปที่เว็บไซต์ของ NVIDIA ดาวน์โหลดไดรเวอร์ที่เหมาะสมและติดตั้ง CUDA toolkit (ตรวจสอบให้เวอร์ชันตรงกับข้อกำหนดของ Aspose OCR – ปัจจุบันคือ 12.x)
+**Tip:** ควรอัปเดตไดรเวอร์ GPU ของคุณเป็นประจำแต่หลีกเลี่ยงการใช้รุ่น “latest‑beta”; บางครั้งอาจทำให้ความเข้ากันได้ของไบนารีกับไลบรารีเนทีฟของ Aspose แตกหัก
 
-**เคล็ดลับ:** ควรอัปเดตไดรเวอร์ GPU อย่างสม่ำเสมอ แต่หลีกเลี่ยง “latest‑beta” เพราะบางครั้งอาจทำให้ความเข้ากันได้ของไบนารีกับไลบรารีเนทีฟของ Aspose แตกหัก
+### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 2: เพิ่ม Aspose OCR Maven dependency
 
-### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 2: เพิ่ม Dependency ของ Aspose OCR ใน Maven
+ในขั้นตอน 2 คุณจะเพิ่ม Aspose OCR ไปยังระบบ build ของคุณเพื่อให้คอมไพเลอร์ Java สามารถค้นหา OCR engine และไบนารี GPU เนทีฟได้. การรวม Maven coordinates จะทำให้ทั้งไลบรารีหลักและไฟล์เนทีฟเฉพาะแพลตฟอร์มถูกดาวน์โหลดโดยอัตโนมัติระหว่างการรีเฟรชโปรเจกต์.
 
-เพิ่มโค้ดต่อไปนี้ลงใน `pom.xml` ของคุณ เพื่อดึงเอา core OCR engine และไบนารี GPU เนทีฟสำหรับ Windows, Linux, และ macOS
+เพิ่มโค้ดต่อไปนี้ลงใน `pom.xml` ของคุณ. นี้จะดึง core OCR engine และไบนารี GPU เนทีฟสำหรับ Windows, Linux, และ macOS.
 
 ```xml
 <dependency>
@@ -80,17 +121,19 @@ nvidia-smi
 </dependency>
 ```
 
-หากคุณใช้ Gradle ให้ใช้รูปแบบที่เทียบเท่า:
+หากคุณต้องการใช้ Gradle, โค้ดที่เทียบเท่าคือ:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-หลังจากรีเฟรชโปรเจกต์แล้ว คลาส `OcrEngine`, `OcrDeviceType`, และ `ImageStream` จะพร้อมใช้งาน
+หลังจากรีเฟรชโปรเจกต์ของคุณ, คลาส `OcrEngine`, `OcrDeviceType`, และ `ImageStream` จะพร้อมใช้งาน
 
-### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 3: สร้าง OCR Engine และเปิดใช้งาน GPU
+### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 3: สร้าง OCR engine และเปิดใช้งาน GPU
 
-ตอนนี้เราจะบอก Aspose ให้ทำงานบน GPU. `OcrEngine` มีอ็อบเจกต์ `Device` ที่เราสามารถสลับประเภทอุปกรณ์ประมวลผลได้
+คลาส `OcrEngine` เป็นอ็อบเจ็กต์หลักของ Aspose OCR ที่จัดการการโหลดภาพ, การเตรียมข้อมูล, และการสรุปผล. `OcrDeviceType` เป็น enumeration ที่บอก engine ว่าจะทำงานบน CPU หรือ GPU. `ImageStream` แสดงข้อมูลภาพในหน่วยความจำที่ engine ใช้. การตั้งค่านี้ทำให้ engine สามารถย้ายการสรุปผลของ neural network ไปยัง GPU, ลดความหน่วงเวลาอย่างมาก.
+
+ตอนนี้เราจะบอก Aspose ให้ทำงานบน GPU. `OcrEngine` เปิดเผยอ็อบเจ็กต์ `Device` ที่เราสามารถสลับประเภทอุปกรณ์การประมวลผลได้.
 
 ```java
 import com.aspose.ocr.*;
@@ -120,24 +163,24 @@ public class GpuOcrExample {
 }
 ```
 
-**ทำไมขั้นตอนนี้สำคัญ:** การตั้งค่า `OcrDeviceType.GPU` จะสลับ engine การสรุปผลจากการทำงานบน CPU‑only ไปเป็น CUDA‑accelerated. การเรียก `setStreamCount` แบบเลือกจะช่วยควบคุมระดับการทำงานขนาน; สองสตรีมเป็นค่าเริ่มต้นที่ปลอดภัยสำหรับการ์ดผู้บริโภคส่วนใหญ่
+**Why this matters:** การตั้งค่า `OcrDeviceType.GPU` จะสลับ inference engine พื้นฐานจากการทำงานบน CPU เท่านั้นเป็นแบบเร่งด้วย CUDA. คำสั่ง `setStreamCount` ที่เป็นตัวเลือกช่วยให้คุณควบคุมการทำงานแบบขนาน; สองสตรีมเป็นค่าเริ่มต้นที่ปลอดภัยสำหรับการ์ดส่วนใหญ่
 
 ### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 4: โหลดภาพความละเอียดสูง
 
-แหล่งข้อมูลความละเอียดสูงให้โมเดล OCR มีรายละเอียดภาพมากขึ้น ซึ่งแปลเป็นความแม่นยำที่สูงกว่า โดยเฉพาะสำหรับฟอนต์ขนาดเล็กหรือสคริปต์ซับซ้อน `ImageStream.fromFile` ช่วยอ่านไฟล์เข้าสู่รูปแบบที่ engine คาดหวัง
+`ImageStream` เป็น wrapper ที่เบาและอ่านไฟล์ภาพเข้าสู่ byte buffer ที่เข้ากันได้กับ OCR engine. การโหลดแหล่งภาพความละเอียดสูงให้โมเดลมีรายละเอียดภาพมากขึ้น, ซึ่งแปลเป็นความแม่นยำที่สูงขึ้นสำหรับฟอนต์ขนาดเล็กหรือสคริปต์ซับซ้อน. wrapper นี้ยังทำให้รูปแบบข้อมูลภาพที่จำเป็นสำหรับเลเยอร์เนทีฟเป็นมาตรฐาน, ทำให้การประมวลผลราบรื่น.
 
-หากคุณต้องการ **โหลดภาพความละเอียดสูง** จาก URL หรืออาร์เรย์ไบต์ในหน่วยความจำ สามารถใช้โค้ดต่อไปนี้:
+หากคุณต้องการ **load high resolution image** จาก URL หรือ byte array ในหน่วยความจำ, คุณสามารถใช้:
 
 ```java
 byte[] imageBytes = java.nio.file.Files.readAllBytes(Paths.get("remote-image.png"));
 ocrEngine.setImage(ImageStream.fromBytes(imageBytes));
 ```
 
-**กรณีขอบ:** GPU บางรุ่นมีขนาดเทกซ์เจอร์สูงสุด (มัก 16384 × 16384). หากภาพของคุณใหญ่เกินกว่านั้น ให้พิจารณาลดขนาดลงเป็นขนาดที่ยังคงอ่านได้ (เช่น 3000 × 2000). OCR engine จะปรับขนาดอัตโนมัติหากคุณเรียก `ocrEngine.setResizeFactor(0.5)` ก่อนโหลด
+**Edge case:** GPU บางรุ่นมีขนาด texture สูงสุด (มักเป็น 16384 × 16384). หากภาพของคุณเกินขนาดนั้น, พิจารณาลดขนาดลงให้ยังคงอ่านได้ (เช่น 3000 × 2000). OCR engine จะปรับขนาดโดยอัตโนมัติหากคุณเรียก `ocrEngine.setResizeFactor(0.5)` ก่อนโหลด
 
-### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 5: จดจำภาพข้อความและสกัดข้อความ
+### วิธีเปิดใช้งาน GPU สำหรับ OCR – ขั้นตอน 5: recognize text image และ extract text
 
-การเรียก `ocrEngine.recognize()` จะทำให้ neural network inference ทำงานบน GPU. เมธอดนี้คืนค่าเป็นอ็อบเจกต์ `OcrResult`; `getText()` จะดึงสตริงข้อความธรรมดาออกมา คุณยังสามารถดึง bounding boxes, คะแนนความเชื่อมั่น, หรือ JSON ดิบได้หากต้องการข้อมูลที่ละเอียดกว่า
+`OcrResult` เป็นคอนเทนเนอร์ที่คืนจาก `ocrEngine.recognize()`. มันเก็บข้อความธรรมดา, คะแนนความมั่นใจ, กล่องขอบเขต, และ payload JSON ที่เป็นตัวเลือก. หลังการจดจำคุณสามารถเรียก `getText()` เพื่อดึงสตริงที่สกัดออกมา, หรือตรวจสอบข้อมูลเลย์เอาต์ละเอียดสำหรับการประมวลผลต่อ เช่น การตรวจสอบหรือ post‑processing.
 
 ```java
 OcrResult result = ocrEngine.recognize();
@@ -153,21 +196,21 @@ result.getPages().forEach(page -> {
 });
 ```
 
-**ทำไมคุณอาจต้องการขั้นตอนนี้:** ขั้นตอน `recognize text image` คือจุดที่ GPU แสดงพลัง – ภาพขนาดใหญ่ที่อาจใช้เวลาหลายนาทีบน CPU จะประมวลผลในส่วนเล็กของเวลานั้น คะแนนความเชื่อมั่นช่วยกรองผลลัพธ์คุณภาพต่ำ, เป็นเทคนิคที่มีประโยชน์เมื่อคุณต่อไป **วิธีสกัดข้อความ** สำหรับการวิเคราะห์ต่อเนื่อง
+**Why you might want this:** ขั้นตอน `recognize text image` คือจุดที่ GPU ส่องแสง—ภาพขนาดใหญ่ที่ใช้เวลาหลายนาทีบน CPU จะถูกประมวลผลในส่วนที่เหลือน้อยกว่า. คะแนนความมั่นใจช่วยให้คุณกรองผลลัพธ์คุณภาพต่ำ, เทคนิคที่มีประโยชน์เมื่อคุณต่อมา **how to extract text** สำหรับการวิเคราะห์ต่อไป
 
-### เคล็ดลับพิเศษ & ปัญหาที่พบบ่อย
+### เคล็ดลับระดับมืออาชีพ & ปัญหาที่พบบ่อย
 
-| สถานการณ์ | วิธีแก้ |
+| สถานการณ์ | วิธีทำ |
 |-----------|------------|
-| **ข้อผิดพลาด Out‑of‑memory** บน GPU | ลด `setStreamCount` ลงเป็น 1, หรือทำการลดขนาดภาพก่อนส่งให้ engine |
-| **อักขระไม่ถูกต้อง** แม้ภาพจะความละเอียดสูง | ตรวจสอบให้โมเดลภาษา (`ocrEngine.setLanguage(OcrLanguage.ENGLISH)`) ตรงกับภาษาของข้อความ |
-| **CUDA version mismatch** | ปรับเวอร์ชันของ CUDA toolkit ให้ตรงกับที่บรรจุใน Aspose OCR (ดู release notes) |
-| **หลาย GPU** | ใช้ `ocrEngine.getDevice().setDeviceId(1)` เพื่อเลือก GPU ตัวที่สองหากตัวแรกกำลังทำงาน |
-| **รันบนเซิร์ฟเวอร์ headless** | ไม่ต้องทำขั้นตอนเพิ่มเติม; ไดรเวอร์ GPU ทำงานได้โดยไม่มีหน้าจอ |
+| **Out‑of‑memory errors** บน GPU | ลด `setStreamCount` ลงเป็น 1, หรือทำการลดขนาดภาพก่อนส่งให้ engine |
+| **Unrecognized characters** แม้ความละเอียดสูง | ตรวจสอบให้โมเดลภาษา (`ocrEngine.setLanguage(OcrLanguage.ENGLISH)`) ตรงกับภาษาของข้อความ |
+| **CUDA version mismatch** | ปรับเวอร์ชันของ CUDA toolkit ให้ตรงกับที่รวมอยู่ใน Aspose OCR (ตรวจสอบ release notes) |
+| **Multiple GPUs** | ใช้ `ocrEngine.getDevice().setDeviceId(1)` เพื่อเลือก GPU ตัวที่สองหากตัวแรกกำลังทำงาน |
+| **Running on a headless server** | ไม่ต้องทำขั้นตอนเพิ่มเติม; ไดรเวอร์ GPU ทำงานได้โดยไม่มีหน้าจอ |
 
-## วิธีสกัดข้อความ – ตรวจสอบผลลัพธ์
+## วิธี extract text – การตรวจสอบผลลัพธ์
 
-เมื่อคุณรันคลาสด้านบน ควรเห็นผลลัพธ์ประมาณนี้:
+เมื่อคุณรันคลาสข้างต้น, คุณควรเห็นผลลัพธ์ประมาณนี้:
 
 ```
 === OCR RESULT ===
@@ -175,31 +218,34 @@ Welcome to the Aspose OCR demo!
 Your GPU is now accelerating text extraction.
 ```
 
-หากผลลัพธ์ดูเป็นอักขระแปลก ๆ ให้ตรวจสอบว่าภาพเป็นความละเอียดสูงจริงและไดรเวอร์ GPU ถูกติดตั้งอย่างถูกต้อง คุณยังสามารถเปิดการบันทึกแบบละเอียดได้:
+หากผลลัพธ์ดูเป็นอักขระผิด, ตรวจสอบอีกครั้งว่าภาพเป็นความละเอียดสูงจริงและไดรเวอร์ GPU ติดตั้งอย่างถูกต้อง. คุณยังสามารถเปิด verbose logging:
 
 ```java
 ocrEngine.setLogLevel(OcrLogLevel.DEBUG);
 ```
 
-บันทึกจะแสดงว่า kernel CUDA เนทีฟถูกโหลดสำเร็จหรือไม่
+บันทึกจะบอกว่าคอร์ CUDA เนทีฟถูกโหลดสำเร็จหรือไม่
 
 ## ขั้นตอนต่อไป & หัวข้อที่เกี่ยวข้อง
 
-- **การประมวลผลแบบแบตช์:** วาง `OcrEngine` ไว้ในลูปและป้อนรายการพาธของภาพ อย่าลืมใช้ instance เดียวกันเพื่อหลีกเลี่ยงค่าใช้จ่ายในการเริ่มต้น GPU ซ้ำหลายครั้ง  
-- **การตรวจจับภาษา:** Aspose OCR รองรับกว่า 30 ภาษา สลับด้วย `ocrEngine.setLanguage(OcrLanguage.FRENCH)`  
-- **การประมวลผลหลังการสกัด:** ใช้ regular expressions ทำความสะอาดสตริงที่สกัดได้ หรือส่งต่อไปยัง pipeline NLP ต่อไป  
-- **อุปกรณ์ทางเลือก:** หากคุณไม่มี GPU ที่รองรับ CUDA สามารถกลับไปใช้ `OcrDeviceType.CPU` ได้ โค้ดเดียวกันทำงาน; เพียงเปลี่ยนประเภทอุปกรณ์  
-- **การวัดประสิทธิภาพ:** ใช้ `System.nanoTime()` ก่อนและหลัง `recognize()` เพื่อวัดความแตกต่างของเวลาและประเมินผลประโยชน์จาก **การเปิดใช้งานการประมวลผลด้วย GPU**  
+- **Batch processing:** ห่อ `OcrEngine` ไว้ในลูปและป้อนรายการเส้นทางภาพ. จำไว้ว่าให้ใช้ instance ของ engine เดียวกันเพื่อหลีกเลี่ยงค่าใช้จ่ายการเริ่มต้น GPU ซ้ำ  
+- **Language detection:** Aspose OCR รองรับกว่า 30 ภาษา. สลับด้วย `ocrEngine.setLanguage(OcrLanguage.FRENCH)`  
+- **Post‑processing:** ใช้ regular expressions เพื่อทำความสะอาดสตริงที่สกัด, หรือป้อนเข้าสู่ pipeline NLP ต่อไป  
+- **Alternative devices:** หากคุณไม่มี GPU ที่รองรับ CUDA, คุณสามารถกลับไปใช้ `OcrDeviceType.CPU`. โค้ดเดียวกันทำงานได้; เพียงเปลี่ยนประเภทอุปกรณ์  
+- **Performance benchmarking:** วัดความแตกต่างของเวลาโดยใช้ `System.nanoTime()` ก่อนและหลัง `recognize()` เพื่อประเมินผลประโยชน์จาก **enable GPU processing**
 
 ---
 
-### สรุป
+**อัปเดตล่าสุด:** 2026-10-08  
+**ทดสอบด้วย:** Aspose OCR for Java 23.10  
+**ผู้เขียน:** Aspose
 
-เราได้ครอบคลุม **วิธีเปิดใช้งาน GPU** สำหรับ Aspose OCR ใน Java ตั้งแต่การติดตั้งไดรเวอร์ที่เหมาะสม ไปจนถึงการโหลด **ภาพความละเอียดสูง**, **จดจำภาพข้อความ**, และสุดท้าย **วิธีสกัดข้อความ** จากผลลัพธ์ ตัวอย่างที่สมบูรณ์และรันได้ข้างต้นควรทำงานได้ทันทีบน NVIDIA GPU รุ่นใหม่ใดก็ได้
+## บทเรียนที่เกี่ยวข้อง
 
-ลองใช้งาน ปรับขนาดภาพต่าง ๆ และสังเกตการเพิ่มขึ้นของอัตราการประมวลผล OCR ของคุณ หากเจออุปสรรคใด ๆ ให้กลับไปตรวจสอบส่วนเคล็ดลับหรือดู release notes ของ Aspose สำหรับคำแนะนำล่าสุดเกี่ยวกับ **การเปิดใช้งานการประมวลผลด้วย GPU**  
+- [จดจำภาพข้อความโดยใช้ Aspose Ocr GPU Java](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
+- [สกัดข้อความจากภาพด้วย Aspose Ocr Java คู่มือด่วน](/ocr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+- [Batch Image Ocr ใน Java สกัดข้อความจากไฟล์ PNG อย่างรวดเร็ว](/ocr/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 
-ขอให้เขียนโค้ดสนุกและ GPU ของคุณทำงานเย็น ๆ ขณะประมวลผลข้อความ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
