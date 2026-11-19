@@ -56,6 +56,10 @@ C# kullanarak görüntüleri eğimden arındırma ve tarama dosyalarını temizl
 Aspose OCR ile C#'ta görüntü düzeltme işlemini adım adım öğrenin ve OCR doğruluğunu artırın.
 ### [C# ile Aspose OCR Kullanarak Görüntüyü Düzeltme – Tam Kılavuz](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 C# projelerinizde Aspose OCR ile görüntü eğimini düzeltmeyi adım adım öğrenin.
+### [Aspose OCR ile Görüntüyü Düzeltme – Tam C# Kılavuzu](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Aspose OCR kullanarak görüntüleri nasıl düzleştireceğinizi adım adım öğrenin ve C# projelerinizde doğruluğu artırın.
+### [OCR Döndürülmüş Belge Öğreticisi – C#'ta Otomatik Eğim ve Döndürme Düzeltmesi](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+C# ile döndürülmüş belgelerde otomatik eğim ve döndürme düzeltmesi yaparak OCR doğruluğunu artırın.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

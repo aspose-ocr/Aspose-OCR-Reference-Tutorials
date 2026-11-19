@@ -57,6 +57,10 @@ url: /el/net/skew-angle-calculation/
 ### [Πώς να διορθώσετε την κλίση εικόνας σε C# με το Aspose OCR – Πλήρης Οδηγός](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 Μάθετε βήμα προς βήμα πώς να ευθυγραμμίσετε εικόνες χρησιμοποιώντας το Aspose OCR σε C# για βέλτιστη αναγνώριση κειμένου.
 
+### [Πώς να διορθώσετε την κλίση εικόνας με το Aspose OCR – Πλήρης οδηγός C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+Μάθετε βήμα-βήμα πώς να αφαιρέσετε την κλίση από εικόνες χρησιμοποιώντας το Aspose OCR σε C#.
+### [Οδηγός OCR για Περιστραμμένο Έγγραφο – Αυτόματη Διόρθωση Λοξότητας & Περιστροφής σε C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Μάθετε πώς να εντοπίζετε και να διορθώνετε αυτόματα τη λοξότητα και την περιστροφή σε έγγραφα OCR χρησιμοποιώντας το Aspose.OCR για .NET σε C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
