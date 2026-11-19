@@ -728,6 +728,9 @@ Aprenda a realizar OCR em imagens em C# com Aspose.OCR, incluindo a instalação
 ### [Como converter JPG para texto em C# com Aspose OCR](./how-to-convert-jpg-to-text-in-c-with-aspose-ocr/)
 Aprenda a converter imagens JPG em texto usando Aspose OCR em C#, passo a passo, para extrair conteúdo de forma simples.
 
+### [Como executar OCR em uma imagem em C# com Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
+Aprenda a usar Aspose.OCR em C# para executar OCR em imagens, passo a passo, integrando facilmente ao seu aplicativo .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

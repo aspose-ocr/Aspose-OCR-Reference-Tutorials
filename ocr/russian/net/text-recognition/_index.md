@@ -70,7 +70,7 @@ url: /ru/net/text-recognition/
 ### [Создание поискового PDF из изображения в C# – Полное руководство](./create-searchable-pdf-from-image-in-c-full-guide/)
 Узнайте, как с помощью Aspose.OCR создать PDF с возможностью поиска текста из изображений в проектах на C#.
 ### [Создание поискового PDF из изображения – Полное руководство C#](./create-searchable-pdf-from-image-complete-c-guide/)
-Полное руководство по созданию поискового PDF из изображения с помощью Aspose.OCR и C#.
+Полное руководство по созданию поискового PDF из изображения с помощью Aspose OCR и C#.
 ### [Распознать таблицу в распознавании изображений OCR](./recognize-table/)
 Раскройте потенциал Aspose.OCR для .NET с помощью нашего подробного руководства по распознаванию таблиц в распознавании изображений OCR.
 ### [Распознать хинди-текст в C# с помощью Aspose OCR](./recognize-hindi-text-in-c-using-aspose-ocr/)
@@ -102,10 +102,8 @@ url: /ru/net/text-recognition/
 
 ### [Распознать текст с изображения с помощью Aspose OCR – Полное руководство C#](./recognize-text-from-image-with-aspose-ocr-complete-c-guide/)
 Полное руководство по использованию Aspose OCR в C# для распознавания текста с изображений.
-
-### [Распознать текст на хинди с изображений – Конвертировать в ePub с помощью Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
+### [Распознать текст с изображения – Конвертировать в ePub с помощью Aspose OCR (C#)](./recognize-hindi-text-from-images-convert-to-epub-with-aspose/)
 Полное руководство по распознаванию текста на хинди с изображений и конвертации в ePub с использованием Aspose OCR в C#.
-
 ### [Как использовать OCR в C# – распознать текст с изображений](./how-to-use-ocr-in-c-recognize-text-from-images/)
 Узнайте, как с помощью Aspose.OCR в C# распознавать текст на изображениях.
 
@@ -812,6 +810,8 @@ url: /ru/net/text-recognition/
 Пошаговое руководство по распознаванию текста с изображений в C# с использованием Aspose OCR.
 ### [Как выполнить OCR в C# – извлекать текст из изображений](./how-to-perform-ocr-in-c-extract-text-from-images/)
 Узнайте, как выполнять OCR в C# с помощью Aspose.OCR для извлечения текста из файлов изображений. Это руководство показывает, как преобразовать изображение в текст и распознать текст из JPEG.
+### [Как выполнить OCR на изображении в C# с Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
+Узнайте, как с помощью Aspose.OCR выполнить OCR на изображении в C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
