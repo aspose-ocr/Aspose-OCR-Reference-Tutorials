@@ -1,0 +1,7 @@
+Title: How to use OCR in C# with image recognition
+Slug: how-to-use-ocr-in-c-with-image-recognition
+Category: text-recognition
+ProcessedDate: 2026-11-20T21:15:29.117958
+SourceRepo: AI Search API
+Keywords: how to use ocr, recognize text image, load image ocr, recognize text jpeg, set ocr language
+PRNumber: 268
