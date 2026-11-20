@@ -37,6 +37,9 @@ La eficiencia es clave en las aplicaciones .NET y Aspose.OCR está aquí para ay
 
 Libere el potencial del OCR en .NET con Aspose.OCR. Extraiga texto de archivos PDF sin esfuerzo e intégrelo perfectamente en sus aplicaciones. Este tutorial proporciona una guía completa para reconocer texto en archivos PDF, garantizando una experiencia de integración perfecta y eficiente.
 
+### [How to use OCR in C# with image recognition](./how-to-use-ocr-in-c-with-image-recognition/)
+
+
 ### [Cómo hacer OCR de PDF con Aspose: Convertir, Exportar y Buscar](./how-to-ocr-pdf-with-aspose-convert-export-search/)
 Aprenda a convertir, exportar y buscar texto en PDFs usando Aspose OCR en .NET.
 
