@@ -155,6 +155,8 @@ Panduan lengkap untuk mengenali teks dalam gambar menggunakan Aspose OCR di Java
 ### [Cara mendapatkan path resources di Java dan mengatur folder unduhan](./how-to-get-resources-path-java-and-set-download-folder/)
 ### [Cara melakukan OCR pada gambar PNG di Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Panduan langkah demi langkah untuk melakukan OCR pada file PNG menggunakan Aspose.OCR di Java.
+### [Kompilasi proyek Java dengan Maven dan jalankan dari baris perintah](./compile-java-project-maven-and-run-from-command-line/)
+Panduan langkah demi langkah untuk mengompilasi proyek Java menggunakan Maven dan menjalankannya lewat command line.
 
 ---
 

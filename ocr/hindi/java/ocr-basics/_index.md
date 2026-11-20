@@ -127,17 +127,19 @@ Java में PNG इमेज से टेक्स्ट निकालन�
 Java में Aspose.OCR को सक्रिय करने के चरण‑दर‑स्टेप निर्देश। सेटअप और उपयोग को सरल बनाएं।
 
 ### [इमेज‑टू‑टेक्स्ट ट्यूटोरियल – Aspose OCR के साथ तमिल टेक्स्ट निकालें](./image-to-text-tutorial-extract-tamil-text-with-aspose-ocr/)
+
 ### [Java में इमेज से टेक्स्ट निकालें – पूर्ण OCR उदाहरण](./extract-text-from-image-in-java-complete-ocr-example/)
 ### [Java में रिसोर्सेज़ पाथ कैसे प्राप्त करें और डाउनलोड फ़ोल्डर सेट करें](./how-to-get-resources-path-java-and-set-download-folder/)
 
 ### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – जावा त्वरित गाइड](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+
 ### [Java में इमेज से टेक्स्ट निकालें – Java OCR ट्यूटोरियल](./extract-text-from-image-in-java-java-ocr-tutorial/)
-Java में Aspose.OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें।
 ### [Java में टेक्स्ट इमेज को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 Aspose.OCR का उपयोग करके Java में टेक्स्ट इमेज को पहचानने के लिए पूर्ण चरण‑दर‑स्टेप गाइड।
 
 ### [Java में इमेज पर OCR करें – JPG से टेक्स्ट निकालें](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
-JPG इमेज से टेक्स्ट निकालने के लिए Aspose.OCR का उपयोग करके Java में OCR कैसे लागू करें, सीखें।
+
+### [Java में Maven के साथ प्रोजेक्ट कंपाइल करें और कमांड लाइन से चलाएँ](./compile-java-project-maven-and-run-from-command-line/)
 
 ### [Java में इमेज से टेक्स्ट पहचानें – पूर्ण OCR ट्यूटोरियल](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 Java में इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया सीखें, सेटअप से लेकर उन्नत OCR तकनीकों तक।

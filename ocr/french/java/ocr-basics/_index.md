@@ -170,6 +170,9 @@ Apprenez à reconnaître du texte dans les images avec Aspose OCR en Java grâce
 ### [Comment obtenir le chemin des ressources en Java et définir le dossier de téléchargement](./how-to-get-resources-path-java-and-set-download-folder/)
 Apprenez à récupérer le chemin des ressources dans une application Java et à configurer le répertoire de téléchargement.
 
+### [Compiler un projet Java avec Maven et l'exécuter depuis la ligne de commande](./compile-java-project-maven-and-run-from-command-line/)
+Apprenez à compiler un projet Java avec Maven et à l'exécuter via la ligne de commande.
+
 ---
 
 **Dernière mise à jour :** 2025-12-08  

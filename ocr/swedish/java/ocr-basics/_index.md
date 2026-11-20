@@ -153,6 +153,9 @@ Lär dig hur du hämtar resurssökvägen i Java och konfigurerar en nedladdnings
 ### [Hur man utför OCR på en PNG‑bild i Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Lär dig steg‑för‑steg hur du utför OCR på en PNG‑bild i Java med Aspose OCR.
 
+### [Kompilera Java‑projekt med Maven och kör från kommandoraden](./compile-java-project-maven-and-run-from-command-line/)
+Lär dig hur du bygger ett Java‑projekt med Maven och kör det från kommandoraden i några enkla steg.
+
 ---
 
 **Last Updated:** 2025-12-08  

@@ -124,8 +124,10 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 示範如何使用 Aspose.OCR for Java 讀取 PNG 圖片並將其內容轉換為純文字，包含授權設定與程式範例。
 
 ### [使用 Aspose OCR 從影像提取文字 – Java 快速指南](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
+
 ### [在 Java 中提取圖像文字 – Java OCR 教學](./extract-text-from-image-in-java-java-ocr-tutorial/)
 學習如何使用 Aspose.OCR for Java 從圖像中提取文字，涵蓋設定、前處理與結果輸出。
+
 ### [在 Java 中對圖像執行 OCR – 從 JPG 提取文字](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 使用 Aspose.OCR for Java 直接從 JPG 圖片提取文字，快速完成 OCR 任務。
 ### [在 Java 中從圖像辨識文字 – 完整 OCR 教學](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
@@ -157,6 +159,9 @@ A: 超過 30 種語言，包括英文、西班牙文、中文、阿拉伯文等�
 說明如何在 Java 中取得資源檔案路徑並設定下載資料夾，以便儲存下載的檔案。
 
 ### [在 Java 中對 PNG 圖片執行 OCR](./how-to-perform-ocr-on-a-png-image-in-java/)
+
+### [使用 Maven 編譯 Java 專案並從命令列執行](./compile-java-project-maven-and-run-from-command-line/)
+說明如何使用 Maven 編譯 Java 專案，並在命令列執行產生的 JAR 檔。
 
 ---
 

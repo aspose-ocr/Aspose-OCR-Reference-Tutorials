@@ -120,9 +120,7 @@ Scopri come abilitare OCR in Java con questa guida passo‑passo, configurando r
 Guida completa per estrarre testo da immagini usando Aspose.OCR in Java, con esempi di codice e best practice.
 
 ### [Riconoscere testo da PNG in Java – Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
-
 ### [Estrai testo da immagine – converti PNG in testo in Java](./extract-text-from-image-convert-png-to-text-in-java/)
-
 ### [Estrai testo da immagine con Aspose OCR – Guida rapida Java](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 ### [Estrai testo da immagine in Java – Tutorial OCR Java](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Scopri come estrarre testo da immagini usando Aspose.OCR per Java in questa guida pratica.
@@ -159,6 +157,9 @@ Scopri come determinare il percorso delle risorse in Java e configurare la carte
 
 ### [Come eseguire OCR su un'immagine PNG in Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Scopri come eseguire l'OCR su immagini PNG in Java con Aspose.OCR, passo‑passo, per risultati rapidi e precisi.
+
+### [Compila progetto Java con Maven ed esegui da riga di comando](./compile-java-project-maven-and-run-from-command-line/)
+Scopri come compilare un progetto Java con Maven e avviarlo dalla riga di comando in pochi passaggi.
 
 ---
 

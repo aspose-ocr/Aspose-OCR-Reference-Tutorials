@@ -170,6 +170,7 @@ Java を使用した画像テキスト抽出の全手順を解説し、OCR の�
 ### [Java でテキスト画像を認識する – 完全 Aspose OCR ガイド](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 ### [Javaでリソースパスを取得し、ダウンロードフォルダーを設定する方法](./how-to-get-resources-path-java-and-set-download-folder/)
 Java アプリでリソースのパスを取得し、ダウンロード先フォルダーを設定する手順を解説します。
+### [Maven で Java プロジェクトをコンパイルし、コマンドラインから実行する](./compile-java-project-maven-and-run-from-command-line/)
 
 ---
 

@@ -112,9 +112,9 @@ Fedezze fel, hogyan nyerhet ki tamil nyelvű szöveget képekből az Aspose OCR 
 ### [Képről szöveg kinyerése Java-ban – Teljes OCR példa](./extract-text-from-image-in-java-complete-ocr-example/)
 Teljes útmutató a képek szöveggé alakításához Java-ban az Aspose.OCR használatával.
 ### [PNG-ből szöveg felismerése Java-ban – Aspose OCR oktatóanyag](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
-Fedezze fel, hogyan olvassa ki a szöveget PNG képekből Java-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+Fedezze fel, hogyan olvassa ki a szöveget PNG képekből Java-ban az Aspose OCR segítsával, lépésről‑lépésre útmutatóval.
 ### [Képből szöveg kinyerése – PNG konvertálása szöveggé Java-ban](./extract-text-from-image-convert-png-to-text-in-java/)
-Ismerje meg, hogyan konvertálhatja a PNG képeket szöveggé Java-ban az Aspose OCR segítségével, lépésről‑lépésre útmutatóval.
+Ismerje meg, hogyan konvertálhatja a PNG képeket szöveggé Java-ban az Aspose OCR segítsával, lépésről‑lépésre útmutatóval.
 ### [Szöveg kinyerése képből az Aspose OCR-rel – Java gyors útmutató](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Gyorsan tanulja meg, hogyan nyerjen ki szöveget képekből az Aspose OCR Java használatával egy egyszerű útmutatóban.
 ### [Képből szöveg kinyerése Java-ban – Java OCR oktatóanyag](./extract-text-from-image-in-java-java-ocr-tutorial/)
@@ -149,6 +149,8 @@ Fedezze fel a teljes útmutatót a szövegképek Java-ban történő felismerés
 Ismerje meg, hogyan határozhatja meg a resources könyvtár útvonalát Java-ban, és állíthatja be a letöltési mappát a projektben.
 ### [Hogyan végezzen OCR-t PNG képen Java-ban](./how-to-perform-ocr-on-a-png-image-in-java/)
 Ismerje meg, hogyan olvassa ki a szöveget PNG képekből Java-ban az Aspose.OCR segítségével.
+### [Java projekt Maven-nel fordítása és futtatása parancssorból](./compile-java-project-maven-and-run-from-command-line/)
+Tanulja meg, hogyan fordítsa le Maven‑al a Java projektet, és futtassa a parancssorból.
 
 ---
 

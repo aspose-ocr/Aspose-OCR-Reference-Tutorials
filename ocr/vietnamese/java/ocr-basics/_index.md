@@ -154,6 +154,7 @@ Hướng dẫn chi tiết cách trích xuất văn bản từ ảnh bằng Aspos
 Hướng dẫn chi tiết cách nhận dạng văn bản từ hình ảnh trong Java bằng Aspose OCR, bao gồm cài đặt, xử lý và tối ưu kết quả.
 ### [Cách thực hiện OCR trên ảnh PNG trong Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Hướng dẫn chi tiết cách sử dụng Aspose.OCR để nhận dạng văn bản từ tệp PNG trong Java.
+### [Biên dịch dự án Java bằng Maven và chạy từ dòng lệnh](./compile-java-project-maven-and-run-from-command-line/)
 
 ---
 

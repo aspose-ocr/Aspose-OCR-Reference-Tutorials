@@ -148,6 +148,8 @@ Kompletní průvodce rozpoznáváním textových obrázků v Javě pomocí Aspos
 
 ### [Jak provést OCR na PNG obrázku v Javě](./how-to-perform-ocr-on-a-png-image-in-java/)
 Naučte se provést OCR na PNG obrázku v Javě pomocí Aspose.OCR.
+### [Kompilace projektu Java pomocí Maven a spuštění z příkazové řádky](./compile-java-project-maven-and-run-from-command-line/)
+Naučte se, jak kompilovat projekt Java pomocí Maven a spustit jej z příkazové řádky.
 
 ---
 

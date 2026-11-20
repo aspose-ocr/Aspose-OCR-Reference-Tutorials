@@ -164,6 +164,9 @@ weight: 20
 ### [Как выполнить OCR на PNG‑изображении в Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 Пошаговое руководство по выполнению OCR на PNG‑изображениях в Java с использованием Aspose.OCR.
 
+### [Скомпилировать Java‑проект Maven и запустить из командной строки](./compile-java-project-maven-and-run-from-command-line/)
+Скомпилируйте Java‑проект с помощью Maven и запустите его из командной строки.
+
 ---
 
 **Последнее обновление:** 2025-12-08  

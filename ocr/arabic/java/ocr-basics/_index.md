@@ -149,6 +149,9 @@ weight: 20
 ### [كيفية تنفيذ OCR على صورة PNG في Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 دليل خطوة بخطوة لتنفيذ التعرف الضوئي على الأحرف (OCR) لملفات PNG باستخدام Aspose.OCR في Java.
 
+### [تجميع مشروع جافا باستخدام Maven وتشغيله من سطر الأوامر](./compile-java-project-maven-and-run-from-command-line/)
+دليل خطوة بخطوة لتجميع مشروع Java باستخدام Maven وتشغيله من سطر الأوامر.
+
 ---
 
 **آخر تحديث:** 2025-12-08  

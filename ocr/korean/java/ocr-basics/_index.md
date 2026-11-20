@@ -22,7 +22,7 @@ weight: 20
 ## 빠른 답변
 - **“텍스트 이미지 추출”이란 무엇인가요?** 그림 파일(PNG, JPEG, TIFF 등)에서 문자를 읽어 일반 텍스트로 변환하는 것을 의미합니다.  
 - **Aspose.OCR을 사용하려면 라이선스가 필요합니까?** 예 – 유효한 라이선스를 사용하면 평가 워터마크가 제거되고 전체 성능을 사용할 수 있습니다.  
-- **OCR 정확도를 높이려면 어떻게 해야 하나요?** 기울기 보정, 적절한 이미지 전처리, 최신 OCR 엔진 설정을 사용하십시오.  
+- **OCR 정확도를 높려면 어떻게 해야 하나요?** 기울기 보정, 적절한 이미지 전처리, 최신 OCR 엔진 설정을 사용하십시오.  
 - **Java에서 OCR 기울기 보정이 지원되나요?** 물론입니다 – Aspose.OCR은 기울기 각도를 계산하고 보정하는 내장 메서드를 제공합니다.  
 - **여러 언어의 텍스트를 인식할 수 있나요?** 예 – API는 기본적으로 수십 개의 언어를 지원합니다.
 
@@ -136,10 +136,8 @@ Aspose.OCR for Java로 OCR 정확도를 향상시키세요. 단계별로 기울�
 
 ### [Java에서 이미지 텍스트 추출 – Java OCR 튜토리얼](./extract-text-from-image-in-java-java-ocr-tutorial/)
 
-이 튜토리얼에서는 Aspose.OCR을 사용해 Java에서 이미지 파일의 텍스트를 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 이미지에 OCR 수행 – JPG에서 텍스트 추출](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 
-JPG 파일을 사용해 OCR을 수행하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
 ### [Java에서 이미지에서 텍스트 인식 – 완전 OCR 튜토리얼](./recognize-text-from-image-in-java-complete-ocr-tutorial/)
 
 이미지에서 텍스트를 추출하는 전체 과정을 단계별로 안내하며, 설정, 전처리 및 인식까지 모두 다룹니다.
@@ -176,6 +174,7 @@ Java와 Aspose OCR을 사용해 이미지에서 텍스트를 추출하는 전체
 이 단계별 가이드를 통해 Java에서 Aspose OCR을 사용해 텍스트 이미지를 완벽하게 인식하는 방법을 배웁니다.
 
 ### [Java에서 리소스 경로 가져오기 및 다운로드 폴더 설정 방법](./how-to-get-resources-path-java-and-set-download-folder/)
+### [Maven으로 Java 프로젝트 컴파일하고 명령줄에서 실행하기](./compile-java-project-maven-and-run-from-command-line/)
 
 ---
 

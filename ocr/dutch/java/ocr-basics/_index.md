@@ -149,6 +149,8 @@ Volledige gids voor het herkennen van tekst in afbeeldingen met Aspose OCR voor 
 Leer hoe je het resources‑pad in Java bepaalt en een downloadmap configureert voor je applicatie.
 ### [Hoe OCR op een PNG-afbeelding in Java uitvoeren](./how-to-perform-ocr-on-a-png-image-in-java/)
 Leer stap voor stap hoe je OCR toepast op een PNG-afbeelding in Java met Aspose.OCR.
+### [Compileer Java‑project met Maven en voer uit vanaf de opdrachtregel](./compile-java-project-maven-and-run-from-command-line/)
+Leer hoe je een Java‑project bouwt met Maven en het vanaf de commandoregel uitvoert in een paar eenvoudige stappen.
 
 ---
 

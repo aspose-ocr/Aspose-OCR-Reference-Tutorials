@@ -100,7 +100,7 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 ปลดล็อกพลังของ Aspose.OCR for Java เรียนรู้วิธีสกัดข้อความจากรูปภาพอย่างไร้รอยต่อในคู่มือขั้นตอนนี้ ดาวน์โหลดตอนนี้เพื่อการจดจำข้อความที่มีประสิทธิภาพ
 ### [จดจำข้อความจาก PNG ใน Java – คู่มือ Aspose OCR](./recognize-text-from-png-in-java-aspose-ocr-tutorial/)
 
-### [สกัดข้อความจากภาพ – แปลง PNG เป็นข้อความใน Java](./extract-text-from-image-convert-png-to-text-in-java/)
+### [สกัดข้อความจาก PNG ใน Java – แปลง PNG เป็นข้อความใน Java](./extract-text-from-image-convert-png-to-text-in-java/)
 
 ### [วิธีทำ OCR บนภาพ PNG ด้วย Java](./how-to-perform-ocr-on-a-png-image-in-java/)
 
@@ -143,6 +143,8 @@ A: มากกว่า 30 ภาษา รวมถึง English, Spanish, Ch
 เรียนรู้วิธีสกัดข้อความจากภาพใน Java อย่างครบถ้วนด้วยคู่มือ OCR ฉบับสมบูรณ์ เพิ่มประสิทธิภาพการจดจำและการประมวลผล
 ### [จดจำข้อความจากรูปภาพใน Java – คู่มือ Aspose OCR ฉบับสมบูรณ์](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 คู่มือฉบับสมบูรณ์สำหรับการจดจำข้อความจากรูปภาพใน Java ด้วย Aspose OCR
+### [คอมไพล์โปรเจกต์ Java ด้วย Maven และรันจากบรรทัดคำสั่ง](./compile-java-project-maven-and-run-from-command-line/)
+คอมไพล์โปรเจกต์ Java ด้วย Maven และรันจากบรรทัดคำสั่ง
 
 ---
 

@@ -143,6 +143,8 @@ A: 超过 30 种语言，包括英语、西班牙语、中文、阿拉伯语等�
 全面教程，教您在 Java 环境下使用 Aspose OCR 完整识别文本图像并优化准确率。
 ### [如何获取 Java 资源路径并设置下载文件夹](./how-to-get-resources-path-java-and-set-download-folder/)
 教程演示如何获取 Java 项目中的资源路径并设置下载文件夹，帮助管理文件保存位置。
+### [使用 Maven 编译 Java 项目并在命令行运行](./compile-java-project-maven-and-run-from-command-line/)
+一步步指南，教您使用 Maven 编译 Java 项目并通过命令行执行，适用于快速构建和部署。
 
 ---
 

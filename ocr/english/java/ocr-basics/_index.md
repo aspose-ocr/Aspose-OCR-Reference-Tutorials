@@ -125,7 +125,7 @@ Learn how to recognize text from PNG images using Aspose OCR for Java in a simpl
 Convert PNG images to searchable text in Java using Aspose.OCR with a simple step-by-step guide.
 ### [Extract text from image with aspose OCR – java quick guide](./extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 Quickly learn how to extract text from images using Aspose OCR in Java with this concise step‑by‑step guide.
-### [Extract text from image in java – java OCR tutorial](./extract-text-from-image-in-java-java-ocr-tutorial/)
+### [Extract Text from Image in Java – Java OCR Tutorial](./extract-text-from-image-in-java-java-ocr-tutorial/)
 Learn how to extract text from images using Aspose.OCR for Java in this concise step‑by‑step tutorial.
 ### [Perform OCR on Image in Java – Extract Text from JPG](./perform-ocr-on-image-in-java-extract-text-from-jpg/)
 Learn how to perform OCR on a JPG image using Aspose.OCR for Java, covering loading, processing, and extracting text efficiently.
@@ -155,6 +155,8 @@ Master OCR in Java with a full guide to extract text from images, covering setup
 ### [recognize text image in Java – Complete Aspose OCR Guide](./recognize-text-image-in-java-complete-aspose-ocr-guide/)
 A comprehensive guide to recognizing text in images using Aspose OCR for Java.
 ### [How to get resources path java and set download folder](./how-to-get-resources-path-java-and-set-download-folder/)
+### [Compile java project maven and run from command line](./compile-java-project-maven-and-run-from-command-line/)
+Learn how to compile a Maven Java project and run it from the command line, including setup and execution steps.
 
 ---
 
