@@ -53,6 +53,9 @@ Navigieren Sie mit Aspose.OCR für .NET durch die Komplexität der Tabellenerken
 
 Sind Sie bereit, Ihre .NET-Anwendungen zu revolutionieren? Tauchen Sie ein in unsere Tutorials zur Texterkennung und nutzen Sie die Leistungsfähigkeit von Aspose.OCR für eine genaue und effiziente Texterkennung in Bildern. Laden Sie es jetzt herunter und begeben Sie sich auf eine Reise mit erweiterten OCR‑Funktionen.
 ## Tutorials
+### [How to use OCR in C# with image recognition](./how-to-use-ocr-in-c-with-image-recognition/)
+
+
 ### [How to perform OCR on an image in C# with Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
 
  zur Texterkennung
