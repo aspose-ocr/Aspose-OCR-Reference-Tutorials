@@ -58,6 +58,11 @@ url: /ar/net/skew-angle-calculation/
 ### [كيفية تصحيح انحراف الصورة في C# باستخدام Aspose OCR – دليل كامل](./how-to-deskew-image-in-c-with-aspose-ocr-full-guide/)
 دليل شامل لتصحيح انحراف الصور في C# باستخدام Aspose OCR، يوضح الخطوات العملية لتحقيق نتائج دقيقة.
 
+### [كيفية تصحيح انحراف الصورة باستخدام Aspose OCR – دليل كامل C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
+اكتشف كيفية تصحيح انحراف الصور باستخدام Aspose.OCR لـ .NET في دليل شامل بلغة C#.
+### [دورة مستند OCR المدور – إصلاح الانحراف التلقائي والدوران في C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+تعلم كيفية معالجة المستندات المدورة باستخدام Aspose.OCR لـ .NET وإصلاح الانحراف والدوران تلقائيًا في C#.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
