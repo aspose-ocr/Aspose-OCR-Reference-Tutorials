@@ -235,7 +235,6 @@ url: /zh/net/text-recognition/
 
 ### [使用 Aspose OCR 将图像转换为文本 – 步骤详解 C# 指南](./convert-image-to-text-with-aspose-ocr-step-by-step-c-guide/)
 通过本分步 C# 指南，学习使用 Aspose OCR 将图像快速转换为可编辑文本。
-
 ### [使用 Aspose OCR 在 C# 中从图像识别文本](./recognize-text-from-image-in-c-with-aspose-ocr/)
 通过本指南，学习使用 Aspose OCR 在 C# 中从图像中快速识别文本，实现高效的 OCR 处理。
 
@@ -312,7 +311,7 @@ url: /zh/net/text-recognition/
 
 ### [使用 Aspose OCR 识别 TIFF 文本 – 完整 C# 指南](./extract-text-from-tiff-with-aspose-ocr-c-full-tutorial/)
 使用 Aspose.OCR for .NET，在 C# 中完整演示如何从 TIFF 图像提取文本，提供详细分步指南。
-### [C# OCR 教程 – 使用 Aspose OCR 从图像中提取文本](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
+### [C# OCR 教程 – 使用 Aspose OCR 从图像提取文本](./c-ocr-tutorial-extract-text-from-images-with-aspose-ocr/)
 使用 Aspose.OCR 在 C# 中完整演示如何从图像中提取文本，提供详细的分步指南。
 
 ### [如何将 JPG 转换为可搜索 PDF – 步骤指南](./how-to-create-searchable-pdf-from-jpg-step-by-step-guide/)
@@ -443,7 +442,6 @@ url: /zh/net/text-recognition/
 
 ### [C# OCR 教程：从图像中提取阿拉伯文本](./c-ocr-tutorial-extract-arabic-text-from-images/)
 使用 Aspose OCR 在 .NET 中提取图像中的阿拉伯语文本，提升您的应用程序的多语言 OCR 能力。
-
 ### [使用 Aspose OCR 从图像创建 Excel – 步骤指南](./create-excel-from-image-with-aspose-ocr-step-by-step-guide/)
 学习如何使用 Aspose OCR 从图像提取数据并生成 Excel 文件，提升 .NET 应用的文档处理能力。
 
@@ -818,7 +816,6 @@ url: /zh/net/text-recognition/
 
 ### [如何在 C# 中使用 Aspose OCR 对图像执行 OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
 在 C# 中快速执行图像 OCR。学习如何从 JPG 提取文本，将图像转换为文字，并使用 Aspose.OCR 读取图像中的文本。
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

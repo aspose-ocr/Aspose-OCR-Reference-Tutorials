@@ -46,8 +46,6 @@ url: /zh-hant/net/text-recognition/
 ### [How to perform OCR in C# – extract text from images](./how-to-perform-ocr-in-c-extract-text-from-images/)
 ### [How to extract text from image using Aspose.OCR in C#](./how-to-extract-text-from-image-using-aspose-ocr-in-c/)
 ### [How to perform OCR on image in C# using Aspose.OCR](./how-to-perform-ocr-on-image-in-c-using-aspose-ocr/)
-
-
 ### [在 OCR 影像辨識中取得已辨識字元的選擇](./get-choices-for-recognized-characters/)
 使用 Aspose.OCR 增強您的 .NET 應用程序，以實現準確的字元辨識。請依照我們的逐步指南檢索影像辨識中已辨識字元的選擇。
 
@@ -701,9 +699,13 @@ url: /zh-hant/net/text-recognition/
 ### [如何在 C# 中使用 Aspose OCR 進行影像 OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
 使用 Aspose.OCR 在 C# 中對影像執行文字辨識的完整步驟指南。
 
+### [從圖像提取文字 – 使用 Aspose OCR 步驟式指南](./extract-text-from-image-with-aspose-ocr-step-by-step-guide/)
+使用 Aspose OCR for .NET 從圖像中提取文字，提供完整的步驟式教學，協助您快速實現文字辨識。
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
