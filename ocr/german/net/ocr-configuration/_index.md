@@ -96,6 +96,31 @@ Laden Sie ein Bild und führen Sie OCR sowie Rechtschreibprüfung mit Aspose OCR
 Erfahren Sie, wie Sie mit Aspose.OCR eine OCR-Engine in C# erstellen und konfigurieren.
 ### [GPU‑Speicherlimit mit Aspose OCR festlegen – C# GPU‑Leitfaden](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Erfahren Sie, wie Sie das GPU‑Speicherlimit in Aspose OCR für C# konfigurieren, um die Leistung zu optimieren.
+### [Text aus Bild mit Aspose OCR GPU extrahieren – Vollständige C#‑Anleitung](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Nutzen Sie die GPU‑Beschleunigung von Aspose OCR, um Text aus Bildern schnell und präzise in C# zu extrahieren.
+### [Wie man die Lizenz in Aspose OCR setzt – Vollständige C#‑Anleitung](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie Ihre Aspose OCR‑Lizenz korrekt in C#‑Projekten aktivieren und nutzen.
+### [Wie man OCR in C# ausführt – Mehrsprachiger Leitfaden](./how-to-perform-ocr-in-c-multi-language-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR mehrsprachige OCR in C# implementieren und Texte aus Bildern in verschiedenen Sprachen extrahieren.
+### [Bild zu Text C# – Aspose OCR mit deaktiviertem Download](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Erfahren Sie, wie Sie mit Aspose OCR in C# Bilder in Text umwandeln und den Download deaktivieren.
+### [Aspose OCR-Version in C# abrufen – Komplettanleitung](./get-aspose-ocr-version-in-c-complete-guide/)
+Erfahren Sie, wie Sie die installierte Aspose.OCR-Version in C# ermitteln und prüfen.
+### [Wie man OcrEngine in C# verwendet – Vollständiger OCR-Leitfaden](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Erfahren Sie, wie Sie OcrEngine in C# einsetzen, um OCR‑Prozesse von Grund auf zu implementieren und zu optimieren.
+### [Erstellen einer durchsuchbaren PDF aus einem Bild – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+### [Sprache aus Bild in C# erkennen – Vollständiger Programmierleitfaden](./detect-language-from-image-in-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR die Sprache aus Bilddateien in C# automatisch erkennen und verarbeiten.
+### [Wie man OcrEngineConfig verwendet – OCR-Engine-Konfiguration in C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Erfahren Sie, wie Sie OcrEngineConfig konfigurieren, um die OCR-Engine in C#-Anwendungen anzupassen und zu optimieren.
+### [Wie man OCR mit Aspose.OCR ausführt – Vollständiger C#‑Leitfaden](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.OCR in C# eine komplette OCR‑Lösung implementieren, von der Einrichtung bis zur Textextraktion.
+### [Erstellen einer AsposeAI Modellkonfiguration – Schritt‑für‑Schritt‑Anleitung](./create-asposeai-model-config-step-by-step-guide/)
+Erfahren Sie, wie Sie eine AsposeAI‑Modellkonfiguration erstellen und anpassen, um KI‑Funktionen in Ihre Anwendung zu integrieren.
+### [Logger für Aspose OCR erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie einen Logger für Aspose OCR implementieren, um OCR‑Vorgänge zu protokollieren und zu überwachen.
+### [Download fehlender Modelle mit Aspose AI – vollständiger Leitfaden](./download-missing-models-with-aspose-ai-complete-guide/)
+Erfahren Sie, wie Sie fehlende KI‑Modelle automatisch herunterladen und in Ihre Anwendung integrieren.
 
 ### Häufige Anwendungsfälle
 - **Text aus Bildern** von gescannten Rechnungen für die automatisierte Buchhaltung extrahieren.  

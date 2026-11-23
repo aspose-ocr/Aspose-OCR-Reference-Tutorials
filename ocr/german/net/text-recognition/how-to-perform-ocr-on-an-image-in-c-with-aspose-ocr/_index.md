@@ -1,37 +1,37 @@
 ---
 category: general
-date: 2026-10-21
-description: Erfahren Sie, wie Sie OCR auf einer JPG durchführen, Text aus dem Bild
-  extrahieren und das Bild für OCR mit Aspose.OCR in C# laden. Vollständige Schritt‑für‑Schritt‑Anleitung.
+date: 2026-10-18
+description: Führen Sie OCR schnell in C# auf einem Bild aus. Lernen Sie, Text aus
+  JPG zu extrahieren, Bild in Text zu konvertieren und Text aus einem Bild mit Aspose.OCR
+  zu lesen.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to perform OCR
-- extract text from image
-- recognize text from jpg
-- load image for OCR
 - perform OCR on image
+- extract text from JPG
+- convert image to text
+- read text from image
+- load image for OCR
 language: de
-lastmod: 2026-10-21
-og_description: Wie man OCR auf einem Bild in C# mit Aspose.OCR durchführt. Folgen
-  Sie dieser Anleitung, um ein Bild für OCR zu laden, Text aus einer JPG zu erkennen
-  und Text aus dem Bild zu extrahieren.
-og_image_alt: Screenshot showing how to perform OCR on a Cyrillic image in C#
-og_title: Wie man OCR in C# auf einem Bild durchführt – Schritt‑für‑Schritt‑Anleitung
+lastmod: 2026-10-18
+og_description: Führen Sie OCR auf einem Bild in C# mit Aspose.OCR durch. Dieses Tutorial
+  zeigt, wie man Text aus JPG extrahiert, das Bild in Text umwandelt und den Text
+  aus dem Bild in wenigen Minuten liest.
+og_image_alt: Console output displaying recognized Cyrillic text after performing
+  OCR on an image
+og_title: OCR in C# auf einem Bild ausführen – vollständige Anleitung
 schemas:
 - author: Aspose
-  dateModified: '2026-10-21'
-  description: Learn how to perform OCR on a JPG, extract text from image and load
-    image for OCR using Aspose.OCR in C#. Complete step‑by‑step guide.
+  dateModified: '2026-10-18'
+  description: Perform OCR on an image in C# quickly. Learn to extract text from JPG,
+    convert image to text and read text from image using Aspose.OCR.
   headline: How to perform OCR on an image in C# with Aspose.OCR
   type: TechArticle
 tags:
 - OCR
 - C#
 - Aspose.OCR
-- Image processing
-- Text extraction
 title: Wie man OCR auf einem Bild in C# mit Aspose.OCR durchführt
 url: /de/net/text-recognition/how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/
 ---
@@ -40,155 +40,189 @@ url: /de/net/text-recognition/how-to-perform-ocr-on-an-image-in-c-with-aspose-oc
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# OCR auf einem Bild in C# mit Aspose.OCR durchführen
+# Wie man OCR auf einem Bild in C# mit Aspose.OCR durchführt
 
-Wenn Sie **wie man OCR durchführt** auf einem Bild benötigen, zeigt Ihnen dieses Tutorial eine komplette, sofort ausführbare Lösung. Sie lernen, wie man ein Bild für OCR lädt, Text aus JPG‑Dateien erkennt und Text aus einem Bild mit der Aspose.OCR‑Bibliothek extrahiert.
+Wenn Sie **OCR auf einem Bild** in einer .NET-Anwendung durchführen müssen, zeigt Ihnen diese Anleitung eine komplette, sofort einsatzbereite Lösung. Sie sehen, wie Sie **Bild für OCR laden**, kyrillische Zeichen erkennen und **Text aus JPG**‑Dateien extrahieren, ohne low‑level Bildverarbeitungs‑Code zu schreiben.
 
-Der Leitfaden deckt alles ab, von der Installation des NuGet‑Pakets über die Handhabung von Sprachmodellen bis hin zum Ausgeben des erkannten Ergebnisses. Am Ende können Sie OCR in jedes .NET‑Projekt integrieren und kyrillische oder andere Sprachtexte verarbeiten, ohne die IDE zu verlassen.
+In diesem Tutorial werden Sie:
 
-## Was Sie benötigen
+* Das Aspose.OCR NuGet‑Paket installieren.  
+* Eine Bilddatei (JPG, PNG, BMP usw.) laden.  
+* Die OCR‑Engine ausführen, um **Bild in Text zu konvertieren**.  
+* **Text aus Bild** in der Konsole ausgeben.  
 
-- .NET 6.0 oder höher (der Code funktioniert auch unter .NET Framework 4.7+)
-- Visual Studio 2022 (oder jeder C#‑Editor)
-- Internetzugang für den ersten Durchlauf (Aspose.OCR lädt das Sprachmodell automatisch herunter)
-- Ein Beispielbild, z. B. `cyrillic_sample.jpg`, in einem Ordner, den Sie im Code referenzieren können
+Die Schritte funktionieren mit jedem .NET‑kompatiblen Bild, sodass Sie sie an PDFs, gescannte Belege oder Screenshots anpassen können.
+
+## Voraussetzungen
+
+* .NET 6.0 SDK oder neuer (der Code funktioniert auch mit .NET Framework 4.7+).  
+* Visual Studio 2022 oder ein beliebiger C#‑Editor Ihrer Wahl.  
+* Internetzugang für den ersten Durchlauf – Aspose.OCR lädt das kyrillische Sprachmodul automatisch herunter.  
+
+> **Pro‑Tipp:** Halten Sie das NuGet‑Paket auf dem neuesten Stand; neuere Versionen verbessern die Erkennungsgenauigkeit und fügen Sprachpakete hinzu.
 
 ## Schritt 1: Aspose.OCR installieren
 
-Öffnen Sie den NuGet‑Paket‑Manager und fügen Sie **Aspose.OCR** zu Ihrem Projekt hinzu:
+Öffnen Sie ein Terminal in Ihrem Projektordner und führen Sie aus:
 
 ```bash
 dotnet add package Aspose.OCR
 ```
 
-Das Paket enthält die OCR‑Engine, Sprachmodelle und Hilfsklassen, die für die Bildverarbeitung benötigt werden. Keine zusätzlichen DLLs sind erforderlich.
+Das Paket enthält die Klasse `OcrEngine`, die verwendet wird, um **OCR auf Bild**‑Dateien durchzuführen. Nach Abschluss des Befehls erscheint der Paketverweis in Ihrer *.csproj*-Datei.
 
-## Schritt 2: Die OCR‑Engine erstellen – wie man OCR durchführt
+## Schritt 2: Konsolenprogramm‑Skelett erstellen
 
-Die erste eigentliche Aufgabe bei **wie man OCR durchführt** besteht darin, die Engine zu instanziieren. Dieses Objekt verwaltet die gesamte Erkennungspipeline.
+Erstellen Sie ein neues Konsolenprojekt, falls Sie noch keines haben:
 
-```csharp
-using Aspose.OCR;
-
-// Create an OCR engine instance
-OcrEngine engine = new OcrEngine();
+```bash
+dotnet new console -n OcrDemo
+cd OcrDemo
 ```
 
-`OcrEngine` ist leichtgewichtig; Sie können dieselbe Instanz für mehrere Bilder wiederverwenden, was die Leistung bei der Stapelverarbeitung verbessert.
+Ersetzen Sie die generierte *Program.cs* durch den im nächsten Abschnitt gezeigten Code. Das Skelett enthält die erforderlichen `using`‑Direktiven und eine `Main`‑Methode, die den OCR‑Prozess steuert.
 
 ## Schritt 3: Bild für OCR laden
 
-Vor der Erkennung müssen Sie die Bilddaten bereitstellen. Der Schritt **Bild für OCR laden** akzeptiert viele Formate, aber dieses Beispiel konzentriert sich auf eine JPEG‑Datei.
-
-```csharp
-// Load the image you want to process
-engine.Image = OcrImage.FromFile(@"C:\Images\cyrillic_sample.jpg");
-```
-
-`OcrImage.FromFile` liest die Datei in den Speicher und bereitet sie für die Engine vor. Ist der Dateipfad ungültig, wird eine `ArgumentException` ausgelöst, stellen Sie also sicher, dass der Pfad korrekt ist.
-
-## Schritt 4: Die passende Sprache auswählen (optional, aber empfohlen)
-
-Enthält Ihr Bild kyrillische Zeichen, setzen Sie die Sprache auf `Cyrillic`. Das benötigte Modell wird beim ersten Durchlauf automatisch heruntergeladen.
-
-```csharp
-// Choose the language model
-engine.Language = OcrLanguage.Cyrillic;
-```
-
-Sie können zu anderen Sprachen wechseln (z. B. `OcrLanguage.English`), indem Sie diese Eigenschaft ändern. Die Bibliothek unterstützt über 60 Sprachen.
-
-## Schritt 5: Text aus JPG erkennen – wie man OCR auf einem JPEG durchführt
-
-Rufen Sie nun die Methode `Recognize` auf. Dies ist der Kern von **wie man OCR durchführt** und übersetzt das Bitmap in Unicode‑Text.
-
-```csharp
-// Perform the recognition
-engine.Recognize();
-```
-
-Die Methode blockiert, bis der OCR‑Vorgang abgeschlossen ist. Bei großen Bildern sollten Sie sie möglicherweise in einem Hintergrund‑Thread ausführen, um die UI reaktionsfähig zu halten.
-
-## Schritt 6: Text aus Bild extrahieren
-
-Nach der Erkennung speichert die Engine das Ergebnis in der Eigenschaft `Text`. Damit ist der Schritt **Text aus Bild extrahieren** abgeschlossen.
-
-```csharp
-// Retrieve the extracted text
-string extractedText = engine.Text;
-
-// Output the recognized text to the console
-Console.WriteLine(extractedText);
-```
-
-Die Ausgabe enthält die genauen Zeichen, die im Bild gefunden wurden, wobei Zeilenumbrüche und Satzzeichen erhalten bleiben.
-
-## Vollständiges, ausführbares Beispiel
-
-Wenn Sie alle Schritte zusammenfügen, erhalten Sie ein einzelnes Programm, das Sie kopieren, einfügen und ausführen können:
+Die erste funktionale Codezeile **lädt das Bild**, das Sie analysieren möchten. Aspose.OCR akzeptiert jeden Stream, sodass Sie eine Datei von der Festplatte, einer Web‑URL oder einer eingebetteten Ressource laden können.
 
 ```csharp
 using System;
 using Aspose.OCR;
+using Aspose.OCR.ImageProcessing;
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Create the OCR engine
-        OcrEngine engine = new OcrEngine();
+        // Step 3: Load the image containing Cyrillic text
+        // Replace the path with the location of your JPG file.
+        string imagePath = @"YOUR_DIRECTORY\cyrillic-sample.jpg";
+        using var image = ImageStream.FromFile(imagePath);
+```
 
-        // Step 2: Load the image for OCR
-        engine.Image = OcrImage.FromFile(@"C:\Images\cyrillic_sample.jpg");
+*Warum das wichtig ist*: Durch die Verwendung von `ImageStream.FromFile` wird die Formatbehandlung abstrahiert, sodass die OCR‑Engine ein konsistentes Bitmap erhält, unabhängig vom ursprünglichen Dateityp. Der Stream wird dank der `using`‑Anweisung automatisch freigegeben.
 
-        // Step 3: Choose the language model (Cyrillic in this case)
-        engine.Language = OcrLanguage.Cyrillic;
+## Schritt 4: OCR‑Engine initialisieren und Sprache festlegen (optional)
 
-        // Step 4: Perform OCR on the image
-        engine.Recognize();
+Standardmäßig versucht Aspose.OCR, die Sprache automatisch zu erkennen. Für kyrillischen Text können Sie explizit das Modul `Language.Cyrillic` anfordern, was den ersten Download beschleunigt.
 
-        // Step 5: Extract text from image
-        string extractedText = engine.Text;
+```csharp
+        // Step 4: Initialize the OCR engine
+        var engine = new OcrEngine();
 
-        // Step 6: Output the recognized text
+        // Optional: force Cyrillic language to avoid auto‑detection overhead
+        engine.Language = Language.Cyrillic;
+```
+
+Wenn Sie die Sprachzuweisung weglassen, lädt die Engine das notwendige Modul beim ersten Aufruf von `Recognize` herunter. Der Download erfolgt über HTTPS und wird lokal für nachfolgende Durchläufe zwischengespeichert.
+
+## Schritt 5: OCR ausführen und Bild in Text konvertieren
+
+Jetzt führen Sie tatsächlich **OCR auf Bild** aus und erhalten einen Klartext‑String. Die Methode `Recognize` übernimmt die gesamte schwere Arbeit: Vorverarbeitung, Layout‑Analyse und Zeichenklassifizierung.
+
+```csharp
+        // Step 5: Perform OCR – convert image to text
+        engine.Image = image;
+        string recognizedText = engine.Recognize();
+```
+
+Der zurückgegebene `recognizedText` enthält Zeilenumbrüche, die dem ursprünglichen Layout entsprechen, was die Nachbearbeitung oder das Speichern in einer Datenbank erleichtert.
+
+## Schritt 6: Ergebnis anzeigen – Text aus Bild lesen
+
+Abschließend **lesen Sie Text aus Bild**, indem Sie das Ergebnis in die Konsole schreiben. Dieser Schritt bestätigt, dass die OCR erfolgreich war, und zeigt Ihnen exakt das extrahierte Ergebnis.
+
+```csharp
+        // Step 6: Display the recognized text – read text from image
         Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(extractedText);
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-### Erwartete Ausgabe
-
-Wenn `cyrillic_sample.jpg` den Satz „Привет мир“ (Hello world) enthält, wird die Konsole anzeigen:
+Wenn Sie das Programm (`dotnet run`) ausführen, sollten Sie eine Ausgabe ähnlich der folgenden sehen:
 
 ```
 === OCR Result ===
-Привет мир
+Пример текста на кириллице
 ```
 
-Verschiedene Schriftarten oder Bildqualität können die Genauigkeit beeinflussen, aber Aspose.OCR erreicht in der Regel >95 % Erkennung bei klaren Drucken.
+> **Hinweis:** Die genaue Ausgabe hängt von der Qualität des Quell‑JPG ab. Klare, hochauflösende Bilder liefern die besten Ergebnisse.
 
-## Häufige Fallstricke und praktische Tipps
+## Vollständiger, ausführbarer Quellcode
 
-- **Bildqualität ist wichtig** – niedrig aufgelöste oder verrauschte JPEGs verringern die Genauigkeit. Verarbeiten Sie das Bild ggf. vor (z. B. Kontrast erhöhen) mit `engine.Image.AdjustContrast()`.
-- **Sprachmodell‑Download** – die erste Ausführung lädt das Modell nach `%USERPROFILE%\.Aspose\OCR` herunter. Stellen Sie sicher, dass der Prozess Schreibrechte hat.
-- **Stapelverarbeitung** – verwenden Sie dieselbe `OcrEngine`‑Instanz erneut und ändern Sie nur `engine.Image` zwischen den Dateien. So vermeiden Sie wiederholtes Laden des Modells.
-- **Speichernutzung** – große Bilder verbrauchen mehr RAM. Rufen Sie `engine.Image.Dispose()` nach jeder Erkennung auf, wenn Sie viele Dateien in einer Schleife verarbeiten.
-- **Thread‑Sicherheit** – `OcrEngine` ist nicht thread‑sicher. Erstellen Sie bei Parallelisierung pro Thread eine separate Instanz.
+Unten finden Sie das komplette Programm, das Sie in *Program.cs* einfügen und ohne Änderungen (abgesehen vom Bildpfad) ausführen können.
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.ImageProcessing;
+
+class Program
+{
+    static void Main()
+    {
+        // Load the image containing Cyrillic text
+        string imagePath = @"YOUR_DIRECTORY\cyrillic-sample.jpg";
+        using var image = ImageStream.FromFile(imagePath);
+
+        // Initialize the OCR engine
+        var engine = new OcrEngine
+        {
+            // Force Cyrillic language; optional but speeds up first run
+            Language = Language.Cyrillic,
+            Image = image
+        };
+
+        // Recognize the text – this converts the image to text
+        string recognizedText = engine.Recognize();
+
+        // Display the recognized text
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(recognizedText);
+    }
+}
+```
+
+Das Ausführen des Programms gibt die extrahierten Zeichen in der Konsole aus und beweist, dass Sie erfolgreich **Text aus JPG** extrahiert und **Bild in Text konvertiert** haben.
+
+## Umgang mit gängigen Variationen
+
+| Szenario | Anpassung |
+|----------|------------|
+| **Andere Sprache** | Set `engine.Language = Language.English;` or another supported enum. |
+| **Mehrseitiges PDF** | Convert each page to an image (e.g., using `Aspose.PDF`) and call the OCR loop for each image. |
+| **Großer Batch** | Wrap the OCR call in a `Parallel.ForEach` loop; reuse a single `OcrEngine` instance to reduce memory overhead. |
+| **Niedrigauflösendes Bild** | Pre‑process with `engine.Image = ImageProcessing.Filters.GaussianBlur(image, 1.5);` to reduce noise before recognition. |
+
+Diese Variationen ermöglichen es Ihnen, **Text aus JPG**‑Dateien jeder Sprache, Größe oder Qualität zu **extrahieren**.
+
+## Leistungstipps
+
+* **Sprachmodule zwischenspeichern** – der erste Download kann einige Sekunden dauern; nachfolgende Durchläufe sind sofortig. |
+* **Die `OcrEngine`‑Instanz wiederverwenden** für mehrere Bilder, um wiederholte Initialisierungskosten zu vermeiden. |
+* **Bildgröße begrenzen** – extrem große Fotos erhöhen den Speicherverbrauch. Vor dem Einspeisen in die Engine auf maximal 2000 px Breite verkleinern.
 
 ## Fazit
 
-Sie wissen jetzt, **wie man OCR** auf einem JPEG durchführt, **Bild für OCR lädt** und **Text aus Bild extrahiert** mit Aspose.OCR in C#. Die vollständige Lösung zeigt das Einstellen der Sprache, das Erkennen von Text aus JPG und das Ausgeben des Ergebnisses und bietet Ihnen eine solide Grundlage für jedes Text‑Extraktions‑Projekt.
+Sie wissen jetzt, wie man **OCR auf Bild**‑Dateien in C# mit Aspose.OCR durchführt. Durch das Laden eines Bildes, das Konfigurieren der Engine und den Aufruf von `Recognize` können Sie **Text aus JPG** extrahieren, **Bild in Text konvertieren** und **Text aus Bild** mit nur wenigen Codezeilen lesen.  
 
-Als Nächstes erkunden Sie verwandte Themen wie **OCR auf Bild‑Stapel** durchführen, OCR in ASP.NET Core APIs integrieren oder den extrahierten Text in durchsuchbare PDFs umwandeln. Experimentieren Sie mit verschiedenen Sprachen und Bildvorverarbeitung, um die Erkennungsqualität zu maximieren.
+Von hier aus können Sie:
+
+* Die OCR‑Ergebnisse in einer Datenbank für durchsuchbare Archive speichern.  
+* Den Workflow in eine Web‑API integrieren, die hochgeladene Bilder akzeptiert.  
+* Weitere Sprachmodule (Arabisch, Hindi usw.) verwenden, um die Reichweite Ihrer Anwendung zu erweitern.
+
+Experimentieren Sie gern mit verschiedenen Bildformaten, Sprachen und Batch‑Verarbeitungs‑Strategien. Das Kernmuster – **Bild für OCR laden → erkennen → Klartext‑Ausgabe verarbeiten** – bleibt gleich und bietet Ihnen eine solide Grundlage für jedes Text‑Extraktions‑Projekt.
 
 ## Was sollten Sie als Nächstes lernen?
 
-Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden gezeigten Techniken aufbauen. Jede Ressource enthält vollständige funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, die Ihnen helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
+Die folgenden Tutorials behandeln eng verwandte Themen, die auf den in diesem Leitfaden demonstrierten Techniken aufbauen. Jede Ressource enthält vollständige, funktionierende Codebeispiele mit Schritt‑für‑Schritt‑Erklärungen, um Ihnen zu helfen, zusätzliche API‑Funktionen zu meistern und alternative Implementierungsansätze in Ihren eigenen Projekten zu erkunden.
 
-- [Wie man OCR in C# durchführt – Bild in Text konvertieren mit Aspose OCR](/ocr/english/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
-- [Wie man OCR in C# durchführt – Text aus Bild erkennen](/ocr/english/net/text-recognition/how-to-perform-ocr-in-c-recognize-text-from-image/)
-- [Wie man Text aus Bild extrahiert mit Aspose.OCR für .NET](/ocr/english/net/text-recognition/get-recognition-result/)
+- [Bildtext in C# mit Sprachauswahl extrahieren mit Aspose.OCR](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [Bild in Text konvertieren – OCR auf Bild von URL ausführen](/ocr/english/net/ocr-optimization/perform-ocr-on-image-from-url/)
+- [Wie man Text aus Bild mit Aspose.OCR für .NET extrahiert](/ocr/english/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

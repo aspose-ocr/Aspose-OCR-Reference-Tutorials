@@ -1,37 +1,36 @@
 ---
 category: general
-date: 2026-10-21
-description: C#에서 Aspose.OCR을 사용하여 JPG에 대한 OCR을 수행하고, 이미지에서 텍스트를 추출하며, OCR을 위해 이미지를
-  로드하는 방법을 배워보세요. 완전한 단계별 가이드.
+date: 2026-10-18
+description: C#에서 이미지를 빠르게 OCR 처리하세요. JPG에서 텍스트를 추출하고, 이미지를 텍스트로 변환하며, Aspose.OCR을
+  사용하여 이미지에서 텍스트를 읽는 방법을 배워보세요.
 draft: false
 images:
 - PLACEHOLDER_URL/og-image.png
 keywords:
-- how to perform OCR
-- extract text from image
-- recognize text from jpg
-- load image for OCR
 - perform OCR on image
+- extract text from JPG
+- convert image to text
+- read text from image
+- load image for OCR
 language: ko
-lastmod: 2026-10-21
-og_description: Aspose.OCR을 사용하여 C#에서 이미지에 OCR을 수행하는 방법. 이 가이드를 따라 OCR용 이미지를 로드하고,
-  JPG에서 텍스트를 인식하며, 이미지에서 텍스트를 추출하세요.
-og_image_alt: Screenshot showing how to perform OCR on a Cyrillic image in C#
-og_title: C#에서 이미지에 OCR을 수행하는 방법 – 단계별 가이드
+lastmod: 2026-10-18
+og_description: Aspose.OCR를 사용하여 C#에서 이미지에 대한 OCR을 수행합니다. 이 튜토리얼에서는 JPG에서 텍스트를 추출하고,
+  이미지를 텍스트로 변환하며, 몇 분 안에 이미지에서 텍스트를 읽는 방법을 보여줍니다.
+og_image_alt: Console output displaying recognized Cyrillic text after performing
+  OCR on an image
+og_title: C#에서 이미지에 OCR 수행 – 완전 가이드
 schemas:
 - author: Aspose
-  dateModified: '2026-10-21'
-  description: Learn how to perform OCR on a JPG, extract text from image and load
-    image for OCR using Aspose.OCR in C#. Complete step‑by‑step guide.
+  dateModified: '2026-10-18'
+  description: Perform OCR on an image in C# quickly. Learn to extract text from JPG,
+    convert image to text and read text from image using Aspose.OCR.
   headline: How to perform OCR on an image in C# with Aspose.OCR
   type: TechArticle
 tags:
 - OCR
 - C#
 - Aspose.OCR
-- Image processing
-- Text extraction
-title: Aspose.OCR를 사용하여 C#에서 이미지에 OCR을 수행하는 방법
+title: Aspose.OCR을 사용하여 C#에서 이미지에 OCR 수행하는 방법
 url: /ko/net/text-recognition/how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/
 ---
 
@@ -39,155 +38,189 @@ url: /ko/net/text-recognition/how-to-perform-ocr-on-an-image-in-c-with-aspose-oc
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#와 Aspose.OCR을 사용하여 이미지에서 OCR 수행 방법
+# C#에서 Aspose.OCR을 사용하여 이미지에 OCR 수행하는 방법
 
-이미지에 **OCR을 수행하는 방법**이 필요하다면, 이 튜토리얼은 완전하고 바로 실행 가능한 솔루션을 제공합니다. 이미지 로드, JPG 파일에서 텍스트 인식, Aspose.OCR 라이브러리를 사용한 이미지에서 텍스트 추출 방법을 배울 수 있습니다.
+.NET 애플리케이션에서 **이미지에 OCR을 수행**해야 하는 경우, 이 가이드는 완전하고 바로 실행할 수 있는 솔루션을 보여줍니다. **OCR용 이미지 로드**, 키릴 문자 인식, 그리고 **JPG 파일에서 텍스트 추출**을 저수준 이미지 처리 코드를 작성하지 않고도 수행하는 방법을 확인할 수 있습니다.
 
-이 가이드는 NuGet 패키지 설치부터 언어 모델 처리 및 인식 결과 출력까지 모든 과정을 다룹니다. 끝까지 따라 하면 IDE를 떠나지 않고도 .NET 프로젝트에 OCR을 통합하고, 키릴 문자나 기타 언어 텍스트를 처리할 수 있습니다.
+이 튜토리얼에서 여러분은:
 
-## 필요 사항
+* Aspose.OCR NuGet 패키지를 설치합니다.  
+* 이미지 파일(JPG, PNG, BMP 등)을 로드합니다.  
+* OCR 엔진을 실행하여 **이미지를 텍스트로 변환**합니다.  
+* 콘솔에 **이미지에서 텍스트 읽기** 결과를 출력합니다.  
 
-- .NET 6.0 이상 (코드는 .NET Framework 4.7+에서도 동작)
-- Visual Studio 2022 (또는 기타 C# 편집기)
-- 최초 실행 시 인터넷 접속 필요 (Aspose.OCR이 언어 모델을 자동으로 다운로드)
-- 예시 이미지, 예: `cyrillic_sample.jpg` (코드에서 참조할 수 있는 폴더에 위치)
+이 단계들은 모든 .NET 호환 이미지에서 작동하므로 PDF, 스캔 영수증 또는 스크린샷에도 적용할 수 있습니다.
 
-## 단계 1: Aspose.OCR 설치
+## 사전 요구 사항
 
-NuGet 패키지 관리자를 열고 **Aspose.OCR**을 프로젝트에 추가합니다:
+* .NET 6.0 SDK 이상(코드는 .NET Framework 4.7+에서도 작동합니다).  
+* Visual Studio 2022 또는 선호하는 C# 편집기.  
+* 첫 실행을 위한 인터넷 연결 – Aspose.OCR이 키릴어 언어 모듈을 자동으로 다운로드합니다.  
+
+> **Pro tip:** NuGet 패키지를 최신 상태로 유지하세요; 최신 버전은 인식 정확도를 향상시키고 언어 팩을 추가합니다.
+
+## Step 1: Aspose.OCR 설치
+
+프로젝트 폴더에서 터미널을 열고 다음 명령을 실행합니다:
 
 ```bash
 dotnet add package Aspose.OCR
 ```
 
-패키지에는 OCR 엔진, 언어 모델, 이미지 처리를 위한 도우미 클래스가 포함됩니다. 추가 DLL은 필요하지 않습니다.
+패키지에는 이미지 파일에 **OCR을 수행**하는 데 사용되는 `OcrEngine` 클래스가 포함되어 있습니다. 명령이 완료되면 패키지 참조가 *.csproj* 파일에 나타납니다.
 
-## 단계 2: OCR 엔진 생성 – how to perform OCR
+## Step 2: 콘솔 프로그램 골격 만들기
 
-**how to perform OCR**의 첫 번째 실제 작업은 엔진을 인스턴스화하는 것입니다. 이 객체가 전체 인식 파이프라인을 관리합니다.
+아직 프로젝트가 없으면 새 콘솔 프로젝트를 생성합니다:
 
-```csharp
-using Aspose.OCR;
-
-// Create an OCR engine instance
-OcrEngine engine = new OcrEngine();
+```bash
+dotnet new console -n OcrDemo
+cd OcrDemo
 ```
 
-`OcrEngine`은 가볍고, 여러 이미지에 대해 동일 인스턴스를 재사용할 수 있어 배치 처리 시 성능이 향상됩니다.
+생성된 *Program.cs*를 다음 섹션에 표시된 코드로 교체합니다. 골격에는 필요한 `using` 지시문과 OCR 프로세스를 구동하는 `Main` 메서드가 포함되어 있습니다.
 
-## 단계 3: OCR용 이미지 로드
+## Step 3: OCR용 이미지 로드
 
-인식 전에 이미지 데이터를 제공해야 합니다. **load image for OCR** 단계는 다양한 포맷을 지원하지만, 여기서는 JPEG 파일에 초점을 맞춥니다.
-
-```csharp
-// Load the image you want to process
-engine.Image = OcrImage.FromFile(@"C:\Images\cyrillic_sample.jpg");
-```
-
-`OcrImage.FromFile`은 파일을 메모리로 읽어 엔진에 전달합니다. 파일 경로가 잘못되면 `ArgumentException`이 발생하므로 경로를 정확히 지정하세요.
-
-## 단계 4: 적절한 언어 선택 (선택 사항이지만 권장)
-
-이미지에 키릴 문자가 포함되어 있다면 언어를 `Cyrillic`으로 설정합니다. 필요한 모델은 최초 실행 시 자동으로 다운로드됩니다.
-
-```csharp
-// Choose the language model
-engine.Language = OcrLanguage.Cyrillic;
-```
-
-이 속성을 `OcrLanguage.English` 등 다른 언어로 바꾸면 해당 언어를 사용할 수 있습니다. 라이브러리는 60개가 넘는 언어를 지원합니다.
-
-## 단계 5: JPG에서 텍스트 인식 – how to perform OCR on a JPEG
-
-이제 `Recognize` 메서드를 호출합니다. 이것이 **how to perform OCR**의 핵심이며 비트맵을 유니코드 텍스트로 변환합니다.
-
-```csharp
-// Perform the recognition
-engine.Recognize();
-```
-
-메서드는 OCR 처리가 끝날 때까지 블록됩니다. 큰 이미지의 경우 UI 응답성을 유지하기 위해 백그라운드 스레드에서 실행하는 것이 좋습니다.
-
-## 단계 6: 이미지에서 텍스트 추출
-
-인식이 끝나면 엔진은 결과를 `Text` 속성에 저장합니다. 이것이 **extract text from image** 단계입니다.
-
-```csharp
-// Retrieve the extracted text
-string extractedText = engine.Text;
-
-// Output the recognized text to the console
-Console.WriteLine(extractedText);
-```
-
-출력에는 이미지에서 발견된 정확한 문자와 줄 바꿈, 구두점이 그대로 포함됩니다.
-
-## 전체 실행 가능한 예제
-
-모든 단계를 합치면 복사·붙여넣기만으로 바로 실행할 수 있는 단일 프로그램이 됩니다:
+첫 번째 기능 코드 라인은 분석하려는 **이미지를 로드**합니다. Aspose.OCR은 모든 스트림을 허용하므로 디스크 파일, 웹 URL 또는 임베디드 리소스에서 파일을 로드할 수 있습니다.
 
 ```csharp
 using System;
 using Aspose.OCR;
+using Aspose.OCR.ImageProcessing;
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Create the OCR engine
-        OcrEngine engine = new OcrEngine();
+        // Step 3: Load the image containing Cyrillic text
+        // Replace the path with the location of your JPG file.
+        string imagePath = @"YOUR_DIRECTORY\cyrillic-sample.jpg";
+        using var image = ImageStream.FromFile(imagePath);
+```
 
-        // Step 2: Load the image for OCR
-        engine.Image = OcrImage.FromFile(@"C:\Images\cyrillic_sample.jpg");
+*왜 중요한가*: `ImageStream.FromFile`을 사용하면 형식 처리를 추상화하여 원본 파일 유형에 관계없이 OCR 엔진이 일관된 비트맵을 받게 됩니다. 또한 `using` 문 덕분에 스트림이 자동으로 해제됩니다.
 
-        // Step 3: Choose the language model (Cyrillic in this case)
-        engine.Language = OcrLanguage.Cyrillic;
+## Step 4: OCR 엔진 초기화 및 언어 설정(선택 사항)
 
-        // Step 4: Perform OCR on the image
-        engine.Recognize();
+기본적으로 Aspose.OCR은 언어를 자동으로 감지합니다. 키릴어 텍스트의 경우 `Language.Cyrillic` 모듈을 명시적으로 요청하면 최초 다운로드 속도가 빨라집니다.
 
-        // Step 5: Extract text from image
-        string extractedText = engine.Text;
+```csharp
+        // Step 4: Initialize the OCR engine
+        var engine = new OcrEngine();
 
-        // Step 6: Output the recognized text
+        // Optional: force Cyrillic language to avoid auto‑detection overhead
+        engine.Language = Language.Cyrillic;
+```
+
+언어 할당을 생략하면 `Recognize`를 처음 호출할 때 엔진이 필요한 모듈을 다운로드합니다. 다운로드는 HTTPS를 통해 이루어지며 이후 실행을 위해 로컬에 캐시됩니다.
+
+## Step 5: OCR 수행 및 이미지 텍스트 변환
+
+이제 실제로 **이미지에 OCR을 수행**하고 평문 문자열을 얻습니다. `Recognize` 메서드는 전처리, 레이아웃 분석, 문자 분류 등 모든 무거운 작업을 수행합니다.
+
+```csharp
+        // Step 5: Perform OCR – convert image to text
+        engine.Image = image;
+        string recognizedText = engine.Recognize();
+```
+
+반환된 `recognizedText`에는 원본 레이아웃과 일치하는 줄 바꿈이 포함되어 있어 후처리하거나 데이터베이스에 저장하기가 쉽습니다.
+
+## Step 6: 결과 표시 – 이미지에서 텍스트 읽기
+
+마지막으로 결과를 콘솔에 출력하여 **이미지에서 텍스트를 읽습니다**. 이 단계는 OCR이 성공했는지 확인하고 추출된 내용을 정확히 보여줍니다.
+
+```csharp
+        // Step 6: Display the recognized text – read text from image
         Console.WriteLine("=== OCR Result ===");
-        Console.WriteLine(extractedText);
+        Console.WriteLine(recognizedText);
     }
 }
 ```
 
-### 예상 출력
-
-`cyrillic_sample.jpg`에 “Привет мир”(Hello world) 문구가 포함되어 있으면 콘솔에 다음과 같이 표시됩니다:
+프로그램을 실행하면(`dotnet run`) 다음과 유사한 출력이 표시됩니다:
 
 ```
 === OCR Result ===
-Привет мир
+Пример текста на кириллице
 ```
 
-폰트나 이미지 품질에 따라 정확도가 달라질 수 있지만, Aspose.OCR은 일반적으로 선명한 인쇄물에서 95 % 이상의 인식률을 보입니다.
+> **Note:** 정확한 출력은 원본 JPG의 품질에 따라 달라집니다. 선명하고 고해상도 이미지가 가장 좋은 결과를 제공합니다.
 
-## 흔히 겪는 문제와 실용적인 팁
+## 전체 실행 가능한 소스 코드
 
-- **이미지 품질이 중요** – 저해상도 또는 노이즈가 많은 JPEG는 정확도를 떨어뜨립니다. 필요하면 `engine.Image.AdjustContrast()` 등으로 사전 처리하세요.
-- **언어 모델 다운로드** – 첫 실행 시 모델이 `%USERPROFILE%\.Aspose\OCR`에 다운로드됩니다. 프로세스에 쓰기 권한이 있는지 확인하세요.
-- **배치 처리** – 동일 `OcrEngine` 인스턴스를 재사용하고 파일마다 `engine.Image`만 교체하면 모델 로딩을 반복하지 않아 효율적입니다.
-- **메모리 사용량** – 큰 이미지는 RAM을 많이 차지합니다. 여러 파일을 루프 처리할 경우 인식 후 `engine.Image.Dispose()`를 호출하세요.
-- **스레드 안전성** – `OcrEngine`은 스레드 안전하지 않습니다. 병렬 처리 시 스레드당 별도 인스턴스를 생성하세요.
+아래는 *Program.cs*에 복사‑붙여넣기만 하면 수정 없이 실행할 수 있는 전체 프로그램입니다(이미지 경로만 제외).
+
+```csharp
+using System;
+using Aspose.OCR;
+using Aspose.OCR.ImageProcessing;
+
+class Program
+{
+    static void Main()
+    {
+        // Load the image containing Cyrillic text
+        string imagePath = @"YOUR_DIRECTORY\cyrillic-sample.jpg";
+        using var image = ImageStream.FromFile(imagePath);
+
+        // Initialize the OCR engine
+        var engine = new OcrEngine
+        {
+            // Force Cyrillic language; optional but speeds up first run
+            Language = Language.Cyrillic,
+            Image = image
+        };
+
+        // Recognize the text – this converts the image to text
+        string recognizedText = engine.Recognize();
+
+        // Display the recognized text
+        Console.WriteLine("=== OCR Result ===");
+        Console.WriteLine(recognizedText);
+    }
+}
+```
+
+프로그램을 실행하면 추출된 문자가 콘솔에 출력되어 **JPG에서 텍스트를 성공적으로 추출**하고 **이미지를 텍스트로 변환**했음을 증명합니다.
+
+## 일반적인 변형 처리
+
+| 시나리오 | 조정 |
+|----------|------------|
+| **다른 언어** | `engine.Language = Language.English;`와 같이 설정하거나 다른 지원되는 열거형을 사용합니다. |
+| **다중 페이지 PDF** | `Aspose.PDF` 등을 사용해 각 페이지를 이미지로 변환하고 각 이미지에 대해 OCR 루프를 호출합니다. |
+| **대용량 배치** | OCR 호출을 `Parallel.ForEach` 루프로 감싸고, 메모리 사용량을 줄이기 위해 단일 `OcrEngine` 인스턴스를 재사용합니다. |
+| **저해상도 이미지** | 인식 전에 `engine.Image = ImageProcessing.Filters.GaussianBlur(image, 1.5);`를 사용해 전처리하여 노이즈를 감소시킵니다. |
+
+이러한 변형을 통해 어떤 언어, 크기, 품질의 **JPG 파일에서 텍스트를 추출**할 수 있습니다.
+
+## 성능 팁
+
+* **언어 모듈 캐시** – 최초 다운로드는 몇 초가 걸릴 수 있지만 이후 실행은 즉시 이루어집니다. |
+* **`OcrEngine` 인스턴스 재사용** – 여러 이미지에 대해 동일 인스턴스를 사용하면 초기화 비용을 반복적으로 발생시키는 것을 방지합니다. |
+* **이미지 크기 제한** – 매우 큰 사진은 메모리 사용량을 증가시킵니다. 엔진에 전달하기 전에 가로 최대 2000 px로 크기를 조정하세요.
 
 ## 결론
 
-이제 C#에서 Aspose.OCR을 사용해 JPEG에 **how to perform OCR**를 수행하고, **load image for OCR**, **extract text from image**를 구현하는 방법을 알게 되었습니다. 언어 설정, JPG 텍스트 인식, 결과 출력까지 완전한 솔루션을 통해 텍스트 추출 프로젝트의 탄탄한 기반을 마련할 수 있습니다.
+이제 Aspose.OCR을 사용하여 C#에서 이미지 파일에 **OCR을 수행**하는 방법을 알게 되었습니다. 이미지를 로드하고, 엔진을 구성한 뒤 `Recognize`를 호출하면 몇 줄의 코드만으로 **JPG에서 텍스트를 추출**, **이미지를 텍스트로 변환**, 그리고 **이미지에서 텍스트를 읽**을 수 있습니다.  
 
-다음 단계로는 **perform OCR on image** 배치 처리, ASP.NET Core API와의 OCR 통합, 추출된 텍스트를 검색 가능한 PDF로 변환하는 방법 등을 탐색해 보세요. 다양한 언어와 이미지 전처리를 실험하여 인식 품질을 극대화해 보시기 바랍니다.
+다음과 같은 방향을 탐색해 볼 수 있습니다:
+
+* OCR 결과를 데이터베이스에 저장하여 검색 가능한 아카이브를 구축합니다.  
+* 업로드된 이미지를 받아들이는 웹 API에 워크플로를 통합합니다.  
+* 다른 언어 모듈(아랍어, 힌디어 등)을 사용해 애플리케이션의 적용 범위를 넓힙니다.
+
+다양한 이미지 형식, 언어 및 배치 처리 전략을 자유롭게 실험해 보세요. 핵심 패턴인 **OCR용 이미지 로드 → 인식 → 평문 출력 처리**는 변하지 않으며, 모든 텍스트 추출 프로젝트를 위한 견고한 기반을 제공합니다.
 
 ## 다음에 배울 내용은?
 
-다음 튜토리얼들은 이 가이드에서 다룬 기술을 기반으로 하며, 단계별 코드 예제와 자세한 설명을 제공합니다. 이를 통해 추가 API 기능을 마스터하고 프로젝트에 다양한 구현 방식을 적용할 수 있습니다.
+다음 튜토리얼은 이 가이드에서 시연한 기술을 기반으로 하는 밀접한 관련 주제를 다룹니다. 각 자료에는 단계별 설명과 함께 완전한 코드 예제가 포함되어 있어 추가 API 기능을 숙달하고 자체 프로젝트에서 대체 구현 방식을 탐색하는 데 도움이 됩니다.
 
-- [C#에서 OCR 수행 – Aspose OCR로 이미지 텍스트 변환](/ocr/english/net/text-recognition/how-to-perform-ocr-in-c-convert-image-to-text-with-aspose-oc/)
-- [C#에서 OCR 수행 – 이미지에서 텍스트 인식](/ocr/english/net/text-recognition/how-to-perform-ocr-in-c-recognize-text-from-image/)
-- [Aspose.OCR for .NET을 사용해 이미지에서 텍스트 추출](/ocr/english/net/text-recognition/get-recognition-result/)
+- [Aspose.OCR을 사용한 언어 선택이 가능한 C# 이미지 텍스트 추출](/ocr/english/net/ocr-configuration/ocr-operation-with-language-selection/)
+- [이미지를 텍스트로 변환 – URL에서 이미지에 OCR 수행](/ocr/english/net/ocr-optimization/perform-ocr-on-image-from-url/)
+- [.NET용 Aspose.OCR을 사용한 이미지 텍스트 추출 방법](/ocr/english/net/text-recognition/get-recognition-result/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
