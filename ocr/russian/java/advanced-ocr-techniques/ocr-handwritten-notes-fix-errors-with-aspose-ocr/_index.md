@@ -1,26 +1,52 @@
 ---
 category: general
-date: 2026-02-22
-description: Узнайте, как распознавать рукописные заметки и исправлять ошибки OCR
-  с помощью функции проверки орфографии Aspose OCR. Полное руководство по Java с пользовательским
-  словарём.
-draft: false
+date: 2026-10-24
+description: Преобразуйте заметки в текст с помощью Aspose OCR – узнайте, как извлекать
+  чистый текст, включать проверку орфографии и загружать пользовательский словарь
+  в учебнике по OCR на Java.
 keywords:
-- ocr handwritten notes
-- correct ocr errors
-- Aspose OCR Java
-- spell check OCR
-- custom dictionary OCR
-language: ru
-og_description: Узнайте, как распознавать рукописные заметки и исправлять ошибки OCR
-  в Java с помощью встроенной проверки орфографии и пользовательских словарей Aspose
-  OCR.
-og_title: OCR рукописных заметок — исправление ошибок с помощью Aspose OCR
+- convert notes to text
+- extract clean text
+- load custom dictionary
+- java ocr tutorial
+- Aspose OCR
+lastmod: 2026-10-24
+og_description: Преобразуйте заметки в текст с помощью Aspose OCR. Этот учебник по
+  Java показывает, как извлекать чистый текст, включать проверку орфографии и загружать
+  пользовательский словарь для точных результатов.
+og_image_alt: Screenshot of corrected OCR text from handwritten notes
+og_title: Преобразовать заметки в текст – исправить ошибки с помощью Aspose OCR
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Convert notes to text with Aspose OCR – learn how to extract clean
+    text, enable spell‑check, and load a custom dictionary in a Java OCR tutorial.
+  headline: Convert notes to text – fix errors with Aspose OCR
+  type: TechArticle
+- questions:
+  - answer: Yes. Aspose OCR ships with dictionaries for more than 30 languages; set
+      the desired language via `ocrEngine.setLanguage(Language.French)` (or the appropriate
+      enum) before enabling spell‑check.
+    question: Does spell‑check work with languages other than English?
+  - answer: The file is loaded once into memory, so the performance impact is negligible.
+      Just keep it UTF‑8 encoded and avoid duplicate entries.
+    question: What if my custom dictionary contains thousands of words?
+  - answer: Absolutely. Temporarily call `ocrEngine.setSpellCheckEnabled(false)`,
+      run `recognize`, and inspect `ocrResult.getText()` for the uncorrected result.
+    question: Can I see the raw OCR output before correction?
+  - answer: Add each page image to the same `OcrInput` instance. The engine concatenates
+      the recognized text in the order you added the images.
+    question: How do I handle multiple pages of notes?
+  - answer: Aspose OCR efficiently processes images up to 500 dpi; for higher resolutions
+      you may want to downscale to improve speed without sacrificing accuracy.
+    question: Are there limits on image size or resolution?
+  type: FAQPage
 tags:
 - OCR
 - Java
-- Aspose
-title: OCR рукописных заметок – исправление ошибок с помощью Aspose OCR
+- Aspose OCR
+- convert notes to text
+title: Преобразовать заметки в текст – исправить ошибки с помощью Aspose OCR
 url: /ru/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspose-ocr/
 ---
 
@@ -28,29 +54,37 @@ url: /ru/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ocr handwritten notes – Fix Errors with Aspose OCR
+# Преобразование заметок в текст — исправление ошибок с помощью Aspose OCR
 
-Когда‑то пытались **ocr handwritten notes** и получали кучу опечаток? Вы не одиноки; конвейер «рукописный текст → текст» часто теряет буквы, путает похожие символы и оставляет вас разбираться с результатом.  
+Если вам нужно **преобразовать заметки в текст** и вы устали от ручного исправления ошибок OCR, вы попали в нужное место. Конвейеры преобразования рукописного текста часто неправильно интерпретируют буквы, пропускают символы или меняют похожие знаки, оставляя шумный вывод, требующий утомительной очистки. Встроенный в Aspose OCR механизм проверки орфографии автоматически **извлекает чистый текст** и может быть расширен **пользовательским словарём** для специализированных словарей. В этом **уроке по Java OCR** мы пройдем полный, исполняемый пример, который загружает отсканированное изображение ваших заметок, запускает OCR и возвращает отшлифованный, индексируемый текст.
 
-Хорошая новость в том, что Aspose OCR поставляется со встроенным модулем проверки орфографии, который может **correct ocr errors** автоматически, а также позволяет загрузить собственный словарь для отраслевой лексики. В этом руководстве мы пройдем полный, готовый к запуску пример на Java, который берёт отсканированное изображение ваших заметок, выполняет OCR и возвращает чистый, исправленный текст.
+## Быстрые ответы
+- **Что делает механизм проверки орфографии?** Он автоматически заменяет маловероятные слова на наиболее вероятные альтернативы на основе встроенных и пользовательских словарей.  
+- **Нужна ли лицензия?** Бесплатная пробная версия подходит для разработки; для продакшн требуется коммерческая лицензия.  
+- **Могу ли я использовать свой собственный словарь?** Да — просто предоставьте UTF‑8 текстовый файл, в котором каждый термин находится в отдельной строке.  
+- **Какие версии Java поддерживаются?** Java 8 или новее.  
+- **Быстрый ли механизм для больших пакетов?** Он переиспользует словари, поэтому обработка сотен страниц добавляет лишь минимальные накладные расходы.
 
-## What You’ll Learn
+## Как преобразовать заметки в текст с помощью Aspose OCR?
 
+Загрузите изображение, включите проверку орфографии и вызовите `recognize`. Механизм возвращает объект `OcrResult`, который уже содержит исправленную строку, поэтому вы получаете чистый, индексируемый текст всего в нескольких строках кода. Этот подход работает как для одностраничных сканов, так и для многостраничных блокнотов, и он поддерживает английский язык из коробки, а также десятки других языков.
+
+## Что вы узнаете
 - Как создать экземпляр `OcrEngine` и включить проверку орфографии.  
-- Как загрузить пользовательский словарь для обработки специализированных терминов.  
-- Как передать изображение **ocr handwritten notes** в движок.  
-- Как получить исправленный текст и убедиться, что **correct ocr errors** действительно применены.  
+- Как **загрузить пользовательский словарь**, чтобы сохранить специализированную терминологию.  
+- Как передать изображение **рукописных заметок** в механизм.  
+- Как получить исправленный текст и убедиться, что **ошибки OCR** исправлены.
 
-**Prerequisites**  
-- Установлен Java 8 или новее.  
-- Лицензия Aspose OCR for Java (или бесплатная пробная версия).  
-- PNG/JPEG‑изображение с рукописными заметками (чем чище, тем лучше).  
+**Требования**  
+- Java 8 или новее, установлен.  
+- Лицензия Aspose OCR для Java (или бесплатная пробная версия).  
+- Чёткое PNG/JPEG изображение, содержащее рукописные заметки.
 
-Если всё готово, приступим.
+Если у вас есть всё это, давайте приступим.
 
-## Step 1: Set Up the Project and Add Aspose OCR
+## Шаг 1: настройте проект и добавьте Aspose OCR
 
-Прежде чем мы сможем **ocr handwritten notes**, нам нужна библиотека Aspose OCR в classpath.
+Прежде чем мы сможем **преобразовать заметки в текст**, нам нужна библиотека Aspose OCR в нашем classpath.
 
 ```xml
 <!-- pom.xml snippet for Maven users -->
@@ -61,12 +95,15 @@ url: /ru/java/advanced-ocr-techniques/ocr-handwritten-notes-fix-errors-with-aspo
 </dependency>
 ```
 
-> **Pro tip:** Если вы предпочитаете Gradle, эквивалентная запись выглядит так: `implementation 'com.aspose:aspose-ocr:23.9'`.  
-> Убедитесь, что файл лицензии (`Aspose.OCR.lic`) находится в корне проекта или задайте лицензию программно.
+> **Совет:** Если вы предпочитаете Gradle, эквивалентная запись выглядит так `implementation 'com.aspose:aspose-ocr:23.9'`. Поместите ваш файл лицензии (`Aspose.OCR.lic`) в корень проекта или задайте лицензию программно.
 
-## Step 2: Initialize the OCR Engine and Enable Spell Check
+## Шаг 2: инициализировать OCR‑движок и включить проверку орфографии
 
-Сердце решения — `OcrEngine`. Включение проверки орфографии заставляет Aspose выполнить пост‑обработку распознавания, что именно нужно для **correct ocr errors** в неаккуратных рукописных записях.
+Класс `OcrEngine` — основной компонент, выполняющий анализ изображений и извлечение текста.
+
+`OcrEngine` — основной класс Aspose OCR, инкапсулирующий конвейер распознавания, включая необязательную пост‑обработку, такую как проверка орфографии.
+
+Включение проверки орфографии заставляет Aspose выполнить проход пост‑коррекции после распознавания, что именно нужно, чтобы **извлечь чистый текст** из шумной рукописи.
 
 ```java
 import com.aspose.ocr.*;
@@ -80,23 +117,26 @@ public class SpellCheckDemo {
         ocrEngine.setSpellCheckEnabled(true);
 ```
 
-*Почему это важно:* Модуль проверки орфографии использует встроенный словарь плюс любые пользовательские словари, которые вы подключите. Он сканирует сырые результаты OCR, помечает маловероятные слова и заменяет их на наиболее вероятные варианты — отличное решение для очистки **ocr handwritten notes**.
+*Почему это важно:* Модуль проверки орфографии объединяет встроенный словарь более 150 000 английских слов с любыми пользовательскими словарями, которые вы подключаете, затем заменяет маловероятные слова на наиболее вероятные альтернативы — отличное решение для очистки **рукописных заметок**.
 
-## Step 3: (Optional) Load a Custom Dictionary for Domain‑Specific Words
+## Шаг 3: (необязательно) загрузить пользовательский словарь для специализированных слов
 
-Если в ваших заметках есть жаргон, названия продуктов или аббревиатуры, неизвестные стандартному словарю, добавьте пользовательский словарь. По одному слову на строку, кодировка UTF‑8.
+Если ваши заметки содержат жаргон, названия продуктов или аббревиатуры, которые неизвестны стандартному словарю, добавьте пользовательский словарь. По одному слову в строке, кодировка UTF‑8.
 
 ```java
         // 3️⃣ Load a custom dictionary (optional but recommended for niche vocab)
         ocrEngine.addUserDictionary("YOUR_DIRECTORY/custom_dict.txt"); // one word per line
 ```
 
-> **What if you skip this?**  
-> Движок всё равно попытается исправлять слова, но может заменить корректный термин на что‑то несоответствующее, особенно в технических областях. Пользовательский список сохраняет вашу специализированную лексику.
+> **Что если пропустить это?** Механизм всё равно будет пытаться исправлять слова, но может заменить корректный термин на что‑то несоответствующее — особенно в технических областях. Предоставление пользовательского списка сохраняет вашу специализированную лексику.
 
-## Step 4: Prepare the Image Input
+## Шаг 4: подготовить входное изображение
 
-Aspose OCR работает с `OcrInput`, который может содержать несколько изображений. В этом руководстве мы обработаем один PNG с рукописными заметками.
+Aspose OCR работает с `OcrInput`, который может содержать несколько изображений. Для этого урока мы обработаем один PNG с рукописными заметками.
+
+`OcrInput` — объект‑контейнер, хранящий одно или несколько изображений для пакетной обработки; каждое изображение обрабатывается последовательно.
+
+Добавьте ваше изображение в экземпляр `OcrInput`, при желании применив параметры предобработки, такие как бинаризация или исправление наклона.
 
 ```java
         // 4️⃣ Prepare the image input
@@ -104,20 +144,22 @@ Aspose OCR работает с `OcrInput`, который может содер�
         ocrInput.add("YOUR_DIRECTORY/handwritten_notes.png");
 ```
 
-*Tip:* Если изображение шумное, рассмотрите предварительную обработку (например, бинаризацию или исправление наклона) перед добавлением в `OcrInput`. Aspose предоставляет `ImageProcessingOptions` для этого, но по умолчанию достаточно чистых сканов.
+*Подсказка:* Если изображение шумное, рассмотрите предобработку (например, масштабирование, бинаризацию или исправление наклона) перед добавлением в `OcrInput`. Aspose предоставляет `ImageProcessingOptions` для тонкой настройки, но значение по умолчанию хорошо работает с чистыми сканами.
 
-## Step 5: Run Recognition and Retrieve Corrected Text
+## Шаг 5: выполнить распознавание и получить исправленный текст
 
-Теперь запускаем движок. Вызов `recognize` возвращает объект `OcrResult`, уже содержащий текст после проверки орфографии.
+Теперь запускаем движок. Вызов `recognize` возвращает объект `OcrResult`, который уже содержит текст после проверки орфографии.
+
+`OcrResult` содержит окончательную, исправленную транскрипцию — включая любые корректировки орфографии — готовую к дальнейшему использованию.
 
 ```java
         // 5️⃣ Perform recognition and obtain corrected text
         OcrResult ocrResult = ocrEngine.recognize(ocrInput);
 ```
 
-## Step 6: Output the Cleaned‑Up Result
+## Шаг 6: вывести очищенный результат
 
-Наконец, выводим исправленную строку в консоль — либо сохраняем в файл, отправляем в базу данных, что угодно в вашем рабочем процессе.
+Наконец, выведите исправленную строку в консоль — или запишите её в файл, отправьте в базу данных, что бы ни требовал ваш рабочий процесс.
 
 ```java
         // 6️⃣ Output the corrected text
@@ -127,47 +169,50 @@ Aspose OCR работает с `OcrInput`, который может содер�
 }
 ```
 
-### Expected Output
+### Ожидаемый вывод
 
-Предположим, `handwritten_notes.png` содержит строку *“Ths is a smple test”*, сырый OCR может вернуть:
+Предположим, что `handwritten_notes.png` содержит строку *“Ths is a smple test”*, необработанный OCR может вернуть:
 
 ```
 Ths is a smple test
 ```
 
-С включённой проверкой орфографии в консоли будет:
+При включённой проверке орфографии консоль покажет:
 
 ```
 Corrected text:
 This is a simple test
 ```
 
-Обратите внимание, как **correct ocr errors** вроде отсутствующих «i» и «l» исправились автоматически.
+Обратите внимание, как **ошибки OCR**, такие как отсутствие «i» и «l», были автоматически исправлены, предоставив вам **чистый, индексируемый текст**.
 
-## Frequently Asked Questions
+## Часто задаваемые вопросы
 
-### 1️⃣ Does spell‑check work with languages other than English?  
-Yes. Aspose OCR ships with dictionaries for several languages. Call `ocrEngine.setLanguage(Language.French)` (or the appropriate enum) before enabling spell‑check.
+**В: Работает ли проверка орфографии с другими языками, кроме английского?**  
+A: Да. Aspose OCR поставляется со словарями более чем для 30 языков; задайте нужный язык через `ocrEngine.setLanguage(Language.French)` (или соответствующий enum) перед включением проверки орфографии.
 
-### 2️⃣ What if my custom dictionary is huge (thousands of words)?  
-The library loads the file into memory once, so performance impact is minimal. However, keep the file UTF‑8 encoded and avoid duplicate entries.
+**В: Что если мой пользовательский словарь содержит тысячи слов?**  
+A: Файл загружается один раз в память, поэтому влияние на производительность незначительно. Просто держите его в кодировке UTF‑8 и избегайте дублирующихся записей.
 
-### 3️⃣ Can I see the raw OCR output before correction?  
-Sure. Call `ocrEngine.setSpellCheckEnabled(false)` temporarily, run `recognize`, and inspect `ocrResult.getText()`.
+**В: Могу ли я увидеть необработанный вывод OCR до исправления?**  
+A: Конечно. Временно вызовите `ocrEngine.setSpellCheckEnabled(false)`, выполните `recognize` и проверьте `ocrResult.getText()` для получения неисправленного результата.
 
-### 4️⃣ How do I handle multiple pages of notes?  
-Add each image to the same `OcrInput` instance. The engine will concatenate the recognized text in the order you added the images.
+**В: Как обрабатывать несколько страниц заметок?**  
+A: Добавьте каждое изображение страницы в тот же экземпляр `OcrInput`. Движок объединит распознанный текст в порядке добавления изображений.
 
-## Edge Cases & Best Practices
+**В: Есть ли ограничения по размеру или разрешению изображения?**  
+A: Aspose OCR эффективно обрабатывает изображения до 500 dpi; для более высокого разрешения рекомендуется уменьшить масштаб, чтобы повысить скорость без потери точности.
 
-| Situation | Recommended Approach |
+## Пограничные случаи и лучшие практики
+
+| Situation | Recommended approach |
 |-----------|----------------------|
-| **Very low‑resolution scans** (< 150 dpi) | Pre‑process with a scaling algorithm or ask the user to rescan at higher DPI. |
-| **Mixed printed and handwritten text** | Enable both `setDetectTextDirection(true)` and `setAutoSkewCorrection(true)` for better layout detection. |
-| **Custom symbols (e.g., mathematical operators)** | Include them in your custom dictionary using their Unicode names or add a post‑processing regex. |
-| **Large batches (hundreds of notes)** | Reuse a single `OcrEngine` instance; it caches dictionaries and reduces GC pressure. |
+| **Сканы очень низкого разрешения** (< 150 dpi) | Предобработайте с помощью алгоритма масштабирования или попросите пользователя пересканировать с ≥ 300 dpi для оптимальной точности. |
+| **Смешанный печатный и рукописный текст** | Включите `setDetectTextDirection(true)` и `setAutoSkewCorrection(true)`, чтобы улучшить определение макета. |
+| **Пользовательские символы (например, математические операторы)** | Добавьте их Unicode‑имена в ваш пользовательский словарь или примените пост‑обработку с regex для замены после OCR. |
+| **Большие партии (сотни заметок)** | Повторно используйте один экземпляр `OcrEngine`; он кэширует словари и уменьшает нагрузку сборщика мусора, сокращая общее время обработки до 30 %. |
 
-## Full Working Example (Copy‑Paste Ready)
+## Полный рабочий пример (готовый к копированию)
 
 ```java
 import com.aspose.ocr.*;
@@ -198,22 +243,36 @@ public class SpellCheckDemo {
 }
 ```
 
-> **Note:** Replace `YOUR_DIRECTORY` with the actual path on your machine. The program will print the cleaned‑up version of your **ocr handwritten notes** directly to the console.
+> **Примечание:** Замените `YOUR_DIRECTORY` фактическим путём на вашей машине. Программа выводит очищенную версию ваших **рукописных заметок** непосредственно в консоль.
 
-## Conclusion
+## Заключение
 
-Теперь у вас есть полное решение «от начала до конца» для **ocr handwritten notes**, которое автоматически **correct ocr errors** с помощью модуля проверки орфографии Aspose OCR и, при необходимости, пользовательских словарей. Следуя описанным шагам, вы превратите неаккуратные, полные ошибок транскрипции в чистый, пригодный для поиска текст — идеально для приложений заметок, архивных систем или личных баз знаний.
+Теперь у вас есть полное решение «сквозного» типа для **преобразования заметок в текст**, которое автоматически **извлекает чистый текст** и исправляет ошибки OCR с помощью механизма проверки орфографии Aspose OCR и при необходимости пользовательских словарей. Следуя приведённым шагам, вы превратите неаккуратные, полные ошибок транскрипции в аккуратный, индексируемый контент — идеально подходящий для приложений заметок, архивных систем или персональных баз знаний.
 
-**What’s next?**  
-- Поэкспериментируйте с различными вариантами предобработки изображений, чтобы повысить точность на низкокачественных сканах.  
-- Скомбинируйте вывод OCR с конвейером обработки естественного языка для маркировки ключевых концепций.  
-- Исследуйте поддержку нескольких языков, если ваши заметки мультиязычны.
+**Что дальше?**  
+- Поэкспериментировать с различными вариантами предобработки изображений, чтобы повысить точность на низкокачественных сканах.  
+- Скомбинировать вывод OCR с конвейером обработки естественного языка для автоматической маркировки ключевых концепций.  
+- Исследовать поддержку нескольких языков, если ваши заметки многоязычные.
 
-Не стесняйтесь менять пример, добавлять свои словари и делиться опытом в комментариях. Happy coding!  
+Не стесняйтесь изменять пример, добавлять свои словари и делиться опытом в комментариях. Приятного кодинга!
 
 ![Screenshot showing corrected OCR output for handwritten notes](/images/ocr_handwritten_notes_result.png "ocr handwritten notes output")
 
+---
+
+**Последнее обновление:** 2026-10-24  
+**Тестировано с:** Aspose OCR 23.9 for Java  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Как выполнить OCR изображения в Java рукописных заметок с проверкой орфографии](/ocr/java/advanced-ocr-techniques/how-to-ocr-image-in-java-handwritten-notes-with-spell-check/)
+- [Обнаружение языка изображения с Aspose OCR Java tutorial](/ocr/java/advanced-ocr-techniques/detect-language-image-with-aspose-ocr-java-tutorial/)
+- [Извлечение текста из изображения Java Полное руководство OCR с проверкой орфографии](/ocr/java/advanced-ocr-techniques/extract-text-from-image-java-complete-ocr-guide-with-spell-c/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

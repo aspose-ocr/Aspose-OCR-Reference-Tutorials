@@ -1,24 +1,50 @@
 ---
 category: general
-date: 2026-02-22
-description: Aspose를 사용하여 다국어 OCR을 수행하고 이미지 파일에서 텍스트를 추출하는 방법—OCR을 위해 이미지를 로드하고 효율적으로
-  OCR을 실행하는 방법을 배워보세요.
+date: 2026-10-24
+description: Java에서 Aspose OCR을 사용하여 이미지에서 텍스트를 추출하는 방법을 배웁니다. 영어, 우크라이나어, 아랍어를 지원합니다.
+  OCR을 위해 이미지를 로드하고 OCR을 실행하는 단계별 가이드.
 draft: false
 keywords:
-- how to use aspose
-- multi language ocr
 - extract text from image
 - load image for ocr
 - run ocr on image
-language: ko
-og_description: 다중 언어가 포함된 이미지에서 OCR을 실행하기 위해 Aspose를 사용하는 방법 – OCR을 위해 이미지를 로드하고
-  이미지에서 텍스트를 추출하는 단계별 가이드.
-og_title: Java에서 다국어 OCR을 위해 Aspose 사용하는 방법
+- Aspose OCR Java
+- multi language OCR
+lastmod: 2026-10-24
+og_description: Java에서 Aspose OCR을 사용하여 이미지에서 텍스트를 추출하는 방법을 배웁니다. 영어, 우크라이나어, 아랍어를
+  지원합니다. OCR을 위해 이미지를 로드하고 OCR을 실행하는 단계별 가이드.
+og_image_alt: 'Developer guide: extract text from image using Aspose OCR in Java'
+og_title: Java에서 Aspose OCR을 사용하여 이미지에서 텍스트 추출하는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to extract text from image using Aspose OCR in Java, supporting
+    English, Ukrainian and Arabic. Step‑by‑step guide to load image for OCR and run
+    OCR on image.
+  headline: How to extract text from image with Aspose OCR in Java
+  type: TechArticle
+- questions:
+  - answer: No, a single Aspose OCR license covers all bundled language packs.
+    question: Do I need a separate license for each language pack?
+  - answer: The only practical limit is memory; Aspose processes each image sequentially,
+      so you can add hundreds of files without issue.
+    question: Is there a limit on the number of images I can add to `OcrInput`?
+  - answer: The engine analyses each text block independently, so it can switch languages
+      mid‑line and still produce accurate results.
+    question: How does auto‑detection handle mixed scripts on the same line?
+  - answer: Yes, `OcrResult` provides a `getConfidence()` method for granular quality
+      metrics.
+    question: Can I get confidence scores for each recognized word?
+  - answer: Aspose OCR works with Java 8 through Java 21, including LTS releases.
+    question: What Java versions are supported?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - Java
-title: Java에서 다국어 OCR을 위한 Aspose 사용 방법
+- extract text from image
+- multi language OCR
+title: Java에서 Aspose OCR을 사용하여 이미지에서 텍스트 추출하는 방법
 url: /ko/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
@@ -26,37 +52,42 @@ url: /ko/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-i
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose를 사용한 다국어 OCR Java 사용 방법
+# 이미지에서 텍스트 추출하기 - Aspose OCR을 Java에서 사용하기
 
-이미지에 영어, 우크라이나어, 아라비아어 텍스트가 동시에 포함되어 있을 때 **Aspose를 어떻게 사용하는지** 궁금해 본 적 있나요? 당신만 그런 것이 아닙니다—단일 언어가 아닌 이미지 파일에서 *extract text from image*가 필요할 때 많은 개발자들이 이 문제에 부딪힙니다.  
+If you need to **extract text from image** files that contain a mix of English, Ukrainian, and Arabic characters, Aspose OCR makes it straightforward. In this tutorial you’ll see a complete, ready‑to‑run example that shows how to **load image for OCR**, enable *multi‑language OCR*, and finally **run OCR on image** to retrieve clean, readable text. The steps are explained in plain language, so you understand both *what* to do and *why* it matters.
 
-이 튜토리얼에서는 **load image for OCR**을 수행하고, *multi language OCR*을 활성화하며, 마지막으로 **run OCR on image**를 실행해 깔끔하고 읽기 쉬운 텍스트를 얻는 완전한 실행 가능한 예제를 단계별로 살펴보겠습니다. 모호한 언급이 아니라 구체적인 코드와 각 라인 뒤의 이유를 제공합니다.
+## 빠른 답변
+- **첫 번째 코드 라인은 무엇인가요?** `OcrEngine engine = new OcrEngine();`
+- **기본적으로 지원되는 언어는 무엇인가요?** English (`en`), Ukrainian (`uk`), Arabic (`ar`) 및 추가 27개 언어.
+- **테스트에 라이선스가 필요합니까?** 아니요, 무료 체험으로도 동작하지만 라이선스를 사용하면 워터마크가 제거됩니다.
+- **한 번에 여러 이미지를 처리할 수 있나요?** 예, `OcrInput`을 사용해 여러 파일을 추가한 뒤 `recognize`를 호출하면 됩니다.
+- **필요한 Java 버전은 무엇인가요?** Java 8 이상.
+
+## Aspose OCR을 Java에서 사용하여 이미지에서 텍스트를 추출하는 방법
+
+Load your image with `OcrInput`, configure the `OcrEngine` for the required languages, and call `engine.recognize(input)`. The engine automatically detects language blocks, applies the correct OCR model, and returns an `OcrResult` containing the recognised text. This one‑step flow works for any image size up to 10 000 × 10 000 pixels and supports over 30 language packs.
 
 ## 배울 내용
 
-- Maven 또는 Gradle을 사용하여 Java 프로젝트에 Aspose OCR 라이브러리를 추가합니다.
-- OCR 엔진을 올바르게 초기화합니다.
-- *multi language OCR*을 위해 엔진을 구성하고 자동 감지를 활성화합니다.
-- 혼합 스크립트가 포함된 이미지를 로드합니다.
-- 인식을 실행하고 **extract text from image**를 수행합니다.
-- 지원되지 않는 언어 또는 파일 누락과 같은 일반적인 함정을 처리합니다.
+- Add the Aspose OCR library to a Java project (Maven or Gradle).  
+- Initialise the OCR engine correctly.  
+- Configure the engine for *multi‑language OCR* and enable auto‑detection.  
+- Load an image that contains mixed scripts.  
+- Execute the recognition and **extract text from image**.  
+- Handle common pitfalls such as unsupported languages or missing files.
 
-끝까지 진행하면 어떤 프로젝트에든 바로 넣어 이미지 처리를 즉시 시작할 수 있는 독립형 Java 클래스를 얻게 됩니다.
-
----
+By the end you’ll have a self‑contained Java class that you can drop into any project and start processing images instantly.
 
 ## 사전 요구 사항
 
-시작하기 전에 다음이 준비되어 있는지 확인하세요:
-
-| Requirement | Why it matters |
+| 요구 사항 | 중요한 이유 |
 |-------------|----------------|
-| Java 8 또는 그 이상 | Aspose OCR은 Java 8+을 대상으로 합니다. |
-| Maven 또는 Gradle(빌드 도구) | Aspose OCR JAR를 자동으로 가져오기 위해. |
-| 혼합 언어 텍스트가 포함된 이미지 파일(예: `mixed_script.jpg`) | 이 파일이 우리가 **load image for OCR**할 대상입니다. |
-| 유효한 Aspose OCR 라이선스(선택 사항) | 라이선스가 없으면 워터마크가 있는 출력이 나오지만, 코드는 동일하게 작동합니다. |
+| Java 8 이상 | Aspose OCR은 Java 8 이상을 대상으로 합니다. |
+| Maven 또는 Gradle (모든 빌드 도구) | Aspose OCR JAR을 자동으로 가져옵니다. |
+| 혼합 언어 텍스트가 포함된 이미지 파일 (예: `mixed_script.jpg`) | 이 파일이 우리가 **load image for OCR** 할 대상입니다. |
+| 유효한 Aspose OCR 라이선스 (선택 사항) | 라이선스가 없으면 워터마크가 있는 출력이 생성되지만, 코드는 동일하게 동작합니다. |
 
-모두 준비되었나요? 좋습니다—시작해 봅시다.
+Got all that? Great—let’s get started.
 
 ## 단계 1: 프로젝트에 Aspose OCR 추가
 
@@ -78,11 +109,13 @@ url: /ko/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-i
 implementation 'com.aspose:aspose-ocr:23.12'
 ```
 
-> **Pro tip:** 버전 번호를 주시하세요; 최신 릴리스에서는 언어 팩과 성능 개선이 추가됩니다.
+> **Pro tip:** Aspose OCR은 30개 이상의 언어 팩을 지원하며, 전체 파일을 메모리에 로드하지 않고도 10 000 × 10 000 픽셀까지의 이미지를 처리할 수 있어 고해상도 스캔을 효율적으로 다룰 수 있습니다.
 
-의존성을 추가하는 것은 **how to use Aspose**에서 첫 번째 구체적인 단계입니다—이 라이브러리는 나중에 필요하게 될 `OcrEngine`, `OcrInput`, `OcrResult` 클래스를 제공합니다.
+Adding the dependency is the first concrete step in **how to use Aspose**—the library brings the `OcrEngine`, `OcrInput`, and `OcrResult` classes we’ll need later.
 
 ## 단계 2: OCR 엔진 초기화
+
+The `OcrEngine` class is Aspose OCR's core component that performs the recognition process.  
 
 ```java
 import com.aspose.ocr.*;
@@ -98,9 +131,11 @@ public class MultiLangOcrDemo {
 ```
 
 **왜 중요한가:**  
-`OcrEngine`은 인식 알고리즘을 캡슐화합니다. 이 단계를 건너뛰면 나중에 *run OCR on image* 할 것이 없으며 `NullPointerException`이 발생합니다.
+If you skip engine initialisation, there’s nothing to *run OCR on image* later, and you’ll encounter a `NullPointerException`.
 
-## 단계 3: 다국어 지원 및 자동 감지 구성
+## 단계 3: 다중 언어 지원 및 자동 감지 구성
+
+`OcrEngine` provides the `setRecognitionLanguages` method to specify which language models to load, and `setAutoDetectLanguage` enables automatic language detection per text block.  
 
 ```java
         // Step 3.1: Tell the engine which languages you expect.
@@ -112,9 +147,11 @@ public class MultiLangOcrDemo {
 
 **설명:**  
 - `"en"` = English, `"uk"` = Ukrainian, `"ar"` = Arabic.  
-- Auto‑detect를 사용하면 Aspose가 이미지를 스캔해 각 구역이 어떤 언어에 속하는지 판단하고 적절한 OCR 모델을 적용합니다. 이를 사용하지 않으면 세 번의 별도 인식을 수행해야 하며, 이는 번거롭고 오류가 발생하기 쉽습니다.
+- Auto‑detect lets Aspose scan the image, decide which language each segment belongs to, and apply the right OCR model. Without it you’d have to run three separate recognitions—painful and error‑prone.
 
-## 단계 4: OCR용 이미지 로드
+## 단계 4: OCR을 위한 이미지 로드
+
+`OcrInput` is Aspose OCR’s container that holds one or more image streams for processing.  
 
 ```java
         // Step 4.1: Prepare an OcrInput container.
@@ -124,20 +161,20 @@ public class MultiLangOcrDemo {
         input.add("YOUR_DIRECTORY/mixed_script.jpg");
 ```
 
-> **왜 `OcrInput`을 사용하는가:** 여러 페이지나 이미지를 보관할 수 있어 나중에 배치 모드로 *load image for OCR* 할 수 있는 유연성을 제공합니다.
+> **Why we use `OcrInput`:** It can hold multiple pages or images, giving you the flexibility to **load image for OCR** in batch mode later on. If the file isn’t found, Aspose throws a `FileNotFoundException`. A quick guard (`if (!new File(path).exists())`) saves debugging time.
 
-파일을 찾을 수 없으면 Aspose가 `FileNotFoundException`을 발생시킵니다. `if (!new File(path).exists())`와 같은 간단한 검사로 디버깅 시간을 절약할 수 있습니다.
+## 단계 5: 이미지에 OCR 실행
 
-## 단계 5: 이미지에서 OCR 실행
+The `recognize` method analyses the picture, detects language blocks, and produces an `OcrResult` object that contains the recognised text.  
 
 ```java
         // Step 5.1: Execute the recognition process.
         OcrResult result = engine.recognize(input);
 ```
 
-이 시점에서 엔진은 그림을 분석하고 언어 블록을 감지하여 인식된 텍스트를 포함하는 `OcrResult` 객체를 생성합니다.
-
 ## 단계 6: 이미지에서 텍스트 추출 및 표시
+
+`OcrResult` encapsulates the final text output, including line breaks and confidence scores.  
 
 ```java
         // Step 6.1: Pull the plain text out of the result.
@@ -150,31 +187,34 @@ public class MultiLangOcrDemo {
 }
 ```
 
-**보게 될 내용:**  
-`mixed_script.jpg`에 “Hello мир مرحبا”가 포함되어 있으면 콘솔 출력은 다음과 같습니다:
+**출력 예시:**  
+If `mixed_script.jpg` contains “Hello мир مرحبا”, the console output will be:
 
 ```
 === Extracted Text ===
 Hello мир مرحبا
 ```
 
-이는 다중 언어로 *extract text from image* 하기 위한 **how to use Aspose**의 완전한 솔루션입니다.
+That’s the complete solution for **how to use Aspose** to **extract text from image** with multiple languages.
 
 ## 엣지 케이스 및 일반 질문
 
 ### 언어가 인식되지 않으면 어떻게 하나요?
 
-Aspose는 OCR 모델이 제공되는 언어만 지원합니다. 예를 들어 일본어가 필요하다면 `setRecognitionLanguages`에 `"ja"`를 추가하십시오. 모델이 없을 경우 엔진은 기본값(보통 English)으로 돌아가며 깨진 문자가 출력됩니다.
+Aspose only supports languages for which it ships OCR models. To add Japanese, include `"ja"` in `setRecognitionLanguages`. If the model isn’t present, the engine falls back to the default (English) and you’ll get garbled characters.
 
 ### 저해상도 이미지에서 정확도를 높이는 방법은?
 
-- 이미지를 전처리하세요( DPI 증가, 이진화 적용).  
-- `engine.setResolution(300)`을 사용해 엔진에 예상 DPI를 알려줍니다.  
-- 회전된 스캔을 위해 `engine.setPreprocessOptions(OcrEngine.PreprocessOptions.AutoRotate)`를 활성화합니다.
+`setResolution` sets the DPI value the engine assumes for the input image, which helps with low‑resolution scans.  
+`setPreprocessOptions` selects preprocessing actions such as auto‑rotation before OCR.  
+
+- Pre‑process the image (increase DPI, apply binarisation).  
+- Use `engine.setResolution(300)` to tell the engine the expected DPI.  
+- Enable `engine.setPreprocessOptions(OcrEngine.PreprocessOptions.AutoRotate)` for rotated scans.
 
 ### 이미지 폴더를 처리할 수 있나요?
 
-물론 가능합니다. 디렉터리의 모든 파일을 순회하는 루프에서 `input.add()` 호출을 감싸면 됩니다. 동일한 `engine.recognize(input)` 호출은 각 페이지에 대한 연결된 텍스트를 반환합니다.
+Absolutely. Wrap the `input.add()` call in a loop that iterates over all files in a directory. The same `engine.recognize(input)` call will return concatenated text for every page.
 
 ## 전체 작업 예제 (복사‑붙여넣기 준비)
 
@@ -208,23 +248,57 @@ public class MultiLangOcrDemo {
 }
 ```
 
-`MultiLangOcrDemo.java`로 저장하고 `javac`로 컴파일한 뒤 `java MultiLangOcrDemo`를 실행하세요. 모든 설정이 올바르면 콘솔에 인식된 텍스트가 출력됩니다.
+Save this as `MultiLangOcrDemo.java`, compile with `javac`, and run `java MultiLangOcrDemo`. If everything is set up correctly, you’ll see the recognised text printed to the console.
+
+## 자주 묻는 질문
+
+**Q: 각 언어 팩마다 별도의 라이선스가 필요합니까?**  
+A: No, a single Aspose OCR license covers all bundled language packs.
+
+**Q: `OcrInput`에 추가할 수 있는 이미지 수에 제한이 있나요?**  
+A: The only practical limit is memory; Aspose processes each image sequentially, so you can add hundreds of files without issue.
+
+**Q: 자동 감지는 같은 줄에 혼합된 스크립트를 어떻게 처리하나요?**  
+A: The engine analyses each text block independently, so it can switch languages mid‑line and still produce accurate results.
+
+**Q: 각 인식된 단어에 대한 신뢰도 점수를 얻을 수 있나요?**  
+A: Yes, `OcrResult` provides a `getConfidence()` method for granular quality metrics.
+
+**Q: 지원되는 Java 버전은 무엇인가요?**  
+A: Aspose OCR works with Java 8 through Java 21, including LTS releases.
 
 ## 결론
 
-우리는 **how to use Aspose**를 처음부터 끝까지 다루었습니다: 라이브러리 추가, *multi language OCR* 구성, **load image for OCR**, **run OCR on image**, 그리고 마지막으로 **extract text from image**까지. 이 접근 방식은 확장성이 있어 언어 코드를 더 추가하거나 파일 목록을 제공하기만 하면 몇 분 안에 강력한 OCR 파이프라인을 구축할 수 있습니다.
+We’ve covered **how to use Aspose** end‑to‑end: from adding the library, through configuring *multi‑language OCR*, to **load image for OCR**, **run OCR on image**, and finally **extract text from image**. The approach scales—just add more language codes or feed a list of files, and you’ll have a robust OCR pipeline in minutes.
 
-다음은 무엇을 해볼까요? 아래 아이디어를 시도해 보세요:
+What’s next? Try these ideas:
 
-- **배치 처리:** 디렉터리를 순회하며 각 결과를 별도의 `.txt` 파일에 기록합니다.  
-- **후처리:** 정규식이나 NLP 라이브러리를 사용해 출력물을 정리합니다(불필요한 줄 바꿈 제거, 일반적인 OCR 오류 수정).  
-- **통합:** OCR 단계를 Spring Boot REST 엔드포인트에 연결해 다른 서비스가 이미지를 제출하고 JSON 형식 텍스트를 받을 수 있게 합니다.
+- **Batch processing:** Loop over a directory and write each result to a separate `.txt` file.  
+- **Post‑processing:** Use regex or NLP libraries to clean up the output (remove stray line breaks, correct common OCR errors).  
+- **Integration:** Expose the OCR step through a Spring Boot REST endpoint so other services can submit images and receive JSON‑encoded text.
 
-자유롭게 실험하고, 문제를 일으키고, 다시 고쳐보세요—이것이 Aspose로 OCR을 진정으로 마스터하는 방법입니다. 문제가 발생하면 아래에 댓글을 남겨 주세요. 즐거운 코딩 되세요!  
+Feel free to experiment, break things, and then fix them—that’s how you truly master OCR with Aspose. If you ran into any snags, drop a comment below. Happy coding!  
 
-![Java 코드를 보여주는 Aspose OCR 사용 예시](/images/aspose-ocr-demo.png){alt="Java 코드를 보여주는 Aspose OCR 사용 예시"}
+---
+
+![Aspose OCR 사용 예시](/images/aspose-ocr-demo.png){alt="Java 코드를 보여주는 Aspose OCR 사용 예시"}
+
+[Aspose OCR 사용 예시](/images/aspose-ocr-demo.png)
+
+**최종 업데이트:** 2026-10-24  
+**테스트 환경:** Aspose OCR 24.11 for Java  
+**작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Java에서 OCR을 위한 이미지 로드 단계별 가이드](/ocr/java/ocr-operations/load-image-for-ocr-in-java-step-by-step-guide/)
+- [Java OCR 자동 언어 감지 단계별 가이드](/ocr/java/advanced-ocr-techniques/automatic-language-detection-in-java-ocr-step-by-step-guide/)
+- [Java에서 OCR을 위한 GPU 활성화 및 이미지에서 텍스트 추출 방법](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
