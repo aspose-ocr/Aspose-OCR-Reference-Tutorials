@@ -151,13 +151,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 了解如何在 .NET 應用程式中讀取嵌入式資源並正確設定 Aspose 授權。
 ### [使用 Aspose 下載 OCR 語言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 了解如何使用 Aspose 在 C# 中下載並整合 OCR 語言模型，以提升文字辨識準確度。
-
-
-
-
-
-
-
+### [如何下載 OCR 語言並從影像中提取文字](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+說明如何下載所需的 OCR 語言包並使用 Aspose.OCR 從影像中提取文字的完整步驟。
 ### [在 C# 中辨識影像文字 – 使用 Aspose 進行阿拉伯語 OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
 本教學示範如何在 C# 應用程式中使用 Aspose OCR 進行阿拉伯語文字的辨識。
 ### [如何為 Aspose OCR 啟用 GPU – 步驟指南](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
@@ -168,14 +163,8 @@ Extracting OCR 意味著將影像（或影像集合）傳遞給 Aspose.OCR，該
 
 
 
-
-
-
 ### [如何在 Aspose OCR 中套用授權 – 步驟式 C# 指南](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 了解如何在 Aspose OCR 中使用 C# 設定授權，以確保您的應用程式合法運行。
-
-
-
 
 
 

@@ -85,11 +85,6 @@ weight: 24
 ### [Скачивание модели языка OCR в C# с Aspose – Полное руководство](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Полное руководство по загрузке модели языка OCR в C# с использованием Aspose.
 
-
-
-
-
-
 ### [Как включить GPU для Aspose OCR – пошаговое руководство](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Узнайте, как активировать поддержку GPU в Aspose OCR для ускорения распознавания изображений в .NET.
 ### [Распознавание текста изображения на C# – арабский OCR с Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -97,15 +92,8 @@ weight: 24
 ### [Как установить лицензию Aspose в C# – Полное руководство](./how-to-set-aspose-license-in-c-complete-guide/)
 Узнайте, как правильно установить лицензию Aspose в C# для полного доступа к функциям библиотеки.
 
-
-
-
-
-
 ### [Как применить лицензию в Aspose OCR – пошаговое руководство C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Узнайте, как применить лицензию Aspose OCR в C# шаг за шагом.
-
-
 
 ### [Распознавание китайского текста офлайн – Полное руководство C#](./recognize-chinese-text-offline-complete-c-guide/)
 Узнайте, как офлайн распознавать китайский текст в C# с использованием Aspose.OCR.
@@ -160,8 +148,7 @@ weight: 24
 Подробное руководство по созданию логгера для Aspose OCR с полным пошаговым описанием.
 ### [Скачивание недостающих моделей с Aspose AI — полное руководство](./download-missing-models-with-aspose-ai-complete-guide/)
 Полное руководство по загрузке недостающих моделей с помощью Aspose AI.
-
-
+### [Как скачать язык OCR и извлечь текст из изображения](./how-to-download-ocr-language-and-extract-text-from-an-image/)
 
 ## Часто задаваемые вопросы
 

@@ -95,8 +95,11 @@ weight: 24
 
 ### [วิธีดาวน์โหลดแพ็คภาษา OCR สำหรับรัสเซีย – คู่มือฉบับสมบูรณ์](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 
+### [วิธีดาวน์โหลดภาษ OCR และสกัดข้อความจากภาพ](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+เรียนรู้วิธีดาวน์โหลดแพ็คภาษาของ OCR แล้วสกัดข้อความจากภาพด้วย Aspose.OCR ใน C#
+
 ### [วิธีปิดการใช้งาน OCR ใน C# – คู่มือ Aspose OCR แบบออฟไลน์](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
-เรียนรู้วิธีปิดการทำงานของ OCR ในโค้ด C# เพื่อใช้ Aspose OCR แบบออฟไลน์โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต
+
 ### [โหลดภาพสำหรับ OCR ใน C# – คู่มือเต็ม Aspose OCR & ตรวจสอบการสะกด](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
 
 ### [สร้างเครื่องมือ OCR ใน C# – คู่มือฉบับสมบูรณ์](./create-ocr-engine-in-c-complete-guide/)

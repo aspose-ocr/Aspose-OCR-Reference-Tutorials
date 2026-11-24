@@ -72,8 +72,11 @@ weight: 24
 学习如何在 .NET 项目中读取嵌入资源并正确设置 Aspose 许可证，以确保功能正常运行。
 ### [使用 Aspose 下载 OCR 语言模型（C#）完整指南](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 使用 Aspose 在 C# 中下载 OCR 语言模型的完整步骤指南。
+### [如何下载 OCR 语言并从图像中提取文本](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+使用 Aspose.OCR 下载语言模型并提取图像文本的完整步骤指南。
 ### [加载图像文件并使用 GPU OCR 在 C# 中提取收据文本](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 演示如何在 C# 中使用 GPU 加速的 Aspose.OCR 加载图像文件并提取收据文本，提高识别速度和准确率。  
+
 
 
 

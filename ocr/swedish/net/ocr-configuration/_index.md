@@ -95,7 +95,7 @@ Lär dig hur du stänger av OCR-funktionen i C#‑applikationer för offline-anv
 Lär dig hur du laddar en bild och utför OCR samt stavningskontroll med Aspose OCR i C#‑applikationer.
 ### [Skapa OCR‑motor i C# – Komplett guide](./create-ocr-engine-in-c-complete-guide/)
 Skapa en OCR‑motor i C# med en komplett steg‑för‑steg‑guide för Aspose.OCR.
-### [Ställ in GPU-minnesgräns med Aspose OCR – C# GPU‑guide](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+### [Ställ in GPU‑minnesgräns med Aspose OCR – C# GPU‑guide](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 ### [Extrahera text från bild med Aspose OCR GPU – Fullständig C#-guide](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
 Lär dig hur du använder Aspose OCR GPU för att snabbt extrahera text från bilder med en komplett C#‑guide.
 ### [Hur man ställer in licens i Aspose OCR – Fullständig C#‑guide](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
@@ -160,10 +160,8 @@ Lär dig steg för steg hur du konfigurerar Aspose-licensen i C# för att aktive
 ### [Hur du tillämpar licens i Aspose OCR – Steg‑för‑steg C#‑guide](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Lär dig hur du aktiverar licensen för Aspose OCR i C# med en tydlig steg‑för‑steg‑guide.
 
-
-
-
-
+### [Hur man laddar ner OCR-språk och extraherar text från en bild](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Lär dig hur du laddar ner OCR-språkpaket och använder dem för att extrahera text från en bild i .NET.
 
 ## Vanliga frågor
 

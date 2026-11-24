@@ -159,7 +159,8 @@ Aspose OCR 로거를 생성하여 OCR 프로세스를 기록하고 관리하는 
 ### [Aspose AI로 누락된 모델 다운로드 – 완전 가이드](./download-missing-models-with-aspose-ai-complete-guide/)
 Aspose AI를 사용해 누락된 모델을 자동으로 다운로드하고 설정하는 전체 가이드를 제공합니다.
 
-
+### [OCR 언어를 다운로드하고 이미지에서 텍스트를 추출하는 방법](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+OCR 언어 팩을 다운로드하고 이미지를 사용해 텍스트를 추출하는 전체 단계별 가이드.
 
 ## 자주 묻는 질문
 

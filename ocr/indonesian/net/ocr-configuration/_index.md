@@ -80,11 +80,8 @@ Pelajari cara mengenali teks dari gambar menggunakan Aspose OCR dengan panduan l
 Pelajari cara membaca embedded resource di .NET dan mengatur lisensi Aspose secara lengkap.
 ### [Unduh Model Bahasa OCR di C# dengan Aspose – Panduan Lengkap](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Pelajari cara mengunduh model bahasa OCR untuk C# menggunakan Aspose dalam panduan lengkap ini.
-
-
-
-
-
+### [Cara mengunduh bahasa OCR dan mengekstrak teks dari gambar](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Pelajari cara mengunduh bahasa OCR dan mengekstrak teks dari gambar menggunakan Aspose OCR dalam panduan langkah demi langkah.
 
 ### [Cara Mengaktifkan GPU untuk Aspose OCR – Panduan Langkah demi Langkah](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Pelajari cara mengaktifkan GPU pada Aspose OCR untuk meningkatkan kinerja pemrosesan gambar secara signifikan.

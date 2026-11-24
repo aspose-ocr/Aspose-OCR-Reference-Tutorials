@@ -164,7 +164,8 @@ Hướng dẫn đầy đủ cách tạo logger cho Aspose OCR, bao gồm cấu h
 ### [Tải xuống các mô hình thiếu với Aspose AI – hướng dẫn đầy đủ](./download-missing-models-with-aspose-ai-complete-guide/)
 Hướng dẫn chi tiết cách tải và cài đặt các mô hình AI thiếu cho Aspose AI trong dự án của bạn.
 
-
+### [Cách tải ngôn ngữ OCR và trích xuất văn bản từ hình ảnh](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Hướng dẫn chi tiết cách tải ngôn ngữ OCR và trích xuất văn bản từ một hình ảnh bằng Aspose.OCR trong C#.
 
 ## Câu hỏi thường gặp
 
