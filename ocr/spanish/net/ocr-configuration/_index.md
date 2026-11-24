@@ -128,6 +128,8 @@ Aprende a descargar e instalar los modelos de IA que faltan usando Aspose AI par
 
 ### [Cómo habilitar OCR en C# – Convertir PDF a texto fácilmente](./how-to-enable-ocr-in-c-convert-pdf-to-text-easily/)
 Aprende a activar OCR en C# y convertir PDFs en texto con Aspose.OCR de forma sencilla.
+### [Cómo descargar OCR y extraer texto de una imagen](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Aprende a descargar paquetes de idioma OCR y extraer texto de imágenes con Aspose.OCR en C#.
 ### Casos de uso comunes
 - **Extraer texto de imágenes** de facturas escaneadas para contabilidad automatizada.  
 - Indexar grandes archivos de documentos para repositorios buscables.  
@@ -174,11 +176,8 @@ Aprenda a configurar la licencia de Aspose en C# paso a paso y desbloquee todas 
 ### [Cómo aplicar la licencia en Aspose OCR – Guía paso a paso en C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aprenda a aplicar la licencia de Aspose OCR en sus aplicaciones C# paso a paso.
 
-
-
-
-
-
+### [Cómo descargar OCR y extraer texto de una imagen](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Aprende a descargar paquetes de idioma OCR y extraer texto de imágenes con Aspose.OCR en C#.
 
 ## Preguntas frecuentes
 

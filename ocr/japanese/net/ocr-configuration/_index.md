@@ -181,7 +181,8 @@ A: はい、`OcrResult` オブジェクトが各単語の信頼度スコアを�
 結論として、これらの OCR 構成チュートリアルは、Aspose.OCR for .NET の全体的な理解を提供します。アーカイブ画像、フォルダー、言語選択、またはリストを操作する場合でも、これらのステップバイステップのガイドにより、OCR の可能性を最大限に活用し、アプリケーションのテキスト抽出機能を向上させることができます。 Aspose.OCR で、飛び込んで探索し、OCR の魔法を解き放ちましょう!
 ## OCR設定チュートリアル
 ### [C# で OCR 言語サポートを確認する方法 – 完全ガイド](./how-to-check-ocr-language-support-in-c-complete-guide/)
-C# で Aspose.OCR の対応言語を確認し、適切な設定方法を学びます。
+
+### [OCR 言語をダウンロードし、画像からテキストを抽出する方法](./how-to-download-ocr-language-and-extract-text-from-an-image/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

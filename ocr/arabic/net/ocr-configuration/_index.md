@@ -73,6 +73,7 @@ weight: 24
 تعلم كيفية تفعيل معالجة GPU في Aspose.OCR باستخدام C# لتحسين سرعة ودقة التعرف على النص.
 ### [كيفية تنزيل حزمة لغة OCR للغة الروسية – دليل كامل](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 تعلم خطوة بخطوة كيفية تحميل حزمة اللغة الروسية لاستخدام OCR مع Aspose.OCR.
+### [كيفية تنزيل لغة OCR واستخراج النص من صورة](./how-to-download-ocr-language-and-extract-text-from-an-image/)
 ### [كيفية تعطيل OCR في C# – دليل Aspose OCR غير المتصل](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 تعلم كيفية إيقاف تشغيل OCR في تطبيقات C# باستخدام Aspose OCR دون اتصال بالإنترنت.
 ### [تحميل صورة للتعرف الضوئي على الأحرف في C# – دليل كامل لـ Aspose OCR وتدقيق الإملاء](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
@@ -177,7 +178,7 @@ weight: 24
 ج: سيتخطى الـ API الملفات غير المدعومة؛ يمكنك تصفية الملفات حسب الامتداد إذا لزم الأمر.
 
 **س: هل هناك طريقة للحصول على درجات الثقة لكل كلمة مُعترف بها؟**  
-ج: نعم، يوفر كائن `OcrResult` قيم الثقة التي يمكنك فحصها برمجيًا.
+ج: نعم، يوفر كائن `OcrResult` قيم الثقة التي يمكنك فحصها برمجياً.
 
 ---
 

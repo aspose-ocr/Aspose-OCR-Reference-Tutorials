@@ -66,6 +66,8 @@ Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
 ### [Hoe OCR-taalpakket voor Russisch te downloaden – Complete gids](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Leer stap‑voor‑stap hoe je het OCR‑taalpakket voor het Russisch downloadt en installeert voor optimale herkenning.
+### [Hoe OCR-taal te downloaden en tekst uit een afbeelding te extraheren](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Leer stap‑voor‑stap hoe je een OCR‑taalpakket downloadt en vervolgens tekst uit een afbeelding extraheert met Aspose.OCR.
 ### [OCRO-bewerking met lijst in OCR-beeldherkenning](./ocr-operation-with-list/)
 Ontgrendel het potentieel van Aspose.OCR voor .NET. Voer eenvoudig OCR‑beeldherkenning uit met lijsten. Verhoog de productiviteit en data‑extractie in je applicaties.
 ### [Afbeeldingsbestand laden en bontekst extraheren met GPU OCR in C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)

@@ -135,6 +135,8 @@ Learn how to configure AsposeAI models step by step, covering setup, parameters,
 Learn how to create a logger for Aspose OCR in .NET with a detailed, step‑by‑step guide.
 ### [Download missing models with Aspose AI – complete guide](./download-missing-models-with-aspose-ai-complete-guide/)
 Learn how to automatically download missing AI models using Aspose AI to ensure seamless OCR processing.
+### [How to download OCR language and extract text from an image](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Learn how to download OCR language packs and extract text from images using Aspose.OCR in .NET.
 
 ### Common use cases
 - **Extract text images** from scanned invoices for automated accounting.  
@@ -184,12 +186,8 @@ Learn how to set up Aspose license in C# applications with a step‑by‑step gu
 
 ### [How to Apply License in Aspose OCR – Step‑by‑Step C# Guide](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Learn how to apply a license to Aspose OCR in C# with a clear step‑by‑step guide.
-
-
-
-
-
-
+### [How to download OCR language and extract text from an image](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Learn how to download OCR language packs and extract text from images using Aspose.OCR in .NET.
 
 ## Frequently asked questions
 

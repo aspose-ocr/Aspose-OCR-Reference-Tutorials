@@ -107,6 +107,8 @@ Kompletní návod, jak vytvořit a nakonfigurovat model AsposeAI ve vašich apli
 Kompletní návod, jak vytvořit logger pro Aspose OCR v .NET aplikacích.
 ### [Stáhněte chybějící modely pomocí Aspose AI – kompletní průvodce](./download-missing-models-with-aspose-ai-complete-guide/)
 Kompletní návod, jak stáhnout chybějící AI modely pomocí Aspose AI a integrovat je do vašich aplikací.
+### [Jak stáhnout jazyk OCR a extrahovat text z obrázku](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Naučte se stáhnout jazykový balíček OCR a extrahovat text z obrázku pomocí Aspose.OCR.
 
 ### Běžné případy použití
 - **Extrahovat text z obrázků** ze skenovaných faktur pro automatizované účetnictví.  
@@ -134,11 +136,6 @@ Naučte se, jak načíst vložený zdroj a nastavit licenci Aspose v .NET aplika
 ### [Stáhněte model jazyka OCR v C# s Aspose – Kompletní průvodce](./download-ocr-language-model-in-c-with-aspose-full-guide/)
 Kompletní návod, jak stáhnout a použít model jazyka OCR v C# pomocí Aspose.
 
-
-
-
-
-
 ### [Jak povolit GPU pro Aspose OCR – krok za krokem](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Povolení GPU akcelerace pro Aspose OCR v .NET aplikacích. Postupujte krok za krokem a zvýšte výkon.
 ### [Rozpoznání textu z obrázku v C# – arabské OCR s Aspose](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -146,20 +143,8 @@ Rozpoznávejte arabský text z obrázků v C# pomocí Aspose OCR.
 ### [Jak nastavit licenci Aspose v C# – Kompletní průvodce](./how-to-set-aspose-license-in-c-complete-guide/)
 Naučte se, jak v C# nastavit licenci Aspose a plně využít její funkce.
 
-
-
-
-
-
-
 ### [Jak použít licenci v Aspose OCR – krok za krokem průvodce v C#](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Naučte se, jak aktivovat licenci v Aspose OCR pro .NET aplikace pomocí C#.
-
-
-
-
-
-
 
 ## Často kladené otázky
 

@@ -114,6 +114,9 @@ Aspose OCR kullanarak özelleştirilmiş bir logger oluşturmayı adım adım ö
 ### [Aspose AI ile eksik modelleri indirin – tam rehber](./download-missing-models-with-aspose-ai-complete-guide/)
 Aspose AI kullanarak eksik OCR modellerini indirip kurmayı adım adım gösteren tam rehber.
 
+### [OCR Dilini İndir ve Görüntüden Metin Çıkarma](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Aspose.OCR ile OCR dil paketini indirip bir görüntüden metin çıkarma adımlarını öğrenin.
+
 ### Yaygın Kullanım Senaryoları
 - **Taralı faturalardan metin çıkarma** ile otomatik muhasebe.  
 - Büyük belge arşivlerini aranabilir depolar için indeksleme.
@@ -135,9 +138,6 @@ Aspose kullanarak C# projelerinizde OCR dil modeli nasıl indirilir ve uygulanı
 
 
 
-
-
-
 ### [Aspose OCR için GPU'yu Etkinleştirme – Adım Adım Kılavuz](./how-to-enable-gpu-for-aspose-ocr-step-by-step-guide/)
 Aspose OCR'de GPU desteğini etkinleştirerek performansı artırın. Adım adım kurulum ve yapılandırma talimatları.
 ### [C#'ta Görüntü Metni Tanıma – Aspose ile Arapça OCR](./recognize-image-text-in-c-arabic-ocr-with-aspose/)
@@ -145,19 +145,8 @@ Aspose OCR kullanarak C# uygulamalarında Arapça metin çıkarımını adım ad
 ### [C#'ta Aspose Lisansını Ayarlama – Tam Kılavuz](./how-to-set-aspose-license-in-c-complete-guide/)
 Aspose lisansını C# projelerinizde nasıl ayarlayacağınızı adım adım öğrenin.
 
-
-
-
-
-
-
 ### [Aspose OCR'de Lisans Nasıl Uygulanır – Adım Adım C# Kılavuzu](./how-to-apply-license-in-aspose-ocr-step-by-step-c-guide/)
 Aspose OCR için lisansı C# dilinde adım adım nasıl uygulayacağınızı öğrenin.
-
-
-
-
-
 
 ## Sıkça Sorulan Sorular
 

@@ -81,6 +81,8 @@ Aprenda a checar o sinalizador de licença no Aspose OCR para garantir que sua a
 Aprenda a ativar o suporte GPU no Aspose.OCR para acelerar o reconhecimento de imagens em aplicações C#.
 ### [Como Baixar o Pacote de Idioma OCR para Russo – Guia Completo](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
 Aprenda a baixar e instalar o pacote de idioma OCR para russo, permitindo reconhecimento preciso de texto em imagens russas.
+### [Como baixar idioma OCR e extrair texto de uma imagem](./how-to-download-ocr-language-and-extract-text-from-an-image/)
+Aprenda a baixar pacotes de idioma OCR e extrair texto de imagens usando Aspose.OCR em C#.
 ### [Como desativar OCR em C# – Guia offline Aspose OCR](./how-to-disable-ocr-in-c-offline-aspose-ocr-guide/)
 Desative o OCR em aplicações C# usando o Aspose OCR offline. Aprenda a desabilitar recursos e otimizar desempenho.
 ### [Carregar imagem para OCR em C# – Guia completo de Aspose OCR e verificação ortográfica](./load-image-for-ocr-in-c-complete-aspose-ocr-spell-check-guid/)
