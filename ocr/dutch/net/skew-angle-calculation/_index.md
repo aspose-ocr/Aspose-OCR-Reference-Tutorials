@@ -59,6 +59,8 @@ Leer hoe u met Aspose OCR afbeeldingen kunt rechtzetten in C#, stap voor stap.
 Leer stap voor stap hoe u scheve afbeeldingen corrigeert met Aspose OCR in C# voor optimale OCR-prestaties.
 ### [Hoe een afbeelding rechtzetten met Aspose OCR – Complete C#-gids](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Leer hoe u met Aspose OCR en C# afbeeldingen kunt rechtzetten voor nauwkeurige OCR-resultaten.
+### [OCR-gedraaid document tutorial – automatische scheefhoekcorrectie en rotatiefix in C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Leer hoe u scheve documenten automatisch corrigeert en roteert met Aspose.OCR voor .NET in C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -135,6 +135,31 @@ weight: 24
 Полное руководство по созданию OCR‑движка в C# с использованием Aspose.OCR, включая настройку, обучение и интеграцию.
 ### [Установить ограничение памяти GPU с Aspose OCR – руководство C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Узнайте, как ограничить использование памяти GPU при работе с Aspose OCR в C# для повышения производительности.
+### [Извлечение текста из изображения с Aspose OCR GPU – Полное руководство на C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Полное руководство на C# по извлечению текста из изображения с использованием GPU‑ускорения Aspose OCR.
+### [Как установить лицензию в Aspose OCR – Полное руководство на C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Полное руководство по установке лицензии Aspose OCR в C#.
+### [Как выполнить OCR в C# – Руководство по многоязычному распознаванию](./how-to-perform-ocr-in-c-multi-language-guide/)
+Узнайте, как настроить Aspose.OCR в C# для распознавания текста на нескольких языках в одном приложении.
+### [Изображение в текст C# – Aspose OCR с отключённой загрузкой](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Показывает, как извлечь текст из изображения в C# с Aspose OCR, отключив возможность скачивания результата.
+### [Получить версию Aspose OCR в C# – Полное руководство](./get-aspose-ocr-version-in-c-complete-guide/)
+Узнайте, как программно определить текущую версию Aspose.OCR в приложениях C#.
+### [Как использовать OcrEngine в C# – Полное руководство по OCR](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+### [Создание поискового PDF из изображения – Полное пошаговое руководство](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Подробное руководство по преобразованию изображения в PDF с возможностью поиска текста с помощью Aspose.OCR.
+### [Определение языка на изображении в C# – Полное руководство по программированию](./detect-language-from-image-in-c-complete-programming-guide/)
+Полное руководство по определению языка текста на изображении с помощью Aspose.OCR в C#.
+### [Как использовать OcrEngineConfig – конфигурация OCR‑движка в C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Узнайте, как настроить OcrEngineConfig для управления параметрами OCR‑движка в C# с Aspose.OCR.
+### [Как выполнить OCR с Aspose.OCR – Полное руководство на C#](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Подробное руководство по использованию Aspose.OCR в C# для полного процесса OCR от установки до получения текста.
+### [Создание конфигурации модели AsposeAI – пошаговое руководство](./create-asposeai-model-config-step-by-step-guide/)
+Подробное руководство по созданию и настройке модели AsposeAI шаг за шагом.
+### [Создание логгера Aspose OCR – Полное пошаговое руководство](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Подробное руководство по созданию логгера для Aspose OCR с полным пошаговым описанием.
+### [Скачивание недостающих моделей с Aspose AI — полное руководство](./download-missing-models-with-aspose-ai-complete-guide/)
+Полное руководство по загрузке недостающих моделей с помощью Aspose AI.
 
 
 
