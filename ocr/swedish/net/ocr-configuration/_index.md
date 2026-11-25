@@ -62,6 +62,8 @@ Lås upp kraftfulla OCR‑funktioner med Aspose.OCR för .NET. Extrahera text fr
 Lås upp potentialen i Aspose.OCR för .NET. Utför OCR‑bildigenkänning med listor utan ansträngning. Öka produktivitet och datautdragning i dina applikationer.
 ### [Skapa sökbar PDF i C# – OCR‑konverteringsguide](./create-searchable-pdf-in-c-ocr-conversion-guide/)
 Lås upp möjligheten att skapa sökbara PDF-filer med OCR i C# med Aspose.OCR.
+### [Ladda ner saknade modeller med Aspose AI – komplett guide](./download-missing-models-with-aspose-ai-complete-guide/)
+Lär dig ladda ner saknade AI-modeller automatiskt med Aspose AI i din .NET-applikation.
 
 ### [Ladda bildfil och extrahera kvittotext med GPU‑OCR i C#](./load-image-file-extract-receipt-text-with-gpu-ocr-in-c/)
 Använd GPU‑accelererad OCR för snabb kvittotextutvinning i C#‑applikationer.
@@ -94,7 +96,30 @@ Lär dig hur du laddar en bild och utför OCR samt stavningskontroll med Aspose 
 ### [Skapa OCR‑motor i C# – Komplett guide](./create-ocr-engine-in-c-complete-guide/)
 Skapa en OCR‑motor i C# med en komplett steg‑för‑steg‑guide för Aspose.OCR.
 ### [Ställ in GPU-minnesgräns med Aspose OCR – C# GPU‑guide](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
+### [Extrahera text från bild med Aspose OCR GPU – Fullständig C#-guide](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Lär dig hur du använder Aspose OCR GPU för att snabbt extrahera text från bilder med en komplett C#‑guide.
+### [Hur man ställer in licens i Aspose OCR – Fullständig C#‑guide](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Lär dig hur du konfigurerar licensen för Aspose OCR med en komplett C#‑guide.
+### [Hur man utför OCR i C# – Flerspråkig guide](./how-to-perform-ocr-in-c-multi-language-guide/)
+Lär dig hur du använder Aspose.OCR i C# för att känna igen text på flera språk i en och samma applikation.
+### [bild till text c# – Aspose OCR med inaktiverad nedladdning](./image-to-text-c-aspose-ocr-with-disabled-download/)
+### [Hämta Aspose OCR-version i C# – Komplett guide](./get-aspose-ocr-version-in-c-complete-guide/)
+Lär dig hur du programatiskt får reda på vilken version av Aspose OCR som används i din C#‑applikation.
+### [Hur man använder OcrEngine i C# – Komplett OCR‑guide](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Lär dig hur du använder OcrEngine i C# för fullständig OCR‑funktionalitet.
+### [Skapa sökbar PDF från en bild – Fullständig steg‑för‑steg‑guide](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Skapa en sökbar PDF från en bild med Aspose.OCR. En komplett steg‑för‑steg‑guide för .NET‑utvecklare.
+### [Detektera språk från bild i C# – Komplett programmeringsguide](./detect-language-from-image-in-c-complete-programming-guide/)
+Lär dig hur du identifierar språk i en bild med C# och Aspose.OCR. En komplett guide för programmerare.
+### [Hur man använder OcrEngineConfig – OCR-motorkonfiguration i C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
 
+### [Hur man utför OCR med Aspose.OCR – Komplett C#‑guide](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+En fullständig C#‑guide som visar hur du använder Aspose.OCR för att extrahera text från bilder med hög precision.
+### [Skapa AsposeAI-modellkonfiguration – steg‑för‑steg‑guide](./create-asposeai-model-config-step-by-step-guide/)
+Lär dig hur du konfigurerar en AsposeAI-modell med en detaljerad steg‑för‑steg‑guide.
+
+### [Skapa Logger Aspose OCR – Komplett steg‑för‑steg‑guide](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Lär dig hur du implementerar en logger för Aspose OCR med en detaljerad steg‑för‑steg‑instruktion.
 ### Vanliga användningsfall
 - **Extrahera textbilder** från skannade fakturor för automatiserad bokföring.
 - Indexera stora dokumentarkiv för sökbara förråd.

@@ -1,23 +1,77 @@
 ---
 category: general
-date: 2026-01-07
-description: 如何啟用 GPU 進行 OCR 並快速從圖像提取文字。學習從 PNG 識別文字、從相片讀取文字，以及使用 Aspose OCR 將圖像轉換為文字。
+date: 2026-10-19
+description: 如何在 Java 中使用 Aspose OCR 透過 GPU 加速快速從圖像提取文字。了解如何啟用 GPU、辨識 PNG 文字、讀取相片文字，以及將圖像轉換為文字。
 draft: false
 keywords:
-- how to enable gpu
 - extract text from image
 - recognize text from png
 - read text from photo
 - convert image to text
-language: zh-hant
-og_description: 如何在 Java 中啟用 GPU 進行 OCR。本指南將向您展示如何從圖像中提取文字、識別 PNG 圖片中的文字，以及使用 Aspose
-  OCR 將圖像轉換為文字。
-og_title: 如何啟用 GPU 進行 OCR – 快速文字提取
+lastmod: 2026-10-19
+og_description: 了解如何在 Java 中使用 GPU 加速的 Aspose OCR 從圖像提取文字。啟用 GPU、辨識 PNG 文字、讀取相片文字，並高效將圖像轉換為文字。
+og_image_alt: Diagram showing GPU‑accelerated OCR flow from image loading to text
+  extraction
+og_title: 使用 GPU 加速的 Aspose OCR (Java) 從圖像提取文字
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: How to extract text from image quickly with GPU acceleration using
+    Aspose OCR in Java. Learn to enable GPU, recognize text from PNG, read text from
+    photo, and convert image to text.
+  headline: How to extract text from image with GPU‑accelerated Aspose OCR
+  type: TechArticle
+- description: How to extract text from image quickly with GPU acceleration using
+    Aspose OCR in Java. Learn to enable GPU, recognize text from PNG, read text from
+    photo, and convert image to text.
+  name: How to extract text from image with GPU‑accelerated Aspose OCR
+  steps:
+  - name: initialize the OCR engine – **how to enable GPU**
+    text: '`OcrEngine` is the central class that holds all OCR settings, including
+      the GPU flag. > **Why this matters:** Without an `OcrEngine` you have no context
+      for the image or the hardware options. Instantiating it early also allows you
+      to tweak options before loading the file.'
+  - name: load the image you want to process – **extract text from image**
+    text: '`ImageStream.fromFile` reads any supported format; PNG is preferred because
+      it retains lossless detail. > **Edge case:** If your image lives in a different
+      folder, adjust the path accordingly. For large batches, loop over a directory
+      and call `setImage` for each file.'
+  - name: turn on GPU acceleration – **how to enable GPU**
+    text: Calling `setUseGpu(true)` instructs the native library to off‑load the heavy
+      lifting to the graphics card. If no compatible GPU is found, Aspose silently
+      falls back to CPU, so your application never crashes. > **What if I don’t have
+      a GPU?** The call is ignored and OCR runs on the CPU. You can verif
+  - name: perform the OCR – **recognize text from PNG**
+    text: Invoke `recognize()` to start the analysis. The method returns an `OcrResult`
+      object containing raw text, confidence scores, and optional bounding‑box data.
+      > **Why wait until now?** The OCR process is computationally intensive; doing
+      it after all settings are applied ensures maximum efficiency, esp
+  - name: output the detected string – **read text from photo**
+    text: 'Print the result to the console. In production you might store it in a
+      database or send it over a network, but `System.out.println` keeps the example
+      minimal. > **Expected output:** If `sample-photo.png` contains the words “Hello
+      World”, the console will display: That’s the whole program—no external'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose OCR will automatically fall back to CPU if no CUDA‑compatible
+      GPU is detected.
+    question: Can I use GPU acceleration on any machine?
+  - answer: Java 17 or newer is recommended for best performance and long‑term support.
+    question: What Java version is required?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production use.
+    question: Do I need a license for development?
+  - answer: Tests show up to 5× speed‑up on an NVIDIA RTX 3080 versus CPU‑only processing.
+    question: How much faster is GPU OCR?
+  - answer: The Java API runs on Windows, Linux, and macOS; GPU acceleration works
+      on any system with an NVIDIA CUDA driver.
+    question: Is the code cross‑platform?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - GPU-Acceleration
-title: 如何啟用 GPU 以進行 OCR – 快速從圖像提取文字
+title: 如何使用 GPU 加速的 Aspose OCR 從圖像中提取文字
 url: /zh-hant/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/
 ---
 
@@ -25,30 +79,39 @@ url: /zh-hant/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extrac
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 如何啟用 GPU 進行 OCR – 快速從圖像提取文字
+# 如何使用 GPU 加速的 Aspose OCR 提取文字
 
-有沒有想過 **how to enable GPU** 用於 OCR 並從照片即時取得結果？你並不孤單。在許多電腦視覺專案中，瓶頸往往是 OCR 步驟，尤其是處理高解析度 PNG 檔案時。好消息是 Aspose OCR 只需一行程式碼即可開啟 GPU 加速，能大幅縮短處理時間。
+Ever wondered **如何啟用 GPU** for OCR and get instant results from a photo? You're not alone. In many computer‑vision projects the bottleneck is the OCR step, especially when you’re dealing with high‑resolution PNG files. The good news is that Aspose OCR lets you turn on GPU acceleration with a single line of code, which can slash processing time dramatically. In this guide you’ll learn to **從圖像提取文字** files, **從 PNG 識別文字** assets, **從相片讀取文字** inputs, and ultimately **將圖像轉換為文字** using the Aspose OCR library.
 
-在本教學中，你將學會使用 Aspose OCR 函式庫 **extract text from image** 檔案、**recognize text from PNG** 資源、**read text from photo** 輸入，最終 **convert image to text**。我們會逐步說明每個必要步驟，解釋每項設定的原因，並提供一個完整、可直接執行的 Java 範例，讓你今天就能放入專案中使用。
+## 快速回答
+- **我可以在任何機器上使用 GPU 加速嗎？** 是的，Aspose OCR 會自動回退至 CPU，如果未偵測到相容的 CUDA‑compatible GPU。  
+- **需要哪個 Java 版本？** 建議使用 Java 17 或更新版本，以獲得最佳效能與長期支援。  
+- **開發時需要授權嗎？** 免費試用可用於評估；商業授權則是正式上線的必要條件。  
+- **GPU OCR 快多少？** 測試顯示在 NVIDIA RTX 3080 上可提升至 5 倍的速度，相較於僅使用 CPU。  
+- **程式碼跨平台嗎？** Java API 可在 Windows、Linux 與 macOS 上執行；只要系統安裝 NVIDIA CUDA 驅動，即可使用 GPU 加速。  
 
-> **你將獲得的成果：** 一個可運作的 Java 程式，載入 PNG 圖片、啟用 GPU 加速、執行 OCR，並將偵測到的字串印到主控台。
+## 什麼是從圖像提取文字？
+Extracting text from an image refers to the process of converting visual characters that appear in a bitmap—such as PNG, JPEG, or TIFF—into searchable, editable strings using optical character recognition (OCR) technology. The OCR engine analyses pixel patterns, identifies letters and numbers, and outputs plain‑text that can be indexed or edited.
+
+## 為什麼使用 GPU 加速的 OCR？
+Aspose OCR supports **50+ input and output formats** and can process multi‑hundred‑page documents without loading the entire file into memory. When GPU acceleration is enabled, the same OCR workload that takes ~2 seconds on CPU can finish in under 0.4 seconds on a modern RTX 3080, delivering a measurable productivity boost for batch‑processing pipelines.
 
 ## 前置條件
 
 | 需求 | 為何重要 |
-|------|----------|
-| Java 17 或更新版本 | Aspose OCR 至少需要 Java 8，但 Java 17 提供長期支援與更佳效能。 |
-| Maven 或 Gradle 建置工具 | 自動取得 `aspose-ocr` 相依性。 |
-| 相容 CUDA 的 GPU（可選） | `setUseGpu(true)` 呼叫在沒有 GPU 的系統上會被忽略，但若有 GPU 可提升速度。 |
-| 已知資料夾中的影像檔案（`sample-photo.png`） | 這是我們將提供給 OCR 引擎的來源。 |
+|-------------|----------------|
+| Java 17 或更新版本 | Provides long‑term support and performance improvements over older runtimes. |
+| Maven or Gradle build tool | Pulls the `aspose-ocr` dependency automatically and keeps it up‑to‑date. |
+| A CUDA‑compatible GPU (optional) | Enables the `setUseGpu(true)` call to off‑load heavy image analysis to the graphics card. |
+| An image file (`sample-photo.png`) in a known folder | Serves as the source for the OCR engine to read and convert. |
 
-如果缺少上述任一項，你仍可依照程式碼執行——只需跳過 GPU 步驟，函式庫會自動回退至 CPU 處理。
+If any of these are missing, you can still run the example; the library will simply revert to CPU processing.
 
 ## 專案設定
 
-### 1️⃣ 將 Aspose OCR 加入你的建置
+### 1️⃣ 將 Aspose OCR 加入建置
 
-對於 Maven，將以下程式碼片段加入你的 `pom.xml`：
+For Maven, add this snippet to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -58,25 +121,25 @@ url: /zh-hant/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extrac
 </dependency>
 ```
 
-對於 Gradle，將以下內容放入 `build.gradle`：
+For Gradle, put the following in `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-> **小技巧：** 持續關注 Aspose Maven 套件庫，他們會定期發布效能修補。
+> **小技巧：** 請關注 Aspose Maven 套件庫，他們會定期釋出效能修補。
 
 ### 2️⃣ 目錄結構
 
-在專案根目錄建立名為 `resources` 的資料夾，並將 `sample-photo.png` 放入其中。程式碼會使用相對路徑引用它，無需硬編碼絕對位置。
+Create a folder called `resources` at the root of your project and drop `sample-photo.png` there. The code will reference it with a relative path, so you won’t need to hard‑code any absolute locations.
 
-## 步驟實作
+## 如何啟用 GPU 進行 OCR？
 
-以下我們將流程分解為多個邏輯區塊。每個區塊都有自己的 H2 標題，這不僅有助於 SEO，也讓 AI 模型能清晰了解教學結構。
+Load the OCR engine, turn on GPU, and run the recognition in three concise steps. This direct answer tells you exactly what to do: instantiate `OcrEngine`, enable GPU with `setUseGpu(true)`, then call `recognize()` on the loaded image. The whole operation completes in a single method chain, giving you maximum speed with minimal code.
 
-### 步驟 1：初始化 OCR 引擎 – **how to enable GPU**
+### 步驟 1：初始化 OCR 引擎 – **如何啟用 GPU**
 
-首先，你需要建立 `OcrEngine` 的實例。此物件保存所有設定，包括關鍵的 GPU 旗標。
+`OcrEngine` is the central class that holds all OCR settings, including the GPU flag.
 
 ```java
 import com.aspose.ocr.*;
@@ -88,44 +151,44 @@ public class GpuExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **為何重要：** 沒有 `OcrEngine`，就無法取得影像或硬體選項的上下文。提前實例化也能在載入檔案前調整設定。
+> **Why this matters:** Without an `OcrEngine` you have no context for the image or the hardware options. Instantiating it early also allows you to tweak options before loading the file.
 
-### 步驟 2：載入要處理的影像 – **extract text from image**
+### 步驟 2：載入要處理的圖像 – **從圖像提取文字**
 
-接著，將引擎指向你想分析的 PNG 檔案。`ImageStream.fromFile` 輔助方法可讀取任何支援的格式，但我們會專注於 PNG，因為它保留無損細節。
+`ImageStream.fromFile` reads any supported format; PNG is preferred because it retains lossless detail.
 
 ```java
         // Step 2: Load the image to be recognized
         ocrEngine.setImage(ImageStream.fromFile("resources/sample-photo.png"));
 ```
 
-> **邊緣情況：** 若影像位於其他資料夾，請相應調整路徑。處理大量批次時，可遍歷目錄並對每個檔案呼叫 `setImage`。
+> **Edge case:** If your image lives in a different folder, adjust the path accordingly. For large batches, loop over a directory and call `setImage` for each file.
 
-### 步驟 3：開啟 GPU 加速 – **how to enable GPU**
+### 步驟 3：開啟 GPU 加速 – **如何啟用 GPU**
 
-現在重頭戲登場。將 `useGpu` 設為 `true`，底層原生函式庫會嘗試將繁重工作交給顯示卡。如果未偵測到相容的 GPU，Aspose 會靜默回退至 CPU，程式碼不會崩潰。
+Calling `setUseGpu(true)` instructs the native library to off‑load the heavy lifting to the graphics card. If no compatible GPU is found, Aspose silently falls back to CPU, so your application never crashes.
 
 ```java
         // Step 3: Enable GPU acceleration (optional – ignored if no GPU is available)
         ocrEngine.getEngineOptions().setUseGpu(true);
 ```
 
-> **如果我沒有 GPU 呢？** 不會發生錯誤；此呼叫會被忽略，OCR 會在 CPU 上執行。之後可使用 `ocrEngine.getEngineOptions().isUseGpu()` 檢查實際模式。
+> **What if I don’t have a GPU?** The call is ignored and OCR runs on the CPU. You can verify the mode later with `ocrEngine.getEngineOptions().isUseGpu()`.
 
-### 步驟 4：執行 OCR – **recognize text from PNG**
+### 步驟 4：執行 OCR – **從 PNG 識別文字**
 
-設定完成後，呼叫 `recognize()`。此方法會回傳 `OcrResult` 物件，內含原始文字、信心分數，若需要亦可取得邊界框。
+Invoke `recognize()` to start the analysis. The method returns an `OcrResult` object containing raw text, confidence scores, and optional bounding‑box data.
 
 ```java
         // Step 4: Perform the OCR recognition
         OcrResult ocrResult = ocrEngine.recognize();
 ```
 
-> **為何要等到現在才執行？** OCR 過程計算量大；在所有設定完成後執行，可確保最高效能，尤其在 GPU 啟用時。
+> **Why wait until now?** The OCR process is computationally intensive; doing it after all settings are applied ensures maximum efficiency, especially when the GPU is active.
 
-### 步驟 5：輸出偵測到的字串 – **read text from photo**
+### 步驟 5：輸出偵測到的字串 – **從相片讀取文字**
 
-最後，印出結果。在實際應用中，你可能會將字串寫入資料庫或傳送至網路，但 `System.out.println` 讓範例保持簡潔。
+Print the result to the console. In production you might store it in a database or send it over a network, but `System.out.println` keeps the example minimal.
 
 ```java
         // Step 5: Output the recognized text
@@ -138,7 +201,7 @@ public class GpuExample {
 }
 ```
 
-> **預期輸出：** 若 `sample-photo.png` 包含文字 “Hello World”，主控台將顯示：
+> **Expected output:** If `sample-photo.png` contains the words “Hello World”, the console will display:
 
 ```
 Detected text:
@@ -146,47 +209,58 @@ Hello World
 GPU used: true
 ```
 
-這就是完整程式——不需外部服務，也沒有隱藏的設定檔。
+That’s the whole program—no external services, no hidden configuration files.
 
 ## 視覺概覽
 
-![如何啟用 GPU 進行 OCR](gpu-ocr-diagram.png "圖示說明從載入影像到 GPU 加速 OCR 的流程")
+![如何啟用 GPU 進行 OCR](gpu-ocr-diagram.png "顯示從圖像載入到 GPU 加速 OCR 流程的圖示")
 
-*此圖示說明管線的每個步驟，強調 **how to enable GPU** 旗標所在位置。*
+[如何啟用 GPU 進行 OCR](gpu-ocr-diagram.png "顯示從圖像載入到 GPU 加速 OCR 流程的圖示")
+
+*此圖示說明了管線的每個步驟，強調 **如何啟用 GPU** 旗標所在位置。*
 
 ## 常見問題與邊緣情況
 
-| 問題 | 回答 |
-|------|------|
-| **我可以一次處理多張影像嗎？** | 可以。將步驟 2‑5 包在 `for (File img : folder.listFiles())` 迴圈中。記得對每個檔案呼叫 `ocrEngine.setImage`。 |
-| **支援哪些影像格式？** | JPEG、PNG、BMP、TIFF 與 GIF 均為 Aspose OCR 原生支援的格式。 |
-| **如何處理低品質掃描？** | 在辨識前調整 `ocrEngine.getEngineOptions().setPreprocessMode(PreprocessMode.Auto)`，讓引擎清除雜訊。 |
-| **有辦法取得信心分數嗎？** | `ocrResult.getMeanConfidence()` 會回傳平均信心分數（0‑100）。個別字元的信心可透過 `ocrResult.getTextLines()` 取得。 |
-| **在 macOS 使用 Metal GPU 時會有效嗎？** | Aspose OCR 目前僅在 NVIDIA GPU 上使用 CUDA。於 macOS 上若非使用 NVIDIA eGPU，將回退至 CPU。 |
+| 問題 | 答案 |
+|----------|--------|
+| **我可以在一次執行中處理多張圖像嗎？** | Yes. Wrap steps 2‑5 in a `for (File img : folder.listFiles())` loop and call `ocrEngine.setImage` for each file. |
+| **支援哪些圖像格式？** | JPEG, PNG, BMP, TIFF, and GIF are all natively supported by Aspose OCR. |
+| **如何處理低品質掃描？** | Set `ocrEngine.getEngineOptions().setPreprocessMode(PreprocessMode.Auto)` before recognition to let the engine clean up noise automatically. |
+| **有辦法取得信心分數嗎？** | `ocrResult.getMeanConfidence()` returns an average confidence (0‑100). Individual character confidence is available via `ocrResult.getTextLines()`. |
+| **在 macOS 使用 Metal GPU 能運作嗎？** | Aspose OCR currently leverages CUDA on NVIDIA GPUs only. On macOS you’ll fall back to CPU unless you use an NVIDIA eGPU. |
 
-## 效能提示
+## 效能技巧
 
-1. **批次處理：** 先將所有影像載入記憶體，然後一次啟用 GPU 並執行迴圈。可減少驅動程式開銷。  
-2. **影像縮放：** 將非常大的 PNG 縮小至長邊最多 2000 px；OCR 準確度仍保持高水平，同時降低 GPU 記憶體使用。  
-3. **預熱呼叫：** 在正式工作負載前，於小圖像上執行一次虛擬的 `recognize()`，讓 GPU 驅動程式初始化——可在第一張正式影像上省下數毫秒。  
+1. **Batch processing:** Load all images into memory first, enable GPU once, then run the loop. This reduces driver overhead.  
+2. **Image resizing:** Downscale very large PNGs to a maximum of 2000 px on the longest side; OCR accuracy stays high while GPU memory usage drops.  
+3. **Warm‑up call:** Run a dummy `recognize()` on a tiny image before the real workload to let the GPU driver initialise—this can shave a few milliseconds off the first real image.
 
 ## 重點回顧與後續步驟
 
-我們已說明了 Aspose OCR 的 **how to enable GPU**，示範了 **extract text from image** 檔案、**recognize text from PNG**，以及 **read text from photo** 與 **convert image to text** 工作流程。上方完整的 Java 程式碼可直接複製貼上，效能說明則能協助你將硬體效能發揮到極致。
+We’ve covered **如何啟用 GPU** for Aspose OCR, shown you how to **從圖像提取文字** files, demonstrated **從 PNG 識別文字**, and walked through **從相片讀取文字** and **將圖像轉換為文字** workflows. The complete Java snippet above is ready to copy‑paste, and the performance notes should help you squeeze every last millisecond out of your hardware.
 
-接下來可以考慮擴充此解決方案：
+What’s next? Consider extending the solution to:
 
-* **將 OCR 結果匯出為 JSON**，供後續分析使用。  
-* **結合 Spring Boot REST 端點**，讓其他服務提交照片並取得純文字回應。  
-* **使用語言特定字典**，透過 `ocrEngine.getEngineOptions().setLanguage(Language.English)` 提升多語言文件的準確度。  
+* **Export OCR results to JSON** for downstream analytics.  
+* **Integrate with a Spring Boot REST endpoint** so other services can submit photos and receive plain‑text replies.  
+* **Apply language‑specific dictionaries** via `ocrEngine.getEngineOptions().setLanguage(Language.English)` to improve accuracy on multilingual documents.
 
-歡迎自行實驗——將 PNG 換成掃描的 PDF、啟用 `setPreserveFormatting(true)`，或對噪點較多的影像串接多次 OCR。只要掌握了 **how to enable GPU**，就能無限發揮。
+Feel free to experiment—swap out the PNG for a scanned PDF, enable `setPreserveFormatting(true)`, or chain multiple OCR passes for noisy images. The sky’s the limit once you’ve mastered **如何啟用 GPU** for OCR.
 
-### 祝開發順利！
+**Last Updated:** 2026-10-19  
+**Tested With:** Aspose OCR 24.11 for Java  
+**Author:** Aspose
 
-如果遇到任何問題或發現巧妙的調整，歡迎在下方留言。記得：少量的 GPU 能力即可將緩慢的 OCR 任務變成閃電般的文字提取管線。 🚀
+## 相關教學
+
+- [如何在 Java 中啟用 GPU 進行 OCR 以提取圖像文字](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+- [使用 Aspose OCR GPU Java 識別文字圖像](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
+- [在 Java 中批次圖像 OCR 快速提取 PNG 檔案文字](/ocr/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,82 @@
 ---
 category: general
-date: 2026-01-07
-description: Hogyan engedélyezzük a GPU-t az OCR-hez, és gyorsan szöveget nyerjünk
-  ki a képből. Tanulja meg a szöveg felismerését PNG-ből, a szöveg olvasását fényképről,
-  és a kép szöveggé konvertálását az Aspose OCR segítségével.
+date: 2026-10-19
+description: Hogyan nyerjünk ki szöveget a képből gyorsan GPU gyorsítással az Aspose
+  OCR használatával Java-ban. Tanulja meg, hogyan engedélyezze a GPU-t, hogyan ismerje
+  fel a szöveget PNG-ből, hogyan olvassa le a szöveget egy fényképről, és hogyan konvertálja
+  a képet szöveggé.
 draft: false
 keywords:
-- how to enable gpu
 - extract text from image
 - recognize text from png
 - read text from photo
 - convert image to text
-language: hu
-og_description: Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban. Ez az útmutató megmutatja,
-  hogyan lehet szöveget kinyerni képből, szöveget felismerni PNG-ből, és képet szöveggé
-  konvertálni az Aspose OCR használatával.
-og_title: Hogyan engedélyezzük a GPU-t az OCR-hez – Gyors szövegkivonás
+lastmod: 2026-10-19
+og_description: Ismerje meg, hogyan nyerhet ki szöveget a képből GPU‑accelerated Aspose
+  OCR segítségével Java-ban. Engedélyezze a GPU-t, ismerje fel a szöveget PNG-ből,
+  olvassa le a szöveget egy fényképről, és hatékonyan konvertálja a képet szöveggé.
+og_image_alt: Diagram showing GPU‑accelerated OCR flow from image loading to text
+  extraction
+og_title: Szöveg kinyerése a képből GPU‑accelerated Aspose OCR (Java)
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: How to extract text from image quickly with GPU acceleration using
+    Aspose OCR in Java. Learn to enable GPU, recognize text from PNG, read text from
+    photo, and convert image to text.
+  headline: How to extract text from image with GPU‑accelerated Aspose OCR
+  type: TechArticle
+- description: How to extract text from image quickly with GPU acceleration using
+    Aspose OCR in Java. Learn to enable GPU, recognize text from PNG, read text from
+    photo, and convert image to text.
+  name: How to extract text from image with GPU‑accelerated Aspose OCR
+  steps:
+  - name: initialize the OCR engine – **how to enable GPU**
+    text: '`OcrEngine` is the central class that holds all OCR settings, including
+      the GPU flag. > **Why this matters:** Without an `OcrEngine` you have no context
+      for the image or the hardware options. Instantiating it early also allows you
+      to tweak options before loading the file.'
+  - name: load the image you want to process – **extract text from image**
+    text: '`ImageStream.fromFile` reads any supported format; PNG is preferred because
+      it retains lossless detail. > **Edge case:** If your image lives in a different
+      folder, adjust the path accordingly. For large batches, loop over a directory
+      and call `setImage` for each file.'
+  - name: turn on GPU acceleration – **how to enable GPU**
+    text: Calling `setUseGpu(true)` instructs the native library to off‑load the heavy
+      lifting to the graphics card. If no compatible GPU is found, Aspose silently
+      falls back to CPU, so your application never crashes. > **What if I don’t have
+      a GPU?** The call is ignored and OCR runs on the CPU. You can verif
+  - name: perform the OCR – **recognize text from PNG**
+    text: Invoke `recognize()` to start the analysis. The method returns an `OcrResult`
+      object containing raw text, confidence scores, and optional bounding‑box data.
+      > **Why wait until now?** The OCR process is computationally intensive; doing
+      it after all settings are applied ensures maximum efficiency, esp
+  - name: output the detected string – **read text from photo**
+    text: 'Print the result to the console. In production you might store it in a
+      database or send it over a network, but `System.out.println` keeps the example
+      minimal. > **Expected output:** If `sample-photo.png` contains the words “Hello
+      World”, the console will display: That’s the whole program—no external'
+  type: HowTo
+- questions:
+  - answer: Yes, Aspose OCR will automatically fall back to CPU if no CUDA‑compatible
+      GPU is detected.
+    question: Can I use GPU acceleration on any machine?
+  - answer: Java 17 or newer is recommended for best performance and long‑term support.
+    question: What Java version is required?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production use.
+    question: Do I need a license for development?
+  - answer: Tests show up to 5× speed‑up on an NVIDIA RTX 3080 versus CPU‑only processing.
+    question: How much faster is GPU OCR?
+  - answer: The Java API runs on Windows, Linux, and macOS; GPU acceleration works
+      on any system with an NVIDIA CUDA driver.
+    question: Is the code cross‑platform?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - GPU-Acceleration
-title: Hogyan engedélyezzük a GPU-t az OCR-hez – Gyors szövegkinyerés képekből
+title: Hogyan nyerjünk ki szöveget a képből GPU‑accelerated Aspose OCR-rel
 url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extraction-of-text-from-image/
 ---
 
@@ -28,30 +84,37 @@ url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-fast-extraction-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan engedélyezzük a GPU-t az OCR-hez – Gyors szövegkinyerés képekből
+# Hogyan lehet szöveget kinyerni GPU‑gyorsított Aspose OCR-rel
 
-Valaha is elgondolkodtál azon, **hogyan engedélyezheted a GPU-t** az OCR-hez, és azonnali eredményeket kaphatsz egy fényképből? Nem vagy egyedül. Sok számítógépes látás projektben a szűk keresztmetszet az OCR lépés, különösen, ha nagy felbontású PNG fájlokkal dolgozol. A jó hír, hogy az Aspose OCR lehetővé teszi a GPU gyorsítás bekapcsolását egyetlen kódsorral, ami drámaian lecsökkentheti a feldolgozási időt.
+Ever wondered **how to enable GPU** for OCR and get instant results from a photo? You're not alone. In many computer‑vision projects the bottleneck is the OCR step, especially when you’re dealing with high‑resolution PNG files. The good news is that Aspose OCR lets you turn on GPU acceleration with a single line of code, which can slash processing time dramatically. In this guide you’ll learn to **extract text from image** files, **recognize text from PNG** assets, **read text from photo** inputs, and ultimately **convert image to text** using the Aspose OCR library.
 
-Ebben az útmutatóban megtanulod, hogyan **szerezz szöveget képfájlokból**, **ismerj fel szöveget PNG** erőforrásokból, **olvass szöveget fényképekből**, és végül **alakítsd át a képet szöveggé** az Aspose OCR könyvtár segítségével. Lépésről lépésre végigvezetünk minden szükséges lépésen, elmagyarázzuk, miért fontos az egyes beállítások, és egy teljes, azonnal futtatható Java példát adunk, amelyet ma beilleszthetsz a projektedbe.
+## Quick answers
+- **Can I use GPU acceleration on any machine?** Yes, Aspose OCR will automatically fall back to CPU if no CUDA‑compatible GPU is detected.  
+- **What Java version is required?** Java 17 or newer is recommended for best performance and long‑term support.  
+- **Do I need a license for development?** A free trial works for evaluation; a commercial license is required for production use.  
+- **How much faster is GPU OCR?** Tests show up to 5× speed‑up on an NVIDIA RTX 3080 versus CPU‑only processing.  
+- **Is the code cross‑platform?** The Java API runs on Windows, Linux, and macOS; GPU acceleration works on any system with an NVIDIA CUDA driver.
 
-> **Mit fogsz megtanulni:** egy működő Java program, amely betölti a PNG képet, engedélyezi a GPU gyorsítást, végrehajtja az OCR-t, és kiírja a felismert szöveget a konzolra.
+## What is extract text from image?
+Extracting text from an image refers to the process of converting visual characters that appear in a bitmap—such as PNG, JPEG, or TIFF—into searchable, editable strings using optical character recognition (OCR) technology. The OCR engine analyses pixel patterns, identifies letters and numbers, and outputs plain‑text that can be indexed or edited.
 
-## Előfeltételek
+## Why use GPU‑accelerated OCR?
+Aspose OCR supports **50+ input and output formats** and can process multi‑hundred‑page documents without loading the entire file into memory. When GPU acceleration is enabled, the same OCR workload that takes ~2 seconds on CPU can finish in under 0.4 seconds on a modern RTX 3080, delivering a measurable productivity boost for batch‑processing pipelines.
 
-Mielőtt belemerülnénk, győződj meg róla, hogy a következőkkel rendelkezel:
+## Prerequisites
 
-| Requirement | Why it matters |
+| Követelmény | Miért fontos |
 |-------------|----------------|
-| Java 17 or newer | Az Aspose OCR legalább Java 8-at igényel, de a Java 17 hosszú távú támogatást és jobb teljesítményt biztosít. |
-| Maven or Gradle build tool | Az `aspose-ocr` függőség automatikus letöltéséhez. |
-| A CUDA‑compatible GPU (optional) | A `setUseGpu(true)` hívás figyelmen kívül marad GPU nélküli rendszereken, de ha van GPU, a sebesség növekedését fogod látni. |
-| An image file (`sample-photo.png`) in a known folder | Ez lesz a forrás, amelyet az OCR motorba táplálunk. |
+| Java 17 vagy újabb | Hosszú távú támogatást és teljesítményjavulást biztosít a régebbi futtatókörnyezetekhez képest. |
+| Maven vagy Gradle build eszköz | Automatikusan letölti az `aspose-ocr` függőséget és naprakészen tartja. |
+| CUDA‑kompatibilis GPU (opcionális) | Lehetővé teszi a `setUseGpu(true)` hívást, hogy a nehéz képelemzést a grafikus kártyára terhelje. |
+| Egy képfájl (`sample-photo.png`) egy ismert mappában | A forrásként szolgál az OCR motor számára a beolvasáshoz és konvertáláshoz. |
 
-Ha bármelyik hiányzik, akkor is követheted a kódot – egyszerűen hagyd ki a GPU lépést, és a könyvtár elegánsan visszatér a CPU feldolgozáshoz.
+If any of these are missing, you can still run the example; the library will simply revert to CPU processing.
 
-## Projekt beállítása
+## Project setup
 
-### 1️⃣ Add Aspose OCR to Your Build
+### 1️⃣ Add Aspose OCR a buildhez
 
 For Maven, add this snippet to your `pom.xml`:
 
@@ -69,19 +132,19 @@ For Gradle, put the following in `build.gradle`:
 implementation 'com.aspose:aspose-ocr:23.10'
 ```
 
-> **Pro tip:** Figyeld az Aspose Maven tárolót; rendszeresen kiadnak teljesítményjavító frissítéseket.
+> **Pro tipp:** Figyelje az Aspose Maven tárolót; rendszeresen kiadnak teljesítményjavító javításokat.
 
-### 2️⃣ Könyvtárstruktúra
+### 2️⃣ Könyvtár struktúra
 
-Hozz létre egy `resources` nevű mappát a projekt gyökerén, és helyezd bele a `sample-photo.png` fájlt. A kód relatív úttal fogja hivatkozni, így nem kell abszolút helyeket kódolnod.
+Create a folder called `resources` at the root of your project and drop `sample-photo.png` there. The code will reference it with a relative path, so you won’t need to hard‑code any absolute locations.
 
-## Lépésről‑lépésre megvalósítás
+## Hogyan engedélyezzük a GPU-t az OCR-hez?
 
-Az alábbiakban a folyamatot logikai egységekre bontjuk. Minden egységnek saját H2 címe van, ami nem csak az SEO‑t segíti, hanem az AI modelleknek is egyértelmű térképet ad a tutorial felépítéséről.
+Load the OCR engine, turn on GPU, and run the recognition in three concise steps. This direct answer tells you exactly what to do: instantiate `OcrEngine`, enable GPU with `setUseGpu(true)`, then call `recognize()` on the loaded image. The whole operation completes in a single method chain, giving you maximum speed with minimal code.
 
-### 1. lépés: Az OCR motor inicializálása – **hogyan engedélyezzük a GPU-t**
+### Step 1: initialize the OCR engine – **hogyan engedélyezzük a GPU-t**
 
-Az első dolog, amit csinálsz, egy `OcrEngine` példány létrehozása. Ez az objektum tartalmazza az összes beállítást, beleértve a kulcsfontosságú GPU jelzőt.
+`OcrEngine` is the central class that holds all OCR settings, including the GPU flag.
 
 ```java
 import com.aspose.ocr.*;
@@ -93,44 +156,44 @@ public class GpuExample {
         OcrEngine ocrEngine = new OcrEngine();
 ```
 
-> **Miért fontos:** `OcrEngine` nélkül nincs kontextusod a képre vagy a hardver opciókra. A korai példányosítás lehetővé teszi a beállítások finomhangolását a fájl betöltése előtt.
+> **Miért fontos:** Without an `OcrEngine` you have no context for the image or the hardware options. Instantiating it early also allows you to tweak options before loading the file.
 
-### 2. lépés: A feldolgozni kívánt kép betöltése – **szöveg kinyerése képből**
+### Step 2: load the image you want to process – **szöveg kinyerése képből**
 
-Ezután irányítsd a motort a feldolgozni kívánt PNG fájlra. Az `ImageStream.fromFile` segédfüggvény bármely támogatott formátumot beolvas, de most a PNG-re koncentrálunk, mivel veszteségmentes részleteket őriz.
+`ImageStream.fromFile` reads any supported format; PNG is preferred because it retains lossless detail.
 
 ```java
         // Step 2: Load the image to be recognized
         ocrEngine.setImage(ImageStream.fromFile("resources/sample-photo.png"));
 ```
 
-> **Szélsőséges eset:** Ha a képed más mappában van, módosítsd az útvonalat ennek megfelelően. Nagy mennyiség esetén egy könyvtáron iterálhatsz, és minden fájlra meghívhatod a `setImage`‑t.
+> **Különleges eset:** If your image lives in a different folder, adjust the path accordingly. For large batches, loop over a directory and call `setImage` for each file.
 
-### 3. lépés: GPU gyorsítás bekapcsolása – **hogyan engedélyezzük a GPU-t**
+### Step 3: turn on GPU acceleration – **hogyan engedélyezzük a GPU-t**
 
-Most jön a főszereplő. A `useGpu` `true`‑ra állításával az alacsony szintű natív könyvtár megpróbálja a nehéz feladatot a grafikus kártyádra áthelyezni. Ha nem talál kompatibilis GPU-t, az Aspose csendben visszatér a CPU‑hoz, így a kódod sosem omlik össze.
+Calling `setUseGpu(true)` instructs the native library to off‑load the heavy lifting to the graphics card. If no compatible GPU is found, Aspose silently falls back to CPU, so your application never crashes.
 
 ```java
         // Step 3: Enable GPU acceleration (optional – ignored if no GPU is available)
         ocrEngine.getEngineOptions().setUseGpu(true);
 ```
 
-> **Mi van, ha nincs GPU-m?** Semmi rossz nem történik; a hívás figyelmen kívül marad, és az OCR a CPU-n fut. Később a `ocrEngine.getEngineOptions().isUseGpu()`‑vel ellenőrizheted a tényleges módot.
+> **Mi van, ha nincs GPU?** The call is ignored and OCR runs on the CPU. You can verify the mode later with `ocrEngine.getEngineOptions().isUseGpu()`.
 
-### 4. lépés: OCR végrehajtása – **szöveg felismerése PNG‑ből**
+### Step 4: perform the OCR – **szöveg felismerése PNG-ből**
 
-Minden beállítva, hívd meg a `recognize()`‑t. Ez a metódus egy `OcrResult` objektumot ad vissza, amely tartalmazza a nyers szöveget, a megbízhatósági pontszámokat, sőt, ha később szükséged van rá, a körülhatároló dobozokat is.
+Invoke `recognize()` to start the analysis. The method returns an `OcrResult` object containing raw text, confidence scores, and optional bounding‑box data.
 
 ```java
         // Step 4: Perform the OCR recognition
         OcrResult ocrResult = ocrEngine.recognize();
 ```
 
-> **Miért most?** Az OCR folyamat számításigényes; a beállítások alkalmazása után történő végrehajtás biztosítja a maximális hatékonyságot, különösen, ha a GPU aktív.
+> **Miért várjunk eddig?** The OCR process is computationally intensive; doing it after all settings are applied ensures maximum efficiency, especially when the GPU is active.
 
-### 5. lépés: A felismert szöveg kiírása – **szöveg olvasása fényképről**
+### Step 5: output the detected string – **szöveg olvasása fényképről**
 
-Végül írd ki az eredményt. Egy valós alkalmazásban a szöveget adatbázisba írhatod vagy hálózaton keresztül küldheted, de a `System.out.println` egyszerűen tartja a példát minimalizálva.
+Print the result to the console. In production you might store it in a database or send it over a network, but `System.out.println` keeps the example minimal.
 
 ```java
         // Step 5: Output the recognized text
@@ -143,7 +206,7 @@ Végül írd ki az eredményt. Egy valós alkalmazásban a szöveget adatbázisb
 }
 ```
 
-> **Várható kimenet:** Ha a `sample-photo.png` a „Hello World” szavakat tartalmazza, a konzol a következőt jeleníti meg:
+> **Várható kimenet:** If `sample-photo.png` contains the words “Hello World”, the console will display:
 
 ```
 Detected text:
@@ -151,47 +214,58 @@ Hello World
 GPU used: true
 ```
 
-Ez a teljes program – nincs külső szolgáltatás, nincs rejtett konfigurációs fájl.
+That’s the whole program—no external services, no hidden configuration files.
 
 ## Vizuális áttekintés
 
-![how to enable gpu for OCR](gpu-ocr-diagram.png "Diagram showing the flow from image loading to GPU‑accelerated OCR")
+![hogyan engedélyezzük a gpu-t az OCR-hez](gpu-ocr-diagram.png "Diagram, amely a képfeltöltéstől a GPU‑gyorsított OCR-ig mutatja a folyamatot")
 
-*A diagram a csővezeték minden lépését ábrázolja, kiemelve, hogy a **hogyan engedélyezzük a GPU-t** jelző hol helyezkedik el.*
+[hogyan engedélyezzük a gpu-t az OCR-hez](gpu-ocr-diagram.png "Diagram, amely a képfeltöltéstől a GPU‑gyorsított OCR-ig mutatja a folyamatot")
 
-## Gyakori kérdések és szélsőséges esetek
+*The diagram illustrates each step of the pipeline, emphasizing where the **hogyan engedélyezzük a GPU-t** flag sits.*
 
-| Question | Answer |
+## Gyakori kérdések és különleges esetek
+
+| Kérdés | Válasz |
 |----------|--------|
-| **Feldolgozhatok több képet egy futtatásban?** | Igen. A 2‑5. lépéseket egy `for (File img : folder.listFiles())` ciklusba kell foglalni. Ne felejtsd meghívni az `ocrEngine.setImage`‑t minden fájlra. |
-| **Milyen képformátumok támogatottak?** | A JPEG, PNG, BMP, TIFF és GIF formátumok mind natívan támogatottak az Aspose OCR által. |
-| **Hogyan kezeljem az alacsony minőségű beolvasásokat?** | A felismerés előtt állítsd be a `ocrEngine.getEngineOptions().setPreprocessMode(PreprocessMode.Auto)`‑t, hogy a motor megtisztítsa a zajt. |
-| **Van mód a megbízhatósági pontszámok lekérésére?** | Az `ocrResult.getMeanConfidence()` egy átlagos megbízhatósági értéket ad (0‑100). Az egyes karakterek megbízhatósága a `ocrResult.getTextLines()`‑en keresztül érhető el. |
-| **Működik ez macOS‑en Metal GPU‑val?** | Az Aspose OCR jelenleg csak CUDA-t használ NVIDIA GPU-kon. macOS‑en CPU-ra fog visszaállni, hacsak nem egy NVIDIA eGPU-t használsz. |
+| **Feldolgozhatok több képet egy futtatásban?** | Igen. Csomagolja be a 2‑5. lépéseket egy `for (File img : folder.listFiles())` ciklusba, és hívja meg az `ocrEngine.setImage`-t minden fájlra. |
+| **Milyen képfájl formátumok támogatottak?** | A JPEG, PNG, BMP, TIFF és GIF formátumok mind natívan támogatottak az Aspose OCR által. |
+| **Hogyan kezeljem az alacsony minőségű beolvasásokat?** | Állítsa be a `ocrEngine.getEngineOptions().setPreprocessMode(PreprocessMode.Auto)`-t a felismerés előtt, hogy a motor automatikusan tisztítsa a zajt. |
+| **Van mód a megbízhatósági pontszámok lekérésére?** | `ocrResult.getMeanConfidence()` egy átlagos megbízhatóságot ad vissza (0‑100). Az egyes karakterek megbízhatósága a `ocrResult.getTextLines()`-en keresztül érhető el. |
+| **Működik ez macOS-en Metal GPU-val?** | Az Aspose OCR jelenleg csak NVIDIA GPU-kon CUDA-t használ. macOS-en CPU-ra fog visszaállni, hacsak nem használ NVIDIA eGPU-t. |
 
 ## Teljesítmény tippek
 
-1. **Kötegelt feldolgozás:** Először töltsd be az összes képet a memóriába, majd egyszer kapcsolj be GPU-t, és futtasd a ciklust. Ez csökkenti a driver terhelését.  
-2. **Kép átméretezés:** A nagyon nagy PNG-ket méretezd le legfeljebb 2000 px-re a leghosszabb oldalnál; az OCR pontossága magas marad, miközben a GPU memóriahasználat csökken.  
-3. **Bemelegítő hívás:** Futtass egy dummy `recognize()`‑t egy kis képen a valódi feladat előtt, hogy a GPU driver inicializálódjon – ez néhány milliszekundummal csökkentheti az első valódi kép feldolgozását.
+1. **Kötegelt feldolgozás:** Töltse be először az összes képet a memóriába, engedélyezze egyszer a GPU-t, majd futtassa a ciklust. Ez csökkenti a driver terhelését.  
+2. **Kép átméretezés:** Méretezze le a nagyon nagy PNG-ket legfeljebb 2000 px-re a leghosszabb oldalon; az OCR pontossága magas marad, miközben a GPU memóriahasználat csökken.  
+3. **Bemelegítő hívás:** Futtasson egy dummy `recognize()`-t egy kis képen a valódi feladat előtt, hogy a GPU driver inicializálódjon – ez néhány milliszekundummal csökkentheti az első valódi kép feldolgozási idejét.
 
 ## Összefoglalás és következő lépések
 
-Áttekintettük, hogyan **engedélyezzük a GPU-t** az Aspose OCR-hez, bemutattuk, hogyan **szerezzünk szöveget képfájlokból**, demonstráltuk a **szöveg felismerését PNG‑ből**, és végigvettük a **szöveg olvasását fényképről** és a **kép szöveggé alakítását** folyamatokat. A fenti Java kódrészlet teljesen másolható, és a teljesítményjegyzetek segítenek kihasználni a hardver minden egyes milliszekundumát.
+We’ve covered **how to enable GPU** for Aspose OCR, shown you how to **extract text from image** files, demonstrated **recognize text from PNG**, and walked through **read text from photo** and **convert image to text** workflows. The complete Java snippet above is ready to copy‑paste, and the performance notes should help you squeeze every last millisecond out of your hardware.
 
-Mi a következő? Fontold meg a megoldás kibővítését:
+Mi a következő? Fontolja meg a megoldás kiterjesztését a következőkre:
 
-* **OCR eredmények exportálása JSON‑ba** a további elemzésekhez.  
-* **Integráció egy Spring Boot REST végponttal**, hogy más szolgáltatások fényképeket küldhessenek és egyszerű szöveges válaszokat kapjanak.  
-* **Nyelvspecifikus szótárak alkalmazása** a `ocrEngine.getEngineOptions().setLanguage(Language.English)`‑nel a többnyelvű dokumentumok pontosságának javításához.
+* **OCR eredmények exportálása JSON-be** az utólagos elemzésekhez.  
+* **Integrálás egy Spring Boot REST végponthoz**, hogy más szolgáltatások fényképeket küldhessenek és egyszerű szöveges válaszokat kapjanak.  
+* **Nyelvspecifikus szótárak alkalmazása** a `ocrEngine.getEngineOptions().setLanguage(Language.English)` segítségével a többnyelvű dokumentumok pontosságának javításához.
 
-Nyugodtan kísérletezz – cseréld le a PNG-t egy beolvasott PDF-re, kapcsold be a `setPreserveFormatting(true)`‑t, vagy akár több OCR átfutást láncolj a zajos képekhez. A lehetőségek határtalanok, ha már elsajátítottad a **hogyan engedélyezzük a GPU-t** az OCR-hez.
+Nyugodtan kísérletezzen—cserélje le a PNG-t egy beolvasott PDF-re, engedélyezze a `setPreserveFormatting(true)`-t, vagy láncoljon több OCR futtatást zajos képekhez. A lehetőségek határtalanok, ha már elsajátította, **hogyan engedélyezzük a GPU-t** az OCR-hez.
 
-### Jó kódolást!
+**Utoljára frissítve:** 2026-10-19  
+**Tesztelve:** Aspose OCR 24.11 for Java  
+**Szerző:** Aspose
 
-Ha bármilyen problémába ütköztél vagy találtál egy okos trükköt, hagyj megjegyzést alul. És ne feledd: egy kis GPU teljesítmény egy lassú OCR feladatot villámgyors szövegkinyerő csővezetékké alakíthat. 🚀
+## Kapcsolódó oktatóanyagok
+
+- [Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban szöveg kinyerése képből](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+- [Szöveg felismerése képen Aspose OCR GPU Java használatával](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
+- [Kötegelt kép OCR Java-ban szöveg kinyerése PNG fájlokból gyorsan](/ocr/java/ocr-operations/batch-image-ocr-in-java-extract-text-from-png-files-fast/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

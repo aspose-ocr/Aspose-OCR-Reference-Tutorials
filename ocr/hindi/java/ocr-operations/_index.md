@@ -10,7 +10,9 @@ weight: 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.OCR for Java के साथ PDF टेक्स्ट को पहचानें
@@ -82,6 +84,7 @@ Java में OCR की शक्ति को Aspose.OCR के साथ अ
 
 ### [OCR Recognizing TIFF Images in Aspose.OCR for Java](./recognize-tiff/)
 Java में Aspose.OCR के साथ शक्तिशाली टेक्स्ट पहचान को अनलॉक करें। TIFF इमेजेज में टेक्स्ट को सहजता से पहचानें। एक सहज OCR अनुभव के लिए अभी डाउनलोड करें।
+
 ### [Java में बैच OCR कैसे करें – इमेज से टेक्स्ट निकालने की पूरी गाइड](./how-to-batch-ocr-in-java-complete-guide-to-extract-text-from/)
 Java में कई इमेजेज पर एक साथ OCR लागू करके तेज़ी से टेक्स्ट निकालें। चरण‑बाय‑चरण गाइड।
 
@@ -90,22 +93,31 @@ Java का उपयोग करके इमेज पर OCR लागू �
 
 ### [Java में सर्चेबल PDF बनाएं – चरण‑बाय‑चरण गाइड](./create-searchable-pdf-in-java-step-by-step-guide/)
 Java में Aspose.OCR का उपयोग करके सर्चेबल PDF बनाने की पूरी प्रक्रिया, सेटअप से परिणाम तक।
+
 ### [बैच इमेज OCR जावा में – PNG फ़ाइलों से तेज़ी से टेक्स्ट निकालें](./batch-image-ocr-in-java-extract-text-from-png-files-fast/)
 Java में बैच प्रोसेसिंग के साथ PNG इजेजेज से तेज़ी से टेक्स्ट निकालें।
+
 ### [Aspose OCR के साथ इमेज से टेक्स्ट निकालें – चरण‑दर‑चरण डेमो](./extract-text-from-image-with-aspose-ocr-step-by-step-demo/)
 Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, चरण‑दर‑चरण कोड उदाहरणों के साथ।
+
 ### [स्कैन की गई फ़ाइलों से खोज योग्य PDF बनाएं – जावा गाइड](./create-searchable-pdf-from-scanned-files-java-guide/)
 स्कैन की गई इमेज फ़ाइलों को सर्चेबल PDF में बदलने के लिए चरण‑बद्ध जावा कोड उदाहरण और सेटिंग्स।
+
 ### [Aspose OCR में मूल्यांकन वॉटरमार्क हटाएँ – पूर्ण जावा लाइसेंस गाइड](./remove-evaluation-watermark-in-aspose-ocr-complete-java-lice/)
 Aspose OCR के मूल्यांकन वॉटरमार्क को हटाने और पूर्ण लाइसेंस लागू करने के चरण‑बद्ध निर्देश।
+
 ### [Aspose OCR के साथ इमेज से टेक्स्ट को पहचानें – Java ट्यूटोरियल](./recognize-text-from-image-with-aspose-ocr-java-tutorial/)
 इमेज से टेक्स्ट निकालने के लिए Aspose OCR को Java में कैसे लागू करें, चरण‑बद्ध गाइड।
+
 ### [इमेज‑टू‑टेक्स्ट जावा: Aspose OCR के साथ उर्दू टेक्स्ट निकालें](./image-to-text-java-extract-urdu-text-with-aspose-ocr/)
 Aspose OCR का उपयोग करके जावा में इमेज से उर्दू टेक्स्ट निकालने की पूरी प्रक्रिया।
+
 ### [जावा में इमेज से सर्चेबल PDF बनाएं – चरण‑बद्ध गाइड](./create-searchable-pdf-from-image-in-java-step-by-step-guide/)
 इमेज को सर्चेबल PDF में बदलने के लिए Aspose.OCR for Java का उपयोग करके पूर्ण चरण‑बद्ध प्रक्रिया।
+
 ### [जावा में OCR का उपयोग कैसे करें – Aspose.OCR के साथ PDF से टेक्स्ट निकालें](./how-to-use-ocr-in-java-extract-text-from-pdf-with-aspose-ocr/)
 Aspose.OCR के साथ जावा में PDF फ़ाइलों से टेक्स्ट निकालने की चरण‑बद्ध गाइड। तेज़ और सटीक OCR लागू करें।
+
 ### [जावा में OCR का उपयोग कैसे करें – इमेज से तेज़ी से टेक्स्ट पहचानें](./how-to-use-ocr-in-java-recognize-text-from-image-quickly/)
 Aspose.OCR for Java का उपयोग करके इमेज से तेज़ी से टेक्स्ट निकालें। चरण‑बद्ध गाइड और कोड उदाहरण।
 ### [JPG इमेज से सर्चेबल PDF बनाएं – जावा गाइड](./create-searchable-pdf-from-jpg-image-to-searchable-pdf-java/)
@@ -150,6 +162,77 @@ Java में Aspose OCR का उपयोग करके PNG इमेज �
 इमेज को PDF में बदलें और OCR लागू करके सर्चेबल बनाएं। Java कोड उदाहरणों के साथ सरल चरण‑बद्ध मार्गदर्शन।
 ### [Java के साथ इमेज पर OCR चलाएँ – PNG से थाई टेक्स्ट निकालें](./run-ocr-on-image-with-java-extract-thai-text-from-png/)
 Java में Aspose.OCR का उपयोग करके PNG इमेज से थाई भाषा का टेक्स्ट निकालें। कोड उदाहरणों के साथ।
+### [Aspose के साथ Java में OCR सक्षम करने की चरण‑दर‑चरण गाइड](./how-to-enable-ocr-in-java-with-aspose-step-by-step-guide/)
+Aspose OCR को Java एप्लिकेशन में इंटीग्रेट करने और सेटअप करने के सभी चरणों को सरलता से समझें।
+### [Java OCR के साथ इमेज से सर्चेबल PDF बनाएं](./create-searchable-pdf-from-image-with-java-ocr/)
+Java OCR का उपयोग करके इमेज को सर्चेबल PDF में बदलें। तेज़ और सटीक परिणाम प्राप्त करें।
+### [Java में OCR का उपयोग – इमेज से टेक्स्ट निकालें और स्पेल करेक्शन](./how-to-use-ocr-in-java-extract-text-from-image-with-spell-co/)
+Java में OCR का उपयोग करके इमेज से टेक्स्ट निकालें और स्पेल‑करेक्शन के साथ सटीकता बढ़ाएँ।
+### [इमेज से सर्चेबल PDF बनाएं – चरण‑दर‑चरण जावा गाइड](./create-searchable-pdf-from-image-step-by-step-java-guide/)
+इमेज को सर्चेबल PDF में बदलने की पूरी प्रक्रिया, जावा कोड उदाहरणों के साथ।
+### [Java के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-image-with-java-complete-aspose-ocr-guid/)
+Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों के साथ।
+### [Aspose OCR के साथ PDF पर OCR – पूर्ण गाइड (Java)](./perform-ocr-on-pdf-with-aspose-ocr-in-java-complete-guide/)
+Java में Aspose OCR का उपयोग करके PDF फ़ाइलों पर पूर्ण OCR प्रक्रिया सीखें, कोड उदाहरणों सहित।
+### [Aspose OCR Java के साथ खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java का उपयोग करके PDF को सर्चेबल बनाना सीखें, कोड उदाहरणों और चरण‑बद्ध निर्देशों के साथ।
+### [Aspose OCR के साथ ROI में टेक्स्ट पहचानें – Java ट्यूटोरियल](./recognize-text-in-roi-with-aspose-ocr-java-tutorial/)
+Aspose OCR का उपयोग करके ROI (Region of Interest) में टेक्स्ट पहचानें, Java कोड के साथ चरण‑बद्ध गाइड।
+### [Aspose OCR Java के साथ OCR के लिए इमेज लोड करें – पूर्ण गाइड](./load-image-for-ocr-with-aspose-ocr-java-complete-guide/)
+Aspose OCR Java के साथ इमेज लोड करके OCR करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java में Aspose OCR लाइसेंस लागू करें – OCR वॉटरमार्क हटाएँ](./apply-aspose-ocr-license-in-java-remove-ocr-watermark/)
+Java एप्लिकेशन में Aspose OCR लाइसेंस सेट करके वॉटरमार्क हटाने की प्रक्रिया सीखें।
+### [Java में दस्तावेज़ पर OCR चलाएँ – पूर्ण गाइड](./run-ocr-on-document-in-java-complete-guide/)
+Java में दस्तावेज़ पर OCR चलाने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java OCR के साथ इमेज से टेक्स्ट पहचानें – पूर्ण गाइड](./recognize-text-from-image-with-java-ocr-complete-guide/)
+Java OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
+### [इमेज लोड करें OCR के लिए, क्षेत्र से टेक्स्ट निकालें – Java](./load-image-for-ocr-extract-text-from-region-java/)
+इमेज को लोड करके, निर्दिष्ट क्षेत्र से टेक्स्ट निकालने की प्रक्रिया Java में Aspose.OCR के साथ सीखें।
+### [Aspose OCR के साथ सर्चेबल PDF बनाएं – पूर्ण Java गाइड](./create-searchable-pdf-with-aspose-ocr-complete-java-guide/)
+Aspose OCR का उपयोग करके Java में सर्चेबल PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
+### [Aspose OCR के साथ इमेज से टेक्स्ट को पहचानें – Java गाइड](./recognize-text-from-image-with-aspose-ocr-java-guide/)
+Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की विस्तृत Java गाइड, कोड उदाहरणों सहित।
+### [Java में ऑटो डेस्क्यू इमेज – पूर्ण Aspose OCR गाइड](./auto-deskew-image-in-java-complete-aspose-ocr-guide/)
+Aspose OCR का उपयोग करके Java में इमेज को स्वचालित रूप से डेस्क्यू करके साफ़ टेक्स्ट निकालें।
+### [इमेज डेस्क्यू कैसे करें – इमेज प्री‑प्रोसेसिंग OCR गाइड](./how-to-deskew-image-image-preprocessing-ocr-guide/)
+इमेज को सीधा करके OCR की सटीकता बढ़ाएँ। डेस्क्यू प्रक्रिया और कोड उदाहरण यहाँ देखें।
+### [OCR के साथ सर्चेबल PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-with-ocr-full-guide/)
+OCR का उपयोग करके सर्चेबल PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
+### [Aspose OCR Java उदाहरण: इमेज से टेक्स्ट को पहचानें](./aspose-ocr-java-example-recognize-text-from-image-java/)
+Java में Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने का सरल उदाहरण देखें।
+### [Java में खोज योग्य PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-in-java-full-guide/)
+Java का उपयोग करके खोज योग्य PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों और चरण‑बाय‑चरण निर्देशों के साथ।
+### [Aspose OCR (Java) के साथ TIFF से सर्चेबल PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-from-tiff-with-aspose-ocr-java-full-gu/)
+TIFF इमेज को सर्चेबल PDF में बदलने की पूरी प्रक्रिया, Aspose OCR for Java का उपयोग करके चरण‑बद्ध उदाहरणों के साथ।
+### [Java में OCR लाइसेंस URL लोड करें – ट्रायल वॉटरमार्क हटाएँ](./load-ocr-license-url-in-java-remove-trial-watermark/)
+Java एप्लिकेशन में OCR लाइसेंस URL सेट करके ट्रायल वॉटरमार्क हटाने की प्रक्रिया सीखें।
+### [Aspose OCR के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Java OCR ट्यूटोरियल](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
+### [Java में सर्चेबल PDF बनाएं – पूर्ण गाइड](./create-searchable-pdf-in-java-complete-guide/)
+Java में Aspose.OCR का उपयोग करके सर्चेबल PDF बनाने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Aspose OCR का उपयोग करके इमेज को टेक्स्ट में बदलें – पूर्ण Java गाइड](./convert-image-to-text-in-java-using-aspose-ocr-full-guide/)
+Aspose OCR का उपयोग करके जावा में इमेज को टेक्स्ट में बदलने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Aspose OCR लाइसेंस ट्यूटोरियल – Java सेटअप गाइड](./aspose-ocr-license-tutorial-java-setup-guide/)
+Java में Aspose OCR लाइसेंस को सेटअप करने और सक्रिय करने की पूरी प्रक्रिया, कोड उदाहरणों सहित।
+### [Java के साथ PNG टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-png-with-java-complete-aspose-ocr-guide/)
+Java में PNG इमेज से टेक्स्ट निकालने के लिए Aspose OCR का पूर्ण गाइड, कोड उदाहरणों सहित।
+### [Java में PNG से टेक्स्ट को पहचानें – पूर्ण Aspose OCR गाइड](./recognize-text-from-png-in-java-complete-aspose-ocr-guide/)
+Java में PNG इमेजेज से टेक्स्ट निकालने के लिए Aspose OCR का पूर्ण गाइड, कोड उदाहरणों सहित।
+### [Aspose OCR के साथ इमेज से टेक्स्ट को पहचानें – पूर्ण Java गाइड](./recognize-text-from-image-with-aspose-ocr-complete-java-guid/)
+इमेज से टेक्स्ट निकालने के लिए पूर्ण Java कोड गाइड, Aspose OCR के साथ।
+### [जावा में पूर्ण पथ प्राप्त करें – पूर्ण गाइड](./get-absolute-path-java-complete-guide/)
+जावा में फ़ाइल का पूर्ण पथ कैसे प्राप्त करें, इसका विस्तृत चरण‑बद्ध मार्गदर्शन।
+### [C# में सभी संसाधन डाउनलोड करें – प्री‑लोडिंग एसेट्स गाइड](./download-all-resources-in-c-guide-to-preloading-assets/)
+C# में एसेट्स को प्री‑लोड करने के लिए सभी आवश्यक संसाधनों को डाउनलोड करने की पूरी गाइड।
+### [Java में Aspose OCR के साथ इमेज पर OCR कैसे करें](./how-to-perform-ocr-on-image-with-aspose-ocr-in-java/)
+Aspose OCR का उपयोग करके Java में इमेज से टेक्स्ट निकालने की चरण‑बद्ध प्रक्रिया।
+
+### [Java में Aspose OCR के साथ इमेज को टेक्स्ट में बदलें](./how-to-convert-image-to-text-in-java-with-aspose-ocr/)
+
+### [C# में सभी संसाधन और भाषा पैक्स डाउनलोड करें – पूर्ण गाइड](./download-all-resources-and-language-packs-in-c-complete-guid/)
+C# के लिए सभी संसाधन और भाषा पैक्स को एक ही जगह से डाउनलोड करने की पूरी प्रक्रिया।
+
+### [Java में Aspose OCR का उपयोग करके PNG इमेजेज से टेक्स्ट पहचानें](./how-to-recognize-text-from-png-images-using-aspose-ocr-in-ja/)
+Java में Aspose OCR का उपयोग करके PNG इमेजेज से तेज़ी से टेक्स्ट निकालें। चरण‑बद्ध गाइड।
 
 ## अक्सर पूछे जाने वाले सवाल
 
@@ -174,16 +257,8 @@ A: बड़े TIFF इमेजेज को चंक्स में प्�
 **Tested With:** Aspose.OCR for Java 24.12  
 **Author:** Aspose  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 ### [Aspose OCR के साथ सर्चेबल PDF बनाएं – चरण‑दर‑चरण गाइड](./create-searchable-pdf-with-aspose-ocr-step-by-step-guide/)
 Aspose OCR का उपयोग करके PDF को सर्चेबल बनाना सीखें, चरण‑दर‑चरण निर्देशों के साथ।
-### [Aspose OCR के साथ इमेज टेक्स्ट को पहचानें – पूर्ण Java OCR ट्यूटोरियल](./recognize-text-image-with-aspose-ocr-full-java-ocr-tutorial/)
-Aspose OCR का उपयोग करके इमेज से टेक्स्ट निकालने की पूरी प्रक्रिया, Java कोड उदाहरणों के साथ।
 ### [Aspose OCR Java के साथ इमेज को टेक्स्ट में बदलें – चरण‑दर‑चरण गाइड](./convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
 Aspose OCR Java का उपयोग करके इमेज से टेक्स्ट निकालने की विस्तृत चरण‑दर‑चरण प्रक्रिया।
 
@@ -194,3 +269,9 @@ PNG इमेज को सर्चेबल PDF में बदलने क�
 ### [Java में इमेज को टेक्स्ट में बदलें – बैच OCR प्रोसेसिंग गाइड](./convert-images-to-text-in-java-batch-ocr-processing-guide/)
 Java में बैच OCR के साथ इमेज को टेक्स्ट में बदलें। बड़े पैमाने पर इमेज प्रोसेसिंग के लिए गाइड।
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
