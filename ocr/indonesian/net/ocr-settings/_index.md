@@ -139,8 +139,6 @@ Muat mesin OCR Anda, konfigurasikan pengaturan yang diinginkan, dan panggil `Rec
 **Diuji Dengan:** Aspose.OCR 24.11 for .NET  
 **Penulis:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial Terkait
 
 - [Ekstrak Teks dari Gambar – Optimasi OCR dengan Aspose.OCR untuk .NET](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ Muat mesin OCR Anda, konfigurasikan pengaturan yang diinginkan, dan panggil `Rec
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -139,8 +139,6 @@ Cyrillic टेक्स्ट पर OCR करने का c# उदाहर
 **परीक्षित संस्करण:** Aspose.OCR 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल्स
 
 - [छवि से टेक्स्ट निकालें – Aspose.OCR for .NET के साथ OCR ऑप्टिमाइज़ेशन](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ Cyrillic टेक्स्ट पर OCR करने का c# उदाहर
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

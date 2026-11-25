@@ -139,8 +139,6 @@ A: A könyvtár kényelmesen kezeli a **500 MB**‑ig terjedő képeket; nagyo
 **Tesztelve:** Aspose.OCR 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [Képek szövegének kinyerése – OCR optimalizálás Aspose.OCR for .NET‑vel](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ A: A könyvtár kényelmesen kezeli a **500 MB**‑ig terjedő képeket; nagyo
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

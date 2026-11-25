@@ -139,8 +139,6 @@ R : La bibliothèque gère confortablement les images jusqu'à **500 Mo** ; po
 **Testé avec :** Aspose.OCR 24.11 for .NET  
 **Auteur :** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutoriels associés
 
 - [Extraire du texte d'image – Optimisation OCR avec Aspose.OCR pour .NET](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ R : La bibliothèque gère confortablement les images jusqu'à **500 Mo** ; po
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

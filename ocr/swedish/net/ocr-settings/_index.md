@@ -139,8 +139,6 @@ Ladda din OCR‑motor, konfigurera önskade inställningar och anropa `Recognize
 **Testat med:** Aspose.OCR 24.11 för .NET  
 **Författare:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Relaterade handledningar
 
 - [Extrahera text från bild – OCR‑optimering med Aspose.OCR för .NET](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ Ladda din OCR‑motor, konfigurera önskade inställningar och anropa `Recognize
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

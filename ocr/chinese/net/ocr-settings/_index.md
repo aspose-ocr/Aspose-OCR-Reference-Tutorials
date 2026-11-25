@@ -137,8 +137,6 @@ A: 该库能够轻松处理高达 **500 MB** 的图像；对于更大的文件
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [从图像中提取文本 – 使用 Aspose.OCR for .NET 进行 OCR 优化](/ocr/net/ocr-optimization/)
@@ -149,3 +147,4 @@ A: 该库能够轻松处理高达 **500 MB** 的图像；对于更大的文件
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

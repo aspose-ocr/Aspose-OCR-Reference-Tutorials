@@ -154,8 +154,6 @@ A: Thư viện xử lý thoải mái các hình ảnh lên tới **500 MB**; �
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Trích xuất Văn bản từ Hình ảnh – Tối ưu hoá OCR với Aspose.OCR cho .NET](/ocr/net/ocr-optimization/)
@@ -166,3 +164,4 @@ A: Thư viện xử lý thoải mái các hình ảnh lên tới **500 MB**; �
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

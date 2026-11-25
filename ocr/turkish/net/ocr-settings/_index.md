@@ -138,8 +138,6 @@ OCR motorunuzu yükleyin, istediğiniz ayarları yapılandırın ve `Recognize` 
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Görüntüden Metin Çıkarma – Aspose.OCR for .NET ile OCR Optimizasyonu](/ocr/net/ocr-optimization/)
@@ -150,3 +148,4 @@ OCR motorunuzu yükleyin, istediğiniz ayarları yapılandırın ve `Recognize` 
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

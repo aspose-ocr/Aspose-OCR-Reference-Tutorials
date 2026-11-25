@@ -137,8 +137,6 @@ A: 此函式庫可輕鬆處理最高 **500 MB** 的圖像；若檔案更大，
 **測試版本：** Aspose.OCR 24.11 for .NET  
 **作者：** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相關教學
 
 - [從圖像提取文字 – 使用 Aspose.OCR for .NET 進行 OCR 優化](/ocr/net/ocr-optimization/)
@@ -149,3 +147,4 @@ A: 此函式庫可輕鬆處理最高 **500 MB** 的圖像；若檔案更大，
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

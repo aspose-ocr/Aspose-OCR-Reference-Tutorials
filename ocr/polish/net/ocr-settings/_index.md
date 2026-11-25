@@ -145,8 +145,6 @@ A: Biblioteka bez problemu obsługuje obrazy do **500 MB**; w przypadku więks
 **Testowano z:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Wyodrębnianie tekstu z obrazu – optymalizacja OCR z Aspose.OCR dla .NET](/ocr/net/ocr-optimization/)
@@ -157,3 +155,4 @@ A: Biblioteka bez problemu obsługuje obrazy do **500 MB**; w przypadku więks
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

@@ -139,8 +139,6 @@ A: Η βιβλιοθήκη διαχειρίζεται άνετα εικόνες 
 **Δοκιμή με:** Aspose.OCR 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Εξαγωγή Κειμένου από Εικόνα – Βελτιστοποίηση OCR με Aspose.OCR για .NET](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ A: Η βιβλιοθήκη διαχειρίζεται άνετα εικόνες 
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

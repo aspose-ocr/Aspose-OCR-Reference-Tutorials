@@ -146,8 +146,6 @@ Aspose.OCR поставляется с языковыми пакетами дл�
 **Тестировано с:** Aspose.OCR 24.11 for .NET  
 **Автор:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Связанные учебники
 
 - [Извлечение текста из изображения — оптимизация OCR с Aspose.OCR для .NET](/ocr/net/ocr-optimization/)
@@ -158,3 +156,4 @@ Aspose.OCR поставляется с языковыми пакетами дл�
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

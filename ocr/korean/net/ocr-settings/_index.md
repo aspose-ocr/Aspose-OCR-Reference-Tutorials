@@ -138,8 +138,6 @@ A: 라이브러리는 **500 MB**까지의 이미지를 문제없이 처리하�
 **테스트 환경:** Aspose.OCR 24.11 for .NET  
 **작성자:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 관련 튜토리얼
 
 - [이미지에서 텍스트 추출 – Aspose.OCR for .NET을 이용한 OCR 최적화](/ocr/net/ocr-optimization/)
@@ -150,3 +148,4 @@ A: 라이브러리는 **500 MB**까지의 이미지를 문제없이 처리하�
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

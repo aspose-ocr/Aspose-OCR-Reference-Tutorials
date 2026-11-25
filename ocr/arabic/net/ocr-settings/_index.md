@@ -137,8 +137,6 @@ weight: 26
 **تم الاختبار مع:** Aspose.OCR 24.11 لـ .NET  
 **المؤلف:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## دروس ذات صلة
 
 - [استخراج النص من الصورة – تحسين OCR مع Aspose.OCR لـ .NET](/ocr/net/ocr-optimization/)
@@ -149,3 +147,4 @@ weight: 26
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

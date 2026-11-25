@@ -139,8 +139,6 @@ A: De bibliotheek verwerkt moeiteloos afbeeldingen tot **500 MB**; voor groter
 **Getest met:** Aspose.OCR 24.11 for .NET  
 **Auteur:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Gerelateerde tutorials
 
 - [Tekst extraheren uit afbeelding – OCR‑optimalisatie met Aspose.OCR voor .NET](/ocr/net/ocr-optimization/)
@@ -151,3 +149,4 @@ A: De bibliotheek verwerkt moeiteloos afbeeldingen tot **500 MB**; voor groter
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

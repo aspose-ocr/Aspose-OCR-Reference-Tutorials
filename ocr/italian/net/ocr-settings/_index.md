@@ -145,8 +145,6 @@ Carica il tuo motore OCR, configura le impostazioni desiderate e chiama `Recogni
 **Testato con:** Aspose.OCR 24.11 for .NET  
 **Autore:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Tutorial correlati
 
 - [Estrai testo da immagine – Ottimizzazione OCR con Aspose.OCR per .NET](/ocr/net/ocr-optimization/)
@@ -157,3 +155,4 @@ Carica il tuo motore OCR, configura le impostazioni desiderate e chiama `Recogni
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
