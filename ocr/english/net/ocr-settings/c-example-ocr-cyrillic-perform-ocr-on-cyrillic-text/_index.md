@@ -19,13 +19,13 @@ og_description: c# example ocr cyrillic demonstrates how to configure a C# OCR l
   load an image, and output recognized Cyrillic text with full code.
 og_image_alt: Diagram of c# example ocr cyrillic workflow showing image loading, OCR
   settings, and text output
-og_title: c# example ocr cyrillic – step‑by‑step guide for extracting Cyrillic text
+og_title: Use Aspose OCR in C# – Perform OCR on Cyrillic Text – step‑by‑step guide
 schemas:
 - author: Aspose
   dateModified: '2026-10-27'
   description: c# example ocr cyrillic guide shows how to use a C# OCR library to
     extract Cyrillic text from images with proper OCR settings.
-  headline: c# example ocr cyrillic – perform OCR on Cyrillic text
+  headline: Use Aspose OCR in C# – Perform OCR on Cyrillic Text
   type: TechArticle
 tags:
 - C#
@@ -33,7 +33,7 @@ tags:
 - Cyrillic
 - Image Processing
 - Example
-title: c# example ocr cyrillic – perform OCR on Cyrillic text
+title: Use Aspose OCR in C# – Perform OCR on Cyrillic Text
 url: /net/ocr-settings/c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/
 ---
 
@@ -41,7 +41,7 @@ url: /net/ocr-settings/c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# c# example ocr cyrillic – perform OCR on Cyrillic text
+# Use Aspose OCR in C# – Perform OCR on Cyrillic Text
 
 If you need a **c# example ocr cyrillic**, this tutorial walks you through the complete process. You’ll learn how to configure a C# OCR library, load an image that contains Cyrillic characters, and retrieve plain text from the recognition engine.
 
@@ -195,15 +195,13 @@ From here you can:
 
 Experiment with different image qualities and language packs to fine‑tune accuracy for your specific use case. Happy coding!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Perform OCR in C# – Recognize Cyrillic Text with Aspose](/ocr/english/net/text-recognition/how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/)
-- [read text from png – extract Cyrillic text with Aspose OCR](/ocr/english/net/ocr-configuration/read-text-from-png-extract-cyrillic-text-with-aspose-ocr/)
-- [Extract Text from Image in C# – Complete Aspose OCR Example](/ocr/english/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-example/)
+- How to Perform OCR in C# – Recognize Cyrillic Text with Aspose {{< relref "/ocr/english/net/text-recognition/how-to-perform-ocr-in-c-recognize-cyrillic-text-with-aspose/" >}}
+- read text from png – extract Cyrillic text with Aspose OCR {{< relref "/ocr/english/net/ocr-configuration/read-text-from-png-extract-cyrillic-text-with-aspose-ocr/" >}}
+- Extract Text from Image in C# – Complete Aspose OCR Example {{< relref "/ocr/english/net/text-recognition/extract-text-from-image-in-c-complete-aspose-ocr-example/" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
