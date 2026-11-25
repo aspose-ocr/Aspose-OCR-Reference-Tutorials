@@ -61,6 +61,8 @@ Kompletny przewodnik po deskewowaniu obrazów w C# z Aspose OCR, zwiększający 
 ### [Jak wyrównać obraz za pomocą Aspose OCR – Kompletny przewodnik C#](./how-to-deskew-image-with-aspose-ocr-complete-c-guide/)
 Pełny przewodnik C# pokazujący, jak używać Aspose OCR do prostowania obrazów i poprawy wyników rozpoznawania tekstu.
 
+### [Samouczek dokumentu obróconego OCR – automatyczna korekta pochylenia i rotacji w C#](./ocr-rotated-document-tutorial-auto-skew-rotation-fix-in-c/)
+Dowiedz się, jak automatycznie wykrywać i korygować pochylenie oraz rotację dokumentów w OCR przy użyciu Aspose.OCR w C#.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

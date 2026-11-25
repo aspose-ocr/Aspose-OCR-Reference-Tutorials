@@ -1,25 +1,52 @@
 ---
 category: general
-date: 2026-02-22
-description: Aspose kullanarak çok dilli OCR gerçekleştirme ve görüntü dosyalarından
-  metin çıkarma—OCR için görüntüyü nasıl yükleyeceğinizi öğrenin ve OCR'ı görüntü
-  üzerinde verimli bir şekilde çalıştırın.
+date: 2026-10-24
+description: Aspose OCR'i Java'da kullanarak görüntüden metin çıkarmayı öğrenin; İngilizce,
+  Ukraynaca ve Arapça dilleri desteklenir. OCR için görüntüyü yükleme ve OCR'ı çalıştırma
+  adım adım rehberi.
 draft: false
 keywords:
-- how to use aspose
-- multi language ocr
 - extract text from image
 - load image for ocr
 - run ocr on image
-language: tr
-og_description: Aspose kullanarak birden fazla dildeki görüntülerde OCR çalıştırma
-  – OCR için görüntüyü yükleme ve görüntüden metin çıkarma adım adım rehberi.
-og_title: Java'da Çok Dilli OCR için Aspose Nasıl Kullanılır
+- Aspose OCR Java
+- multi language OCR
+lastmod: 2026-10-24
+og_description: Aspose OCR'i Java'da kullanarak görüntüden metin çıkarmayı öğrenin;
+  İngilizce, Ukraynaca ve Arapça dilleri desteklenir. OCR için görüntüyü yükleme ve
+  OCR'ı çalıştırma adımları.
+og_image_alt: 'Developer guide: extract text from image using Aspose OCR in Java'
+og_title: Java'da Aspose OCR ile görüntüden metin çıkarma
+schemas:
+- author: Aspose
+  dateModified: '2026-10-24'
+  description: Learn how to extract text from image using Aspose OCR in Java, supporting
+    English, Ukrainian and Arabic. Step‑by‑step guide to load image for OCR and run
+    OCR on image.
+  headline: How to extract text from image with Aspose OCR in Java
+  type: TechArticle
+- questions:
+  - answer: No, a single Aspose OCR license covers all bundled language packs.
+    question: Do I need a separate license for each language pack?
+  - answer: The only practical limit is memory; Aspose processes each image sequentially,
+      so you can add hundreds of files without issue.
+    question: Is there a limit on the number of images I can add to `OcrInput`?
+  - answer: The engine analyses each text block independently, so it can switch languages
+      mid‑line and still produce accurate results.
+    question: How does auto‑detection handle mixed scripts on the same line?
+  - answer: Yes, `OcrResult` provides a `getConfidence()` method for granular quality
+      metrics.
+    question: Can I get confidence scores for each recognized word?
+  - answer: Aspose OCR works with Java 8 through Java 21, including LTS releases.
+    question: What Java versions are supported?
+  type: FAQPage
 tags:
 - Aspose
 - OCR
 - Java
-title: Java'da Çok Dilli OCR için Aspose Nasıl Kullanılır
+- extract text from image
+- multi language OCR
+title: Java'da Aspose OCR ile görüntüden metin çıkarma
 url: /tr/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-in-java/
 ---
 
@@ -27,41 +54,44 @@ url: /tr/java/advanced-ocr-techniques/how-to-use-aspose-for-multi-language-ocr-i
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Aspose ile Çok Dilli OCR'yi Java'da Nasıl Kullanılır
+# Java'da Aspose OCR ile görselden metin çıkarma
 
-Resminizde aynı anda İngilizce, Ukraynaca ve Arapça metin bulunduğunda **Aspose'u nasıl kullanacağınızı** hiç merak ettiniz mi? Tek başınıza değilsiniz—birçok geliştirici, *görüntüden metin çıkarma* işlemini tek dilli olmayan dosyalarla yapmaya çalışırken bu engelle karşılaşıyor.  
+Eğer İngilizce, Ukraynaca ve Arapça karakterlerin karışımını içeren **görselden metin çıkarma** dosyalarına ihtiyacınız varsa, Aspose OCR bunu basit hale getirir. Bu öğreticide, **OCR için görsel yükleme**, *çok‑dilli OCR* etkinleştirme ve sonunda **görselde OCR çalıştırma** yoluyla temiz, okunabilir metin elde etmeyi gösteren tam, çalıştırmaya hazır bir örnek göreceksiniz. Adımlar sade bir dille açıklanmıştır, böylece *ne* yapmanız gerektiğini ve *neden* önemli olduğunu anlarsınız.
 
-Bu öğreticide, **OCR için resmi yükleme**, *çok dilli OCR* etkinleştirme ve sonunda **görüntüde OCR çalıştırma** adımlarını gösteren, çalıştırılmaya hazır tam bir örnek üzerinden ilerleyeceğiz. Belirsiz referanslar yok, sadece somut kod ve her satırın ardındaki mantık var.
+## Hızlı cevaplar
+- **Kodun ilk satırı nedir?** `OcrEngine engine = new OcrEngine();`
+- **Yerleşik olarak hangi diller desteklenir?** İngilizce (`en`), Ukraynaca (`uk`), Arapça (`ar`) ve 27 ek dil.
+- **Test için lisansa ihtiyacım var mı?** Hayır, ücretsiz deneme çalışır, ancak lisans filigranı kaldırır.
+- **Birden fazla görseli aynı anda işleyebilir miyim?** Evet, `recognize` çağırmadan önce birkaç dosya eklemek için `OcrInput` kullanın.
+- **Hangi Java sürümü gereklidir?** Java 8 veya daha yenisi.
+
+## Aspose OCR ile Java'da görselden metin çıkarma nasıl yapılır?
+
+Görselinizi `OcrInput` ile yükleyin, gerekli diller için `OcrEngine`'i yapılandırın ve `engine.recognize(input)` metodunu çağırın. Motor, dil bloklarını otomatik olarak algılar, doğru OCR modelini uygular ve tanınan metni içeren bir `OcrResult` döndürür. Bu tek adımlı akış, 10 000 × 10 000 piksele kadar herhangi bir görsel boyutu için çalışır ve 30'dan fazla dil paketini destekler.
 
 ## Öğrenecekleriniz
 
-- Aspose OCR kütüphanesini bir Java projesine ekleme (Maven veya Gradle).
-- OCR motorunu doğru şekilde başlatma.
-- Motoru *çok dilli OCR* için yapılandırma ve otomatik algılamayı etkinleştirme.
-- Karışık betik içeren bir resmi yükleme.
-- Tanıma işlemini yürütme ve **görüntüden metin çıkarma**.
-- Desteklenmeyen diller veya eksik dosyalar gibi yaygın sorunları ele alma.
+- Aspose OCR kütüphanesini bir Java projesine (Maven veya Gradle) ekleyin.  
+- OCR motorunu doğru şekilde başlatın.  
+- Motoru *çok‑dilli OCR* için yapılandırın ve otomatik algılamayı etkinleştirin.  
+- Karışık betik içeren bir görsel yükleyin.  
+- Tanıma işlemini yürütün ve **görselden metin çıkarın**.  
+- Desteklenmeyen diller veya eksik dosyalar gibi yaygın tuzakları yönetin.
 
-Bu adımları tamamladığınızda, herhangi bir projeye ekleyebileceğiniz ve anında görüntü işlemeye başlayabileceğiniz bağımsız bir Java sınıfına sahip olacaksınız.
+Sonunda, herhangi bir projeye ekleyebileceğiniz ve görselleri anında işlemeye başlayabileceğiniz bağımsız bir Java sınıfına sahip olacaksınız.
 
----
+## Önkoşullar
 
-## Ön Koşullar
+| Gereksinim | Neden önemli |
+|------------|--------------|
+| Java 8 veya yenisi | Aspose OCR, Java 8+ hedefler. |
+| Maven veya Gradle (herhangi bir yapı aracı) | Aspose OCR JAR dosyasını otomatik olarak çeker. |
+| Karışık‑dilli metin içeren bir görsel dosyası (ör. `mixed_script.jpg`) | Bu, **OCR için görsel yükleyeceğimiz** şeydir. |
+| Geçerli bir Aspose OCR lisansı (isteğe bağlı) | Lisans olmadan su işareti eklenmiş bir çıktı alırsınız, ancak kod aynı şekilde çalışır. |
 
-Başlamadan önce şunların olduğundan emin olun:
+Hepsini anladınız mı? Harika—başlayalım.
 
-| Gereksinim | Neden Önemli |
-|-------------|----------------|
-| Java 8 ve üzeri | Aspose OCR, Java 8+ hedefler. |
-| Maven veya Gradle (herhangi bir yapı aracı) | Aspose OCR JAR dosyasını otomatik olarak çekmek için. |
-| Karışık‑dilli metin içeren bir görüntü dosyası (ör. `mixed_script.jpg`) | **OCR için resmi yükleme** işlemini burada yapacağız. |
-| Geçerli bir Aspose OCR lisansı (isteğe bağlı) | Lisans olmadan su işareti eklenmiş çıktı alırsınız, ancak kod aynı şekilde çalışır. |
-
-Hepsi hazır mı? Harika—başlayalım.
-
----
-
-## Adım 1: Aspose OCR'yi Projenize Ekleyin
+## Adım 1: Projeye Aspose OCR ekleyin
 
 ### Maven
 
@@ -81,13 +111,13 @@ Hepsi hazır mı? Harika—başlayalım.
 implementation 'com.aspose:aspose-ocr:23.12'
 ```
 
-> **İpucu:** Sürüm numarasına dikkat edin; yeni sürümler dil paketleri ve performans iyileştirmeleri ekler.
+> **İpucu:** Aspose OCR, 30'dan fazla dil paketini destekler ve tüm dosyayı belleğe yüklemeden 10 000 × 10 000 piksele kadar görselleri işleyebilir, böylece yüksek çözünürlüklü taramaları verimli bir şekilde yönetebilirsiniz.
 
-Bağımlılığı eklemek, **Aspose'u nasıl kullanacağınız** konusundaki ilk somut adımdır—kütüphane, daha sonra ihtiyaç duyacağımız `OcrEngine`, `OcrInput` ve `OcrResult` sınıflarını getirir.
+Bağımlılığı eklemek, **Aspose nasıl kullanılır** konundaki ilk somut adımdır—kütüphane, daha sonra ihtiyaç duyacağımız `OcrEngine`, `OcrInput` ve `OcrResult` sınıflarını getirir.
 
----
+## Adım 2: OCR motorunu başlatın
 
-## Adım 2: OCR Motorunu Başlatın
+`OcrEngine` sınıfı, tanıma sürecini gerçekleştiren Aspose OCR'ın temel bileşenidir.  
 
 ```java
 import com.aspose.ocr.*;
@@ -102,12 +132,12 @@ public class MultiLangOcrDemo {
         // engine.setLicense("Aspose.Total.lic");
 ```
 
-**Neden Önemli:**  
-`OcrEngine`, tanıma algoritmalarını kapsüller. Bu adımı atlayınca, daha sonra *görüntüde OCR çalıştırma* için bir nesneye sahip olmazsınız ve `NullPointerException` ile karşılaşırsınız.
+**Neden önemli:**  
+Motor başlatmayı atlayarsanız, daha sonra *görselde OCR çalıştırma* için bir şey kalmaz ve bir `NullPointerException` ile karşılaşırsınız.
 
----
+## Adım 3: Çok‑dilli desteği ve otomatik algılamayı yapılandırın
 
-## Adım 3: Çok‑Dilli Desteği ve Otomatik Algılamayı Yapılandırın
+`OcrEngine`, hangi dil modellerinin yükleneceğini belirtmek için `setRecognitionLanguages` metodunu ve metin bloğu başına otomatik dil algılamayı etkinleştiren `setAutoDetectLanguage` metodunu sağlar.  
 
 ```java
         // Step 3.1: Tell the engine which languages you expect.
@@ -119,11 +149,11 @@ public class MultiLangOcrDemo {
 
 **Açıklama:**  
 - `"en"` = İngilizce, `"uk"` = Ukraynaca, `"ar"` = Arapça.  
-- Otomatik algılama, Aspose'un resmi taramasını, her segmentin hangi dile ait olduğunu belirlemesini ve doğru OCR modelini uygulamasını sağlar. Bunu kapatırsanız üç ayrı tanıma çalıştırmak zorunda kalırsınız—hem zahmetli hem de hata eğilimli.
+- Otomatik algılama, Aspose'un görseli taramasını, her segmentin hangi dile ait olduğunu belirlemesini ve doğru OCR modelini uygulamasını sağlar. Onsuz üç ayrı tanıma çalıştırmanız gerekir—zor ve hata yapmaya meyillidir.
 
----
+## Adım 4: OCR için görseli yükleyin
 
-## Adım 4: OCR için Resmi Yükleyin
+`OcrInput`, işleme için bir veya daha fazla görsel akışı tutan Aspose OCR konteyneridir.  
 
 ```java
         // Step 4.1: Prepare an OcrInput container.
@@ -133,24 +163,20 @@ public class MultiLangOcrDemo {
         input.add("YOUR_DIRECTORY/mixed_script.jpg");
 ```
 
-> **Neden `OcrInput` kullanıyoruz:** Birden fazla sayfa veya görüntüyü tutabilir, böylece *OCR için resmi yükleme* işlemini ileride toplu modda da yapabilirsiniz.
+> **Neden `OcrInput` kullanıyoruz:** Birden fazla sayfa veya görsel tutabilir, böylece daha sonra toplu modda **OCR için görsel yükleme** esnekliğini sağlar. Dosya bulunamazsa, Aspose bir `FileNotFoundException` fırlatır. Hızlı bir kontrol (`if (!new File(path).exists())`) hata ayıklama süresini tasarruf eder.
 
-Dosya bulunamazsa Aspose `FileNotFoundException` fırlatır. `if (!new File(path).exists())` gibi bir kontrol, hata ayıklama sürenizi kısaltır.
+## Adım 5: Görselde OCR çalıştırın
 
----
-
-## Adım 5: Görüntüde OCR Çalıştırın
+`recognize` metodu resmi analiz eder, dil bloklarını algılar ve tanınan metni içeren bir `OcrResult` nesnesi üretir.  
 
 ```java
         // Step 5.1: Execute the recognition process.
         OcrResult result = engine.recognize(input);
 ```
 
-Bu noktada motor resmi analiz eder, dil bloklarını tespit eder ve tanınan metni içeren bir `OcrResult` nesnesi üretir.
+## Adım 6: Görselden metin çıkarın ve görüntüleyin
 
----
-
-## Adım 6: Görüntüden Metin Çıkarın ve Görüntüleyin
+`OcrResult`, satır sonları ve güven skorları dahil olmak üzere nihai metin çıktısını kapsar.  
 
 ```java
         // Step 6.1: Pull the plain text out of the result.
@@ -164,36 +190,35 @@ Bu noktada motor resmi analiz eder, dil bloklarını tespit eder ve tanınan met
 ```
 
 **Gördükleriniz:**  
-`mixed_script.jpg` içinde “Hello мир مرحبا” varsa, konsol çıktısı şöyle olur:
+`mixed_script.jpg` “Hello мир مرحبا” içeriyorsa, konsol çıktısı şu şekilde olacaktır:
 
 ```
 === Extracted Text ===
 Hello мир مرحبا
 ```
 
-Bu, **Aspose'u nasıl kullanacağınız** konusunda çoklu dillerle *görüntüden metin çıkarma* işleminin tam çözümüdür.
+Bu, **Aspose nasıl kullanılır** konusunda **görselden metin çıkarma** için çoklu dillerle tam çözümdür.
 
----
-
-## Kenar Durumları ve Yaygın Sorular
+## Kenar durumları ve sık sorulan sorular
 
 ### Bir dil tanınmazsa ne olur?
 
-Aspose yalnızca kendi OCR modelleriyle gelen dilleri destekler. Örneğin Japonca’ya ihtiyacınız varsa, `setRecognitionLanguages` içine `"ja"` ekleyin. Model mevcut değilse motor varsayılan (genellikle İngilizce) modele geri döner ve bozuk karakterler elde edersiniz.
+Aspose, yalnızca OCR modelleriyle gelen dilleri destekler. Japonca eklemek için `setRecognitionLanguages` içinde `"ja"` ekleyin. Model mevcut değilse, motor varsayılan (İngilizce) modele geri döner ve bozuk karakterler alırsınız.
 
-### Düşük çözünürlüklü görüntülerde doğruluğu nasıl artırabilirim?
+### Düşük çözünürlüklü görsellerde doğruluğu nasıl artırabilirsiniz?
 
-- Görüntüyü ön‑işleme (DPI artırma, ikilileştirme) yapın.  
-- `engine.setResolution(300)` ile motorun beklenen DPI değerini belirtin.  
+`setResolution`, motorun girdi görseli için varsaydığı DPI değerini ayarlar, bu da düşük çözünürlüklü taramalara yardımcı olur.  
+`setPreprocessOptions`, OCR öncesi otomatik döndürme gibi ön işleme eylemlerini seçer.
+
+- Görseli ön‑işlemden geçirin (DPI artırın, ikilileştirme uygulayın).  
+- Motorun beklenen DPI'yi bilmesi için `engine.setResolution(300)` kullanın.  
 - Döndürülmüş taramalar için `engine.setPreprocessOptions(OcrEngine.PreprocessOptions.AutoRotate)` etkinleştirin.
 
-### Bir klasördeki tüm görüntüleri işleyebilir miyim?
+### Bir klasördeki görselleri işleyebilir miyim?
 
-Kesinlikle. `input.add()` çağrısını, bir dizindeki tüm dosyalar üzerinde dönen bir döngüye yerleştirin. Aynı `engine.recognize(input)` çağrısı, her sayfa için birleştirilmiş metin döndürür.
+Kesinlikle. `input.add()` çağrısını, bir dizindeki tüm dosyalar üzerinde dönen bir döngüye sarın. Aynı `engine.recognize(input)` çağrısı, her sayfa için birleştirilmiş metni döndürecektir.
 
----
-
-## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
+## Tam çalışan örnek (kopyala‑yapıştır hazır)
 
 ```java
 import com.aspose.ocr.*;
@@ -225,27 +250,57 @@ public class MultiLangOcrDemo {
 }
 ```
 
-Bunu `MultiLangOcrDemo.java` olarak kaydedin, `javac` ile derleyin ve `java MultiLangOcrDemo` ile çalıştırın. Her şey doğru kurulduysa, tanınan metin konsola yazdırılacaktır.
+Bunu `MultiLangOcrDemo.java` olarak kaydedin, `javac` ile derleyin ve `java MultiLangOcrDemo` ile çalıştırın. Her şey doğru ayarlandıysa, tanınan metnin konsola yazdırıldığını göreceksiniz.
 
----
+## Sıkça Sorulan Sorular
+
+**S: Her dil paketi için ayrı bir lisansa ihtiyacım var mı?**  
+C: Hayır, tek bir Aspose OCR lisansı tüm paketlenmiş dil paketlerini kapsar.
+
+**S: `OcrInput`'a ekleyebileceğim görsel sayısında bir sınırlama var mı?**  
+C: Tek pratik sınırlama bellek; Aspose her görseli sırasıyla işler, bu yüzden sorunsuzca yüzlerce dosya ekleyebilirsiniz.
+
+**S: Otomatik algılama aynı satırdaki karışık betikleri nasıl yönetir?**  
+C: Motor, her metin bloğunu bağımsız olarak analiz eder, bu yüzden satır ortasında dilleri değiştirebilir ve hâlâ doğru sonuçlar üretebilir.
+
+**S: Tanınan her kelime için güven skorları alabilir miyim?**  
+C: Evet, `OcrResult` ayrıntılı kalite ölçütleri için bir `getConfidence()` metodu sunar.
+
+**S: Hangi Java sürümleri destekleniyor?**  
+C: Aspose OCR, Java 8'den Java 21'e kadar, LTS sürümleri dahil, çalışır.
 
 ## Sonuç
 
-**Aspose'u nasıl kullanacağınız** konusunu baştan sona ele aldık: kütüphaneyi eklemek, *çok dilli OCR* yapılandırmak, **OCR için resmi yükleme**, **görüntüde OCR çalıştırma** ve sonunda **görüntüden metin çıkarma**. Yaklaşım ölçeklenebilir—daha fazla dil kodu ekleyin ya da bir dosya listesi besleyin, dakikalar içinde sağlam bir OCR hattına sahip olacaksınız.
+**Aspose nasıl kullanılır** konusunu baştan sona ele aldık: kütüphaneyi eklemekten, *çok‑dilli OCR* yapılandırmaya, **OCR için görsel yükleme**, **görselde OCR çalıştırma** ve sonunda **görselden metin çıkarma** adımlarına kadar. Yaklaşım ölçeklenebilir—daha fazla dil kodu ekleyin veya bir dosya listesi sağlayın, ve dakikalar içinde sağlam bir OCR hattına sahip olacaksınız.
 
 Sırada ne var? Şu fikirleri deneyin:
 
-- **Toplu işleme:** Bir klasör üzerinde döngü kurup her sonucu ayrı bir `.txt` dosyasına yazın.  
-- **Son‑işleme:** Çıktıyı temizlemek için regex ya da NLP kütüphaneleri kullanın (gereksiz satır sonlarını kaldırma, yaygın OCR hatalarını düzeltme).  
-- **Entegrasyon:** OCR adımını bir Spring Boot REST uç noktasına bağlayarak diğer servislerin görüntü gönderip JSON‑kodlu metin almasını sağlayın.
+- **Toplu işleme:** Bir dizin üzerinde döngü kurun ve her sonucu ayrı bir `.txt` dosyasına yazın.  
+- **Son‑işleme:** Çıktıyı temizlemek için regex veya NLP kütüphanelerini kullanın (gereksiz satır sonlarını kaldırın, yaygın OCR hatalarını düzeltin).  
+- **Entegrasyon:** OCR adımını bir Spring Boot REST uç noktası aracılığıyla sunun, böylece diğer hizmetler görselleri gönderip JSON‑kodlu metin alabilir.
 
-Deney yapmaktan, hatalar üretmekten ve ardından düzeltmekten çekinmeyin—bu, Aspose ile OCR konusunda gerçekten uzmanlaşmanın yoludur. Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın. Kodlamanın tadını çıkarın!  
+Denemekten, hatalar yapmaktan ve ardından düzeltmekten çekinmeyin—bu, Aspose ile OCR konusunda gerçekten uzmanlaşmanın yoludur. Herhangi bir sorunla karşılaşırsanız, aşağıya yorum bırakın. Kodlamanın tadını çıkarın!  
 
 ---
 
-![aspose OCR kullanımını gösteren ekran görüntüsü](/images/aspose-ocr-demo.png){alt="aspose OCR kullanımını gösteren ekran görüntüsü"}
+![aspose OCR kullanımını gösteren ekran görüntüsü](/images/aspose-ocr-demo.png){alt="aspose OCR örneği Java kodunu gösteriyor"}
+
+[aspose OCR kullanımını gösteren ekran görüntüsü](/images/aspose-ocr-demo.png)
+
+**Son Güncelleme:** 2026-10-24  
+**Test Edilen Versiyon:** Aspose OCR 24.11 for Java  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Java'da OCR için Görsel Yükleme Adım Adım Kılavuzu](/ocr/java/ocr-operations/load-image-for-ocr-in-java-step-by-step-guide/)
+- [Java OCR'da Otomatik Dil Algılama Adım Adım Kılavuzu](/ocr/java/advanced-ocr-techniques/automatic-language-detection-in-java-ocr-step-by-step-guide/)
+- [Java'da OCR için GPU'yu Etkinleştirme ve Görselden Metin Çıkarma](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

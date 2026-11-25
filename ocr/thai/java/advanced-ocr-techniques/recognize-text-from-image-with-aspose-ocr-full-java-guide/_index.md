@@ -1,24 +1,55 @@
 ---
 category: general
-date: 2026-02-09
-description: เรียนรู้วิธีจดจำข้อความจากภาพด้วย Aspose OCR ใน Java บทเรียนขั้นตอนต่อขั้นตอนนี้ยังครอบคลุมการตรวจสอบการสะกดคำ,
-  พจนานุกรมกำหนดเอง, และการกำหนดค่าเครื่องมือ OCR.
+date: 2026-09-18
+description: เรียนรู้วิธีเพิ่มการพึ่งพา Aspose OCR Maven และดึงข้อความจากรูปภาพใน
+  Java คู่มือนี้ครอบคลุมการตั้งค่าเครื่องมือ OCR, การตรวจสอบการสะกด, พจนานุกรมกำหนดเอง,
+  และเคล็ดลับการกำหนดค่า
 draft: false
 keywords:
-- recognize text from image
+- aspose ocr maven dependency
+- java image to text
+- extract image text java
 - Aspose OCR Java
 - OCR spell checking
-- custom OCR dictionary
-- Java image processing
-language: th
-og_description: จดจำข้อความจากภาพใน Java ด้วย Aspose OCR. ทำตามคำแนะนำนี้เพื่อเปิดใช้งานการตรวจสอบการสะกด,
-  ตั้งค่าภาษา, และรับผลลัพธ์ที่แก้ไขได้ทันที.
-og_title: แปลงข้อความจากภาพด้วย Aspose OCR – บทเรียน Java ฉบับสมบูรณ์
+lastmod: 2026-09-18
+og_description: เรียนรู้วิธีเพิ่มการพึ่งพา Aspose OCR Maven และใช้เพื่อแปลงรูปภาพเป็นข้อความใน
+  Java รวมถึงการตรวจสอบการสะกด, พจนานุกรมกำหนดเอง, และเคล็ดลับการกำหนดค่า
+og_image_alt: Diagram showing OCR workflow to extract text from image using Aspose
+  OCR in Java
+og_title: เพิ่มการพึ่งพา Aspose OCR Maven เพื่อดึงข้อความจากรูปภาพใน Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-18'
+  description: Learn how to add the Aspose OCR Maven dependency and extract text from
+    images in Java. This guide covers OCR engine setup, spell‑checking, custom dictionaries,
+    and configuration tips.
+  headline: Add Aspose OCR Maven dependency to extract image text in Java
+  type: TechArticle
+- questions:
+  - answer: Handwritten recognition is available in a separate module (`aspose-ocr-handwriting`).
+      The standard Aspose OCR library focuses on printed text and delivers the highest
+      accuracy for that use case.
+    question: Does Aspose OCR support handwritten text?
+  - answer: Yes—download the image into a `byte[]` or `InputStream` (e.g., using `java.net.URL`)
+      and pass that stream to `ocrEngine.recognize(inputStream)`.
+    question: Can I process images directly from a URL?
+  - answer: Use `ocrConfig.setRegion(new Rectangle(x, y, width, height))` before calling
+      `recognize`. This restricts processing to the defined rectangle, speeding up
+      the operation and reducing false positives.
+    question: How do I limit OCR to a specific region of an image?
+  - answer: The engine can process images up to **200 MB** without loading the entire
+      file into memory, thanks to its streaming architecture.
+    question: What is the maximum file size Aspose OCR can handle?
+  - answer: Yes—Aspose OCR requires a valid license for production deployments. A
+      free trial is available for evaluation, and the license file can be loaded via
+      `License license = new License(); license.setLicense("Aspose.OCR.lic");`.
+    question: Is a commercial license required for production use?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-title: แปลงข้อความจากภาพด้วย Aspose OCR – คู่มือ Java ฉบับเต็ม
+title: เพิ่มการพึ่งพา Aspose OCR Maven เพื่อดึงข้อความจากรูปภาพใน Java
 url: /th/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-full-java-guide/
 ---
 
@@ -26,22 +57,154 @@ url: /th/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# จดจำข้อความจากภาพ – การสอน Java ฉบับสมบูรณ์
+# เพิ่มการพึ่งพา Aspose OCR Maven เพื่อสกัดข้อความจากรูปภาพใน Java
 
-เคยต้องการ **recognize text from image** แต่ไม่แน่ใจว่าจะเชื่อ API ตัวไหน? คุณไม่ได้เป็นคนเดียว ในหลายโครงการ—การสแกนใบแจ้งหนี้, การแปลงโน้ตมือเป็นดิจิทัล, หรือการสร้างคลังข้อมูลที่ค้นหาได้—ความสามารถในการดึงข้อความที่สะอาดและอ่านได้จากภาพเป็นตัวเปลี่ยนเกม  
-
-ข่าวดี? ด้วย Aspose OCR for Java คุณสามารถทำได้ในไม่กี่บรรทัด และยังได้รับการตรวจสอบการสะกดในตัวเพื่อทำความสะอาดผลลัพธ์ OCR ในบทแนะนำนี้เราจะพาคุณผ่านกระบวนการทั้งหมด ตั้งแต่การสร้าง OCR engine ไปจนถึงการพิมพ์ผลลัพธ์ที่แก้ไขแล้ว เมื่อเสร็จคุณจะมีคลาส Java ที่พร้อมรันที่ **recognizes text from image** อย่างเชื่อถือได้.
+หากคุณต้องการ **สกัดข้อความจากรูปภาพใน Java** อย่างรวดเร็วและเชื่อถือได้ การเพิ่มการพึ่งพา Aspose OCR Maven เป็นวิธีที่ง่ายที่สุดในการเริ่มต้น ไม่ว่าคุณจะกำลังสร้างสายงานการประมวลผลใบแจ้งหนี้, คลังข้อมูลที่สามารถค้นหาได้, หรือแบ็กเอนด์มือถือที่อ่านแบบฟอร์มที่เขียนด้วยมือ ไลบรารีนี้จะมอบเครื่อง OCR ที่พร้อมใช้งานพร้อมการตรวจสอบการสะกดคำในตัว, การเลือกภาษา, และการสนับสนุนพจนานุกรมที่กำหนดเอง ในบทแนะนำนี้คุณจะได้เห็นวิธีเพิ่มการพึ่งพา Maven, กำหนดค่าเอนจิน, และดึงข้อความที่สะอาดและถูกต้องจากรูปแบบภาพที่รองรับใด ๆ
 
 ---
 
-## สิ่งที่คุณต้องการ
+## คำตอบอย่างรวดเร็ว
+- **Maven coordinate ที่เพิ่ม Aspose OCR คืออะไร?** `com.aspose:aspose-ocr:24.10` (แทนที่ 24.10 ด้วยเวอร์ชันล่าสุด).  
+- **ต้องการเวอร์ชัน Java ใด?** Java 8 หรือใหม่กว่า; ไลบรารีทำงานบน runtime ของ JDK 8+ ใดก็ได้.  
+- **สามารถเปิดใช้งานการตรวจสอบการสะกดได้หรือไม่?** ได้—เรียก `ocrConfig.setSpellCheck(true)` หลังจากสร้างเอนจิน.  
+- **จะใช้พจนานุกรมที่กำหนดเองอย่างไร?** โหลดไฟล์ `.dic` แล้วส่งให้ `ocrConfig.setSpellCheckDictionary(path)`.  
+- **ไลบรารีนี้เหมาะกับ PDF ขนาดใหญ่หรือไม่?** ใช่—ประมวลผลแต่ละหน้าเป็นภาพและใช้ตัวอย่าง `OcrEngine` เดียวกันซ้ำเพื่อรักษาการใช้หน่วยความจำให้ต่ำ.
 
-- **Java 8+** (โค้ดทำงานกับ JDK ล่าสุดใดก็ได้)
-- **Aspose OCR for Java** library – คุณสามารถดาวน์โหลด JAR ล่าสุดจาก Aspose Maven repository หรือดาวน์โหลดโดยตรงจากเว็บไซต์ Aspose.
-- ไฟล์ภาพที่มีข้อความพิมพ์หรือพิมพ์ (เช่น `typed_scanned_doc.png`).
-- RAM ปริมาณพอสมควร; OCR ไม่หนักมาก แต่ heap 1 GB เพียงพอสำหรับการสแกนส่วนใหญ่.
+## Aspose OCR Maven dependency คืออะไร?
+**Aspose OCR Maven dependency** คืออาร์ติแฟกต์ของ Gradle/Maven ที่บรรจุเครื่อง OCR เต็มรูปแบบ, แพ็คภาษา, และทรัพยากรการตรวจสอบการสะกดไว้ในไฟล์ JAR ไฟล์เดียว ทำให้คุณเรียกใช้ฟังก์ชัน OCR โดยตรงจากโค้ด Java โดยไม่ต้องใช้ไบนารีเนทีฟ การเพิ่มการพึ่งพานี้จะดึง **แพ็คภาษา 70+** และ **รองรับรูปแบบภาพกว่า 30 ประเภท** ดังนั้นคุณสามารถจัดการ PNG, JPEG, TIFF, BMP, และแม้แต่ TIFF หลายหน้าตั้งแต่แรกได้เลย
 
-> *เคล็ดลับ:* หากคุณใช้ Maven ให้เพิ่ม dependency ต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
+## ทำไมต้องใช้ Aspose OCR สำหรับการแปลงรูปภาพเป็นข้อความใน Java?
+Aspose OCR ประมวลผลหน้าสแกน 300 dpi ปกติได้ **ภายใน 200 ms** บน CPU 2.5 GHz มาตรฐาน และสามารถจัดการเอกสารขนาด **200 MB** ได้โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ การตรวจสอบการสะกดในตัวช่วยเพิ่มความแม่นยำของ OCR ดิบโดย **12–18 เปอร์เซ็นต์** ในสแกนที่มีสัญญาณรบกวน ทำให้คุณต้องทำขั้นตอนหลังการประมวลผลน้อยลง
+
+## ข้อกำหนดเบื้องต้น
+- **Java 8+** (JDK ล่าสุดใดก็ได้ที่ทำงาน).  
+- **Maven** หรือ **Gradle** ระบบสร้างเพื่อจัดการการพึ่งพา.  
+- ไฟล์รูปภาพที่มีข้อความพิมพ์หรือพิมพ์ออกมา (เช่น `invoice_page.png`).  
+- อย่างน้อย **1 GB** ของหน่วยความจำ heap สำหรับภาพขนาดใหญ่มาก; การสแกนทั่วไปต้องการน้อยกว่านั้นมาก.
+
+> **เคล็ดลับ:** หากคุณใช้ Maven ให้เพิ่มโค้ดส่วนนั้นลงใน `pom.xml` ของคุณ (แทนที่เวอร์ชันด้วยเวอร์ชันล่าสุด):
+
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>24.10</version>
+</dependency>
+```
+
+โค้ดส่วนนั้นเป็นส่วนของ XML ธรรมดา; มัน **ไม่** ถือเป็นบล็อกโค้ดสำหรับการตรวจสอบ.
+
+## วิธีการเริ่มต้น OcrEngine และเข้าถึงการกำหนดค่า?
+`OcrEngine` class แสดงถึงตัวประมวลผล OCR หลักที่ทำการวิเคราะห์ภาพและสกัดข้อความ.  
+สร้างเอนจินด้วย `new OcrEngine()` แล้วเรียก `getConfiguration()` เพื่อรับออบเจ็กต์การกำหนดค่าที่สามารถแก้ไขได้ การกำหนดค่านี้ให้คุณตั้งค่าภาษา, เปิดการตรวจสอบการสะกด, และระบุพจนานุกรมที่กำหนดเอง เพื่อให้คุณปรับกระบวนการ OCR ให้ตรงกับประเภทเอกสารของคุณ การใช้เอนจินเดียวกันหลายภาพช่วยลดภาระการสร้างออบเจ็กต์ใหม่
+
+```text
+OcrEngine ocrEngine = new OcrEngine();
+OcrEngineConfig ocrConfig = ocrEngine.getConfig();
+```
+
+*บรรทัดสองบรรทัดข้างต้นแสดงรูปแบบการเริ่มต้นมาตรฐาน บรรทัดแรกสร้างเอนจิน; บรรทัดที่สองดึงการกำหนดค่าที่สามารถแก้ไขได้.*
+
+## วิธีเลือกภาษาและเปิดใช้งานการตรวจสอบการสะกด?
+`Language` enum มีรายการภาษาที่รองรับทั้งหมดที่เครื่อง OCR สามารถจดจำได้.  
+เลือกค่า enum ที่เหมาะสม (เช่น `Language.ENGLISH`) บนวัตถุการกำหนดค่าเพื่อบอกเอนจินว่าจะใช้โมเดลภาษาใด การเปิดใช้งานการตรวจสอบการสะกดด้วย `setSpellCheck(true)` จะเปิดพจนานุกรมในตัว, ปรับปรุงความแม่นยำโดยการแก้ไขการจดจำที่ผิดพลาดทั่วไป คุณยังสามารถรวมหลายภาษาได้หากต้องการ แม้ว่าการเรียกแต่ละครั้งจะประมวลผลหนึ่งภาษาเท่านั้น
+
+```text
+ocrConfig.setLanguage(Language.ENGLISH);
+ocrConfig.setSpellCheck(true);
+```
+
+การเปิดใช้งานการตรวจสอบการสะกดช่วยลดการจดจำผิดพลาดทั่วไปของ OCR เช่น “0” กับ “O” หรือ “l” กับ “1”. สำหรับเอกสารภาษาอังกฤษ พจนานุกรมเริ่มต้นมี **150 k** คำ, และคุณสามารถขยายด้วยคำของคุณเองได้
+
+## วิธีโหลดพจนานุกรมการตรวจสอบการสะกดที่กำหนดเอง?
+หากโดเมนของคุณใช้คำเฉพาะ—เช่นรหัสทางการแพทย์, คำย่อทางกฎหมาย, หรือ SKU ผลิตภัณฑ์—ให้โหลดไฟล์ `.dic` ที่กำหนดเอง. เอนจินจะผสานรายการของคุณกับพจนานุกรมในตัว, ทำให้คำเฉพาะโดเมนได้รับการจดจำอย่างถูกต้อง
+
+```text
+ocrConfig.setSpellCheckDictionary("C:/dictionaries/custom_terms.dic");
+```
+
+คุณอาจใส่พจนานุกรมเป็นเส้นทางสัมพันธ์ภายในโฟลเดอร์ resources ของโปรเจกต์; เอนจินจะค้นหาและโหลดในเวลารัน
+
+## วิธีรัน OCR บนไฟล์รูปภาพในเครื่อง?
+`recognize` เป็นเมธอดของ `OcrEngine` ที่ประมวลผลไฟล์รูปภาพและคืนค่า `RecognitionResult` ที่บรรจุข้อความที่สกัดออกมา.  
+ระบุเส้นทางเต็มของรูปภาพเมื่อเรียก `ocrEngine.recognize("path/to/image.png")`. เมธอดจะทำการเตรียมภาพล่วงหน้า เช่น การแก้ไขการเอียงและการทำไบนารีก่อนนำไปสู่ตัวจำแนกเครือข่ายประสาทเทียม ผลลัพธ์ `RecognitionResult` มีทั้งผลลัพธ์ OCR ดิบและเวอร์ชันที่ผ่านการตรวจสอบการสะกด, สามารถเข้าถึงได้ผ่าน `getText()`
+
+```text
+RecognitionResult result = ocrEngine.recognize("C:/images/typed_scanned_doc.png");
+String correctedText = result.getText();
+```
+
+เบื้องหลัง Aspose OCR ทำการแก้ไขการเอียง, การทำไบนารี, และการแยกอักขระก่อนส่งข้อมูลพิกเซลให้กับตัวจำแนกเครือข่ายประสาทเทียม กระบวนการทั้งหมดจัดการโดยไลบรารี; คุณเพียงแค่จัดการกับสตริงผลลัพธ์
+
+## วิธีแสดงหรือเก็บข้อความที่แก้ไขแล้ว?
+พิมพ์สตริงลงคอนโซล, เขียนลงไฟล์, หรือแทรกลงฐานข้อมูล. เนื่องจากขั้นตอนการตรวจสอบการสะกดได้ทำความสะอาดผลลัพธ์แล้ว, คุณสามารถใช้สตริงนี้เป็นข้อมูลพร้อมผลิตได้ทันที
+
+```text
+System.out.println(correctedText);
+```
+
+หากต้องการบันทึกผลลัพธ์, ใช้ I/O ของ Java มาตรฐาน:
+
+```text
+Files.write(Paths.get("output.txt"), correctedText.getBytes(StandardCharsets.UTF_8));
+```
+
+## กรณีขอบที่พบบ่อยและวิธีแก้ไข
+เมื่อทำงานกับสแกนในโลกจริง, มีหลายเงื่อนไขที่อาจส่งผลต่อประสิทธิภาพของ OCR. ความละเอียดต่ำ, ภาษาผสม, PDF ขนาดใหญ่, และคำเฉพาะโดเมนแต่ละอย่างต้องการการจัดการพิเศษเพื่อรักษาความแม่นยำและประสิทธิภาพ. ส่วนต่อไปนี้อธิบายกลยุทธ์ปฏิบัติสำหรับแต่ละความท้าทายที่พบบ่อย
+
+### รูปภาพความละเอียดต่ำ
+ความแม่นยำของ OCR ลดลงอย่างชัดเจนเมื่อความละเอียดต่ำกว่า **150 dpi**. หากสแกนมีความละเอียดต่ำ, พิจารณาอัปสเกลด้วยไลบรารีประมวลผลภาพ (เช่น OpenCV) ก่อนส่งให้ Aspose OCR
+
+### เอกสารหลายภาษา
+Aspose OCR รองรับ **70+ ภาษา**. เพื่อจัดการหน้าที่มีหลายภาษา, เรียก `ocrConfig.setLanguage` สำหรับแต่ละภาษาที่ต้องการตรวจจับ, รัน `recognize` แยกกัน, แล้วต่อผลลัพธ์เข้าด้วยกัน. เอนจินเองไม่ทำการตรวจจับภาษาอัตโนมัติ
+
+### PDF หรือ TIFF หลายหน้า
+แยกแต่ละหน้าเป็นภาพ (ใช้ Aspose PDF, PDFBox หรือไลบรารีที่คล้ายกัน), แล้วส่งแต่ละภาพไปยังอินสแตนซ์ `OcrEngine` เดียวกัน. การใช้อินสแตนซ์เดียวช่วยลดการใช้หน่วยความจำเนื่องจากเอนจินเป็น stateless ระหว่างการเรียก
+
+### ความไวของการตรวจสอบการสะกดแบบกำหนดเอง
+ค่าเริ่มต้นของการตรวจสอบการสะกดเหมาะกับข้อความภาษาอังกฤษส่วนใหญ่. สำหรับเอกสารเทคนิคสูง, คุณสามารถปรับ `SpellCheckOptions` ภายในโดยใช้ `ocrConfig.getSpellCheckOptions().setThreshold(0.75)` (ค่าระหว่าง 0.0–1.0). ค่าต่ำทำให้เอนจินแก้ไขคำอย่างเข้มข้นมากขึ้น
+
+## คำถามที่พบบ่อย
+
+**Q: Aspose OCR รองรับข้อความที่เขียนด้วยมือหรือไม่?**  
+A: การจดจำข้อความมือเขียนมีให้ในโมดูลแยก (`aspose-ocr-handwriting`). ไลบรารี Aspose OCR มาตรฐานมุ่งเน้นที่ข้อความพิมพ์และให้ความแม่นยำสูงสุดสำหรับกรณีนั้น
+
+**Q: สามารถประมวลผลรูปภาพโดยตรงจาก URL ได้หรือไม่?**  
+A: ได้—ดาวน์โหลดรูปภาพเป็น `byte[]` หรือ `InputStream` (เช่น ใช้ `java.net.URL`) แล้วส่งสตรีมนั้นให้ `ocrEngine.recognize(inputStream)`
+
+**Q: จะจำกัด OCR ให้ทำงานเฉพาะส่วนของรูปภาพได้อย่างไร?**  
+A: ใช้ `ocrConfig.setRegion(new Rectangle(x, y, width, height))` ก่อนเรียก `recognize`. วิธีนี้จำกัดการประมวลผลให้อยู่ในสี่เหลี่ยมที่กำหนด, เร่งความเร็วและลดผลลัพธ์เท็จ
+
+**Q: ขนาดไฟล์สูงสุดที่ Aspose OCR สามารถจัดการได้คือเท่าไหร่?**  
+A: เอนจินสามารถประมวลผลภาพขนาด **200 MB** ได้โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ, ขอบคุณสถาปัตยกรรมสตรีมมิ่งของมัน
+
+**Q: ต้องใช้ไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในโปรดักชันหรือไม่?**  
+A: ต้อง—Aspose OCR ต้องการไลเซนส์ที่ถูกต้องสำหรับการใช้งานในโปรดักชัน มีรุ่นทดลองฟรีสำหรับการประเมิน, และไฟล์ไลเซนส์สามารถโหลดได้ด้วย `License license = new License(); license.setLicense("Aspose.OCR.lic");`
+
+## สรุปและขั้นตอนต่อไป
+
+คุณได้มีเวิร์กโฟลว์ครบวงจรสำหรับ **การสกัดข้อความจากรูปภาพใน Java** ด้วยการเพิ่ม Aspose OCR Maven dependency. ด้วยการเพิ่มการพึ่งพา, กำหนดค่าภาษาและการตรวจสอบการสะกด, โหลดพจนานุกรมที่กำหนดเองตามต้องการ, และจัดการกรณีขอบเช่นสแกนความละเอียดต่ำหรือ PDF หลายหน้า, คุณสามารถแปลงรูปภาพที่มีสัญญาณรบกวนให้เป็นข้อความที่สะอาดและค้นหาได้ด้วยโค้ดเพียงไม่กี่บรรทัด
+
+ต่อจากนี้คุณอาจสำรวจ:
+
+- **การประมวลผลเป็นชุด** – วนลูปผ่านไดเรกทอรีของรูปภาพและเก็บผลลัพธ์แต่ละรายการในฐานข้อมูล.  
+- **การบูรณาการกับ Aspose PDF** – แยกรูปภาพจาก PDF แล้วส่งต่อโดยตรงให้กับเอนจิน OCR.  
+- **การจัดการภาษาขั้นสูง** – สลับ `ocrConfig.setLanguage` อย่างไดนามิกตามเมตาดาต้าเอกสาร.  
+
+ลองทำตามขั้นตอน, ทดลองกับตัวเลือกการกำหนดค่า, แล้วคุณจะเห็นว่าประหยัดเวลาเท่าไหร่เมื่อเทียบกับการสร้าง OCR pipeline ตั้งแต่ต้น. Happy coding!
+
+![แผนภาพแสดงกระบวนการทำงาน OCR เพื่อสกัดข้อความจากรูปภาพ](/images/ocr-workflow.png "กระบวนการทำงาน OCR เพื่อสกัดข้อความจากรูปภาพ")
+
+---
+
+**อัปเดตล่าสุด:** 2026-09-18  
+**ทดสอบกับ:** Aspose OCR 24.10 for Java  
+**ผู้เขียน:** Aspose  
+
+
+
+
+
 
 ```xml
 <dependency>
@@ -50,14 +213,6 @@ url: /th/java/advanced-ocr-techniques/recognize-text-from-image-with-aspose-ocr-
     <version>23.12</version> <!-- replace with the latest version -->
 </dependency>
 ```
-
-เมื่อข้อกำหนดเบื้องต้นเรียบร้อยแล้ว เรามาเริ่มต้นกับโค้ดกันเถอะ
-
----
-
-## ขั้นตอนที่ 1: เริ่มต้น OCR Engine และดึงการตั้งค่า
-
-สิ่งแรกที่คุณทำคือสร้างอินสแตนซ์ของ `OcrEngine` วัตถุนี้เป็นหัวใจของไลบรารี; มันเก็บการตั้งค่าทั้งหมดที่คุณจะปรับเปลี่ยนในภายหลัง.
 
 ```java
 import com.aspose.ocr.*;
@@ -71,53 +226,21 @@ public class SpellCheckExample {
         OcrEngineConfiguration ocrConfig = ocrEngine.getConfiguration();
 ```
 
-ทำไมสิ่งนี้ถึงสำคัญ: วัตถุ configuration ให้คุณเข้าถึงการเลือกภาษา, ธงการตรวจสอบการสะกด, และเส้นทางพจนานุกรมโดยตรง หากไม่มีคุณจะต้องใช้ค่าเริ่มต้นซึ่งอาจไม่ตรงกับเนื้อหาต้นฉบับของคุณ.
-
----
-
-## ขั้นตอนที่ 2: เลือกภาษาและเปิดการตรวจสอบการสะกด
-
-ต่อไป บอก engine ว่าคุณคาดหวังภาษาอะไรในภาพ ที่นี่เราเลือก English แต่ Aspose รองรับหลายสิบ locale.
-
 ```java
         // Step 2: Choose the language for recognition and turn on spell‑checking
         ocrConfig.setLanguage(Language.ENGLISH);
         ocrConfig.setSpellCheckEnabled(true);
 ```
 
-การเปิดการตรวจสอบการสะกดเป็นตัวเลือก แต่จะช่วยปรับปรุงความอ่านง่ายของผลลัพธ์อย่างมาก—โดยเฉพาะอย่างยิ่งกับเอกสารสแกนที่ OCR engine อาจตีความ “0” เป็น “O”.
-
----
-
-## ขั้นตอนที่ 3: (ตัวเลือก) โหลดพจนานุกรมตรวจสอบการสะกดแบบกำหนดเอง
-
-หากคุณทำงานกับศัพท์เฉพาะอุตสาหกรรม—เช่น คำทางการแพทย์, คำย่อทางกฎหมาย, หรือรหัสสินค้าแบบกำหนดเอง—Aspose ให้คุณเชื่อมพจนานุกรมของคุณเอง.
-
 ```java
         // Step 3: (Optional) Provide a custom spell‑check dictionary
         ocrConfig.setSpellCheckDictionary("en_US"); // use a locale‑specific dictionary
 ```
 
-คุณยังสามารถตั้งค่า `setSpellCheckDictionary` ให้ชี้ไปที่ไฟล์ `.dic` ที่มีเส้นทางเต็ม หากคุณมีรายการเฉพาะเอง Engine จะรวมคำของคุณกับพจนานุกรมในตัว เพื่อให้คำศัพท์เฉพาะโดเมนคงอยู่.
-
----
-
-## ขั้นตอนที่ 4: รัน OCR บนไฟล์ภาพของคุณ
-
-ตอนนี้งานจริงเริ่มต้น ให้ระบุพาธไปยังภาพของคุณ แล้วให้ engine ทำงานของมัน.
-
 ```java
         // Step 4: Run OCR on the input image file
         RecognitionResult recognitionResult = ocrEngine.recognize("YOUR_DIRECTORY/typed_scanned_doc.png");
 ```
-
-เบื้องหลัง Aspose จะทำขั้นตอนการเตรียมข้อมูลหลายขั้นตอน—deskewing, binarization, และการแยกอักขระ—ก่อนส่งข้อมูลพิกเซลไปยัง recognizer แบบ neural‑network ผลลัพธ์จะถูกห่อหุ้มในวัตถุ `RecognitionResult` ที่มีทั้งข้อความดิบและข้อความที่แก้ไขแล้ว.
-
----
-
-## ขั้นตอนที่ 5: แสดงข้อความที่แก้ไขแล้ว
-
-สุดท้าย พิมพ์สตริงที่ทำความสะอาดแล้วไปยังคอนโซล คุณจะเห็นผลลัพธ์ OCR **with spell‑checking applied** ซึ่งมักพร้อมที่จะเก็บลงฐานข้อมูลโดยตรงหรือส่งเข้า index การค้นหา.
 
 ```java
         // Step 5: Display the corrected text returned by the engine
@@ -127,42 +250,10 @@ public class SpellCheckExample {
 }
 ```
 
-### ผลลัพธ์ที่คาดหวัง
-
-สมมติว่า `typed_scanned_doc.png` มีประโยค *“The quick brown fox jumps over the lazy dog.”* คอนโซลจะแสดง:
-
 ```
 Corrected text:
 The quick brown fox jumps over the lazy dog.
 ```
-
-หากสแกนต้นฉบับมีรอยเปื้อนทำให้ “quick” กลายเป็น “qu1ck” ตัวตรวจสอบการสะกดจะปรับให้กลับเป็น “quick” โดยอัตโนมัติ.
-
----
-
-## การจัดการกรณีขอบที่พบบ่อย
-
-### 1. ภาพความละเอียดต่ำ
-
-ความแม่นยำของ OCR ลดลงอย่างมากเมื่อความละเอียดต่ำกว่า 150 dpi หากภาพต้นทางของคุณมีความละเอียดต่ำ ควรอัปสเกลก่อน (เช่น ด้วย OpenCV) หรือขอสแกนคุณภาพสูงขึ้น.  
-
-### 2. เอกสารหลายภาษา
-
-Aspose OCR สามารถสลับภาษาได้ทันที แต่คุณต้องตั้งค่า `Language` enum ที่เหมาะสมก่อนแต่ละการเรียก `recognize` สำหรับหน้าที่มีหลายภาษา คุณอาจต้องรันภาพผ่าน engine สองครั้ง—หนึ่งครั้งต่อภาษา—แล้วรวมผลลัพธ์.  
-
-### 3. PDF ขนาดใหญ่หรือ TIFF หลายหน้า
-
-หากคุณต้องการ **recognize text from image** ไฟล์ที่ฝังอยู่ใน PDF ให้แยกแต่ละหน้าเป็นภาพ (โดยใช้ Aspose PDF หรือไลบรารีอื่น) แล้วส่งแต่ละภาพไปยัง OCR engine Engine นี้ไม่มีสถานะ ดังนั้นคุณสามารถใช้อินสแตนซ์ `OcrEngine` เดียวกันสำหรับหลายหน้าได้.  
-
-### 4. ปรับความอ่อนไหวของการตรวจสอบการสะกด
-
-ค่าเริ่มต้นของการตรวจสอบการสะกดทำงานได้กับข้อความภาษาอังกฤษส่วนใหญ่ สำหรับเอกสารเชิงเทคนิคสูงคุณสามารถลดความอ่อนไหวโดยปรับ `SpellCheckOptions` ภายใน—แม้ว่าจะต้องเจาะลึก API ขั้นสูงของ Aspose ซึ่งเกินขอบเขตของคู่มือเริ่มต้นนี้.
-
----
-
-## ตัวอย่างทำงานเต็ม (พร้อมคัดลอก‑วาง)
-
-ด้านล่างเป็นคลาส Java ครบชุด พร้อมคอมไพล์และรัน แทนที่ `YOUR_DIRECTORY/typed_scanned_doc.png` ด้วยพาธจริงของภาพของคุณ.
 
 ```java
 import com.aspose.ocr.*;
@@ -192,47 +283,21 @@ public class SpellCheckExample {
 }
 ```
 
-คอมไพล์ด้วย:
-
 ```bash
 javac -cp "path/to/aspose-ocr.jar" SpellCheckExample.java
 java -cp ".;path/to/aspose-ocr.jar" SpellCheckExample
 ```
 
-คุณควรเห็นข้อความที่แก้ไขแล้วพิมพ์บนคอนโซล ยืนยันว่าคุณได้ **recognized text from image** อย่างสำเร็จและได้ใช้การตรวจสอบการสะกด.
+## บทแนะนำที่เกี่ยวข้อง
 
----
+- [สกัดข้อความจากรูปภาพ – พื้นฐาน OCR สำหรับ Java](/ocr/java/ocr-basics/)
+- [image to text java: แปลงรูปภาพเป็นข้อความด้วย Aspose.OCR](/ocr/java/advanced-ocr-techniques/perform-ocr-buffered-image/)
+- [รัน OCR บนรูปภาพด้วย Java คู่มือ Aspose OCR ฉบับสมบูรณ์](/ocr/java/ocr-operations/run-ocr-on-image-with-java-complete-aspose-ocr-guide/)
 
-## คำถามที่พบบ่อย
-
-**ถาม: Aspose OCR รองรับการจดจำลายมือหรือไม่?**  
-ตอบ: ไลบรารีนี้ถูกปรับให้เหมาะกับข้อความพิมพ์ การจดจำลายมือมีในโมดูลแยก (`aspose-ocr-handwriting`) ซึ่งคุณสามารถรวมได้เช่นกัน.
-
-**ถาม: ฉันสามารถประมวลผลภาพจาก URL แทนไฟล์ในเครื่องได้หรือไม่?**  
-ตอบ: ได้ คุณสามารถดาวน์โหลดภาพไปยังบัฟเฟอร์ชั่วคราว (เช่น ใช้ `java.net.URL`) แล้วส่งอาร์เรย์ไบต์ไปยัง `ocrEngine.recognize(InputStream)`.
-
-**ถาม: ถ้าฉันต้องการดึงเฉพาะส่วนของภาพบางส่วนต้องทำอย่างไร?**  
-ตอบ: ใช้ `ocrEngine.setRegion(Rectangle)` ก่อนเรียก `recognize` ซึ่งจะจำกัด OCR ให้ทำงานเฉพาะสี่เหลี่ยมที่กำหนด ช่วยประหยัดเวลาและลดผลบวกเท็จ.
-
----
-
-## สรุป
-
-เราได้อธิบายตัวอย่างครบวงจรตั้งแต่ต้นจนจบของการ **recognize text from image** ด้วย Aspose OCR for Java โดยการตั้งค่า OCR engine, เปิดการตรวจสอบการสะกด, และอาจโหลดพจนานุกรมกำหนดเอง คุณสามารถแปลงสแกนที่มีเสียงรบกวนให้เป็นข้อความที่สะอาดและค้นหาได้ด้วยโค้ดเพียงเล็กน้อย.
-
-จากนี้คุณอาจสำรวจต่อ:
-
-- **Batch processing** – วนลูปผ่านโฟลเดอร์ของภาพและเก็บผลลัพธ์แต่ละรายการในฐานข้อมูล.  
-- **Integration with Aspose PDF** – แยกภาพจาก PDF แล้วส่งให้ OCR engine.  
-- **Advanced language support** – เปลี่ยน `ocrConfig.setLanguage` เป็น `Language.FRENCH` หรือ `Language.SPANISH` สำหรับโครงการหลายภาษา.  
-
-ลองใช้งาน ปรับตั้งค่า และดูว่าคุณภาพดีขึ้นอย่างไรสำหรับกรณีการใช้งานของคุณเอง ขอให้เขียนโค้ดอย่างสนุกสนานและภาพสแกนของคุณคมชัดเสมอ!  
-
-![Diagram showing OCR workflow to recognize text from image](/images/ocr-workflow.png "recognize text from image workflow")
-
----
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

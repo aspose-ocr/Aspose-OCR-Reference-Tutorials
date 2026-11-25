@@ -138,6 +138,31 @@ Hướng dẫn chi tiết cách tải hình ảnh và sử dụng Aspose OCR k�
 Hướng dẫn chi tiết cách tạo engine OCR trong C# sử dụng Aspose.OCR, bao gồm cấu hình và ví dụ thực tế.
 ### [Cài đặt giới hạn bộ nhớ GPU với Aspose OCR – Hướng dẫn C# GPU](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Cài đặt giới hạn bộ nhớ GPU cho Aspose OCR trong C#. Hướng dẫn tối ưu hiệu suất GPU khi thực hiện nhận dạng hình ảnh.
+### [Trích xuất văn bản từ hình ảnh với Aspose OCR GPU – Hướng dẫn đầy đủ C#](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Khám phá cách sử dụng Aspose OCR GPU để trích xuất văn bản từ hình ảnh nhanh chóng với C#.
+### [Cách thiết lập giấy phép trong Aspose OCR – Hướng dẫn đầy đủ C#](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách áp dụng giấy phép Aspose OCR trong dự án C# để kích hoạt đầy đủ tính năng.
+### [Cách thực hiện OCR trong C# – Hướng dẫn đa ngôn ngữ](./how-to-perform-ocr-in-c-multi-language-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để nhận dạng văn bản đa ngôn ngữ từ hình ảnh.
+### [Chuyển hình ảnh thành văn bản C# – Aspose OCR với tải xuống bị vô hiệu hoá](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Hướng dẫn sử dụng Aspose OCR trong C# để chuyển hình ảnh thành văn bản mà không cho phép tải xuống kết quả.
+### [Lấy phiên bản Aspose OCR trong C# – Hướng dẫn đầy đủ](./get-aspose-ocr-version-in-c-complete-guide/)
+Hướng dẫn chi tiết cách lấy phiên bản hiện tại của Aspose.OCR trong dự án C#.
+### [Tạo PDF có thể tìm kiếm từ hình ảnh – Hướng dẫn chi tiết từng bước](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Hướng dẫn toàn diện cách chuyển đổi hình ảnh thành PDF có thể tìm kiếm bằng Aspose.OCR và Aspose.PDF.
+### [Cách sử dụng OcrEngine trong C# – Hướng dẫn OCR toàn diện](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+### [Phát hiện ngôn ngữ từ hình ảnh trong C# – Hướng dẫn lập trình đầy đủ](./detect-language-from-image-in-c-complete-programming-guide/)
+Hướng dẫn toàn diện cách phát hiện ngôn ngữ từ hình ảnh bằng C# sử dụng Aspose.OCR.
+### [Cách sử dụng OcrEngineConfig – Cấu hình Engine OCR trong C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Hướng dẫn cấu hình OcrEngineConfig để tùy chỉnh engine OCR trong ứng dụng C#.
+### [Cách thực hiện OCR với Aspose.OCR – Hướng dẫn C# đầy đủ](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.OCR trong C# để trích xuất văn bản từ hình ảnh, bao gồm cấu hình, ngôn ngữ và xử lý đa tệp.
+### [Tạo cấu hình mô hình AsposeAI – Hướng dẫn từng bước](./create-asposeai-model-config-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo và cấu hình mô hình AsposeAI trong dự án của bạn.
+### [Tạo Logger Aspose OCR – Hướng Dẫn Chi Tiết Từng Bước](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Hướng dẫn đầy đủ cách tạo logger cho Aspose OCR, bao gồm cấu hình, ghi log và xử lý lỗi trong .NET.
+### [Tải xuống các mô hình thiếu với Aspose AI – hướng dẫn đầy đủ](./download-missing-models-with-aspose-ai-complete-guide/)
+Hướng dẫn chi tiết cách tải và cài đặt các mô hình AI thiếu cho Aspose AI trong dự án của bạn.
 
 
 

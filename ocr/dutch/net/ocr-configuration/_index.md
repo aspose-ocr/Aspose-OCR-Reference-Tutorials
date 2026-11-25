@@ -58,8 +58,10 @@ Ontdek het enorme potentieel van Aspose.OCR voor .NET terwijl je moeiteloos OCR�
 
 ### [OCRO-bewerking met archief in OCR-beeldherkenning](./ocr-operation-with-archive/)
 Ontgrendel het potentieel van OCR in .NET‑applicaties met Aspose.OCR. Leer stap‑voor‑stap tekst uit archief‑afbeeldingen te extraheren.
+
 ### [OCRO-bewerking met map in OCR-beeldherkenning](./ocr-operation-with-folder/)
 Ontgrendel de kracht van OCR‑beeldherkenning in .NET met Aspose.OCR. Extraheer gemakkelijke tekst uit afbeeldingen.
+
 ### [OCRO-bewerking met taalselectie in OCR-beeldherkenning](./ocr-operation-with-taalselectie/)
 Ontgrendel krachtige OCR‑mogelijkheden met Aspose.OCR voor .NET. Extraheer naadloze tekst uit afbeeldingen.
 ### [Hoe OCR-taalpakket voor Russisch te downloaden – Complete gids](./how-to-download-ocr-language-pack-for-russian-complete-guide/)
@@ -102,6 +104,33 @@ Leer hoe je afbeeldingen laadt en OCR toepast met spell‑check in C# met Aspose
 Leer stap‑voor‑stap hoe je een OCR‑engine in C# maakt en configureert met Aspose.OCR voor optimale tekstherkenning.
 ### [GPU‑geheugenlimiet instellen met Aspose OCR – C# GPU‑gids](./set-gpu-memory-limit-with-aspose-ocr-c-gpu-guide/)
 Leer hoe je de GPU‑geheugenlimiet configureert voor optimale OCR‑prestaties in C# met Aspose OCR.
+### [Tekst extraheren uit afbeelding met Aspose OCR GPU – Volledige C#-gids](./extract-text-from-image-with-aspose-ocr-gpu-full-c-guide/)
+Leer hoe je met Aspose OCR GPU en C# tekst uit afbeeldingen haalt met maximale prestaties.
+### [Hoe een licentie instellen in Aspose OCR – Complete C#-gids](./how-to-set-license-in-aspose-ocr-complete-c-guide/)
+Leer hoe je een licentie configureert voor Aspose OCR in C# voor optimale prestaties.
+### [Hoe OCR uit te voeren in C# – Meertalige gids](./how-to-perform-ocr-in-c-multi-language-guide/)
+Ontgrendel meertalige OCR-mogelijkheden in C# met Aspose.OCR. Leer stap‑voor‑stap tekst uit verschillende talen te extraheren.
+### [Afbeelding naar tekst C# – Aspose OCR met uitgeschakelde download](./image-to-text-c-aspose-ocr-with-disabled-download/)
+Leer hoe je met Aspose OCR in C# tekst uit afbeeldingen haalt terwijl je de downloadfunctionaliteit uitschakelt.
+### [Aspose OCR‑versie ophalen in C# – Complete gids](./get-aspose-ocr-version-in-c-complete-guide/)
+Leer hoe je de huidige Aspose OCR‑versie in C# kunt opvragen en gebruiken in je .NET‑applicatie.
+### [Hoe OcrEngine te gebruiken in C# – Complete OCR-gids](./how-to-use-ocrengine-in-c-complete-ocr-guide/)
+Leer stap‑voor‑stap hoe je OcrEngine in C# gebruikt voor volledige OCR‑functionaliteit.
+### [Maak doorzoekbare PDF van een afbeelding – volledige stapsgewijze gids](./create-searchable-pdf-from-an-image-full-step-by-step-guide/)
+Leer hoe je een doorzoekbare PDF maakt van een afbeelding met een volledige stap‑voor‑stap handleiding.
+
+### [Detecteer taal van afbeelding in C# – Complete programmeergids](./detect-language-from-image-in-c-complete-programming-guide/)
+Leer hoe je met Aspose.OCR de taal van tekst in afbeeldingen detecteert en verwerkt in C#-toepassingen.
+### [Hoe OcrEngineConfig te gebruiken – OCR-engineconfiguratie in C#](./how-to-use-ocrengineconfig-ocr-engine-configuration-in-c/)
+Leer hoe je OcrEngineConfig instelt voor geavanceerde OCR‑instellingen in C# met Aspose.OCR.
+### [Hoe OCR uit te voeren met Aspose.OCR – Complete C#-gids](./how-to-perform-ocr-with-aspose-ocr-complete-c-guide/)
+Leer stap‑voor‑stap hoe je OCR met Aspose.OCR in C# implementeert, van installatie tot geavanceerde configuratie.
+### [Maak AsposeAI Modelconfiguratie – Stapsgewijze handleiding](./create-asposeai-model-config-step-by-step-guide/)
+Leer stap voor stap hoe je een AsposeAI‑modelconfiguratie maakt en toepast in je .NET‑applicatie.
+### [Maak logger Aspose OCR – Complete stapsgewijze gids](./create-logger-aspose-ocr-complete-step-by-step-guide/)
+Leer hoe je een logger implementeert voor Aspose OCR met een volledige stap‑voor‑stap handleiding.
+### [Download ontbrekende modellen met Aspose AI – volledige gids](./download-missing-models-with-aspose-ai-complete-guide/)
+Leer hoe je ontbrekende AI-modellen automatisch downloadt met Aspose AI in een volledige stap‑voor‑stap gids.
 
 ### Veelvoorkomende gebruiksscenario's
 - **Tekstafbeeldingen extraheren** uit gescande facturen voor praktische boekhouding.

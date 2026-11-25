@@ -1,9 +1,9 @@
 ---
 category: general
-date: 2026-02-27
-description: Tanulja meg, hogyan engedélyezheti a GPU-t az Aspose OCR Java kódban
-  a képről szöveg kinyeréséhez. Alakítsa át a fényképet szöveggé, és ismerje fel a
-  szöveget a fényképről hatékonyan.
+date: 2026-10-19
+description: Ismerje meg, hogyan lehet engedélyezni a GPU-t az Aspose OCR Java kódban
+  a képből történő szövegkivonáshoz. Konvertálja a fotót szöveggé, és hatékonyan ismerje
+  fel a fotón lévő szöveget.
 draft: false
 keywords:
 - how to enable gpu
@@ -11,17 +11,46 @@ keywords:
 - convert photo to text
 - how to extract text
 - recognize text from photo
-language: hu
-og_description: Hogyan engedélyezzük a GPU-t az Aspose OCR Java-ban, és gyorsan szöveget
-  nyerjünk ki a képből. Könnyedén konvertálja a fényképet szöveggé, és ismerje fel
-  a szöveget a fényképről.
-og_title: Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Gyors szövegkivonás
+lastmod: 2026-10-19
+og_description: A GPU engedélyezése az OCR-hez Java‑ban lehetővé teszi a képből való
+  gyors szövegkivonást, akár 90 %-kal csökkentve a feldolgozási időt a modern GPU-kon.
+  Ismerje meg a lépésről‑lépésre beállítást, a kódrészleteket és a hibaelhárítási
+  tippeket.
+og_image_alt: Diagram illustrating how to enable GPU in Aspose OCR Java code – how
+  to enable gpu
+og_title: Hogyan engedélyezzük a GPU-t az OCR-hez Java‑ban – gyors szövegkivonás
+schemas:
+- author: Aspose
+  dateModified: '2026-10-19'
+  description: Learn how to enable GPU in Aspose OCR Java code to extract text from
+    image. Convert photo to text and recognize text from photo efficiently.
+  headline: How to Enable GPU for OCR in Java – Extract Text from Image
+  type: TechArticle
+- questions:
+  - answer: Yes, as long as you have a Metal‑compatible GPU and the appropriate Aspose
+      OCR binary for macOS. The same `setUseGpu(true)` call applies.
+    question: Does this work on macOS?
+  - answer: The Community Edition includes CPU‑only inference. To unlock GPU you need
+      a licensed version (or a trial that includes GPU support).
+    question: Can I use the free Community Edition?
+  - answer: Call `ocrEngine.getConfig().setLanguage("spa")` for Spanish, `"fra"` for
+      French, etc. Language packs are bundled with the library.
+    question: What if I need to **recognize text from photo** in a language other
+      than English?
+  - answer: Yes—`ocrResult.getWords()` returns a collection where each `Word` object
+      has a `getConfidence()` method.
+    question: Is there a way to get confidence scores for each word?
+  - answer: After creating the engine, invoke `ocrEngine.getConfig().setRequireGpu(true)`.
+      The library will throw an exception if no compatible GPU is found, preventing
+      silent CPU fallback.
+    question: How can I enforce a strict GPU‑only mode?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - GPU
 - Aspose
-title: Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Szöveg kinyerése képből
+title: Hogyan engedélyezzük a GPU-t az OCR-hez Java‑ban – Szöveg kinyerése képből
 url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/
 ---
 
@@ -29,27 +58,44 @@ url: /hu/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – Szöveg kinyerése képből
+# Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban – szöveg kinyerése képből
 
-Gondoltad már, **hogyan engedélyezzük a GPU-t**, amikor OCR-t futtatunk egy nagy felbontású fényképen? Nem vagy egyedül. Sok Java fejlesztő akad el, amikor OCR csővezetékük csak CPU‑on fut, különösen, ha a kép mérete néhány megapixelen túlra nő. A jó hír? A GPU gyorsítás engedélyezése az Aspose OCR-rel gyerekjáték, és lehetővé teszi, hogy **szöveget nyerjünk ki képből** fájlokból egy töredék idő alatt.
+Gondolkodtál már azon, **hogyan engedélyezzük a GPU-t**, amikor OCR-t futtatsz egy nagy felbontású fényképen? Nem vagy egyedül. Sok Java fejlesztő akad el, amikor OCR csővezetékük csak CPU‑on működik, különösen, ha a kép mérete néhány megapixelen túlra nő. A jó hír? A GPU gyorsítás engedélyezése az Aspose OCR-rel gyerekjáték, és lehetővé teszi, hogy **szöveget nyerjünk ki képből** csak töredéknyi idő alatt.
 
-Ebben az útmutatóban végigvezetünk a teljes folyamaton: az Aspose OCR könyvtár beállításától, a GPU kapcsoló bekapcsolásán át, egy nagy kép betáplálásáig, és végül a **fénykép szöveggé alakításáig**. A végére megbízhatóan **tudni fogod, hogyan nyerjünk ki szöveget**, és azt is láthatod, hogyan **ismerjünk fel szöveget fényképről** több GPU-val rendelkező gépeken. Nem szükséges külső hivatkozás – minden, amire szükséged van, itt van.
+Ebben az útmutatóban végigvezetünk a teljes folyamaton: az Aspose OCR könyvtár beállításától, a GPU jelző bekapcsolásán át, egy nagy kép betáplálásáig, és végül a **fotó szöveggé konvertálásáig**. A végére megbízhatóan tudni fogod, **hogyan engedélyezzük a GPU-t**, és azt is láthatod, hogyan **ismerjünk fel szöveget fényképről** több GPU-val rendelkező gépeken. Nem szükséges külső hivatkozás – minden, amire szükséged van, itt van.
 
-## Előfeltételek
+## Gyors válaszok
+- **Mi csinál a „GPU engedélyezése”?** Átadja az OCR neurális hálózat inferenciáját a grafikus kártyának, csökkentve a feldolgozási időt akár 90 %-kal a modern hardveren.  
+- **Szükségem van speciális licencre?** Igen, a GPU támogatás csak egy licencelt Aspose OCR for Java kiadásban érhető el (vagy egy olyan próbaverzióban, amely tartalmazza a GPU kernelt).  
+- **Mely GPU-k támogatottak?** NVIDIA GPU-k CUDA 12.x‑szel (számítási képesség 3.5+) és AMD GPU-k ROCm 5.x‑szel (számítási képesség 6.0+).  
+- **Vissza tudok-e automatikusan a CPU-ra?** A könyvtár észleli a hiányzó vagy inkompatibilis GPU-kat, és átláthatóan átvált CPU-ra, de kényszerítheted a szigorú csak GPU módot.  
+- **A kód kompatibilis a Java 17-tel?** Teljesen – az Aspose OCR 23.x a Java 11+ célja, és hibátlanul működik a Java 17-tel.
 
-Mielőtt belevágnánk, győződj meg róla, hogy a következők rendelkezésre állnak:
+## Mi az a GPU gyorsítás az OCR-hez?
 
-* Telepített Java 17 vagy újabb (a legújabb LTS verzió a legjobb).
-* Támogatott NVIDIA vagy AMD GPU a legfrissebb illesztőprogramokkal (CUDA 12.x NVIDIA-hoz, ROCm AMD-hez).
-* Aspose OCR for Java JAR-ok – szerezd be a legújabb 23.x kiadást az Aspose weboldaláról.
-* Maven vagy Gradle a függőségek kezeléséhez (mutatunk egy Maven példát).
-* Egy nagy felbontású kép (például `high-res-photo.jpg`), amelyet fel szeretnél dolgozni.
+A GPU gyorsítás az OCR-hez azt a folyamatot jelenti, amikor egy grafikus processzort használunk a karaktereket felismerő mélytanuló modellek futtatására a CPU helyett. Ez drámaian felgyorsítja a szöveg kinyerését, különösen nagy vagy kötegelt képek esetén. A nehéz konvolúciós rétegek GPU-ra helyezésével a késleltetés csökken, az áteresztőképesség nő, így valós‑időben is feldolgozhatók a nagy felbontású fényképek.
 
-Ha bármelyik hiányzik, a kód továbbra is lefordul, de a GPU kapcsolót figyelmen kívül hagyja, és a CPU feldolgozásra tér vissza.
+## Miért használjuk az Aspose OCR GPU módját?
 
-## 1. lépés – Aspose OCR hozzáadása a buildhez (Hogyan engedélyezzük a GPU-t)
+Az Aspose OCR **50+ bemeneti formátumot** támogat (JPEG, PNG, BMP, TIFF, PDF stb.) és egy 20‑MP képet kevesebb, mint egy másodperc alatt tud feldolgozni egy RTX 3080-on, szemben a csúcskategóriás CPU 8 másodperces idővel. A könyvtár beépített visszalépést, 30+ nyelvhez nyelvi csomagokat, valamint egy egyszerű Java API-t kínál, amely csak egyetlen jelzőt igényel a GPU engedélyezéséhez.
 
-Először is: mondd meg a projektnek, hol találja az OCR könyvtárat. Mavenben add hozzá a következő függőséget a `pom.xml`-hez:
+## Előkövetelmények
+
+- Java 17 vagy újabb telepítve.  
+- Támogatott NVIDIA vagy AMD GPU a legfrissebb illesztőprogramokkal (CUDA 12.x NVIDIA-hoz, ROCm 5.x AMD-hez).  
+- Aspose OCR for Java JAR-ok – töltsd le a legújabb 23.x kiadást az Aspose weboldaláról.  
+- Maven vagy Gradle a függőségek kezeléséhez (mutatunk egy Maven példát).  
+- Egy nagy felbontású kép (pl. `high-res-photo.jpg`), amelyet feldolgozni szeretnél.
+
+Ha bármelyik hiányzik, a kód továbbra is lefordul, de a GPU jelző figyelmen kívül marad, és CPU feldolgozásra vált vissza.
+
+## Hogyan engedélyezzük a GPU-t az OCR-hez Java-ban?
+
+Töltsd be az OCR motorját, hívd meg a `setUseGpu(true)` metódust, és futtasd a képed a `recognize` metóduson keresztül. Ez az egyetlen sor aktiválja a GPU kernelt, amely a konvolúciós neurális hálózatot hajtja. **`setUseGpu(true)` engedélyezi a GPU feldolgozást az OCR motor számára.** Az OCR motor egy `com.aspose.ocr.OcrEngine` példány, amely szövegfelismerést végez.
+
+## 1. lépés – add Aspose OCR a buildhez (hogyan engedélyezzük a GPU-t)
+
+Először is: mondd meg a projektnek, hol találja az OCR könyvtárat. Maven-ben add hozzá a következő függőséget a `pom.xml`-hez:
 
 ```xml
 <!-- Step 1: Include Aspose OCR for Java -->
@@ -60,11 +106,11 @@ Először is: mondd meg a projektnek, hol találja az OCR könyvtárat. Mavenben
 </dependency>
 ```
 
-> **Pro tip:** Ha Gradle-t használsz, az ekvivalens `implementation 'com.aspose:aspose-ocr:23.10'`. A könyvtár naprakészen tartása biztosítja, hogy a legújabb GPU kernel-eket és hibajavításokat kapd.
+> **Pro tipp:** Ha Gradle-t használsz, az ekvivalens `implementation 'com.aspose:aspose-ocr:23.10'`. A könyvtár naprakészen tartása biztosítja, hogy a legújabb GPU kernelt és hibajavításokat kapd.
 
 Most, hogy a könyvtár a classpath-on van, ténylegesen **engedélyezhetjük a GPU-t** az OCR motorban.
 
-## 2. lépés – OCR motor létrehozása és a GPU bekapcsolása (Hogyan engedélyezzük a GPU-t)
+## 2. lépés – create the OCR engine and turn on GPU (hogyan engedélyezzük a GPU-t)
 
 ```java
 import com.aspose.ocr.*;
@@ -92,11 +138,11 @@ public class GpuOcrDemo {
 }
 ```
 
-> **Miért fontos:** A `setUseGpu(true)` beállítása azt mondja a natív könyvtárnak, hogy a nehéz konvolúciós neurális hálózati munkát a GPU-ra terhelje át. Egy modern RTX 3080 esetén ugyanaz a kép, amely CPU-n 8 másodpercet vesz igénybe, kevesebb mint 1 másodperc alatt feldolgozható. Ha kihagyod ezt a lépést, akkor is **szöveget ismerhetsz fel fényképről**, de nem élvezheted a teljesítményjavulást.
+> **Miért fontos:** A `setUseGpu(true)` beállítása azt mondja a natív könyvtárnak, hogy a nehéz konvolúciós neurális hálózat feladatát a GPU-ra terhelje. Egy modern RTX 3080-on ugyanaz a kép, amely CPU-n 8 másodpercet vesz igénybe, kevesebb, mint 1 másodperc alatt feldolgozható. Ha kihagyod ezt a lépést, továbbra is **szöveget ismerhetsz fel fényképről**, de nem élvezheted a teljesítményjavulást.
 
-## 3. lépés – Ellenőrizd, hogy a GPU valóban használatban van-e
+## 3. lépés – ellenőrizd, hogy a GPU valóban használatban van-e
 
-Elgondolkodhatsz, hogy „Tényleg a GPU végzi a munkát?” A legegyszerűbb módja az ellenőrzésnek, ha megnézed az Aspose OCR könyvtár konzolkimenetét, amikor a hibakeresési naplózást bekapcsolod:
+Gondolkozhatsz, hogy „Tényleg a GPU végzi a munkát?” A legegyszerűbb módja a ellenőrzésnek, ha megnézed az Aspose OCR könyvtár konzol kimenetét, amikor a hibakereső naplózást engedélyezed:
 
 ```java
 // Enable verbose logging – helpful for confirming GPU usage.
@@ -111,7 +157,7 @@ A program futtatásakor olyan sorokat látsz, mint:
 
 Ha nem látod ezt az üzenetet, ellenőrizd újra az illesztőprogram telepítését, és győződj meg róla, hogy a GPU megfelel a minimális számítási képességnek (3.5 NVIDIA-nál, 6.0 AMD-nél).
 
-## 4. lépés – Több GPU kezelése és szélsőséges esetek
+## 4. lépés – több GPU kezelése és szélsőséges esetek
 
 ### Másik GPU kiválasztása
 
@@ -121,9 +167,9 @@ Ha a munkaállomásodnak több GPU-ja van (például egy integrált Intel GPU é
 ocrEngine.getConfig().setGpuDeviceId(1); // 1 = second GPU in the system
 ```
 
-### Mi van, ha nem észlelhető GPU?
+### Mi van, ha nincs GPU észlelve?
 
-Az Aspose OCR elegánsan visszatér a CPU-ra, ha nem talál megfelelő GPU-t. A csendes visszatérést elkerülve, hozzáadhatsz egy ellenőrzést:
+Az Aspose OCR elegánsan visszalép a CPU-ra, ha nem talál megfelelő GPU-t. A csendes visszalépés elkerülése érdekében hozzáadhatsz egy védelmet. **`setRequireGpu(true)` kényszeríti a könyvtárat a GPU használatára, és kivételt dob, ha nincs megtalálható.** Ez biztosítja, hogy tudomásodra jusson, ha a GPU nem elérhető.
 
 ```java
 if (!ocrEngine.getConfig().isGpuAvailable()) {
@@ -131,9 +177,9 @@ if (!ocrEngine.getConfig().isGpuAvailable()) {
 }
 ```
 
-### Nagy képek és memóriahatárok
+### Nagy képek és memória korlátok
 
-Egy 100 MP képet feldolgozni még mindig kimerítheti a GPU memóriát. Egy praktikus trükk, hogy a képet **épp annyira** lecsökkentsük, hogy a memóriahatáron belül maradjon, miközben megőrzi a szöveg tisztaságát:
+Egy 100 MP kép feldolgozása még mindig kimerítheti a GPU memóriát. Egy praktikus trükk, hogy a képet **éppen annyira** lecsökkentsd, hogy a memóriahatárokon belül maradjon, miközben megőrzi a szöveg tisztaságát:
 
 ```java
 ocrEngine.getConfig().setMaxImageDimension(4096); // caps width/height to 4096px
@@ -141,11 +187,11 @@ ocrEngine.getConfig().setMaxImageDimension(4096); // caps width/height to 4096px
 
 ### Támogatott képformátumok
 
-Az Aspose OCR támogatja a JPEG, PNG, BMP, TIFF és még a PDF formátumokat is. Ha **szöveget kell kinyerni képből** olyan fájlokból, amelyek más formátumban vannak, először konvertáld őket egy, például ImageIO-s könyvtárral.
+Az Aspose OCR érti a JPEG, PNG, BMP, TIFF és még a PDF formátumokat is. Ha **szöveget kell kinyerni képfájlokból**, amelyek más formátumban vannak tárolva, először konvertáld őket egy olyan könyvtárral, mint az ImageIO.
 
-## 5. lépés – Várt kimenet és ellenőrzés
+## 5. lépés – várt kimenet és ellenőrzés
 
-A program befejezésekor a konzol kiírja a nyers OCR szöveget. Egy tipikus nyugta fényképnél a következőt láthatod:
+Amikor a program befejeződik, a konzol kiírja a nyers OCR szöveget. Egy tipikus nyugta fénykép esetén például a következőt láthatod:
 
 ```
 Store: Coffee Corner
@@ -156,15 +202,17 @@ Items:
 Total: $7.25
 ```
 
-Ha a kimenet összezavarodott, fontold meg:
+Ha a kimenet összezavarodottnak tűnik, fontold meg:
 
-* Biztosítsd, hogy a kép jól megvilágított és ne legyen erősen tömörített.
-* Finomhangold a `setLanguage` beállítást, ha a szöveg nem angol.
-* Ellenőrizd, hogy a GPU kernel verzió megegyezik-e az illesztőprogramoddal (a verziók eltérése finom hibákat okozhat).
+* Biztosítsd, hogy a kép jól megvilágított és nem erősen tömörített legyen.
+* A `setLanguage` opció finomhangolása, ha a szöveg nem angol.
+* Ellenőrizd, hogy a GPU kernel verzió megegyezik-e az illesztőprogramoddal (eltérő verziók finom hibákat okozhatnak).
 
-## 6. lépés – Tovább lépés: Kötetes feldolgozás és aszinkron hívások
+**`ocrResult.getWords()` egy `Word` objektumok gyűjteményét adja vissza, amelyek mindegyike a `getConfidence()` metódussal ad egy megbízhatósági pontszámot.** Ez lehetővé teszi az alacsony megbízhatóságú eredmények szűrését.
 
-A valós projektek gyakran igényelnek **szöveg kinyerését képből** gyűjteményekből. A fenti logikát egy ciklusba csomagolhatod, vagy a Java `CompletableFuture`-t használhatod több OCR feladat párhuzamos futtatásához, mindegyik külön GPU streamen (ha a hardvered támogatja). Íme egy gyors vázlat:
+## 6. lépés – továbbfejlesztés: kötegelt feldolgozás és aszinkron hívások
+
+A valós projektek gyakran **szöveget kell kinyerni képek** gyűjteményéből. A fenti logikát egy ciklusba csomagolhatod, vagy a Java `CompletableFuture`-jét használhatod több OCR feladat párhuzamos futtatására, mindegyik külön GPU streamen (ha a hardvered támogatja). Íme egy gyors vázlat:
 
 ```java
 import java.util.concurrent.*;
@@ -189,35 +237,69 @@ public class BatchGpuOcr {
 }
 ```
 
-## Gyakran Ismételt Kérdések (GYIK)
+Ez a megközelítés lehetővé teszi, hogy **fotót szöveggé konvertálj** nagy léptékben, miközben továbbra is kihasználod a GPU gyorsítást.
 
-**K: Működik ez macOS-en?**  
-V: Igen, amennyiben van Metal‑kompatibilis GPU-d és a megfelelő Aspose OCR bináris macOS-hez. Ugyanez a `setUseGpu(true)` hívás érvényes.
+## Gyakran ismételt kérdések (GYIK)
 
-**K: Használhatom az ingyenes Community Edition-t?**  
-V: A Community Edition csak CPU‑alapú inferenciát tartalmaz. A GPU feloldásához licencelt verzióra (vagy GPU‑t támogató próbaverzióra) van szükség.
+**Q: Működik ez macOS-en?**  
+A: Igen, amennyiben van Metal‑kompatibilis GPU-d és a megfelelő Aspose OCR bináris a macOS-hez. Ugyanez a `setUseGpu(true)` hívás érvényes.
 
-**K: Mi van, ha **szöveget kell felismerni fényképről** más nyelven, mint angol?**  
-V: Hívd a `ocrEngine.getConfig().setLanguage("spa")`-t spanyolhoz, `"fra"`-t franciához stb. A nyelvi csomagok a könyvtárral együtt vannak szállítva.
+**Q: Használhatom az ingyenes Community Edition-t?**  
+A: A Community Edition csak CPU‑csak inferenciát tartalmaz. A GPU feloldásához licencelt verzióra van szükség (vagy egy olyan próbaverzióra, amely tartalmazza a GPU támogatást).
 
-**K: Van mód arra, hogy minden szóhoz bizalmi pontszámot kapjak?**  
-V: Igen – a `ocrResult.getWords()` egy gyűjteményt ad vissza, ahol minden `Word` objektumnak van egy `getConfidence()` metódusa.
+**Q: Mi van, ha **szöveget kell felismertetni fényképről** egy angolon kívüli nyelven?**  
+A: Hívd meg `ocrEngine.getConfig().setLanguage("spa")` spanyolhoz, `"fra"` franciához stb. A nyelvi csomagok a könyvtárral együtt vannak.
 
-## Összegzés
+**Q: Van mód arra, hogy minden szóhoz megbízhatósági pontszámot kapjunk?**  
+A: Igen – az `ocrResult.getWords()` egy gyűjteményt ad vissza, ahol minden `Word` objektumnak van `getConfidence()` metódusa.
 
-Áttekintettük, **hogyan engedélyezzük a GPU-t** az Aspose OCR Java-ban, végigmentünk egy teljes, futtatható példán, és megvizsgáltuk a gyakori buktatókat, amikor **szöveget kell kinyerni képből**, **fényképet szöveggé alakítani**, vagy **szöveget felismerni fényképről**. Egyetlen kapcsoló átkapcsolásával és az illesztőprogramok naprakészen tartásával másodperceket spórolhatsz minden OCR hívásnál, és hatalmas képcsomagokat is skálázhatsz könnyedén.
+**Q: Hogyan kényszeríthetem a szigorú csak GPU módot?**  
+A: A motor létrehozása után hívd meg `ocrEngine.getConfig().setRequireGpu(true)`. A könyvtár kivételt dob, ha nem talál kompatibilis GPU-t, így megakadályozva a csendes CPU visszalépést.
 
-Készen állsz a következő lépésre? Próbáld meg az OCR kimenetet egy természetes nyelvfeldolgozó csővezetékbe táplálni, vagy kísérletezz különböző kép‑előfeldolgozó szűrőkkel a pontosság növelése érdekében. A határ csak a képzeleted, ha a GPU‑alapú OCR-t modern Java eszközökkel kombinálod.
+## Következtetés
+
+Áttekintettük, **hogyan engedélyezzük a GPU-t** az Aspose OCR-hez Java-ban, végigvettük egy teljes, futtatható példán, és megvizsgáltuk a gyakori buktatókat, amikor **szöveget kell kinyerni képből**, **fotót szöveggé konvertálni**, vagy **szöveget felismertetni fényképről** szeretnél. Egyetlen jelző átkapcsolásával és a naprakész illesztőprogramok biztosításával másodperceket takaríthatsz meg minden OCR hívásnál, és hatalmas kép kötegeket skálázhatsz anélkül, hogy izzadnál.
+
+Készen állsz a következő lépésre? Próbáld meg az OCR kimenetet egy természetes nyelvfeldolgozó csővezetékbe táplálni, vagy kísérletezz különböző kép előfeldolgozó szűrőkkel a pontosság növelése érdekében. A határ csak a képzeleted, ha a GPU‑alapú OCR-t modern Java eszközökkel kombinálod.
 
 ---
 
 ![Diagram, amely bemutatja, hogyan engedélyezzük a GPU-t az Aspose OCR Java kódban – hogyan engedélyezzük a GPU-t](gpu-ocr-diagram.png)
 
-*Kép alternatív szöveg:* "Diagram, amely bemutatja, hogyan engedélyezzük a GPU-t az Aspose OCR Java kódban – hogyan engedélyezzük a GPU-t"
+[Diagram, amely bemutatja, hogyan engedélyezzük a GPU-t az Aspose OCR Java kódban – hogyan engedélyezzük a GPU-t](gpu-ocr-diagram.png)
+
+*Kép alt szöveg:* "Diagram, amely bemutatja, hogyan engedélyezzük a GPU-t az Aspose OCR Java kódban – hogyan engedélyezzük a GPU-t"
 
 ---
 
+**Utoljára frissítve:** 2026-10-19  
+**Tesztelve ezzel:** Aspose OCR for Java 23.10  
+**Szerző:** Aspose  
+
+
+
+
+
+
+```xml
+<!-- Step 1: Include Aspose OCR for Java -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-ocr</artifactId>
+    <version>23.10</version>
+</dependency>
+```
+
+## Kapcsolódó útmutatók
+
+- [Hogyan konfiguráljuk a GPU-t az OCR szövegfelismeréshez képről](/ocr/java/advanced-ocr-techniques/how-to-configure-gpu-for-ocr-recognize-text-from-image/)
+- [Szövegfelismerés képről Aspose OCR GPU Java használatával](/ocr/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/)
+- [Szöveg kinyerése képből Aspose OCR Java útmutatóval](/ocr/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/)
+
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
