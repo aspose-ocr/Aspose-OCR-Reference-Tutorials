@@ -99,6 +99,8 @@ Erreichen Sie präzise OCR in .NET mit Aspose.OCR. Erkennen Sie Text aus Bildern
 Entdecken Sie erweiterte OCR‑Funktionen mit Aspose.OCR für .NET. Effizient, genau und entwicklerfreundlich.  
 ### [Working with Different Languages in OCR Image Recognition](./working-with-different-languages/)  
 Entfesseln Sie die Magie mehrsprachiger OCR mit Aspose.OCR für .NET. Extrahieren Sie Text mühelos in verschiedenen Sprachen.  
+### [C#‑Beispiel OCR Kyrillisch – OCR auf kyrillischen Text anwenden](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Demonstriert, wie Sie mit Aspose.OCR kyrillischen Text aus Bildern erkennen und verarbeiten.  
 
 ## Wie man Text aus Bildern mit Aspose.OCR extrahiert – Überblick über gängige Einstellungen  
 
@@ -136,8 +138,6 @@ A: Die Bibliothek verarbeitet problemlos Bilder bis zu **500 MB**; bei größe
 **Getestet mit:** Aspose.OCR 24.11 für .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Verwandte Tutorials
 
 - [Extract Text from Image – OCR Optimization with Aspose.OCR for .NET](/ocr/net/ocr-optimization/)
@@ -148,3 +148,4 @@ A: Die Bibliothek verarbeitet problemlos Bilder bis zu **500 MB**; bei größe
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

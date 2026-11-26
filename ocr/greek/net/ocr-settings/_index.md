@@ -100,6 +100,8 @@ weight: 26
 Εξερευνήστε προηγμένες δυνατότητες OCR με το Aspose.OCR για .NET. Αποτελεσματικό, ακριβές και φιλικό προς τους προγραμματιστές.  
 ### [Εργασία με Διαφορετικές Γλώσσες στην Αναγνώριση Εικόνας OCR](./working-with-different-languages/)  
 Ανακαλύψτε τη μαγεία του πολυγλωσσικού OCR με το Aspose.OCR για .NET. Εξάγετε κείμενο εύκολα σε διάφορες γλώσσες.  
+### [c# παράδειγμα OCR κυριλλικών – εκτέλεση OCR σε κυριλλικό κείμενο](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Δείτε πώς να αναγνωρίζετε κείμενο σε κυριλλική γραφή χρησιμοποιώντας Aspose.OCR με C#.  
 
 ## Πώς να εξάγετε κείμενο από εικόνες χρησιμοποιώντας Aspose.OCR – Επισκόπηση Κοινών Ρυθμίσεων  
 
@@ -137,8 +139,6 @@ A: Η βιβλιοθήκη διαχειρίζεται άνετα εικόνες 
 **Δοκιμή με:** Aspose.OCR 24.11 for .NET  
 **Συγγραφέας:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Σχετικά Μαθήματα
 
 - [Εξαγωγή Κειμένου από Εικόνα – Βελτιστοποίηση OCR με Aspose.OCR για .NET](/ocr/net/ocr-optimization/)
@@ -149,3 +149,4 @@ A: Η βιβλιοθήκη διαχειρίζεται άνετα εικόνες 
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

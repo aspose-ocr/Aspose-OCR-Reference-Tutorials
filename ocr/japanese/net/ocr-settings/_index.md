@@ -98,6 +98,7 @@ Aspose.OCR を使用した .NET で正確な OCR を実現します。画像か�
 Aspose.OCR for .NET の高度な OCR 機能を探求してください。効率的で正確、開発者に優しいです。  
 ### [OCR 画像認識で異なる言語を扱う](./working-with-different-languages/)  
 Aspose.OCR for .NET で多言語 OCR の魔法を解き放ち、さまざまな言語でテキストを簡単に抽出します。  
+### [C# 例 OCR キリル文字 – キリル文字テキストの OCR を実行](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
 
 ## Aspose.OCR を使用した画像からテキスト抽出 – 共通設定概要  
 
@@ -135,8 +136,6 @@ A: ライブラリは **500 MB** までの画像を問題なく処理できま
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 関連チュートリアル
 
 - [画像からテキスト抽出 – Aspose.OCR for .NET による OCR 最適化](/ocr/net/ocr-optimization/)
@@ -147,3 +146,4 @@ A: ライブラリは **500 MB** までの画像を問題なく処理できま
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

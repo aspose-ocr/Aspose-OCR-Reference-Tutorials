@@ -100,6 +100,8 @@ Szerezzen pontos OCR‑t .NET‑ben az Aspose.OCR‑rel. Ismerje fel a képek sz
 Fedezze fel az Aspose.OCR for .NET fejlett OCR képességeit. Hatékony, pontos és fejlesztőbarát.  
 ### [Munkavégzés különböző nyelvekkel az OCR képfelismerésben](./working-with-different-languages/)  
 Fedezze fel a többnyelvű OCR varázsát az Aspose.OCR for .NET‑tel. Képezze ki a szöveget könnyedén különböző nyelveken.  
+### [c# példa OCR cirill – OCR végrehajtása cirill szövegen](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Fedezze fel, hogyan használhatja a C#-ot az Aspose.OCR-rel cirill szöveg felismerésére.  
 
 ## Hogyan nyerhetünk ki szöveget képekből az Aspose.OCR‑rel – Általános beállítások áttekintése  
 
@@ -137,8 +139,6 @@ A: A könyvtár kényelmesen kezeli a **500 MB**‑ig terjedő képeket; nagyo
 **Tesztelve:** Aspose.OCR 24.11 for .NET  
 **Szerző:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Kapcsolódó útmutatók
 
 - [Képek szövegének kinyerése – OCR optimalizálás Aspose.OCR for .NET‑vel](/ocr/net/ocr-optimization/)
@@ -149,3 +149,4 @@ A: A könyvtár kényelmesen kezeli a **500 MB**‑ig terjedő képeket; nagyo
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

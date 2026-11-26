@@ -100,6 +100,8 @@ Aspose.OCR के साथ .NET में सटीक OCR को अनलॉ�
 Aspose.OCR for .NET के साथ उन्नत OCR क्षमताओं का अन्वेषण करें। कुशल, सटीक, और डेवलपर‑फ्रेंडली।  
 ### [OCR इमेज रिकग्निशन में विभिन्न भाषाओं के साथ काम करना](./working-with-different-languages/)  
 Aspose.OCR for .NET के साथ बहुभाषी OCR का जादू अनलॉक करें। विभिन्न भाषाओं में आसानी से टेक्स्ट निकालें।  
+### [c# उदाहरण OCR सिरिलिक – सिरिलिक टेक्स्ट पर OCR करें](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Cyrillic टेक्स्ट पर OCR करने का c# उदाहरण।  
 
 ## Aspose.OCR का उपयोग करके छवियों से टेक्स्ट निकालना – सामान्य सेटिंग्स का अवलोकन  
 
@@ -137,8 +139,6 @@ Aspose.OCR for .NET के साथ बहुभाषी OCR का जाद�
 **परीक्षित संस्करण:** Aspose.OCR 24.11 for .NET  
 **लेखक:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## संबंधित ट्यूटोरियल्स
 
 - [छवि से टेक्स्ट निकालें – Aspose.OCR for .NET के साथ OCR ऑप्टिमाइज़ेशन](/ocr/net/ocr-optimization/)
@@ -149,3 +149,4 @@ Aspose.OCR for .NET के साथ बहुभाषी OCR का जाद�
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

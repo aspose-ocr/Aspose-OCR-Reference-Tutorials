@@ -106,6 +106,9 @@ Poznaj zaawansowane możliwości OCR z Aspose.OCR dla .NET. Efektywne, dokładne
 ### [Praca z różnymi językami w rozpoznawaniu obrazu OCR](./working-with-different-languages/)  
 Odblokuj magię wielojęzycznego OCR z Aspose.OCR dla .NET. Łatwo wyodrębniaj tekst w różnych językach.  
 
+### [Przykład C# OCR cyrylica – wykonaj OCR na tekście cyrylicą](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Poznaj, jak używać Aspose.OCR w C# do rozpoznawania tekstu w języku cyrylicy.  
+
 ## Jak wyodrębniać tekst z obrazów przy użyciu Aspose.OCR – przegląd najważniejszych ustawień  
 
 Załaduj silnik OCR, skonfiguruj pożądane ustawienia i wywołaj `Recognize` – to podstawowy przepływ pracy w **mniej niż 10 linijkach kodu**. Opanowując poniższe wspólne ustawienia, możesz dostosować silnik pod kątem szybkości, precyzji lub wsparcia wielojęzycznego, w zależności od potrzeb Twojego projektu.  
@@ -142,8 +145,6 @@ A: Biblioteka bez problemu obsługuje obrazy do **500 MB**; w przypadku więks
 **Testowano z:** Aspose.OCR 24.11 for .NET  
 **Autor:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Powiązane samouczki
 
 - [Wyodrębnianie tekstu z obrazu – optymalizacja OCR z Aspose.OCR dla .NET](/ocr/net/ocr-optimization/)
@@ -154,3 +155,4 @@ A: Biblioteka bez problemu obsługuje obrazy do **500 MB**; w przypadku więks
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

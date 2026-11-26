@@ -99,6 +99,8 @@ Aspose.OCR ile .NET'te hassas OCR'ı açığa çıkarın. Görüntülerden metni
 Aspose.OCR for .NET ile gelişmiş OCR yeteneklerini keşfedin. Verimli, doğru ve geliştirici dostu.  
 ### [OCR Görüntü Tanıma’da Farklı Dillerle Çalışma](./working-with-different-languages/)  
 Aspose.OCR for .NET ile çok dilli OCR'ın büyüsünü ortaya çıkarın. Çeşitli dillerde metni zahmetsizce çıkarın.  
+### [c# örnek OCR Kiril – Kiril metin üzerinde OCR gerçekleştir](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+Aspose.OCR for .NET ile Kiril alfabesindeki metinleri tanıyın ve doğru sonuçlar elde edin.  
 
 ## Aspose.OCR ile Görüntülerden Metin Çıkarma – Ortak Ayarlar Genel Bakışı  
 
@@ -136,8 +138,6 @@ OCR motorunuzu yükleyin, istediğiniz ayarları yapılandırın ve `Recognize` 
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## İlgili Öğreticiler
 
 - [Görüntüden Metin Çıkarma – Aspose.OCR for .NET ile OCR Optimizasyonu](/ocr/net/ocr-optimization/)
@@ -148,3 +148,4 @@ OCR motorunuzu yükleyin, istediğiniz ayarları yapılandırın ve `Recognize` 
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

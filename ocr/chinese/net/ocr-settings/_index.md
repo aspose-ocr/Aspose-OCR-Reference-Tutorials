@@ -98,6 +98,8 @@ Aspose.OCR 附带 **30 多种脚本** 的语言包，从拉丁文到西里尔文
 探索 Aspose.OCR for .NET 的高级 OCR 功能。高效、准确且对开发者友好。  
 ### [在 OCR 图像识别中使用不同语言](./working-with-different-languages/)  
 解锁 Aspose.OCR for .NET 的多语言 OCR 魔力。轻松在多种语言中提取文本。  
+### [C# 示例 OCR 西里尔文 – 对西里尔文字进行 OCR](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)  
+使用 Aspose.OCR 在 .NET 中识别西里尔字符，实现高精度文本提取。  
 
 ## 如何使用 Aspose.OCR 提取图像文本 – 常用设置概览  
 
@@ -135,8 +137,6 @@ A: 该库能够轻松处理高达 **500 MB** 的图像；对于更大的文件
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## 相关教程
 
 - [从图像中提取文本 – 使用 Aspose.OCR for .NET 进行 OCR 优化](/ocr/net/ocr-optimization/)
@@ -147,3 +147,4 @@ A: 该库能够轻松处理高达 **500 MB** 的图像；对于更大的文件
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

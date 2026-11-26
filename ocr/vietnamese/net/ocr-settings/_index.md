@@ -97,6 +97,9 @@ Tải gói phù hợp (ví dụ, `ocrEngine.Language = Language.French`) tăng �
 
 ## Hướng dẫn Cài đặt OCR  
 
+### [c# example ocr cyrillic – perform OCR on Cyrillic text](./c-example-ocr-cyrillic-perform-ocr-on-cyrillic-text/)
+
+
 ### [Lưu Kết quả dưới dạng Tài liệu trong Nhận dạng Hình ảnh OCR](./save-result-as-document/)  
 Mở khóa tiềm năng của Aspose.OCR cho .NET. Dễ dàng nhận dạng văn bản trong hình ảnh và lưu kết quả ở nhiều định dạng tài liệu.  
 
@@ -151,8 +154,6 @@ A: Thư viện xử lý thoải mái các hình ảnh lên tới **500 MB**; �
 **Tested With:** Aspose.OCR 24.11 for .NET  
 **Author:** Aspose  
 
-{{< blocks/products/products-backtop-button >}}
-
 ## Hướng dẫn liên quan
 
 - [Trích xuất Văn bản từ Hình ảnh – Tối ưu hoá OCR với Aspose.OCR cho .NET](/ocr/net/ocr-optimization/)
@@ -163,3 +164,4 @@ A: Thư viện xử lý thoải mái các hình ảnh lên tới **500 MB**; �
 {{< /blocks/products/pf/tutorial-page-section >}}  
 {{< /blocks/products/pf/main-container >}}  
 {{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}
