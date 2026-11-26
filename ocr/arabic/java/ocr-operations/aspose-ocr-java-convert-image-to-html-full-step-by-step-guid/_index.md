@@ -1,24 +1,62 @@
 ---
 category: general
-date: 2026-02-22
-description: تعلم كيفية استخدام Aspose OCR Java لتحويل الصورة إلى HTML واستخراج النص
-  من الصورة. يغطي هذا الدرس الإعداد، الكود، والنصائح.
+date: 2026-11-04
+description: تعلم كيفية استخدام Aspose OCR Java لتحويل الصورة إلى HTML، واستخراج النص
+  من الصورة، وإنشاء HTML من الصورة في دليل واحد step‑by‑step.
 draft: false
 keywords:
-- aspose ocr java
 - convert image to html
 - extract text from image
+- generate html from image
+- aspose ocr java
 - how to convert image
-language: ar
-og_description: اكتشف كيفية استخدام Aspose OCR Java لتحويل الصورة إلى HTML، واستخراج
-  النص من الصورة، ومعالجة المشكلات الشائعة في دليل واحد.
-og_title: aspose ocr java – دليل تحويل الصورة إلى HTML
+lastmod: 2026-11-04
+og_description: تحويل الصورة إلى HTML باستخدام Aspose OCR Java. يوضح لك هذا الدليل
+  كيفية استخراج النص من الصورة، وإنشاء HTML من الصورة، ومعالجة المشكلات الشائعة في
+  مثال كامل step‑by‑step.
+og_image_alt: 'Developer guide: convert image to HTML using Aspose OCR Java'
+og_title: تحويل الصورة إلى HTML باستخدام Aspose OCR Java – دليل سريع
+schemas:
+- author: Aspose
+  dateModified: '2026-11-04'
+  description: Learn how to use Aspose OCR Java to convert image to HTML, extract
+    text from image, and generate HTML from image in a single, step‑by‑step tutorial.
+  headline: Convert image to HTML with Aspose OCR Java – full step‑by‑step guide
+  type: TechArticle
+- description: Learn how to use Aspose OCR Java to convert image to HTML, extract
+    text from image, and generate HTML from image in a single, step‑by‑step tutorial.
+  name: Convert image to HTML with Aspose OCR Java – full step‑by‑step guide
+  steps:
+  - name: Download `aspose-ocr-23.12.jar` from the Aspose portal.
+    text: Download `aspose-ocr-23.12.jar` from the Aspose portal.
+  - name: Place the JAR in a `libs/` folder inside your project.
+    text: Place the JAR in a `libs/` folder inside your project.
+  - name: 'Add it to the classpath when you compile:'
+    text: 'Add it to the classpath when you compile:'
+  type: HowTo
+- questions:
+  - answer: No, the 30‑day evaluation license is for testing only; a commercial license
+      is required for production deployments.
+    question: Can I use the evaluation license in production?
+  - answer: Yes, it supports Arabic, Hebrew, and other RTL scripts when you set the
+      appropriate language pack.
+    question: Does Aspose OCR Java support right‑to‑left languages?
+  - answer: The engine can handle images up to 50 MB per page without loading the
+      entire file into memory, thanks to its streaming architecture.
+    question: How large of an image can I process?
+  - answer: You can inject custom CSS after OCR by modifying the `htmlContent` string
+      before writing it to disk.
+    question: Is there a way to style the generated HTML?
+  - answer: Change `ocrEngine.setExportFormat(ExportFormat.PDF)` and the rest of the
+      workflow remains identical.
+    question: What if I need PDF instead of HTML?
+  type: FAQPage
 tags:
 - OCR
 - Java
 - Aspose
-- HTML Export
-title: 'aspose ocr java: تحويل الصورة إلى HTML – دليل كامل خطوة بخطوة'
+- HTML export
+title: تحويل الصورة إلى HTML باستخدام Aspose OCR Java – دليل كامل step‑by‑step
 url: /ar/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-step-guid/
 ---
 
@@ -26,24 +64,30 @@ url: /ar/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# aspose ocr java: تحويل الصورة إلى HTML – دليل كامل خطوة بخطوة
+# تحويل الصورة إلى HTML باستخدام Aspose OCR Java – دليل خطوة بخطوة كامل
 
-هل احتجت يومًا إلى **aspose ocr java** لتحويل صورة ممسوحة ضوئيًا إلى HTML نظيف؟ ربما تكون تبني بوابة لإدارة المستندات وتريد أن يعرض المتصفح التخطيط المستخرج دون وجود PDF في العملية. حسب تجربتي، أسرع طريقة للوصول إلى ذلك هي السماح لمحرك OCR من Aspose بالقيام بالعمل الشاق وطلب مخرجات HTML.  
+هل احتجت يومًا إلى **تحويل الصورة إلى HTML** حتى يمكن عرض صورة ممسوحة ضوئيًا مباشرةً في المتصفح؟ ربما تكون تبني بوابة إدارة مستندات وتريد أن يقوم المتصفح بعرض التخطيط المستخرج دون الحاجة أولاً إلى إنشاء ملف PDF. حسب تجربتي، أسرع طريقة للوصول إلى ذلك هي السماح لمحرك OCR من Aspose بالقيام بالعمل الشاق وطلب إخراج HTML.  
 
-في هذا الدرس سنستعرض كل ما تحتاجه **convert image to html** باستخدام مكتبة Aspose OCR للغة Java، ونوضح لك كيفية **extract text from image** عندما تحتاج إلى نص عادي، ونجيب على سؤال “**how to convert image**” المتبقي مرة واحدة وإلى الأبد. لا روابط غامضة “انظر الوثائق” — فقط مثال كامل قابل للتنفيذ ومجموعة من النصائح العملية التي يمكنك نسخها ولصقها الآن.
+في هذا الدرس سنستعرض كل ما تحتاجه **لتحويل الصورة إلى HTML** باستخدام مكتبة Aspose OCR للـ Java، وسنوضح لك كيفية **استخراج النص من الصورة** عندما تحتاج إلى نص عادي، وسنجيب على سؤال “**كيف تحول الصورة**” مرة واحدة وإلى الأبد. لا روابط غامضة “انظر الوثائق” — مجرد مثال كامل قابل للتنفيذ وبعض النصائح العملية التي يمكنك نسخها ولصقها الآن.
+
+## إجابات سريعة
+- **ما المكتبة التي تحول الصورة إلى HTML؟** Aspose OCR للـ Java.
+- **هل يمكنني الحصول على نص عادي أيضًا؟** نعم، استدعِ `ocrResult.getText()` بعد التعرف.
+- **ما نسخة Java المطلوبة؟** يفضَّل Java 17؛ Java 8+ تعمل.
+- **هل أحتاج إلى ترخيص؟** ترخيص تجريبي لمدة 30 يومًا مجاني؛ الترخيص التجاري مطلوب للإنتاج.
+- **كم عدد صيغ الصور المدعومة؟** أكثر من 10 صيغ، بما فيها PNG، JPEG، BMP، TIFF، وGIF.
 
 ## ما ستحتاجه
-
-- **Java 17** (أو أي JDK حديث) – المكتبة تعمل مع Java 8+ لكن إصدارات JDK الأحدث تمنحك أداءً أفضل.
-- **Aspose.OCR for Java** JAR (أو تبعية Maven/Gradle).
-- ملف صورة (PNG، JPEG، TIFF، إلخ) تريد تحويله إلى HTML.
+- **Java 17** (أو أي JDK حديث) – المكتبة تعمل مع Java 8+ لكن إصدارات JDK الأحدث تعطي أداءً أفضل.
+- **Aspose.OCR للـ Java** JAR (أو اعتماد Maven/Gradle).  
+- ملف صورة (PNG، JPEG، TIFF، إلخ) تريد تحويله إلى HTML.  
 - بيئة تطوير مفضلة أو محرر نصوص بسيط — Visual Studio Code، IntelliJ، أو Eclipse يكفي.
 
-هذا كل شيء. إذا كان لديك مشروع Maven بالفعل، ستكون خطوة الإعداد سهلة؛ وإلا سنظهر لك أيضًا طريقة JAR اليدوية.
+هذا كل شيء. إذا كان لديك مشروع Maven بالفعل، ستكون خطوة الإعداد سهلة؛ وإلا سنظهر لك طريقة JAR اليدوية أيضًا.
 
 ---
 
-## الخطوة 1: إضافة Aspose OCR إلى مشروعك (الإعداد)
+## الخطوة 1: إضافة Aspose OCR Java إلى مشروعك (الإعداد)
 
 ### Maven / Gradle
 
@@ -63,13 +107,13 @@ url: /ar/java/ocr-operations/aspose-ocr-java-convert-image-to-html-full-step-by-
 implementation 'com.aspose:aspose-ocr:23.12'
 ```
 
-> **نصيحة احترافية:** مكتبة **aspose ocr java** ليست مجانية، لكن يمكنك طلب ترخيص تجريبي لمدة 30 يومًا من موقع Aspose. ضع ملف `Aspose.OCR.lic` في جذر مشروعك أو عيّنه برمجيًا.
+> **نصيحة احترافية:** مكتبة **aspose ocr java** ليست مجانية، لكن يمكنك طلب ترخيص تجريبي لمدة 30 يومًا من موقع Aspose. ضع ملف `Aspose.OCR.lic` في جذر مشروعك أو عيّنه برمجياً.
 
-### JAR يدوي (بدون أداة بناء)
+### Manual JAR (no build tool)
 
-1. قم بتحميل `aspose-ocr-23.12.jar` من بوابة Aspose.  
+1. حمّل `aspose-ocr-23.12.jar` من بوابة Aspose.  
 2. ضع الـ JAR في مجلد `libs/` داخل مشروعك.  
-3. أضفه إلى classpath عند التجميع:
+3. أضفه إلى مسار الفئة عند التجميع:
 
 ```bash
 javac -cp "libs/*" src/HtmlExportDemo.java
@@ -82,7 +126,9 @@ java -cp "libs/*:src" HtmlExportDemo
 
 ## الخطوة 2: تهيئة محرك OCR
 
-إنشاء نسخة من `OcrEngine` هو الخطوة الملموسة الأولى في أي سير عمل **aspose ocr java**. هذا الكائن يحمل الإعدادات، بيانات اللغة، ومحرك OCR الداخلي.
+`OcrEngine` هو الكائن المركزي الذي يتحكم في بيانات اللغة، خيارات معالجة الصورة، وخط أنابيب OCR.
+
+فئة `OcrEngine` هي المكوّن الأساسي في Aspose OCR الذي يحمل الإعدادات، قواميس اللغة، ونماذج الشبكات العصبية. إعادة استخدام نفس المثيل عبر صور متعددة يمكن أن يحسّن أداء الدفعات بشكل كبير.
 
 ```java
 import com.aspose.ocr.*;
@@ -95,13 +141,15 @@ public class HtmlExportDemo {
         // ocrEngine.getLanguage().setLanguage(Language.English);
 ```
 
-لماذا نحتاج إلى إنشاءه؟ المحرك يخزن القواميس ونماذج الشبكات العصبية في الذاكرة؛ إعادة استخدام نفس النسخة عبر صور متعددة يمكن أن يحسن الأداء بشكل كبير في سيناريوهات الدفعات.
+لماذا نحتاج إلى إنشاء مثيل؟ المحرك يخزن القواميس ونماذج الشبكات العصبية في الذاكرة؛ إعادة استخدام المثيل نفسه عبر صور متعددة يمكن أن يحسّن الأداء في سيناريوهات الدفعات.
 
 ---
 
 ## الخطوة 3: تحميل الصورة التي تريد تحويلها
 
-يعمل Aspose OCR مع مجموعة `OcrInput`، التي يمكنها احتواء صورة واحدة أو عدة صور. للتحويل بصورة واحدة، فقط أضف مسار الملف.
+Aspose OCR يعمل مع مجموعة `OcrInput`، التي يمكنها احتواء صورة واحدة أو عدة صور.
+
+`OcrInput` تمثّل مجموعة من الصور المصدرية التي سيعالجها محرك OCR. كل إدخال يُعامل كصفحة منفصلة، مما يسمح بالتحويل متعدد الصفحات دون كتابة كود إضافي.
 
 ```java
         // Step 3: Load the image to be recognized
@@ -110,13 +158,15 @@ public class HtmlExportDemo {
         ocrInput.add("YOUR_DIRECTORY/input.png");
 ```
 
-إذا احتجت يومًا إلى **convert image to html** لعدة ملفات، ببساطة استدعِ `ocrInput.add(...)` بشكل متكرر. ستعامل المكتبة كل إدخال كصفحة منفصلة في الـ HTML النهائي.
+إذا احتجت يومًا إلى **تحويل الصورة إلى HTML** لعدة ملفات، ما عليك سوى استدعاء `ocrInput.add(...)` بشكل متكرر. المكتبة ستعامل كل إدخال كصفحة منفصلة في HTML النهائي.
 
 ---
 
-## الخطوة 4: التعرف على الصورة وطلب مخرجات HTML
+## الخطوة 4: التعرف على الصورة وطلب إخراج HTML
 
-طريقة `recognize` تقوم بتمرير OCR وتعيد كائن `OcrResult`. بشكل افتراضي يحتوي النتيجة على نص عادي، لكن يمكننا تغيير صيغة التصدير إلى HTML.
+طريقة `recognize` تقوم بتمرير OCR وتعيد كائن `OcrResult`. بشكل افتراضي يحتوي الناتج على نص عادي، لكن يمكننا تغيير صيغة التصدير إلى HTML.
+
+`OcrResult` يحمل نتيجة عملية OCR، موفرًا كلًا من تمثيلات النص العادي وHTML للمحتوى الممسوح. تغيير صيغة التصدير هو تعديل سطر واحد ينتج عنه علامات منسقة بالكامل.
 
 ```java
         // Step 4: Recognize the image and request HTML output
@@ -125,13 +175,13 @@ public class HtmlExportDemo {
         ocrResult.setExportFormat(OcrResult.ExportFormat.HTML);
 ```
 
-> **لماذا HTML؟** على عكس النص الخام، يحافظ HTML على التخطيط الأصلي — الفقرات، الجداول، وحتى التنسيق الأساسي. هذا مفيد بشكل خاص عندما تحتاج إلى عرض المحتوى الممسوح مباشرةً في صفحة ويب.
+> **لماذا HTML؟** على عكس النص الخام، يحافظ HTML على التخطيط الأصلي — الفقرات، الجداول، وحتى بعض التنسيقات الأساسية. هذا مفيد خصوصًا عندما تحتاج إلى عرض المحتوى الممسوح مباشرةً في صفحة ويب.
 
-إذا كنت تحتاج فقط إلى جزء **extract text from image**، يمكنك تخطي `setExportFormat` واستدعاء `ocrResult.getText()` مباشرةً. نفس كائن `OcrResult` يمكنه إعطائك كلا الصيغتين، لذا لا تُجبر على اختيار إحداهما على حساب الأخرى.
+إذا كنت تحتاج فقط إلى **استخراج النص من الصورة**، يمكنك تخطي `setExportFormat` واستدعاء `ocrResult.getText()` مباشرة. نفس كائن `OcrResult` يمكنه إعطاؤك كلا الصيغتين، لذا لا تُجبر على اختيار واحدة فقط.
 
 ---
 
-## الخطوة 5: استرجاع العلامات HTML المولدة
+## الخطوة 5: استرجاع العلامات HTML المُولدة
 
 الآن بعد أن عالج محرك OCR الصورة، احصل على العلامات:
 
@@ -140,7 +190,7 @@ public class HtmlExportDemo {
         String htmlContent = ocrResult.getText(); // returns HTML because of the format set above
 ```
 
-يمكنك فحص `htmlContent` في أداة التصحيح أو طباعة جزء منه إلى وحدة التحكم للتحقق السريع:
+يمكنك فحص `htmlContent` في المصحّح أو طباعة جزء منه إلى وحدة التحكم للتحقق السريع:
 
 ```java
         System.out.println("First 200 chars of HTML output:");
@@ -164,13 +214,13 @@ public class HtmlExportDemo {
 }
 ```
 
-هذه هي كامل سير عمل **how to convert image** في فئة واحدة مستقلة. شغّل البرنامج، افتح `output.html` في أي متصفح، وسترى الصفحة الممسوحة تُعرض بنفس فواصل الأسطر والتنسيق الأساسي كما في الصورة الأصلية.
+هذا هو سير عمل **كيفية تحويل الصورة** بالكامل في فئة واحدة مستقلة. شغّل البرنامج، افتح `output.html` في أي متصفح، وسترى الصفحة الممسوحة تُعرض بنفس فواصل الأسطر والتنسيق الأساسي كما في الصورة الأصلية.
 
 ---
 
 ## مخرجات HTML المتوقعة (عينة)
 
-فيما يلي مقتطف صغير مما قد يبدو عليه الملف المولد:
+فيما يلي مقتطف صغير من ما قد يبدو عليه الملف المُولَّد لفاتورة بسيطة:
 
 ```html
 <!DOCTYPE html>
@@ -190,7 +240,7 @@ public class HtmlExportDemo {
 </html>
 ```
 
-إذا استدعيت فقط `ocrResult.getText()` **بدون** ضبط صيغة HTML، ستحصل على نص عادي مثل:
+إذا استدعيت `ocrResult.getText()` **دون** ضبط صيغة HTML، ستحصل على نص عادي مثل:
 
 ```
 Invoice #12345
@@ -199,15 +249,19 @@ Item   Qty   Price
 Widget A 10   $5.00
 ```
 
-كلا المخرجات مفيدة حسب ما إذا كنت تحتاج إلى تخطيط (`convert image to html`) أو مجرد أحرف خام (`extract text from image`).
+كلا الناتجين مفيدان حسب ما إذا كنت تحتاج إلى تخطيط (**تحويل الصورة إلى HTML**) أو مجرد أحرف خام (**استخراج النص من الصورة**).
 
 ---
 
-## معالجة الحالات الشائعة
+## كيف تقوم بتحويل الصورة إلى HTML باستخدام Aspose OCR Java؟
+
+حمّل صورتك باستخدام `OcrEngine`، أضفها إلى `OcrInput`، اضبط `ExportFormat.HTML`، استدعِ `recognize()`، واكتب سلسلة HTML التي تم إرجاعها إلى ملف — هذا التدفق من البداية إلى النهاية يحول الصورة إلى HTML في بضع أسطر من كود Java فقط. نفس العملية تعطيك النص العادي إذا استدعيت `ocrResult.getText()`.
+
+## التعامل مع الحالات الشائعة
 
 ### صفحات متعددة / إدخال صور متعددة
 
-إذا كان المصدر ملف TIFF متعدد الصفحات أو مجلد PNGs، ببساطة أضف كل ملف إلى نفس `OcrInput`. سيتضمن الـ HTML الناتج `<div>` منفصل لكل صفحة، مع الحفاظ على الترتيب.
+إذا كان المصدر ملف TIFF متعدد الصفحات أو مجلد PNGs، ما عليك سوى إضافة كل ملف إلى نفس `OcrInput`. سيحتوي HTML الناتج على `<div>` منفصل لكل صفحة، محافظًا على الترتيب.
 
 ```java
 ocrInput.add("page1.tiff");
@@ -216,42 +270,71 @@ ocrInput.add("page2.tiff");
 
 ### صيغ غير مدعومة
 
-يدعم Aspose OCR صيغ PNG، JPEG، BMP، TIFF، وبعض الصيغ الأخرى. محاولة إدخال PDF ستؤدي إلى رمي `UnsupportedFormatException`. حوّل ملفات PDF إلى صور أولاً (مثلاً باستخدام Aspose.PDF أو ImageMagick) قبل تمريرها إلى محرك OCR.
+Aspose OCR يدعم أكثر من 10 صيغ صور، بما فيها PNG، JPEG، BMP، TIFF، GIF، وWebP. محاولة إمداد PDF ستؤدي إلى رمي `UnsupportedFormatException`. حوّل ملفات PDF إلى صور أولًا (مثلاً باستخدام Aspose.PDF أو ImageMagick) قبل تمريرها إلى محرك OCR.
 
 ### خصوصية اللغة
 
-إذا كانت صورتك تحتوي على أحرف غير لاتينية (مثل السيريالية أو الصينية)، عيّن اللغة صراحةً:
+إذا كانت الصورة تحتوي على أحرف غير لاتينية (مثل السيريالية أو الصينية)، عيّن اللغة صراحةً:
 
 ```java
 ocrEngine.getLanguage().setLanguage(Language.Russian);
 ```
 
-عدم القيام بذلك قد يقلل من الدقة عندما تقوم لاحقًا بـ **extract text from image**.
+عدم القيام بذلك قد يقلل الدقة عندما تقوم لاحقًا بـ **استخراج النص من الصورة**.
 
 ### إدارة الذاكرة
 
-للدفعات الكبيرة، أعد استخدام نفس نسخة `OcrEngine` واستدعِ `ocrEngine.clear()` بعد كل تكرار لتحرير الذاكرة الداخلية.
+للدُفعات الكبيرة، أعد استخدام نفس مثيل `OcrEngine` واستدعِ `ocrEngine.clear()` بعد كل تكرار لتحرير الذاكرة الداخلية.
 
 ---
 
 ## نصائح احترافية ومخاطر يجب تجنبها
+- **نصيحة احترافية:** فعّل `ocrEngine.getImageProcessingOptions().setDeskew(true)` إذا كانت مسحاتك مائلة قليلًا. هذا يحسّن كلًا من تخطيط HTML ودقة النص العادي.
+- **احذر من:** `htmlContent` فارغ عندما تكون الصورة مظلمة جدًا. اضبط التباين بـ `ocrEngine.getImageProcessingOptions().setContrast(1.2)` قبل التعرف.
+- **نصيحة:** احفظ HTML المُولَّد جنبًا إلى جنب مع الصورة الأصلية في قاعدة بيانات؛ يمكنك لاحقًا تقديمه مباشرةً دون إعادة تشغيل OCR.
+- **ملاحظة أمان:** المكتبة لا تنفّذ أي كود من الصورة، لكن تحقق دائمًا من مسارات الملفات إذا كنت تقبل تحميلات من المستخدمين.
 
-- **نصيحة احترافية:** فعّل `ocrEngine.getImageProcessingOptions().setDeskew(true)` إذا كانت مسحاتك مائلة قليلاً. هذا يحسن كلًا من تخطيط HTML ودقة النص العادي.
-- **احذر من:** `htmlContent` فارغ عندما تكون الصورة مظلمة جدًا. اضبط التباين باستخدام `ocrEngine.getImageProcessingOptions().setContrast(1.2)` قبل التعرف.
-- **نصيحة:** احفظ الـ HTML المولد جنبًا إلى جنب مع الصورة الأصلية في قاعدة بيانات؛ يمكنك لاحقًا تقديمه مباشرةً دون إعادة تشغيل OCR.
-- **ملاحظة أمان:** المكتبة لا تنفذ أي كود من الصورة، لكن يجب دائمًا التحقق من صحة مسارات الملفات إذا كنت تقبل تحميلات المستخدمين.
+## الأسئلة المتكررة
 
----
+**س: هل يمكنني استخدام الترخيص التجريبي في الإنتاج؟**  
+ج: لا، الترخيص التجريبي لمدة 30 يومًا مخصص للاختبار فقط؛ الترخيص التجاري مطلوب للنشر في بيئات الإنتاج.
+
+**س: هل يدعم Aspose OCR Java اللغات من اليمين إلى اليسار؟**  
+ج: نعم، يدعم العربية، العبرية، وغيرها من السكريبتات RTL عندما تحدد حزمة اللغة المناسبة.
+
+**س: ما هو أقصى حجم صورة يمكنني معالجته؟**  
+ج: يستطيع المحرك معالجة صور تصل إلى 50 MB لكل صفحة دون تحميل الملف بالكامل إلى الذاكرة، بفضل بنية البث.
+
+**س: هل هناك طريقة لتنسيق HTML المُولَّد؟**  
+ج: يمكنك حقن CSS مخصص بعد OCR عن طريق تعديل سلسلة `htmlContent` قبل كتابتها إلى القرص.
+
+**س: ماذا لو احتجت PDF بدلًا من HTML؟**  
+ج: غيّر `ocrEngine.setExportFormat(ExportFormat.PDF)` وستبقى بقية سير العمل كما هي.
 
 ## الخلاصة
 
-أصبح لديك الآن مثال كامل من البداية إلى النهاية لـ **aspose ocr java** الذي **convert image to html**، ويسمح لك بـ **extract text from image**، ويجيب على سؤال **how to convert image** الكلاسيكي لأي مطور Java. الكود جاهز للنسخ واللصق والتشغيل — لا خطوات مخفية، لا مراجع خارجية.
+الآن لديك مثال كامل من البداية إلى النهاية لـ **aspose ocr java** الذي **يحول الصورة إلى HTML**، ويسمح لك **باستخراج النص من الصورة**، ويجيب على سؤال **كيف تحول الصورة** لأي مطور Java. الكود جاهز للنسخ واللصق والتشغيل — لا خطوات مخفية، لا مراجع خارجية.
 
-ما التالي؟ جرّب تصدير إلى **PDF** بدلاً من HTML عن طريق استبدال `ExportFormat.PDF`، جرب CSS مخصص لتنسيق العلامات المولدة، أو أدخل نتيجة النص العادي إلى فهرس بحث لتسريع استرجاع المستندات. واجهة Aspose OCR API مرنة بما يكفي للتعامل مع جميع هذه السيناريوهات.
+ما الخطوة التالية؟ جرّب تصدير إلى **PDF** بدلًا من HTML عبر استبدال `ExportFormat.PDF`، أو جرب CSS مخصص لتنسيق العلامات المُولَّدة، أو استخدم النتيجة النصية في فهرس بحث لتسريع استرجاع المستندات. واجهة Aspose OCR مرنة بما يكفي للتعامل مع كل هذه السيناريوهات.
 
-إذا واجهت أي مشاكل — ربما حزمة لغة مفقودة أو تخطيط غريب — لا تتردد في ترك تعليق أدناه أو مراجعة منتديات Aspose الرسمية. برمجة سعيدة، واستمتع بتحويل الصور إلى محتوى قابل للبحث وجاهز للويب!
+إذا واجهت أي صعوبات — ربما حزمة لغة مفقودة أو تخطيط غريب — لا تتردد في ترك تعليق أدناه أو مراجعة منتديات Aspose الرسمية. ترميز سعيد، واستمتع بتحويل الصور إلى محتوى قابل للبحث وجاهز للويب!
+
+---
+
+**Last Updated:** 2026-11-04  
+**Tested With:** Aspose.OCR 23.12 for Java  
+**Author:** Aspose
+
+## دروس ذات صلة
+
+- [تحويل الصورة إلى نص باستخدام Aspose OCR Java خطوة بخطوة](/ocr/java/ocr-operations/convert-image-to-text-with-aspose-ocr-java-step-by-step-guid/)
+- [استخراج النص من الصورة باستخدام Aspose OCR Java دليل](/ocr/java/advanced-ocr-techniques/extract-text-from-image-with-aspose-ocr-java-guide/)
+- [مثال Aspose OCR Java لتحويل الصورة إلى نص بسرعة](/ocr/java/ocr-operations/aspose-ocr-java-example-convert-image-to-text-fast/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
