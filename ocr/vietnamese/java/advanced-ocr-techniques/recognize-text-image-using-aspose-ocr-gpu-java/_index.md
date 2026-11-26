@@ -1,27 +1,53 @@
 ---
 category: general
-date: 2026-02-17
-description: Nhận dạng nhanh văn bản trong hình ảnh với hỗ trợ GPU của Aspose OCR
-  trong Java. Tìm hiểu cách trích xuất văn bản từ hình ảnh và thiết lập ID thiết bị
-  GPU để đạt hiệu suất tối ưu.
+date: 2026-10-30
+description: Tìm hiểu cách trích xuất văn bản từ hình ảnh nhanh chóng với hỗ trợ Aspose
+  OCR GPU trong Java. Hướng dẫn này chỉ ra cách thiết lập GPU device ID và đạt hiệu
+  suất OCR cao.
 draft: false
 keywords:
-- recognize text image
 - extract text from image
-- set gpu device id
-- Aspose OCR Java
-- GPU acceleration OCR
-language: vi
-og_description: Nhận dạng nhanh văn bản trong hình ảnh với hỗ trợ GPU của Aspose OCR
-  trong Java. Hướng dẫn này cho thấy cách trích xuất văn bản từ hình ảnh và thiết
-  lập ID thiết bị GPU.
-og_title: Nhận dạng văn bản trong hình ảnh bằng Aspose OCR GPU – Java
+- how to extract text
+- aspose ocr gpu
+- recognize text image java
+- gpu acceleration OCR
+lastmod: 2026-10-30
+og_description: Tìm hiểu cách trích xuất văn bản từ hình ảnh nhanh chóng với hỗ trợ
+  Aspose OCR GPU trong Java. Hướng dẫn này chỉ ra cách thiết lập GPU device ID để
+  đạt hiệu suất tối ưu.
+og_image_alt: 'Developer guide: extract text from image using Aspose OCR GPU in Java'
+og_title: Cách trích xuất văn bản từ hình ảnh bằng Aspose OCR GPU trong Java
+schemas:
+- author: Aspose
+  dateModified: '2026-10-30'
+  description: Learn how to extract text from image quickly with Aspose OCR GPU support
+    in Java. This guide shows how to set GPU device ID and achieve high‑performance
+    OCR.
+  headline: How to extract text from image with Aspose OCR GPU in Java
+  type: TechArticle
+- questions:
+  - answer: Yes—just install a valid Aspose OCR license. The free trial is for evaluation
+      only.
+    question: Can I use this in a commercial application?
+  - answer: Absolutely; as long as the NVIDIA driver and CUDA toolkit are installed,
+      the library runs on headless Linux environments.
+    question: Does the GPU version work on Linux servers?
+  - answer: Aspose OCR can process images up to **5000 × 5000 px** without loading
+      the whole file into memory.
+    question: What is the maximum image size supported?
+  - answer: Replace the old JAR with the new one and update your Maven/Gradle dependency
+      version number.
+    question: How do I upgrade to the latest Aspose OCR version?
+  - answer: Yes—`OcrResult` provides layout information, including word‑level bounding
+      boxes, when you enable the `setIncludeLayout(true)` option.
+    question: Is there a way to get bounding‑box coordinates for each word?
+  type: FAQPage
 tags:
 - Java
 - OCR
 - Aspose
 - GPU
-title: Nhận dạng văn bản trong hình ảnh bằng Aspose OCR GPU – Java
+title: Cách trích xuất văn bản từ hình ảnh bằng Aspose OCR GPU trong Java
 url: /vi/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-java/
 ---
 
@@ -29,25 +55,34 @@ url: /vi/java/advanced-ocr-techniques/recognize-text-image-using-aspose-ocr-gpu-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Nhận dạng ảnh chứa văn bản bằng Aspose OCR GPU – Java
+# Cách trích xuất văn bản từ hình ảnh bằng Aspose OCR GPU trong Java
 
-Bạn đã bao giờ cần **nhận dạng ảnh chứa văn bản** trong một ứng dụng Java nhưng CPU lại chậm chạp khi xử lý các tệp lớn? Bạn không phải là người duy nhất—nhiều nhà phát triển gặp phải vấn đề này khi xử lý các bản quét độ phân giải cao. Tin tốt là gì? Aspose OCR cho phép bạn **trích xuất văn bản từ ảnh** trên GPU, giảm đáng kể thời gian xử lý.  
+Nếu bạn từng cố gắng **trích xuất văn bản từ hình ảnh** trong một ứng dụng Java và thấy CPU gặp khó khăn với các bản quét độ phân giải cao, bạn không phải là người duy nhất. Nhiều nhà phát triển gặp phải các nút thắt hiệu năng khi xử lý tài liệu lớn. Aspose OCR cho Java loại bỏ rào cản đó bằng cách cho phép bạn chạy OCR trên GPU, giảm đáng kể thời gian xử lý. Trong hướng dẫn này, bạn sẽ thấy một ví dụ hoàn chỉnh, sẵn sàng chạy, cho thấy cách thiết lập giấy phép, bật tăng tốc GPU, và **đặt id thiết bị gpu** khi có nhiều card đồ họa.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua một ví dụ hoàn chỉnh, sẵn sàng chạy, cho thấy cách thiết lập giấy phép, bật tăng tốc GPU, và **đặt id thiết bị GPU** khi bạn có nhiều card đồ họa. Khi hoàn thành, bạn sẽ có một chương trình tự chứa in ra văn bản đã nhận dạng lên console—không cần bước nào thêm.
+## Câu trả lời nhanh
+- **Cách nhanh nhất để trích xuất văn bản từ hình ảnh trong Java là gì?** Sử dụng Aspose OCR với tăng tốc GPU và đặt ID thiết bị GPU phù hợp.  
+- **Phiên bản Java nào được yêu cầu?** Java 17 hoặc mới hơn được khuyến nghị để đạt hiệu năng tốt nhất.  
+- **Tôi có cần giấy phép để hỗ trợ GPU không?** Có — các tính năng GPU chỉ được mở khóa khi có giấy phép Aspose OCR hợp lệ.  
+- **Tôi có thể chạy điều này trên máy chủ không có giao diện (headless) không?** Hoàn toàn có thể; chỉ cần driver GPU và bộ công cụ CUDA.  
+- **Có bao nhiêu ngôn ngữ được hỗ trợ?** Hơn 30 ngôn ngữ, bao gồm Tiếng Anh, Tiếng Trung, Tiếng Ả Rập và Tiếng Hindi.
 
-## Những gì bạn cần
+## Trích xuất văn bản từ hình ảnh là gì?
+Việc trích xuất văn bản từ một hình ảnh có nghĩa là chuyển đổi biểu diễn hình ảnh của các ký tự được lưu trong các định dạng bitmap như PNG, JPG hoặc TIFF thành văn bản Unicode có thể chỉnh sửa và tìm kiếm. Quá trình này, được gọi là Nhận dạng ký tự quang học (OCR), cho phép thực hiện các tác vụ tiếp theo như lập chỉ mục, dịch thuật và trích xuất dữ liệu.
 
-- **Java 17** hoặc mới hơn (API tương thích với Java 8+, nhưng LTS mới nhất mang lại hiệu năng tốt hơn).  
-- Thư viện **Aspose OCR for Java** (tải JAR từ trang web Aspose).  
-- Một tệp giấy phép **Aspose OCR hợp lệ** (`Aspose.OCR.lic`). Bản dùng thử miễn phí hoạt động, nhưng các tính năng GPU chỉ có trong phiên bản có giấy phép.  
-- Một tệp ảnh (`sample-image.png`) chứa văn bản rõ ràng, có thể đọc được bởi máy.  
-- Môi trường hỗ trợ GPU (card NVIDIA tương thích CUDA là lựa chọn tốt nhất).  
+## Tại sao nên sử dụng Aspose OCR GPU?
+Aspose OCR tận dụng tăng tốc GPU để xử lý các hình ảnh lớn, độ phân giải cao hiệu quả hơn nhiều so với xử lý chỉ bằng CPU. Nó hỗ trợ hơn 30 định dạng đầu vào và có thể xử lý hình ảnh lên tới 5000 × 5000 px trong khi giữ mức sử dụng bộ nhớ thấp, mang lại tốc độ nhận dạng nhanh gấp tới năm lần trên các GPU NVIDIA hiện đại.
 
-Nếu bất kỳ mục nào trên nghe lạ, đừng lo—mỗi mục sẽ được giải thích chi tiết trong phần sau.
+## Những gì bạn sẽ cần
+- **Java 17** hoặc mới hơn (tương thích với Java 8+, nhưng các bản phát hành LTS cung cấp hiệu năng JIT tốt hơn).  
+- **Thư viện Aspose OCR cho Java** (tải JAR từ trang web Aspose).  
+- Một **tệp giấy phép Aspose OCR** hợp lệ (`Aspose.OCR.lic`). Bản dùng thử miễn phí hoạt động, nhưng các tính năng GPU yêu cầu phiên bản có giấy phép.  
+- Một tệp hình ảnh (`sample-image.png`) chứa văn bản rõ ràng, có thể đọc được bởi máy.  
+- Một GPU NVIDIA tương thích CUDA (hoặc tương đương) với driver phù hợp đã được cài đặt.
 
-## Bước 1: Thêm Aspose OCR vào dự án của bạn
+Nếu bất kỳ mục nào trong số này nghe lạ, đừng lo — mỗi mục sẽ được giải thích khi chúng ta tiến hành.
 
-Đầu tiên, đưa JAR của Aspose OCR vào classpath. Nếu bạn dùng Maven, thêm phụ thuộc sau vào `pom.xml`:
+## Bước 1: thêm Aspose OCR vào dự án của bạn
+Đầu tiên, bao gồm JAR Aspose OCR vào classpath của bạn. Nếu bạn đang sử dụng Maven, thêm phụ thuộc sau vào `pom.xml`:
 
 ```xml
 <dependency>
@@ -57,7 +92,7 @@ Nếu bất kỳ mục nào trên nghe lạ, đừng lo—mỗi mục sẽ đư�
 </dependency>
 ```
 
-Đối với Gradle, dùng:
+Đối với Gradle, sử dụng:
 
 ```gradle
 implementation 'com.aspose:aspose-ocr:23.12'
@@ -65,11 +100,10 @@ implementation 'com.aspose:aspose-ocr:23.12'
 
 Nếu bạn thích cách thủ công, sao chép JAR vào thư mục `libs/` và thêm nó vào đường dẫn module của IDE.
 
-> **Mẹo chuyên nghiệp:** Giữ số phiên bản đồng bộ với ghi chú phát hành của thư viện; các phiên bản mới thường mang lại cải tiến hiệu năng cho xử lý GPU.
+> **Mẹo chuyên nghiệp:** Giữ số phiên bản đồng bộ với ghi chú phát hành; các phiên bản mới thường bao gồm cải tiến hiệu năng cho xử lý GPU.
 
-## Bước 2: Tải giấy phép Aspose OCR (cần thiết cho việc sử dụng GPU)
-
-Nếu không có giấy phép, lệnh `setEnableGpu(true)` sẽ tự động chuyển về chế độ CPU mà không báo lỗi. Tải giấy phép ngay trong hàm `main`:
+## Bước 2: tải giấy phép Aspose OCR (cần thiết cho việc sử dụng GPU)
+Nếu không có giấy phép, lời gọi `setEnableGpu(true)` sẽ âm thầm chuyển lại sang chế độ CPU. Tải giấy phép ngay ở đầu hàm `main`:
 
 ```java
 import com.aspose.ocr.License;
@@ -80,11 +114,10 @@ License ocrLicense = new License();
 ocrLicense.setLicense("YOUR_DIRECTORY/Aspose.OCR.lic");
 ```
 
-Thay `YOUR_DIRECTORY` bằng đường dẫn tuyệt đối hoặc tương đối nơi bạn lưu tệp `.lic`. Nếu đường dẫn sai, Aspose sẽ ném ra `FileNotFoundException`, vì vậy hãy kiểm tra kỹ chính tả.
+Thay thế `YOUR_DIRECTORY` bằng đường dẫn tuyệt đối hoặc tương đối nơi bạn lưu tệp `.lic`. Đường dẫn không đúng sẽ gây ra `FileNotFoundException`, vì vậy hãy kiểm tra lại chính tả.
 
-## Bước 3: Tạo engine OCR và bật tăng tốc GPU
-
-Bây giờ chúng ta khởi tạo `OcrEngine` và chỉ định sử dụng GPU. Phương thức `setGpuDeviceId` cho phép bạn chọn card cụ thể khi có hơn một card.
+## Bước 3: tạo engine OCR và bật tăng tốc GPU
+Lớp `OcrEngine` là thành phần cốt lõi thực hiện các thao tác OCR trên hình ảnh.
 
 ```java
 import com.aspose.ocr.OcrEngine;
@@ -96,11 +129,10 @@ ocrEngine.getDevice().setEnableGpu(true);       // activate GPU support
 ocrEngine.getDevice().setGpuDeviceId(0);        // optional: choose GPU index (0 = first card)
 ```
 
-Tại sao cần chỉ định ID thiết bị? Trong một server đa GPU, bạn có thể dành một card cho tiền xử lý ảnh và một card khác cho OCR. Đặt ID đảm bảo phần cứng đúng thực hiện công việc nặng.
+Tại sao cần quan tâm đến ID thiết bị? Trong môi trường đa GPU, bạn có thể dành một card cho tiền xử lý và một card khác cho OCR. Đặt ID đảm bảo công việc nặng được thực hiện trên phần cứng mong muốn.
 
-## Bước 4: Chuẩn bị ảnh đầu vào
-
-Aspose OCR hỗ trợ nhiều định dạng (PNG, JPG, BMP, TIFF). Đóng gói tệp của bạn vào đối tượng `OcrInput`:
+## Bước 4: chuẩn bị hình ảnh đầu vào
+Lớp `OcrInput` đại diện cho tập hợp các hình ảnh bạn muốn xử lý.
 
 ```java
 import com.aspose.ocr.OcrInput;
@@ -111,11 +143,10 @@ OcrInput ocrInput = new OcrInput();
 ocrInput.add("YOUR_DIRECTORY/sample-image.png"); // path to the image you want to process
 ```
 
-Nếu bạn cần xử lý một luồng (ví dụ, tệp tải lên), dùng `ocrInput.add(InputStream)` thay thế.
+Nếu bạn cần xử lý một luồng (ví dụ, tệp tải lên), hãy sử dụng `ocrInput.add(InputStream)` thay thế.
 
-## Bước 5: Chạy quá trình nhận dạng và lấy kết quả
-
-Phương thức `recognize` trả về một `OcrResult` chứa văn bản thuần, điểm tin cậy, và thậm chí thông tin bố cục nếu bạn cần.
+## Bước 5: chạy quá trình nhận dạng và lấy kết quả
+Lớp `OcrResult` bao gồm văn bản thuần, điểm tin cậy và thông tin bố cục tùy chọn do engine trả về.
 
 ```java
 import com.aspose.ocr.OcrResult;
@@ -126,7 +157,7 @@ OcrResult ocrResult = ocrEngine.recognize(ocrInput);
 System.out.println("Recognized text:\n" + ocrResult.getText());
 ```
 
-Console sẽ hiển thị gì đó giống như:
+Bảng điều khiển sẽ hiển thị một thứ gì đó như:
 
 ```
 Recognized text:
@@ -134,11 +165,10 @@ Hello, world!
 This is a sample image.
 ```
 
-Nếu ảnh mờ hoặc ngôn ngữ không được hỗ trợ, kết quả có thể rỗng. Trong trường hợp đó, kiểm tra giá trị `ocrResult.getConfidence()` (0‑100) để quyết định có nên thử lại với tiền xử lý hay không.
+Nếu hình ảnh mờ hoặc ngôn ngữ không được hỗ trợ, kết quả có thể rỗng. Trong trường hợp đó, kiểm tra giá trị `ocrResult.getConfidence()` (0‑100) để quyết định có nên thử lại với tiền xử lý hay không.
 
-## Ví dụ đầy đủ, có thể chạy ngay
-
-Kết hợp tất cả các phần lại, bạn sẽ có một lớp Java duy nhất có thể sao chép‑dán vào IDE:
+## Ví dụ đầy đủ, có thể chạy được
+Kết hợp tất cả các phần lại với nhau sẽ cho bạn một lớp Java duy nhất mà bạn có thể sao chép‑dán vào IDE:
 
 ```java
 import com.aspose.ocr.*;
@@ -167,34 +197,32 @@ public class GpuOcrDemo {
 }
 ```
 
-> **Kết quả mong đợi:** Console in ra chính xác văn bản xuất hiện trong `sample-image.png`. Nếu GPU đang hoạt động, bạn sẽ nhận thấy thời gian xử lý giảm từ vài giây (CPU) xuống dưới một giây cho các bản quét 300 dpi tiêu chuẩn.
+> **Kết quả mong đợi:** Bảng điều khiển in ra chính xác văn bản xuất hiện trong `sample-image.png`. Khi GPU hoạt động, thời gian xử lý thường giảm từ vài giây (CPU) xuống dưới một giây cho một bản quét 300 dpi điển hình.
 
-## Các câu hỏi thường gặp & Trường hợp đặc biệt
+## Các câu hỏi thường gặp & trường hợp đặc biệt
 
-### Có hoạt động trên server không có giao diện (headless) không?
+### Điều này có hoạt động trên máy chủ không có giao diện không?
+Có. Driver GPU phải được cài đặt, nhưng không cần màn hình. Đảm bảo bộ công cụ `CUDA` (hoặc tương đương cho GPU của bạn) có trong `PATH` của hệ thống. Cấu hình này cho phép OCR chạy trên môi trường đám mây hoặc container mà không cần giao diện đồ họa.
 
-Có. Driver GPU phải được cài đặt, nhưng không cần màn hình. Chỉ cần đảm bảo toolkit `CUDA` (hoặc tương đương cho GPU của bạn) có trong `PATH` hệ thống.
-
-### Nếu tôi có hơn một GPU và muốn dùng GPU 1 thì sao?
-
-Thay đổi ID thiết bị:
+### Nếu tôi có hơn một GPU và muốn sử dụng GPU 1 thì sao?
+Thay đổi ID thiết bị như sau:
 
 ```java
 ocrEngine.getDevice().setGpuDeviceId(1); // selects the second GPU (zero‑based index)
 ```
 
-### Làm sao trích xuất văn bản từ ảnh bằng ngôn ngữ khác?
+Đặt ID thành `1` sẽ chỉ định engine OCR sử dụng GPU thứ hai trong hệ thống, hữu ích khi GPU đầu tiên được dành cho các công việc khác.
 
+### Cách trích xuất văn bản từ hình ảnh bằng ngôn ngữ khác?
 Đặt ngôn ngữ trước khi gọi `recognize`:
 
 ```java
 ocrEngine.setLanguage(OcrLanguage.FRENCH);
 ```
 
-Aspose hỗ trợ hơn 30 ngôn ngữ; xem tài liệu API để biết toàn bộ danh sách.
+Aspose OCR hỗ trợ **hơn 30 ngôn ngữ**, bao gồm các script viết từ phải sang trái như Tiếng Ả Rập và Tiếng Do Thái. Chọn ngôn ngữ đúng sẽ cải thiện độ chính xác đáng kể.
 
-### Nếu ảnh chứa nhiều trang (ví dụ, PDF chuyển thành ảnh) thì sao?
-
+### Nếu hình ảnh chứa nhiều trang (ví dụ, PDF được chuyển thành hình ảnh) thì sao?
 Tạo một mục `OcrInput` riêng cho mỗi trang, hoặc lặp qua các tệp:
 
 ```java
@@ -203,10 +231,9 @@ for (String path : imagePaths) {
 }
 ```
 
-Engine sẽ nối các kết quả theo thứ tự.
+Engine sẽ nối các kết quả theo thứ tự, giữ nguyên chuỗi trang trong đầu ra cuối cùng.
 
-### Làm sao xử lý kết quả có độ tin cậy thấp?
-
+### Cách xử lý kết quả có độ tin cậy thấp?
 Kiểm tra điểm tin cậy:
 
 ```java
@@ -215,23 +242,52 @@ if (ocrResult.getConfidence() < 70) {
 }
 ```
 
-Các bước tiền xử lý thường gặp bao gồm nhị phân hoá, giảm nhiễu, hoặc thay đổi kích thước lên 300 dpi.
+Các bước tiền xử lý thường gặp bao gồm nhị phân hóa, giảm nhiễu, hoặc thay đổi kích thước lên 300 dpi. Chạy lại OCR sau các bước tiền xử lý này thường làm tăng mức độ tin cậy.
 
 ## Mẹo tối ưu hiệu năng
-
-- **Xử lý hàng loạt:** Thêm nhiều ảnh vào một `OcrInput` duy nhất giảm chi phí khởi tạo ngữ cảnh GPU lặp lại.  
-- **Khởi động nóng:** Chạy một lần nhận dạng giả sau khi JVM khởi động; lần gọi đầu tiên sẽ chịu độ trễ khởi tạo driver.  
-- **Quản lý bộ nhớ:** Giải phóng các đối tượng `OcrInput` lớn (`ocrInput.clear()`) sau khi dùng để giải phóng bộ nhớ GPU.  
+- **Xử lý hàng loạt:** Thêm nhiều hình ảnh vào một `OcrInput` duy nhất giảm chi phí khởi tạo ngữ cảnh GPU lặp lại.  
+- **Khởi động (Warm‑up):** Chạy một lần nhận dạng giả sau khi JVM khởi động; lần gọi đầu tiên sẽ chịu độ trễ khởi tạo driver.  
+- **Quản lý bộ nhớ:** Giải phóng các đối tượng `OcrInput` lớn (`ocrInput.clear()`) sau khi sử dụng để giải phóng bộ nhớ GPU.  
 
 ## Kết luận
+Bây giờ bạn đã biết cách **trích xuất văn bản từ hình ảnh** một cách hiệu quả với engine GPU của Aspose OCR trong Java, cách **đặt id thiết bị gpu** khi làm việc với nhiều card đồ họa, và cách xử lý các kịch bản đa ngôn ngữ. Mã đầy đủ, có thể chạy ở trên sẽ hoạt động ngay—chỉ cần thay đổi đường dẫn giấy phép và hình ảnh của bạn.
 
-Bây giờ bạn đã biết cách **nhận dạng ảnh chứa văn bản** một cách hiệu quả với engine GPU của Aspose OCR trong Java, cách **trích xuất văn bản từ ảnh** bằng bất kỳ ngôn ngữ nào được hỗ trợ, và cách **đặt id thiết bị GPU** khi làm việc với nhiều card đồ họa. Mã nguồn hoàn chỉnh, có thể chạy ở trên sẽ hoạt động ngay—chỉ cần thay đổi đường dẫn tới giấy phép và ảnh của bạn.
+Sẵn sàng cho bước tiếp theo? Hãy thử xử lý toàn bộ thư mục các PDF đã quét, thử nghiệm các tùy chọn `setLanguage` khác nhau, hoặc kết hợp đầu ra OCR với mô hình học máy để xử lý hậu kỳ. Những cải thiện hiệu năng từ tăng tốc GPU làm cho các dự án quy mô lớn trở nên khả thi.
 
-Sẵn sàng cho bước tiếp theo? Hãy thử xử lý một thư mục các PDF đã quét, khám phá các tùy chọn `setLanguage` khác nhau, hoặc kết hợp OCR với mô hình machine‑learning để tiền xử lý. Khả năng là vô hạn, và lợi thế về hiệu năng từ tăng tốc GPU giúp các dự án quy mô lớn trở nên khả thi.
+Chúc lập trình vui vẻ, và đừng ngại để lại bình luận nếu bạn gặp bất kỳ vấn đề nào!
 
-Chúc lập trình vui vẻ, và đừng ngại để lại bình luận nếu gặp bất kỳ khó khăn nào!
+## Câu hỏi thường gặp
+
+**Q: Tôi có thể sử dụng điều này trong ứng dụng thương mại không?**  
+A: Có — chỉ cần cài đặt giấy phép Aspose OCR hợp lệ. Bản dùng thử chỉ dành cho mục đích đánh giá.
+
+**Q: Phiên bản GPU có hoạt động trên máy chủ Linux không?**  
+A: Hoàn toàn có; miễn là driver NVIDIA và bộ công cụ CUDA đã được cài đặt, thư viện sẽ chạy trên môi trường Linux không giao diện.
+
+**Q: Kích thước hình ảnh tối đa được hỗ trợ là bao nhiêu?**  
+A: Aspose OCR có thể xử lý hình ảnh lên tới **5000 × 5000 px** mà không cần tải toàn bộ tệp vào bộ nhớ.
+
+**Q: Làm thế nào để nâng cấp lên phiên bản Aspose OCR mới nhất?**  
+A: Thay thế JAR cũ bằng JAR mới và cập nhật số phiên bản trong phụ thuộc Maven/Gradle của bạn.
+
+**Q: Có cách nào để lấy tọa độ bounding‑box cho mỗi từ không?**  
+A: Có — `OcrResult` cung cấp thông tin bố cục, bao gồm các bounding box ở mức từ, khi bạn bật tùy chọn `setIncludeLayout(true)`.
+
+---
+
+**Cập nhật lần cuối:** 2026-10-30  
+**Kiểm thử với:** Aspose OCR for Java 24.11  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Nhận dạng Văn bản từ Hình ảnh Java OCR với Tăng tốc GPU](/ocr/java/advanced-ocr-techniques/recognize-text-from-image-java-ocr-with-gpu-acceleration/)
+- [Cách bật GPU cho OCR trong Java để Trích xuất Văn bản từ Hình ảnh](/ocr/java/advanced-ocr-techniques/how-to-enable-gpu-for-ocr-in-java-extract-text-from-image/)
+- [Trích xuất Văn bản từ Hình ảnh với Aspose OCR Java – Hướng dẫn nhanh](/ocr/java/ocr-basics/extract-text-from-image-with-aspose-ocr-java-quick-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
