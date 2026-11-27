@@ -47,7 +47,10 @@ Leer hoe u met Aspose OCR afbeeldingen omzet naar doorzoekbare PDF's in C# met d
 
 Navigeer door de complexiteit van het herkennen van tabellen in OCR-beeldherkenning met Aspose.OCR voor .NET. Onze uitgebreide gids stelt u in staat het volledige potentieel van Aspose.OCR te benutten, waardoor nauwkeurige en efficiënte tabelherkenning in uw toepassingen wordt gegarandeerd. Verbeter uw projecten met de toonaangevende OCR-oplossing.
 
-## Tutorials voor tekstherkenning
+## Tutorials
+### [How to perform OCR on PNG images with Aspose.OCR in C#](./how-to-perform-ocr-on-png-images-with-aspose-ocr-in-c/)
+
+ voor tekstherkenning
 ### [Hoe PDF OCR'en in C# – Complete gids voor het extraheren van tekst uit PDF's](./how-to-ocr-pdf-in-c-complete-guide-to-extract-text-from-pdfs/)
 Leer stap voor stap hoe u met Aspose.OCR PDF's OCR't in C# en tekst efficiënt uit PDF-bestanden extraheert.
 

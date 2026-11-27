@@ -29,6 +29,9 @@ Aspose.OCR for .NET'in yeteneklerini keşfedin ve görüntülerdeki metin tanım
 
 JSON formatında OCR sonuçlarını zahmetsizce nasıl elde edeceğinizi öğrenerek Aspose.OCR for .NET'in tüm potansiyelini ortaya çıkarın. Bu adım adım kılavuz, görüntü tanıma yeteneklerinizi geliştirmeye yönelik sorunsuz bir yolculuk sağlar. Aspose.OCR'ın güçlü özellikleri ve sektör lideri teknolojisiyle uygulamanızın verimliliğini artırın.
 
+### [How to perform OCR on PNG images with Aspose.OCR in C#](./how-to-perform-ocr-on-png-images-with-aspose-ocr-in-c/)
+
+
 ### [C# ile Aspose kullanarak Görüntüden JSON'a OCR Yapma](./perform-ocr-on-image-to-json-in-c-with-aspose/)
 Aspose OCR ile bir görüntüyü JSON formatında tanıma sonuçlarıyla elde etmeyi adım adım öğrenin.
 ### [Görüntüyü JSON'a Dönüştürme – Aspose OCR ile Tam C# Kılavuzu](./convert-image-to-json-with-aspose-ocr-complete-c-guide/)
