@@ -29,6 +29,9 @@ Aspose.OCR for .NET の機能を探索し、画像内のテキスト認識の処
 
 OCR 結果を JSON 形式で簡単に取得する方法を学び、Aspose.OCR for .NET の可能性を最大限に引き出します。このステップバイステップのガイドにより、画像認識機能の強化に向けてスムーズに進むことができます。 Aspose.OCR の堅牢な機能と業界をリードするテクノロジーにより、アプリケーションの効率を向上させます。
 
+### [How to perform OCR on PNG images with Aspose.OCR in C#](./how-to-perform-ocr-on-png-images-with-aspose-ocr-in-c/)
+
+
 ### [C# OCR チュートリアル – 画像からテキストを抽出し、フォーマットされた JSON を取得](./c-ocr-tutorial-extract-text-from-image-and-get-formatted-jso/)
 Aspose.OCR を使用して C# で画像からテキストを抽出し、フォーマットされた JSON として取得する手順をステップバイステップで解説します。
 

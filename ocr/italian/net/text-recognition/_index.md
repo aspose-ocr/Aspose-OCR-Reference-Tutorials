@@ -43,6 +43,9 @@ Esplora le complessità del riconoscimento delle tabelle nel riconoscimento dell
 
 Pronto a rivoluzionare le tue applicazioni .NET? Immergiti nei nostri tutorial sul riconoscimento del testo e sfrutta la potenza di Aspose.OCR per un riconoscimento del testo accurato ed efficiente nelle immagini. Scaricalo ora e intraprendi un viaggio verso funzionalità OCR avanzate.
 ## Tutorial sul riconoscimento del testo
+### [How to perform OCR on PNG images with Aspose.OCR in C#](./how-to-perform-ocr-on-png-images-with-aspose-ocr-in-c/)
+
+
 ### [Ottieni scelte per i caratteri riconosciuti nel riconoscimento delle immagini OCR](./get-choices-for-recognized-characters/)
 Migliora le tue applicazioni .NET con Aspose.OCR per un riconoscimento accurato dei caratteri. Segui la nostra guida passo passo per recuperare le scelte per i caratteri riconosciuti nel riconoscimento delle immagini.
 ### [Ottieni il risultato del riconoscimento nel riconoscimento immagine OCR](./get-recognition-result/)

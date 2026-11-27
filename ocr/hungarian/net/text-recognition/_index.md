@@ -30,6 +30,9 @@ Fedezze fel az Aspose.OCR for .NET képességeit, és alakítsa át a képek sz�
 Engedje szabadjára az Aspose.OCR for .NET-ben rejlő teljes potenciálját azáltal, hogy megtanulja, hogyan szerezhet könnyedén JSON formátumú OCR-eredményeket. Ez a lépésenkénti útmutató zökkenőmentes utazást tesz lehetővé a képfelismerő képességek fejlesztése felé. Növelje alkalmazása hatékonyságát az Aspose.OCR robusztus funkcióival és iparágvezető technológiájával.
 
 
+### [How to perform OCR on PNG images with Aspose.OCR in C#](./how-to-perform-ocr-on-png-images-with-aspose-ocr-in-c/)
+
+
 ### [How to perform OCR on an image in C# with Aspose.OCR](./how-to-perform-ocr-on-an-image-in-c-with-aspose-ocr/)
 
 
